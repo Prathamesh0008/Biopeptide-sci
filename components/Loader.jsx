@@ -1,10 +1,11 @@
-//peptides\components\Loader.jsx
 export default function Loader() {
   return (
-    <div className="flex flex-col gap-2 items-center justify-center py-10">
-      <div className="animate-pulse w-8 h-1 bg-bioBlue"></div>
-      <div className="animate-pulse w-8 h-1 bg-bioGreen"></div>
-      <div className="animate-pulse w-8 h-1 bg-bioBlue"></div>
+    <div className="fixed inset-0 bg-white/90 flex items-center justify-center z-[9999]">
+      <div className="flex gap-2">
+        <div className="w-2 h-10 bg-bioBlue animate-pulse rounded"></div>
+        <div className="w-2 h-10 bg-bioGreen animate-pulse rounded delay-150"></div>
+        <div className="w-2 h-10 bg-bioBlue animate-pulse rounded delay-300"></div>
+      </div>
     </div>
   );
 }

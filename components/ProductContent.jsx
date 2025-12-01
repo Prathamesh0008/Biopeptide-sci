@@ -5,8 +5,15 @@ import Sidebar from "@/components/Sidebar";
 
 export default function ProductContent({ product }) {
   return (
-    <section className="max-w-7xl mx-auto px-6 mt-24 grid grid-cols-1 lg:grid-cols-4 gap-16">
-
+    <section
+      className="
+      max-w-7xl mx-auto 
+      px-4 sm:px-6 
+      mt-16 sm:mt-24 
+      grid grid-cols-1 lg:grid-cols-4 
+      gap-12 lg:gap-16
+    "
+    >
       {/* LEFT SIDEBAR */}
       <aside className="hidden lg:block">
         <div className="sticky top-24">
@@ -15,68 +22,55 @@ export default function ProductContent({ product }) {
       </aside>
 
       {/* RIGHT CONTENT */}
-      <div className="lg:col-span-3 space-y-20">
-
-        {/* HERO IMAGE — clean, same style as top */}
+      <div className="lg:col-span-3 space-y-16 sm:space-y-20">
+        
+        {/* IMAGE */}
         <div className="flex justify-center">
           <Image
             src="/images/info.jpg"
             width={420}
             height={420}
             alt={product.name}
-            className="object-contain"
+            className="object-contain w-full max-w-[420px]"
           />
         </div>
 
-        {/* ------------------------------
-            OVERVIEW
-        ------------------------------ */}
+        {/* OVERVIEW */}
         <div className="space-y-3">
           <h2 className="text-3xl font-bold text-[#0d2d47]">
             {product.name} – Overview
           </h2>
 
           <p className="text-[15px] leading-relaxed text-gray-700">
-            {product.name} is a high-precision BioPeptide synthesized using 
-            advanced solid-phase peptide synthesis (SPPS). Each batch undergoes 
-            analytical-grade purification including HPLC, MS, and structural 
-            validation to ensure consistency and stability.
+            {product.name} is a high-precision BioPeptide synthesized using
+            solid-phase peptide synthesis (SPPS). Each batch undergoes HPLC,
+            MS, and structural validation to ensure consistency and purity.
             <br /><br />
-            Used across biochemical pathway studies, receptor-binding assays, 
-            regenerative cell modeling, tissue response research, 
-            and peptide–protein interaction experiments.
+            Used in biochemical pathway studies, receptor-binding assays,
+            regenerative cell modeling, and protein–peptide interaction
+            experiments.
           </p>
         </div>
 
-        {/* SECTION DIVIDER */}
-        <div className="h-[1px] bg-[#dbe9f3] w-full"></div>
+        <div className="h-[1px] bg-[#dbe9f3]" />
 
-        {/* ------------------------------
-            MECHANISM OF ACTION
-        ------------------------------ */}
+        {/* MECHANISM */}
         <div className="space-y-3">
           <h2 className="text-2xl font-bold text-[#0d2d47]">Mechanism of Action</h2>
-
           <p className="text-[15px] leading-relaxed text-gray-700">
-            {product.name} interacts with peptide-binding receptors and 
-            intracellular pathways influencing:
+            {product.name} influences:
             <br /><br />
             • Growth factor sensitivity  
             • Regenerative signaling  
-            • Gene expression patterns  
-            • Mitochondrial ATP production  
+            • Gene expression  
+            • ATP mitochondrial production  
             • Enzymatic activation  
-            <br /><br />
-            Its sequence produces reliable receptor-ligand engagement, allowing 
-            high-accuracy pathway observation in vitro.
           </p>
         </div>
 
-        <div className="h-[1px] bg-[#dbe9f3] w-full"></div>
+        <div className="h-[1px] bg-[#dbe9f3]" />
 
-        {/* ------------------------------
-            RESEARCH APPLICATIONS
-        ------------------------------ */}
+        {/* RESEARCH APPLICATIONS */}
         <div className="space-y-3">
           <h2 className="text-2xl font-bold text-[#0d2d47]">Primary Research Applications</h2>
 
@@ -87,79 +81,58 @@ export default function ProductContent({ product }) {
             <li>Mitochondrial metabolic research</li>
             <li>Enzymatic sensitivity experiments</li>
             <li>Matrix remodeling assays</li>
-            <li>Cell stress-response modeling</li>
-            <li>Peptide half-life computation</li>
           </ul>
         </div>
 
-        <div className="h-[1px] bg-[#dbe9f3] w-full"></div>
+        <div className="h-[1px] bg-[#dbe9f3]" />
 
-        {/* ------------------------------
-            SCIENTIFIC BACKGROUND
-        ------------------------------ */}
+        {/* SCIENTIFIC BACKGROUND */}
         <div className="space-y-3">
           <h2 className="text-2xl font-bold text-[#0d2d47]">Scientific Background</h2>
-
           <p className="text-[15px] leading-relaxed text-gray-700">
-            Modern peptide research highlights the role of synthetic analogs in 
-            modulating cellular communication, regenerative cycles, and 
-            metabolic adaptation.  
+            Synthetic peptides modulate cellular communication and metabolic
+            behavior.  
             <br /><br />
-            {product.name} demonstrates:
+            {product.name} delivers:
             <br /><br />
-            • Strong structural stability  
+            • Strong stability  
             • High binding affinity  
             • Predictable degradation  
             • Excellent reproducibility  
-            • Cross-platform assay compatibility  
-            <br /><br />
-            These attributes make it a preferred candidate for molecular 
-            simulation, biochemical modeling, and precision pathway research.
           </p>
         </div>
 
-        <div className="h-[1px] bg-[#dbe9f3] w-full"></div>
+        <div className="h-[1px] bg-[#dbe9f3]" />
 
-        {/* ------------------------------
-            STABILITY PROFILE
-        ------------------------------ */}
+        {/* STABILITY */}
         <div className="space-y-3">
           <h2 className="text-2xl font-bold text-[#0d2d47]">Stability Profile</h2>
-
           <p className="text-[15px] leading-relaxed text-gray-700">
             • Stable lyophilized at −20°C  
-            • Sensitive to moisture and light  
+            • Sensitive to moisture & light  
             • Predictable decay above room temp  
             • Reconstituted solution stable 24–48h  
-            • Retains molecular integrity when sealed  
           </p>
         </div>
 
-        <div className="h-[1px] bg-[#dbe9f3] w-full"></div>
+        <div className="h-[1px] bg-[#dbe9f3]" />
 
-        {/* ------------------------------
-            SOLUBILITY
-        ------------------------------ */}
+        {/* SOLUBILITY */}
         <div className="space-y-3">
           <h2 className="text-2xl font-bold text-[#0d2d47]">Solubility & Reconstitution</h2>
-
           <p className="text-[15px] leading-relaxed text-gray-700">
-            Common laboratory solvents:
+            Works well with:
             <br /><br />
             • Bacteriostatic water  
             • Sterile saline  
-            • Mild acidic buffers  
-            • Organic blends for analytical precision  
-            <br /><br />
-            Gentle reconstitution is recommended to maintain structural stability.
+            • Acidic buffers  
+            • Organic analytical blends  
           </p>
         </div>
 
-        <div className="h-[1px] bg-[#dbe9f3] w-full"></div>
+        <div className="h-[1px] bg-[#dbe9f3]" />
 
-        {/* ------------------------------
-            TECHNICAL SPECIFICATIONS
-        ------------------------------ */}
+        {/* TECH SPECS */}
         <div className="space-y-3">
           <h2 className="text-2xl font-bold text-[#0d2d47]">Technical Specifications</h2>
 
@@ -172,19 +145,16 @@ export default function ProductContent({ product }) {
             <li><b>Analysis:</b> HPLC, MS, UV</li>
             <li><b>Endotoxin Testing:</b> Completed</li>
             <li><b>Microbial Testing:</b> Completed</li>
-            <li><b>Storage:</b> −20°C</li>
           </ul>
         </div>
 
-        <div className="h-[1px] bg-[#dbe9f3] w-full"></div>
+        <div className="h-[1px] bg-[#dbe9f3]" />
 
-        {/* ------------------------------
-            FAQ
-        ------------------------------ */}
+        {/* FAQ */}
         <div className="space-y-3">
           <h2 className="text-2xl font-bold text-[#0d2d47]">Frequently Asked Questions</h2>
 
-          <div className="space-y-4 text-[15px] text-gray-700 leading-relaxed">
+          <div className="space-y-4 text-[15px] text-gray-700">
             <div>
               <p className="font-semibold">Is this peptide for human use?</p>
               <p>No. Laboratory research only.</p>
@@ -208,7 +178,6 @@ export default function ProductContent({ product }) {
         <p className="text-[14px] text-red-700">
           <b>Disclaimer:</b> Not for human or veterinary use. Laboratory research only.
         </p>
-
       </div>
     </section>
   );

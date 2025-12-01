@@ -1,3 +1,4 @@
+//peptides\data\categories.js
 export const CATEGORY_GROUPS = [
   {
     title: "Peptide Capsules",

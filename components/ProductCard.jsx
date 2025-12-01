@@ -1,6 +1,4 @@
-
-//peptides\components\ProductCard.jsx"use client";
-
+//peptides\components\ProductCard.jsx
 "use client";
 
 import Image from "next/image";
@@ -14,13 +12,41 @@ export default function ProductCard({ product }) {
   const openProduct = () => {
     setPageLoading(true);
     setTimeout(() => {
-     router.push(`/product/${product.slug}`);
+      router.push(`/product/${product.slug}`);
     }, 600);
+  };
+
+  // ⭐ ADD TO CART FUNCTION
+  const addToCart = () => {
+    const existing = JSON.parse(localStorage.getItem("bio-cart") || "[]");
+
+    const found = existing.find((item) => item.id === product.id);
+
+    if (found) {
+      found.qty += 1; // increase quantity
+    } else {
+      existing.push({
+        id: product.id,
+        name: product.name,
+        price: product.price,
+        strength: product.strength,
+        image: product.image,
+        slug: product.slug,
+        qty: 1,
+      });
+    }
+
+    localStorage.setItem("bio-cart", JSON.stringify(existing));
+
+    // Redirect to cart after a short animation
+    setPageLoading(true);
+    setTimeout(() => {
+      router.push("/cart");
+    }, 500);
   };
 
   return (
     <>
-      {/* 🌟 FULL PAGE LOADER (3 lines) */}
       {pageLoading && (
         <div className="fixed inset-0 bg-white/90 flex items-center justify-center z-[9999]">
           <div className="flex gap-2">
@@ -31,79 +57,45 @@ export default function ProductCard({ product }) {
         </div>
       )}
 
-      <article
-        className="
-          relative
-          min-w-[240px] 
-          bg-white 
-          border border-gray-200 
-          rounded-2xl 
-          p-5 
-          flex flex-col 
-          justify-between 
-          hover:shadow-lg 
-          hover:-translate-y-1 
-          transition-all
-        "
-      >
+      <article className="relative w-full bg-white border border-gray-200 rounded-xl p-4 flex flex-col hover:shadow-md hover:-translate-y-1 transition-all">
+
         {/* IMAGE */}
         <div
-          className="relative h-56 w-full rounded-lg overflow-hidden bg-gray-50 flex items-center justify-center cursor-pointer"
+          className="relative h-40 w-full rounded-lg overflow-hidden bg-gray-50 flex items-center justify-center cursor-pointer"
           onClick={openProduct}
         >
           <Image
             src={product.image || "/images/product.png"}
             alt={product.name}
-            width={200}
-            height={200}
+            width={180}
+            height={180}
             className="object-contain"
           />
         </div>
 
         {/* TEXT */}
-        <div className="mt-4 flex-1 cursor-pointer" onClick={openProduct}>
-          <h4 className="text-base font-semibold text-gray-900">{product.name}</h4>
-          <p className="text-sm text-gray-500">{product.strength}</p>
+        <div className="mt-3 cursor-pointer" onClick={openProduct}>
+          <h4 className="text-sm font-semibold text-gray-900">{product.name}</h4>
+          <p className="text-xs text-gray-500">{product.strength}</p>
         </div>
 
         {/* PRICE */}
-        <p className="text-lg font-bold text-gray-900 mt-4">
+        <p className="text-base font-bold text-gray-900 mt-3">
           ${product.price.toFixed(2)}
         </p>
 
         {/* BUTTONS */}
-        <div className="mt-4 space-y-3">
-          {/* FIXED Learn More Button — full width */}
+        <div className="mt-3 space-y-2">
           <button
             onClick={openProduct}
-            className="
-              w-full 
-              border border-bioBlue 
-              text-bioBlue 
-              text-sm 
-              font-semibold 
-              py-2.5 
-              rounded-full 
-              hover:bg-bioBlue 
-              hover:text-white 
-              transition
-            "
+            className="w-full border border-bioBlue text-bioBlue text-xs font-semibold py-2 rounded-full hover:bg-bioBlue hover:text-white transition"
           >
             Learn More
           </button>
 
           <button
-            className="
-              w-full 
-              bg-gradient-to-r from-bioBlue to-bioGreen 
-              text-white 
-              text-sm 
-              font-semibold 
-              py-2.5 
-              rounded-full 
-              hover:opacity-90 
-              transition
-            "
+            onClick={addToCart}
+            className="w-full bg-gradient-to-r from-bioBlue to-bioGreen text-white text-xs font-semibold py-2 rounded-full hover:opacity-90 transition"
           >
             Add to Cart
           </button>
