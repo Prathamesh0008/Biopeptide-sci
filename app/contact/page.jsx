@@ -35,7 +35,7 @@ export default function ContactPage() {
         <div className="grid lg:grid-cols-2 gap-14">
 
           {/* ========== LEFT SIDE: CONTACT FORM ========== */}
-          <div className="bg-white border border-gray-200 shadow-md rounded-xl p-8 space-y-6">
+          <div className="bg-white border border-gray-200 shadow-md rounded-xl p-6 space-y-6">
 
             <h2 className="text-3xl font-bold text-[#0d2d47] mb-2">
               Get In Touch

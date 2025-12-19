@@ -23,7 +23,7 @@ export default function AllPeptidesPage() {
   });
 
   return (
-    <main className="min-h-screen bg-white py-10 md:py-12">
+  <main className="min-h-screen bg-white pt-12 pb-10">
 
       {/* PAGE TITLE */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 mb-8 md:mb-10">
@@ -79,15 +79,18 @@ export default function AllPeptidesPage() {
           {/* PRODUCT GRID */}
           <div className="
               grid 
-              grid-cols-1 
-              sm:grid-cols-2 
-              md:grid-cols-3 
+              grid-cols-2 
+              md:grid-cols-3
               gap-6 md:gap-8
             "
           >
-            {sortedProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
+            {sortedProducts.map((product, index) => (
+  <ProductCard
+    key={`${product.id}-${index}`}
+    product={product}
+  />
+))}
+
           </div>
 
         </div>

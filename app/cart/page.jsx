@@ -119,19 +119,65 @@ export default function CartPage() {
             <span>${subtotal.toFixed(2)}</span>
           </div>
 
-          <button className="
-            w-full 
-            py-3 
-            font-semibold 
-            rounded-full 
-            text-white 
-            bg-gradient-to-r from-bioBlue to-bioGreen 
-            hover:opacity-90 
-            transition
-            text-sm
-          ">
-            Proceed to Checkout
-          </button>
+          <button
+  onClick={async () => {
+    try {
+      const res = await fetch("/api/orders", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          userEmail: "guest@biopeptide.com",
+          userName: "Guest User",
+          phone: "",
+          address: {
+            fullName: "Guest User",
+            phone: "",
+            address: "Not provided",
+            city: "",
+            pincode: "",
+            country: "",
+          },
+          items: cart,
+          totals: {
+            subtotal,
+            shipping: 0,
+            tax: 0,
+            total: subtotal,
+          },
+        }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        alert("Order failed: " + data.error);
+        return;
+      }
+
+      localStorage.removeItem("bio-cart");
+      alert("Order placed successfully!");
+      window.location.href = "/";
+    } catch (err) {
+      alert("Order failed");
+      console.error(err);
+    }
+  }}
+  className="
+    w-full 
+    py-3 
+    font-semibold 
+    rounded-full 
+    text-white 
+    bg-gradient-to-r from-bioBlue to-bioGreen 
+    hover:opacity-90 
+    transition
+    text-sm
+  "
+>
+  Proceed to Checkout
+</button>
+
+
         </div>
       </div>
     </div>

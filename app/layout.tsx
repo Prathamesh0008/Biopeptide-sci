@@ -29,9 +29,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-white text-gray-900">
+      <body className=" text-gray-900">
+        {/* FIXED NAVBAR */}
         <Navbar />
+
+        {/* PAGE CONTENT */}
         <main>{children}</main>
+
         <Footer />
       </body>
     </html>

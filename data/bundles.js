@@ -2,52 +2,206 @@
 
 export const BUNDLES = [
   {
-    id: "research-starter",
-    title: "Research Starter Bundle",
-    discount: "Save 15%",
-    description:
-      "A perfect introductory mix of BioPeptide compounds for primary research workflows.",
-    price: 149.99,
-    original: 176.0,
+    id: "ghrp2-modgrf-5mg-10x",
+    slug: "ghrp-2-5mg-x-10-modgrf-1-29-5mg-x-10",
 
-    // match EXACT product id from products.js
+    title: "GHRP-2 + MOD-GRF (1-29) Research Bundle",
+    discount: "Save 25%",
+
+    description:
+      "A curated growth hormone research bundle combining GHRP-2 and MOD-GRF (1-29) for receptor interaction studies, GH axis signaling research, and endocrine pathway modeling.",
+
+    price: 299.99,
+    original: 399.99,
+
     products: [
-      "bpc-157-5mg",
-      "ipamorelin-5mg",
-      "aod9604-5mg",
+      "ghrp-2-5mg",        
+      "mod-grf-1-29-5mg",  
     ],
+
+    quantities: {
+      "ghrp-2-5mg": 10,
+      "mod-grf-1-29-5mg": 10,
+    },
   },
+
 
   {
-    id: "advanced-pathway",
-    title: "Advanced Pathway Analysis Bundle",
-    discount: "Save 22%",
-    description:
-      "Designed for cell pathway stimulation, receptor binding and regenerative modeling.",
-    price: 249.99,
-    original: 320.0,
+  id: "ghrp2-ipamorelin-5mg-10x",
+  slug: "ghrp-2-5mg-x-10-ipamorelin-5mg-x-10",
 
-    products: [
-      "ghk-cu-2mg",
-      "bpc-tb500-glow-blend",
-      "5-amino-1mq-50mg",
-    ],
+  title: "GHRP-2 + Ipamorelin Research Bundle",
+  discount: "Save 25%",
+
+  description:
+    "A growth hormone research bundle combining GHRP-2 and Ipamorelin, designed for laboratory studies focused on GH axis signaling, receptor interaction analysis, and endocrine pathway research models.",
+
+  price: 289.99,
+  original: 379.99,
+
+  // MUST MATCH exact product IDs from products.js
+  products: [
+    "ghrp-2-5mg",
+    "ipamorelin-5mg",
+  ],
+
+  // Quantity per product (PeptideSciences style)
+  quantities: {
+    "ghrp-2-5mg": 10,
+    "ipamorelin-5mg": 10,
   },
+},
+{
+  id: "ghrp6-modgrf-5mg-10x",
+  slug: "ghrp-6-5mg-x-10-modgrf-1-29-5mg-x-10",
 
-  {
-    id: "complete-lab-kit",
-    title: "Complete Laboratory Research Kit",
-    discount: "Save 30%",
-    description:
-      "The ultimate research-grade peptide kit for multi-pathway analysis and lab efficiency.",
-    price: 399.99,
-    original: 570.0,
+  title: "GHRP-6 + MOD-GRF (1-29) Research Bundle",
+  discount: "Save 25%",
 
-    products: [
-      "bpc-157-5mg",
-      "ipamorelin-5mg",
-      "aod9604-5mg",
-      "ghk-cu-2mg",
-    ],
+  description:
+    "A growth hormone research bundle combining GHRP-6 and MOD-GRF (1-29), designed for laboratory studies focused on GH axis signaling, receptor interaction analysis, and endocrine pathway research models.",
+
+  price: 289.99,
+  original: 379.99,
+
+  // MUST match exact product IDs from products.js
+  products: [
+    "ghrp-6-5mg",
+    "mod-grf-1-29-5mg",
+  ],
+
+  // Quantity per product (PeptideSciences-style)
+  quantities: {
+    "ghrp-6-5mg": 10,
+    "mod-grf-1-29-5mg": 10,
   },
+},
+{
+  id: "ghrp6-ipamorelin-5mg-10x",
+  slug: "ghrp-6-5mg-x-10-ipamorelin-5mg-x-10",
+
+  title: "GHRP-6 + Ipamorelin Research Bundle",
+  discount: "Save 25%",
+
+  description:
+    "A growth hormone research bundle combining GHRP-6 and Ipamorelin, designed for laboratory studies focused on GH axis signaling, receptor interaction analysis, and endocrine pathway research models.",
+
+  price: 289.99,
+  original: 379.99,
+
+  // MUST match exact product IDs from products.js
+  products: [
+    "ghrp-6-5mg",
+    "ipamorelin-5mg",
+  ],
+
+  // Quantity per product (PeptideSciences-style)
+  quantities: {
+    "ghrp-6-5mg": 10,
+    "ipamorelin-5mg": 10,
+  },
+},
+{
+  id: "hexarelin-modgrf-2mg-10x",
+  slug: "hexarelin-2mg-x-10-modgrf-1-29-2mg-x-10",
+
+  title: "Hexarelin + MOD-GRF (1-29) Research Bundle",
+  discount: "Save 25%",
+
+  description:
+    "A growth hormone research bundle combining Hexarelin and MOD-GRF (1-29), designed for laboratory studies focused on GH axis signaling, receptor activation research, and endocrine pathway analysis.",
+
+  price: 269.99,
+  original: 359.99,
+
+  // MUST match exact product IDs from products.js
+  products: [
+    "hexarelin-2mg",
+    "mod-grf-1-29-2mg",
+  ],
+
+  // Quantity per product (PeptideSciences-style)
+  quantities: {
+    "hexarelin-2mg": 10,
+    "mod-grf-1-29-2mg": 10,
+  },
+},
+{
+  id: "hexarelin-modgrf-5mg-10x",
+  slug: "hexarelin-5mg-x-10-modgrf-1-29-5mg-x-10",
+
+  title: "Hexarelin + MOD-GRF (1-29) Research Bundle",
+  discount: "Save 25%",
+
+  description:
+    "A higher-strength growth hormone research bundle combining Hexarelin and MOD-GRF (1-29), designed for laboratory studies focused on GH axis signaling, receptor activation analysis, and endocrine pathway research models.",
+
+  price: 299.99,
+  original: 399.99,
+
+  // MUST match exact product IDs from products.js
+  products: [
+    "hexarelin-5mg",
+    "mod-grf-1-29-5mg",
+  ],
+
+  // Quantity per product (PeptideSciences-style)
+  quantities: {
+    "hexarelin-5mg": 10,
+    "mod-grf-1-29-5mg": 10,
+  },
+},
+{
+  id: "ipamorelin-modgrf-2mg-10x",
+  slug: "ipamorelin-2mg-x-10-modgrf-1-29-2mg-x-10",
+
+  title: "Ipamorelin + MOD-GRF (1-29) Research Bundle",
+  discount: "Save 25%",
+
+  description:
+    "A growth hormone research bundle combining Ipamorelin and MOD-GRF (1-29), designed for laboratory studies focused on GH axis signaling, receptor-selective interaction analysis, and endocrine pathway research models.",
+
+  price: 269.99,
+  original: 359.99,
+
+  // MUST match exact product IDs from products.js
+  products: [
+    "ipamorelin-2mg",
+    "mod-grf-1-29-2mg",
+  ],
+
+  // Quantity per product (PeptideSciences-style)
+  quantities: {
+    "ipamorelin-2mg": 10,
+    "mod-grf-1-29-2mg": 10,
+  },
+},
+{
+  id: "ipamorelin-modgrf-5mg-10x",
+  slug: "ipamorelin-5mg-x-10-mod-grf-1-29-5mg-x-10",
+
+  title: "Ipamorelin + MOD-GRF (1-29) Research Bundle",
+  discount: "Save 25%",
+
+  description:
+    "A higher-strength growth hormone research bundle combining Ipamorelin and MOD-GRF (1-29), designed for laboratory studies focused on GH axis signaling, receptor-selective interaction analysis, and endocrine pathway research models.",
+
+  price: 299.99,
+  original: 399.99,
+
+  // MUST match exact product IDs from products.js
+  products: [
+    "ipamorelin-5mg",
+    "mod-grf-1-29-5mg",
+  ],
+
+  // Quantity per product (PeptideSciences-style)
+  quantities: {
+    "ipamorelin-5mg": 10,
+    "mod-grf-1-29-5mg": 10,
+  },
+},
+
+
+ 
 ];

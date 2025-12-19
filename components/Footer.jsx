@@ -1,184 +1,177 @@
-//peptides/components/Footer.jsx
+// peptides/components/Footer.jsx
 import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="relative mt-16">
+    <footer
+  className="
+    relative mt-16 text-white
+    bg-[linear-gradient(to_bottom,#559f45,#145b2f)]
+  "
+>
 
-      {/* ===== BACKGROUND GRADIENT + TEXTURE ===== */}
-      <div className="
-        absolute inset-0 
-        bg-gradient-to-b from-white via-[#f6fdfc] to-[#e5f7f5]
-        pointer-events-none
-      " />
 
-      {/* Soft molecule pattern */}
-      <div className="
-        absolute inset-0 opacity-[0.08] 
-        bg-[url('/patterns/molecule-pattern.png')] 
-        bg-repeat 
-        pointer-events-none
-      " />
+      {/* ===== NEWSLETTER (BLUE GRADIENT CARD) ===== */}
+<div className="relative max-w-6xl mx-auto px-6 py-14 text-center">
+  <div
+    className="
+      bg-[linear-gradient(to_bottom,#65b4d7,#1a497c)]
+      backdrop-blur-lg
+      border border-white/20
+      rounded-2xl
+      p-10
+      max-w-3xl mx-auto
+      shadow-xl
+    "
+  >
+    <h2 className="text-2xl sm:text-3xl font-bold text-white">
+      Stay Updated with BioPeptide
+    </h2>
 
-      {/* TOP BORDER LIGHT GLOW */}
-      <div className="w-full h-[4px] bg-gradient-to-r from-bioBlue to-bioGreen opacity-40" />
+    <p className="text-white/80 mt-2 text-sm sm:text-base">
+      Research updates, product launches & exclusive offers.
+    </p>
 
-      {/* ======= NEWSLETTER ======= */}
-      <div className="relative max-w-6xl mx-auto px-6 py-14 text-center">
-        <div className="
-          bg-white/70 backdrop-blur-md
-          border border-gray-200 rounded-2xl
-          p-10 shadow-sm
-          max-w-3xl mx-auto
-        ">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
-            Stay Updated with BioPeptide
-          </h2>
+    <div className="mt-6 flex flex-col sm:flex-row justify-center gap-3">
+      <input
+        type="email"
+        placeholder="your email"
+        className="
+          w-full sm:w-96
+          px-5 py-3 text-sm
+          rounded-lg sm:rounded-l-lg
+          bg-white/90
+          text-gray-900
+          placeholder-gray-500
+          focus:ring-2 focus:ring-[#65b4d7]/60
+          outline-none
+        "
+      />
 
-          <p className="text-gray-600 mt-2 text-sm sm:text-base">
-            Get research updates, promotions & exclusive offers.
-          </p>
+      <button
+  className="
+    px-6 py-3
+    rounded-lg sm:rounded-none sm:rounded-r-lg
+    text-sm font-semibold text-white
+    bg-[linear-gradient(to_right,#145b2f,#559f45)]
+    hover:brightness-110
+    transition
+  "
+>
+  Subscribe
+</button>
 
-          <div className="mt-6 flex flex-col sm:flex-row justify-center gap-3">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="
-                border border-gray-300 px-5 py-3 
-                rounded-lg sm:rounded-l-lg 
-                w-full sm:w-96 text-sm
-                focus:ring-2 focus:ring-bioBlue/50 outline-none
-                bg-white/80 backdrop-blur
-              "
-            />
+    </div>
+  </div>
+</div>
 
-            <button className="
-              bg-gradient-to-r from-bioBlue to-bioGreen 
-              hover:opacity-90 transition
-              text-white px-6 py-3 
-              rounded-lg sm:rounded-none sm:rounded-r-lg 
-              font-semibold text-sm
-            ">
-              Subscribe
-            </button>
-          </div>
-        </div>
-      </div>
 
-      {/* ============= FOOTER GRID ============= */}
-      <div className="relative border-t border-gray-200/70">
-        <div className="
-          max-w-6xl mx-auto px-6 py-14 
-          grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 
-          gap-12
-        ">
 
-          {/* LOGO + TEXT */}
-          <div className="flex flex-col items-center lg:items-start text-center lg:text-left space-y-4">
+      {/* ===== FOOTER CONTENT ===== */}
+      <div className="border-t border-white/15">
+        <div
+  className="
+    max-w-6xl mx-auto px-6 py-14
+    grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5
+    gap-12
+    text-center sm:text-left
+  "
+>
+
+
+          {/* BRAND */}
+          <div className="space-y-4 flex flex-col items-center sm:items-start">
             <div className="flex items-center gap-3">
               <div className="
-                h-12 w-12 rounded-full 
-                bg-gradient-to-br from-bioBlue to-bioGreen 
-                flex items-center justify-center 
-                text-white text-xl font-bold shadow-md
+                h-12 w-12 rounded-full
+                bg-gradient-to-br from-[#145b2f] to-[#65b4d7]
+                flex items-center justify-center
+                text-white text-xl font-bold
               ">
                 B
               </div>
-              <span className="text-2xl font-bold text-gray-900">
+              <span className="text-2xl font-bold">
                 BIOPEPTIDE
               </span>
             </div>
 
-            <p className="text-gray-600 text-sm">
-              High-purity research peptides, trusted by labs & professionals worldwide.
+            <p className="text-white/80 text-sm">
+              High-purity research peptides trusted by laboratories worldwide.
             </p>
           </div>
 
-          {/* Information */}
+          {/* INFORMATION */}
           <FooterColumn title="Information">
-            <FooterLink text="All Peptides" />
-            <FooterLink text="Bundle & Save" />
-            <FooterLink text="Research Articles" />
-            <FooterLink text="Lab Testing" />
-            <FooterLink text="Our Company" />
+            <FooterLink text="All Peptides" href="/all-peptides" />
+            <FooterLink text="Bundle & Save" href="/bundle-save" />
+            <FooterLink text="Research Articles" href="/peptide-research" />
+            <FooterLink text="Lab Testing" href="/lab-testing" />
+            <FooterLink text="Our Company" href="/about" />
+            <FooterLink text="Contact" href="/contact" />
           </FooterColumn>
 
-          {/* Shop */}
+          {/* SHOP */}
           <FooterColumn title="Shop">
-            <FooterLink text="Peptide Capsules" />
-            <FooterLink text="Research Peptides" />
-            <FooterLink text="Peptide Blends" />
-            <FooterLink text="Amino Acids" />
-            <FooterLink text="Proteins" />
+            <FooterLink text="Peptide Capsules" href="/category/capsules" />
+            <FooterLink text="Peptide Blends" href="/category/blends" />
+            <FooterLink text="IGF-1 Proteins" href="/category/igf-1-proteins" />
+            <FooterLink text="Melanotan Peptides" href="/category/melanotan" />
+            <FooterLink text="Bioregulators" href="/category/bioregulators" />
+            <FooterLink text="Cosmetic Peptides" href="/category/cosmetic-peptides" />
           </FooterColumn>
 
-          {/* Legal */}
+          {/* LEGAL */}
           <FooterColumn title="Legal">
-            <FooterLink text="Privacy Policy" />
-            <FooterLink text="Terms of Use" />
-            <FooterLink text="Shipping Policy" />
-            <FooterLink text="Refunds" />
-            <FooterLink text="Accessibility" />
+            <FooterLink text="Privacy Policy" href="/privacy-policy" />
+            <FooterLink text="Terms of Use" href="/terms" />
+            <FooterLink text="Shipping & Payments" href="/shipping-payments" />
+            <FooterLink text="Refunds & Returns" href="/refunds-returns" />
+            <FooterLink text="Accessibility" href="/accessibility" />
+            <FooterLink text="Reward Program Terms" href="/rewards-terms" />
           </FooterColumn>
 
-          {/* Support */}
-          <div className="text-center sm:text-left flex flex-col items-center sm:items-start space-y-4">
-            <h3 className="font-semibold text-bioBlue">Support</h3>
+          {/* CONTACT */}
+          <div className="space-y-3 text-sm text-white/80 flex flex-col items-center sm:items-start">
+            <p><span className="font-medium text-white">📞 Phone</span><br />1-800-986-6401</p>
+            <p className="text-white/60 text-xs">Mon–Fri, 9AM–4PM</p>
 
-            <ul className="space-y-3 text-gray-700 text-sm">
-              <li>
-                <p className="font-medium">📞 Phone</p>
-                <p>1-800-986-6401</p>
-                <p className="text-xs text-gray-500">Mon–Fri, 9AM–4PM</p>
-              </li>
+            <p><span className="font-medium text-white">✉️ Email</span><br />support@biopeptide.com</p>
 
-              <li>
-                <p className="font-medium">✉️ Email</p>
-                <p>support@biopeptide.com</p>
-              </li>
-
-              <li>
-                <p className="font-medium">📦 Shipping</p>
-                <p className="text-xs text-gray-500">
-                  Orders before 12PM ship next day
-                </p>
-              </li>
-
-              <li>
-                <p className="font-medium">📍 Address</p>
-                <p>BioPeptide Labs</p>
-                <p>Boca Raton, FL</p>
-              </li>
-            </ul>
+            <p><span className="font-medium text-white">📍 Address</span><br />
+              BioPeptide Labs<br />Boca Raton, FL
+            </p>
           </div>
 
         </div>
       </div>
 
       {/* COPYRIGHT */}
-      <div className="relative bg-white/60 backdrop-blur-md border-t border-gray-200 py-6 text-center text-sm text-gray-600 px-4">
+      <div className="border-t border-white/15 py-6 text-center text-sm text-white/60 px-4">
         © {new Date().getFullYear()} BioPeptide. All Rights Reserved.
       </div>
-
     </footer>
   );
 }
 
-/* Column */
+/* COLUMN */
 function FooterColumn({ title, children }) {
   return (
-    <div className="text-center sm:text-left space-y-3">
-      <h3 className="font-semibold text-bioBlue">{title}</h3>
-      <ul className="space-y-2 text-gray-700 text-sm">{children}</ul>
+    <div className="space-y-3 flex flex-col items-center sm:items-start">
+      <h3 className="font-semibold text-white">{title}</h3>
+      <ul className="space-y-2 text-sm">{children}</ul>
     </div>
   );
 }
 
-/* Link */
-function FooterLink({ text }) {
+
+/* LINK */
+function FooterLink({ text, href }) {
   return (
     <li>
-      <Link href="#" className="hover:text-bioGreen transition">
+      <Link
+        href={href}
+        className="text-white/80 hover:text-[#65b4d7] transition"
+      >
         {text}
       </Link>
     </li>

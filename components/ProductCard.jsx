@@ -16,14 +16,13 @@ export default function ProductCard({ product }) {
     }, 600);
   };
 
-  // ⭐ ADD TO CART FUNCTION
   const addToCart = () => {
     const existing = JSON.parse(localStorage.getItem("bio-cart") || "[]");
 
     const found = existing.find((item) => item.id === product.id);
 
     if (found) {
-      found.qty += 1; // increase quantity
+      found.qty += 1;
     } else {
       existing.push({
         id: product.id,
@@ -38,7 +37,6 @@ export default function ProductCard({ product }) {
 
     localStorage.setItem("bio-cart", JSON.stringify(existing));
 
-    // Redirect to cart after a short animation
     setPageLoading(true);
     setTimeout(() => {
       router.push("/cart");
@@ -57,11 +55,17 @@ export default function ProductCard({ product }) {
         </div>
       )}
 
-      <article className="relative w-full bg-white border border-gray-200 rounded-xl p-4 flex flex-col hover:shadow-md hover:-translate-y-1 transition-all">
+      <article
+        className="relative w-full min-w-[130px] bg-white border border-gray-200 rounded-xl 
+                   p-2 sm:p-4 flex flex-col justify-between
+                   hover:shadow-md hover:-translate-y-1 transition-all
+                   min-h-[380px]"  /* ⭐ SAME HEIGHT FOR ALL CARDS */
+      >
 
         {/* IMAGE */}
         <div
-          className="relative h-40 w-full rounded-lg overflow-hidden bg-gray-50 flex items-center justify-center cursor-pointer"
+          className="relative h-44 w-full rounded-lg overflow-hidden bg-gray-50 
+                     flex items-center justify-center cursor-pointer"
           onClick={openProduct}
         >
           <Image
@@ -74,32 +78,45 @@ export default function ProductCard({ product }) {
         </div>
 
         {/* TEXT */}
-        <div className="mt-3 cursor-pointer" onClick={openProduct}>
-          <h4 className="text-sm font-semibold text-gray-900">{product.name}</h4>
-          <p className="text-xs text-gray-500">{product.strength}</p>
+        <div className="mt-3 flex-1 cursor-pointer" onClick={openProduct}>
+          <h4 className="text-[15px] font-semibold text-gray-900 leading-snug">
+            {product.name}
+          </h4>
+          <p className="text-xs text-gray-500 mt-1">{product.strength}</p>
         </div>
 
         {/* PRICE */}
-        <p className="text-base font-bold text-gray-900 mt-3">
+        <p className="text-[17px] font-bold text-gray-900 mt-3">
           ${product.price.toFixed(2)}
         </p>
 
-        {/* BUTTONS */}
-        <div className="mt-3 space-y-2">
+        {/* BUTTONS — always stick to bottom */}
+        <div className="mt-4 flex flex-col gap-2">
           <button
             onClick={openProduct}
-            className="w-full border border-bioBlue text-bioBlue text-xs font-semibold py-2 rounded-full hover:bg-bioBlue hover:text-white transition"
+            className="w-full border border-bioBlue text-bioBlue text-xs font-semibold 
+                       py-2 rounded-full hover:bg-bioBlue hover:text-white transition"
           >
             Learn More
           </button>
 
-          <button
-            onClick={addToCart}
-            className="w-full bg-gradient-to-r from-bioBlue to-bioGreen text-white text-xs font-semibold py-2 rounded-full hover:opacity-90 transition"
-          >
-            Add to Cart
-          </button>
+        <button
+  onClick={addToCart}
+  className="
+    w-full
+    bg-[linear-gradient(to_right,#145b2f,#559f45,#65b4d7,#1a497c)]
+    text-white text-xs font-semibold
+    py-2 rounded-full
+    hover:brightness-110
+    transition
+  "
+>
+  Add to Cart
+</button>
+
+
         </div>
+
       </article>
     </>
   );

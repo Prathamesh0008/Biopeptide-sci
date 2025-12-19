@@ -117,9 +117,9 @@ export default function PeptideResearchPage() {
             )}
 
             {/* CONTENT */}
-            <div className="space-y-10 text-[17px] leading-[1.95] text-gray-800">
-              {current.paragraphs.map((p, i) => (
-                <p key={i} className="text-justify">{p}</p>
+            <div className="space-y-8 text-[17px] leading-snug md:leading-[1.95] text-gray-800">
+             {current.paragraphs.map((p, i) => (
+                <p key={i} className="text-left md:text-justify">{p}</p>
               ))}
             </div>
           </article>

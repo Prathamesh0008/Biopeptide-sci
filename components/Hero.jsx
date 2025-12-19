@@ -18,7 +18,14 @@ export default function Hero() {
         />
 
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="bg-white/80 backdrop-blur-md rounded-3xl px-10 py-10 max-w-xl shadow-lg">
+          <div className="
+              bg-white/80 backdrop-blur-md rounded-3xl shadow-lg
+              px-5 py-6               /* mobile padding */
+              sm:px-8 sm:py-8         /* small screens */
+              md:px-10 md:py-10       /* desktop */
+              w-[90%] max-w-xl        /* responsive width */
+              text-center
+            ">
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-bioGreen mb-1">
               BioPeptide Research Capsules
             </p>
@@ -31,12 +38,21 @@ export default function Hero() {
               High-purity BioPeptide capsules designed for scientific research.
             </p>
 
-            <button
-              onClick={() => router.push("/peptide-information")}
-              className="px-6 py-2 rounded-full text-sm font-semibold bg-gradient-to-r from-bioBlue to-bioGreen text-white hover:opacity-90 transition"
-            >
-              Learn More
-            </button>
+          <button
+  onClick={() => router.push("/peptide-information")}
+  className="
+    px-6 py-2 rounded-full
+    text-sm font-semibold text-white
+    bg-[linear-gradient(to_right,#145b2f,#559f45,#65b4d7,#1a497c)]
+    hover:brightness-110
+    transition
+  "
+>
+  Learn More
+</button>
+
+
+
           </div>
         </div>
       </div>

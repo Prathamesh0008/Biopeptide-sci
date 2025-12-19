@@ -37,14 +37,27 @@ export default function DrawerProducts({ open, setOpen }) {
 
   return (
     <>
-      {/* Backdrop */}
+      {/* FULLSCREEN BACKDROP */}
       <div
-        className="fixed inset-0 bg-black/40 z-40"
+        className={`fixed inset-0 bg-black/40 z-[9990] transition-opacity duration-300
+        ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
         onClick={() => setOpen(false)}
       />
 
-      {/* Drawer */}
-      <aside className="fixed left-0 top-0 h-full w-80 bg-white z-50 shadow-2xl flex flex-col">
+      {/* FIXED SLIDING DRAWER */}
+      <aside
+        className={`
+          fixed top-0 left-0 h-full 
+          w-[85%] sm:w-[350px] 
+          bg-white shadow-2xl 
+          z-[99999]            /* <-- SUPER HIGH Z-INDEX */
+          transform transition-transform duration-300
+          overflow-y-auto flex flex-col
+          ${open ? "translate-x-0" : "-translate-x-full"}
+        `}
+      >
+
+
 
         {/* Header */}
         <div className="flex items-center justify-between px-4 py-3 border-b border-gray-200">

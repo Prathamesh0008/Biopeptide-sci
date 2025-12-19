@@ -60,8 +60,7 @@ export default function BundleSavePage() {
       </div>
 
       {/* PAGE LAYOUT */}
-      <div className="max-w-7xl mx-auto px-6 mt-14 grid grid-cols-1 lg:grid-cols-4 gap-14">
-
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 mt-14 grid grid-cols-1 lg:grid-cols-4 gap-14">
         {/* LEFT SIDEBAR */}
         <aside className="hidden lg:block">
           <div className="sticky top-24">
@@ -70,18 +69,19 @@ export default function BundleSavePage() {
         </aside>
 
         {/* RIGHT SIDE (VERTICAL BUNDLE CARDS) */}
-        <div className="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
+        <div className="lg:col-span-3 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
 
   {resolvedBundles.map((bundle) => (
     <div
       key={bundle.id}
       className="
-        flex flex-col
-        border border-gray-200 rounded-2xl bg-white
-        shadow-sm hover:shadow-lg transition-all
-        p-5
-        h-[520px]          /* FIXED UNIFORM HEIGHT */
-      "
+  flex flex-col
+  border border-gray-200 rounded-2xl bg-white
+  shadow-sm hover:shadow-lg transition-all
+  p-3
+  h-[420px]
+"
+
     >
       {/* IMAGE */}
       <div className="relative w-full h-48 bg-gray-50 rounded-xl overflow-hidden">
@@ -107,9 +107,9 @@ export default function BundleSavePage() {
         </h3>
 
         {/* DESCRIPTION */}
-        <p className="text-gray-600 text-sm line-clamp-3 h-[60px] mb-4">
+        {/* <p className="text-gray-600 text-sm line-clamp-3 h-[60px] mb-4">
           {bundle.description}
-        </p>
+        </p> */}
 
         {/* PRICE + BUTTON ALWAYS AT BOTTOM */}
         <div className="mt-auto pt-4">

@@ -23,7 +23,7 @@ export default function PopularPeptidesPage() {
   });
 
   return (
-    <main className="min-h-screen bg-white py-12">
+   <main className="min-h-screen bg-white py-12">
 
       {/* PAGE TITLE */}
       <div className="max-w-7xl mx-auto px-6 mb-10">
@@ -66,11 +66,12 @@ export default function PopularPeptidesPage() {
           </div>
 
           {/* GRID */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            {sorted.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </div>
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        {sorted.map((product) => (
+          <ProductCard key={`${product.id}-${product.slug}`} product={product} />
+        ))}
+      </div>
+
 
         </div>
 

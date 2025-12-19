@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function AboutSection() {
   return (
-    <section className="py-16 border-t border-gray-200 bg-white">
+    <section className="py-16 border-t border-gray-200 ">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12">
 
         {/* LEFT */}
@@ -14,7 +14,7 @@ export default function AboutSection() {
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">About BioPeptide</h2>
 
-            <h3 className="text-lg font-semibold mb-2">🧬 Our Company</h3>
+            <h3 className="text-lg font-semibold mb-2 ">🧬 Our Company</h3>
             <p>
               BioPeptide™ is a leading provider of premium research peptides...
             </p>

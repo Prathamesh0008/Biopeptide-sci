@@ -65,7 +65,7 @@ export default function AboutPage() {
         <div className="grid md:grid-cols-2 gap-10">
 
           {/* Mission Card */}
-          <div className="rounded-xl p-10 bg-white border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+          <div className="rounded-xl p-8 bg-white border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
             <h3 className="text-2xl font-semibold text-[#0d2d47] mb-3">
               Our Mission
             </h3>
@@ -77,7 +77,7 @@ export default function AboutPage() {
           </div>
 
           {/* Vision Card */}
-          <div className="rounded-xl p-10 bg-white border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+          <div className="rounded-xl p-8 bg-white border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
             <h3 className="text-2xl font-semibold text-[#0d2d47] mb-3">
               Our Vision
             </h3>
@@ -148,7 +148,7 @@ export default function AboutPage() {
         </div>
 
         {/* ------------ ETHICS SECTION ------------ */}
-        <div className="bg-gradient-to-br from-gray-50 to-white border border-gray-200 p-12 rounded-xl shadow-sm space-y-6">
+        <div className="bg-gradient-to-br from-gray-50 to-white border border-gray-200 p-8 rounded-xl shadow-sm space-y-6">
           <h3 className="text-2xl font-semibold text-[#0d2d47]">
             Ethical & Responsible Research Commitment
           </h3>
