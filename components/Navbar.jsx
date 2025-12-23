@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 import { FaSearch, FaUser, FaShoppingCart } from "react-icons/fa";
 import { useRouter } from "next/navigation";
-
+import { PRODUCTS } from "@/data/products";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,6 +15,11 @@ export default function Navbar() {
   const [user, setUser] = useState(null);
 const [profileOpen, setProfileOpen] = useState(false);
 const profileRef = useRef(null);
+const [suggestions, setSuggestions] = useState([]);
+const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
+const searchRef = useRef(null);
+
+
 
 
 useEffect(() => {
@@ -38,6 +43,18 @@ useEffect(() => {
     document.removeEventListener("mousedown", handleClickOutside);
   };
 }, [profileOpen]);
+useEffect(() => {
+  function handleOutsideSearch(e) {
+    if (searchRef.current && !searchRef.current.contains(e.target)) {
+      setSuggestions([]);
+    }
+  }
+
+  document.addEventListener("mousedown", handleOutsideSearch);
+  return () =>
+    document.removeEventListener("mousedown", handleOutsideSearch);
+}, []);
+
 
 
 
@@ -51,12 +68,31 @@ useEffect(() => {
   };
 
   const handleSearch = (e) => {
-    if (e.key === "Enter" && query.trim() !== "") {
-      router.push(`/search?query=${query}`);
-      setMenuOpen(false);
-      setQuery("");
-    }
-  };
+  if (e.key === "Enter" && query.trim() !== "") {
+    setSuggestions([]);
+    router.push(`/search?query=${query}`);
+    setMenuOpen(false);
+    setQuery("");
+  }
+};
+
+  const handleSearchChange = (value) => {
+  setQuery(value);
+
+  if (!value.trim()) {
+    setSuggestions([]);
+    return;
+  }
+
+  const filtered = PRODUCTS
+  .filter((p) =>
+    p.name.toLowerCase().includes(value.toLowerCase())
+  )
+  .slice(0, 6);
+
+  setSuggestions(filtered);
+};
+
 
   return (
     <header
@@ -90,7 +126,7 @@ useEffect(() => {
 
       {/* MAIN NAVBAR */}
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-6">
-
+      
         {/* LOGO */}
         <div
           onClick={() => handleNavigate("/")}
@@ -108,13 +144,34 @@ useEffect(() => {
 
         {/* DESKTOP SEARCH */}
         <div className="flex-1 max-w-2xl mx-auto hidden md:block">
-          <div className="relative">
+        <div ref={searchRef} className="relative">
             <FaSearch className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 text-sm" />
+            {suggestions.length > 0 && (
+  <div className="absolute top-full left-0 w-full bg-white border rounded-xl shadow-lg mt-2 z-50">
+    {suggestions.map((item) => (
+      <button
+        key={item.id}
+        onClick={() => {
+          setSuggestions([]);
+          setQuery("");
+          router.push(`/product/${item.slug}`);
+        }}
+        className="w-full text-left px-4 py-3 text-sm hover:bg-gray-100"
+      >
+        {item.name}
+        <span className="block text-xs text-gray-500">
+          {item.strength}
+        </span>
+      </button>
+    ))}
+  </div>
+)}
+
             <input
               type="text"
               placeholder="Search products or pages..."
               value={query}
-              onChange={(e) => setQuery(e.target.value)}
+              onChange={(e) => handleSearchChange(e.target.value)}
               onKeyDown={handleSearch}
               className="w-full border border-gray-300 rounded-lg pl-10 pr-4 py-3 text-sm 
                          focus:ring-2 focus:ring-bioBlue/80 outline-none"
@@ -194,9 +251,9 @@ useEffect(() => {
         <div className="flex md:hidden items-center gap-4 text-xl text-gray-700">
 
           {/* SEARCH ICON MOBILE */}
-          <button onClick={() => router.push("/search")}>
-            <FaSearch className="text-gray-600" />
-          </button>
+          <button onClick={() => setMobileSearchOpen(!mobileSearchOpen)}>
+        <FaSearch className="text-gray-600" />
+      </button>
 
           {/* CART ICON MOBILE */}
           <button onClick={() => handleNavigate("/cart")}>
@@ -223,6 +280,48 @@ useEffect(() => {
           </button>
         </div>
       </div>
+      {/* MOBILE SEARCH BAR — BELOW NAVBAR */}
+{mobileSearchOpen && (
+  <div className="md:hidden bg-white border-b border-gray-200 px-4 py-3 relative z-[998]">
+    <div ref={searchRef} className="relative">
+      <FaSearch className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-sm" />
+
+      <input
+        autoFocus
+        type="text"
+        placeholder="Search products..."
+        value={query}
+        onChange={(e) => handleSearchChange(e.target.value)}
+        onKeyDown={handleSearch}
+        className="w-full border border-gray-300 rounded-lg pl-9 pr-3 py-2 text-sm
+                   focus:ring-2 focus:ring-bioBlue outline-none"
+      />
+
+      {suggestions.length > 0 && (
+        <div className="absolute top-full left-0 w-full bg-white border rounded-xl shadow-lg mt-2 z-50">
+          {suggestions.map((item) => (
+            <button
+              key={item.id}
+              onClick={() => {
+                setSuggestions([]);
+                setQuery("");
+                setMobileSearchOpen(false);
+                router.push(`/product/${item.slug}`);
+              }}
+              className="w-full text-left px-4 py-3 text-sm hover:bg-gray-100"
+            >
+              {item.name}
+              <span className="block text-xs text-gray-500">
+                {item.strength}
+              </span>
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  </div>
+)}
+
 
       {/* DESKTOP LINKS */}
       <div className="border-t border-gray-200 hidden md:block">
@@ -254,19 +353,7 @@ useEffect(() => {
 
         <div className="px-6 py-4 space-y-4">
 
-          {/* MOBILE SEARCH BAR */}
-          <div className="relative">
-            <FaSearch className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 text-sm" />
-            <input
-              type="text"
-              placeholder="Search products or pages..."
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              onKeyDown={handleSearch}
-              className="w-full border border-gray-300 rounded-lg pl-10 pr-4 py-3 text-sm 
-                         focus:ring-2 focus:ring-bioBlue/80 outline-none"
-            />
-          </div>
+          
 
           {/* MENU LINKS */}
           <div className="flex flex-col gap-4 text-white text-[16px]">
@@ -322,6 +409,7 @@ useEffect(() => {
 
         </div>
       </div>
+      
 
     </header>
   );
