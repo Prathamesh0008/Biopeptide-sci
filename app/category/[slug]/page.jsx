@@ -7,6 +7,8 @@ import { PRODUCTS } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 import Sidebar from "@/components/Sidebar";
 import DrawerProducts from "@/components/DrawerProducts";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function CategoryPage() {
   const { slug } = useParams();
@@ -33,6 +35,8 @@ export default function CategoryPage() {
   const showingCount = totalCount; // no pagination yet
 
   return (
+    <>
+    <Navbar/>
     <main className="bg-white">
 
       {/* HEADER */}
@@ -108,5 +112,7 @@ export default function CategoryPage() {
       {/* DRAWER — SAME AS HOME */}
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
     </main>
+    <Footer/>
+    </>
   );
 }

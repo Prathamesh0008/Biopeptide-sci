@@ -1,5 +1,7 @@
 //app\order-success\page.jsx
 "use client";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 import { useSearchParams, useRouter } from "next/navigation";
 
@@ -9,6 +11,8 @@ export default function OrderSuccessPage() {
   const orderId = params.get("orderId");
 
   return (
+    <>
+    <Navbar/>
     <main className="max-w-3xl mx-auto px-6 py-20 text-center">
       <h1 className="text-3xl font-bold text-green-600 mb-4">
         Order Placed Successfully 🎉
@@ -32,5 +36,7 @@ export default function OrderSuccessPage() {
         Continue Shopping
       </button>
     </main>
+    <Footer/>
+    </>
   );
 }

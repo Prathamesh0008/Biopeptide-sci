@@ -1,9 +1,13 @@
 "use client";
 
 import Image from "next/image";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function AboutPage() {
   return (
+    <>
+    <Navbar/>
     <main className="min-h-screen bg-white text-gray-800">
 
       {/* ================= HERO SECTION ================= */}
@@ -162,5 +166,7 @@ export default function AboutPage() {
 
       </section>
     </main>
+    <Footer/>
+    </>
   );
 }

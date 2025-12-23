@@ -125,7 +125,7 @@ export default function Footer() {
             <FooterLink text="Privacy Policy" href="/privacy-policy" />
             <FooterLink text="Terms of Use" href="/terms" />
             <FooterLink text="Shipping & Payments" href="/shipping-payments" />
-            <FooterLink text="Refunds & Returns" href="/refunds-returns" />
+            
             <FooterLink text="Accessibility" href="/accessibility" />
             <FooterLink text="Reward Program Terms" href="/rewards-terms" />
           </FooterColumn>

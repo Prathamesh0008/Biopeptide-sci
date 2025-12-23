@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -13,6 +15,28 @@ export default function LoginPage() {
     email: "",
     password: "",
   });
+
+  const mergeGuestCartToUser = (user) => {
+  const guestCart = JSON.parse(localStorage.getItem("guest-cart") || "[]");
+  if (!guestCart.length) return;
+
+  const userCartKey = `bio-cart-${user.email}`;
+  const userCart = JSON.parse(localStorage.getItem(userCartKey) || "[]");
+
+  const merged = [...userCart];
+
+  guestCart.forEach((g) => {
+    const existing = merged.find((u) => u.id === g.id);
+    if (existing) {
+      existing.qty += g.qty;
+    } else {
+      merged.push(g);
+    }
+  });
+
+  localStorage.setItem(userCartKey, JSON.stringify(merged));
+  localStorage.removeItem("guest-cart");
+};
 
   const submitLogin = async () => {
     if (!form.email || !form.password) {
@@ -39,14 +63,19 @@ export default function LoginPage() {
   return;
 }
 
+
+
 // save user for frontend
 localStorage.setItem("bio-user", JSON.stringify(data.user));
+mergeGuestCartToUser(data.user);
+
 
 // admin flow
 if (data.user.role === "admin") {
   router.push("/admin/dashboard");
   return;
 }
+
 
 // return to intended page (checkout/cart)
 const next = localStorage.getItem("bio-after-login");
@@ -62,6 +91,8 @@ router.push("/profile");
   };
 
   return (
+    <>
+    <Navbar/>
     <main className="min-h-screen bg-gradient-to-br from-white via-[#e8f7ff] to-[#d6ffe9] flex items-center justify-center p-6 relative overflow-hidden">
 
       {/* Floating background */}
@@ -146,5 +177,7 @@ router.push("/profile");
         </div>
       </motion.div>
     </main>
+    <Footer/>
+    </>
   );
 }

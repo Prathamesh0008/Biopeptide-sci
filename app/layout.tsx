@@ -1,26 +1,9 @@
-//peptides\app\layout.tsx
-
 import "./globals.css";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import type { Metadata } from "next";
 
-// ⭐ SEO + Metadata For Your Brand
 export const metadata: Metadata = {
-  title: "BioPeptide – Premium Research Peptides",
-  description:
-    "BioPeptide provides high-purity peptides, amino acids, and advanced research compounds with full transparency and scientific quality.",
-  openGraph: {
-    title: "BioPeptide – Premium Research Peptides",
-    description:
-      "Shop high-quality peptides, amino acids, blends, and proteins for scientific research.",
-    type: "website",
-    url: "https://www.biopeptide.com",
-    siteName: "BioPeptide",
-  },
-  icons: {
-    icon: "/favicon.ico",
-  },
+  title: "BioPeptide",
+  description: "Premium Research Peptides • High Purity • Fast Shipping",
 };
 
 export default function RootLayout({
@@ -30,15 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className=" text-gray-900">
-        {/* FIXED NAVBAR */}
-        <Navbar />
-
-        {/* PAGE CONTENT */}
-        <main>{children}</main>
-
-        <Footer />
+      <body className="text-gray-900">
+        {/* Layout should NOT contain navbar/footer */}
+        {children}
       </body>
     </html>
   );
-}  
+}

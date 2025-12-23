@@ -4,6 +4,8 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function RegisterPage() {
   const router = useRouter();
@@ -41,6 +43,8 @@ export default function RegisterPage() {
   };
 
   return (
+    <>
+    <Navbar/>
     <main
   className="
     min-h-[calc(100vh-104px)]
@@ -136,5 +140,7 @@ export default function RegisterPage() {
         </p>
       </motion.div>
     </main>
+    <Footer/>
+    </>
   );
 }

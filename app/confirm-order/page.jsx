@@ -3,6 +3,8 @@
 
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function ConfirmOrderPage() {
   const router = useRouter();
@@ -54,10 +56,14 @@ export default function ConfirmOrderPage() {
   }, [router]);
 
   return (
+    <>
+    <Navbar/>
     <main className="min-h-[60vh] flex items-center justify-center">
       <p className="text-lg font-medium text-gray-600">
         Processing your order…
       </p>
     </main>
+    <Footer/>
+    </>
   );
 }

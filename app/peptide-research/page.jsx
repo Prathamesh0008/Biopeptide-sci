@@ -6,6 +6,8 @@ import Image from "next/image";
 import ResearchSidebar from "@/components/ResearchSidebar";
 import { useEffect } from "react";
 import { RESEARCH_PAGES } from "@/data/researchPages";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function PeptideResearchPage() {
   const searchParams = useSearchParams();
@@ -45,6 +47,8 @@ export default function PeptideResearchPage() {
   const paginationNumbers = getPagination();
 
   return (
+    <>
+    <Navbar/>
     <main className="min-h-screen bg-white">
 
       {/* ---------------------- HERO ---------------------- */}
@@ -187,5 +191,7 @@ export default function PeptideResearchPage() {
         </div>
       </section>
     </main>
+    <Footer/>
+    </>
   );
 }

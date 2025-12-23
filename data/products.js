@@ -4200,7 +4200,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/pt-141.png"
+  image: "/images/product.png"
 },
 {
   id: "pt-141-10mg",
@@ -4235,7 +4235,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/pt-141-10mg.png"
+  image: "/images/product.png"
 },
 {
   id: "repair-and-recovery-60-capsules",
@@ -4270,7 +4270,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/repair-and-recovery.png"
+  image: "/images/product.png"
 },
 {
   id: "rigin-200mg-palmitoyl-tetrapeptide-7-topical",
@@ -4305,7 +4305,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/rigin-palmitoyl-tetrapeptide-7.png"
+  image: "/images/product.png"
 },
 {
   id: "selank-10mg",
@@ -4340,7 +4340,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/selank-10mg.png"
+  image: "/images/product.png"
 },
 {
   id: "semax-30mg",
@@ -4375,7 +4375,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/semax-30mg.png"
+  image: "/images/product.png"
 },
 {
   id: "sermorelin-ghrp-2-10mg-blend",
@@ -4410,7 +4410,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/sermorelin-ghrp-2-blend.png"
+  image: "/images/product.png"
 },
 {
   id: "sermorelin-ghrp-6-10mg-blend",
@@ -4445,7 +4445,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/sermorelin-ghrp-6-blend.png"
+  image: "/images/product.png"
 },
 {
   id: "sermorelin-ghrp-6-ghrp-2-9mg-blend",
@@ -4480,7 +4480,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/sermorelin-ghrp-6-ghrp-2-blend.png"
+  image: "/images/product.png"
 },
 {
   id: "sermorelin-ipamorelin-10mg-blend",
@@ -4515,7 +4515,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/sermorelin-ipamorelin-blend.png"
+  image: "/images/product.png"
 },
 {
   id: "sermorelin-2mg",
@@ -4550,7 +4550,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/sermorelin-2mg.png"
+  image: "/images/product.png"
 },
 {
   id: "sermorelin-5mg",
@@ -4585,7 +4585,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/sermorelin-2mg.png"
+  image: "/images/product.png"
 },
 {
   id: "sermorelin-15mg",
@@ -4620,7 +4620,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/sermorelin-2mg.png"
+  image: "/images/product.png"
 },
 {
   id: "slu-pp-332-capsules-250mcg",
@@ -4655,7 +4655,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/slu-pp-332-capsules.png"
+  image: "/images/product.png"
 },
 {
   id: "snap-8-200mg-topical",
@@ -4690,7 +4690,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/snap-8-acetyl-octapeptide-3.png"
+  image: "/images/product.png"
 },
 {
   id: "syn-ake-200mg-topical",
@@ -4725,7 +4725,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/syn-ake-dipeptide.png"
+  image: "/images/product.png"
 },
 {
   id: "syn-coll-palmitoyl-tripeptide-5-200mg-topical",
@@ -4760,7 +4760,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/syn-coll-palmitoyl-tripeptide-5.png"
+  image: "/images/product.png"
 },
 {
   id: "tb-500-2mg-10-vial-kit",
@@ -4795,7 +4795,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/tb-500-2mg-10-vial-kit.png"
+  image: "/images/product.png"
 },
 {
   id: "tb-500-5mg",
@@ -4830,7 +4830,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/tb-500-5mg.png"
+  image: "/images/product.png"
 },
 {
   id: "tb-500-fragment-17-23-10mg",
@@ -4865,7 +4865,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/tb-500-fragment-17-23-10mg.png"
+  image: "/images/product.png"
 },
 {
   id: "tesamorelin-cjc1295-ipamorelin-12mg-blend",
@@ -4900,7 +4900,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/tesamorelin-cjc1295-ipamorelin-blend.png"
+  image: "/images/product.png"
 },
 {
   id: "tesamorelin-ipamorelin-8mg-blend",
@@ -4935,7 +4935,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/tesamorelin-ipamorelin-blend.png"
+  image: "/images/product.png"
 },
 {
   id: "tesamorelin-2mg-10-vial-kit",
@@ -4970,7 +4970,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/tesamorelin-2mg-10-vial-kit.png"
+  image: "/images/product.png"
 },
 {
   id: "tesamorelin-5mg",
@@ -5005,7 +5005,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/tesamorelin-5mg.png"
+  image: "/images/product.png"
 },
 {
   id: "tesofensine-500mcg-30-capsules",
@@ -5040,7 +5040,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/tesofensine-500mcg-capsules.png"
+  image: "/images/product.png"
 },
 {
   id: "testagen-20mg-bioregulator",
@@ -5075,7 +5075,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/testagen-20mg.png"
+  image: "/images/product.png"
 },
 {
   id: "thymagen-20mg-bioregulator",
@@ -5110,7 +5110,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/thymagen-20mg.png"
+  image: "/images/product.png"
 },
 {
   id: "thymalin-20mg",
@@ -5145,7 +5145,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/thymalin-20mg.png"
+  image: "/images/product.png"
 },
 {
   id: "thymosin-alpha-1-3mg",
@@ -5180,7 +5180,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/thymosin-alpha-1-3mg.png"
+  image: "/images/product.png"
 },
 {
   id: "thymosin-alpha-1-10mg",
@@ -5215,7 +5215,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/thymosin-alpha-1-10mg.png"
+  image: "/images/product.png"
 },
 {
   id: "trh-thyrotropin-protirelin-20mg",
@@ -5250,7 +5250,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/trh-thyrotropin-protirelin-20mg.png"
+  image: "/images/product.png"
 },
 {
   id: "trh-thyrotropin-protirelin-50mg",
@@ -5285,7 +5285,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/trh-thyrotropin-protirelin-50mg.png"
+  image: "/images/product.png"
 },
 {
   id: "tripeptide-29-200mg-collagen-peptide-topical",
@@ -5320,7 +5320,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/tripeptide-29-collagen-peptide.png"
+  image: "/images/product.png"
 },
 {
   id: "triptorelin-gnrh-2mg",
@@ -5355,7 +5355,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/triptorelin-gnrh-2mg.png"
+  image: "/images/product.png"
 },
 {
   id: "vesilute-20mg-bioregulator",
@@ -5390,7 +5390,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/vesilute-20mg.png"
+  image: "/images/product.png"
 },
 {
   id: "vesugen-20mg-bioregulator",
@@ -5425,7 +5425,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/vesugen-20mg.png"
+  image: "/images/product.png"
 },
 {
   id: "vialox-pentapeptide-3v-200mg-topical",
@@ -5460,7 +5460,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/vialox-pentapeptide-3v.png"
+  image: "/images/product.png"
 },
 {
   id: "vilon-20mg",
@@ -5495,7 +5495,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/vilon-20mg.png"
+  image: "/images/product.png"
 },
 {
   id: "vip-6mg",
@@ -5530,7 +5530,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/vip-6mg.png"
+  image: "/images/product.png"
 }
 
 

@@ -17,22 +17,24 @@ export default function ProductCard({ product }) {
   };
 
   const addToCart = () => {
-  const user = localStorage.getItem("bio-user");
+  // ✅ allow guest + user cart
+  const storedUser = localStorage.getItem("bio-user");
 
-  // 🚨 FORCE LOGIN FIRST
-  if (!user) {
-    localStorage.setItem("bio-after-login", `/product/${product.slug}`);
-    router.push("/login");
-    return;
+  let cartKey = "guest-cart";
+
+  if (storedUser) {
+    const user = JSON.parse(storedUser);
+    cartKey = `bio-cart-${user.email}`;
   }
 
-  const existing = JSON.parse(localStorage.getItem("bio-cart") || "[]");
-  const found = existing.find((item) => item.id === product.id);
+  const cart = JSON.parse(localStorage.getItem(cartKey) || "[]");
+
+  const found = cart.find((item) => item.id === product.id);
 
   if (found) {
     found.qty += 1;
   } else {
-    existing.push({
+    cart.push({
       id: product.id,
       name: product.name,
       price: product.price,
@@ -43,14 +45,13 @@ export default function ProductCard({ product }) {
     });
   }
 
-  localStorage.setItem("bio-cart", JSON.stringify(existing));
+  localStorage.setItem(cartKey, JSON.stringify(cart));
 
   setPageLoading(true);
   setTimeout(() => {
     router.push("/cart");
   }, 500);
 };
-
 
   return (
     <>

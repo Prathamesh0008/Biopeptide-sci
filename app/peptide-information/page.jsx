@@ -4,9 +4,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { INFO_ARTICLES } from "@/data/information";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function PeptideInformationPage() {
   return (
+    <>
+    <Navbar/>
     <main className="min-h-screen bg-white text-gray-800">
 
       {/* HERO BANNER */}
@@ -101,5 +105,7 @@ export default function PeptideInformationPage() {
 
       </div>
     </main>
+    <Footer/>
+    </>
   );
 }

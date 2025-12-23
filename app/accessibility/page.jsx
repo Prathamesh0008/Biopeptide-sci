@@ -1,7 +1,11 @@
 "use client";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function AccessibilityStatementPage() {
   return (
+    <>
+    <Navbar/>
     <main className="bg-white">
       {/* HEADER */}
       <section className="border-b border-gray-200 bg-gradient-to-b from-[#f6fdfc] to-white">
@@ -73,6 +77,8 @@ export default function AccessibilityStatementPage() {
         </Section>
       </section>
     </main>
+    <Footer/>
+    </>
   );
 }
 

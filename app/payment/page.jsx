@@ -3,6 +3,8 @@
 
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function PaymentPage() {
   const router = useRouter();
@@ -21,6 +23,8 @@ export default function PaymentPage() {
   if (!data) return null;
 
   return (
+    <>
+    <Navbar/>
     <main className="max-w-5xl mx-auto px-4 sm:px-6 py-14">
       <h1 className="text-3xl font-bold text-[#0d2d47] mb-10">
         Payment
@@ -114,6 +118,8 @@ export default function PaymentPage() {
         </div>
       </div>
     </main>
+    <Footer/>
+    </>
   );
 }
 

@@ -1,3 +1,4 @@
+//app\page.tsx
 "use client";
 
 import { useState } from "react";
@@ -7,12 +8,15 @@ import Sidebar from "@/components/Sidebar";
 import ProductGrid from "@/components/ProductGrid";
 import DrawerProducts from "@/components/DrawerProducts";
 import AboutSection from "@/components/AboutSection";
+import Navbar from "@/components/Navbar";
+import Footer from"@/components/Footer";
 
 export default function HomePage() {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   return (
     <>
+    <Navbar/>
       {/* MOBILE BUTTON */}
       <button
         onClick={() => setDrawerOpen(true)}
@@ -57,6 +61,7 @@ export default function HomePage() {
       <AboutSection />
 
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
+      <Footer/>
     </>
   );
 }

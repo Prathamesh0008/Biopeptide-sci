@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { INFO_ARTICLES } from "@/data/information";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default async function ArticleDetailPage({ params }) {
   const { slug } = await params; // <-- NOW VALID because function is async
@@ -15,6 +17,8 @@ export default async function ArticleDetailPage({ params }) {
   }
 
   return (
+    <>
+    <Navbar/>
     <main className="min-h-screen bg-white text-gray-800">
       {/* HERO */}
       <div className="relative w-full h-[320px] md:h-[400px] overflow-hidden">
@@ -50,5 +54,7 @@ export default async function ArticleDetailPage({ params }) {
         </a>
       </div>
     </main>
+    <Footer/>
+    </>
   );
 }

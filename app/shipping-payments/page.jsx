@@ -1,7 +1,11 @@
 "use client";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function CustomerServicePage() {
   return (
+    <>
+    <Navbar/>
     <main className="bg-white">
       {/* HEADER */}
       <section className="border-b border-gray-200 bg-gradient-to-b from-[#f6fdfc] to-white">
@@ -140,6 +144,8 @@ export default function CustomerServicePage() {
         </div>
       </section>
     </main>
+    <Footer/>
+    </>
   );
 }
 

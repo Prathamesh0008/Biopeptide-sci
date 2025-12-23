@@ -3,6 +3,8 @@
 
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function CheckoutPage() {
   const router = useRouter();
@@ -22,30 +24,58 @@ export default function CheckoutPage() {
   country: "India",
   });
 useEffect(() => {
-  const user = localStorage.getItem("bio-user");
-  if (!user) {
+  const userStr = localStorage.getItem("bio-user");
+  if (!userStr) {
     localStorage.setItem("bio-after-login", "/checkout");
     router.push("/login");
     return;
   }
+
+  const user = JSON.parse(userStr);
 
   const savedCart = JSON.parse(localStorage.getItem("bio-cart") || "[]");
   if (savedCart.length === 0) {
     router.push("/cart");
     return;
   }
-
   setCart(savedCart);
+
+  // ✅ 1) Try saved address from previous order
+  const savedAddrStr = user?.email
+    ? localStorage.getItem(`bio-address:${user.email}`)
+    : null;
+
+  if (savedAddrStr) {
+    const savedAddr = JSON.parse(savedAddrStr);
+
+    setForm((prev) => ({
+      ...prev,
+      ...savedAddr,                 // address fields
+      email: savedAddr.email || user.email || prev.email,
+      fullName: savedAddr.fullName || user.name || prev.fullName,
+      phone: savedAddr.phone || user.phone || prev.phone,
+    }));
+    return;
+  }
+
+  // ✅ 2) Fallback: prefill from user object
+  setForm((prev) => ({
+    ...prev,
+    fullName: user?.name || prev.fullName,
+    email: user?.email || prev.email,
+    phone: user?.phone || prev.phone,
+  }));
 }, [router]);
 
-  useEffect(() => {
-    const savedCart = JSON.parse(localStorage.getItem("bio-cart") || "[]");
-    if (savedCart.length === 0) {
-      router.push("/cart");
-      return;
-    }
-    setCart(savedCart);
-  }, [router]);
+
+  // useEffect(() => {
+  //   const savedCart = JSON.parse(localStorage.getItem("bio-cart") || "[]");
+  //   if (savedCart.length === 0) {
+  //     router.push("/cart");
+  //     return;
+  //   }
+  //   setCart(savedCart);
+  // }, [router]);
 
   const subtotal = cart.reduce(
     (sum, item) => sum + item.price * item.qty,
@@ -82,6 +112,12 @@ const isValidEmail = (email) => {
     subtotal,
   })
 );
+// ✅ Save address for future prefill (per-user)
+const u = JSON.parse(localStorage.getItem("bio-user") || "{}");
+if (u?.email) {
+  localStorage.setItem(`bio-address:${u.email}`, JSON.stringify(form));
+}
+
 
 
   router.push("/payment");
@@ -123,6 +159,8 @@ const INDIAN_STATES = [
 ];
 
   return (
+    <>
+    <Navbar/>
     <main className="max-w-7xl mx-auto px-4 sm:px-6 py-10">
       <h1 className="text-3xl font-bold mb-8 text-[#0d2d47]">
         Checkout
@@ -338,5 +376,7 @@ const INDIAN_STATES = [
         </div>
       </div>
     </main>
+    <Footer/>
+    </>
   );
 }

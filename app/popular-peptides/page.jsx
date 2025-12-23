@@ -5,9 +5,11 @@ import Sidebar from "@/components/Sidebar";
 import ProductCard from "@/components/ProductCard";
 import { PRODUCTS } from "@/data/products";
 import { useState } from "react";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function PopularPeptidesPage() {
-  const [sort, setSort] = useState("default");
+  
 
   // FILTER POPULAR PRODUCTS
   const popular = PRODUCTS.filter(
@@ -15,14 +17,12 @@ export default function PopularPeptidesPage() {
   );
 
   // SORTING
-  const sorted = [...popular].sort((a, b) => {
-    if (sort === "low-high") return a.price - b.price;
-    if (sort === "high-low") return b.price - a.price;
-    if (sort === "name") return a.name.localeCompare(b.name);
-    return 0;
-  });
+ 
 
   return (
+
+    <>
+    <Navbar/>
    <main className="min-h-screen bg-white py-12">
 
       {/* PAGE TITLE */}
@@ -47,35 +47,24 @@ export default function PopularPeptidesPage() {
         {/* RIGHT CONTENT */}
         <div className="lg:col-span-3">
 
-          {/* SORT BAR */}
-          <div className="flex items-center justify-between mb-6">
-            <p className="text-sm text-gray-700">
-              Showing {sorted.length} products
-            </p>
+  <p className="text-sm text-gray-700 mb-6">
+    Showing {popular.length} products
+  </p>
 
-            <select
-              value={sort}
-              onChange={(e) => setSort(e.target.value)}
-              className="border border-gray-300 text-sm rounded-md px-3 py-2"
-            >
-              <option value="default">Sort By</option>
-              <option value="low-high">Price: Low → High</option>
-              <option value="high-low">Price: High → Low</option>
-              <option value="name">Name: A → Z</option>
-            </select>
-          </div>
+  <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-8">
+    {popular.map((product) => (
+      <ProductCard
+        key={`${product.id}-${product.slug}`}
+        product={product}
+      />
+    ))}
+  </div>
 
-          {/* GRID */}
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {sorted.map((product) => (
-          <ProductCard key={`${product.id}-${product.slug}`} product={product} />
-        ))}
-      </div>
-
-
-        </div>
+</div>
 
       </div>
     </main>
+    <Footer/>
+    </>
   );
 }

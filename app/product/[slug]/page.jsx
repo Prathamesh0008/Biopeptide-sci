@@ -7,6 +7,8 @@ import { useEffect } from "react";
 import { useParams } from "next/navigation";
 import { PRODUCTS } from "@/data/products";
 import ProductContent from "@/components/ProductContent";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function ProductPage() {
   // ⭐ Correct way in client components
@@ -50,6 +52,8 @@ export default function ProductPage() {
   }
 
   return (
+    <>
+    <Navbar/>
     <main className="min-h-screen bg-white pt-10 pb-20">
 
       {/* BACK BUTTON */}
@@ -164,5 +168,7 @@ export default function ProductPage() {
       <ProductContent product={product} />
 
     </main>
+    <Footer/>
+    </>
   );
 }

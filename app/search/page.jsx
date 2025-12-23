@@ -3,6 +3,8 @@
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { PRODUCTS } from "@/data/products";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 
 export default function SearchPage() {
@@ -15,6 +17,8 @@ export default function SearchPage() {
   );
 
   return (
+    <>
+    <Navbar/>
     <section className="max-w-5xl mx-auto px-6 py-12">
       <h1 className="text-3xl font-bold mb-6">
         Search results for: <span className="text-bioBlue">{query}</span>
@@ -38,5 +42,7 @@ export default function SearchPage() {
         </div>
       )}
     </section>
+    <Footer/>
+    </>
   );
 }

@@ -51,7 +51,7 @@ export default function AdminDashboard() {
           Admin Overview
         </p>
         <p className="text-sm text-gray-600">
-          Manage orders, users, products, and monitor platform performance.
+          Manage orders, users,  and monitor platform performance.
         </p>
       </div>
     </>

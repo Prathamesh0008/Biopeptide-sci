@@ -8,6 +8,8 @@ import Loader from "@/components/Loader";
 import Sidebar from "@/components/Sidebar";
 import { PRODUCTS } from "@/data/products";
 import { BUNDLES } from "@/data/bundles";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function BundleDetailPage() {
   const { id } = useParams();
@@ -65,6 +67,8 @@ export default function BundleDetailPage() {
   if (loading || !bundle) return <Loader />;
 
   return (
+    <>
+    <Navbar/>
     <main className="bg-white min-h-screen">
 
       {/* ⭐ HERO — Compact, centered, responsive */}
@@ -263,5 +267,7 @@ export default function BundleDetailPage() {
       </section>
 
     </main>
+    <Footer/>
+    </>
   );
 }

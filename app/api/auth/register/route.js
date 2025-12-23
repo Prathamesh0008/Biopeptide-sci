@@ -1,4 +1,5 @@
 //app\api\auth\register\route.js
+import { NextResponse } from "next/server";
 import dbConnect from "@/lib/dbConnect";
 import User from "@/models/User";
 import bcrypt from "bcryptjs";
@@ -7,21 +8,21 @@ export async function POST(req) {
   try {
     await dbConnect();
 
-    const body = await req.json();
-    const { name, email, password } = body;
+    const { name, email, password } = await req.json();
+const normalizedEmail = email.toLowerCase();
 
-    console.log("REGISTER BODY:", body);
+    console.log("REGISTER BODY:", { name, email });
 
     if (!email || !password) {
-      return Response.json(
+      return NextResponse.json(
         { ok: false, error: "Email and password required" },
         { status: 400 }
       );
     }
 
-    const existing = await User.findOne({ email });
+    const existing = await User.findOne({ email: normalizedEmail });
     if (existing) {
-      return Response.json(
+      return NextResponse.json(
         { ok: false, error: "User already exists" },
         { status: 400 }
       );
@@ -29,20 +30,19 @@ export async function POST(req) {
 
     const passwordHash = await bcrypt.hash(password, 10);
 
-    const user = await User.create({
-      name: name || "",
-      email,
-      passwordHash,
-      role: "user",
-    });
+    await User.create({
+  name: name || "",
+  email: normalizedEmail,
+  passwordHash,
+  role: "user",
+});
 
-    console.log("USER CREATED:", user._id);
 
-    return Response.json({ ok: true });
+    return NextResponse.json({ ok: true });
   } catch (err) {
     console.error("REGISTER_ERROR:", err);
-    return Response.json(
-      { ok: false, error: "Server error" },
+    return NextResponse.json(
+      { ok: false, error: err.message || "Server error" },
       { status: 500 }
     );
   }

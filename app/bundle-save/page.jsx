@@ -9,7 +9,8 @@ import Loader from "@/components/Loader";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useEffect } from "react";
-
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 
 
@@ -23,6 +24,9 @@ export default function BundleSavePage() {
   }));
 
   return (
+
+    <>
+    <Navbar/>
     <main className="min-h-screen bg-white">
         {loading && <Loader />}
 
@@ -149,5 +153,7 @@ export default function BundleSavePage() {
 
       </div>
     </main>
+    <Footer/>
+    </>
   );
 }

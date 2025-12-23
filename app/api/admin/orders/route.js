@@ -1,4 +1,6 @@
-//app\api\admin\orders\route.js
+// app/api/admin/orders/route.js
+export const dynamic = "force-dynamic";
+
 import dbConnect from "@/lib/dbConnect";
 import Order from "@/models/Order";
 import { requireAdmin } from "@/lib/requireAdmin";
