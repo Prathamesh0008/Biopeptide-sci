@@ -7,17 +7,36 @@ import { useEffect, useState } from "react";
 export default function CheckoutPage() {
   const router = useRouter();
   const [cart, setCart] = useState([]);
-  const [user, setUser] = useState(null);
-  const [loading, setLoading] = useState(false);
+  const [emailError, setEmailError] = useState("");
+
 
   const [form, setForm] = useState({
     fullName: "",
-    phone: "",
-    address: "",
-    city: "",
-    pincode: "",
-    country: "India",
+  email: "",
+  phone: "",
+  house: "",
+  area: "",
+  city: "",
+  state: "",
+  pincode: "",
+  country: "India",
   });
+useEffect(() => {
+  const user = localStorage.getItem("bio-user");
+  if (!user) {
+    localStorage.setItem("bio-after-login", "/checkout");
+    router.push("/login");
+    return;
+  }
+
+  const savedCart = JSON.parse(localStorage.getItem("bio-cart") || "[]");
+  if (savedCart.length === 0) {
+    router.push("/cart");
+    return;
+  }
+
+  setCart(savedCart);
+}, [router]);
 
   useEffect(() => {
     const savedCart = JSON.parse(localStorage.getItem("bio-cart") || "[]");
@@ -26,137 +45,277 @@ export default function CheckoutPage() {
       return;
     }
     setCart(savedCart);
-
-    const storedUser = localStorage.getItem("bio-user");
-    if (!storedUser) {
-      router.push("/login");
-      return;
-    }
-
-    const u = JSON.parse(storedUser);
-    setUser(u);
-    setForm((f) => ({ ...f, fullName: u.name || "" }));
   }, [router]);
 
   const subtotal = cart.reduce(
     (sum, item) => sum + item.price * item.qty,
     0
   );
+const isValidEmail = (email) => {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+};
 
-  const placeOrder = async () => {
-    if (!form.fullName || !form.phone || !form.address) {
-      alert("Please fill all required fields");
-      return;
-    }
+ const goToPayment = () => {
+  if (!isValidEmail(form.email)) {
+    setEmailError("Please enter a valid email address");
+    return;
+  }
 
-    setLoading(true);
+  if (
+    !form.fullName ||
+    !form.phone ||
+    !form.house ||
+    !form.city ||
+    !form.state ||
+    !form.pincode
+  ) {
+    alert("Please fill all required address details");
+    return;
+  }
 
-    try {
-      const res = await fetch("/api/orders", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          userId: user._id,
-          userName: user.name,
-          userEmail: user.email,
-          phone: form.phone,
-          address: form,
-          items: cart,
-          totals: {
-            subtotal,
-            shipping: 0,
-            tax: 0,
-            total: subtotal,
-          },
-        }),
-      });
+  localStorage.setItem(
+  "bio-checkout",
+  JSON.stringify({
+    user: JSON.parse(localStorage.getItem("bio-user")),
+    form,
+    cart,
+    subtotal,
+  })
+);
 
-      const data = await res.json();
 
-      if (!data.ok) {
-        alert("Order failed");
-        setLoading(false);
-        return;
-      }
+  router.push("/payment");
+};
 
-      localStorage.removeItem("bio-cart");
-      router.push(`/order-success?orderId=${data.orderId}`);
-    } catch (err) {
-      alert("Order failed");
-      setLoading(false);
-    }
-  };
+const INDIAN_STATES = [
+  "Andhra Pradesh",
+  "Arunachal Pradesh",
+  "Assam",
+  "Bihar",
+  "Chhattisgarh",
+  "Goa",
+  "Gujarat",
+  "Haryana",
+  "Himachal Pradesh",
+  "Jharkhand",
+  "Karnataka",
+  "Kerala",
+  "Madhya Pradesh",
+  "Maharashtra",
+  "Manipur",
+  "Meghalaya",
+  "Mizoram",
+  "Nagaland",
+  "Odisha",
+  "Punjab",
+  "Rajasthan",
+  "Sikkim",
+  "Tamil Nadu",
+  "Telangana",
+  "Tripura",
+  "Uttar Pradesh",
+  "Uttarakhand",
+  "West Bengal",
+  "Delhi",
+  "Jammu and Kashmir",
+  "Ladakh",
+  "Puducherry",
+];
 
   return (
-    <main className="max-w-6xl mx-auto px-6 py-10">
-      <h1 className="text-3xl font-bold mb-8">Checkout</h1>
+    <main className="max-w-7xl mx-auto px-4 sm:px-6 py-10">
+      <h1 className="text-3xl font-bold mb-8 text-[#0d2d47]">
+        Checkout
+      </h1>
 
-      <div className="grid md:grid-cols-3 gap-8">
-        {/* LEFT — FORM */}
-        <div className="md:col-span-2 space-y-4">
-          <input
-            placeholder="Full Name"
-            className="border p-3 rounded w-full"
-            value={form.fullName}
-            onChange={(e) =>
-              setForm({ ...form, fullName: e.target.value })
-            }
-          />
+      <div className="grid lg:grid-cols-3 gap-8">
 
-          <input
-            className="border p-3 rounded w-full bg-gray-100"
-            value={user?.email || ""}
-            disabled
-          />
+        {/* LEFT – FORM */}
+        <div className="lg:col-span-2 bg-white rounded-2xl shadow p-6 sm:p-8">
+          <h2 className="text-xl font-semibold mb-6">
+            Shipping Information
+          </h2>
 
-          <input
-            placeholder="Phone"
-            className="border p-3 rounded w-full"
-            value={form.phone}
-            onChange={(e) =>
-              setForm({ ...form, phone: e.target.value })
-            }
-          />
+          <div className="grid gap-5">
 
-          <textarea
-            placeholder="Full Address"
-            className="border p-3 rounded w-full"
-            value={form.address}
-            onChange={(e) =>
-              setForm({ ...form, address: e.target.value })
-            }
-          />
+            {/* FULL NAME */}
+            <div>
+              <label className="block text-sm font-medium mb-1">
+                Full Name
+              </label>
+              <input
+                type="text"
+                className="w-full border rounded-lg px-4 py-3 text-base"
+                value={form.fullName}
+                onChange={(e) =>
+                  setForm({ ...form, fullName: e.target.value })
+                }
+              />
+            </div>
 
-          <div className="grid grid-cols-2 gap-4">
-            <input
-              placeholder="City"
-              className="border p-3 rounded"
-              value={form.city}
-              onChange={(e) =>
-                setForm({ ...form, city: e.target.value })
-              }
+            {/* EMAIL */}
+            <div>
+  <label className="block text-sm font-medium mb-1">
+    Email
+  </label>
+  <input
+    type="email"
+    className={`w-full border rounded-lg px-4 py-3 text-base
+      ${emailError ? "border-red-500" : ""}`}
+    value={form.email}
+    onChange={(e) => {
+      setForm({ ...form, email: e.target.value });
+      setEmailError("");
+    }}
+    onBlur={() => {
+      if (form.email && !isValidEmail(form.email)) {
+        setEmailError("Please enter a valid email address");
+      }
+    }}
+  />
+  {emailError && (
+    <p className="text-sm text-red-500 mt-1">
+      {emailError}
+    </p>
+  )}
+</div>
+
+
+            {/* PHONE */}
+            <div>
+              <label className="block text-sm font-medium mb-1">
+                Mobile Number
+              </label>
+              <input
+              type="tel"
+              inputMode="numeric"
+              maxLength={10}
+              className="w-full border rounded-lg px-4 py-3 text-base"
+              value={form.phone}
+              onChange={(e) => {
+                const digits = e.target.value.replace(/\D/g, "");
+                if (digits.length <= 10) {
+                  setForm({ ...form, phone: digits });
+                }
+              }}
             />
-            <input
-              placeholder="Pincode"
-              className="border p-3 rounded"
-              value={form.pincode}
-              onChange={(e) =>
-                setForm({ ...form, pincode: e.target.value })
-              }
-            />
+            </div>
+
+            {/* ADDRESS DETAILS */}
+<div className="grid gap-5">
+
+  {/* HOUSE / STREET */}
+  <div>
+    <label className="block text-sm font-medium mb-1">
+      House / Flat / Street
+    </label>
+    <input
+      type="text"
+      className="w-full border rounded-lg px-4 py-3 text-base"
+      value={form.house}
+      onChange={(e) =>
+        setForm({ ...form, house: e.target.value })
+      }
+    />
+  </div>
+
+  {/* AREA / LANDMARK */}
+  <div>
+    <label className="block text-sm font-medium mb-1">
+      Area / Landmark
+    </label>
+    <input
+      type="text"
+      className="w-full border rounded-lg px-4 py-3 text-base"
+      value={form.area}
+      onChange={(e) =>
+        setForm({ ...form, area: e.target.value })
+      }
+    />
+  </div>
+
+  {/* CITY + STATE */}
+  <div className="grid sm:grid-cols-2 gap-4">
+    <div>
+      <label className="block text-sm font-medium mb-1">
+        City
+      </label>
+      <input
+        type="text"
+        className="w-full border rounded-lg px-4 py-3 text-base"
+        value={form.city}
+        onChange={(e) =>
+          setForm({ ...form, city: e.target.value })
+        }
+      />
+    </div>
+
+    <div>
+      <label className="block text-sm font-medium mb-1">
+        State
+      </label>
+      <select
+        className="w-full border rounded-lg px-4 py-3 text-base bg-white"
+        value={form.state}
+        onChange={(e) =>
+          setForm({ ...form, state: e.target.value })
+        }
+      >
+        <option value="">Select State</option>
+        {INDIAN_STATES.map((s) => (
+          <option key={s} value={s}>
+            {s}
+          </option>
+        ))}
+      </select>
+    </div>
+  </div>
+
+  {/* PINCODE + COUNTRY */}
+  <div className="grid sm:grid-cols-2 gap-4">
+    <div>
+      <label className="block text-sm font-medium mb-1">
+        Pincode
+      </label>
+      <input
+        type="tel"
+        inputMode="numeric"
+        pattern="[0-9]*"
+        maxLength={6}
+        className="w-full border rounded-lg px-4 py-3 text-base"
+        value={form.pincode}
+        onChange={(e) => {
+          const v = e.target.value.replace(/\D/g, "");
+          if (v.length <= 6) {
+            setForm({ ...form, pincode: v });
+          }
+        }}
+      />
+    </div>
+
+    <div>
+      <label className="block text-sm font-medium mb-1">
+        Country
+      </label>
+      <input
+        className="w-full border rounded-lg px-4 py-3 bg-gray-100 text-base"
+        value="India"
+        disabled
+      />
+    </div>
+  </div>
+</div>
           </div>
         </div>
 
-        {/* RIGHT — ORDER SUMMARY */}
-        <div className="border rounded-xl p-6 bg-white shadow-sm h-fit">
+        {/* RIGHT – SUMMARY */}
+        <div className="bg-white rounded-2xl shadow p-6 h-fit">
           <h3 className="font-semibold mb-4">Order Summary</h3>
 
           <div className="space-y-2 text-sm">
             {cart.map((item) => (
               <div key={item.id} className="flex justify-between">
-                <span>
-                  {item.name} × {item.qty}
-                </span>
+                <span>{item.name} × {item.qty}</span>
                 <span>${(item.price * item.qty).toFixed(2)}</span>
               </div>
             ))}
@@ -164,19 +323,17 @@ export default function CheckoutPage() {
 
           <hr className="my-4" />
 
-          <div className="flex justify-between font-semibold">
+          <div className="flex justify-between font-semibold text-lg">
             <span>Total</span>
             <span>${subtotal.toFixed(2)}</span>
           </div>
 
           <button
-            disabled={loading}
-            onClick={placeOrder}
+            onClick={goToPayment}
             className="mt-6 w-full py-3 rounded-full font-semibold text-white
-              bg-gradient-to-r from-bioBlue to-bioGreen
-              disabled:opacity-50"
+              bg-gradient-to-r from-bioBlue to-bioGreen"
           >
-            {loading ? "Placing Order..." : "Place Order"}
+            Continue to Payment
           </button>
         </div>
       </div>

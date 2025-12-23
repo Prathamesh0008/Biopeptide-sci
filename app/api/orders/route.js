@@ -1,10 +1,28 @@
-// app/api/orders/route.js
+//app\api\orders\route.js
 import dbConnect from "@/lib/dbConnect";
 import Order from "@/models/Order";
+import { cookies } from "next/headers";
+import { jwtVerify } from "jose";
+
+const secret = new TextEncoder().encode(process.env.JWT_SECRET);
 
 export async function POST(req) {
   try {
     await dbConnect();
+
+    // ✅ Next.js 16 (Turbopack): cookies() can be async → await it
+    const cookieStore = await cookies();
+    const token = cookieStore.get("auth")?.value;
+
+    if (!token) {
+      return Response.json(
+        { ok: false, error: "Not authenticated" },
+        { status: 401 }
+      );
+    }
+
+    const { payload } = await jwtVerify(token, secret);
+
     const body = await req.json();
 
     if (!body.items || body.items.length === 0) {
@@ -14,18 +32,11 @@ export async function POST(req) {
       );
     }
 
-    if (!body.userId || !body.userEmail) {
-      return Response.json(
-        { ok: false, error: "User not authenticated" },
-        { status: 401 }
-      );
-    }
-
     const order = await Order.create({
-      userId: body.userId,
-      userEmail: body.userEmail,
-      userName: body.userName,
-      phone: body.address?.phone || "",
+      userId: payload.id,
+      userEmail: body.userEmail || "",
+      userName: body.userName || "",
+      phone: body.phone || "",
       address: body.address,
       items: body.items,
       totals: body.totals,
@@ -34,10 +45,10 @@ export async function POST(req) {
 
     return Response.json({
       ok: true,
-      orderId: order._id,
+      orderId: order._id.toString(),
     });
   } catch (err) {
-    console.error("ORDER_CREATE_ERROR:", err);
+    console.error("ORDER_ERROR:", err);
     return Response.json(
       { ok: false, error: "Server error" },
       { status: 500 }

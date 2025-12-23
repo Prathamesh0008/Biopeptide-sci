@@ -3,9 +3,23 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 export default function CartPage() {
   const [cart, setCart] = useState([]);
+  const router = useRouter();
+
+useEffect(() => {
+  const user = localStorage.getItem("bio-user");
+  if (!user) {
+    localStorage.setItem("bio-after-login", "/cart");
+    router.push("/login");
+    return;
+  }
+
+  const saved = JSON.parse(localStorage.getItem("bio-cart") || "[]");
+  setCart(saved);
+}, []);
 
   useEffect(() => {
     const saved = JSON.parse(localStorage.getItem("bio-cart") || "[]");
@@ -119,49 +133,27 @@ export default function CartPage() {
             <span>${subtotal.toFixed(2)}</span>
           </div>
 
-          <button
-  onClick={async () => {
-    try {
-      const res = await fetch("/api/orders", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          userEmail: "guest@biopeptide.com",
-          userName: "Guest User",
-          phone: "",
-          address: {
-            fullName: "Guest User",
-            phone: "",
-            address: "Not provided",
-            city: "",
-            pincode: "",
-            country: "",
-          },
-          items: cart,
-          totals: {
-            subtotal,
-            shipping: 0,
-            tax: 0,
-            total: subtotal,
-          },
-        }),
-      });
+        <button
+  onClick={() => {
+  const cart = JSON.parse(localStorage.getItem("bio-cart") || "[]");
+  if (!cart.length) {
+    alert("Cart is empty");
+    return;
+  }
 
-      const data = await res.json();
+  const user = localStorage.getItem("bio-user");
 
-      if (!res.ok) {
-        alert("Order failed: " + data.error);
-        return;
-      }
+  // ✅ If NOT logged in → go login
+  if (!user) {
+    localStorage.setItem("bio-after-login", "/checkout");
+    window.location.href = "/login";
+    return;
+  }
 
-      localStorage.removeItem("bio-cart");
-      alert("Order placed successfully!");
-      window.location.href = "/";
-    } catch (err) {
-      alert("Order failed");
-      console.error(err);
-    }
-  }}
+  // ✅ If logged in → go checkout
+  window.location.href = "/checkout";
+}}
+
   className="
     w-full 
     py-3 
@@ -176,8 +168,6 @@ export default function CartPage() {
 >
   Proceed to Checkout
 </button>
-
-
         </div>
       </div>
     </div>

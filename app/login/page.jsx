@@ -34,19 +34,31 @@ export default function LoginPage() {
     const data = await res.json();
 
     if (!res.ok || !data.ok) {
-      alert(data.error || "Login failed");
-      setLoading(false);
-      return;
-    }
+  alert(data.error || "Login failed");
+  setLoading(false);
+  return;
+}
 
-    // ✅ NO localStorage for auth
-    // Auth is now stored securely in httpOnly cookie
+// save user for frontend
+localStorage.setItem("bio-user", JSON.stringify(data.user));
 
-    if (data.user.role === "admin") {
-      router.push("/admin/dashboard");
-    } else {
-      router.push("/checkout");
-    }
+// admin flow
+if (data.user.role === "admin") {
+  router.push("/admin/dashboard");
+  return;
+}
+
+// return to intended page (checkout/cart)
+const next = localStorage.getItem("bio-after-login");
+if (next) {
+  localStorage.removeItem("bio-after-login");
+  router.push(next);
+  return;
+}
+
+// normal user → profile
+router.push("/profile");
+
   };
 
   return (

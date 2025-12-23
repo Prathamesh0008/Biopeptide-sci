@@ -17,31 +17,40 @@ export default function ProductCard({ product }) {
   };
 
   const addToCart = () => {
-    const existing = JSON.parse(localStorage.getItem("bio-cart") || "[]");
+  const user = localStorage.getItem("bio-user");
 
-    const found = existing.find((item) => item.id === product.id);
+  // 🚨 FORCE LOGIN FIRST
+  if (!user) {
+    localStorage.setItem("bio-after-login", `/product/${product.slug}`);
+    router.push("/login");
+    return;
+  }
 
-    if (found) {
-      found.qty += 1;
-    } else {
-      existing.push({
-        id: product.id,
-        name: product.name,
-        price: product.price,
-        strength: product.strength,
-        image: product.image,
-        slug: product.slug,
-        qty: 1,
-      });
-    }
+  const existing = JSON.parse(localStorage.getItem("bio-cart") || "[]");
+  const found = existing.find((item) => item.id === product.id);
 
-    localStorage.setItem("bio-cart", JSON.stringify(existing));
+  if (found) {
+    found.qty += 1;
+  } else {
+    existing.push({
+      id: product.id,
+      name: product.name,
+      price: product.price,
+      strength: product.strength,
+      image: product.image,
+      slug: product.slug,
+      qty: 1,
+    });
+  }
 
-    setPageLoading(true);
-    setTimeout(() => {
-      router.push("/cart");
-    }, 500);
-  };
+  localStorage.setItem("bio-cart", JSON.stringify(existing));
+
+  setPageLoading(true);
+  setTimeout(() => {
+    router.push("/cart");
+  }, 500);
+};
+
 
   return (
     <>

@@ -1,22 +1,34 @@
-import { getAuthUser } from "@/lib/auth";
+//app\api\auth\me\route.js
+import { cookies } from "next/headers";
+import { jwtVerify } from "jose";
+
+const secret = new TextEncoder().encode(process.env.JWT_SECRET);
 
 export async function GET() {
-  const user = getAuthUser(); // ✅ NO await
+  try {
+    const cookieStore = await cookies();
+    const token = cookieStore.get("auth")?.value;
 
-  if (!user) {
+    if (!token) {
+      return Response.json(
+        { ok: false, error: "Not authenticated" },
+        { status: 401 }
+      );
+    }
+
+    const { payload } = await jwtVerify(token, secret);
+
+    return Response.json({
+      ok: true,
+      user: {
+        id: payload.id,
+        role: payload.role,
+      },
+    });
+  } catch (err) {
     return Response.json(
-      { ok: false, error: "Not authenticated" },
+      { ok: false, error: "Invalid token" },
       { status: 401 }
     );
   }
-
-  return Response.json({
-    ok: true,
-    user: {
-      id: user.id,
-      email: user.email,
-      name: user.name,
-      role: user.role,
-    },
-  });
 }

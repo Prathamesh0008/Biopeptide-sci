@@ -10,16 +10,13 @@ export default function AdminDashboard() {
   useEffect(() => {
     const loadDashboard = async () => {
       const res = await fetch("/api/admin/dashboard");
-
       if (res.status === 401 || res.status === 403) {
         window.location.href = "/login";
         return;
       }
-
       const data = await res.json();
       setStats(data);
     };
-
     loadDashboard();
   }, []);
 
@@ -29,7 +26,7 @@ export default function AdminDashboard() {
         {[1, 2, 3, 4].map((i) => (
           <div
             key={i}
-            className="bg-white border rounded-xl p-6 shadow-sm animate-pulse h-24"
+            className="h-28 rounded-2xl bg-white/70 backdrop-blur-md animate-pulse shadow"
           />
         ))}
       </div>
@@ -38,19 +35,23 @@ export default function AdminDashboard() {
 
   return (
     <>
-      <h1 className="text-2xl font-bold mb-6">Dashboard</h1>
+      <h1 className="text-3xl font-bold text-[#0d2d47] mb-8">
+        Admin Dashboard
+      </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-10">
         <StatsCard title="Total Orders" value={stats.orders} />
         <StatsCard title="Pending Orders" value={stats.pending} />
         <StatsCard title="Users" value={stats.users} />
         <StatsCard title="Revenue" value={`$${stats.revenue}`} />
       </div>
 
-      <div className="bg-white border rounded-xl p-6 shadow-sm">
-        <p className="font-semibold mb-2">Admin Overview</p>
+      <div className="bg-white/80 backdrop-blur-md rounded-2xl shadow p-8">
+        <p className="font-semibold text-lg mb-2 text-[#0d2d47]">
+          Admin Overview
+        </p>
         <p className="text-sm text-gray-600">
-          Monitor orders, users, revenue, and stock from this panel.
+          Manage orders, users, products, and monitor platform performance.
         </p>
       </div>
     </>

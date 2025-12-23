@@ -1,236 +1,74 @@
-//components\Navbar.jsx
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
-import { FaSearch, FaUser, FaShoppingCart } from "react-icons/fa";
-import { useRouter } from "next/navigation";
 
-export default function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const [query, setQuery] = useState("");
-  const router = useRouter();
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
-  const handleNavigate = (href) => {
-    setLoading(true);
-    setTimeout(() => {
-      router.push(href);
-      setLoading(false);
-      setMenuOpen(false);
-    }, 600);
-  };
+import Hero from "@/components/Hero";
+import Sidebar from "@/components/Sidebar";
+import ProductGrid from "@/components/ProductGrid";
+import DrawerProducts from "@/components/DrawerProducts";
+import AboutSection from "@/components/AboutSection";
 
-  const handleSearch = (e) => {
-    if (e.key === "Enter" && query.trim() !== "") {
-      router.push(`/search?query=${query}`);
-      setMenuOpen(false);
-      setQuery("");
-    }
-  };
+export default function HomePage() {
+  const [drawerOpen, setDrawerOpen] = useState(false);
 
   return (
-    <header
-  className="
-    w-full
-    sticky top-0 z-[999]
-    relative
-    bg-white
-    border-b border-gray-200
-  "
->
+    <>
+      {/* ✅ NAVBAR */}
+      <Navbar />
 
+      <main className="min-h-screen">
 
-
-
-      {/* LOADER */}
-      {loading && (
-        <div className="fixed inset-0 bg-white/90 backdrop-blur-sm flex items-center justify-center z-[9999]">
-          <div className="flex gap-2">
-            <div className="w-2 h-10 bg-bioBlue animate-pulse rounded"></div>
-            <div className="w-2 h-10 bg-bioGreen animate-pulse rounded delay-150"></div>
-            <div className="w-2 h-10 bg-bioBlue animate-pulse rounded delay-300"></div>
-          </div>
-        </div>
-      )}
-
-      {/* TOP TAGLINE */}
-      <div className="w-full h-10 bg-[linear-gradient(to_right,#145b2f,#559f45,#65b4d7,#1a497c)]
-                flex items-center justify-center text-white text-sm md:text-base">
-  <p className="text-[11px] sm:text-[12px] md:text-[14px] font-medium whitespace-nowrap">
-    Premium Research Peptides • High Purity • Fast Shipping
-  </p>
-</div>
-
-
-      {/* MAIN NAVBAR */}
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-6">
-
-        {/* LOGO */}
-        <div
-          onClick={() => handleNavigate("/")}
-          className="flex items-center gap-2 cursor-pointer"
+        {/* MOBILE — vertical tab */}
+        <button
+          onClick={() => setDrawerOpen(true)}
+          className="
+            fixed left-0 top-1/2 -translate-y-1/2 z-50
+            flex md:hidden items-center justify-center shadow-lg
+            bg-gradient-to-b from-bioBlue to-bioGreen text-white font-semibold
+            h-28 w-12 rounded-r-xl
+          "
         >
-          <div className="h-10 w-10 rounded-full bg-bioGreen/90 flex items-center justify-center text-white font-bold text-lg">
-            B
+          <span className="text-sm rotate-180 [writing-mode:vertical-rl] tracking-wide">
+            Product List
+          </span>
+        </button>
+
+        {/* DESKTOP — original horizontal button */}
+        <button
+          onClick={() => setDrawerOpen(true)}
+          className="
+            hidden md:flex fixed left-0 top-1/2 -translate-y-1/2 z-50
+            items-center gap-2 px-4 py-3 rounded-r-full text-sm font-semibold
+            bg-gradient-to-b from-bioBlue to-bioGreen text-white shadow-lg
+          "
+        >
+          Product List
+        </button>
+
+        <Hero />
+
+        <section className="max-w-7xl mx-auto px-6 py-12">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
+            <div className="lg:col-span-1">
+              <Sidebar />
+            </div>
+
+            <div className="lg:col-span-3">
+              <ProductGrid onOpenFilter={() => setDrawerOpen(true)} />
+            </div>
           </div>
-          <span className="text-xl font-semibold tracking-tight text-gray-900">
-  BIOPEPTIDE
-</span>
+        </section>
 
+        <AboutSection />
 
-        </div>
+        <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
+      </main>
 
-        {/* DESKTOP SEARCH */}
-        <div className="flex-1 max-w-2xl mx-auto hidden md:block">
-          <div className="relative">
-            <FaSearch className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 text-sm" />
-            <input
-              type="text"
-              placeholder="Search products or pages..."
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              onKeyDown={handleSearch}
-              className="w-full border border-gray-300 rounded-lg pl-10 pr-4 py-3 text-sm 
-                         focus:ring-2 focus:ring-bioBlue/80 outline-none"
-            />
-          </div>
-        </div>
-
-        {/* DESKTOP ICONS */}
-        <div className="hidden md:flex items-center gap-6 text-sm text-gray-700">
-          <button onClick={() => handleNavigate("/login")} className="flex items-center gap-2 hover:text-bioBlue">
-            <FaUser className="text-gray-600" />
-<span className="text-gray-700">Sign in</span>
-
-          </button>
-
-          <button onClick={() => handleNavigate("/cart")} className="flex items-center gap-2 hover:text-bioBlue">
-            <FaShoppingCart className="text-gray-600" />
-
-            <span>My Cart</span>
-          </button>
-        </div>
-
-        {/* MOBILE ICONS — SEARCH + CART */}
-        <div className="flex md:hidden items-center gap-4 text-xl text-gray-700">
-
-          {/* SEARCH ICON MOBILE */}
-          <button onClick={() => router.push("/search")}>
-            <FaSearch className="text-gray-600" />
-          </button>
-
-          {/* CART ICON MOBILE */}
-          <button onClick={() => handleNavigate("/cart")}>
-            <FaShoppingCart className="text-gray-600" />
-          </button>
-
-          {/* HAMBURGER ANIMATED */}
-          <button
-            className="relative w-8 h-8 flex flex-col justify-center items-center md:hidden"
-            onClick={() => setMenuOpen(!menuOpen)}
-          >
-            <span
-              className={`block w-6 h-0.5 bg-gray-800 rounded transition-all duration-300 
-              ${menuOpen ? "rotate-45 translate-y-1.5" : ""}`}
-            ></span>
-            <span
-              className={`block w-6 h-0.5 bg-gray-800 rounded transition-all duration-300 my-1
-              ${menuOpen ? "opacity-0" : "opacity-100"}`}
-            ></span>
-            <span
-              className={`block w-6 h-0.5 bg-gray-800 rounded transition-all duration-300 
-              ${menuOpen ? "-rotate-45 -translate-y-1.5" : ""}`}
-            ></span>
-          </button>
-        </div>
-      </div>
-
-      {/* DESKTOP LINKS */}
-      <div className="border-t border-gray-200 hidden md:block">
-        <nav className="max-w-7xl mx-auto px-6 py-3 flex flex-wrap items-center justify-center gap-8 text-[15px] text-gray-700">
-
-          <MenuItem title="All Peptides" onClick={() => handleNavigate("/all-peptides")} />
-          <MenuItem title="Popular Peptides" onClick={() => handleNavigate("/popular-peptides")} />
-          <MenuItem title="Bundle & Save" onClick={() => handleNavigate("/bundle-save")} />
-          <MenuItem title="Peptide Research" onClick={() => handleNavigate("/peptide-research")} />
-          <MenuItem title="Peptide Information" onClick={() => handleNavigate("/peptide-information")} />
-          <MenuItem title="Research Videos" onClick={() => window.open("https://www.youtube.com/@yourchannel", "_blank")} />
-          <MenuItem title="Our Company" onClick={() => handleNavigate("/about")} />
-          <MenuItem title="Contact Us" onClick={() => handleNavigate("/contact")} />
-        </nav>
-      </div>
-
-      {/* MOBILE MENU — SLIDE DOWN ANIMATION */}
-      <div
-  className={`
-    md:hidden
-    bg-white
-    text-gray-700
-    overflow-hidden
-    border-t border-gray-200
-    transition-all duration-300 ease-out
-    ${menuOpen ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"}
-  `}
->
-
-        <div className="px-6 py-4 space-y-4">
-
-          {/* MOBILE SEARCH BAR */}
-          <div className="relative">
-            <FaSearch className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 text-sm" />
-            <input
-              type="text"
-              placeholder="Search products or pages..."
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              onKeyDown={handleSearch}
-              className="w-full border border-gray-300 rounded-lg pl-10 pr-4 py-3 text-sm 
-                         focus:ring-2 focus:ring-bioBlue/80 outline-none"
-            />
-          </div>
-
-          {/* MENU LINKS */}
-          <div className="flex flex-col gap-4 text-white text-[16px]">
-            <MenuItem title="All Peptides" onClick={() => handleNavigate("/all-peptides")} />
-            <MenuItem title="Popular Peptides" onClick={() => handleNavigate("/popular-peptides")} />
-            <MenuItem title="Bundle & Save" onClick={() => handleNavigate("/bundle-save")} />
-            <MenuItem title="Peptide Research" onClick={() => handleNavigate("/peptide-research")} />
-            <MenuItem title="Peptide Information" onClick={() => handleNavigate("/peptide-information")} />
-            <MenuItem title="Research Videos" onClick={() => window.open("https://www.youtube.com/@yourchannel", "_blank")} />
-            <MenuItem title="Our Company" onClick={() => handleNavigate("/about")} />
-            <MenuItem title="Contact Us" onClick={() => handleNavigate("/contact")} />
-          </div>
-
-          {/* SIGN IN & CART */}
-          <div className="flex flex-col gap-3 pt-4 border-t border-gray-200">
-            <button onClick={() => handleNavigate("/login")} className="flex items-center gap-2 hover:text-bioBlue">
-              <FaUser className="text-gray-600" />
-
-              <span>Sign in</span>
-            </button>
-
-            <button onClick={() => handleNavigate("/cart")} className="flex items-center gap-2 hover:text-bioBlue">
-             <FaShoppingCart className="text-gray-600" />
-<span className="text-gray-700">My Cart</span>
-            </button>
-          </div>
-
-        </div>
-      </div>
-
-    </header>
+      {/* ✅ FOOTER */}
+      <Footer />
+    </>
   );
 }
-
-function MenuItem({ title, onClick }) {
-  return (
-    <button
-      onClick={onClick}
-      className="text-gray-700 hover:text-[#65b4d7] transition-colors"
-    >
-      {title}
-    </button>
-  );
-}
-

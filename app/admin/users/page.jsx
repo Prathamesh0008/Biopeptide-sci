@@ -8,12 +8,11 @@ export default function AdminUsersPage() {
 
   useEffect(() => {
     const loadUsers = async () => {
-      const res = await fetch("/api/admin/users");
+      const res = await fetch("/api/admin/users", {
+        credentials: "include",
+      });
 
-      if (res.status === 401 || res.status === 403) {
-        window.location.href = "/login";
-        return;
-      }
+      if (!res.ok) return;
 
       const data = await res.json();
       setUsers(data.users || []);
@@ -26,27 +25,27 @@ export default function AdminUsersPage() {
     <>
       <h1 className="text-2xl font-bold mb-6">Users</h1>
 
-      <div className="bg-white rounded-xl border shadow-sm overflow-hidden">
+      <div className="bg-white border rounded-xl shadow-sm overflow-x-auto">
         {users.length === 0 ? (
-          <div className="p-6 text-sm text-gray-500">
-            No users found.
-          </div>
+          <div className="p-6 text-gray-500">No users found</div>
         ) : (
           <table className="w-full text-sm">
             <thead className="bg-gray-50">
               <tr>
-                <th className="p-3 text-left">Name</th>
-                <th className="p-3 text-left">Email</th>
-                <th className="p-3 text-left">Role</th>
-                <th className="p-3 text-left">Joined</th>
+                <th className="p-4 text-left">Name</th>
+                <th className="p-4 text-left">Email</th>
+                <th className="p-4 text-left">Phone</th>
+                <th className="p-4 text-left">Role</th>
+                <th className="p-4 text-left">Joined</th>
               </tr>
             </thead>
             <tbody>
               {users.map((u) => (
                 <tr key={u._id} className="border-t">
-                  <td className="p-3">{u.name || "—"}</td>
-                  <td className="p-3">{u.email}</td>
-                  <td className="p-3">
+                  <td className="p-4">{u.name || "—"}</td>
+                  <td className="p-4">{u.email}</td>
+                  <td className="p-4">{u.phone || "—"}</td>
+                  <td className="p-4">
                     <span
                       className={`px-2 py-1 rounded-full text-xs font-medium
                         ${
@@ -59,7 +58,7 @@ export default function AdminUsersPage() {
                       {u.role}
                     </span>
                   </td>
-                  <td className="p-3 text-gray-500">
+                  <td className="p-4 text-gray-500">
                     {new Date(u.createdAt).toLocaleDateString()}
                   </td>
                 </tr>
