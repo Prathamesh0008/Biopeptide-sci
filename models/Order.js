@@ -5,6 +5,12 @@ import mongoose from "mongoose";
 const OrderSchema = new mongoose.Schema(
   {
     // 🔗 USER LINK (VERY IMPORTANT)
+    
+    checkoutId: {
+      type: String,
+      unique: true,
+      required: true,
+    },
     userId: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",

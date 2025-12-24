@@ -5,6 +5,8 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { FaCreditCard,FaUniversity,FaShieldAlt,} from "react-icons/fa";
+
 
 export default function PaymentPage() {
   const router = useRouter();
@@ -41,31 +43,24 @@ export default function PaymentPage() {
           <div className="space-y-4">
 
             {/* CARD */}
-            <PaymentOption
-              active={method === "card"}
-              onClick={() => setMethod("card")}
-              title="Credit / Debit Card"
-              desc="Visa, MasterCard, RuPay"
-              icon="💳"
-            />
+  <PaymentOption
+    active={method === "card"}
+    onClick={() => setMethod("card")}
+    title="Credit / Debit Card"
+    desc="Visa, MasterCard, RuPay"
+    icon={<FaCreditCard />}
+  />
 
-            {/* UPI */}
-            <PaymentOption
-              active={method === "upi"}
-              onClick={() => setMethod("upi")}
-              title="UPI"
-              desc="Google Pay, PhonePe, Paytm"
-              icon="📱"
-            />
+  {/* UPI */}
+  <PaymentOption
+    active={method === "upi"}
+    onClick={() => setMethod("upi")}
+    title="UPI"
+    desc="Google Pay, PhonePe, Paytm"
+    icon={<FaUniversity />}
+  />
 
-            {/* COD */}
-            <PaymentOption
-              active={method === "cod"}
-              onClick={() => setMethod("cod")}
-              title="Cash on Delivery"
-              desc="Pay when order is delivered"
-              icon="🚚"
-            />
+            
           </div>
         </div>
 
@@ -99,22 +94,30 @@ export default function PaymentPage() {
       "bio-checkout",
       JSON.stringify({
         ...saved,
-        paymentMethod: method, // ✅ SAVE PAYMENT METHOD
+        paymentMethod: method,
       })
     );
 
     router.push("/confirm-order");
   }}
-  className="mt-6 w-full py-3 rounded-full font-semibold text-white
-    bg-gradient-to-r from-bioBlue to-bioGreen"
+  className="
+    mt-6 w-full py-3 rounded-full
+    font-semibold text-white
+    bg-gradient-to-r from-bioBlue to-bioGreen
+    shadow-lg hover:shadow-xl
+    transition
+  "
 >
   Pay Securely
 </button>
 
 
-          <p className="text-xs text-gray-500 mt-3 text-center">
-            🔒 100% Secure Payments
-          </p>
+
+          <p className="text-xs text-gray-500 mt-3 text-center flex items-center justify-center gap-1">
+  <FaShieldAlt className="text-bioBlue" />
+  100% Secure Payments
+</p>
+
         </div>
       </div>
     </main>
@@ -131,18 +134,33 @@ function PaymentOption({ active, onClick, title, desc, icon }) {
       onClick={onClick}
       className={`
         w-full flex items-center justify-between
-        border rounded-xl px-5 py-4 text-left
-        transition
+        border rounded-xl px-6 py-4 text-left
+        transition-all duration-200
         ${active
-          ? "border-bioBlue bg-bioBlue/5"
-          : "border-gray-200 hover:border-bioBlue"}
+          ? "border-bioBlue bg-bioBlue/10 shadow-md"
+          : "border-gray-200 hover:border-bioBlue hover:bg-gray-50"}
       `}
     >
       <div className="flex items-center gap-4">
-        <div className="text-2xl">{icon}</div>
+        <div
+          className={`
+            w-12 h-12 rounded-full flex items-center justify-center
+            text-xl
+            ${active
+              ? "bg-bioBlue text-white"
+              : "bg-gray-100 text-gray-600"}
+          `}
+        >
+          {icon}
+        </div>
+
         <div>
-          <p className="font-medium">{title}</p>
-          <p className="text-sm text-gray-500">{desc}</p>
+          <p className="font-semibold text-gray-900">
+            {title}
+          </p>
+          <p className="text-sm text-gray-500">
+            {desc}
+          </p>
         </div>
       </div>
 
@@ -159,3 +177,4 @@ function PaymentOption({ active, onClick, title, desc, icon }) {
     </button>
   );
 }
+

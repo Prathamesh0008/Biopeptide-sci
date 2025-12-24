@@ -93,16 +93,15 @@ router.push("/profile");
   return (
     <>
     <Navbar/>
-    <main className="min-h-screen bg-gradient-to-br from-white via-[#e8f7ff] to-[#d6ffe9] flex items-center justify-center p-6 relative overflow-hidden">
-
+    <main className="relative bg-gradient-to-br from-white via-[#f2fbff] to-[#ecfff6] px-6 py-14 overflow-hidden">
       {/* Floating background */}
       <motion.div
-        className="absolute top-10 left-10 w-20 h-20 bg-bioBlue/10 rounded-full blur-2xl"
+        className="absolute top-10 left-10 w-16 h-16 bg-bioBlue/5 rounded-full blur-2xl"
         animate={{ y: [0, 30, 0], opacity: [0.4, 0.7, 0.4] }}
         transition={{ duration: 6, repeat: Infinity }}
       />
       <motion.div
-        className="absolute bottom-16 right-16 w-24 h-24 bg-bioGreen/10 rounded-full blur-2xl"
+        className="absolute bottom-16 right-16 w-20 h-20 bg-bioGreen/5 rounded-full blur-2xl"
         animate={{ y: [0, -40, 0], opacity: [0.3, 0.6, 0.3] }}
         transition={{ duration: 7, repeat: Infinity }}
       />
@@ -111,25 +110,50 @@ router.push("/profile");
         initial={{ x: 100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.45 }}
-        className="w-full max-w-5xl bg-white/90 backdrop-blur-xl shadow-xl rounded-2xl border overflow-hidden"
+        className="
+   mx-auto w-full max-w-4xl
+  bg-white/95
+  backdrop-blur-xl
+  rounded-2xl
+  border border-white/60
+  shadow-[0_20px_60px_-15px_rgba(13,45,71,0.25)]
+  overflow-hidden
+"
       >
         <div className="grid md:grid-cols-2">
 
           {/* LEFT */}
-          <div className="p-10 bg-gradient-to-br from-bioBlue/5 to-bioGreen/5">
-            <h2 className="text-2xl font-bold text-[#0d2d47]">
-              Registered Customers
-            </h2>
-            <p className="text-gray-600 mt-4 text-sm">
-              Login to continue checkout and view orders.
-            </p>
+          <div className="p-8 bg-gradient-to-br from-bioBlue/5 to-bioGreen/5">
+            <div className="flex items-center gap-3 mb-3">
+  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-bioBlue to-bioGreen flex items-center justify-center text-white font-bold">
+    B
+  </div>
+  <h2 className="text-2xl font-bold text-[#0d2d47]">
+    Registered Customers
+  </h2>
+</div>
+
+<div className="w-12 h-1 rounded-full bg-gradient-to-r from-bioBlue to-bioGreen mb-4"></div>
+
+<p className="text-gray-600 text-sm leading-relaxed">
+  Login to continue checkout and securely manage your orders.
+</p>
+
+<div className="mt-6 text-xs text-gray-500">
+  Secure login • Encrypted credentials
+</div>
+
+
+
           </div>
 
           {/* RIGHT */}
-          <div className="p-10 space-y-6">
+          <div className="p-8 space-y-6">
             <h3 className="text-xl font-semibold text-[#0d2d47]">
               Login
             </h3>
+            <div className="w-10 h-1 rounded-full bg-gradient-to-r from-bioBlue to-bioGreen"></div>
+
 
             <div>
               <label className="text-sm font-medium text-gray-700">
@@ -137,7 +161,16 @@ router.push("/profile");
               </label>
               <input
                 type="email"
-                className="w-full px-4 py-3 mt-1 rounded-lg border focus:ring-2 focus:ring-bioBlue"
+                className="
+  w-full px-4 py-3 mt-1 rounded-lg
+  border border-gray-200
+  bg-white
+  shadow-sm
+  focus:ring-2 focus:ring-bioBlue/60
+  focus:border-bioBlue
+  outline-none
+"
+
                 value={form.email}
                 onChange={(e) =>
                   setForm({ ...form, email: e.target.value })
@@ -151,7 +184,16 @@ router.push("/profile");
               </label>
               <input
                 type="password"
-                className="w-full px-4 py-3 mt-1 rounded-lg border focus:ring-2 focus:ring-bioBlue"
+               className="
+  w-full px-4 py-3 mt-1 rounded-lg
+  border border-gray-200
+  bg-white
+  shadow-sm
+  focus:ring-2 focus:ring-bioBlue/60
+  focus:border-bioBlue
+  outline-none
+"
+
                 value={form.password}
                 onChange={(e) =>
                   setForm({ ...form, password: e.target.value })
@@ -162,12 +204,21 @@ router.push("/profile");
             <button
               onClick={submitLogin}
               disabled={loading}
-              className="w-full py-3 rounded-lg bg-gradient-to-r from-bioBlue to-bioGreen text-white font-semibold disabled:opacity-50"
+              className="
+  w-full py-3 rounded-lg
+  bg-gradient-to-r from-bioBlue to-bioGreen
+  text-white font-semibold
+  shadow-md hover:shadow-xl
+  hover:scale-[1.01] active:scale-[0.99]
+  transition
+  disabled:opacity-50
+"
+
             >
               {loading ? "Signing in..." : "Sign In"}
             </button>
 
-            <p className="text-center text-sm text-gray-600">
+            <p className="text-center text-sm text-gray-600 tracking-wide">
               Don’t have an account?
               <Link href="/register" className="text-bioBlue ml-1 hover:underline">
                 Create Account →

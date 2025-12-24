@@ -47,23 +47,21 @@ export default function RegisterPage() {
     <Navbar/>
     <main
   className="
-    min-h-[calc(100vh-104px)]
     relative overflow-hidden
-    flex items-center justify-center
-    px-6
-    bg-gradient-to-br from-white via-[#e8f7ff] to-[#d6ffe9]
+    px-6 py-14
+    bg-gradient-to-br from-white via-[#f2fbff] to-[#ecfff6]
   "
 >
 
 
       {/* Floating bio shapes */}
       <motion.div
-        className="absolute top-10 left-10 w-24 h-24 bg-bioBlue/10 rounded-full blur-3xl"
+        className="absolute top-10 left-10 w-16 h-16 bg-bioBlue/5 rounded-full blur-3xl"
         animate={{ y: [0, 40, 0], opacity: [0.4, 0.7, 0.4] }}
         transition={{ duration: 7, repeat: Infinity }}
       />
       <motion.div
-        className="absolute bottom-16 right-16 w-28 h-28 bg-bioGreen/10 rounded-full blur-3xl"
+        className="absolute bottom-16 right-16 w-20 h-20 bg-bioGreen/5 rounded-full blur-3xl"
         animate={{ y: [0, -40, 0], opacity: [0.3, 0.6, 0.3] }}
         transition={{ duration: 8, repeat: Infinity }}
       />
@@ -73,7 +71,15 @@ export default function RegisterPage() {
         initial={{ y: 40, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
-        className="w-full max-w-md bg-white/80 backdrop-blur-xl border border-white/60 shadow-2xl rounded-2xl p-8"
+        className="
+  mx-auto w-full max-w-md
+  bg-white/95
+  backdrop-blur-xl
+  border border-gray-200/60
+  shadow-[0_20px_50px_-15px_rgba(13,45,71,0.25)]
+  rounded-2xl
+  p-8
+"
       >
         {/* Header */}
         <div className="text-center mb-6">
@@ -83,6 +89,8 @@ export default function RegisterPage() {
           <h1 className="text-2xl font-bold text-[#0d2d47] mt-4">
             Create BioPeptide Account
           </h1>
+          <div className="mx-auto mt-3 w-12 h-1 rounded-full bg-gradient-to-r from-bioBlue to-bioGreen"></div>
+
           <p className="text-sm text-gray-600 mt-1">
             Register to continue checkout and manage orders
           </p>
@@ -92,7 +100,7 @@ export default function RegisterPage() {
         <div className="space-y-4">
           <input
             placeholder="Full Name"
-            className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-bioBlue outline-none text-sm"
+            className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-bioBlue outline-none text-sm"
             value={form.name}
             onChange={(e) =>
               setForm({ ...form, name: e.target.value })
@@ -102,7 +110,7 @@ export default function RegisterPage() {
           <input
             type="email"
             placeholder="Email Address"
-            className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-bioBlue outline-none text-sm"
+            className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-bioBlue outline-none text-sm"
             value={form.email}
             onChange={(e) =>
               setForm({ ...form, email: e.target.value })
@@ -112,7 +120,7 @@ export default function RegisterPage() {
           <input
             type="password"
             placeholder="Create Password"
-            className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-bioBlue outline-none text-sm"
+            className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-bioBlue outline-none text-sm"
             value={form.password}
             onChange={(e) =>
               setForm({ ...form, password: e.target.value })
@@ -122,7 +130,15 @@ export default function RegisterPage() {
           <button
             onClick={submitRegister}
             disabled={loading}
-            className="w-full py-3 rounded-lg font-semibold text-white bg-gradient-to-r from-bioBlue to-bioGreen hover:opacity-90 transition disabled:opacity-50"
+            className="
+  w-full py-3 rounded-lg
+  font-semibold text-white
+  bg-gradient-to-r from-bioBlue to-bioGreen
+  shadow-md hover:shadow-xl
+  hover:scale-[1.01] active:scale-[0.99]
+  transition
+  disabled:opacity-50
+"
           >
             {loading ? "Creating account..." : "Create Account"}
           </button>

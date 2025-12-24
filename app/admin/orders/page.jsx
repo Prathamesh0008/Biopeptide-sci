@@ -7,6 +7,23 @@ import StatusDropdown from "@/components/admin/StatusDropdown";
 export default function AdminOrdersPage() {
   const [orders, setOrders] = useState([]);
 
+  const groupItems = (items) => {
+  const map = {};
+
+  items.forEach((item) => {
+    const key = item.id || item.productId || item.name;
+
+    if (!map[key]) {
+      map[key] = { ...item };
+    } else {
+      map[key].qty += item.qty;
+    }
+  });
+
+  return Object.values(map);
+};
+
+
   useEffect(() => {
     const loadOrders = async () => {
       const res = await fetch("/api/admin/orders", {
@@ -102,16 +119,20 @@ export default function AdminOrdersPage() {
                     </tr>
                   </thead>
                   <tbody>
-                    {o.items.map((item) => (
-                      <tr key={item._id} className="border-t">
-                        <td className="p-3">{item.name}</td>
-                        <td className="p-3 text-center">{item.qty}</td>
-                        <td className="p-3 text-right">
-                          ${(item.price * item.qty).toFixed(2)}
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
+  {groupItems(o.items).map((item) => (
+    <tr
+      key={`${item.id || item.productId}-${o._id}`}
+      className="border-t"
+    >
+      <td className="p-3">{item.name}</td>
+      <td className="p-3 text-center">{item.qty}</td>
+      <td className="p-3 text-right">
+        ${(item.price * item.qty).toFixed(2)}
+      </td>
+    </tr>
+  ))}
+</tbody>
+
                 </table>
               </div>
 

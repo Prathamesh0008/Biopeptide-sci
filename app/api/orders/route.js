@@ -10,7 +10,6 @@ export async function POST(req) {
   try {
     await dbConnect();
 
-    // ✅ Next.js 16 (Turbopack): cookies() can be async → await it
     const cookieStore = await cookies();
     const token = cookieStore.get("auth")?.value;
 
@@ -22,7 +21,6 @@ export async function POST(req) {
     }
 
     const { payload } = await jwtVerify(token, secret);
-
     const body = await req.json();
 
     if (!body.items || body.items.length === 0) {
@@ -32,7 +30,28 @@ export async function POST(req) {
       );
     }
 
+    const { checkoutId } = body;
+
+    if (!checkoutId) {
+      return Response.json(
+        { ok: false, error: "Missing checkoutId" },
+        { status: 400 }
+      );
+    }
+
+    // ✅ DUPLICATE PROTECTION (CORRECT)
+    const existing = await Order.findOne({ checkoutId });
+
+    if (existing) {
+      return Response.json({
+        ok: true,
+        orderId: existing._id.toString(),
+      });
+    }
+
+    // ✅ CREATE ORDER ONLY ONCE
     const order = await Order.create({
+      checkoutId,
       userId: payload.id,
       userEmail: body.userEmail || "",
       userName: body.userName || "",

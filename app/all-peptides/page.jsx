@@ -61,11 +61,14 @@ export default function AllPeptidesPage() {
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
-             {PRODUCTS.map((product) => (
-  <ProductCard key={product.id} product={product} />
-))}
+  {PRODUCTS.map((product, index) => (
+    <ProductCard
+      key={`${product.id}-${index}`}
+      product={product}
+    />
+  ))}
+</div>
 
-            </div>
           </div>
         </div>
       </main>

@@ -25,13 +25,15 @@ export default function Sidebar({ open, onClose }) {
     fixed lg:sticky
     lg:top-0
     z-50
-    top-0 left-0 h-full w-64
+    top-0 left-0 h-screen w-64
     bg-white border-r shadow-sm
     transform transition-transform duration-300
     ${open ? "translate-x-0" : "-translate-x-full"}
     lg:translate-x-0
   `}
 >
+
+
 
       {/* HEADER */}
       <div className="p-6 border-b bg-[#0d2d47] flex items-center justify-between">

@@ -66,7 +66,8 @@ export default function ProductCard({ product }) {
       )}
 
       <article
-        className="relative w-full min-w-[130px] bg-white border border-gray-200 rounded-xl 
+        className="relative w-full min-w-[140px] sm:min-w-[180px] md:min-w-[200px]
+ bg-white border border-gray-200 rounded-xl 
                    p-2 sm:p-4 flex flex-col justify-between
                    hover:shadow-md hover:-translate-y-1 transition-all
                    min-h-[380px]"  /* ⭐ SAME HEIGHT FOR ALL CARDS */
@@ -74,17 +75,28 @@ export default function ProductCard({ product }) {
 
         {/* IMAGE */}
         <div
-          className="relative h-44 w-full rounded-lg overflow-hidden bg-gray-50 
-                     flex items-center justify-center cursor-pointer"
+          className="
+  relative
+  h-56 sm:h-60 md:h-64
+  w-full
+  rounded-lg
+  overflow-hidden
+  bg-gray-50
+  flex items-center justify-center
+  cursor-pointer
+"
+
           onClick={openProduct}
         >
           <Image
-            src={product.image || "/images/product.png"}
-            alt={product.name}
-            width={180}
-            height={180}
-            className="object-contain"
-          />
+  src={product.image || "/images/product.png"}
+  alt={product.name}
+  width={180}
+  height={180}
+  className="object-contain w-auto h-auto"
+/>
+
+
         </div>
 
         {/* TEXT */}

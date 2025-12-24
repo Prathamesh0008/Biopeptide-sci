@@ -184,7 +184,7 @@ useEffect(() => {
           {!user ? (
   <button
     onClick={() => handleNavigate("/login")}
-    className="flex items-center gap-2 hover:text-bioBlue"
+    className="flex items-center gap-2 hover:text-bioBlue cursor-pointer"
   >
     <FaUser className="text-gray-600" />
     <span>Sign in</span>
@@ -193,7 +193,7 @@ useEffect(() => {
   <div ref={profileRef} className="relative">
     <button
       onClick={() => setProfileOpen(!profileOpen)}
-      className="flex items-center gap-2 hover:text-bioBlue"
+      className="flex items-center gap-2 hover:text-bioBlue cursor-pointer"
     >
       <FaUser className="text-gray-600" />
       <span className="font-medium">
@@ -240,7 +240,8 @@ useEffect(() => {
 )}
 
 
-          <button onClick={() => handleNavigate("/cart")} className="flex items-center gap-2 hover:text-bioBlue">
+          <button onClick={() => handleNavigate("/cart")} 
+          className="flex items-center gap-2 hover:text-bioBlue cursor-pointer">
             <FaShoppingCart className="text-gray-600" />
 
             <span>My Cart</span>
@@ -356,7 +357,7 @@ useEffect(() => {
           
 
           {/* MENU LINKS */}
-          <div className="flex flex-col gap-4 text-white text-[16px]">
+          <div className="flex flex-col gap-4 text-white text-[16px] items-start text-left">
             <MenuItem title="All Peptides" onClick={() => handleNavigate("/all-peptides")} />
             <MenuItem title="Popular Peptides" onClick={() => handleNavigate("/popular-peptides")} />
             <MenuItem title="Bundle & Save" onClick={() => handleNavigate("/bundle-save")} />
@@ -372,7 +373,7 @@ useEffect(() => {
             {!user ? (
   <button
     onClick={() => handleNavigate("/login")}
-    className="flex items-center gap-2 hover:text-bioBlue"
+    className="flex items-center gap-2 hover:text-bioBlue cursor-pointer"
   >
     <FaUser className="text-gray-600" />
     <span>Sign in</span>
@@ -401,7 +402,8 @@ useEffect(() => {
 )}
 
 
-            <button onClick={() => handleNavigate("/cart")} className="flex items-center gap-2 hover:text-bioBlue">
+            <button onClick={() => handleNavigate("/cart")}
+             className="flex items-center gap-2 hover:text-bioBlue cursor-pointer">
              <FaShoppingCart className="text-gray-600" />
 <span className="text-gray-700">My Cart</span>
             </button>
@@ -419,7 +421,7 @@ function MenuItem({ title, onClick }) {
   return (
     <button
       onClick={onClick}
-      className="text-gray-700 hover:text-[#65b4d7] transition-colors"
+      className="text-gray-700 hover:text-[#65b4d7] transition-colors cursor-pointer"
     >
       {title}
     </button>

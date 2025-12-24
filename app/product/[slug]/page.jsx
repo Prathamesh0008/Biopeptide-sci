@@ -9,34 +9,50 @@ import { PRODUCTS } from "@/data/products";
 import ProductContent from "@/components/ProductContent";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { useState } from "react";
+
 
 export default function ProductPage() {
   // ⭐ Correct way in client components
   const { slug } = useParams();
 
+  const [previewOpen, setPreviewOpen] = useState(false);
+
+
   const product = PRODUCTS.find((p) => p.slug === slug);
   const handleAddToCart = () => {
-    const cart = JSON.parse(localStorage.getItem("bio-cart") || "[]");
+  // 🔐 get logged-in user (if any)
+  const userStr = localStorage.getItem("bio-user");
+  const user = userStr ? JSON.parse(userStr) : null;
 
-    const existing = cart.find((item) => item.id === product.id);
+  // ✅ SAME cart key logic as CartPage
+  const cartKey = user?.email
+    ? `bio-cart-${user.email}`
+    : "guest-cart";
 
-    if (existing) {
-      existing.qty += 1;
-    } else {
-      cart.push({
-        id: product.id,
-        name: product.name,
-        price: product.price,
-        qty: 1,
-        image: product.image,
-        strength: product.strength,
-      });
-    }
+  // ✅ define cart properly
+  const cart = JSON.parse(localStorage.getItem(cartKey) || "[]");
 
-    localStorage.setItem("bio-cart", JSON.stringify(cart));
+  const existing = cart.find((item) => item.id === product.id);
 
-    window.location.href = "/cart";
-  };
+  if (existing) {
+    existing.qty += 1;
+  } else {
+    cart.push({
+      id: product.id,
+      name: product.name,
+      price: product.price,
+      qty: 1,
+      image: product.image,
+      strength: product.strength,
+    });
+  }
+
+  localStorage.setItem(cartKey, JSON.stringify(cart));
+
+  window.location.href = "/cart";
+};
+
 
   // ⭐ Scroll to top on page load
   useEffect(() => {
@@ -54,6 +70,50 @@ export default function ProductPage() {
   return (
     <>
     <Navbar/>
+    {previewOpen && (
+  <div
+    className="
+      fixed inset-0 z-[999]
+      bg-black/70
+      flex items-center justify-center
+      px-4
+    "
+    onClick={() => setPreviewOpen(false)}
+  >
+    <div
+      className="relative bg-white rounded-xl p-4 max-w-3xl w-full"
+      onClick={(e) => e.stopPropagation()}
+    >
+      {/* CLOSE BUTTON */}
+      <button
+  onClick={() => setPreviewOpen(false)}
+  className="
+    absolute top-3 right-3
+    z-50
+    w-9 h-9 rounded-full
+    bg-black text-white
+    flex items-center justify-center
+    text-xl
+    hover:bg-gray-800
+  "
+>
+  ×
+</button>
+
+
+      {/* IMAGE */}
+      <div className="relative w-full h-[70vh] pointer-events-none">
+        <Image
+          src={product.image}
+          alt={product.name}
+          fill
+          className="object-contain"
+        />
+      </div>
+    </div>
+  </div>
+)}
+
     <main className="min-h-screen bg-white pt-10 pb-20">
 
       {/* BACK BUTTON */}
@@ -64,7 +124,7 @@ export default function ProductPage() {
       </div>
 
       {/* MAIN PRODUCT TOP SECTION */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 mt-10">
+      <section className="max-w-7xl mx-auto px-0 sm:px-6 mt-10">
         <div className="
           grid grid-cols-1 lg:grid-cols-2 
           gap-10 lg:gap-14 
@@ -76,22 +136,27 @@ export default function ProductPage() {
           <div className="flex flex-col gap-6 w-full max-w-[350px] mx-auto">
 
             {/* IMAGE BOX */}
-            <div className="
-              flex items-center justify-center 
-              bg-white border p-4 sm:p-6 
-              shadow-sm 
-              h-[340px] sm:h-[420px] 
-              w-full
-              max-w-[350px]
-            ">
-              <Image
-                src={product.image || "/images/product.png"}
-                alt={product.name}
-                width={300}
-                height={400}
-                className="object-contain w-full h-full"
-              />
-            </div>
+            <div
+  onClick={() => setPreviewOpen(true)}
+  className="
+    flex items-center justify-center
+    bg-white border p-4 sm:p-6
+    shadow-sm cursor-zoom-in
+    h-[340px] sm:h-[420px]
+    w-full max-w-[350px]
+    relative
+  "
+>
+  <Image
+    src={product.image}
+    alt={product.name}
+    fill
+    className="object-contain"
+    priority
+  />
+</div>
+
+
 
             {/* BADGES */}
             <div className="flex flex-wrap justify-center gap-2 text-[11px] font-medium">

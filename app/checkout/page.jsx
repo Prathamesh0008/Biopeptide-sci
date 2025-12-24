@@ -33,7 +33,8 @@ useEffect(() => {
 
   const user = JSON.parse(userStr);
 
-  const savedCart = JSON.parse(localStorage.getItem("bio-cart") || "[]");
+  const cartKey = user?.email ? `bio-cart-${user.email}` : "guest-cart";
+const savedCart = JSON.parse(localStorage.getItem(cartKey) || "[]");
   if (savedCart.length === 0) {
     router.push("/cart");
     return;
@@ -76,6 +77,10 @@ useEffect(() => {
   //   }
   //   setCart(savedCart);
   // }, [router]);
+  
+
+// ✅ create or reuse checkoutId (ANTI DUPLICATE)
+
 
   const subtotal = cart.reduce(
     (sum, item) => sum + item.price * item.qty,
@@ -86,6 +91,12 @@ const isValidEmail = (email) => {
 };
 
  const goToPayment = () => {
+  // ✅ checkoutId logic HERE
+  const checkoutId =
+    localStorage.getItem("bio-checkout-id") || crypto.randomUUID();
+
+  localStorage.setItem("bio-checkout-id", checkoutId);
+
   if (!isValidEmail(form.email)) {
     setEmailError("Please enter a valid email address");
     return;
@@ -104,24 +115,24 @@ const isValidEmail = (email) => {
   }
 
   localStorage.setItem(
-  "bio-checkout",
-  JSON.stringify({
-    user: JSON.parse(localStorage.getItem("bio-user")),
-    form,
-    cart,
-    subtotal,
-  })
-);
-// ✅ Save address for future prefill (per-user)
-const u = JSON.parse(localStorage.getItem("bio-user") || "{}");
-if (u?.email) {
-  localStorage.setItem(`bio-address:${u.email}`, JSON.stringify(form));
-}
+    "bio-checkout",
+    JSON.stringify({
+      checkoutId,
+      user: JSON.parse(localStorage.getItem("bio-user")),
+      form,
+      cart,
+      subtotal,
+    })
+  );
 
-
+  const u = JSON.parse(localStorage.getItem("bio-user") || "{}");
+  if (u?.email) {
+    localStorage.setItem(`bio-address:${u.email}`, JSON.stringify(form));
+  }
 
   router.push("/payment");
 };
+
 
 const INDIAN_STATES = [
   "Andhra Pradesh",
@@ -279,13 +290,15 @@ const INDIAN_STATES = [
         City
       </label>
       <input
-        type="text"
-        className="w-full border rounded-lg px-4 py-3 text-base"
-        value={form.city}
-        onChange={(e) =>
-          setForm({ ...form, city: e.target.value })
-        }
-      />
+  type="text"
+  className="w-full border rounded-lg px-4 py-3 text-base"
+  value={form.city}
+  onChange={(e) => {
+    const value = e.target.value.replace(/[^a-zA-Z\s]/g, "");
+    setForm({ ...form, city: value });
+  }}
+/>
+
     </div>
 
     <div>

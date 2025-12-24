@@ -60,7 +60,8 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+ image: "/product/adipotide 10mg.svg"
+
 }
 ,
 

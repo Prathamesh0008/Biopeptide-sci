@@ -1,3 +1,4 @@
+//app\orders\page.jsx
 "use client";
 
 import { useEffect, useState } from "react";
@@ -16,22 +17,44 @@ export default function OrdersPage() {
         setLoading(false);
       });
   }, []);
+ const groupItems = (items) => {
+  const map = {};
 
+  items.forEach((item) => {
+    const key = `${item.name}-${item.strength}`;
+
+    if (!map[key]) {
+      map[key] = { ...item };
+    } else {
+      map[key].qty += item.qty;
+    }
+  });
+
+  return Object.values(map);
+};
   return (
     <>
       <Navbar />
 
-      <main className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
-        <h1 className="text-3xl font-bold text-[#0d2d47] mb-10">
-          My Orders
-        </h1>
+      <main className="min-h-[80vh] bg-gradient-to-br from-white via-[#eef8ff] to-[#e8fff2]">
+  <div className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
+        <div className="mb-10">
+  <h1 className="text-4xl font-bold text-[#0d2d47]">
+    My Orders
+  </h1>
+  <p className="text-gray-600 mt-2">
+    Track your purchases and order history
+  </p>
+</div>
+
 
         {loading && (
           <p className="text-gray-500">Loading your orders…</p>
         )}
 
         {!loading && orders.length === 0 && (
-          <div className="bg-white border rounded-2xl p-8 text-center shadow">
+          <div className="bg-white/90 backdrop-blur border
+  rounded-3xl p-10 text-center shadow-lg">
             <p className="text-gray-500 text-lg">
               You haven’t placed any orders yet.
             </p>
@@ -41,11 +64,22 @@ export default function OrdersPage() {
         <div className="space-y-8">
           {orders.map((order) => (
             <div
-              key={order._id}
-              className="bg-white border rounded-2xl shadow-sm overflow-hidden"
-            >
+  key={order._id}
+  className="
+    bg-white/90 backdrop-blur
+    border rounded-3xl
+    shadow-lg hover:shadow-xl
+    transition overflow-hidden
+  "
+>
+
               {/* HEADER */}
-              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 px-6 py-4 bg-gray-50 border-b">
+              <div className="
+  flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4
+  px-6 py-5
+  bg-gradient-to-r from-[#f5fbff] to-[#f1fffa]
+  border-b
+">
                 <div>
                   <p className="text-sm text-gray-500">
                     Order ID
@@ -63,23 +97,30 @@ export default function OrdersPage() {
 
               {/* ITEMS */}
               <div className="px-6 py-4 space-y-3">
-                {order.items.map((item) => (
-                  <div
-                    key={item.id}
-                    className="flex justify-between text-sm border-b last:border-b-0 pb-2"
-                  >
-                    <span className="text-gray-700">
-                      {item.name} × {item.qty}
-                    </span>
-                    <span className="font-medium text-gray-900">
-                      ${(item.price * item.qty).toFixed(2)}
-                    </span>
-                  </div>
-                ))}
-              </div>
+  {groupItems(order.items).map((item) => (
+  <div
+    key={item.name}   // ✅ SAME KEY AS GROUP LOGIC
+    className="flex justify-between items-center text-sm
+      border-b last:border-b-0 py-2"
+  >
+
+      <span className="text-gray-700">
+        {item.name} × {item.qty}
+      </span>
+      <span className="font-medium text-gray-900">
+        ${(item.price * item.qty).toFixed(2)}
+      </span>
+    </div>
+  ))}
+</div>
+
 
               {/* TOTAL */}
-              <div className="flex justify-between items-center px-6 py-4 bg-gradient-to-r from-bioBlue/5 to-bioGreen/5">
+              <div className="
+  flex justify-between items-center
+  px-6 py-5
+  bg-gradient-to-r from-bioBlue/10 to-bioGreen/10
+">
                 <span className="text-sm font-medium text-gray-600">
                   Order Total
                 </span>
@@ -89,6 +130,7 @@ export default function OrdersPage() {
               </div>
             </div>
           ))}
+        </div>
         </div>
       </main>
 

@@ -15,31 +15,54 @@ export default function BundleDetailPage() {
   const { id } = useParams();
   const [bundle, setBundle] = useState(null);
   const [loading, setLoading] = useState(true);
-  const handleAddBundleToCart = () => {
-  const cart = JSON.parse(localStorage.getItem("bio-cart") || "[]");
 
-  // Check if bundle already exists
-  const existing = cart.find((item) => item.id === `bundle-${bundle.id}`);
+  const [previewOpen, setPreviewOpen] = useState(false);
+
+  const handleAddBundleToCart = () => {
+  if (!bundle) return;
+
+  // ✅ SAME USER-BASED CART KEY AS CART PAGE
+  const userStr = localStorage.getItem("bio-user");
+  const user = userStr ? JSON.parse(userStr) : null;
+
+  const cartKey = user?.email
+    ? `bio-cart-${user.email}`
+    : "guest-cart";
+
+  const cart = JSON.parse(localStorage.getItem(cartKey) || "[]");
+
+  const bundleId = `bundle-${bundle.id}`;
+
+  const existing = cart.find((item) => item.id === bundleId);
 
   if (existing) {
     existing.qty += 1;
   } else {
     cart.push({
-      id: `bundle-${bundle.id}`,
+      id: bundleId,
       name: bundle.title,
       price: bundle.price,
       qty: 1,
-      image: bundle.resolvedProducts[0]?.image || "/images/product.png",
-      strength: bundle.discount, // shows "Save 30%"
+      image: bundle.resolvedProducts?.[0]?.image || "/images/product.png",
+      strength: bundle.discount, // "Save 30%"
       type: "bundle",
-      items: bundle.resolvedProducts, // optional list of products inside bundle
+
+      // ✅ IMPORTANT: store bundle contents
+      items: bundle.resolvedProducts.map((p) => ({
+        id: p.id,
+        name: p.name,
+        strength: p.size,
+        price: p.price,
+        qty: 1,
+      })),
     });
   }
 
-  localStorage.setItem("bio-cart", JSON.stringify(cart));
+  localStorage.setItem(cartKey, JSON.stringify(cart));
 
   window.location.href = "/cart";
 };
+
 
 
   /* ⭐ ALWAYS SCROLL TO TOP WHEN PAGE LOADS */
@@ -69,6 +92,43 @@ export default function BundleDetailPage() {
   return (
     <>
     <Navbar/>
+    {previewOpen && (
+  <div
+    className="fixed inset-0 z-[999] bg-black/70 flex items-center justify-center px-4"
+    onClick={() => setPreviewOpen(false)}
+  >
+    <div
+      className="relative bg-white rounded-xl p-4 max-w-4xl w-full"
+      onClick={(e) => e.stopPropagation()}
+    >
+      {/* CLOSE BUTTON */}
+      <button
+        onClick={() => setPreviewOpen(false)}
+        className="
+          absolute top-3 right-3 z-50
+          w-9 h-9 rounded-full
+          bg-black text-white
+          flex items-center justify-center
+          text-xl hover:bg-gray-800
+        "
+      >
+        ×
+      </button>
+
+      {/* IMAGE */}
+      <div className="relative w-full h-[70vh] pointer-events-none">
+        <Image
+          src={bundle.resolvedProducts[0]?.image || '/images/product.png'}
+          alt={bundle.title}
+          fill
+          className="object-contain"
+          priority
+        />
+      </div>
+    </div>
+  </div>
+)}
+
     <main className="bg-white min-h-screen">
 
       {/* ⭐ HERO — Compact, centered, responsive */}
@@ -127,14 +187,23 @@ export default function BundleDetailPage() {
           <div className="flex-1">
 
             {/* Image */}
-            <div className="relative w-full h-60 sm:h-64 bg-gray-50 rounded-xl overflow-hidden shadow-sm">
-              <Image
-                src={bundle.resolvedProducts[0]?.image || "/images/product.png"}
-                alt={bundle.title}
-                fill
-                className="object-contain"
-              />
-            </div>
+            <div
+  onClick={() => setPreviewOpen(true)}
+  className="
+    relative w-full h-60 sm:h-64
+    bg-gray-50 rounded-xl
+    overflow-hidden shadow-sm
+    cursor-zoom-in
+  "
+>
+  <Image
+    src={bundle.resolvedProducts[0]?.image || "/images/product.png"}
+    alt={bundle.title}
+    fill
+    className="object-contain"
+  />
+</div>
+
 
             {/* Overview */}
             <div className="mt-8">

@@ -101,17 +101,41 @@ export default function CartPage() {
                       <p className="text-sm text-gray-500">{item.strength}</p>
 
                       <div className="flex items-center gap-3 mt-4">
-                        <label className="text-sm">Qty</label>
-                        <input
-                          type="number"
-                          min="1"
-                          value={item.qty}
-                          onChange={(e) =>
-                            updateQty(item.id, e.target.value)
-                          }
-                          className="w-20 border rounded-lg px-3 py-2 text-sm"
-                        />
-                      </div>
+  <span className="text-sm text-gray-600">Qty</span>
+
+  <div className="flex items-center border rounded-full overflow-hidden shadow-sm">
+    {/* MINUS */}
+    <button
+      onClick={() =>
+        updateQty(item.id, Math.max(1, item.qty - 1))
+      }
+      className="w-9 h-9 flex items-center justify-center text-lg font-medium text-gray-700 hover:bg-gray-100 transition"
+    >
+      −
+    </button>
+
+    {/* VALUE */}
+    <input
+      type="text"
+      value={item.qty}
+      onChange={(e) =>
+        updateQty(item.id, e.target.value.replace(/\D/g, "") || 1)
+      }
+      className="w-12 text-center text-sm outline-none bg-white"
+    />
+
+    {/* PLUS */}
+    <button
+      onClick={() =>
+        updateQty(item.id, item.qty + 1)
+      }
+      className="w-9 h-9 flex items-center justify-center text-lg font-medium text-gray-700 hover:bg-gray-100 transition"
+    >
+      +
+    </button>
+  </div>
+</div>
+
                     </div>
 
                     <div className="text-right">
