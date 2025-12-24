@@ -60,10 +60,9 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
- image: "/product/adipotide 10mg.svg"
+ image: "/product/peptides/bpc-157_5mg.svg"
 
-}
-,
+},
 
   {
   id: "bpc-tb500-glow-blend",
@@ -101,7 +100,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptideblends/bpctbblend20mg.svg"
 },
 
   {
@@ -135,7 +134,7 @@
   storage: "Store in a cool, dry environment away from direct light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png",
+  image: "/product/capsules/5amino1mq.svg",
 }
 ,
 
@@ -171,7 +170,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptides/aod-9604_6mg.svg"
 },
 
 
@@ -207,7 +206,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/Cosmeticpeptides/ghk(ghkcu)200mg.svg"
 },
 
   
@@ -242,7 +241,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/Cosmeticpeptides/acetylhexapeptide200mg.svg"
 },
 
 {
@@ -277,7 +276,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/Cosmeticpeptides/ahk200mg.svg"
 },
 {
   id: "ahk-cu-200mg",
@@ -319,7 +318,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/Cosmeticpeptides/ahkcu200mg.svg"
 },
 {
   id: "aod9604-6mg",
@@ -353,7 +352,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptides/aod-9604_6mg.svg"
 },
 
 {
@@ -388,7 +387,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptides/bpc-157_10mg.svg"
 },
 {
   id: "bpc-157-15mg",
@@ -422,7 +421,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptides/bpc-157_15mg.svg"
 },
 {
   id: "bpc-157-tb-500-blend-10mg",
@@ -460,7 +459,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptideblends/bpctbblend10mg.svg"
 },
 {
   id: "bpc-157-tb-500-blend-20mg",
@@ -498,7 +497,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptideblends/bpctbblend20mg.svg"
 },
 {
   id: "bpc-157-tb-500-blend-30mg",
@@ -536,7 +535,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptideblends/bpctbghkcublend30mg.svg"
 },
 {
   id: "bpc-157-tb-500-blend-60mg",
@@ -574,7 +573,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptideblends/bpctbghkcublend60mg.svg"
 },
 {
   id: "bpc-157-tb-500-kpv-ghk-cu-80mg",
@@ -615,7 +614,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptideblends/bpctbkpvghk80mg.svg"
 },
 {
   id: "bronchogen-20mg",
@@ -652,7 +651,7 @@
   storage: "Store at -20°C. Protect from moisture and light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptides/bronchogen20mg.svg"
 },
 {
   id: "cardiogen-20mg",
@@ -689,7 +688,7 @@
   storage: "Store at -20°C. Protect from moisture and light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptides/cardiogen20mg.svg"
 },
 {
   id: "cartalax-20mg",
@@ -726,7 +725,7 @@
   storage: "Store at -20°C. Protect from moisture and light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptides/cartalax20mg.svg"
 },
 {
   id: "adipotide-ftpp-10mg",
@@ -760,7 +759,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptides/Adipotide10mg.svg"
 },
 {
   id: "ahk-tripeptide-3-200mg",
@@ -794,7 +793,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/Cosmeticpeptides/ahk200mg.svg"
 },
 {
   id: "aicar-50mg",
@@ -828,8 +827,9 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
-},{
+  image: "/product/peptides/aicar50mg.svg"
+},
+{
   id: "ara-290-16mg",
   slug: "ara-290-16mg",
   name: "ARA-290 16mg",
@@ -861,7 +861,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptides/ara-290_16mg.svg"
 },
 {
   id: "b7-33-6mg",
@@ -895,7 +895,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptides/b7-33_6mg.svg"
 },
 {
   id: "chonluten-20mg",
@@ -932,7 +932,7 @@
   storage: "Store at -20°C. Protect from moisture and light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptides/chonluten20mg.svg"
 },
 {
   id: "cjc-1295-ghrp-2-blend-10mg",
@@ -970,7 +970,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptideblends/cjcghrpblend10mg.svg"
 },
 {
   id: "cjc-1295-ghrp-6-blend-10mg",
@@ -1008,7 +1008,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptideblends/cjcghrp6blend10mg.svg"
 },
 {
   id: "cjc-1295-hexarelin-blend-10mg",
@@ -1046,7 +1046,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/images/product.png"
+  image: "/product/peptideblends/cjchexarelinblend10mg.svg"
 },
 {
   id: "cjc-1295-ipamorelin-ghrp-2-blend",

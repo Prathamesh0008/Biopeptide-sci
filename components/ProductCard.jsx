@@ -66,7 +66,7 @@ export default function ProductCard({ product }) {
       )}
 
       <article
-        className="relative w-full min-w-[140px] sm:min-w-[180px] md:min-w-[200px]
+        className="relative w-full min-w-[10px] sm:min-w-[180px] md:min-w-[200px]
  bg-white border border-gray-200 rounded-xl 
                    p-2 sm:p-4 flex flex-col justify-between
                    hover:shadow-md hover:-translate-y-1 transition-all
