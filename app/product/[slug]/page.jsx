@@ -143,7 +143,7 @@ export default function ProductPage() {
     bg-white border p-4 sm:p-6
     shadow-sm cursor-zoom-in
     h-[340px] sm:h-[420px]
-    w-full max-w-[350px]
+    w-full max-w-[360px]
     relative
   "
 >
