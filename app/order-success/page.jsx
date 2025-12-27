@@ -1,4 +1,5 @@
 // app/order-success/page.jsx
+"use client"
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Suspense } from "react";
