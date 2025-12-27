@@ -1,7 +1,6 @@
 import dbConnect from "@/lib/dbConnect";
 import Product from "@/models/Product";
-import { requireAdmin } from "@/lib/auth";
-
+import { requireAdmin } from "@/lib/requireAdmin";
 export async function PATCH(req, { params }) {
   const { error } = requireAdmin();
   if (error) return error;
