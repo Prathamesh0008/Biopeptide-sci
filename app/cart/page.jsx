@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "../../components/Breadcrumbs";
 
 /* ✅ cart key per user */
 const getCartKey = (user) => {
@@ -68,6 +69,7 @@ export default function CartPage() {
   return (
     <>
       <Navbar />
+      <Breadcrumbs/>
 
       <main className="min-h-screen bg-white pt-[120px] pb-12">
         <div className="max-w-7xl mx-auto px-6">

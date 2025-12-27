@@ -7,6 +7,7 @@ import { PRODUCTS } from "@/data/products";
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "../../components/Breadcrumbs";
 
 export default function PopularPeptidesPage() {
   
@@ -23,6 +24,7 @@ export default function PopularPeptidesPage() {
 
     <>
     <Navbar/>
+    <Breadcrumbs/>
    <main className="min-h-screen bg-white py-12">
 
       {/* PAGE TITLE */}

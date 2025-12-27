@@ -11,6 +11,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "../../components/Breadcrumbs";
 
 
 
@@ -27,6 +28,7 @@ export default function BundleSavePage() {
 
     <>
     <Navbar/>
+    <Breadcrumbs/>
     <main className="min-h-screen bg-white">
         {loading && <Loader />}
 
