@@ -1,5 +1,5 @@
 // app/api/admin/dashboard/route.js
-import dbConnect from "@/lib/dbConnect";
+import dbConnect from "../../../../lib/dbConnect";
 import Order from "@/models/Order";
 import User from "@/models/User";
 

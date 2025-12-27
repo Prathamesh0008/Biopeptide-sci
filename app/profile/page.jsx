@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "../../components/Breadcrumbs";
 
 export default function ProfilePage() {
   const router = useRouter();
@@ -75,6 +76,7 @@ const hasAddress =
   return (
     <>
       <Navbar />
+      <Breadcrumbs/>
 
       <main className="min-h-[80vh] bg-gradient-to-br from-white via-[#eef8ff] to-[#e8fff2]">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">

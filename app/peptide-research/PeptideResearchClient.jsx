@@ -40,9 +40,50 @@ export default function PeptideResearchClient() {
 
   const paginationNumbers = getPagination();
 
-  return (
-    <main className="min-h-screen bg-white">
-      {/* 🔴 PASTE YOUR FULL JSX CONTENT HERE (UNCHANGED) */}
-    </main>
-  );
+ return (
+  <main className="min-h-screen bg-white">
+    <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
+
+      {/* LEFT SIDEBAR */}
+      <aside className="md:col-span-1">
+        <ResearchSidebar currentPage={currentPage} />
+      </aside>
+
+      {/* RIGHT CONTENT */}
+      <section className="md:col-span-3">
+
+  {/* TITLE */}
+  <h1 className="text-3xl font-bold mb-2">
+    {current.title}
+  </h1>
+
+  {/* SUBTITLE */}
+  {current.subtitle && (
+    <p className="text-gray-600 mb-6">
+      {current.subtitle}
+    </p>
+  )}
+
+  {/* PARAGRAPHS */}
+  <div className="space-y-5 text-gray-800 leading-relaxed">
+    {current.paragraphs.map((para, index) => (
+      <p key={index}>{para}</p>
+    ))}
+  </div>
+
+  {/* BULLETS */}
+  {current.bullets && current.bullets.length > 0 && (
+    <ul className="mt-8 list-disc pl-6 space-y-2 text-gray-800">
+      {current.bullets.map((point, index) => (
+        <li key={index}>{point}</li>
+      ))}
+    </ul>
+  )}
+
+</section>
+
+
+    </div>
+  </main>
+);
 }

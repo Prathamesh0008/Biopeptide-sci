@@ -16,6 +16,7 @@ export default function HomePage() {
 
   return (
     <>
+    
     <Navbar/>
       {/* MOBILE BUTTON */}
       <button

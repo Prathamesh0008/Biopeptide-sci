@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
 import ProductCard from "@/components/ProductCard";
 import { PRODUCTS } from "@/data/products";
+import Breadcrumbs from "../../components/Breadcrumbs";
 
 export default function AllPeptidesPage() {
   useEffect(() => {
@@ -22,6 +23,7 @@ export default function AllPeptidesPage() {
     <>
       {/* NAVBAR — NO PADDING ABOVE */}
       <Navbar />
+      <Breadcrumbs/>
 
       {/* MAIN CONTENT ONLY */}
       <main className="min-h-screen bg-white pt-[72px] sm:pt-[90px]">

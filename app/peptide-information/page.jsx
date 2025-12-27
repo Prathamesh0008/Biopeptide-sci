@@ -6,11 +6,13 @@ import Link from "next/link";
 import { INFO_ARTICLES } from "@/data/information";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "../../components/Breadcrumbs";
 
 export default function PeptideInformationPage() {
   return (
     <>
     <Navbar/>
+    <Breadcrumbs/>
     <main className="min-h-screen bg-white text-gray-800">
 
       {/* HERO BANNER */}
