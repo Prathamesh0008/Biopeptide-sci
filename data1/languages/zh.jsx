@@ -124,34 +124,7 @@ export const zh = {
     contact: "联系我们"
   }
 },
-navbar: {
-  tagline: "Premium onderzoekspeptiden • Hoge zuiverheid • Snelle verzending",
 
-  search: {
-    desktop: "Zoek producten of pagina's...",
-    mobile: "Zoek producten..."
-  },
-
-  cart: "Mijn winkelwagen",
-
-  auth: {
-    signIn: "Inloggen",
-    profile: "Mijn profiel",
-    orders: "Mijn bestellingen",
-    logout: "Uitloggen"
-  },
-
-  menu: {
-    allPeptides: "Alle peptiden",
-    popular: "Populaire peptiden",
-    bundle: "Bundles & besparen",
-    research: "Peptideonderzoek",
-    information: "Peptide-informatie",
-    videos: "Onderzoeksvideo's",
-    company: "Ons bedrijf",
-    contact: "Contact"
-  }
-},
 footer: {
   newsletter: {
     title: "获取 BioPeptide 最新资讯",
@@ -209,7 +182,193 @@ footer: {
   },
 
   copyright: "版权所有。"
+},
+peptideInfo: {
+  page: {
+    title: "肽类信息",
+    subtitle: "以研究为导向的肽科学与教育知识。",
+    glossary: "肽类词汇表",
+    readMore: "阅读更多 →",
+    back: "← 返回肽类信息",
+    notFound: "未找到文章"
+  },
+
+  articles: {
+    purity: {
+      img: "/peptide-info/section-quality.jpg",
+      title: "肽类纯度",
+      preview: "肽的纯度如何实现和验证？",
+      content: [
+        "纯度对科研准确性至关重要。",
+        "BioPeptide 提供99%以上纯度。",
+        "影响生物稳定性。",
+        "每批次均附COA。",
+        "减少副反应。",
+        "分离杂质。",
+        "提高长期稳定性。"
+      ]
+    },
+    intro: {
+      img: "/peptide-info/section-basics.jpg",
+      title: "肽类简介",
+      preview: "肽是短链氨基酸...",
+      content: [
+        "在生物通信中重要。",
+        "介绍基础概念。",
+        "比蛋白质更短。",
+        "作为信号分子。",
+        "广泛用于研究。",
+        "结构可精确修改。"
+      ]
+    },
+    synthesis: {
+      img: "/peptide-info/section-testing.jpg",
+      title: "肽类合成",
+      preview: "采用自动固相合成方法...",
+      content: [
+        "SPPS为标准方法。",
+        "包括纯化和验证。",
+        "纯度超过99%。",
+        "精确序列控制。",
+        "自动化提高效率。",
+        "去除杂质。",
+        "分析验证完整性。"
+      ]
+    },
+    storage: {
+       img: "/peptide-info/section-storage.jpg",
+      title: "肽类储存",
+      preview: "正确储存确保稳定性...",
+      content: [
+        "−20°C储存。",
+        "复溶后冷藏。",
+        "避免反复冻融。",
+        "分装保存。",
+        "24–48小时内使用。",
+        "避光防潮。",
+        "检查pH值。"
+      ]
+    }
+  }
+},
+home: {
+  hero: {
+    badge: "BioPeptide 研究胶囊",
+    title: "科研肽胶囊",
+    subtitle: "专为科学研究设计的高纯度 BioPeptide 胶囊。",
+    button: "了解更多"
+  },
+
+  productGrid: {
+    mainTitle: "购买科研用肽",
+    description:
+      "BioPeptide 提供具有完整文档的高纯度科研肽。",
+    featuredTitle: "精选科研肽",
+    filter: "筛选",
+    showing: "显示",
+    of: "共",
+    products: "个产品",
+    viewMore: "查看更多",
+    productList: "产品列表"
+  },
+
+  about: {
+    title: "关于 BioPeptide",
+    companyTitle: "🧬 我们的公司",
+    companyText1:
+      "BioPeptide™ 是领先的高端科研肽供应商。",
+    companyText2:
+      "我们自豪地支持全球科研机构。",
+    qualityTitle: "🔬 品质 · 服务 · 价值",
+    qualityText:
+      "BioPeptide™ 通过先进的合成和测试提供高纯度科研材料。",
+    customersTitle: "👥 我们的客户",
+    customersText:
+      "全球研究人员信赖 BioPeptide™ 的可靠产品。"
+  }
+},
+productCard: {
+  learnMore: "了解更多",
+  addToCart: "加入购物车"
+},
+allPeptides: {
+  title: "所有肽类",
+  subtitle: "探索我们完整的 BioPeptide 高纯度科研化合物系列。",
+  showing: "显示",
+  products: "产品"
+},
+breadcrumbs: {
+  home: "首页",
+  profile: "个人资料",
+  orders: "订单",
+  cart: "购物车",
+  login: "登录",
+  register: "注册",
+  "all-peptides": "所有肽类",
+  "peptide-research": "肽研究",
+  "peptide-information": "肽信息",
+  product: "产品"
+},
+popularPeptides: {
+  title: "热门肽类",
+  subtitle: "探索最受欢迎的 BioPeptide 研究肽。",
+  showing: "显示",
+  products: "产品"
+},
+bundlePage: {
+  title: "组合优惠",
+  subtitle: "专为多通路分析、精密实验和先进科学工作流程而设计的专属BioPeptide研究套装。",
+  viewBundleButton: "查看组合",
+},
+"productPage": {
+  "back": "← 返回产品",
+  "subtext": "高级BioPeptide • 高纯度科研材料",
+  "priceNote": "仅限科研用途",
+  "addToCart": "加入购物车",
+  "specs": {
+    "category": "类别",
+    "purity": "纯度",
+    "size": "单位规格",
+    "cas": "CAS编号"
+  },
+  "badges": {
+    "hplc": "HPLC检测",
+    "purity": "{{purity}}",
+    "grade": "科研级",
+    "coa": "提供COA"
+  }
+},
+"productContent": {
+  "overview": "{{name}} – 概述",
+  "mechanism": "作用机制",
+  "applications": "主要研究用途",
+  "background": "科学背景",
+  "stability": "稳定性概况",
+  "solubility": "溶解性与复溶",
+  "specs": "技术参数",
+  "faq": "常见问题",
+  "disclaimer": "免责声明：不得用于人类或兽医用途。仅限实验研究。",
+  "faqList": {
+    "q1": "该肽适用于人类使用吗？",
+    "a1": "不适用，仅限实验研究。",
+    "q2": "是否附带COA？",
+    "a2": "是的，每批产品都包含HPLC和MS验证。",
+    "q3": "是否为无菌产品？",
+    "a3": "复溶前并非无菌。",
+    "q4": "如何保存？",
+    "a4": "密封冷冻保存，温度为−20°C。"
+  }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
