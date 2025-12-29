@@ -303,11 +303,19 @@ breadcrumbs: {
   cart: "カート",
   login: "ログイン",
   register: "登録",
+
   "all-peptides": "すべてのペプチド",
+  "popular-peptides": "人気のペプチド",
+  "bundle-save": "セット割引",
   "peptide-research": "ペプチド研究",
   "peptide-information": "ペプチド情報",
+
+  about: "会社情報",
+  contact: "お問い合わせ",
+
   product: "製品"
 },
+
 popularPeptides: {
   title: "人気のペプチド",
   subtitle: "最も需要の高いBioPeptide研究用ペプチドをご覧ください。",
@@ -319,6 +327,107 @@ bundlePage: {
   subtitle: "複数の経路解析、精密な実験、先進的な科学的ワークフローのために設計された独自のBioPeptide研究バンドルです。",
   viewBundleButton: "バンドルを見る",
 },
+cartPage: {
+  title: "ショッピングカート",
+  empty: "カートは空です。",
+  qty: "数量",
+  remove: "削除",
+
+  summary: "注文概要",
+  subtotal: "小計",
+  shipping: "配送",
+  shippingNote: "チェックアウト時に計算",
+  total: "合計",
+
+  checkout: "チェックアウトへ"
+},
+profilePage: {
+  title: "マイアカウント",
+  subtitle: "プロフィール、住所、注文を管理します",
+  logout: "ログアウト",
+  customer: "顧客",
+
+  stats: {
+    orders: "注文",
+    pending: "保留中",
+    delivered: "配達済み"
+  },
+
+  labels: {
+    fullName: "氏名",
+    email: "メール",
+    phone: "電話番号",
+    role: "役割",
+    joined: "登録日"
+  },
+
+  accountInfo: { title: "アカウント情報" },
+
+  address: {
+    title: "配送先住所",
+    subtitle: "最後に使用した住所",
+    edit: "編集 →"
+  },
+
+  orders: {
+    title: "注文履歴",
+    shopMore: "さらに購入 →",
+    loading: "注文を読み込み中…",
+    empty: "注文が見つかりません",
+    startShopping: "買い物を始める"
+  }
+},
+ordersPage: {
+  title: "注文履歴",
+  subtitle: "購入内容と注文履歴を確認できます",
+
+  loading: "注文を読み込んでいます…",
+  empty: "まだ注文がありません。",
+
+  orderId: "注文ID",
+  orderTotal: "注文合計",
+
+  status: {
+    pending: "保留中",
+    approved: "承認済み",
+    shipped: "発送済み",
+    delivered: "配達済み",
+    cancelled: "キャンセル"
+  }
+},
+checkoutPage: {
+  title: "チェックアウト",
+  shippingInfo: "配送情報",
+
+  fields: {
+    fullName: "氏名",
+    email: "メールアドレス",
+    phone: "携帯番号",
+    house: "番地・建物名",
+    area: "地域 / 目印",
+    city: "市区町村",
+    state: "都道府県",
+    selectState: "都道府県を選択",
+    pincode: "郵便番号",
+    country: "国"
+  },
+
+  errors: {
+    invalidEmail: "有効なメールアドレスを入力してください",
+    requiredFields: "必須項目をすべて入力してください"
+  },
+
+  summary: {
+    title: "注文概要",
+    total: "合計"
+  },
+
+  continue: "支払いへ進む"
+}
+,
+
+
+
 "productPage": {
   "back": "← 製品一覧に戻る",
   "subtext": "プレミアムBioPeptide • 高純度研究用材料",

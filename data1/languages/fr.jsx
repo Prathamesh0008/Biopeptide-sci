@@ -303,9 +303,16 @@ breadcrumbs: {
   cart: "Panier",
   login: "Connexion",
   register: "Inscription",
+
   "all-peptides": "Tous les peptides",
+  "popular-peptides": "Peptides populaires",
+  "bundle-save": "Offres groupées",
   "peptide-research": "Recherche sur les peptides",
   "peptide-information": "Informations sur les peptides",
+
+  about: "À propos",
+  contact: "Contact",
+
   product: "Produit"
 },
 popularPeptides: {
@@ -319,6 +326,107 @@ bundlePage: {
   subtitle: "Des ensembles de recherche BioPeptide exclusifs conçus pour une analyse multipiste, une expérimentation de précision et des flux de travail scientifiques avancés.",
   viewBundleButton: "Voir le pack",
 },
+cartPage: {
+  title: "Panier",
+  empty: "Votre panier est vide.",
+  qty: "Qté",
+  remove: "Supprimer",
+
+  summary: "Récapitulatif",
+  subtotal: "Sous-total",
+  shipping: "Livraison",
+  shippingNote: "Calculée à la caisse",
+  total: "Total",
+
+  checkout: "Passer à la caisse"
+},
+profilePage: {
+  title: "Mon Compte",
+  subtitle: "Gérez votre profil, adresses et commandes",
+  logout: "Se déconnecter",
+  customer: "Client",
+
+  stats: {
+    orders: "Commandes",
+    pending: "En attente",
+    delivered: "Livrées"
+  },
+
+  labels: {
+    fullName: "Nom complet",
+    email: "Email",
+    phone: "Téléphone",
+    role: "Rôle",
+    joined: "Inscrit"
+  },
+
+  accountInfo: { title: "Informations du compte" },
+
+  address: {
+    title: "Adresse de livraison",
+    subtitle: "Dernière adresse utilisée",
+    edit: "Modifier →"
+  },
+
+  orders: {
+    title: "Historique des commandes",
+    shopMore: "Acheter plus →",
+    loading: "Chargement des commandes…",
+    empty: "Aucune commande trouvée",
+    startShopping: "Commencer vos achats"
+  }
+},
+ordersPage: {
+  title: "Mes Commandes",
+  subtitle: "Suivez vos achats et l’historique des commandes",
+
+  loading: "Chargement de vos commandes…",
+  empty: "Vous n’avez encore passé aucune commande.",
+
+  orderId: "ID de commande",
+  orderTotal: "Total de la commande",
+
+  status: {
+    pending: "En attente",
+    approved: "Approuvée",
+    shipped: "Expédiée",
+    delivered: "Livrée",
+    cancelled: "Annulée"
+  }
+},
+checkoutPage: {
+  title: "Paiement",
+  shippingInfo: "Informations de livraison",
+
+  fields: {
+    fullName: "Nom complet",
+    email: "Email",
+    phone: "Numéro de téléphone",
+    house: "Maison / Appartement / Rue",
+    area: "Zone / Point de repère",
+    city: "Ville",
+    state: "État",
+    selectState: "Sélectionner un état",
+    pincode: "Code postal",
+    country: "Pays"
+  },
+
+  errors: {
+    invalidEmail: "Veuillez saisir une adresse email valide",
+    requiredFields: "Veuillez remplir tous les champs obligatoires"
+  },
+
+  summary: {
+    title: "Récapitulatif de la commande",
+    total: "Total"
+  },
+
+  continue: "Continuer vers le paiement"
+}
+,
+
+
+
 "productPage": {
   "back": "← Retour aux produits",
   "subtext": "BioPeptide Premium • Matériau de recherche de haute pureté",

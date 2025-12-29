@@ -18,10 +18,9 @@ export default function BundleDetailPage() {
 
   const [previewOpen, setPreviewOpen] = useState(false);
 
-  const handleAddBundleToCart = () => {
+ const handleAddBundleToCart = () => {
   if (!bundle) return;
 
-  // ✅ SAME USER-BASED CART KEY AS CART PAGE
   const userStr = localStorage.getItem("bio-user");
   const user = userStr ? JSON.parse(userStr) : null;
 
@@ -44,10 +43,10 @@ export default function BundleDetailPage() {
       price: bundle.price,
       qty: 1,
       image: bundle.resolvedProducts?.[0]?.image || "/images/product.png",
-      strength: bundle.discount, // "Save 30%"
+      strength: bundle.discount,
       type: "bundle",
 
-      // ✅ IMPORTANT: store bundle contents
+      // keep bundle contents
       items: bundle.resolvedProducts.map((p) => ({
         id: p.id,
         name: p.name,
@@ -60,8 +59,10 @@ export default function BundleDetailPage() {
 
   localStorage.setItem(cartKey, JSON.stringify(cart));
 
-  window.location.href = "/cart";
+  // 🔔 THIS is the magic line
+  window.dispatchEvent(new Event("bio-cart-updated"));
 };
+
 
 
 

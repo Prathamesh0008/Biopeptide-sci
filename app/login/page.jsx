@@ -66,8 +66,14 @@ export default function LoginPage() {
 
 
 // save user for frontend
+// save user for frontend
 localStorage.setItem("bio-user", JSON.stringify(data.user));
+
+// 🔥 REQUIRED — notify Navbar
+window.dispatchEvent(new Event("bio-user-updated"));
+
 mergeGuestCartToUser(data.user);
+
 
 
 // admin flow

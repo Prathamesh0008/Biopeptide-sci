@@ -301,11 +301,19 @@ breadcrumbs: {
   cart: "سلة التسوق",
   login: "تسجيل الدخول",
   register: "إنشاء حساب",
+
   "all-peptides": "جميع الببتيدات",
+  "popular-peptides": "الببتيدات الشائعة",
+  "bundle-save": "العروض المجمعة",
   "peptide-research": "أبحاث الببتيدات",
   "peptide-information": "معلومات الببتيدات",
-  product: "منتج"
+
+  about: "معلومات عنا",
+  contact: "اتصل بنا",
+
+  product: "المنتج"
 },
+
 popularPeptides: {
   title: "الببتيدات الشائعة",
   subtitle: "استكشف أكثر ببتيدات BioPeptide البحثية طلبًا.",
@@ -317,6 +325,107 @@ bundlePage: {
   subtitle: "حزم BioPeptide البحثية الحصرية المصممة لتحليل المسارات المتعددة والتجارب الدقيقة وسير العمل العلمي المتقدم.",
   viewBundleButton: "عرض الحزمة",
 },
+cartPage: {
+  title: "سلة التسوق",
+  empty: "سلة التسوق فارغة.",
+  qty: "الكمية",
+  remove: "إزالة",
+
+  summary: "ملخص الطلب",
+  subtotal: "المجموع الفرعي",
+  shipping: "الشحن",
+  shippingNote: "يتم حسابه عند الدفع",
+  total: "الإجمالي",
+
+  checkout: "إتمام الشراء"
+},
+profilePage: {
+  title: "حسابي",
+  subtitle: "إدارة الملف الشخصي والعناوين والطلبات",
+  logout: "تسجيل الخروج",
+  customer: "عميل",
+
+  stats: {
+    orders: "الطلبات",
+    pending: "قيد المعالجة",
+    delivered: "تم التوصيل"
+  },
+
+  labels: {
+    fullName: "الاسم الكامل",
+    email: "البريد الإلكتروني",
+    phone: "الهاتف",
+    role: "الدور",
+    joined: "تاريخ الانضمام"
+  },
+
+  accountInfo: { title: "معلومات الحساب" },
+
+  address: {
+    title: "عنوان الشحن",
+    subtitle: "آخر عنوان مستخدم",
+    edit: "تعديل →"
+  },
+
+  orders: {
+    title: "سجل الطلبات",
+    shopMore: "تسوق المزيد →",
+    loading: "جارٍ تحميل الطلبات…",
+    empty: "لا توجد طلبات",
+    startShopping: "ابدأ التسوق"
+  }
+},
+ordersPage: {
+  title: "طلباتي",
+  subtitle: "تتبع مشترياتك وسجل الطلبات",
+
+  loading: "جارٍ تحميل طلباتك…",
+  empty: "لم تقم بإجراء أي طلب بعد.",
+
+  orderId: "رقم الطلب",
+  orderTotal: "إجمالي الطلب",
+
+  status: {
+    pending: "قيد الانتظار",
+    approved: "تمت الموافقة",
+    shipped: "تم الشحن",
+    delivered: "تم التسليم",
+    cancelled: "تم الإلغاء"
+  }
+},
+checkoutPage: {
+  title: "إتمام الشراء",
+  shippingInfo: "معلومات الشحن",
+
+  fields: {
+    fullName: "الاسم الكامل",
+    email: "البريد الإلكتروني",
+    phone: "رقم الهاتف",
+    house: "المنزل / الشقة / الشارع",
+    area: "المنطقة / معلم",
+    city: "المدينة",
+    state: "الولاية",
+    selectState: "اختر الولاية",
+    pincode: "الرمز البريدي",
+    country: "الدولة"
+  },
+
+  errors: {
+    invalidEmail: "يرجى إدخال عنوان بريد إلكتروني صالح",
+    requiredFields: "يرجى ملء جميع تفاصيل العنوان المطلوبة"
+  },
+
+  summary: {
+    title: "ملخص الطلب",
+    total: "الإجمالي"
+  },
+
+  continue: "المتابعة إلى الدفع"
+}
+,
+
+
+
 "productPage": {
   "back": "← العودة إلى المنتجات",
   "subtext": "BioPeptide مميز • مادة بحثية عالية النقاء",

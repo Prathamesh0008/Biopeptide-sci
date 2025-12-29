@@ -49,13 +49,11 @@ if (loading) return null;
       qty: 1,
     });
   }
+localStorage.setItem(cartKey, JSON.stringify(cart));
 
-  localStorage.setItem(cartKey, JSON.stringify(cart));
+// 🔔 tell UI that cart changed
+window.dispatchEvent(new Event("bio-cart-updated"));
 
-  setPageLoading(true);
-  setTimeout(() => {
-    router.push("/cart");
-  }, 500);
 };
 
   return (

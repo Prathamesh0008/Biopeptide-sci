@@ -138,17 +138,15 @@ if (loading) return null;
           </p>
 
           {/* BUTTON */}
-          <button
+      <button
   onClick={() => {
-    setLoading(true);
-    setTimeout(() => {
-      router.push(`/bundle/${bundle.id}`);
-    }, 600);
+    router.push(`/bundle/${bundle.id}`);
   }}
   className="w-full bg-gradient-to-r from-bioBlue to-bioGreen text-white text-sm font-semibold py-2.5 rounded-full hover:opacity-90 transition"
 >
   {translations.bundlePage.viewBundleButton}
 </button>
+
 
         </div>
 

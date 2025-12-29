@@ -302,11 +302,19 @@ breadcrumbs: {
   cart: "Cart",
   login: "Login",
   register: "Register",
+
   "all-peptides": "All Peptides",
+  "popular-peptides": "Popular Peptides",
+  "bundle-save": "Bundle & Save",
   "peptide-research": "Peptide Research",
   "peptide-information": "Peptide Information",
+
+  about: "About Us",
+  contact: "Contact",
+
   product: "Product"
 },
+
 popularPeptides: {
   title: "Popular Peptides",
   subtitle: "Explore the most in-demand BioPeptide research peptides.",
@@ -318,6 +326,149 @@ bundlePage: {
   subtitle: "Exclusive BioPeptide research bundles designed for multi-pathway analysis, precision experimentation and advanced scientific workflows.",
   viewBundleButton: "View Bundle",
 },
+cartPage: {
+  title: "Shopping Cart",
+  empty: "Your cart is empty.",
+  qty: "Qty",
+  remove: "Remove",
+
+  summary: "Order Summary",
+  subtotal: "Subtotal",
+  shipping: "Shipping",
+  shippingNote: "Calculated at checkout",
+  total: "Total",
+
+  checkout: "Proceed to Checkout"
+},
+profilePage: {
+  title: "My Account",
+  subtitle: "Manage your profile, addresses, and orders",
+
+  logout: "Logout",
+  customer: "Customer",
+
+  stats: {
+    orders: "Orders",
+    pending: "Pending",
+    delivered: "Delivered"
+  },
+
+  labels: {
+    fullName: "Full Name",
+    email: "Email",
+    phone: "Phone",
+    role: "Role",
+    joined: "Joined"
+  },
+
+  accountInfo: {
+    title: "Account Information"
+  },
+
+  address: {
+    title: "Shipping Address",
+    subtitle: "Last used delivery address",
+    edit: "Edit →"
+  },
+
+  orders: {
+    title: "Order History",
+    shopMore: "Shop More →",
+    loading: "Loading orders…",
+    empty: "No orders found",
+    startShopping: "Start Shopping"
+  }
+},
+profilePage: {
+  title: "My Account",
+  subtitle: "Manage your profile, addresses, and orders",
+
+  logout: "Logout",
+  customer: "Customer",
+
+  stats: {
+    orders: "Orders",
+    pending: "Pending",
+    delivered: "Delivered"
+  },
+
+  labels: {
+    fullName: "Full Name",
+    email: "Email",
+    phone: "Phone",
+    role: "Role",
+    joined: "Joined"
+  },
+
+  accountInfo: {
+    title: "Account Information"
+  },
+
+  address: {
+    title: "Shipping Address",
+    subtitle: "Last used delivery address",
+    edit: "Edit →"
+  },
+
+  orders: {
+    title: "Order History",
+    shopMore: "Shop More →",
+    loading: "Loading orders…",
+    empty: "No orders found",
+    startShopping: "Start Shopping"
+  }
+},
+ordersPage: {
+  title: "My Orders",
+  subtitle: "Track your purchases and order history",
+
+  loading: "Loading your orders…",
+  empty: "You haven’t placed any orders yet.",
+
+  orderId: "Order ID",
+  orderTotal: "Order Total",
+
+  status: {
+    pending: "Pending",
+    approved: "Approved",
+    shipped: "Shipped",
+    delivered: "Delivered",
+    cancelled: "Cancelled"
+  }
+},
+checkoutPage: {
+  title: "Checkout",
+  shippingInfo: "Shipping Information",
+
+  fields: {
+    fullName: "Full Name",
+    email: "Email",
+    phone: "Mobile Number",
+    house: "House / Flat / Street",
+    area: "Area / Landmark",
+    city: "City",
+    state: "State",
+    selectState: "Select State",
+    pincode: "Pincode",
+    country: "Country"
+  },
+
+  errors: {
+    invalidEmail: "Please enter a valid email address",
+    requiredFields: "Please fill all required address details"
+  },
+
+  summary: {
+    title: "Order Summary",
+    total: "Total"
+  },
+
+  continue: "Continue to Payment"
+}
+,
+
+
+
 "productPage": {
   "back": "← Back to Products",
   "subtext": "Premium BioPeptide • High-Purity Scientific Research Material",

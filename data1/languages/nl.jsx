@@ -303,11 +303,19 @@ breadcrumbs: {
   cart: "Winkelwagen",
   login: "Inloggen",
   register: "Registreren",
+
   "all-peptides": "Alle peptiden",
+  "popular-peptides": "Populaire peptiden",
+  "bundle-save": "Bundels & besparen",
   "peptide-research": "Peptideonderzoek",
   "peptide-information": "Peptide-informatie",
+
+  about: "Over ons",
+  contact: "Contact",
+
   product: "Product"
 },
+
 popularPeptides: {
   title: "Populaire Peptiden",
   subtitle: "Ontdek de meest gevraagde BioPeptide onderzoekspeptiden.",
@@ -319,6 +327,92 @@ bundlePage: {
   subtitle: "Exclusieve BioPeptide-onderzoeksbundels ontworpen voor multi-pad analyse, precieze experimenten en geavanceerde wetenschappelijke workflows.",
   viewBundleButton: "Bekijk bundel",
 },
+profilePage: {
+  title: "Mijn Account",
+  subtitle: "Beheer je profiel, adressen en bestellingen",
+  logout: "Uitloggen",
+  customer: "Klant",
+
+  stats: {
+    orders: "Bestellingen",
+    pending: "In behandeling",
+    delivered: "Geleverd"
+  },
+
+  labels: {
+    fullName: "Volledige naam",
+    email: "E-mail",
+    phone: "Telefoon",
+    role: "Rol",
+    joined: "Geregistreerd"
+  },
+
+  accountInfo: { title: "Accountinformatie" },
+
+  address: {
+    title: "Verzendadres",
+    subtitle: "Laatst gebruikte adres",
+    edit: "Bewerken →"
+  },
+
+  orders: {
+    title: "Bestelgeschiedenis",
+    shopMore: "Verder winkelen →",
+    loading: "Bestellingen laden…",
+    empty: "Geen bestellingen gevonden",
+    startShopping: "Begin met winkelen"
+  }
+},
+ordersPage: {
+  title: "Mijn Bestellingen",
+  subtitle: "Bekijk uw aankopen en bestelgeschiedenis",
+
+  loading: "Uw bestellingen worden geladen…",
+  empty: "U heeft nog geen bestellingen geplaatst.",
+
+  orderId: "Bestelnummer",
+  orderTotal: "Besteltotaal",
+
+  status: {
+    pending: "In behandeling",
+    approved: "Goedgekeurd",
+    shipped: "Verzonden",
+    delivered: "Geleverd",
+    cancelled: "Geannuleerd"
+  }
+},
+checkoutPage: {
+  title: "Afrekenen",
+  shippingInfo: "Verzendinformatie",
+
+  fields: {
+    fullName: "Volledige naam",
+    email: "E-mail",
+    phone: "Mobiel nummer",
+    house: "Huis / Appartement / Straat",
+    area: "Gebied / Herkenningspunt",
+    city: "Stad",
+    state: "Provincie",
+    selectState: "Selecteer provincie",
+    pincode: "Postcode",
+    country: "Land"
+  },
+
+  errors: {
+    invalidEmail: "Voer een geldig e-mailadres in",
+    requiredFields: "Vul alle vereiste adresgegevens in"
+  },
+
+  summary: {
+    title: "Besteloverzicht",
+    total: "Totaal"
+  },
+
+  continue: "Doorgaan naar betaling"
+}
+,
+
+
 
 
 

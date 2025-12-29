@@ -308,11 +308,19 @@ breadcrumbs: {
   cart: "Warenkorb",
   login: "Anmelden",
   register: "Registrieren",
+
   "all-peptides": "Alle Peptide",
+  "popular-peptides": "Beliebte Peptide",
+  "bundle-save": "Bundles & Sparen",
   "peptide-research": "Peptidforschung",
   "peptide-information": "Peptidinformationen",
+
+  about: "Über uns",
+  contact: "Kontakt",
+
   product: "Produkt"
 },
+
 popularPeptides: {
   title: "Beliebte Peptide",
   subtitle: "Entdecken Sie die gefragtesten BioPeptide-Forschungspeptide.",
@@ -324,6 +332,107 @@ bundlePage: {
   subtitle: "Exklusive BioPeptid-Forschungspakete für Multi-Pathway-Analysen, präzise Experimente und fortschrittliche wissenschaftliche Arbeitsabläufe.",
   viewBundleButton: "Paket ansehen",
 },
+cartPage: {
+  title: "Warenkorb",
+  empty: "Ihr Warenkorb ist leer.",
+  qty: "Menge",
+  remove: "Entfernen",
+
+  summary: "Bestellübersicht",
+  subtotal: "Zwischensumme",
+  shipping: "Versand",
+  shippingNote: "Wird beim Checkout berechnet",
+  total: "Gesamt",
+
+  checkout: "Zur Kasse gehen"
+},
+profilePage: {
+  title: "Mein Konto",
+  subtitle: "Verwalten Sie Ihr Profil, Adressen und Bestellungen",
+  logout: "Abmelden",
+  customer: "Kunde",
+
+  stats: {
+    orders: "Bestellungen",
+    pending: "Ausstehend",
+    delivered: "Geliefert"
+  },
+
+  labels: {
+    fullName: "Vollständiger Name",
+    email: "E-Mail",
+    phone: "Telefon",
+    role: "Rolle",
+    joined: "Registriert"
+  },
+
+  accountInfo: { title: "Kontoinformationen" },
+
+  address: {
+    title: "Lieferadresse",
+    subtitle: "Zuletzt verwendete Adresse",
+    edit: "Bearbeiten →"
+  },
+
+  orders: {
+    title: "Bestellverlauf",
+    shopMore: "Weiter einkaufen →",
+    loading: "Bestellungen werden geladen…",
+    empty: "Keine Bestellungen gefunden",
+    startShopping: "Jetzt einkaufen"
+  }
+}
+,
+ordersPage: {
+  title: "Meine Bestellungen",
+  subtitle: "Verfolgen Sie Ihre Käufe und den Bestellverlauf",
+
+  loading: "Ihre Bestellungen werden geladen…",
+  empty: "Sie haben noch keine Bestellungen aufgegeben.",
+
+  orderId: "Bestellnummer",
+  orderTotal: "Bestellsumme",
+
+  status: {
+    pending: "Ausstehend",
+    approved: "Genehmigt",
+    shipped: "Versendet",
+    delivered: "Zugestellt",
+    cancelled: "Storniert"
+  }
+}
+,
+checkoutPage: {
+  title: "Kasse",
+  shippingInfo: "Versandinformationen",
+
+  fields: {
+    fullName: "Vollständiger Name",
+    email: "E-Mail",
+    phone: "Handynummer",
+    house: "Haus / Wohnung / Straße",
+    area: "Bereich / Orientierungspunkt",
+    city: "Stadt",
+    state: "Bundesland",
+    selectState: "Bundesland auswählen",
+    pincode: "Postleitzahl",
+    country: "Land"
+  },
+
+  errors: {
+    invalidEmail: "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    requiredFields: "Bitte füllen Sie alle erforderlichen Felder aus"
+  },
+
+  summary: {
+    title: "Bestellübersicht",
+    total: "Gesamt"
+  },
+
+  continue: "Weiter zur Zahlung"
+}
+,
+
 "productPage": {
   "back": "← Zurück zu den Produkten",
   "subtext": "Premium BioPeptide • Hochreines wissenschaftliches Forschungsmaterial",

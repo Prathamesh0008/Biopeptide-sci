@@ -304,11 +304,19 @@ breadcrumbs: {
   cart: "购物车",
   login: "登录",
   register: "注册",
+
   "all-peptides": "所有肽类",
-  "peptide-research": "肽研究",
-  "peptide-information": "肽信息",
+  "popular-peptides": "热门肽类",
+  "bundle-save": "组合优惠",
+  "peptide-research": "肽类研究",
+  "peptide-information": "肽类信息",
+
+  about: "关于我们",
+  contact: "联系我们",
+
   product: "产品"
 },
+
 popularPeptides: {
   title: "热门肽类",
   subtitle: "探索最受欢迎的 BioPeptide 研究肽。",
@@ -320,6 +328,107 @@ bundlePage: {
   subtitle: "专为多通路分析、精密实验和先进科学工作流程而设计的专属BioPeptide研究套装。",
   viewBundleButton: "查看组合",
 },
+cartPage: {
+  title: "购物车",
+  empty: "您的购物车为空。",
+  qty: "数量",
+  remove: "移除",
+
+  summary: "订单摘要",
+  subtotal: "小计",
+  shipping: "运费",
+  shippingNote: "结账时计算",
+  total: "总计",
+
+  checkout: "去结账"
+},
+profilePage: {
+  title: "我的账户",
+  subtitle: "管理您的个人资料、地址和订单",
+  logout: "退出登录",
+  customer: "客户",
+
+  stats: {
+    orders: "订单",
+    pending: "待处理",
+    delivered: "已送达"
+  },
+
+  labels: {
+    fullName: "姓名",
+    email: "电子邮箱",
+    phone: "电话",
+    role: "角色",
+    joined: "注册时间"
+  },
+
+  accountInfo: { title: "账户信息" },
+
+  address: {
+    title: "收货地址",
+    subtitle: "最近使用的地址",
+    edit: "编辑 →"
+  },
+
+  orders: {
+    title: "订单历史",
+    shopMore: "继续购物 →",
+    loading: "正在加载订单…",
+    empty: "未找到订单",
+    startShopping: "开始购物"
+  }
+},
+ordersPage: {
+  title: "我的订单",
+  subtitle: "查看您的购买记录和订单历史",
+
+  loading: "正在加载您的订单…",
+  empty: "您还没有下过任何订单。",
+
+  orderId: "订单编号",
+  orderTotal: "订单总额",
+
+  status: {
+    pending: "待处理",
+    approved: "已批准",
+    shipped: "已发货",
+    delivered: "已送达",
+    cancelled: "已取消"
+  }
+},
+checkoutPage: {
+  title: "结账",
+  shippingInfo: "配送信息",
+
+  fields: {
+    fullName: "全名",
+    email: "电子邮箱",
+    phone: "手机号码",
+    house: "门牌号 / 公寓 / 街道",
+    area: "区域 / 地标",
+    city: "城市",
+    state: "省 / 州",
+    selectState: "选择省 / 州",
+    pincode: "邮政编码",
+    country: "国家"
+  },
+
+  errors: {
+    invalidEmail: "请输入有效的电子邮箱地址",
+    requiredFields: "请填写所有必填的地址信息"
+  },
+
+  summary: {
+    title: "订单摘要",
+    total: "总计"
+  },
+
+  continue: "继续付款"
+}
+,
+
+
+
 "productPage": {
   "back": "← 返回产品",
   "subtext": "高级BioPeptide • 高纯度科研材料",
