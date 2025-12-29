@@ -1,34 +1,32 @@
-"use client";
+// "use client";
 
+// import { LanguageProvider } from "@/contexts/LanguageContext";
+
+// export default function Providers({ children }: { children: React.ReactNode }) {
+//   return <LanguageProvider>{children}</LanguageProvider>;
+// }
+
+
+
+
+// 
+
+import "./globals.css";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 
-export default function Providers({ children }: { children: React.ReactNode }) {
-  return <LanguageProvider>{children}</LanguageProvider>;
+export const metadata = {
+  title: "BioPeptide",
+  description: "Premium Research Peptides",
+};
+
+export default function RootLayout({children}) {
+  return (
+    <html lang="en">
+      <body className="text-gray-900 antialiased">
+        <LanguageProvider>
+          {children}
+        </LanguageProvider>
+      </body>
+    </html>
+  );
 }
-
-
-
-
-// //peptides\app\layout.tsx
-// import "./globals.css";
-// import type { Metadata } from "next";
-
-// export const metadata: Metadata = {
-//   title: "BioPeptide",
-//   description: "Premium Research Peptides • High Purity • Fast Shipping",
-// };
-
-// export default function RootLayout({
-//   children,
-// }: {
-//   children: React.ReactNode;
-// }) {
-//   return (
-//     <html lang="en">
-//       <body className="text-gray-900">
-//         {/* Layout should NOT contain navbar/footer */}
-//         {children}
-//       </body>
-//     </html>
-//   );
-// }

@@ -80,6 +80,63 @@ export default function PeptideResearchClient() {
     </ul>
   )}
 
+{/* PAGINATION */}
+<div className="mt-14 flex items-center justify-center gap-2 flex-wrap">
+
+  {/* PREVIOUS */}
+  <button
+    onClick={() => goToPage(currentPage - 1)}
+    disabled={currentPage === 1}
+    className={`
+      px-4 py-2 rounded-md border text-sm
+      ${currentPage === 1
+        ? "text-gray-400 border-gray-200 cursor-not-allowed"
+        : "text-gray-700 border-gray-300 hover:bg-gray-100"}
+    `}
+  >
+    ← Previous
+  </button>
+
+  {/* PAGE NUMBERS */}
+  {paginationNumbers.map((num, index) =>
+    num === "..." ? (
+      <span
+        key={index}
+        className="px-3 py-2 text-gray-400 text-sm"
+      >
+        …
+      </span>
+    ) : (
+      <button
+        key={index}
+        onClick={() => goToPage(num)}
+        className={`
+          px-4 py-2 rounded-md border text-sm
+          ${currentPage === num
+            ? "bg-bioBlue text-white border-bioBlue"
+            : "text-gray-700 border-gray-300 hover:bg-gray-100"}
+        `}
+      >
+        {num}
+      </button>
+    )
+  )}
+
+  {/* NEXT */}
+  <button
+    onClick={() => goToPage(currentPage + 1)}
+    disabled={currentPage === totalPages}
+    className={`
+      px-4 py-2 rounded-md border text-sm
+      ${currentPage === totalPages
+        ? "text-gray-400 border-gray-200 cursor-not-allowed"
+        : "text-gray-700 border-gray-300 hover:bg-gray-100"}
+    `}
+  >
+    Next →
+  </button>
+</div>
+
 </section>
 
 

@@ -186,7 +186,192 @@ footer: {
   },
 
   copyright: "Alle Rechte vorbehalten."
+},
+peptideInfo: {
+  page: {
+    title: "Peptidinformationen",
+    subtitle: "Forschungsorientiertes Wissen, Peptidwissenschaft und Bildung.",
+    glossary: "Peptid-Glossar",
+    readMore: "Mehr lesen →",
+    back: "← Zurück zu Peptidinformationen",
+    notFound: "Artikel nicht gefunden"
+  },
+
+  articles: {
+    purity: {
+      img: "/peptide-info/section-quality.jpg",
+      title: "Peptidreinheit",
+      preview: "Wie wird Peptidreinheit erreicht und überprüft?",
+      content: [
+        "Peptidreinheit ist entscheidend für Forschungsgenauigkeit.",
+        "BioPeptide liefert >99% Reinheit.",
+        "Reinheit beeinflusst Dosierung und Stabilität.",
+        "Jede Charge enthält vollständige COA-Dokumentation.",
+        "Hohe Reinheit minimiert Nebenreaktionen.",
+        "Chromatographie isoliert Verunreinigungen.",
+        "Reinheit verbessert Langzeitstabilität."
+      ]
+    },
+    intro: {
+      img: "/peptide-info/section-basics.jpg",
+      title: "Einführung in Peptide",
+      preview: "Peptide sind kurze Aminosäureketten...",
+      content: [
+        "Peptide sind zentral für biologische Kommunikation.",
+        "Dieser Artikel erklärt Grundlagen.",
+        "Sie sind kürzer als Proteine.",
+        "Sie wirken als Hormone und Signalmoleküle.",
+        "Weit verbreitet in der Forschung.",
+        "Modulare Struktur erlaubt Präzision."
+      ]
+    },
+    synthesis: {
+      img: "/peptide-info/section-testing.jpg",
+      title: "Peptidsynthese",
+      preview: "Peptide werden automatisiert synthetisiert...",
+      content: [
+        "SPPS ist der Goldstandard.",
+        "Umfasst Kopplung, Reinigung und Validierung.",
+        "BioPeptide garantiert >99% Reinheit.",
+        "Ermöglicht präzise Sequenzkontrolle.",
+        "Automatisierung erhöht Effizienz.",
+        "Reinigung entfernt Nebenprodukte.",
+        "Analytik bestätigt Integrität."
+      ]
+    },
+    storage: {
+      img: "/peptide-info/section-storage.jpg",
+      title: "Peptidlagerung",
+      preview: "Richtige Lagerung sichert Stabilität...",
+      content: [
+        "Bei −20°C lagern.",
+        "Nach Rekonstitution kühlen.",
+        "Gefrierzyklen vermeiden.",
+        "In Aliquots teilen.",
+        "Innerhalb von 24–48 Stunden verwenden.",
+        "Vor Licht und Feuchtigkeit schützen.",
+        "Klarheit und pH prüfen."
+      ]
+    }
+  }
+},
+home: {
+  hero: {
+    badge: "BioPeptide Forschungskapseln",
+    title: "Forschungspeptid-Kapseln",
+    subtitle: "Hochreine BioPeptide-Kapseln für die wissenschaftliche Forschung.",
+    button: "Mehr erfahren"
+  },
+
+  productGrid: {
+    mainTitle: "Peptide für die Wissenschaftliche Forschung Kaufen",
+    description:
+      "BioPeptide liefert hochreine Forschungspeptide mit vollständiger Dokumentation.",
+    featuredTitle: "Empfohlene Forschungspeptide",
+    filter: "Filter",
+    showing: "Anzeige",
+    of: "von",
+    products: "Produkten",
+    viewMore: "Mehr anzeigen",
+    productList: "Produktliste"
+  },
+
+  about: {
+    title: "Über BioPeptide",
+    companyTitle: "🧬 Unser Unternehmen",
+    companyText1:
+      "BioPeptide™ ist ein führender Anbieter hochwertiger Forschungspeptide.",
+    companyText2:
+      "Wir unterstützen stolz globale Forschungsorganisationen.",
+    qualityTitle: "🔬 Qualität. Service. Wert.",
+    qualityText:
+      "BioPeptide™ liefert hochreine Forschungsmaterialien mit fortschrittlicher Synthese und Prüfung.",
+    customersTitle: "👥 Unsere Kunden",
+    customersText:
+      "Forscher weltweit vertrauen BioPeptide™ für zuverlässige Produkte."
+  }
+},
+productCard: {
+  learnMore: "Mehr erfahren",
+  addToCart: "In den Warenkorb"
+},
+allPeptides: {
+  title: "Alle Peptide",
+  subtitle: "Entdecken Sie unsere vollständige Sammlung hochwertiger BioPeptide-Forschungsverbindungen.",
+  showing: "Angezeigt",
+  products: "Produkte"
+},
+breadcrumbs: {
+  home: "Startseite",
+  profile: "Profil",
+  orders: "Bestellungen",
+  cart: "Warenkorb",
+  login: "Anmelden",
+  register: "Registrieren",
+  "all-peptides": "Alle Peptide",
+  "peptide-research": "Peptidforschung",
+  "peptide-information": "Peptidinformationen",
+  product: "Produkt"
+},
+popularPeptides: {
+  title: "Beliebte Peptide",
+  subtitle: "Entdecken Sie die gefragtesten BioPeptide-Forschungspeptide.",
+  showing: "Angezeigt",
+  products: "Produkte"
+},
+bundlePage: {
+  title: "Bündeln & Sparen",
+  subtitle: "Exklusive BioPeptid-Forschungspakete für Multi-Pathway-Analysen, präzise Experimente und fortschrittliche wissenschaftliche Arbeitsabläufe.",
+  viewBundleButton: "Paket ansehen",
+},
+"productPage": {
+  "back": "← Zurück zu den Produkten",
+  "subtext": "Premium BioPeptide • Hochreines wissenschaftliches Forschungsmaterial",
+  "priceNote": "Nur für Forschungszwecke",
+  "addToCart": "In den Warenkorb",
+  "specs": {
+    "category": "Kategorie",
+    "purity": "Reinheit",
+    "size": "Einheitsgröße",
+    "cas": "CAS"
+  },
+  "badges": {
+    "hplc": "HPLC-geprüft",
+    "purity": "{{purity}}",
+    "grade": "Forschungsqualität",
+    "coa": "COA verfügbar"
+  }
+},
+"productContent": {
+  "overview": "{{name}} – Übersicht",
+  "mechanism": "Wirkmechanismus",
+  "applications": "Hauptanwendungsbereiche",
+  "background": "Wissenschaftlicher Hintergrund",
+  "stability": "Stabilitätsprofil",
+  "solubility": "Löslichkeit & Rekonstitution",
+  "specs": "Technische Spezifikationen",
+  "faq": "Häufig gestellte Fragen",
+  "disclaimer": "Haftungsausschluss: Nicht für den menschlichen oder tierärztlichen Gebrauch. Nur für Forschungszwecke.",
+  "faqList": {
+    "q1": "Ist dieses Peptid für den menschlichen Gebrauch bestimmt?",
+    "a1": "Nein. Nur für Forschungszwecke.",
+    "q2": "Enthält es ein COA?",
+    "a2": "Ja. Jede Charge enthält HPLC- und MS-Validierung.",
+    "q3": "Ist es steril?",
+    "a3": "Nicht vor der Rekonstitution.",
+    "q4": "Wie soll es gelagert werden?",
+    "a4": "Versiegelt und gefroren bei −20°C aufbewahren."
+  }
 }
+
+
+
+
+
+
+
+
+
 
 
 };

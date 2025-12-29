@@ -96,6 +96,34 @@ export const nl = {
       }
     ]
   },
+  navbar: {
+  tagline: "Premium onderzoekspeptiden • Hoge zuiverheid • Snelle verzending",
+
+  search: {
+    desktop: "Zoek producten of pagina's...",
+    mobile: "Zoek producten..."
+  },
+
+  cart: "Mijn winkelwagen",
+
+  auth: {
+    signIn: "Inloggen",
+    profile: "Mijn profiel",
+    orders: "Mijn bestellingen",
+    logout: "Uitloggen"
+  },
+
+  menu: {
+    allPeptides: "Alle peptiden",
+    popular: "Populaire peptiden",
+    bundle: "Bundles & besparen",
+    research: "Peptideonderzoek",
+    information: "Peptide-informatie",
+    videos: "Onderzoeksvideo's",
+    company: "Ons bedrijf",
+    contact: "Contact"
+  }
+},
   footer: {
   newsletter: {
     title: "Blijf op de hoogte met BioPeptide",
@@ -153,7 +181,152 @@ export const nl = {
   },
 
   copyright: "Alle rechten voorbehouden."
-}
+},
+peptideInfo: {
+  page: {
+    title: "Peptide-informatie",
+    subtitle: "Onderzoeksgerichte kennis en peptidewetenschap.",
+    glossary: "Peptidewoordenlijst",
+    readMore: "Lees meer →",
+    back: "← Terug naar Peptide-informatie",
+    notFound: "Artikel niet gevonden"
+  },
+
+  articles: {
+    purity: {
+      img: "/peptide-info/section-quality.jpg",
+      title: "Peptidezuiverheid",
+      preview: "Hoe wordt peptidezuiverheid bereikt en gecontroleerd?",
+      content: [
+        "Zuiverheid is essentieel voor nauwkeurig onderzoek.",
+        "BioPeptide levert >99% zuiverheid.",
+        "Zuiverheid beïnvloedt stabiliteit.",
+        "Elke batch bevat COA-documentatie.",
+        "Hoge zuiverheid voorkomt nevenreacties.",
+        "Chromatografie isoleert onzuiverheden.",
+        "Verbetert langdurige stabiliteit."
+      ]
+    },
+    intro: {
+      img: "/peptide-info/section-basics.jpg",
+      title: "Introductie tot Peptiden",
+      preview: "Peptiden zijn korte aminozuurketens...",
+      content: [
+        "Belangrijk voor biologische communicatie.",
+        "Uitleg van basisconcepten.",
+        "Korter dan eiwitten.",
+        "Werken als signaalmoleculen.",
+        "Breed gebruikt in onderzoek.",
+        "Modulaire structuur."
+      ]
+    },
+    synthesis: {
+      img: "/peptide-info/section-testing.jpg",
+      title: "Peptidesynthese",
+      preview: "Peptiden worden automatisch gesynthetiseerd...",
+      content: [
+        "SPPS is de standaard.",
+        "Omvat koppeling en zuivering.",
+        ">99% zuiverheid gegarandeerd.",
+        "Nauwkeurige sequentiecontrole.",
+        "Automatisering verhoogt efficiëntie.",
+        "Verwijdert fragmenten.",
+        "Analytische bevestiging."
+      ]
+    },
+    storage: {
+      img: "/peptide-info/section-storage.jpg",
+      title: "Peptideopslag",
+      preview: "Correcte opslag garandeert stabiliteit...",
+      content: [
+        "Bewaren bij −20°C.",
+        "Koelen na oplossen.",
+        "Vermijd vriescycli.",
+        "Verdeel in aliquots.",
+        "Gebruik binnen 24–48 uur.",
+        "Bescherm tegen licht.",
+        "Controleer helderheid."
+      ]
+    }
+  }
+},
+home: {
+  hero: {
+    badge: "BioPeptide Onderzoekscapsules",
+    title: "Onderzoekspeptide Capsules",
+    subtitle: "Hoogzuivere BioPeptide capsules ontworpen voor wetenschappelijk onderzoek.",
+    button: "Meer informatie"
+  },
+
+  productGrid: {
+    mainTitle: "Peptiden Kopen voor Wetenschappelijk Onderzoek",
+    description:
+      "BioPeptide levert hoogzuivere onderzoekspeptiden met volledige documentatie.",
+    featuredTitle: "Uitgelichte Onderzoekspeptiden",
+    filter: "Filter",
+    showing: "Toont",
+    of: "van",
+    products: "producten",
+    viewMore: "Meer bekijken",
+    productList: "Productlijst"
+  },
+
+  about: {
+    title: "Over BioPeptide",
+    companyTitle: "🧬 Ons Bedrijf",
+    companyText1:
+      "BioPeptide™ is een toonaangevende leverancier van premium onderzoekspeptiden.",
+    companyText2:
+      "Wij ondersteunen met trots wereldwijde onderzoeksorganisaties.",
+    qualityTitle: "🔬 Kwaliteit. Service. Waarde.",
+    qualityText:
+      "BioPeptide™ levert hoogzuivere onderzoeksmaterialen met geavanceerde synthese en testen.",
+    customersTitle: "👥 Onze Klanten",
+    customersText:
+      "Onderzoekers wereldwijd vertrouwen op BioPeptide™ voor betrouwbare producten."
+  }
+},
+productCard: {
+  learnMore: "Meer informatie",
+  addToCart: "In winkelwagen"
+},
+allPeptides: {
+  title: "Alle peptiden",
+  subtitle: "Ontdek onze volledige collectie premium BioPeptide onderzoeksverbindingen.",
+  showing: "Toont",
+  products: "producten"
+},
+breadcrumbs: {
+  home: "Home",
+  profile: "Profiel",
+  orders: "Bestellingen",
+  cart: "Winkelwagen",
+  login: "Inloggen",
+  register: "Registreren",
+  "all-peptides": "Alle peptiden",
+  "peptide-research": "Peptideonderzoek",
+  "peptide-information": "Peptide-informatie",
+  product: "Product"
+},
+popularPeptides: {
+  title: "Populaire Peptiden",
+  subtitle: "Ontdek de meest gevraagde BioPeptide onderzoekspeptiden.",
+  showing: "Toont",
+  products: "producten"
+},
+bundlePage: {
+  title: "Bundel & Bespaar",
+  subtitle: "Exclusieve BioPeptide-onderzoeksbundels ontworpen voor multi-pad analyse, precieze experimenten en geavanceerde wetenschappelijke workflows.",
+  viewBundleButton: "Bekijk bundel",
+},
+
+
+
+
+
+
+
+
 
 
 

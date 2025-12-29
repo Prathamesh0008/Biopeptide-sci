@@ -1,3 +1,9 @@
+
+
+
+
+
+
 //peptides\app\product\[slug]\page.jsx
 "use client";
 

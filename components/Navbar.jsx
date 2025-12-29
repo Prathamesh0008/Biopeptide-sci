@@ -2,6 +2,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import { FaSearch, FaUser, FaShoppingCart, FaGlobe } from "react-icons/fa";
 import { useRouter } from "next/navigation";
@@ -55,6 +56,10 @@ const t = (path) => {
     { code: "zh", label: "Chinese" },
     { code: "fr", label: "French" },
   ];
+
+  useEffect(() => {
+  if (!menuOpen) setLanguageOpen(false);
+}, [menuOpen]);
 
   useEffect(() => {
     const stored = localStorage.getItem("bio-user");
@@ -164,28 +169,35 @@ const t = (path) => {
       )}
 
       {/* TOP TAGLINE */}
-      <div className="w-full h-10 bg-[linear-gradient(to_right,#145b2f,#559f45,#65b4d7,#1a497c)]
-                flex items-center justify-center text-white text-sm md:text-base">
-        <p className="text-[11px] sm:text-[12px] md:text-[14px] font-medium whitespace-nowrap">
-          {t("tagline")}
-        </p>
-      </div>
+      <div className="w-full h-10 bg-[linear-gradient(to_right,#145b2f,#559f45,#65b4d7,#1a497c)]">
+  <div className="max-w-7xl mx-auto h-full flex items-center justify-center px-4">
+    <p className="text-white text-[11px] sm:text-[12px] md:text-[14px] font-medium text-center w-full">
+      {t("tagline")}
+    </p>
+  </div>
+</div>
+
 
       {/* MAIN NAVBAR */}
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between gap-6">
+
         
         {/* LOGO */}
         <div
-          onClick={() => handleNavigate("/")}
-          className="flex items-center gap-2 cursor-pointer"
-        >
-          <div className="h-10 w-10 rounded-full bg-bioGreen/90 flex items-center justify-center text-white font-bold text-lg">
-            B
-          </div>
-          <span className="text-xl font-semibold tracking-tight text-gray-900">
-            BIOPEPTIDE
-          </span>
-        </div>
+  onClick={() => handleNavigate("/")}
+  className="cursor-pointer flex items-center h-12 w-auto"
+>
+  <Image
+    src="/images/Biopeptidecolourlogo.png"
+    alt="BioPeptide Logo"
+    width={180}
+    height={40}
+    className="object-contain"
+    priority
+  />
+</div>
+
+
 
         {/* DESKTOP SEARCH */}
         <div className="flex-1 max-w-2xl mx-auto hidden md:block">
@@ -225,7 +237,7 @@ const t = (path) => {
         </div>
 
         {/* DESKTOP ICONS */}
-        <div className="hidden md:flex items-center gap-6 text-sm text-gray-700">
+        <div className="hidden md:flex items-center gap-6 text-sm text-gray-700 whitespace-nowrap">
           {/* USER PROFILE */}
           {!user ? (
             <button
@@ -353,6 +365,7 @@ const t = (path) => {
           </button>
         </div>
       </div>
+      
       {/* MOBILE SEARCH BAR — BELOW NAVBAR */}
 {mobileSearchOpen && (
   <div className="md:hidden bg-white border-b border-gray-200 px-4 py-3 relative z-[998]">
@@ -397,7 +410,17 @@ const t = (path) => {
 
       {/* DESKTOP LINKS */}
       <div className="border-t border-gray-200 hidden md:block">
-        <nav className="max-w-7xl mx-auto px-6 py-3 flex flex-wrap items-center justify-center gap-8 text-[15px] text-gray-700">
+       <nav className="
+  max-w-7xl mx-auto px-6
+  h-[48px]
+  flex items-center justify-center
+  gap-4
+  text-[15px]
+  text-gray-700
+  flex-nowrap overflow-hidden
+">
+
+
 
           <MenuItem title={t("menu.allPeptides")} onClick={() => handleNavigate("/all-peptides")} />
           <MenuItem title={t("menu.popular")}onClick={() => handleNavigate("/popular-peptides")} />
@@ -412,16 +435,16 @@ const t = (path) => {
 
       {/* MOBILE MENU — SLIDE DOWN ANIMATION */}
       <div
-        className={`
-          md:hidden
-          bg-white
-          text-gray-700
-          overflow-hidden
-          border-t border-gray-200
-          transition-all duration-300 ease-out
-          ${menuOpen ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"}
-        `}
-      >
+  className={`
+    md:hidden
+    bg-white
+    text-gray-700
+    border-t border-gray-200
+    transition-all duration-300 ease-out
+    ${menuOpen ? "max-h-[80vh] opacity-100 overflow-y-auto" : "max-h-0 opacity-0 overflow-hidden"}
+  `}
+>
+
 
 
         <div className="px-6 py-4 space-y-4">
@@ -429,14 +452,43 @@ const t = (path) => {
 
           {/* MENU LINKS */}
 <div className="flex flex-col gap-4 text-gray-700 text-[16px] items-start text-left">
-  <MenuItem title="All Peptides" onClick={() => handleNavigate("/all-peptides")} />
-  <MenuItem title="Popular Peptides" onClick={() => handleNavigate("/popular-peptides")} />
-  <MenuItem title="Bundle & Save" onClick={() => handleNavigate("/bundle-save")} />
-  <MenuItem title="Peptide Research" onClick={() => handleNavigate("/peptide-research")} />
-  <MenuItem title="Peptide Information" onClick={() => handleNavigate("/peptide-information")} />
-  <MenuItem title="Research Videos" onClick={() => window.open("https://www.youtube.com/@yourchannel", "_blank")} />
-  <MenuItem title="Our Company" onClick={() => handleNavigate("/about")} />
-  <MenuItem title="Contact Us" onClick={() => handleNavigate("/contact")} />
+  <MenuItem title={t("menu.allPeptides")} onClick={() => handleNavigate("/all-peptides")} />
+  <MenuItem title={t("menu.popular")} onClick={() => handleNavigate("/popular-peptides")} />
+  <MenuItem title={t("menu.bundle")} onClick={() => handleNavigate("/bundle-save")} />
+  <MenuItem title={t("menu.research")} onClick={() => handleNavigate("/peptide-research")} />
+  <MenuItem title={t("menu.information")} onClick={() => handleNavigate("/peptide-information")} />
+  <MenuItem title={t("menu.videos")} onClick={() => window.open("https://www.youtube.com/@yourchannel", "_blank")} />
+  <MenuItem title={t("menu.company")} onClick={() => handleNavigate("/about")} />
+  <MenuItem title={t("menu.contact")} onClick={() => handleNavigate("/contact")} />
+</div>
+
+{/* 🌍 LANGUAGE (MOBILE DROPDOWN) */}
+<div className="pt-4 border-t border-gray-200">
+  <button
+    onClick={() => setLanguageOpen((v) => !v)}
+    className="w-full flex items-center justify-between text-sm text-gray-700"
+  >
+    <span>Language</span>
+    <span className="text-gray-500">{language.toUpperCase()}</span>
+  </button>
+
+  {languageOpen && (
+    <div className="mt-2 flex flex-col">
+      {LANGUAGES.map(({ code, label }) => (
+        <button
+          key={code}
+          onClick={() => changeLanguage(code)}
+          className={`px-3 py-2 text-sm text-left ${
+            language === code
+              ? "text-bioBlue font-semibold"
+              : "text-gray-700 hover:bg-gray-100"
+          }`}
+        >
+          {label}
+        </button>
+      ))}
+    </div>
+  )}
 </div>
 
 
@@ -492,12 +544,41 @@ function MenuItem({ title, onClick }) {
   return (
     <button
       onClick={onClick}
-      className="text-gray-700 hover:text-[#65b4d7] transition-colors cursor-pointer"
+      className="
+        px-2
+        whitespace-nowrap
+        text-center
+        text-gray-700
+        hover:text-[#65b4d7]
+        transition-colors
+        cursor-pointer
+      "
     >
       {title}
     </button>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,5 +1,9 @@
 // peptides/components/Footer.jsx
+"use client";
+
 import Link from "next/link";
+import Image from "next/image";
+
 import { useLanguage } from "@/contexts/LanguageContext";
 
 
@@ -94,27 +98,26 @@ const t = (path) => {
 >
 
 
-          {/* BRAND */}
-          <div className="space-y-4 flex flex-col items-center sm:items-start">
-            <div className="flex items-center gap-3">
-              <div className="
-                h-12 w-12 rounded-full
-                bg-gradient-to-br from-[#145b2f] to-[#65b4d7]
-                flex items-center justify-center
-                text-white text-xl font-bold
-              ">
-                B
-              </div>
-              <span className="text-2xl font-bold">
-                BIOPEPTIDE
-              </span>
-            </div>
+        {/* BRAND */}
+<div className="space-y-4 flex flex-col items-center sm:items-start">
+  {/* ✅ Logo Image */}
+  <Image
+    src="/images/Biopeptidelogo.png"
+    alt="BioPeptide Logo"
+    width={1400}
+    height={40}
+    className="object-contain -translate-x-2"
+    priority
+  />
 
-            <p className="text-white/80 text-sm">
-              {t("brand.description")}
+   
 
-            </p>
-          </div>
+  {/* <p className="text-white/80 text-sm text-center sm:text-left">
+  {t("brand.description")}
+</p> */}
+
+</div>
+
 
           {/* INFORMATION */}
           <FooterColumn title={t("columns.information.title")}>

@@ -181,7 +181,191 @@ footer: {
   },
 
   copyright: "Todos os direitos reservados."
+},
+peptideInfo: {
+  page: {
+    title: "Informações sobre Peptídeos",
+    subtitle: "Conhecimento científico e educacional focado em pesquisa.",
+    glossary: "Glossário de Peptídeos",
+    readMore: "Leia mais →",
+    back: "← Voltar para Informações sobre Peptídeos",
+    notFound: "Artigo não encontrado"
+  },
+
+  articles: {
+    purity: {
+      img: "/peptide-info/section-quality.jpg",
+      title: "Pureza dos Peptídeos",
+      preview: "Como a pureza dos peptídeos é alcançada?",
+      content: [
+        "A pureza é essencial para precisão científica.",
+        "BioPeptide fornece >99% de pureza.",
+        "Afeta estabilidade biológica.",
+        "Cada lote inclui COA.",
+        "Alta pureza reduz reações indesejadas.",
+        "Cromatografia isola impurezas.",
+        "Aumenta estabilidade a longo prazo."
+      ]
+    },
+    intro: {
+      img: "/peptide-info/section-basics.jpg",
+      title: "Introdução aos Peptídeos",
+      preview: "Peptídeos são cadeias curtas de aminoácidos...",
+      content: [
+        "Importantes na comunicação biológica.",
+        "Explicação dos fundamentos.",
+        "Mais curtos que proteínas.",
+        "Atuam como sinais.",
+        "Amplamente usados em pesquisa.",
+        "Estrutura modular."
+      ]
+    },
+    synthesis: {
+        img: "/peptide-info/section-testing.jpg",
+      title: "Síntese de Peptídeos",
+      preview: "Peptídeos são sintetizados automaticamente...",
+      content: [
+        "SPPS é o padrão.",
+        "Inclui purificação.",
+        ">99% de pureza.",
+        "Controle preciso.",
+        "Automação eficiente.",
+        "Remove fragmentos.",
+        "Validação analítica."
+      ]
+    },
+    storage: {
+      img: "/peptide-info/section-storage.jpg",
+      title: "Armazenamento de Peptídeos",
+      preview: "Armazenamento correto garante estabilidade...",
+      content: [
+        "Armazenar a −20°C.",
+        "Refrigerar após reconstituição.",
+        "Evitar ciclos de congelamento.",
+        "Dividir em alíquotas.",
+        "Usar em 24–48h.",
+        "Proteger da luz.",
+        "Verificar pH."
+      ]
+    }
+  }
+},
+home: {
+  hero: {
+    badge: "Cápsulas de Pesquisa BioPeptide",
+    title: "Cápsulas de Peptídeos para Pesquisa",
+    subtitle: "Cápsulas BioPeptide de alta pureza desenvolvidas para pesquisa científica.",
+    button: "Saiba mais"
+  },
+
+  productGrid: {
+    mainTitle: "Comprar Peptídeos para Pesquisa Científica",
+    description:
+      "A BioPeptide fornece peptídeos de pesquisa de alta pureza com documentação completa.",
+    featuredTitle: "Peptídeos de Pesquisa em Destaque",
+    filter: "Filtrar",
+    showing: "Mostrando",
+    of: "de",
+    products: "produtos",
+    viewMore: "Ver mais",
+    productList: "Lista de Produtos"
+  },
+
+  about: {
+    title: "Sobre a BioPeptide",
+    companyTitle: "🧬 Nossa Empresa",
+    companyText1:
+      "A BioPeptide™ é uma fornecedora líder de peptídeos de pesquisa premium.",
+    companyText2:
+      "Apoiamos com orgulho organizações de pesquisa globais.",
+    qualityTitle: "🔬 Qualidade. Serviço. Valor.",
+    qualityText:
+      "A BioPeptide™ fornece materiais de pesquisa de alta pureza usando síntese e testes avançados.",
+    customersTitle: "👥 Nossos Clientes",
+    customersText:
+      "Pesquisadores em todo o mundo confiam na BioPeptide™ por produtos confiáveis."
+  }
+},
+productCard: {
+  learnMore: "Saiba mais",
+  addToCart: "Adicionar ao carrinho"
+},
+allPeptides: {
+  title: "Todos os Peptídeos",
+  subtitle: "Explore nossa coleção completa de compostos de pesquisa BioPeptide.",
+  showing: "Mostrando",
+  products: "produtos"
+},
+breadcrumbs: {
+  home: "Início",
+  profile: "Perfil",
+  orders: "Pedidos",
+  cart: "Carrinho",
+  login: "Entrar",
+  register: "Registrar",
+  "all-peptides": "Todos os peptídeos",
+  "peptide-research": "Pesquisa de peptídeos",
+  "peptide-information": "Informação sobre peptídeos",
+  product: "Produto"
+},
+popularPeptides: {
+  title: "Peptídeos Populares",
+  subtitle: "Explore os peptídeos de pesquisa BioPeptide mais procurados.",
+  showing: "Mostrando",
+  products: "produtos"
+},
+bundlePage: {
+  title: "Agrupe e Economize",
+  subtitle: "Pacotes exclusivos de pesquisa BioPeptide projetados para análise multipercurso, experimentação precisa e fluxos de trabalho científicos avançados.",
+  viewBundleButton: "Ver pacote",
+},
+"productPage": {
+  "back": "← Voltar para Produtos",
+  "subtext": "BioPeptide Premium • Material de Pesquisa de Alta Pureza",
+  "priceNote": "Somente para uso em pesquisa",
+  "addToCart": "Adicionar ao carrinho",
+  "specs": {
+    "category": "Categoria",
+    "purity": "Pureza",
+    "size": "Tamanho da unidade",
+    "cas": "CAS"
+  },
+  "badges": {
+    "hplc": "Testado por HPLC",
+    "purity": "{{purity}}",
+    "grade": "Grau de pesquisa",
+    "coa": "COA disponível"
+  }
+},
+"productContent": {
+  "overview": "{{name}} – Visão geral",
+  "mechanism": "Mecanismo de ação",
+  "applications": "Principais aplicações de pesquisa",
+  "background": "Contexto científico",
+  "stability": "Perfil de estabilidade",
+  "solubility": "Solubilidade e reconstituição",
+  "specs": "Especificações técnicas",
+  "faq": "Perguntas frequentes",
+  "disclaimer": "Aviso: Não destinado ao uso humano ou veterinário. Somente para pesquisa.",
+  "faqList": {
+    "q1": "Este peptídeo é para uso humano?",
+    "a1": "Não. Somente para pesquisa.",
+    "q2": "Inclui COA?",
+    "a2": "Sim. Cada lote inclui validação HPLC + MS.",
+    "q3": "É estéril?",
+    "a3": "Não até ser reconstituído.",
+    "q4": "Como armazenar?",
+    "a4": "Manter lacrado e congelado a −20°C."
+  }
 }
+
+
+
+
+
+
+
+
 
 
 

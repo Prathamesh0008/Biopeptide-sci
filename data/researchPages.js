@@ -71,15 +71,7 @@ export const RESEARCH_PAGES = [
 
     `An often overlooked but significant aspect of Pinealon’s function is its ability to modulate neuroinflammation. The CNS requires a delicate equilibrium between inflammatory signaling (to fight stress and pathogens) and anti-inflammatory suppression (to prevent damage). Pinealon has been observed to reduce excessive microglial activation, lower pro-inflammatory cytokine levels, and stabilize the neuroimmune environment. This inflammation-modulating behavior supports healthy neuronal communication and protects against chronic inflammatory damage, a hallmark of many neurodegenerative disorders.`,
 
-    `From a systems perspective, Pinealon acts as a neuro-metabolic stabilizer. It helps synchronize redox signaling, energy production, and protein synthesis within neural tissues. This harmonizing influence is particularly important during aging, when neurons experience increasing dysregulation and reduced stress tolerance. Pinealon’s ability to counteract these age-related disruptions highlights its value as a model compound for studying healthy cognitive longevity.`,
-
-    `Unlike traditional nootropics, Pinealon is not a stimulant and does not alter neurotransmission directly. Instead, it restores balance to underlying biological pathways, making it a much safer and more sustainable target for scientific exploration. This is part of a broader shift in neurobiology—focusing not on artificial enhancement, but on supporting the structural and metabolic foundations that allow the brain to function at peak capacity.`,
-
-    `In the context of modern cognitive health research, Pinealon stands out as a unique tool for understanding how small peptides can regulate brain aging, protect against oxidative insult, and influence gene behavior. Its simplicity as a molecule contrasts with the complexity of its effects, reflecting a sophisticated natural system of biochemical communication that remains under active investigation.`,
-
-    `As interest grows in epigenetic modulation, mitochondrial optimization, and personalized longevity strategies, Pinealon’s research relevance continues to expand. Its potential for stabilizing neuronal health, reducing cumulative cellular stress, and preserving cognitive function offers a promising framework for investigating long-term brain resilience.`,
-
-    `In conclusion, Pinealon represents a convergence of neuroscience, molecular biology, and anti-aging research. Its ability to protect neurons, support mitochondrial efficiency, modulate genetic signaling, and enhance cognitive stability makes it a powerful model in the study of long-term brain health. Although research is ongoing and early-stage, Pinealon provides vital insight into how the brain maintains structure and function under pressure—and how targeted peptide signals might support cognitive longevity in the future.`
+    `From a systems perspective, Pinealon acts as a neuro-metabolic stabilizer.`
   ],
 
   bullets: [
@@ -120,15 +112,7 @@ export const RESEARCH_PAGES = [
 
     `Another important dimension of Testagen research is its relationship with microvascular health. Adequate blood flow is essential for delivering oxygen, nutrients, and hormonal precursors to testicular tissue. Studies suggest that Testagen may enhance endothelial stability and support microvascular perfusion, helping maintain tissue oxygenation and nutrient exchange. These effects are particularly relevant during aging or periods of metabolic stress, when microcirculatory decline contributes to tissue dysfunction.`,
 
-    `Testagen’s influence on cellular repair mechanisms further strengthens its scientific relevance. Research indicates that Testagen may activate pathways involved in DNA repair, enhance ribosomal activity, and improve protein synthesis accuracy. These factors contribute to the maintenance of cellular stability, especially within tissues that must continuously regenerate to maintain physiological function. The regulatory balance between repair and apoptosis (programmed cell death) appears to be influenced by Testagen, helping tissues avoid premature degradation while preventing inappropriate cell survival.`,
-
-    `From a systemic perspective, Testagen’s scientific importance extends beyond the reproductive system. The endocrine network is interconnected, with testicular output influencing metabolism, immune behavior, neuroendocrine balance, and overall vitality. By maintaining cell-specific gene regulation within the testes, Testagen provides a model for studying how localized peptide signals may contribute to whole-body biological balance and long-term functional stability.`,
-
-    `It is essential to note that Testagen does not function as a hormone, supplement, or therapeutic agent. All existing findings come from controlled experimental contexts in animals or in vitro cellular environments. Within these conditions, Testagen displays characteristics of a natural regulatory signal that may help counteract age-related decline in testicular tissue. Understanding its mechanisms provides researchers with valuable insight into how the body maintains endocrine resilience across the lifespan.`,
-
-    `As interest grows in the interplay between aging, endocrine decline, and molecular self-repair systems, Testagen represents a promising frontier for deeper investigation. Its potential epigenetic influence, antioxidant properties, tissue-specific gene modulation, and cellular organizational benefits highlight the sophisticated nature of bioregulatory peptides.`,
-
-    `In conclusion, Testagen stands at the intersection of reproductive biology, molecular signaling, and anti-aging science. By supporting cellular harmony, preserving structural integrity, and optimizing gene expression in testicular tissue, Testagen offers a compelling avenue for research into endocrine health. Its role as a natural bioregulator—rather than a stimulant—supports a model of longevity science based on restoring physiological balance rather than overriding it.`
+    `Testagen’s influence on cellular repair mechanisms further strengthens its scientific relevance.` 
   ],
 
   bullets: [
@@ -169,13 +153,7 @@ export const RESEARCH_PAGES = [
 
     `Bronchogen also appears to have a stabilizing effect on fibroblast activity within the lung’s connective tissue. Controlled fibroblast behavior is essential for balanced collagen remodeling and preventing excessive fibrosis. Early research indicates that Bronchogen may help regulate fibroblast-driven extracellular matrix deposition, supporting tissue softness and preventing rigid scar formation. This aligns with broader peptide bioregulator research demonstrating that certain peptides can modulate matrix synthesis and reduce age-related fibrotic tendencies across various tissues.`,
 
-    `An essential aspect of Bronchogen’s role in scientific research is its relationship to the concept of “respiratory aging.” As individuals age, lung capacity decreases, elasticity is lost, and the regenerative potential of airway cells weakens. Bronchogen’s ability to support DNA repair pathways, reduce oxidative burden, and promote epithelial renewal positions it as an important model for understanding how lung tissue ages and how it might be supported through subtle biochemical modulation. These insights may prove valuable for future strategies aimed at preserving respiratory vitality across the lifespan.`,
-
-    `From a systems biology perspective, Bronchogen demonstrates the hallmarks of a bioregulatory peptide that supports overall tissue equilibrium rather than overstimulating specific pathways. It does not function as a bronchodilator or anti-inflammatory drug; instead, it promotes balance by helping the lungs restore their natural regulatory rhythms. This difference underscores the potential advantages of peptide-based research models that operate through alignment with physiological signals rather than pharmacological force.`,
-
-    `While Bronchogen’s full mechanism of action remains under exploration, the accumulating experimental evidence supports its role as a stabilizing factor within the respiratory microenvironment. Its potential benefits extend to epithelial integrity, antioxidant defenses, microvascular stability, gene expression harmony, and controlled tissue remodeling—all essential elements of healthy lung function.`,
-
-    `In conclusion, Bronchogen represents a promising research avenue in pulmonary biology and regenerative peptide science. As a natural bioregulator, it offers insight into how lung tissue maintains harmony under stress and how small peptide signals can reinforce the structural and molecular foundations of respiratory resilience. Continued investigation will help clarify its full potential as a scientific tool for understanding airway preservation, aging lungs, and the intricacies of respiratory cellular homeostasis.`
+    
   ],
 
   bullets: [
@@ -216,13 +194,7 @@ export const RESEARCH_PAGES = [
 
     `From a functional perspective, Cardiogen supports the organization of cardiac muscle fibers and may influence the electrical conduction system that coordinates heartbeat rhythm. While research is still preliminary, observed improvements in cellular organization and stability indicate that Cardiogen may help maintain efficient contraction cycles and reduce vulnerability to structural disarray during environmental or metabolic challenges.`,
 
-    `Cardiogen’s activity has also been investigated in the context of ischemic stress. During episodes of reduced blood supply, cardiomyocytes experience severe oxidative damage, ATP depletion, and calcium overload. Research models suggest that Cardiogen-treated tissues may exhibit improved recovery trajectories, better mitochondrial resilience, and reduced apoptosis after ischemic exposure. These findings highlight the peptide’s potential for studying recovery mechanisms in cardiac tissue.`,
-
-    `It is important to note that all current findings are derived from laboratory and preclinical settings, not from clinical or therapeutic application. Cardiogen’s significance lies in its role as a research tool to better understand how heart tissue maintains function under stress, and how molecular signals may regulate the balance between damage and repair.`,
-
-    `As scientific interest grows in the intersection of peptide bioregulation, anti-aging research, and cardiovascular biology, Cardiogen represents a promising model for investigating tissue-specific regulation. Its multi-layered influence on mitochondrial efficiency, oxidative balance, microvascular health, fibroblast activity, and genetic expression makes it a unique candidate for advancing our understanding of long-term cardiac resilience.`,
-
-    `In conclusion, Cardiogen embodies the concept of physiological normalization rather than pharmacological stimulation. By influencing the underlying regulatory networks of heart tissue, it provides researchers with an opportunity to explore how subtle molecular cues can support cardiac stability across the lifespan. Its relevance continues to expand as research seeks new ways to preserve heart health, promote cellular harmony, and understand the molecular logic behind cardiac aging and regeneration.`
+    
   ],
 
   bullets: [
@@ -269,13 +241,7 @@ export const RESEARCH_PAGES = [
 
     `Neural tissue regeneration is a more complex challenge, as neurons possess limited capacity for replication. Nonetheless, peptides involved in neuroprotection and synaptic modulation show promising effects on axonal stability, myelin repair, mitochondrial support, and glial function. These peptides support neuronal survival under stress and help maintain cognitive resilience, offering valuable insights into long-term neural health.`,
 
-    `An emerging frontier of regenerative peptide science involves epigenetic modulation. Peptides may influence chromatin structure, transcription factor behavior, and the stability of genetic expression programs associated with cellular youthfulness. This research is vital for understanding how tissues maintain identity across aging and how regulatory molecules help protect DNA from functional decline.`,
-
-    `Importantly, peptides do not override the body’s natural repair processes. Instead, they act as biological harmonizers, nudging cellular behavior into healthier patterns. This distinguishes regenerative peptides from pharmacological repair agents, which often push tissues into unnatural activity. Peptides, by contrast, operate within physiological boundaries, supporting balanced regeneration rather than forcing rapid or excessive growth.`,
-
-    `From a longevity perspective, peptides provide a window into how tissues maintain structural integrity over time. Healthy aging depends not only on preventing damage but also on supporting the body’s innate capacity to repair itself. By influencing key regulators of inflammation, oxidative stress, metabolism, and gene expression, peptides may help preserve regenerative potential into later decades of life.`,
-
-    `In conclusion, regenerative peptide biology represents a synthesis of molecular signaling science, tissue engineering, and cellular longevity research. By studying how peptides guide structural renewal, coordinate cellular responses, and maintain biochemical harmony, researchers gain powerful insights into the mechanisms that preserve tissue health across the lifespan. Peptides offer a unique lens for understanding biological resilience—and may ultimately help shape future strategies for enhancing long-term functional vitality.`
+    
   ],
 
   bullets: [
@@ -322,15 +288,7 @@ export const RESEARCH_PAGES = [
 
     `Hormonal aging is another significant factor that affects metabolic performance. As individuals age, endocrine output declines slowly, altering the balance of anabolic and catabolic processes in the body. Research peptides provide a unique opportunity to explore how gene regulation in endocrine tissues shifts over time and how cellular-level peptide signals may help maintain structural and functional integrity in hormone-producing organs.`,
 
-    `The liver—one of the most metabolically active organs—has become a key focus in peptide research due to its central role in detoxification, lipid metabolism, and glucose regulation. Peptides that influence hepatocyte gene expression may help support antioxidant function, improve detoxification enzyme balance, and optimize internal fat processing. Healthy liver function is essential for maintaining whole-body metabolic equilibrium, and peptide research provides a window into how the liver self-regulates under stress.`,
-
-    `In skeletal muscle, peptides that influence protein synthesis, mitochondrial biogenesis, and recovery processes are of particular interest. Muscle tissue is one of the largest consumers of glucose and lipids and plays a vital role in maintaining metabolic stability. Peptides that support muscle repair, enhance mitochondrial density, or promote cellular hydration have become essential tools for research investigating metabolic aging, physical performance, and recovery efficiency.`,
-
-    `Another critical dimension of metabolic peptide research involves circadian biology. Many peptides act as timekeepers within the body, coordinating energy use, hormone release, sleep cycles, and metabolic rhythms. Disrupted circadian signaling contributes to metabolic instability, increased oxidative stress, and reduced cellular resilience. Understanding peptide-based circadian regulation opens new paths for exploring how the body maintains daily metabolic harmony.`,
-
-    `It is essential to note that metabolic and endocrine peptides do not function as stimulants or hormone replacements. Their impact lies in restoring physiological balance by optimizing cellular communication. They do not override natural regulatory systems but instead support the underlying mechanisms that keep metabolic and hormonal networks in equilibrium.`,
-
-    `In conclusion, peptides offer a powerful lens for examining metabolic biology, endocrine resilience, and cellular energy homeostasis. Through subtle but meaningful modulation of mitochondrial activity, gene expression, inflammation, circadian rhythm, and hormonal signaling, they provide researchers with deeper insight into how the body adapts to stress, maintains internal harmony, and supports long-term vitality. The field continues to expand as scientists uncover new pathways through which peptides may influence human health and metabolic longevity.`
+    
   ],
 
   bullets: [
@@ -373,15 +331,7 @@ export const RESEARCH_PAGES = [
 
     `Memory formation is another domain closely tied to peptide-based research. Long-term potentiation (LTP), a process in which synaptic connections strengthen after repeated stimulation, is considered the cornerstone of memory encoding. Peptides that influence calcium signaling, kinase activation, or AMPA/NMDA receptor pathways enable researchers to better understand how memory is created, stored, and retrieved. These insights support studies on learning enhancement, educational neuroscience, and memory preservation across aging.`,
 
-    `Additionally, brain detoxification and oxidative protection are essential for long-term neural health. Free radicals can accumulate from normal metabolic processes and environmental stressors. Peptides that activate antioxidant enzymes, reduce lipid peroxidation, or improve glutathione synthesis help maintain a cleaner biochemical environment within the brain. This supports both neuroprotection and enhanced cognitive vitality.`,
-
-    `Circadian biology also intersects with neuropeptide research. The brain’s internal clock controls sleep architecture, hormone release, memory consolidation, and daytime alertness. Disruptions in circadian rhythm contribute to cognitive impairment and emotional instability. Research peptides that stabilize circadian gene expression or support pineal gland activity may help clarify how neural timing systems maintain cognitive efficiency and overall well-being.`,
-
-    `Neural connectivity extends beyond chemical signaling. Structural plasticity—changes in dendritic architecture, synaptic branching, and myelination—is a physical manifestation of neuroplasticity. Research peptides that influence cytoskeletal dynamics, cellular hydration, or axonal integrity contribute to an improved understanding of how neurons physically remodel themselves. This is vital for recovery after injury and for maintaining neural robustness throughout life.`,
-
-    `Importantly, neuro-regulatory peptides are not stimulants and do not induce artificial neurological excitation. Instead, they support healthy neural communication and recovery by working with the body's natural regulatory systems. This makes them valuable tools for exploring long-term cognitive resilience without the drawbacks associated with overstimulation or neurotransmitter depletion.`,
-
-    `In summary, peptides occupy a unique and powerful role in the field of neuroplasticity research. Through their influence on synaptic communication, mitochondrial efficiency, glial regulation, epigenetic stability, and circadian synchronization, they enable scientists to better understand how the brain adapts, learns, and protects itself. As research advances, peptides will continue to shape the future of cognitive biology, mental resilience, and neural longevity—offering profound insights into the mechanisms that sustain a healthy and optimized brain throughout life.`
+    
   ],
 
   bullets: [
@@ -428,15 +378,7 @@ export const RESEARCH_PAGES = [
 
     `A particularly impactful area of study involves the crosstalk between the nervous system and immune system. Neuroinflammation—triggered by stress, injury, or metabolic imbalance—can impair cognitive function and contribute to neurological aging. Research peptides that reduce microglial overactivation or stabilize neuroimmune signaling provide scientists with new approaches for understanding brain resilience and long-term neural health.`,
 
-    `Another important dimension of immune modulation involves metabolic inflammation. Overnutrition, inactivity, and metabolic stress can trigger inflammatory responses in adipose tissue, liver, and skeletal muscle. These responses can lead to insulin resistance, mitochondrial dysfunction, and systemic metabolic decline. Peptides that normalize metabolic signaling or improve mitochondrial redox balance may help support healthier immune-metabolic integration.`,
-
-    `Regulatory peptides also help researchers examine immune tolerance—the ability of the body to distinguish between harmful invaders and its own tissues. Disruptions in immune tolerance may contribute to chronic inflammation or tissue misidentification. By studying how peptides influence immune education pathways and lymphocyte selection, researchers gain deeper insights into balance and long-term immune stability.`,
-
-    `Another essential factor is stress biology. Chronic psychological or physiological stress elevates cortisol levels, alters cytokine patterns, and suppresses immune resilience. Research peptides that modulate adrenal or hypothalamic–pituitary signaling provide valuable tools for exploring how stress impacts immune function and how cellular adaptation can be supported under demanding conditions.`,
-
-    `Importantly, immune-regulating peptides do not operate as immunosuppressants or immune stimulants. Their function lies in supporting homeostasis, ensuring that the immune system responds appropriately without entering harmful extremes. By restoring natural equilibrium, peptides contribute to better tissue protection, recovery efficiency, and long-term wellness.`,
-
-    `In summary, immune modulation and anti-inflammatory peptide science represent one of the most critical and rapidly advancing fields of biological research. Through their influence on cytokine balance, oxidative protection, cellular signaling, and tissue regeneration, peptides offer extraordinary insight into how the immune system maintains stability and adaptability. This knowledge helps shape the future of inflammation research, recovery biology, and long-term immune resilience.`    
+    
   ],
 
   bullets: [
@@ -481,15 +423,7 @@ export const RESEARCH_PAGES = [
 
     `The endocrine system also plays a major role in aging. Hormonal output declines with time, reducing anabolic processes and slowing tissue repair. Peptides that modulate endocrine gene expression help researchers better understand how hormone-producing tissues age and how their natural regulatory signals may be supported. These insights provide a more detailed view of how metabolism, energy balance, and cellular recovery evolve across lifespan.`,
 
-    `Another important aspect involves cellular hydration and osmotic balance. As cells age, they become less efficient at maintaining proper hydration and intracellular electrolyte stability. This affects gene expression, mitochondrial function, and membrane conductivity. Peptides that influence membrane transport proteins or regulate cellular hydration pathways can support deeper research into how water balance affects biological aging.`,
-
-    `Brain aging is deeply linked to peptide regulation as well. Neuroplasticity, neurotransmitter balance, glial health, and synaptic maintenance all decline with time. Research peptides that support neural resilience, reduce neuroinflammation, or enhance mitochondrial support in neural tissue contribute significantly to understanding cognitive longevity. This is a critical component of full-system aging research because cognitive decline impacts every aspect of life-quality in later years.`,
-
-    `Circadian rhythm stability also becomes impaired with age. The body's natural biological clock controls sleep architecture, hormonal cycles, metabolic timing, and cellular regeneration. Peptides that support circadian gene expression or assist pineal-associated regulatory pathways help researchers investigate how biological timing can be preserved to maintain youthful metabolic rhythms and restorative sleep.`,
-
-    `It is important to emphasize that longevity-focused peptides do not force anti-aging effects; rather, they restore balance to biological systems that have drifted from youthful efficiency. They operate through optimization and harmonization—not through artificial stimulation. This makes them uniquely aligned with the principles of healthy aging, where the goal is not to override the body but to support its original design.`,
-
-    `In conclusion, peptides represent one of the most promising frontiers in cellular longevity research. Through their multifaceted influence on epigenetics, mitochondrial function, DNA repair, inflammation, proteostasis, stem cell support, and metabolic resilience, peptides offer extraordinary insight into the mechanisms that sustain life at the microscopic level. As research continues to uncover how these molecules help preserve biological stability, they will remain vital tools for understanding the science of aging and exploring pathways to healthier, longer, and more resilient lifespans.`
+    
   ],
 
   bullets: [
