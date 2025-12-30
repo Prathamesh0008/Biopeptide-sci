@@ -1,5 +1,3 @@
-
-"use client";
 import "./globals.css";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import type { ReactNode } from "react";
@@ -14,12 +12,7 @@ export const metadata = {
   },
 };
 
-
-export default function RootLayout({
-  children,
-}: {
-  children: ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className="text-gray-900 antialiased">
