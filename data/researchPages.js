@@ -126,47 +126,7 @@ export const RESEARCH_PAGES = [
     "Acts as a natural bioregulator rather than an endocrine stimulant"
   ]
 },
-{
-  id: 4,
-  title: "Bronchogen: A Respiratory Bioregulator Peptide for Lung Tissue Stability and Airway Cellular Integrity",
-  subtitle:
-    "A detailed scientific analysis of Bronchogen’s potential role in supporting bronchial epithelial repair, reducing oxidative burden, and stabilizing the respiratory microenvironment.",
-
-  paragraphs: [
-    `Bronchogen is a bioregulatory peptide originally identified in bronchial and lung tissue extracts, now studied for its potential ability to support respiratory cellular health and maintain the structural integrity of airway epithelium. As a short peptide fragment belonging to the class of organ-specific regulatory molecules, Bronchogen is believed to influence gene expression, cellular stress response, and tissue resilience within the pulmonary system. Its subtle but multi-layered biological activity makes Bronchogen a compelling candidate in research on respiratory protection, aging of lung tissue, and the maintenance of airway homeostasis.`,
-
-    `The respiratory system is uniquely exposed to environmental stressors. Every inhalation brings the lungs into contact with oxygen, pollutants, pathogens, and particulate matter. This constant exposure places extraordinary demands on bronchial epithelial cells, which must balance rapid cell turnover with efficient repair mechanisms. Bronchogen appears to interact with the molecular pathways responsible for maintaining epithelial barrier function, reducing excessive inflammation, and promoting coordinated cellular renewal. These regulatory properties have sparked growing scientific interest in how peptide-based signaling molecules may help preserve lung architecture across aging or under conditions of chronic stress.`,
-
-    `One of Bronchogen’s most significant research attributes is its potential influence on epithelial repair. The bronchial lining serves as the first line of defense in the respiratory system, preventing pathogens and irritants from penetrating deeper into the lungs. When this barrier is compromised—whether by environmental toxins, oxidative stress, or chronic inflammatory conditions—its repair mechanisms become critically important. Studies suggest that Bronchogen may help accelerate epithelial regeneration by influencing the transcription of genes involved in cellular adhesion, tight junction integrity, and tissue remodeling. This regulatory support may help stabilize the respiratory surface and maintain effective barrier function.`,
-
-    `Bronchogen also appears to modulate inflammatory signaling within the airways. While inflammation is a necessary protective response, chronic or excessive inflammation contributes to tissue degradation, fibrosis, and compromised respiratory efficiency. Research environments have demonstrated that Bronchogen may reduce the activity of pro-inflammatory cytokines while preserving or enhancing protective pathways. This balanced regulatory effect has drawn interest from researchers investigating chronic airway irritation, age-related decline in lung immune responses, and environmental pollutant stress.`,
-
-    `The lungs are particularly susceptible to oxidative stress due to high oxygen exposure and constant environmental contact. Oxidative damage disrupts cellular membranes, decreases mitochondrial function, and accelerates structural decline in pulmonary tissue. Bronchogen’s ability to enhance antioxidant enzyme activity has been observed in experimental studies, where markers of oxidative stress—including lipid peroxidation and DNA oxidation—were reduced following peptide exposure. These findings suggest that Bronchogen may support the lungs’ natural ability to neutralize reactive oxygen species and prevent long-term cellular injury.`,
-
-    `Another area of emerging interest involves Bronchogen’s influence on mucociliary function. The mucociliary escalator—composed of ciliated epithelial cells and mucus-secreting glands—plays a vital role in clearing inhaled particles and maintaining airway hygiene. In research models, Bronchogen appears to support ciliary coordination and epithelial hydration balance, contributing to improved clearance potential. This may be particularly relevant in contexts where mucociliary efficiency is compromised, such as aging respiratory tissue or environments with chronic pollutant exposure.`,
-
-    `Bronchogen’s potential effects on lung microcirculation further underline its importance in respiratory biology. The pulmonary microvascular network supplies oxygen, nutrients, and immune components to airway tissues while supporting gas exchange efficiency. Research findings suggest that Bronchogen may help stabilize endothelial function, enhance microvascular resilience, and reduce oxidative damage to capillary structures. Microcirculatory stability is essential for maintaining the overall vitality of airway tissues and supporting rapid repair after stress or injury.`,
-
-    `At a molecular level, Bronchogen appears to influence gene expression profiles linked to cellular proliferation, apoptosis regulation, and extracellular matrix organization. These regulatory signals may help preserve tissue elasticity, prevent premature cell death, and maintain the structural frameworks required for effective bronchial expansion and contraction. This complex regulatory influence is particularly meaningful in studies of aging lung tissue, where loss of elasticity and impaired regeneration contribute to diminished respiratory performance.`,
-
-    `The peptide’s role in supporting mitochondrial stability is another important focus of ongoing research. Mitochondria supply the energy required for cellular repair, ciliary movement, and barrier maintenance. When mitochondrial function becomes compromised, respiratory cells lose their capacity to respond to stress and recover efficiently. In vitro and animal studies suggest that Bronchogen may help normalize mitochondrial membrane potential, regulate oxidative phosphorylation efficiency, and reduce metabolic strain in stressed pulmonary cells.`,
-
-    `Bronchogen also appears to have a stabilizing effect on fibroblast activity within the lung’s connective tissue. Controlled fibroblast behavior is essential for balanced collagen remodeling and preventing excessive fibrosis. Early research indicates that Bronchogen may help regulate fibroblast-driven extracellular matrix deposition, supporting tissue softness and preventing rigid scar formation. This aligns with broader peptide bioregulator research demonstrating that certain peptides can modulate matrix synthesis and reduce age-related fibrotic tendencies across various tissues.`,
-
-    
-  ],
-
-  bullets: [
-    "Supports bronchial epithelial repair and tissue stability",
-    "Modulates pro-inflammatory and anti-inflammatory signaling",
-    "Improves antioxidant defenses and reduces oxidative injury",
-    "Enhances microcirculation and endothelial stability in lung tissue",
-    "Supports mucociliary function and airway clearance",
-    "Modulates fibroblast activity and extracellular matrix remodeling",
-    "Helps maintain mitochondrial efficiency during stress",
-    "Acts as a natural regulatory peptide rather than a pharmacological stimulant"
-  ]
-},
+ 
 {
   id: 5,
   title: "Cardiogen: A Heart-Specific Bioregulatory Peptide Supporting Cellular Stability and Cardiac Tissue Integrity",

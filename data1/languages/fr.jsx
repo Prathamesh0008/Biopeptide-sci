@@ -422,50 +422,344 @@ checkoutPage: {
   },
 
   continue: "Continuer vers le paiement"
-}
-,
-
-
-
-"productPage": {
-  "back": "← Retour aux produits",
-  "subtext": "BioPeptide Premium • Matériau de recherche de haute pureté",
-  "priceNote": "Uniquement pour la recherche",
-  "addToCart": "Ajouter au panier",
-  "specs": {
-    "category": "Catégorie",
-    "purity": "Pureté",
-    "size": "Taille de l’unité",
-    "cas": "CAS"
-  },
-  "badges": {
-    "hplc": "Testé HPLC",
-    "purity": "{{purity}}",
-    "grade": "Qualité recherche",
-    "coa": "COA disponible"
-  }
 },
-"productContent": {
-  "overview": "{{name}} – Aperçu",
-  "mechanism": "Mécanisme d'action",
-  "applications": "Applications principales",
-  "background": "Contexte scientifique",
-  "stability": "Profil de stabilité",
-  "solubility": "Solubilité et reconstitution",
-  "specs": "Spécifications techniques",
-  "faq": "Questions fréquentes",
-  "disclaimer": "Avertissement : Non destiné à l’usage humain ou vétérinaire. Recherche uniquement.",
-  "faqList": {
-    "q1": "Ce peptide est-il destiné à l’usage humain ?",
-    "a1": "Non. Recherche uniquement.",
-    "q2": "Contient-il un COA ?",
-    "a2": "Oui. Chaque lot inclut une validation HPLC + MS.",
-    "q3": "Est-il stérile ?",
-    "a3": "Pas avant reconstitution.",
-    "q4": "Comment le stocker ?",
-    "a4": "Conserver scellé et congelé à −20°C."
-  }
+payment: {
+  title: "Paiement",
+  chooseMethod: "Choisir le mode de paiement",
+
+  methods: {
+    card: {
+      title: "Carte de crédit / débit",
+      desc: "Visa, MasterCard, RuPay"
+    },
+   upi: {
+  title: "UPI",
+  desc: "Google Pay, PhonePe, Paytm"
 }
+
+  },
+
+  summary: "Récapitulatif de la commande",
+  total: "Total",
+  paySecurely: "Payer en toute sécurité",
+  secureNote: "Paiements 100 % sécurisés"
+},
+
+research: {
+  1: {
+    title: "Vilon : régénération cellulaire et bioregulation immunitaire",
+    subtitle:
+      "Une analyse scientifique approfondie de l’un des peptides bioregulateurs thymiques les plus étudiés et de son rôle dans la réparation cellulaire et l’équilibre immunitaire.",
+
+    paragraphs: [
+      "Vilon est l’un des peptides bioregulateurs les plus étudiés en biochimie cellulaire moderne.",
+      "Il agit comme un normalisateur moléculaire aidant les cellules à retrouver leur équilibre physiologique.",
+      "Le thymus joue un rôle central dans la maturation des cellules T.",
+      "Les données expérimentales montrent une interaction avec des régions génomiques régulatrices.",
+      "Vilon est particulièrement étudié pour sa capacité à réduire l’inflammation liée à l’âge.",
+      "Il soutient également la régénération épithéliale et muqueuse.",
+      "Au niveau moléculaire, il influence la transcription génétique et l’épigénétique.",
+      "Dans le contexte du vieillissement, Vilon montre un potentiel régénératif notable.",
+      "Il n’impose pas de stimulation artificielle aux systèmes biologiques.",
+      "Sa structure simple et son large champ d’action en font un modèle de recherche clé.",
+      "Vilon dépasse la biologie thymique classique.",
+      "Il représente une nouvelle ère de recherche peptidique fondée sur l’harmonie physiologique."
+    ],
+
+    bullets: [
+      "Soutient la régulation thymique",
+      "Améliore la synthèse des protéines",
+      "Réduit l’inflammation chronique",
+      "Favorise la réparation tissulaire",
+      "Régulateur naturel de l’homéostasie",
+      "Agit sur les voies épigénétiques",
+      "Améliore la résilience cellulaire",
+      "Outil clé en recherche immunitaire"
+    ]
+  },
+  2: {
+    title: "Pinealon: Bioregulación neuroprotectora y longevidad cognitiva",
+    subtitle:
+      "Una exploración científica integral del papel de Pinealon en el metabolismo cerebral, el equilibrio mitocondrial y la resiliencia neuronal.",
+
+    paragraphs: [
+      "Pinealon es uno de los péptidos bioreguladores más interesantes en la neurociencia moderna.",
+      "Actúa a nivel molecular regulando la expresión génica neuronal y el metabolismo energético.",
+      "El cerebro humano es altamente vulnerable al estrés oxidativo y la disfunción mitocondrial.",
+      "Pinealon ayuda a normalizar los sistemas de equilibrio redox y supervivencia celular.",
+      "Refuerza las defensas antioxidantes y reduce el daño oxidativo.",
+      "Influye positivamente en la salud mitocondrial y la eficiencia energética.",
+      "Modula las vías de apoptosis y protege neuronas vulnerables.",
+      "Participa en la regulación epigenética asociada al envejecimiento cerebral.",
+      "Estudios en animales muestran mejoras cognitivas.",
+      "Apoya factores neurotróficos y la reparación sináptica.",
+      "Reduce la neuroinflamación y la activación microglial.",
+      "Funciona como estabilizador neurometabólico."
+    ],
+
+    bullets: [
+      "Apoya la estabilidad mitocondrial",
+      "Mejora las defensas antioxidantes",
+      "Reduce el estrés oxidativo",
+      "Regula la apoptosis neuronal",
+      "Favorece la plasticidad sináptica",
+      "Mejora el rendimiento cognitivo",
+      "Disminuye la neuroinflamación",
+      "Influye en mecanismos epigenéticos"
+    ]
+  },
+  3: {
+  title: "Testagen : Soutien Biorégulateur de la Stabilité Endocrinienne et de la Santé Cellulaire Reproductive",
+  subtitle:
+    "Analyse scientifique du rôle de Testagen dans la régulation du tissu testiculaire et la stabilité endocrinienne liée à l’âge.",
+
+  paragraphs: [
+    "Testagen est un peptide biorégulateur spécifique du tissu testiculaire.",
+    "Il agit sans stimuler artificiellement la production hormonale.",
+    "Les testicules jouent un rôle clé dans l’équilibre endocrinien.",
+    "Testagen aide à normaliser les fonctions cellulaires liées à l’âge.",
+    "Son action épigénétique soutient l’expression génétique correcte.",
+    "Une meilleure organisation tissulaire est observée.",
+    "Il réduit le stress oxydatif.",
+    "Il soutient les cellules de Sertoli.",
+    "Il protège les cellules de Leydig.",
+    "Il améliore la microcirculation.",
+    "C’est un peptide clé pour la recherche reproductive."
+  ],
+
+  bullets: [
+    "Soutient l’homéostasie testiculaire",
+    "Stabilise l’environnement épigénétique",
+    "Réduit le stress oxydatif",
+    "Améliore la perfusion tissulaire",
+    "Protège les cellules clés",
+    "Préserve les mitochondries",
+    "Soutient la réparation de l’ADN",
+    "Régule sans stimulation excessive"
+  ]
+},
+4: {
+  title: "Bronchogen : Peptide Biorégulateur Respiratoire pour la Stabilité Pulmonaire",
+  subtitle:
+    "Analyse scientifique du rôle de Bronchogen dans la réparation épithéliale et la protection des voies respiratoires.",
+
+  paragraphs: [
+    "Bronchogen est un peptide biorégulateur issu du tissu pulmonaire.",
+    "Le système respiratoire est exposé à des agressions constantes.",
+    "Il soutient la réparation de l’épithélium bronchique.",
+    "Il module les signaux inflammatoires.",
+    "Il réduit le stress oxydatif.",
+    "Il améliore la fonction mucociliaire.",
+    "Il soutient la microcirculation pulmonaire.",
+    "Il régule la prolifération cellulaire.",
+    "Il protège la fonction mitochondriale.",
+    "Il régule l’activité des fibroblastes.",
+    "Il favorise la résilience respiratoire."
+  ],
+
+  bullets: [
+    "Répare l’épithélium bronchique",
+    "Équilibre l’inflammation",
+    "Réduit les dommages oxydatifs",
+    "Améliore la circulation pulmonaire",
+    "Soutient le nettoyage des voies aériennes",
+    "Régule la matrice extracellulaire",
+    "Protège les mitochondries",
+    "Régulateur naturel non stimulant"
+  ]
+},
+5: {
+  title: "Cardiogen : Peptide Biorégulateur Spécifique du Cœur",
+  subtitle:
+    "Analyse scientifique du rôle de Cardiogen dans la stabilité myocardique.",
+
+  paragraphs: [
+    "Cardiogen est un peptide spécifique du tissu cardiaque.",
+    "Le cœur a des besoins énergétiques constants.",
+    "Il soutient les voies génétiques protectrices.",
+    "Améliore la fonction mitochondriale.",
+    "Réduit le stress oxydatif.",
+    "Module l’inflammation cardiaque.",
+    "Améliore la microcirculation.",
+    "Régule la matrice extracellulaire.",
+    "Favorise la réparation de l’ADN.",
+    "Soutient la stabilité rythmique du cœur."
+  ],
+
+  bullets: [
+    "Soutient l’énergie mitochondriale",
+    "Réduit le stress oxydatif",
+    "Équilibre l’inflammation",
+    "Protège les vaisseaux",
+    "Limite la fibrose",
+    "Améliore l’organisation cellulaire",
+    "Favorise la réparation de l’ADN",
+    "Peptide cardiaque naturel"
+  ]
+},
+6: {
+  title: "Biologie Peptidique Régénérative : Réparation et Renouvellement Cellulaire",
+  subtitle:
+    "Analyse scientifique du rôle des peptides dans la régénération tissulaire.",
+
+  paragraphs: [
+    "La biologie peptidique régénérative est un domaine clé de la science cellulaire.",
+    "Les peptides coordonnent naturellement la réparation des tissus.",
+    "Ils interviennent dans les processus cellulaires fondamentaux.",
+    "Ils régulent la matrice extracellulaire.",
+    "Ils influencent l’expression génétique.",
+    "Ils équilibrent les réponses inflammatoires.",
+    "Ils soutiennent la fonction mitochondriale.",
+    "Ils favorisent l’angiogenèse.",
+    "Ils modulent les cellules souches.",
+    "Ils améliorent la régénération cutanée.",
+    "Ils soutiennent les tissus musculosquelettiques.",
+    "Ils protègent les tissus épithéliaux.",
+    "Ils renforcent la résilience neuronale."
+  ],
+
+  bullets: [
+    "Favorise la réparation cellulaire",
+    "Régule le collagène",
+    "Réduit l’inflammation chronique",
+    "Améliore l’énergie mitochondriale",
+    "Soutient la microcirculation",
+    "Renforce les défenses antioxydantes",
+    "Influence les cellules souches",
+    "Maintient la capacité régénérative"
+  ]
+},
+7: {
+  title: "Modulation Peptidique Métabolique et Endocrinienne",
+  subtitle:
+    "Analyse scientifique de l’influence des peptides sur l’équilibre métabolique.",
+
+  paragraphs: [
+    "La modulation peptidique métabolique est un domaine clé de la biologie cellulaire.",
+    "Les peptides régulent l’énergie et les hormones.",
+    "Ils soutiennent la fonction mitochondriale.",
+    "Ils modulent l’expression des gènes métaboliques.",
+    "Ils améliorent le métabolisme du glucose.",
+    "Ils influencent l’oxydation lipidique.",
+    "Ils coordonnent le système endocrinien.",
+    "Ils régulent la fonction thyroïdienne.",
+    "Ils modulent les réponses au stress.",
+    "Ils contrôlent l’appétit.",
+    "Ils améliorent la santé vasculaire.",
+    "Ils réduisent l’inflammation métabolique.",
+    "Ils soutiennent l’équilibre hormonal lié à l’âge."
+  ],
+
+  bullets: [
+    "Améliore la production d’ATP",
+    "Optimise la sensibilité à l’insuline",
+    "Régule le métabolisme lipidique",
+    "Stabilise les hormones",
+    "Réduit l’inflammation chronique",
+    "Améliore la microcirculation",
+    "Synchronise les rythmes métaboliques",
+    "Agit physiologiquement"
+  ]
+},
+8: {
+  title: "Peptides et Neuroplasticité Cérébrale",
+  subtitle:
+    "Analyse scientifique des mécanismes peptidiques neuronaux.",
+
+  paragraphs: [
+    "La neuroplasticité permet au cerveau de s’adapter.",
+    "Les peptides soutiennent l’énergie neuronale.",
+    "Ils améliorent la communication synaptique.",
+    "Ils favorisent les facteurs neurotrophiques.",
+    "Ils régulent l’inflammation cérébrale.",
+    "Ils protègent la barrière hémato-encéphalique.",
+    "Ils modulent les neurotransmetteurs.",
+    "Ils influencent l’épigénétique neuronale.",
+    "Ils soutiennent la fonction mitochondriale.",
+    "Ils réduisent le stress neuronal.",
+    "Ils renforcent la mémoire."
+  ],
+
+  bullets: [
+    "Améliore la plasticité synaptique",
+    "Optimise l’énergie neuronale",
+    "Soutient la réparation cérébrale",
+    "Stabilise les neurotransmetteurs",
+    "Réduit la neuroinflammation",
+    "Favorise la croissance dendritique",
+    "Protège la barrière cérébrale",
+    "Renforce la résilience cognitive"
+  ]
+},
+9: {
+  title: "Modulation Immunitaire et Science des Peptides Anti-Inflammatoires",
+  subtitle:
+    "Analyse scientifique des peptides régulateurs de l’immunité.",
+
+  paragraphs: [
+    "Le système immunitaire est hautement complexe.",
+    "Les peptides modulent l’activité immunitaire.",
+    "L’inflammation chronique accélère le vieillissement.",
+    "Les peptides régulent les voies cellulaires.",
+    "Ils équilibrent les cytokines.",
+    "Ils influencent les cellules immunitaires.",
+    "Ils réduisent le stress oxydatif.",
+    "Ils interagissent avec le microbiote.",
+    "Ils soutiennent l’immunité vieillissante.",
+    "Ils protègent l’endothélium.",
+    "Ils régulent les tissus conjonctifs.",
+    "Ils favorisent la cicatrisation.",
+    "Ils réduisent la neuroinflammation."
+  ],
+
+  bullets: [
+    "Équilibre des cytokines",
+    "Réduction de l’inflammation chronique",
+    "Soutien antioxydant",
+    "Régulation immunitaire",
+    "Protection vasculaire",
+    "Réparation tissulaire",
+    "Stabilité neuro-immune",
+    "Résilience immunitaire"
+  ]
+},
+10: {
+  title: "Peptides et Longévité Cellulaire",
+  subtitle:
+    "Exploration scientifique du vieillissement cellulaire.",
+
+  paragraphs: [
+    "La longévité cellulaire dépend de la qualité fonctionnelle des cellules.",
+    "Le vieillissement résulte du stress oxydatif et métabolique.",
+    "Les peptides stabilisent la régulation épigénétique.",
+    "Ils soutiennent la réparation de l’ADN.",
+    "Ils maintiennent la protéostasie.",
+    "Ils protègent la fonction mitochondriale.",
+    "Ils réduisent l’inflammation chronique.",
+    "Ils aident à préserver les télomères.",
+    "Ils régulent la sénescence cellulaire.",
+    "Ils soutiennent la régénération tissulaire.",
+    "Ils préservent collagène et élastine.",
+    "Ils soutiennent l’équilibre endocrinien."
+  ],
+
+  bullets: [
+    "Stabilité épigénétique",
+    "Résilience mitochondriale",
+    "Protection génomique",
+    "Réduction inflammatoire",
+    "Qualité protéique",
+    "Intégrité structurelle",
+    "Renouvellement cellulaire",
+    "Alignement circadien"
+  ]
+}
+
+
+},
+
+
+
 
 
 

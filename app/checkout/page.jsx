@@ -11,6 +11,8 @@ import { useLanguage } from "@/contexts/LanguageContext";
 export default function CheckoutPage() {
   const router = useRouter();
   const [cart, setCart] = useState([]);
+  const [previousAddresses, setPreviousAddresses] = useState([]);
+
   const [emailError, setEmailError] = useState("");
   const { translations } = useLanguage();
 
@@ -43,53 +45,37 @@ useEffect(() => {
 
   const user = JSON.parse(userStr);
 
+  // 🔹 Load cart
   const cartKey = user?.email ? `bio-cart-${user.email}` : "guest-cart";
-const savedCart = JSON.parse(localStorage.getItem(cartKey) || "[]");
+  const savedCart = JSON.parse(localStorage.getItem(cartKey) || "[]");
+
   if (savedCart.length === 0) {
     router.push("/cart");
     return;
   }
+
   setCart(savedCart);
 
-  // ✅ 1) Try saved address from previous order
-  const savedAddrStr = user?.email
-    ? localStorage.getItem(`bio-address:${user.email}`)
-    : null;
-
-  if (savedAddrStr) {
-    const savedAddr = JSON.parse(savedAddrStr);
-
-    setForm((prev) => ({
-      ...prev,
-      ...savedAddr,                 // address fields
-      email: savedAddr.email || user.email || prev.email,
-      fullName: savedAddr.fullName || user.name || prev.fullName,
-      phone: savedAddr.phone || user.phone || prev.phone,
-    }));
-    return;
-  }
-
-  // ✅ 2) Fallback: prefill from user object
+  // 🔹 Prefill basic user info
   setForm((prev) => ({
     ...prev,
     fullName: user?.name || prev.fullName,
     email: user?.email || prev.email,
     phone: user?.phone || prev.phone,
   }));
+
+  // 🔹 FETCH PREVIOUS ADDRESS FROM DATABASE
+  if (user?._id) {
+    fetch(`/api/address/get?userId=${user._id}`)
+      .then((res) => res.json())
+      .then((addresses) => {
+  if (Array.isArray(addresses)) {
+    setPreviousAddresses(addresses);
+  }
+});
+
+  }
 }, [router]);
-
-
-  // useEffect(() => {
-  //   const savedCart = JSON.parse(localStorage.getItem("bio-cart") || "[]");
-  //   if (savedCart.length === 0) {
-  //     router.push("/cart");
-  //     return;
-  //   }
-  //   setCart(savedCart);
-  // }, [router]);
-  
-
-// ✅ create or reuse checkoutId (ANTI DUPLICATE)
 
 
   const subtotal = cart.reduce(
@@ -100,7 +86,7 @@ const isValidEmail = (email) => {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 };
 
- const goToPayment = () => {
+ const goToPayment = async () => {
   // ✅ checkoutId logic HERE
   const checkoutId =
     localStorage.getItem("bio-checkout-id") || crypto.randomUUID();
@@ -136,10 +122,20 @@ const isValidEmail = (email) => {
     })
   );
 
-  const u = JSON.parse(localStorage.getItem("bio-user") || "{}");
-  if (u?.email) {
-    localStorage.setItem(`bio-address:${u.email}`, JSON.stringify(form));
-  }
+  // const u = JSON.parse(localStorage.getItem("bio-user") || "{}");
+  // if (u?.email) {
+  //   localStorage.setItem(`bio-address:${u.email}`, JSON.stringify(form));
+  // }
+const user = JSON.parse(localStorage.getItem("bio-user"));
+
+await fetch("/api/address/save", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({
+    userId: user._id,
+    address: form,
+  }),
+});
 
   router.push("/payment");
 };
@@ -398,6 +394,43 @@ const INDIAN_STATES = [
             {t("continue")}
 
           </button>
+        {previousAddresses.length > 0 && (
+  <div className="mt-6 space-y-4">
+    <p className="text-sm font-semibold text-gray-700">
+      Previously Used Addresses
+    </p>
+
+    {previousAddresses.map((addr) => (
+      <div
+        key={addr._id}
+        className="border rounded-xl p-4 bg-gray-50"
+      >
+        <p className="text-sm text-gray-600 leading-relaxed">
+          {addr.fullName}<br />
+          {addr.house}, {addr.area}<br />
+          {addr.city}, {addr.state} – {addr.pincode}<br />
+          {addr.country}<br />
+          📞 {addr.phone}
+        </p>
+
+        <button
+          type="button"
+          onClick={() =>
+            setForm((prev) => ({
+              ...prev,
+              ...addr,
+            }))
+          }
+          className="mt-3 text-sm font-semibold text-bioBlue hover:underline"
+        >
+          Use this address
+        </button>
+      </div>
+    ))}
+  </div>
+)}
+
+
         </div>
       </div>
     </main>

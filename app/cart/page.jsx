@@ -97,7 +97,7 @@ const t = (key) =>
                 cart.map((item) => (
                   <div
                     key={item.id}
-                    className="flex items-center gap-6 border rounded-2xl p-5 shadow-sm"
+                     className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 border rounded-2xl p-5 shadow-sm"
                   >
                     <div className="w-28 h-28 bg-gray-50 rounded-xl flex items-center justify-center">
                       <Image
@@ -151,7 +151,7 @@ const t = (key) =>
 
                     </div>
 
-                    <div className="text-right">
+                  <div className="sm:text-right flex sm:block items-center justify-between mt-4 sm:mt-0">
                       <p className="text-lg font-bold">
                         ${(item.price * item.qty).toFixed(2)}
                       </p>

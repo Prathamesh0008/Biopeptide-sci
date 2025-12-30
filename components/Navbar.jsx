@@ -233,14 +233,15 @@ useEffect(() => {
 
 
       {/* MAIN NAVBAR */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between gap-6">
+      <div className="max-w-7xl mx-auto px3 sm:px-6 py-4 flex items-center justify-between gap-6">
 
         
         {/* LOGO */}
         <div
   onClick={() => handleNavigate("/")}
-  className="cursor-pointer flex items-center h-12 w-auto"
+  className="cursor-pointer flex items-center h-12 w-auto -ml-1 sm:ml-0"
 >
+
   <Image
     src="/images/Biopeptidecolourlogo.png"
     alt="BioPeptide Logo"

@@ -87,70 +87,74 @@ useEffect(() => {
 
         <div className="space-y-8">
           {orders.map((order) => (
-            <div
+           <div
   key={order._id}
   className="
-    bg-white/90 backdrop-blur
-    border rounded-3xl
-    shadow-lg hover:shadow-xl
-    transition overflow-hidden
+    bg-white
+    border border-gray-200
+    rounded-2xl
+    shadow-sm hover:shadow-md
+    transition
+    overflow-hidden
   "
 >
 
-              {/* HEADER */}
-              <div className="
-  flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4
-  px-6 py-5
-  bg-gradient-to-r from-[#f5fbff] to-[#f1fffa]
-  border-b
-">
-                <div>
-                  <p className="text-sm text-gray-500">
-                    {t("orderId")}
-                  </p>
-                  <p className="font-semibold text-[#0d2d47]">
-                    #{order._id.slice(-6).toUpperCase()}
-                  </p>
-                  <p className="text-xs text-gray-400 mt-1">
-                    {new Date(order.createdAt).toLocaleString()}
-                  </p>
-                </div>
 
-               <StatusBadge status={order.status} t={t} />
+              {/* HEADER */}
+       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 px-6 py-4 bg-gray-50 border-b">
+
+                <div>
+  <p className="text-xs text-gray-500 uppercase tracking-wide">
+    {t("orderId")}
+  </p>
+  <p className="font-semibold text-[#0d2d47] text-lg">
+    {order._id.slice(-6).toUpperCase()}
+  </p>
+  <p className="text-xs text-gray-400 mt-1">
+    {new Date(order.createdAt).toLocaleDateString()} ·{" "}
+    {new Date(order.createdAt).toLocaleTimeString()}
+  </p>
+</div>
+
+<StatusBadge status={order.status} t={t} />
+
               </div>
 
               {/* ITEMS */}
-              <div className="px-6 py-4 space-y-3">
+            <div className="px-6 py-4 divide-y">
   {groupItems(order.items).map((item) => (
   <div
     key={item.name}   // ✅ SAME KEY AS GROUP LOGIC
-    className="flex justify-between items-center text-sm
-      border-b last:border-b-0 py-2"
+    className="flex justify-between items-start py-3"
   >
 
-      <span className="text-gray-700">
-        {item.name} × {item.qty}
-      </span>
-      <span className="font-medium text-gray-900">
-        ${(item.price * item.qty).toFixed(2)}
-      </span>
+      <span className="text-gray-700 font-medium">
+  {item.name}
+  <span className="text-gray-400 font-normal">
+    {" "}× {item.qty}
+  </span>
+</span>
+
+<span className="font-semibold text-gray-900">
+  ${(item.price * item.qty).toFixed(2)}
+</span>
+
     </div>
   ))}
 </div>
 
 
               {/* TOTAL */}
-              <div className="
-  flex justify-between items-center
-  px-6 py-5
-  bg-gradient-to-r from-bioBlue/10 to-bioGreen/10
-">
-                <span className="text-sm font-medium text-gray-600">
-                  {t("orderTotal")}
-                </span>
-                <span className="text-lg font-bold text-[#0d2d47]">
-                  ${order.totals.total.toFixed(2)}
-                </span>
+       <div className="flex justify-between items-center px-6 py-4 bg-gray-50">
+
+                <span className="text-sm text-gray-600">
+  {t("orderTotal")}
+</span>
+
+<span className="text-xl font-bold text-[#0d2d47]">
+  ${order.totals.total.toFixed(2)}
+</span>
+
               </div>
             </div>
           ))}
@@ -166,13 +170,14 @@ useEffect(() => {
 /* ---------------- STATUS BADGE ---------------- */
 
 function StatusBadge({ status, t }) {
-  const map = {
-    pending: "bg-yellow-100 text-yellow-700",
-    approved: "bg-blue-100 text-blue-700",
-    shipped: "bg-purple-100 text-purple-700",
-    delivered: "bg-green-100 text-green-700",
-    cancelled: "bg-red-100 text-red-700",
-  };
+const map = {
+  pending: "bg-yellow-50 text-yellow-700 border border-yellow-200",
+  approved: "bg-blue-50 text-blue-700 border border-blue-200",
+  shipped: "bg-purple-50 text-purple-700 border border-purple-200",
+  delivered: "bg-green-50 text-green-700 border border-green-200",
+  cancelled: "bg-red-50 text-red-700 border border-red-200",
+};
+
 
   return (
     <span

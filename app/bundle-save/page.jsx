@@ -95,18 +95,19 @@ if (loading) return null;
   border border-gray-200 rounded-2xl bg-white
   shadow-sm hover:shadow-lg transition-all
   p-3
-  h-[420px]
+  h-[450px]
 "
 
     >
       {/* IMAGE */}
-      <div className="relative w-full h-48 bg-gray-50 rounded-xl overflow-hidden">
+      <div className="relative w-full h-80 bg-gray-50 rounded-xl overflow-hidden">
         <Image
-          src={bundle.products[0].image || '/images/product.png'}
-          alt={bundle.title}
-          fill
-          className="object-contain"
-        />
+  src={bundle.image || "/images/product.png"}
+  alt={bundle.title}
+  fill
+  className="object-contain"
+/>
+
       </div>
 
       {/* CONTENT WRAPPER — keeps layout identical across cards */}

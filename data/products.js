@@ -135,8 +135,7 @@
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
   image: "/product/Capsules/5amino1mq@300x.png",
-}
-,
+},
 
  {
   id: "aod9604-5mg",

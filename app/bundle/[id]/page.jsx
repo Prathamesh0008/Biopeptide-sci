@@ -42,7 +42,7 @@ export default function BundleDetailPage() {
       name: bundle.title,
       price: bundle.price,
       qty: 1,
-      image: bundle.resolvedProducts?.[0]?.image || "/images/product.png",
+      image: bundle.image || "/images/product.png",
       strength: bundle.discount,
       type: "bundle",
 
@@ -119,12 +119,12 @@ export default function BundleDetailPage() {
       {/* IMAGE */}
       <div className="relative w-full h-[70vh] pointer-events-none">
         <Image
-          src={bundle.resolvedProducts[0]?.image || '/images/product.png'}
-          alt={bundle.title}
-          fill
-          className="object-contain"
-          priority
-        />
+  src={bundle.image || "/images/product.png"}
+  alt={bundle.title}
+  fill
+  className="object-contain"
+/>
+
       </div>
     </div>
   </div>
@@ -198,11 +198,12 @@ export default function BundleDetailPage() {
   "
 >
   <Image
-    src={bundle.resolvedProducts[0]?.image || "/images/product.png"}
-    alt={bundle.title}
-    fill
-    className="object-contain"
-  />
+  src={bundle.image || "/images/product.png"}
+  alt={bundle.title}
+  fill
+  className="object-contain"
+/>
+
 </div>
 
 
