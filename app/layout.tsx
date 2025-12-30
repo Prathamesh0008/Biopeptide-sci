@@ -5,7 +5,13 @@ import type { ReactNode } from "react";
 export const metadata = {
   title: "BioPeptide",
   description: "Premium Research Peptides",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/Biopeptidecolourlogo.png",
+  },
 };
+
 
 export default function RootLayout({
   children,
