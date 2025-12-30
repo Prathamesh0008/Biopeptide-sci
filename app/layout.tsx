@@ -1,3 +1,5 @@
+
+"use client";
 import "./globals.css";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import type { ReactNode } from "react";

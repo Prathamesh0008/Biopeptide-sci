@@ -1,4 +1,4 @@
-// components/Navbar.jsx - YOUR EXACT ORIGINAL CODE + Language Support
+// components/Navbar.jsx 
 "use client";
 
 import Link from "next/link";
@@ -7,10 +7,26 @@ import { useState, useEffect, useRef } from "react";
 import { FaSearch, FaUser, FaShoppingCart, FaGlobe } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 import { PRODUCTS } from "@/data/products";
-import { useLanguage } from "@/contexts/LanguageContext"; // ✅ ONLY ADDED LINE
+import { useLanguage } from "@/contexts/LanguageContext"; 
+import CartDrawer from "@/components/CartDrawer";
+
 
 export default function Navbar() {
   const { loadLanguage, translations } = useLanguage();
+  const [cartCount, setCartCount] = useState(0);
+
+  const getCartCount = () => {
+  const storedUser = localStorage.getItem("bio-user");
+  const key = storedUser
+    ? `bio-cart-${JSON.parse(storedUser).email}`
+    : "guest-cart";
+
+  const cart = JSON.parse(localStorage.getItem(key) || "[]");
+
+  return cart.reduce((sum, item) => sum + item.qty, 0);
+};
+
+
 
 const t = (path) => {
   try {
@@ -57,32 +73,67 @@ const t = (path) => {
     { code: "fr", label: "French" },
   ];
 
+  
+
+  useEffect(() => {
+  // initial load
+  setCartCount(getCartCount());
+
+  const update = () => {
+    setCartCount(getCartCount());
+  };
+
+  window.addEventListener("bio-cart-updated", update);
+  window.addEventListener("storage", update);
+
+  return () => {
+    window.removeEventListener("bio-cart-updated", update);
+    window.removeEventListener("storage", update);
+  };
+}, []);
+
+
   useEffect(() => {
   if (!menuOpen) setLanguageOpen(false);
 }, [menuOpen]);
 
-  useEffect(() => {
+useEffect(() => {
+  const syncUser = () => {
     const stored = localStorage.getItem("bio-user");
-    if (stored) {
-      setUser(JSON.parse(stored));
-    }
-  }, []);
+    setUser(stored ? JSON.parse(stored) : null);
 
-  useEffect(() => {
-    function handleProfileOutside(e) {
-      if (profileRef.current && !profileRef.current.contains(e.target)) {
-        setProfileOpen(false);
-      }
-    }
+    // ✅ ADD THIS LINE
+    setCartCount(getCartCount());
+  };
 
-    if (profileOpen) {
-      document.addEventListener("mousedown", handleProfileOutside);
-    }
+  syncUser();
+  window.addEventListener("storage", syncUser);
+  window.addEventListener("bio-user-updated", syncUser);
 
-    return () => {
-      document.removeEventListener("mousedown", handleProfileOutside);
-    };
-  }, [profileOpen]);
+  return () => {
+    window.removeEventListener("storage", syncUser);
+    window.removeEventListener("bio-user-updated", syncUser);
+  };
+}, []);
+
+
+
+ useEffect(() => {
+  function handleProfileOutside(e) {
+    if (profileRef.current && !profileRef.current.contains(e.target)) {
+      setProfileOpen(false);
+    }
+  }
+
+  if (profileOpen) {
+    document.addEventListener("click", handleProfileOutside);
+  }
+
+  return () => {
+    document.removeEventListener("click", handleProfileOutside);
+  };
+}, [profileOpen]);
+
 
   useEffect(() => {
     function handleOutsideSearch(e) {
@@ -148,6 +199,7 @@ const t = (path) => {
   };
 
   return (
+    
     <header
       className="
         w-full
@@ -157,6 +209,8 @@ const t = (path) => {
         border-b border-gray-200
       "
     >
+      <CartDrawer />
+
       {/* LOADER */}
       {loading && (
         <div className="fixed inset-0 bg-white/90 backdrop-blur-sm flex items-center justify-center z-[9999]">
@@ -179,14 +233,15 @@ const t = (path) => {
 
 
       {/* MAIN NAVBAR */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between gap-6">
+      <div className="max-w-7xl mx-auto px3 sm:px-6 py-4 flex items-center justify-between gap-6">
 
         
         {/* LOGO */}
         <div
   onClick={() => handleNavigate("/")}
-  className="cursor-pointer flex items-center h-12 w-auto"
+  className="cursor-pointer flex items-center h-12 w-auto -ml-1 sm:ml-0"
 >
+
   <Image
     src="/images/Biopeptidecolourlogo.png"
     alt="BioPeptide Logo"
@@ -250,50 +305,66 @@ const t = (path) => {
           ) : (
             <div ref={profileRef} className="relative">
               <button
-                onClick={() => setProfileOpen(!profileOpen)}
-                className="flex items-center gap-2 hover:text-bioBlue cursor-pointer"
-              >
+  onClick={(e) => {
+    e.stopPropagation();        // 🔥 THIS LINE WAS MISSING
+    setProfileOpen((v) => !v);
+  }}
+  className="flex items-center gap-2 hover:text-bioBlue cursor-pointer"
+>
+
                 <FaUser className="text-gray-600" />
                 <span className="font-medium">
                   {user.name || "Profile"}
                 </span>
               </button>
 
-              {profileOpen && (
-                <div className="absolute right-0 mt-3 w-48 bg-white border rounded-xl shadow-lg overflow-hidden z-50">
-                  <button
-                    onClick={() => {
-                      setProfileOpen(false);
-                      router.push("/profile");
-                    }}
-                    className="w-full text-left px-4 py-3 text-sm hover:bg-gray-50"
-                  >
-                    {t("auth.profile")}
-                  </button>
-                  <button
-                    onClick={() => {
-                      setProfileOpen(false);
-                      router.push("/orders");
-                    }}
-                    className="w-full text-left px-4 py-3 text-sm hover:bg-gray-50"
-                  >
-                   {t("auth.orders")}
+  {profileOpen && (
+  <div
+    onClick={(e) => e.stopPropagation()}
+    className="
+      absolute right-0 mt-3 w-48
+      bg-white border rounded-xl shadow-lg
+      overflow-hidden z-50
+      flex flex-col
+    "
+  >
+    <button
+      onClick={() => {
+        setProfileOpen(false);
+        router.push("/profile");
+      }}
+      className="w-full text-left px-4 py-3 text-sm hover:bg-gray-50"
+    >
+      My Profile
+    </button>
 
-                  </button>
+    <button
+      onClick={() => {
+        setProfileOpen(false);
+        router.push("/orders");
+      }}
+      className="w-full text-left px-4 py-3 text-sm hover:bg-gray-50"
+    >
+      My Orders
+    </button>
 
-                  <button
-                    onClick={() => {
-                      localStorage.removeItem("bio-user");
-                      setUser(null);
-                      setProfileOpen(false);
-                      router.push("/");
-                    }}
-                    className="w-full text-left px-4 py-3 text-sm text-red-500 hover:bg-red-50"
-                  >
-                   {t("auth.logout")}
-                  </button>
-                </div>
-              )}
+    <button
+      onClick={() => {
+        localStorage.removeItem("bio-user");
+        window.dispatchEvent(new Event("bio-user-updated"));
+        setUser(null);
+        setProfileOpen(false);
+        router.push("/");
+      }}
+      className="w-full text-left px-4 py-3 text-sm text-red-500 hover:bg-red-50"
+    >
+      Logout
+    </button>
+  </div>
+)}
+
+
+
             </div>
           )}
 
@@ -325,11 +396,38 @@ const t = (path) => {
 </div>
 
 
-          <button onClick={() => handleNavigate("/cart")} 
-            className="flex items-center gap-2 hover:text-bioBlue cursor-pointer">
-              <FaShoppingCart className="text-gray-600" />
-              <span>{t("cart")}</span>
-          </button>
+         <button
+  onClick={() => handleNavigate("/cart")}
+  className="flex items-center gap-2 hover:text-bioBlue cursor-pointer"
+>
+  {/* ICON WRAPPER */}
+  <div className="relative">
+    <FaShoppingCart className="text-gray-600 text-lg" />
+
+    {/* CART COUNT BADGE */}
+    {cartCount > 0 && (
+      <span
+        className="
+          absolute -top-2 -right-2
+          bg-red-500 text-white
+          text-[10px] font-bold
+          w-5 h-5
+          flex items-center justify-center
+          rounded-full
+          leading-none
+          pointer-events-none
+        "
+      >
+        {cartCount}
+      </span>
+    )}
+  </div>
+
+  {/* TEXT — NEVER OVERLAPPED */}
+  <span>{t("cart")}</span>
+</button>
+
+
         </div>
 
         {/* MOBILE ICONS — SEARCH + CART */}
@@ -341,9 +439,31 @@ const t = (path) => {
           </button>
 
           {/* CART ICON MOBILE */}
-          <button onClick={() => handleNavigate("/cart")}>
-            <FaShoppingCart className="text-gray-600" />
-          </button>
+<button
+  onClick={() => handleNavigate("/cart")}
+  className="relative"
+>
+  <FaShoppingCart className="text-gray-600 text-xl" />
+
+  {/* CART COUNT BADGE */}
+  {cartCount > 0 && (
+    <span
+      className="
+        absolute -top-2 -right-2
+        bg-red-500 text-white
+        text-[10px] font-bold
+        w-5 h-5
+        flex items-center justify-center
+        rounded-full
+        leading-none
+        pointer-events-none
+      "
+    >
+      {cartCount}
+    </span>
+  )}
+</button>
+
 
           {/* HAMBURGER ANIMATED */}
           <button
@@ -513,11 +633,16 @@ const t = (path) => {
                 </button>
 
                 <button
-                  onClick={() => {
-                    localStorage.removeItem("bio-user");
-                    setUser(null);
-                    handleNavigate("/");
-                  }}
+                 onClick={() => {
+  localStorage.removeItem("bio-user");
+
+  // 🔥 tell Navbar user is gone
+  window.dispatchEvent(new Event("bio-user-updated"));
+
+  setUser(null);
+  handleNavigate("/");
+}}
+
                   className="flex items-center gap-2 text-red-500"
                 >
                   {t("auth.logout")}
@@ -525,11 +650,38 @@ const t = (path) => {
               </>
             )}
 
-            <button onClick={() => handleNavigate("/cart")}
-              className="flex items-center gap-2 hover:text-bioBlue cursor-pointer">
-                <FaShoppingCart className="text-gray-600" />
-              <span className="text-gray-700">{t("cart")}</span>
-            </button>
+          <button
+  onClick={() => handleNavigate("/cart")}
+  className="flex items-center gap-2 hover:text-bioBlue cursor-pointer"
+>
+  {/* ICON WRAPPER */}
+  <div className="relative">
+    <FaShoppingCart className="text-gray-600 text-lg" />
+
+    {/* CART COUNT BADGE */}
+    {cartCount > 0 && (
+      <span
+        className="
+          absolute -top-2 -right-2
+          bg-red-500 text-white
+          text-[10px] font-bold
+          w-5 h-5
+          flex items-center justify-center
+          rounded-full
+          leading-none
+          pointer-events-none
+        "
+      >
+        {cartCount}
+      </span>
+    )}
+  </div>
+
+  {/* TEXT — NEVER OVERLAPPED */}
+  <span>{t("cart")}</span>
+</button>
+
+
           </div>
 
         </div>

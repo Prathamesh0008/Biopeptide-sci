@@ -49,13 +49,11 @@ if (loading) return null;
       qty: 1,
     });
   }
+localStorage.setItem(cartKey, JSON.stringify(cart));
 
-  localStorage.setItem(cartKey, JSON.stringify(cart));
+// 🔔 tell UI that cart changed
+window.dispatchEvent(new Event("bio-cart-updated"));
 
-  setPageLoading(true);
-  setTimeout(() => {
-    router.push("/cart");
-  }, 500);
 };
 
   return (
@@ -75,7 +73,8 @@ if (loading) return null;
  bg-white border border-gray-200 rounded-xl 
                    p-2 sm:p-4 flex flex-col justify-between
                    hover:shadow-md hover:-translate-y-1 transition-all
-                   min-h-[380px]"  /* ⭐ SAME HEIGHT FOR ALL CARDS */
+                   sm:min-h-[380px]"//height for responsive cards
+
       >
 
         {/* IMAGE */}
@@ -105,7 +104,7 @@ if (loading) return null;
         </div>
 
         {/* TEXT */}
-        <div className="mt-3 flex-1 cursor-pointer" onClick={openProduct}>
+        <div className="mt-3 sm:flex-1 cursor-pointer" onClick={openProduct}>
           <h4 className="text-[15px] font-semibold text-gray-900 leading-snug">
             {product.name}
           </h4>

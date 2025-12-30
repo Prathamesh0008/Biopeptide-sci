@@ -18,10 +18,9 @@ export default function BundleDetailPage() {
 
   const [previewOpen, setPreviewOpen] = useState(false);
 
-  const handleAddBundleToCart = () => {
+ const handleAddBundleToCart = () => {
   if (!bundle) return;
 
-  // ✅ SAME USER-BASED CART KEY AS CART PAGE
   const userStr = localStorage.getItem("bio-user");
   const user = userStr ? JSON.parse(userStr) : null;
 
@@ -43,11 +42,11 @@ export default function BundleDetailPage() {
       name: bundle.title,
       price: bundle.price,
       qty: 1,
-      image: bundle.resolvedProducts?.[0]?.image || "/images/product.png",
-      strength: bundle.discount, // "Save 30%"
+      image: bundle.image || "/images/product.png",
+      strength: bundle.discount,
       type: "bundle",
 
-      // ✅ IMPORTANT: store bundle contents
+      // keep bundle contents
       items: bundle.resolvedProducts.map((p) => ({
         id: p.id,
         name: p.name,
@@ -60,8 +59,10 @@ export default function BundleDetailPage() {
 
   localStorage.setItem(cartKey, JSON.stringify(cart));
 
-  window.location.href = "/cart";
+  // 🔔 THIS is the magic line
+  window.dispatchEvent(new Event("bio-cart-updated"));
 };
+
 
 
 
@@ -118,12 +119,12 @@ export default function BundleDetailPage() {
       {/* IMAGE */}
       <div className="relative w-full h-[70vh] pointer-events-none">
         <Image
-          src={bundle.resolvedProducts[0]?.image || '/images/product.png'}
-          alt={bundle.title}
-          fill
-          className="object-contain"
-          priority
-        />
+  src={bundle.image || "/images/product.png"}
+  alt={bundle.title}
+  fill
+  className="object-contain"
+/>
+
       </div>
     </div>
   </div>
@@ -197,11 +198,12 @@ export default function BundleDetailPage() {
   "
 >
   <Image
-    src={bundle.resolvedProducts[0]?.image || "/images/product.png"}
-    alt={bundle.title}
-    fill
-    className="object-contain"
-  />
+  src={bundle.image || "/images/product.png"}
+  alt={bundle.title}
+  fill
+  className="object-contain"
+/>
+
 </div>
 
 

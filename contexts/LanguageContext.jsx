@@ -13,7 +13,11 @@ export function LanguageProvider({ children }) {
     try {
       setLoading(true);
       const module = await import(`../data1/languages/${langCode}`);
-      setTranslations(module.default || module[langCode]);
+      setTranslations(prev => ({
+  ...prev,
+  ...(module.default || module[langCode])
+}));
+
       setLanguage(langCode);
       localStorage.setItem("bio-lang", langCode);
       document.documentElement.lang = langCode;
@@ -21,7 +25,11 @@ export function LanguageProvider({ children }) {
     } catch (error) {
       console.error('Language load failed, falling back to en');
       const enModule = await import(`../data1/languages/en`);
-      setTranslations(enModule.default || enModule.en);
+      setTranslations(prev => ({
+  ...prev,
+  ...(enModule.default || enModule.en)
+}));
+
       setLanguage('en');
       document.documentElement.lang = 'en';
       document.documentElement.dir = 'ltr';
@@ -53,6 +61,14 @@ export const useLanguage = () => {
   if (!context) throw new Error('useLanguage must be used within LanguageProvider');
   return context;
 };
+
+
+
+
+
+
+
+
 
 
 // "use client";
