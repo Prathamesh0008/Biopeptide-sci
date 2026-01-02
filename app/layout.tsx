@@ -1,16 +1,4 @@
-// "use client";
-
-// import { LanguageProvider } from "@/contexts/LanguageContext";
-
-// export default function Providers({ children }: { children: React.ReactNode }) {
-//   return <LanguageProvider>{children}</LanguageProvider>;
-// }
-
-
-
-
-// peptides\app\layout.tsx
-
+// peptides/app/layout.tsx
 import "./globals.css";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import type { ReactNode } from "react";
@@ -28,9 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="text-gray-900 antialiased">
-        <LanguageProvider>
-          {children}
-        </LanguageProvider>
+        <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
   );

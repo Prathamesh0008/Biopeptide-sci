@@ -5,6 +5,8 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { getTranslatedProduct } from "@/utils/getTranslatedProduct";
+
 
 
 export default function ProductCard({ product }) {
@@ -14,6 +16,7 @@ export default function ProductCard({ product }) {
 if (loading) return null;
 
 
+const p = getTranslatedProduct(product, translations);
   const openProduct = () => {
     setPageLoading(true);
     setTimeout(() => {
@@ -41,9 +44,9 @@ if (loading) return null;
   } else {
     cart.push({
       id: product.id,
-      name: product.name,
+     name: p.name,
       price: product.price,
-      strength: product.strength,
+     strength: p.strength,
       image: product.image,
       slug: product.slug,
       qty: 1,
@@ -106,9 +109,9 @@ window.dispatchEvent(new Event("bio-cart-updated"));
         {/* TEXT */}
         <div className="mt-3 sm:flex-1 cursor-pointer" onClick={openProduct}>
           <h4 className="text-[15px] font-semibold text-gray-900 leading-snug">
-            {product.name}
+           {p.name}
           </h4>
-          <p className="text-xs text-gray-500 mt-1">{product.strength}</p>
+          <p className="text-xs text-gray-500 mt-1">{p.strength}</p>
         </div>
 
         {/* PRICE */}
@@ -130,6 +133,7 @@ window.dispatchEvent(new Event("bio-cart-updated"));
   onClick={addToCart}
   className="
     w-full
+    cursor-pointer
     bg-[linear-gradient(to_right,#145b2f,#559f45,#65b4d7,#1a497c)]
     text-white text-xs font-semibold
     py-2 rounded-full

@@ -24,10 +24,10 @@ export default {
       researchStatus:
         "仅限实验室研究使用。不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
+ 
 
-  products: {
+ 
     "bpc-tb500-glow-blend": {
       name: "Glow 复合肽（BPC-157 + TB-500）",
 
@@ -54,10 +54,8 @@ export default {
       researchStatus:
         "仅限实验室科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
     "5-amino-1mq-50mg": {
       name: "5-氨基-1MQ 50mg（60 粒胶囊）",
 
@@ -79,10 +77,9 @@ export default {
       researchStatus:
         "仅限实验室科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "aod9604-5mg": {
       name: "AOD9604 5mg",
 
@@ -104,10 +101,9 @@ export default {
       researchStatus:
         "仅限实验室科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+ 
     "ghk-cu-2mg": {
       name: "GHK-Cu 2mg",
 
@@ -129,10 +125,9 @@ export default {
       researchStatus:
         "仅限实验室及美容科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+
     "ghk-cu-2mg": {
       name: "GHK-Cu 2mg",
 
@@ -154,10 +149,9 @@ export default {
       researchStatus:
         "仅限实验室及美容科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+ 
     "acetyl-hexapeptide-3-200mg": {
       name: "乙酰六肽-3（Argireline®）200mg",
 
@@ -179,10 +173,9 @@ export default {
       researchStatus:
         "仅限实验室及美容科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "ahk-tripeptide-3-200mg": {
       name: "AHK-三肽-3 200mg",
 
@@ -204,10 +197,9 @@ export default {
       researchStatus:
         "仅限实验室及美容科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "ahk-cu-200mg": {
       name: "AHK-Cu 200mg（外用）",
 
@@ -233,10 +225,9 @@ export default {
       researchStatus:
         "仅限实验室及美容科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "aod9604-6mg": {
       name: "AOD9604 6mg",
 
@@ -258,10 +249,9 @@ export default {
       researchStatus:
         "仅限实验室科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
+  
     "bpc-157-10mg": {
       name: "BPC-157 10mg",
 
@@ -283,10 +273,9 @@ export default {
       researchStatus:
         "仅限实验室科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "bpc-157-tb-500-blend-10mg": {
       name: "BPC-157 + TB-500 复合肽 10mg",
 
@@ -313,10 +302,9 @@ export default {
       researchStatus:
         "仅限实验室科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "bpc-157-tb-500-blend-20mg": {
       name: "BPC-157 + TB-500 复合肽 20mg",
 
@@ -343,10 +331,9 @@ export default {
       researchStatus:
         "仅限实验室科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+ 
     "bpc-157-tb-500-blend-30mg": {
       name: "BPC-157 + TB-500 复合肽 30mg",
 
@@ -373,10 +360,9 @@ export default {
       researchStatus:
         "仅限实验室科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "bpc-157-tb-500-blend-30mg": {
       name: "BPC-157 + TB-500 复合肽 30mg",
 
@@ -403,10 +389,9 @@ export default {
       researchStatus:
         "仅限实验室科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+
     "bpc-157-tb-500-kpv-ghk-cu-80mg": {
       name: "Klow 复合肽（BPC-157 + TB-500 + KPV + GHK-Cu）80mg",
 
@@ -436,10 +421,9 @@ export default {
       researchStatus:
         "仅限实验室科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "bronchogen-20mg": {
       name: "Bronchogen® 20mg（生物调节肽）",
 
@@ -465,10 +449,9 @@ export default {
       researchStatus:
         "仅限实验室科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "cardiogen-20mg": {
       name: "Cardiogen® 20mg（生物调节肽）",
 
@@ -494,10 +477,9 @@ export default {
       researchStatus:
         "仅限实验室科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "cartalax-20mg": {
       name: "Cartalax® 20mg（生物调节肽）",
 
@@ -523,10 +505,9 @@ export default {
       researchStatus:
         "仅限实验室科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "adipotide-ftpp-10mg": {
       name: "Adipotide（FTPP）10mg",
 
@@ -548,10 +529,9 @@ export default {
       researchStatus:
         "仅限实验室科研使用，不得用于人体或动物。"
     }
-  },
-   dir: "ltr",
+  ,
 
-  products: {
+  
     "ahk-tripeptide-3-200mg": {
       name: "AHK-三肽-3 200mg",
 
@@ -573,10 +553,9 @@ export default {
       researchStatus:
         "仅限实验室及美容科研使用，不得用于人体或动物。"
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
+ 
     "aicar-50mg": {
       name: "AICAR 50mg",
 
@@ -598,5 +577,548 @@ export default {
       researchStatus:
         "仅限实验室科研使用，不得用于人体或动物。"
     }
-  }
+  ,
+
+  
+    "ara-290-16mg": {
+      name: "ARA-290 16mg",
+
+      strength:
+        "一种合成肽，在实验室研究中用于研究其与源自促红细胞生成素的受体信号通路的相互作用。",
+
+      description:
+        "ARA-290 是一种来源于促红细胞生成素（EPO）特定区域的合成肽，在实验室研究中用于研究其与具有组织保护作用的受体信号通路之间的相互作用。在受控研究环境中，研究其细胞信号机制、肽–受体相互作用以及特定通路的生物学反应模型。",
+
+      applications: [
+        "肽–受体相互作用研究",
+        "细胞信号通路研究",
+        "组织保护性信号模型研究",
+        "促红细胞生成素衍生肽研究"
+      ],
+
+      appearance: "白色冻干粉",
+      storage: "在 -20°C 保存，避免反复冻融。",
+      researchStatus:
+        "仅限实验室科研使用，不得用于人体或动物。"
+    }
+  ,
+  "b7-33-6mg": {
+  name: "B7-33 6mg",
+
+  strength:
+    "一种来源于松弛素的合成肽，用于研究选择性受体信号通路。",
+
+  description:
+    "B7-33 是一种来源于松弛素激素 B 链的合成肽，在实验室研究中用于研究其与松弛素肽家族受体的选择性相互作用。在受控研究环境中，研究其肽–受体信号特异性、下游细胞通信通路以及结构–功能关系。以高纯度冻干粉形式提供，用于科学研究。",
+
+  applications: [
+    "肽–受体相互作用研究",
+    "选择性松弛素受体信号研究",
+    "细胞通信通路研究",
+    "肽的结构–功能关系研究"
+  ],
+
+  appearance: "白色冻干粉",
+  storage: "在 -20°C 保存，避免反复冻融。",
+  researchStatus:
+    "仅限实验室科研使用，不得用于人体或动物。"
+},
+"chonluten-20mg": {
+  name: "Chonluten® 20mg（生物调节肽）",
+
+  strength:
+    "一种合成短链肽类生物调节剂，用于器官特异性细胞信号和基因表达研究模型。",
+
+  description:
+    "Chonluten® 是一种合成生物调节肽复合物，在与呼吸系统及支气管肺组织信号相关的实验室研究模型中进行研究。在受控研究环境中，研究其与基因表达通路、肽介导的调控机制以及与支气管和肺生物学相关的组织特异性细胞信号之间的相互作用。",
+
+  applications: [
+    "器官特异性肽信号研究",
+    "基因表达及调控通路研究",
+    "呼吸系统及支气管肺组织研究模型",
+    "生物调节肽作用机制研究"
+  ],
+
+  appearance: "白色至类白色粉末",
+  storage: "在 -20°C 保存，避免受潮和光照。",
+  researchStatus:
+    "仅限实验室科研使用，不得用于人体或动物。"
+},
+"cjc-1295-ghrp-2-blend-10mg": {
+  name: "CJC-1295 + GHRP-2 复合肽 10mg",
+
+  strength:
+    "由 CJC-1295 和 GHRP-2 组成的双肽研究组合，用于研究内分泌协同信号及肽–受体相互作用。",
+
+  description:
+    "该研究组合将 CJC-1295（生长激素释放激素 GHRH 类似物，用于研究受体介导的内分泌信号）与 GHRP-2（生长激素促分泌肽，用于研究其与胃饥饿素及 GHS-R 通路的相互作用）相结合。10mg 规格适用于研究协同肽信号、受体串扰及内分泌信号通路的实验室研究。以高纯度冻干肽混合物形式提供。",
+
+  components: [
+    "CJC-1295（GHRH 类似物）",
+    "GHRP-2（生长激素促分泌肽）"
+  ],
+
+  applications: [
+    "内分泌信号通路研究",
+    "肽–受体相互作用研究",
+    "协同肽信号研究",
+    "激素通信模型研究"
+  ],
+
+  appearance: "白色冻干粉混合物",
+  storage: "在 -20°C 保存，避免反复冻融。",
+  researchStatus:
+    "仅限实验室科研使用，不得用于人体或动物。"
+},
+"cjc-1295-ghrp-6-blend-10mg": {
+  name: "CJC-1295 + GHRP-6 复合肽 10mg",
+
+  strength:
+    "由 CJC-1295 和 GHRP-6 组成的双肽研究组合，用于研究内分泌协同信号及肽–受体相互作用。",
+
+  description:
+    "该研究组合将 CJC-1295（生长激素释放激素 GHRH 类似物，用于研究受体介导的内分泌信号）与 GHRP-6（生长激素促分泌肽，用于研究其与胃饥饿素及 GHS-R 通路的相互作用）相结合。10mg 规格适用于研究协同肽信号、受体串扰及内分泌信号通路的实验室研究。以高纯度冻干肽混合物形式提供。",
+
+  components: [
+    "CJC-1295（GHRH 类似物）",
+    "GHRP-6（生长激素促分泌肽）"
+  ],
+
+  applications: [
+    "内分泌信号通路研究",
+    "肽–受体相互作用研究",
+    "协同肽信号研究",
+    "激素通信模型研究"
+  ],
+
+  appearance: "白色冻干粉混合物",
+  storage: "在 -20°C 保存，避免反复冻融。",
+  researchStatus:
+    "仅限实验室科研使用，不得用于人体或动物。"
+},
+"cjc-1295-hexarelin-blend-10mg": {
+  name: "CJC-1295 + Hexarelin 复合肽 10mg",
+
+  strength:
+    "由 CJC-1295 和 Hexarelin 组成的双肽研究组合，用于研究内分泌协同信号及肽–受体相互作用。",
+
+  description:
+    "该研究组合将 CJC-1295（生长激素释放激素 GHRH 类似物，用于研究受体介导的内分泌信号）与 Hexarelin（生长激素促分泌肽，用于研究其与胃饥饿素及 GHS-R 通路的相互作用）相结合。10mg 规格适用于研究协同肽信号、受体串扰及内分泌信号通路的实验室研究。以高纯度冻干肽混合物形式提供。",
+
+  components: [
+    "CJC-1295（GHRH 类似物）",
+    "Hexarelin（生长激素促分泌肽）"
+  ],
+
+  applications: [
+    "内分泌信号通路研究",
+    "肽–受体相互作用研究",
+    "协同肽信号研究",
+    "激素通信模型研究"
+  ],
+
+  appearance: "白色冻干粉混合物",
+  storage: "在 -20°C 保存，避免反复冻融。",
+  researchStatus:
+    "仅限实验室科研使用，不得用于人体或动物。"
+},
+"cjc-1295-ipamorelin-ghrp-2-blend": {
+  name: "CJC-1295 + Ipamorelin + GHRP-2 复合肽",
+
+  strength:
+    "三肽研究组合，包含 CJC-1295、Ipamorelin 和 GHRP-2，用于高级内分泌信号及肽–受体相互作用研究。",
+
+  description:
+    "该研究组合将 CJC-1295（生长激素释放激素 GHRH 类似物）与 Ipamorelin 和 GHRP-2（生长激素促分泌肽）相结合，用于研究其与胃饥饿素及 GHS-R 通路的相互作用。该混合物设计用于实验室研究，探索协同内分泌信号、受体串扰及复杂肽通信通路。以高纯度冻干肽混合物形式提供。",
+
+  components: [
+    "CJC-1295（GHRH 类似物）",
+    "Ipamorelin（生长激素促分泌肽）",
+    "GHRP-2（生长激素促分泌肽）"
+  ],
+
+  applications: [
+    "内分泌信号通路研究",
+    "肽–受体相互作用研究",
+    "协同肽通信研究",
+    "激素信号模型研究"
+  ],
+
+  appearance: "白色冻干粉混合物",
+  storage: "在 -20°C 保存，避免反复冻融。",
+  researchStatus:
+    "仅限实验室科研使用，不得用于人体或动物。"
+},
+"cjc-1295-ipamorelin-blend-10mg": {
+  name: "CJC-1295 + Ipamorelin 复合肽 10mg",
+
+  strength:
+    "由 CJC-1295 和 Ipamorelin 组成的双肽研究组合，用于内分泌信号及肽–受体相互作用研究。",
+
+  description:
+    "该研究组合将 CJC-1295（生长激素释放激素 GHRH 类似物）与 Ipamorelin（选择性生长激素促分泌肽）相结合，用于实验室研究协同内分泌信号、受体串扰及肽通信通路。以高纯度冻干肽混合物形式提供。",
+
+  components: [
+    "CJC-1295（GHRH 类似物）",
+    "Ipamorelin（生长激素促分泌肽）"
+  ],
+
+  applications: [
+    "内分泌信号通路研究",
+    "肽–受体相互作用研究",
+    "协同肽信号研究",
+    "激素信号模型研究"
+  ],
+
+  appearance: "白色冻干粉混合物",
+  storage: "在 -20°C 保存，避免反复冻融。",
+  researchStatus:
+    "仅限实验室科研使用，不得用于人体或动物。"
+},
+"mod-grf-1-29-5mg": {
+  name: "Mod GRF 1-29 (CJC-1295 无 DAC) 5mg",
+
+  strength:
+    "合成生长激素释放激素（GHRH）类似物，用于短效受体信号和内分泌研究模型。",
+
+  description:
+    "Mod GRF 1-29，也称为 CJC-1295 无 DAC，是生长激素释放激素（GHRH）的合成肽类似物。在实验室研究中，它用于短时GHRH受体激活、内分泌信号动态和肽–受体相互作用研究。5mg规格支持需要更多材料的扩展实验，同时维持可控的短效信号模型。以高纯度冻干粉末形式提供。",
+
+  components: [
+    "Mod GRF 1-29（CJC-1295 无 DAC 类似物）"
+  ],
+
+  applications: [
+    "内分泌信号通路研究",
+    "GHRH受体相互作用研究",
+    "短效肽信号模型",
+    "激素通信研究"
+  ],
+
+  appearance: "白色冻干粉末",
+  storage: "在 -20°C 保存，避免反复冻融。",
+  researchStatus:
+    "仅限实验室科研使用，不得用于人体或动物。"
+},
+"cortagen-20mg": {
+  name: "Cortagen® 20mg（生物调节剂）",
+
+  strength:
+    "合成短链肽生物调节剂，用于神经组织信号和基因表达研究模型。",
+
+  description:
+    "Cortagen® 是一种合成生物调节肽复合体，在实验室研究中用于研究中枢神经系统和神经组织信号。在受控研究环境中，研究其与基因表达途径、肽介导的调控机制以及与神经生物学相关的细胞通信模型的相互作用。以高纯度研究材料形式提供。",
+
+  components: [
+    "短链调节肽（二肽和三肽复合体）"
+  ],
+
+  applications: [
+    "器官特异性肽信号研究",
+    "基因表达及调控途径研究",
+    "神经及中枢神经系统研究模型",
+    "生物调节肽机制研究"
+  ],
+
+  appearance: "白色至类白色粉末",
+  storage: "储存于 -20°C。避免潮湿和光照。",
+  researchStatus:
+    "仅限实验室科研使用，不得用于人体或动物。"
+},
+"decapeptide-12-10mg": {
+  name: "Decapeptide-12",
+
+  strength:
+    "合成化妆品研究肽，用于黑色素生成信号传导及皮肤色素通路模型。",
+
+  description:
+    "Decapeptide-12 是一种合成肽，在化妆品和皮肤科研究中广泛研究，用于黑色素生成信号通路和肽介导的色素模型。在实验室研究中，它用于研究与酪氨酸酶相关的通路及皮肤色调调控相关的肽信号机制。以高纯度冻干肽形式提供，用于受控的化妆品和细胞研究环境。",
+
+  components: [
+    "化妆品研究用合成肽"
+  ],
+
+  applications: [
+    "黑色素生成和色素信号研究",
+    "化妆品肽通路研究",
+    "皮肤生物学和肽相互作用研究",
+    "局部配方与稳定性研究"
+  ],
+
+  appearance: "白色至类白色冻干粉末",
+  storage: "存放于 -20°C。避免光照和潮湿。",
+  researchStatus:
+    "仅限实验室和化妆品研究使用。不得用于人体或动物。"
+},
+"dihexa-5mg-60-capsules": {
+  name: "Dihexa 5mg (60胶囊)",
+
+  strength:
+    "小分子肽衍生化合物，研究用于神经可塑性和突触信号模型。",
+
+  description:
+    "Dihexa 是一种肽衍生的小分子，在实验室研究中用于研究其与肝细胞生长因子(HGF)信号及突触可塑性通路的相互作用。在前临床模型中，研究其在神经发生、突触形成和认知信号机制中的作用。以胶囊形式提供，便于实验环境中的控制和稳定性。",
+
+  components: [
+    "神经研究用肽衍生小分子"
+  ],
+
+  applications: [
+    "神经可塑性及突触信号研究",
+    "HGF/c-Met 通路研究",
+    "认知及神经通信研究",
+    "中枢神经系统研究模型"
+  ],
+
+  appearance: "胶囊固体研究材料",
+  storage: "储存在阴凉干燥处，避光保存。",
+  researchStatus:
+    "仅限实验室科研使用，不得用于人体或动物。"
+},
+"dsip-5mg": {
+  name: "DSIP 5mg",
+
+  strength:
+    "内源性神经肽，在睡眠调节、昼夜节律信号及神经内分泌研究模型中研究。",
+
+  description:
+    "Delta 睡眠诱导肽（DSIP）是一种天然存在的神经肽，在实验室研究中用于研究其在睡眠相关信号通路、昼夜节律调节及神经内分泌通讯中的作用。在科学研究中，DSIP 用于研究其与中枢神经系统信号机制和应激反应通路的相互作用。以高纯度冻干肽形式提供，用于受控研究。",
+
+  components: [
+    "神经研究用内源性肽"
+  ],
+
+  applications: [
+    "睡眠–觉醒周期与昼夜节律研究",
+    "神经肽信号研究",
+    "神经内分泌途径研究",
+    "应激反应与中枢神经系统研究模型"
+  ],
+
+  appearance: "白色冻干粉末",
+  storage: "存放于 -20°C。避免反复冻融。",
+  researchStatus:
+    "仅限实验室研究使用，不得用于人体或动物。"
+},
+"epitalon-1mg-60-capsules": {
+  name: "Epitalon 1mg（60胶囊）",
+
+  strength:
+    "合成四肽生物调节剂，用于表观遗传调控、细胞衰老及昼夜节律研究模型。",
+
+  description:
+    "Epitalon 是一种合成四肽生物调节剂，来源于上丘脑肽研究。在实验室和前临床研究环境中，它被广泛研究在表观遗传调控、端粒酶相关信号通路、昼夜节律调节和细胞衰老模型中的作用。以胶囊形式提供，以支持研究环境中的可控操作、稳定性和一致性。",
+
+  components: [
+    "合成四肽用于生物调节研究"
+  ],
+
+  applications: [
+    "表观遗传调控和基因表达研究",
+    "细胞衰老与寿命通路研究",
+    "昼夜节律及松果体信号研究",
+    "基于肽的生物调节剂研究"
+  ],
+
+  appearance: "胶囊固体研究材料",
+  storage: "储存于阴凉干燥处，避光保存。",
+  researchStatus:
+    "仅限实验室研究使用，不得用于人体或动物。"
+},
+"epitalon-20mg": {
+  name: "Epitalon (Epithalon) 20mg",
+
+  strength:
+    "合成四肽生物调节剂，用于表观遗传调控、端粒酶信号及细胞老化研究模型。",
+
+  description:
+    "Epitalon（也称 Epithalon）是一种合成四肽生物调节剂，来源于上丘脑肽研究。在实验室和前临床研究模型中，广泛研究其在表观遗传调控、端粒酶相关信号通路、昼夜节律调节和细胞老化机制中的作用。20mg冻干格式用于扩展或大容量研究应用，适合对材料有更高需求的实验。",
+
+  components: [
+    "用于生物调节研究的合成四肽"
+  ],
+
+  applications: [
+    "表观遗传调控与基因表达研究",
+    "端粒酶与细胞老化通路研究",
+    "昼夜节律与松果体信号研究",
+    "基于肽的生物调节剂研究"
+  ],
+
+  appearance: "白色冻干粉末",
+  storage: "储存于-20°C，避免反复冻融。",
+  researchStatus:
+    "仅限实验室研究使用，不得用于人体或动物。"
+},
+"epitalon-50mg": {
+  name: "Epitalon (Epithalon) 50mg",
+
+  strength:
+    "合成四肽生物调节剂，用于表观遗传调控、端粒酶信号及细胞老化研究模型。",
+
+  description:
+    "Epitalon（也称 Epithalon）是一种合成四肽生物调节剂，来源于上丘脑肽研究。在实验室和前临床研究模型中，广泛研究其在表观遗传调控、端粒酶相关信号通路、昼夜节律调节和细胞老化机制中的作用。50mg冻干格式用于扩展或大容量研究应用，适合对材料有更高需求的实验。",
+
+  components: [
+    "用于生物调节研究的合成四肽"
+  ],
+
+  applications: [
+    "表观遗传调控与基因表达研究",
+    "端粒酶与细胞老化通路研究",
+    "昼夜节律及松果体信号研究",
+    "基于肽的生物调节剂研究"
+  ],
+
+  appearance: "白色冻干粉末",
+  storage: "储存于-20°C，避免反复冻融。",
+  researchStatus:
+    "仅限实验室研究使用，不得用于人体或动物。"
+},
+"fgl-s-10mg": {
+  name: "FGL-S 10mg",
+
+  strength:
+    "合成神经活性肽，在突触可塑性、神经营养信号及认知通路研究模型中研究。",
+
+  description:
+    "FGL-S 是一种来源于神经细胞粘附分子（NCAM）结构域的合成肽，在实验室研究中用于研究其与成纤维细胞生长因子（FGF）受体信号的相互作用。在科学模型中，研究其在突触可塑性、神经通信通路和神经营养信号机制中的作用。以高纯度冻干肽形式提供，用于受控神经科学和细胞研究。",
+
+  components: [
+    "用于神经科学研究的合成神经活性肽"
+  ],
+
+  applications: [
+    "突触可塑性与神经信号研究",
+    "FGF受体与神经营养通路研究",
+    "神经通信与CNS研究模型",
+    "基于肽的认知通路研究"
+  ],
+
+  appearance: "白色冻干粉末",
+  storage: "存放于-20°C，避免反复冻融。",
+  researchStatus:
+    "仅限实验室研究使用，不得用于人体或动物。"
+},
+"follistatin-315-1mg": {
+  name: "Follistatin-315 1mg",
+
+  strength:
+    "重组调节蛋白，在肌肉抑制素抑制、TGF-β信号及细胞生长通路研究模型中研究。",
+
+  description:
+    "Follistatin-315是一种重组蛋白同种型，在实验室研究中研究其与TGF-β超家族中肌肉抑制素和活化素信号通路的相互作用。在科学模型中，研究其在细胞生长调控、分化信号和蛋白介导通路调节中的作用。以高纯度冻干重组蛋白形式提供，用于受控的分子和细胞研究。",
+
+  components: [
+    "用于分子和细胞研究的重组蛋白"
+  ],
+
+  applications: [
+    "肌肉抑制素和活化素信号研究",
+    "TGF-β通路研究",
+    "细胞生长与分化研究",
+    "蛋白质介导的调节信号研究"
+  ],
+
+  appearance: "白色冻干蛋白粉末",
+  storage: "存放于−20°C，避免反复冻融。",
+  researchStatus:
+    "仅限实验室研究使用，不得用于人体或动物。"
+},
+"follistatin-344-1mg": {
+  name: "Follistatin-344 1mg",
+
+  strength:
+    "重组调节蛋白同种型，研究肌肉抑制素抑制、活化素结合及TGF-β信号通路研究模型。",
+
+  description:
+    "Follistatin-344是一种重组蛋白同种型，由344个氨基酸组成，在实验室研究中广泛研究其与肌肉抑制素、活化素及TGF-β超家族相关成员的相互作用。在科学研究模型中，研究其在细胞生长调控、分化信号和蛋白介导通路调节中的作用。与较短同种型相比，Follistatin-344在受控实验环境中具有扩展的结合特性。以高纯度冻干重组蛋白形式提供，用于分子和细胞研究。",
+
+  components: [
+    "用于分子和细胞研究的重组蛋白"
+  ],
+
+  applications: [
+    "肌肉抑制素和活化素信号研究",
+    "TGF-β通路研究",
+    "细胞生长与分化研究",
+    "基于蛋白的调控信号研究"
+  ],
+
+  appearance: "白色冻干蛋白粉末",
+  storage: "存放于−20°C，避免反复冻融。",
+  researchStatus:
+    "仅限实验室研究使用，不得用于人体或动物。"
+},
+"foxo4-dri-10mg-zh": {
+  name: "FOXO4-DRI（Proxofim）10mg",
+
+  strength:
+    "用于研究FOXO4–p53相互作用、细胞衰老信号及转录因子通路模型的合成研究肽。",
+
+  description:
+    "FOXO4-DRI（又称Proxofim）是一种合成肽，专为细胞衰老及转录因子信号机制的实验室研究而设计。在科学模型中，它被用于研究破坏FOXO4与p53之间相互作用的作用，从而探索衰老细胞行为、凋亡信号以及与年龄相关的细胞通路。以高纯度冻干肽形式提供，适用于受控的体外和分子研究应用。",
+
+  components: [
+    "用于转录因子通路研究的合成研究肽"
+  ],
+
+  applications: [
+    "细胞衰老通路研究",
+    "FOXO4–p53相互作用研究",
+    "转录因子信号研究",
+    "细胞周期与凋亡信号模型"
+  ],
+
+  appearance: "白色冻干粉末",
+  storage: "−20°C保存，避免反复冻融。",
+  researchStatus:
+    "仅限实验室研究使用。不用于人体或动物。"
+},
+"cjc1295-ipamorelin-12mg-blend-zh": {
+  name: "片段CJC-1295 + Ipamorelin 复合肽 12mg",
+
+  strength:
+    "用于研究生长激素相关受体信号及内分泌通路相互作用模型的双肽研究复合物。",
+
+  description:
+    "该研究复合物结合了片段CJC-1295（MOD GRF 1-29），一种在垂体信号模型中研究的生长激素释放激素类似物，以及Ipamorelin，一种在内分泌通路研究中使用的选择性生长激素促分泌受体（GHS-R）激动剂。在实验室环境中，该复合物用于研究肽类协同作用、受体介导信号以及基于肽的内分泌研究模型。以高纯度冻干肽复合物形式提供，用于受控科学研究。",
+
+  components: [
+    "片段CJC-1295（MOD GRF 1-29）",
+    "Ipamorelin"
+  ],
+
+  applications: [
+    "内分泌及垂体信号研究",
+    "生长激素受体通路研究",
+    "肽–受体相互作用研究",
+    "协同肽信号研究"
+  ],
+
+  appearance: "白色冻干粉末",
+  storage: "−20°C保存，避免反复冻融。",
+  researchStatus:
+    "仅限实验室研究使用。不用于人体或动物。"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 };

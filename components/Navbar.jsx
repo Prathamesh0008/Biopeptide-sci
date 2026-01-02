@@ -9,6 +9,10 @@ import { useRouter } from "next/navigation";
 import { PRODUCTS } from "@/data/products";
 import { useLanguage } from "@/contexts/LanguageContext"; 
 import CartDrawer from "@/components/CartDrawer";
+import { usePathname } from "next/navigation";
+import ScrollProgressLine from "@/components/ScrollProgressLine";
+
+
 
 
 export default function Navbar() {
@@ -52,6 +56,8 @@ const t = (path) => {
   const [languageOpen, setLanguageOpen] = useState(false);
   const [language, setLanguage] = useState("en");
   const languageRef = useRef(null);
+  const pathname = usePathname();
+
 
   // ✅ ONLY CHANGED: Added loadLanguage call
   const changeLanguage = async (code) => {
@@ -245,8 +251,8 @@ useEffect(() => {
   <Image
     src="/images/Biopeptidecolourlogo.png"
     alt="BioPeptide Logo"
-    width={180}
-    height={40}
+    width={200}
+    height={70}
     className="object-contain"
     priority
   />
@@ -528,30 +534,46 @@ useEffect(() => {
   </div>
 )}
 
-      {/* DESKTOP LINKS */}
-      <div className="border-t border-gray-200 hidden md:block">
-       <nav className="
-  max-w-7xl mx-auto px-6
-  h-[48px]
-  flex items-center justify-center
-  gap-4
-  text-[15px]
-  text-gray-700
-  flex-nowrap overflow-hidden
-">
+     {/* DESKTOP LINKS */}
+<div className="hidden md:block border-t border-gray-200">
+  {/* FULL WIDTH BACKGROUND */}
+  <div className="w-full bg-[linear-gradient(to_right,#145b2f,#559f45,#65b4d7,#1a497c)]">
+    
+    {/* CENTERED CONTENT */}
+    <nav
+      className="
+        max-w-7xl mx-auto
+        h-[48px]
+        px-6
+        flex items-center justify-center
+        gap-4
+        text-[15px]
+        flex-nowrap overflow-hidden
+      "
+    >
+      <MenuItem
+  title={t("menu.allPeptides")}
+  onClick={() => handleNavigate("/all-peptides")}
+  active={pathname === "/all-peptides"}
+/>
 
+      <MenuItem title={t("menu.popular")} onClick={() => handleNavigate("/popular-peptides")} active={pathname === "/popular-peptides"} />
 
+<MenuItem title={t("menu.bundle")} onClick={() => handleNavigate("/bundle-save")} active={pathname === "/bundle-save"} />
 
-          <MenuItem title={t("menu.allPeptides")} onClick={() => handleNavigate("/all-peptides")} />
-          <MenuItem title={t("menu.popular")}onClick={() => handleNavigate("/popular-peptides")} />
-          <MenuItem title={t("menu.bundle")}  onClick={() => handleNavigate("/bundle-save")} />
-          <MenuItem title={t("menu.research")} onClick={() => handleNavigate("/peptide-research")} />
-          <MenuItem title={t("menu.information")} onClick={() => handleNavigate("/peptide-information")} />
-          <MenuItem title={t("menu.videos")} onClick={() => window.open("https://www.youtube.com/@yourchannel", "_blank")} />
-          <MenuItem title={t("menu.company")} onClick={() => handleNavigate("/about")} />
-          <MenuItem title={t("menu.contact")} onClick={() => handleNavigate("/contact")} />
-        </nav>
-      </div>
+<MenuItem title={t("menu.research")} onClick={() => handleNavigate("/peptide-research")} active={pathname === "/peptide-research"} />
+
+<MenuItem title={t("menu.information")} onClick={() => handleNavigate("/peptide-information")} active={pathname === "/peptide-information"} />
+
+<MenuItem title={t("menu.company")} onClick={() => handleNavigate("/about")} active={pathname === "/about"} />
+
+<MenuItem title={t("menu.contact")} onClick={() => handleNavigate("/contact")} active={pathname === "/contact"} />
+
+    </nav>
+
+  </div>
+</div>
+
 
       {/* MOBILE MENU — SLIDE DOWN ANIMATION */}
       <div
@@ -687,24 +709,29 @@ useEffect(() => {
         </div>
       </div>
       
-
+<ScrollProgressLine />
     </header>
   );
 }
 
-function MenuItem({ title, onClick }) {
+function MenuItem({ title, onClick, active }) {
   return (
     <button
       onClick={onClick}
-      className="
-        px-2
+      className={`
+        px-3 py-1.5
+        rounded-md
         whitespace-nowrap
         text-center
-        text-gray-700
-        hover:text-[#65b4d7]
-        transition-colors
+        transition-all duration-200
         cursor-pointer
-      "
+
+        ${
+          active
+            ? "bg-white/20 text-white font-semibold"
+            : "text-gray-200 hover:bg-white/10 hover:text-white"
+        }
+      `}
     >
       {title}
     </button>
