@@ -252,17 +252,24 @@ peptideInfo: {
 },
 home: {
   hero: {
-    badge: "Capsules de Recherche BioPeptide",
-    title: "Capsules de Peptides de Recherche",
-    subtitle: "Capsules BioPeptide de haute pureté conçues pour la recherche scientifique.",
-    button: "En savoir plus"
+    title: "Acheter des peptides de recherche",
+    subtitle: "Peptides hautement purifiés tels que Melanotan II, CJC-1295, TB-500, IGF-1 et plus.",
+    button: "En savoir plus",
+
+    title2: "Mélanges de peptides de recherche",
+    subtitle2: "Combinaisons avancées de peptides pour la recherche en laboratoire.",
+    button2: "Découvrir les mélanges",
+
+    title3: "Capsules de peptides de recherche",
+    subtitle3: "Formulations de peptides en capsules pour environnements de recherche contrôlés.",
+    button3: "Voir les capsules"
   },
 
   productGrid: {
     mainTitle: "Acheter des Peptides pour la Recherche Scientifique",
-    description:
-      "BioPeptide fournit des peptides de recherche de haute pureté avec une documentation complète.",
+    description: "BioPeptide™ est spécialisée dans le développement et la synthèse de peptides, protéines et composés dérivés d’acides aminés de haute pureté, destinés exclusivement à la recherche scientifique et aux applications de laboratoire. BioPeptide™ utilise des systèmes avancés de synthèse peptidique automatisés et manuels, ainsi que des technologies de synthèse en phase solide et en solution, afin de fournir des peptides atteignant de manière constante une pureté supérieure à 99 %.\n\nDe la conception et de la synthèse initiales des peptides jusqu’au traitement final, à l’emballage et à la distribution, BioPeptide™ applique des protocoles de contrôle qualité rigoureux afin de garantir une stabilité, une intégrité et une fiabilité maximales. Chaque peptide fait l’objet d’analyses approfondies tout au long du cycle de production dans nos laboratoires analytiques.\n\nLa précision de la séquence et l’identité moléculaire sont vérifiées à l’aide de techniques avancées de Chromatographie Liquide Haute Performance (HPLC) et de Spectrométrie de Masse (MS), confirmant scientifiquement la pureté, la composition et la cohérence de chaque produit BioPeptide™.",
     featuredTitle: "Peptides de Recherche en Vedette",
+    popularTitle: "Peptides Populaires",
     filter: "Filtrer",
     showing: "Affichage",
     of: "sur",
@@ -272,19 +279,27 @@ home: {
   },
 
   about: {
-    title: "À propos de BioPeptide",
-    companyTitle: "🧬 Notre Entreprise",
-    companyText1:
-      "BioPeptide™ est un fournisseur leader de peptides de recherche premium.",
-    companyText2:
-      "Nous soutenons fièrement des organisations de recherche mondiales.",
-    qualityTitle: "🔬 Qualité. Service. Valeur.",
-    qualityText:
-      "BioPeptide™ fournit des matériaux de recherche de haute pureté grâce à une synthèse et des tests avancés.",
-    customersTitle: "👥 Nos Clients",
-    customersText:
-      "Des chercheurs du monde entier font confiance à BioPeptide™ pour des produits fiables."
-  }
+  title: "À propos de BioPeptide",
+
+  companyTitle: "Notre Société",
+  companyText1:
+    "BioPeptide™ est un fournisseur de référence en peptides de recherche, engagé dans le soutien de l’innovation scientifique mondiale. Nous collaborons avec des fabricants certifiés WHO/GMP et ISO.",
+
+  companyText2:
+    "Notre mission est de rendre les peptides de haute qualité accessibles aux chercheurs et laboratoires, tout en maintenant des normes strictes et des prix compétitifs.",
+
+  qualityTitle: "Qualité. Service. Valeur.",
+  qualityText:
+    "BioPeptide™ est votre source en ligne sécurisée et discrète pour des peptides de recherche de haute pureté, avec un contrôle qualité rigoureux et un service client fiable.",
+
+  qualityText2:
+    "Les commandes sont simples, sécurisées et disponibles 24h/24. Vos données sont protégées grâce à un cryptage SSL avancé.",
+
+  customersTitle: "Nos Clients",
+  customersText:
+    "Des chercheurs du monde entier font confiance à BioPeptide™ pour des produits fiables et une expérience professionnelle axée sur l’excellence scientifique."
+}
+
 },
 productCard: {
   learnMore: "En savoir plus",

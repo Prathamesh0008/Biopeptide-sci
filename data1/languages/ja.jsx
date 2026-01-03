@@ -252,17 +252,24 @@ peptideInfo: {
 },
 home: {
   hero: {
-    badge: "BioPeptide 研究用カプセル",
-    title: "研究用ペプチドカプセル",
-    subtitle: "科学研究向けに設計された高純度BioPeptideカプセル。",
-    button: "詳細を見る"
+    title: "研究用ペプチドの購入",
+    subtitle: "Melanotan II、CJC-1295、TB-500、IGF-1 などの高純度ペプチド。",
+    button: "詳細を見る",
+
+    title2: "研究用ペプチドブレンド",
+    subtitle2: "研究用途向けに設計された高度なペプチド配合。",
+    button2: "ブレンドを見る",
+
+    title3: "研究用ペプチドカプセル",
+    subtitle3: "管理された研究環境向けのカプセル型ペプチド。",
+    button3: "カプセルを見る"
   },
 
   productGrid: {
     mainTitle: "科学研究用ペプチドを購入",
-    description:
-      "BioPeptideは完全な文書付きの高純度研究用ペプチドを提供します。",
+    description: "BioPeptide™ は、科学研究および実験用途専用の高純度ペプチド、タンパク質、アミノ酸誘導体の開発および合成を専門としています。BioPeptide™ は、自動および手動の高度なペプチド合成システムに加え、固相および溶液相合成技術を用い、99%以上の高い純度を安定して実現しています。\n\nペプチドの設計・合成の初期段階から最終的な加工、包装、出荷に至るまで、BioPeptide™ は厳格な品質管理プロトコルを遵守し、各製品の安定性、完全性、信頼性を確保しています。すべてのペプチドは、分析ラボにおいて製造工程全体を通じて包括的な検査を受けます。\n\n配列精度および分子同一性の確認は、高速液体クロマトグラフィー（HPLC）および質量分析（MS）を用いて行われ、各 BioPeptide™ 製品の純度、組成、一貫性が科学的に保証されています。",
     featuredTitle: "注目の研究用ペプチド",
+    popularTitle: "人気のペプチド",
     filter: "フィルター",
     showing: "表示中",
     of: "/",
@@ -272,19 +279,27 @@ home: {
   },
 
   about: {
-    title: "BioPeptideについて",
-    companyTitle: "🧬 当社について",
-    companyText1:
-      "BioPeptide™は高品質な研究用ペプチドの主要プロバイダーです。",
-    companyText2:
-      "世界中の研究機関を誇りをもって支援しています。",
-    qualityTitle: "🔬 品質・サービス・価値",
-    qualityText:
-      "BioPeptide™は高度な合成と試験を用いた高純度研究材料を提供します。",
-    customersTitle: "👥 お客様",
-    customersText:
-      "世界中の研究者がBioPeptide™を信頼しています。"
-  }
+  title: "BioPeptideについて",
+
+  companyTitle: "当社について",
+  companyText1:
+    "BioPeptide™は、研究用ペプチドを提供する信頼ある企業として、世界中の科学研究を支援しています。WHO/GMPおよびISO認証メーカーと提携しています。",
+
+  companyText2:
+    "高品質な研究用ペプチドを、厳格な基準を維持しながら、研究機関や研究者に提供することが私たちの使命です。",
+
+  qualityTitle: "品質・サービス・価値",
+  qualityText:
+    "BioPeptide™は、高純度研究用ペプチドを提供する安全で信頼できるオンラインソースです。品質管理と顧客満足を重視しています。",
+
+  qualityText2:
+    "注文は24時間いつでも可能で、安全なSSL暗号化により個人情報は完全に保護されます。",
+
+  customersTitle: "お客様について",
+  customersText:
+    "世界中の研究者がBioPeptide™を信頼しています。私たちはすべてのお客様との関係を大切にしています。"
+}
+
 },
 productCard: {
   learnMore: "詳細を見る",

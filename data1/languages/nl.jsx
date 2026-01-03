@@ -252,17 +252,24 @@ peptideInfo: {
 },
 home: {
   hero: {
-    badge: "BioPeptide Onderzoekscapsules",
-    title: "Onderzoekspeptide Capsules",
-    subtitle: "Hoogzuivere BioPeptide capsules ontworpen voor wetenschappelijk onderzoek.",
-    button: "Meer informatie"
+    title: "Onderzoekspeptiden kopen",
+    subtitle: "Hoogzuivere peptiden zoals Melanotan II, CJC-1295, TB-500, IGF-1 en meer.",
+    button: "Meer informatie",
+
+    title2: "Onderzoekspeptide Blends",
+    subtitle2: "Geavanceerde peptidecombinaties voor laboratoriumonderzoek.",
+    button2: "Blends bekijken",
+
+    title3: "Onderzoekspeptide Capsules",
+    subtitle3: "Peptidecapsules ontwikkeld voor gecontroleerde onderzoeksomgevingen.",
+    button3: "Capsules bekijken"
   },
 
   productGrid: {
     mainTitle: "Peptiden Kopen voor Wetenschappelijk Onderzoek",
-    description:
-      "BioPeptide levert hoogzuivere onderzoekspeptiden met volledige documentatie.",
+    description: "BioPeptide™ is gespecialiseerd in de ontwikkeling en synthese van hoogzuivere peptiden, eiwitten en aminozuurderivaten die uitsluitend bedoeld zijn voor wetenschappelijk onderzoek en laboratoriumtoepassingen. BioPeptide™ maakt gebruik van geavanceerde geautomatiseerde en handmatige peptidesynthesesystemen, samen met vaste-fase- en oplossingssynthetechnologieën, om peptiden te leveren met een consistent zuiverheidsniveau van meer dan 99%.\n\nVan de vroege fase van peptideontwerp en -synthese tot de uiteindelijke verwerking, verpakking en distributie hanteert BioPeptide™ strikte kwaliteitscontroleprotocollen om maximale stabiliteit, integriteit en betrouwbaarheid van elk product te waarborgen. Elk peptide wordt gedurende de volledige productiecyclus uitgebreid getest in onze analytische laboratoria.\n\nDe nauwkeurigheid van de sequentie en de moleculaire identiteit wordt bevestigd met behulp van High-Performance Liquid Chromatography (HPLC) en Mass Spectrometry (MS). Deze analytische methoden bevestigen wetenschappelijk de zuiverheid, samenstelling en consistentie van elk BioPeptide™-product.",
     featuredTitle: "Uitgelichte Onderzoekspeptiden",
+    popularTitle: "Populaire Peptiden",
     filter: "Filter",
     showing: "Toont",
     of: "van",
@@ -272,19 +279,27 @@ home: {
   },
 
   about: {
-    title: "Over BioPeptide",
-    companyTitle: "🧬 Ons Bedrijf",
-    companyText1:
-      "BioPeptide™ is een toonaangevende leverancier van premium onderzoekspeptiden.",
-    companyText2:
-      "Wij ondersteunen met trots wereldwijde onderzoeksorganisaties.",
-    qualityTitle: "🔬 Kwaliteit. Service. Waarde.",
-    qualityText:
-      "BioPeptide™ levert hoogzuivere onderzoeksmaterialen met geavanceerde synthese en testen.",
-    customersTitle: "👥 Onze Klanten",
-    customersText:
-      "Onderzoekers wereldwijd vertrouwen op BioPeptide™ voor betrouwbare producten."
-  }
+  title: "Over BioPeptide",
+
+  companyTitle: "Ons Bedrijf",
+  companyText1:
+    "BioPeptide™ is een toonaangevende leverancier van onderzoekspediden en ondersteunt wetenschappelijk onderzoek wereldwijd. Wij werken samen met WHO/GMP- en ISO-gecertificeerde fabrikanten.",
+
+  companyText2:
+    "Onze missie is het toegankelijk maken van hoogwaardige peptiden voor onderzoeksinstellingen, zonder concessies te doen aan kwaliteit.",
+
+  qualityTitle: "Kwaliteit. Service. Waarde.",
+  qualityText:
+    "BioPeptide™ biedt een veilige en discrete online bron voor hoogzuivere onderzoekspediden, met sterke focus op kwaliteit en service.",
+
+  qualityText2:
+    "Bestellen is eenvoudig, veilig en 24/7 beschikbaar dankzij geavanceerde SSL-beveiliging.",
+
+  customersTitle: "Onze Klanten",
+  customersText:
+    "Onderzoekers wereldwijd vertrouwen op BioPeptide™ voor betrouwbare producten en professionele ondersteuning."
+}
+
 },
 productCard: {
   learnMore: "Meer informatie",

@@ -258,17 +258,24 @@ peptideInfo: {
 },
 home: {
   hero: {
-    badge: "Cápsulas de Investigación BioPeptide",
-    title: "Cápsulas de Péptidos para Investigación",
-    subtitle: "Cápsulas BioPeptide de alta pureza diseñadas para investigación científica.",
-    button: "Aprender más"
+    title: "Comprar Péptidos de Investigación",
+    subtitle: "Péptidos altamente purificados como Melanotan II, CJC-1295, TB-500, IGF-1 y más.",
+    button: "Más Información",
+
+    title2: "Mezclas de Péptidos de Investigación",
+    subtitle2: "Combinaciones avanzadas de péptidos para aplicaciones de investigación en laboratorio.",
+    button2: "Explorar Mezclas",
+
+    title3: "Cápsulas de Péptidos de Investigación",
+    subtitle3: "Formulaciones de péptidos en cápsulas para entornos de investigación controlados.",
+    button3: "Ver Cápsulas"
   },
 
   productGrid: {
     mainTitle: "Comprar Péptidos para Investigación Científica",
-    description:
-      "BioPeptide suministra péptidos de investigación de alta pureza con documentación completa.",
+   description: "BioPeptide™ se especializa en el desarrollo y la síntesis de péptidos, proteínas y compuestos derivados de aminoácidos de alta pureza, destinados exclusivamente a la investigación científica y aplicaciones de laboratorio. BioPeptide™ utiliza sistemas avanzados de síntesis peptídica automatizados y manuales, junto con tecnologías de síntesis en fase sólida y en solución, para ofrecer péptidos que alcanzan de forma constante niveles de pureza superiores al 99%.\n\nDesde las etapas iniciales del diseño y la síntesis de péptidos hasta el procesamiento final, el envasado y la distribución, BioPeptide™ aplica rigurosos protocolos de control de calidad para garantizar la máxima estabilidad, integridad y fiabilidad de cada compuesto. Cada péptido se somete a pruebas exhaustivas durante todo el ciclo de producción en nuestros laboratorios analíticos.\n\nLa verificación de la precisión de la secuencia peptídica y la identidad molecular se realiza mediante técnicas avanzadas de Cromatografía Líquida de Alta Resolución (HPLC) y Espectrometría de Masas (MS), confirmando científicamente la pureza, composición y consistencia de cada producto BioPeptide™.",
     featuredTitle: "Péptidos de Investigación Destacados",
+    popularTitle: "Péptidos Populares",
     filter: "Filtrar",
     showing: "Mostrando",
     of: "de",
@@ -277,20 +284,28 @@ home: {
     productList: "Lista de Productos"
   },
 
-  about: {
-    title: "Sobre BioPeptide",
-    companyTitle: "🧬 Nuestra Empresa",
-    companyText1:
-      "BioPeptide™ es un proveedor líder de péptidos de investigación premium.",
-    companyText2:
-      "Apoyamos con orgullo a organizaciones de investigación globales.",
-    qualityTitle: "🔬 Calidad. Servicio. Valor.",
-    qualityText:
-      "BioPeptide™ proporciona materiales de investigación de alta pureza utilizando síntesis y pruebas avanzadas.",
-    customersTitle: "👥 Nuestros Clientes",
-    customersText:
-      "Investigadores de todo el mundo confían en BioPeptide™ por productos confiables."
-  }
+ about: {
+  title: "Acerca de BioPeptide",
+
+  companyTitle: "Nuestra Empresa",
+  companyText1:
+    "BioPeptide™ es un proveedor líder de péptidos de grado investigativo, comprometido con el avance de la investigación científica a nivel mundial. Colaboramos con fabricantes certificados por WHO/GMP e ISO para garantizar calidad, pureza y consistencia.",
+
+  companyText2:
+    "Nuestra misión es ofrecer péptidos de alta calidad a laboratorios e investigadores mediante precios competitivos sin comprometer los estándares. BioPeptide™ también proporciona recursos educativos para apoyar la investigación en péptidos y proteínas.",
+
+  qualityTitle: "Calidad. Servicio. Valor.",
+  qualityText:
+    "BioPeptide™ es su fuente en línea segura y discreta de péptidos de alta pureza para investigación. Priorizamos el control de calidad, el abastecimiento confiable y un servicio al cliente excepcional.",
+
+  qualityText2:
+    "Nuestro proceso de pedido es sencillo, seguro y está disponible las 24 horas. Utilizamos cifrado SSL avanzado y estrictos protocolos de privacidad para proteger toda su información.",
+
+  customersTitle: "Nuestros Clientes",
+  customersText:
+    "Investigadores de todo el mundo confían en BioPeptide™. Valoramos cada relación y nos comprometemos a ofrecer productos confiables y una experiencia profesional basada en la integridad científica."
+}
+
 },
 productCard: {
   learnMore: "Aprender más",

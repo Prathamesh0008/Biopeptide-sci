@@ -1,66 +1,154 @@
 // contexts/LanguageContext.jsx
 "use client";
-import { createContext, useContext, useState, useEffect, useCallback } from 'react';
 
-const LanguageContext = createContext();
+import {
+  createContext,
+  useContext,
+  useState,
+  useEffect,
+  useCallback,
+} from "react";
+
+const LanguageContext = createContext(null);
 
 export function LanguageProvider({ children }) {
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useState("en");
   const [translations, setTranslations] = useState({});
   const [loading, setLoading] = useState(true);
 
   const loadLanguage = useCallback(async (langCode) => {
-    try {
-      setLoading(true);
-      const module = await import(`../data1/languages/${langCode}`);
-      setTranslations(prev => ({
-  ...prev,
-  ...(module.default || module[langCode])
-}));
+    setLoading(true);
 
+    try {
+      const module = await import(`@/data1/languages/${langCode}`);
+
+      if (!module?.default) {
+        throw new Error(`Missing default export in ${langCode}`);
+      }
+
+      setTranslations(module.default);
       setLanguage(langCode);
+
       localStorage.setItem("bio-lang", langCode);
       document.documentElement.lang = langCode;
-      document.documentElement.dir = (module.default?.dir || 'ltr');
+      document.documentElement.dir = module.default.dir || "ltr";
     } catch (error) {
-      console.error('Language load failed, falling back to en');
-      const enModule = await import(`../data1/languages/en`);
-      setTranslations(prev => ({
-  ...prev,
-  ...(enModule.default || enModule.en)
-}));
+      console.error(
+        `❌ Language load failed (${langCode}), falling back to en`,
+        error
+      );
 
-      setLanguage('en');
-      document.documentElement.lang = 'en';
-      document.documentElement.dir = 'ltr';
+      const enModule = await import("@/data1/languages/en");
+
+      setTranslations(enModule.default);
+      setLanguage("en");
+
+      document.documentElement.lang = "en";
+      document.documentElement.dir = "ltr";
     } finally {
       setLoading(false);
     }
   }, []);
 
   useEffect(() => {
-    const savedLang = localStorage.getItem("bio-lang") || 'en';
-    loadLanguage(savedLang);
+    const savedLang =
+      typeof window !== "undefined"
+        ? localStorage.getItem("bio-lang")
+        : null;
+
+    loadLanguage(savedLang || "en");
   }, [loadLanguage]);
 
   return (
-    <LanguageContext.Provider value={{ 
-      translations, 
-      language, 
-      loadLanguage,
-      loading,
-      dir: translations?.dir || 'ltr'
-    }}>
+    <LanguageContext.Provider
+      value={{
+        translations,
+        language,
+        loadLanguage,
+        loading,
+        dir: translations?.dir || "ltr",
+      }}
+    >
       {children}
     </LanguageContext.Provider>
   );
 }
 
-export const useLanguage = () => {
-  const context = useContext(LanguageContext);
-  if (!context) throw new Error('useLanguage must be used within LanguageProvider');
-  return context;
-};
+export function useLanguage() {
+  const ctx = useContext(LanguageContext);
+  if (!ctx) {
+    throw new Error("useLanguage must be used inside LanguageProvider");
+  }
+  return ctx;
+}
+
+
+
+
+
+// // contexts/LanguageContext.jsx
+// "use client";
+// import { createContext, useContext, useState, useEffect, useCallback } from 'react';
+
+// const LanguageContext = createContext();
+
+// export function LanguageProvider({ children }) {
+//   const [language, setLanguage] = useState('en');
+//   const [translations, setTranslations] = useState({});
+//   const [loading, setLoading] = useState(true);
+
+//   const loadLanguage = useCallback(async (langCode) => {
+//     try {
+//       setLoading(true);
+//       const module = await import(`../data1/languages/${langCode}`);
+//       setTranslations(prev => ({
+//   ...prev,
+//   ...(module.default || module[langCode])
+// }));
+
+//       setLanguage(langCode);
+//       localStorage.setItem("bio-lang", langCode);
+//       document.documentElement.lang = langCode;
+//       document.documentElement.dir = (module.default?.dir || 'ltr');
+//     } catch (error) {
+//       console.error('Language load failed, falling back to en');
+//       const enModule = await import(`../data1/languages/en`);
+//       setTranslations(prev => ({
+//   ...prev,
+//   ...(enModule.default || enModule.en)
+// }));
+
+//       setLanguage('en');
+//       document.documentElement.lang = 'en';
+//       document.documentElement.dir = 'ltr';
+//     } finally {
+//       setLoading(false);
+//     }
+//   }, []);
+
+//   useEffect(() => {
+//     const savedLang = localStorage.getItem("bio-lang") || 'en';
+//     loadLanguage(savedLang);
+//   }, [loadLanguage]);
+
+//   return (
+//     <LanguageContext.Provider value={{ 
+//       translations, 
+//       language, 
+//       loadLanguage,
+//       loading,
+//       dir: translations?.dir || 'ltr'
+//     }}>
+//       {children}
+//     </LanguageContext.Provider>
+//   );
+// }
+
+// export const useLanguage = () => {
+//   const context = useContext(LanguageContext);
+//   if (!context) throw new Error('useLanguage must be used within LanguageProvider');
+//   return context;
+// };
 
 
 

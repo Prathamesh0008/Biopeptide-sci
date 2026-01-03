@@ -1,3 +1,4 @@
+//peptides\app\popular-peptides\page.jsx
 "use client";
 
 import Sidebar from "@/components/Sidebar";
@@ -7,6 +8,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { useLanguage } from "@/contexts/LanguageContext";
+
+
 
 export default function PopularPeptidesPage() {
   const { translations, loading } = useLanguage();
@@ -43,24 +46,28 @@ export default function PopularPeptidesPage() {
           </aside>
 
           {/* PRODUCTS */}
-          <div className="lg:col-span-3">
+<div className="lg:col-span-3">
 
-            <p className="text-sm text-gray-700 mb-6">
-              {translations.popularPeptides.showing}{" "}
-              {popular.length}{" "}
-              {translations.popularPeptides.products}
-            </p>
+  <p className="text-sm text-gray-700 mb-6">
+    {translations.popularPeptides.showing}{" "}
+    {popular.length}{" "}
+    {translations.popularPeptides.products}
+  </p>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-              {popular.map((product) => (
-                <ProductCard
-                  key={`${product.id}-${product.slug}`}
-                  product={product}
-                />
-              ))}
-            </div>
+  
 
-          </div>
+  {/* GRID BELOW (OPTIONAL – keep if you want full list) */}
+  <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+    {popular.map((product) => (
+      <ProductCard
+        key={`${product.id}-${product.slug}`}
+        product={product}
+      />
+    ))}
+  </div>
+
+</div>
+
         </div>
       </main>
 

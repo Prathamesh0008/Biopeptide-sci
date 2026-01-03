@@ -760,40 +760,7 @@
 
   image: "/product/Peptides/Adipotide10mg.svg"
 },
-{
-  id: "ahk-tripeptide-3-200mg",
-  slug: "ahk-tripeptide-3-200mg",
-  name: "AHK-Tripeptide-3 200mg",
-  category: "Cosmetic Peptides",
 
-  price: 175.0,
-
-  strength:
-    "Synthetic cosmetic research tripeptide studied for follicular biology and skin peptide signaling models.",
-
-  cas: "72957-37-0",
-  size: "200mg vial",
-  purity: "≥ 99% (HPLC)",
-
-  stock: true,
-  badge: "Cosmetic Research",
-
-  description:
-    "AHK-Tripeptide-3 is a synthetic cosmetic research peptide investigated in laboratory models for its interaction with follicular biology, dermal signaling pathways, and peptide-based cosmetic formulation research. It is commonly studied in hair and skin research environments focusing on peptide signaling and topical delivery systems. Supplied as a high-purity research compound.",
-
-  applications: [
-    "Cosmetic peptide signaling research",
-    "Follicular biology studies (in vitro)",
-    "Skin and hair research models",
-    "Topical formulation development"
-  ],
-
-  appearance: "White to off-white powder",
-  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
-  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
-
-  image: "/product/Cosmetic peptides/ahk200mg.png"
-},
 {
   id: "aicar-50mg",
   slug: "aicar-50mg",
@@ -1502,6 +1469,9 @@
 
   image: "/product/Peptides/follistatin344_1mg.svg"
 },
+
+
+
 
 
 

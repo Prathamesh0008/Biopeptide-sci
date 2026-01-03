@@ -212,6 +212,7 @@ useEffect(() => {
         sticky top-0 z-[999]
         relative
         bg-white
+        text-gray-700
         border-b border-gray-200
       "
     >
@@ -229,13 +230,13 @@ useEffect(() => {
       )}
 
       {/* TOP TAGLINE */}
-      <div className="w-full h-10 bg-[linear-gradient(to_right,#145b2f,#559f45,#65b4d7,#1a497c)]">
+      {/* <div className="w-full h-10">
   <div className="max-w-7xl mx-auto h-full flex items-center justify-center px-4">
-    <p className="text-white text-[11px] sm:text-[12px] md:text-[14px] font-medium text-center w-full">
+    <p className="text-grey-700 text-[11px] sm:text-[12px] md:text-[14px] font-medium text-center w-full">
       {t("tagline")}
     </p>
   </div>
-</div>
+</div> */}
 
 
       {/* MAIN NAVBAR */}
@@ -243,20 +244,31 @@ useEffect(() => {
 
         
         {/* LOGO */}
-        <div
+<div
   onClick={() => handleNavigate("/")}
-  className="cursor-pointer flex items-center h-12 w-auto -ml-1 sm:ml-0"
->
+  className="cursor-pointer flex items-center h-12 w-auto 
+           -ml-4 sm:-ml-6 md:-ml-8"
 
+>
+  <Link
+  href="/"
+  className="flex items-center h-12 w-auto 
+             -ml-4 sm:-ml-6 md:-ml-8
+             cursor-pointer"
+>
   <Image
     src="/images/Biopeptidecolourlogo.png"
     alt="BioPeptide Logo"
-    width={200}
-    height={70}
+    width={300}
+    height={80}
     className="object-contain"
     priority
   />
+</Link>
+
+
 </div>
+
 
 
 
@@ -291,21 +303,23 @@ useEffect(() => {
                 value={query}
                 onChange={(e) => handleSearchChange(e.target.value)}
                 onKeyDown={handleSearch}
-                className="w-full border border-gray-300 rounded-lg pl-10 pr-4 py-3 text-sm 
-                          focus:ring-2 focus:ring-bioBlue/80 outline-none"
+                className="w-full border border-gray-300 bg-white text-gray-700 rounded-lg pl-10 pr-4 py-3 text-sm 
+placeholder:text-gray-500 focus:ring-2 focus:ring-bioBlue/80 outline-none"
+
               />
             </div>
         </div>
 
         {/* DESKTOP ICONS */}
-        <div className="hidden md:flex items-center gap-6 text-sm text-gray-700 whitespace-nowrap">
+  <div className="hidden md:flex items-center gap-5 text-sm text-gray-700 font-medium whitespace-nowrap">
+
           {/* USER PROFILE */}
           {!user ? (
             <button
               onClick={() => handleNavigate("/login")}
-              className="flex items-center gap-2 hover:text-bioBlue cursor-pointer"
+              className="flex items-center gap-1.5 text-sm hover:text-bioBlue cursor-pointer"
             >
-              <FaUser className="text-gray-600" />
+              <FaUser className="text-gray-700" />
               <span>{t("auth.signIn")}</span>
             </button>
           ) : (
@@ -315,10 +329,10 @@ useEffect(() => {
     e.stopPropagation();        // 🔥 THIS LINE WAS MISSING
     setProfileOpen((v) => !v);
   }}
-  className="flex items-center gap-2 hover:text-bioBlue cursor-pointer"
+  className="flex items-center gap-1.5 text-sm hover:text-bioBlue cursor-pointer"
 >
 
-                <FaUser className="text-gray-600" />
+                <FaUser className="text-gray-700" />
                 <span className="font-medium">
                   {user.name || "Profile"}
                 </span>
@@ -378,9 +392,9 @@ useEffect(() => {
 <div ref={languageRef} className="relative hidden md:block">
   <button
     onClick={() => setLanguageOpen((v) => !v)}
-    className="flex items-center gap-1 h-8 px-3 rounded-md border border-gray-300 text-gray-600 hover:text-bioBlue hover:bg-bioBlue/10 transition"
+    className="flex items-center gap-1 h-8 px-3 rounded-md border border-gray-300 text-gray-700 hover:text-bioBlue hover:bg-bioBlue/10 transition"
   >
-    <FaGlobe className="text-gray-600 group-hover:text-bioBlue" />
+    <FaGlobe className="text-gray-700 group-hover:text-bioBlue" />
     <span className="text-sm font-medium">{language.toUpperCase()}</span>
   </button>
 
@@ -404,7 +418,7 @@ useEffect(() => {
 
          <button
   onClick={() => handleNavigate("/cart")}
-  className="flex items-center gap-2 hover:text-bioBlue cursor-pointer"
+  className="flex items-center gap-1.5 text-sm hover:text-bioBlue cursor-pointer"
 >
   {/* ICON WRAPPER */}
   <div className="relative">
@@ -441,7 +455,7 @@ useEffect(() => {
 
           {/* SEARCH ICON MOBILE */}
           <button onClick={() => setMobileSearchOpen(!mobileSearchOpen)}>
-            <FaSearch className="text-gray-600" />
+            <FaSearch className="text-gray-700" />
           </button>
 
           {/* CART ICON MOBILE */}
@@ -537,20 +551,24 @@ useEffect(() => {
      {/* DESKTOP LINKS */}
 <div className="hidden md:block border-t border-gray-200">
   {/* FULL WIDTH BACKGROUND */}
-  <div className="w-full bg-[linear-gradient(to_right,#145b2f,#559f45,#65b4d7,#1a497c)]">
+  <div className="w-full ">
     
     {/* CENTERED CONTENT */}
     <nav
-      className="
-        max-w-7xl mx-auto
-        h-[48px]
-        px-6
-        flex items-center justify-center
-        gap-4
-        text-[15px]
-        flex-nowrap overflow-hidden
-      "
-    >
+  className="
+    max-w-7xl mx-auto
+    h-[52px]
+    px-6
+    flex items-center justify-center
+    gap-6
+    text-grey-700
+    text-[15.5px]
+    font-semibold
+    flex-nowrap overflow-hidden
+  "
+>
+
+
       <MenuItem
   title={t("menu.allPeptides")}
   onClick={() => handleNavigate("/all-peptides")}
@@ -639,9 +657,9 @@ useEffect(() => {
             {!user ? (
               <button
                 onClick={() => handleNavigate("/login")}
-                className="flex items-center gap-2 hover:text-bioBlue cursor-pointer"
+               className="flex items-center gap-1.5 text-sm hover:text-bioBlue cursor-pointer"
               >
-                <FaUser className="text-gray-600" />
+                <FaUser className="text-gray-700" />
                 <span>{t("auth.signIn")}</span>
               </button>
             ) : (
@@ -650,7 +668,7 @@ useEffect(() => {
                   onClick={() => handleNavigate("/profile")}
                   className="flex items-center gap-2 hover:text-bioBlue"
                 >
-                  <FaUser className="text-gray-600" />
+                  <FaUser className="text-gray-700" />
                   <span>{t("auth.profile")}</span>
                 </button>
 
@@ -674,7 +692,7 @@ useEffect(() => {
 
           <button
   onClick={() => handleNavigate("/cart")}
-  className="flex items-center gap-2 hover:text-bioBlue cursor-pointer"
+  className="flex items-center gap-1.5 text-sm hover:text-bioBlue cursor-pointer"
 >
   {/* ICON WRAPPER */}
   <div className="relative">
@@ -719,24 +737,28 @@ function MenuItem({ title, onClick, active }) {
     <button
       onClick={onClick}
       className={`
-        px-3 py-1.5
-        rounded-md
+        relative
+        px-4 py-2
         whitespace-nowrap
-        text-center
         transition-all duration-200
         cursor-pointer
 
         ${
           active
-            ? "bg-white/20 text-white font-semibold"
-            : "text-gray-200 hover:bg-white/10 hover:text-white"
+            ? "text-bioBlue font-semibold"
+            : "hover:text-bioBlue"
         }
       `}
     >
       {title}
+
+      {active && (
+        <span className="absolute left-0 -bottom-1 w-full h-[2px] bg-bioBlue rounded-full" />
+      )}
     </button>
   );
 }
+
 
 
 
