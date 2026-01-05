@@ -52,6 +52,7 @@ const articles = translations.peptideInfo.articles;
 
   {/* Divider */}
   <div className="mt-6 border-b border-gray-300"></div>
+  
   {/* FEATURED HERO ARTICLE */}
 <div className="mt-20 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
 
@@ -98,44 +99,7 @@ const articles = translations.peptideInfo.articles;
         {/* LEFT SIDEBAR */}
 <aside className="lg:col-span-3 space-y-4 sticky top-28 h-max">
 
-  {/* Peptide Glossary */}
-  <h3 className="text-lg font-semibold text-bioBlue">
-    Peptide Glossary
-  </h3>
-
-  {/* Glossary List */}
-  <ul className="space-y-1 text-sm leading-relaxed">
-    {Object.entries(articles).map(([id, a]) => (
-      <li key={id}>
-        <Link
-          href={`/peptide-information/${id}`}
-          className="block hover:text-bioBlue"
-        >
-          {a.title}
-        </Link>
-      </li>
-    ))}
-  </ul>
-
-  {/* Divider */}
-  <div className="border-t border-gray-200 pt-4" />
-
-  {/* Combo */}
-  <Image
-    src="/images/combo.png"
-    alt="Peptides Combo"
-    width={200}
-    height={200}
-    className="mx-auto"
-  />
-
-  {/* Button */}
-  <Link
-    href="/all-peptides"
-    className="block text-center bg-bioBlue text-white px-5 py-2 text-sm font-semibold"
-  >
-    All Peptides
-  </Link>
+  
 
 </aside>
 
