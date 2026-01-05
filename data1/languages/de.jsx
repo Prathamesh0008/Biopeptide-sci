@@ -1,4 +1,4 @@
-export const de = {
+export default {
   about: {
     hero: {
       title: "Über BioPeptide Research Labs",

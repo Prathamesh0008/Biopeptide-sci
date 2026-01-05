@@ -43,6 +43,7 @@ export default function HomePage() {
     flex items-center justify-center
     bg-gradient-to-b from-bioBlue to-bioGreen
     text-white shadow-lg
+    cursor-pointer
     h-36 w-10 rounded-l-xl
   "
 >

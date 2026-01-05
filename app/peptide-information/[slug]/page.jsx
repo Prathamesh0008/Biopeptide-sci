@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import Breadcrumbs from "../../../components/Breadcrumbs";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useParams } from "next/navigation"; // ✅ IMPORTANT
+import PeptideInfoSubNav from "@/components/PeptideInfoSubNav";
 
 export default function ArticleDetailPage() {
   // ✅ Correct way in Client Components
@@ -28,6 +29,7 @@ export default function ArticleDetailPage() {
   return (
     <>
       <Navbar />
+      <PeptideInfoSubNav />
       <Breadcrumbs />
 
       <main className="min-h-screen bg-white text-gray-800">

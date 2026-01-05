@@ -1,4 +1,4 @@
-export const zh = {
+export default {
   about: {
     hero: {
       title: "关于 BioPeptide 研究实验室",

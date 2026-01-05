@@ -1,4 +1,4 @@
-export const nl = {
+export default {
   about: {
     hero: {
       title: "Over BioPeptide Research Labs",

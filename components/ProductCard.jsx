@@ -50,7 +50,7 @@ export default function ProductCard({ product }) {
         bg-white border border-gray-200 rounded-xl
         p-2 sm:p-4
         flex flex-col justify-between
-        hover:shadow-md hover:-translate-y-1 transition-all
+        
         min-h-[360px] sm:min-h-[380px]
       "
     >

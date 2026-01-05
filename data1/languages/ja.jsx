@@ -1,4 +1,4 @@
-export const ja = {
+export default {
   about: {
     hero: {
       title: "BioPeptide研究所について",

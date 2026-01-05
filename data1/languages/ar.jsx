@@ -1,5 +1,5 @@
 // peptides/data1/languages/ar.jsx
-export const ar = {
+export default {
   about: {
     hero: {
     "title": "شراء ببتيدات البحث العلمي",
