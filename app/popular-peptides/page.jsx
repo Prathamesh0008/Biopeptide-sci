@@ -8,6 +8,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { useLanguage } from "@/contexts/LanguageContext";
+import AllPeptidesCategorySlider from "@/components/AllPeptidesCategorySlider";
+import { useState } from "react";
+
 
 
 
@@ -18,6 +21,12 @@ export default function PopularPeptidesPage() {
   const popular = PRODUCTS.filter(
     (p) => p.category.toLowerCase() === "popular peptides"
   );
+const [activeCategory, setActiveCategory] = useState("All");
+
+const filteredProducts =
+  activeCategory === "All"
+    ? PRODUCTS.filter(p => p.category.toLowerCase() === "popular peptides")
+    : PRODUCTS.filter(p => p.category === activeCategory);
 
   return (
     <>
@@ -27,7 +36,7 @@ export default function PopularPeptidesPage() {
       <main className="min-h-screen bg-white py-12">
 
         {/* PAGE TITLE */}
-        <div className="max-w-7xl mx-auto px-6 mb-10">
+        {/* <div className="max-w-7xl mx-auto px-6 mb-10">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
             {translations.popularPeptides.title}
           </h1>
@@ -35,7 +44,7 @@ export default function PopularPeptidesPage() {
           <p className="text-gray-600 text-sm mt-1">
             {translations.popularPeptides.subtitle}
           </p>
-        </div>
+        </div> */}
 
         {/* MAIN GRID */}
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-4 gap-12">
@@ -48,17 +57,30 @@ export default function PopularPeptidesPage() {
           {/* PRODUCTS */}
 <div className="lg:col-span-3">
 
-  <p className="text-sm text-gray-700 mb-6">
+  {/* TITLE */}
+  <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
+    {translations.popularPeptides.title}
+  </h1>
+  <p className="text-gray-600 text-sm mt-1 mb-4">
+    {translations.popularPeptides.subtitle}
+  </p>
+
+  {/* CATEGORY SLIDER */}
+  <AllPeptidesCategorySlider
+    active={activeCategory}
+    onChange={setActiveCategory}
+  />
+
+  {/* COUNT */}
+  <p className="text-sm text-gray-700 mt-4 mb-6">
     {translations.popularPeptides.showing}{" "}
-    {popular.length}{" "}
+    <span className="font-semibold">{filteredProducts.length}</span>{" "}
     {translations.popularPeptides.products}
   </p>
 
-  
-
-  {/* GRID BELOW (OPTIONAL – keep if you want full list) */}
+  {/* PRODUCTS */}
   <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-    {popular.map((product) => (
+    {filteredProducts.map((product) => (
       <ProductCard
         key={`${product.id}-${product.slug}`}
         product={product}
@@ -67,6 +89,7 @@ export default function PopularPeptidesPage() {
   </div>
 
 </div>
+
 
         </div>
       </main>

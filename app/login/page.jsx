@@ -162,11 +162,21 @@ router.push("/profile");
           </div>
 
           {/* RIGHT */}
-          <div className="p-8 space-y-6">
+         {/* RIGHT */}
+<form
+  className="p-8 space-y-6"
+  onSubmit={(e) => {
+    e.preventDefault();
+    submitLogin();
+  }}
+>
+
             <h3 className="text-xl font-semibold text-[#0d2d47]">
               Login
             </h3>
             <div className="w-10 h-1 rounded-full bg-gradient-to-r from-bioBlue to-bioGreen"></div>
+
+
 
 
             <div>
@@ -216,8 +226,8 @@ router.push("/profile");
             </div>
 
             <button
-              onClick={submitLogin}
-              disabled={loading}
+              type="submit"
+  disabled={loading}
               className="
   w-full py-3 rounded-lg
   bg-gradient-to-r from-bioBlue to-bioGreen
@@ -238,7 +248,9 @@ router.push("/profile");
                 Create Account →
               </Link>
             </p>
-          </div>
+         </form>
+
+
         </div>
       </motion.div>
     </main>

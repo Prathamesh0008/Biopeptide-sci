@@ -127,13 +127,13 @@ export default {
 footer: {
   newsletter: {
     title: "BioPeptideの最新情報を受け取る",
-    subtitle: "研究アップデート、新製品、限定オファー。",
+    subtitle: "研究情報、新製品、限定オファー。",
     placeholder: "メールアドレス",
     button: "購読する"
   },
 
   brand: {
-    description: "世界中の研究機関に信頼される高純度研究用ペプチド。"
+    description: "世界中の研究機関から信頼される高純度研究用ペプチド。"
   },
 
   columns: {
@@ -141,7 +141,7 @@ footer: {
       title: "情報",
       links: [
         "すべてのペプチド",
-        "セット＆割引",
+        "バンドル割引",
         "研究記事",
         "ラボテスト",
         "会社概要",
@@ -150,14 +150,14 @@ footer: {
     },
 
     shop: {
-      title: "ショップ",
+      title: "購入",
       links: [
         "ペプチドカプセル",
         "ペプチドブレンド",
-        "IGF-1タンパク質",
+        "IGF-1 タンパク質",
         "メラノタンペプチド",
         "バイオレギュレーター",
-        "化粧品ペプチド"
+        "化粧品用ペプチド"
       ]
     },
 
@@ -180,8 +180,20 @@ footer: {
     addressLabel: "住所"
   },
 
-  copyright: "無断転載を禁じます。"
-},
+  disclaimer: {
+    copyrightLine: "© 2026 BioPeptide.com. 無断転載禁止。",
+
+    researchOnly:
+      "本サイトのすべての製品は、研究、科学分析および開発目的のみに使用されます。BioPeptideの製品は、人間、医療、または獣医学的用途を目的としたものではありません。",
+
+    fda:
+      "本サイトの記載内容は、米国食品医薬品局（FDA）による評価を受けていません。BioPeptideの製品は、疾病の診断、治療、予防を目的としたものではありません。",
+
+    legalStatus:
+      "BioPeptideは研究用化学物質の供給業者です。BioPeptideは、米国連邦食品・医薬品・化粧品法503Aおよび503B条に定義される調剤薬局またはアウトソーシング施設ではありません。"
+  }
+}
+,
 peptideInfo: {
   page: {
     title: "ペプチド情報",

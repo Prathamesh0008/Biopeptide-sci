@@ -7,9 +7,9 @@ import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 
 const banners = [
-  "/images/herobanner1.jpg",
-  "/images/herobanner2.jpg",
-  "/images/herobanner3.jpg",
+  "/images/banner1.1.jpg",
+  "/images/banner1.2.jpg",
+  "/images/banner1.3.jpg",
 ];
 
 const slideLinks = [

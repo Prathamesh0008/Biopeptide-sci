@@ -176,8 +176,20 @@ footer: {
     addressLabel: "Address"
   },
 
-  copyright: "All Rights Reserved."
-},
+  disclaimer: {
+    copyrightLine: "© 2026 BioPeptide.com. All Rights Reserved.",
+
+    researchOnly:
+      "All products available on this website are intended strictly for laboratory research, scientific analysis, and development purposes only. Products sold by BioPeptide are not intended for human consumption, medical use, or veterinary use of any kind.",
+
+    fda:
+      "The statements made on this website have not been evaluated by the United States Food and Drug Administration (FDA). The products offered by BioPeptide are not intended to diagnose, treat, cure, or prevent any disease.",
+
+    legalStatus:
+      "BioPeptide operates as a chemical and research compound supplier. BioPeptide is not a compounding pharmacy or chemical compounding facility as defined under Section 503A of the Federal Food, Drug, and Cosmetic Act. BioPeptide is also not an outsourcing facility as defined under Section 503B of the Federal Food, Drug, and Cosmetic Act."
+  }
+}
+,
 peptideInfo: {
   page: {
     title: "Peptide Information",

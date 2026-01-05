@@ -127,14 +127,14 @@ export default {
 
 footer: {
   newsletter: {
-    title: "获取 BioPeptide 最新资讯",
-    subtitle: "研究更新、产品发布和专属优惠。",
+    title: "关注 BioPeptide 最新动态",
+    subtitle: "研究资讯、产品发布及专属优惠。",
     placeholder: "您的邮箱",
     button: "订阅"
   },
 
   brand: {
-    description: "全球实验室信赖的高纯度研究肽。"
+    description: "深受全球实验室信赖的高纯度研究用肽类产品。"
   },
 
   columns: {
@@ -151,10 +151,10 @@ footer: {
     },
 
     shop: {
-      title: "商店",
+      title: "购买",
       links: [
-        "肽胶囊",
-        "肽混合物",
+        "肽类胶囊",
+        "肽类混合物",
         "IGF-1 蛋白",
         "美拉诺坦肽",
         "生物调节剂",
@@ -177,12 +177,24 @@ footer: {
   contact: {
     phoneLabel: "电话",
     hours: "周一至周五 9:00–16:00",
-    emailLabel: "电子邮箱",
+    emailLabel: "邮箱",
     addressLabel: "地址"
   },
 
-  copyright: "版权所有。"
-},
+  disclaimer: {
+    copyrightLine: "© 2026 BioPeptide.com. 版权所有。",
+
+    researchOnly:
+      "本网站上的所有产品仅用于实验室研究、科学分析和开发用途。BioPeptide 的产品不用于任何形式的人体、医疗或兽医用途。",
+
+    fda:
+      "本网站中的声明尚未经过美国食品药品监督管理局（FDA）评估。BioPeptide 的产品不用于诊断、治疗、治愈或预防任何疾病。",
+
+    legalStatus:
+      "BioPeptide 是一家研究和化学化合物供应商。BioPeptide 不属于《美国联邦食品、药品和化妆品法》第503A或503B条所定义的配药药房或外包生产机构。"
+  }
+}
+,
 peptideInfo: {
   page: {
     title: "肽类信息",

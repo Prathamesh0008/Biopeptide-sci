@@ -1,7 +1,18 @@
+
+
+
 //peptides\components\DrawerProducts.jsx
 "use client";
 
-import { FaFilter, FaSearch, FaTimes } from "react-icons/fa";
+import {
+  FaFilter,
+  FaSearch,
+  FaTimes,
+  FaShoppingCart,
+  FaPlus,
+  FaMinus,
+} from "react-icons/fa";
+
 import { PRODUCTS } from "@/data/products";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -11,6 +22,12 @@ export default function DrawerProducts({ open, setOpen }) {
   const router = useRouter();
   const [search, setSearch] = useState("");
   const [loadingSlug, setLoadingSlug] = useState(null);
+  const [cartItems, setCartItems] = useState({});
+const user =
+  typeof window !== "undefined"
+    ? JSON.parse(localStorage.getItem("bio-user"))
+    : null;
+
 
   const results = PRODUCTS.filter((p) =>
     p.name.toLowerCase().includes(search.toLowerCase())
@@ -34,6 +51,28 @@ export default function DrawerProducts({ open, setOpen }) {
       router.push(`/product/${slug}`); // go to page
     }, 500);
   };
+const addToCart = (product) => {
+  setCartItems((prev) => ({
+    ...prev,
+    [product.id]: 1,
+  }));
+};
+
+const increaseQty = (id) => {
+  setCartItems((prev) => ({
+    ...prev,
+    [id]: prev[id] + 1,
+  }));
+};
+
+const decreaseQty = (id) => {
+  setCartItems((prev) => {
+    const next = { ...prev };
+    if (next[id] === 1) delete next[id];
+    else next[id] -= 1;
+    return next;
+  });
+};
 
   return (
     <>
@@ -87,34 +126,102 @@ export default function DrawerProducts({ open, setOpen }) {
         <div className="flex-1 overflow-y-auto p-4 space-y-3 text-xs">
 
           {results.map((p) => (
-            <div
-              key={p.id}
-              onClick={() => openProduct(p.slug)}
-              className="
-                relative
-                border border-gray-200 
-                rounded-md px-3 py-2 
-                hover:border-bioBlue/70 
-                cursor-pointer
-              "
-            >
+           <div
+  key={p.id}
+  className=" rounded-md px-3 py-2 flex items-center justify-between"
+>
+  {/* LEFT SIDE – PRODUCT INFO */}
+  <div
+    onClick={() => openProduct(p.slug)}
+    className="cursor-pointer"
+  >
+    <p className="font-semibold text-gray-900">{p.name}</p>
+    <p className="text-gray-500">{p.category}</p>
+  </div>
 
-              {/* Loader overlay on product */}
-              {loadingSlug === p.slug && (
-                <div className="absolute inset-0 bg-white/80 flex items-center justify-center rounded-md z-20">
-                  <LoaderBars />
-                </div>
-              )}
+  {/* RIGHT SIDE – CART CONTROLS */}
+  {!cartItems[p.id] ? (
+    <button
+      onClick={() => addToCart(p)}
+      className="p-2 rounded-full bg-bioBlue text-white"
+    >
+      <FaShoppingCart size={12} />
+    </button>
+  ) : (
+    <div className="flex items-center gap-2 border rounded-md px-2 py-1">
+      <button onClick={() => decreaseQty(p.id)}>
+        <FaMinus size={10} />
+      </button>
+      <span className="text-xs font-semibold">
+        {cartItems[p.id]}
+      </span>
+      <button onClick={() => increaseQty(p.id)}>
+        <FaPlus size={10} />
+      </button>
+    </div>
+  )}
+</div>
 
-              <p className="font-semibold text-gray-900">{p.name}</p>
-              <p className="text-gray-500">{p.category}</p>
-
-            </div>
           ))}
 
         </div>
+{/* CHECKOUT BUTTON */}
+<div className="p-4 border-t border-gray-200">
+  <button
+    onClick={() => {
+      if (!user) {
+        setOpen(false);
+        router.push("/login");
+        return;
+      }
+
+      const key = `bio-cart-${user.email}`;
+      const existing = JSON.parse(localStorage.getItem(key) || "[]");
+      const updated = [...existing];
+
+      Object.entries(cartItems).forEach(([id, qty]) => {
+        const product = PRODUCTS.find((p) => p.id === id);
+        if (!product) return;
+
+        const found = updated.find((i) => i.id === product.id);
+        if (found) found.qty += qty;
+        else updated.push({ ...product, qty });
+      });
+
+      localStorage.setItem(key, JSON.stringify(updated));
+      window.dispatchEvent(new Event("bio-cart-updated"));
+
+      setOpen(false);
+      router.push("/cart");
+    }}
+    disabled={Object.keys(cartItems).length === 0}
+    className="w-full bg-bioBlue text-white py-3 rounded-md font-semibold disabled:opacity-50"
+  >
+    Checkout
+  </button>
+</div>
 
       </aside>
     </>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

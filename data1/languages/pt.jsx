@@ -123,8 +123,7 @@ export default {
     company: "Nossa empresa",
     contact: "Contato"
   }
-},
-footer: {
+},footer: {
   newsletter: {
     title: "Fique atualizado com a BioPeptide",
     subtitle: "Atualizações de pesquisa, lançamentos de produtos e ofertas exclusivas.",
@@ -133,42 +132,42 @@ footer: {
   },
 
   brand: {
-    description: "Peptídeos de pesquisa de alta pureza confiáveis por laboratórios em todo o mundo."
+    description: "Peptídeos de pesquisa de alta pureza, confiados por laboratórios em todo o mundo."
   },
 
   columns: {
     information: {
       title: "Informações",
       links: [
-        "Todos os peptídeos",
-        "Pacotes e economia",
-        "Artigos de pesquisa",
-        "Testes laboratoriais",
-        "Nossa empresa",
+        "Todos os Peptídeos",
+        "Pacotes & Economia",
+        "Artigos de Pesquisa",
+        "Testes de Laboratório",
+        "Nossa Empresa",
         "Contato"
       ]
     },
 
     shop: {
-      title: "Loja",
+      title: "Comprar",
       links: [
-        "Cápsulas de peptídeos",
-        "Misturas de peptídeos",
+        "Cápsulas de Peptídeos",
+        "Misturas de Peptídeos",
         "Proteínas IGF-1",
         "Peptídeos Melanotan",
         "Bioreguladores",
-        "Peptídeos cosméticos"
+        "Peptídeos Cosméticos"
       ]
     },
 
     legal: {
       title: "Legal",
       links: [
-        "Política de privacidade",
-        "Termos de uso",
-        "Envio e pagamentos",
+        "Política de Privacidade",
+        "Termos de Uso",
+        "Envio & Pagamentos",
         "Acessibilidade",
-        "Termos do programa de recompensas"
+        "Termos do Programa de Recompensas"
       ]
     }
   },
@@ -180,8 +179,20 @@ footer: {
     addressLabel: "Endereço"
   },
 
-  copyright: "Todos os direitos reservados."
-},
+  disclaimer: {
+    copyrightLine: "© 2026 BioPeptide.com. Todos os direitos reservados.",
+
+    researchOnly:
+      "Todos os produtos deste site destinam-se exclusivamente à pesquisa laboratorial, análise científica e desenvolvimento. Os produtos da BioPeptide não são destinados ao consumo humano, médico ou veterinário.",
+
+    fda:
+      "As declarações neste site não foram avaliadas pela Food and Drug Administration (FDA) dos Estados Unidos. Os produtos da BioPeptide não se destinam a diagnosticar, tratar, curar ou prevenir doenças.",
+
+    legalStatus:
+      "A BioPeptide atua como fornecedora de compostos químicos e de pesquisa. A BioPeptide não é uma farmácia de manipulação nem uma instalação terceirizada conforme definido pelas seções 503A e 503B do Federal Food, Drug, and Cosmetic Act."
+  }
+}
+,
 peptideInfo: {
   page: {
     title: "Informações sobre Peptídeos",

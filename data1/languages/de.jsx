@@ -131,9 +131,9 @@ export default {
 },
 footer: {
   newsletter: {
-    title: "Bleiben Sie mit BioPeptide auf dem Laufenden",
-    subtitle: "Forschungsupdates, Produkteinführungen & exklusive Angebote.",
-    placeholder: "Ihre E-Mail-Adresse",
+    title: "Bleiben Sie mit BioPeptide informiert",
+    subtitle: "Forschungsupdates, Produkteinführungen und exklusive Angebote.",
+    placeholder: "Ihre E-Mail",
     button: "Abonnieren"
   },
 
@@ -146,7 +146,7 @@ footer: {
       title: "Informationen",
       links: [
         "Alle Peptide",
-        "Pakete & sparen",
+        "Bundles & Sparangebote",
         "Forschungsartikel",
         "Labortests",
         "Unser Unternehmen",
@@ -157,8 +157,8 @@ footer: {
     shop: {
       title: "Shop",
       links: [
-        "Peptidkapseln",
-        "Peptidmischungen",
+        "Peptid-Kapseln",
+        "Peptid-Mischungen",
         "IGF-1 Proteine",
         "Melanotan-Peptide",
         "Bioregulatoren",
@@ -171,7 +171,7 @@ footer: {
       links: [
         "Datenschutzrichtlinie",
         "Nutzungsbedingungen",
-        "Versand & Zahlungen",
+        "Versand & Zahlung",
         "Barrierefreiheit",
         "Bonusprogramm-Bedingungen"
       ]
@@ -180,13 +180,25 @@ footer: {
 
   contact: {
     phoneLabel: "Telefon",
-    hours: "Mo–Fr, 9–16 Uhr",
+    hours: "Mo–Fr, 9:00–16:00",
     emailLabel: "E-Mail",
     addressLabel: "Adresse"
   },
 
-  copyright: "Alle Rechte vorbehalten."
-},
+  disclaimer: {
+    copyrightLine: "© 2026 BioPeptide.com. Alle Rechte vorbehalten.",
+
+    researchOnly:
+      "Alle Produkte auf dieser Website sind ausschließlich für Laborforschung, wissenschaftliche Analyse und Entwicklungszwecke bestimmt. BioPeptide-Produkte sind nicht für den menschlichen, medizinischen oder veterinärmedizinischen Gebrauch vorgesehen.",
+
+    fda:
+      "Die Aussagen auf dieser Website wurden nicht von der US-amerikanischen Food and Drug Administration (FDA) bewertet. BioPeptide-Produkte sind nicht zur Diagnose, Behandlung, Heilung oder Vorbeugung von Krankheiten bestimmt.",
+
+    legalStatus:
+      "BioPeptide ist ein Anbieter von chemischen und Forschungsstoffen. BioPeptide ist weder eine Rezepturapotheke noch eine Outsourcing-Einrichtung im Sinne der Abschnitte 503A und 503B des Federal Food, Drug, and Cosmetic Act."
+  }
+}
+,
 peptideInfo: {
   page: {
     title: "Peptidinformationen",

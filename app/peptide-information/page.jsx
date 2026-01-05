@@ -1,190 +1,378 @@
-
-
 "use client";
 
 import Image from "next/image";
 import Link from "next/link";
-// import { INFO_ARTICLES } from "@/data/information";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { useLanguage } from "@/contexts/LanguageContext";
 import PeptideInfoSubNav from "@/components/PeptideInfoSubNav";
-
+import { FaSearch } from "react-icons/fa";
+import { useState } from "react";
 
 export default function PeptideInformationPage() {
   const { translations, loading } = useLanguage();
-if (loading) return null;
+  if (loading) return null;
 
-const articles = translations.peptideInfo.articles;
+  const articles = translations.peptideInfo.articles;
+  const [query, setQuery] = useState("");
 
+  const filteredArticles = Object.entries(articles).filter(([_, a]) =>
+    a.title.toLowerCase().includes(query.toLowerCase())
+  );
 
   return (
     <>
-    <Navbar/>
-    <PeptideInfoSubNav />
-    <Breadcrumbs/>
- 
+      <Navbar />
+      <PeptideInfoSubNav />
+      <Breadcrumbs />
 
+      {/* TOP HEADER */}
+      <div className="max-w-7xl mx-auto px-6 py-10">
+        <div className="flex items-center gap-6">
+          {/* Search */}
+          <div className="flex items-center border border-gray-300 px-3 py-2 w-64 gap-2">
+            <FaSearch className="text-gray-400 text-sm" />
+            <input
+              type="text"
+              placeholder="Search peptides..."
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              className="w-full outline-none text-sm"
+            />
+          </div>
 
-      {/* HERO BANNER */}
-  <div className="max-w-7xl mx-auto px-6 py-10">
-  <div className="flex items-center gap-6">
-    {/* Search */}
-<div className="flex items-center border border-gray-300 px-3 py-2 w-64">
-
-  <input
-    type="text"
-    placeholder="Search ..."
-    className="w-full outline-none text-sm"
-  />
-</div>
-
-
-    {/* Title */}
-    <h1 className="text-4xl font-bold text-black">
-      {translations.peptideInfo.page.title}
-    </h1>
-  </div>
-
-  {/* Divider */}
-  <div className="mt-6 border-b border-gray-300"></div>
-  {/* FEATURED HERO ARTICLE */}
-<div className="mt-20 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-
-  {/* Image */}
-  <div className="relative aspect-[4/3] w-72 md:ml-auto">
-
-    <Image
-      src="/images/peptideinfo.jpg"
-      alt="Peptide Purity"
-      fill
-      className="object-cover"
-    />
-  </div>
-
-  {/* Content */}
-  <div>
-    <h2 className="text-2xl font-bold text-black mb-3">
-      Peptide Purity
-    </h2>
-
-    <p className="text-gray-700 text-sm leading-relaxed">
-      How is Peptide Purity Achieved and Verified? At peptidesciences.com,
-      we provide peptides that exceed 99% purity. Using state-of-the-art
-      solution and solid phase peptide synthetic technology, Peptide Sciences
-      is able to offer the finest quality peptides and proteins fit for any
-      research study or application. Peptide purity is achieved and verified
-      through uncompromising manufacturing and production…
-    </p>
-
-    <p className="mt-4 text-xs text-gray-500">
-      By Peptide Information &nbsp;•&nbsp; Oct 21, 2023
-    </p>
-  </div>
-
-</div>
-
-</div>
-
-
-
-      {/* MAIN BODY */}
-      <div className="max-w-7xl mx-auto px-6 md:px-10 py-16 grid grid-cols-1 lg:grid-cols-12 gap-14">
-
-        {/* LEFT SIDEBAR */}
-<aside className="lg:col-span-3 space-y-4 sticky top-28 h-max">
-
-  {/* Peptide Glossary */}
-  <h3 className="text-lg font-semibold text-bioBlue">
-    Peptide Glossary
-  </h3>
-
-  {/* Glossary List */}
-  <ul className="space-y-1 text-sm leading-relaxed">
-    {Object.entries(articles).map(([id, a]) => (
-      <li key={id}>
-        <Link
-          href={`/peptide-information/${id}`}
-          className="block hover:text-bioBlue"
-        >
-          {a.title}
-        </Link>
-      </li>
-    ))}
-  </ul>
-
-  {/* Divider */}
-  <div className="border-t border-gray-200 pt-4" />
-
-  {/* Combo */}
-  <Image
-    src="/images/combo.png"
-    alt="Peptides Combo"
-    width={200}
-    height={200}
-    className="mx-auto"
-  />
-
-  {/* Button */}
-  <Link
-    href="/all-peptides"
-    className="block text-center bg-bioBlue text-white px-5 py-2 text-sm font-semibold"
-  >
-    All Peptides
-  </Link>
-
-</aside>
-
-        {/* RIGHT CONTENT — ALL CARDS SAME LAYOUT */}
-        <div className="lg:col-span-9 grid grid-cols-2 md:grid-cols-3 gap-10">
-
-
-          {Object.entries(articles).map(([id, a]) => (
-<Link
-  key={id}
-  href={`/peptide-information/${id}`}
-  className="group block border-b border-gray-200 pb-6"
->
-  <div className="grid md:grid-cols-2 gap-6 items-center">
-    {/* Image */}
-    <div className="relative aspect-square">
-
-      <Image
-        src={a.img}
-        alt={a.title}
-        fill
-        className="object-cover"
-      />
-    </div>
-
-    {/* Text */}
-    <div>
-      <h2 className="text-xl font-bold text-black group-hover:text-bioBlue">
-        {a.title}
-      </h2>
-
-      <p className="mt-2 text-gray-700 text-sm leading-relaxed">
-        {a.preview}
-      </p>
-
-      <span className="inline-block mt-2 text-bioBlue font-semibold">
-        {translations.peptideInfo.page.readMore}
-      </span>
-    </div>
-  </div>
-</Link>
-
-))}
+          {/* Title */}
+          <h1 className="text-4xl font-bold text-black">
+            {translations.peptideInfo.page.title}
+          </h1>
         </div>
 
+        <div className="mt-6 border-b border-gray-300" />
       </div>
-    
-    <div/>
-    <Footer/>
+
+      {/* MAIN CONTENT */}
+      <div className="max-w-7xl mx-auto px-6 py-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+
+          {/* LEFT — GLOSSARY */}
+          <aside className="lg:col-span-2 lg:sticky lg:top-28">
+            <h3 className="text-lg font-semibold text-bioBlue mb-4">
+              Peptide Glossary
+            </h3>
+
+            <ul className="space-y-2 text-sm leading-relaxed mb-6">
+              {filteredArticles.map(([id, a]) => (
+                <li key={id}>
+                  <Link
+                    href={`/peptide-information/${id}`}
+                    className="block text-gray-700 hover:text-bioBlue transition"
+                  >
+                    {a.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
+            <div className="border-t border-gray-200 my-6" />
+
+            <Image
+              src="/images/combo.png"
+              alt="Peptides Combo"
+              width={240}
+              height={240}
+              className="mx-auto"
+            />
+
+            <Link
+              href="/all-peptides"
+              className="block mt-4 text-center bg-bioBlue text-white px-5 py-2 text-sm font-semibold rounded-md"
+            >
+              All Peptides
+            </Link>
+          </aside>
+
+          {/* RIGHT — CONTENT */}
+          <section className="lg:col-span-10 space-y-12">
+
+            {/* FEATURED ARTICLE */}
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-8 items-start">
+
+              {/* Image */}
+              <div className="md:col-span-2">
+                <div className="relative aspect-[4/3] w-full max-w-[360px]">
+                  <Image
+                    src="/images/peptideinfo.jpg"
+                    alt="Peptide Purity"
+                    fill
+                    className="object-cover rounded-md"
+                  />
+                </div>
+              </div>
+
+              {/* Text */}
+              <div className="md:col-span-3">
+                <Link
+                  href="/peptide-information/purity"
+                  className="block text-2xl font-bold text-black mb-3 hover:text-bioBlue"
+                >
+                  Peptide Purity
+                </Link>
+
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  How is Peptide Purity Achieved and Verified? At peptidesciences.com,
+                  we provide peptides that exceed 99% purity. Using state-of-the-art
+                  synthesis and verification techniques...
+                </p>
+
+                <p className="mt-4 text-xs text-gray-500">
+                  By Peptide Information • Oct 21, 2023
+                </p>
+              </div>
+            </div>
+
+            {/* ARTICLE GRID */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-12">
+              {filteredArticles.map(([id, a]) => (
+                <Link
+                  key={id}
+                  href={`/peptide-information/${id}`}
+                  className="group block border-b border-gray-200 pb-6"
+                >
+                  <div className="grid gap-4">
+                    <div className="relative aspect-square w-32">
+                      <Image
+                        src={a.img}
+                        alt={a.title}
+                        fill
+                        className="object-cover rounded"
+                      />
+                    </div>
+
+                    <div>
+                      <h2 className="text-lg font-bold text-black group-hover:text-bioBlue">
+                        {a.title}
+                      </h2>
+
+                      <p className="mt-2 text-sm text-gray-700">
+                        {a.preview}
+                      </p>
+
+                      <span className="inline-block mt-2 text-bioBlue font-semibold">
+                        {translations.peptideInfo.page.readMore}
+                      </span>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+
+          </section>
+        </div>
+      </div>
+
+      <Footer />
     </>
   );
 }
+
+
+
+
+
+
+
+
+
+
+// //peptides\app\peptide-information\page.jsx
+
+// "use client";
+
+// import Image from "next/image";
+// import Link from "next/link";
+// // import { INFO_ARTICLES } from "@/data/information";
+// import Navbar from "@/components/Navbar";
+// import Footer from "@/components/Footer";
+// import Breadcrumbs from "../../components/Breadcrumbs";
+// import { useLanguage } from "@/contexts/LanguageContext";
+// import PeptideInfoSubNav from "@/components/PeptideInfoSubNav";
+
+
+// export default function PeptideInformationPage() {
+//   const { translations, loading } = useLanguage();
+// if (loading) return null;
+
+// const articles = translations.peptideInfo.articles;
+
+
+//   return (
+//     <>
+//     <Navbar/>
+//     <PeptideInfoSubNav />
+//     <Breadcrumbs/>
+ 
+
+
+//       {/* HERO BANNER */}
+//   <div className="max-w-7xl mx-auto px-6 py-10">
+//   <div className="flex items-center gap-6">
+//     {/* Search */}
+// <div className="flex items-center border border-gray-300 px-3 py-2 w-64">
+
+//   <input
+//     type="text"
+//     placeholder="Search ..."
+//     className="w-full outline-none text-sm"
+//   />
+// </div>
+
+
+//     {/* Title */}
+//     <h1 className="text-4xl font-bold text-black">
+//       {translations.peptideInfo.page.title}
+//     </h1>
+//   </div>
+
+//   {/* Divider */}
+//   <div className="mt-6 border-b border-gray-300"></div>
+  
+//   {/* FEATURED HERO ARTICLE */}
+// <div className="mt-20 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+
+//   {/* Image */}
+//   <div className="relative aspect-[4/3] w-72 md:ml-auto">
+
+//     <Image
+//       src="/images/peptideinfo.jpg"
+//       alt="Peptide Purity"
+//       fill
+//       className="object-cover"
+//     />
+//   </div>
+
+//   {/* Content */}
+//   <div>
+//     <h2 className="text-2xl font-bold text-black mb-3">
+//       Peptide Purity
+//     </h2>
+
+//     <p className="text-gray-700 text-sm leading-relaxed">
+//       How is Peptide Purity Achieved and Verified? At peptidesciences.com,
+//       we provide peptides that exceed 99% purity. Using state-of-the-art
+//       solution and solid phase peptide synthetic technology, Peptide Sciences
+//       is able to offer the finest quality peptides and proteins fit for any
+//       research study or application. Peptide purity is achieved and verified
+//       through uncompromising manufacturing and production…
+//     </p>
+
+//     <p className="mt-4 text-xs text-gray-500">
+//       By Peptide Information &nbsp;•&nbsp; Oct 21, 2023
+//     </p>
+//   </div>
+
+// </div>
+
+// </div>
+
+
+
+//       {/* MAIN BODY */}
+//       <div className="max-w-7xl mx-auto px-6 md:px-10 py-16 grid grid-cols-1 lg:grid-cols-12 gap-14">
+
+//         {/* LEFT SIDEBAR */}
+// <aside className="lg:col-span-3 space-y-4 sticky top-28 h-max">
+
+//   {/* Peptide Glossary */}
+//   <h3 className="text-lg font-semibold text-bioBlue">
+//     Peptide Glossary
+//   </h3>
+
+//   {/* Glossary List */}
+//   <ul className="space-y-1 text-sm leading-relaxed">
+//     {Object.entries(articles).map(([id, a]) => (
+//       <li key={id}>
+//         <Link
+//           href={`/peptide-information/${id}`}
+//           className="block hover:text-bioBlue"
+//         >
+//           {a.title}
+//         </Link>
+//       </li>
+//     ))}
+//   </ul>
+
+//   {/* Divider */}
+//   <div className="border-t border-gray-200 pt-4" />
+
+//   {/* Combo */}
+//   <Image
+//     src="/images/combo.png"
+//     alt="Peptides Combo"
+//     width={200}
+//     height={200}
+//     className="mx-auto"
+//   />
+
+//   {/* Button */}
+//   <Link
+//     href="/all-peptides"
+//     className="block text-center bg-bioBlue text-white px-5 py-2 text-sm font-semibold"
+//   >
+//     All Peptides
+//   </Link>
+
+// </aside>
+
+//         {/* RIGHT CONTENT — ALL CARDS SAME LAYOUT */}
+//         <div className="lg:col-span-9 grid grid-cols-2 md:grid-cols-3 gap-10">
+
+
+//           {Object.entries(articles).map(([id, a]) => (
+// <Link
+//   key={id}
+//   href={`/peptide-information/${id}`}
+//   className="group block border-b border-gray-200 pb-6"
+// >
+//   <div className="grid md:grid-cols-2 gap-6 items-center">
+//     {/* Image */}
+//     <div className="relative aspect-square">
+
+//       <Image
+//         src={a.img}
+//         alt={a.title}
+//         fill
+//         className="object-cover"
+//       />
+//     </div>
+
+//     {/* Text */}
+//     <div>
+//       <h2 className="text-xl font-bold text-black group-hover:text-bioBlue">
+//         {a.title}
+//       </h2>
+
+//       <p className="mt-2 text-gray-700 text-sm leading-relaxed">
+//         {a.preview}
+//       </p>
+
+//       <span className="inline-block mt-2 text-bioBlue font-semibold">
+//         {translations.peptideInfo.page.readMore}
+//       </span>
+//     </div>
+//   </div>
+// </Link>
+
+// ))}
+//         </div>
+
+//       </div>
+    
+//     <div/>
+//     <Footer/>
+//     </>
+//   );
+// }
 
 
 

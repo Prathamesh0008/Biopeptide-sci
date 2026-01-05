@@ -99,19 +99,19 @@ const t = (path) => {
   <div
     className="
       max-w-6xl mx-auto px-6 py-14
-grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7
-gap-12
-justify-items-center lg:justify-items-start
+grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6
+gap-10 sm:gap-12 lg:gap-12
+justify-items-start
 
     "
   >
 
     {/* BRAND */}
-    <div className="space-y-4 lg:col-span-2">
+    <div className="space-y-4 lg:col-span-2 lg:pr-6">
 
       <Link href="/" aria-label="Go to homepage">
   <Image
-    src="/images/Biopeptidecolourlogo.png"
+    src="/images/logo1.png"
     alt="BioPeptide Logo"
     width={260}
     height={70}
@@ -125,9 +125,11 @@ justify-items-center lg:justify-items-start
         {t("brand.description")}
       </p>
     </div>
-
+{/* ALL OTHER COLUMNS */}
+<div className="lg:col-span-4 lg:-ml-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 lg:gap-12">
     {/* INFORMATION */}
-    <FooterColumn title={t("columns.information.title")}>
+   <FooterColumn title={t("columns.information.title")} >
+
       <FooterLink text={t("columns.information.links.0")} href="/all-peptides" />
       <FooterLink text={t("columns.information.links.1")} href="/bundle-save" />
       <FooterLink text={t("columns.information.links.2")} href="/peptide-research" />
@@ -137,7 +139,8 @@ justify-items-center lg:justify-items-start
     </FooterColumn>
 
     {/* BUY PEPTIDES */}
-    <FooterColumn title={t("columns.shop.title")}>
+    <FooterColumn title={t("columns.shop.title")} >
+
       <FooterLink text={t("columns.shop.links.0")} href="/category/capsules" />
       <FooterLink text={t("columns.shop.links.1")} href="/category/blends" />
       <FooterLink text={t("columns.shop.links.2")} href="/category/igf-1-proteins" />
@@ -147,7 +150,8 @@ justify-items-center lg:justify-items-start
     </FooterColumn>
 
     {/* LEGAL */}
-    <FooterColumn title={t("columns.legal.title")}>
+    <FooterColumn title={t("columns.legal.title")} >
+
       <FooterLink text={t("columns.legal.links.0")} href="/privacy-policy" />
       <FooterLink text={t("columns.legal.links.1")} href="/terms" />
       <FooterLink text={t("columns.legal.links.2")} href="/shipping-payments" />
@@ -158,7 +162,8 @@ justify-items-center lg:justify-items-start
     
 
     {/* CONTACT */}
-    <div className="space-y-3">
+   <div className="space-y-3  ">
+
   <h3 className="font-semibold text-gray-900">
     {t("columns.contact.title")}
   </h3>
@@ -205,17 +210,32 @@ justify-items-center lg:justify-items-start
 </div>
 
       {/* COPYRIGHT */}
-      <div className="border-t border-white/15 py-6 text-center text-sm text-white/60 px-4">
-        © {new Date().getFullYear()} BioPeptide. {t("copyright")}
+      <div className="border-t border-gray-200 py-8 px-6 text-xs text-gray-500 leading-relaxed">
+  <div className="max-w-6xl mx-auto space-y-3 text-center">
+
+    <p className="font-medium text-gray-700">
+      {t("disclaimer.copyrightLine")}
+    </p>
+
+    <p>{t("disclaimer.researchOnly")}</p>
+
+    <p>{t("disclaimer.fda")}</p>
+
+    <p>{t("disclaimer.legalStatus")}</p>
+
+  </div>
+</div>
+
       </div>
     </footer>
   );
 }
 
 /* COLUMN */
-function FooterColumn({ title, children }) {
+function FooterColumn({ title, children, className = "" }) {
   return (
-    <div className="space-y-3">
+    <div className={`space-y-3 ${className}`}>
+
       <h3 className="font-semibold text-gray-900">{title}</h3>
       <ul className="space-y-2">{children}</ul>
     </div>
@@ -237,6 +257,10 @@ function FooterLink({ text, href }) {
     </li>
   );
 }
+
+
+
+
 
 
 

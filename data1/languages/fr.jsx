@@ -129,11 +129,11 @@ footer: {
     title: "Restez informé avec BioPeptide",
     subtitle: "Actualités de recherche, lancements de produits et offres exclusives.",
     placeholder: "votre email",
-    button: "S'abonner"
+    button: "S’abonner"
   },
 
   brand: {
-    description: "Peptides de recherche de haute pureté approuvés par des laboratoires du monde entier."
+    description: "Peptides de recherche de haute pureté, utilisés par des laboratoires du monde entier."
   },
 
   columns: {
@@ -141,10 +141,10 @@ footer: {
       title: "Informations",
       links: [
         "Tous les peptides",
-        "Offres et économies",
+        "Offres groupées",
         "Articles de recherche",
         "Tests en laboratoire",
-        "Notre entreprise",
+        "Notre société",
         "Contact"
       ]
     },
@@ -165,8 +165,8 @@ footer: {
       title: "Mentions légales",
       links: [
         "Politique de confidentialité",
-        "Conditions d'utilisation",
-        "Livraison & paiements",
+        "Conditions d’utilisation",
+        "Livraison & Paiement",
         "Accessibilité",
         "Conditions du programme de récompenses"
       ]
@@ -180,8 +180,20 @@ footer: {
     addressLabel: "Adresse"
   },
 
-  copyright: "Tous droits réservés."
-},
+  disclaimer: {
+    copyrightLine: "© 2026 BioPeptide.com. Tous droits réservés.",
+
+    researchOnly:
+      "Tous les produits disponibles sur ce site sont strictement destinés à la recherche en laboratoire, à l’analyse scientifique et au développement. Les produits BioPeptide ne sont pas destinés à la consommation humaine, médicale ou vétérinaire.",
+
+    fda:
+      "Les déclarations figurant sur ce site n’ont pas été évaluées par la Food and Drug Administration (FDA) des États-Unis. Les produits BioPeptide ne sont pas destinés à diagnostiquer, traiter, guérir ou prévenir une maladie.",
+
+    legalStatus:
+      "BioPeptide est un fournisseur de composés chimiques et de recherche. BioPeptide n’est ni une pharmacie de préparation ni une installation de sous-traitance telle que définie par les sections 503A et 503B du Federal Food, Drug, and Cosmetic Act."
+  }
+}
+,
 peptideInfo: {
   page: {
     title: "Informations sur les Peptides",

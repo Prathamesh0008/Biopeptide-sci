@@ -32,7 +32,8 @@ const [isEntering, setIsEntering] = useState(false);
   if (loading || !t) return null;
 
  const filteredProducts =
-  !activeCategory || activeCategory.toLowerCase() === "all"
+  !activeCategory ||
+  activeCategory.toLowerCase() === "all"
     ? PRODUCTS
     : PRODUCTS.filter(
         (p) =>
@@ -40,6 +41,8 @@ const [isEntering, setIsEntering] = useState(false);
           p.category.toLowerCase().trim() ===
             activeCategory.toLowerCase().trim()
       );
+
+
 
 
 
@@ -108,7 +111,8 @@ const [isEntering, setIsEntering] = useState(false);
 >
 
 
-  {filteredProducts.slice(0, visible).map((product) => (
+  {filteredProducts.map((product) => (
+
     <ProductCard
   key={`${product.id}-${product.slug}`}
 

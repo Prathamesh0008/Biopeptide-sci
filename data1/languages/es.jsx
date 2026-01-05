@@ -132,62 +132,74 @@ export default {
 
 footer: {
   newsletter: {
-    title: "Mantente actualizado con BioPeptide",
+    title: "Manténgase actualizado con BioPeptide",
     subtitle: "Actualizaciones de investigación, lanzamientos de productos y ofertas exclusivas.",
-    placeholder: "tu correo electrónico",
+    placeholder: "su correo electrónico",
     button: "Suscribirse"
   },
 
   brand: {
-    description: "Péptidos de investigación de alta pureza confiados por laboratorios en todo el mundo."
+    description: "Péptidos de investigación de alta pureza confiados por laboratorios de todo el mundo."
   },
 
   columns: {
     information: {
       title: "Información",
       links: [
-        "Todos los péptidos",
-        "Paquetes y ahorro",
-        "Artículos de investigación",
-        "Pruebas de laboratorio",
-        "Nuestra empresa",
+        "Todos los Péptidos",
+        "Paquetes y Ahorros",
+        "Artículos de Investigación",
+        "Pruebas de Laboratorio",
+        "Nuestra Empresa",
         "Contacto"
       ]
     },
 
     shop: {
-      title: "Tienda",
+      title: "Comprar",
       links: [
-        "Cápsulas de péptidos",
-        "Mezclas de péptidos",
+        "Cápsulas de Péptidos",
+        "Mezclas de Péptidos",
         "Proteínas IGF-1",
         "Péptidos Melanotan",
         "Bioreguladores",
-        "Péptidos cosméticos"
+        "Péptidos Cosméticos"
       ]
     },
 
     legal: {
       title: "Legal",
       links: [
-        "Política de privacidad",
-        "Términos de uso",
-        "Envíos y pagos",
+        "Política de Privacidad",
+        "Términos de Uso",
+        "Envíos y Pagos",
         "Accesibilidad",
-        "Términos del programa de recompensas"
+        "Términos del Programa de Recompensas"
       ]
     }
   },
 
   contact: {
     phoneLabel: "Teléfono",
-    hours: "Lun–Vie, 9AM–4PM",
-    emailLabel: "Correo electrónico",
+    hours: "Lun–Vie, 9:00–16:00",
+    emailLabel: "Correo",
     addressLabel: "Dirección"
   },
 
-  copyright: "Todos los derechos reservados."
-},
+  disclaimer: {
+    copyrightLine: "© 2026 BioPeptide.com. Todos los derechos reservados.",
+
+    researchOnly:
+      "Todos los productos de este sitio están destinados exclusivamente a investigación de laboratorio, análisis científico y desarrollo. Los productos de BioPeptide no están destinados al consumo humano, médico o veterinario.",
+
+    fda:
+      "Las declaraciones de este sitio no han sido evaluadas por la Administración de Alimentos y Medicamentos de los Estados Unidos (FDA). Los productos de BioPeptide no están destinados a diagnosticar, tratar, curar o prevenir ninguna enfermedad.",
+
+    legalStatus:
+      "BioPeptide opera como proveedor de compuestos químicos y de investigación. BioPeptide no es una farmacia de preparación ni una instalación de subcontratación según lo definido en las secciones 503A y 503B de la Ley Federal de Alimentos, Medicamentos y Cosméticos."
+  }
+}
+,
 peptideInfo: {
   page: {
     title: "Información sobre Péptidos",

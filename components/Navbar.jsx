@@ -57,7 +57,16 @@ const t = (path) => {
   const [language, setLanguage] = useState("en");
   const languageRef = useRef(null);
   const pathname = usePathname();
+  const POPULAR_KEYWORDS = [
+  "bpc-157",
+  "tb-500",
+  "cjc-1295",
+  "ipamorelin",
+  "tesamorelin",
+];
 
+
+const [searchFocused, setSearchFocused] = useState(false);
 
   // ✅ ONLY CHANGED: Added loadLanguage call
   const changeLanguage = async (code) => {
@@ -66,18 +75,21 @@ const t = (path) => {
     localStorage.setItem("bio-lang", code);
     setLanguageOpen(false);
   };
+  
 
-  const LANGUAGES = [
-    { code: "en", label: "English" },
-    { code: "ar", label: "Arabic" },
-    { code: "de", label: "German" },
-    { code: "es", label: "Spanish" },
-    { code: "nl", label: "Dutch" },
-    { code: "pt", label: "Portuguese" },
-    { code: "ja", label: "Japanese" },
-    { code: "zh", label: "Chinese" },
-    { code: "fr", label: "French" },
-  ];
+ const LANGUAGES = [
+  { code: "en", label: "English", flag: "us" },
+  { code: "ar", label: "Arabic", flag: "sa" },
+  { code: "de", label: "German", flag: "de" },
+  { code: "es", label: "Spanish", flag: "es" },
+  { code: "nl", label: "Dutch", flag: "nl" },
+  { code: "pt", label: "Portuguese", flag: "pt" },
+  { code: "ja", label: "Japanese", flag: "jp" },
+  { code: "zh", label: "Chinese", flag: "cn" },
+  { code: "fr", label: "French", flag: "fr" },
+];
+
+
 
   
 
@@ -257,7 +269,7 @@ useEffect(() => {
              cursor-pointer"
 >
   <Image
-    src="/images/Biopeptidecolourlogo.png"
+    src="/images/logo1.png"
     alt="BioPeptide Logo"
     width={300}
     height={80}
@@ -276,7 +288,7 @@ useEffect(() => {
         <div className="flex-1 max-w-2xl mx-auto hidden md:block">
           <div ref={searchRef} className="relative">
               <FaSearch className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 text-sm" />
-              {suggestions.length > 0 && (
+              {/* {suggestions.length > 0 && (
               <div className="absolute top-full left-0 w-full bg-white border rounded-xl shadow-lg mt-2 z-50">
                 {suggestions.map((item) => (
                   <button
@@ -295,18 +307,87 @@ useEffect(() => {
                   </button>
                 ))}
               </div>
-            )}
+            )} */}
 
               <input
-                type="text"
-                placeholder={t("search.desktop")}
-                value={query}
-                onChange={(e) => handleSearchChange(e.target.value)}
-                onKeyDown={handleSearch}
-                className="w-full border border-gray-300 bg-white text-gray-700 rounded-lg pl-10 pr-4 py-3 text-sm 
-placeholder:text-gray-500 focus:ring-2 focus:ring-bioBlue/80 outline-none"
+  type="text"
+  placeholder={t("search.desktop")}
+  value={query}
+  onChange={(e) => handleSearchChange(e.target.value)}
+  onKeyDown={handleSearch}
+  onFocus={() => setSearchFocused(true)}
+  onBlur={() => setTimeout(() => setSearchFocused(false), 150)}
+  className="w-full border border-gray-300 bg-white text-gray-700 rounded-lg
+             pl-10 pr-4 py-3 text-sm focus:ring-2 focus:ring-bioBlue/80 outline-none"
+/>
+{searchFocused && (
+  <div className="absolute top-full left-0 w-full bg-white border rounded-2xl shadow-xl mt-2 z-50 p-4">
 
+    {/* POPULAR KEYWORDS */}
+    {query.trim() === "" && (
+      <>
+        <p className="text-xs font-semibold text-gray-500 mb-2">
+          Popular Keywords
+        </p>
+
+        <div className="flex flex-wrap gap-2 mb-3">
+          {POPULAR_KEYWORDS.map((key) => (
+            <button
+              key={key}
+              onClick={() => {
+                setQuery(key);
+                handleSearchChange(key);
+              }}
+              className="px-3 py-1.5 text-xs rounded-full bg-gray-100 hover:bg-gray-200"
+            >
+              {key}
+            </button>
+          ))}
+        </div>
+      </>
+    )}
+
+    {/* PRODUCT CARDS */}
+    {suggestions.length > 0 && (
+      <div className="grid grid-cols-1 gap-3">
+        {suggestions.map((item) => (
+          <button
+            key={item.id}
+            onClick={() => {
+              setSuggestions([]);
+              setQuery("");
+              router.push(`/product/${item.slug}`);
+            }}
+            className="flex items-center gap-4 p-3 rounded-xl hover:bg-gray-50 text-left"
+          >
+            {/* IMAGE */}
+            <div className="w-14 h-14 bg-gray-100 rounded-lg overflow-hidden">
+              <Image
+                src={item.image || "/images/placeholder.png"}
+                alt={item.name}
+                width={56}
+                height={56}
+                className="object-contain"
               />
+            </div>
+
+            {/* TEXT */}
+            <div>
+              <p className="text-sm font-semibold text-gray-900">
+                {item.name}
+              </p>
+              <p className="text-xs text-gray-500">
+                {item.strength}
+              </p>
+            </div>
+          </button>
+        ))}
+      </div>
+    )}
+
+  </div>
+)}
+
             </div>
         </div>
 
@@ -392,7 +473,7 @@ placeholder:text-gray-500 focus:ring-2 focus:ring-bioBlue/80 outline-none"
 <div ref={languageRef} className="relative hidden md:block">
   <button
     onClick={() => setLanguageOpen((v) => !v)}
-    className="flex items-center gap-1 h-8 px-3 rounded-md border border-gray-300 text-gray-700 hover:text-bioBlue hover:bg-bioBlue/10 transition"
+    className="flex items-center  cursor-pointer gap-1 h-8 px-3 rounded-md border border-gray-300 text-gray-700 hover:text-bioBlue hover:bg-bioBlue/10 transition"
   >
     <FaGlobe className="text-gray-700 group-hover:text-bioBlue" />
     <span className="text-sm font-medium">{language.toUpperCase()}</span>
@@ -400,7 +481,8 @@ placeholder:text-gray-500 focus:ring-2 focus:ring-bioBlue/80 outline-none"
 
   {languageOpen && (
     <div className="absolute right-0 mt-2 w-44 rounded-md bg-white text-black shadow-lg border border-gray-100 z-50">
-      {LANGUAGES.map(({ code, label }) => (
+     {LANGUAGES.map(({ code, label, flag }) => (
+
         <button
           key={code}
           onClick={() => changeLanguage(code)}
@@ -408,7 +490,16 @@ placeholder:text-gray-500 focus:ring-2 focus:ring-bioBlue/80 outline-none"
             language === code ? "bg-bioBlue/20 text-bioBlue font-semibold" : "text-gray-700"
           }`}
         >
-          {label}
+         <span className="flex items-center gap-2 cursor-pointer">
+  <img
+  src={`https://flagcdn.com/w20/${flag}.png`}
+  alt={label}
+  className="w-5 h-4 rounded-sm"
+/>
+
+  <span>{label}</span>
+</span>
+
         </button>
       ))}
     </div>
@@ -560,7 +651,7 @@ placeholder:text-gray-500 focus:ring-2 focus:ring-bioBlue/80 outline-none"
     h-[52px]
     px-6
     flex items-center justify-center
-    gap-6
+    gap-2
     text-grey-700
     text-[15.5px]
     font-semibold
@@ -582,6 +673,11 @@ placeholder:text-gray-500 focus:ring-2 focus:ring-bioBlue/80 outline-none"
 <MenuItem title={t("menu.research")} onClick={() => handleNavigate("/peptide-research")} active={pathname === "/peptide-research"} />
 
 <MenuItem title={t("menu.information")} onClick={() => handleNavigate("/peptide-information")} active={pathname === "/peptide-information"} />
+<MenuItem title={t("menu.videos") || "Research Videos"} onClick={() =>  window.open( "https://www.youtube.com/@yourchannel", "_blank")}/>
+  
+ 
+   
+
 
 <MenuItem title={t("menu.company")} onClick={() => handleNavigate("/about")} active={pathname === "/about"} />
 
@@ -634,7 +730,8 @@ placeholder:text-gray-500 focus:ring-2 focus:ring-bioBlue/80 outline-none"
 
   {languageOpen && (
     <div className="mt-2 flex flex-col">
-      {LANGUAGES.map(({ code, label }) => (
+      {LANGUAGES.map(({ code, label, flag }) => (
+
         <button
           key={code}
           onClick={() => changeLanguage(code)}
@@ -644,7 +741,11 @@ placeholder:text-gray-500 focus:ring-2 focus:ring-bioBlue/80 outline-none"
               : "text-gray-700 hover:bg-gray-100"
           }`}
         >
-          {label}
+        <span className="flex items-center gap-2 cursor-pointer">
+  <span className="text-lg">{flag}</span>
+  <span>{label}</span>
+</span>
+
         </button>
       ))}
     </div>

@@ -128,7 +128,7 @@ export default {
   newsletter: {
     title: "Blijf op de hoogte met BioPeptide",
     subtitle: "Onderzoeksupdates, productlanceringen en exclusieve aanbiedingen.",
-    placeholder: "jouw e-mailadres",
+    placeholder: "uw e-mailadres",
     button: "Abonneren"
   },
 
@@ -140,11 +140,11 @@ export default {
     information: {
       title: "Informatie",
       links: [
-        "Alle peptiden",
-        "Bundles & besparen",
+        "Alle Peptiden",
+        "Bundel & Bespaar",
         "Onderzoeksartikelen",
         "Labtesten",
-        "Ons bedrijf",
+        "Ons Bedrijf",
         "Contact"
       ]
     },
@@ -152,12 +152,12 @@ export default {
     shop: {
       title: "Winkel",
       links: [
-        "Peptidecapsules",
-        "Peptidemengsels",
-        "IGF-1 eiwitten",
-        "Melanotan peptiden",
+        "Peptide Capsules",
+        "Peptide Mengsels",
+        "IGF-1 Eiwitten",
+        "Melanotan Peptiden",
         "Bioregulatoren",
-        "Cosmetische peptiden"
+        "Cosmetische Peptiden"
       ]
     },
 
@@ -166,9 +166,9 @@ export default {
       links: [
         "Privacybeleid",
         "Gebruiksvoorwaarden",
-        "Verzending & betalingen",
+        "Verzending & Betaling",
         "Toegankelijkheid",
-        "Beloningsprogramma voorwaarden"
+        "Beloningsvoorwaarden"
       ]
     }
   },
@@ -180,8 +180,20 @@ export default {
     addressLabel: "Adres"
   },
 
-  copyright: "Alle rechten voorbehouden."
-},
+  disclaimer: {
+    copyrightLine: "© 2026 BioPeptide.com. Alle rechten voorbehouden.",
+
+    researchOnly:
+      "Alle producten op deze website zijn uitsluitend bedoeld voor laboratoriumonderzoek, wetenschappelijke analyse en ontwikkelingsdoeleinden. Producten van BioPeptide zijn niet bedoeld voor menselijke, medische of veterinaire consumptie.",
+
+    fda:
+      "De verklaringen op deze website zijn niet geëvalueerd door de Amerikaanse Food and Drug Administration (FDA). De producten van BioPeptide zijn niet bedoeld om ziekten te diagnosticeren, behandelen, genezen of voorkomen.",
+
+    legalStatus:
+      "BioPeptide is een leverancier van chemische en onderzoeksverbindingen. BioPeptide is geen apotheek of chemische samenstellingsfaciliteit zoals gedefinieerd onder Sectie 503A van de Federal Food, Drug, and Cosmetic Act, noch een outsourcingfaciliteit onder Sectie 503B."
+  }
+}
+,
 peptideInfo: {
   page: {
     title: "Peptide-informatie",
