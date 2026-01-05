@@ -45,82 +45,83 @@ export default function ProductCard({ product }) {
 
   return (
     <article
-      className="
-        relative w-full
-        bg-white border border-gray-200 rounded-xl
-        p-2 sm:p-4
-        flex flex-col justify-between
-        
-        min-h-[360px] sm:min-h-[380px]
-      "
+  className="
+    
+    bg-white border border-gray-200 rounded-xl
+    flex flex-col
+    min-h-[300px] sm:min-h-[320px]
+    overflow-hidden
+  "
+>
+  {/* IMAGE — FULL WIDTH, NO PADDING */}
+  <Link
+    href={`/product/${product.slug}`}
+    className="
+      relative h-72 sm:h-56 md:h-64 w-full
+      bg-gray-50
+      flex items-center justify-center
+      cursor-pointer
+    "
+  >
+    <Image
+      src={product.image || "/images/product.png"}
+      alt={product.name}
+      fill
+      className="object-contain scale-110"
+    />
+  </Link>
+
+  {/* CONTENT — PADDED */}
+  <div className="p-2 sm:p-4 flex flex-col justify-between flex-1">
+
+    {/* TITLE */}
+    <Link
+      href={`/product/${product.slug}`}
+      className="mt-2 block cursor-pointer"
     >
-      {/* IMAGE */}
+      <h4 className="text-[15px] font-semibold text-gray-900 leading-snug hover:underline">
+        {p.name}
+      </h4>
+    </Link>
+
+    {/* PRICE */}
+    <p className="text-[17px] font-bold text-gray-900 mt-3">
+      ${product.price.toFixed(2)}
+    </p>
+
+    {/* ACTIONS */}
+    <div className="mt-4 flex flex-col gap-2">
       <Link
         href={`/product/${product.slug}`}
         className="
-          relative h-64 sm:h-72 md:h-80 w-full
-          rounded-lg overflow-hidden bg-gray-50
-          flex items-center justify-center
-          cursor-pointer
+          w-full text-center
+          border border-bioBlue
+          text-bioBlue text-xs font-semibold
+          py-2 rounded-full
+          hover:bg-bioBlue hover:text-white
+          transition
         "
       >
-        <Image
-          src={product.image || "/images/product.png"}
-          alt={product.name}
-          fill
-          className="object-contain scale-125 sm:scale-110"
-        />
+        {translations.productCard.learnMore}
       </Link>
 
-      {/* TITLE */}
-      <Link
-        href={`/product/${product.slug}`}
-        className="mt-3 block cursor-pointer"
+      <button
+        onClick={addToCart}
+        className="
+          w-full
+          bg-[linear-gradient(to_right,#145b2f,#559f45,#65b4d7,#1a497c)]
+          text-white text-xs font-semibold
+          py-2 rounded-full
+          hover:brightness-110
+          transition
+        "
       >
-        <h4 className="text-[15px] font-semibold text-gray-900 leading-snug hover:underline">
-          {p.name}
-        </h4>
-      </Link>
+        {translations.productCard.addToCart}
+      </button>
+    </div>
+  </div>
+</article>
 
-      {/* PRICE */}
-      <p className="text-[17px] font-bold text-gray-900 mt-3">
-        ${product.price.toFixed(2)}
-      </p>
-
-      {/* ACTIONS */}
-      <div className="mt-4 flex flex-col gap-2">
-        {/* LEARN MORE → LINK */}
-        <Link
-          href={`/product/${product.slug}`}
-          className="
-            w-full text-center
-            border border-bioBlue
-            text-bioBlue text-xs font-semibold
-            py-2 rounded-full
-            cursor-pointer
-            hover:bg-bioBlue hover:text-white
-            transition
-          "
-        >
-          {translations.productCard.learnMore}
-        </Link>
-
-        {/* ADD TO CART → BUTTON */}
-        <button
-          onClick={addToCart}
-          className="
-            w-full cursor-pointer
-            bg-[linear-gradient(to_right,#145b2f,#559f45,#65b4d7,#1a497c)]
-            text-white text-xs font-semibold
-            py-2 rounded-full
-            hover:brightness-110
-            transition
-          "
-        >
-          {translations.productCard.addToCart}
-        </button>
-      </div>
-    </article>
   );
 }
 

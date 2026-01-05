@@ -1,3 +1,4 @@
+//peptides\app\peptide-information\page.jsx
 "use client";
 
 import Image from "next/image";

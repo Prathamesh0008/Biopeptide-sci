@@ -97,8 +97,8 @@ const [isEntering, setIsEntering] = useState(false);
    {/* PRODUCT GRID */}
 <div
   className={`
-    grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4
-    gap-3 md:gap-6
+   grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4
+gap-x-4 gap-y-6 md:gap-x-5 md:gap-y-8
     transition-all duration-300 ease-in-out
     ${
       isLeaving

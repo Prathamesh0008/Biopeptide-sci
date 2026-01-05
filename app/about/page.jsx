@@ -35,7 +35,7 @@ export default function AboutPage() {
       <main className="min-h-screen bg-white text-gray-800">
 
         {/* HERO */}
-        <section className="relative w-full h-[330px] md:h-[420px] flex items-center justify-center overflow-hidden">
+        {/* <section className="relative w-full h-[330px] md:h-[420px] flex items-center justify-center overflow-hidden">
           <Image
             src="/images/aboutus.jpg"
             alt="About BioPeptide"
@@ -53,7 +53,7 @@ export default function AboutPage() {
               {t("hero.description")}
             </p>
           </div>
-        </section>
+        </section> */}
 
         {/* CONTENT */}
         <section className="max-w-[1300px] mx-auto px-6 py-20 space-y-24">

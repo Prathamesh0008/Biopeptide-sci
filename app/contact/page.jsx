@@ -37,7 +37,7 @@ export default function ContactPage() {
     <main className="min-h-screen bg-white text-gray-800">
 
       {/* ================= HERO SECTION ================= */}
-      <section className="relative w-full h-[260px] md:h-[320px] flex items-center justify-center overflow-hidden">
+      {/* <section className="relative w-full h-[260px] md:h-[320px] flex items-center justify-center overflow-hidden">
 
         <Image
           src="/peptide-info/banner.jpg"
@@ -57,7 +57,7 @@ export default function ContactPage() {
            {t("hero.subtitle")}
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* ================= MAIN CONTENT ================= */}
       <section className="max-w-[1400px] mx-auto px-6 md:px-10 xl:px-20 py-16">
