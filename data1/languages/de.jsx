@@ -1,4 +1,4 @@
-export const de = {
+export default {
   about: {
     hero: {
       title: "Über BioPeptide Research Labs",
@@ -257,17 +257,24 @@ peptideInfo: {
 },
 home: {
   hero: {
-    badge: "BioPeptide Forschungskapseln",
-    title: "Forschungspeptid-Kapseln",
-    subtitle: "Hochreine BioPeptide-Kapseln für die wissenschaftliche Forschung.",
-    button: "Mehr erfahren"
+    title: "Forschungspeptide kaufen",
+    subtitle: "Hochreine Peptide wie Melanotan II, CJC-1295, TB-500, IGF-1 und mehr.",
+    button: "Mehr erfahren",
+
+    title2: "Forschungspeptid-Mischungen",
+    subtitle2: "Fortschrittliche Peptidkombinationen für Laborforschungsanwendungen.",
+    button2: "Mischungen entdecken",
+
+    title3: "Forschungspeptid-Kapseln",
+    subtitle3: "Peptid-Kapselpräparate für kontrollierte Forschungsumgebungen.",
+    button3: "Kapseln ansehen"
   },
 
   productGrid: {
     mainTitle: "Peptide für die Wissenschaftliche Forschung Kaufen",
-    description:
-      "BioPeptide liefert hochreine Forschungspeptide mit vollständiger Dokumentation.",
+    description: "BioPeptide™ ist auf die Entwicklung und Synthese hochreiner Peptide, Proteine und aminosäurebasierter Verbindungen spezialisiert, die ausschließlich für wissenschaftliche Forschung und Laboranwendungen bestimmt sind. BioPeptide™ nutzt fortschrittliche automatisierte und manuelle Peptidsynthesesysteme sowie Festphasen- und Lösungssynthesetechnologien, um Peptide mit einer konstanten Reinheit von über 99 % bereitzustellen.\n\nVon der frühen Phase der Peptidentwicklung und -synthese bis hin zur Endverarbeitung, Verpackung und Distribution wendet BioPeptide™ strenge Qualitätskontrollprotokolle an, um maximale Stabilität, Integrität und Zuverlässigkeit jedes Produkts sicherzustellen. Jedes Peptid wird während des gesamten Produktionsprozesses in unseren analytischen Laboren umfassend getestet.\n\nDie Überprüfung der Sequenzgenauigkeit und molekularen Identität erfolgt mithilfe moderner Hochleistungsflüssigkeitschromatographie (HPLC) und Massenspektrometrie (MS). Diese analytischen Methoden bestätigen wissenschaftlich die Reinheit, Zusammensetzung und Konsistenz jedes BioPeptide™-Produkts.",
     featuredTitle: "Empfohlene Forschungspeptide",
+    popularTitle: "Beliebte Peptide",
     filter: "Filter",
     showing: "Anzeige",
     of: "von",
@@ -277,19 +284,27 @@ home: {
   },
 
   about: {
-    title: "Über BioPeptide",
-    companyTitle: "🧬 Unser Unternehmen",
-    companyText1:
-      "BioPeptide™ ist ein führender Anbieter hochwertiger Forschungspeptide.",
-    companyText2:
-      "Wir unterstützen stolz globale Forschungsorganisationen.",
-    qualityTitle: "🔬 Qualität. Service. Wert.",
-    qualityText:
-      "BioPeptide™ liefert hochreine Forschungsmaterialien mit fortschrittlicher Synthese und Prüfung.",
-    customersTitle: "👥 Unsere Kunden",
-    customersText:
-      "Forscher weltweit vertrauen BioPeptide™ für zuverlässige Produkte."
-  }
+  title: "Über BioPeptide",
+
+  companyTitle: "Unser Unternehmen",
+  companyText1:
+    "BioPeptide™ ist ein führender Anbieter von forschungsgeeigneten Peptiden und unterstützt wissenschaftliche Innovation weltweit. Wir arbeiten mit WHO/GMP- und ISO-zertifizierten Herstellern zusammen, um höchste Qualität und Reinheit sicherzustellen.",
+
+  companyText2:
+    "Unser Ziel ist es, hochwertige Peptide für Forschungseinrichtungen und Labore zugänglich zu machen – zu wettbewerbsfähigen Preisen und ohne Qualitätskompromisse. Zusätzlich stellen wir wissenschaftliche Ressourcen zur Verfügung.",
+
+  qualityTitle: "Qualität. Service. Wert.",
+  qualityText:
+    "BioPeptide™ ist Ihre sichere und diskrete Online-Quelle für hochreine Forschungspetide. Qualitätssicherung, zuverlässige Herstellung und exzellenter Kundenservice stehen bei uns im Mittelpunkt.",
+
+  qualityText2:
+    "Der Bestellprozess ist einfach, sicher und rund um die Uhr verfügbar. Modernste SSL-Verschlüsselung schützt Ihre Daten vollständig.",
+
+  customersTitle: "Unsere Kunden",
+  customersText:
+    "Forscher weltweit vertrauen BioPeptide™. Wir schätzen jede Kundenbeziehung und setzen auf langfristige Partnerschaften mit höchster wissenschaftlicher Integrität."
+}
+
 },
 productCard: {
   learnMore: "Mehr erfahren",

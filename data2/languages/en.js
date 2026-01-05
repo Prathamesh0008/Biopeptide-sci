@@ -24,10 +24,10 @@ export default {
       researchStatus:
         "For laboratory research use only. Not for human or veterinary use."
     }
-  },
-  dir: "ltr",
+  ,
+  
 
-  products: {
+ 
     "bpc-tb500-glow-blend": {
       name: "Glow Blend (BPC-157 + TB-500)",
 
@@ -53,11 +53,10 @@ export default {
       storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
       researchStatus:
         "For laboratory research use only. Not for human or veterinary use."
-    }
-  },
-  dir: "ltr",
+    },
+  
 
-  products: {
+  
     "5-amino-1mq-50mg": {
       name: "5-Amino-1MQ 50mg (60 Capsules)",
 
@@ -79,10 +78,9 @@ export default {
       researchStatus:
         "For laboratory research use only. Not for human or veterinary use."
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
+ 
     "aod9604-5mg": {
       name: "AOD9604 5mg",
 
@@ -103,11 +101,11 @@ export default {
       storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
       researchStatus:
         "For laboratory research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
 
-  products: {
+
+  
     "ghk-cu-2mg": {
       name: "GHK-Cu 2mg",
 
@@ -128,11 +126,11 @@ export default {
       storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
       researchStatus:
         "For laboratory and cosmetic research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+  
 
-  products: {
+  
     "ghk-cu-2mg": {
       name: "GHK-Cu 2mg",
 
@@ -153,11 +151,11 @@ export default {
       storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
       researchStatus:
         "For laboratory and cosmetic research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+ 
 
-  products: {
+ 
     "acetyl-hexapeptide-3-200mg": {
       name: "Acetyl Hexapeptide-3 (Argireline®) 200mg",
 
@@ -178,11 +176,11 @@ export default {
       storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
       researchStatus:
         "For laboratory and cosmetic research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+  
 
-  products: {
+  
     "ahk-tripeptide-3-200mg": {
       name: "AHK-Tripeptide-3 200mg",
 
@@ -203,11 +201,11 @@ export default {
       storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
       researchStatus:
         "For laboratory and cosmetic research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+ 
 
-  products: {
+  
     "ahk-cu-200mg": {
       name: "AHK-Cu 200mg (Topical)",
 
@@ -232,11 +230,11 @@ export default {
       storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
       researchStatus:
         "For laboratory and cosmetic research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+  
 
-  products: {
+
     "aod9604-6mg": {
       name: "AOD9604 6mg",
 
@@ -257,11 +255,11 @@ export default {
       storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
       researchStatus:
         "For laboratory research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+  
 
-  products: {
+  
     "bpc-157-10mg": {
       name: "BPC-157 10mg",
 
@@ -282,11 +280,11 @@ export default {
       storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
       researchStatus:
         "For laboratory research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+ 
 
-  products: {
+  
     "bpc-157-15mg": {
       name: "BPC-157 15mg",
 
@@ -307,11 +305,11 @@ export default {
       storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
       researchStatus:
         "For laboratory research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+ 
 
-  products: {
+ 
     "bpc-157-tb-500-blend-10mg": {
       name: "BPC-157 + TB-500 Blend 10mg",
 
@@ -337,11 +335,11 @@ export default {
       storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
       researchStatus:
         "For laboratory research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+ 
 
-  products: {
+ 
     "bpc-157-tb-500-blend-20mg": {
       name: "BPC-157 + TB-500 Blend 20mg",
 
@@ -367,11 +365,11 @@ export default {
       storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
       researchStatus:
         "For laboratory research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+  
 
-  products: {
+ 
     "bpc-157-tb-500-blend-30mg": {
       name: "BPC-157 + TB-500 Blend 30mg",
 
@@ -397,11 +395,11 @@ export default {
       storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
       researchStatus:
         "For laboratory research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+  
 
-  products: {
+ 
     "bpc-157-tb-500-blend-30mg": {
       name: "BPC-157 + TB-500 Blend 30mg",
 
@@ -427,11 +425,11 @@ export default {
       storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
       researchStatus:
         "For laboratory research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+  
 
-  products: {
+
     "bpc-157-tb-500-kpv-ghk-cu-80mg": {
       name: "Klow Blend (BPC-157 + TB-500 + KPV + GHK-Cu) 80mg",
 
@@ -460,11 +458,11 @@ export default {
       storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
       researchStatus:
         "For laboratory research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+ 
 
-  products: {
+  
     "bronchogen-20mg": {
       name: "Bronchogen® 20mg (Bioregulator)",
 
@@ -489,11 +487,11 @@ export default {
       storage: "Store at -20°C. Protect from moisture and light.",
       researchStatus:
         "For laboratory research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+  
 
-  products: {
+  
     "cardiogen-20mg": {
       name: "Cardiogen® 20mg (Bioregulator)",
 
@@ -518,11 +516,11 @@ export default {
       storage: "Store at -20°C. Protect from moisture and light.",
       researchStatus:
         "For laboratory research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+  
 
-  products: {
+  
     "cartalax-20mg": {
       name: "Cartalax® 20mg (Bioregulator)",
 
@@ -547,11 +545,11 @@ export default {
       storage: "Store at -20°C. Protect from moisture and light.",
       researchStatus:
         "For laboratory research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+  
 
-  products: {
+  
     "adipotide-ftpp-10mg": {
       name: "Adipotide (FTPP) 10mg",
 
@@ -572,11 +570,11 @@ export default {
       storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
       researchStatus:
         "For laboratory research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+ 
 
-  products: {
+ 
     "ahk-tripeptide-3-200mg": {
       name: "AHK-Tripeptide-3 200mg",
 
@@ -597,11 +595,11 @@ export default {
       storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
       researchStatus:
         "For laboratory and cosmetic research use only. Not for human or veterinary use."
-    }
+    
   },
-  dir: "ltr",
+  
 
-  products: {
+ 
     "aicar-50mg": {
       name: "AICAR 50mg",
 
@@ -622,6 +620,552 @@ export default {
       storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
       researchStatus:
         "For laboratory research use only. Not for human or veterinary use."
-    }
+    
+  },
+  
+
+ 
+    "ara-290-16mg": {
+      name: "ARA-290 16mg",
+
+      strength:
+        "Synthetic peptide studied in laboratory research for its interaction with erythropoietin-derived receptor signaling pathways.",
+
+      description:
+        "ARA-290 is a synthetic peptide derived from a specific region of erythropoietin (EPO) and is investigated in laboratory research for its interaction with tissue-protective receptor signaling pathways. In controlled research environments, it is studied for cellular signaling mechanisms, peptide–receptor interactions, and pathway-specific biological response models. Supplied as a high-purity lyophilized powder for controlled scientific investigation.",
+
+      applications: [
+        "Peptide–receptor interaction research",
+        "Cellular signaling pathway studies",
+        "Tissue-protective signaling model research",
+        "Erythropoietin-derived peptide investigation"
+      ],
+
+      appearance: "White lyophilized powder",
+      storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
+      researchStatus:
+        "For laboratory research use only. Not for human or veterinary use."
+    
+  },
+  "b7-33-6mg": {
+  name: "B7-33 6mg",
+
+  strength:
+    "Synthetic relaxin-derived peptide studied in laboratory research for selective receptor signaling pathway investigation.",
+
+  description:
+    "B7-33 is a synthetic peptide derived from the B-chain of the hormone relaxin and is investigated in laboratory research for its selective interaction with relaxin family peptide receptors. In controlled research environments, it is studied for peptide–receptor signaling specificity, downstream cellular communication pathways, and structure–function relationship research. Supplied as a high-purity lyophilized powder for scientific investigation.",
+
+  applications: [
+    "Peptide–receptor interaction research",
+    "Selective relaxin receptor signaling studies",
+    "Cellular communication pathway investigation",
+    "Structure–function peptide research"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+"chonluten-20mg": {
+  name: "Chonluten® 20mg (Bioregulator)",
+
+  strength:
+    "Synthetic short-chain peptide bioregulator studied for organ-specific cellular signaling and gene expression research models.",
+
+  description:
+    "Chonluten® is a synthetic bioregulatory peptide complex investigated in laboratory research models related to respiratory and bronchopulmonary tissue signaling. In controlled research environments, it is studied for its interaction with gene expression pathways, peptide-mediated regulatory mechanisms, and tissue-specific cellular signaling associated with bronchial and lung biology. Supplied as a high-purity research material for scientific investigation.",
+
+  applications: [
+    "Organ-specific peptide signaling research",
+    "Gene expression and regulatory pathway studies",
+    "Respiratory and bronchopulmonary tissue research models",
+    "Bioregulatory peptide mechanism research"
+  ],
+
+  appearance: "White to off-white powder",
+  storage: "Store at -20°C. Protect from moisture and light.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+"cjc-1295-ghrp-2-blend-10mg": {
+  name: "CJC-1295 + GHRP-2 Blend 10mg",
+
+  strength:
+    "Dual-peptide research blend combining CJC-1295 and GHRP-2, studied for synergistic endocrine signaling and peptide–receptor interaction research.",
+
+  description:
+    "This research blend combines CJC-1295, a growth hormone–releasing hormone (GHRH) analog studied for receptor-mediated endocrine signaling, with GHRP-2, a growth hormone secretagogue peptide investigated for its interaction with ghrelin and GHS-R pathways. The 10mg blend format is designed for laboratory studies exploring synergistic peptide signaling, receptor crosstalk, and endocrine pathway research. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
+
+  components: [
+    "CJC-1295 (GHRH analog)",
+    "GHRP-2 (growth hormone secretagogue peptide)"
+  ],
+
+  applications: [
+    "Endocrine signaling pathway research",
+    "Peptide–receptor interaction studies",
+    "Synergistic peptide signaling investigation",
+    "Hormonal communication model research"
+  ],
+
+  appearance: "White lyophilized powder blend",
+  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+"cjc-1295-ghrp-6-blend-10mg": {
+  name: "CJC-1295 + GHRP-6 Blend 10mg",
+
+  strength:
+    "Dual-peptide research blend combining CJC-1295 and GHRP-6, studied for synergistic endocrine signaling and peptide–receptor interaction research.",
+
+  description:
+    "This research blend combines CJC-1295, a growth hormone–releasing hormone (GHRH) analog studied for receptor-mediated endocrine signaling, with GHRP-6, a growth hormone secretagogue peptide investigated for its interaction with ghrelin and GHS-R pathways. The 10mg blend format is designed for laboratory studies exploring synergistic peptide signaling, receptor crosstalk, and endocrine pathway research. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
+
+  components: [
+    "CJC-1295 (GHRH analog)",
+    "GHRP-6 (growth hormone secretagogue peptide)"
+  ],
+
+  applications: [
+    "Endocrine signaling pathway research",
+    "Peptide–receptor interaction studies",
+    "Synergistic peptide signaling investigation",
+    "Hormonal communication model research"
+  ],
+
+  appearance: "White lyophilized powder blend",
+  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+"cjc-1295-hexarelin-blend-10mg": {
+  name: "CJC-1295 + Hexarelin Blend 10mg",
+
+  strength:
+    "Dual-peptide research blend combining CJC-1295 and Hexarelin, studied for synergistic endocrine signaling and peptide–receptor interaction research.",
+
+  description:
+    "This research blend combines CJC-1295, a growth hormone–releasing hormone (GHRH) analog investigated for receptor-mediated endocrine signaling, with Hexarelin, a growth hormone secretagogue peptide studied for its interaction with ghrelin and GHS-R pathways. The 10mg blend format is designed for laboratory studies exploring synergistic peptide signaling, receptor crosstalk, and endocrine pathway research. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
+
+  components: [
+    "CJC-1295 (GHRH analog)",
+    "Hexarelin (growth hormone secretagogue peptide)"
+  ],
+
+  applications: [
+    "Endocrine signaling pathway research",
+    "Peptide–receptor interaction studies",
+    "Synergistic peptide signaling investigation",
+    "Hormonal communication model research"
+  ],
+
+  appearance: "White lyophilized powder blend",
+  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+"cjc-1295-ipamorelin-ghrp-2-blend": {
+  name: "CJC-1295 + Ipamorelin + GHRP-2 Blend",
+
+  strength:
+    "Triple-peptide research blend combining CJC-1295, Ipamorelin, and GHRP-2 for advanced endocrine signaling and peptide–receptor interaction studies.",
+
+  description:
+    "This research blend combines CJC-1295, a growth hormone–releasing hormone (GHRH) analog studied for receptor-mediated endocrine signaling, with Ipamorelin and GHRP-2, both growth hormone secretagogue peptides investigated for their interaction with ghrelin and GHS-R pathways. The blend is designed for laboratory research exploring synergistic endocrine signaling, receptor crosstalk, and complex peptide communication pathways. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
+
+  components: [
+    "CJC-1295 (GHRH analog)",
+    "Ipamorelin (growth hormone secretagogue peptide)",
+    "GHRP-2 (growth hormone secretagogue peptide)"
+  ],
+
+  applications: [
+    "Endocrine signaling pathway research",
+    "Peptide–receptor interaction studies",
+    "Synergistic peptide communication research",
+    "Hormonal signaling model investigation"
+  ],
+
+  appearance: "White lyophilized powder blend",
+  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+"cjc-1295-ipamorelin-blend-10mg": {
+  name: "CJC-1295 + Ipamorelin Blend 10mg",
+
+  strength:
+    "Dual-peptide research blend combining CJC-1295 and Ipamorelin for endocrine signaling and peptide–receptor interaction studies.",
+
+  description:
+    "This research blend combines CJC-1295, a growth hormone–releasing hormone (GHRH) analog investigated for receptor-mediated endocrine signaling, with Ipamorelin, a selective growth hormone secretagogue peptide studied for its interaction with GHS-R pathways. The 10mg blend format is designed for laboratory research exploring synergistic peptide signaling, receptor crosstalk, and endocrine pathway communication. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
+
+  components: [
+    "CJC-1295 (GHRH analog)",
+    "Ipamorelin (growth hormone secretagogue peptide)"
+  ],
+
+  applications: [
+    "Endocrine signaling pathway research",
+    "Peptide–receptor interaction studies",
+    "Synergistic peptide signaling investigation",
+    "Hormonal communication model research"
+  ],
+
+  appearance: "White lyophilized powder blend",
+  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+"mod-grf-1-29-5mg": {
+  name: "Mod GRF 1-29 (CJC-1295 No DAC) 5mg",
+
+  strength:
+    "Synthetic growth hormone–releasing hormone (GHRH) analog studied for short-acting receptor signaling and endocrine research models.",
+
+  description:
+    "Mod GRF 1-29, also known as CJC-1295 No DAC, is a synthetic peptide analog of growth hormone–releasing hormone (GHRH). In laboratory research environments, it is investigated for short-duration GHRH receptor activation, endocrine signaling dynamics, and peptide–receptor interaction behavior. The 5mg format supports extended laboratory studies requiring increased material availability while maintaining controlled, short-acting signaling models. Supplied as a high-purity lyophilized powder for scientific investigation.",
+
+  components: [
+    "Mod GRF 1-29 (CJC-1295 No DAC analog)"
+  ],
+
+  applications: [
+    "Endocrine signaling pathway research",
+    "GHRH receptor interaction studies",
+    "Short-acting peptide signaling models",
+    "Hormonal communication research"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+"cortagen-20mg": {
+  name: "Cortagen® 20mg (Bioregulator)",
+
+  strength:
+    "Synthetic short-chain peptide bioregulator studied for neural tissue signaling and gene expression research models.",
+
+  description:
+    "Cortagen® is a synthetic bioregulatory peptide complex investigated in laboratory research models related to central nervous system and neural tissue signaling. In controlled research environments, it is studied for its interaction with gene expression pathways, peptide-mediated regulatory mechanisms, and cellular communication models associated with neural biology. Supplied as a high-purity research material for scientific investigation.",
+
+  components: [
+    "Short-chain regulatory peptides (di- and tripeptide complexes)"
+  ],
+
+  applications: [
+    "Organ-specific peptide signaling research",
+    "Gene expression and regulatory pathway studies",
+    "Neural and central nervous system research models",
+    "Bioregulatory peptide mechanism research"
+  ],
+
+  appearance: "White to off-white powder",
+  storage: "Store at -20°C. Protect from moisture and light.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+"decapeptide-12-10mg": {
+  name: "Decapeptide-12",
+
+  strength:
+    "Synthetic cosmetic research peptide studied for melanogenesis signaling and skin pigmentation pathway models.",
+
+  description:
+    "Decapeptide-12 is a synthetic peptide widely investigated in cosmetic and dermatological research for its role in melanogenesis signaling pathways and peptide-mediated pigmentation models. In laboratory studies, it is explored for its interaction with tyrosinase-related pathways and peptide signaling mechanisms associated with skin tone regulation. Supplied as a high-purity lyophilized peptide for controlled cosmetic and cellular research environments.",
+
+  components: [
+    "Synthetic decapeptide for cosmetic research"
+  ],
+
+  applications: [
+    "Melanogenesis and pigmentation signaling research",
+    "Cosmetic peptide pathway investigation",
+    "Skin biology and peptide interaction studies",
+    "Topical formulation and stability research"
+  ],
+
+  appearance: "White to off-white lyophilized powder",
+  storage: "Store at -20°C. Protect from light and moisture.",
+  researchStatus:
+    "For laboratory and cosmetic research use only. Not for human or veterinary use."
+},
+"dihexa-5mg-60-capsules": {
+  name: "Dihexa 5mg (60 Capsules)",
+
+  strength:
+    "Small-molecule peptide-derived compound studied in neuroplasticity and synaptic signaling research models.",
+
+  description:
+    "Dihexa is a peptide-derived small molecule investigated in laboratory research for its interaction with hepatocyte growth factor (HGF) signaling and synaptic plasticity pathways. In preclinical research models, it is studied for its role in neurogenesis, synapse formation, and cognitive signaling mechanisms. Supplied in capsule format to support controlled handling and stability for research environments.",
+
+  components: [
+    "Peptide-derived small molecule for neuro research"
+  ],
+
+  applications: [
+    "Neuroplasticity and synaptic signaling research",
+    "HGF/c-Met pathway investigation",
+    "Cognitive and neuronal communication studies",
+    "Central nervous system research models"
+  ],
+
+  appearance: "Encapsulated solid research material",
+  storage: "Store in a cool, dry environment away from light.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+
+"dsip-5mg": {
+  name: "DSIP 5mg",
+
+  strength:
+    "Endogenous neuropeptide studied in sleep regulation, circadian rhythm signaling, and neuroendocrine research models.",
+
+  description:
+    "Delta Sleep–Inducing Peptide (DSIP) is a naturally occurring neuropeptide investigated in laboratory research for its involvement in sleep-related signaling pathways, circadian rhythm regulation, and neuroendocrine communication. In scientific studies, DSIP is explored for its interaction with central nervous system signaling mechanisms and stress-response pathways. Supplied as a high-purity lyophilized peptide for controlled research applications.",
+
+  components: [
+    "Endogenous neuropeptide for neuro research"
+  ],
+
+  applications: [
+    "Sleep–wake cycle and circadian rhythm research",
+    "Neuropeptide signaling studies",
+    "Neuroendocrine pathway investigation",
+    "Stress-response and CNS research models"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+"epitalon-1mg-60-capsules": {
+  name: "Epitalon 1mg (60 Capsules)",
+
+  strength:
+    "Synthetic tetrapeptide bioregulator studied in epigenetic regulation, cellular aging, and circadian rhythm research models.",
+
+  description:
+    "Epitalon is a synthetic tetrapeptide bioregulator derived from epithalamic peptide research. In laboratory and preclinical research settings, it is widely studied for its role in epigenetic regulation, telomerase-related signaling pathways, circadian rhythm modulation, and cellular aging models. Supplied in capsule format to support controlled handling, stability, and consistency for research environments.",
+
+  components: [
+    "Synthetic tetrapeptide for bioregulator research"
+  ],
+
+  applications: [
+    "Epigenetic regulation and gene expression research",
+    "Cellular aging and longevity pathway studies",
+    "Circadian rhythm and pineal signaling research",
+    "Peptide-based bioregulator investigation"
+  ],
+
+  appearance: "Encapsulated solid research material",
+  storage: "Store in a cool, dry environment away from light.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+"epitalon-20mg": {
+  name: "Epitalon (Epithalon) 20mg",
+
+  strength:
+    "Synthetic tetrapeptide bioregulator studied in epigenetic regulation, telomerase signaling, and cellular aging research models.",
+
+  description:
+    "Epitalon (also known as Epithalon) is a synthetic tetrapeptide bioregulator derived from epithalamic peptide research. In laboratory and preclinical research models, it is widely investigated for its role in epigenetic regulation, telomerase-related signaling pathways, circadian rhythm modulation, and cellular aging mechanisms. The 20mg lyophilized format is intended for extended or higher-volume research applications requiring greater material availability.",
+
+  components: [
+    "Synthetic tetrapeptide for bioregulator research"
+  ],
+
+  applications: [
+    "Epigenetic regulation and gene expression research",
+    "Telomerase and cellular aging pathway studies",
+    "Circadian rhythm and pineal signaling research",
+    "Peptide-based bioregulator investigation"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+"epitalon-50mg": {
+  name: "Epitalon (Epithalon) 50mg",
+
+  strength:
+    "Synthetic tetrapeptide bioregulator studied in epigenetic regulation, telomerase signaling, and cellular aging research models.",
+
+  description:
+    "Epitalon (also known as Epithalon) is a synthetic tetrapeptide bioregulator derived from epithalamic peptide research. In laboratory and preclinical research models, it is widely investigated for its role in epigenetic regulation, telomerase-related signaling pathways, circadian rhythm modulation, and cellular aging mechanisms. The 50mg lyophilized format is intended for extended or higher-volume research applications requiring greater material availability.",
+
+  components: [
+    "Synthetic tetrapeptide for bioregulator research"
+  ],
+
+  applications: [
+    "Epigenetic regulation and gene expression research",
+    "Telomerase and cellular aging pathway studies",
+    "Circadian rhythm and pineal signaling research",
+    "Peptide-based bioregulator investigation"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+"fgl-s-10mg": {
+  name: "FGL-S 10mg",
+
+  strength:
+    "Synthetic neuroactive peptide studied in synaptic plasticity, neurotrophic signaling, and cognitive pathway research models.",
+
+  description:
+    "FGL-S is a synthetic peptide derived from the neural cell adhesion molecule (NCAM) domain and is investigated in laboratory research for its interaction with fibroblast growth factor (FGF) receptor signaling. In scientific models, it is studied for its role in synaptic plasticity, neuronal communication pathways, and neurotrophic signaling mechanisms. Supplied as a high-purity lyophilized peptide for controlled neuroscience and cellular research applications.",
+
+  components: [
+    "Synthetic neuroactive peptide for neuroscience research"
+  ],
+
+  applications: [
+    "Synaptic plasticity and neuronal signaling research",
+    "FGF receptor and neurotrophic pathway studies",
+    "Neurocommunication and CNS research models",
+    "Peptide-based cognitive pathway investigation"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+"follistatin-315-1mg": {
+  name: "Follistatin-315 1mg",
+
+  strength:
+    "Recombinant regulatory protein studied in myostatin inhibition, TGF-β signaling, and cellular growth pathway research models.",
+
+  description:
+    "Follistatin-315 is a recombinant protein isoform investigated in laboratory research for its interaction with myostatin and activin signaling pathways within the TGF-β superfamily. In scientific models, it is studied for its role in cellular growth regulation, differentiation signaling, and protein-mediated pathway modulation. Supplied as a high-purity lyophilized recombinant protein for controlled molecular and cellular research applications.",
+
+  components: [
+    "Recombinant protein for molecular and cellular research"
+  ],
+
+  applications: [
+    "Myostatin and activin signaling research",
+    "TGF-β pathway investigation",
+    "Cell growth and differentiation studies",
+    "Protein-based regulatory signaling research"
+  ],
+
+  appearance: "White lyophilized protein powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+"follistatin-344-1mg": {
+  name: "Follistatin-344 1mg",
+
+  strength:
+    "Recombinant regulatory protein isoform studied in myostatin inhibition, activin binding, and TGF-β signaling pathway research models.",
+
+  description:
+    "Follistatin-344 is a recombinant protein isoform consisting of 344 amino acids and is widely investigated in laboratory research for its interaction with myostatin, activin, and related members of the TGF-β superfamily. In scientific research models, it is studied for its role in cellular growth regulation, differentiation signaling, and protein-mediated pathway modulation. Compared to shorter isoforms, Follistatin-344 is noted for its extended binding properties in controlled experimental environments. Supplied as a high-purity lyophilized recombinant protein for molecular and cellular research applications.",
+
+  components: [
+    "Recombinant protein for molecular and cellular research"
+  ],
+
+  applications: [
+    "Myostatin and activin signaling research",
+    "TGF-β pathway investigation",
+    "Cell growth and differentiation studies",
+    "Protein-based regulatory signaling research"
+  ],
+
+  appearance: "White lyophilized protein powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+"foxo4-dri-10mg-en": {
+  name: "FOXO4-DRI (Proxofim) 10mg",
+
+  strength:
+    "Synthetic research peptide studied in FOXO4–p53 interaction, cellular senescence signaling, and transcription-factor pathway models.",
+
+  description:
+    "FOXO4-DRI (also known as Proxofim) is a synthetic peptide designed for laboratory research into cellular senescence and transcription-factor signaling mechanisms. In scientific models, it is studied for its role in disrupting the interaction between FOXO4 and p53, enabling investigation into senescent cell behavior, apoptosis signaling, and age-associated cellular pathways. Supplied as a high-purity lyophilized peptide for controlled in vitro and molecular research applications.",
+
+  components: [
+    "Synthetic research peptide for transcription-factor pathway studies"
+  ],
+
+  applications: [
+    "Cellular senescence pathway research",
+    "FOXO4–p53 interaction studies",
+    "Transcription-factor signaling investigation",
+    "Cell-cycle and apoptosis signaling models"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+},
+"cjc1295-ipamorelin-12mg-blend-en": {
+  name: "Fragment CJC-1295 + Ipamorelin Blend 12mg",
+
+  strength:
+    "Dual-peptide research blend studied for growth hormone–related receptor signaling and endocrine pathway interaction models.",
+
+  description:
+    "This research blend combines Fragment CJC-1295 (MOD GRF 1-29), a growth hormone–releasing hormone analog studied in pituitary signaling models, with Ipamorelin, a selective growth hormone secretagogue receptor (GHS-R) agonist investigated in endocrine pathway research. In laboratory settings, this blend is used to explore synergistic peptide interactions, receptor-mediated signaling, and peptide-based endocrine research models. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
+
+  components: [
+    "Fragment CJC-1295 (MOD GRF 1-29)",
+    "Ipamorelin"
+  ],
+
+  applications: [
+    "Endocrine and pituitary signaling research",
+    "Growth hormone receptor pathway studies",
+    "Peptide–receptor interaction investigation",
+    "Synergistic peptide signaling research"
+  ],
+
+  appearance: "White lyophilized powder blend",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   }
+
 };

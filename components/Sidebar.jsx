@@ -1,52 +1,74 @@
-//components\Sidebar.jsx
+// components/Sidebar.jsx
 "use client";
 
 import { useRouter } from "next/navigation";
 import { PRODUCTS } from "@/data/products";
+import { getTranslatedProduct } from "@/utils/getTranslatedProduct";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function Sidebar() {
   const router = useRouter();
+  const { translations } = useLanguage();
 
-  // Group products by category
+  // ✅ Group products by category
   const grouped = PRODUCTS.reduce((acc, product) => {
-    if (!acc[product.category]) acc[product.category] = [];
-    acc[product.category].push(product);
+    const category = product.category || "Other";
+    if (!acc[category]) acc[category] = [];
+    acc[category].push(product);
     return acc;
   }, {});
 
   return (
-    <aside className="hidden lg:block text-sm space-y-10 max-h-[650px] overflow-y-auto pr-2 border-r border-gray-200">
-
+    <aside
+      className="
+        hidden lg:block
+        text-sm space-y-10
+        pr-4
+        border-r border-gray-200
+      "
+    >
       {Object.entries(grouped).map(([category, items]) => (
-        <div key={category}>
+        <div key={`cat-${category}`}>
           <h3 className="text-bioGreen font-semibold mb-2">
-            {category}
+            {translations?.categories?.[category] || category}
           </h3>
 
           <ul className="space-y-1.5">
-            {items.map((product, index) => (
-              <li
-                key={`${product.slug}-${product.size || "default"}-${index}`}
-                onClick={() => router.push(`/product/${product.slug}`)}
-                className="text-gray-700 hover:text-bioBlue cursor-pointer transition"
-              >
-                {product.name}
-              </li>
-            ))}
+            {items.map((product, index) => {
+              const p = getTranslatedProduct(product, translations);
+
+              // ✅ ABSOLUTELY UNIQUE KEY (cannot collide)
+              const uniqueKey = `${category}-${product.slug || "no-slug"}-${index}`;
+
+              return (
+                <li
+                  key={uniqueKey}
+                  onClick={() => router.push(`/product/${product.slug}`)}
+                  className="
+                    cursor-pointer
+                    text-gray-700
+                    hover:text-bioBlue
+                    transition-colors
+                  "
+                >
+                  {p?.name || product.name}
+                </li>
+              );
+            })}
           </ul>
         </div>
       ))}
 
+      {/* RESEARCH ONLY BOX */}
       <div className="bg-white border border-gray-200 rounded-lg p-4 text-xs text-gray-600">
         <p className="font-semibold text-gray-800 mb-1">
-          Research Use Only
+          {translations?.sidebar?.researchOnlyTitle || "Research Use Only"}
         </p>
         <p>
-          All BioPeptide products are strictly for laboratory research use.
+          {translations?.sidebar?.researchOnlyText ||
+            "All BioPeptide products are strictly for laboratory research use."}
         </p>
       </div>
-
     </aside>
   );
 }
- 

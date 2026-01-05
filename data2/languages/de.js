@@ -24,10 +24,10 @@ export default {
       researchStatus:
         "Ausschließlich für die Laborforschung. Nicht für den menschlichen oder veterinärmedizinischen Gebrauch."
     }
-  },
+  ,
   dir: "ltr",
 
-  products: {
+ 
     "bpc-tb500-glow-blend": {
       name: "Glow Blend (BPC-157 + TB-500)",
 
@@ -54,10 +54,9 @@ export default {
       researchStatus:
         "Nur für Laborforschungszwecke. Nicht für den menschlichen oder veterinärmedizinischen Gebrauch."
     }
-  },
-  dir: "ltr",
+,
 
-  products: {
+
     "5-amino-1mq-50mg": {
       name: "5-Amino-1MQ 50mg (60 Kapseln)",
 
@@ -79,10 +78,9 @@ export default {
       researchStatus:
         "Nur für Laborforschungszwecke. Nicht für den menschlichen oder veterinärmedizinischen Gebrauch."
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
+  
     "aod9604-5mg": {
       name: "AOD9604 5mg",
 
@@ -104,10 +102,9 @@ export default {
       researchStatus:
         "Nur für Laborforschungszwecke. Nicht für den menschlichen oder veterinärmedizinischen Gebrauch."
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
+  
     "ghk-cu-2mg": {
       name: "GHK-Cu 2mg",
 
@@ -129,10 +126,9 @@ export default {
       researchStatus:
         "Nur für Labor- und kosmetische Forschungszwecke. Nicht für den menschlichen oder veterinärmedizinischen Gebrauch."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "ghk-cu-2mg": {
       name: "GHK-Cu 2mg",
 
@@ -154,10 +150,9 @@ export default {
       researchStatus:
         "Nur für Labor- und kosmetische Forschungszwecke. Nicht für den menschlichen oder veterinärmedizinischen Gebrauch."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "acetyl-hexapeptide-3-200mg": {
       name: "Acetyl Hexapeptid-3 (Argireline®) 200mg",
 
@@ -179,10 +174,9 @@ export default {
       researchStatus:
         "Nur für Labor- und kosmetische Forschungszwecke. Nicht für den menschlichen oder veterinärmedizinischen Gebrauch."
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
+  
     "ahk-tripeptide-3-200mg": {
       name: "AHK-Tripeptid-3 200mg",
 
@@ -204,10 +198,9 @@ export default {
       researchStatus:
         "Nur für Labor- und kosmetische Forschungszwecke. Nicht für den menschlichen oder veterinärmedizinischen Gebrauch."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+ 
     "ahk-cu-200mg": {
       name: "AHK-Cu 200mg (Topisch)",
 
@@ -233,10 +226,9 @@ export default {
       researchStatus:
         "Nur für Labor- und kosmetische Forschungszwecke. Nicht für den menschlichen oder veterinärmedizinischen Gebrauch."
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
+  
     "aod9604-6mg": {
       name: "AOD9604 6mg",
 
@@ -258,10 +250,9 @@ export default {
       researchStatus:
         "Nur für Laborforschungszwecke. Nicht für den menschlichen oder veterinärmedizinischen Gebrauch."
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
+  
     "bpc-157-10mg": {
       name: "BPC-157 10mg",
 
@@ -283,10 +274,9 @@ export default {
       researchStatus:
         "Nur für Laborforschungszwecke. Nicht für den menschlichen oder veterinärmedizinischen Gebrauch."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "bpc-157-tb-500-blend-10mg": {
       name: "BPC-157 + TB-500 Mischung 10mg",
 
@@ -313,10 +303,8 @@ export default {
       researchStatus:
         "Nur für Laborforschungszwecke. Nicht für den menschlichen oder veterinärmedizinischen Gebrauch."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
     "bpc-157-tb-500-blend-20mg": {
       name: "BPC-157 + TB-500 Mischung 20mg",
 
@@ -343,10 +331,9 @@ export default {
       researchStatus:
         "Nur für Laborforschungszwecke. Nicht für den menschlichen oder veterinärmedizinischen Gebrauch."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+ 
     "bpc-157-tb-500-blend-30mg": {
       name: "BPC-157 + TB-500 Mischung 30mg",
 
@@ -373,10 +360,9 @@ export default {
       researchStatus:
         "Nur für Laborforschungszwecke. Nicht für den menschlichen oder veterinärmedizinischen Gebrauch."
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
+  
     "bpc-157-tb-500-blend-30mg": {
       name: "BPC-157 + TB-500 Mischung 30mg",
 
@@ -403,10 +389,9 @@ export default {
       researchStatus:
         "Nur für Laborforschung. Nicht für den menschlichen oder tierärztlichen Gebrauch."
     }
-  },
-  dir: "ltr",
+,
 
-  products: {
+  
     "bpc-157-tb-500-kpv-ghk-cu-80mg": {
       name: "Klow Blend (BPC-157 + TB-500 + KPV + GHK-Cu) 80mg",
 
@@ -436,10 +421,9 @@ export default {
       researchStatus:
         "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierärztlichen Gebrauch."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+
     "bronchogen-20mg": {
       name: "Bronchogen® 20mg (Bioregulator)",
 
@@ -465,10 +449,9 @@ export default {
       researchStatus:
         "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierärztlichen Gebrauch."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+ 
     "cardiogen-20mg": {
       name: "Cardiogen® 20mg (Bioregulator)",
 
@@ -494,10 +477,9 @@ export default {
       researchStatus:
         "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierärztlichen Gebrauch."
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
+  
     "cartalax-20mg": {
       name: "Cartalax® 20mg (Bioregulator)",
 
@@ -523,10 +505,9 @@ export default {
       researchStatus:
         "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierärztlichen Gebrauch."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+ 
     "adipotide-ftpp-10mg": {
       name: "Adipotide (FTPP) 10mg",
 
@@ -548,10 +529,9 @@ export default {
       researchStatus:
         "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierärztlichen Gebrauch."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "ahk-tripeptide-3-200mg": {
       name: "AHK-Tripeptide-3 200mg",
 
@@ -573,10 +553,9 @@ export default {
       researchStatus:
         "Nur für Labor- und kosmetische Forschungszwecke. Nicht für den menschlichen oder tierärztlichen Gebrauch."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "aicar-50mg": {
       name: "AICAR 50mg",
 
@@ -597,6 +576,550 @@ export default {
       storage: "Bei -20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
       researchStatus:
         "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierärztlichen Gebrauch."
-    }
-  }
+    
+  },
+  
+
+  
+    "ara-290-16mg": {
+      name: "ARA-290 16mg",
+
+      strength:
+        "Synthetisches Peptid, das in der Laborforschung hinsichtlich seiner Wechselwirkung mit erythropoietinabgeleiteten Rezeptor-Signalwegen untersucht wird.",
+
+      description:
+        "ARA-290 ist ein synthetisches Peptid, das aus einer spezifischen Region von Erythropoietin (EPO) abgeleitet ist und in der Laborforschung aufgrund seiner Wechselwirkung mit gewebeprotektiven Rezeptor-Signalwegen untersucht wird. In kontrollierten Forschungsumgebungen wird es hinsichtlich zellulärer Signalmechanismen, Peptid–Rezeptor-Interaktionen und pfadspezifischer biologischer Antwortmodelle erforscht.",
+
+      applications: [
+        "Forschung zu Peptid–Rezeptor-Interaktionen",
+        "Studien zu zellulären Signalwegen",
+        "Forschung zu gewebeprotektiven Signalmodellen",
+        "Untersuchung erythropoietinabgeleiteter Peptide"
+      ],
+
+      appearance: "Weißes lyophilisiertes Pulver",
+      storage: "Bei -20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+      researchStatus:
+        "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierärztlichen Gebrauch."
+    },
+    "b7-33-6mg": {
+  name: "B7-33 6mg",
+
+  strength:
+    "Synthetisches, von Relaxin abgeleitetes Peptid zur Untersuchung selektiver Rezeptor-Signalwege in der Laborforschung.",
+
+  description:
+    "B7-33 ist ein synthetisches Peptid, das von der B-Kette des Hormons Relaxin abgeleitet ist und in der Laborforschung aufgrund seiner selektiven Wechselwirkung mit Rezeptoren der Relaxin-Peptidfamilie untersucht wird. In kontrollierten Forschungsumgebungen wird es hinsichtlich der Peptid–Rezeptor-Signalspezifität, nachgeschalteter zellulärer Kommunikationswege und Struktur–Funktions-Beziehungen erforscht. Geliefert als hochreines lyophilisiertes Pulver für wissenschaftliche Untersuchungen.",
+
+  applications: [
+    "Forschung zu Peptid–Rezeptor-Interaktionen",
+    "Selektive Relaxin-Rezeptor-Signalstudien",
+    "Untersuchung zellulärer Kommunikationswege",
+    "Struktur–Funktions-Forschung von Peptiden"
+  ],
+
+  appearance: "Weißes lyophilisiertes Pulver",
+  storage: "Bei -20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierärztlichen Gebrauch."
+},
+"chonluten-20mg": {
+  name: "Chonluten® 20mg (Bioregulator)",
+
+  strength:
+    "Synthetischer kurzkettiger Peptid-Bioregulator zur Untersuchung organspezifischer zellulärer Signalübertragung und Genexpressionsmodelle.",
+
+  description:
+    "Chonluten® ist ein synthetischer bioregulatorischer Peptidkomplex, der in Laborforschungsmodellen im Zusammenhang mit der Signalübertragung in respiratorischem und bronchopulmonalem Gewebe untersucht wird. In kontrollierten Forschungsumgebungen wird er hinsichtlich seiner Wechselwirkungen mit Genexpressionswegen, peptidvermittelten Regulationsmechanismen und gewebespezifischer zellulärer Signalübertragung in der Bronchial- und Lungenbiologie erforscht.",
+
+  applications: [
+    "Forschung zur organspezifischen Peptidsignalübertragung",
+    "Studien zu Genexpression und regulatorischen Signalwegen",
+    "Forschungsmodelle für respiratorisches und bronchopulmonares Gewebe",
+    "Forschung zu bioregulatorischen Peptidmechanismen"
+  ],
+
+  appearance: "Weißes bis cremefarbenes Pulver",
+  storage: "Bei -20°C lagern. Vor Feuchtigkeit und Licht schützen.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierärztlichen Gebrauch."
+},
+"cjc-1295-ghrp-2-blend-10mg": {
+  name: "CJC-1295 + GHRP-2 Blend 10mg",
+
+  strength:
+    "Doppelpeptid-Forschungsblend aus CJC-1295 und GHRP-2 zur Untersuchung synergistischer endokriner Signalwege und Peptid–Rezeptor-Interaktionen.",
+
+  description:
+    "Dieser Forschungsblend kombiniert CJC-1295, ein Analogon des Wachstumshormon-freisetzenden Hormons (GHRH), das für rezeptorvermittelte endokrine Signalwege untersucht wird, mit GHRP-2, einem Wachstumshormon-Sekretagog-Peptid, das für seine Wechselwirkung mit Ghrelin- und GHS-R-Signalwegen erforscht wird. Das 10mg-Format ist für Laborstudien zur Untersuchung synergistischer Peptidsignale, Rezeptor-Crosstalks und endokriner Signalwege konzipiert. Geliefert als hochreiner lyophilisierter Peptidblend.",
+
+  components: [
+    "CJC-1295 (GHRH-Analogon)",
+    "GHRP-2 (Wachstumshormon-Sekretagog-Peptid)"
+  ],
+
+  applications: [
+    "Forschung zu endokrinen Signalwegen",
+    "Studien zu Peptid–Rezeptor-Interaktionen",
+    "Untersuchung synergistischer Peptidsignalisierung",
+    "Forschung zu hormonellen Kommunikationsmodellen"
+  ],
+
+  appearance: "Weißes lyophilisiertes Pulvergemisch",
+  storage: "Bei -20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierärztlichen Gebrauch."
+},
+"cjc-1295-ghrp-6-blend-10mg": {
+  name: "CJC-1295 + GHRP-6 Blend 10mg",
+
+  strength:
+    "Doppelpeptid-Forschungsblend aus CJC-1295 und GHRP-6 zur Untersuchung synergistischer endokriner Signalwege und Peptid–Rezeptor-Interaktionen.",
+
+  description:
+    "Dieser Forschungsblend kombiniert CJC-1295, ein Analogon des Wachstumshormon-freisetzenden Hormons (GHRH), das für rezeptorvermittelte endokrine Signalwege untersucht wird, mit GHRP-6, einem Wachstumshormon-Sekretagog-Peptid, das für seine Wechselwirkung mit Ghrelin- und GHS-R-Signalwegen erforscht wird. Das 10mg-Format ist für Laborstudien zur Untersuchung synergistischer Peptidsignale, Rezeptor-Crosstalks und endokriner Signalwege konzipiert.",
+
+  components: [
+    "CJC-1295 (GHRH-Analogon)",
+    "GHRP-6 (Wachstumshormon-Sekretagog-Peptid)"
+  ],
+
+  applications: [
+    "Forschung zu endokrinen Signalwegen",
+    "Studien zu Peptid–Rezeptor-Interaktionen",
+    "Untersuchung synergistischer Peptidsignalisierung",
+    "Forschung zu hormonellen Kommunikationsmodellen"
+  ],
+
+  appearance: "Weißes lyophilisiertes Pulvergemisch",
+  storage: "Bei -20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierärztlichen Gebrauch."
+},
+"cjc-1295-hexarelin-blend-10mg": {
+  name: "CJC-1295 + Hexarelin Blend 10mg",
+
+  strength:
+    "Doppelpeptid-Forschungsblend aus CJC-1295 und Hexarelin zur Untersuchung synergistischer endokriner Signalwege und Peptid–Rezeptor-Interaktionen.",
+
+  description:
+    "Dieser Forschungsblend kombiniert CJC-1295, ein Analogon des Wachstumshormon-freisetzenden Hormons (GHRH), das für rezeptorvermittelte endokrine Signalwege untersucht wird, mit Hexarelin, einem Wachstumshormon-Sekretagog-Peptid, das für seine Wechselwirkung mit Ghrelin- und GHS-R-Signalwegen erforscht wird. Das 10mg-Format ist für Laborstudien zur Untersuchung synergistischer Peptidsignale, Rezeptor-Crosstalks und endokriner Signalwege konzipiert.",
+
+  components: [
+    "CJC-1295 (GHRH-Analogon)",
+    "Hexarelin (Wachstumshormon-Sekretagog-Peptid)"
+  ],
+
+  applications: [
+    "Forschung zu endokrinen Signalwegen",
+    "Studien zu Peptid–Rezeptor-Interaktionen",
+    "Untersuchung synergistischer Peptidsignalisierung",
+    "Forschung zu hormonellen Kommunikationsmodellen"
+  ],
+
+  appearance: "Weißes lyophilisiertes Pulvergemisch",
+  storage: "Bei -20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierärztlichen Gebrauch."
+},
+"cjc-1295-ipamorelin-ghrp-2-blend": {
+  name: "CJC-1295 + Ipamorelin + GHRP-2 Blend",
+
+  strength:
+    "Dreifach-Peptid-Forschungsblend aus CJC-1295, Ipamorelin und GHRP-2 für fortgeschrittene endokrine Signal- und Peptid–Rezeptor-Interaktionsstudien.",
+
+  description:
+    "Dieser Forschungsblend kombiniert CJC-1295, ein Analogon des Wachstumshormon-freisetzenden Hormons (GHRH), mit Ipamorelin und GHRP-2, beide Wachstumshormon-Sekretagog-Peptide, die auf ihre Interaktion mit Ghrelin- und GHS-R-Signalwegen untersucht werden. Die Mischung ist für Laborstudien konzipiert, die synergistische endokrine Signalübertragung, Rezeptor-Crosstalk und komplexe Peptidkommunikationswege erforschen. Geliefert als hochreine lyophilisierte Peptidmischung.",
+
+  components: [
+    "CJC-1295 (GHRH-Analogon)",
+    "Ipamorelin (Wachstumshormon-Sekretagog-Peptid)",
+    "GHRP-2 (Wachstumshormon-Sekretagog-Peptid)"
+  ],
+
+  applications: [
+    "Forschung zu endokrinen Signalwegen",
+    "Studien zu Peptid–Rezeptor-Interaktionen",
+    "Forschung zur synergistischen Peptidkommunikation",
+    "Untersuchung hormoneller Signalmodelle"
+  ],
+
+  appearance: "Weißes lyophilisiertes Pulvergemisch",
+  storage: "Bei -20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierärztlichen Gebrauch."
+},
+"cjc-1295-ipamorelin-blend-10mg": {
+  name: "CJC-1295 + Ipamorelin Blend 10mg",
+
+  strength:
+    "Doppelpeptid-Forschungsblend aus CJC-1295 und Ipamorelin für endokrine Signal- und Peptid–Rezeptor-Interaktionsstudien.",
+
+  description:
+    "Dieser Forschungsblend kombiniert CJC-1295, ein Analogon des Wachstumshormon-freisetzenden Hormons (GHRH), mit Ipamorelin, einem selektiven Wachstumshormon-Sekretagog-Peptid, das auf seine Interaktion mit GHS-R-Signalwegen untersucht wird. Das 10mg-Format ist für Laborstudien konzipiert, die synergistische Peptidsignalübertragung, Rezeptor-Crosstalk und Kommunikation über endokrine Signalwege erforschen. Geliefert als hochreine lyophilisierte Peptidmischung.",
+
+  components: [
+    "CJC-1295 (GHRH-Analogon)",
+    "Ipamorelin (Wachstumshormon-Sekretagog-Peptid)"
+  ],
+
+  applications: [
+    "Forschung zu endokrinen Signalwegen",
+    "Studien zu Peptid–Rezeptor-Interaktionen",
+    "Forschung zur synergistischen Peptidkommunikation",
+    "Untersuchung hormoneller Signalmodelle"
+  ],
+
+  appearance: "Weißes lyophilisiertes Pulvergemisch",
+  storage: "Bei -20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierärztlichen Gebrauch."
+},
+"mod-grf-1-29-5mg": {
+  name: "Mod GRF 1-29 (CJC-1295 No DAC) 5mg",
+
+  strength:
+    "Synthetisches Wachstumshormon-freisetzendes Hormon (GHRH) Analogon, untersucht für kurzzeitige Rezeptor-Signalisierung und endokrine Forschungsmodelle.",
+
+  description:
+    "Mod GRF 1-29, auch bekannt als CJC-1295 No DAC, ist ein synthetisches Peptidanalogon des Wachstumshormon-freisetzenden Hormons (GHRH). In Laborumgebungen wird es auf kurzzeitige GHRH-Rezeptoraktivierung, endokrine Signal-Dynamik und Peptid–Rezeptor-Wechselwirkungen untersucht. Das 5mg-Format unterstützt erweiterte Laborstudien mit erhöhter Materialverfügbarkeit und gleichzeitig kontrollierten, kurzzeitigen Signalmodellen. Geliefert als hochreines gefriergetrocknetes Pulver.",
+
+  components: [
+    "Mod GRF 1-29 (CJC-1295 No DAC Analog)"
+  ],
+
+  applications: [
+    "Forschung zu endokrinen Signalwegen",
+    "GHRH-Rezeptor-Interaktionsstudien",
+    "Kurzzeit-Peptid-Signalmodelle",
+    "Forschung zur hormonellen Kommunikation"
+  ],
+
+  appearance: "Weißes gefriergetrocknetes Pulver",
+  storage: "Bei -20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierärztlichen Gebrauch."
+},
+"cortagen-20mg": {
+  name: "Cortagen® 20mg (Bioregulator)",
+
+  strength:
+    "Synthetischer kurzkettiger Peptid-Bioregulator, untersucht für neuronale Gewebesignale und Genexpressionsforschungsmodelle.",
+
+  description:
+    "Cortagen® ist ein synthetisches bioregulatorisches Peptidkomplex, das in Laborforschungsmodellen zum zentralen Nervensystem und neuronalen Gewebesignalen untersucht wird. In kontrollierten Forschungsumgebungen wird es auf Interaktionen mit Genexpressionswegen, peptidvermittelten Regulationsmechanismen und zellulären Kommunikationsmodellen in der Neurowissenschaft untersucht. Geliefert als hochreines Forschungsprodukt.",
+
+  components: [
+    "Kurzkettige regulatorische Peptide (Di- und Tripeptid-Komplexe)"
+  ],
+
+  applications: [
+    "Organ-spezifische Peptid-Signalforschung",
+    "Genexpressions- und Regulationswegstudien",
+    "Neuronale und zentrale Nervensystem-Forschungsmodelle",
+    "Forschung zu bioregulatorischen Peptidmechanismen"
+  ],
+
+  appearance: "Weiß bis off-white Pulver",
+  storage: "Bei -20°C lagern. Vor Feuchtigkeit und Licht schützen.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierärztlichen Gebrauch."
+},
+"decapeptide-12-10mg": {
+  name: "Decapeptide-12",
+
+  strength:
+    "Synthetisches kosmetisches Forschungspeptid, untersucht für Melanogenese-Signalwege und Hautpigmentierungsmodelle.",
+
+  description:
+    "Decapeptide-12 ist ein synthetisches Peptid, das in der kosmetischen und dermatologischen Forschung umfangreich untersucht wird, insbesondere hinsichtlich seiner Rolle in Melanogenese-Signalwegen und Peptid-vermittelten Pigmentierungsmodellen. In Laborstudien wird seine Interaktion mit Tyrosinase-bezogenen Signalwegen und Peptid-Signalmechanismen, die die Hautfarbregulation steuern, untersucht. Geliefert als hochreines gefriergetrocknetes Peptid für kontrollierte kosmetische und zelluläre Forschungsumgebungen.",
+
+  components: [
+    "Synthetisches Decapeptid für kosmetische Forschung"
+  ],
+
+  applications: [
+    "Forschung zu Melanogenese und Pigmentierungssignalwegen",
+    "Untersuchung kosmetischer Peptidwege",
+    "Hautbiologie- und Peptidinteraktionsstudien",
+    "Forschung zu topischen Formulierungen und Stabilität"
+  ],
+
+  appearance: "Weißes bis off-white gefriergetrocknetes Pulver",
+  storage: "Bei -20°C lagern. Vor Licht und Feuchtigkeit schützen.",
+  researchStatus:
+    "Nur für Labor- und kosmetische Forschung. Nicht für den menschlichen oder tierischen Gebrauch."
+},
+"dihexa-5mg-60-capsules": {
+  name: "Dihexa 5mg (60 Kapseln)",
+
+  strength:
+    "Peptid-abgeleitetes Kleinmolekül, untersucht in Modellen der Neuroplastizität und synaptischen Signalübertragung.",
+
+  description:
+    "Dihexa ist ein peptid-abgeleitetes Kleinmolekül, das im Labor auf seine Interaktion mit Hepatozyten-Wachstumsfaktor(HGF)-Signalwegen und synaptischer Plastizität untersucht wird. In präklinischen Modellen wird seine Rolle bei Neurogenese, Synapsenbildung und kognitiver Signalübertragung untersucht. Geliefert in Kapseln für kontrollierte Handhabung und Stabilität in Forschungsumgebungen.",
+
+  components: [
+    "Peptid-abgeleitetes Kleinmolekül für Neuroforschung"
+  ],
+
+  applications: [
+    "Neuroplastizitäts- und synaptische Signalübertragungsforschung",
+    "HGF/c-Met Pfadforschung",
+    "Kognitive und neuronale Kommunikationsstudien",
+    "Forschungsmodelle des zentralen Nervensystems"
+  ],
+
+  appearance: "Kapseliertes festes Forschungsmaterial",
+  storage: "In kühler, trockener Umgebung, fern von Licht aufbewahren.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierischen Gebrauch."
+},
+"dsip-5mg": {
+  name: "DSIP 5mg",
+
+  strength:
+    "Endogenes Neuropeptid, untersucht in Modellen zur Schlafregulation, circadianer Rhythmussignalisierung und neuroendokriner Forschung.",
+
+  description:
+    "Delta Sleep–Inducing Peptide (DSIP) ist ein natürlich vorkommendes Neuropeptid, das in Laborforschungsmodellen auf seine Beteiligung an schlafbezogenen Signalwegen, Regulierung des circadianen Rhythmus und neuroendokriner Kommunikation untersucht wird. In wissenschaftlichen Studien wird DSIP auf seine Interaktion mit Signalmechanismen des zentralen Nervensystems und Stressreaktionswege untersucht. Geliefert als hochreines gefriergetrocknetes Peptid für kontrollierte Forschung.",
+
+  components: [
+    "Endogenes Neuropeptid für Neuroforschung"
+  ],
+
+  applications: [
+    "Forschung zum Schlaf-Wach-Zyklus und circadianen Rhythmus",
+    "Neuropeptid-Signalisierungsstudien",
+    "Untersuchung neuroendokriner Signalwege",
+    "Stressreaktions- und ZNS-Forschungsmodelle"
+  ],
+
+  appearance: "Weißes gefriergetrocknetes Pulver",
+  storage: "Bei -20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierischen Gebrauch."
+},
+"epitalon-1mg-60-capsules": {
+  name: "Epitalon 1mg (60 Kapseln)",
+
+  strength:
+    "Synthetischer tetrapeptidischer Bioregulator, untersucht in epigenetischer Regulation, zellulärem Altern und circadianen Rhythmusforschungsmodellen.",
+
+  description:
+    "Epitalon ist ein synthetischer tetrapeptidischer Bioregulator, der aus epithalamischen Peptidforschungen abgeleitet ist. In Labor- und präklinischen Forschungsumgebungen wird es umfassend auf seine Rolle in epigenetischer Regulation, telomerasebezogenen Signalwegen, circadianer Rhythmusmodulation und zellulären Altersmodellen untersucht. Geliefert in Kapseln zur Unterstützung kontrollierter Handhabung, Stabilität und Konsistenz in Forschungsumgebungen.",
+
+  components: [
+    "Synthetisches Tetrapeptid für Bioregulatorforschung"
+  ],
+
+  applications: [
+    "Forschung zur epigenetischen Regulation und Genexpression",
+    "Studien zu zellulärem Altern und Langlebigkeitswegen",
+    "Forschung zu circadianem Rhythmus und Zirbeldrüsen-Signalen",
+    "Untersuchung von peptidbasierten Bioregulatoren"
+  ],
+
+  appearance: "Kapseliertes festes Forschungsmaterial",
+  storage: "In kühler, trockener Umgebung, lichtgeschützt lagern.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierischen Gebrauch."
+},
+"epitalon-20mg": {
+  name: "Epitalon (Epithalon) 20mg",
+
+  strength:
+    "Synthetischer tetrapeptidischer Bioregulator, untersucht in epigenetischer Regulation, Telomerase-Signalgebung und Modellen der zellulären Alterung.",
+
+  description:
+    "Epitalon (auch bekannt als Epithalon) ist ein synthetischer tetrapeptidischer Bioregulator, der aus epithalamischen Peptidforschungen abgeleitet wurde. In Labor- und präklinischen Forschungsmodellen wird es umfassend auf seine Rolle in der epigenetischen Regulation, telomerasebezogenen Signalwegen, Modulation des circadianen Rhythmus und Mechanismen der zellulären Alterung untersucht. Das 20mg gefriergetrocknete Format ist für erweiterte oder volumenintensive Forschungsanwendungen vorgesehen, die eine größere Materialverfügbarkeit erfordern.",
+
+  components: [
+    "Synthetisches Tetrapeptid für Bioregulatorforschung"
+  ],
+
+  applications: [
+    "Forschung zur epigenetischen Regulation und Genexpression",
+    "Studien zu Telomerase- und Zellalterungswegen",
+    "Forschung zu circadianem Rhythmus und Zirbeldrüsen-Signalgebung",
+    "Untersuchung peptidbasierter Bioregulatoren"
+  ],
+
+  appearance: "Weißes gefriergetrocknetes Pulver",
+  storage: "Bei -20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierischen Gebrauch."
+},
+"epitalon-50mg": {
+  name: "Epitalon (Epithalon) 50mg",
+
+  strength:
+    "Synthetischer tetrapeptidischer Bioregulator, untersucht in epigenetischer Regulation, Telomerase-Signalgebung und Modellen der zellulären Alterung.",
+
+  description:
+    "Epitalon (auch bekannt als Epithalon) ist ein synthetischer tetrapeptidischer Bioregulator, der aus epithalamischen Peptidforschungen abgeleitet wurde. In Labor- und präklinischen Forschungsmodellen wird es umfassend auf seine Rolle in der epigenetischen Regulation, telomerasebezogenen Signalwegen, Modulation des circadianen Rhythmus und Mechanismen der zellulären Alterung untersucht. Das 50mg gefriergetrocknete Format ist für erweiterte oder volumenintensive Forschungsanwendungen vorgesehen, die eine größere Materialverfügbarkeit erfordern.",
+
+  components: [
+    "Synthetisches Tetrapeptid für Bioregulatorforschung"
+  ],
+
+  applications: [
+    "Forschung zur epigenetischen Regulation und Genexpression",
+    "Studien zu Telomerase- und Zellalterungswegen",
+    "Forschung zu circadianem Rhythmus und Zirbeldrüsen-Signalgebung",
+    "Untersuchung peptidbasierter Bioregulatoren"
+  ],
+
+  appearance: "Weißes gefriergetrocknetes Pulver",
+  storage: "Bei -20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierischen Gebrauch."
+},
+"fgl-s-10mg": {
+  name: "FGL-S 10mg",
+
+  strength:
+    "Synthetisches neuroaktives Peptid, untersucht in Modellen der synaptischen Plastizität, neurotrophen Signalgebung und kognitiven Pfadforschung.",
+
+  description:
+    "FGL-S ist ein synthetisches Peptid, das aus der neuronalen Zelladhäsionsmolekül (NCAM) Domäne abgeleitet wurde und in Laborforschungen auf seine Interaktion mit Fibroblasten-Wachstumsfaktor (FGF) Rezeptor-Signalwegen untersucht wird. In wissenschaftlichen Modellen wird es für seine Rolle in der synaptischen Plastizität, neuronalen Kommunikationswegen und neurotrophischen Signalmechanismen untersucht. Geliefert als hochreines gefriergetrocknetes Peptid für kontrollierte Neurowissenschafts- und Zellforschung.",
+
+  components: [
+    "Synthetisches neuroaktives Peptid für Neurowissenschaftsforschung"
+  ],
+
+  applications: [
+    "Forschung zur synaptischen Plastizität und neuronalen Signalgebung",
+    "FGF-Rezeptor- und neurotrophe Pfadstudien",
+    "Neuronale Kommunikation und ZNS-Forschungsmodelle",
+    "Forschung zu kognitiven Pfaden auf Peptidbasis"
+  ],
+
+  appearance: "Weißes gefriergetrocknetes Pulver",
+  storage: "Bei -20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierischen Gebrauch."
+},
+"follistatin-315-1mg": {
+  name: "Follistatin-315 1mg",
+
+  strength:
+    "Rekombinantes regulatorisches Protein, untersucht in Myostatin-Inhibition, TGF-β-Signalgebung und Modellen der Zellwachstumsforschung.",
+
+  description:
+    "Follistatin-315 ist ein rekombinantes Protein-Isoform, das in Laborstudien auf seine Interaktion mit Myostatin- und Activin-Signalwegen innerhalb der TGF-β-Superfamilie untersucht wird. In wissenschaftlichen Modellen wird seine Rolle in der Zellwachstumsregulation, Differenzierungssignalisierung und proteinvermittelten Pfadmodulation untersucht. Geliefert als hochreines gefriergetrocknetes rekombinantes Protein für kontrollierte molekulare und zelluläre Forschungsanwendungen.",
+
+  components: [
+    "Rekombinantes Protein für molekulare und zelluläre Forschung"
+  ],
+
+  applications: [
+    "Myostatin- und Activin-Signalforschung",
+    "TGF-β Pfaduntersuchung",
+    "Zellwachstums- und Differenzierungsstudien",
+    "Proteinbasierte regulatorische Signaluntersuchungen"
+  ],
+
+  appearance: "Weißes gefriergetrocknetes Proteinpulver",
+  storage: "Bei −20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierischen Gebrauch."
+},
+"follistatin-344-1mg": {
+  name: "Follistatin-344 1mg",
+
+  strength:
+    "Rekombinantes regulatorisches Protein-Isoform, untersucht in Myostatin-Inhibition, Activin-Bindung und TGF-β-Signalweg-Modellen.",
+
+  description:
+    "Follistatin-344 ist ein rekombinantes Protein-Isoform, bestehend aus 344 Aminosäuren und wird in Laborstudien umfassend auf seine Interaktion mit Myostatin, Activin und verwandten Mitgliedern der TGF-β-Superfamilie untersucht. In wissenschaftlichen Modellen wird seine Rolle in Zellwachstumsregulation, Differenzierungssignalisierung und proteinvermittelter Pfadmodulation untersucht. Im Vergleich zu kürzeren Isoformen ist Follistatin-344 für seine erweiterten Bindungseigenschaften in kontrollierten experimentellen Umgebungen bekannt. Geliefert als hochreines gefriergetrocknetes rekombinantes Protein für molekulare und zelluläre Forschung.",
+
+  components: [
+    "Rekombinantes Protein für molekulare und zelluläre Forschung"
+  ],
+
+  applications: [
+    "Myostatin- und Activin-Signalforschung",
+    "TGF-β Pfaduntersuchung",
+    "Zellwachstums- und Differenzierungsstudien",
+    "Proteinbasierte regulatorische Signaluntersuchungen"
+  ],
+
+  appearance: "Weißes gefriergetrocknetes Proteinpulver",
+  storage: "Bei −20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für den menschlichen oder tierischen Gebrauch."
+},
+"foxo4-dri-10mg-de": {
+  name: "FOXO4-DRI (Proxofim) 10mg",
+
+  strength:
+    "Synthetisches Forschungspeptid, untersucht in der FOXO4–p53-Interaktion, der zellulären Seneszenzsignalgebung und Transkriptionsfaktor-Pfadmodellen.",
+
+  description:
+    "FOXO4-DRI (auch bekannt als Proxofim) ist ein synthetisches Peptid, das für Laborforschung zur zellulären Seneszenz und zu Transkriptionsfaktor-Signalmechanismen entwickelt wurde. In wissenschaftlichen Modellen wird es für seine Rolle bei der Störung der Interaktion zwischen FOXO4 und p53 untersucht, wodurch Untersuchungen zu seneszentem Zellverhalten, Apoptosesignalgebung und altersassoziierten zellulären Signalwegen ermöglicht werden. Geliefert als hochreines lyophilisiertes Peptid für kontrollierte in vitro- und molekulare Forschungsanwendungen.",
+
+  components: [
+    "Synthetisches Forschungspeptid für Transkriptionsfaktor-Studien"
+  ],
+
+  applications: [
+    "Forschung zu zellulären Seneszenzsignalwegen",
+    "FOXO4–p53-Interaktionsstudien",
+    "Untersuchung der Transkriptionsfaktor-Signalgebung",
+    "Modelle der Zellzyklus- und Apoptosesignalgebung"
+  ],
+
+  appearance: "Weißes lyophilisiertes Pulver",
+  storage: "Bei −20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+  researchStatus:
+    "Nur für die Laborforschung bestimmt. Nicht für den menschlichen oder veterinärmedizinischen Gebrauch."
+},
+"cjc1295-ipamorelin-12mg-blend-de": {
+  name: "Fragment CJC-1295 + Ipamorelin Blend 12mg",
+
+  strength:
+    "Doppelpeptid-Forschungsblend untersucht für wachstumshormonbezogene Rezeptorsignalgebung und endokrine Modellpfade.",
+
+  description:
+    "Diese Forschungsblend kombiniert Fragment CJC-1295 (MOD GRF 1-29), ein Wachstumshormon-freisetzendes Hormonanalogon, das in Hypophysen-Signalmodellen untersucht wird, mit Ipamorelin, einem selektiven Agonisten des Wachstumshormon-Sekretagog-Rezeptors (GHS-R), der in der endokrinen Forschung eingesetzt wird. In Laborumgebungen wird diese Blend zur Untersuchung synergistischer Peptidinteraktionen, rezeptorvermittelter Signalgebung und peptidbasierter endokriner Forschungsmodelle verwendet. Geliefert als hochreiner lyophilisierter Peptidblend für kontrollierte wissenschaftliche Untersuchungen.",
+
+  components: [
+    "Fragment CJC-1295 (MOD GRF 1-29)",
+    "Ipamorelin"
+  ],
+
+  applications: [
+    "Endokrine und hypophysäre Signalwegforschung",
+    "Studien zu Wachstumshormon-Rezeptorpfaden",
+    "Untersuchung von Peptid–Rezeptor-Interaktionen",
+    "Forschung zu synergistischer Peptidsignalgebung"
+  ],
+
+  appearance: "Weißes lyophilisiertes Pulvermischung",
+  storage: "Bei −20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+  researchStatus:
+    "Nur für die Laborforschung bestimmt. Nicht für den menschlichen oder veterinärmedizinischen Gebrauch."
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+  
 };

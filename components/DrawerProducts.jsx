@@ -47,13 +47,13 @@ export default function DrawerProducts({ open, setOpen }) {
       {/* FIXED SLIDING DRAWER */}
       <aside
         className={`
-          fixed top-0 left-0 h-full 
+        fixed top-0 right-0 h-full
           w-[85%] sm:w-[350px] 
           bg-white shadow-2xl 
           z-[99999]            /* <-- SUPER HIGH Z-INDEX */
           transform transition-transform duration-300
           overflow-y-auto flex flex-col
-          ${open ? "translate-x-0" : "-translate-x-full"}
+          ${open ? "translate-x-0" : "translate-x-full"}
         `}
       >
 

@@ -1,4 +1,4 @@
-export const pt = {
+export default {
   about: {
     hero: {
       title: "Sobre os Laboratórios BioPeptide",
@@ -252,17 +252,24 @@ peptideInfo: {
 },
 home: {
   hero: {
-    badge: "Cápsulas de Pesquisa BioPeptide",
-    title: "Cápsulas de Peptídeos para Pesquisa",
-    subtitle: "Cápsulas BioPeptide de alta pureza desenvolvidas para pesquisa científica.",
-    button: "Saiba mais"
+    title: "Comprar Peptídeos de Pesquisa",
+    subtitle: "Peptídeos altamente purificados como Melanotan II, CJC-1295, TB-500, IGF-1 e mais.",
+    button: "Saiba Mais",
+
+    title2: "Misturas de Peptídeos de Pesquisa",
+    subtitle2: "Combinações avançadas de peptídeos para aplicações laboratoriais.",
+    button2: "Explorar Misturas",
+
+    title3: "Cápsulas de Peptídeos de Pesquisa",
+    subtitle3: "Formulações em cápsulas para ambientes de pesquisa controlados.",
+    button3: "Ver Cápsulas"
   },
 
   productGrid: {
     mainTitle: "Comprar Peptídeos para Pesquisa Científica",
-    description:
-      "A BioPeptide fornece peptídeos de pesquisa de alta pureza com documentação completa.",
+   description: "A BioPeptide™ é especializada no desenvolvimento e na síntese de peptídeos, proteínas e compostos derivados de aminoácidos de alta pureza, destinados exclusivamente à pesquisa científica e aplicações laboratoriais. A BioPeptide™ utiliza sistemas avançados de síntese peptídica automatizados e manuais, juntamente com tecnologias de síntese em fase sólida e em solução, para fornecer peptídeos que atingem de forma consistente níveis de pureza superiores a 99%.\n\nDesde as fases iniciais do design e da síntese dos peptídeos até o processamento final, embalagem e distribuição, a BioPeptide™ segue rigorosos protocolos de controle de qualidade para garantir máxima estabilidade, integridade e confiabilidade de cada composto. Cada peptídeo passa por testes abrangentes ao longo de todo o ciclo de produção em nossos laboratórios analíticos.\n\nA verificação da precisão da sequência peptídica e da identidade molecular é realizada por meio de técnicas avançadas de Cromatografia Líquida de Alta Eficiência (HPLC) e Espectrometria de Massas (MS). Esses métodos analíticos confirmam cientificamente a pureza, a composição e a consistência de cada produto BioPeptide™, garantindo desempenho confiável para fins de pesquisa e desenvolvimento.",
     featuredTitle: "Peptídeos de Pesquisa em Destaque",
+    popularTitle: "Peptídeos Populares",
     filter: "Filtrar",
     showing: "Mostrando",
     of: "de",
@@ -272,19 +279,27 @@ home: {
   },
 
   about: {
-    title: "Sobre a BioPeptide",
-    companyTitle: "🧬 Nossa Empresa",
-    companyText1:
-      "A BioPeptide™ é uma fornecedora líder de peptídeos de pesquisa premium.",
-    companyText2:
-      "Apoiamos com orgulho organizações de pesquisa globais.",
-    qualityTitle: "🔬 Qualidade. Serviço. Valor.",
-    qualityText:
-      "A BioPeptide™ fornece materiais de pesquisa de alta pureza usando síntese e testes avançados.",
-    customersTitle: "👥 Nossos Clientes",
-    customersText:
-      "Pesquisadores em todo o mundo confiam na BioPeptide™ por produtos confiáveis."
-  }
+  title: "Sobre a BioPeptide",
+
+  companyTitle: "Nossa Empresa",
+  companyText1:
+    "A BioPeptide™ é fornecedora líder de peptídeos para pesquisa, apoiando a inovação científica global em parceria com fabricantes certificados WHO/GMP e ISO.",
+
+  companyText2:
+    "Nosso objetivo é fornecer peptídeos de alta qualidade a pesquisadores e laboratórios, mantendo padrões rigorosos e preços competitivos.",
+
+  qualityTitle: "Qualidade. Serviço. Valor.",
+  qualityText:
+    "A BioPeptide™ é uma fonte online segura e discreta de peptídeos de pesquisa de alta pureza, com foco em qualidade e atendimento ao cliente.",
+
+  qualityText2:
+    "O processo de compra é simples, seguro e disponível 24 horas, com proteção avançada de dados via SSL.",
+
+  customersTitle: "Nossos Clientes",
+  customersText:
+    "Pesquisadores em todo o mundo confiam na BioPeptide™ para produtos confiáveis e suporte profissional."
+}
+
 },
 productCard: {
   learnMore: "Saiba mais",

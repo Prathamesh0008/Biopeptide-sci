@@ -37,8 +37,17 @@ const t = (path) =>
 
   return (
     <>
-    <Navbar/>
-    <main className="max-w-5xl mx-auto px-4 sm:px-6 py-14">
+    
+   <main
+  className="
+    min-h-screen
+    w-full
+    bg-gradient-to-br from-white via-[#f2fbff] to-[#ecfff6]
+    flex items-center justify-center
+    px-4 sm:px-6
+  "
+>
+<div className="w-full max-w-5xl py-14">
       <h1 className="text-3xl font-bold text-[#0d2d47] mb-10">
        {t("title")}
       </h1>
@@ -132,8 +141,9 @@ const t = (path) =>
 
         </div>
       </div>
+      </div>
     </main>
-    <Footer/>
+    
     </>
   );
 }

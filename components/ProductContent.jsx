@@ -8,7 +8,8 @@ import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function ProductContent({ product }) {
   const { translations } = useLanguage();
-const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translations?.productContent || {});
+const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translations);
+
 
   return (
     <section
@@ -44,8 +45,8 @@ const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translation
         {/* OVERVIEW */}
         <div className="space-y-3">
           <h2 className="text-3xl font-bold text-[#0d2d47]">
-            {product.name} – Overview
-          </h2>
+  {product.name} – {t("productContent.overviewTitle") || "Overview"}
+</h2>
 
           <p className="text-[15px] leading-relaxed text-gray-700">
             {product.name} is a high-precision BioPeptide synthesized using
@@ -62,7 +63,9 @@ const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translation
 
         {/* MECHANISM */}
         <div className="space-y-3">
-          <h2 className="text-2xl font-bold text-[#0d2d47]">Mechanism of Action</h2>
+          <h2 className="text-2xl font-bold text-[#0d2d47]">
+  {t("productContent.mechanism") || "Mechanism of Action"}
+</h2>
           <p className="text-[15px] leading-relaxed text-gray-700">
             {product.name} influences:
             <br /><br />
@@ -78,7 +81,9 @@ const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translation
 
         {/* RESEARCH APPLICATIONS */}
         <div className="space-y-3">
-          <h2 className="text-2xl font-bold text-[#0d2d47]">Primary Research Applications</h2>
+          <h2 className="text-2xl font-bold text-[#0d2d47]">
+  {t("productContent.researchApplicationsTitle") || "Primary Research Applications"}
+</h2>
 
           <ul className="list-disc ml-6 text-[15px] leading-relaxed text-gray-700 space-y-1">
             <li>Regenerative cell biology</li>
@@ -94,7 +99,9 @@ const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translation
 
         {/* SCIENTIFIC BACKGROUND */}
         <div className="space-y-3">
-          <h2 className="text-2xl font-bold text-[#0d2d47]">Scientific Background</h2>
+          <h2 className="text-2xl font-bold text-[#0d2d47]">
+  {t("productContent.scientificBackgroundTitle") || "Scientific Background"}
+</h2>
           <p className="text-[15px] leading-relaxed text-gray-700">
             Synthetic peptides modulate cellular communication and metabolic
             behavior.  
@@ -112,7 +119,9 @@ const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translation
 
         {/* STABILITY */}
         <div className="space-y-3">
-          <h2 className="text-2xl font-bold text-[#0d2d47]">Stability Profile</h2>
+         <h2 className="text-2xl font-bold text-[#0d2d47]">
+  {t("productContent.stabilityTitle") || "Stability Profile"}
+</h2>
           <p className="text-[15px] leading-relaxed text-gray-700">
             • Stable lyophilized at −20°C  
             • Sensitive to moisture & light  
@@ -125,7 +134,9 @@ const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translation
 
         {/* SOLUBILITY */}
         <div className="space-y-3">
-          <h2 className="text-2xl font-bold text-[#0d2d47]">Solubility & Reconstitution</h2>
+          <h2 className="text-2xl font-bold text-[#0d2d47]">
+  {t("productContent.solubilityTitle") || "Solubility & Reconstitution"}
+</h2>
           <p className="text-[15px] leading-relaxed text-gray-700">
             Works well with:
             <br /><br />
@@ -140,7 +151,9 @@ const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translation
 
         {/* TECH SPECS */}
         <div className="space-y-3">
-          <h2 className="text-2xl font-bold text-[#0d2d47]">Technical Specifications</h2>
+        <h2 className="text-2xl font-bold text-[#0d2d47]">
+  {t("productContent.techSpecsTitle") || "Technical Specifications"}
+</h2>
 
           <ul className="text-[15px] leading-relaxed text-gray-700 space-y-2">
             <li><b>CAS:</b> {product.cas || "N/A"}</li>
@@ -158,7 +171,9 @@ const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translation
 
         {/* FAQ */}
         <div className="space-y-3">
-          <h2 className="text-2xl font-bold text-[#0d2d47]">{t("faq")}</h2>
+          <h2 className="text-2xl font-bold text-[#0d2d47]">
+  {t("productContent.faq") || "FAQ"}
+</h2>
 
           <div className="space-y-4 text-[15px] text-gray-700">
             <div>

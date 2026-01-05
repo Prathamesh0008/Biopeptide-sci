@@ -98,8 +98,16 @@ router.push("/profile");
 
   return (
     <>
-    <Navbar/>
-    <main className="relative bg-gradient-to-br from-white via-[#f2fbff] to-[#ecfff6] px-6 py-14 overflow-hidden">
+  
+    <main className="
+  min-h-screen
+  flex items-center justify-center
+  relative
+  bg-gradient-to-br from-white via-[#f2fbff] to-[#ecfff6]
+  px-6
+  overflow-hidden
+">
+
       {/* Floating background */}
       <motion.div
         className="absolute top-10 left-10 w-16 h-16 bg-bioBlue/5 rounded-full blur-2xl"
@@ -234,7 +242,7 @@ router.push("/profile");
         </div>
       </motion.div>
     </main>
-    <Footer/>
+    
     </>
   );
 }

@@ -24,10 +24,10 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+  ,
+  
 
-  products: {
+  
     "bpc-tb500-glow-blend": {
       name: "Glow Blend (BPC-157 + TB-500)",
 
@@ -54,10 +54,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
+ 
     "5-amino-1mq-50mg": {
       name: "5-Amino-1MQ 50mg (60 cápsulas)",
 
@@ -79,10 +78,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+ 
     "aod9604-5mg": {
       name: "AOD9604 5mg",
 
@@ -104,10 +102,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
+  
     "ghk-cu-2mg": {
       name: "GHK-Cu 2mg",
 
@@ -129,10 +126,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio y cosmética. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
+  
     "ghk-cu-2mg": {
       name: "GHK-Cu 2mg",
 
@@ -154,10 +150,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio y cosmética. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
+  
     "acetyl-hexapeptide-3-200mg": {
       name: "Acetil Hexapéptido-3 (Argireline®) 200mg",
 
@@ -179,10 +174,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio y cosmética. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
+  
     "ahk-tripeptide-3-200mg": {
       name: "AHK-Tripeptido-3 200mg",
 
@@ -204,10 +198,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio y cosmética. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+,
 
-  products: {
+  
     "ahk-cu-200mg": {
       name: "AHK-Cu 200mg (Tópico)",
 
@@ -233,10 +226,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio y cosmética. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "aod9604-6mg": {
       name: "AOD9604 6mg",
 
@@ -258,10 +250,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "bpc-157-10mg": {
       name: "BPC-157 10mg",
 
@@ -283,10 +274,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
+  
     "bpc-157-tb-500-blend-10mg": {
       name: "Mezcla BPC-157 + TB-500 10mg",
 
@@ -313,10 +303,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "bpc-157-tb-500-blend-20mg": {
       name: "Mezcla BPC-157 + TB-500 20mg",
 
@@ -343,10 +332,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "bpc-157-tb-500-blend-30mg": {
       name: "Mezcla BPC-157 + TB-500 30mg",
 
@@ -373,10 +361,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "bpc-157-tb-500-blend-30mg": {
       name: "Mezcla BPC-157 + TB-500 30mg",
 
@@ -402,11 +389,11 @@ export default {
       storage: "Almacenar a -20°C. Evitar ciclos repetidos de congelación.",
       researchStatus:
         "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
-    }
+    
   },
-  dir: "ltr",
+  
 
-  products: {
+  
     "bpc-157-tb-500-kpv-ghk-cu-80mg": {
       name: "Mezcla Klow (BPC-157 + TB-500 + KPV + GHK-Cu) 80mg",
 
@@ -436,10 +423,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+ 
     "bronchogen-20mg": {
       name: "Bronchogen® 20mg (Biorregulador)",
 
@@ -465,10 +451,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
+  
     "cardiogen-20mg": {
       name: "Cardiogen® 20mg (Biorregulador)",
 
@@ -494,10 +479,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+
     "cartalax-20mg": {
       name: "Cartalax® 20mg (Biorregulador)",
 
@@ -523,10 +507,8 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+ ,
 
-  products: {
     "adipotide-ftpp-10mg": {
       name: "Adipotide (FTPP) 10mg",
 
@@ -548,10 +530,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "ahk-tripeptide-3-200mg": {
       name: "AHK-Tripeptide-3 200mg",
 
@@ -573,10 +554,9 @@ export default {
       researchStatus:
         "Solo para uso en investigación cosmética y de laboratorio. No apto para uso humano o veterinario."
     }
-  },
-  dir: "ltr",
+  ,
 
-  products: {
+  
     "aicar-50mg": {
       name: "AICAR 50mg",
 
@@ -598,6 +578,546 @@ export default {
       researchStatus:
         "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
     }
-  }
+  ,
 
+  
+    "ara-290-16mg": {
+      name: "ARA-290 16mg",
+
+      strength:
+        "Péptido sintético estudiado en investigación de laboratorio por su interacción con vías de señalización de receptores derivados de la eritropoyetina.",
+
+      description:
+        "ARA-290 es un péptido sintético derivado de una región específica de la eritropoyetina (EPO), investigado en investigación de laboratorio por su interacción con vías de señalización de receptores con efectos protectores tisulares. En entornos de investigación controlados, se estudia por mecanismos de señalización celular, interacciones péptido–receptor y modelos de respuesta biológica específicos de vías.",
+
+      applications: [
+        "Investigación de interacciones péptido–receptor",
+        "Estudios de vías de señalización celular",
+        "Investigación de modelos de señalización protectora de tejidos",
+        "Estudio de péptidos derivados de la eritropoyetina"
+      ],
+
+      appearance: "Polvo liofilizado blanco",
+      storage: "Almacenar a -20°C. Evitar ciclos repetidos de congelación.",
+      researchStatus:
+        "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+    }
+  ,
+
+ 
+    "ara-290-16mg": {
+      name: "ARA-290 16mg",
+
+      strength:
+        "Péptido sintético estudiado en investigación de laboratorio por su interacción con vías de señalización de receptores derivados de la eritropoyetina.",
+
+      description:
+        "ARA-290 es un péptido sintético derivado de una región específica de la eritropoyetina (EPO), investigado en investigación de laboratorio por su interacción con vías de señalización de receptores con efectos protectores tisulares. En entornos de investigación controlados, se estudia por mecanismos de señalización celular, interacciones péptido–receptor y modelos de respuesta biológica específicos de vías.",
+
+      applications: [
+        "Investigación de interacciones péptido–receptor",
+        "Estudios de vías de señalización celular",
+        "Investigación de modelos de señalización protectora de tejidos",
+        "Estudio de péptidos derivados de la eritropoyetina"
+      ],
+
+      appearance: "Polvo liofilizado blanco",
+      storage: "Almacenar a -20°C. Evitar ciclos repetidos de congelación.",
+      researchStatus:
+        "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+    },
+    "b7-33-6mg": {
+  name: "B7-33 6mg",
+
+  strength:
+    "Péptido sintético derivado de la relaxina estudiado en investigación de laboratorio para la investigación selectiva de vías de señalización de receptores.",
+
+  description:
+    "B7-33 es un péptido sintético derivado de la cadena B de la hormona relaxina e investigado en investigación de laboratorio por su interacción selectiva con receptores de la familia de péptidos de la relaxina. En entornos de investigación controlados, se estudia por la especificidad de la señalización péptido–receptor, las vías de comunicación celular posteriores y la investigación de la relación estructura–función. Se suministra como un polvo liofilizado de alta pureza para investigación científica.",
+
+  applications: [
+    "Investigación de interacción péptido–receptor",
+    "Estudios selectivos de señalización del receptor de relaxina",
+    "Investigación de vías de comunicación celular",
+    "Investigación de la relación estructura–función de péptidos"
+  ],
+
+  appearance: "Polvo blanco liofilizado",
+  storage: "Almacenar a -20°C. Evitar ciclos repetidos de congelación y descongelación.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+},
+"chonluten-20mg": {
+  name: "Chonluten® 20mg (Biorregulador)",
+
+  strength:
+    "Biorregulador peptídico sintético de cadena corta estudiado para la señalización celular específica de órganos y modelos de expresión génica.",
+
+  description:
+    "Chonluten® es un complejo peptídico biorregulador sintético investigado en modelos de investigación de laboratorio relacionados con la señalización de tejidos respiratorios y broncopulmonares. En entornos de investigación controlados, se estudia por su interacción con vías de expresión génica, mecanismos reguladores mediados por péptidos y señalización celular específica de tejidos asociada a la biología bronquial y pulmonar.",
+
+  applications: [
+    "Investigación de señalización peptídica específica de órganos",
+    "Estudios de expresión génica y vías reguladoras",
+    "Modelos de investigación de tejidos respiratorios y broncopulmonares",
+    "Investigación de mecanismos de péptidos biorreguladores"
+  ],
+
+  appearance: "Polvo blanco a blanquecino",
+  storage: "Almacenar a -20°C. Proteger de la humedad y la luz.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+},
+"cjc-1295-ghrp-2-blend-10mg": {
+  name: "CJC-1295 + GHRP-2 Blend 10mg",
+
+  strength:
+    "Mezcla de investigación de doble péptido que combina CJC-1295 y GHRP-2, estudiada para señalización endocrina sinérgica e interacciones péptido–receptor.",
+
+  description:
+    "Esta mezcla de investigación combina CJC-1295, un análogo de la hormona liberadora de la hormona del crecimiento (GHRH) estudiado por su señalización endocrina mediada por receptores, con GHRP-2, un péptido secretagogo de la hormona del crecimiento investigado por su interacción con las vías de la grelina y GHS-R. El formato de 10mg está diseñado para estudios de laboratorio centrados en la señalización peptídica sinérgica, el crosstalk de receptores y la investigación de vías endocrinas. Se suministra como una mezcla peptídica liofilizada de alta pureza.",
+
+  components: [
+    "CJC-1295 (análogo de GHRH)",
+    "GHRP-2 (péptido secretagogo de la hormona del crecimiento)"
+  ],
+
+  applications: [
+    "Investigación de vías de señalización endocrina",
+    "Estudios de interacción péptido–receptor",
+    "Investigación de señalización peptídica sinérgica",
+    "Investigación de modelos de comunicación hormonal"
+  ],
+
+  appearance: "Mezcla de polvo liofilizado blanco",
+  storage: "Almacenar a -20°C. Evitar ciclos repetidos de congelación y descongelación.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+},
+"cjc-1295-ghrp-6-blend-10mg": {
+  name: "CJC-1295 + GHRP-6 Blend 10mg",
+
+  strength:
+    "Mezcla de investigación de doble péptido que combina CJC-1295 y GHRP-6, estudiada para señalización endocrina sinérgica e interacciones péptido–receptor.",
+
+  description:
+    "Esta mezcla de investigación combina CJC-1295, un análogo de la hormona liberadora de la hormona del crecimiento (GHRH) estudiado por su señalización endocrina mediada por receptores, con GHRP-6, un péptido secretagogo de la hormona del crecimiento investigado por su interacción con las vías de la grelina y GHS-R. El formato de 10mg está diseñado para estudios de laboratorio centrados en la señalización peptídica sinérgica, el crosstalk de receptores y la investigación de vías endocrinas.",
+
+  components: [
+    "CJC-1295 (análogo de GHRH)",
+    "GHRP-6 (péptido secretagogo de la hormona del crecimiento)"
+  ],
+
+  applications: [
+    "Investigación de vías de señalización endocrina",
+    "Estudios de interacción péptido–receptor",
+    "Investigación de señalización peptídica sinérgica",
+    "Investigación de modelos de comunicación hormonal"
+  ],
+
+  appearance: "Mezcla de polvo liofilizado blanco",
+  storage: "Almacenar a -20°C. Evitar ciclos repetidos de congelación y descongelación.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+},
+"cjc-1295-hexarelin-blend-10mg": {
+  name: "CJC-1295 + Hexarelin Blend 10mg",
+
+  strength:
+    "Mezcla de investigación de doble péptido que combina CJC-1295 y Hexarelin, estudiada para señalización endocrina sinérgica e interacciones péptido–receptor.",
+
+  description:
+    "Esta mezcla de investigación combina CJC-1295, un análogo de la hormona liberadora de la hormona del crecimiento (GHRH) estudiado por su señalización endocrina mediada por receptores, con Hexarelin, un péptido secretagogo de la hormona del crecimiento investigado por su interacción con las vías de la grelina y GHS-R. El formato de 10mg está diseñado para estudios de laboratorio centrados en la señalización peptídica sinérgica, el crosstalk de receptores y la investigación de vías endocrinas.",
+
+  components: [
+    "CJC-1295 (análogo de GHRH)",
+    "Hexarelin (péptido secretagogo de la hormona del crecimiento)"
+  ],
+
+  applications: [
+    "Investigación de vías de señalización endocrina",
+    "Estudios de interacción péptido–receptor",
+    "Investigación de señalización peptídica sinérgica",
+    "Investigación de modelos de comunicación hormonal"
+  ],
+
+  appearance: "Mezcla de polvo liofilizado blanco",
+  storage: "Almacenar a -20°C. Evitar ciclos repetidos de congelación y descongelación.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+},
+"cjc-1295-ipamorelin-ghrp-2-blend": {
+  name: "CJC-1295 + Ipamorelin + GHRP-2 Blend",
+
+  strength:
+    "Mezcla de investigación de triple péptido que combina CJC-1295, Ipamorelin y GHRP-2 para estudios avanzados de señalización endocrina e interacción péptido–receptor.",
+
+  description:
+    "Esta mezcla de investigación combina CJC-1295, un análogo de la hormona liberadora de la hormona del crecimiento (GHRH) estudiado para la señalización endocrina mediada por receptores, con Ipamorelin y GHRP-2, ambos péptidos secretagogos de la hormona del crecimiento investigados por su interacción con las vías de la grelina y GHS-R. La mezcla está diseñada para la investigación en laboratorio explorando señalización endocrina sinérgica, crosstalk de receptores y complejas vías de comunicación peptídica. Se suministra como mezcla peptídica liofilizada de alta pureza.",
+
+  components: [
+    "CJC-1295 (análogo de GHRH)",
+    "Ipamorelin (péptido secretagogo de la hormona del crecimiento)",
+    "GHRP-2 (péptido secretagogo de la hormona del crecimiento)"
+  ],
+
+  applications: [
+    "Investigación de vías de señalización endocrina",
+    "Estudios de interacción péptido–receptor",
+    "Investigación de comunicación peptídica sinérgica",
+    "Investigación de modelos de señalización hormonal"
+  ],
+
+  appearance: "Mezcla de polvo liofilizado blanco",
+  storage: "Almacenar a -20°C. Evitar ciclos repetidos de congelación y descongelación.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+},
+"mod-grf-1-29-5mg": {
+  name: "Mod GRF 1-29 (CJC-1295 No DAC) 5mg",
+
+  strength:
+    "Análogo sintético de la hormona liberadora de la hormona del crecimiento (GHRH) estudiado para señalización de receptor de corta duración y modelos de investigación endocrina.",
+
+  description:
+    "Mod GRF 1-29, también conocido como CJC-1295 No DAC, es un péptido sintético análogo de la hormona liberadora de la hormona del crecimiento (GHRH). En entornos de investigación de laboratorio, se investiga para la activación de receptores GHRH de corta duración, dinámica de señalización endocrina y comportamiento de interacción péptido–receptor. El formato de 5 mg permite estudios de laboratorio prolongados que requieren mayor disponibilidad de material, manteniendo modelos de señalización de corta duración controlados. Se suministra como polvo liofilizado de alta pureza para investigación científica.",
+
+  components: [
+    "Mod GRF 1-29 (análogo CJC-1295 No DAC)"
+  ],
+
+  applications: [
+    "Investigación de vías de señalización endocrina",
+    "Estudios de interacción con receptores GHRH",
+    "Modelos de señalización peptídica de corta duración",
+    "Investigación de comunicación hormonal"
+  ],
+
+  appearance: "Polvo liofilizado blanco",
+  storage: "Almacenar a -20°C. Evitar ciclos repetidos de congelación y descongelación.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+},
+"cortagen-20mg": {
+  name: "Cortagen® 20mg (Bioregulator)",
+
+  strength:
+    "Bioregulador peptídico sintético de cadena corta estudiado para señalización de tejidos neuronales y modelos de investigación de expresión génica.",
+
+  description:
+    "Cortagen® es un complejo peptídico bioregulador sintético investigado en modelos de investigación de laboratorio relacionados con el sistema nervioso central y la señalización de tejidos neuronales. En entornos de investigación controlados, se estudia su interacción con rutas de expresión génica, mecanismos regulatorios mediados por péptidos y modelos de comunicación celular asociados con la biología neural. Se suministra como material de investigación de alta pureza para investigación científica.",
+
+  components: [
+    "Péptidos regulatorios de cadena corta (complejos di- y tripéptidos)"
+  ],
+
+  applications: [
+    "Investigación de señalización peptídica específica de órganos",
+    "Estudios de expresión génica y rutas regulatorias",
+    "Modelos de investigación del sistema nervioso central y neural",
+    "Investigación de mecanismos peptídicos bioreguladores"
+  ],
+
+  appearance: "Polvo blanco a off-white",
+  storage: "Almacenar a -20°C. Proteger de la humedad y la luz.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+},
+"decapeptide-12-10mg": {
+  name: "Decapeptide-12",
+
+  strength:
+    "Péptido sintético de investigación cosmética estudiado para la señalización de la melanogénesis y modelos de vías de pigmentación de la piel.",
+
+  description:
+    "Decapeptide-12 es un péptido sintético ampliamente investigado en estudios cosméticos y dermatológicos por su papel en las vías de señalización de la melanogénesis y en modelos de pigmentación mediados por péptidos. En estudios de laboratorio, se explora su interacción con las vías relacionadas con la tirosinasa y los mecanismos de señalización peptídica asociados a la regulación del tono de piel. Se suministra como péptido liofilizado de alta pureza para entornos controlados de investigación cosmética y celular.",
+
+  components: [
+    "Péptido decapéptido sintético para investigación cosmética"
+  ],
+
+  applications: [
+    "Investigación de señalización de melanogénesis y pigmentación",
+    "Investigación de vías de péptidos cosméticos",
+    "Estudios de biología de la piel e interacción peptídica",
+    "Investigación de formulaciones tópicas y estabilidad"
+  ],
+
+  appearance: "Polvo liofilizado blanco a off-white",
+  storage: "Almacenar a -20°C. Proteger de la luz y la humedad.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio y cosmética. No apto para uso humano o veterinario."
+},
+"dihexa-5mg-60-capsules": {
+  name: "Dihexa 5mg (60 Cápsulas)",
+
+  strength:
+    "Compuesto derivado de péptido de pequeña molécula estudiado en modelos de investigación de neuroplasticidad y señalización sináptica.",
+
+  description:
+    "Dihexa es una molécula pequeña derivada de péptido investigada en entornos de laboratorio por su interacción con la señalización del factor de crecimiento de hepatocitos (HGF) y las vías de plasticidad sináptica. En modelos de investigación preclínica, se estudia su papel en la neurogénesis, formación de sinapsis y mecanismos de señalización cognitiva. Se suministra en cápsulas para garantizar un manejo controlado y estabilidad en entornos de investigación.",
+
+  components: [
+    "Molécula pequeña derivada de péptido para investigación neuro"
+  ],
+
+  applications: [
+    "Investigación de neuroplasticidad y señalización sináptica",
+    "Investigación de la vía HGF/c-Met",
+    "Estudios de comunicación cognitiva y neuronal",
+    "Modelos de investigación del sistema nervioso central"
+  ],
+
+  appearance: "Material de investigación sólido encapsulado",
+  storage: "Almacenar en un lugar fresco y seco, protegido de la luz.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+},
+"dsip-5mg": {
+  name: "DSIP 5mg",
+
+  strength:
+    "Neuropeptido endógeno estudiado en la regulación del sueño, señalización del ritmo circadiano y modelos de investigación neuroendocrina.",
+
+  description:
+    "El péptido inducidor del sueño Delta (DSIP) es un neuropeptido de origen natural investigado en laboratorios por su participación en vías de señalización relacionadas con el sueño, regulación del ritmo circadiano y comunicación neuroendocrina. En estudios científicos, se analiza la interacción de DSIP con los mecanismos de señalización del sistema nervioso central y las vías de respuesta al estrés. Se suministra como péptido liofilizado de alta pureza para aplicaciones de investigación controladas.",
+
+  components: [
+    "Neuropeptido endógeno para investigación neuro"
+  ],
+
+  applications: [
+    "Investigación del ciclo sueño-vigilia y ritmo circadiano",
+    "Estudios de señalización de neuropeptidos",
+    "Investigación de vías neuroendocrinas",
+    "Modelos de investigación de respuesta al estrés y SNC"
+  ],
+
+  appearance: "Polvo liofilizado blanco",
+  storage: "Almacenar a -20°C. Evitar ciclos repetidos de congelación y descongelación.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+},
+"epitalon-1mg-60-capsules": {
+  name: "Epitalon 1mg (60 Cápsulas)",
+
+  strength:
+    "Bioregulador tetrapéptido sintético estudiado en regulación epigenética, envejecimiento celular y modelos de investigación del ritmo circadiano.",
+
+  description:
+    "Epitalon es un bioregulador tetrapéptido sintético derivado de investigaciones con péptidos epitalámicos. En entornos de laboratorio y estudios preclínicos, se investiga ampliamente por su papel en la regulación epigenética, vías de señalización relacionadas con la telomerasa, modulación del ritmo circadiano y modelos de envejecimiento celular. Se suministra en cápsulas para asegurar un manejo controlado, estabilidad y consistencia en entornos de investigación.",
+
+  components: [
+    "Tetrapéptido sintético para investigación de bioregulación"
+  ],
+
+  applications: [
+    "Investigación de regulación epigenética y expresión génica",
+    "Estudios de envejecimiento celular y vías de longevidad",
+    "Investigación del ritmo circadiano y señalización pineal",
+    "Investigación de bioreguladores basados en péptidos"
+  ],
+
+  appearance: "Material de investigación sólido encapsulado",
+  storage: "Almacenar en lugar fresco y seco, protegido de la luz.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+},
+"epitalon-20mg": {
+  name: "Epitalon (Epithalon) 20mg",
+
+  strength:
+    "Bioregulador tetrapéptido sintético estudiado en regulación epigenética, señalización de la telomerasa y modelos de investigación de envejecimiento celular.",
+
+  description:
+    "Epitalon (también conocido como Epithalon) es un bioregulador tetrapéptido sintético derivado de investigaciones con péptidos epitalámicos. En modelos de investigación de laboratorio y preclínicos, se estudia ampliamente por su papel en la regulación epigenética, vías de señalización relacionadas con la telomerasa, modulación del ritmo circadiano y mecanismos de envejecimiento celular. El formato liofilizado de 20mg está diseñado para aplicaciones de investigación extendidas o de mayor volumen que requieren mayor disponibilidad de material.",
+
+  components: [
+    "Tetrapéptido sintético para investigación de bioregulación"
+  ],
+
+  applications: [
+    "Investigación de regulación epigenética y expresión génica",
+    "Estudios de vías de telomerasa y envejecimiento celular",
+    "Investigación del ritmo circadiano y señalización pineal",
+    "Investigación de bioreguladores basados en péptidos"
+  ],
+
+  appearance: "Polvo liofilizado blanco",
+  storage: "Almacenar a -20°C. Evitar ciclos repetidos de congelación y descongelación.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+},
+"epitalon-50mg": {
+  name: "Epitalon (Epithalon) 50mg",
+
+  strength:
+    "Bioregulador tetrapéptido sintético estudiado en regulación epigenética, señalización de la telomerasa y modelos de investigación de envejecimiento celular.",
+
+  description:
+    "Epitalon (también conocido como Epithalon) es un bioregulador tetrapéptido sintético derivado de investigaciones con péptidos epitalámicos. En modelos de laboratorio y preclínicos, se investiga ampliamente por su papel en la regulación epigenética, vías de señalización relacionadas con la telomerasa, modulación del ritmo circadiano y mecanismos de envejecimiento celular. El formato liofilizado de 50mg está destinado a aplicaciones de investigación extendidas o de mayor volumen que requieren mayor disponibilidad de material.",
+
+  components: [
+    "Tetrapéptido sintético para investigación de bioregulación"
+  ],
+
+  applications: [
+    "Investigación de regulación epigenética y expresión génica",
+    "Estudios de vías de telomerasa y envejecimiento celular",
+    "Investigación del ritmo circadiano y señalización pineal",
+    "Investigación de bioreguladores basados en péptidos"
+  ],
+
+  appearance: "Polvo liofilizado blanco",
+  storage: "Almacenar a -20°C. Evitar ciclos repetidos de congelación y descongelación.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+},
+"fgl-s-10mg": {
+  name: "FGL-S 10mg",
+
+  strength:
+    "Péptido neuroactivo sintético estudiado en plasticidad sináptica, señalización neurotrófica y modelos de investigación de vías cognitivas.",
+
+  description:
+    "FGL-S es un péptido sintético derivado del dominio de la molécula de adhesión celular neuronal (NCAM) y se investiga en laboratorios por su interacción con la señalización del receptor del factor de crecimiento de fibroblastos (FGF). En modelos científicos, se estudia su papel en la plasticidad sináptica, vías de comunicación neuronal y mecanismos de señalización neurotrófica. Se suministra como péptido liofilizado de alta pureza para aplicaciones de investigación controlada en neurociencia y estudios celulares.",
+
+  components: [
+    "Péptido neuroactivo sintético para investigación en neurociencia"
+  ],
+
+  applications: [
+    "Investigación en plasticidad sináptica y señalización neuronal",
+    "Estudios de receptor FGF y vías neurotróficas",
+    "Investigación en comunicación neuronal y modelos de SNC",
+    "Investigación de vías cognitivas basadas en péptidos"
+  ],
+
+  appearance: "Polvo liofilizado blanco",
+  storage: "Almacenar a -20°C. Evitar ciclos repetidos de congelación y descongelación.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+},
+"follistatin-315-1mg": {
+  name: "Follistatin-315 1mg",
+
+  strength:
+    "Proteína reguladora recombinante estudiada en inhibición de miostatina, señalización TGF-β y modelos de investigación de vías de crecimiento celular.",
+
+  description:
+    "Follistatin-315 es una isoforma de proteína recombinante investigada en estudios de laboratorio por su interacción con las vías de señalización de miostatina y activina dentro de la superfamilia TGF-β. En modelos científicos, se estudia su papel en la regulación del crecimiento celular, señalización de diferenciación y modulación de vías mediadas por proteínas. Se suministra como proteína recombinante liofilizada de alta pureza para aplicaciones controladas en investigación molecular y celular.",
+
+  components: [
+    "Proteína recombinante para investigación molecular y celular"
+  ],
+
+  applications: [
+    "Investigación de señalización de miostatina y activina",
+    "Estudios de la vía TGF-β",
+    "Investigación del crecimiento y diferenciación celular",
+    "Investigación de señalización regulatoria basada en proteínas"
+  ],
+
+  appearance: "Polvo de proteína liofilizado blanco",
+  storage: "Almacenar a −20°C. Evitar ciclos repetidos de congelación y descongelación.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+},
+"follistatin-344-1mg": {
+  name: "Follistatin-344 1mg",
+
+  strength:
+    "Isoforma de proteína reguladora recombinante estudiada en inhibición de miostatina, unión a activina y modelos de investigación de la vía de señalización TGF-β.",
+
+  description:
+    "Follistatin-344 es una isoforma de proteína recombinante compuesta por 344 aminoácidos y ampliamente investigada en estudios de laboratorio por su interacción con miostatina, activina y miembros relacionados de la superfamilia TGF-β. En modelos científicos se estudia su papel en la regulación del crecimiento celular, señalización de diferenciación y modulación de vías mediadas por proteínas. En comparación con isoformas más cortas, Follistatin-344 se destaca por sus propiedades de unión extendida en entornos experimentales controlados. Se suministra como proteína recombinante liofilizada de alta pureza para aplicaciones de investigación molecular y celular.",
+
+  components: [
+    "Proteína recombinante para investigación molecular y celular"
+  ],
+
+  applications: [
+    "Investigación de señalización de miostatina y activina",
+    "Estudios de la vía TGF-β",
+    "Investigación del crecimiento y diferenciación celular",
+    "Investigación de señalización regulatoria basada en proteínas"
+  ],
+
+  appearance: "Polvo de proteína liofilizado blanco",
+  storage: "Almacenar a −20°C. Evitar ciclos repetidos de congelación y descongelación.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No apto para uso humano o veterinario."
+},
+"foxo4-dri-10mg-es": {
+  name: "FOXO4-DRI (Proxofim) 10mg",
+
+  strength:
+    "Péptido sintético de investigación estudiado en la interacción FOXO4–p53, señalización de senescencia celular y modelos de vías de factores de transcripción.",
+
+  description:
+    "FOXO4-DRI (también conocido como Proxofim) es un péptido sintético diseñado para la investigación de laboratorio sobre la senescencia celular y los mecanismos de señalización de factores de transcripción. En modelos científicos, se estudia por su papel en la interrupción de la interacción entre FOXO4 y p53, permitiendo investigar el comportamiento de células senescentes, la señalización de la apoptosis y las vías celulares asociadas al envejecimiento. Se suministra como un péptido liofilizado de alta pureza para aplicaciones controladas de investigación in vitro y molecular.",
+
+  components: [
+    "Péptido sintético de investigación para estudios de factores de transcripción"
+  ],
+
+  applications: [
+    "Investigación de rutas de senescencia celular",
+    "Estudios de interacción FOXO4–p53",
+    "Investigación de señalización de factores de transcripción",
+    "Modelos de señalización del ciclo celular y apoptosis"
+  ],
+
+  appearance: "Polvo liofilizado blanco",
+  storage: "Conservar a −20°C. Evitar ciclos repetidos de congelación-descongelación.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No destinado para uso humano o veterinario."
+},
+"cjc1295-ipamorelin-12mg-blend-es": {
+  name: "Fragmento CJC-1295 + Ipamorelina Mezcla 12mg",
+
+  strength:
+    "Mezcla de investigación de doble péptido estudiada para la señalización de receptores relacionados con la hormona del crecimiento y modelos endocrinos.",
+
+  description:
+    "Esta mezcla de investigación combina el Fragmento CJC-1295 (MOD GRF 1-29), un análogo de la hormona liberadora de la hormona del crecimiento estudiado en modelos de señalización hipofisaria, con Ipamorelina, un agonista selectivo del receptor secretagogo de la hormona del crecimiento (GHS-R) investigado en estudios endocrinos. En entornos de laboratorio, esta mezcla se utiliza para explorar interacciones peptídicas sinérgicas, señalización mediada por receptores y modelos endocrinos basados en péptidos. Se suministra como una mezcla peptídica liofilizada de alta pureza para investigación científica controlada.",
+
+  components: [
+    "Fragmento CJC-1295 (MOD GRF 1-29)",
+    "Ipamorelina"
+  ],
+
+  applications: [
+    "Investigación de señalización endocrina y pituitaria",
+    "Estudios de la vía del receptor de la hormona del crecimiento",
+    "Investigación de interacciones péptido–receptor",
+    "Investigación de señalización peptídica sinérgica"
+  ],
+
+  appearance: "Polvo liofilizado blanco",
+  storage: "Conservar a −20°C. Evitar ciclos repetidos de congelación y descongelación.",
+  researchStatus:
+    "Solo para uso en investigación de laboratorio. No destinado para uso humano o veterinario."
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  }
 };

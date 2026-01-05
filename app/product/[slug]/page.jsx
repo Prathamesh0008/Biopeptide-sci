@@ -17,20 +17,22 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useState } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { getTranslatedProduct } from "@/utils/getTranslatedProduct";
 
 
 
 export default function ProductPage() {
   // ⭐ Correct way in client components
   const { translations } = useLanguage();
-const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translations?.productPage || {});
+const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translations);
 
   const { slug } = useParams();
 
   const [previewOpen, setPreviewOpen] = useState(false);
 
 
-  const product = PRODUCTS.find((p) => p.slug === slug);
+  const rawProduct = PRODUCTS.find((p) => p.slug === slug);
+const product = getTranslatedProduct(rawProduct, translations);
   const handleAddToCart = () => {
   const userStr = localStorage.getItem("bio-user");
   const user = userStr ? JSON.parse(userStr) : null;
@@ -130,7 +132,7 @@ const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translation
       {/* BACK BUTTON */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 mb-4">
         <Link href="/" className="text-bioBlue underline text-sm">
-          {t("back")}
+        {t("productPage.back")}
         </Link>
       </div>
 
@@ -189,7 +191,7 @@ const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translation
 
             {/* SUBTEXT */}
             <p className="text-sm font-medium text-[#0d2d47]/60 border-l-4 border-[#0097b8] pl-3">
-              {t("subtext")}
+              {t("productPage.subtext")}
             </p>
 
             {/* DESCRIPTION */}
@@ -208,7 +210,7 @@ const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translation
               <p className="text-3xl sm:text-4xl font-semibold text-[#0d2d47]">
                 ${product.price}
               </p>
-              <p className="text-xs text-gray-500">{t("priceNote")}</p>
+              <p className="text-xs text-gray-500">{t("productPage.priceNote")}</p>
 
              <button
                 onClick={handleAddToCart}
@@ -219,7 +221,8 @@ const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translation
                   hover:opacity-90 transition
                 "
               >
-                {t("addToCart")}
+                {t("productPage.addToCart")}
+
               </button>
             </div>
 
@@ -254,6 +257,17 @@ const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translation
     </>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

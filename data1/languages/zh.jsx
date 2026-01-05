@@ -1,4 +1,4 @@
-export const zh = {
+export default {
   about: {
     hero: {
       title: "关于 BioPeptide 研究实验室",
@@ -253,17 +253,24 @@ peptideInfo: {
 },
 home: {
   hero: {
-    badge: "BioPeptide 研究胶囊",
-    title: "科研肽胶囊",
-    subtitle: "专为科学研究设计的高纯度 BioPeptide 胶囊。",
-    button: "了解更多"
+    title: "购买研究用肽",
+    subtitle: "高纯度研究肽，包括 Melanotan II、CJC-1295、TB-500、IGF-1 等。",
+    button: "了解更多",
+
+    title2: "研究肽复合配方",
+    subtitle2: "为实验室研究应用开发的先进肽类组合。",
+    button2: "查看配方",
+
+    title3: "研究肽胶囊",
+    subtitle3: "适用于受控研究环境的胶囊型肽制剂。",
+    button3: "查看胶囊"
   },
 
   productGrid: {
     mainTitle: "购买科研用肽",
-    description:
-      "BioPeptide 提供具有完整文档的高纯度科研肽。",
+    description: "BioPeptide™ 专注于高纯度肽类、蛋白质及氨基酸衍生化合物的研发与合成，产品仅用于科学研究和实验室应用。BioPeptide™ 采用先进的自动化和手动肽合成系统，并结合固相与液相合成技术，持续提供纯度超过 99% 的高质量肽类产品。\n\n从肽类设计与合成的初期阶段到最终加工、包装和交付，BioPeptide™ 始终遵循严格的质量控制流程，以确保每一款产品的稳定性、完整性和可靠性。所有肽类产品均在分析实验室中经历覆盖整个生产周期的全面检测。\n\n通过先进的高效液相色谱（HPLC）和质谱分析（MS）技术，对肽序列的准确性和分子身份进行科学验证，从而确认每一款 BioPeptide™ 产品的纯度、组成和一致性。",
     featuredTitle: "精选科研肽",
+    popularTitle: "热门肽类",
     filter: "筛选",
     showing: "显示",
     of: "共",
@@ -273,19 +280,27 @@ home: {
   },
 
   about: {
-    title: "关于 BioPeptide",
-    companyTitle: "🧬 我们的公司",
-    companyText1:
-      "BioPeptide™ 是领先的高端科研肽供应商。",
-    companyText2:
-      "我们自豪地支持全球科研机构。",
-    qualityTitle: "🔬 品质 · 服务 · 价值",
-    qualityText:
-      "BioPeptide™ 通过先进的合成和测试提供高纯度科研材料。",
-    customersTitle: "👥 我们的客户",
-    customersText:
-      "全球研究人员信赖 BioPeptide™ 的可靠产品。"
-  }
+  title: "关于 BioPeptide",
+
+  companyTitle: "我们的公司",
+  companyText1:
+    "BioPeptide™ 是领先的科研级肽类产品供应商，致力于支持全球科学研究。我们与通过 WHO/GMP 和 ISO 认证的制造商合作。",
+
+  companyText2:
+    "我们的使命是在保持高质量标准的同时，为研究机构和科研人员提供高纯度肽类产品。",
+
+  qualityTitle: "质量 · 服务 · 价值",
+  qualityText:
+    "BioPeptide™ 是安全、可靠、私密的高纯度科研肽类在线来源，注重质量控制与客户服务。",
+
+  qualityText2:
+    "订购流程简单、安全，采用先进的 SSL 加密技术，全天候保护您的信息安全。",
+
+  customersTitle: "我们的客户",
+  customersText:
+    "全球科研人员信赖 BioPeptide™，我们致力于建立基于科学诚信的长期合作关系。"
+}
+
 },
 productCard: {
   learnMore: "了解更多",
