@@ -1,6 +1,3 @@
-//peptides\app\peptide-information\page.jsx
-
-
 
 
 "use client";
