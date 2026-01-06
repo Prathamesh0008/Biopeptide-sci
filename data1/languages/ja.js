@@ -945,7 +945,400 @@ privacy: {
         "データ保護に努めます。"
     }
   }
+},
+terms: {
+  hero: {
+    title: "利用規約",
+    description:
+      "BioPeptide™ のウェブサイトを利用する前に必ずお読みください。"
+  },
+  sections: {
+    general: {
+      title: "一般利用条件",
+      p1:
+        "本規約はすべての利用者に適用されます。"
+    },
+    payments: {
+      title: "支払いと承認",
+      p1:
+        "支払いは BioPeptide™ 宛てに行われます。",
+      p2:
+        "遅延支払いは翌営業日に処理されます。",
+      p3:
+        "控えを保管してください。"
+    },
+    websiteUse: {
+      title: "サイト利用",
+      p1:
+        "本規約に従って利用してください。",
+      p2:
+        "個人利用のみ可能です。"
+    },
+    productUse: {
+      title: "製品使用",
+      warning:
+        "すべての製品は研究用途のみです。",
+      bullets: [
+        "人または動物用ではありません",
+        "医療目的ではありません",
+        "FDA 未承認",
+        "食品・化粧品ではありません"
+      ],
+      p1:
+        "情報は教育目的のみです。"
+    },
+    age: {
+      title: "年齢制限",
+      p1:
+        "21歳以上である必要があります。"
+    },
+    risk: {
+      title: "リスク認識",
+      p1:
+        "製品の使用にはリスクがあります。",
+      p2:
+        "以下を理解している必要があります：",
+      bullets: [
+        "正しい使用方法",
+        "法規制",
+        "安全上の危険",
+        "取扱手順"
+      ]
+    },
+    sales: {
+      title: "販売方針",
+      p1:
+        "すべての販売は最終です。",
+      p2:
+        "販売を拒否する権利があります。"
+    },
+    liability: {
+      title: "責任の制限",
+      p1:
+        "損害について責任を負いません。",
+      p2:
+        "購入者が責任を負います。"
+    },
+    intellectual: {
+      title: "知的財産",
+      p1:
+        "すべての内容は保護されています。",
+      p2:
+        "無断複製は禁止です。"
+    },
+    security: {
+      title: "セキュリティ",
+      p1:
+        "業界標準の暗号化を使用します。"
+    },
+    law: {
+      title: "準拠法",
+      p1:
+        "適用法に従います。"
+    },
+    agreement: {
+      title: "完全合意",
+      p1:
+        "本規約は完全な合意です。",
+      p2:
+        "同意しない場合は購入しないでください。"
+    }
+  }
+},
+customerService: {
+  hero: {
+    title: "カスタマーサービス",
+    description:
+      "BioPeptide™ は安全な取引と迅速な配送を提供します。"
+  },
+
+  sections: {
+    shipping: {
+      title: "配送",
+      bullets: [
+        "複数の配送オプション",
+        "$200以上で送料無料",
+        "USPS・FedEx対応",
+        "署名必須配送",
+        "土曜配送可"
+      ],
+      note:
+        "12時(PST)前の注文は当日発送。"
+    },
+
+    privacy: {
+      title: "プライバシーとセキュリティ",
+      p1:
+        "256ビットSSLで保護。",
+      p2:
+        "注文処理のみ使用。",
+      p3:
+        "情報を共有しません。"
+    },
+
+    returns: {
+      title: "返品",
+      p1:
+        "返品不可。",
+      p2:
+        "誤配送は交換対応。"
+    },
+
+    ordering: {
+      title: "注文",
+      p1:
+        "24時間注文可能。",
+      p2:
+        "安全に梱包・発送。",
+      p3:
+        "発送通知あり。"
+    },
+
+    payments: {
+      title: "支払い",
+      bullets: [
+        "主要カード対応",
+        "まとめ買い価格",
+        "数量割引あり"
+      ],
+      note:
+        "大量注文はお問い合わせください。"
+    },
+
+    status: {
+      title: "注文状況",
+      bullets: [
+        "履歴確認可能",
+        "アカウント管理",
+        "迅速チェックアウト"
+      ],
+      note:
+        "ゲスト注文はメール対応。"
+    },
+
+    satisfaction: {
+      title: "満足保証",
+      p1:
+        "高品質とサービス。",
+      p2:
+        "サポート対応します。"
+    }
+  },
+
+  contact: {
+    title: "サポート連絡先"
+  }
+},
+accessibility: {
+  hero: {
+    title: "アクセシビリティ声明",
+    description:
+      "BioPeptide™ はすべての利用者に対するアクセシビリティを重視しています。"
+  },
+  sections: {
+    commitment: {
+      title: "取り組み",
+      p1:
+        "誰もが使いやすいサイトを目指しています。"
+    },
+    standards: {
+      title: "基準",
+      p1:
+        "WCAG 2.1 AA への準拠を目標としています。",
+      p2:
+        "定期的に改善を行っています。"
+    },
+    efforts: {
+      title: "継続的な改善",
+      bullets: [
+        "キーボード操作の改善",
+        "色彩コントラストの向上",
+        "明確な構造",
+        "支援技術への対応"
+      ]
+    },
+    limitations: {
+      title: "制限事項",
+      p1:
+        "一部機能は完全対応でない場合があります。"
+    },
+    feedback: {
+      title: "ご意見・お問い合わせ",
+      p1:
+        "問題があればご連絡ください。",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+
+rewardsTerms: {
+  hero: {
+    title: "リワードプログラム規約",
+    description:
+      "本規約は BioPeptide™ リワードプログラムへの参加条件を定めます。"
+  },
+  sections: {
+    overview: {
+      title: "概要",
+      p1:
+        "対象購入によりポイントを獲得できます。"
+    },
+    eligibility: {
+      title: "参加資格",
+      bullets: [
+        "21歳以上",
+        "有効なアカウントが必要",
+        "法律で禁止されている地域を除く"
+      ]
+    },
+    earning: {
+      title: "ポイント獲得",
+      p1:
+        "対象購入でポイントが付与されます。",
+      p2:
+        "現金価値はありません。"
+    },
+    redeeming: {
+      title: "ポイント利用",
+      p1:
+        "割引などに利用可能。",
+      p2:
+        "内容は変更される場合があります。"
+    },
+    expiration: {
+      title: "有効期限",
+      p1:
+        "一定期間で失効する場合があります。"
+    },
+    misuse: {
+      title: "不正利用",
+      p1:
+        "不正が確認された場合、停止されます。"
+    },
+    changes: {
+      title: "変更",
+      p1:
+        "事前通知なく変更される場合があります。"
+    },
+    liability: {
+      title: "責任制限",
+      p1:
+        "ポイント損失の責任は負いません。"
+    },
+    contact: {
+      title: "お問い合わせ",
+      p1:
+        "サポートまでご連絡ください。",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+refundsReturns: {
+  hero: {
+    title: "返金・返品について",
+    description:
+      "BioPeptide™ の返金および返品ポリシー。"
+  },
+  sections: {
+    noReturns: {
+      title: "返品不可",
+      p1:
+        "すべての販売は最終です。",
+      p2:
+        "研究用途専用製品のため返品不可。"
+    },
+    incorrect: {
+      title: "誤配送",
+      p1:
+        "誤りがあった場合はすぐご連絡ください。",
+      p2:
+        "確認後、交換対応します。"
+    },
+    eligibility: {
+      title: "交換条件",
+      bullets: [
+        "迅速な報告",
+        "誤った商品",
+        "注文確認"
+      ]
+    },
+    noExceptions: {
+      title: "例外なし",
+      p1:
+        "返金・返品は受け付けません。"
+    },
+    contact: {
+      title: "お問い合わせ",
+      p1:
+        "サポートまでご連絡ください。",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+productPage: {
+  back: "← 製品一覧へ戻る",
+  tagline: "プレミアムBioPeptide・高純度研究用素材",
+  description: {
+    p1: "{name}は精密なペプチド合成技術により開発され、高解像度精製が施されています。",
+    p2: "生化学分析、細胞研究、受容体結合解析などの研究用途向けに設計されています。"
+  },
+  badges: {
+    hplc: "HPLC検査済み",
+    research: "研究グレード",
+    coa: "COAあり"
+  },
+  priceNote: "研究用途のみ",
+  addToCart: "カートに追加",
+  specs: {
+    category: "カテゴリー",
+    purity: "純度",
+    size: "単位サイズ",
+    cas: "CAS"
+  },
+  notFound: "製品が見つかりません"
+},
+productContent: {
+  overviewTitle: "概要",
+  mechanism: "作用機序",
+  mechanismPoints: [
+    "細胞シグナル伝達経路の調節",
+    "成長因子感受性の向上",
+    "遺伝子発現の調節",
+    "ミトコンドリアATP産生への影響",
+    "酵素活性化のサポート"
+  ],
+  researchApplicationsTitle: "主な研究用途",
+  researchApplications: [
+    "再生細胞生物学",
+    "タンパク質発現解析",
+    "受容体結合研究",
+    "ミトコンドリア代謝研究",
+    "酵素感受性試験",
+    "マトリックス再構築アッセイ"
+  ],
+  scientificBackgroundTitle: "科学的背景",
+  stabilityTitle: "安定性プロファイル",
+  solubilityTitle: "溶解性と再構成",
+  techSpecsTitle: "技術仕様",
+  molecularTitle: "分子特性",
+  validationTitle: "分析検証",
+  regulatoryTitle: "規制および遵守",
+  faq: "FAQ",
+  faqItems: [
+    { q: "人間用ですか？", a: "いいえ。研究用途のみです。" },
+    { q: "COAは含まれますか？", a: "はい。HPLCおよびMS検証が含まれます。" },
+    { q: "無菌ですか？", a: "再構成前は無菌ではありません。" },
+    { q: "保管方法は？", a: "密封して−20°Cで保管してください。" }
+  ],
+  disclaimer:
+    "免責事項：本製品は研究用途専用であり、人間または動物への使用を目的としていません。"
 }
+
+
+
+
+
+
 
 
 

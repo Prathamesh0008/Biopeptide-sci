@@ -1109,7 +1109,426 @@ peptides: {
           "While no system is 100% secure, we take appropriate steps to safeguard your data."
       }
     }
+  },
+  terms: {
+  hero: {
+    title: "Terms & Conditions",
+    description:
+      "Please read these Terms and Conditions carefully before using the BioPeptide™ website or purchasing any products."
+  },
+
+  sections: {
+    general: {
+      title: "General Terms and Conditions of Use Agreement",
+      p1:
+        "These Terms and Conditions govern all users of www.biopeptide.com. These terms must be agreed upon before any purchases can be made."
+    },
+
+    payments: {
+      title: "Payments & Authorization",
+      p1:
+        "All e-Check / ACH payments will be made payable to BioPeptide™. By placing an order, you authorize BioPeptide™ to initiate a single ACH/electronic debit to your account in the amount of your order.",
+      p2:
+        "Payments made after 11:00 PM Pacific Time will be applied as of the next business day. Once payment is authorized, no changes or corrections can be made.",
+      p3:
+        "We recommend printing and retaining a copy of this authorization for your records."
+    },
+
+    websiteUse: {
+      title: "Use of Our Website",
+      p1:
+        "Your use of this website is governed by these Terms and Conditions and our Privacy Policy. You may not modify, distribute, reproduce, publish, license, transfer, or sell any content without written consent.",
+      p2:
+        "You may download or print content for personal, non-commercial use only, provided all copyright notices are preserved."
+    },
+
+    productUse: {
+      title: "Product Use & Research Disclaimer",
+      warning:
+        "ALL PRODUCTS SOLD BY BIOPEPTIDE™ ARE FOR IN-VITRO LABORATORY RESEARCH USE ONLY.",
+      bullets: [
+        "NOT for human or animal consumption",
+        "NOT intended to diagnose, treat, cure, or prevent disease",
+        "NOT approved by the FDA for medical use",
+        "NOT to be used as food, drugs, or cosmetics"
+      ],
+      p1:
+        "All articles and product information are provided for educational and informational purposes only."
+    },
+
+    age: {
+      title: "Age Requirement",
+      p1:
+        "You must be at least 21 years of age to purchase or use this website."
+    },
+
+    risk: {
+      title: "Risk Acknowledgement",
+      p1:
+        "By purchasing any product, you acknowledge that there are inherent risks associated with handling and using research chemicals.",
+      p2:
+        "All customers represent and warrant that they are knowledgeable about:",
+      bullets: [
+        "Proper in-vitro research use",
+        "Applicable government regulations",
+        "Health and safety hazards",
+        "Proper warning and handling procedures"
+      ]
+    },
+
+    sales: {
+      title: "Sales Policy",
+      p1:
+        "Due to the nature of these products, ALL SALES ARE FINAL.",
+      p2:
+        "BioPeptide™ reserves the right to limit or refuse sales to any unqualified individual or entity."
+    },
+
+    liability: {
+      title: "Limitation of Liability",
+      p1:
+        "BioPeptide™ shall not be liable for any damages arising from the use or misuse of products or website content.",
+      p2:
+        "The purchaser agrees to indemnify and hold BioPeptide™ harmless from all claims arising from product use."
+    },
+
+    intellectual: {
+      title: "Trademarks & Intellectual Property",
+      p1:
+        "All content on this website is the property of BioPeptide™ and protected by intellectual property laws.",
+      p2:
+        "No content may be copied or distributed without written permission."
+    },
+
+    security: {
+      title: "Security",
+      p1:
+        "We use industry-standard encryption technologies to protect sensitive information."
+    },
+
+    law: {
+      title: "Governing Law",
+      p1:
+        "These Terms shall be governed in accordance with applicable laws. You are responsible for compliance with local regulations."
+    },
+
+    agreement: {
+      title: "Entire Agreement",
+      p1:
+        "These Terms constitute the entire agreement between you and BioPeptide™.",
+      p2:
+        "If you do not agree with these terms, DO NOT purchase from us."
+    }
   }
+},
+customerService: {
+  hero: {
+    title: "Customer Service",
+    description:
+      "At BioPeptide™, we are committed to providing reliable service, secure transactions, and timely delivery for all research orders."
+  },
+
+  sections: {
+    shipping: {
+      title: "Shipping & Delivery",
+      bullets: [
+        "Multiple shipping options available",
+        "FREE shipping on orders over $200 (grand total)",
+        "USPS Priority, FedEx 2-Day, FedEx Overnight",
+        "FedEx Overnight (Signature Required)",
+        "FedEx Saturday Delivery for eligible Friday orders"
+      ],
+      note:
+        "Orders placed, paid, and processed before 12:00 PM PST typically ship the same business day. Orders placed after this time, on weekends, or holidays ship the next business day."
+    },
+
+    privacy: {
+      title: "Privacy & Security",
+      p1:
+        "All orders submitted through our website are protected by 256-bit SSL (Secure Socket Layer) encryption.",
+      p2:
+        "We take your privacy seriously and comply with all applicable federal and state privacy regulations. Your personal and order information is used only to process and fulfill your order.",
+      p3:
+        "We do not sell, share, or disclose your information to third parties."
+    },
+
+    returns: {
+      title: "Returns & Replacements",
+      p1:
+        "Due to regulatory restrictions, returns are not permitted.",
+      p2:
+        "If an order is shipped incorrectly or the items received do not match your order, please contact us immediately. We will review the issue and issue a replacement when applicable."
+    },
+
+    ordering: {
+      title: "Ordering",
+      p1:
+        "Orders can be placed through our secure website 24 hours a day, 7 days a week.",
+      p2:
+        "Once your order is submitted, approved, and payment is received, it will be properly packaged and shipped using a reputable carrier.",
+      p3:
+        "You will receive shipping confirmation once your order has been dispatched."
+    },
+
+    payments: {
+      title: "Payment, Pricing & Promotions",
+      bullets: [
+        "We accept all major credit cards",
+        "Individual and bulk pricing available",
+        "Quantity discounts listed on product pages"
+      ],
+      note:
+        "For large bulk or wholesale inquiries, please contact our support team directly."
+    },
+
+    status: {
+      title: "Viewing Order Status",
+      bullets: [
+        "Registered users can view order history and status",
+        "Update account information easily",
+        "Faster checkout for future purchases"
+      ],
+      note:
+        "If you checked out as a guest and have questions about your order, please contact us by email."
+    },
+
+    satisfaction: {
+      title: "Satisfaction Guaranteed",
+      p1:
+        "We are committed to delivering outstanding quality and service.",
+      p2:
+        "If you have any questions, concerns, or service-related issues, please contact us. Our team responds to all inquiries and is here to help."
+    }
+  },
+
+  contact: {
+    title: "Contact Customer Support"
+  }
+},
+accessibility: {
+  hero: {
+    title: "Accessibility Statement",
+    description:
+      "BioPeptide™ is committed to ensuring digital accessibility for all users, including individuals with disabilities."
+  },
+
+  sections: {
+    commitment: {
+      title: "Our Commitment",
+      p1:
+        "BioPeptide™ strives to make our website accessible and usable for everyone. We are continually improving the user experience for all visitors and applying relevant accessibility standards."
+    },
+
+    standards: {
+      title: "Accessibility Standards",
+      p1:
+        "Our goal is to conform to applicable accessibility standards, including the Web Content Accessibility Guidelines (WCAG) 2.1, Level AA, wherever reasonably possible.",
+      p2:
+        "We regularly review our website to identify areas that may require improvement and make updates to enhance accessibility."
+    },
+
+    efforts: {
+      title: "Ongoing Accessibility Efforts",
+      bullets: [
+        "Improving keyboard navigation and screen reader compatibility",
+        "Enhancing color contrast and text readability",
+        "Ensuring clear structure and consistent navigation",
+        "Optimizing content for assistive technologies"
+      ]
+    },
+
+    limitations: {
+      title: "Limitations and Alternatives",
+      p1:
+        "While we aim to make our website fully accessible, some content or functionality may not yet be fully optimized for all assistive technologies. We appreciate your patience as we continue to make improvements."
+    },
+
+    feedback: {
+      title: "Feedback & Assistance",
+      p1:
+        "If you experience any difficulty accessing content on our website or have suggestions for improvement, we encourage you to contact us. Your feedback helps us improve accessibility for everyone.",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+rewardsTerms: {
+  hero: {
+    title: "Reward Program Terms",
+    description:
+      "These terms govern participation in the BioPeptide™ Loyalty & Rewards Program."
+  },
+
+  sections: {
+    overview: {
+      title: "Program Overview",
+      p1:
+        "The BioPeptide™ Loyalty Program allows eligible customers to earn reward points through qualifying purchases and promotional activities. Participation in the program constitutes acceptance of these terms."
+    },
+
+    eligibility: {
+      title: "Eligibility",
+      bullets: [
+        "Participants must be at least 21 years of age",
+        "A valid customer account may be required",
+        "Program participation is void where prohibited by law"
+      ]
+    },
+
+    earning: {
+      title: "Earning Reward Points",
+      p1:
+        "Reward points may be earned through eligible purchases or other qualifying actions as determined by BioPeptide™.",
+      p2:
+        "Points have no cash value, are non-transferable, and may not be exchanged for cash or credit."
+    },
+
+    redeeming: {
+      title: "Redeeming Rewards",
+      p1:
+        "Reward points may be redeemed for discounts or promotional offers, subject to availability and additional conditions.",
+      p2:
+        "BioPeptide™ reserves the right to modify or discontinue any reward, redemption threshold, or promotional offer at any time without notice."
+    },
+
+    expiration: {
+      title: "Expiration & Forfeiture",
+      p1:
+        "Reward points may expire after a period of inactivity or upon termination of an account. Points may also be forfeited if program terms are violated."
+    },
+
+    misuse: {
+      title: "Account Misuse",
+      p1:
+        "BioPeptide™ reserves the right to suspend or terminate any account that engages in fraud, abuse, manipulation, or misuse of the reward program."
+    },
+
+    changes: {
+      title: "Program Changes or Termination",
+      p1:
+        "BioPeptide™ may modify, suspend, or terminate the Loyalty Program or these terms at any time without prior notice. Continued participation constitutes acceptance of any changes."
+    },
+
+    liability: {
+      title: "Limitation of Liability",
+      p1:
+        "BioPeptide™ is not responsible for lost, stolen, or misused reward points, nor for system errors, technical issues, or unauthorized access affecting reward balances."
+    },
+
+    contact: {
+      title: "Contact Information",
+      p1:
+        "For questions regarding the Loyalty Program or reward points, please contact our support team.",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+refundsReturns: {
+  hero: {
+    title: "Refunds & Returns",
+    description:
+      "Our policies regarding refunds, returns, and replacements at BioPeptide™."
+  },
+  sections: {
+    noReturns: {
+      title: "No Returns Policy",
+      p1:
+        "Due to the nature of our products, all sales are final.",
+      p2:
+        "BioPeptide™ products are sold strictly for laboratory research purposes only. As a result, returns are not permitted under any circumstances."
+    },
+    incorrect: {
+      title: "Incorrect or Damaged Orders",
+      p1:
+        "If you believe that your order was shipped incorrectly or you received items that differ from what you ordered, please contact us immediately.",
+      p2:
+        "After verification, we will issue a replacement. Refunds are not issued for incorrect shipments."
+    },
+    eligibility: {
+      title: "Replacement Eligibility",
+      bullets: [
+        "The issue must be reported promptly after delivery",
+        "The item received must differ from the item ordered",
+        "Order details must be verified by our support team"
+      ]
+    },
+    noExceptions: {
+      title: "No Exceptions",
+      p1:
+        "Due to regulatory requirements, BioPeptide™ cannot accept returns, exchanges, or refunds except for shipment errors."
+    },
+    contact: {
+      title: "Need Assistance?",
+      p1:
+        "If you have questions or believe there was an error in fulfillment, please contact our support team.",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+productPage: {
+  back: "← Back to Products",
+  tagline: "Premium BioPeptide • High-Purity Scientific Research Material",
+  description: {
+    p1: "Developed using precision peptide synthesis technology, {name} undergoes high-resolution purification to ensure molecular accuracy.",
+    p2: "Designed for biochemical assays, pathway signaling, cell studies, receptor-binding analysis, and controlled research environments."
+  },
+  badges: {
+    hplc: "HPLC Tested",
+    research: "Research Grade",
+    coa: "COA Available"
+  },
+  priceNote: "Research Use Only",
+  addToCart: "Add to Cart",
+  specs: {
+    category: "Category",
+    purity: "Purity",
+    size: "Unit Size",
+    cas: "CAS"
+  },
+  notFound: "Product Not Found"
+},
+productContent: {
+  overviewTitle: "Overview",
+  mechanism: "Mechanism of Action",
+  mechanismPoints: [
+    "Modulation of cellular signaling pathways",
+    "Growth factor sensitivity enhancement",
+    "Gene expression regulation",
+    "Mitochondrial ATP production influence",
+    "Enzymatic activation support"
+  ],
+  researchApplicationsTitle: "Primary Research Applications",
+  researchApplications: [
+    "Regenerative cell biology",
+    "Protein expression analysis",
+    "Receptor binding studies",
+    "Mitochondrial metabolic research",
+    "Enzymatic sensitivity experiments",
+    "Matrix remodeling assays"
+  ],
+  scientificBackgroundTitle: "Scientific Background",
+  stabilityTitle: "Stability Profile",
+  solubilityTitle: "Solubility & Reconstitution",
+  techSpecsTitle: "Technical Specifications",
+  molecularTitle: "Molecular Characteristics",
+  validationTitle: "Analytical Validation",
+  regulatoryTitle: "Regulatory & Compliance",
+  faq: "FAQ",
+  faqItems: [
+    { q: "Is this peptide for human use?", a: "No. Laboratory research only." },
+    { q: "Does it include COA?", a: "Yes. Each batch includes HPLC + MS validation." },
+    { q: "Is it sterile?", a: "Not until reconstituted." },
+    { q: "How should it be stored?", a: "Sealed and frozen at −20°C." }
+  ],
+  disclaimer:
+    "Disclaimer: This product is intended strictly for laboratory research purposes only. It is not intended for human or veterinary use, diagnosis, treatment, or prevention of any disease."
+}
+
+
+
+
+
+
+
 
 
 

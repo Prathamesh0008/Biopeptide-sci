@@ -106,20 +106,51 @@ const t = (path) =>
             <span>{t("total")}</span>
             <span>${data.subtotal.toFixed(2)}</span>
           </div>
-
-          <button
-  onClick={() => {
+<button
+  onClick={async () => {
     const saved = JSON.parse(localStorage.getItem("bio-checkout"));
+    if (!saved) return;
 
-    localStorage.setItem(
-      "bio-checkout",
-      JSON.stringify({
-        ...saved,
-        paymentMethod: method,
-      })
-    );
+    // 1️⃣ Save payment method
+    const updated = {
+      ...saved,
+      paymentMethod: method,
+    };
 
-    router.push("/confirm-order");
+    localStorage.setItem("bio-checkout", JSON.stringify(updated));
+
+    // 2️⃣ CREATE ORDER IN MONGODB (THIS WAS MISSING)
+    const res = await fetch("/api/orders", {
+      method: "POST",
+      credentials: "include", // 🔴 REQUIRED
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        checkoutId: updated.checkoutId,
+        items: updated.cart,
+        totals: {
+          subtotal: updated.subtotal,
+          shipping: 0,
+          tax: 0,
+          total: updated.subtotal,
+        },
+        address: updated.form,
+        userEmail: updated.user?.email,
+        userName: updated.user?.name,
+        phone: updated.user?.phone,
+      }),
+    });
+
+    const data = await res.json();
+
+    if (!data.ok) {
+      alert("Order creation failed");
+      return;
+    }
+
+    // 3️⃣ Redirect with orderId
+    router.push(`/order-success?orderId=${data.orderId}`);
   }}
   className="
     mt-6 w-full py-3 rounded-full
@@ -131,6 +162,7 @@ const t = (path) =>
 >
   {t("paySecurely")}
 </button>
+
 
 
 

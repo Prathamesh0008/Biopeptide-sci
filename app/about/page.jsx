@@ -124,11 +124,13 @@ export default function AboutPage() {
             </h3>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {t("whyChooseUs.features")?.map((item, i) => (
-                <div key={i} className="p-6 border rounded-xl">
-                  {item}
-                </div>
-              ))}
+             {Array.isArray(t("whyChooseUs.features")) &&
+  t("whyChooseUs.features").map((item, i) => (
+    <div key={i} className="p-6 border rounded-xl">
+      {item}
+    </div>
+  ))}
+
             </div>
           </div>
 

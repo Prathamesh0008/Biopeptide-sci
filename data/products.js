@@ -34,7 +34,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
- image: "/product/peptides/adipotide.png"
+ image: "/product/peptides/AICAR.png"
 
 },
 
@@ -74,7 +74,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/bpctbblend20mg.svg"
+  image: "/product/peptides/Adipotide.png"
 },
 
   {
@@ -108,7 +108,7 @@
   storage: "Store in a cool, dry environment away from direct light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Capsules/5amino1mq@300x.png",
+  image: "/product/peptides/adipotide.png",
 },
 
  {
@@ -2070,44 +2070,7 @@
 
   image: "/product/Peptides/ghrp-6_5mg.svg"
 },
-{
-  id: "ghrp-6-ipamorelin-5x10mg-bundle",
-  slug: "ghrp-6-5mg-x-10-ipamorelin-5mg-x-10",
-  name: "GHRP-6 5mg ×10 + Ipamorelin 5mg ×10 (Bundle)",
-  category: "Peptide Blends",
 
-  price: 1180.0,
-
-  strength:
-    "Dual-peptide endocrine research bundle studied for growth hormone release signaling, receptor specificity, and pituitary pathway interaction models.",
-
-  size: "20 vials total (GHRP-6 5mg ×10, Ipamorelin 5mg ×10)",
-  purity: "≥ 99% (HPLC)",
-
-  stock: true,
-  badge: "Research Bundle",
-
-  description:
-    "This research bundle includes ten vials of GHRP-6 (Growth Hormone–Releasing Peptide-6) and ten vials of Ipamorelin, a selective growth hormone secretagogue. Supplied as separate lyophilized peptides, this combination is widely used in laboratory research to explore synergistic growth hormone release mechanisms, receptor-binding selectivity, and endocrine signaling pathways. The 20-vial configuration supports extended experimental protocols, comparative studies, and high-throughput endocrine research.",
-
-  components: [
-    "GHRP-6 (Growth Hormone–Releasing Peptide-6) — 5mg ×10 vials",
-    "Ipamorelin (Selective GH secretagogue) — 5mg ×10 vials"
-  ],
-
-  applications: [
-    "Endocrine and pituitary signaling research",
-    "Growth hormone release pathway studies",
-    "Peptide–receptor specificity investigation",
-    "Synergistic endocrine peptide research"
-  ],
-
-  appearance: "White lyophilized powders (separate vials)",
-  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use.",
-
-  image: "/product/Peptides/ghrp-6.svg"
-},
 {
   id: "ghrp-6-ipamorelin-5x10mg-bundle",
   slug: "ghrp-6-5mg-x-10-ipamorelin-5mg-x-10",

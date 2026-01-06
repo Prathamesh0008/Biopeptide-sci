@@ -9,7 +9,7 @@ export default function AboutSection() {
   const { translations, loading } = useLanguage();
   if (loading) return null;
 
-  const t = translations.home.about;
+  const t = translations?.about ?? {};
 
   return (
     <section className="py-16 border-t border-gray-200">

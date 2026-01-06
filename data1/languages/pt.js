@@ -946,7 +946,437 @@ privacy: {
         "Tomamos precauções para proteger seus dados."
     }
   }
+},
+terms: {
+  hero: {
+    title: "Termos e Condições",
+    description:
+      "Leia atentamente estes Termos antes de utilizar o site BioPeptide™."
+  },
+  sections: {
+    general: {
+      title: "Termos Gerais",
+      p1:
+        "Estes termos aplicam-se a todos os usuários."
+    },
+    payments: {
+      title: "Pagamentos e Autorização",
+      p1:
+        "Pagamentos ACH são feitos à BioPeptide™.",
+      p2:
+        "Pagamentos após 23h são processados no próximo dia útil.",
+      p3:
+        "Recomendamos guardar uma cópia."
+    },
+    websiteUse: {
+      title: "Uso do Site",
+      p1:
+        "O uso está sujeito a estes termos.",
+      p2:
+        "Somente uso pessoal e não comercial."
+    },
+    productUse: {
+      title: "Uso do Produto",
+      warning:
+        "PRODUTOS APENAS PARA PESQUISA IN-VITRO.",
+      bullets: [
+        "NÃO para consumo humano ou animal",
+        "NÃO para fins médicos",
+        "NÃO aprovado pela FDA",
+        "NÃO como alimento ou cosmético"
+      ],
+      p1:
+        "Informações apenas educacionais."
+    },
+    age: {
+      title: "Idade Mínima",
+      p1:
+        "É necessário ter pelo menos 21 anos."
+    },
+    risk: {
+      title: "Reconhecimento de Risco",
+      p1:
+        "Produtos envolvem riscos.",
+      p2:
+        "Clientes confirmam conhecimento de:",
+      bullets: [
+        "Uso correto",
+        "Regulamentos",
+        "Riscos de segurança",
+        "Procedimentos adequados"
+      ]
+    },
+    sales: {
+      title: "Política de Vendas",
+      p1:
+        "TODAS AS VENDAS SÃO FINAIS.",
+      p2:
+        "A BioPeptide™ pode recusar vendas."
+    },
+    liability: {
+      title: "Limitação de Responsabilidade",
+      p1:
+        "Não nos responsabilizamos por danos.",
+      p2:
+        "O comprador isenta a BioPeptide™."
+    },
+    intellectual: {
+      title: "Propriedade Intelectual",
+      p1:
+        "Conteúdo protegido por lei.",
+      p2:
+        "Cópia proibida sem permissão."
+    },
+    security: {
+      title: "Segurança",
+      p1:
+        "Usamos criptografia padrão."
+    },
+    law: {
+      title: "Lei Aplicável",
+      p1:
+        "Regido pela legislação aplicável."
+    },
+    agreement: {
+      title: "Acordo Integral",
+      p1:
+        "Este é o acordo completo.",
+      p2:
+        "Se não concordar, não compre."
+    }
+  }
+},
+customerService: {
+  hero: {
+    title: "Atendimento ao Cliente",
+    description:
+      "A BioPeptide™ oferece serviço confiável, pagamentos seguros e entrega pontual."
+  },
+
+  sections: {
+    shipping: {
+      title: "Envio e Entrega",
+      bullets: [
+        "Várias opções de envio",
+        "Frete GRÁTIS em pedidos acima de $200",
+        "USPS Priority, FedEx 2-Day, FedEx Overnight",
+        "FedEx Overnight (assinatura obrigatória)",
+        "Entrega aos sábados disponível"
+      ],
+      note:
+        "Pedidos antes das 12h PST geralmente são enviados no mesmo dia."
+    },
+
+    privacy: {
+      title: "Privacidade e Segurança",
+      p1:
+        "Pedidos protegidos por criptografia SSL de 256 bits.",
+      p2:
+        "Dados usados apenas para processamento.",
+      p3:
+        "Não vendemos informações pessoais."
+    },
+
+    returns: {
+      title: "Devoluções",
+      p1:
+        "Devoluções não são permitidas.",
+      p2:
+        "Erros de envio serão corrigidos."
+    },
+
+    ordering: {
+      title: "Pedidos",
+      p1:
+        "Pedidos aceitos 24/7.",
+      p2:
+        "Pedidos embalados e enviados com segurança.",
+      p3:
+        "Confirmação de envio enviada."
+    },
+
+    payments: {
+      title: "Pagamentos e Preços",
+      bullets: [
+        "Aceitamos cartões principais",
+        "Preços individuais e por volume",
+        "Descontos disponíveis"
+      ],
+      note:
+        "Pedidos grandes podem entrar em contato."
+    },
+
+    status: {
+      title: "Status do Pedido",
+      bullets: [
+        "Usuários podem ver histórico",
+        "Atualizar dados facilmente",
+        "Checkout mais rápido"
+      ],
+      note:
+        "Pedidos como convidado via e-mail."
+    },
+
+    satisfaction: {
+      title: "Satisfação Garantida",
+      p1:
+        "Compromisso com qualidade.",
+      p2:
+        "Nossa equipe está à disposição."
+    }
+  },
+
+  contact: {
+    title: "Contato com Suporte"
+  }
+},
+accessibility: {
+  hero: {
+    title: "Declaração de Acessibilidade",
+    description:
+      "A BioPeptide™ está comprometida com a acessibilidade digital."
+  },
+  sections: {
+    commitment: {
+      title: "Nosso Compromisso",
+      p1:
+        "Buscamos tornar o site acessível para todos."
+    },
+    standards: {
+      title: "Padrões de Acessibilidade",
+      p1:
+        "Objetivo de conformidade com WCAG 2.1 AA.",
+      p2:
+        "Revisões contínuas do site."
+    },
+    efforts: {
+      title: "Esforços Contínuos",
+      bullets: [
+        "Navegação por teclado",
+        "Contraste de cores",
+        "Estrutura clara",
+        "Tecnologias assistivas"
+      ]
+    },
+    limitations: {
+      title: "Limitações",
+      p1:
+        "Alguns conteúdos podem não estar totalmente acessíveis."
+    },
+    feedback: {
+      title: "Feedback",
+      p1:
+        "Entre em contato para sugestões.",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+
+rewardsTerms: {
+  hero: {
+    title: "Termos do Programa de Recompensas",
+    description:
+      "Regras do programa de fidelidade BioPeptide™."
+  },
+  sections: {
+    overview: {
+      title: "Visão Geral",
+      p1:
+        "Clientes podem ganhar pontos por compras."
+    },
+    eligibility: {
+      title: "Elegibilidade",
+      bullets: [
+        "Idade mínima 21 anos",
+        "Conta válida",
+        "Sujeito à lei"
+      ]
+    },
+    earning: {
+      title: "Ganhar Pontos",
+      p1:
+        "Pontos obtidos por compras elegíveis.",
+      p2:
+        "Sem valor monetário."
+    },
+    redeeming: {
+      title: "Resgatar Pontos",
+      p1:
+        "Resgate sujeito a condições.",
+      p2:
+        "Programa pode ser alterado."
+    },
+    expiration: {
+      title: "Expiração",
+      p1:
+        "Pontos podem expirar."
+    },
+    misuse: {
+      title: "Uso Indevido",
+      p1:
+        "Abuso pode resultar em suspensão."
+    },
+    changes: {
+      title: "Alterações",
+      p1:
+        "Mudanças podem ocorrer."
+    },
+    liability: {
+      title: "Responsabilidade",
+      p1:
+        "Não nos responsabilizamos por perdas."
+    },
+    contact: {
+      title: "Contato",
+      p1:
+        "Fale com o suporte.",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+refundsReturns: {
+  hero: {
+    title: "Reembolsos e Devoluções",
+    description:
+      "Política de reembolso e devolução da BioPeptide™."
+  },
+  sections: {
+    noReturns: {
+      title: "Sem Devoluções",
+      p1:
+        "Todas as vendas são finais.",
+      p2:
+        "Produtos destinados apenas à pesquisa laboratorial."
+    },
+    incorrect: {
+      title: "Pedidos Incorretos ou Danificados",
+      p1:
+        "Entre em contato imediatamente em caso de erro.",
+      p2:
+        "Após verificação, será emitida substituição."
+    },
+    eligibility: {
+      title: "Elegibilidade",
+      bullets: [
+        "Relatar rapidamente",
+        "Produto incorreto recebido",
+        "Pedido verificado pelo suporte"
+      ]
+    },
+    noExceptions: {
+      title: "Sem Exceções",
+      p1:
+        "Não aceitamos devoluções ou reembolsos."
+    },
+    contact: {
+      title: "Precisa de Ajuda?",
+      p1:
+        "Fale com nossa equipe de suporte.",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+productPage: {
+  back: "← Voltar aos produtos",
+  tagline: "BioPeptide Premium • Material científico de alta pureza",
+  description: {
+    p1: "{name} é desenvolvido com tecnologia de síntese peptídica de precisão e purificação avançada.",
+    p2: "Projetado para análises bioquímicas, estudos celulares e ambientes de pesquisa controlados."
+  },
+  badges: {
+    hplc: "Testado por HPLC",
+    research: "Grau de pesquisa",
+    coa: "COA disponível"
+  },
+  priceNote: "Uso exclusivo para pesquisa",
+  addToCart: "Adicionar ao carrinho",
+  specs: {
+    category: "Categoria",
+    purity: "Pureza",
+    size: "Tamanho da unidade",
+    cas: "CAS"
+  },
+  notFound: "Produto não encontrado"
+},
+productContent: {
+  overviewTitle: "Visão geral",
+  mechanism: "Mecanismo de ação",
+  mechanismPoints: [
+    "Modulação das vias de sinalização celular",
+    "Aumento da sensibilidade aos fatores de crescimento",
+    "Regulação da expressão genética",
+    "Influência na produção mitocondrial de ATP",
+    "Suporte à ativação enzimática"
+  ],
+  researchApplicationsTitle: "Principais aplicações de pesquisa",
+  researchApplications: [
+    "Biologia celular regenerativa",
+    "Análise de expressão proteica",
+    "Estudos de ligação a receptores",
+    "Pesquisa metabólica mitocondrial",
+    "Experimentos de sensibilidade enzimática",
+    "Ensaios de remodelação da matriz"
+  ],
+  scientificBackgroundTitle: "Contexto científico",
+  stabilityTitle: "Perfil de estabilidade",
+  solubilityTitle: "Solubilidade e reconstituição",
+  techSpecsTitle: "Especificações técnicas",
+  molecularTitle: "Características moleculares",
+  validationTitle: "Validação analítica",
+  regulatoryTitle: "Regulamentação e conformidade",
+  faq: "Perguntas frequentes",
+  faqItems: [
+    { q: "Este peptídeo é para uso humano?", a: "Não. Apenas para pesquisa laboratorial." },
+    { q: "Inclui COA?", a: "Sim. Cada lote inclui validação HPLC e MS." },
+    { q: "É estéril?", a: "Não antes da reconstituição." },
+    { q: "Como deve ser armazenado?", a: "Selado e congelado a −20°C." }
+  ],
+  disclaimer:
+    "Aviso: Este produto destina-se exclusivamente à pesquisa laboratorial. Não é destinado ao uso humano ou veterinário."
+},
+productContent: {
+  overviewTitle: "Visão geral",
+  mechanism: "Mecanismo de ação",
+  mechanismPoints: [
+    "Modulação das vias de sinalização celular",
+    "Aumento da sensibilidade aos fatores de crescimento",
+    "Regulação da expressão genética",
+    "Influência na produção mitocondrial de ATP",
+    "Suporte à ativação enzimática"
+  ],
+  researchApplicationsTitle: "Principais aplicações de pesquisa",
+  researchApplications: [
+    "Biologia celular regenerativa",
+    "Análise de expressão proteica",
+    "Estudos de ligação a receptores",
+    "Pesquisa metabólica mitocondrial",
+    "Experimentos de sensibilidade enzimática",
+    "Ensaios de remodelação da matriz"
+  ],
+  scientificBackgroundTitle: "Contexto científico",
+  stabilityTitle: "Perfil de estabilidade",
+  solubilityTitle: "Solubilidade e reconstituição",
+  techSpecsTitle: "Especificações técnicas",
+  molecularTitle: "Características moleculares",
+  validationTitle: "Validação analítica",
+  regulatoryTitle: "Regulamentação e conformidade",
+  faq: "Perguntas frequentes",
+  faqItems: [
+    { q: "Este peptídeo é para uso humano?", a: "Não. Apenas para pesquisa laboratorial." },
+    { q: "Inclui COA?", a: "Sim. Cada lote inclui validação HPLC e MS." },
+    { q: "É estéril?", a: "Não antes da reconstituição." },
+    { q: "Como deve ser armazenado?", a: "Selado e congelado a −20°C." }
+  ],
+  disclaimer:
+    "Aviso: Este produto destina-se exclusivamente à pesquisa laboratorial. Não é destinado ao uso humano ou veterinário."
 }
+
+
+
+
+
+
+
 
 
 

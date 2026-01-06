@@ -77,7 +77,7 @@ const [searchFocused, setSearchFocused] = useState(false);
   };
   
 
- const LANGUAGES = [
+const LANGUAGES = [
   { code: "en", label: "English", flag: "us" },
   { code: "ar", label: "Arabic", flag: "sa" },
   { code: "de", label: "German", flag: "de" },
@@ -87,7 +87,18 @@ const [searchFocused, setSearchFocused] = useState(false);
   { code: "ja", label: "Japanese", flag: "jp" },
   { code: "zh", label: "Chinese", flag: "cn" },
   { code: "fr", label: "French", flag: "fr" },
+
+  // ✅ NEW — Balkans / EU
+  { code: "ro", label: "Romanian", flag: "ro" },
+  { code: "sq", label: "Albanian", flag: "al" },
+  { code: "el", label: "Greek", flag: "gr" },
+  { code: "bg", label: "Bulgarian", flag: "bg" },
+  { code: "mk", label: "Macedonian", flag: "mk" },
+  { code: "sr", label: "Serbian", flag: "rs" },
+  { code: "hr", label: "Croatian", flag: "hr" },
+  { code: "bs", label: "Bosnian", flag: "ba" },
 ];
+
 
 useEffect(() => {
   const updateCount = () => {

@@ -952,7 +952,400 @@ privacy: {
         "Wir schützen Ihre Daten bestmöglich."
     }
   }
+},
+terms: {
+  hero: {
+    title: "Allgemeine Geschäftsbedingungen",
+    description:
+      "Bitte lesen Sie diese Bedingungen sorgfältig durch."
+  },
+  sections: {
+    general: {
+      title: "Allgemeine Nutzungsbedingungen",
+      p1:
+        "Diese Bedingungen gelten für alle Nutzer."
+    },
+    payments: {
+      title: "Zahlungen & Autorisierung",
+      p1:
+        "Zahlungen erfolgen an BioPeptide™.",
+      p2:
+        "Späte Zahlungen werden am nächsten Werktag verarbeitet.",
+      p3:
+        "Bewahren Sie eine Kopie auf."
+    },
+    websiteUse: {
+      title: "Webseitennutzung",
+      p1:
+        "Die Nutzung unterliegt diesen Bedingungen.",
+      p2:
+        "Nur für privaten Gebrauch."
+    },
+    productUse: {
+      title: "Produktnutzung",
+      warning:
+        "NUR FÜR IN-VITRO-FORSCHUNG.",
+      bullets: [
+        "NICHT für Menschen oder Tiere",
+        "NICHT medizinisch",
+        "NICHT FDA-zugelassen",
+        "NICHT als Lebensmittel"
+      ],
+      p1:
+        "Nur zu Informationszwecken."
+    },
+    age: {
+      title: "Mindestalter",
+      p1:
+        "Mindestalter 21 Jahre."
+    },
+    risk: {
+      title: "Risikoanerkennung",
+      p1:
+        "Produkte bergen Risiken.",
+      p2:
+        "Kunden bestätigen Kenntnisse über:",
+      bullets: [
+        "Korrekte Nutzung",
+        "Gesetzliche Vorschriften",
+        "Sicherheitsrisiken",
+        "Handhabung"
+      ]
+    },
+    sales: {
+      title: "Verkaufsrichtlinie",
+      p1:
+        "ALLE VERKÄUFE SIND ENDGÜLTIG.",
+      p2:
+        "BioPeptide™ kann Verkäufe ablehnen."
+    },
+    liability: {
+      title: "Haftungsbeschränkung",
+      p1:
+        "Keine Haftung für Schäden.",
+      p2:
+        "Käufer stellt BioPeptide™ frei."
+    },
+    intellectual: {
+      title: "Geistiges Eigentum",
+      p1:
+        "Alle Inhalte sind geschützt.",
+      p2:
+        "Kopieren verboten."
+    },
+    security: {
+      title: "Sicherheit",
+      p1:
+        "Industriestandard-Verschlüsselung."
+    },
+    law: {
+      title: "Anwendbares Recht",
+      p1:
+        "Unterliegt geltendem Recht."
+    },
+    agreement: {
+      title: "Gesamte Vereinbarung",
+      p1:
+        "Dies ist die vollständige Vereinbarung.",
+      p2:
+        "Bei Nichtzustimmung kein Kauf."
+    }
+  }
+},
+customerService: {
+  hero: {
+    title: "Kundenservice",
+    description:
+      "BioPeptide™ bietet zuverlässigen Service, sichere Zahlungen und pünktliche Lieferung."
+  },
+
+  sections: {
+    shipping: {
+      title: "Versand & Lieferung",
+      bullets: [
+        "Mehrere Versandoptionen",
+        "KOSTENLOSER Versand ab $200",
+        "USPS Priority, FedEx 2-Day, FedEx Overnight",
+        "FedEx Overnight mit Unterschrift",
+        "Samstagslieferung möglich"
+      ],
+      note:
+        "Bestellungen vor 12:00 Uhr PST werden meist am selben Tag versendet."
+    },
+
+    privacy: {
+      title: "Datenschutz & Sicherheit",
+      p1:
+        "256-Bit-SSL-Verschlüsselung.",
+      p2:
+        "Daten nur zur Bestellabwicklung.",
+      p3:
+        "Keine Weitergabe an Dritte."
+    },
+
+    returns: {
+      title: "Rücksendungen",
+      p1:
+        "Rückgaben nicht erlaubt.",
+      p2:
+        "Fehllieferungen werden ersetzt."
+    },
+
+    ordering: {
+      title: "Bestellung",
+      p1:
+        "Bestellungen rund um die Uhr möglich.",
+      p2:
+        "Sicher verpackt und versendet.",
+      p3:
+        "Versandbestätigung per E-Mail."
+    },
+
+    payments: {
+      title: "Zahlung & Preise",
+      bullets: [
+        "Alle gängigen Kreditkarten",
+        "Einzel- und Großhandelspreise",
+        "Mengenrabatte verfügbar"
+      ],
+      note:
+        "Großbestellungen bitte an Support wenden."
+    },
+
+    status: {
+      title: "Bestellstatus",
+      bullets: [
+        "Bestellhistorie einsehbar",
+        "Kontodaten verwalten",
+        "Schneller Checkout"
+      ],
+      note:
+        "Gastbestellungen per E-Mail."
+    },
+
+    satisfaction: {
+      title: "Zufriedenheitsgarantie",
+      p1:
+        "Höchste Qualität und Service.",
+      p2:
+        "Unser Team hilft Ihnen gerne."
+    }
+  },
+
+  contact: {
+    title: "Kundensupport Kontakt"
+  }
+},
+accessibility: {
+  hero: {
+    title: "Barrierefreiheitserklärung",
+    description:
+      "BioPeptide™ verpflichtet sich zur digitalen Barrierefreiheit für alle Nutzer."
+  },
+  sections: {
+    commitment: {
+      title: "Unser Engagement",
+      p1:
+        "Wir arbeiten kontinuierlich daran, unsere Website für alle zugänglich zu machen."
+    },
+    standards: {
+      title: "Barrierefreiheitsstandards",
+      p1:
+        "Unser Ziel ist die Einhaltung der WCAG 2.1 AA Standards.",
+      p2:
+        "Regelmäßige Überprüfungen helfen uns, Verbesserungen umzusetzen."
+    },
+    efforts: {
+      title: "Laufende Maßnahmen",
+      bullets: [
+        "Verbesserte Tastaturnavigation",
+        "Erhöhter Farbkontrast",
+        "Klare Struktur",
+        "Unterstützung assistiver Technologien"
+      ]
+    },
+    limitations: {
+      title: "Einschränkungen",
+      p1:
+        "Einige Inhalte sind möglicherweise noch nicht vollständig barrierefrei."
+    },
+    feedback: {
+      title: "Feedback & Unterstützung",
+      p1:
+        "Bitte kontaktieren Sie uns bei Zugangsproblemen.",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+
+rewardsTerms: {
+  hero: {
+    title: "Prämienprogramm Bedingungen",
+    description:
+      "Diese Bedingungen regeln die Teilnahme am BioPeptide™ Treueprogramm."
+  },
+  sections: {
+    overview: {
+      title: "Programmübersicht",
+      p1:
+        "Kunden können durch qualifizierte Käufe Punkte sammeln."
+    },
+    eligibility: {
+      title: "Teilnahmeberechtigung",
+      bullets: [
+        "Mindestens 21 Jahre alt",
+        "Gültiges Kundenkonto erforderlich",
+        "Ungültig, wo gesetzlich verboten"
+      ]
+    },
+    earning: {
+      title: "Punkte sammeln",
+      p1:
+        "Punkte werden durch qualifizierte Käufe verdient.",
+      p2:
+        "Punkte haben keinen Geldwert."
+    },
+    redeeming: {
+      title: "Punkte einlösen",
+      p1:
+        "Einlösung für Rabatte oder Angebote möglich.",
+      p2:
+        "Änderungen jederzeit vorbehalten."
+    },
+    expiration: {
+      title: "Verfall",
+      p1:
+        "Punkte können bei Inaktivität verfallen."
+    },
+    misuse: {
+      title: "Missbrauch",
+      p1:
+        "Missbrauch kann zur Sperrung führen."
+    },
+    changes: {
+      title: "Programmänderungen",
+      p1:
+        "Das Programm kann ohne Vorankündigung geändert werden."
+    },
+    liability: {
+      title: "Haftungsbeschränkung",
+      p1:
+        "Keine Haftung für verlorene Punkte."
+    },
+    contact: {
+      title: "Kontakt",
+      p1:
+        "Bei Fragen wenden Sie sich an den Support.",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+refundsReturns: {
+  hero: {
+    title: "Rückerstattungen & Rückgaben",
+    description:
+      "Richtlinien zu Rückerstattungen und Rückgaben."
+  },
+  sections: {
+    noReturns: {
+      title: "Keine Rückgaben",
+      p1:
+        "Alle Verkäufe sind endgültig.",
+      p2:
+        "Produkte nur für Laborforschung."
+    },
+    incorrect: {
+      title: "Falsche oder Beschädigte Lieferung",
+      p1:
+        "Bitte kontaktieren Sie uns sofort.",
+      p2:
+        "Ersatz wird nach Prüfung bereitgestellt."
+    },
+    eligibility: {
+      title: "Ersatzbedingungen",
+      bullets: [
+        "Schnelle Meldung",
+        "Falsches Produkt",
+        "Bestätigung durch Support"
+      ]
+    },
+    noExceptions: {
+      title: "Keine Ausnahmen",
+      p1:
+        "Keine Rückgaben oder Erstattungen."
+    },
+    contact: {
+      title: "Hilfe benötigt?",
+      p1:
+        "Kontaktieren Sie unseren Support.",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+productPage: {
+  back: "← Zurück zu den Produkten",
+  tagline: "Premium BioPeptide • Hochreines Forschungsmaterial",
+  description: {
+    p1: "{name} wird mit präziser Peptidsynthese entwickelt und hochauflösend gereinigt.",
+    p2: "Geeignet für biochemische Analysen, Zellstudien und kontrollierte Forschungsumgebungen."
+  },
+  badges: {
+    hplc: "HPLC-geprüft",
+    research: "Forschungsqualität",
+    coa: "COA verfügbar"
+  },
+  priceNote: "Nur für Forschungszwecke",
+  addToCart: "In den Warenkorb",
+  specs: {
+    category: "Kategorie",
+    purity: "Reinheit",
+    size: "Einheitsgröße",
+    cas: "CAS"
+  },
+  notFound: "Produkt nicht gefunden"
+},
+productContent: {
+  overviewTitle: "Übersicht",
+  mechanism: "Wirkmechanismus",
+  mechanismPoints: [
+    "Modulation zellulärer Signalwege",
+    "Erhöhung der Wachstumsfaktorsensitivität",
+    "Regulation der Genexpression",
+    "Einfluss auf die mitochondriale ATP-Produktion",
+    "Unterstützung der enzymatischen Aktivierung"
+  ],
+  researchApplicationsTitle: "Hauptforschungsanwendungen",
+  researchApplications: [
+    "Regenerative Zellbiologie",
+    "Analyse der Proteinexpression",
+    "Rezeptorbindungsstudien",
+    "Mitochondriale Stoffwechselforschung",
+    "Enzymsensitivitätsexperimente",
+    "Matrix-Remodelling-Assays"
+  ],
+  scientificBackgroundTitle: "Wissenschaftlicher Hintergrund",
+  stabilityTitle: "Stabilitätsprofil",
+  solubilityTitle: "Löslichkeit und Rekonstitution",
+  techSpecsTitle: "Technische Spezifikationen",
+  molecularTitle: "Molekulare Eigenschaften",
+  validationTitle: "Analytische Validierung",
+  regulatoryTitle: "Regulierung und Compliance",
+  faq: "FAQ",
+  faqItems: [
+    { q: "Ist dieses Peptid für den menschlichen Gebrauch bestimmt?", a: "Nein. Nur für Laborforschung." },
+    { q: "Ist ein COA enthalten?", a: "Ja. Jede Charge enthält HPLC- und MS-Validierung." },
+    { q: "Ist es steril?", a: "Nicht vor der Rekonstitution." },
+    { q: "Wie sollte es gelagert werden?", a: "Versiegelt und bei −20°C gefroren." }
+  ],
+  disclaimer:
+    "Haftungsausschluss: Dieses Produkt ist ausschließlich für Laborforschungszwecke bestimmt."
 }
+
+
+
+
+
+
 
 
 

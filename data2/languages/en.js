@@ -1146,7 +1146,2039 @@ export default {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use."
-}
+},
+"foxo4-dri-10mg": {
+  name: "FOXO4-DRI (Proxofim) 10mg",
+
+  strength:
+    "Synthetic research peptide studied in FOXO4–p53 interaction, cellular senescence signaling, and transcription-factor pathway models.",
+
+  description:
+    "FOXO4-DRI (also known as Proxofim) is a synthetic peptide designed for laboratory research into cellular senescence and transcription-factor signaling mechanisms. In scientific models, it is studied for its role in disrupting the interaction between FOXO4 and p53, enabling investigation into senescent cell behavior, apoptosis signaling, and age-associated cellular pathways. Supplied as a high-purity lyophilized peptide for controlled in vitro and molecular research applications.",
+
+  applications: [
+    "Cellular senescence pathway research",
+    "FOXO4–p53 interaction studies",
+    "Transcription-factor signaling investigation",
+    "Cell-cycle and apoptosis signaling models"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"cjc1295-ipamorelin-12mg-blend": {
+  name: "Fragment CJC-1295 + Ipamorelin Blend 12mg",
+  strength: "Dual-peptide research blend studied for growth hormone–related receptor signaling and endocrine pathway interaction models.",
+  description: "This research blend combines Fragment CJC-1295 (MOD GRF 1-29), a growth hormone–releasing hormone analog studied in pituitary signaling models, with Ipamorelin, a selective growth hormone secretagogue receptor (GHS-R) agonist investigated in endocrine pathway research. In laboratory settings, this blend is used to explore synergistic peptide interactions, receptor-mediated signaling, and peptide-based endocrine research models. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
+  components: [
+    "Fragment CJC-1295 (MOD GRF 1-29)",
+    "Ipamorelin"
+  ],
+  applications: [
+    "Endocrine and pituitary signaling research",
+    "Growth hormone receptor pathway studies",
+    "Peptide–receptor interaction investigation",
+    "Synergistic peptide signaling research"
+  ],
+  appearance: "White lyophilized powder blend",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"mod-grf-ipamorelin-12mg-blend": {
+  name: "Fragment Modified GRF + Ipamorelin Blend 12mg",
+  
+  strength: "Dual-peptide research blend studied for growth hormone–releasing hormone signaling and endocrine receptor interaction models.",
+  
+  description: "This research blend combines Fragment Modified GRF (MOD GRF 1-29), a stabilized growth hormone–releasing hormone analog investigated in pituitary signaling research, with Ipamorelin, a selective growth hormone secretagogue receptor (GHS-R) agonist studied in endocrine pathway models. In laboratory research environments, this blend is used to explore synergistic peptide interactions, receptor-mediated signaling dynamics, and peptide-based endocrine research mechanisms. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
+  
+  components: [
+    "Fragment Modified GRF (MOD GRF 1-29)",
+    "Ipamorelin"
+  ],
+  
+  applications: [
+    "Endocrine and pituitary signaling research",
+    "Growth hormone–releasing pathway studies",
+    "Peptide–receptor interaction investigation",
+    "Synergistic endocrine peptide research"
+  ],
+  
+  appearance: "White lyophilized powder blend",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ghk-cu-copper-tripeptide": {
+  name: "GHK-Cu (Copper Tripeptide)",
+
+  strength:
+    "Naturally occurring copper-binding tripeptide studied extensively in dermal signaling, extracellular matrix interaction, and cosmetic peptide research models.",
+
+  description:
+    "GHK-Cu is a naturally occurring copper tripeptide composed of glycine, histidine, and lysine complexed with copper. In laboratory and cosmetic research models, it is widely studied for its interaction with dermal signaling pathways, extracellular matrix components, and peptide–metal complex stability. GHK-Cu is a foundational compound in cosmetic peptide science and is commonly used in topical formulation, skin biology, and peptide–copper interaction research. Supplied as a high-purity research-grade material.",
+
+  applications: [
+    "Dermal signaling and skin biology research",
+    "Extracellular matrix interaction studies",
+    "Cosmetic peptide formulation research",
+    "Peptide–copper complex stability analysis"
+  ],
+
+  appearance: "Blue crystalline powder",
+  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
+  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
+},
+"ghk-cu-1000mg-topical": {
+  name: "GHK-Cu Copper Peptide 1000mg (Topical)",
+  strength: "Copper-binding tripeptide supplied in bulk format, studied extensively in dermal signaling, extracellular matrix interaction, and cosmetic formulation research models.",
+  description: "GHK-Cu is a naturally occurring copper tripeptide composed of glycine, histidine, and lysine complexed with copper. This 1000mg bulk topical format is designed for laboratory and cosmetic research environments requiring larger material volumes for formulation development, stability testing, and extended dermal signaling studies. In scientific research models, GHK-Cu is widely investigated for its interaction with extracellular matrix components, peptide–metal complex behavior, and skin biology signaling pathways. Supplied as a high-purity cosmetic research material.",
+  applications: [
+    "Dermal signaling and skin biology research",
+    "Extracellular matrix interaction studies",
+    "Cosmetic and topical formulation development",
+    "Peptide–copper complex stability research"
+  ],
+  appearance: "Blue crystalline powder",
+  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
+  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
+},
+"ghk-cu-50mg": {
+  name: "GHK-Cu Copper Peptide 50mg",
+  
+  strength: "Copper-binding tripeptide supplied in a mid-scale research format, studied in dermal signaling, extracellular matrix interaction, and cosmetic peptide research models.",
+  
+  description: "GHK-Cu is a naturally occurring copper tripeptide composed of glycine, histidine, and lysine complexed with copper. The 50mg format is designed for laboratory and cosmetic research environments requiring moderate material volumes for peptide signaling studies, formulation development, and stability testing. In scientific models, GHK-Cu is widely investigated for its interaction with dermal signaling pathways, extracellular matrix components, and peptide–metal complex behavior. Supplied as a high-purity research-grade material.",
+  
+  applications: [
+    "Dermal signaling and skin biology research",
+    "Extracellular matrix interaction studies",
+    "Cosmetic peptide formulation research",
+    "Peptide–copper complex stability analysis"
+  ],
+  
+  appearance: "Blue crystalline powder",
+  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
+  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
+},
+"ghk-cu-500mg-topical": {
+  name: "GHK-Cu Copper Peptide 500mg (Topical)",
+
+  strength:
+    "Copper-binding tripeptide supplied in topical research format, studied in dermal signaling, extracellular matrix interaction, and cosmetic formulation research models.",
+
+  description:
+    "GHK-Cu is a naturally occurring copper tripeptide composed of glycine, histidine, and lysine complexed with copper. The 500mg topical format is designed for laboratory and cosmetic research environments focused on topical formulation development, stability testing, and dermal signaling studies. In scientific research models, GHK-Cu is widely investigated for its interaction with extracellular matrix components, peptide–metal complex behavior, and skin biology signaling pathways. Supplied as a high-purity cosmetic research material.",
+
+  applications: [
+    "Dermal signaling and skin biology research",
+    "Extracellular matrix interaction studies",
+    "Topical cosmetic formulation development",
+    "Peptide–copper complex stability research"
+  ],
+
+  appearance: "Blue crystalline powder",
+  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
+  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
+},
+"ghk-basic-200mg": {
+  name: "GHK Basic (Tripeptide-1) 200mg",
+  strength: "Naturally occurring tripeptide studied in dermal signaling, extracellular matrix interaction, and cosmetic peptide research models.",
+  description: "GHK Basic, also known as Tripeptide-1, is a naturally occurring tripeptide composed of glycine, histidine, and lysine without copper complexation. In laboratory and cosmetic research models, it is studied for its role in dermal signaling pathways, extracellular matrix interaction, and peptide-based skin biology research. GHK Basic is frequently used as a precursor peptide in formulation studies and as a comparative reference compound alongside copper-bound GHK-Cu. Supplied as a high-purity cosmetic research material.",
+  applications: [
+    "Dermal signaling and skin biology research",
+    "Extracellular matrix interaction studies",
+    "Cosmetic peptide formulation research",
+    "Comparative peptide signaling studies (apo vs copper-bound)"
+  ],
+  appearance: "White to off-white powder",
+  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
+  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
+},
+"ghrh-5mg": {
+  name: "GHRH 5mg",
+  
+  strength: "Endogenous hypothalamic peptide studied in growth hormone release signaling and pituitary–endocrine research models.",
+  
+  description: "Growth Hormone–Releasing Hormone (GHRH) is an endogenous peptide produced in the hypothalamus and is widely studied in laboratory research for its role in stimulating growth hormone secretion via pituitary receptor signaling. In scientific research models, GHRH is investigated for its interaction with endocrine feedback mechanisms, peptide–receptor binding dynamics, and hypothalamic–pituitary axis regulation. Supplied as a high-purity lyophilized peptide for controlled molecular and endocrine research applications.",
+  
+  applications: [
+    "Pituitary and endocrine signaling research",
+    "Growth hormone release pathway studies",
+    "Hypothalamic–pituitary axis investigation",
+    "Peptide–receptor interaction research"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ghrp-2-cjc-1295-5x5mg-bundle": {
+  name: "GHRP-2 5mg ×5 + CJC-1295 5mg ×5 (Bundle)",
+
+  strength:
+    "Multi-vial endocrine research bundle studied for growth hormone–related receptor signaling and pituitary pathway interaction models.",
+
+  description:
+    "This research bundle includes five vials of GHRP-2 (Growth Hormone–Releasing Peptide-2) and five vials of CJC-1295 (MOD GRF 1-29), supplied as separate lyophilized peptides. In laboratory research settings, this combination is used to investigate synergistic endocrine signaling, peptide–receptor interactions, and pituitary pathway dynamics. The multi-vial format supports controlled experimental design, comparative studies, and extended research applications.",
+
+  components: [
+    "GHRP-2 (Growth Hormone–Releasing Peptide-2) — 5mg ×5 vials",
+    "CJC-1295 (MOD GRF 1-29) — 5mg ×5 vials"
+  ],
+
+  applications: [
+    "Endocrine and pituitary signaling research",
+    "Growth hormone release pathway studies",
+    "Peptide–receptor interaction investigation",
+    "Synergistic endocrine peptide research"
+  ],
+
+  appearance: "White lyophilized powders (separate vials)",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ghrp-2-ipamorelin-5x5mg-bundle": {
+  name: "GHRP-2 5mg ×5 + Ipamorelin 5mg ×5 (Bundle)",
+  strength: "Multi-vial endocrine research bundle studied for growth hormone secretagogue receptor signaling and pituitary pathway interaction models.",
+  description: "This research bundle includes five vials of GHRP-2 (Growth Hormone–Releasing Peptide-2) and five vials of Ipamorelin, supplied as separate lyophilized peptides. In laboratory research settings, this combination is used to investigate synergistic growth hormone secretagogue receptor signaling, endocrine pathway modulation, and peptide–receptor interaction dynamics. The multi-vial format supports controlled experimental design, comparative studies, and extended endocrine research applications.",
+  components: [
+    "GHRP-2 (Growth Hormone–Releasing Peptide-2) — 5mg ×5 vials",
+    "Ipamorelin — 5mg ×5 vials"
+  ],
+  applications: [
+    "Endocrine and pituitary signaling research",
+    "Growth hormone secretagogue receptor studies",
+    "Peptide–receptor interaction investigation",
+    "Synergistic endocrine peptide research"
+  ],
+  appearance: "White lyophilized powders (separate vials)",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ghrp-2-modgrf-1-29-5x10mg-bundle": {
+  name: "GHRP-2 5mg ×10 + MOD GRF (1-29) 5mg ×10 (Bundle)",
+  
+  strength: "Large multi-vial endocrine research bundle studied for growth hormone–related receptor signaling and pituitary pathway interaction models.",
+  
+  description: "This research bundle includes ten vials of GHRP-2 (Growth Hormone–Releasing Peptide-2) and ten vials of MOD GRF (1-29), supplied as separate lyophilized peptides. In laboratory research environments, this combination is used to investigate synergistic endocrine signaling, peptide–receptor interaction dynamics, and pituitary pathway modulation. The expanded multi-vial format supports extended experimental design, comparative studies, and higher-throughput endocrine research applications.",
+  
+  components: [
+    "GHRP-2 (Growth Hormone–Releasing Peptide-2) — 5mg ×10 vials",
+    "MOD GRF (1-29) — 5mg ×10 vials"
+  ],
+  
+  applications: [
+    "Endocrine and pituitary signaling research",
+    "Growth hormone release pathway studies",
+    "Peptide–receptor interaction investigation",
+    "Synergistic endocrine peptide research"
+  ],
+  
+  appearance: "White lyophilized powders (separate vials)",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ghrp-2-ipamorelin-5x10mg-bundle": {
+  name: "GHRP-2 5mg ×10 + Ipamorelin 5mg ×10 (Bundle)",
+
+  strength:
+    "Large multi-vial endocrine research bundle studied for growth hormone secretagogue receptor signaling and pituitary pathway interaction models.",
+
+  description:
+    "This research bundle includes ten vials of GHRP-2 (Growth Hormone–Releasing Peptide-2) and ten vials of Ipamorelin, supplied as separate lyophilized peptides. In laboratory research environments, this combination is used to investigate synergistic growth hormone secretagogue receptor signaling, endocrine pathway modulation, and peptide–receptor interaction dynamics. The expanded multi-vial format supports extended experimental design, comparative studies, and higher-throughput endocrine research applications.",
+
+  components: [
+    "GHRP-2 (Growth Hormone–Releasing Peptide-2) — 5mg ×10 vials",
+    "Ipamorelin — 5mg ×10 vials"
+  ],
+
+  applications: [
+    "Endocrine and pituitary signaling research",
+    "Growth hormone secretagogue receptor studies",
+    "Peptide–receptor interaction investigation",
+    "Synergistic endocrine peptide research"
+  ],
+
+  appearance: "White lyophilized powders (separate vials)",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ghrp-2-5mg": {
+  name: "GHRP-2 5mg",
+  strength: "Synthetic growth hormone–releasing peptide studied in endocrine signaling and growth hormone secretagogue receptor (GHS-R) research models.",
+  description: "Growth Hormone–Releasing Peptide-2 (GHRP-2) is a synthetic hexapeptide widely investigated in laboratory research for its interaction with growth hormone secretagogue receptors (GHS-R). In scientific models, GHRP-2 is studied for its role in pituitary signaling pathways, peptide–receptor binding dynamics, and endocrine feedback mechanisms. Supplied as a high-purity lyophilized peptide for controlled molecular and endocrine research applications.",
+  applications: [
+    "Endocrine and pituitary signaling research",
+    "Growth hormone secretagogue receptor studies",
+    "Peptide–receptor interaction investigation",
+    "Hypothalamic–pituitary axis research models"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ghrp-6-cjc-1295-5x5mg-bundle": {
+  name: "GHRP-6 5mg ×5 + CJC-1295 5mg ×5 (Bundle)",
+  
+  strength: "Multi-vial endocrine research bundle studied for growth hormone secretagogue receptor signaling and pituitary pathway interaction models.",
+  
+  description: "This research bundle includes five vials of GHRP-6 (Growth Hormone–Releasing Peptide-6) and five vials of CJC-1295 (MOD GRF 1-29), supplied as separate lyophilized peptides. In laboratory research environments, this combination is used to investigate synergistic endocrine signaling, growth hormone release mechanisms, and peptide–receptor interaction dynamics. The multi-vial format supports controlled experimental design, comparative studies, and extended endocrine research applications.",
+  
+  components: [
+    "GHRP-6 (Growth Hormone–Releasing Peptide-6) — 5mg ×5 vials",
+    "CJC-1295 (MOD GRF 1-29) — 5mg ×5 vials"
+  ],
+  
+  applications: [
+    "Endocrine and pituitary signaling research",
+    "Growth hormone release pathway studies",
+    "Peptide–receptor interaction investigation",
+    "Synergistic endocrine peptide research"
+  ],
+  
+  appearance: "White lyophilized powders (separate vials)",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ghrp-6-ipamorelin-5x5mg-bundle": {
+  name: "GHRP-6 5mg ×5 + Ipamorelin 5mg ×5 (Bundle)",
+
+  strength:
+    "Multi-vial endocrine research bundle studied for growth hormone secretagogue receptor signaling and pituitary pathway interaction models.",
+
+  description:
+    "This research bundle includes five vials of GHRP-6 (Growth Hormone–Releasing Peptide-6) and five vials of Ipamorelin, supplied as separate lyophilized peptides. In laboratory research environments, this combination is used to investigate synergistic growth hormone secretagogue receptor signaling, endocrine pathway modulation, and peptide–receptor interaction dynamics. The multi-vial format supports controlled experimental design, comparative studies, and extended endocrine research applications.",
+
+  components: [
+    "GHRP-6 (Growth Hormone–Releasing Peptide-6) — 5mg ×5 vials",
+    "Ipamorelin — 5mg ×5 vials"
+  ],
+
+  applications: [
+    "Endocrine and pituitary signaling research",
+    "Growth hormone secretagogue receptor studies",
+    "Peptide–receptor interaction investigation",
+    "Synergistic endocrine peptide research"
+  ],
+
+  appearance: "White lyophilized powders (separate vials)",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ghrp-6-modgrf-1-29-5x10mg-bundle": {
+  name: "GHRP-6 5mg ×10 + MOD-GRF (1-29) 5mg ×10 (Bundle)",
+  strength: "Multi-vial endocrine research bundle studied for growth hormone release pathways, pituitary signaling, and peptide–receptor interaction models.",
+  description: "This research bundle contains ten vials of GHRP-6 (Growth Hormone–Releasing Peptide-6) and ten vials of MOD-GRF (1-29), a modified growth hormone–releasing factor analog. Supplied as separate lyophilized peptides, this combination is widely used in laboratory research to study synergistic growth hormone release mechanisms, pituitary receptor signaling, and endocrine pathway modulation. The expanded 20-vial format supports extended research protocols, comparative studies, and high-volume experimental designs.",
+  components: [
+    "GHRP-6 (Growth Hormone–Releasing Peptide-6) — 5mg ×10 vials",
+    "MOD-GRF (1-29) — 5mg ×10 vials"
+  ],
+  applications: [
+    "Endocrine and pituitary signaling research",
+    "Growth hormone release pathway studies",
+    "Peptide–receptor interaction research",
+    "Synergistic endocrine peptide investigation"
+  ],
+  appearance: "White lyophilized powders (separate vials)",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ghrp-6-ipamorelin-5x10mg-bundle": {
+  name: "GHRP-6 5mg ×10 + Ipamorelin 5mg ×10 (Bundle)",
+  
+  strength: "Dual-peptide endocrine research bundle studied for growth hormone release signaling, receptor specificity, and pituitary pathway interaction models.",
+  
+  description: "This research bundle includes ten vials of GHRP-6 (Growth Hormone–Releasing Peptide-6) and ten vials of Ipamorelin, a selective growth hormone secretagogue. Supplied as separate lyophilized peptides, this combination is widely used in laboratory research to explore synergistic growth hormone release mechanisms, receptor-binding selectivity, and endocrine signaling pathways. The 20-vial configuration supports extended experimental protocols, comparative studies, and high-throughput endocrine research.",
+  
+  components: [
+    "GHRP-6 (Growth Hormone–Releasing Peptide-6) — 5mg ×10 vials",
+    "Ipamorelin (Selective GH secretagogue) — 5mg ×10 vials"
+  ],
+  
+  applications: [
+    "Endocrine and pituitary signaling research",
+    "Growth hormone release pathway studies",
+    "Peptide–receptor specificity investigation",
+    "Synergistic endocrine peptide research"
+  ],
+  
+  appearance: "White lyophilized powders (separate vials)",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ghrp-6-ipamorelin-5x10mg-bundle": {
+  name: "GHRP-6 5mg ×10 + Ipamorelin 5mg ×10 (Bundle)",
+
+  strength:
+    "Dual-peptide endocrine research bundle studied for growth hormone release signaling, receptor specificity, and pituitary pathway interaction models.",
+
+  description:
+    "This research bundle includes ten vials of GHRP-6 (Growth Hormone–Releasing Peptide-6) and ten vials of Ipamorelin, a selective growth hormone secretagogue. Supplied as separate lyophilized peptides, this combination is widely used in laboratory research to explore synergistic growth hormone release mechanisms, receptor-binding selectivity, and endocrine signaling pathways. The 20-vial configuration supports extended experimental protocols, comparative studies, and high-throughput endocrine research.",
+
+  components: [
+    "GHRP-6 (Growth Hormone–Releasing Peptide-6) — 5mg ×10 vials",
+    "Ipamorelin (Selective GH secretagogue) — 5mg ×10 vials"
+  ],
+
+  applications: [
+    "Endocrine and pituitary signaling research",
+    "Growth hormone release pathway studies",
+    "Peptide–receptor specificity investigation",
+    "Synergistic endocrine peptide research"
+  ],
+
+  appearance: "White lyophilized powders (separate vials)",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ghrp-6-5mg": {
+  name: "GHRP-6 5mg",
+  strength: "Growth hormone–releasing hexapeptide studied extensively for endocrine signaling and appetite-related pathway research.",
+  description: "GHRP-6 (Growth Hormone–Releasing Peptide-6) is a synthetic hexapeptide widely studied in laboratory research for its interaction with growth hormone secretagogue receptors (GHS-R). In controlled research environments, it is investigated for its role in pituitary signaling, endocrine pathway modulation, appetite-related signaling mechanisms, and peptide–receptor interaction models. Supplied as a high-purity lyophilized powder for precise and reproducible scientific research.",
+  applications: [
+    "Growth hormone release pathway research",
+    "Endocrine and pituitary signaling studies",
+    "Peptide–receptor interaction investigation",
+    "Appetite-related signaling research models"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ghrp-6-10mg": {
+  name: "GHRP-6 10mg",
+  
+  strength: "Growth hormone–releasing hexapeptide studied extensively for endocrine signaling and appetite-related pathway research.",
+  
+  description: "GHRP-6 (Growth Hormone–Releasing Peptide-6) is a synthetic hexapeptide widely studied in laboratory research for its interaction with growth hormone secretagogue receptors (GHS-R). In controlled research environments, it is investigated for its role in pituitary signaling, endocrine pathway modulation, appetite-related signaling mechanisms, and peptide–receptor interaction models. Supplied as a high-purity lyophilized powder for precise and reproducible scientific research.",
+  
+  applications: [
+    "Growth hormone release pathway research",
+    "Endocrine and pituitary signaling studies",
+    "Peptide–receptor interaction investigation",
+    "Appetite-related signaling research models"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"gonadorelin-10mg": {
+  name: "Gonadorelin 10mg",
+
+  strength:
+    "Synthetic decapeptide studied extensively in hypothalamic–pituitary–gonadal (HPG) axis signaling research models.",
+
+  description:
+    "Gonadorelin is a synthetic decapeptide identical to endogenous gonadotropin-releasing hormone (GnRH). In laboratory research environments, it is widely studied for its role in hypothalamic–pituitary signaling, luteinizing hormone (LH) and follicle-stimulating hormone (FSH) release mechanisms, and endocrine feedback pathway analysis. Supplied as a high-purity lyophilized powder for controlled scientific research applications.",
+
+  applications: [
+    "HPG axis signaling research",
+    "Pituitary hormone release studies",
+    "GnRH receptor interaction investigation",
+    "Endocrine feedback pathway research"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"bpc-157-arginate-kpv-60-capsules": {
+  name: "BPC-157 Arginate + KPV (60 Capsules)",
+  strength: "Dual-peptide capsule formulation studied in gastrointestinal signaling, epithelial integrity, and inflammatory pathway research models.",
+  description: "This capsule-based research formulation combines a stabilized arginate salt form of BPC-157 with KPV, a short tripeptide derived from α-MSH. In laboratory research environments, this combination is studied for its role in gastrointestinal epithelial signaling, mucosal integrity models, and inflammation-related pathway investigation. The encapsulated format supports controlled handling, stability, and repeatable experimental protocols in gut-focused research settings.",
+  components: [
+    "BPC-157 Arginate (stabilized pentadecapeptide)",
+    "KPV (Lys–Pro–Val tripeptide)"
+  ],
+  applications: [
+    "Gastrointestinal epithelial signaling research",
+    "Inflammation-related pathway investigation",
+    "Mucosal integrity and barrier function studies",
+    "Peptide stability and delivery research"
+  ],
+  appearance: "Encapsulated solid research material",
+  storage: "Store in a cool, dry environment away from direct light.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"hexarelin-modgrf-1-29-2x10-bundle": {
+  name: "Hexarelin 2mg ×10 + MOD-GRF (1-29) 2mg ×10 (Bundle)",
+  
+  strength: "Dual-peptide endocrine research bundle studied for growth hormone release signaling, pituitary receptor interaction, and synergistic hypothalamic–pituitary pathway research.",
+  
+  description: "This research bundle combines Hexarelin, a potent growth hormone–releasing peptide studied for pituitary receptor activation, with MOD-GRF (1-29), a stabilized analog of growth hormone–releasing hormone (GHRH). Supplied as separate lyophilized peptides, this combination is widely used in laboratory research to explore synergistic growth hormone release mechanisms, receptor specificity, and hypothalamic–pituitary signaling pathways. The 20-vial configuration supports extended experimental protocols and comparative endocrine research.",
+  
+  components: [
+    "Hexarelin (Growth hormone–releasing hexapeptide) — 2mg ×10 vials",
+    "MOD-GRF (1-29) (Modified GHRH analog) — 2mg ×10 vials"
+  ],
+  
+  applications: [
+    "Growth hormone release pathway research",
+    "Hypothalamic–pituitary signaling studies",
+    "Peptide–receptor interaction investigation",
+    "Synergistic endocrine peptide research"
+  ],
+  
+  appearance: "White lyophilized powders (separate vials)",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"hexarelin-modgrf-1-29-2x10-bundle": {
+  name: "Hexarelin 5mg ×10 + MOD-GRF (1-29) 5mg ×10 (Bundle)",
+
+  strength:
+    "Dual-peptide endocrine research bundle studied for growth hormone release signaling, pituitary receptor interaction, and synergistic hypothalamic–pituitary pathway research.",
+
+  description:
+    "This research bundle combines Hexarelin, a potent growth hormone–releasing peptide studied for pituitary receptor activation, with MOD-GRF (1-29), a stabilized analog of growth hormone–releasing hormone (GHRH). Supplied as separate lyophilized peptides, this combination is widely used in laboratory research to explore synergistic growth hormone release mechanisms, receptor specificity, and hypothalamic–pituitary signaling pathways. The 20-vial configuration supports extended experimental protocols and comparative endocrine research.",
+
+  components: [
+    "Hexarelin (Growth hormone–releasing hexapeptide) — 2mg ×10 vials",
+    "MOD-GRF (1-29) (Modified GHRH analog) — 5mg ×10 vials"
+  ],
+
+  applications: [
+    "Growth hormone release pathway research",
+    "Hypothalamic–pituitary signaling studies",
+    "Peptide–receptor interaction investigation",
+    "Synergistic endocrine peptide research"
+  ],
+
+  appearance: "White lyophilized powders (separate vials)",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"hexarelin-2mg": {
+  name: "Hexarelin 2mg",
+  strength: "Potent growth hormone–releasing hexapeptide studied for pituitary receptor activation and endocrine signaling research models.",
+  description: "Hexarelin is a synthetic hexapeptide classified as a growth hormone–releasing peptide (GHRP). In laboratory research environments, it is widely studied for its interaction with growth hormone secretagogue receptors (GHS-R), pituitary activation pathways, and endocrine signaling mechanisms. Compared to other GHRPs, Hexarelin is frequently investigated for its strong receptor affinity and sustained signaling response. Supplied as a high-purity lyophilized powder for controlled scientific research applications.",
+  applications: [
+    "Growth hormone release pathway research",
+    "Pituitary receptor signaling studies",
+    "Endocrine and hormonal pathway investigation",
+    "Peptide–receptor interaction research"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"hexarelin-5mg": {
+  name: "Hexarelin 5mg",
+  
+  strength: "Potent growth hormone–releasing hexapeptide studied for pituitary receptor activation and endocrine signaling research models.",
+  
+  description: "Hexarelin is a synthetic hexapeptide classified as a growth hormone–releasing peptide (GHRP). In laboratory research environments, it is widely studied for its interaction with growth hormone secretagogue receptors (GHS-R), pituitary activation pathways, and endocrine signaling mechanisms. Compared to other GHRPs, Hexarelin is frequently investigated for its strong receptor affinity and sustained signaling response. Supplied as a high-purity lyophilized powder for controlled scientific research applications.",
+  
+  applications: [
+    "Growth hormone release pathway research",
+    "Pituitary receptor signaling studies",
+    "Endocrine and hormonal pathway investigation",
+    "Peptide–receptor interaction research"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"hgh-fragment-176-191-6mg": {
+  name: "HGH Fragment 176-191 6mg",
+
+  strength:
+    "Synthetic C-terminal growth hormone fragment peptide studied for metabolic signaling and adipocyte pathway research models.",
+
+  description:
+    "HGH Fragment 176-191 is a synthetic peptide corresponding to amino acids 176 through 191 of human growth hormone. In laboratory research environments, this fragment is widely studied for its role in metabolic signaling pathways, lipid metabolism mechanisms, and adipocyte-related cellular models. Unlike full-length HGH, this fragment is investigated specifically for its targeted signaling properties without broader endocrine activity. Supplied as a high-purity lyophilized powder for controlled scientific research applications.",
+
+  applications: [
+    "Metabolic signaling research",
+    "Adipocyte and lipid metabolism studies",
+    "Growth hormone fragment pathway investigation",
+    "Cellular energy regulation research"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"humanin-10mg": {
+  name: "Humanin 10mg",
+  strength: "Mitochondrial-derived research peptide studied for cellular survival signaling and cytoprotective pathway investigation.",
+  description: "Humanin is a short mitochondrial-derived peptide originally identified for its role in cellular stress-response signaling. In laboratory research environments, it is studied for its involvement in cytoprotective pathways, mitochondrial communication, apoptosis-related signaling, and cellular survival mechanisms. Humanin is frequently investigated in neurobiology, metabolic research, and age-related cellular models. Supplied as a high-purity lyophilized peptide for controlled scientific research applications.",
+  applications: [
+    "Mitochondrial signaling research",
+    "Cellular stress-response pathway studies",
+    "Cytoprotective mechanism investigation",
+    "Neurobiology and metabolic research models"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"igf-1-lr3-1mg": {
+  name: "IGF-1 LR3 (Receptor Grade) 1mg",
+  
+  strength: "Long-acting insulin-like growth factor analog studied for receptor binding, cellular proliferation signaling, and metabolic pathway research.",
+  
+  description: "IGF-1 LR3 (Long Arg3 Insulin-Like Growth Factor-1) is a modified analog of native IGF-1 engineered to extend biological stability and reduce binding to IGF-binding proteins. In laboratory research environments, it is widely studied for its interaction with IGF-1 receptors, intracellular growth signaling cascades, glucose metabolism pathways, and cellular proliferation models. The receptor-grade classification indicates high purity and consistency suitable for receptor-binding and mechanistic signaling studies. Supplied as a high-purity lyophilized protein for controlled scientific research applications.",
+  
+  applications: [
+    "IGF-1 receptor binding studies",
+    "Cellular proliferation and growth signaling research",
+    "Metabolic and glucose signaling pathway investigation",
+    "Protein–receptor interaction research"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"igf-1-lr3-1mg-standard": {
+  name: "IGF-1 LR3 1mg",
+
+  strength:
+    "Long-acting insulin-like growth factor analog studied for cellular growth signaling, metabolic pathway research, and receptor-mediated activity models.",
+
+  description:
+    "IGF-1 LR3 (Long Arg3 Insulin-Like Growth Factor-1) is a modified analog of native IGF-1 designed to extend molecular stability and reduce affinity for IGF-binding proteins. In laboratory research environments, IGF-1 LR3 is widely studied for its role in IGF-1 receptor signaling, intracellular growth pathways, metabolic regulation, and cell proliferation research models. This standard research-grade version is suitable for a broad range of in vitro and mechanistic studies. Supplied as a high-purity lyophilized protein for controlled scientific investigation.",
+
+  applications: [
+    "IGF-1 receptor signaling research",
+    "Cellular growth and proliferation studies",
+    "Metabolic and glucose pathway investigation",
+    "Protein-based signaling research"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ipamorelin-modgrf-1-29-2x10-bundle": {
+  name: "Ipamorelin 2mg ×10 + MOD-GRF (1-29) 2mg ×10 (Bundle)",
+
+  strength:
+    "Dual-peptide endocrine research bundle studied for selective growth hormone release, receptor specificity, and hypothalamic–pituitary signaling pathway research.",
+
+  description:
+    "This research bundle combines Ipamorelin, a highly selective growth hormone secretagogue studied for its minimal off-target endocrine activity, with MOD-GRF (1-29), a stabilized analog of growth hormone–releasing hormone (GHRH). Supplied as separate lyophilized peptides, this combination is widely used in laboratory research to investigate synergistic growth hormone release mechanisms, receptor-selective signaling, and hypothalamic–pituitary axis dynamics. The 20-vial configuration supports extended experimental protocols and comparative endocrine research.",
+
+  components: [
+    "Ipamorelin (Selective GH secretagogue peptide) — 2mg ×10 vials",
+    "MOD-GRF (1-29) (Modified GHRH analog) — 2mg ×10 vials"
+  ],
+
+  applications: [
+    "Selective growth hormone release research",
+    "Hypothalamic–pituitary signaling studies",
+    "Peptide–receptor specificity investigation",
+    "Synergistic endocrine peptide research"
+  ],
+
+  appearance: "White lyophilized powders (separate vials)",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ipamorelin-2mg": {
+  name: "Ipamorelin 2mg",
+  
+  strength: "Selective growth hormone secretagogue peptide studied for receptor-specific endocrine signaling and pituitary pathway research models.",
+  
+  description: "Ipamorelin is a synthetic pentapeptide classified as a growth hormone secretagogue, widely studied in laboratory research for its selective interaction with growth hormone secretagogue receptors (GHS-R). In controlled research environments, Ipamorelin is investigated for its receptor-specific endocrine signaling, pituitary activation pathways, and growth hormone release dynamics with minimal off-target activity. The 2mg format is suitable for precision experiments, pilot studies, and receptor-binding research. Supplied as a high-purity lyophilized powder for controlled scientific investigation.",
+  
+  applications: [
+    "Selective growth hormone release research",
+    "Pituitary receptor signaling studies",
+    "Endocrine pathway investigation",
+    "Peptide–receptor specificity research"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ipamorelin-5mg": {
+  name: "Ipamorelin 5mg",
+  strength: "Selective growth hormone secretagogue peptide studied for receptor-specific endocrine signaling and pituitary pathway research models.",
+  description: "Ipamorelin is a synthetic pentapeptide classified as a growth hormone secretagogue, widely studied in laboratory research for its selective interaction with growth hormone secretagogue receptors (GHS-R). In controlled research environments, Ipamorelin is investigated for its receptor-specific endocrine signaling, pituitary activation pathways, and growth hormone release dynamics with minimal off-target activity. The 5mg format is suitable for precision experiments, pilot studies, and receptor-binding research. Supplied as a high-purity lyophilized powder for controlled scientific investigation.",
+  applications: [
+    "Selective growth hormone release research",
+    "Pituitary receptor signaling studies",
+    "Endocrine pathway investigation",
+    "Peptide–receptor specificity research"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ipamorelin-10mg": {
+  name: "Ipamorelin 10mg",
+
+  strength:
+    "Selective growth hormone secretagogue peptide studied for receptor-specific endocrine signaling and pituitary pathway research models.",
+
+  description:
+    "Ipamorelin is a synthetic pentapeptide classified as a growth hormone secretagogue, widely studied in laboratory research for its selective interaction with growth hormone secretagogue receptors (GHS-R). In controlled research environments, Ipamorelin is investigated for its receptor-specific endocrine signaling, pituitary activation pathways, and growth hormone release dynamics with minimal off-target activity. The 10mg format is suitable for extended experiments, mechanistic studies, and receptor-binding research. Supplied as a high-purity lyophilized powder for controlled scientific investigation.",
+
+  applications: [
+    "Selective growth hormone release research",
+    "Pituitary receptor signaling studies",
+    "Endocrine pathway investigation",
+    "Peptide–receptor specificity research"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"kisspeptin-10-5mg": {
+  name: "Kisspeptin-10 5mg",
+  
+  strength: "Short neuropeptide fragment studied extensively for hypothalamic–pituitary–gonadal (HPG) axis signaling and neuroendocrine pathway research.",
+  
+  description: "Kisspeptin-10 is a biologically active decapeptide fragment derived from the Kisspeptin family, widely studied in laboratory research for its role in neuroendocrine signaling and regulation of gonadotropin-releasing hormone (GnRH) pathways. In controlled research environments, Kisspeptin-10 is investigated for its interaction with hypothalamic signaling mechanisms, pituitary hormone release models, and reproductive axis regulation research. Supplied as a high-purity lyophilized peptide for precise scientific investigation.",
+  
+  applications: [
+    "HPG axis signaling research",
+    "GnRH pathway and neuroendocrine studies",
+    "Hypothalamic and pituitary signaling investigation",
+    "Neuropeptide receptor interaction research"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"kpv-5mg": {
+  name: "KPV 5mg",
+  strength: "Short tripeptide fragment studied extensively for inflammatory pathway signaling and epithelial research models.",
+  description: "KPV (Lys–Pro–Val) is a naturally occurring tripeptide fragment derived from α-melanocyte-stimulating hormone (α-MSH). In laboratory research environments, KPV is widely studied for its interaction with inflammatory signaling pathways, epithelial barrier models, and peptide-mediated immune signaling mechanisms. Due to its short sequence and stability, KPV is commonly investigated in gastrointestinal, dermatological, and cellular signaling research. Supplied as a high-purity lyophilized peptide for controlled scientific investigation.",
+  applications: [
+    "Inflammatory signaling pathway research",
+    "Epithelial and mucosal barrier studies",
+    "Peptide-mediated immune signaling research",
+    "Cellular communication pathway investigation"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"l-glutathione-600mg": {
+  name: "L-Glutathione 600mg",
+
+  strength:
+    "Tripeptide antioxidant studied extensively for cellular redox balance, oxidative stress modulation, and detoxification pathway research.",
+
+  description:
+    "L-Glutathione is a naturally occurring tripeptide composed of glutamic acid, cysteine, and glycine. In laboratory research environments, it is widely studied for its role in cellular redox regulation, antioxidant defense mechanisms, mitochondrial function, and detoxification pathway signaling. Due to its central role in maintaining intracellular homeostasis, L-Glutathione is commonly investigated in oxidative stress, metabolic, and cellular protection research models. Supplied as a high-purity research material for controlled scientific investigation.",
+
+  applications: [
+    "Oxidative stress and redox balance research",
+    "Cellular antioxidant pathway studies",
+    "Mitochondrial and metabolic signaling investigation",
+    "Detoxification and cellular protection research"
+  ],
+
+  appearance: "White to off-white powder",
+  storage: "Store in a cool, dry environment. Protect from moisture and light.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ll-37-cap-18-5mg": {
+  name: "LL-37 (CAP-18) 5mg",
+  strength: "Cationic host-defense peptide studied extensively for innate immune signaling, antimicrobial pathway research, and epithelial biology models.",
+  description: "LL-37, also known as CAP-18–derived peptide, is a naturally occurring cationic antimicrobial peptide that plays a role in innate immune signaling. In laboratory research environments, LL-37 is widely studied for its interaction with microbial membranes, immune-modulatory signaling pathways, epithelial barrier biology, and inflammation-related cellular responses. Due to its broad activity profile, it is commonly investigated in microbiology, immunology, and tissue-defense research models. Supplied as a high-purity lyophilized peptide for controlled scientific investigation.",
+  applications: [
+    "Innate immune signaling research",
+    "Antimicrobial pathway investigation",
+    "Epithelial and mucosal barrier studies",
+    "Inflammation-related cellular signaling research"
+  ],
+  appearance: "White to off-white lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"5-amino-1mq-nmn-jbsnf-60-capsules": {
+  name: "5-Amino-1MQ + NMN + JBSNF (60 Capsules)",
+
+  strength:
+    "Multi-compound capsule formulation studied for cellular energy metabolism, longevity signaling, and metabolic pathway research models.",
+
+  description:
+    "This capsule-based research formulation combines 5-Amino-1MQ, a small-molecule NNMT inhibitor studied in metabolic signaling research, with NMN (Nicotinamide Mononucleotide), a precursor investigated in NAD⁺ pathway and cellular energy research, and JBSNF, a proprietary research blend referenced in metabolic and performance signaling models. In laboratory research environments, this combination is studied for its role in cellular energy regulation, metabolic signaling pathways, and longevity-associated research models. The encapsulated format supports controlled handling, stability, and repeatable experimental protocols.",
+
+  components: [
+    "5-Amino-1MQ (NNMT inhibitor research compound)",
+    "NMN (Nicotinamide Mononucleotide)",
+    "JBSNF (proprietary research blend)"
+  ],
+
+  applications: [
+    "Cellular energy metabolism research",
+    "NAD⁺ and metabolic pathway investigation",
+    "Longevity and performance signaling studies",
+    "Metabolic regulation research models"
+  ],
+
+  appearance: "Encapsulated solid research material",
+  storage: "Store in a cool, dry environment away from direct light.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"livagen-20mg": {
+  name: "Livagen® 20mg",
+  
+  strength: "Short regulatory peptide studied in hepatic cellular signaling, gene expression modulation, and liver tissue research models.",
+  
+  description: "Livagen® is a synthetic regulatory peptide originally developed for laboratory research involving hepatic tissue signaling and cellular gene expression modulation. In controlled research environments, Livagen is studied for its interaction with liver-specific cellular pathways, metabolic regulation mechanisms, and peptide-based tissue communication models. It is commonly investigated in bioregulator research focused on organ-specific peptide signaling. Supplied as a high-purity research compound for scientific investigation.",
+  
+  applications: [
+    "Hepatic cellular signaling research",
+    "Liver tissue and metabolic pathway studies",
+    "Gene expression modulation research",
+    "Organ-specific peptide bioregulator investigation"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"matrixyl-200mg-topical": {
+  name: "Matrixyl® 200mg (Topical)",
+  strength: "Palmitoylated cosmetic research peptide studied for extracellular matrix signaling, collagen-related pathway research, and dermal peptide interaction models.",
+  description: "Matrixyl® is a palmitoylated peptide commonly referenced in cosmetic and dermatological research for its role in extracellular matrix signaling and collagen-related pathway investigation. In laboratory research environments, Matrixyl is studied for its interaction with dermal fibroblast signaling, peptide-mediated communication within the skin matrix, and topical formulation stability. It is widely used in cosmetic peptide research models focusing on skin structure signaling and peptide–lipid conjugate behavior. Supplied as a high-purity topical research material.",
+  applications: [
+    "Extracellular matrix signaling research",
+    "Collagen-related pathway investigation",
+    "Dermal fibroblast signaling studies",
+    "Topical cosmetic formulation research"
+  ],
+  appearance: "White to off-white powder",
+  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
+  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
+},
+"melanostatin-dm-200mg": {
+  name: "Melanostatin-DM 200mg",
+
+  strength:
+    "Synthetic cosmetic research peptide studied for melanocyte signaling modulation and pigmentation-related pathway investigation.",
+
+  description:
+    "Melanostatin-DM is a synthetic peptide investigated in laboratory and cosmetic research environments for its interaction with melanocyte signaling pathways and pigmentation-related cellular processes. It is commonly studied in vitro to explore peptide-mediated regulation of melanogenesis, receptor signaling involved in melanin production, and topical peptide formulation behavior. Supplied as a high-purity topical research material for controlled scientific investigation.",
+
+  applications: [
+    "Melanocyte signaling pathway research",
+    "Pigmentation-related cellular studies",
+    "Melanogenesis pathway investigation",
+    "Topical cosmetic peptide formulation research"
+  ],
+
+  appearance: "White to off-white powder",
+  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
+  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
+},
+"melanotan-1-10mg": {
+  name: "Melanotan-I 10mg",
+  
+  strength: "Synthetic melanocortin peptide studied extensively for melanocyte signaling, pigmentation pathway research, and receptor-mediated cellular models.",
+  
+  description: "Melanotan-I is a synthetic analog of α-melanocyte-stimulating hormone (α-MSH), widely studied in laboratory research for its interaction with melanocortin receptors and melanocyte signaling pathways. In controlled research environments, Melanotan-I is investigated for pigmentation-related cellular signaling, receptor-binding specificity, and melanogenesis pathway research. Supplied as a high-purity lyophilized peptide for precise and reproducible scientific investigation.",
+  
+  applications: [
+    "Melanocyte and pigmentation signaling research",
+    "Melanocortin receptor interaction studies",
+    "Melanogenesis pathway investigation",
+    "Peptide–receptor signaling research"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"melanotan-2-3mg-x-10": {
+  name: "Melanotan-II 3mg ×10 Vials",
+  strength: "Synthetic melanocortin peptide studied for receptor-mediated melanocyte signaling and neuropeptide pathway research models.",
+  description: "Melanotan-II is a synthetic cyclic peptide and potent analog of α-melanocyte-stimulating hormone (α-MSH). In laboratory research environments, it is widely studied for its interaction with melanocortin receptors (MC1R, MC3R, MC4R), melanocyte signaling pathways, and neuropeptide-mediated cellular communication. This 10-vial research bundle supports extended experimental protocols, comparative receptor studies, and melanocortin signaling research. Supplied as high-purity lyophilized peptide vials for controlled scientific investigation.",
+  applications: [
+    "Melanocortin receptor signaling research",
+    "Melanocyte and pigmentation pathway studies",
+    "Neuropeptide receptor interaction investigation",
+    "Peptide-mediated cellular signaling research"
+  ],
+  appearance: "White lyophilized powder (separate vials)",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"melanotan-2-10mg": {
+  name: "Melanotan-II 10mg",
+
+  strength:
+    "Synthetic melanocortin peptide studied for receptor-mediated signaling, neuropeptide pathway research, and melanocyte cellular models.",
+
+  description:
+    "Melanotan-II is a synthetic cyclic peptide and potent analog of α-melanocyte-stimulating hormone (α-MSH). In laboratory research environments, it is widely studied for its interaction with melanocortin receptors (including MC1R, MC3R, and MC4R), melanocyte signaling pathways, and neuropeptide-mediated cellular communication. The 10mg single-vial format supports focused experiments, receptor-binding studies, and controlled melanocortin signaling research. Supplied as a high-purity lyophilized peptide for precise scientific investigation.",
+
+  applications: [
+    "Melanocortin receptor signaling research",
+    "Melanocyte and pigmentation pathway studies",
+    "Neuropeptide receptor interaction investigation",
+    "Peptide-mediated cellular signaling research"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"methylene-blue-10mg-60-capsules": {
+  name: "Methylene Blue 10mg (60 Capsules)",
+  
+  strength: "Redox-active research compound studied for mitochondrial electron transport, cellular energy signaling, and oxidative pathway research models.",
+  
+  description: "Methylene Blue is a synthetic phenothiazine-derived compound widely studied in laboratory research for its redox properties and interaction with mitochondrial electron transport pathways. In controlled research environments, it is investigated for its role in cellular energy signaling, oxidative stress modulation, mitochondrial respiration models, and neurobiological research systems. The encapsulated format supports consistent handling, stability, and repeatable experimental protocols for capsule-based research applications.",
+  
+  applications: [
+    "Mitochondrial electron transport research",
+    "Cellular energy and redox signaling studies",
+    "Oxidative stress pathway investigation",
+    "Neurobiological and metabolic research models"
+  ],
+  
+  appearance: "Encapsulated solid research material",
+  storage: "Store in a cool, dry environment away from light.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"mgf-c-terminal-5mg": {
+  name: "MGF C-Terminal 5mg",
+  strength: "C-terminal fragment of mechano growth factor studied for localized IGF signaling, tissue response research, and cellular repair pathway models.",
+  description: "MGF C-Terminal is a peptide fragment corresponding to the C-terminal region of mechano growth factor (MGF), a splice variant of insulin-like growth factor-1 (IGF-1). In laboratory research environments, this fragment is studied for its role in localized IGF signaling, tissue-specific cellular response mechanisms, and peptide-mediated repair pathway investigation. Unlike full-length IGF analogs, the C-terminal fragment is commonly researched for its targeted signaling characteristics. Supplied as a high-purity lyophilized peptide for controlled scientific investigation.",
+  applications: [
+    "Localized IGF signaling research",
+    "Tissue response and repair pathway studies",
+    "Growth factor fragment investigation",
+    "Cellular signaling and regeneration research"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"mod-grf-ghrp-2-10mg-blend": {
+  name: "MOD-GRF (1-29) + GHRP-2 Blend 10mg",
+
+  strength:
+    "Dual-peptide research blend combining MOD-GRF (1-29) and GHRP-2, studied for synergistic growth hormone signaling and receptor pathway research models.",
+
+  description:
+    "This research blend combines MOD-GRF (1-29), a modified growth hormone–releasing factor analog studied for its interaction with pituitary signaling pathways, and GHRP-2, a growth hormone–releasing peptide investigated for its binding affinity to ghrelin receptors (GHS-R). In laboratory research environments, this combination is commonly studied for synergistic growth hormone signaling, peptide–receptor interaction, and endocrine pathway investigation. Supplied as a high-purity lyophilized peptide blend for controlled scientific research use.",
+
+  components: [
+    "MOD-GRF (1-29)",
+    "GHRP-2"
+  ],
+
+  applications: [
+    "Growth hormone signaling research",
+    "Peptide–receptor interaction studies",
+    "Endocrine pathway investigation",
+    "Synergistic peptide research models"
+  ],
+
+  appearance: "White lyophilized powder blend",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"mod-grf-hexarelin-10mg-blend": {
+  name: "MOD-GRF (1-29) + Hexarelin Blend 10mg",
+  
+  strength: "Dual-peptide research blend combining MOD-GRF (1-29) and Hexarelin, studied for synergistic growth hormone signaling and receptor pathway research models.",
+  
+  description: "This research blend combines MOD-GRF (1-29), a modified growth hormone–releasing factor analog investigated for its interaction with pituitary signaling pathways, and Hexarelin, a synthetic growth hormone–releasing peptide studied for its strong affinity to ghrelin receptors (GHS-R). In laboratory research environments, this combination is commonly used to explore synergistic growth hormone signaling, peptide–receptor binding dynamics, and endocrine pathway mechanisms. Supplied as a high-purity lyophilized peptide blend for controlled scientific research use.",
+  
+  components: [
+    "MOD-GRF (1-29)",
+    "Hexarelin"
+  ],
+  
+  applications: [
+    "Growth hormone signaling research",
+    "Peptide–receptor interaction studies",
+    "Endocrine pathway investigation",
+    "Synergistic peptide research models"
+  ],
+  
+  appearance: "White lyophilized powder blend",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"mod-grf-ipamorelin-ghrp-2-blend": {
+  name: "MOD-GRF (1-29) + Ipamorelin + GHRP-2 Blend",
+  strength: "Triple-peptide research blend studied for synergistic growth hormone signaling, receptor activation, and endocrine pathway research models.",
+  description: "This advanced research blend combines MOD-GRF (1-29), a modified growth hormone–releasing factor analog studied for pituitary signaling, with Ipamorelin and GHRP-2, both growth hormone secretagogues investigated for their interaction with ghrelin receptors (GHS-R). In laboratory research environments, this triple-peptide formulation is commonly used to explore synergistic peptide signaling, receptor-binding dynamics, and complex endocrine pathway interactions. Supplied as a high-purity lyophilized peptide blend for controlled scientific research use.",
+  components: [
+    "MOD-GRF (1-29)",
+    "Ipamorelin",
+    "GHRP-2"
+  ],
+  applications: [
+    "Growth hormone signaling research",
+    "Peptide–receptor interaction studies",
+    "Endocrine and pituitary pathway investigation",
+    "Synergistic peptide research models"
+  ],
+  appearance: "White lyophilized powder blend",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"mod-grf-ipamorelin-10mg-blend": {
+  name: "MOD-GRF (1-29) + Ipamorelin Blend 10mg",
+
+  strength:
+    "Dual-peptide research blend studied for synergistic growth hormone signaling and endocrine pathway research models.",
+
+  description:
+    "This research blend combines MOD-GRF (1-29), a modified growth hormone–releasing factor analog investigated for pituitary signaling pathways, with Ipamorelin, a selective growth hormone secretagogue studied for its interaction with ghrelin receptors (GHS-R). In laboratory research environments, this dual-peptide formulation is commonly used to explore synergistic peptide signaling, receptor-binding dynamics, and endocrine pathway modulation. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
+
+  components: [
+    "MOD-GRF (1-29)",
+    "Ipamorelin"
+  ],
+
+  applications: [
+    "Growth hormone signaling research",
+    "Endocrine and pituitary pathway investigation",
+    "Peptide–receptor interaction studies",
+    "Synergistic peptide research models"
+  ],
+
+  appearance: "White lyophilized powder blend",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"mots-c-5mg": {
+  name: "MOTS-c 5mg",
+  
+  strength: "Mitochondrial-derived research peptide studied for cellular metabolism, stress response, and metabolic signaling pathways.",
+  
+  description: "MOTS-c is a mitochondrial-encoded peptide extensively studied in laboratory research for its role in cellular metabolism, stress adaptation pathways, and mitochondrial signaling. In in-vitro and preclinical research models, MOTS-c is investigated for its interaction with metabolic regulation mechanisms, cellular energy balance, and adaptive stress responses. Supplied as a high-purity lyophilized peptide for controlled scientific research applications.",
+  
+  applications: [
+    "Mitochondrial signaling research",
+    "Cellular metabolism and energy regulation studies",
+    "Stress response pathway investigation",
+    "Metabolic adaptation research models"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"mots-c-10mg": {
+  name: "MOTS-c 10mg",
+  strength: "Mitochondrial-derived research peptide studied for cellular metabolism, stress response, and metabolic signaling pathways.",
+  description: "MOTS-c is a mitochondrial-encoded peptide extensively studied in laboratory research for its role in cellular metabolism, stress adaptation pathways, and mitochondrial signaling. In in-vitro and preclinical research models, MOTS-c is investigated for its interaction with metabolic regulation mechanisms, cellular energy balance, and adaptive stress responses. Supplied as a high-purity lyophilized peptide for controlled scientific research applications.",
+  applications: [
+    "Mitochondrial signaling research",
+    "Cellular metabolism and energy regulation studies",
+    "Stress response pathway investigation",
+    "Metabolic adaptation research models"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"n-acetyl-epithalon-amidate-20mg": {
+  name: "N-Acetyl Epithalon Amidate 20mg",
+
+  strength:
+    "Modified epithalon analog studied in advanced cellular aging, telomerase activity, and circadian rhythm research models.",
+
+  description:
+    "N-Acetyl Epithalon Amidate is a chemically modified analog of the epithalon peptide, designed to enhance molecular stability and research handling characteristics. In laboratory research environments, it is studied for its interaction with cellular aging pathways, telomerase regulation, circadian rhythm signaling, and epigenetic modulation. This compound is commonly explored in longevity-focused research models and peptide signaling investigations. Supplied as a high-purity lyophilized research peptide for controlled scientific use.",
+
+  applications: [
+    "Cellular aging and longevity research",
+    "Telomerase activity and regulation studies",
+    "Circadian rhythm signaling research",
+    "Epigenetic and peptide signaling pathway investigation"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"n-acetyl-epithalon-amidate-10mg": {
+  name: "N-Acetyl Epithalon Amidate 10mg",
+  
+  strength: "Modified epithalon analog studied in advanced cellular aging, telomerase activity, and circadian rhythm research models.",
+  
+  description: "N-Acetyl Epithalon Amidate is a chemically modified analog of the epithalon peptide, designed to enhance molecular stability and research handling characteristics. In laboratory research environments, it is studied for its interaction with cellular aging pathways, telomerase regulation, circadian rhythm signaling, and epigenetic modulation. This compound is commonly explored in longevity-focused research models and peptide signaling investigations. Supplied as a high-purity lyophilized research peptide for controlled scientific use.",
+  
+  applications: [
+    "Cellular aging and longevity research",
+    "Telomerase activity and regulation studies",
+    "Circadian rhythm signaling research",
+    "Epigenetic and peptide signaling pathway investigation"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"n-acetyl-epithalon-amidate-30mg": {
+  name: "N-Acetyl Epithalon Amidate 30mg",
+  strength: "Modified epithalon analog studied in advanced cellular aging, telomerase activity, and circadian rhythm research models.",
+  description: "N-Acetyl Epithalon Amidate is a chemically modified analog of the epithalon peptide, designed to enhance molecular stability and research handling characteristics. In laboratory research environments, it is studied for its interaction with cellular aging pathways, telomerase regulation, circadian rhythm signaling, and epigenetic modulation. This compound is commonly explored in longevity-focused research models and peptide signaling investigations. Supplied as a high-purity lyophilized research peptide for controlled scientific use.",
+  applications: [
+    "Cellular aging and longevity research",
+    "Telomerase activity and regulation studies",
+    "Circadian rhythm signaling research",
+    "Epigenetic and peptide signaling pathway investigation"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"nad-plus-100mg": {
+  name: "NAD⁺ (β-Nicotinamide Adenine Dinucleotide) 100mg",
+
+  strength:
+    "Essential cellular coenzyme studied extensively in redox biology, mitochondrial function, and metabolic signaling research models.",
+
+  description:
+    "NAD⁺ (β-Nicotinamide Adenine Dinucleotide) is a ubiquitous cellular coenzyme involved in redox reactions and energy metabolism. In laboratory research environments, it is widely studied for its role in mitochondrial function, cellular respiration, DNA repair mechanisms, and enzymatic signaling pathways including sirtuin and PARP activity. This compound is commonly used in biochemical, metabolic, and cellular aging research models. Supplied as a high-purity research-grade material for controlled scientific investigation.",
+
+  applications: [
+    "Cellular energy metabolism research",
+    "Mitochondrial function and redox biology studies",
+    "DNA repair and enzymatic signaling research",
+    "Metabolic and cellular stress response investigation"
+  ],
+
+  appearance: "White to off-white crystalline powder",
+  storage: "Store at −20°C. Protect from light and moisture.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"nad-plus-750mg": {
+  name: "NAD⁺ (β-Nicotinamide Adenine Dinucleotide) 750mg",
+  
+  strength: "Essential cellular coenzyme studied extensively in redox biology, mitochondrial function, and metabolic signaling research models.",
+  
+  description: "NAD⁺ (β-Nicotinamide Adenine Dinucleotide) is a ubiquitous cellular coenzyme involved in redox reactions and energy metabolism. In laboratory research environments, it is widely studied for its role in mitochondrial function, cellular respiration, DNA repair mechanisms, and enzymatic signaling pathways including sirtuin and PARP activity. This compound is commonly used in biochemical, metabolic, and cellular aging research models. Supplied as a high-purity research-grade material for controlled scientific investigation.",
+  
+  applications: [
+    "Cellular energy metabolism research",
+    "Mitochondrial function and redox biology studies",
+    "DNA repair and enzymatic signaling research",
+    "Metabolic and cellular stress response investigation"
+  ],
+  
+  appearance: "White to off-white crystalline powder",
+  storage: "Store at −20°C. Protect from light and moisture.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"nonapeptide-1-200mg": {
+  name: "Nonapeptide-1 200mg",
+  strength: "Synthetic cosmetic research peptide studied for melanogenesis regulation and skin pigmentation signaling pathways [web:16][web:17].",
+  description: "Nonapeptide-1 is a synthetic cosmetic research peptide widely studied in laboratory models for its interaction with melanogenesis-related signaling pathways [web:13][web:16]. In cosmetic and dermatological research settings, it is investigated for its role in pigmentation signaling modulation, peptide–receptor interactions, and topical formulation stability [web:16][web:18]. This compound is commonly used in skin biology research and peptide-based cosmetic formulation development [web:16][web:18]. Supplied as a high-purity topical research material for controlled scientific use [web:14][web:16].",
+  applications: [
+    "Melanogenesis and pigmentation signaling research",
+    "Skin biology and cosmetic peptide studies",
+    "Peptide–receptor interaction research",
+    "Topical formulation development and stability testing"
+  ],
+  appearance: "White to off-white powder",
+  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
+  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
+},
+"os-01-100mg-30-capsules": {
+  name: "OS-01 100mg (30 Capsules)",
+  strength: "Oral research peptide formulation studied for cellular aging mechanisms, senescence signaling, and longevity-associated pathway research models.",
+  description: "OS-01 is a research-focused peptide formulation developed for laboratory studies exploring cellular aging, senescence-associated signaling, and longevity-related biological pathways. In research environments, OS-01 is investigated for its interaction with age-associated cellular processes, peptide signaling mechanisms, and systemic aging models. Supplied in capsule format to support controlled handling and stability in laboratory research applications.",
+  applications: [
+    "Cellular aging and senescence research",
+    "Longevity-associated signaling pathway studies",
+    "Peptide-based aging model investigation",
+    "Cellular stress and regulatory pathway research"
+  ],
+  appearance: "Encapsulated solid research material",
+  storage: "Store in a cool, dry environment away from direct light.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"ovagen-20mg-bioregulator": {
+  name: "Ovagen 20mg (Bioregulator)",
+  
+  strength: "Short-chain peptide bioregulator studied in ovarian tissue signaling and reproductive biology research models.",
+  
+  description: "Ovagen is a short-chain peptide bioregulator investigated in laboratory research for its interaction with ovarian tissue signaling pathways and reproductive system biology. In controlled research environments, Ovagen is studied for its role in peptide-mediated cellular communication, tissue-specific regulation, and bioregulatory signaling mechanisms. It is commonly included in peptide bioregulator research programs focused on organ-specific signaling models. Supplied as a high-purity lyophilized research peptide for controlled scientific investigation.",
+  
+  applications: [
+    "Ovarian tissue signaling research",
+    "Reproductive biology and peptide regulation studies",
+    "Organ-specific bioregulator research",
+    "Cellular communication pathway investigation"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"oxytocin-10mg-6000iu": {
+  name: "Oxytocin 10mg (6000 IU)",
+
+  strength:
+    "Neuropeptide hormone studied in laboratory research for social behavior signaling, neuroendocrine communication, and receptor-mediated pathway investigation.",
+
+  description:
+    "Oxytocin is a cyclic nonapeptide hormone extensively studied in laboratory research for its role in neuroendocrine signaling, receptor-mediated communication, and central nervous system pathway modulation. In controlled research environments, it is investigated for its interaction with oxytocin receptors (OXTR), peptide–receptor binding dynamics, and neurobiological signaling mechanisms. Supplied as a high-purity lyophilized research peptide for controlled scientific investigation.",
+
+  applications: [
+    "Neuroendocrine signaling research",
+    "Peptide–receptor interaction studies",
+    "Central nervous system pathway investigation",
+    "Behavioral and social signaling research models"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"pal-ahk-200mg-topical": {
+  name: "Pal-AHK 200mg (Topical)",
+
+  strength:
+    "Palmitoylated cosmetic research tripeptide studied for enhanced skin penetration, dermal signaling, and peptide–lipid interaction models.",
+
+  description:
+    "Pal-AHK is a palmitoylated derivative of the AHK tripeptide, designed to improve lipid solubility and membrane interaction in cosmetic research models [web:11][web:12]. In laboratory and dermatological research settings, Pal-AHK is investigated for its role in dermal signaling pathways, extracellular matrix communication, and topical peptide delivery systems [web:12][web:15]. This compound is commonly studied in skin biology research and advanced cosmetic formulation development [web:13]. Supplied as a high-purity topical research material for controlled scientific investigation.",
+
+  applications: [
+    "Dermal signaling and skin biology research",
+    "Peptide–lipid interaction studies",
+    "Topical peptide delivery and formulation research",
+    "Cosmetic peptide signaling pathway investigation"
+  ],
+
+  appearance: "White to off-white powder",
+  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
+  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
+},
+"pal-ghk-200mg-topical": {
+  name: "Pal-GHK (Palmitoyl Tripeptide-1) 200mg",
+
+  strength:
+    "Palmitoylated cosmetic research tripeptide studied for dermal signaling, extracellular matrix interaction, and peptide–lipid delivery models.",
+
+  description:
+    "Pal-GHK, also known as Palmitoyl Tripeptide-1, is a lipid-modified cosmetic research peptide designed to enhance skin penetration and membrane interaction in topical research models [web:21][web:26]. In laboratory and dermatological research environments, Pal-GHK is studied for its role in dermal signaling pathways, extracellular matrix communication, and peptide-based cosmetic formulation systems [web:25][web:27]. It is commonly included in advanced cosmetic peptide research focused on peptide–lipid interactions and topical delivery optimization [web:21][web:26]. Supplied as a high-purity topical research material for controlled scientific investigation.",
+
+  applications: [
+    "Dermal signaling and skin biology research",
+    "Extracellular matrix interaction studies",
+    "Peptide–lipid delivery and penetration research",
+    "Topical cosmetic formulation development"
+  ],
+
+  appearance: "White to off-white powder",
+  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
+  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
+},
+"palmitoyl-dipeptide-6-200mg-topical": {
+  name: "Palmitoyl Dipeptide-6 200mg",
+
+  strength:
+    "Palmitoylated cosmetic research dipeptide studied for skin barrier interaction, dermal signaling, and peptide–lipid delivery models.",
+
+  description:
+    "Palmitoyl Dipeptide-6 is a lipid-modified cosmetic research peptide designed to enhance membrane affinity and topical delivery in skin research models [web:33]. In laboratory and dermatological research environments, it is investigated for its interaction with dermal signaling pathways, skin barrier dynamics, and peptide-based cosmetic formulation systems [web:33]. This compound is commonly studied in cosmetic peptide research focused on peptide–lipid interactions and topical formulation stability [web:33]. Supplied as a high-purity topical research material for controlled scientific investigation.",
+
+  applications: [
+    "Dermal signaling and skin biology research",
+    "Peptide–lipid interaction studies",
+    "Skin barrier and topical delivery research",
+    "Cosmetic peptide formulation development"
+  ],
+
+  appearance: "White to off-white powder",
+  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
+  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
+},
+"pancragen-20mg-bioregulator": {
+  name: "Pancragen 20mg (Bioregulator)",
+
+  strength:
+    "Organ-specific peptide bioregulator studied for pancreatic tissue signaling and metabolic pathway research models.",
+
+  description:
+    "Pancragen is a short-chain peptide bioregulator investigated in laboratory research for its interaction with pancreatic tissue signaling pathways and metabolic regulatory mechanisms. In controlled research environments, it is studied for peptide-mediated cellular communication, organ-specific regulation, and bioregulatory signaling models related to pancreatic biology. Pancragen is commonly included in bioregulator research programs focused on tissue-specific peptide signaling. Supplied as a high-purity lyophilized research peptide for controlled scientific investigation.",
+
+  applications: [
+    "Pancreatic tissue signaling research",
+    "Metabolic and regulatory pathway studies",
+    "Organ-specific bioregulator research",
+    "Cellular communication pathway investigation"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"pe-22-28": {
+  name: "PE-22-28",
+  
+  strength: "Short regulatory peptide fragment studied for neurobiological signaling, cognitive pathway research, and synaptic modulation models.",
+  
+  description: "PE-22-28 is a short peptide fragment derived from regions associated with neurotrophic and synaptic signaling pathways. In laboratory research environments, it is investigated for its role in neurobiological communication, peptide-mediated signaling, and cellular interaction models related to cognitive and nervous system research. This compound is commonly studied in peptide signaling and neuroregulatory research programs. Supplied as a high-purity lyophilized research peptide for controlled scientific investigation.",
+  
+  applications: [
+    "Neurobiological signaling research",
+    "Synaptic and cognitive pathway studies",
+    "Peptide-mediated cellular communication research",
+    "Molecular and regulatory signaling investigation"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"peg-mgf-5mg": {
+  name: "PEG-MGF 5mg",
+  strength: "Pegylated growth factor research peptide studied for extended stability, cellular signaling, and tissue response pathway models.",
+  description: "PEG-MGF is a pegylated analog of Mechano Growth Factor (MGF), designed to enhance molecular stability and prolong activity in laboratory research environments. It is investigated for its role in cellular signaling pathways, tissue response models, and growth factor–mediated communication mechanisms. The pegylation process supports extended in vitro handling and research flexibility. Supplied as a high-purity lyophilized research peptide for controlled scientific investigation.",
+  applications: [
+    "Growth factor signaling research",
+    "Cellular communication and response studies",
+    "Tissue signaling pathway investigation",
+    "Peptide stability and formulation research"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"pentapeptide-18-200mg-topical": {
+  name: "Pentapeptide-18 (Leuphasyl®) 200mg",
+
+  strength:
+    "Synthetic cosmetic research pentapeptide studied for neuromuscular signaling modulation and surface-level skin peptide interaction models.",
+
+  description:
+    "Pentapeptide-18, commonly known as Leuphasyl®, is a synthetic cosmetic research peptide investigated for its interaction with neuromuscular communication pathways in skin models [web:30]. In laboratory and cosmetic research environments, it is studied for peptide-mediated signaling modulation, receptor interaction dynamics, and topical formulation stability [web:37][web:38]. This compound is frequently included in cosmetic peptide research programs focused on surface-level peptide signaling and formulation development [web:30]. Supplied as a high-purity topical research material for controlled scientific investigation.",
+
+  applications: [
+    "Cosmetic peptide signaling research",
+    "Neuromuscular communication studies (in vitro)",
+    "Peptide–receptor interaction research",
+    "Topical formulation development and stability testing"
+  ],
+
+  appearance: "White to off-white powder",
+  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
+  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
+},
+"pinealon-20mg": {
+  name: "Pinealon 20mg (Bioregulator)",
+  
+  strength: "Short-chain peptide bioregulator studied for neuroendocrine signaling, pineal gland biology, and circadian pathway research models.",
+  
+  description: "Pinealon is a short-chain peptide bioregulator investigated in laboratory research for its interaction with pineal gland signaling pathways and neuroendocrine regulatory mechanisms. In controlled research environments, Pinealon is studied for peptide-mediated cellular communication, circadian rhythm–associated signaling, and central nervous system regulatory models. It is commonly included in peptide bioregulator research programs focused on organ-specific signaling pathways. Supplied as a high-purity lyophilized research peptide for controlled scientific investigation.",
+  
+  applications: [
+    "Neuroendocrine and pineal signaling research",
+    "Circadian rhythm and regulatory pathway studies",
+    "Organ-specific bioregulator research",
+    "Cellular communication pathway investigation"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"pnc-27-5mg": {
+  name: "PNC-27 5mg",
+  strength: "Synthetic antimicrobial and regulatory research peptide studied for membrane interaction, p53-related signaling, and cellular integrity research models.",
+  description: "PNC-27 is a synthetic research peptide derived from a region of the tumor suppressor protein p53 and is studied in laboratory research for its interaction with cellular membranes and regulatory signaling pathways. In controlled research environments, PNC-27 is investigated for its role in peptide–membrane interaction models, antimicrobial activity studies, and molecular signaling mechanisms related to cell integrity and regulation. Supplied as a high-purity lyophilized research peptide for controlled scientific investigation.",
+  applications: [
+    "Peptide–membrane interaction research",
+    "Cellular integrity and regulatory signaling studies",
+    "Antimicrobial peptide research models",
+    "Molecular and cellular signaling pathway investigation"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"prostamax-20mg-bioregulator": {
+  name: "Prostamax 20mg (Bioregulator)",
+
+  strength:
+    "Short-chain peptide bioregulator studied for prostate tissue signaling and organ-specific regulatory pathway research models.",
+
+  description:
+    "Prostamax is a short-chain peptide bioregulator investigated in laboratory research for its interaction with prostate tissue signaling pathways and organ-specific regulatory mechanisms. In controlled research environments, Prostamax is studied for peptide-mediated cellular communication, tissue-specific regulation, and bioregulatory signaling models related to prostate biology. It is commonly included in peptide bioregulator research programs focused on organ-targeted signaling studies. Supplied as a high-purity lyophilized research peptide for controlled scientific investigation.",
+
+  applications: [
+    "Prostate tissue signaling research",
+    "Organ-specific bioregulator studies",
+    "Peptide-mediated cellular communication research",
+    "Regulatory pathway investigation"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"pt-141-3mg-x-10-vials": {
+  name: "PT-141 (Bremelanotide) 3mg × 10 Vials",
+  
+  strength: "Synthetic melanocortin receptor peptide studied for central nervous system signaling pathways and neuropeptide receptor activation in controlled research models.",
+  
+  description: "PT-141, also known as Bremelanotide, is a synthetic peptide analog of alpha-melanocyte-stimulating hormone (α-MSH) investigated in laboratory research for its interaction with melanocortin receptors in the central nervous system. In experimental research settings, PT-141 is studied for neuropeptide signaling, receptor-mediated CNS pathways, and melanocortin system modulation. It is frequently included in advanced peptide research programs focused on neuroendocrine and receptor signaling mechanisms. Supplied as a high-purity lyophilized research peptide intended strictly for scientific investigation.",
+  
+  applications: [
+    "Melanocortin receptor signaling research",
+    "Central nervous system pathway studies",
+    "Neuropeptide–receptor interaction research",
+    "Neuroendocrine signaling investigation"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"pt-141-10mg": {
+  name: "PT-141 (Bremelanotide) 10mg",
+  strength: "Synthetic melanocortin receptor peptide studied for central nervous system signaling, neuropeptide activity, and receptor-mediated pathways in controlled laboratory research models.",
+  description: "PT-141, also known as Bremelanotide, is a synthetic peptide analog derived from alpha-melanocyte-stimulating hormone (α-MSH). In laboratory research environments, PT-141 is investigated for its interaction with melanocortin receptors involved in central nervous system signaling and neuropeptide communication pathways. Research studies commonly explore its role in receptor activation, neuroendocrine signaling models, and CNS-related peptide mechanisms. This product is supplied as a high-purity lyophilized peptide intended exclusively for scientific research and analytical applications.",
+  applications: [
+    "Melanocortin receptor signaling research",
+    "Central nervous system pathway studies",
+    "Neuropeptide–receptor interaction analysis",
+    "Neuroendocrine signaling research models"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"repair-and-recovery-60-capsules": {
+  name: "Repair & Recovery – 60 Capsules",
+
+  strength:
+    "Multi-component peptide research blend combining stable BPC-157, arginine, and a Thymosin Beta-4 fragment, studied for tissue signaling, cellular repair pathways, and recovery-related research models.",
+
+  description:
+    "Repair & Recovery is a formulated peptide research blend designed for laboratory investigation into tissue signaling, cellular repair mechanisms, and peptide-mediated recovery pathways. The formulation combines stable BPC-157, arginine, and a fragment of Thymosin Beta-4, which are commonly studied in controlled research environments for their roles in cellular communication, regenerative signaling models, and structural tissue research. This product is supplied in a capsule format intended strictly for analytical and laboratory research applications.",
+
+  applications: [
+    "Tissue repair signaling research",
+    "Peptide-mediated recovery pathway studies",
+    "Cellular regeneration and communication research",
+    "Structural tissue and repair model investigation"
+  ],
+
+  appearance: "Capsule formulation",
+  storage: "Store in a cool, dry place away from direct light.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"rigin-200mg-palmitoyl-tetrapeptide-7-topical": {
+  name: "Rigin® (Palmitoyl Tetrapeptide-7) 200mg – Topical",
+  
+  strength: "Palmitoylated tetrapeptide studied in laboratory research for skin signaling pathways, peptide–lipid interactions, and dermal matrix communication models.",
+  
+  description: "Rigin®, also known as Palmitoyl Tetrapeptide-7, is a synthetic lipopeptide investigated in research settings for its role in dermal signaling, peptide–lipid interactions, and extracellular matrix communication models. In controlled laboratory environments, this peptide is commonly studied for skin-related signaling pathways, cellular communication within dermal structures, and cosmetic peptide research applications. The palmitoyl group enhances peptide stability and interaction with lipid environments, making it a frequent subject of topical peptide research studies. Supplied as a high-purity topical research preparation for scientific investigation only.",
+  
+  applications: [
+    "Dermal signaling pathway research",
+    "Peptide–lipid interaction studies",
+    "Extracellular matrix communication research",
+    "Cosmetic and skin peptide research models"
+  ],
+  
+  appearance: "Topical research formulation",
+  storage: "Store at 2–8°C or as recommended. Protect from light and moisture.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"selank-10mg": {
+  name: "Selank 10mg",
+  strength: "Synthetic heptapeptide studied in laboratory research for neuropeptide signaling, neurotransmitter modulation pathways, and central nervous system communication models.",
+  description: "Selank is a synthetic heptapeptide originally developed for research into neuropeptide signaling and central nervous system communication pathways. In controlled laboratory environments, Selank is investigated for its interaction with neurotransmitter systems, peptide-mediated neuromodulation, and CNS regulatory signaling models. It is commonly included in neuroscience-focused research programs examining peptide influence on neural communication and receptor-level signaling processes. Supplied as a high-purity lyophilized peptide intended exclusively for scientific research applications.",
+  applications: [
+    "Neuropeptide signaling research",
+    "Central nervous system pathway studies",
+    "Neurotransmitter modulation research",
+    "Peptide-based neuromodulation investigation"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"semax-30mg": {
+  name: "Semax 30mg",
+
+  strength:
+    "Synthetic peptide studied in laboratory research for neuropeptide signaling, central nervous system communication pathways, and peptide-mediated neuromodulatory models.",
+
+  description:
+    "Semax is a synthetic peptide investigated in controlled research environments for its role in neuropeptide signaling and central nervous system communication pathways. Laboratory studies commonly examine Semax in models related to peptide-mediated neuromodulation, neural signaling dynamics, and receptor-level CNS research. Due to its stability and peptide structure, Semax is frequently included in neuroscience-focused research programs exploring peptide influence on neural communication mechanisms. Supplied as a high-purity lyophilized peptide intended strictly for scientific research applications.",
+
+  applications: [
+    "Neuropeptide signaling research",
+    "Central nervous system pathway investigation",
+    "Peptide-mediated neuromodulation studies",
+    "Neural communication and receptor research"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"sermorelin-ghrp-2-10mg-blend": {
+  name: "Sermorelin + GHRP-2 10mg Blend",
+  
+  strength: "Dual-peptide research blend combining Sermorelin and GHRP-2, studied in laboratory models for growth hormone–related signaling pathways and peptide-mediated endocrine communication research.",
+  
+  description: "This research blend combines Sermorelin, a growth hormone–releasing hormone (GHRH) analog, with GHRP-2, a growth hormone–releasing peptide, for laboratory investigation into growth hormone–associated signaling pathways and endocrine communication models. In controlled research environments, this combination is studied for peptide-driven receptor activation, GH axis modulation, and synergistic signaling mechanisms related to pituitary research. The blend is supplied as a high-purity lyophilized peptide preparation intended exclusively for scientific and analytical research applications.",
+  
+  applications: [
+    "Growth hormone axis signaling research",
+    "Endocrine and pituitary pathway studies",
+    "Peptide synergy and receptor interaction research",
+    "GH-related regulatory mechanism investigation"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"sermorelin-ghrp-6-10mg-blend": {
+  name: "Sermorelin + GHRP-6 10mg Blend",
+  strength: "Dual-peptide research blend combining Sermorelin and GHRP-6, studied in laboratory models for growth hormone–related signaling pathways and peptide-mediated endocrine communication research.",
+  description: "This research blend combines Sermorelin, a growth hormone–releasing hormone (GHRH) analog, with GHRP-6, a growth hormone–releasing peptide investigated in controlled laboratory environments for its role in endocrine signaling and receptor-mediated communication pathways. In research settings, this combination is studied for peptide synergy, growth hormone axis signaling models, and pituitary-related regulatory mechanisms. The blend is supplied as a high-purity lyophilized peptide preparation intended exclusively for scientific and analytical research applications.",
+  applications: [
+    "Growth hormone axis signaling research",
+    "Endocrine and pituitary pathway studies",
+    "Peptide synergy and receptor interaction research",
+    "GH-related regulatory mechanism investigation"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"sermorelin-ghrp-6-ghrp-2-9mg-blend": {
+  name: "Sermorelin + GHRP-6 + GHRP-2 9mg Blend",
+
+  strength:
+    "Triple-peptide research blend combining Sermorelin, GHRP-6, and GHRP-2, studied in laboratory models for growth hormone axis signaling, receptor-mediated endocrine communication, and peptide synergy research.",
+
+  description:
+    "This research blend combines Sermorelin, a growth hormone–releasing hormone (GHRH) analog, with two growth hormone–releasing peptides, GHRP-6 and GHRP-2. In controlled laboratory research environments, this triple-peptide formulation is studied for growth hormone–related signaling pathways, peptide synergy, and receptor-mediated endocrine communication models. Research programs commonly investigate this combination to evaluate coordinated GH axis signaling and pituitary-related regulatory mechanisms. The blend is supplied as a high-purity lyophilized peptide preparation intended exclusively for scientific and analytical research applications.",
+
+  applications: [
+    "Growth hormone axis signaling research",
+    "Endocrine and pituitary pathway studies",
+    "Peptide synergy and receptor interaction research",
+    "GH-related regulatory mechanism investigation"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"sermorelin-ipamorelin-10mg-blend": {
+  name: "Sermorelin + Ipamorelin 10mg Blend",
+  
+  strength: "Dual-peptide research blend combining Sermorelin and Ipamorelin, studied in laboratory models for growth hormone axis signaling, receptor-selective peptide interactions, and endocrine communication research.",
+  
+  description: "This research blend combines Sermorelin, a growth hormone–releasing hormone (GHRH) analog, with Ipamorelin, a growth hormone–releasing peptide known for its receptor-selective signaling profile. In controlled laboratory environments, this combination is investigated for growth hormone–associated signaling pathways, peptide synergy, and endocrine communication models related to pituitary research. The blend is supplied as a high-purity lyophilized peptide preparation intended exclusively for scientific and analytical research applications.",
+  
+  applications: [
+    "Growth hormone axis signaling research",
+    "Endocrine and pituitary pathway studies",
+    "Receptor-selective peptide interaction research",
+    "GH-related regulatory mechanism investigation"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"sermorelin-2mg": {
+  name: "Sermorelin 2mg",
+  strength: "Synthetic growth hormone–releasing hormone (GHRH) analog studied in laboratory research for pituitary signaling pathways and growth hormone axis communication models.",
+  description: "Sermorelin is a synthetic peptide analog of growth hormone–releasing hormone (GHRH) investigated in controlled laboratory environments for its role in pituitary signaling and growth hormone axis communication. Research studies commonly examine Sermorelin for peptide–receptor interactions, endocrine signaling models, and regulatory mechanisms related to GH pathway research. This product is supplied as a high-purity lyophilized peptide intended exclusively for scientific and analytical research applications.",
+  applications: [
+    "Growth hormone axis signaling research",
+    "Pituitary pathway investigation",
+    "Peptide–receptor interaction studies",
+    "Endocrine communication research models"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"sermorelin-5mg": {
+  name: "Sermorelin 5mg",
+  
+  strength: "Synthetic growth hormone–releasing hormone (GHRH) analog studied in laboratory research for pituitary signaling pathways and growth hormone axis communication models.",
+  
+  description: "Sermorelin is a synthetic peptide analog of growth hormone–releasing hormone (GHRH) investigated in controlled laboratory environments for its role in pituitary signaling and growth hormone axis communication. Research studies commonly examine Sermorelin for peptide–receptor interactions, endocrine signaling models, and regulatory mechanisms related to GH pathway research. This product is supplied as a high-purity lyophilized peptide intended exclusively for scientific and analytical research applications.",
+  
+  applications: [
+    "Growth hormone axis signaling research",
+    "Pituitary pathway investigation",
+    "Peptide–receptor interaction studies",
+    "Endocrine communication research models"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"sermorelin-15mg": {
+  name: "Sermorelin 15mg",
+  strength: "Synthetic growth hormone–releasing hormone (GHRH) analog studied in laboratory research for pituitary signaling pathways and growth hormone axis communication models.",
+  description: "Sermorelin is a synthetic peptide analog of growth hormone–releasing hormone (GHRH) investigated in controlled laboratory environments for its role in pituitary signaling and growth hormone axis communication. Research studies commonly examine Sermorelin for peptide–receptor interactions, endocrine signaling models, and regulatory mechanisms related to GH pathway research. This product is supplied as a high-purity lyophilized peptide intended exclusively for scientific and analytical research applications.",
+  applications: [
+    "Growth hormone axis signaling research",
+    "Pituitary pathway investigation",
+    "Peptide–receptor interaction studies",
+    "Endocrine communication research models"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"slu-pp-332-capsules-250mcg": {
+  name: "SLU-PP-332 Capsules (250 mcg)",
+
+  strength:
+    "Small-molecule research compound studied in laboratory models for metabolic signaling pathways, mitochondrial activity research, and cellular energy regulation mechanisms.",
+
+  description:
+    "SLU-PP-332 is a synthetic research compound investigated in controlled laboratory environments for its role in metabolic signaling, mitochondrial function research, and cellular energy regulation models. In experimental research programs, SLU-PP-332 is studied for pathway-level interactions related to metabolic efficiency and energy utilization. This product is supplied in a capsule format intended strictly for analytical and laboratory research applications.",
+
+  applications: [
+    "Metabolic signaling pathway research",
+    "Mitochondrial activity studies",
+    "Cellular energy regulation research",
+    "Metabolism-related pathway investigation"
+  ],
+
+  appearance: "Capsule formulation",
+  storage: "Store in a cool, dry place away from light and moisture.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"snap-8-200mg-topical": {
+  name: "SNAP-8® (Acetyl Octapeptide-3) 200mg – Topical",
+  
+  strength: "Synthetic acetylated octapeptide studied in laboratory research for dermal signaling pathways, peptide–receptor interactions, and skin communication models.",
+  
+  description: "SNAP-8®, also known as Acetyl Octapeptide-3, is a synthetic peptide investigated in controlled research environments for its role in dermal signaling and peptide-mediated communication within skin-related models. Laboratory studies commonly examine SNAP-8® for receptor-level interactions, peptide structure–function relationships, and cosmetic peptide research applications. This product is supplied as a high-purity topical research preparation intended strictly for scientific investigation.",
+  
+  applications: [
+    "Dermal signaling pathway research",
+    "Peptide–receptor interaction studies",
+    "Skin communication model investigation",
+    "Cosmetic peptide research applications"
+  ],
+  
+  appearance: "Topical research formulation",
+  storage: "Store at 2–8°C or as recommended. Protect from light and moisture.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"syn-ake-200mg-topical": {
+  name: "SYN®-AKE (Dipeptide Diaminobutyroyl Benzylamide Diacetate) 200mg – Topical",
+  strength: "Synthetic dipeptide studied in laboratory research for dermal signaling pathways, peptide–receptor interaction models, and skin communication research.",
+  description: "SYN®-AKE is a synthetic dipeptide investigated in controlled laboratory environments for its role in dermal signaling and peptide–receptor interaction models relevant to cosmetic peptide research. In research settings, SYN®-AKE is commonly studied for structure–function relationships, receptor-level communication, and peptide-mediated signaling within skin-related experimental systems. This product is supplied as a high-purity topical research preparation intended strictly for scientific investigation.",
+  applications: [
+    "Dermal signaling pathway research",
+    "Peptide–receptor interaction studies",
+    "Skin communication model investigation",
+    "Cosmetic peptide research applications"
+  ],
+  appearance: "Topical research formulation",
+  storage: "Store at 2–8°C or as recommended. Protect from light and moisture.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"syn-coll-palmitoyl-tripeptide-5-200mg-topical": {
+  name: "SYN®-COLL (Palmitoyl Tripeptide-5) 200mg – Topical",
+
+  strength:
+    "Palmitoylated tripeptide studied in laboratory research for dermal signaling pathways, peptide–matrix interactions, and extracellular communication models.",
+
+  description:
+    "SYN®-COLL, also known as Palmitoyl Tripeptide-5, is a synthetic lipopeptide investigated in controlled research environments for its role in dermal signaling and peptide–matrix interaction models. Laboratory studies commonly explore this peptide for extracellular communication pathways, structure–function relationships, and cosmetic peptide research applications involving skin-related experimental systems. The palmitoyl moiety enhances stability and interaction within lipid-rich environments, making it suitable for topical research formats. Supplied as a high-purity topical research preparation intended strictly for scientific investigation.",
+
+  applications: [
+    "Dermal signaling pathway research",
+    "Peptide–matrix interaction studies",
+    "Extracellular communication research",
+    "Cosmetic and skin peptide research models"
+  ],
+
+  appearance: "Topical research formulation",
+  storage: "Store at 2–8°C or as recommended. Protect from light and moisture.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"tb-500-2mg-10-vial-kit": {
+  name: "TB-500 (Thymosin Beta-4 Fragment) 2mg × 10 Vial Kit",
+  
+  strength: "Synthetic fragment peptide studied in laboratory research for cellular signaling, cytoskeletal dynamics, and tissue-level communication models.",
+  
+  description: "TB-500 is a synthetic peptide fragment derived from Thymosin Beta-4 and is investigated in controlled laboratory environments for its role in cellular signaling pathways, cytoskeletal organization research, and tissue-level communication models. In research programs, TB-500 is commonly studied for peptide-mediated cell migration signaling, structural protein interaction pathways, and regenerative signaling research frameworks. This product is supplied as a multi-vial kit of high-purity lyophilized peptide intended strictly for scientific and analytical research applications.",
+  
+  applications: [
+    "Cellular signaling and communication research",
+    "Cytoskeletal dynamics studies",
+    "Tissue-level signaling pathway investigation",
+    "Regenerative and repair model research"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"tb-500-5mg": {
+  name: "TB-500 (Thymosin Beta-4 Fragment) 5mg",
+  strength: "Synthetic peptide fragment studied in laboratory research for cellular signaling pathways, cytoskeletal dynamics, and tissue-level communication models.",
+  description: "TB-500 is a synthetic peptide fragment derived from Thymosin Beta-4 and is investigated in controlled laboratory environments for its role in cellular signaling, cytoskeletal organization research, and tissue-level communication pathways. Research programs commonly explore TB-500 in models related to peptide-mediated cell migration signaling, structural protein interaction dynamics, and regenerative signaling frameworks. This product is supplied as a high-purity lyophilized peptide intended exclusively for scientific and analytical research applications.",
+  applications: [
+    "Cellular signaling and communication research",
+    "Cytoskeletal dynamics investigation",
+    "Tissue-level signaling pathway studies",
+    "Regenerative and repair model research"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"tb-500-fragment-17-23-10mg": {
+  name: "TB-500 Fragment (17–23) 10mg",
+
+  strength:
+    "Short synthetic peptide fragment studied in laboratory research for cellular signaling pathways, peptide–structure interaction models, and tissue-level communication research.",
+
+  description:
+    "TB-500 Fragment (17–23) is a short peptide sequence derived from Thymosin Beta-4 and is investigated in controlled laboratory environments for its role in cellular signaling and peptide–structure interaction models. Research studies commonly examine this fragment for pathway-specific signaling behavior, molecular interaction dynamics, and tissue-level communication research frameworks. Due to its defined sequence length, this fragment is frequently included in focused peptide structure–function studies. Supplied as a high-purity lyophilized peptide intended exclusively for scientific and analytical research applications.",
+
+  applications: [
+    "Cellular signaling pathway research",
+    "Peptide structure–function studies",
+    "Molecular interaction and binding research",
+    "Tissue-level communication model investigation"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"tesamorelin-cjc1295-ipamorelin-12mg-blend": {
+  name: "Tesamorelin + CJC-1295 + Ipamorelin 12mg Blend",
+  
+  strength: "Triple-peptide research blend combining Tesamorelin, CJC-1295, and Ipamorelin, studied in laboratory models for growth hormone axis signaling, peptide synergy, and endocrine communication research.",
+  
+  description: "This research blend combines Tesamorelin, a growth hormone–releasing hormone (GHRH) analog, with CJC-1295, a long-acting GHRH analog, and Ipamorelin, a growth hormone–releasing peptide known for receptor-selective signaling. In controlled laboratory environments, this triple-peptide formulation is investigated for growth hormone–associated signaling pathways, coordinated peptide synergy, and endocrine communication models related to pituitary research. The blend is supplied as a high-purity lyophilized peptide preparation intended exclusively for scientific and analytical research applications.",
+  
+  applications: [
+    "Growth hormone axis signaling research",
+    "Endocrine and pituitary pathway studies",
+    "Peptide synergy and receptor interaction research",
+    "GH-related regulatory mechanism investigation"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"tesamorelin-ipamorelin-8mg-blend": {
+  name: "Tesamorelin + Ipamorelin 8mg Blend",
+  strength: "Dual-peptide research blend combining Tesamorelin and Ipamorelin, studied in laboratory models for growth hormone axis signaling, receptor-selective peptide interactions, and endocrine communication research.",
+  description: "This research blend combines Tesamorelin, a growth hormone–releasing hormone (GHRH) analog, with Ipamorelin, a growth hormone–releasing peptide known for receptor-selective signaling behavior. In controlled laboratory environments, this combination is investigated for growth hormone–associated signaling pathways, coordinated peptide interactions, and endocrine communication models related to pituitary research. The blend is supplied as a high-purity lyophilized peptide preparation intended exclusively for scientific and analytical research applications.",
+  applications: [
+    "Growth hormone axis signaling research",
+    "Endocrine and pituitary pathway studies",
+    "Receptor-selective peptide interaction research",
+    "GH-related regulatory mechanism investigation"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"tesamorelin-5mg": {
+  name: "Tesamorelin 5mg",
+
+  strength:
+    "Synthetic growth hormone–releasing hormone (GHRH) analog studied in laboratory research for pituitary signaling pathways, growth hormone axis communication, and endocrine regulatory models.",
+
+  description:
+    "Tesamorelin is a synthetic peptide analog of growth hormone–releasing hormone (GHRH) investigated in controlled laboratory environments for its role in pituitary signaling and growth hormone axis communication. Research studies commonly examine Tesamorelin for peptide–receptor interactions, endocrine signaling dynamics, and regulatory mechanisms associated with GH pathway research. This product is supplied as a high-purity lyophilized peptide intended exclusively for scientific and analytical research applications.",
+
+  applications: [
+    "Growth hormone axis signaling research",
+    "Pituitary pathway investigation",
+    "Peptide–receptor interaction studies",
+    "Endocrine communication research models"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"tesofensine-500mcg-30-capsules": {
+  name: "Tesofensine 500mcg – 30 Capsules",
+  
+  strength: "Small-molecule research compound studied in laboratory models for monoamine signaling pathways, central nervous system regulation, and metabolic signaling research.",
+  
+  description: "Tesofensine is a synthetic small-molecule compound investigated in controlled laboratory environments for its interaction with central monoamine signaling pathways and metabolic regulation models. In research settings, Tesofensine is commonly studied for neurotransmitter transport modulation, CNS signaling dynamics, and pathway-level mechanisms related to metabolic research. This product is supplied in capsule form and is intended strictly for analytical and laboratory research applications.",
+  
+  applications: [
+    "Monoamine signaling pathway research",
+    "Central nervous system regulation studies",
+    "Metabolic signaling mechanism investigation",
+    "Neurotransmitter transport research"
+  ],
+  
+  appearance: "Capsule formulation",
+  storage: "Store in a cool, dry place away from light and moisture.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"testagen-20mg-bioregulator": {
+  name: "Testagen 20mg (Bioregulator)",
+  strength: "Short-chain peptide bioregulator studied in laboratory research for testicular tissue signaling pathways and organ-specific regulatory communication models.",
+  description: "Testagen is a short-chain peptide bioregulator investigated in controlled laboratory environments for its interaction with testicular tissue signaling pathways and organ-specific regulatory mechanisms. In research settings, Testagen is studied for peptide-mediated cellular communication, tissue-level regulatory signaling, and bioregulatory pathway models related to reproductive organ research. It is commonly included in peptide bioregulator research programs focused on organ-targeted signaling investigations. Supplied as a high-purity lyophilized research peptide intended exclusively for scientific and analytical research applications.",
+  applications: [
+    "Testicular tissue signaling research",
+    "Organ-specific bioregulator studies",
+    "Peptide-mediated cellular communication research",
+    "Regulatory pathway investigation"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"thymagen-20mg-bioregulator": {
+  name: "Thymagen 20mg (Bioregulator)",
+
+  strength:
+    "Short-chain peptide bioregulator studied in laboratory research for thymus-related signaling pathways and immune system regulatory communication models.",
+
+  description:
+    "Thymagen is a short-chain peptide bioregulator investigated in controlled laboratory environments for its interaction with thymus-associated signaling pathways and organ-specific regulatory mechanisms. In research settings, Thymagen is studied for peptide-mediated cellular communication, immune-related signaling models, and bioregulatory pathway investigations associated with thymic tissue research. It is commonly included in peptide bioregulator research programs focused on organ-targeted regulatory signaling studies. Supplied as a high-purity lyophilized research peptide intended exclusively for scientific and analytical research applications.",
+
+  applications: [
+    "Thymus-related signaling research",
+    "Immune system regulatory pathway studies",
+    "Organ-specific bioregulator research",
+    "Peptide-mediated cellular communication investigation"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"thymalin-20mg": {
+  name: "Thymalin 20mg",
+  
+  strength: "Short-chain peptide complex studied in laboratory research for thymus-associated signaling pathways and immune regulatory communication models.",
+  
+  description: "Thymalin is a thymus-derived peptide complex investigated in controlled laboratory environments for its role in thymus-related signaling pathways and immune regulatory communication models. In research settings, Thymalin is studied for peptide-mediated cellular communication, organ-specific regulatory signaling, and bioregulatory pathway investigations associated with thymic tissue research. It is commonly included in peptide bioregulator research programs focused on immune system–related signaling studies. Supplied as a high-purity lyophilized research peptide intended exclusively for scientific and analytical research applications.",
+  
+  applications: [
+    "Thymus-related signaling research",
+    "Immune system regulatory pathway studies",
+    "Organ-specific bioregulator research",
+    "Peptide-mediated cellular communication investigation"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"thymosin-alpha-1-3mg": {
+  name: "Thymosin Alpha-1 (TA-1) 3mg",
+  strength: "Synthetic thymic peptide studied in laboratory research for immune signaling pathways, T-cell communication models, and immune system regulatory mechanisms.",
+  description: "Thymosin Alpha-1 (TA-1) is a synthetic peptide originally derived from thymic tissue and is investigated in controlled laboratory environments for its role in immune system signaling and regulatory communication pathways. In research settings, TA-1 is commonly studied for peptide-mediated immune signaling, T-cell pathway models, and immune regulatory mechanism investigations. It is frequently included in immunology-focused peptide research programs. Supplied as a high-purity lyophilized research peptide intended exclusively for scientific and analytical research applications.",
+  applications: [
+    "Immune signaling pathway research",
+    "T-cell communication and regulatory studies",
+    "Immunomodulatory mechanism investigation",
+    "Peptide-mediated immune system research"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"thymosin-alpha-1-10mg": {
+  name: "Thymosin Alpha-1 (TA-1) 10mg",
+
+  strength:
+    "Synthetic thymic peptide studied in laboratory research for immune signaling pathways, T-cell communication models, and immune system regulatory mechanisms.",
+
+  description:
+    "Thymosin Alpha-1 (TA-1) is a synthetic peptide originally derived from thymic tissue and is investigated in controlled laboratory environments for its role in immune system signaling and regulatory communication pathways. In research settings, TA-1 is commonly studied for peptide-mediated immune signaling, T-cell pathway models, and immune regulatory mechanism investigations. It is frequently included in immunology-focused peptide research programs. Supplied as a high-purity lyophilized research peptide intended exclusively for scientific and analytical research applications.",
+
+  applications: [
+    "Immune signaling pathway research",
+    "T-cell communication and regulatory studies",
+    "Immunomodulatory mechanism investigation",
+    "Peptide-mediated immune system research"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"trh-thyrotropin-protirelin-20mg": {
+  name: "TRH (Thyrotropin / Protirelin) 20mg",
+  
+  strength: "Synthetic tripeptide studied in laboratory research for hypothalamic–pituitary signaling pathways, neuroendocrine communication models, and peptide-mediated regulatory mechanisms.",
+  
+  description: "TRH, also known as Thyrotropin-Releasing Hormone or Protirelin, is a synthetic tripeptide investigated in controlled laboratory environments for its role in hypothalamic–pituitary axis signaling and neuroendocrine regulatory communication. In research settings, TRH is commonly studied for peptide-mediated signaling pathways, endocrine feedback models, and central regulatory mechanism investigations involving pituitary-related research systems. Supplied as a high-purity lyophilized peptide intended exclusively for scientific and analytical research applications.",
+  
+  applications: [
+    "Neuroendocrine signaling pathway research",
+    "Hypothalamic–pituitary axis studies",
+    "Peptide-mediated endocrine communication research",
+    "Central regulatory mechanism investigation"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"trh-thyrotropin-protirelin-50mg": {
+  name: "TRH (Thyrotropin / Protirelin) 50mg",
+  strength: "Synthetic tripeptide studied in laboratory research for hypothalamic–pituitary signaling pathways, neuroendocrine communication models, and peptide-mediated regulatory mechanisms.",
+  description: "TRH, also known as Thyrotropin-Releasing Hormone or Protirelin, is a synthetic tripeptide investigated in controlled laboratory environments for its role in hypothalamic–pituitary axis signaling and neuroendocrine regulatory communication. In research settings, TRH is commonly studied for peptide-mediated signaling pathways, endocrine feedback models, and central regulatory mechanism investigations involving pituitary-related research systems. Supplied as a high-purity lyophilized peptide intended exclusively for scientific and analytical research applications.",
+  applications: [
+    "Neuroendocrine signaling pathway research",
+    "Hypothalamic–pituitary axis studies",
+    "Peptide-mediated endocrine communication research",
+    "Central regulatory mechanism investigation"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"tripeptide-29-200mg-collagen-peptide-topical": {
+  name: "Tripeptide-29 (Collagen Peptide) 200mg – Topical",
+
+  strength:
+    "Synthetic tripeptide studied in laboratory research for extracellular matrix signaling, collagen-related peptide interactions, and dermal communication models.",
+
+  description:
+    "Tripeptide-29 is a synthetic collagen-associated peptide investigated in controlled research environments for its role in extracellular matrix signaling and peptide-mediated dermal communication models. Laboratory studies commonly explore Tripeptide-29 for structure–function relationships, collagen-related peptide interactions, and cosmetic peptide research applications involving skin-related experimental systems. This peptide is frequently included in topical research formulations focused on dermal matrix signaling studies. Supplied as a high-purity topical research preparation intended exclusively for scientific investigation.",
+
+  applications: [
+    "Extracellular matrix signaling research",
+    "Collagen-related peptide interaction studies",
+    "Dermal communication pathway investigation",
+    "Cosmetic and skin peptide research models"
+  ],
+
+  appearance: "Topical research formulation",
+  storage: "Store at 2–8°C or as recommended. Protect from light and moisture.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"triptorelin-gnrh-2mg": {
+  name: "Triptorelin (GnRH) 2mg",
+  
+  strength: "Synthetic gonadotropin-releasing hormone (GnRH) analog studied in laboratory research for hypothalamic–pituitary–gonadal axis signaling and neuroendocrine regulatory communication models.",
+  
+  description: "Triptorelin is a synthetic analog of gonadotropin-releasing hormone (GnRH) investigated in controlled laboratory environments for its role in hypothalamic–pituitary signaling and neuroendocrine regulatory pathways. In research settings, Triptorelin is commonly studied for peptide–receptor interactions, endocrine feedback mechanisms, and axis-level signaling models related to reproductive hormone research. This product is supplied as a high-purity lyophilized peptide intended exclusively for scientific and analytical research applications.",
+  
+  applications: [
+    "Hypothalamic–pituitary–gonadal axis research",
+    "Neuroendocrine signaling pathway studies",
+    "Peptide–receptor interaction investigation",
+    "Endocrine feedback and regulatory model research"
+  ],
+  
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"vesilute-20mg-bioregulator": {
+  name: "Vesilute 20mg (Bioregulator)",
+  strength: "Short-chain peptide bioregulator studied in laboratory research for bladder-related tissue signaling pathways and organ-specific regulatory communication models.",
+  description: "Vesilute is a short-chain peptide bioregulator investigated in controlled laboratory environments for its interaction with bladder-associated tissue signaling pathways and organ-specific regulatory mechanisms. In research settings, Vesilute is studied for peptide-mediated cellular communication, tissue-level regulatory signaling, and bioregulatory pathway investigations related to urinary system research. It is commonly included in peptide bioregulator research programs focused on organ-targeted signaling models. Supplied as a high-purity lyophilized research peptide intended exclusively for scientific and analytical research applications.",
+  applications: [
+    "Bladder tissue signaling research",
+    "Organ-specific bioregulator studies",
+    "Peptide-mediated cellular communication research",
+    "Regulatory pathway investigation"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"vesugen-20mg-bioregulator": {
+  name: "Vesugen 20mg (Bioregulator)",
+
+  strength:
+    "Short-chain peptide bioregulator studied in laboratory research for vascular tissue signaling pathways and blood vessel–specific regulatory communication models.",
+
+  description:
+    "Vesugen is a short-chain peptide bioregulator investigated in controlled laboratory environments for its interaction with vascular tissue signaling pathways and organ-specific regulatory mechanisms related to blood vessel research. In research settings, Vesugen is studied for peptide-mediated cellular communication, vascular regulatory signaling models, and bioregulatory pathway investigations involving endothelial and vessel-associated tissues. It is commonly included in peptide bioregulator research programs focused on cardiovascular and vascular signaling studies. Supplied as a high-purity lyophilized research peptide intended exclusively for scientific and analytical research applications.",
+
+  applications: [
+    "Vascular tissue signaling research",
+    "Blood vessel regulatory pathway studies",
+    "Organ-specific bioregulator research",
+    "Peptide-mediated cellular communication investigation"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"vialox-pentapeptide-3v-200mg-topical": {
+  name: "Vialox® (Pentapeptide-3V) 200mg – Topical",
+  
+  strength: "Synthetic pentapeptide studied in laboratory research for dermal signaling pathways, peptide–receptor interaction models, and skin communication research.",
+  
+  description: "Vialox®, also known as Pentapeptide-3V, is a synthetic peptide investigated in controlled laboratory environments for its role in dermal signaling and peptide–receptor interaction models relevant to cosmetic peptide research. In research settings, Vialox® is commonly studied for structure–function relationships, receptor-level communication, and peptide-mediated signaling within skin-related experimental systems. This product is supplied as a high-purity topical research preparation intended strictly for scientific investigation.",
+  
+  applications: [
+    "Dermal signaling pathway research",
+    "Peptide–receptor interaction studies",
+    "Skin communication model investigation",
+    "Cosmetic peptide research applications"
+  ],
+  
+  appearance: "Topical research formulation",
+  storage: "Store at 2–8°C or as recommended. Protect from light and moisture.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"vilon-20mg": {
+  name: "Vilon 20mg",
+  strength: "Short-chain synthetic peptide studied in laboratory research for immune-related signaling pathways, thymic peptide communication models, and cellular regulatory mechanisms.",
+  description: "Vilon is a short-chain synthetic peptide investigated in controlled laboratory environments for its role in immune-associated signaling pathways and thymic peptide communication models. In research settings, Vilon is studied for peptide-mediated cellular regulation, immune system signaling dynamics, and bioregulatory pathway investigations related to thymus-linked research models. It is commonly included in peptide bioregulator research programs focused on immune and cellular communication studies. Supplied as a high-purity lyophilized research peptide intended exclusively for scientific and analytical research applications.",
+  applications: [
+    "Immune system signaling research",
+    "Thymic peptide communication studies",
+    "Cellular regulatory pathway investigation",
+    "Peptide-mediated immune research models"
+  ],
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+"vip-6mg": {
+  name: "VIP (Vasoactive Intestinal Peptide) 6mg",
+
+  strength:
+    "Synthetic neuropeptide studied in laboratory research for neuropeptide signaling pathways, smooth muscle communication models, and peptide-mediated regulatory mechanisms.",
+
+  description:
+    "VIP, or Vasoactive Intestinal Peptide, is a naturally occurring neuropeptide synthesized for controlled laboratory research into neuropeptide signaling and regulatory communication pathways. In research environments, VIP is commonly investigated for its role in peptide-mediated neural communication, receptor-level interactions, and signaling models involving smooth muscle and neuroendocrine systems. This product is supplied as a high-purity lyophilized peptide intended exclusively for scientific and analytical research applications.",
+
+  applications: [
+    "Neuropeptide signaling research",
+    "Neural communication pathway studies",
+    "Peptide–receptor interaction investigation",
+    "Neuroendocrine and smooth muscle signaling models"
+  ],
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+},
+
 
 
 

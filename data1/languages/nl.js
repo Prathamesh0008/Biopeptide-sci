@@ -1018,7 +1018,400 @@ privacy: {
         "Hoewel geen enkel systeem 100% veilig is, nemen wij passende maatregelen om uw gegevens te beschermen."
     }
   }
+},
+terms: {
+  hero: {
+    title: "Algemene Voorwaarden",
+    description:
+      "Lees deze Algemene Voorwaarden zorgvuldig voordat u de BioPeptide™ website gebruikt of producten aanschaft."
+  },
+  sections: {
+    general: {
+      title: "Algemene gebruiksvoorwaarden",
+      p1:
+        "Deze voorwaarden zijn van toepassing op alle gebruikers van www.biopeptide.com en moeten worden geaccepteerd voordat aankopen kunnen worden gedaan."
+    },
+    payments: {
+      title: "Betalingen & Autorisatie",
+      p1:
+        "Alle e-Check / ACH-betalingen worden gedaan aan BioPeptide™. Door een bestelling te plaatsen geeft u toestemming voor een eenmalige elektronische afschrijving.",
+      p2:
+        "Betalingen na 23:00 uur Pacific Time worden verwerkt op de volgende werkdag.",
+      p3:
+        "Wij raden aan een kopie van deze autorisatie te bewaren."
+    },
+    websiteUse: {
+      title: "Gebruik van onze website",
+      p1:
+        "Het gebruik van deze website valt onder deze voorwaarden en ons privacybeleid.",
+      p2:
+        "Inhoud mag alleen voor persoonlijk, niet-commercieel gebruik worden gedownload of afgedrukt."
+    },
+    productUse: {
+      title: "Productgebruik & Onderzoeksdisclaimer",
+      warning:
+        "ALLE PRODUCTEN VAN BIOPEPTIDE™ ZIJN UITSLUITEND VOOR IN-VITRO LABORATORIUMONDERZOEK.",
+      bullets: [
+        "NIET voor menselijk of dierlijk gebruik",
+        "NIET bedoeld voor diagnose of behandeling",
+        "NIET goedgekeurd door de FDA",
+        "NIET te gebruiken als voedsel of cosmetica"
+      ],
+      p1:
+        "Alle informatie is uitsluitend educatief en informatief."
+    },
+    age: {
+      title: "Leeftijdsvereiste",
+      p1:
+        "U moet minimaal 21 jaar oud zijn om deze website te gebruiken."
+    },
+    risk: {
+      title: "Risicoverklaring",
+      p1:
+        "Door een product te kopen erkent u de risico’s van onderzoekschemicaliën.",
+      p2:
+        "Klanten verklaren kennis te hebben van:",
+      bullets: [
+        "Correct in-vitro gebruik",
+        "Overheidsregelgeving",
+        "Gezondheids- en veiligheidsrisico’s",
+        "Correcte hanteringsprocedures"
+      ]
+    },
+    sales: {
+      title: "Verkoopbeleid",
+      p1:
+        "Vanwege de aard van deze producten zijn ALLE VERKOPEN DEFINITIEF.",
+      p2:
+        "BioPeptide™ behoudt zich het recht voor verkopen te weigeren."
+    },
+    liability: {
+      title: "Beperking van aansprakelijkheid",
+      p1:
+        "BioPeptide™ is niet aansprakelijk voor schade voortvloeiend uit gebruik.",
+      p2:
+        "De koper vrijwaart BioPeptide™ van alle claims."
+    },
+    intellectual: {
+      title: "Handelsmerken & Intellectueel Eigendom",
+      p1:
+        "Alle inhoud is eigendom van BioPeptide™.",
+      p2:
+        "Kopiëren zonder toestemming is verboden."
+    },
+    security: {
+      title: "Beveiliging",
+      p1:
+        "Wij gebruiken industriestandaard encryptie."
+    },
+    law: {
+      title: "Toepasselijk recht",
+      p1:
+        "Deze voorwaarden vallen onder toepasselijke wetgeving."
+    },
+    agreement: {
+      title: "Volledige overeenkomst",
+      p1:
+        "Deze voorwaarden vormen de volledige overeenkomst.",
+      p2:
+        "Als u niet akkoord gaat, koop dan geen producten."
+    }
+  }
+},
+customerService: {
+  hero: {
+    title: "Klantenservice",
+    description:
+      "Bij BioPeptide™ streven wij naar betrouwbare service, veilige transacties en tijdige levering van alle onderzoeksbestellingen."
+  },
+
+  sections: {
+    shipping: {
+      title: "Verzending & Levering",
+      bullets: [
+        "Meerdere verzendopties beschikbaar",
+        "GRATIS verzending bij bestellingen boven $200",
+        "USPS Priority, FedEx 2-Day, FedEx Overnight",
+        "FedEx Overnight (handtekening vereist)",
+        "FedEx zaterdaglevering voor in aanmerking komende bestellingen"
+      ],
+      note:
+        "Bestellingen die vóór 12:00 uur PST worden geplaatst en betaald, worden meestal dezelfde werkdag verzonden."
+    },
+
+    privacy: {
+      title: "Privacy & Beveiliging",
+      p1:
+        "Alle bestellingen zijn beveiligd met 256-bit SSL-encryptie.",
+      p2:
+        "Uw persoonlijke gegevens worden uitsluitend gebruikt om bestellingen te verwerken.",
+      p3:
+        "Wij verkopen of delen uw gegevens niet met derden."
+    },
+
+    returns: {
+      title: "Retouren & Vervangingen",
+      p1:
+        "Vanwege regelgeving zijn retouren niet toegestaan.",
+      p2:
+        "Bij foutieve levering nemen wij contact op en zorgen voor vervanging."
+    },
+
+    ordering: {
+      title: "Bestellen",
+      p1:
+        "Bestellingen kunnen 24/7 via onze beveiligde website worden geplaatst.",
+      p2:
+        "Na bevestiging wordt uw bestelling zorgvuldig verpakt en verzonden.",
+      p3:
+        "U ontvangt een verzendbevestiging per e-mail."
+    },
+
+    payments: {
+      title: "Betaling, Prijzen & Acties",
+      bullets: [
+        "Alle gangbare creditcards geaccepteerd",
+        "Individuele en bulkprijzen beschikbaar",
+        "Kwantumkortingen zichtbaar op productpagina’s"
+      ],
+      note:
+        "Voor groothandelsbestellingen kunt u contact opnemen met support."
+    },
+
+    status: {
+      title: "Orderstatus Bekijken",
+      bullets: [
+        "Ingelogde gebruikers kunnen bestelgeschiedenis bekijken",
+        "Accountgegevens eenvoudig bijwerken",
+        "Sneller afrekenen bij toekomstige aankopen"
+      ],
+      note:
+        "Gastbestellingen kunnen via e-mail worden opgevolgd."
+    },
+
+    satisfaction: {
+      title: "Tevredenheid Gegarandeerd",
+      p1:
+        "Wij streven naar uitstekende kwaliteit en service.",
+      p2:
+        "Neem contact op bij vragen of problemen — wij helpen u graag."
+    }
+  },
+
+  contact: {
+    title: "Contact Klantenservice"
+  }
+},
+accessibility: {
+  hero: {
+    title: "Toegankelijkheidsverklaring",
+    description:
+      "BioPeptide™ zet zich in voor digitale toegankelijkheid voor alle gebruikers, inclusief personen met een beperking."
+  },
+  sections: {
+    commitment: {
+      title: "Onze Toewijding",
+      p1:
+        "BioPeptide™ streeft ernaar onze website toegankelijk en bruikbaar te maken voor iedereen en blijft de gebruikerservaring verbeteren."
+    },
+    standards: {
+      title: "Toegankelijkheidsnormen",
+      p1:
+        "Ons doel is te voldoen aan WCAG 2.1 Niveau AA waar redelijk mogelijk.",
+      p2:
+        "Wij beoordelen regelmatig onze website om verbeteringen door te voeren."
+    },
+    efforts: {
+      title: "Doorlopende Inspanningen",
+      bullets: [
+        "Verbetering van toetsenbordnavigatie",
+        "Betere kleurcontrasten en leesbaarheid",
+        "Duidelijke structuur en navigatie",
+        "Ondersteuning van hulpmiddelen"
+      ]
+    },
+    limitations: {
+      title: "Beperkingen en Alternatieven",
+      p1:
+        "Sommige onderdelen zijn mogelijk nog niet volledig toegankelijk. Wij blijven verbeteringen doorvoeren."
+    },
+    feedback: {
+      title: "Feedback en Ondersteuning",
+      p1:
+        "Ervaart u problemen of heeft u suggesties, neem dan contact met ons op.",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+
+rewardsTerms: {
+  hero: {
+    title: "Beloningsprogramma Voorwaarden",
+    description:
+      "Deze voorwaarden regelen deelname aan het BioPeptide™ loyaliteitsprogramma."
+  },
+  sections: {
+    overview: {
+      title: "Programma Overzicht",
+      p1:
+        "Het loyaliteitsprogramma stelt klanten in staat punten te verdienen via aankopen en promoties."
+    },
+    eligibility: {
+      title: "Geschiktheid",
+      bullets: [
+        "Minimaal 21 jaar oud",
+        "Geldig account vereist",
+        "Niet geldig waar wettelijk verboden"
+      ]
+    },
+    earning: {
+      title: "Punten Verdienen",
+      p1:
+        "Punten worden verdiend via in aanmerking komende aankopen.",
+      p2:
+        "Punten hebben geen geldwaarde en zijn niet overdraagbaar."
+    },
+    redeeming: {
+      title: "Punten Inwisselen",
+      p1:
+        "Punten kunnen worden ingewisseld voor kortingen.",
+      p2:
+        "BioPeptide™ kan het programma wijzigen of beëindigen."
+    },
+    expiration: {
+      title: "Vervaldatum",
+      p1:
+        "Punten kunnen verlopen bij inactiviteit of beëindiging."
+    },
+    misuse: {
+      title: "Misbruik",
+      p1:
+        "Accounts kunnen worden geschorst bij fraude of misbruik."
+    },
+    changes: {
+      title: "Wijzigingen",
+      p1:
+        "Het programma kan op elk moment worden gewijzigd."
+    },
+    liability: {
+      title: "Aansprakelijkheidsbeperking",
+      p1:
+        "BioPeptide™ is niet verantwoordelijk voor verloren punten."
+    },
+    contact: {
+      title: "Contact",
+      p1:
+        "Neem contact op bij vragen over het beloningsprogramma.",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+refundsReturns: {
+  hero: {
+    title: "Retouren & Terugbetalingen",
+    description:
+      "Ons beleid met betrekking tot retouren, terugbetalingen en vervangingen."
+  },
+  sections: {
+    noReturns: {
+      title: "Geen Retourbeleid",
+      p1:
+        "Vanwege de aard van onze producten zijn alle verkopen definitief.",
+      p2:
+        "BioPeptide™ producten zijn uitsluitend bedoeld voor laboratoriumonderzoek. Retouren zijn niet toegestaan."
+    },
+    incorrect: {
+      title: "Onjuiste of Beschadigde Bestellingen",
+      p1:
+        "Neem direct contact met ons op als uw bestelling onjuist is geleverd.",
+      p2:
+        "Na verificatie bieden wij een vervanging aan. Terugbetalingen worden niet verstrekt."
+    },
+    eligibility: {
+      title: "Voorwaarden voor Vervanging",
+      bullets: [
+        "Probleem moet direct worden gemeld",
+        "Ontvangen item wijkt af van bestelling",
+        "Bestelling wordt gecontroleerd door support"
+      ]
+    },
+    noExceptions: {
+      title: "Geen Uitzonderingen",
+      p1:
+        "Retouren of terugbetalingen zijn niet mogelijk vanwege regelgeving."
+    },
+    contact: {
+      title: "Hulp Nodig?",
+      p1:
+        "Neem contact op met onze klantenservice bij vragen.",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+productPage: {
+  back: "← Terug naar producten",
+  tagline: "Premium BioPeptide • Wetenschappelijk materiaal met hoge zuiverheid",
+  description: {
+    p1: "{name} is ontwikkeld met precisie-peptidesynthese en ondergaat zuivering met hoge resolutie voor moleculaire nauwkeurigheid.",
+    p2: "Ontworpen voor biochemische assays, signaalroutes, celstudies en gecontroleerde onderzoeksomgevingen."
+  },
+  badges: {
+    hplc: "HPLC Getest",
+    research: "Onderzoekskwaliteit",
+    coa: "COA Beschikbaar"
+  },
+  priceNote: "Alleen voor onderzoek",
+  addToCart: "Toevoegen aan winkelwagen",
+  specs: {
+    category: "Categorie",
+    purity: "Zuiverheid",
+    size: "Eenheidsgrootte",
+    cas: "CAS"
+  },
+  notFound: "Product niet gevonden"
+},
+productContent: {
+  overviewTitle: "Overzicht",
+  mechanism: "Werkingsmechanisme",
+  mechanismPoints: [
+    "Modulatie van cellulaire signaalroutes",
+    "Verhoogde gevoeligheid voor groeifactoren",
+    "Regulatie van genexpressie",
+    "Invloed op mitochondriale ATP-productie",
+    "Ondersteuning van enzymatische activatie"
+  ],
+  researchApplicationsTitle: "Belangrijkste onderzoeks toepassingen",
+  researchApplications: [
+    "Regeneratieve celbiologie",
+    "Analyse van eiwitexpressie",
+    "Receptorbindingsstudies",
+    "Mitochondriaal metabolismeonderzoek",
+    "Enzymgevoeligheidsexperimenten",
+    "Matrix-remodelleringsassays"
+  ],
+  scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+  stabilityTitle: "Stabiliteitsprofiel",
+  solubilityTitle: "Oplosbaarheid & reconstitutie",
+  techSpecsTitle: "Technische specificaties",
+  molecularTitle: "Moleculaire kenmerken",
+  validationTitle: "Analytische validatie",
+  regulatoryTitle: "Regelgeving & naleving",
+  faq: "FAQ",
+  faqItems: [
+    { q: "Is dit peptide voor menselijk gebruik?", a: "Nee. Alleen voor laboratoriumonderzoek." },
+    { q: "Wordt COA meegeleverd?", a: "Ja. Elke batch bevat HPLC- en MS-validatie." },
+    { q: "Is het steriel?", a: "Niet vóór reconstitutie." },
+    { q: "Hoe moet het worden opgeslagen?", a: "Verzegeld en ingevroren bij −20°C." }
+  ],
+  disclaimer:
+    "Disclaimer: Dit product is uitsluitend bedoeld voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
 }
+
+
+
+
+
+
 
 
 

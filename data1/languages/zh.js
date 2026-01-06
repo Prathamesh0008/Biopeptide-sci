@@ -948,7 +948,400 @@ privacy: {
         "尽力保护您的数据。"
     }
   }
+},
+terms: {
+  hero: {
+    title: "条款与条件",
+    description:
+      "在使用 BioPeptide™ 网站前请仔细阅读本条款。"
+  },
+  sections: {
+    general: {
+      title: "一般使用条款",
+      p1:
+        "本条款适用于所有用户。"
+    },
+    payments: {
+      title: "付款与授权",
+      p1:
+        "所有付款均支付给 BioPeptide™。",
+      p2:
+        "延迟付款将在下一个工作日处理。",
+      p3:
+        "请保留授权副本。"
+    },
+    websiteUse: {
+      title: "网站使用",
+      p1:
+        "使用须遵守本条款。",
+      p2:
+        "仅限个人非商业用途。"
+    },
+    productUse: {
+      title: "产品使用",
+      warning:
+        "所有产品仅限体外实验研究使用。",
+      bullets: [
+        "不可供人或动物使用",
+        "不可用于诊断或治疗",
+        "未经 FDA 批准",
+        "不可作为食品或化妆品"
+      ],
+      p1:
+        "信息仅供教育参考。"
+    },
+    age: {
+      title: "年龄要求",
+      p1:
+        "必须年满 21 岁。"
+    },
+    risk: {
+      title: "风险确认",
+      p1:
+        "使用产品存在固有风险。",
+      p2:
+        "客户确认了解以下内容：",
+      bullets: [
+        "正确使用方式",
+        "相关法规",
+        "安全风险",
+        "处理流程"
+      ]
+    },
+    sales: {
+      title: "销售政策",
+      p1:
+        "所有销售均为最终。",
+      p2:
+        "BioPeptide™ 有权拒绝销售。"
+    },
+    liability: {
+      title: "责任限制",
+      p1:
+        "BioPeptide™ 不承担任何损害责任。",
+      p2:
+        "购买者需自行承担责任。"
+    },
+    intellectual: {
+      title: "知识产权",
+      p1:
+        "所有内容均受保护。",
+      p2:
+        "未经许可禁止复制。"
+    },
+    security: {
+      title: "安全",
+      p1:
+        "采用行业标准加密技术。"
+    },
+    law: {
+      title: "适用法律",
+      p1:
+        "受适用法律管辖。"
+    },
+    agreement: {
+      title: "完整协议",
+      p1:
+        "本条款构成完整协议。",
+      p2:
+        "如不同意，请勿购买。"
+    }
+  }
+},
+customerService: {
+  hero: {
+    title: "客户服务",
+    description:
+      "BioPeptide™ 致力于提供可靠服务、安全支付和准时交付。"
+  },
+
+  sections: {
+    shipping: {
+      title: "运输与配送",
+      bullets: [
+        "多种运输方式",
+        "订单满 $200 免运费",
+        "USPS、FedEx 配送",
+        "隔夜配送需签名",
+        "周六配送可选"
+      ],
+      note:
+        "中午12点前下单通常当天发货。"
+    },
+
+    privacy: {
+      title: "隐私与安全",
+      p1:
+        "采用256位SSL加密。",
+      p2:
+        "信息仅用于订单处理。",
+      p3:
+        "不出售或共享数据。"
+    },
+
+    returns: {
+      title: "退换政策",
+      p1:
+        "不接受退货。",
+      p2:
+        "错误订单可更换。"
+    },
+
+    ordering: {
+      title: "下单",
+      p1:
+        "全天候接受订单。",
+      p2:
+        "安全包装并发货。",
+      p3:
+        "发送发货通知。"
+    },
+
+    payments: {
+      title: "支付与定价",
+      bullets: [
+        "支持主流信用卡",
+        "零售与批发价格",
+        "数量折扣"
+      ],
+      note:
+        "批量订单请联系支持。"
+    },
+
+    status: {
+      title: "订单状态",
+      bullets: [
+        "查看订单历史",
+        "管理账户信息",
+        "快速结账"
+      ],
+      note:
+        "游客订单请邮件联系。"
+    },
+
+    satisfaction: {
+      title: "满意保证",
+      p1:
+        "致力于卓越品质。",
+      p2:
+        "客服团队随时协助。"
+    }
+  },
+
+  contact: {
+    title: "联系客户支持"
+  }
+},
+accessibility: {
+  hero: {
+    title: "无障碍声明",
+    description:
+      "BioPeptide™ 致力于为所有用户提供数字无障碍体验。"
+  },
+  sections: {
+    commitment: {
+      title: "我们的承诺",
+      p1:
+        "我们持续改进网站，使其对所有用户友好。"
+    },
+    standards: {
+      title: "无障碍标准",
+      p1:
+        "目标符合 WCAG 2.1 AA 标准。",
+      p2:
+        "定期检查并改进网站。"
+    },
+    efforts: {
+      title: "持续努力",
+      bullets: [
+        "改进键盘导航",
+        "提升颜色对比度",
+        "清晰的网站结构",
+        "支持辅助技术"
+      ]
+    },
+    limitations: {
+      title: "限制说明",
+      p1:
+        "部分功能可能尚未完全优化。"
+    },
+    feedback: {
+      title: "反馈与帮助",
+      p1:
+        "如有访问问题，请联系我们。",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+
+rewardsTerms: {
+  hero: {
+    title: "奖励计划条款",
+    description:
+      "本条款适用于 BioPeptide™ 忠诚度奖励计划。"
+  },
+  sections: {
+    overview: {
+      title: "计划概述",
+      p1:
+        "客户可通过符合条件的购买获得积分。"
+    },
+    eligibility: {
+      title: "参与资格",
+      bullets: [
+        "年满21岁",
+        "需要有效账户",
+        "法律禁止地区除外"
+      ]
+    },
+    earning: {
+      title: "积分获取",
+      p1:
+        "积分通过符合条件的购买获得。",
+      p2:
+        "积分无现金价值。"
+    },
+    redeeming: {
+      title: "积分兑换",
+      p1:
+        "可兑换折扣或优惠。",
+      p2:
+        "BioPeptide™ 保留修改权利。"
+    },
+    expiration: {
+      title: "积分失效",
+      p1:
+        "积分可能因不活跃而失效。"
+    },
+    misuse: {
+      title: "滥用",
+      p1:
+        "滥用将导致账户暂停。"
+    },
+    changes: {
+      title: "计划变更",
+      p1:
+        "计划可随时变更或终止。"
+    },
+    liability: {
+      title: "责任限制",
+      p1:
+        "不对积分损失负责。"
+    },
+    contact: {
+      title: "联系方式",
+      p1:
+        "如有疑问，请联系支持团队。",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+refundsReturns: {
+  hero: {
+    title: "退款与退货",
+    description:
+      "BioPeptide™ 的退款与退货政策。"
+  },
+  sections: {
+    noReturns: {
+      title: "不接受退货",
+      p1:
+        "所有销售均为最终。",
+      p2:
+        "产品仅用于实验研究。"
+    },
+    incorrect: {
+      title: "错误或损坏订单",
+      p1:
+        "如有错误请立即联系。",
+      p2:
+        "核实后提供更换。"
+    },
+    eligibility: {
+      title: "更换条件",
+      bullets: [
+        "及时报告",
+        "收到错误商品",
+        "订单核实"
+      ]
+    },
+    noExceptions: {
+      title: "无例外",
+      p1:
+        "不接受退款或退货。"
+    },
+    contact: {
+      title: "需要帮助？",
+      p1:
+        "请联系支持团队。",
+      email: "support@biopeptide.com"
+    }
+  }
+},
+productPage: {
+  back: "← 返回产品列表",
+  tagline: "高端 BioPeptide • 高纯度科研材料",
+  description: {
+    p1: "{name} 采用精准肽合成技术，并经过高分辨率纯化，确保分子准确性。",
+    p2: "适用于生化分析、细胞研究、受体结合分析及受控科研环境。"
+  },
+  badges: {
+    hplc: "HPLC 检测",
+    research: "科研级",
+    coa: "提供 COA"
+  },
+  priceNote: "仅限科研使用",
+  addToCart: "加入购物车",
+  specs: {
+    category: "类别",
+    purity: "纯度",
+    size: "规格",
+    cas: "CAS"
+  },
+  notFound: "未找到产品"
+},
+productContent: {
+  overviewTitle: "概述",
+  mechanism: "作用机制",
+  mechanismPoints: [
+    "调节细胞信号通路",
+    "增强生长因子敏感性",
+    "调控基因表达",
+    "影响线粒体ATP生成",
+    "支持酶活化"
+  ],
+  researchApplicationsTitle: "主要科研应用",
+  researchApplications: [
+    "再生细胞生物学",
+    "蛋白表达分析",
+    "受体结合研究",
+    "线粒体代谢研究",
+    "酶敏感性实验",
+    "基质重塑实验"
+  ],
+  scientificBackgroundTitle: "科学背景",
+  stabilityTitle: "稳定性概况",
+  solubilityTitle: "溶解性与复溶",
+  techSpecsTitle: "技术规格",
+  molecularTitle: "分子特性",
+  validationTitle: "分析验证",
+  regulatoryTitle: "法规与合规",
+  faq: "常见问题",
+  faqItems: [
+    { q: "是否可用于人体？", a: "不可以，仅限实验室研究。" },
+    { q: "是否提供COA？", a: "是的，每批次均提供HPLC和MS验证。" },
+    { q: "是否无菌？", a: "复溶前不是无菌的。" },
+    { q: "如何储存？", a: "密封并在−20°C冷冻保存。" }
+  ],
+  disclaimer:
+    "免责声明：本产品仅供实验室研究使用，不用于人类或动物。"
 }
+
+
+
+
+
+
 
 
 
