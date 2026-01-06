@@ -189,9 +189,7 @@ footer: {
     fda:
       "本サイトの記載内容は、米国食品医薬品局（FDA）による評価を受けていません。BioPeptideの製品は、疾病の診断、治療、予防を目的としたものではありません。",
 
-    legalStatus:
-      "BioPeptideは研究用化学物質の供給業者です。BioPeptideは、米国連邦食品・医薬品・化粧品法503Aおよび503B条に定義される調剤薬局またはアウトソーシング施設ではありません。"
-  }
+     }
 }
 ,
 peptideInfo: {
@@ -350,10 +348,55 @@ popularPeptides: {
   products: "製品"
 },
 bundlePage: {
-  title: "まとめてお得",
-  subtitle: "複数の経路解析、精密な実験、先進的な科学的ワークフローのために設計された独自のBioPeptide研究バンドルです。",
+  title: "バンドル＆セーブ",
+  subtitle:
+    "多経路解析と高度な科学研究のために設計されたBioPeptide研究用バンドル。",
   viewBundleButton: "バンドルを見る",
-},
+
+  categories: {
+    All: {
+      title: "すべてのペプチドバンドル",
+      desc:
+        "多様な研究用途に対応するBioPeptide研究用バンドルをご覧ください。",
+    },
+    "Popular Peptides": {
+      title: "人気のペプチドバンドル",
+      desc:
+        "高度な研究環境で最も選ばれている組み合わせ。",
+    },
+    "Peptide Capsules": {
+      title: "ペプチドカプセルバンドル",
+      desc:
+        "安定性と取り扱いやすさを備えたカプセル型バンドル。",
+    },
+    "Peptide Blends": {
+      title: "ペプチドブレンドバンドル",
+      desc:
+        "多標的研究向けの相乗効果ブレンド。",
+    },
+    "IGF-1 Proteins": {
+      title: "IGF-1プロテインバンドル",
+      desc:
+        "細胞研究向けのIGF-1含有バンドル。",
+    },
+    "Melanotan Peptides": {
+      title: "メラノタンペプチドバンドル",
+      desc:
+        "色素研究向けバンドル。",
+    },
+    Bioregulators: {
+      title: "バイオレギュレーターバンドル",
+      desc:
+        "分子研究向け短鎖ペプチド。",
+    },
+    "Cosmetic Peptides": {
+      title: "化粧品ペプチドバンドル",
+      desc:
+        "皮膚生物学研究向けバンドル。",
+    },
+  },
+}
+,
 cartPage: {
   title: "ショッピングカート",
   empty: "カートは空です。",
@@ -789,8 +832,120 @@ orderSuccess: {
   viewOrders: "注文履歴を見る",
   continueShopping: "買い物を続ける",
   emailNote: "確認メールをまもなくお送りします。"
-}
+},
+ peptides: {
+    categories: {
+      All: {
+        title: "すべてのペプチド",
+        description:
+          "研究および実験用途のために開発された高品質ペプチド、タンパク質、特殊化合物の完全なコレクションです。",
+      },
 
+      "Popular Peptides": {
+        title: "人気のペプチド",
+        description:
+          "研究機関で最も広く使用されている信頼性の高いペプチドです。",
+      },
+
+      "Peptide Capsules": {
+        title: "ペプチドカプセル",
+        description:
+          "正確な投与と安定性を考慮して設計されたカプセル製剤です。",
+      },
+
+      "Peptide Blends": {
+        title: "ペプチドブレンド",
+        description:
+          "高度な研究プロトコル向けに開発されたペプチドの組み合わせです。",
+      },
+
+      "IGF-1 Proteins": {
+        title: "IGF-1タンパク質",
+        description:
+          "細胞成長や再生研究で使用される成長因子タンパク質です。",
+      },
+
+      "Melanotan Peptides": {
+        title: "メラノタンペプチド",
+        description:
+          "色素形成や受容体研究で使用されるペプチドです。",
+      },
+
+      Bioregulators: {
+        title: "バイオレギュレーター",
+        description:
+          "細胞間コミュニケーションに関与する短鎖ペプチドです。",
+      },
+
+      "Cosmetic Peptides": {
+        title: "化粧品用ペプチド",
+        description:
+          "皮膚科学および化粧品研究で使用されるペプチドです。",
+      },
+    },
+  },
+privacy: {
+  hero: {
+    title: "プライバシーポリシー",
+    description:
+      "本ポリシーは、BioPeptide™が情報を収集・使用・保護する方法を説明します。"
+  },
+  intro: {
+    site: "www.biopeptide.com のプライバシーポリシー",
+    contact:
+      "プライバシーに関するご質問は、以下のメールまでご連絡ください",
+    importance:
+      "BioPeptide™は訪問者のプライバシーを非常に重視しています。"
+  },
+  sections: {
+    logFiles: {
+      title: "ログファイル",
+      p1:
+        "IPアドレスやブラウザ情報を含むログを使用します。",
+      p2:
+        "個人を特定する情報とは関連付けられません。"
+    },
+    cookies: {
+      title: "クッキー",
+      p1:
+        "クッキーを使用して体験を最適化します。",
+      p2:
+        "ブラウザ設定で無効にできます。",
+      p3:
+        "SMSリマインダーに使用される場合があります。"
+    },
+    disclosure: {
+      title: "情報開示",
+      p1:
+        "SMS同意データは共有されません。"
+    },
+    personal: {
+      title: "個人情報",
+      p1:
+        "安全な体験のために個人情報を収集します。",
+      p2:
+        "注文時に収集されます。",
+      p3:
+        "情報を販売しません。",
+      p4:
+        "更新情報を送信する場合があります。",
+      p5:
+        "停止するにはこちらへ"
+    },
+    thirdParty: {
+      title: "第三者コンテンツ",
+      p1:
+        "第三者広告を使用していません。"
+    },
+    security: {
+      title: "セキュリティ",
+      p1:
+        "業界標準の対策を使用します。",
+      p2:
+        "データ保護に努めます。"
+    }
+  }
+}
 
 
 

@@ -3,16 +3,12 @@
 import { useState } from "react";
 import DrawerProducts from "@/components/DrawerProducts";
 
-export default function ClientLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function PeptideResearchWrapper({ children }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   return (
     <>
-      {/* FLOATING PRODUCT DRAWER BUTTON */}
+      {/* DRAWER BUTTON */}
       <button
         onClick={() => setDrawerOpen(true)}
         className="
@@ -24,15 +20,20 @@ export default function ClientLayout({
           h-36 w-10 rounded-l-xl
         "
       >
-        <span className="text-xs font-semibold tracking-widest [writing-mode:vertical-rl]">
-          PRODUCT LIST
+        <span
+          className="
+            text-xs font-semibold tracking-widest
+            [writing-mode:vertical-rl]
+          "
+        >
+          Product List
         </span>
       </button>
 
-      {children}
-
-      {/* PRODUCT DRAWER */}
+      {/* DRAWER */}
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
+
+      {children}
     </>
   );
 }

@@ -8,6 +8,8 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { getTranslatedProduct } from "@/utils/getTranslatedProduct";
 
 export default function ProductCard({ product }) {
+  const [imgLoaded, setImgLoaded] = useState(false);
+
   const { translations, loading } = useLanguage();
   if (loading) return null;
 
@@ -55,20 +57,37 @@ export default function ProductCard({ product }) {
 >
   {/* IMAGE — FULL WIDTH, NO PADDING */}
   <Link
-    href={`/product/${product.slug}`}
-    className="
-      relative h-72 sm:h-56 md:h-64 w-full
-      bg-gray-50
-      flex items-center justify-center
-      cursor-pointer
-    "
-  >
-    <Image
-      src={product.image || "/images/product.png"}
-      alt={product.name}
-      fill
-      className="object-contain scale-110"
-    />
+  href={`/product/${product.slug}`}
+  className="
+    relative w-full
+    aspect-[1/1]
+    bg-gray-50
+    flex items-center justify-center
+    cursor-pointer
+  "
+>
+{!imgLoaded && (
+  <div className="absolute inset-0 flex items-center justify-center">
+    <div className="flex flex-col gap-1">
+      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce [animation-delay:-0.3s]" />
+      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce [animation-delay:-0.15s]" />
+      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" />
+    </div>
+  </div>
+)}
+
+ <Image
+  src={
+    product.image && product.image.trim() !== ""
+      ? product.image
+      : "/images/product.png"
+  }
+  alt={product.name}
+  fill
+  className="object-contain scale-95"
+  onLoad={() => setImgLoaded(true)}
+/>
+
   </Link>
 
   {/* CONTENT — PADDED */}

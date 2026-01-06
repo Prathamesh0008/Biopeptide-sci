@@ -189,9 +189,7 @@ footer: {
     fda:
       "Les déclarations figurant sur ce site n’ont pas été évaluées par la Food and Drug Administration (FDA) des États-Unis. Les produits BioPeptide ne sont pas destinés à diagnostiquer, traiter, guérir ou prévenir une maladie.",
 
-    legalStatus:
-      "BioPeptide est un fournisseur de composés chimiques et de recherche. BioPeptide n’est ni une pharmacie de préparation ni une installation de sous-traitance telle que définie par les sections 503A et 503B du Federal Food, Drug, and Cosmetic Act."
-  }
+    }
 }
 ,
 peptideInfo: {
@@ -349,10 +347,55 @@ popularPeptides: {
   products: "produits"
 },
 bundlePage: {
-  title: "Regroupez et Économisez",
-  subtitle: "Des ensembles de recherche BioPeptide exclusifs conçus pour une analyse multipiste, une expérimentation de précision et des flux de travail scientifiques avancés.",
-  viewBundleButton: "Voir le pack",
-},
+  title: "Lots & Économies",
+  subtitle:
+    "Lots de recherche BioPeptide exclusifs conçus pour l’analyse multi-voies, l’expérimentation de précision et les flux scientifiques avancés.",
+  viewBundleButton: "Voir le Lot",
+
+  categories: {
+    All: {
+      title: "Tous les Lots de Peptides",
+      desc:
+        "Découvrez tous les lots BioPeptide conçus pour des études de laboratoire variées et efficaces.",
+    },
+    "Popular Peptides": {
+      title: "Lots de Peptides Populaires",
+      desc:
+        "Les combinaisons de lots les plus utilisées en recherche avancée.",
+    },
+    "Peptide Capsules": {
+      title: "Lots de Capsules de Peptides",
+      desc:
+        "Lots en capsules offrant stabilité et manipulation précise.",
+    },
+    "Peptide Blends": {
+      title: "Lots de Mélanges de Peptides",
+      desc:
+        "Mélanges synergiques pour recherches multi-cibles.",
+    },
+    "IGF-1 Proteins": {
+      title: "Lots de Protéines IGF-1",
+      desc:
+        "Lots contenant IGF-1 et protéines pour études cellulaires.",
+    },
+    "Melanotan Peptides": {
+      title: "Lots de Peptides Melanotan",
+      desc:
+        "Lots dédiés à la recherche sur la pigmentation.",
+    },
+    Bioregulators: {
+      title: "Lots de Bioregulateurs",
+      desc:
+        "Bioregulateurs à chaîne courte pour la recherche moléculaire.",
+    },
+    "Cosmetic Peptides": {
+      title: "Lots de Peptides Cosmétiques",
+      desc:
+        "Lots orientés vers la recherche cosmétique et cutanée.",
+    },
+  },
+}
+,
 cartPage: {
   title: "Panier",
   empty: "Votre panier est vide.",
@@ -784,7 +827,119 @@ research: {
 
 
 },
+peptides: {
+    categories: {
+      All: {
+        title: "Tous les Peptides",
+        description:
+          "Découvrez notre collection complète de peptides de qualité recherche, protéines et composés spécialisés pour la recherche scientifique.",
+      },
 
+      "Popular Peptides": {
+        title: "Peptides Populaires",
+        description:
+          "Les peptides les plus étudiés et les plus demandés par les laboratoires.",
+      },
+
+      "Peptide Capsules": {
+        title: "Capsules de Peptides",
+        description:
+          "Formulations en capsules pour une manipulation facile et un dosage précis.",
+      },
+
+      "Peptide Blends": {
+        title: "Mélanges de Peptides",
+        description:
+          "Combinaisons avancées de peptides pour des protocoles de recherche complexes.",
+      },
+
+      "IGF-1 Proteins": {
+        title: "Protéines IGF-1",
+        description:
+          "Protéines du facteur de croissance insulinomimétique étudiées en recherche cellulaire.",
+      },
+
+      "Melanotan Peptides": {
+        title: "Peptides Melanotan",
+        description:
+          "Peptides étudiés dans les recherches sur la pigmentation et les récepteurs.",
+      },
+
+      Bioregulators: {
+        title: "Biorégulateurs",
+        description:
+          "Peptides courts étudiés pour la communication cellulaire.",
+      },
+
+      "Cosmetic Peptides": {
+        title: "Peptides Cosmétiques",
+        description:
+          "Peptides utilisés dans la recherche cosmétique et dermatologique.",
+      },
+    },
+  },
+privacy: {
+  hero: {
+    title: "Politique de Confidentialité",
+    description:
+      "Cette politique explique comment BioPeptide™ collecte et protège vos informations."
+  },
+  intro: {
+    site: "Politique de confidentialité de www.biopeptide.com (BioPeptide™)",
+    contact:
+      "Pour toute question concernant notre politique de confidentialité, contactez-nous par e-mail à",
+    importance:
+      "Chez BioPeptide™, la confidentialité de nos visiteurs est essentielle."
+  },
+  sections: {
+    logFiles: {
+      title: "Fichiers Journaux",
+      p1:
+        "BioPeptide™ utilise des fichiers journaux incluant adresses IP et types de navigateurs.",
+      p2:
+        "Ces données ne sont pas liées à des informations personnelles."
+    },
+    cookies: {
+      title: "Cookies et Balises Web",
+      p1:
+        "Nous utilisons des cookies pour personnaliser le contenu.",
+      p2:
+        "Vous pouvez désactiver les cookies via votre navigateur.",
+      p3:
+        "Les cookies peuvent servir à envoyer des rappels par SMS."
+    },
+    disclosure: {
+      title: "Divulgation des Informations",
+      p1:
+        "Les données de consentement SMS ne sont pas partagées."
+    },
+    personal: {
+      title: "E-mail et Informations Personnelles",
+      p1:
+        "Nous collectons des informations personnelles pour une expérience sécurisée.",
+      p2:
+        "Ces données sont collectées lors des commandes.",
+      p3:
+        "Nous ne vendons pas vos informations.",
+      p4:
+        "Nous pouvons vous envoyer des offres.",
+      p5:
+        "Vous pouvez vous désinscrire en contactant"
+    },
+    thirdParty: {
+      title: "Contenu Tiers",
+      p1:
+        "BioPeptide™ n'utilise pas de services publicitaires tiers."
+    },
+    security: {
+      title: "Sécurité",
+      p1:
+        "Nous utilisons des mesures de sécurité standards.",
+      p2:
+        "Nous protégeons vos données autant que possible."
+    }
+  }
+}
 
 
 

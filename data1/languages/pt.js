@@ -188,9 +188,7 @@ export default {
     fda:
       "As declarações neste site não foram avaliadas pela Food and Drug Administration (FDA) dos Estados Unidos. Os produtos da BioPeptide não se destinam a diagnosticar, tratar, curar ou prevenir doenças.",
 
-    legalStatus:
-      "A BioPeptide atua como fornecedora de compostos químicos e de pesquisa. A BioPeptide não é uma farmácia de manipulação nem uma instalação terceirizada conforme definido pelas seções 503A e 503B do Federal Food, Drug, and Cosmetic Act."
-  }
+   }
 }
 ,
 peptideInfo: {
@@ -349,10 +347,55 @@ popularPeptides: {
   products: "produtos"
 },
 bundlePage: {
-  title: "Agrupe e Economize",
-  subtitle: "Pacotes exclusivos de pesquisa BioPeptide projetados para análise multipercurso, experimentação precisa e fluxos de trabalho científicos avançados.",
-  viewBundleButton: "Ver pacote",
-},
+  title: "Pacotes & Economia",
+  subtitle:
+    "Pacotes de pesquisa BioPeptide exclusivos projetados para análise multi-vias e fluxos científicos avançados.",
+  viewBundleButton: "Ver Pacote",
+
+  categories: {
+    All: {
+      title: "Todos os Pacotes de Peptídeos",
+      desc:
+        "Explore todos os pacotes BioPeptide para estudos laboratoriais diversos e econômicos.",
+    },
+    "Popular Peptides": {
+      title: "Pacotes de Peptídeos Populares",
+      desc:
+        "Combinações mais utilizadas em ambientes de pesquisa avançada.",
+    },
+    "Peptide Capsules": {
+      title: "Pacotes de Cápsulas de Peptídeos",
+      desc:
+        "Pacotes em cápsulas para estabilidade e manuseio preciso.",
+    },
+    "Peptide Blends": {
+      title: "Pacotes de Misturas de Peptídeos",
+      desc:
+        "Misturas sinérgicas para pesquisa multi-alvo.",
+    },
+    "IGF-1 Proteins": {
+      title: "Pacotes de Proteínas IGF-1",
+      desc:
+        "Pacotes com IGF-1 para estudos celulares.",
+    },
+    "Melanotan Peptides": {
+      title: "Pacotes de Peptídeos Melanotan",
+      desc:
+        "Pacotes para pesquisa de pigmentação.",
+    },
+    Bioregulators: {
+      title: "Pacotes de Bioreguladores",
+      desc:
+        "Bioreguladores de cadeia curta para pesquisa molecular.",
+    },
+    "Cosmetic Peptides": {
+      title: "Pacotes de Peptídeos Cosméticos",
+      desc:
+        "Pacotes voltados para biologia da pele.",
+    },
+  },
+}
+,
 cartPage: {
   title: "Carrinho de compras",
   empty: "Seu carrinho está vazio.",
@@ -790,6 +833,119 @@ orderSuccess: {
   viewOrders: "Ver meus pedidos",
   continueShopping: "Continuar comprando",
   emailNote: "Você receberá um e-mail de confirmação em breve."
+},
+peptides: {
+    categories: {
+      All: {
+        title: "Todos os Peptídeos",
+        description:
+          "Explore nossa coleção completa de peptídeos de grau científico, proteínas e compostos especializados para pesquisa laboratorial.",
+      },
+
+      "Popular Peptides": {
+        title: "Peptídeos Populares",
+        description:
+          "Os peptídeos mais pesquisados e amplamente utilizados por laboratórios em todo o mundo.",
+      },
+
+      "Peptide Capsules": {
+        title: "Cápsulas de Peptídeos",
+        description:
+          "Formulações em cápsulas projetadas para dosagem precisa e estabilidade em pesquisa.",
+      },
+
+      "Peptide Blends": {
+        title: "Misturas de Peptídeos",
+        description:
+          "Combinações avançadas de peptídeos para protocolos científicos complexos.",
+      },
+
+      "IGF-1 Proteins": {
+        title: "Proteínas IGF-1",
+        description:
+          "Proteínas do fator de crescimento semelhantes à insulina estudadas em pesquisas celulares.",
+      },
+
+      "Melanotan Peptides": {
+        title: "Peptídeos Melanotan",
+        description:
+          "Peptídeos estudados em pesquisas de pigmentação e interação de receptores.",
+      },
+
+      Bioregulators: {
+        title: "Biorreguladores",
+        description:
+          "Peptídeos de cadeia curta pesquisados para comunicação celular.",
+      },
+
+      "Cosmetic Peptides": {
+        title: "Peptídeos Cosméticos",
+        description:
+          "Peptídeos utilizados em estudos cosméticos e dermatológicos.",
+      },
+    },
+  },
+privacy: {
+  hero: {
+    title: "Política de Privacidade",
+    description:
+      "Esta Política de Privacidade explica como a BioPeptide™ coleta, utiliza e protege suas informações."
+  },
+  intro: {
+    site: "Política de Privacidade do www.biopeptide.com (BioPeptide™)",
+    contact:
+      "Se precisar de mais informações ou tiver dúvidas sobre nossa política de privacidade, entre em contato por e-mail em",
+    importance:
+      "Na BioPeptide™, a privacidade dos nossos visitantes é extremamente importante."
+  },
+  sections: {
+    logFiles: {
+      title: "Arquivos de Log",
+      p1:
+        "A BioPeptide™ utiliza arquivos de log contendo endereços IP, tipo de navegador e registros de acesso.",
+      p2:
+        "Esses dados não estão vinculados a informações pessoais identificáveis."
+    },
+    cookies: {
+      title: "Cookies e Web Beacons",
+      p1:
+        "Utilizamos cookies para personalizar a experiência do usuário.",
+      p2:
+        "Você pode desativar cookies nas configurações do navegador.",
+      p3:
+        "Cookies podem ser usados para lembretes de carrinho via SMS."
+    },
+    disclosure: {
+      title: "Divulgação de Informações",
+      p1:
+        "Dados de consentimento por SMS não são compartilhados com terceiros."
+    },
+    personal: {
+      title: "E-mail e Informações Pessoais",
+      p1:
+        "Coletamos nome, e-mail e histórico de compras.",
+      p2:
+        "Esses dados são coletados durante pedidos ou interações.",
+      p3:
+        "Não vendemos informações pessoais.",
+      p4:
+        "Podemos enviar ofertas e atualizações.",
+      p5:
+        "Você pode cancelar entrando em contato com"
+    },
+    thirdParty: {
+      title: "Conteúdo de Terceiros",
+      p1:
+        "Não utilizamos serviços de terceiros."
+    },
+    security: {
+      title: "Segurança",
+      p1:
+        "Utilizamos medidas de segurança padrão do setor.",
+      p2:
+        "Tomamos precauções para proteger seus dados."
+    }
+  }
 }
 
 

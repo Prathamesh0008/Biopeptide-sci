@@ -80,89 +80,144 @@ const paginationNumbers = getPagination();
         <aside className="md:col-span-1">
           <ResearchSidebar currentPage={currentPage} />
         </aside>
+{/* CONTENT */}
+<section className="md:col-span-3">
 
-        {/* CONTENT */}
-        <section className="md:col-span-3">
-          <h1 className="text-3xl font-bold mb-2">{current.title}</h1>
+  {/* RESEARCH CARD */}
+  <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8 md:p-10">
 
-          {current.subtitle && (
-            <p className="text-gray-600 mb-6">{current.subtitle}</p>
-          )}
+    {/* HEADER */}
+    <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+      {current.title}
+    </h1>
 
-          <div className="space-y-5 text-gray-800 leading-relaxed">
-            {current.paragraphs.map((para, i) => (
-              <p key={i}>{para}</p>
+    {current.subtitle && (
+      <p className="mt-4 text-lg text-gray-600 max-w-4xl">
+        {current.subtitle}
+      </p>
+    )}
+
+    {/* DIVIDER */}
+    <div className="my-10 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent" />
+
+    {/* PARAGRAPHS */}
+    <div className="space-y-10 max-w-4xl">
+
+      {current.paragraphs.map((para, i) => (
+        <div
+          key={i}
+          className={`
+            relative
+            pl-6
+            ${
+              i === 0
+                ? "border-l-4 border-bioBlue bg-bioBlue/5 rounded-r-xl py-4"
+                : "border-l-2 border-gray-200"
+            }
+          `}
+        >
+          <p className="text-[16.5px] leading-relaxed text-gray-800">
+            {para}
+          </p>
+        </div>
+      ))}
+
+    </div>
+
+    {/* FINDINGS */}
+    {current.bullets?.length > 0 && (
+      <>
+        <div className="my-12 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent" />
+
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 md:p-8 max-w-4xl">
+          <h2 className="text-xl font-semibold text-gray-900 mb-5">
+            Key Scientific Findings
+          </h2>
+
+          <ul className="space-y-4">
+            {current.bullets.map((b, i) => (
+              <li
+                key={i}
+                className="flex gap-3 text-gray-800 leading-relaxed"
+              >
+                <span className="mt-1 h-2 w-2 rounded-full bg-bioBlue flex-shrink-0" />
+                <span>{b}</span>
+              </li>
             ))}
-          </div>
+          </ul>
+        </div>
+      </>
+    )}
 
-          {current.bullets?.length > 0 && (
-            <ul className="mt-8 list-disc pl-6 space-y-2">
-              {current.bullets.map((b, i) => (
-                <li key={i}>{b}</li>
-              ))}
-            </ul>
-          )}
+  </div>
+  {/* PAGINATION */}
+<div className="md:col-span-3 flex justify-center">
+  <div className="mt-16 flex items-center justify-center gap-2 flex-wrap max-w-4xl">
 
-          {/* PAGINATION */}
-<div className="mt-14 flex items-center justify-center gap-2 flex-wrap">
+    {/* PREVIOUS */}
+    <button
+      onClick={() => goToPage(currentPage - 1)}
+      disabled={currentPage === 1}
+      className={`px-4 py-2 rounded-md border text-sm ${
+        currentPage === 1
+          ? "text-gray-400 border-gray-200 cursor-not-allowed"
+          : "text-gray-700 border-gray-300 hover:bg-gray-100"
+      }`}
+    >
+      ← Previous
+    </button>
 
-  {/* PREVIOUS */}
-  <button
-    onClick={() => goToPage(currentPage - 1)}
-    disabled={currentPage === 1}
-    className={`px-4 py-2 rounded-md border text-sm ${
-      currentPage === 1
-        ? "text-gray-400 border-gray-200 cursor-not-allowed"
-        : "text-gray-700 border-gray-300 hover:bg-gray-100"
-    }`}
-  >
-    ← Previous
-  </button>
+    {/* PAGE NUMBERS */}
+    {paginationNumbers.map((num, index) =>
+      num === "..." ? (
+        <span
+          key={index}
+          className="px-3 py-2 text-gray-400 text-sm"
+        >
+          …
+        </span>
+      ) : (
+        <button
+          key={index}
+          onClick={() => goToPage(num)}
+          className={`px-4 py-2 rounded-md border text-sm ${
+            currentPage === num
+              ? "bg-bioBlue text-white border-bioBlue"
+              : "text-gray-700 border-gray-300 hover:bg-gray-100"
+          }`}
+        >
+          {num}
+        </button>
+      )
+    )}
 
-  {/* PAGE NUMBERS */}
-  {paginationNumbers.map((num, index) =>
-    num === "..." ? (
-      <span
-        key={index}
-        className="px-3 py-2 text-gray-400 text-sm"
-      >
-        …
-      </span>
-    ) : (
-      <button
-        key={index}
-        onClick={() => goToPage(num)}
-        className={`px-4 py-2 rounded-md border text-sm ${
-          currentPage === num
-            ? "bg-bioBlue text-white border-bioBlue"
-            : "text-gray-700 border-gray-300 hover:bg-gray-100"
-        }`}
-      >
-        {num}
-      </button>
-    )
-  )}
+    {/* NEXT */}
+    <button
+      onClick={() => goToPage(currentPage + 1)}
+      disabled={currentPage === totalPages}
+      className={`px-4 py-2 rounded-md border text-sm ${
+        currentPage === totalPages
+          ? "text-gray-400 border-gray-200 cursor-not-allowed"
+          : "text-gray-700 border-gray-300 hover:bg-gray-100"
+      }`}
+    >
+      Next →
+    </button>
 
-  {/* NEXT */}
-  <button
-    onClick={() => goToPage(currentPage + 1)}
-    disabled={currentPage === totalPages}
-    className={`px-4 py-2 rounded-md border text-sm ${
-      currentPage === totalPages
-        ? "text-gray-400 border-gray-200 cursor-not-allowed"
-        : "text-gray-700 border-gray-300 hover:bg-gray-100"
-    }`}
-  >
-    Next →
-  </button>
+  </div>
 </div>
 
+</section>
 
-        </section>
+
+
       </div>
     </main>
   );
 }
+
+
+
 
 
 

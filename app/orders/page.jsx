@@ -87,75 +87,132 @@ useEffect(() => {
 
         <div className="space-y-8">
           {orders.map((order) => (
-           <div
+          <div
   key={order._id}
   className="
     bg-white
-    border border-gray-200
-    rounded-2xl
+    rounded-3xl
     shadow-sm hover:shadow-md
     transition
     overflow-hidden
+    border border-gray-100
   "
 >
 
 
-              {/* HEADER */}
-       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 px-6 py-4 bg-gray-50 border-b">
 
-                <div>
-  <p className="text-xs text-gray-500 uppercase tracking-wide">
-    {t("orderId")}
-  </p>
-  <p className="font-semibold text-[#0d2d47] text-lg">
-    {order._id.slice(-6).toUpperCase()}
-  </p>
-  <p className="text-xs text-gray-400 mt-1">
-    {new Date(order.createdAt).toLocaleDateString()} ·{" "}
-    {new Date(order.createdAt).toLocaleTimeString()}
-  </p>
+              {/* HEADER */}
+       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 px-6 py-5 bg-gray-50">
+
+  <div>
+    <p className="text-[11px] text-gray-400 uppercase tracking-wider">
+      {t("orderId")}
+    </p>
+    <p className="font-semibold text-[#0d2d47] text-lg">
+      {order._id.slice(-6).toUpperCase()}
+    </p>
+    <p className="text-xs text-gray-400 mt-1">
+      {new Date(order.createdAt).toLocaleDateString()} ·{" "}
+      {new Date(order.createdAt).toLocaleTimeString()}
+    </p>
+  </div>
+
+  <StatusBadge status={order.status} t={t} />
+
 </div>
 
-<StatusBadge status={order.status} t={t} />
 
-              </div>
-
-              {/* ITEMS */}
-            <div className="px-6 py-4 divide-y">
+    {/* ITEMS */}
+<div className="px-6 py-4 space-y-3">
   {groupItems(order.items).map((item) => (
-  <div
-    key={item.name}   // ✅ SAME KEY AS GROUP LOGIC
-    className="flex justify-between items-start py-3"
-  >
+    <div
+      key={`${item.name}-${item.strength}`}
+      className="flex justify-between text-sm"
+    >
+      <span className="text-gray-700">
+        {item.name}
+        <span className="text-gray-400"> × {item.qty}</span>
+      </span>
 
-      <span className="text-gray-700 font-medium">
-  {item.name}
-  <span className="text-gray-400 font-normal">
-    {" "}× {item.qty}
-  </span>
-</span>
-
-<span className="font-semibold text-gray-900">
-  ${(item.price * item.qty).toFixed(2)}
-</span>
-
+      <span className="font-medium text-gray-900">
+        ${(item.price * item.qty).toFixed(2)}
+      </span>
     </div>
   ))}
 </div>
 
+{/* ORDER DETAILS */}
+<div className="px-6 py-4 bg-white text-sm text-gray-700 space-y-4">
 
-              {/* TOTAL */}
-       <div className="flex justify-between items-center px-6 py-4 bg-gray-50">
+  {/* SHIPPING ADDRESS */}
+  {order.address && (
+    <div>
+      <p className="font-semibold text-gray-900 mb-1">
+        Shipping Address
+      </p>
+      <p className="text-gray-600 leading-relaxed">
+        {order.address.name}<br />
+        {order.address.street}<br />
+        {order.address.city}, {order.address.state} {order.address.zip}<br />
+        {order.address.country}<br />
+        Phone: {order.address.phone}
+      </p>
+    </div>
+  )}
 
-                <span className="text-sm text-gray-600">
-  {t("orderTotal")}
-</span>
+  {/* PAYMENT INFO */}
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    <div>
+      <p className="font-semibold text-gray-900 mb-1">
+        Payment Method
+      </p>
+      <p className="text-gray-600">
+        {order.payment?.method || "N/A"}
+      </p>
+    </div>
 
-<span className="text-xl font-bold text-[#0d2d47]">
-  ${order.totals.total.toFixed(2)}
-</span>
+    <div>
+      <p className="font-semibold text-gray-900 mb-1">
+        Payment Status
+      </p>
+      <p className="text-gray-600 capitalize">
+        {order.payment?.status || "pending"}
+      </p>
+    </div>
+  </div>
 
-              </div>
+</div>
+
+
+         {/* TOTAL BREAKDOWN */}
+<div className="px-6 py-4 bg-gray-50 text-sm space-y-2">
+
+  <div className="flex justify-between">
+    <span className="text-gray-600">Subtotal</span>
+    <span>${order.totals.subtotal.toFixed(2)}</span>
+  </div>
+
+  <div className="flex justify-between">
+    <span className="text-gray-600">Shipping</span>
+    <span>${order.totals.shipping.toFixed(2)}</span>
+  </div>
+
+  <div className="flex justify-between">
+    <span className="text-gray-600">Tax</span>
+    <span>${order.totals.tax.toFixed(2)}</span>
+  </div>
+
+  <div className="border-t pt-3 flex justify-between items-center">
+    <span className="font-semibold text-gray-800">
+      Order Total
+    </span>
+    <span className="text-xl font-bold text-[#0d2d47]">
+      ${order.totals.total.toFixed(2)}
+    </span>
+  </div>
+
+</div>
+
             </div>
           ))}
         </div>

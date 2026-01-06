@@ -1,32 +1,6 @@
 // peptides\data\products.js
 
-// LEFT SIDEBAR GROUPS (Filter / Navigation)
-// export const CATEGORY_GROUPS = [
-//   {
-//     title: "Peptide Capsules",
-//     items: [
-//       "5-Amino-1MQ 50mg (60 Capsules)",
-//       "BPC-157 500mcg (60 Capsules)",
-//       "Dihexa 5mg (60 Capsules)",
-//       "Epitalon 3mg (60 Capsules)",
-//       "GHK-Cu 2mg (60 Capsules)",
-//       "NMN 500mg (60 Capsules)",
-//     ],
-//   },
-//   {
-//     title: "Purchase Peptides",
-//     items: [
-//       "Adipotide (FTPP) 10mg",
-//       "AOD9604 5mg",
-//       "BPC-157 5mg / 10mg",
-//       "CJC-1295 no DAC 2mg",
-//       "Ipamorelin 5mg / 10mg",
-//     ],
-//   },
-// ];
 
-// MAIN PRODUCT LIST
-// You can add 500+ products here with same structure.
   export const PRODUCTS = [
   {
   id: "bpc-157-5mg",
@@ -60,7 +34,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
- image: "/product/Peptides/bpc-157_5mg.svg"
+ image: "/product/peptides/adipotide.png"
 
 },
 

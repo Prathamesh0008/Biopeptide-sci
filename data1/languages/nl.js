@@ -189,9 +189,7 @@ export default {
     fda:
       "De verklaringen op deze website zijn niet geëvalueerd door de Amerikaanse Food and Drug Administration (FDA). De producten van BioPeptide zijn niet bedoeld om ziekten te diagnosticeren, behandelen, genezen of voorkomen.",
 
-    legalStatus:
-      "BioPeptide is een leverancier van chemische en onderzoeksverbindingen. BioPeptide is geen apotheek of chemische samenstellingsfaciliteit zoals gedefinieerd onder Sectie 503A van de Federal Food, Drug, and Cosmetic Act, noch een outsourcingfaciliteit onder Sectie 503B."
-  }
+    }
 }
 ,
 peptideInfo: {
@@ -350,10 +348,55 @@ popularPeptides: {
   products: "producten"
 },
 bundlePage: {
-  title: "Bundel & Bespaar",
-  subtitle: "Exclusieve BioPeptide-onderzoeksbundels ontworpen voor multi-pad analyse, precieze experimenten en geavanceerde wetenschappelijke workflows.",
-  viewBundleButton: "Bekijk bundel",
-},
+  title: "Bundels & Bespaar",
+  subtitle:
+    "Exclusieve BioPeptide-onderzoeksbundels ontworpen voor multi-pathway analyse en geavanceerde wetenschappelijke workflows.",
+  viewBundleButton: "Bekijk Bundel",
+
+  categories: {
+    All: {
+      title: "Alle Peptidebundels",
+      desc:
+        "Ontdek alle BioPeptide-bundels voor diverse laboratoriumstudies en kosteneffectief onderzoek.",
+    },
+    "Popular Peptides": {
+      title: "Populaire Peptidebundels",
+      desc:
+        "De meest gekozen bundelcombinaties in geavanceerd onderzoek.",
+    },
+    "Peptide Capsules": {
+      title: "Peptide Capsulebundels",
+      desc:
+        "Capsule-gebaseerde bundels voor stabiliteit en nauwkeurige handling.",
+    },
+    "Peptide Blends": {
+      title: "Peptide Blendbundels",
+      desc:
+        "Synergetische peptidecombinaties voor multi-target onderzoek.",
+    },
+    "IGF-1 Proteins": {
+      title: "IGF-1 Eiwitbundels",
+      desc:
+        "Onderzoeksbundels met IGF-1 en eiwitten.",
+    },
+    "Melanotan Peptides": {
+      title: "Melanotan Peptidebundels",
+      desc:
+        "Bundels voor pigmentatie- en receptoronderzoek.",
+    },
+    Bioregulators: {
+      title: "Bioregulatorbundels",
+      desc:
+        "Korteketenvormige bioregulatorbundels voor moleculair onderzoek.",
+    },
+    "Cosmetic Peptides": {
+      title: "Cosmetische Peptidebundels",
+      desc:
+        "Bundels gericht op huidbiologie en cosmetisch onderzoek.",
+    },
+  },
+}
+,
 profilePage: {
   title: "Mijn Account",
   subtitle: "Beheer je profiel, adressen en bestellingen",
@@ -862,6 +905,119 @@ orderSuccess: {
   viewOrders: "Mijn bestellingen bekijken",
   continueShopping: "Verder winkelen",
   emailNote: "U ontvangt binnenkort een bevestigingsmail."
+},
+peptides: {
+    categories: {
+      All: {
+        title: "Alle Peptiden",
+        description:
+          "Ontdek onze volledige collectie onderzoekspeptiden, eiwitten en gespecialiseerde verbindingen die uitsluitend zijn ontwikkeld voor wetenschappelijk en laboratoriumonderzoek. Deze categorie omvat populaire peptiden, capsuleformuleringen, peptideblends, IGF-eiwitten, cosmetische peptiden en bioregulatoren. Elk product wordt vervaardigd onder strikte kwaliteitscontroles om een hoge zuiverheid en betrouwbare prestaties te garanderen.",
+      },
+
+      "Popular Peptides": {
+        title: "Populaire Peptiden",
+        description:
+          "Onze meest onderzochte en meest bestelde peptiden, vertrouwd door laboratoria wereldwijd. Deze peptiden worden geselecteerd op basis van onderzoeksrelevantie, vraag en consistente resultaten in wetenschappelijke studies.",
+      },
+
+      "Peptide Capsules": {
+        title: "Peptide Capsules",
+        description:
+          "Peptideformuleringen in capsulevorm voor eenvoudig gebruik, nauwkeurige dosering en verbeterde stabiliteit. Veelgebruikt in gecontroleerde onderzoeksomgevingen.",
+      },
+
+      "Peptide Blends": {
+        title: "Peptide Blends",
+        description:
+          "Geavanceerde combinaties van peptiden ontwikkeld voor complexe onderzoeksprotocollen en synergetische studies.",
+      },
+
+      "IGF-1 Proteins": {
+        title: "IGF-1 Eiwitten",
+        description:
+          "Insuline-achtige groeifactor-eiwitten die worden onderzocht in groei-, regeneratie- en celontwikkelingsstudies.",
+      },
+
+      "Melanotan Peptides": {
+        title: "Melanotan Peptiden",
+        description:
+          "Melanocortine-gebaseerde peptiden die voornamelijk worden bestudeerd in pigmentatie- en receptoronderzoek.",
+      },
+
+      Bioregulators: {
+        title: "Bioregulatoren",
+        description:
+          "Korteketenspeptiden die worden onderzocht voor cellulaire communicatie en weefsel-specifieke regulatie.",
+      },
+
+      "Cosmetic Peptides": {
+        title: "Cosmetische Peptiden",
+        description:
+          "Peptiden gebruikt in cosmetisch en dermatologisch onderzoek, gericht op collageen, huidelasticiteit en celherstel.",
+      },
+    },
+  },
+privacy: {
+  hero: {
+    title: "Privacybeleid",
+    description:
+      "Dit privacybeleid legt uit hoe BioPeptide™ uw informatie verzamelt, gebruikt en beschermt wanneer u onze website bezoekt."
+  },
+  intro: {
+    site: "Privacybeleid voor www.biopeptide.com (BioPeptide™)",
+    contact:
+      "Als u meer informatie nodig heeft of vragen heeft over ons privacybeleid, neem dan gerust contact met ons op via e-mail op",
+    importance:
+      "Bij BioPeptide™ is de privacy van onze bezoekers van groot belang. Dit document beschrijft welke soorten persoonlijke informatie worden verzameld en hoe deze worden gebruikt."
+  },
+  sections: {
+    logFiles: {
+      title: "Logbestanden",
+      p1:
+        "Net als veel andere websites maakt BioPeptide™ gebruik van logbestanden. Deze bevatten IP-adressen, browsertype, ISP, datum- en tijdstempels en verwijzende pagina’s.",
+      p2:
+        "Deze gegevens worden gebruikt om trends te analyseren, de website te beheren en gebruikersgedrag te volgen. IP-adressen zijn niet gekoppeld aan persoonlijk identificeerbare informatie."
+    },
+    cookies: {
+      title: "Cookies en Web Beacons",
+      p1:
+        "BioPeptide™ gebruikt cookies om informatie over bezoekersvoorkeuren op te slaan en webinhoud aan te passen.",
+      p2:
+        "U kunt cookies uitschakelen via uw browserinstellingen. Meer informatie is te vinden op de websites van browsers.",
+      p3:
+        "Cookies kunnen ook worden gebruikt om winkelwagenactiviteit te volgen en herinneringsberichten via SMS te verzenden."
+    },
+    disclosure: {
+      title: "Openbaarmaking van uw informatie",
+      p1:
+        "SMS-toestemmingsgegevens worden niet gedeeld met derden, behalve met SMS-dienstverleners."
+    },
+    personal: {
+      title: "E-mail en persoonlijke informatie",
+      p1:
+        "BioPeptide™ verzamelt persoonlijke informatie zoals naam, e-mail en aankoopactiviteit om een veilige ervaring te bieden.",
+      p2:
+        "Deze informatie wordt verzameld wanneer u een bestelling plaatst of met onze website interageert.",
+      p3:
+        "Wij verkopen of verhuren geen persoonlijke informatie aan derden.",
+      p4:
+        "BioPeptide™ kan contact met u opnemen over productupdates en aanbiedingen.",
+      p5:
+        "U kunt zich op elk moment afmelden door contact op te nemen met"
+    },
+    thirdParty: {
+      title: "Inhoud van derden",
+      p1:
+        "BioPeptide™ werkt niet samen met advertentiediensten of externe inhoudsproviders."
+    },
+    security: {
+      title: "Beveiliging",
+      p1:
+        "Wij gebruiken beveiligingsmaatregelen volgens industriestandaarden om ingediende informatie te beschermen.",
+      p2:
+        "Hoewel geen enkel systeem 100% veilig is, nemen wij passende maatregelen om uw gegevens te beschermen."
+    }
+  }
 }
 
 

@@ -194,9 +194,7 @@ footer: {
     fda:
       "Die Aussagen auf dieser Website wurden nicht von der US-amerikanischen Food and Drug Administration (FDA) bewertet. BioPeptide-Produkte sind nicht zur Diagnose, Behandlung, Heilung oder Vorbeugung von Krankheiten bestimmt.",
 
-    legalStatus:
-      "BioPeptide ist ein Anbieter von chemischen und Forschungsstoffen. BioPeptide ist weder eine Rezepturapotheke noch eine Outsourcing-Einrichtung im Sinne der Abschnitte 503A und 503B des Federal Food, Drug, and Cosmetic Act."
-  }
+    }
 }
 ,
 peptideInfo: {
@@ -355,10 +353,55 @@ popularPeptides: {
   products: "Produkte"
 },
 bundlePage: {
-  title: "Bündeln & Sparen",
-  subtitle: "Exklusive BioPeptid-Forschungspakete für Multi-Pathway-Analysen, präzise Experimente und fortschrittliche wissenschaftliche Arbeitsabläufe.",
-  viewBundleButton: "Paket ansehen",
-},
+  title: "Bundles & Sparen",
+  subtitle:
+    "Exklusive BioPeptide-Forschungsbundles für Multi-Pathway-Analysen, präzise Experimente und fortschrittliche wissenschaftliche Workflows.",
+  viewBundleButton: "Bundle ansehen",
+
+  categories: {
+    All: {
+      title: "Alle Peptid-Bundles",
+      desc:
+        "Entdecken Sie alle BioPeptide-Forschungsbundles für vielseitige Laborstudien und kosteneffiziente Experimente.",
+    },
+    "Popular Peptides": {
+      title: "Beliebte Peptid-Bundles",
+      desc:
+        "Die meistgewählten Bundle-Kombinationen für fortgeschrittene Forschungsumgebungen.",
+    },
+    "Peptide Capsules": {
+      title: "Peptid-Kapsel-Bundles",
+      desc:
+        "Kapselbasierte Peptid-Bundles für Stabilität und präzise Handhabung im Labor.",
+    },
+    "Peptide Blends": {
+      title: "Peptid-Mischungs-Bundles",
+      desc:
+        "Synergistische Peptidmischungen für zielgerichtete Forschungsansätze.",
+    },
+    "IGF-1 Proteins": {
+      title: "IGF-1-Protein-Bundles",
+      desc:
+        "Forschungsbundles mit IGF-1 und Proteinen für Zell- und Signalstudien.",
+    },
+    "Melanotan Peptides": {
+      title: "Melanotan-Peptid-Bundles",
+      desc:
+        "Melanotan-Bundles für Pigmentierungs- und Rezeptorforschung.",
+    },
+    Bioregulators: {
+      title: "Bioregulator-Bundles",
+      desc:
+        "Kurzketten-Bioregulator-Bundles für molekulare und zelluläre Forschung.",
+    },
+    "Cosmetic Peptides": {
+      title: "Kosmetische Peptid-Bundles",
+      desc:
+        "Kosmetikorientierte Forschungsbundles für Hautbiologie.",
+    },
+  },
+}
+,
 cartPage: {
   title: "Warenkorb",
   empty: "Ihr Warenkorb ist leer.",
@@ -796,6 +839,119 @@ orderSuccess: {
   viewOrders: "Meine Bestellungen ansehen",
   continueShopping: "Weiter einkaufen",
   emailNote: "Sie erhalten in Kürze eine Bestätigungs-E-Mail."
+},
+peptides: {
+    categories: {
+      All: {
+        title: "Alle Peptide",
+        description:
+          "Entdecken Sie unsere vollständige Sammlung von forschungsgeeigneten Peptiden, Proteinen und spezialisierten Verbindungen.",
+      },
+
+      "Popular Peptides": {
+        title: "Beliebte Peptide",
+        description:
+          "Die am häufigsten erforschten und bestellten Peptide für Laborstudien.",
+      },
+
+      "Peptide Capsules": {
+        title: "Peptid-Kapseln",
+        description:
+          "Kapselbasierte Formulierungen für präzise Dosierung und Stabilität.",
+      },
+
+      "Peptide Blends": {
+        title: "Peptid-Mischungen",
+        description:
+          "Fortschrittliche Peptidkombinationen für komplexe Forschungsprotokolle.",
+      },
+
+      "IGF-1 Proteins": {
+        title: "IGF-1 Proteine",
+        description:
+          "Proteine zur Erforschung von Zellwachstum und Regeneration.",
+      },
+
+      "Melanotan Peptides": {
+        title: "Melanotan-Peptide",
+        description:
+          "Peptide zur Erforschung von Pigmentierung und Rezeptorbindung.",
+      },
+
+      Bioregulators: {
+        title: "Bioregulatoren",
+        description:
+          "Kurzkettenpeptide zur Untersuchung der zellulären Kommunikation.",
+      },
+
+      "Cosmetic Peptides": {
+        title: "Kosmetische Peptide",
+        description:
+          "Peptide für kosmetische und dermatologische Forschung.",
+      },
+    },
+  },
+privacy: {
+  hero: {
+    title: "Datenschutzrichtlinie",
+    description:
+      "Diese Datenschutzrichtlinie erklärt, wie BioPeptide™ Ihre Daten sammelt und schützt."
+  },
+  intro: {
+    site: "Datenschutzrichtlinie für www.biopeptide.com (BioPeptide™)",
+    contact:
+      "Bei Fragen zu unserer Datenschutzrichtlinie kontaktieren Sie uns per E-Mail unter",
+    importance:
+      "Der Schutz der Privatsphäre unserer Besucher hat für BioPeptide™ höchste Priorität."
+  },
+  sections: {
+    logFiles: {
+      title: "Protokolldateien",
+      p1:
+        "BioPeptide™ verwendet Protokolldateien mit IP-Adressen und Browserdaten.",
+      p2:
+        "Diese Informationen sind nicht personenbezogen."
+    },
+    cookies: {
+      title: "Cookies",
+      p1:
+        "Cookies werden verwendet, um Inhalte anzupassen.",
+      p2:
+        "Cookies können im Browser deaktiviert werden.",
+      p3:
+        "Cookies können Warenkorb-Erinnerungen per SMS auslösen."
+    },
+    disclosure: {
+      title: "Weitergabe von Informationen",
+      p1:
+        "SMS-Zustimmungsdaten werden nicht an Dritte weitergegeben."
+    },
+    personal: {
+      title: "E-Mail und Persönliche Daten",
+      p1:
+        "Wir erfassen persönliche Daten für Sicherheit.",
+      p2:
+        "Diese werden bei Bestellungen gesammelt.",
+      p3:
+        "Wir verkaufen keine Daten.",
+      p4:
+        "Wir können Produktinformationen senden.",
+      p5:
+        "Abmeldung jederzeit möglich über"
+    },
+    thirdParty: {
+      title: "Inhalte Dritter",
+      p1:
+        "Keine Nutzung externer Werbedienste."
+    },
+    security: {
+      title: "Sicherheit",
+      p1:
+        "Wir verwenden branchenübliche Sicherheitsmaßnahmen.",
+      p2:
+        "Wir schützen Ihre Daten bestmöglich."
+    }
+  }
 }
 
 

@@ -107,7 +107,7 @@ justify-items-start
   >
 
     {/* BRAND */}
-    <div className="space-y-4 lg:col-span-2 lg:pr-6">
+    <div className="space-y-4 lg:col-span-2 lg:pr-10 -ml-2">
 
       <Link href="/" aria-label="Go to homepage">
   <Image
@@ -126,7 +126,7 @@ justify-items-start
       </p>
     </div>
 {/* ALL OTHER COLUMNS */}
-<div className="lg:col-span-4 lg:-ml-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 lg:gap-12">
+<div className="lg:col-span-4 lg:-ml-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 lg:gap-16">
     {/* INFORMATION */}
    <FooterColumn title={t("columns.information.title")} >
 
@@ -171,7 +171,7 @@ justify-items-start
   <div className="space-y-4 text-sm text-gray-700">
 
       <div className="flex gap-3">
-        <FaPhoneAlt className="text-bioBlue mt-1" />
+        <FaPhoneAlt className="text-bioBlue text-lg mt-1" />
         <div>
           <p className="font-semibold">Phone</p>
           <p>1-800-986-6401</p>
@@ -180,7 +180,7 @@ justify-items-start
       </div>
 
       <div className="flex gap-3">
-        <FaEnvelope className="text-bioBlue mt-1" />
+        <FaEnvelope className="text-bioBlue text-lg mt-1" />
         <div>
           <p className="font-semibold">Email</p>
           <p>support@biopeptide.com</p>
@@ -188,7 +188,7 @@ justify-items-start
       </div>
 
       <div className="flex gap-3">
-        <FaTruck className="text-bioBlue mt-1" />
+        <FaTruck className="text-bioBlue text-lg mt-1" />
         <div>
           <p className="font-semibold">Shipping Days</p>
           <p className="text-sm">Mon–Fri (Except Holidays)</p>
@@ -236,8 +236,10 @@ function FooterColumn({ title, children, className = "" }) {
   return (
     <div className={`space-y-3 ${className}`}>
 
-      <h3 className="font-semibold text-gray-900">{title}</h3>
-      <ul className="space-y-2">{children}</ul>
+     <h3 className="font-semibold text-gray-900 tracking-wide uppercase text-sm">
+  {title}
+</h3>
+     <ul className="space-y-3 pt-1">{children}</ul>
     </div>
   );
 }
@@ -250,13 +252,17 @@ function FooterLink({ text, href }) {
     <li>
       <Link
         href={href}
-        className="text-gray-600 hover:text-bioBlue transition"
+        className=" text-[14px] text-gray-600 hover:text-bioBlue transition"
       >
         {text}
       </Link>
     </li>
   );
 }
+
+
+
+
 
 
 

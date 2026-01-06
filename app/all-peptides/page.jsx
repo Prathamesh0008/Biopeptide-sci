@@ -1,4 +1,4 @@
-//app\all-peptides\page.jsx
+// app/all-peptides/page.jsx
 "use client";
 
 import { useState, useEffect } from "react";
@@ -7,46 +7,66 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
 import ProductCard from "@/components/ProductCard";
+import DrawerProducts from "@/components/DrawerProducts";
 import { PRODUCTS } from "@/data/products";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { useLanguage } from "@/contexts/LanguageContext";
 import AllPeptidesCategorySlider from "@/components/AllPeptidesCategorySlider";
 
-
-
 export default function AllPeptidesPage() {
   const { translations, loading } = useLanguage();
   const [activeCategory, setActiveCategory] = useState("All");
+  const [drawerOpen, setDrawerOpen] = useState(false);
 
-const filteredProducts =
-  activeCategory === "All"
-    ? PRODUCTS
-    : PRODUCTS.filter(p => p.category === activeCategory);
+  const filteredProducts =
+    activeCategory === "All"
+      ? PRODUCTS
+      : PRODUCTS.filter(p => p.category === activeCategory);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-
-useEffect(() => {
-  window.scrollTo(0, 0);
-}, []);
-
-if (loading) return null;
+  if (loading) return null;
 
   return (
     <>
-      {/* NAVBAR — NO PADDING ABOVE */}
+      {/* NAVBAR */}
       <Navbar />
-      <Breadcrumbs/>
+      <Breadcrumbs />
 
-      {/* MAIN CONTENT ONLY */}
+      {/* DESKTOP / MOBILE DRAWER BUTTON */}
+      <button
+        onClick={() => setDrawerOpen(true)}
+        className="
+          fixed right-0 top-1/2 -translate-y-1/2 z-50
+          flex items-center justify-center
+          bg-gradient-to-b from-bioBlue to-bioGreen
+          text-white shadow-lg
+          cursor-pointer
+          h-36 w-10 rounded-l-xl
+        "
+      >
+        <span
+          className="
+            text-xs font-semibold tracking-widest
+            [writing-mode:vertical-rl]
+          "
+        >
+          Product List
+        </span>
+      </button>
+
+      {/* DRAWER (PAGE LEVEL ONLY) */}
+      <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
+
+      {/* MAIN CONTENT */}
       <main className="min-h-screen bg-white pt-[55px] sm:pt-[90px]">
-        
-
-        {/* GRID */}
         <div
           className="
-            max-w-7xl mx-auto 
-            px-4 sm:px-6 
-            grid grid-cols-1 lg:grid-cols-4 
+            max-w-7xl mx-auto
+            px-4 sm:px-6
+            grid grid-cols-1 lg:grid-cols-4
             gap-10 md:gap-12
           "
         >
@@ -57,47 +77,156 @@ if (loading) return null;
 
           {/* PRODUCTS */}
           <div className="lg:col-span-3">
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
+              {translations.allPeptides.title}
+            </h1>
 
-  {/* TITLE */}
-  <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
-    {translations.allPeptides.title}
-  </h1>
-  <p className="text-gray-600 text-sm mt-1 mb-4">
-    {translations.allPeptides.subtitle}
-  </p>
+            <p className="text-gray-600 text-sm mt-1 mb-4">
+              {translations.allPeptides.subtitle}
+            </p>
 
-  {/* FILTER */}
-  <AllPeptidesCategorySlider
-    active={activeCategory}
-    onChange={setActiveCategory}
-  />
+            {/* CATEGORY SLIDER */}
+            <AllPeptidesCategorySlider
+              active={activeCategory}
+              onChange={setActiveCategory}
+            />
 
-  {/* COUNT */}
-  <p className="text-sm text-gray-700 mt-4 mb-6">
-    Showing <span className="font-semibold">{filteredProducts.length}</span> products
-  </p>
+            {/* COUNT */}
+            <p className="text-sm text-gray-700 mt-4 mb-6">
+              Showing{" "}
+              <span className="font-semibold">
+                {filteredProducts.length}
+              </span>{" "}
+              products
+            </p>
 
-  {/* PRODUCTS */}
- <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
-
-    {filteredProducts.map((product, index) => (
-      <ProductCard
-        key={`${product.id}-${index}`}
-        product={product}
-      />
-    ))}
-  </div>
-
-</div>
-
+            {/* PRODUCT GRID */}
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
+              {filteredProducts.map((product, index) => (
+                <ProductCard
+                  key={`${product.id}-${index}`}
+                  product={product}
+                />
+              ))}
+            </div>
+          </div>
         </div>
       </main>
 
-      {/* FOOTER — NO GAP BELOW */}
       <Footer />
     </>
   );
 }
+
+
+
+
+
+// //app\all-peptides\page.jsx
+// "use client";
+
+// import { useState, useEffect } from "react";
+
+// import Navbar from "@/components/Navbar";
+// import Footer from "@/components/Footer";
+// import Sidebar from "@/components/Sidebar";
+// import ProductCard from "@/components/ProductCard";
+// import { PRODUCTS } from "@/data/products";
+// import Breadcrumbs from "../../components/Breadcrumbs";
+// import { useLanguage } from "@/contexts/LanguageContext";
+// import AllPeptidesCategorySlider from "@/components/AllPeptidesCategorySlider";
+// import DrawerProducts from "@/components/DrawerProducts";
+
+
+
+// export default function AllPeptidesPage() {
+//   const { translations, loading } = useLanguage();
+//   const [activeCategory, setActiveCategory] = useState("All");
+//   const [drawerOpen, setDrawerOpen] = useState(false);
+
+
+// const filteredProducts =
+//   activeCategory === "All"
+//     ? PRODUCTS
+//     : PRODUCTS.filter(p => p.category === activeCategory);
+
+
+
+// useEffect(() => {
+//   window.scrollTo(0, 0);
+// }, []);
+
+// if (loading) return null;
+
+//   return (
+//     <>
+//       {/* NAVBAR — NO PADDING ABOVE */}
+//       <Navbar />
+//       <Breadcrumbs/>
+//       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
+
+
+//       {/* MAIN CONTENT ONLY */}
+//       <main className="min-h-screen bg-white pt-[55px] sm:pt-[90px]">
+        
+
+//         {/* GRID */}
+//         <div
+//           className="
+//             max-w-7xl mx-auto 
+//             px-4 sm:px-6 
+//             grid grid-cols-1 lg:grid-cols-4 
+//             gap-10 md:gap-12
+//           "
+//         >
+//           {/* SIDEBAR */}
+//           <aside className="hidden lg:block">
+//             <Sidebar />
+//           </aside>
+
+//           {/* PRODUCTS */}
+//           <div className="lg:col-span-3">
+
+//   {/* TITLE */}
+//   <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
+//     {translations.allPeptides.title}
+//   </h1>
+//   <p className="text-gray-600 text-sm mt-1 mb-4">
+//     {translations.allPeptides.subtitle}
+//   </p>
+
+//   {/* FILTER */}
+//   <AllPeptidesCategorySlider
+//     active={activeCategory}
+//     onChange={setActiveCategory}
+//   />
+
+//   {/* COUNT */}
+//   <p className="text-sm text-gray-700 mt-4 mb-6">
+//     Showing <span className="font-semibold">{filteredProducts.length}</span> products
+//   </p>
+
+//   {/* PRODUCTS */}
+//  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
+
+//     {filteredProducts.map((product, index) => (
+//       <ProductCard
+//         key={`${product.id}-${index}`}
+//         product={product}
+//       />
+//     ))}
+//   </div>
+
+// </div>
+
+//         </div>
+//       </main>
+
+//       {/* FOOTER — NO GAP BELOW */}
+//       <Footer />
+//     </>
+//   );
+// }
 
 
 

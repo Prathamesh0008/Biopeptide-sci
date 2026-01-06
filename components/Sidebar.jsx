@@ -29,7 +29,7 @@ export default function Sidebar() {
     >
       {Object.entries(grouped).map(([category, items]) => (
         <div key={`cat-${category}`}>
-          <h3 className="text-bioGreen font-semibold mb-2">
+         <h3 className="text-bioGreen font-semibold text-lg mb-3 tracking-wide">
             {translations?.categories?.[category] || category}
           </h3>
 

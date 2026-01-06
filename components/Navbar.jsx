@@ -89,6 +89,19 @@ const [searchFocused, setSearchFocused] = useState(false);
   { code: "fr", label: "French", flag: "fr" },
 ];
 
+useEffect(() => {
+  const updateCount = () => {
+    setCartCount(getCartCount());
+  };
+
+  updateCount(); // initial load
+
+  window.addEventListener("bio-cart-count-updated", updateCount);
+
+  return () => {
+    window.removeEventListener("bio-cart-count-updated", updateCount);
+  };
+}, []);
 
 
   

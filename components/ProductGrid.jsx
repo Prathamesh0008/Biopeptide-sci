@@ -91,9 +91,6 @@ const [isEntering, setIsEntering] = useState(false);
   }}
 />
 
-
-
-
    {/* PRODUCT GRID */}
 <div
   className={`

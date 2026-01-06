@@ -195,9 +195,7 @@ footer: {
     fda:
       "Las declaraciones de este sitio no han sido evaluadas por la Administración de Alimentos y Medicamentos de los Estados Unidos (FDA). Los productos de BioPeptide no están destinados a diagnosticar, tratar, curar o prevenir ninguna enfermedad.",
 
-    legalStatus:
-      "BioPeptide opera como proveedor de compuestos químicos y de investigación. BioPeptide no es una farmacia de preparación ni una instalación de subcontratación según lo definido en las secciones 503A y 503B de la Ley Federal de Alimentos, Medicamentos y Cosméticos."
-  }
+    }
 }
 ,
 peptideInfo: {
@@ -355,10 +353,55 @@ popularPeptides: {
   products: "productos"
 },
 bundlePage: {
-  title: "Combina y Ahorra",
-  subtitle: "Paquetes de investigación de BioPéptidos exclusivos diseñados para análisis multiparadigma, experimentación de precisión y flujos de trabajo científicos avanzados.",
-  viewBundleButton: "Ver paquete",
-},
+  title: "Paquetes y Ahorra",
+  subtitle:
+    "Paquetes de investigación BioPeptide exclusivos diseñados para análisis de múltiples vías, experimentación de precisión y flujos de trabajo científicos avanzados.",
+  viewBundleButton: "Ver Paquete",
+
+  categories: {
+    All: {
+      title: "Todos los Paquetes de Péptidos",
+      desc:
+        "Explora todos los paquetes de investigación BioPeptide diseñados para apoyar estudios de laboratorio diversos, protocolos combinados y una experimentación rentable.",
+    },
+    "Popular Peptides": {
+      title: "Paquetes de Péptidos Populares",
+      desc:
+        "Las combinaciones de paquetes más seleccionadas, ampliamente utilizadas en entornos de investigación avanzada.",
+    },
+    "Peptide Capsules": {
+      title: "Paquetes de Cápsulas de Péptidos",
+      desc:
+        "Paquetes de péptidos en cápsulas que ofrecen comodidad, estabilidad y manejo preciso para investigación controlada.",
+    },
+    "Peptide Blends": {
+      title: "Paquetes de Mezclas de Péptidos",
+      desc:
+        "Paquetes de mezclas sinérgicas formuladas para investigaciones de múltiples objetivos.",
+    },
+    "IGF-1 Proteins": {
+      title: "Paquetes de Proteínas IGF-1",
+      desc:
+        "Paquetes de investigación con IGF-1 y proteínas para estudios de señalización y respuesta celular.",
+    },
+    "Melanotan Peptides": {
+      title: "Paquetes de Péptidos Melanotan",
+      desc:
+        "Paquetes Melanotan destinados a investigaciones de pigmentación y actividad de receptores.",
+    },
+    Bioregulators: {
+      title: "Paquetes de Bioreguladores",
+      desc:
+        "Paquetes de bioreguladores de cadena corta para regulación celular e investigación molecular.",
+    },
+    "Cosmetic Peptides": {
+      title: "Paquetes de Péptidos Cosméticos",
+      desc:
+        "Paquetes orientados a la investigación cosmética y biología de la piel.",
+    },
+  },
+}
+,
 cartPage: {
   title: "Carrito de compras",
   empty: "Tu carrito está vacío.",
@@ -797,6 +840,119 @@ orderSuccess: {
   viewOrders: "Ver mis pedidos",
   continueShopping: "Seguir comprando",
   emailNote: "Recibirá un correo electrónico de confirmación en breve."
+},
+peptides: {
+    categories: {
+      All: {
+        title: "Todos los Péptidos",
+        description:
+          "Explore nuestra colección completa de péptidos de grado investigativo, proteínas y compuestos especializados desarrollados exclusivamente para investigación científica y de laboratorio.",
+      },
+
+      "Popular Peptides": {
+        title: "Péptidos Populares",
+        description:
+          "Nuestros péptidos más investigados y solicitados, ampliamente utilizados en estudios científicos y de laboratorio.",
+      },
+
+      "Peptide Capsules": {
+        title: "Cápsulas de Péptidos",
+        description:
+          "Formulaciones en cápsulas diseñadas para una dosificación precisa y estabilidad en investigaciones controladas.",
+      },
+
+      "Peptide Blends": {
+        title: "Mezclas de Péptidos",
+        description:
+          "Combinaciones avanzadas de péptidos desarrolladas para protocolos de investigación complejos.",
+      },
+
+      "IGF-1 Proteins": {
+        title: "Proteínas IGF-1",
+        description:
+          "Proteínas del factor de crecimiento similares a la insulina utilizadas en estudios de crecimiento celular y regeneración.",
+      },
+
+      "Melanotan Peptides": {
+        title: "Péptidos Melanotan",
+        description:
+          "Péptidos estudiados en investigaciones de pigmentación y receptores hormonales.",
+      },
+
+      Bioregulators: {
+        title: "Biorreguladores",
+        description:
+          "Péptidos de cadena corta investigados por su papel en la señalización celular.",
+      },
+
+      "Cosmetic Peptides": {
+        title: "Péptidos Cosméticos",
+        description:
+          "Péptidos utilizados en investigaciones cosméticas y dermatológicas para el cuidado de la piel.",
+      },
+    },
+  },
+privacy: {
+  hero: {
+    title: "Política de Privacidad",
+    description:
+      "Esta Política de Privacidad explica cómo BioPeptide™ recopila, utiliza y protege su información."
+  },
+  intro: {
+    site: "Política de Privacidad de www.biopeptide.com (BioPeptide™)",
+    contact:
+      "Si necesita más información o tiene preguntas sobre nuestra política de privacidad, contáctenos por correo electrónico en",
+    importance:
+      "En BioPeptide™, la privacidad de nuestros visitantes es extremadamente importante. Este documento describe qué información personal se recopila y cómo se utiliza."
+  },
+  sections: {
+    logFiles: {
+      title: "Archivos de Registro",
+      p1:
+        "BioPeptide™ utiliza archivos de registro que incluyen direcciones IP, tipo de navegador, ISP y marcas de tiempo.",
+      p2:
+        "Esta información se utiliza para analizar tendencias y administrar el sitio. No se vincula a información personal identificable."
+    },
+    cookies: {
+      title: "Cookies y Balizas Web",
+      p1:
+        "BioPeptide™ utiliza cookies para almacenar preferencias de los visitantes y personalizar el contenido.",
+      p2:
+        "Puede desactivar las cookies desde la configuración de su navegador.",
+      p3:
+        "Las cookies también pueden utilizarse para rastrear carritos de compra y enviar recordatorios por SMS."
+    },
+    disclosure: {
+      title: "Divulgación de Información",
+      p1:
+        "Los datos de consentimiento por SMS no se comparten con terceros, excepto proveedores de servicios SMS."
+    },
+    personal: {
+      title: "Correo Electrónico e Información Personal",
+      p1:
+        "BioPeptide™ recopila información personal como nombre y correo electrónico.",
+      p2:
+        "Esta información se recopila al realizar pedidos o interactuar con el sitio.",
+      p3:
+        "No vendemos ni alquilamos información personal.",
+      p4:
+        "BioPeptide™ puede contactarlo con actualizaciones y ofertas.",
+      p5:
+        "Puede darse de baja en cualquier momento contactando a"
+    },
+    thirdParty: {
+      title: "Contenido de Terceros",
+      p1:
+        "BioPeptide™ no utiliza servicios publicitarios de terceros."
+    },
+    security: {
+      title: "Seguridad",
+      p1:
+        "Utilizamos medidas de seguridad estándar de la industria.",
+      p2:
+        "Tomamos medidas razonables para proteger sus datos."
+    }
+  }
 }
 
 

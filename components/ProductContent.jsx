@@ -66,15 +66,15 @@ const t = (path) => path.split(".").reduce((obj, key) => obj?.[key], translation
           <h2 className="text-2xl font-bold text-[#0d2d47]">
   {t("productContent.mechanism") || "Mechanism of Action"}
 </h2>
-          <p className="text-[15px] leading-relaxed text-gray-700">
+          <ul className="text-[15px] leading-relaxed text-gray-700">
             {product.name} influences:
             <br /><br />
-            • Growth factor sensitivity  
-            • Regenerative signaling  
-            • Gene expression  
-            • ATP mitochondrial production  
-            • Enzymatic activation  
-          </p>
+            <li>• Growth factor sensitivity  </li>
+            <li>• Regenerative signaling</li>  
+            <li>• Gene expression  </li>
+            <li>• ATP mitochondrial production </li> 
+            <li>• Enzymatic activation  </li>
+          </ul>
         </div>
 
         <div className="h-[1px] bg-[#dbe9f3]" />

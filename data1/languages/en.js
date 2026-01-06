@@ -185,8 +185,7 @@ footer: {
     fda:
       "The statements made on this website have not been evaluated by the United States Food and Drug Administration (FDA). The products offered by BioPeptide are not intended to diagnose, treat, cure, or prevent any disease.",
 
-    legalStatus:
-      "BioPeptide operates as a chemical and research compound supplier. BioPeptide is not a compounding pharmacy or chemical compounding facility as defined under Section 503A of the Federal Food, Drug, and Cosmetic Act. BioPeptide is also not an outsourcing facility as defined under Section 503B of the Federal Food, Drug, and Cosmetic Act."
+    
   }
 }
 ,
@@ -350,9 +349,61 @@ popularPeptides: {
 },
 bundlePage: {
   title: "Bundle & Save",
-  subtitle: "Exclusive BioPeptide research bundles designed for multi-pathway analysis, precision experimentation and advanced scientific workflows.",
+  subtitle:
+    "Exclusive BioPeptide research bundles designed for multi-pathway analysis, precision experimentation and advanced scientific workflows.",
   viewBundleButton: "View Bundle",
-},
+
+  categories: {
+    All: {
+      title: "All Peptide Bundles",
+      desc:
+        "Explore all BioPeptide research bundles designed to support diverse laboratory studies, combination protocols, and cost-effective experimentation.",
+    },
+
+    "Popular Peptides": {
+      title: "Popular Peptide Bundles",
+      desc:
+        "Our most selected peptide bundle combinations, widely used in advanced research environments and experimental workflows.",
+    },
+
+    "Peptide Capsules": {
+      title: "Peptide Capsule Bundles",
+      desc:
+        "Capsule-based peptide bundles offering convenience, stability, and precise handling for controlled laboratory research.",
+    },
+
+    "Peptide Blends": {
+      title: "Peptide Blend Bundles",
+      desc:
+        "Synergistic peptide blend bundles formulated to support multi-target research and pathway-focused experimentation.",
+    },
+
+    "IGF-1 Proteins": {
+      title: "IGF-1 Protein Bundles",
+      desc:
+        "Research bundles containing IGF-1 and protein-based peptides for growth-factor, signaling, and cellular response studies.",
+    },
+
+    "Melanotan Peptides": {
+      title: "Melanotan Peptide Bundles",
+      desc:
+        "Melanotan-focused peptide bundles intended for pigmentation, receptor activity, and biological response research.",
+    },
+
+    Bioregulators: {
+      title: "Bioregulator Bundles",
+      desc:
+        "Short-chain bioregulator peptide bundles designed for cellular regulation, tissue signaling, and molecular research.",
+    },
+
+    "Cosmetic Peptides": {
+      title: "Cosmetic Peptide Bundles",
+      desc:
+        "Cosmetic-oriented peptide research bundles supporting skin biology, structural protein, and dermal pathway studies.",
+    },
+  },
+}
+,
 cartPage: {
   title: "Shopping Cart",
   empty: "Your cart is empty.",
@@ -937,9 +988,128 @@ orderSuccess: {
   viewOrders: "View My Orders",
   continueShopping: "Continue Shopping",
   emailNote: "You’ll receive an email confirmation shortly."
-}
+},
+peptides: {
+    categories: {
+      All: {
+        title: "All Peptides",
+        description:
+          "Explore our complete collection of research-grade peptides, proteins, and specialty compounds developed exclusively for scientific and laboratory research. This category includes popular peptides, capsule-based formulations, peptide blends, IGF proteins, cosmetic peptides, and bioregulators. Each product is manufactured under strict quality controls to ensure high purity, accurate composition, and reliable performance for experimental use.",
+      },
 
+      "Popular Peptides": {
+        title: "Popular Peptides",
+        description:
+          "Our most widely researched and frequently ordered peptides, trusted by laboratories and research professionals worldwide. These peptides are selected based on demand, research relevance, and consistency in results. Popular peptides are commonly studied in areas such as cellular signaling, metabolism, regeneration, and receptor interactions.",
+      },
 
+      "Peptide Capsules": {
+        title: "Peptide Capsules",
+        description:
+          "Capsule-based peptide formulations designed for convenient handling, precise dosing, and improved stability during storage. These products are widely used in controlled research environments where standardized delivery formats are preferred for consistency and reproducibility.",
+      },
+
+      "Peptide Blends": {
+        title: "Peptide Blends",
+        description:
+          "Advanced peptide combinations formulated to support complex research protocols. Peptide blends allow researchers to study synergistic interactions between compounds, making them ideal for advanced experimental models and multi-pathway research applications.",
+      },
+
+      "IGF-1 Proteins": {
+        title: "IGF-1 Proteins",
+        description:
+          "Insulin-like Growth Factor (IGF) proteins commonly studied in growth, regeneration, cellular development, and metabolic research. These proteins are used in advanced laboratory studies focused on cell proliferation, tissue response, and biological signaling mechanisms.",
+      },
+
+      "Melanotan Peptides": {
+        title: "Melanotan Peptides",
+        description:
+          "Melanocortin-based peptides studied primarily for pigmentation pathways, receptor binding, and metabolic research. These peptides are widely researched in laboratories focused on skin biology, hormone interaction, and receptor modulation.",
+      },
+
+      Bioregulators: {
+        title: "Bioregulators",
+        description:
+          "Short-chain peptides researched for their role in cellular communication, tissue-specific signaling, and age-related biological processes. Bioregulators are commonly studied in longevity, regenerative science, and organ-specific research models.",
+      },
+
+      "Cosmetic Peptides": {
+        title: "Cosmetic Peptides",
+        description:
+          "Peptides studied in cosmetic and dermatological research, focusing on collagen synthesis, skin elasticity, hydration, and cellular repair. These compounds are widely used in laboratory studies supporting skincare science and aesthetic research.",
+      },
+    },
+  },
+
+ privacy: {
+    hero: {
+      title: "Privacy Policy",
+      description:
+        "This Privacy Policy explains how BioPeptide™ collects, uses, and protects your information when you visit our website."
+    },
+
+    intro: {
+      site: "Privacy Policy for www.biopeptide.com (BioPeptide™)",
+      contact:
+        "If you require any more information or have any questions about our privacy policy, please feel free to contact us by email at",
+      importance:
+        "At BioPeptide™, the privacy of our visitors is of extreme importance to us. This privacy policy document outlines the types of personal information that are received and collected by BioPeptide™ and how it is used."
+    },
+
+    sections: {
+      logFiles: {
+        title: "Log Files",
+        p1:
+          "Like many other websites, BioPeptide™ makes use of log files. The information inside the log files includes IP addresses, browser type, ISP, date and time stamps, referring/exit pages, and number of clicks.",
+        p2:
+          "This information is used to analyze trends, administer the site, track users’ movement, and gather demographic information. IP addresses are not linked to personally identifiable information."
+      },
+
+      cookies: {
+        title: "Cookies and Web Beacons",
+        p1:
+          "BioPeptide™ uses cookies to store information about visitors’ preferences and to customize web page content.",
+        p2:
+          "You can disable cookies through your browser options. More detailed information can be found on browser websites.",
+        p3:
+          "Cookies may also be used to track shopping cart activity and send cart reminder messages via SMS."
+      },
+
+      disclosure: {
+        title: "Disclosure of Your Information",
+        p1:
+          "Text messaging opt-in data and consent are not shared with third parties, except SMS service providers."
+      },
+
+      personal: {
+        title: "Email and Personal Information",
+        p1:
+          "BioPeptide™ collects personal information such as name, email, and purchasing activity to provide a secure experience.",
+        p2:
+          "We collect this information when you place orders or interact with our website.",
+        p3:
+          "We do not sell or rent personal information to third parties.",
+        p4:
+          "BioPeptide™ may contact you regarding product updates and offers.",
+        p5:
+          "You may unsubscribe at any time by contacting"
+      },
+
+      thirdParty: {
+        title: "Third-Party Content",
+        p1:
+          "BioPeptide™ does not partner with third-party advertising or content services."
+      },
+
+      security: {
+        title: "Security",
+        p1:
+          "We use industry-standard security measures to protect submitted information.",
+        p2:
+          "While no system is 100% secure, we take appropriate steps to safeguard your data."
+      }
+    }
+  }
 
 
 

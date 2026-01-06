@@ -190,9 +190,7 @@ footer: {
     fda:
       "本网站中的声明尚未经过美国食品药品监督管理局（FDA）评估。BioPeptide 的产品不用于诊断、治疗、治愈或预防任何疾病。",
 
-    legalStatus:
-      "BioPeptide 是一家研究和化学化合物供应商。BioPeptide 不属于《美国联邦食品、药品和化妆品法》第503A或503B条所定义的配药药房或外包生产机构。"
-  }
+    }
 }
 ,
 peptideInfo: {
@@ -352,9 +350,54 @@ popularPeptides: {
 },
 bundlePage: {
   title: "组合优惠",
-  subtitle: "专为多通路分析、精密实验和先进科学工作流程而设计的专属BioPeptide研究套装。",
+  subtitle:
+    "BioPeptide 专属研究组合，专为多通路分析和高级科研流程而设计。",
   viewBundleButton: "查看组合",
-},
+
+  categories: {
+    All: {
+      title: "所有肽组合",
+      desc:
+        "探索所有 BioPeptide 研究组合，支持多样化实验与高效研究。",
+    },
+    "Popular Peptides": {
+      title: "热门肽组合",
+      desc:
+        "在高级研究环境中最受欢迎的组合方案。",
+    },
+    "Peptide Capsules": {
+      title: "肽胶囊组合",
+      desc:
+        "提供稳定性和精准操作的胶囊型组合。",
+    },
+    "Peptide Blends": {
+      title: "肽混合组合",
+      desc:
+        "用于多靶点研究的协同肽混合方案。",
+    },
+    "IGF-1 Proteins": {
+      title: "IGF-1 蛋白组合",
+      desc:
+        "用于细胞和信号研究的 IGF-1 研究组合。",
+    },
+    "Melanotan Peptides": {
+      title: "美黑肽组合",
+      desc:
+        "用于色素研究的肽组合。",
+    },
+    Bioregulators: {
+      title: "生物调节肽组合",
+      desc:
+        "用于分子研究的短链生物调节肽。",
+    },
+    "Cosmetic Peptides": {
+      title: "美容肽组合",
+      desc:
+        "支持皮肤生物学研究的美容肽组合。",
+    },
+  },
+}
+,
 cartPage: {
   title: "购物车",
   empty: "您的购物车为空。",
@@ -792,6 +835,119 @@ orderSuccess: {
   viewOrders: "查看我的订单",
   continueShopping: "继续购物",
   emailNote: "您将很快收到确认邮件。"
+},
+peptides: {
+    categories: {
+      All: {
+        title: "所有肽类",
+        description:
+          "探索我们完整的研究级肽、蛋白质和实验室专用化合物系列。",
+      },
+
+      "Popular Peptides": {
+        title: "热门肽类",
+        description:
+          "实验室中最常研究和使用的高质量肽类产品。",
+      },
+
+      "Peptide Capsules": {
+        title: "肽胶囊",
+        description:
+          "为精确剂量和稳定性设计的胶囊型肽类产品。",
+      },
+
+      "Peptide Blends": {
+        title: "肽混合物",
+        description:
+          "用于复杂研究方案的先进肽组合。",
+      },
+
+      "IGF-1 Proteins": {
+        title: "IGF-1 蛋白",
+        description:
+          "用于细胞生长和再生研究的蛋白质。",
+      },
+
+      "Melanotan Peptides": {
+        title: "美拉诺坦肽",
+        description:
+          "用于色素和受体研究的肽类。",
+      },
+
+      Bioregulators: {
+        title: "生物调节肽",
+        description:
+          "研究细胞信号传递的短链肽。",
+      },
+
+      "Cosmetic Peptides": {
+        title: "美容肽",
+        description:
+          "用于皮肤和美容科学研究的肽类。",
+      },
+    },
+  },
+privacy: {
+  hero: {
+    title: "隐私政策",
+    description:
+      "本隐私政策说明 BioPeptide™ 如何收集、使用和保护您的信息。"
+  },
+  intro: {
+    site: "www.biopeptide.com 隐私政策",
+    contact:
+      "如有任何隐私相关问题，请通过电子邮件联系我们",
+    importance:
+      "BioPeptide™ 非常重视访客的隐私。"
+  },
+  sections: {
+    logFiles: {
+      title: "日志文件",
+      p1:
+        "我们使用包含 IP 地址和浏览器信息的日志文件。",
+      p2:
+        "这些数据不会与个人身份关联。"
+    },
+    cookies: {
+      title: "Cookies",
+      p1:
+        "我们使用 Cookies 来优化用户体验。",
+      p2:
+        "您可以在浏览器中禁用 Cookies。",
+      p3:
+        "Cookies 可能用于短信提醒。"
+    },
+    disclosure: {
+      title: "信息披露",
+      p1:
+        "短信同意数据不会共享。"
+    },
+    personal: {
+      title: "个人信息",
+      p1:
+        "我们收集个人信息以确保安全体验。",
+      p2:
+        "下单或互动时收集。",
+      p3:
+        "我们不出售个人信息。",
+      p4:
+        "可能发送产品更新。",
+      p5:
+        "如需取消，请联系"
+    },
+    thirdParty: {
+      title: "第三方内容",
+      p1:
+        "不使用第三方广告服务。"
+    },
+    security: {
+      title: "安全",
+      p1:
+        "采用行业标准安全措施。",
+      p2:
+        "尽力保护您的数据。"
+    }
+  }
 }
 
 
