@@ -1,9 +1,7 @@
-// peptides/components/Footer.jsx
 "use client";
 
 import Link from "next/link";
 import Image from "next/image";
-
 import { useLanguage } from "@/contexts/LanguageContext";
 import {
   FaPhoneAlt,
@@ -12,253 +10,225 @@ import {
   FaMapMarkerAlt,
 } from "react-icons/fa";
 
-
-
 export default function Footer() {
   const { translations } = useLanguage();
 
-const t = (path) => {
-  try {
-    return path
-      .split(".")
-      .reduce((obj, key) => obj?.[key], translations?.footer || {});
-  } catch {
-    return "";
-  }
-};
+  const t = (path) => {
+    try {
+      return path
+        .split(".")
+        .reduce((obj, key) => obj?.[key], translations?.footer || {});
+    } catch {
+      return "";
+    }
+  };
 
   return (
-    <footer
-  className="
-    relative mt-16 text-white
-    bg-white text-gray-700
+    <footer className="relative bg-white text-gray-700 mt-16">
+      {/* ================= NEWSLETTER ================= */}
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-14">
+        <div
+          className="
+            bg-[linear-gradient(to_bottom,#65b4d7,#1a497c)]
+            border border-white/20
+            rounded-2xl
+            p-8 sm:p-10
+            max-w-3xl mx-auto
+            shadow-xl
+            text-center
+          "
+        >
+          <h2 className="text-2xl sm:text-3xl font-bold text-white">
+            {t("newsletter.title")}
+          </h2>
 
-  "
->
+          <p className="text-white/80 mt-2 text-sm sm:text-base">
+            {t("newsletter.subtitle")}
+          </p>
 
+          <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+            <input
+              type="email"
+              placeholder={t("newsletter.placeholder")}
+              className="
+                w-full sm:w-96
+                px-5 py-3
+                text-sm
+                rounded-lg sm:rounded-l-lg sm:rounded-r-none
+                bg-white/90
+                text-gray-900
+                placeholder-gray-500
+                focus:ring-2 focus:ring-[#65b4d7]/60
+                outline-none
+              "
+            />
 
-      {/* ===== NEWSLETTER (BLUE GRADIENT CARD) ===== */}
-<div className="relative max-w-6xl mx-auto px-6 py-14 text-center">
-  <div
-    className="
-      bg-[linear-gradient(to_bottom,#65b4d7,#1a497c)]
-      backdrop-blur-lg
-      border border-white/20
-      rounded-2xl
-      p-10
-      max-w-3xl mx-auto
-      shadow-xl
-    "
-  >
-    <h2 className="text-2xl sm:text-3xl font-bold text-white">
-     {t("newsletter.title")}
-    </h2>
-
-    <p className="text-white/80 mt-2 text-sm sm:text-base">
-      {t("newsletter.subtitle")}
-
-    </p>
-
-    <div className="mt-6 flex flex-col sm:flex-row justify-center gap-3">
-      <input
-        type="email"
-        placeholder={t("newsletter.placeholder")}
-        className="
-          w-full sm:w-96
-          px-5 py-3 text-sm
-          rounded-lg sm:rounded-l-lg
-          bg-white/90
-          text-gray-900
-          placeholder-gray-500
-          focus:ring-2 focus:ring-[#65b4d7]/60
-          outline-none
-        "
-      />
-
-      <button
-  className="
-    px-6 py-3
-    rounded-lg sm:rounded-none sm:rounded-r-lg
-    text-sm font-semibold text-white
-    bg-[linear-gradient(to_right,#145b2f,#559f45)]
-    hover:brightness-110
-    transition
-  "
->
- {t("newsletter.button")}
-</button>
-
-    </div>
-  </div>
-</div>
-
-
-
-      {/* ===== FOOTER CONTENT ===== */}
-     <div className="border-t border-gray-200">
-  <div
-    className="
-      max-w-6xl mx-auto px-6 py-14
-grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6
-gap-10 sm:gap-12 lg:gap-12
-justify-items-start
-
-    "
-  >
-
-    {/* BRAND */}
-    <div className="space-y-4 lg:col-span-2 lg:pr-10 -ml-2">
-
-      <Link href="/" aria-label="Go to homepage">
-  <Image
-    src="/images/logo1.png"
-    alt="BioPeptide Logo"
-    width={260}
-    height={70}
-    className="object-contain cursor-pointer"
-    priority
-  />
-</Link>
-
-
-      <p className="text-sm text-gray-600 leading-relaxed">
-        {t("brand.description")}
-      </p>
-    </div>
-{/* ALL OTHER COLUMNS */}
-<div className="lg:col-span-4 lg:-ml-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 lg:gap-16">
-    {/* INFORMATION */}
-   <FooterColumn title={t("columns.information.title")} >
-
-      <FooterLink text={t("columns.information.links.0")} href="/all-peptides" />
-      <FooterLink text={t("columns.information.links.1")} href="/bundle-save" />
-      <FooterLink text={t("columns.information.links.2")} href="/peptide-research" />
-      <FooterLink text={t("columns.information.links.3")} href="/lab-testing" />
-      <FooterLink text={t("columns.information.links.4")} href="/about" />
-      <FooterLink text={t("columns.information.links.5")} href="/contact" />
-    </FooterColumn>
-
-    {/* BUY PEPTIDES */}
-    <FooterColumn title={t("columns.shop.title")} >
-
-      <FooterLink text={t("columns.shop.links.0")} href="/category/capsules" />
-      <FooterLink text={t("columns.shop.links.1")} href="/category/blends" />
-      <FooterLink text={t("columns.shop.links.2")} href="/category/igf-1-proteins" />
-      <FooterLink text={t("columns.shop.links.3")} href="/category/melanotan" />
-      <FooterLink text={t("columns.shop.links.4")} href="/category/bioregulators" />
-      <FooterLink text={t("columns.shop.links.5")} href="/category/cosmetic-peptides" />
-    </FooterColumn>
-
-    {/* LEGAL */}
-    <FooterColumn title={t("columns.legal.title")} >
-
-      <FooterLink text={t("columns.legal.links.0")} href="/privacy-policy" />
-      <FooterLink text={t("columns.legal.links.1")} href="/terms" />
-      <FooterLink text={t("columns.legal.links.2")} href="/shipping-payments" />
-      <FooterLink text={t("columns.legal.links.3")} href="/accessibility" />
-      <FooterLink text={t("columns.legal.links.4")} href="/rewards-terms" />
-    </FooterColumn>
-
-    
-
-    {/* CONTACT */}
-   <div className="space-y-3  ">
-
-  <h3 className="font-semibold text-gray-900">
-    {t("columns.contact.title")}
-  </h3>
-
-  <div className="space-y-4 text-sm text-gray-700">
-
-      <div className="flex gap-3">
-        <FaPhoneAlt className="text-bioBlue text-lg mt-1" />
-        <div>
-          <p className="font-semibold">Phone</p>
-          <p>1-800-986-6401</p>
-          <p className="text-xs text-gray-500">{t("contact.hours")}</p>
+            <button
+              className="
+                px-6 py-3
+                rounded-lg sm:rounded-l-none sm:rounded-r-lg
+                text-sm font-semibold text-white
+                bg-[linear-gradient(to_right,#145b2f,#559f45)]
+                hover:brightness-110
+                transition
+              "
+            >
+              {t("newsletter.button")}
+            </button>
+          </div>
         </div>
       </div>
 
-      <div className="flex gap-3">
-        <FaEnvelope className="text-bioBlue text-lg mt-1" />
-        <div>
-          <p className="font-semibold">Email</p>
-          <p>support@biopeptide.com</p>
+      {/* ================= FOOTER CONTENT ================= */}
+      <div className="border-t border-gray-200">
+        <div
+          className="
+            max-w-6xl mx-auto
+            px-4 sm:px-6 py-14
+            grid grid-cols-1 lg:grid-cols-6
+            gap-10 lg:gap-12
+          "
+        >
+          {/* BRAND */}
+          <div className="lg:col-span-2 space-y-4">
+            <Link href="/" aria-label="Go to homepage">
+              <Image
+                src="/images/Logobio.svg"
+                alt="BioPeptide Logo"
+                width={240}
+                height={64}
+                className="object-contain"
+                priority
+              />
+            </Link>
+
+            <p className="text-sm text-gray-600 leading-relaxed max-w-md">
+              {t("brand.description")}
+            </p>
+          </div>
+
+          {/* LINKS GRID */}
+          <div className="lg:col-span-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+            {/* INFORMATION */}
+            <FooterColumn title={t("columns.information.title")}>
+              <FooterLink text={t("columns.information.links.0")} href="/all-peptides" />
+              <FooterLink text={t("columns.information.links.1")} href="/bundle-save" />
+              <FooterLink text={t("columns.information.links.2")} href="/peptide-research" />
+              <FooterLink text={t("columns.information.links.3")} href="/lab-testing" />
+              <FooterLink text={t("columns.information.links.4")} href="/about" />
+              <FooterLink text={t("columns.information.links.5")} href="/contact" />
+            </FooterColumn>
+
+            {/* SHOP */}
+            <FooterColumn title={t("columns.shop.title")}>
+              <FooterLink text={t("columns.shop.links.0")} href="/category/capsules" />
+              <FooterLink text={t("columns.shop.links.1")} href="/category/blends" />
+              <FooterLink text={t("columns.shop.links.2")} href="/category/igf-1-proteins" />
+              <FooterLink text={t("columns.shop.links.3")} href="/category/melanotan" />
+              <FooterLink text={t("columns.shop.links.4")} href="/category/bioregulators" />
+              <FooterLink text={t("columns.shop.links.5")} href="/category/cosmetic-peptides" />
+            </FooterColumn>
+
+            {/* LEGAL */}
+            <FooterColumn title={t("columns.legal.title")}>
+              <FooterLink text={t("columns.legal.links.0")} href="/privacy-policy" />
+              <FooterLink text={t("columns.legal.links.1")} href="/terms" />
+              <FooterLink text={t("columns.legal.links.2")} href="/shipping-payments" />
+              <FooterLink text={t("columns.legal.links.3")} href="/accessibility" />
+              <FooterLink text={t("columns.legal.links.4")} href="/rewards-terms" />
+            </FooterColumn>
+
+            {/* CONTACT */}
+            <div className="space-y-4">
+              <h3 className="font-semibold text-gray-900 uppercase text-sm">
+                {t("columns.contact.title")}
+              </h3>
+
+              <div className="space-y-4 text-sm text-gray-700">
+                <ContactRow icon={<FaPhoneAlt />} title="Phone">
+                  <p>1-800-986-6401</p>
+                  <p className="text-xs text-gray-500">{t("contact.hours")}</p>
+                </ContactRow>
+
+                {/* ✅ EMAIL (ADDED BACK) */}
+                <ContactRow icon={<FaEnvelope />} title="Email">
+                  <p>support@biopeptide.com</p>
+                </ContactRow>
+
+                <ContactRow icon={<FaTruck />} title="Shipping Days">
+                  <p>Mon–Fri (Except Holidays)</p>
+                </ContactRow>
+
+                <ContactRow icon={<FaMapMarkerAlt />} title="Mailing Address">
+                  <p>BioPeptide Labs</p>
+                  <p>Boca Raton, FL, USA</p>
+                </ContactRow>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div className="flex gap-3">
-        <FaTruck className="text-bioBlue text-lg mt-1" />
-        <div>
-          <p className="font-semibold">Shipping Days</p>
-          <p className="text-sm">Mon–Fri (Except Holidays)</p>
+      {/* ================= COPYRIGHT ================= */}
+      <div className="border-t border-gray-200 py-8 px-4 sm:px-6 text-xs text-gray-500">
+        <div className="max-w-6xl mx-auto space-y-3 text-center">
+          <p className="font-medium text-gray-700">
+            {t("disclaimer.copyrightLine")}
+          </p>
+          <p>{t("disclaimer.researchOnly")}</p>
+          <p>{t("disclaimer.fda")}</p>
+          <p>{t("disclaimer.legalStatus")}</p>
         </div>
-      </div>
-
-      <div className="flex gap-3">
-        <FaMapMarkerAlt className="text-bioBluemt-1" />
-        <div>
-          <p className="font-semibold">Mailing Address</p>
-          <p>BioPeptide Labs</p>
-          <p>Boca Raton, FL, USA</p>
-        </div>
-      </div>
-    </div>
-    </div>
-
-  </div>
-</div>
-
-      {/* COPYRIGHT */}
-      <div className="border-t border-gray-200 py-8 px-6 text-xs text-gray-500 leading-relaxed">
-  <div className="max-w-6xl mx-auto space-y-3 text-center">
-
-    <p className="font-medium text-gray-700">
-      {t("disclaimer.copyrightLine")}
-    </p>
-
-    <p>{t("disclaimer.researchOnly")}</p>
-
-    <p>{t("disclaimer.fda")}</p>
-
-    <p>{t("disclaimer.legalStatus")}</p>
-
-  </div>
-</div>
-
       </div>
     </footer>
   );
 }
 
-/* COLUMN */
-function FooterColumn({ title, children, className = "" }) {
-  return (
-    <div className={`space-y-3 ${className}`}>
+/* ================= HELPERS ================= */
 
-     <h3 className="font-semibold text-gray-900 tracking-wide uppercase text-sm">
-  {title}
-</h3>
-     <ul className="space-y-3 pt-1">{children}</ul>
+function FooterColumn({ title, children }) {
+  return (
+    <div className="space-y-3">
+      <h3 className="font-semibold text-gray-900 uppercase text-sm tracking-wide">
+        {title}
+      </h3>
+      <ul className="space-y-2">{children}</ul>
     </div>
   );
 }
 
-
-
-/* LINK */
 function FooterLink({ text, href }) {
   return (
     <li>
       <Link
         href={href}
-        className=" text-[14px] text-gray-600 hover:text-bioBlue transition"
+        className="text-sm text-gray-600 hover:text-bioBlue transition"
       >
         {text}
       </Link>
     </li>
   );
 }
+
+function ContactRow({ icon, title, children }) {
+  return (
+    <div className="grid grid-cols-[20px_1fr] gap-3 items-start">
+      <span className="text-bioBlue text-lg mt-1">
+        {icon}
+      </span>
+
+      <div className="min-w-0">
+        <p className="font-semibold leading-tight">{title}</p>
+
+        <div className="text-sm text-gray-700 break-all sm:break-normal">
+          {children}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
 
 
 

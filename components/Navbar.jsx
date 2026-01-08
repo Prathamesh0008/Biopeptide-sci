@@ -293,11 +293,11 @@ useEffect(() => {
              cursor-pointer"
 >
   <Image
-    src="/images/logo1.png"
+    src="/images/Logobio.svg"
     alt="BioPeptide Logo"
     width={300}
     height={80}
-    className="object-contain"
+    className="object-contain h-17"
     priority
   />
 </Link>

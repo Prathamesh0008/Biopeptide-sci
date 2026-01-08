@@ -34,7 +34,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
- image: "/product/peptides/AICAR.png"
+ image: "/product/peptides/adipotide6.png"
 
 },
 
@@ -732,7 +732,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/Adipotide10mg.svg"
+  image: "/product/Peptides/Adipotide10mg.png"
 },
 
 {

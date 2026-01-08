@@ -340,34 +340,48 @@ export default function ProductPage() {
 
         {/* PRODUCT */}
         <section className="max-w-7xl mx-auto px-0 sm:px-6 mt-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 border p-6 sm:p-10 bg-gradient-to-br from-white via-[#f3faff] to-[#eefcfc]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14  p-6 sm:p-10 ">
 
             {/* IMAGE */}
-            <div className="flex flex-col gap-6 w-full max-w-[350px] mx-auto">
+            <div className="flex flex-col gap-6 w-full max-w-[450px] mx-auto">
               <div
-                onClick={() => setPreviewOpen(true)}
-                className="relative h-[420px] bg-white border p-6 cursor-zoom-in"
-              >
-                <Image
-                  src={product.image}
-                  alt={product.name}
-                  fill
-                  className="object-contain"
-                />
-              </div>
+  onClick={() => setPreviewOpen(true)}
+  className="relative h-[560px] p-6 cursor-zoom-in flex items-center justify-center"
+>
+  {/* BOTTOM SHADOW */}
+  <div
+    className="
+      absolute 
+      bottom-12 
+      w-[55%] 
+      h-[30px] 
+      bg-black/30 
+      blur-2xl 
+      rounded-full
+    "
+  />
+
+  {/* PRODUCT IMAGE */}
+  <Image
+    src={product.image}
+    alt={product.name}
+    fill
+    className="object-contain p-2 relative z-10"
+  />
+</div>
 
               {/* BADGES */}
               <div className="flex flex-wrap justify-center gap-2 text-[11px] font-medium">
-                <span className="px-3 py-1 border bg-[#e7f4ff]">
+                <span className="px-3 py-1 border ">
                   {t?.badges.hplc}
                 </span>
-                <span className="px-3 py-1 border bg-[#e7f4ff]">
+                <span className="px-3 py-1 border ">
                   {product.purity}
                 </span>
-                <span className="px-3 py-1 border bg-[#eefcfc]">
+                <span className="px-3 py-1 border ">
                   {t?.badges.research}
                 </span>
-                <span className="px-3 py-1 border bg-[#fff9e6]">
+                <span className="px-3 py-1 border ">
                   {t?.badges.coa}
                 </span>
               </div>
@@ -375,15 +389,15 @@ export default function ProductPage() {
 
             {/* DETAILS */}
             <div className="flex flex-col gap-6 sm:gap-8">
-              <h1 className="text-4xl font-bold text-[#0d2d47]">
+              <h1 className="text-4xl font-bold text-black">
                 {product.name}
               </h1>
 
-              <p className="text-sm font-medium text-[#0d2d47]/60 border-l-4 border-[#0097b8] pl-3">
+              <p className="text-sm font-bold  p-2 text-black border-l-4 border-black pl-3">
                 {t?.tagline}
               </p>
 
-              <p className="text-gray-700 text-sm leading-relaxed max-w-xl">
+              <p className="text-black text-sm  leading-relaxed max-w-xl">
                 {product.description}
                 <br /><br />
                 {t?.description.p1.replace("{name}", product.name)}
@@ -392,17 +406,18 @@ export default function ProductPage() {
               </p>
 
               {/* PRICE */}
-              <div className="border p-6 max-w-xs bg-white shadow-sm">
-                <p className="text-4xl font-semibold text-[#0d2d47]">
+              <div className=" p-6 max-w-xs ">
+                <p className="text-4xl font-semibold text-black">
                   ${product.price}
                 </p>
-                <p className="text-xs text-gray-500">
+                <p className="text-xs text-black">
                   {t?.priceNote}
                 </p>
 
                 <button
                   onClick={handleAddToCart}
-                  className="mt-4 w-full py-3 font-semibold text-white bg-gradient-to-r from-[#0d2d47] to-[#0097b8]"
+                  className="mt-4 w-full py-3 font-semibold text-white bg-[linear-gradient(to_right,#185b30,#55a045,#66b4d8,#1a4a7d)]
+"
                 >
                   {t?.addToCart}
                 </button>
@@ -416,9 +431,9 @@ export default function ProductPage() {
                   [t?.specs.size, product.size],
                   [t?.specs.cas, product.cas || "N/A"]
                 ].map(([label, value]) => (
-                  <div key={label} className="border p-4 bg-[#f7fbff]">
+                  <div key={label} className="border p-4 ">
                     <p className="text-[11px] text-gray-500">{label}</p>
-                    <p className="font-semibold text-[#0d2d47]">{value}</p>
+                    <p className="font-semibold text-black">{value}</p>
                   </div>
                 ))}
               </div>
@@ -428,6 +443,39 @@ export default function ProductPage() {
 
         <ProductContent product={product} />
       </main>
+      {/* IMAGE PREVIEW MODAL */}
+{previewOpen && (
+  <div
+    className="fixed inset-0 z-[9999] bg-black/80 flex items-center justify-center px-4"
+    onClick={() => setPreviewOpen(false)}
+  >
+    {/* STOP PROPAGATION */}
+    <div
+      className="relative w-full max-w-3xl bg-white p-6"
+      onClick={(e) => e.stopPropagation()}
+    >
+      {/* CLOSE BUTTON */}
+      <button
+        onClick={() => setPreviewOpen(false)}
+        className="absolute top-3 right-3 text-xl font-bold text-gray-700 hover:text-black cursor-pointer"
+      >
+        ✕
+      </button>
+
+      {/* IMAGE */}
+      <div className="relative w-full h-[70vh]">
+        <Image
+          src={product.image}
+          alt={product.name}
+          fill
+          className="object-contain"
+          priority
+        />
+      </div>
+    </div>
+  </div>
+)}
+
 
       <Footer />
     </>
