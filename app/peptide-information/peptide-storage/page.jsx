@@ -1,3 +1,4 @@
+//peptides\app\peptide-information\peptide-storage\page.jsx
 "use client";
 
 import Navbar from "@/components/Navbar";

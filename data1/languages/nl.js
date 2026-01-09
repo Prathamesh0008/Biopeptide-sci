@@ -1351,10 +1351,12 @@ refundsReturns: {
 productPage: {
   back: "← Terug naar producten",
   tagline: "Premium BioPeptide • Wetenschappelijk materiaal met hoge zuiverheid",
-  description: {
-    p1: "{name} is ontwikkeld met precisie-peptidesynthese en ondergaat hoge-resolutiezuivering voor moleculaire nauwkeurigheid.",
-    p2: "Ontworpen voor biochemische assays, signaalroutes, celstudies, receptorbindingsanalyse en gecontroleerde onderzoeksomgevingen."
-  },
+ description: {
+  p0: "{name} is een hoogzuiver onderzoekspeptide, gesynthetiseerd met geavanceerde vaste-fase peptidensynthese (SPPS) en analytische validatie.",
+  p1: "Ontwikkeld met precisie-peptidensynthesetechnologie ondergaat {name} een hoge-resolutiezuivering om moleculaire nauwkeurigheid te garanderen.",
+  p2: "Ontworpen voor biochemische assays, signaalroutes, celstudies, receptorbindingsanalyse en gecontroleerde onderzoeksomgevingen."
+}
+,
   badges: { hplc: "HPLC getest", research: "Onderzoekskwaliteit", coa: "COA beschikbaar" },
   priceNote: "Alleen voor onderzoek",
   addToCart: "Toevoegen aan winkelwagen",

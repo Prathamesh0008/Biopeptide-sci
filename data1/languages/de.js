@@ -1286,9 +1286,11 @@ productPage: {
   back: "← Zurück zu den Produkten",
   tagline: "Premium BioPeptide • Hochreines Forschungsmaterial",
   description: {
-    p1: "{name} wird mittels präziser Peptidsynthese entwickelt und hochauflösend gereinigt.",
-    p2: "Konzipiert für biochemische Assays, Signalwege, Zellstudien und kontrollierte Forschungsumgebungen."
-  },
+  p0: "{name} ist ein hochreines Forschungspeptid, das mithilfe fortschrittlicher Festphasen-Peptidsynthese (SPPS) und analytischer Validierung hergestellt wird.",
+  p1: "Durch präzise Peptidsynthesetechnologie entwickelt, wird {name} hochauflösend gereinigt, um molekulare Genauigkeit sicherzustellen.",
+  p2: "Konzipiert für biochemische Assays, Signalwegforschung, Zellstudien, Rezeptorbindungsanalysen und kontrollierte Forschungsumgebungen."
+}
+,
   badges: { hplc: "HPLC-geprüft", research: "Forschungsqualität", coa: "COA verfügbar" },
   priceNote: "Nur für Forschungszwecke",
   addToCart: "In den Warenkorb",

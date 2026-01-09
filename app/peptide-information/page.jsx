@@ -61,7 +61,8 @@ export default function PeptideInformationPage() {
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
 
       {/* MAIN CONTENT */}
-      <div className="max-w-7xl mx-auto px-6 py-10">
+    <div className="max-w-[1180px] mx-auto px-6 py-8">
+
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           {/* LEFT — SIDEBAR */}
           <div className="order-2 lg:order-1 lg:col-span-3">
@@ -78,56 +79,57 @@ export default function PeptideInformationPage() {
           {/* RIGHT — CONTENT */}
           <section className="order-1 lg:order-2 lg:col-span-9 space-y-8 px-0">
             {/* PAGE TITLE */}
-            <h1 className="text-4xl font-bold text-black">
-              {translations.peptideInfo.page.title}
-            </h1>
+           <h1 className="text-[34px] font-extrabold tracking-tight text-black">
+  {translations.peptideInfo.page.title}
+</h1>
 
-            {/* FEATURED ARTICLE */}
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-8 items-start">
-              {/* Image */}
-              <div className="md:col-span-2">
-                <div className="relative aspect-[4/3] w-full max-w-[360px]">
-                  <Image
-                    src="/images/peptideinfo.jpg"
-                    alt="Peptide Purity"
-                    fill
-                    className="object-cover rounded-md"
-                  />
-                </div>
-              </div>
 
-              {/* Text */}
-              <div className="md:col-span-3">
-                <Link
-                  href="/peptide-information/purity"
-                  className="block text-2xl font-bold text-black mb-3 hover:text-bioBlue"
-                >
-                  Peptide Purity
-                </Link>
+           {/* FEATURED ARTICLE */}
+<div className="grid grid-cols-1 md:grid-cols-5 gap-6 items-start">
+  {/* IMAGE */}
+  <div className="md:col-span-2">
+    <div className="relative aspect-[4/3] w-full max-w-[340px]">
+      <Image
+        src="/images/peptideinfo.jpg"
+        alt="Peptide Purity"
+        fill
+        className="object-cover"
+      />
+    </div>
+  </div>
 
-                <p className="text-gray-700 text-sm leading-relaxed">
-                  How is Peptide Purity Achieved and Verified? At
-                  peptidesciences.com, we provide peptides that exceed 99%
-                  purity. Using state-of-the-art synthesis and verification
-                  techniques...
-                </p>
+  {/* TEXT */}
+  <div className="md:col-span-3">
+    <Link
+      href="/peptide-information/purity"
+      className="block text-[22px] font-extrabold text-black hover:text-bioBlue"
+    >
+      Peptide Purity
+    </Link>
 
-                <p className="mt-4 text-xs text-gray-500">
-                  By Peptide Information • Oct 21, 2023
-                </p>
-              </div>
-            </div>
+    <p className="mt-2 text-[15px] text-gray-700 leading-relaxed">
+      How is Peptide Purity Achieved and Verified? BioPeptide peptides exceed
+      99% purity using advanced synthesis and validation methods.
+    </p>
+
+    <p className="mt-3 text-xs text-gray-500">
+      By Peptide Information • Oct 21, 2023
+    </p>
+  </div>
+</div>
+
 
             {/* ARTICLE GRID */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-0 gap-y-0">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-2">
               {filteredArticles.map(([id, a]) => (
-                <Link
-                  key={id}
-                  href={`/peptide-information/${id}`}
-                  className="group block py-3"
-                >
+              <Link
+  key={id}
+  href={`/peptide-information/${id}`}
+  className="group block py-2"
+>
+
                   <div className="flex gap-4 items-start">
-                    <div className="relative aspect-square w-20 flex-shrink-0">
+                    <div className="relative w-[72px] h-[72px] flex-shrink-0">
                       <Image
                         src={a.img}
                         alt={a.title}
@@ -137,11 +139,11 @@ export default function PeptideInformationPage() {
                     </div>
 
                     <div>
-                      <h2 className="text-lg font-bold text-black group-hover:text-bioBlue">
+                     <h2 className="text-[16px] font-bold text-black group-hover:text-bioBlue">
                         {a.title}
                       </h2>
 
-                      <span className="inline-block mt-2 text-bioBlue font-semibold">
+                    <span className="inline-block mt-1 text-[13px] font-semibold text-bioBlue">
                         {translations.peptideInfo.page.readMore}
                       </span>
                     </div>
@@ -157,6 +159,12 @@ export default function PeptideInformationPage() {
     </>
   );
 }
+
+
+
+
+
+
 
 
 

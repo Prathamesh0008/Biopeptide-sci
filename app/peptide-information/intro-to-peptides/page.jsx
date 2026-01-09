@@ -1,9 +1,15 @@
+//peptides\app\peptide-information\intro-to-peptides\page.jsx
 "use client";
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import PeptideInfoSubNav from "@/components/PeptideInfoSubNav";
+import { useState } from "react";
+import PeptideInfoSidebar from "@/components/PeptideInfoSidebar";
+import { useLanguage } from "@/contexts/LanguageContext";
+
+
 
 export default function IntroToPeptidesPage() {
   return (

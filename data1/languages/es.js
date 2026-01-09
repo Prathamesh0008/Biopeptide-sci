@@ -1286,10 +1286,12 @@ refundsReturns: {
 productPage: {
   back: "← Volver a los productos",
   tagline: "BioPeptide Premium • Material científico de alta pureza",
-  description: {
-    p1: "{name} se desarrolla mediante síntesis peptídica de precisión y purificación de alta resolución.",
-    p2: "Diseñado para análisis bioquímicos, señalización, estudios celulares y entornos de investigación controlados."
-  },
+ description: {
+  p0: "{name} es un péptido de investigación de alta pureza, sintetizado mediante síntesis peptídica avanzada en fase sólida (SPPS) y validación analítica.",
+  p1: "Desarrollado con tecnología de síntesis peptídica de precisión, {name} se somete a una purificación de alta resolución para garantizar la exactitud molecular.",
+  p2: "Diseñado para ensayos bioquímicos, señalización de vías, estudios celulares, análisis de unión a receptores y entornos de investigación controlados."
+}
+,
   badges: { hplc: "Probado por HPLC", research: "Grado de investigación", coa: "COA disponible" },
   priceNote: "Solo para uso en investigación",
   addToCart: "Añadir al carrito",
