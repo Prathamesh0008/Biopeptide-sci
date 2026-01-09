@@ -1280,96 +1280,116 @@ productPage: {
   back: "← Voltar aos produtos",
   tagline: "BioPeptide Premium • Material científico de alta pureza",
   description: {
-    p1: "{name} é desenvolvido com tecnologia de síntese peptídica de precisão e purificação avançada.",
-    p2: "Projetado para análises bioquímicas, estudos celulares e ambientes de pesquisa controlados."
+    p1: "{name} é desenvolvido com tecnologia de síntese peptídica de precisão e purificação de alta resolução.",
+    p2: "Projetado para análises bioquímicas, sinalização celular, estudos celulares e ambientes de pesquisa controlados."
   },
-  badges: {
-    hplc: "Testado por HPLC",
-    research: "Grau de pesquisa",
-    coa: "COA disponível"
-  },
+  badges: { hplc: "Testado por HPLC", research: "Grau de pesquisa", coa: "COA disponível" },
   priceNote: "Uso exclusivo para pesquisa",
   addToCart: "Adicionar ao carrinho",
-  specs: {
-    category: "Categoria",
-    purity: "Pureza",
-    size: "Tamanho da unidade",
-    cas: "CAS"
-  },
+  specs: { category: "Categoria", purity: "Pureza", size: "Tamanho da unidade", cas: "CAS" },
   notFound: "Produto não encontrado"
-},
-productContent: {
-  overviewTitle: "Visão geral",
-  mechanism: "Mecanismo de ação",
-  mechanismPoints: [
-    "Modulação das vias de sinalização celular",
-    "Aumento da sensibilidade aos fatores de crescimento",
-    "Regulação da expressão genética",
-    "Influência na produção mitocondrial de ATP",
-    "Suporte à ativação enzimática"
-  ],
-  researchApplicationsTitle: "Principais aplicações de pesquisa",
-  researchApplications: [
-    "Biologia celular regenerativa",
-    "Análise de expressão proteica",
-    "Estudos de ligação a receptores",
-    "Pesquisa metabólica mitocondrial",
-    "Experimentos de sensibilidade enzimática",
-    "Ensaios de remodelação da matriz"
-  ],
-  scientificBackgroundTitle: "Contexto científico",
-  stabilityTitle: "Perfil de estabilidade",
-  solubilityTitle: "Solubilidade e reconstituição",
-  techSpecsTitle: "Especificações técnicas",
-  molecularTitle: "Características moleculares",
-  validationTitle: "Validação analítica",
-  regulatoryTitle: "Regulamentação e conformidade",
-  faq: "Perguntas frequentes",
-  faqItems: [
-    { q: "Este peptídeo é para uso humano?", a: "Não. Apenas para pesquisa laboratorial." },
-    { q: "Inclui COA?", a: "Sim. Cada lote inclui validação HPLC e MS." },
-    { q: "É estéril?", a: "Não antes da reconstituição." },
-    { q: "Como deve ser armazenado?", a: "Selado e congelado a −20°C." }
-  ],
-  disclaimer:
-    "Aviso: Este produto destina-se exclusivamente à pesquisa laboratorial. Não é destinado ao uso humano ou veterinário."
-},
-productContent: {
-  overviewTitle: "Visão geral",
-  mechanism: "Mecanismo de ação",
-  mechanismPoints: [
-    "Modulação das vias de sinalização celular",
-    "Aumento da sensibilidade aos fatores de crescimento",
-    "Regulação da expressão genética",
-    "Influência na produção mitocondrial de ATP",
-    "Suporte à ativação enzimática"
-  ],
-  researchApplicationsTitle: "Principais aplicações de pesquisa",
-  researchApplications: [
-    "Biologia celular regenerativa",
-    "Análise de expressão proteica",
-    "Estudos de ligação a receptores",
-    "Pesquisa metabólica mitocondrial",
-    "Experimentos de sensibilidade enzimática",
-    "Ensaios de remodelação da matriz"
-  ],
-  scientificBackgroundTitle: "Contexto científico",
-  stabilityTitle: "Perfil de estabilidade",
-  solubilityTitle: "Solubilidade e reconstituição",
-  techSpecsTitle: "Especificações técnicas",
-  molecularTitle: "Características moleculares",
-  validationTitle: "Validação analítica",
-  regulatoryTitle: "Regulamentação e conformidade",
-  faq: "Perguntas frequentes",
-  faqItems: [
-    { q: "Este peptídeo é para uso humano?", a: "Não. Apenas para pesquisa laboratorial." },
-    { q: "Inclui COA?", a: "Sim. Cada lote inclui validação HPLC e MS." },
-    { q: "É estéril?", a: "Não antes da reconstituição." },
-    { q: "Como deve ser armazenado?", a: "Selado e congelado a −20°C." }
-  ],
-  disclaimer:
-    "Aviso: Este produto destina-se exclusivamente à pesquisa laboratorial. Não é destinado ao uso humano ou veterinário."
 }
+,
+
+productContent: {
+  overviewTitle: "Visão geral",
+
+  overviewDescription1:
+    "é um peptídeo de pesquisa de alta precisão sintetizado por meio da síntese peptídica em fase sólida (SPPS). Cada lote passa por uma validação analítica rigorosa, incluindo HPLC e espectrometria de massas (MS), para garantir a integridade estrutural, a pureza e a consistência entre lotes.",
+
+  overviewDescription2:
+    "Amplamente utilizado em análises de vias bioquímicas, ensaios de ligação a receptores, modelagem celular regenerativa e estudos de interação proteína–peptídeo em ambientes laboratoriais controlados.",
+
+  mechanism: "Mecanismo de ação",
+  mechanismPoints: [
+    "Modulação das vias de sinalização celular",
+    "Aumento da sensibilidade aos fatores de crescimento",
+    "Regulação da expressão gênica",
+    "Influência na produção mitocondrial de ATP",
+    "Suporte à ativação enzimática"
+  ],
+
+  researchApplicationsTitle: "Principais aplicações de pesquisa",
+  researchApplications: [
+    "Biologia celular regenerativa",
+    "Análise da expressão proteica",
+    "Estudos de ligação a receptores",
+    "Pesquisa sobre metabolismo mitocondrial",
+    "Experimentos de sensibilidade enzimática",
+    "Ensaios de remodelação da matriz"
+  ],
+
+  scientificBackgroundTitle: "Base científica",
+  scientificBackground1:
+    "Peptídeos sintéticos desempenham um papel fundamental na pesquisa bioquímica e biomédica moderna, permitindo a modulação precisa da comunicação celular, da sinalização molecular e do comportamento metabólico.",
+
+  scientificBackground2:
+    "apresenta elevada estabilidade molecular, alta afinidade de ligação, perfis de degradação previsíveis e excelente reprodutibilidade sob diferentes condições experimentais.",
+
+  stabilityTitle: "Perfil de estabilidade",
+  stabilityPoints: [
+    "Estável quando liofilizado e armazenado a −20°C",
+    "Sensível à umidade e à exposição prolongada à luz",
+    "Degradação previsível acima da temperatura ambiente",
+    "Soluções reconstituídas estáveis por 24–48 horas sob refrigeração"
+  ],
+
+  solubilityTitle: "Solubilidade e reconstituição",
+  solubilityPoints: [
+    "Água bacteriostática",
+    "Solução salina estéril",
+    "Tampões ácidos",
+    "Solventes analíticos orgânicos"
+  ],
+
+  techSpecsTitle: "Especificações técnicas",
+  purityLabel: "Pureza",
+  unitSizeLabel: "Tamanho da unidade",
+  defaultUnit: "Frasco de pesquisa",
+
+  formLabel: "Forma",
+  formValue: "Pó liofilizado",
+
+  synthesisLabel: "Síntese",
+  synthesisValue: "Síntese peptídica em fase sólida (SPPS)",
+
+  analysisLabel: "Análise",
+  analysisValue: "HPLC, MS, UV",
+
+  molecularTitle: "Características moleculares",
+  molecularPoints: [
+    "Tipo molecular: Peptídeo sintético para pesquisa",
+    "Estrutura: Cadeia peptídica linear",
+    "Peso molecular: Dependente da sequência",
+    "Estabilidade: Elevada quando armazenado corretamente"
+  ],
+
+  validationTitle: "Validação analítica",
+  validationPoints: [
+    "Cromatografia líquida de alta eficiência (HPLC)",
+    "Espectrometria de massas (MS)",
+    "Espectrofotometria UV",
+    "Verificação da pureza e identidade dos lotes",
+    "Triagem de endotoxinas e contaminação microbiana"
+  ],
+
+  regulatoryTitle: "Regulamentação e conformidade",
+  regulatoryText:
+    "Este produto é fornecido exclusivamente para fins de pesquisa científica e investigação laboratorial. Não é aprovado como medicamento, alimento, cosmético ou produto médico. Documentação como Certificado de Análise (COA) e Ficha de Dados de Segurança (MSDS) está disponível mediante solicitação.",
+
+  faq: "FAQ",
+  faqItems: [
+    { q: "Este peptídeo é destinado ao uso humano?", a: "Não. Exclusivamente para pesquisa laboratorial." },
+    { q: "O produto inclui COA?", a: "Sim. Cada lote inclui validação por HPLC e MS." },
+    { q: "O produto é estéril?", a: "Não antes da reconstituição." },
+    { q: "Como deve ser armazenado?", a: "Selado e armazenado a −20°C." }
+  ],
+
+  disclaimerLabel: "Isenção de responsabilidade",
+  disclaimer:
+    "Este produto é destinado exclusivamente à pesquisa laboratorial. Não se destina ao uso humano ou veterinário, nem ao diagnóstico, tratamento ou prevenção de qualquer doença. O uso inadequado pode resultar em sérios riscos à saúde."
+}
+
 
 
 

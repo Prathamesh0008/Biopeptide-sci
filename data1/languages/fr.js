@@ -1274,25 +1274,24 @@ productPage: {
   tagline: "BioPeptide Premium • Matériau scientifique de haute pureté",
   description: {
     p1: "Développé par synthèse peptidique de précision, {name} subit une purification haute résolution pour une exactitude moléculaire.",
-    p2: "Conçu pour les analyses biochimiques, études cellulaires et environnements de recherche contrôlés."
+    p2: "Conçu pour les analyses biochimiques, la signalisation cellulaire, les études cellulaires et les environnements de recherche contrôlés."
   },
-  badges: {
-    hplc: "Testé HPLC",
-    research: "Qualité recherche",
-    coa: "COA disponible"
-  },
+  badges: { hplc: "Testé HPLC", research: "Qualité recherche", coa: "COA disponible" },
   priceNote: "Usage de recherche uniquement",
   addToCart: "Ajouter au panier",
-  specs: {
-    category: "Catégorie",
-    purity: "Pureté",
-    size: "Taille de l’unité",
-    cas: "CAS"
-  },
+  specs: { category: "Catégorie", purity: "Pureté", size: "Taille de l’unité", cas: "CAS" },
   notFound: "Produit introuvable"
-},
+}
+,
 productContent: {
-  overviewTitle: "Présentation",
+  overviewTitle: "Aperçu",
+
+  overviewDescription1:
+    "est un peptide de recherche de haute précision synthétisé par synthèse peptidique en phase solide (SPPS). Chaque lot fait l’objet d’une validation analytique approfondie incluant la HPLC et la spectrométrie de masse afin de garantir l’intégrité structurelle, la pureté et la constance entre les lots.",
+
+  overviewDescription2:
+    "Largement utilisé dans l’analyse des voies biochimiques, les essais de liaison aux récepteurs, la modélisation cellulaire régénérative et les études d’interactions protéine–peptide dans des environnements de laboratoire contrôlés.",
+
   mechanism: "Mécanisme d’action",
   mechanismPoints: [
     "Modulation des voies de signalisation cellulaire",
@@ -1301,32 +1300,88 @@ productContent: {
     "Influence sur la production d’ATP mitochondriale",
     "Soutien à l’activation enzymatique"
   ],
-  researchApplicationsTitle: "Applications de recherche principales",
+
+  researchApplicationsTitle: "Principales applications de recherche",
   researchApplications: [
     "Biologie cellulaire régénérative",
     "Analyse de l’expression des protéines",
     "Études de liaison aux récepteurs",
-    "Recherche métabolique mitochondriale",
+    "Recherche sur le métabolisme mitochondrial",
     "Expériences de sensibilité enzymatique",
-    "Tests de remodelage matriciel"
+    "Essais de remodelage de la matrice"
   ],
+
   scientificBackgroundTitle: "Contexte scientifique",
+  scientificBackground1:
+    "Les peptides synthétiques jouent un rôle essentiel dans la recherche biochimique et biomédicale moderne en permettant une modulation précise de la communication cellulaire, de la signalisation moléculaire et du comportement métabolique.",
+
+  scientificBackground2:
+    "offre une forte stabilité moléculaire, une affinité de liaison élevée, des profils de dégradation prévisibles et une excellente reproductibilité dans diverses conditions expérimentales.",
+
   stabilityTitle: "Profil de stabilité",
+  stabilityPoints: [
+    "Stable sous forme lyophilisée lorsqu’il est stocké à −20°C",
+    "Sensible à l’humidité et à une exposition prolongée à la lumière",
+    "Dégradation prévisible au-dessus de la température ambiante",
+    "Les solutions reconstituées sont stables pendant 24 à 48 heures sous réfrigération"
+  ],
+
   solubilityTitle: "Solubilité et reconstitution",
+  solubilityPoints: [
+    "Eau bactériostatique",
+    "Solution saline stérile",
+    "Tampons acides",
+    "Solvants analytiques organiques"
+  ],
+
   techSpecsTitle: "Spécifications techniques",
+  purityLabel: "Pureté",
+  unitSizeLabel: "Taille de l’unité",
+  defaultUnit: "Flacon de recherche",
+
+  formLabel: "Forme",
+  formValue: "Poudre lyophilisée",
+
+  synthesisLabel: "Synthèse",
+  synthesisValue: "Synthèse peptidique en phase solide (SPPS)",
+
+  analysisLabel: "Analyse",
+  analysisValue: "HPLC, MS, UV",
+
   molecularTitle: "Caractéristiques moléculaires",
+  molecularPoints: [
+    "Type moléculaire : Peptide de recherche synthétique",
+    "Structure : Chaîne peptidique linéaire",
+    "Poids moléculaire : Dépend de la séquence",
+    "Stabilité : Élevée lorsqu’il est stocké correctement"
+  ],
+
   validationTitle: "Validation analytique",
+  validationPoints: [
+    "Chromatographie liquide haute performance (HPLC)",
+    "Spectrométrie de masse (MS)",
+    "Spectrophotométrie UV",
+    "Vérification de la pureté et de l’identité des lots",
+    "Contrôle des endotoxines et dépistage microbiologique"
+  ],
+
   regulatoryTitle: "Réglementation et conformité",
+  regulatoryText:
+    "Ce produit est fourni exclusivement à des fins de recherche scientifique et d’investigation en laboratoire. Il n’est pas approuvé en tant que médicament, aliment, cosmétique ou produit médical. Une documentation telle que le certificat d’analyse (COA) et la fiche de données de sécurité (MSDS) est disponible sur demande.",
+
   faq: "FAQ",
   faqItems: [
-    { q: "Ce peptide est-il destiné à l’usage humain ?", a: "Non. Usage strictement en laboratoire." },
-    { q: "Inclut-il un COA ?", a: "Oui. Chaque lot comprend une validation HPLC et MS." },
-    { q: "Est-il stérile ?", a: "Pas avant reconstitution." },
-    { q: "Comment doit-il être stocké ?", a: "Scellé et congelé à −20°C." }
+    { q: "Ce peptide est-il destiné à un usage humain ?", a: "Non. Usage strictement réservé à la recherche en laboratoire." },
+    { q: "Un COA est-il fourni ?", a: "Oui. Chaque lot inclut une validation HPLC et MS." },
+    { q: "Est-il stérile ?", a: "Non, pas avant reconstitution." },
+    { q: "Comment doit-il être stocké ?", a: "Scellé et conservé à −20°C." }
   ],
+
+  disclaimerLabel: "Avertissement",
   disclaimer:
-    "Avertissement : Produit strictement réservé à la recherche en laboratoire. Non destiné à l’usage humain ou vétérinaire."
+    "Ce produit est strictement destiné à la recherche en laboratoire. Il n’est pas destiné à un usage humain ou vétérinaire, ni au diagnostic, au traitement ou à la prévention de toute maladie. Une utilisation inappropriée peut entraîner de graves risques pour la santé."
 }
+
 
 
 

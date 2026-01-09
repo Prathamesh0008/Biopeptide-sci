@@ -127,60 +127,115 @@ productPage: {
   back: "← Nazad na proizvode",
   tagline: "Premium BioPeptide • Visokopročišćen istraživački materijal",
   description: {
-    p1: "{name} je razvijen preciznom peptidnom sintezom i naprednim prečišćavanjem.",
-    p2: "Namenjen za biohemijske analize i kontrolisana istraživanja."
+    p1: "{name} je razvijen preciznom peptidnom sintezom i visokorezolucionim prečišćavanjem.",
+    p2: "Namenjen za biohemijske analize, signalne puteve i kontrolisana istraživanja."
   },
-  badges: {
-    hplc: "HPLC testirano",
-    research: "Istraživački kvalitet",
-    coa: "COA dostupan"
-  },
+  badges: { hplc: "HPLC testirano", research: "Istraživački kvalitet", coa: "COA dostupan" },
   priceNote: "Samo za istraživanje",
   addToCart: "Dodaj u korpu",
-  specs: {
-    category: "Kategorija",
-    purity: "Čistoća",
-    size: "Veličina",
-    cas: "CAS"
-  },
+  specs: { category: "Kategorija", purity: "Čistoća", size: "Veličina jedinice", cas: "CAS" },
   notFound: "Proizvod nije pronađen"
-},
+}
+,
 productContent: {
   overviewTitle: "Pregled",
+
+  overviewDescription1:
+    "je istraživački peptid visoke preciznosti sintetisan pomoću čvrstofazne peptidne sinteze (SPPS). Svaka serija prolazi kroz opsežnu analitičku validaciju, uključujući HPLC i masenu spektrometriju (MS), kako bi se obezbedili strukturni integritet, čistoća i konzistentnost između serija.",
+
+  overviewDescription2:
+    "Široko se koristi u analizi biohemijskih puteva, ispitivanjima vezivanja za receptore, regenerativnom ćelijskom modelovanju i studijama interakcije protein–peptid u kontrolisanim laboratorijskim uslovima.",
+
   mechanism: "Mehanizam delovanja",
   mechanismPoints: [
     "Modulacija ćelijskih signalnih puteva",
-    "Povećanje osetljivosti faktora rasta",
+    "Povećanje osetljivosti na faktore rasta",
     "Regulacija genske ekspresije",
     "Uticaj na mitohondrijalnu proizvodnju ATP-a",
-    "Podrška enzimatskoj aktivaciji"
+    "Podrška aktivaciji enzima"
   ],
+
   researchApplicationsTitle: "Glavne istraživačke primene",
   researchApplications: [
     "Regenerativna ćelijska biologija",
     "Analiza ekspresije proteina",
-    "Studije vezivanja receptora",
-    "Mitohondrijalna metabolička istraživanja",
+    "Studije vezivanja za receptore",
+    "Istraživanje mitohondrijalnog metabolizma",
     "Eksperimenti enzimske osetljivosti",
-    "Testovi remodelovanja matriksa"
+    "Analize remodelovanja matriksa"
   ],
-  scientificBackgroundTitle: "Naučna pozadina",
+
+  scientificBackgroundTitle: "Naučna osnova",
+  scientificBackground1:
+    "Sintetički peptidi imaju ključnu ulogu u savremenim biohemijskim i biomedicinskim istraživanjima, omogućavajući preciznu modulaciju ćelijske komunikacije, molekularne signalizacije i metaboličkog ponašanja.",
+
+  scientificBackground2:
+    "obezbeđuje visoku molekularnu stabilnost, snažan afinitet vezivanja, predvidljive profile degradacije i odličnu reproduktivnost u različitim eksperimentalnim uslovima.",
+
   stabilityTitle: "Profil stabilnosti",
-  solubilityTitle: "Rastvorljivost i rekonstitucija",
-  techSpecsTitle: "Tehničke specifikacije",
-  molecularTitle: "Molekularne karakteristike",
-  validationTitle: "Analitička validacija",
-  regulatoryTitle: "Regulatorni zahtevi i usklađenost",
-  faq: "Česta pitanja",
-  faqItems: [
-    { q: "Da li je ovaj peptid za ljudsku upotrebu?", a: "Ne. Samo za laboratorijska istraživanja." },
-    { q: "Da li uključuje COA?", a: "Da. Svaka serija uključuje HPLC i MS validaciju." },
-    { q: "Da li je sterilan?", a: "Ne pre rekonstitucije." },
-    { q: "Kako se čuva?", a: "Zapečaćen i zamrznut na −20°C." }
+  stabilityPoints: [
+    "Stabilan u liofilizovanom obliku pri skladištenju na −20°C",
+    "Osetljiv na vlagu i dugotrajnu izloženost svetlosti",
+    "Predvidljiva degradacija iznad sobne temperature",
+    "Rekonstituisani rastvori su stabilni 24–48 sati pri hlađenju"
   ],
+
+  solubilityTitle: "Rastvorljivost i rekonstitucija",
+  solubilityPoints: [
+    "Bakteriostatska voda",
+    "Sterilni fiziološki rastvor",
+    "Kiseli puferi",
+    "Organski analitički rastvarači"
+  ],
+
+  techSpecsTitle: "Tehničke specifikacije",
+  purityLabel: "Čistoća",
+  unitSizeLabel: "Veličina jedinice",
+  defaultUnit: "Istraživačka bočica",
+
+  formLabel: "Oblik",
+  formValue: "Liofilizovani prah",
+
+  synthesisLabel: "Sinteza",
+  synthesisValue: "Čvrstofazna peptidna sinteza (SPPS)",
+
+  analysisLabel: "Analiza",
+  analysisValue: "HPLC, MS, UV",
+
+  molecularTitle: "Molekularne karakteristike",
+  molecularPoints: [
+    "Molekularni tip: Sintetički istraživački peptid",
+    "Struktura: Linearni peptidni lanac",
+    "Molekulska masa: Zavisna od sekvence",
+    "Stabilnost: Visoka pri pravilnom skladištenju"
+  ],
+
+  validationTitle: "Analitička validacija",
+  validationPoints: [
+    "Tečna hromatografija visoke efikasnosti (HPLC)",
+    "Masena spektrometrija (MS)",
+    "UV-spektrofotometrija",
+    "Provera čistoće i identiteta serija",
+    "Skrining na endotoksine i mikrobiološku kontaminaciju"
+  ],
+
+  regulatoryTitle: "Regulatorni zahtevi i usklađenost",
+  regulatoryText:
+    "Ovaj proizvod je namenjen isključivo za naučna istraživanja i laboratorijsku upotrebu. Nije odobren kao lek, hrana, kozmetički proizvod ili medicinsko sredstvo. Dokumentacija kao što su Sertifikat o analizi (COA) i Bezbednosni list (MSDS) dostupna je na zahtev.",
+
+  faq: "FAQ",
+  faqItems: [
+    { q: "Da li je ovaj peptid namenjen za ljudsku upotrebu?", a: "Ne. Isključivo za laboratorijska istraživanja." },
+    { q: "Da li se isporučuje COA?", a: "Da. Svaka serija uključuje HPLC i MS validaciju." },
+    { q: "Da li je proizvod sterilan?", a: "Ne pre rekonstitucije." },
+    { q: "Kako treba skladištiti proizvod?", a: "Zapečaćen i čuvan na −20°C." }
+  ],
+
+  disclaimerLabel: "Odricanje od odgovornosti",
   disclaimer:
-    "Odricanje od odgovornosti: Proizvod je namenjen isključivo laboratorijskim istraživanjima."
+    "Ovaj proizvod je strogo namenjen za laboratorijska istraživanja. Nije namenjen za ljudsku ili veterinarsku upotrebu, niti za dijagnostiku, lečenje ili prevenciju bilo koje bolesti. Nepravilna upotreba može dovesti do ozbiljnih zdravstvenih rizika."
 }
+
 
 
 

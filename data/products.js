@@ -74,7 +74,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/Adipotide.png"
+  image: "/product/peptide blends/bpctbblend20mg.svg"
 },
 
   {
@@ -108,7 +108,7 @@
   storage: "Store in a cool, dry environment away from direct light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/adipotide.png",
+  image: "/product/capsules/5amino1mq@300x.png",
 },
 
  {
@@ -1203,7 +1203,7 @@
   storage: "Store in a cool, dry environment away from light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Capsules/dihexa@300x.png"
+  image: "/product/capsules/dihexa@300x.png"
 },
 {
   id: "dsip-5mg",
@@ -1271,7 +1271,7 @@
   storage: "Store in a cool, dry environment away from light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Capsules/epitalon@300x.png"
+  image: "/product/capsules/epitalon@300x.png"
 },
 {
   id: "epitalon-20mg",
@@ -2209,7 +2209,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/p/product/peptides/gonadorelin10mg.svg"
+  image: "/product/peptides/gonadorelin10mg.svg"
 },
 {
   id: "bpc-157-arginate-kpv-60-capsules",
@@ -2876,7 +2876,7 @@
   storage: "Store in a cool, dry environment away from direct light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Capsules/5amino1mq@300x.png"
+  image: "/product/capsules/5amino1mq@300x.png"
 },
 {
   id: "matrixyl-200mg-topical",
@@ -3080,7 +3080,7 @@
   storage: "Store in a cool, dry environment away from light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Capsules/methylene@300x.png"
+  image: "/product/capsules/methylene@300x.png"
 },
 {
   id: "mgf-c-terminal-5mg",
@@ -3573,7 +3573,7 @@
   storage: "Store in a cool, dry environment away from direct light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Capsules/os01@300x.png"
+  image: "/product/capsules/os01@300x.png"
 },
 {
   id: "ovagen-20mg-bioregulator",
@@ -4087,7 +4087,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Capsules/repair@300x.png"
+  image: "/product/capsules/repair@300x.png"
 },
 {
   id: "rigin-200mg-palmitoyl-tetrapeptide-7-topical",
@@ -4472,7 +4472,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Capsules/slupp332_30capsule@300x.png"
+  image: "/product/apsules/slupp332_30capsule@300x.png"
 },
 {
   id: "snap-8-200mg-topical",
@@ -4823,7 +4823,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Capsules/tesofensine@300x.png"
+  image: "/product/capsules/tesofensine@300x.png"
 },
 {
   id: "testagen-20mg-bioregulator",

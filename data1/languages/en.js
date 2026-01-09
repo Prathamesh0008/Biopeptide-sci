@@ -1471,23 +1471,22 @@ productPage: {
     p1: "Developed using precision peptide synthesis technology, {name} undergoes high-resolution purification to ensure molecular accuracy.",
     p2: "Designed for biochemical assays, pathway signaling, cell studies, receptor-binding analysis, and controlled research environments."
   },
-  badges: {
-    hplc: "HPLC Tested",
-    research: "Research Grade",
-    coa: "COA Available"
-  },
+  badges: { hplc: "HPLC Tested", research: "Research Grade", coa: "COA Available" },
   priceNote: "Research Use Only",
   addToCart: "Add to Cart",
-  specs: {
-    category: "Category",
-    purity: "Purity",
-    size: "Unit Size",
-    cas: "CAS"
-  },
+  specs: { category: "Category", purity: "Purity", size: "Unit Size", cas: "CAS" },
   notFound: "Product Not Found"
-},
+}
+,
 productContent: {
   overviewTitle: "Overview",
+
+  overviewDescription1:
+    "is a high-precision research peptide synthesized using solid-phase peptide synthesis (SPPS). Each batch undergoes extensive analytical validation including HPLC and Mass Spectrometry to ensure structural integrity, purity, and batch-to-batch consistency.",
+
+  overviewDescription2:
+    "Commonly utilized in biochemical pathway analysis, receptor-binding assays, regenerative cell modeling, and protein–peptide interaction studies within controlled laboratory environments.",
+
   mechanism: "Mechanism of Action",
   mechanismPoints: [
     "Modulation of cellular signaling pathways",
@@ -1496,6 +1495,7 @@ productContent: {
     "Mitochondrial ATP production influence",
     "Enzymatic activation support"
   ],
+
   researchApplicationsTitle: "Primary Research Applications",
   researchApplications: [
     "Regenerative cell biology",
@@ -1505,23 +1505,77 @@ productContent: {
     "Enzymatic sensitivity experiments",
     "Matrix remodeling assays"
   ],
+
   scientificBackgroundTitle: "Scientific Background",
+  scientificBackground1:
+    "Synthetic peptides play a critical role in modern biochemical and biomedical research by enabling precise modulation of cellular communication, molecular signaling, and metabolic behavior.",
+  scientificBackground2:
+    "offers strong molecular stability, high binding affinity, predictable degradation profiles, and excellent reproducibility across experimental conditions.",
+
   stabilityTitle: "Stability Profile",
+  stabilityPoints: [
+    "Stable when lyophilized and stored at −20°C",
+    "Sensitive to moisture and prolonged light exposure",
+    "Predictable degradation above room temperature",
+    "Reconstituted solutions stable for 24–48 hours under refrigeration"
+  ],
+
   solubilityTitle: "Solubility & Reconstitution",
+  solubilityPoints: [
+    "Bacteriostatic water",
+    "Sterile saline",
+    "Acidic buffers",
+    "Organic analytical solvents"
+  ],
+
   techSpecsTitle: "Technical Specifications",
+  purityLabel: "Purity",
+  unitSizeLabel: "Unit Size",
+  defaultUnit: "Research vial",
+
+  formLabel: "Form",
+  formValue: "Lyophilized powder",
+
+  synthesisLabel: "Synthesis",
+  synthesisValue: "Solid-Phase Peptide Synthesis (SPPS)",
+
+  analysisLabel: "Analysis",
+  analysisValue: "HPLC, MS, UV",
+
   molecularTitle: "Molecular Characteristics",
+  molecularPoints: [
+    "Molecular Type: Synthetic research peptide",
+    "Structure: Linear peptide chain",
+    "Molecular Weight: Sequence-dependent",
+    "Stability: High when stored appropriately"
+  ],
+
   validationTitle: "Analytical Validation",
+  validationPoints: [
+    "High-Performance Liquid Chromatography (HPLC)",
+    "Mass Spectrometry (MS)",
+    "UV Spectrophotometry",
+    "Batch purity and identity verification",
+    "Endotoxin and microbial screening"
+  ],
+
   regulatoryTitle: "Regulatory & Compliance",
+  regulatoryText:
+    "This product is supplied strictly for laboratory research and scientific investigation. It is not approved as a drug, food, cosmetic, or medical product. Documentation such as Certificate of Analysis (COA) and Material Safety Data Sheet (MSDS) is available upon request.",
+
   faq: "FAQ",
   faqItems: [
     { q: "Is this peptide for human use?", a: "No. Laboratory research only." },
-    { q: "Does it include COA?", a: "Yes. Each batch includes HPLC + MS validation." },
+    { q: "Does it include COA?", a: "Yes. Each batch includes HPLC and MS validation." },
     { q: "Is it sterile?", a: "Not until reconstituted." },
     { q: "How should it be stored?", a: "Sealed and frozen at −20°C." }
   ],
+
+  disclaimerLabel: "Disclaimer",
   disclaimer:
-    "Disclaimer: This product is intended strictly for laboratory research purposes only. It is not intended for human or veterinary use, diagnosis, treatment, or prevention of any disease."
+    "This product is intended strictly for laboratory research purposes only. It is not intended for human or veterinary consumption, diagnosis, treatment, or prevention of any disease. Improper use may result in serious health risks."
 }
+
 
 
 

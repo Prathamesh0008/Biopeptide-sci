@@ -1279,63 +1279,118 @@ refundsReturns: {
   }
 },
 productPage: {
-  back: "← 返回产品列表",
+  back: "← 返回产品",
   tagline: "高端 BioPeptide • 高纯度科研材料",
   description: {
-    p1: "{name} 采用精准肽合成技术，并经过高分辨率纯化，确保分子准确性。",
-    p2: "适用于生化分析、细胞研究、受体结合分析及受控科研环境。"
+    p1: "{name} 采用精准肽合成技术，并通过高分辨率纯化以确保分子准确性。",
+    p2: "适用于生化分析、信号通路研究、细胞研究及受控科研环境。"
   },
-  badges: {
-    hplc: "HPLC 检测",
-    research: "科研级",
-    coa: "提供 COA"
-  },
+  badges: { hplc: "HPLC 检测", research: "科研级", coa: "提供 COA" },
   priceNote: "仅限科研使用",
   addToCart: "加入购物车",
-  specs: {
-    category: "类别",
-    purity: "纯度",
-    size: "规格",
-    cas: "CAS"
-  },
+  specs: { category: "类别", purity: "纯度", size: "规格", cas: "CAS" },
   notFound: "未找到产品"
-},
+}
+,
 productContent: {
   overviewTitle: "概述",
+
+  overviewDescription1:
+    "是一种通过固相肽合成技术（SPPS）制备的高精度研究级多肽。每一批次均经过严格的分析验证，包括高效液相色谱（HPLC）和质谱分析（MS），以确保结构完整性、纯度以及批次间的一致性。",
+
+  overviewDescription2:
+    "广泛应用于受控实验室环境中的生化通路分析、受体结合实验、再生细胞模型研究以及蛋白质–多肽相互作用研究。",
+
   mechanism: "作用机制",
   mechanismPoints: [
-    "调节细胞信号通路",
-    "增强生长因子敏感性",
+    "调节细胞信号传导通路",
+    "增强对生长因子的敏感性",
     "调控基因表达",
-    "影响线粒体ATP生成",
-    "支持酶活化"
+    "影响线粒体ATP的生成",
+    "支持酶活化过程"
   ],
-  researchApplicationsTitle: "主要科研应用",
+
+  researchApplicationsTitle: "主要研究应用",
   researchApplications: [
     "再生细胞生物学",
-    "蛋白表达分析",
+    "蛋白质表达分析",
     "受体结合研究",
     "线粒体代谢研究",
     "酶敏感性实验",
-    "基质重塑实验"
+    "基质重塑分析实验"
   ],
+
   scientificBackgroundTitle: "科学背景",
+  scientificBackground1:
+    "合成多肽在现代生物化学和生物医学研究中发挥着关键作用，可实现对细胞通讯、分子信号传导及代谢行为的精确调控。",
+
+  scientificBackground2:
+    "具有良好的分子稳定性、高结合亲和力、可预测的降解特性，并在不同实验条件下表现出优异的重复性。",
+
   stabilityTitle: "稳定性概况",
+  stabilityPoints: [
+    "冻干状态下在 −20°C 储存时保持稳定",
+    "对湿气和长时间光照较为敏感",
+    "在高于室温条件下出现可预测的降解",
+    "复溶后溶液在冷藏条件下可稳定保存 24–48 小时"
+  ],
+
   solubilityTitle: "溶解性与复溶",
+  solubilityPoints: [
+    "抑菌水",
+    "无菌生理盐水",
+    "酸性缓冲液",
+    "有机分析级溶剂"
+  ],
+
   techSpecsTitle: "技术规格",
+  purityLabel: "纯度",
+  unitSizeLabel: "规格单位",
+  defaultUnit: "研究用小瓶",
+
+  formLabel: "形态",
+  formValue: "冻干粉末",
+
+  synthesisLabel: "合成方式",
+  synthesisValue: "固相肽合成（SPPS）",
+
+  analysisLabel: "分析方法",
+  analysisValue: "HPLC，MS，UV",
+
   molecularTitle: "分子特性",
+  molecularPoints: [
+    "分子类型：合成研究级多肽",
+    "结构：线性多肽链",
+    "分子量：取决于氨基酸序列",
+    "稳定性：在适当储存条件下表现优异"
+  ],
+
   validationTitle: "分析验证",
-  regulatoryTitle: "法规与合规",
+  validationPoints: [
+    "高效液相色谱（HPLC）",
+    "质谱分析（MS）",
+    "紫外分光光度法（UV）",
+    "批次纯度与身份验证",
+    "内毒素及微生物检测"
+  ],
+
+  regulatoryTitle: "法规与合规声明",
+  regulatoryText:
+    "本产品仅供实验室科研与科学研究使用，不被批准作为药品、食品、化妆品或医疗产品。如有需要，可提供分析证书（COA）和材料安全数据表（MSDS）。",
+
   faq: "常见问题",
   faqItems: [
-    { q: "是否可用于人体？", a: "不可以，仅限实验室研究。" },
-    { q: "是否提供COA？", a: "是的，每批次均提供HPLC和MS验证。" },
-    { q: "是否无菌？", a: "复溶前不是无菌的。" },
-    { q: "如何储存？", a: "密封并在−20°C冷冻保存。" }
+    { q: "该多肽是否可用于人体？", a: "不可以。本产品仅限实验室研究用途。" },
+    { q: "是否提供 COA？", a: "是的。每个批次均包含 HPLC 和 MS 验证报告。" },
+    { q: "产品是否无菌？", a: "在复溶前并非无菌。" },
+    { q: "应如何储存？", a: "密封保存，并置于 −20°C 冷冻环境中。" }
   ],
+
+  disclaimerLabel: "免责声明",
   disclaimer:
-    "免责声明：本产品仅供实验室研究使用，不用于人类或动物。"
+    "本产品严格限用于实验室研究，不得用于人体或动物使用，也不得用于疾病的诊断、治疗或预防。不当使用可能带来严重的健康风险。"
 }
+
 
 
 

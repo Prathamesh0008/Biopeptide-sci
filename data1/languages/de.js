@@ -1286,60 +1286,115 @@ productPage: {
   back: "← Zurück zu den Produkten",
   tagline: "Premium BioPeptide • Hochreines Forschungsmaterial",
   description: {
-    p1: "{name} wird mit präziser Peptidsynthese entwickelt und hochauflösend gereinigt.",
-    p2: "Geeignet für biochemische Analysen, Zellstudien und kontrollierte Forschungsumgebungen."
+    p1: "{name} wird mittels präziser Peptidsynthese entwickelt und hochauflösend gereinigt.",
+    p2: "Konzipiert für biochemische Assays, Signalwege, Zellstudien und kontrollierte Forschungsumgebungen."
   },
-  badges: {
-    hplc: "HPLC-geprüft",
-    research: "Forschungsqualität",
-    coa: "COA verfügbar"
-  },
+  badges: { hplc: "HPLC-geprüft", research: "Forschungsqualität", coa: "COA verfügbar" },
   priceNote: "Nur für Forschungszwecke",
   addToCart: "In den Warenkorb",
-  specs: {
-    category: "Kategorie",
-    purity: "Reinheit",
-    size: "Einheitsgröße",
-    cas: "CAS"
-  },
+  specs: { category: "Kategorie", purity: "Reinheit", size: "Einheitsgröße", cas: "CAS" },
   notFound: "Produkt nicht gefunden"
-},
+}
+,
 productContent: {
-  overviewTitle: "Übersicht",
+  overviewTitle: "Überblick",
+
+  overviewDescription1:
+    "ist ein hochpräzises Forschungspeptid, das mittels Festphasen-Peptidsynthese (SPPS) hergestellt wird. Jede Charge durchläuft eine umfassende analytische Validierung, einschließlich HPLC und Massenspektrometrie (MS), um strukturelle Integrität, Reinheit und Chargenkonsistenz sicherzustellen.",
+
+  overviewDescription2:
+    "Häufig eingesetzt in der Analyse biochemischer Signalwege, Rezeptorbindungsassays, regenerativen Zellmodellen sowie in Studien zu Protein–Peptid-Interaktionen unter kontrollierten Laborbedingungen.",
+
   mechanism: "Wirkmechanismus",
   mechanismPoints: [
     "Modulation zellulärer Signalwege",
-    "Erhöhung der Wachstumsfaktorsensitivität",
+    "Erhöhung der Sensitivität gegenüber Wachstumsfaktoren",
     "Regulation der Genexpression",
-    "Einfluss auf die mitochondriale ATP-Produktion",
+    "Beeinflussung der mitochondrialen ATP-Produktion",
     "Unterstützung der enzymatischen Aktivierung"
   ],
-  researchApplicationsTitle: "Hauptforschungsanwendungen",
+
+  researchApplicationsTitle: "Primäre Forschungsanwendungen",
   researchApplications: [
     "Regenerative Zellbiologie",
     "Analyse der Proteinexpression",
     "Rezeptorbindungsstudien",
-    "Mitochondriale Stoffwechselforschung",
-    "Enzymsensitivitätsexperimente",
-    "Matrix-Remodelling-Assays"
+    "Forschung zum mitochondrialen Stoffwechsel",
+    "Experimente zur Enzymsensitivität",
+    "Matrix-Remodellierungsassays"
   ],
+
   scientificBackgroundTitle: "Wissenschaftlicher Hintergrund",
+  scientificBackground1:
+    "Synthetische Peptide spielen eine zentrale Rolle in der modernen biochemischen und biomedizinischen Forschung, da sie eine präzise Modulation der zellulären Kommunikation, molekularen Signalübertragung und des metabolischen Verhaltens ermöglichen.",
+
+  scientificBackground2:
+    "bietet eine hohe molekulare Stabilität, starke Bindungsaffinität, vorhersehbare Abbauprofile sowie eine ausgezeichnete Reproduzierbarkeit unter unterschiedlichen experimentellen Bedingungen.",
+
   stabilityTitle: "Stabilitätsprofil",
-  solubilityTitle: "Löslichkeit und Rekonstitution",
+  stabilityPoints: [
+    "Stabil im lyophilisierten Zustand bei Lagerung bei −20°C",
+    "Empfindlich gegenüber Feuchtigkeit und längerer Lichtexposition",
+    "Vorhersehbarer Abbau oberhalb der Raumtemperatur",
+    "Rekonstituierte Lösungen sind unter Kühlung 24–48 Stunden stabil"
+  ],
+
+  solubilityTitle: "Löslichkeit & Rekonstitution",
+  solubilityPoints: [
+    "Bakteriostatisches Wasser",
+    "Sterile Kochsalzlösung",
+    "Saure Pufferlösungen",
+    "Organische analytische Lösungsmittel"
+  ],
+
   techSpecsTitle: "Technische Spezifikationen",
+  purityLabel: "Reinheit",
+  unitSizeLabel: "Einheitsgröße",
+  defaultUnit: "Forschungsfläschchen",
+
+  formLabel: "Form",
+  formValue: "Lyophilisiertes Pulver",
+
+  synthesisLabel: "Synthese",
+  synthesisValue: "Festphasen-Peptidsynthese (SPPS)",
+
+  analysisLabel: "Analyse",
+  analysisValue: "HPLC, MS, UV",
+
   molecularTitle: "Molekulare Eigenschaften",
+  molecularPoints: [
+    "Molekularer Typ: Synthetisches Forschungspeptid",
+    "Struktur: Lineare Peptidkette",
+    "Molekulargewicht: Sequenzabhängig",
+    "Stabilität: Hoch bei sachgerechter Lagerung"
+  ],
+
   validationTitle: "Analytische Validierung",
-  regulatoryTitle: "Regulierung und Compliance",
+  validationPoints: [
+    "Hochleistungsflüssigkeitschromatographie (HPLC)",
+    "Massenspektrometrie (MS)",
+    "UV-Spektrophotometrie",
+    "Überprüfung von Reinheit und Identität der Chargen",
+    "Endotoxin- und mikrobiologische Prüfung"
+  ],
+
+  regulatoryTitle: "Regulatorische Hinweise & Konformität",
+  regulatoryText:
+    "Dieses Produkt wird ausschließlich für wissenschaftliche Forschung und Laboruntersuchungen bereitgestellt. Es ist nicht als Arzneimittel, Lebensmittel, Kosmetikum oder Medizinprodukt zugelassen. Dokumente wie das Analysezertifikat (COA) und das Sicherheitsdatenblatt (MSDS) sind auf Anfrage erhältlich.",
+
   faq: "FAQ",
   faqItems: [
-    { q: "Ist dieses Peptid für den menschlichen Gebrauch bestimmt?", a: "Nein. Nur für Laborforschung." },
-    { q: "Ist ein COA enthalten?", a: "Ja. Jede Charge enthält HPLC- und MS-Validierung." },
-    { q: "Ist es steril?", a: "Nicht vor der Rekonstitution." },
-    { q: "Wie sollte es gelagert werden?", a: "Versiegelt und bei −20°C gefroren." }
+    { q: "Ist dieses Peptid für den menschlichen Gebrauch bestimmt?", a: "Nein. Ausschließlich für die Laborforschung." },
+    { q: "Wird ein COA bereitgestellt?", a: "Ja. Jede Charge enthält eine HPLC- und MS-Validierung." },
+    { q: "Ist das Produkt steril?", a: "Nicht vor der Rekonstitution." },
+    { q: "Wie sollte es gelagert werden?", a: "Versiegelt und bei −20°C gefroren lagern." }
   ],
+
+  disclaimerLabel: "Haftungsausschluss",
   disclaimer:
-    "Haftungsausschluss: Dieses Produkt ist ausschließlich für Laborforschungszwecke bestimmt."
+    "Dieses Produkt ist ausschließlich für Forschungszwecke im Labor bestimmt. Es ist nicht für den menschlichen oder veterinärmedizinischen Gebrauch sowie nicht zur Diagnose, Behandlung oder Vorbeugung von Krankheiten vorgesehen. Unsachgemäße Verwendung kann erhebliche Gesundheitsrisiken verursachen."
 }
+
 
 
 

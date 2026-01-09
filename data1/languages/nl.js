@@ -1352,34 +1352,32 @@ productPage: {
   back: "← Terug naar producten",
   tagline: "Premium BioPeptide • Wetenschappelijk materiaal met hoge zuiverheid",
   description: {
-    p1: "{name} is ontwikkeld met precisie-peptidesynthese en ondergaat zuivering met hoge resolutie voor moleculaire nauwkeurigheid.",
-    p2: "Ontworpen voor biochemische assays, signaalroutes, celstudies en gecontroleerde onderzoeksomgevingen."
+    p1: "{name} is ontwikkeld met precisie-peptidesynthese en ondergaat hoge-resolutiezuivering voor moleculaire nauwkeurigheid.",
+    p2: "Ontworpen voor biochemische assays, signaalroutes, celstudies, receptorbindingsanalyse en gecontroleerde onderzoeksomgevingen."
   },
-  badges: {
-    hplc: "HPLC Getest",
-    research: "Onderzoekskwaliteit",
-    coa: "COA Beschikbaar"
-  },
+  badges: { hplc: "HPLC getest", research: "Onderzoekskwaliteit", coa: "COA beschikbaar" },
   priceNote: "Alleen voor onderzoek",
   addToCart: "Toevoegen aan winkelwagen",
-  specs: {
-    category: "Categorie",
-    purity: "Zuiverheid",
-    size: "Eenheidsgrootte",
-    cas: "CAS"
-  },
+  specs: { category: "Categorie", purity: "Zuiverheid", size: "Eenheidsgrootte", cas: "CAS" },
   notFound: "Product niet gevonden"
-},
+}
+,
 productContent: {
   overviewTitle: "Overzicht",
+  overviewDescription1:
+    "is een hoog-precisie onderzoekspeptide gesynthetiseerd via vaste-fase peptidesynthese (SPPS). Elke batch ondergaat uitgebreide analytische validatie, waaronder HPLC en massaspectrometrie.",
+  overviewDescription2:
+    "Veelvuldig toegepast in biochemische signaalanalyse, receptorbindingsonderzoek en gecontroleerde laboratoriumstudies.",
+
   mechanism: "Werkingsmechanisme",
   mechanismPoints: [
     "Modulatie van cellulaire signaalroutes",
     "Verhoogde gevoeligheid voor groeifactoren",
     "Regulatie van genexpressie",
     "Invloed op mitochondriale ATP-productie",
-    "Ondersteuning van enzymatische activatie"
+    "Ondersteuning van enzymactivatie"
   ],
+
   researchApplicationsTitle: "Belangrijkste onderzoeks toepassingen",
   researchApplications: [
     "Regeneratieve celbiologie",
@@ -1389,23 +1387,77 @@ productContent: {
     "Enzymgevoeligheidsexperimenten",
     "Matrix-remodelleringsassays"
   ],
+
   scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+  scientificBackground1:
+    "Synthetische peptiden spelen een essentiële rol in modern biochemisch en biomedisch onderzoek.",
+  scientificBackground2:
+    "biedt hoge moleculaire stabiliteit en reproduceerbare experimentele resultaten.",
+
   stabilityTitle: "Stabiliteitsprofiel",
+  stabilityPoints: [
+    "Stabiel bij −20°C in gevriesdroogde vorm",
+    "Gevoelig voor vocht en langdurige blootstelling aan licht",
+    "Voorspelbare degradatie boven kamertemperatuur",
+    "Oplossingen stabiel gedurende 24–48 uur gekoeld"
+  ],
+
   solubilityTitle: "Oplosbaarheid & reconstitutie",
+  solubilityPoints: [
+    "Bacteriostatisch water",
+    "Steriele zoutoplossing",
+    "Zure buffers",
+    "Organische analyseto oplosmiddelen"
+  ],
+
   techSpecsTitle: "Technische specificaties",
+  purityLabel: "Zuiverheid",
+  unitSizeLabel: "Eenheidsgrootte",
+  defaultUnit: "Onderzoeksflacon",
+
+  formLabel: "Vorm",
+  formValue: "Ge lyofiliseerd poeder",
+
+  synthesisLabel: "Synthese",
+  synthesisValue: "Vaste-fase peptidesynthese (SPPS)",
+
+  analysisLabel: "Analyse",
+  analysisValue: "HPLC, MS, UV",
+
   molecularTitle: "Moleculaire kenmerken",
+  molecularPoints: [
+    "Moleculair type: Synthetisch onderzoekspeptide",
+    "Structuur: Lineaire peptideketen",
+    "Moleculair gewicht: Afhankelijk van sequentie",
+    "Stabiliteit: Hoog bij correcte opslag"
+  ],
+
   validationTitle: "Analytische validatie",
+  validationPoints: [
+    "HPLC-analyse",
+    "Massaspectrometrie",
+    "UV-spectrofotometrie",
+    "Batch-identiteitsverificatie",
+    "Endotoxine- en microbiële screening"
+  ],
+
   regulatoryTitle: "Regelgeving & naleving",
+  regulatoryText:
+    "Dit product is uitsluitend bedoeld voor laboratoriumonderzoek en is niet goedgekeurd als geneesmiddel of consumptieproduct.",
+
   faq: "FAQ",
   faqItems: [
     { q: "Is dit peptide voor menselijk gebruik?", a: "Nee. Alleen voor laboratoriumonderzoek." },
-    { q: "Wordt COA meegeleverd?", a: "Ja. Elke batch bevat HPLC- en MS-validatie." },
+    { q: "Wordt COA meegeleverd?", a: "Ja, per batch." },
     { q: "Is het steriel?", a: "Niet vóór reconstitutie." },
-    { q: "Hoe moet het worden opgeslagen?", a: "Verzegeld en ingevroren bij −20°C." }
+    { q: "Hoe opslaan?", a: "Afgesloten en ingevroren bij −20°C." }
   ],
+
+  disclaimerLabel: "Disclaimer",
   disclaimer:
-    "Disclaimer: Dit product is uitsluitend bedoeld voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+    "Dit product is uitsluitend bestemd voor onderzoeksdoeleinden en niet voor menselijk of veterinair gebruik."
 }
+
 
 
 

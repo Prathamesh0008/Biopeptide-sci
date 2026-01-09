@@ -127,60 +127,115 @@ productPage: {
   back: "← Înapoi la produse",
   tagline: "BioPeptide Premium • Material științific de înaltă puritate",
   description: {
-    p1: "{name} este dezvoltat prin sinteză peptidică de precizie și purificare avansată.",
-    p2: "Conceput pentru analize biochimice și cercetare controlată."
+    p1: "{name} este dezvoltat prin sinteză peptidică de precizie și purificare de înaltă rezoluție.",
+    p2: "Conceput pentru analize biochimice, semnalizare celulară și cercetare controlată."
   },
-  badges: {
-    hplc: "Testat HPLC",
-    research: "Grad de cercetare",
-    coa: "COA disponibil"
-  },
+  badges: { hplc: "Testat HPLC", research: "Grad de cercetare", coa: "COA disponibil" },
   priceNote: "Doar pentru cercetare",
   addToCart: "Adaugă în coș",
-  specs: {
-    category: "Categorie",
-    purity: "Puritate",
-    size: "Dimensiune unitate",
-    cas: "CAS"
-  },
+  specs: { category: "Categorie", purity: "Puritate", size: "Dimensiune unitate", cas: "CAS" },
   notFound: "Produs negăsit"
-},
+}
+,
 productContent: {
   overviewTitle: "Prezentare generală",
+
+  overviewDescription1:
+    "este un peptid de cercetare de înaltă precizie sintetizat prin sinteza peptidică în fază solidă (SPPS). Fiecare lot este supus unei validări analitice extinse, incluzând HPLC și spectrometrie de masă (MS), pentru a asigura integritatea structurală, puritatea și consistența între loturi.",
+
+  overviewDescription2:
+    "Este utilizat frecvent în analiza căilor biochimice, testele de legare la receptori, modelarea celulară regenerativă și studiile de interacțiune proteină–peptidă în medii de laborator controlate.",
+
   mechanism: "Mecanism de acțiune",
   mechanismPoints: [
     "Modularea căilor de semnalizare celulară",
     "Creșterea sensibilității la factorii de creștere",
     "Reglarea expresiei genice",
     "Influențarea producției mitocondriale de ATP",
-    "Suport pentru activarea enzimatică"
+    "Susținerea activării enzimatice"
   ],
+
   researchApplicationsTitle: "Aplicații principale de cercetare",
   researchApplications: [
     "Biologie celulară regenerativă",
     "Analiza expresiei proteinelor",
     "Studii de legare la receptori",
-    "Cercetare metabolică mitocondrială",
+    "Cercetare asupra metabolismului mitocondrial",
     "Experimente de sensibilitate enzimatică",
     "Teste de remodelare a matricei"
   ],
-  scientificBackgroundTitle: "Fundal științific",
+
+  scientificBackgroundTitle: "Context științific",
+  scientificBackground1:
+    "Peptidele sintetice joacă un rol esențial în cercetarea biochimică și biomedicală modernă, permițând modularea precisă a comunicării celulare, a semnalizării moleculare și a comportamentului metabolic.",
+
+  scientificBackground2:
+    "oferă stabilitate moleculară ridicată, afinitate mare de legare, profile de degradare previzibile și o reproductibilitate excelentă în diverse condiții experimentale.",
+
   stabilityTitle: "Profil de stabilitate",
-  solubilityTitle: "Solubilitate și reconstituire",
-  techSpecsTitle: "Specificații tehnice",
-  molecularTitle: "Caracteristici moleculare",
-  validationTitle: "Validare analitică",
-  regulatoryTitle: "Reglementare și conformitate",
-  faq: "Întrebări frecvente",
-  faqItems: [
-    { q: "Este acest peptid pentru uz uman?", a: "Nu. Doar pentru cercetare de laborator." },
-    { q: "Include COA?", a: "Da. Fiecare lot include validare HPLC și MS." },
-    { q: "Este steril?", a: "Nu înainte de reconstituire." },
-    { q: "Cum trebuie depozitat?", a: "Sigilat și congelat la −20°C." }
+  stabilityPoints: [
+    "Stabil în formă liofilizată atunci când este depozitat la −20°C",
+    "Sensibil la umiditate și expunere prelungită la lumină",
+    "Degradare previzibilă peste temperatura camerei",
+    "Soluțiile reconstituite sunt stabile timp de 24–48 de ore în condiții de refrigerare"
   ],
+
+  solubilityTitle: "Solubilitate și reconstituire",
+  solubilityPoints: [
+    "Apă bacteriostatică",
+    "Soluție salină sterilă",
+    "Tampoane acide",
+    "Solvenți organici analitici"
+  ],
+
+  techSpecsTitle: "Specificații tehnice",
+  purityLabel: "Puritate",
+  unitSizeLabel: "Dimensiunea unității",
+  defaultUnit: "Flacon de cercetare",
+
+  formLabel: "Formă",
+  formValue: "Pulbere liofilizată",
+
+  synthesisLabel: "Sinteză",
+  synthesisValue: "Sinteză peptidică în fază solidă (SPPS)",
+
+  analysisLabel: "Analiză",
+  analysisValue: "HPLC, MS, UV",
+
+  molecularTitle: "Caracteristici moleculare",
+  molecularPoints: [
+    "Tip molecular: Peptid sintetic pentru cercetare",
+    "Structură: Lanț peptidic liniar",
+    "Greutate moleculară: Dependentă de secvență",
+    "Stabilitate: Ridicată atunci când este depozitat corespunzător"
+  ],
+
+  validationTitle: "Validare analitică",
+  validationPoints: [
+    "Cromatografie lichidă de înaltă performanță (HPLC)",
+    "Spectrometrie de masă (MS)",
+    "Spectrofotometrie UV",
+    "Verificarea purității și identității loturilor",
+    "Testare pentru endotoxine și contaminare microbiană"
+  ],
+
+  regulatoryTitle: "Reglementare și conformitate",
+  regulatoryText:
+    "Acest produs este furnizat exclusiv pentru cercetare științifică și investigații de laborator. Nu este aprobat ca medicament, aliment, produs cosmetic sau dispozitiv medical. Documentația, precum Certificatul de Analiză (COA) și Fișa cu Date de Securitate (MSDS), este disponibilă la cerere.",
+
+  faq: "FAQ",
+  faqItems: [
+    { q: "Este acest peptid destinat utilizării umane?", a: "Nu. Exclusiv pentru cercetare de laborator." },
+    { q: "Este furnizat un COA?", a: "Da. Fiecare lot include validare HPLC și MS." },
+    { q: "Produsul este steril?", a: "Nu înainte de reconstituire." },
+    { q: "Cum trebuie depozitat?", a: "Sigilat și păstrat la −20°C." }
+  ],
+
+  disclaimerLabel: "Declinare de responsabilitate",
   disclaimer:
-    "Declinare de responsabilitate: Acest produs este destinat exclusiv cercetării de laborator."
+    "Acest produs este destinat strict cercetării de laborator. Nu este destinat utilizării umane sau veterinare și nu este destinat diagnosticării, tratării sau prevenirii oricărei boli. Utilizarea necorespunzătoare poate prezenta riscuri grave pentru sănătate."
 }
+
 
 
 

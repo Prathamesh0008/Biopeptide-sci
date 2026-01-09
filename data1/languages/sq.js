@@ -127,60 +127,115 @@ productPage: {
   back: "← Kthehu te produktet",
   tagline: "BioPeptide Premium • Material kërkimor me pastërti të lartë",
   description: {
-    p1: "{name} zhvillohet me sintezë precize peptidike dhe pastrim të avancuar.",
-    p2: "Projektuar për analiza biokimike dhe mjedise kërkimore të kontrolluara."
+    p1: "{name} zhvillohet me sintezë precize peptidike dhe pastrim me rezolucion të lartë.",
+    p2: "Projektuar për analiza biokimike, sinjalizim qelizor dhe mjedise kërkimore të kontrolluara."
   },
-  badges: {
-    hplc: "Testuar HPLC",
-    research: "Gradë kërkimore",
-    coa: "COA në dispozicion"
-  },
+  badges: { hplc: "Testuar HPLC", research: "Gradë kërkimore", coa: "COA i disponueshëm" },
   priceNote: "Vetëm për kërkime",
   addToCart: "Shto në shportë",
-  specs: {
-    category: "Kategori",
-    purity: "Pastërti",
-    size: "Madhësia",
-    cas: "CAS"
-  },
+  specs: { category: "Kategori", purity: "Pastërti", size: "Madhësia e njësisë", cas: "CAS" },
   notFound: "Produkti nuk u gjet"
-},
+}
+,
 productContent: {
   overviewTitle: "Përmbledhje",
+
+  overviewDescription1:
+    "është një peptid kërkimor me precizion të lartë i sintetizuar përmes sintezës peptidike në fazë të ngurtë (SPPS). Çdo seri i nënshtrohet një validimi analitik të gjerë, duke përfshirë HPLC dhe spektrometri të masës (MS), për të siguruar integritetin strukturor, pastërtinë dhe konsistencën midis serive.",
+
+  overviewDescription2:
+    "Përdoret gjerësisht në analizën e rrugëve biokimike, testet e lidhjes me receptorët, modelimin qelizor rigjenerues dhe studimet e ndërveprimit proteinë–peptid në mjedise laboratorike të kontrolluara.",
+
   mechanism: "Mekanizmi i veprimit",
   mechanismPoints: [
     "Modulimi i rrugëve të sinjalizimit qelizor",
     "Rritja e ndjeshmërisë ndaj faktorëve të rritjes",
     "Rregullimi i shprehjes gjenetike",
-    "Ndikimi në prodhimin mitokondrial të ATP",
-    "Mbështetje për aktivizimin enzimatik"
+    "Ndikimi në prodhimin mitokondrial të ATP-së",
+    "Mbështetja e aktivizimit enzimatik"
   ],
+
   researchApplicationsTitle: "Aplikimet kryesore kërkimore",
   researchApplications: [
     "Biologji qelizore rigjeneruese",
-    "Analizë e shprehjes së proteinave",
-    "Studime të lidhjes së receptorëve",
-    "Kërkim metabolik mitokondrial",
+    "Analiza e shprehjes së proteinave",
+    "Studime të lidhjes me receptorët",
+    "Kërkime mbi metabolizmin mitokondrial",
     "Eksperimente të ndjeshmërisë enzimatike",
     "Teste të rimodelimit të matricës"
   ],
-  scientificBackgroundTitle: "Sfond shkencor",
+
+  scientificBackgroundTitle: "Sfondi shkencor",
+  scientificBackground1:
+    "Peptidet sintetike luajnë një rol kyç në kërkimin modern biokimik dhe biomjekësor, duke mundësuar modulimin e saktë të komunikimit qelizor, sinjalizimit molekular dhe sjelljes metabolike.",
+
+  scientificBackground2:
+    "ofron stabilitet të lartë molekular, afinitet të fortë lidhës, profile degradimi të parashikueshme dhe riprodhueshmëri të shkëlqyer në kushte të ndryshme eksperimentale.",
+
   stabilityTitle: "Profili i stabilitetit",
-  solubilityTitle: "Tretshmëria dhe rikonstituimi",
-  techSpecsTitle: "Specifikime teknike",
-  molecularTitle: "Karakteristika molekulare",
-  validationTitle: "Validim analitik",
-  regulatoryTitle: "Rregullore dhe pajtueshmëri",
-  faq: "Pyetje të shpeshta",
-  faqItems: [
-    { q: "A është ky peptid për përdorim njerëzor?", a: "Jo. Vetëm për kërkime laboratorike." },
-    { q: "A përfshin COA?", a: "Po. Çdo seri përfshin validim HPLC dhe MS." },
-    { q: "A është steril?", a: "Jo para rikonstituimit." },
-    { q: "Si duhet të ruhet?", a: "I mbyllur dhe i ngrirë në −20°C." }
+  stabilityPoints: [
+    "I qëndrueshëm në formë të liofilizuar kur ruhet në −20°C",
+    "I ndjeshëm ndaj lagështisë dhe ekspozimit të zgjatur ndaj dritës",
+    "Degradim i parashikueshëm mbi temperaturën e dhomës",
+    "Tretësirat e rikonstituuara janë të qëndrueshme për 24–48 orë në kushte ftohjeje"
   ],
+
+  solubilityTitle: "Tretshmëria dhe rikonstituimi",
+  solubilityPoints: [
+    "Ujë bakteriostatik",
+    "Tretësirë fiziologjike sterile",
+    "Tampona acidë",
+    "Tretës organikë analitikë"
+  ],
+
+  techSpecsTitle: "Specifikime teknike",
+  purityLabel: "Pastërtia",
+  unitSizeLabel: "Madhësia e njësisë",
+  defaultUnit: "Flakon kërkimor",
+
+  formLabel: "Forma",
+  formValue: "Pluhur i liofilizuar",
+
+  synthesisLabel: "Sinteza",
+  synthesisValue: "Sintezë peptidike në fazë të ngurtë (SPPS)",
+
+  analysisLabel: "Analiza",
+  analysisValue: "HPLC, MS, UV",
+
+  molecularTitle: "Karakteristikat molekulare",
+  molecularPoints: [
+    "Lloji molekular: Peptid sintetik për kërkime",
+    "Struktura: Zinxhir peptidik linear",
+    "Pesha molekulare: Varet nga sekuenca",
+    "Stabiliteti: I lartë kur ruhet në mënyrë të përshtatshme"
+  ],
+
+  validationTitle: "Validimi analitik",
+  validationPoints: [
+    "Kromatografi e lëngshme me performancë të lartë (HPLC)",
+    "Spektrometri e masës (MS)",
+    "Spektrofotometri UV",
+    "Verifikimi i pastërtisë dhe identitetit të serive",
+    "Testim për endotoksina dhe ndotje mikrobiale"
+  ],
+
+  regulatoryTitle: "Rregullore dhe përputhshmëri",
+  regulatoryText:
+    "Ky produkt ofrohet ekskluzivisht për kërkime shkencore dhe përdorim laboratorik. Nuk është i miratuar si ilaç, ushqim, kozmetikë ose pajisje mjekësore. Dokumentacioni si Certifikata e Analizës (COA) dhe Fleta e të Dhënave të Sigurisë (MSDS) është i disponueshëm sipas kërkesës.",
+
+  faq: "FAQ",
+  faqItems: [
+    { q: "A është ky peptid i destinuar për përdorim njerëzor?", a: "Jo. Vetëm për kërkime laboratorike." },
+    { q: "A përfshihet COA?", a: "Po. Çdo seri përfshin validim HPLC dhe MS." },
+    { q: "A është produkti steril?", a: "Jo para rikonstituimit." },
+    { q: "Si duhet të ruhet?", a: "I mbyllur dhe i ruajtur në −20°C." }
+  ],
+
+  disclaimerLabel: "Mohim përgjegjësie",
   disclaimer:
-    "Mohim përgjegjësie: Ky produkt është vetëm për qëllime kërkimore laboratorike."
+    "Ky produkt është i destinuar rreptësisht për kërkime laboratorike. Nuk është i destinuar për përdorim njerëzor ose veterinar, as për diagnostikim, trajtim apo parandalim të ndonjë sëmundjeje. Përdorimi i papërshtatshëm mund të shkaktojë rreziqe serioze për shëndetin."
 }
+ 
 
 
 
