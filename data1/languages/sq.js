@@ -1192,25 +1192,17 @@ export default {
     ],
     "regulatoryTitle": "Rregullatore & Përputhshmëri",
     "regulatoryText": "Ky produkt furnizohet rreptësisht për kërkim laboratorik dhe hulumtim shkencor. Ai nuk është miratuar si barnë, ushqim, kozmetikë ose produkt mjekësor. Dokumentacioni siç është Certifikata e Analizës (COA) dhe Fleta e të Dhënave të Sigurisë së Materialit (MSDS) është në dispozicion me kërkesë.",
-    "faq": "FAQ",
-    "faqItems": [
-      {
-        "q": "A është ky peptid për përdorim njerëzor?",
-        "a": "Jo. Vetëm për kërkime laboratorike."
-      },
-      {
-        "q": "A përfshin COA?",
-        "a": "Po. Çdo grup përfshin validim HPLC dhe MS."
-      },
-      {
-        "q": "A është sterilitet?",
-        "a": "Jo deri sa të rikrijohet."
-      },
-      {
-        "q": "Si duhet të ruhet?",
-        "a": "I vulosur dhe i ngrirë në −20°C."
-      }
-    ],
+    faq: "Pyetje të shpeshta",
+faqItems: [
+  { q: "A është ky peptid për përdorim njerëzor?", a: "Jo. Vetëm për kërkime laboratorike." },
+  { q: "A përfshihet COA?", a: "Po. Çdo seri përfshin validim HPLC dhe MS." },
+  { q: "A është steril?", a: "Jo deri në rikonstituim." },
+  { q: "Si duhet të ruhet?", a: "I mbyllur dhe i ngrirë në −20°C." },
+  { q: "Cili është niveli i pastërtisë së këtij peptidi?", a: "Pastërtia zakonisht tejkalon 98%, e verifikuar me analizë HPLC." },
+  { q: "A mund të përdoret në studime in vitro?", a: "Po. Është projektuar posaçërisht për kërkime laboratorike in vitro të kontrolluara." },
+  { q: "Si kryhet transporti?", a: "Produktet dërgohen me paketim të përshtatshëm për të ruajtur stabilitetin gjatë transportit." }
+]
+,
     "disclaimerLabel": "Mohim Përgjegjësie",
     "disclaimer": "Ky produkt synohet rreptësisht vetëm për qëllime kërkimi laboratorik. Ai nuk synohet për konsum njerëzor ose veterinar, diagnostikim, trajtim ose parandalim të ndonjë sëmundjeje. Përdorimi i papërshtatshëm mund të rezultojë në rreziqe serioze shëndetësore."
   }

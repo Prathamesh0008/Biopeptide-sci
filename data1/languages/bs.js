@@ -1193,25 +1193,17 @@ export default {
     ],
     "regulatoryTitle": "Regulatorna & usklađenost",
     "regulatoryText": "Ovaj proizvod se isporučuje strogo za laboratorijska istraživanja i naučna ispitivanja. Nije odobren kao lijek, hrana, kozmetika ili medicinski proizvod. Dokumentacija kao što je Certifikat analize (COA) i Lista sigurnosnih podataka (MSDS) je dostupna na zahtjev.",
-    "faq": "ČPP",
-    "faqItems": [
-      {
-        "q": "Da li je ovaj peptid za ljudsku upotrebu?",
-        "a": "Ne. Samo za laboratorijska istraživanja."
-      },
-      {
-        "q": "Da li uključuje COA?",
-        "a": "Da. Svaka serija uključuje HPLC i MS validaciju."
-      },
-      {
-        "q": "Da li je sterilan?",
-        "a": "Ne dok se ne rekonstituiše."
-      },
-      {
-        "q": "Kako treba da se čuva?",
-        "a": "Zapečaćen i smrznut na −20°C."
-      }
-    ],
+    faq: "Često postavljana pitanja",
+faqItems: [
+  { q: "Da li je ovaj peptid za ljudsku upotrebu?", a: "Ne. Isključivo za laboratorijska istraživanja." },
+  { q: "Da li uključuje COA?", a: "Da. Svaka serija uključuje HPLC i MS validaciju." },
+  { q: "Da li je sterilan?", a: "Ne prije rekonstitucije." },
+  { q: "Kako se treba skladištiti?", a: "Zapečaćen i zamrznut na −20°C." },
+  { q: "Koji je nivo čistoće ovog peptida?", a: "Čistoća obično prelazi 98%, potvrđena HPLC analizom." },
+  { q: "Može li se koristiti u in vitro studijama?", a: "Da. Posebno je dizajniran za kontrolisana in vitro laboratorijska istraživanja." },
+  { q: "Kako se vrši isporuka?", a: "Proizvodi se šalju s odgovarajućim pakovanjem radi očuvanja stabilnosti tokom transporta." }
+]
+,
     "disclaimerLabel": "Odricanje od odgovornosti",
     "disclaimer": "Ovaj proizvod je namijenjen isključivo za laboratorijske istraživačke svrhe. Nije namijenjen za ljudsku ili veterinarsku konzumaciju, dijagnostiku, liječenje ili prevenciju bilo koje bolesti. Nepravilna upotreba može rezultirati ozbiljnim zdravstvenim rizicima."
   }

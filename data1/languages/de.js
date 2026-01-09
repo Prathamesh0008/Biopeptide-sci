@@ -1385,12 +1385,16 @@ productContent: {
     "Dieses Produkt wird ausschließlich für wissenschaftliche Forschung und Laboruntersuchungen bereitgestellt. Es ist nicht als Arzneimittel, Lebensmittel, Kosmetikum oder Medizinprodukt zugelassen. Dokumente wie das Analysezertifikat (COA) und das Sicherheitsdatenblatt (MSDS) sind auf Anfrage erhältlich.",
 
   faq: "FAQ",
-  faqItems: [
-    { q: "Ist dieses Peptid für den menschlichen Gebrauch bestimmt?", a: "Nein. Ausschließlich für die Laborforschung." },
-    { q: "Wird ein COA bereitgestellt?", a: "Ja. Jede Charge enthält eine HPLC- und MS-Validierung." },
-    { q: "Ist das Produkt steril?", a: "Nicht vor der Rekonstitution." },
-    { q: "Wie sollte es gelagert werden?", a: "Versiegelt und bei −20°C gefroren lagern." }
-  ],
+faqItems: [
+  { q: "Ist dieses Peptid für den menschlichen Gebrauch bestimmt?", a: "Nein. Ausschließlich für die Laborforschung." },
+  { q: "Ist ein COA enthalten?", a: "Ja. Jede Charge enthält eine HPLC- und MS-Validierung." },
+  { q: "Ist es steril?", a: "Nicht vor der Rekonstitution." },
+  { q: "Wie sollte es gelagert werden?", a: "Versiegelt und bei −20°C eingefroren lagern." },
+  { q: "Wie hoch ist der Reinheitsgrad dieses Peptids?", a: "Der Reinheitsgrad liegt in der Regel über 98 %, bestätigt durch HPLC-Analyse." },
+  { q: "Kann dieses Peptid für In-vitro-Studien verwendet werden?", a: "Ja. Es wurde speziell für kontrollierte In-vitro-Laborforschung entwickelt." },
+  { q: "Wie erfolgt der Versand?", a: "Die Produkte werden mit geeigneter Verpackung versendet, um die Stabilität während des Transports zu gewährleisten." }
+]
+,
 
   disclaimerLabel: "Haftungsausschluss",
   disclaimer:

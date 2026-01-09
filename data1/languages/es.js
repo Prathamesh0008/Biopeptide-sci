@@ -1385,13 +1385,17 @@ productContent: {
   regulatoryText:
     "Este producto se suministra exclusivamente para investigación científica y uso en laboratorio. No está aprobado como medicamento, alimento, cosmético ni producto sanitario. La documentación, como el Certificado de Análisis (COA) y la Ficha de Datos de Seguridad (MSDS), está disponible previa solicitud.",
 
-  faq: "FAQ",
-  faqItems: [
-    { q: "¿Este péptido es para uso humano?", a: "No. Exclusivamente para investigación en laboratorio." },
-    { q: "¿Incluye COA?", a: "Sí. Cada lote incluye validación por HPLC y MS." },
-    { q: "¿Es estéril?", a: "No antes de la reconstitución." },
-    { q: "¿Cómo debe almacenarse?", a: "Sellado y conservado a −20°C." }
-  ],
+  faq: "Preguntas frecuentes",
+faqItems: [
+  { q: "¿Este péptido es para uso humano?", a: "No. Solo para investigación de laboratorio." },
+  { q: "¿Incluye COA?", a: "Sí. Cada lote incluye validación por HPLC y MS." },
+  { q: "¿Es estéril?", a: "No hasta que se reconstituya." },
+  { q: "¿Cómo debe almacenarse?", a: "Sellado y congelado a −20°C." },
+  { q: "¿Cuál es el nivel de pureza de este péptido?", a: "La pureza suele superar el 98%, verificada mediante análisis HPLC." },
+  { q: "¿Puede utilizarse en estudios in vitro?", a: "Sí. Está diseñado específicamente para investigación de laboratorio in vitro controlada." },
+  { q: "¿Cómo se gestiona el envío?", a: "Los productos se envían con el embalaje adecuado para mantener la estabilidad durante el transporte." }
+]
+,
 
   disclaimerLabel: "Descargo de responsabilidad",
   disclaimer:

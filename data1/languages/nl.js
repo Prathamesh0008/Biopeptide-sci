@@ -1448,12 +1448,16 @@ productContent: {
     "Dit product is uitsluitend bedoeld voor laboratoriumonderzoek en is niet goedgekeurd als geneesmiddel of consumptieproduct.",
 
   faq: "FAQ",
-  faqItems: [
-    { q: "Is dit peptide voor menselijk gebruik?", a: "Nee. Alleen voor laboratoriumonderzoek." },
-    { q: "Wordt COA meegeleverd?", a: "Ja, per batch." },
-    { q: "Is het steriel?", a: "Niet vóór reconstitutie." },
-    { q: "Hoe opslaan?", a: "Afgesloten en ingevroren bij −20°C." }
-  ],
+faqItems: [
+  { q: "Is dit peptide bedoeld voor menselijk gebruik?", a: "Nee. Uitsluitend voor laboratoriumonderzoek." },
+  { q: "Wordt er een COA meegeleverd?", a: "Ja. Elke batch bevat HPLC- en MS-validatie." },
+  { q: "Is het steriel?", a: "Niet totdat het is gereconstitueerd." },
+  { q: "Hoe moet het worden opgeslagen?", a: "Verzegeld en ingevroren bij −20°C." },
+  { q: "Wat is het zuiverheidsniveau van dit peptide?", a: "De zuiverheid bedraagt doorgaans meer dan 98%, bevestigd door HPLC-analyse." },
+  { q: "Kan dit peptide worden gebruikt voor in-vitroonderzoek?", a: "Ja. Het is specifiek ontworpen voor gecontroleerd in-vitro laboratoriumonderzoek." },
+  { q: "Hoe wordt de verzending afgehandeld?", a: "Producten worden verzonden met geschikte verpakking om stabiliteit tijdens transport te behouden." }
+]
+,
 
   disclaimerLabel: "Disclaimer",
   disclaimer:

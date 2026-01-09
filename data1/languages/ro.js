@@ -1184,12 +1184,17 @@ export default {
     "regulatoryTitle": "Conformitate și reglementare",
     "regulatoryText": "Acest produs este furnizat strict pentru cercetare de laborator și investigație științifică. Nu este aprobat ca medicament, aliment, produs cosmetic sau medical. Documentația precum Certificatul de Analiză (COA) și Fișa de Date de Securitate (MSDS) este disponibilă la cerere.",
     "faq": "Întrebări frecvente",
-    "faqItems": [
-      { "q": "Acest peptid este pentru uz uman?", "a": "Nu. Numai pentru cercetare de laborator." },
-      { "q": "Include COA?", "a": "Da. Fiecare lot include validare HPLC și MS." },
-      { "q": "Este steril?", "a": "Nu până la reconstituire." },
-      { "q": "Cum ar trebui depozitat?", "a": "Sigilat și înghețat la −20°C." }
-    ],
+    faq: "Întrebări frecvente",
+faqItems: [
+  { q: "Este acest peptid destinat utilizării umane?", a: "Nu. Exclusiv pentru cercetare de laborator." },
+  { q: "Include COA?", a: "Da. Fiecare lot include validare HPLC și MS." },
+  { q: "Este steril?", a: "Nu până la reconstituire." },
+  { q: "Cum trebuie depozitat?", a: "Sigilat și congelat la −20°C." },
+  { q: "Care este nivelul de puritate al acestui peptid?", a: "Puritatea depășește de obicei 98%, verificată prin analiză HPLC." },
+  { q: "Poate fi utilizat în studii in vitro?", a: "Da. Este conceput special pentru cercetări de laborator in vitro controlate." },
+  { q: "Cum se realizează livrarea?", a: "Produsele sunt expediate cu ambalaj adecvat pentru a menține stabilitatea în timpul transportului." }
+]
+,
     "disclaimerLabel": "Declinare de răspundere",
     "disclaimer": "Acest produs este destinat strict în scopuri de cercetare de laborator. Nu este destinat consumului uman sau veterinar, diagnosticării, tratării sau prevenirii vreunei boli. Utilizarea improprie poate duce la riscuri grave pentru sănătate."
   }

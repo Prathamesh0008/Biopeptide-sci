@@ -1654,12 +1654,17 @@ productContent: {
   regulatoryText:
     "This product is supplied strictly for laboratory research and scientific investigation. It is not approved as a drug, food, cosmetic, or medical product. Documentation such as Certificate of Analysis (COA) and Material Safety Data Sheet (MSDS) is available upon request.",
 
-  faq: "FAQ",
+ faq: "FAQ",
   faqItems: [
     { q: "Is this peptide for human use?", a: "No. Laboratory research only." },
     { q: "Does it include COA?", a: "Yes. Each batch includes HPLC and MS validation." },
     { q: "Is it sterile?", a: "Not until reconstituted." },
-    { q: "How should it be stored?", a: "Sealed and frozen at −20°C." }
+    { q: "How should it be stored?", a: "Sealed and frozen at −20°C." },
+
+    // ➕ ADD MORE BELOW
+    { q: "What is the purity level of this peptide?", a: "Purity typically exceeds 98% as verified by HPLC analysis." },
+    { q: "Can this peptide be used in in-vitro studies?", a: "Yes. It is designed specifically for controlled in-vitro laboratory research." },
+    { q: "How is shipping handled?", a: "Products are shipped with appropriate packaging to maintain stability during transit." }
   ],
 
   disclaimerLabel: "Disclaimer",
