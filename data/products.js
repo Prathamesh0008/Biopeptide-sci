@@ -4472,7 +4472,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/apsules/slupp332_30capsule@300x.png"
+  image: "/product/capsules/slupp332_30capsule@300x.png"
 },
 {
   id: "snap-8-200mg-topical",
