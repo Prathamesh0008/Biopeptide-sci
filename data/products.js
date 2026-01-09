@@ -143,7 +143,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/aod-9604_6mg.svg"
+  image: "/product/peptides/aod-9604_6mg.svg"
 },
 
 
@@ -360,7 +360,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/public/product/peptides/bpc-157_10mg.svg"
+  image: "/product/peptides/bpc-157_10mg.svg"
 },
 {
   id: "bpc-157-15mg",
@@ -732,7 +732,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/Adipotide10mg.png"
+  image: "/product/peptides/Adipotide10mg.png"
 },
 
 {
@@ -767,7 +767,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/aicar50mg.svg"
+  image: "/product/peptides/aicar50mg.svg"
 },
 {
   id: "ara-290-16mg",
@@ -835,7 +835,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/b7-33_6mg.svg"
+  image: "/product/peptides/b7-33_6mg.svg"
 },
 {
   id: "chonluten-20mg",
@@ -2107,7 +2107,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp-6.svg"
+  image: "/product/peptides/ghrp-6_5mg.svg"
 },
 {
   id: "ghrp-6-5mg",
