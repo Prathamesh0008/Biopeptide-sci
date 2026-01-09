@@ -1206,7 +1206,65 @@ faqItems: [
 ,
   "disclaimerLabel": "Odricanje od odgovornosti",
   "disclaimer": "Ovaj proizvod je namenjen isključivo za laboratorijska istraživanja. Nije namenjen za ljudsku ili veterinarsku upotrebu, dijagnozu, lečenje ili prevenciju bilo koje bolesti. Nepravilna upotreba može dovesti do ozbiljnih zdravstvenih rizika."
+},
+bundlePage: {
+  tagline: "Pažljivo odabrani BioPeptide istraživački paket za napredne naučne radne tokove.",
+
+  overviewTitle: "Pregled paketa",
+  overviewExtra:
+    "Svi uključeni peptidi prolaze kroz strogu laboratorijsku validaciju, uključujući:",
+  overviewPoints: [
+    "≥ 98–99% čistoće",
+    "Verifikovano HPLC i masenom spektrometrijom",
+    "Molekularna stabilnost",
+    "Istraživački kvalitet"
+  ],
+
+  includedTitle: "Uključena jedinjenja",
+
+  scienceTitle: "Naučne primene",
+  sciencePoints: [
+    "Istraživanje vezivanja receptora",
+    "Regenerativno ćelijsko modelovanje",
+    "Analiza mitohondrijskog metabolizma",
+    "Stimulacija signalnih puteva",
+    "Testovi enzimskog odgovora"
+  ],
+
+  stabilityTitle: "Skladištenje i stabilnost",
+  stabilityPoints: [
+    "Čuvati na −20°C (liofilizovano)",
+    "Zaštititi od vlage i svetlosti",
+    "Stabilnost nakon rekonstitucije: 24–48 sati",
+    "Izbegavati ponovljene cikluse zamrzavanja–odmrzavanja"
+  ],
+
+  faqTitle: "Često postavljana pitanja",
+  faqItems: [
+    {
+      q: "Da li je namenjeno za ljudsku upotrebu?",
+      a: "Isključivo namenjeno za laboratorijska istraživanja."
+    },
+    {
+      q: "Da li paketi uključuju COA?",
+      a: "Da — svaki peptid uključuje HPLC i maseno-spektrometrijsku verifikaciju."
+    },
+    {
+      q: "Da li su sterilni?",
+      a: "Nisu sterilni dok se pravilno ne rekonstituišu rastvaračima laboratorijskog kvaliteta."
+    }
+  ],
+
+  priceIncludes: [
+    "≥ 99% čistoće",
+    "HPLC + MS verifikovano",
+    "Bezbedno laboratorijsko pakovanje",
+    "Globalni istraživački kvalitet"
+  ],
+
+  addToCart: "Dodaj paket u korpu"
 }
+
       
 
 

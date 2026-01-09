@@ -1399,7 +1399,65 @@ faqItems: [
   disclaimerLabel: "Haftungsausschluss",
   disclaimer:
     "Dieses Produkt ist ausschließlich für Forschungszwecke im Labor bestimmt. Es ist nicht für den menschlichen oder veterinärmedizinischen Gebrauch sowie nicht zur Diagnose, Behandlung oder Vorbeugung von Krankheiten vorgesehen. Unsachgemäße Verwendung kann erhebliche Gesundheitsrisiken verursachen."
+},
+bundlePage: {
+  tagline: "Ein sorgfältig zusammengestelltes BioPeptide-Forschungsbundle für fortschrittliche wissenschaftliche Arbeitsabläufe.",
+
+  overviewTitle: "Bundle-Übersicht",
+  overviewExtra:
+    "Alle enthaltenen Peptide durchlaufen eine strenge Laborvalidierung, einschließlich:",
+  overviewPoints: [
+    "≥ 98–99 % Reinheit",
+    "Per HPLC und Massenspektrometrie verifiziert",
+    "Molekulare Stabilität",
+    "Forschungsqualität"
+  ],
+
+  includedTitle: "Enthaltene Verbindungen",
+
+  scienceTitle: "Wissenschaftliche Anwendungen",
+  sciencePoints: [
+    "Rezeptorbindungsforschung",
+    "Regenerative Zellmodellierung",
+    "Analyse des mitochondrialen Stoffwechsels",
+    "Stimulation von Signalwegen",
+    "Enzymreaktionsassays"
+  ],
+
+  stabilityTitle: "Lagerung & Stabilität",
+  stabilityPoints: [
+    "Lagerung bei −20 °C (lyophilisiert)",
+    "Vor Feuchtigkeit und Licht schützen",
+    "Stabilität nach Rekonstitution: 24–48 Stunden",
+    "Wiederholte Gefrier-Auftau-Zyklen vermeiden"
+  ],
+
+  faqTitle: "FAQ",
+  faqItems: [
+    {
+      q: "Ist dies für den menschlichen Gebrauch bestimmt?",
+      a: "Ausschließlich für Laborforschungszwecke bestimmt."
+    },
+    {
+      q: "Enthalten Bundles ein COA?",
+      a: "Ja — jedes Peptid enthält eine HPLC- und Massenspektrometrie-Verifizierung."
+    },
+    {
+      q: "Sind sie steril?",
+      a: "Nicht steril, bis sie ordnungsgemäß mit Lösungsmitteln in Laborqualität rekonstituiert werden."
+    }
+  ],
+
+  priceIncludes: [
+    "≥ 99 % Reinheit",
+    "HPLC + MS verifiziert",
+    "Sichere Laborverpackung",
+    "Globale Forschungsqualität"
+  ],
+
+  addToCart: "Bundle in den Warenkorb legen"
 }
+
 
 
 

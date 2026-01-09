@@ -1386,7 +1386,65 @@ faqItems: [
   disclaimerLabel: "Avertissement",
   disclaimer:
     "Ce produit est strictement destiné à la recherche en laboratoire. Il n’est pas destiné à un usage humain ou vétérinaire, ni au diagnostic, au traitement ou à la prévention de toute maladie. Une utilisation inappropriée peut entraîner de graves risques pour la santé."
+},
+bundlePage: {
+  tagline: "Un bundle de recherche BioPeptide soigneusement sélectionné pour des flux de travail scientifiques avancés.",
+
+  overviewTitle: "Présentation du bundle",
+  overviewExtra:
+    "Tous les peptides inclus font l’objet d’une validation stricte en laboratoire, notamment :",
+  overviewPoints: [
+    "≥ 98–99 % de pureté",
+    "Vérifié par HPLC et spectrométrie de masse",
+    "Stabilité moléculaire",
+    "Qualité grade recherche"
+  ],
+
+  includedTitle: "Composés inclus",
+
+  scienceTitle: "Applications scientifiques",
+  sciencePoints: [
+    "Recherche de liaison aux récepteurs",
+    "Modélisation cellulaire régénérative",
+    "Analyse du métabolisme mitochondrial",
+    "Stimulation des voies de signalisation",
+    "Essais de réponse enzymatique"
+  ],
+
+  stabilityTitle: "Stockage et stabilité",
+  stabilityPoints: [
+    "Conserver à −20 °C (lyophilisé)",
+    "Protéger de l’humidité et de la lumière",
+    "Stabilité après reconstitution : 24–48 heures",
+    "Éviter les cycles de congélation–décongélation"
+  ],
+
+  faqTitle: "FAQ",
+  faqItems: [
+    {
+      q: "Est-ce destiné à un usage humain ?",
+      a: "Strictement réservé à un usage de recherche en laboratoire."
+    },
+    {
+      q: "Les bundles incluent-ils un COA ?",
+      a: "Oui — chaque peptide est fourni avec une vérification HPLC et spectrométrie de masse."
+    },
+    {
+      q: "Sont-ils stériles ?",
+      a: "Non stériles tant qu’ils ne sont pas correctement reconstitués avec des solvants de qualité laboratoire."
+    }
+  ],
+
+  priceIncludes: [
+    "≥ 99 % de pureté",
+    "Vérifié par HPLC + MS",
+    "Conditionnement sécurisé pour laboratoire",
+    "Qualité de recherche internationale"
+  ],
+
+  addToCart: "Ajouter le bundle au panier"
 }
+
 
 
 

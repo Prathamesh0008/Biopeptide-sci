@@ -1197,7 +1197,65 @@ faqItems: [
 ,
     "disclaimerLabel": "Declinare de răspundere",
     "disclaimer": "Acest produs este destinat strict în scopuri de cercetare de laborator. Nu este destinat consumului uman sau veterinar, diagnosticării, tratării sau prevenirii vreunei boli. Utilizarea improprie poate duce la riscuri grave pentru sănătate."
-  }
+  },
+  bundlePage: {
+  tagline: "Un pachet de cercetare BioPeptide atent selectat pentru fluxuri de lucru științifice avansate.",
+
+  overviewTitle: "Prezentare generală a pachetului",
+  overviewExtra:
+    "Toate peptidele incluse sunt supuse unei validări stricte în laborator, inclusiv:",
+  overviewPoints: [
+    "≥ 98–99% puritate",
+    "Verificat prin HPLC și spectrometrie de masă",
+    "Stabilitate moleculară",
+    "Calitate de grad de cercetare"
+  ],
+
+  includedTitle: "Componente incluse",
+
+  scienceTitle: "Aplicații științifice",
+  sciencePoints: [
+    "Cercetare de legare la receptori",
+    "Modelare celulară regenerativă",
+    "Analiza metabolismului mitocondrial",
+    "Stimularea căilor de semnalizare",
+    "Teste de răspuns enzimatic"
+  ],
+
+  stabilityTitle: "Depozitare și stabilitate",
+  stabilityPoints: [
+    "Depozitare la −20°C (liofilizat)",
+    "Protejați de umiditate și lumină",
+    "Stabilitate după reconstituire: 24–48 de ore",
+    "Evitați ciclurile repetate de congelare–decongelare"
+  ],
+
+  faqTitle: "Întrebări frecvente",
+  faqItems: [
+    {
+      q: "Este destinat utilizării umane?",
+      a: "Strict destinat exclusiv scopurilor de cercetare în laborator."
+    },
+    {
+      q: "Pachetele includ COA?",
+      a: "Da — fiecare peptid include verificare HPLC și spectrometrie de masă."
+    },
+    {
+      q: "Sunt sterile?",
+      a: "Nu sunt sterile până când nu sunt reconstituite corect cu solvenți de grad de laborator."
+    }
+  ],
+
+  priceIncludes: [
+    "≥ 99% puritate",
+    "Verificat HPLC + MS",
+    "Ambalare sigură pentru laborator",
+    "Calitate de cercetare globală"
+  ],
+
+  addToCart: "Adaugă pachetul în coș"
+}
+
 
 
 

@@ -1395,7 +1395,65 @@ faqItems: [
   disclaimerLabel: "免责声明",
   disclaimer:
     "本产品严格限用于实验室研究，不得用于人体或动物使用，也不得用于疾病的诊断、治疗或预防。不当使用可能带来严重的健康风险。"
+},
+bundlePage: {
+  tagline: "专为高级科研流程精心打造的 BioPeptide 研究组合。",
+
+  overviewTitle: "组合概览",
+  overviewExtra:
+    "所有包含的肽均经过严格的实验室验证，包括：",
+  overviewPoints: [
+    "≥ 98–99% 纯度",
+    "经 HPLC 和质谱验证",
+    "分子稳定性",
+    "研究级品质"
+  ],
+
+  includedTitle: "包含化合物",
+
+  scienceTitle: "科学应用",
+  sciencePoints: [
+    "受体结合研究",
+    "再生细胞建模",
+    "线粒体代谢分析",
+    "信号通路刺激",
+    "酶反应实验"
+  ],
+
+  stabilityTitle: "储存与稳定性",
+  stabilityPoints: [
+    "−20°C 保存（冻干状态）",
+    "避免受潮及光照",
+    "复溶后稳定性：24–48 小时",
+    "避免反复冻融"
+  ],
+
+  faqTitle: "常见问题",
+  faqItems: [
+    {
+      q: "是否用于人体？",
+      a: "仅限于实验室研究用途。"
+    },
+    {
+      q: "组合是否包含 COA？",
+      a: "是的 — 每种肽均提供 HPLC 和质谱验证。"
+    },
+    {
+      q: "是否无菌？",
+      a: "在使用实验室级溶剂正确复溶之前并非无菌。"
+    }
+  ],
+
+  priceIncludes: [
+    "≥ 99% 纯度",
+    "HPLC + MS 验证",
+    "安全的实验室包装",
+    "全球研究级品质"
+  ],
+
+  addToCart: "加入购物车"
 }
+
 
 
 

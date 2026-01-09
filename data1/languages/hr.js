@@ -1206,7 +1206,65 @@ faqItems: [
 ,
     "disclaimerLabel": "Odricanje od odgovornosti",
     "disclaimer": "Ovaj proizvod namijenjen je isključivo za laboratorijske istraživačke svrhe. Nije namijenjen za ljudsku ili veterinarsku upotrebu, dijagnosticiranje, liječenje ili prevenciju bilo koje bolesti. Nepravilna uporaba može rezultirati ozbiljnim zdravstvenim rizicima."
-  }
+  },
+  bundlePage: {
+  tagline: "Pažljivo odabrani BioPeptide istraživački paket za napredne znanstvene radne procese.",
+
+  overviewTitle: "Pregled paketa",
+  overviewExtra:
+    "Svi uključeni peptidi prolaze strogu laboratorijsku validaciju, uključujući:",
+  overviewPoints: [
+    "≥ 98–99% čistoće",
+    "Provjereno HPLC-om i masenom spektrometrijom",
+    "Molekularna stabilnost",
+    "Istraživačka kvaliteta"
+  ],
+
+  includedTitle: "Uključeni spojevi",
+
+  scienceTitle: "Znanstvene primjene",
+  sciencePoints: [
+    "Istraživanje vezanja receptora",
+    "Regenerativno stanično modeliranje",
+    "Analiza mitohondrijskog metabolizma",
+    "Stimulacija signalnih puteva",
+    "Testovi enzimskog odgovora"
+  ],
+
+  stabilityTitle: "Skladištenje i stabilnost",
+  stabilityPoints: [
+    "Čuvati na −20°C (liofilizirano)",
+    "Zaštititi od vlage i svjetlosti",
+    "Stabilnost nakon rekonstitucije: 24–48 sati",
+    "Izbjegavati ponavljane cikluse smrzavanja–odmrzavanja"
+  ],
+
+  faqTitle: "Često postavljana pitanja",
+  faqItems: [
+    {
+      q: "Je li namijenjeno za ljudsku uporabu?",
+      a: "Isključivo za laboratorijska istraživanja."
+    },
+    {
+      q: "Uključuju li paketi COA?",
+      a: "Da — svaki peptid uključuje HPLC i maseno-spektrometrijsku provjeru."
+    },
+    {
+      q: "Jesu li sterilni?",
+      a: "Nisu sterilni dok se pravilno ne rekonstituiraju otapalima laboratorijske kvalitete."
+    }
+  ],
+
+  priceIncludes: [
+    "≥ 99% čistoće",
+    "HPLC + MS provjereno",
+    "Sigurno laboratorijsko pakiranje",
+    "Globalna istraživačka kvaliteta"
+  ],
+
+  addToCart: "Dodaj paket u košaricu"
+}
+
 
 
 

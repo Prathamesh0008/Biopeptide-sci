@@ -1670,8 +1670,8 @@ productContent: {
   disclaimerLabel: "Disclaimer",
   disclaimer:
     "This product is intended strictly for laboratory research purposes only. It is not intended for human or veterinary consumption, diagnosis, treatment, or prevention of any disease. Improper use may result in serious health risks."
-}
-
+},
+bundlePage: { tagline: "A curated BioPeptide research bundle for advanced scientific workflows.", overviewTitle: "Bundle Overview", overviewExtra: "All peptides included undergo strict laboratory validation including:", overviewPoints: [ "≥ 98–99% Purity", "HPLC & Mass-Spec Verified", "Molecular Stability", "Research-Grade Quality" ], includedTitle: "Included Compounds", scienceTitle: "Scientific Applications", sciencePoints: [ "Receptor-binding research", "Regenerative cell modeling", "Mitochondrial metabolic analysis", "Signal pathway stimulation", "Enzyme response assays" ], stabilityTitle: "Storage & Stability", stabilityPoints: [ "Store at −20°C (lyophilized)", "Protect from moisture & light", "Reconstituted stability: 24–48 hours", "Avoid freeze–thaw cycles" ], faqTitle: "FAQ", faqItems: [ { q: "Is this for human use?", a: "Strictly for laboratory research purposes only." }, { q: "Do bundles include COA?", a: "Yes — each peptide includes HPLC & Mass-Spec verification." }, { q: "Are they sterile?", a: "Not sterile until properly reconstituted with lab-grade solvents." } ], priceIncludes: [ "≥ 99% Purity", "HPLC + MS Verified", "Secure Lab Packaging", "Global Research Quality" ], addToCart: "Add Bundle to Cart" }
 
 
 

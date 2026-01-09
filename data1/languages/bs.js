@@ -1206,7 +1206,65 @@ faqItems: [
 ,
     "disclaimerLabel": "Odricanje od odgovornosti",
     "disclaimer": "Ovaj proizvod je namijenjen isključivo za laboratorijske istraživačke svrhe. Nije namijenjen za ljudsku ili veterinarsku konzumaciju, dijagnostiku, liječenje ili prevenciju bilo koje bolesti. Nepravilna upotreba može rezultirati ozbiljnim zdravstvenim rizicima."
-  }
+  },
+  bundlePage: {
+  tagline: "Pažljivo odabrani BioPeptide istraživački paket za napredne naučne radne tokove.",
+
+  overviewTitle: "Pregled paketa",
+  overviewExtra:
+    "Svi uključeni peptidi prolaze kroz strogu laboratorijsku validaciju, uključujući:",
+  overviewPoints: [
+    "≥ 98–99% čistoće",
+    "Verifikovano HPLC-om i masenom spektrometrijom",
+    "Molekularna stabilnost",
+    "Istraživački kvalitet"
+  ],
+
+  includedTitle: "Uključena jedinjenja",
+
+  scienceTitle: "Naučne primjene",
+  sciencePoints: [
+    "Istraživanje vezivanja receptora",
+    "Regenerativno ćelijsko modeliranje",
+    "Analiza mitohondrijskog metabolizma",
+    "Stimulacija signalnih puteva",
+    "Testovi enzimskog odgovora"
+  ],
+
+  stabilityTitle: "Skladištenje i stabilnost",
+  stabilityPoints: [
+    "Čuvati na −20°C (liofilizirano)",
+    "Zaštititi od vlage i svjetlosti",
+    "Stabilnost nakon rekonstitucije: 24–48 sati",
+    "Izbjegavati ponovljene cikluse zamrzavanja–odmrzavanja"
+  ],
+
+  faqTitle: "Često postavljana pitanja",
+  faqItems: [
+    {
+      q: "Da li je namijenjeno za ljudsku upotrebu?",
+      a: "Isključivo za laboratorijska istraživanja."
+    },
+    {
+      q: "Da li paketi uključuju COA?",
+      a: "Da — svaki peptid uključuje HPLC i maseno-spektrometrijsku verifikaciju."
+    },
+    {
+      q: "Da li su sterilni?",
+      a: "Nisu sterilni dok se pravilno ne rekonstituišu rastvaračima laboratorijskog kvaliteta."
+    }
+  ],
+
+  priceIncludes: [
+    "≥ 99% čistoće",
+    "HPLC + MS verifikovano",
+    "Sigurno laboratorijsko pakovanje",
+    "Globalni istraživački kvalitet"
+  ],
+
+  addToCart: "Dodaj paket u korpu"
+}
+
 
 
 

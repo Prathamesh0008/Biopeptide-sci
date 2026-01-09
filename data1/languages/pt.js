@@ -1394,7 +1394,65 @@ faqItems: [
   disclaimerLabel: "Isenção de responsabilidade",
   disclaimer:
     "Este produto é destinado exclusivamente à pesquisa laboratorial. Não se destina ao uso humano ou veterinário, nem ao diagnóstico, tratamento ou prevenção de qualquer doença. O uso inadequado pode resultar em sérios riscos à saúde."
+},
+bundlePage: {
+  tagline: "Um bundle de pesquisa BioPeptide cuidadosamente selecionado para fluxos de trabalho científicos avançados.",
+
+  overviewTitle: "Visão geral do bundle",
+  overviewExtra:
+    "Todos os peptídeos incluídos passam por validação rigorosa em laboratório, incluindo:",
+  overviewPoints: [
+    "≥ 98–99% de pureza",
+    "Verificado por HPLC e espectrometria de massa",
+    "Estabilidade molecular",
+    "Qualidade grau pesquisa"
+  ],
+
+  includedTitle: "Compostos incluídos",
+
+  scienceTitle: "Aplicações científicas",
+  sciencePoints: [
+    "Pesquisa de ligação a receptores",
+    "Modelagem celular regenerativa",
+    "Análise metabólica mitocondrial",
+    "Estimulação de vias de sinalização",
+    "Ensaios de resposta enzimática"
+  ],
+
+  stabilityTitle: "Armazenamento e estabilidade",
+  stabilityPoints: [
+    "Armazenar a −20°C (liofilizado)",
+    "Proteger da umidade e da luz",
+    "Estabilidade após reconstituição: 24–48 horas",
+    "Evitar ciclos repetidos de congelamento e descongelamento"
+  ],
+
+  faqTitle: "Perguntas frequentes",
+  faqItems: [
+    {
+      q: "É destinado ao uso humano?",
+      a: "Exclusivamente para fins de pesquisa laboratorial."
+    },
+    {
+      q: "Os bundles incluem COA?",
+      a: "Sim — cada peptídeo inclui verificação por HPLC e espectrometria de massa."
+    },
+    {
+      q: "São estéreis?",
+      a: "Não são estéreis até serem corretamente reconstituídos com solventes de grau laboratorial."
+    }
+  ],
+
+  priceIncludes: [
+    "≥ 99% de pureza",
+    "Verificado por HPLC + MS",
+    "Embalagem segura para laboratório",
+    "Qualidade de pesquisa global"
+  ],
+
+  addToCart: "Adicionar bundle ao carrinho"
 }
+
 
 
 

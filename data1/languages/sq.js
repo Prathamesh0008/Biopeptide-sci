@@ -1205,7 +1205,65 @@ faqItems: [
 ,
     "disclaimerLabel": "Mohim Përgjegjësie",
     "disclaimer": "Ky produkt synohet rreptësisht vetëm për qëllime kërkimi laboratorik. Ai nuk synohet për konsum njerëzor ose veterinar, diagnostikim, trajtim ose parandalim të ndonjë sëmundjeje. Përdorimi i papërshtatshëm mund të rezultojë në rreziqe serioze shëndetësore."
-  }
+  },
+  bundlePage: {
+  tagline: "Një paketë kërkimore BioPeptide e përzgjedhur me kujdes për rrjedha pune shkencore të avancuara.",
+
+  overviewTitle: "Përmbledhje e paketës",
+  overviewExtra:
+    "Të gjitha peptidet e përfshira i nënshtrohen verifikimit rigoroz laboratorik, duke përfshirë:",
+  overviewPoints: [
+    "≥ 98–99% pastërti",
+    "E verifikuar me HPLC dhe spektrometri të masës",
+    "Stabilitet molekular",
+    "Cilësi e gradës kërkimore"
+  ],
+
+  includedTitle: "Përbërësit e përfshirë",
+
+  scienceTitle: "Aplikime shkencore",
+  sciencePoints: [
+    "Kërkime mbi lidhjen e receptorëve",
+    "Modelim qelizor rigjenerues",
+    "Analizë e metabolizmit mitokondrial",
+    "Stimulim i rrugëve të sinjalizimit",
+    "Teste të përgjigjes enzimatike"
+  ],
+
+  stabilityTitle: "Ruajtja dhe stabiliteti",
+  stabilityPoints: [
+    "Ruajtje në −20°C (liofilizuar)",
+    "Mbrojtje nga lagështia dhe drita",
+    "Stabilitet pas rikonstituimit: 24–48 orë",
+    "Shmangni ciklet e përsëritura ngrirje–shkrirje"
+  ],
+
+  faqTitle: "Pyetje të shpeshta",
+  faqItems: [
+    {
+      q: "A është për përdorim njerëzor?",
+      a: "Vetëm për qëllime kërkimore laboratorike."
+    },
+    {
+      q: "A përfshijnë paketat COA?",
+      a: "Po — çdo peptid përfshin verifikim HPLC dhe spektrometri të masës."
+    },
+    {
+      q: "A janë sterile?",
+      a: "Nuk janë sterile derisa të rikonstituohen siç duhet me tretës të gradës laboratorike."
+    }
+  ],
+
+  priceIncludes: [
+    "≥ 99% pastërti",
+    "HPLC + MS e verifikuar",
+    "Ambalazh i sigurt laboratorik",
+    "Cilësi kërkimore globale"
+  ],
+
+  addToCart: "Shto paketën në shportë"
+}
+
 
 
 };

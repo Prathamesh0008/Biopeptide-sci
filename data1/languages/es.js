@@ -1400,7 +1400,65 @@ faqItems: [
   disclaimerLabel: "Descargo de responsabilidad",
   disclaimer:
     "Este producto está destinado estrictamente a la investigación en laboratorio. No está destinado al uso humano ni veterinario, ni al diagnóstico, tratamiento o prevención de ninguna enfermedad. El uso inadecuado puede conllevar graves riesgos para la salud."
+},
+bundlePage: {
+  tagline: "Un paquete de investigación BioPeptide cuidadosamente seleccionado para flujos de trabajo científicos avanzados.",
+
+  overviewTitle: "Descripción general del paquete",
+  overviewExtra:
+    "Todos los péptidos incluidos pasan por una estricta validación en laboratorio, que incluye:",
+  overviewPoints: [
+    "≥ 98–99% de pureza",
+    "Verificado por HPLC y espectrometría de masas",
+    "Estabilidad molecular",
+    "Calidad de grado investigación"
+  ],
+
+  includedTitle: "Compuestos incluidos",
+
+  scienceTitle: "Aplicaciones científicas",
+  sciencePoints: [
+    "Investigación de unión a receptores",
+    "Modelado celular regenerativo",
+    "Análisis del metabolismo mitocondrial",
+    "Estimulación de vías de señalización",
+    "Ensayos de respuesta enzimática"
+  ],
+
+  stabilityTitle: "Almacenamiento y estabilidad",
+  stabilityPoints: [
+    "Almacenar a −20°C (liofilizado)",
+    "Proteger de la humedad y la luz",
+    "Estabilidad tras la reconstitución: 24–48 horas",
+    "Evitar ciclos repetidos de congelación–descongelación"
+  ],
+
+  faqTitle: "Preguntas frecuentes",
+  faqItems: [
+    {
+      q: "¿Está destinado al uso humano?",
+      a: "Exclusivamente para fines de investigación en laboratorio."
+    },
+    {
+      q: "¿Los paquetes incluyen COA?",
+      a: "Sí — cada péptido incluye verificación por HPLC y espectrometría de masas."
+    },
+    {
+      q: "¿Son estériles?",
+      a: "No son estériles hasta que se reconstituyan correctamente con disolventes de grado laboratorio."
+    }
+  ],
+
+  priceIncludes: [
+    "≥ 99% de pureza",
+    "Verificado por HPLC + MS",
+    "Embalaje seguro para laboratorio",
+    "Calidad de investigación global"
+  ],
+
+  addToCart: "Añadir paquete al carrito"
 }
+
 
 
 

@@ -1462,7 +1462,65 @@ faqItems: [
   disclaimerLabel: "Disclaimer",
   disclaimer:
     "Dit product is uitsluitend bestemd voor onderzoeksdoeleinden en niet voor menselijk of veterinair gebruik."
+},
+bundlePage: {
+  tagline: "Een zorgvuldig samengestelde BioPeptide-onderzoeksbundel voor geavanceerde wetenschappelijke workflows.",
+
+  overviewTitle: "Overzicht van de bundel",
+  overviewExtra:
+    "Alle inbegrepen peptiden ondergaan strikte laboratoriumvalidatie, waaronder:",
+  overviewPoints: [
+    "≥ 98–99% zuiverheid",
+    "HPLC- & massaspectrometrie-geverifieerd",
+    "Moleculaire stabiliteit",
+    "Onderzoekskwaliteit"
+  ],
+
+  includedTitle: "Inbegrepen verbindingen",
+
+  scienceTitle: "Wetenschappelijke toepassingen",
+  sciencePoints: [
+    "Receptorbindingsonderzoek",
+    "Regeneratieve celmodellering",
+    "Mitochondriale metabolische analyse",
+    "Stimulatie van signaalroutes",
+    "Enzymresponsassays"
+  ],
+
+  stabilityTitle: "Opslag & stabiliteit",
+  stabilityPoints: [
+    "Bewaren bij −20°C (gevriesdroogd)",
+    "Beschermen tegen vocht & licht",
+    "Stabiliteit na reconstitutie: 24–48 uur",
+    "Vermijd vries–dooicycli"
+  ],
+
+  faqTitle: "FAQ",
+  faqItems: [
+    {
+      q: "Is dit bedoeld voor menselijk gebruik?",
+      a: "Uitsluitend bestemd voor laboratoriumonderzoek."
+    },
+    {
+      q: "Bevatten bundels een COA?",
+      a: "Ja — elk peptide wordt geleverd met HPLC- en massaspectrometrieverificatie."
+    },
+    {
+      q: "Zijn ze steriel?",
+      a: "Niet steriel totdat ze correct zijn gereconstitueerd met laboratoriumgeschikte oplosmiddelen."
+    }
+  ],
+
+  priceIncludes: [
+    "≥ 99% zuiverheid",
+    "HPLC + MS geverifieerd",
+    "Veilige laboratoriumverpakking",
+    "Wereldwijde onderzoekskwaliteit"
+  ],
+
+  addToCart: "Bundel aan winkelwagen toevoegen"
 }
+
 
 
 
