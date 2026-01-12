@@ -80,7 +80,7 @@
   {
   id: "5-amino-1mq-50mg",
   slug: "5-amino-1mq-50mg",
-  name: "5-Amino-1MQ 50mg (60 Capsules)",
+  name: "5-Amino-1MQ 50mg (60 Capsules)", 
   category: "Peptide Capsules",
 
   price: 255.0,

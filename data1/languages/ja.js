@@ -174,11 +174,15 @@ footer: {
   },
 
   contact: {
-    phoneLabel: "電話",
-    hours: "月–金 9:00–16:00",
-    emailLabel: "メール",
-    addressLabel: "住所"
-  },
+  phoneLabel: "電話",
+  hours: "月～金 9:00～16:00",
+  emailLabel: "メール",
+  shippingLabel: "発送日",
+  addressLabel: "郵送先住所",
+  company: "BioPeptide Labs",
+  location: "アメリカ合衆国 フロリダ州 ボカラトン"
+},
+
 
   disclaimer: {
     copyrightLine: "© 2026 BioPeptide.com. 無断転載禁止。",

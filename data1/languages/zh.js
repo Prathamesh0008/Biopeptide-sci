@@ -174,12 +174,16 @@ footer: {
     }
   },
 
-  contact: {
-    phoneLabel: "电话",
-    hours: "周一至周五 9:00–16:00",
-    emailLabel: "邮箱",
-    addressLabel: "地址"
-  },
+contact: {
+  phoneLabel: "电话",
+  hours: "周一至周五，上午9点–下午4点",
+  emailLabel: "电子邮箱",
+  shippingLabel: "发货日期",
+  addressLabel: "邮寄地址",
+  company: "BioPeptide Labs",
+  location: "美国 佛罗里达州 博卡拉顿"
+},
+
 
   disclaimer: {
     copyrightLine: "© 2026 BioPeptide.com. 版权所有。",

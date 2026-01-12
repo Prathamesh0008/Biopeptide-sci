@@ -148,12 +148,16 @@ export default {
         ]
       }
     },
-    "contact": {
-      "phoneLabel": "Телефон",
-      "hours": "Пон-Пет, 9:00-16:00",
-      "emailLabel": "Е-маил",
-      "addressLabel": "Адреса"
-    },
+   contact: {
+  phoneLabel: "Телефон",
+  hours: "Пон–Пет, 09:00–16:00",
+  emailLabel: "Е-пошта",
+  shippingLabel: "Денови за испорака",
+  addressLabel: "Поштенска адреса",
+  company: "BioPeptide Labs",
+  location: "Бока Ратон, Флорида, САД"
+},
+
     "disclaimer": {
       "copyrightLine": "© 2026 BioPeptide.com. Сите права се задржани.",
       "researchOnly": "Сите производи достапни на оваа веб-страница се наменети строго за лабораториско истражување, научна анализа и цели за развој. Производите што ги продава BioPeptide не се наменети за човечка или ветеринарна употреба.",

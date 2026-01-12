@@ -4,9 +4,7 @@ import Order from "@/models/Order";
 import { requireAdmin } from "@/lib/requireAdmin";
 
 export async function PATCH(req, { params }) {
-  const { error } = await requireAdmin(req);
-
-
+  const { error } = await requireAdmin();
 
   if (error) {
     return new Response(
@@ -30,13 +28,20 @@ export async function PATCH(req, { params }) {
 
 
 
+
+
+
+
+
 // //app\api\admin\orders\[id]\route.js
 // import dbConnect from "@/lib/dbConnect";
 // import Order from "@/models/Order";
 // import { requireAdmin } from "@/lib/requireAdmin";
 
 // export async function PATCH(req, { params }) {
-//   const { error } = await requireAdmin();
+//   const { error } = await requireAdmin(req);
+
+
 
 //   if (error) {
 //     return new Response(
@@ -55,8 +60,8 @@ export async function PATCH(req, { params }) {
 //     { new: true }
 //   );
 
-//   return Response.json({
-//     ok: true,
-//     order: updated,
-//   });
-// }
+//   return Response.json({ ok: true, order: updated });
+// }``
+
+
+

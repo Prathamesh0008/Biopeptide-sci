@@ -147,12 +147,16 @@ export default {
         ]
       }
     },
-    "contact": {
-      "phoneLabel": "Telefon",
-      "hours": "Lun–Vin, 9AM–4PM",
-      "emailLabel": "Email",
-      "addressLabel": "Adresă"
-    },
+   contact: {
+  phoneLabel: "Telefon",
+  hours: "Lun–Vin, 09:00–16:00",
+  emailLabel: "E-mail",
+  shippingLabel: "Zile de expediere",
+  addressLabel: "Adresă poștală",
+  company: "BioPeptide Labs",
+  location: "Boca Raton, FL, SUA"
+},
+
     "disclaimer": {
       "copyrightLine": "© 2026 BioPeptide.com. Toate Drepturile Rezervate.",
       "researchOnly": "Toate produsele disponibile pe acest site web sunt destinate strict cercetării de laborator, analizei științifice și scopurilor de dezvoltare numai. Produsele vândute de BioPeptide nu sunt destinate consumului uman, utilizării medicale sau veterinare de niciun fel.",

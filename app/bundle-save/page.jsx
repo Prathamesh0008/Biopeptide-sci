@@ -149,12 +149,28 @@ export default function BundleSavePage() {
 
             {/* 🔹 BUNDLES (ONLY WHEN ALL) */}
             {activeCategory === "All" && (
-              <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
+              <div className="
+  grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4
+  gap-x-2 gap-y-3
+  md:gap-x-3 md:gap-y-4
+">
+
                 {filteredBundles.map(bundle => (
-                  <div
-                    key={bundle.id}
-                    className="flex flex-col border border-gray-200 rounded-2xl bg-white shadow-sm hover:shadow-lg transition-all p-3"
-                  >
+             <div
+  key={bundle.id}
+  onClick={() => router.push(`/bundle/${bundle.id}`)}
+  className="
+    flex flex-col
+    border border-gray-200 rounded-l
+    bg-white
+    shadow-sm hover:shadow-md
+    transition-all
+    p-2
+    cursor-pointer
+    hover:border-bioBlue/40
+  "
+>
+
                     <div className="relative w-full h-56 sm:h-64 rounded-xl overflow-hidden">
                       <Image
                         src={bundle.image || "/images/product.png"}
@@ -164,17 +180,19 @@ export default function BundleSavePage() {
                       />
                     </div>
 
-                    <div className="flex flex-col flex-grow mt-4">
-                      <span className="bg-bioGreen/10 text-bioGreen text-xs font-semibold px-3 py-1 rounded-full mb-2 w-fit">
+                    <div className="flex flex-col flex-grow mt-2">
+
+                      <span className="bg-bioGreen/10 text-bioGreen text-[11px] font-semibold px-2 py-0.5 mb-1 rounded-full  w-fit">
                         {bundle.discount}
                       </span>
 
-                      <h3 className="text-lg font-bold text-gray-900 mb-2 line-clamp-2">
+                     <h3 className="text-sm font-semibold text-gray-900 mb-1 line-clamp-2 leading-snug">
+
                         {bundle.title}
                       </h3>
 
                       <div className="mt-auto pt-4">
-                        <p className="text-lg font-bold text-gray-900">
+                        <p className="text-basefont-bold text-gray-900">
                           ${bundle.price.toFixed(2)}
                         </p>
                         <p className="text-sm text-gray-500 line-through mb-4">
@@ -186,7 +204,7 @@ export default function BundleSavePage() {
     w-full
     bg-gradient-to-r from-bioBlue to-bioGreen
     py-2.5 rounded-full
-    font-semibold text-sm
+    font-semibold text-xs
     transition
     hover:opacity-90
     relative
@@ -216,7 +234,12 @@ export default function BundleSavePage() {
 
             {/* 🔹 PRODUCTS (ONLY WHEN CATEGORY SELECTED) */}
             {activeCategory !== "All" && (
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
+             <div className="
+  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4
+  gap-x-2 gap-y-3
+  md:gap-x-3 md:gap-y-4
+">
+
                 {filteredProducts.map((product, index) => (
                   <ProductCard
                     key={`${product.id}-${index}`}

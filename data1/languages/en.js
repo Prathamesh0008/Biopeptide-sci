@@ -169,12 +169,15 @@ footer: {
     }
   },
 
-  contact: {
-    phoneLabel: "Phone",
-    hours: "Mon–Fri, 9AM–4PM",
-    emailLabel: "Email",
-    addressLabel: "Address"
-  },
+ contact: {
+  phoneLabel: "Phone",
+  hours: "Mon–Fri, 9AM–4PM",
+  emailLabel: "Email",
+  shippingLabel: "Shipping Days",
+  addressLabel: "Mailing Address",
+  company: "BioPeptide Labs",
+  location: "Boca Raton, FL, USA"
+},
 
   disclaimer: {
     copyrightLine: "© 2026 BioPeptide.com. All Rights Reserved.",

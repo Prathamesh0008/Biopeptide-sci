@@ -176,12 +176,16 @@ footer: {
     }
   },
 
-  contact: {
-    phoneLabel: "الهاتف",
-    hours: "الاثنين–الجمعة، 9ص–4م",
-    emailLabel: "البريد الإلكتروني",
-    addressLabel: "العنوان"
-  },
+ contact: {
+  phoneLabel: "الهاتف",
+  hours: "من الإثنين إلى الجمعة، 9 صباحًا – 4 مساءً",
+  emailLabel: "البريد الإلكتروني",
+  shippingLabel: "أيام الشحن",
+  addressLabel: "العنوان البريدي",
+  company: "BioPeptide Labs",
+  location: "بوكا راتون، فلوريدا، الولايات المتحدة"
+},
+
 
   disclaimer: {
     copyrightLine: "© 2026 BioPeptide.com. جميع الحقوق محفوظة.",

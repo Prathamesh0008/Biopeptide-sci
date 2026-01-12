@@ -172,12 +172,16 @@ export default {
     }
   },
 
-  contact: {
-    phoneLabel: "Telefone",
-    hours: "Seg–Sex, 9h–16h",
-    emailLabel: "Email",
-    addressLabel: "Endereço"
-  },
+contact: {
+  phoneLabel: "Telefone",
+  hours: "Seg–Sex, 9h–16h",
+  emailLabel: "E-mail",
+  shippingLabel: "Dias de envio",
+  addressLabel: "Endereço postal",
+  company: "BioPeptide Labs",
+  location: "Boca Raton, FL, EUA"
+},
+
 
   disclaimer: {
     copyrightLine: "© 2026 BioPeptide.com. Todos os direitos reservados.",

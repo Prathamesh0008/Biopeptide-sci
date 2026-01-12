@@ -13,6 +13,8 @@ import ProductContent from "@/components/ProductContent";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useLanguage } from "@/contexts/LanguageContext";
+import DrawerProducts from "@/components/DrawerProducts";
+
 
 export default function ProductPage() {
   const { slug } = useParams();
@@ -21,6 +23,7 @@ export default function ProductPage() {
   if (!t?.description) {
   return null;
 }
+const [drawerOpen, setDrawerOpen] = useState(false);
 
 
   const [previewOpen, setPreviewOpen] = useState(false);
@@ -68,6 +71,28 @@ export default function ProductPage() {
   return (
     <>
       <Navbar />
+      {/* DRAWER BUTTON */}
+<button
+  onClick={() => setDrawerOpen(true)}
+  className="
+    fixed right-0 top-1/2 -translate-y-1/2 z-50
+    flex items-center justify-center
+    bg-gradient-to-b from-bioBlue to-bioGreen
+    text-white shadow-lg
+    cursor-pointer
+    h-36 w-10 rounded-l-xl
+  "
+>
+  <span
+    className="
+      text-s font-semibold tracking-widest
+      [writing-mode:vertical-rl]
+    "
+  >
+    Product List
+  </span>
+</button>
+
 
       <main className="min-h-screen bg-white pt-10 pb-20">
         {/* BACK */}
@@ -214,6 +239,8 @@ export default function ProductPage() {
     </div>
   </div>
 )}
+<DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
+
       <Footer />
     </>
   );
