@@ -151,11 +151,12 @@ useEffect(() => {
         Shipping Address
       </p>
       <p className="text-gray-600 leading-relaxed">
-        {order.address.name}<br />
-        {order.address.street}<br />
-        {order.address.city}, {order.address.state} {order.address.zip}<br />
-        {order.address.country}<br />
-        Phone: {order.address.phone}
+       {order.address.fullName}<br />
+{order.address.address}<br />
+{order.address.city} {order.address.pincode}<br />
+{order.address.country}<br />
+Phone: {order.address.phone}
+
       </p>
     </div>
   )}
@@ -229,7 +230,7 @@ useEffect(() => {
 function StatusBadge({ status, t }) {
 const map = {
   pending: "bg-yellow-50 text-yellow-700 border border-yellow-200",
-  approved: "bg-blue-50 text-blue-700 border border-blue-200",
+  paid: "bg-blue-50 text-blue-700 border border-blue-200",
   shipped: "bg-purple-50 text-purple-700 border border-purple-200",
   delivered: "bg-green-50 text-green-700 border border-green-200",
   cancelled: "bg-red-50 text-red-700 border border-red-200",

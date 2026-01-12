@@ -501,8 +501,15 @@ payment: {
   paySecurely: "Veilig betalen",
   secureNote: "100% veilige betalingen"
 },
+researchPage: {
+  title: "Peptidewetenschappelijk Onderzoek",
+description:
+  "Wetenschappelijk onderbouwde artikelen die bioregulatorpeptiden, cellulaire signaalroutes, immuunbalans en regeneratieve biologie onderzoeken."
+
+},
 research: {
-  1: {
+  "vilon": {
+    slug:"vilon",
     title: "Vilon: Cellulaire regeneratie en immuun-bioregulatie",
     subtitle:
       "Een diepgaande wetenschappelijke analyse van een van de meest onderzochte thymische bioregulatorpeptiden.",
@@ -533,7 +540,8 @@ research: {
       "Belangrijk onderzoekspeptide"
     ]
   },
-  2: {
+  "pinealon": {
+    slug:"pinealon",
     title: "Pinealon: Neuroprotectieve bioregulatie en cognitieve levensduur",
     subtitle:
       "Wetenschappelijke analyse van Pinealon en zijn rol in hersenmetabolisme en neuronale stabiliteit.",
@@ -564,7 +572,8 @@ research: {
       "Epigenetische invloed"
     ]
   },
-  3: {
+  "testagen": {
+    slug:"testagen",
   title: "Testagen: Bioregulerende ondersteuning voor endocriene stabiliteit en reproductieve cellulaire gezondheid",
   subtitle:
     "Een diepgaande wetenschappelijke verkenning van de rol van Testagen bij regulatie van testiculair weefsel, moleculaire signaaloverdracht en het behoud van endocriene integriteit tijdens veroudering.",
@@ -604,7 +613,8 @@ research: {
     "Werkt als een natuurlijke bioregulator in plaats van een endocriene stimulant"
   ]
 },
-4: {
+"bronchogen": {
+  slsug:"bronchogen",
   title: "Bronchogen: Een respiratoir bioregulerend peptide voor longweefselstabiliteit en cellulaire integriteit van de luchtwegen",
   subtitle:
     "Een gedetailleerde wetenschappelijke analyse van de potentiële rol van Bronchogen bij het ondersteunen van bronchiale epitheelherstel, het verminderen van oxidatieve belasting en het stabiliseren van de respiratoire micro-omgeving.",
@@ -644,7 +654,8 @@ research: {
     "Werkt als een natuurlijk regulerend peptide in plaats van een farmacologische stimulant"
   ]
 },
-5: {
+"cardiogen": {
+  slug:"cardiogen",
   title: "Cardiogen: Een hartspecifiek bioregulerend peptide ter ondersteuning van cellulaire stabiliteit en integriteit van hartweefsel",
   subtitle:
     "Een wetenschappelijke verkenning van de potentiële rol van Cardiogen bij het behouden van myocardiale veerkracht, het optimaliseren van cellulaire energiedynamiek en het ondersteunen van structurele stabiliteit in verouderend hartweefsel.",
@@ -682,7 +693,8 @@ research: {
     "Werkt als een natuurlijk hartspecifiek regulerend peptide in plaats van een stimulant"
   ]
 },
-6: {
+"regenerative-peptide-biology": {
+  slug:"regenerative-peptide-biology",
   title: "Regeneratieve peptidebiologie: Mechanismen van weefselherstel, cellulaire vernieuwing en structureel herstel",
   subtitle:
     "Een uitgebreide wetenschappelijke verkenning van hoe onderzoekspeptiden weefselregeneratie, cellulaire signalering, stabiliteit van de micro-omgeving en de gecoördineerde processen van biologisch herstel beïnvloeden.",
@@ -726,7 +738,8 @@ research: {
     "Helpt regeneratieve capaciteit in verouderende weefsels te behouden"
   ]
 },
-7: {
+"metabolic-endocrine-peptide-modulation": {
+  slug:"metabolic-endocrine-peptide-modulation",
   title: "Metabole en endocriene peptide-modulatie: cellulaire energiebalans, hormonale stabiliteit en systeem-brede homeostase",
   subtitle:
     "Een uitgebreide wetenschappelijke analyse van hoe onderzoekspeptiden de metabole regulatie, endocriene harmonie, mitochondriale efficiëntie en langdurige fysiologische balans beïnvloeden.",
@@ -770,7 +783,8 @@ research: {
     "Werkt als een fysiologische modulator in plaats van een metabole stimulant"
   ]
 },
-8: {
+"peptides-in-neuroplasticity-and-brain-optimization": {
+  slug:"peptides-in-neuroplasticity-and-brain-optimization",
   title: "Peptiden in neuroplasticiteit en hersenoptimalisatie: moleculaire routes, cognitieve veerkracht en neurale regeneratie",
   subtitle:
     "Een gedetailleerde verkenning van hoe onderzoekspeptiden synaptische remodeling, neuronale overleving, mitochondriale prestaties en langdurige cognitieve gezondheid beïnvloeden.",
@@ -810,7 +824,8 @@ research: {
     "Verbetert stressbestendigheid en cognitief aanpassingsvermogen"
   ]
 },
-9: {
+"immune-modulation-anti-inflammatory-peptides": {
+  slug:"immune-modulation-anti-inflammatory-peptides",
   title: "Immuunmodulatie en anti-inflammatoire peptidewetenschap: cellulaire verdediging, cytokinebalans en weefselbescherming",
   subtitle:
     "Een diepgaande wetenschappelijke analyse van hoe peptiden immuunsignalering reguleren, ontstekingsroutes beïnvloeden en systemische veerkracht ondersteunen.",
@@ -854,7 +869,8 @@ research: {
     "Ondersteunt gezondere immuunveroudering en langdurige veerkracht"
   ]
 },
-10: {
+"peptides-cellular-longevity-anti-aging": {
+  slug:"peptides-cellular-longevity-anti-aging",
   title: "Peptiden en cellulaire levensduur: moleculair herstel, epigenetische stabiliteit en de toekomst van anti-verouderingsonderzoek",
   subtitle:
     "Een wetenschappelijke diepgaande analyse van hoe regulerende peptiden cellulaire veerkracht, DNA-onderhoud, mitochondriale bescherming en langdurige biologische stabiliteit ondersteunen.",

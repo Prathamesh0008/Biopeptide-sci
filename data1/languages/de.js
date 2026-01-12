@@ -522,8 +522,14 @@ payment: {
   paySecurely: "Sicher bezahlen",
   secureNote: "100% sichere Zahlung"
 },
+researchPage: {
+title: "Forschung in der Peptidwissenschaft",
+description:
+  "Fachlich fundierte wissenschaftliche Artikel über bioregulatorische Peptide, zelluläre Signalwege, Immunbalance und regenerative Biologie."
+},
 research: {
-  1: {
+ vilon: {
+  slug:"vilon",
     title: "Vilon: Zelluläre Regeneration & immunologische Bioregulation",
     subtitle:
       "Eine tiefgehende wissenschaftliche Analyse eines der am intensivsten erforschten thymischen Bioregulator-Peptide und seiner Rolle bei zellulärer Reparatur, Immunbalance und Gewebehomöostase.",
@@ -554,7 +560,8 @@ research: {
       "Zentrales Forschungswerkzeug bei Immunalterung"
     ]
   },
-  2: {
+  pinealon: {
+    slug:"pinealon",
     title: "Pinealon: Neuroprotektive Bioregulation und kognitive Langlebigkeit",
     subtitle:
       "Eine umfassende wissenschaftliche Untersuchung der Rolle von Pinealon im Gehirnstoffwechsel, der mitochondrialen Balance, der antioxidativen Abwehr und der langfristigen neuronalen Widerstandsfähigkeit.",
@@ -584,7 +591,8 @@ research: {
       "Beeinflusst epigenetische Alterungsmarker"
     ]
   },
-  3: {
+  testagen: {
+    slug:"testagen",
   title: "Testagen: Bioregulatorische Unterstützung für endokrine Stabilität und reproduktive Zellgesundheit",
   subtitle:
     "Eine wissenschaftliche Analyse der Rolle von Testagen bei der Regulation von Hodengewebe, molekularer Signalübertragung und dem Erhalt der endokrinen Integrität im Alter.",
@@ -614,7 +622,8 @@ research: {
     "Wirkt regulierend statt stimulierend"
   ]
 },
-4: {
+bronchogen: {
+  slug:"bronchogen",
   title: "Bronchogen: Ein bioregulatorisches Peptid zur Stabilisierung des Lungengewebes und der Atemwege",
   subtitle:
     "Wissenschaftliche Analyse der Rolle von Bronchogen bei der Reparatur des Bronchialepithels und der Stabilisierung des respiratorischen Milieus.",
@@ -644,7 +653,8 @@ research: {
     "Wirkt regulierend statt pharmakologisch"
   ]
 },
-5: {
+cardiogen: {
+  slug:"cardiogen",
   title: "Cardiogen: Herzspezifisches bioregulatorisches Peptid zur Stabilisierung des Herzgewebes",
   subtitle:
     "Wissenschaftliche Analyse der Rolle von Cardiogen bei der Erhaltung der Myokardstabilität und Energieeffizienz.",
@@ -673,7 +683,8 @@ research: {
     "Natürliches gewebespezifisches Peptid"
   ]
 },
-6: {
+"regenerative-peptide-biology": {
+  slug:"regenerative-peptide-biology",
   title: "Regenerative Peptidbiologie: Mechanismen der Gewebereparatur und Zellerneuerung",
   subtitle:
     "Wissenschaftliche Analyse der Rolle von Peptiden bei Regeneration, Zellkommunikation und Gewebestabilität.",
@@ -705,7 +716,8 @@ research: {
     "Erhält Regenerationsfähigkeit"
   ]
 },
-7: {
+"metabolic-endocrine-peptide-modulation": {
+  slug:"metabolic-endocrine-peptide-modulation",
   title: "Metabolische und endokrine Peptidmodulation: Energiegleichgewicht und hormonelle Stabilität",
   subtitle:
     "Wissenschaftliche Analyse der Rolle von Peptiden in Stoffwechsel- und Hormonsystemen.",
@@ -737,7 +749,8 @@ research: {
     "Wirkt physiologisch regulierend"
   ]
 },
-8: {
+"peptides-in-neuroplasticity-and-brain-optimization": {
+  slug:"peptides-in-neuroplasticity-and-brain-optimization",
   title: "Peptide in der Neuroplastizität und Gehirnoptimierung",
   subtitle:
     "Wissenschaftliche Analyse der Wirkung von Peptiden auf neuronale Anpassung.",
@@ -767,7 +780,8 @@ research: {
     "Erhöht Stressresistenz"
   ]
 },
-9: {
+"immune-modulation-anti-inflammatory-peptides": {
+  slug:"immune-modulation-anti-inflammatory-peptides",
   title: "Immunmodulation und entzündungshemmende Peptidforschung",
   subtitle:
     "Wissenschaftliche Analyse der immunregulierenden Wirkung von Peptiden.",
@@ -799,7 +813,8 @@ research: {
     "Erhält Immunresilienz"
   ]
 },
-10: {
+"peptides-cellular-longevity-anti-aging": {
+  slug:"peptides-cellular-longevity-anti-aging",
   title: "Peptide und zelluläre Langlebigkeit",
   subtitle:
     "Wissenschaftliche Analyse der Rolle von Peptiden im Alterungsprozess.",

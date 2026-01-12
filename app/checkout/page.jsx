@@ -88,6 +88,10 @@ const isValidEmail = (email) => {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 };
 
+const isValidName = (name) => /^[A-Za-z\s]+$/.test(name);
+const isValidPhone = (phone) => /^[0-9]{10}$/.test(phone);
+const isValidPincode = (pin) => /^[0-9]{6}$/.test(pin);
+
  const goToPayment = async () => {
   // ✅ checkoutId logic HERE
   const checkoutId =
@@ -100,18 +104,31 @@ const isValidEmail = (email) => {
     return;
   }
 
-  if (
-    !form.fullName ||
-    !form.phone ||
-    !form.house ||
-    !form.city ||
-    !form.state ||
-    !form.pincode
-  ) {
-    alert(t("errors.requiredFields"));
+ if (!isValidName(form.fullName)) {
+  alert("Name should not contain numbers");
+  return;
+}
 
-    return;
-  }
+if (!isValidPhone(form.phone)) {
+  alert("Phone number must be exactly 10 digits");
+  return;
+}
+
+if (!isValidPincode(form.pincode)) {
+  alert("Pincode must be exactly 6 digits");
+  return;
+}
+
+if (
+  !form.house ||
+  !form.city ||
+  !form.state ||
+  !form.country
+) {
+  alert(t("errors.requiredFields"));
+  return;
+}
+
 
   localStorage.setItem(
     "bio-checkout",
@@ -168,14 +185,16 @@ await fetch("/api/address/save", {
               <label className="block text-sm font-medium mb-1">
                 {t("fields.fullName")}
               </label>
-              <input
-                type="text"
-                className="w-full border rounded-lg px-4 py-3 text-base"
-                value={form.fullName}
-                onChange={(e) =>
-                  setForm({ ...form, fullName: e.target.value })
-                }
-              />
+             <input
+  type="text"
+  className="w-full border rounded-lg px-4 py-3 text-base"
+  value={form.fullName}
+  onChange={(e) => {
+    const value = e.target.value.replace(/[^a-zA-Z\s]/g, "");
+    setForm({ ...form, fullName: value });
+  }}
+/>
+
             </div>
 
             {/* EMAIL */}
@@ -214,12 +233,16 @@ await fetch("/api/address/save", {
               <input
   type="tel"
   className="w-full border rounded-lg px-4 py-3 text-base"
-  placeholder="+1 234 567 8900"
+  placeholder="10 digit mobile number"
   value={form.phone}
-  onChange={(e) =>
-    setForm({ ...form, phone: e.target.value })
-  }
+  onChange={(e) => {
+    const value = e.target.value.replace(/[^0-9]/g, "");
+    if (value.length <= 10) {
+      setForm({ ...form, phone: value });
+    }
+  }}
 />
+
 
             </div>
 
@@ -300,12 +323,16 @@ await fetch("/api/address/save", {
       <input
   type="text"
   className="w-full border rounded-lg px-4 py-3 text-base"
-  placeholder="Postal / ZIP Code"
+  placeholder="6 digit pincode"
   value={form.pincode}
-  onChange={(e) =>
-    setForm({ ...form, pincode: e.target.value })
-  }
+  onChange={(e) => {
+    const value = e.target.value.replace(/[^0-9]/g, "");
+    if (value.length <= 6) {
+      setForm({ ...form, pincode: value });
+    }
+  }}
 />
+
 
     </div>
 

@@ -1400,7 +1400,342 @@ peptideInformation: {
     "Poštivanje ovih najboljih praksi pomaže osigurati da BioPeptide istraživački peptidi zadrže svoj integritet i pouzdanost za znanstvena istraživanja."
 }
 
-}
+},
+researchPage: {
+title: "Istraživanje Znanosti o Peptidima",
+description:
+  "Znanstveni članci temeljeni na stručnoj analizi koji istražuju bioregulacijske peptide, staničnu signalizaciju, imunološku ravnotežu i regenerativnu biologiju."
+},
+
+  "research": {
+    "vilon": {
+      "slug": "vilon",
+      "title": "Vilon: Stanična regeneracija i imunološka bioregulacija",
+      "subtitle": "Duboko znanstveno ispitivanje jednog od najistraženijih timusnih bioregulatornih peptida i njegove uloge u popravku stanica, imunološkoj ravnoteži i tkivnoj homeostazi.",
+      "author": "Dr. Hannah",
+      "date": "prije mjesec dana",
+      "categories": ["Bioragulatori", "Imunološko zdravlje"],
+      "excerpt": "Vilon je jedan od najopsežnije proučavanih bioregulatornih peptida u modernoj staničnoj biokemiji i znanosti o dugovječnosti.",
+      "paragraphs": [
+        "Vilon je jedan od najopsežnije proučavanih bioregulatornih peptida u modernoj staničnoj biokemiji i znanosti o dugovječnosti. Kao prirodni dipeptid dobiven iz ekstrakata timusa (Liz-Glu), Vilon predstavlja najraniju generaciju tkivno-specifičnih molekularnih regulatora—kratkih aminokiselinskih struktura sposobnih obnoviti uravnoteženu ekspresiju gena, stabilizirati staničnu funkciju i podržati regenerativne procese u cijelom tijelu. Iako je timus izvor Vilone biološki identitet, njegov utjecaj je sustavan, utječući na imunološki integritet, kontrolu upale i popravak epitela u različitim organskim sustavima.",
+        "U svojoj srži, Vilon funkcionira kao molekularni 'normalizator': regulatorni signal koji pomaže starijim, pod stresom ili disfunkcionalnim stanicama da povrate fiziološku ravnotežu. Za razliku od farmaceutskih sredstava koja prekomjerno stimuliraju ili potiskuju putove, Vilon djeluje modulirajući gensku aktivnost prema prirodnoj bazalnoj liniji tijela—podržavajući kontroliranu proliferaciju, povećavajući staničnu otpornost i smanjujući štetne upalne odgovore. Ovaj mehanizam učinio je Vilon jednim od temeljnih peptida u proučavanju imunosenescencije, regeneracije tkiva i epigenetičke modulacije.",
+        "Timus služi kao jedan od najvažnijih imunoloških organa u tijelu, odgovoran za razvoj i 'obuku' T-stanica. S godinama, timus prolazi kroz involuciju—postupno smanjenje veličine i funkcije koje smanjuje imunološku snagu, usporava oporavak od ozljeda i povećava ranjivost na kroničnu upalu. Vilon je otkriven u kontekstu tog dobno uvjetovanog propadanja: istraživači su primijetili da se kratki peptidi dobiveni iz timusnog tkiva čine da obnavljaju imunološku stabilnost i podržavaju transkripcijski stroj uključen u sazrijevanje i popravak T-stanica.",
+        "Eksperimentalni dokazi ukazuju da Vilon stupa u interakciju s genomima regulatornih regija povezanih sa staničnim rastom, kontrolom apoptoze, enzimskim sustavima antioksidansa i modulacijom upale. In vitro modeli sugeriraju da Vilon poboljšava sintezu nukleinskih kiselina, obnavlja uravnoteženi metabolizam proteina i regulira odgovore na oksidativni stres—funkcije koje su ključne za održavanje zdrave izmjene epitelnih i imunoloških stanica. Ti utjecaji protežu se na šire organske sustave, doprinoseći poboljšanom oporavku od ozljede, povećanoj otpornosti tkiva i stabilnijoj imunološkoj reaktivnosti.",
+        "Jedno od najuvjerljivijih područja istraživanja Vilona je njegova uloga u smanjenju dobno uvjetovanog upalnog opterećenja. Kronična upala danas je prepoznata kao glavni pokretač starenja, često nazvan 'inflamaging'. Čini se da Vilon suprotstavlja tom stanju modulirajući aktivnost citokina i poboljšavajući ravnotežu proupalnih nasuprot protuupalnih signala. Ove regulatorne radnje ne potiskuju imunološku funkciju; umjesto toga, pomažu normalizirati imunološki ton, potičući jače obrambene mehanizme dok sprječavaju pretjerane ili pogrešno usmjerene upalne odgovore.",
+        "Dodatno, Vilon je pokazao obećavajuću aktivnost u popravku epitela i sluznice. Eksperimentalni rad na koži, gastrointestinalnom i respiratornom tkivu sugerira da Vilon ubrzava obnovu barijernih stanica, poboljšava stabilnost mikrocirkulacije i podržava koordiniranu remodelaciju kolagena. Ovaj regenerativni utjecaj čini Vilon peptidom od interesa u istraživanju zacjeljivanja rana, oporavka tkiva nakon stresa ili zračenja i staničnog pomlađivanja pod visokim oksidativnim ili metaboličkim opterećenjem.",
+        "Na molekularnoj razini, Viloneov utjecaj dodiruje temeljne biološke procese uključujući transkripciju gena, remodeliranje kromatina i epigenetičku regulaciju. Studije predlažu da Vilon stupa u interakciju s DNA-vezujućim proteinima i transkripcijskim faktorima uključenim u staničnu homeostazu. Ova interakcija može omogućiti Viloneu da utječe na način na koji stanice tumače stres, popravljaju oštećenja i odlučuju kada će proći kroz apoptozu. Iako puna složenost ovih interakcija ostaje pod istraživanjem, nakupljajući dokazi učvršćuju koncept da bioregulatorni peptidi djeluju kao suptilni, visoko ciljani modulatori staničnog ponašanja.",
+        "U kontekstu starenja, Vilon se ističe kao jedan od najranijih primjera peptida sposobnog utjecati na odrednice životnog vijeka na molekularnoj razini. Studije na životinjama pokazuju potencijalna poboljšanja u imunološkoj izvedbi, metaboličkoj ravnoteži i regeneraciji tkiva nakon primjene peptida. Ovi učinci usklađeni su sa širim gerontološkim istraživanjima koja pokazuju da obnavljanje mladalačkih obilježja signaliziranja—posebno kroz peptide dobivene iz endokrinih i imunoloških tkiva—može pomoći u suzbijanju bioloških procesa starenja.",
+        "Za razliku od farmakoloških sredstava, Vilon ne nadjačava regulatorne sustave tijela. Umjesto toga, pruža korektivni povratni signal koji pomaže održavanju ravnoteže. To čini Vilon posebno korisnim u istraživanju koje istražuje kroničnu upalu, starenje imunološkog sustava, degeneraciju epitela, oporavak od stresa i sustavni regulatorni pad. Ideja da jednostavan dipeptid može podržati složene biološke sustave ističe važnost peptidnih signalnih mreža u održavanju dugoročnog zdravlja i vitalnosti.",
+        "Kako se znanstveni interes za bioregulatorne peptide nastavlja širiti globalno, Vilon ostaje na čelu eksperimentalnih primjena u staničnoj medicini. Njegova minimalna struktura, široki regulatorni potencijal i jak sigurnosni profil u istraživačkim okruženjima pozicioniraju ga kao temeljni model za razumijevanje kako mali peptidi mogu utjecati na stabilnost tkiva, ekspresiju gena i imunološku izvedbu.",
+        "U konačnici, Viloneov značaj proteže se izvan timusne biologije. On predstavlja klasu prirodnih molekularnih regulatora sposobnih podržati inherentne mehanizme samooporavka tijela. Bilo da se proučava zbog svojih učinaka na imunološku otpornost, regeneraciju epitela ili stanično starenje, Vilon nastavlja pokazivati izvanredan potencijal kao alat za unapređenje znanosti o biološkoj optimizaciji i podršci zdravstvenom vijeku.",
+        "Zaključno, Vilon utjelovljuje sljedeću eru istraživanja temeljenih na peptidima—onu definiranu ne farmakološkom silom, već fiziološkom harmonijom. Obnavljajući ravnotežu na molekularnoj razini i podržavajući koordinirano stanično ponašanje, Vilon pruža moćnu leću u budućnost regenerativne znanosti, imunobiologije i istraživanja dugovječnosti temeljenog na peptidima."
+      ],
+      "bullets": [
+        "Podržava timusnu regulaciju i razvoj T-stanica",
+        "Poboljšava sintezu nukleinskih kiselina i proteina u stanicama pod stresom",
+        "Modulira ravnotežu citokina i smanjuje kroničnu upalu",
+        "Promovira popravak epitela i sluznice u organskim sustavima",
+        "Djeluje kao prirodni homeostatski regulator, a ne kao stimulans",
+        "Utječe na genetske i epigenetske puteve povezane sa starenjem",
+        "Poboljšava staničnu otpornost i fiziološku ravnotežu",
+        "Predstavlja ključni istraživački alat u imunosenescenciji i regeneraciji tkiva"
+      ]
+    },
+    "pinealon": {
+      "slug": "pinealon",
+      "title": "Pinealon: Neuroprotektivna bioregulacija i kognitivna dugovječnost",
+      "subtitle": "Sveobuhvatno znanstveno istraživanje uloge Pinealona u moždanoj metabolizmu, mitohondrijskoj ravnoteži, antioksidativnoj obrani i dugoročnoj neuralnoj otpornosti.",
+      "author": "Dr. Hannah",
+      "date": "prije mjesec dana",
+      "categories": ["Bioragulatori", "Neuroprotekcija", "Kognitivna dugovječnost"],
+      "excerpt": "Pinealon je neuroprotektivni bioregulatorni peptid proučavan zbog svoje uloge u optimizaciji neuronskog metabolizma, mitohondrijske stabilnosti, antioksidativne obrane i epigenetičke regulacije povezane s kognitivnom otpornošću i dugovječnošću.",
+      "paragraphs": [
+        "Pinealon je jedan od najzanimljivijih bioregulatornih peptida u neuroznanosti i istraživanju stanične dugovječnosti. Izvorno identificiran u ekstraktima moždanog i pinealnog tkiva, Pinealon je jedinstveni tripeptidni slijed (Glu–Asp–Arg) koji djeluje kao regulatorni glasnik za neuronsku ekspresiju gena, oksidativnu stabilnost i stanični energetski metabolizam. Iako male veličine, Pinealon pokazuje izvanrednu aktivnost unutar središnjeg živčanog sustava (CNS), čineći ga moćnom istraživačkom molekulom za ispitivanje neuroprotekcije, kognitivne izvedbe i dobno uvjetovanog neuralnog propadanja.",
+        "Za razliku od stimulansa ili nootropika koji privremeno poboljšavaju neurotransmisiju, Pinealon utječe na zdravlje mozga na molekularnoj osnovi—regulirajući sintezu proteina, modulirajući gensku aktivnost i podržavajući mitohondrijsku dinamiku unutar neurona i glijalnih stanica. Ovaj 'od dna prema gore' biološki utjecaj čini Pinealon posebno relevantnim u studijama starenja, oksidativnog stresa, ishemijskog oštećenja, neuroupale i kognitivnog pada. Njegov široki regulatorni profil pozicionirao ga je kao važnog istraživačkog kandidata u novoj oblasti neuroprotekcije temeljene na peptidima.",
+        "Ljudski mozak je jedinstveno ranjiv na oksidativni stres, energetske deficite i mitohondrijsku nestabilnost. Neuroni troše ogromne količine ATP-a dok im nedostaje robustan regenerativni kapacitet pronađen u drugim tkivima. S vremenom, kombinacija metaboličkog naprezanja, nakupijanja reaktivnih kisikovih vrsta (ROS) i poremećene sinaptičke signalizacije doprinosi kognitivnom starenju. Pinealon se čini da intervenira u ovom procesu normalizirajući genske klastere povezane s redoks ravnotežom, regulacijom apoptoze i mitohondrijskom izvedbom—ključnim sustavima koji održavaju neuralnu vitalnost.",
+        "Jedna od najšire proučavanih bioloških uloga Pinealona je njegova sposobnost poboljšanja antioksidativne obrane. Istraživanje sugerira da Pinealon povećava aktivnost enzima kao što je superoksid dismutaza (SOD) i glutation peroksidaza, koji štite neurone od oksidativnog oštećenja. Dodatno, pokazalo se da Pinealon smanjuje lipidnu peroksidaciju u staničnim membranama—uobičajeni marker neuralnog stresa i rani doprinositelj stanične degeneracije. Stabilizirajući redoks homeostazu, Pinealon pruža zaštitu od okolišnih i dobno uvjetovanih stresora koji ugrožavaju neuralnu funkciju.",
+        "Osim oksidativne regulacije, Pinealon ima značajan utjecaj na zdravlje mitohondrija. Mitohondriji su središnji za opstanak neurona, ne samo generirajući ATP već i određujući kako stanice reagiraju na oštećenje i metaboličke fluktuacije. Istraživanja pokazuju da Pinealon može normalizirati mitohondrijski membranski potencijal, poboljšati energetsku učinkovitost i smanjiti metaboličko curenje tijekom razdoblja hipoksije ili oksidativnog stresa. Ovi učinci su posebno relevantni u istraživačkim modelima ishemije, traumatske ozljede mozga i neurodegeneracije, gdje mitohondrijska nestabilnost igra ključnu ulogu.",
+        "Pinealonov modulatorni utjecaj proteže se i na signalne puteve povezane s apoptozom. Eksperimentalni rad pokazuje da Pinealon može pomaknuti ekspresiju gena povezanih s programiranom staničnom smrću—smanjujući nepotrebnu apoptozu dok štiti ranjive neurone tijekom razdoblja povećanog stresa. Ovaj suptilni balansirajući učinak pomaže održavanju neuralnog populacijskog integriteta i podržava stabilne sinaptičke mreže kako organizmi stare.",
+        "Jedno od najuvjerljivijih područja istraživanja Pinealona uključuje njegovu epigenetsku aktivnost. Čini se da Pinealon utječe na epigenom—kemijske oznake koje reguliraju koji su geni uključeni ili isključeni. Modificirajući transkripcijska okruženja i stabilizirajući strukturu kromatina, Pinealon može pomoći u obnavljanju mladalačkih obrazaca ekspresije u starijim neuronima. Ovo je posebno relevantno za održavanje dugoročne kognitivne otpornosti, budući da epigenetski drift glavni je pokretač dobno uvjetovanog pada u učenju, pamćenju i izvršnoj funkciji.",
+        "Studije na životinjama pokazale su poboljšanja u kognitivnoj izvedbi nakon primjene Pinealona u modelima ishemije, hipoksije, izloženosti toksinima i starenja. U tim modelima, Pinealonom tretirani subjekti često pokazuju poboljšano zadržavanje pamćenja, oštrije vrijeme reakcije i poboljšane ishode učenja u usporedbi s kontrolama. Ova zapažanja sugeriraju da Pinealon pomaže očuvati neuronsku strukturu tijekom stresa i može podržati dugoročnu sinaptičku plastičnost.",
+        "Peptid također čini da utječe na neurotrofičnu podršku. Istraživači su izvijestili o povećanoj ekspresiji neuroprotektivnih faktora rasta u tkivima tretiranim Pinealonom, uključujući one povezane sa sinaptogenezom, aksonalnom stabilnošću i neuralnim popravkom. Ova aktivnost može pomoći objasniti Pinealonovu sposobnost da promovira kognitivni oporavak nakon ozljede mozga ili deprivacije kisika. Poboljšavajući molekularno okruženje potrebno za opstanak i regeneraciju neurona, Pinealon učvršćuje urođeni kapacitet mozga za adaptivnu otpornost.",
+        "Često zanemaren, ali značajan aspekt Pinealoneve funkcije je njegova sposobnost modulacije neuroupale. CNS zahtijeva delikatnu ravnotežu između upalne signalizacije i antiupalne supresije. Primijećeno je da Pinealon smanjuje pretjeranu aktivaciju mikroglije, snižava razine proupalnih citokina i stabilizira neuroimunološko okruženje. Ovo ponašanje štiti od kroničnog upalnog oštećenja.",
+        "Iz sustavne perspektive, Pinealon djeluje kao neuro-metabolički stabilizator."
+      ],
+      "bullets": [
+        "Podržava mitohondrijsku stabilnost i staničnu energetsku ravnotežu",
+        "Poboljšava aktivnost antioksidativnih enzima u neuronskim tkivima",
+        "Smanjuje oksidativni stres i lipidnu peroksidaciju",
+        "Modulira ekspresiju gena povezanu s apoptozom i preživljavanjem",
+        "Promovira neurotrofičnu podršku i sinaptički popravak",
+        "Poboljšava kognitivnu izvedbu u modelima starenja i stresa",
+        "Smanjuje neuroupalu i pretjeranu aktivaciju mikroglije",
+        "Utječe na epigenetske markere povezane sa starenjem i neuralnim padom"
+      ]
+    },
+    "testagen": {
+      "slug": "testagen",
+      "title": "Testagen: Bioregulatorna podrška za endokrinu stabilnost i reproduktivno stanično zdravlje",
+      "subtitle": "Dubinsko znanstveno istraživanje uloge Testagena u regulaciji testikularnog tkiva, molekularnoj signalizaciji i očuvanju endokrinog integriteta tijekom starenja.",
+      "author": "Dr. Hannah",
+      "date": "prije mjesec dana",
+      "categories": ["Bioragulatori", "Endokrino zdravlje", "Reproduktivna biologija"],
+      "excerpt": "Testagen je tkivno-specifičan bioregulatorni peptid proučavan zbog svoje uloge u očuvanju endokrine ravnoteže, reproduktivnog staničnog integriteta i dobno uvjetovane stabilnosti testikularne funkcije kroz genetsku i epigenetsku regulaciju.",
+      "paragraphs": [
+        "Testagen je jedan od najproučavanijih peptida unutar klase tkivno-specifičnih bioregulatora—kratkih aminokiselinskih struktura izvorno izoliranih iz testikularnog tkiva i povezanih s održavanjem endokrine ravnoteže i reproduktivnog staničnog zdravlja. Kao pentapeptid s visoko konzerviranim slijedom, Testagen predstavlja regulatornu molekulu koja utječe na ekspresiju gena i unutarstaničnu signalizaciju unutar testikularnih stanica, uključujući germinativne stanice, Leydigove stanice i potporne Sertolijeve stanice. Njegov primarni znanstveni interes leži u njegovom potencijalu da očuva testikularnu mikroarhitekturu, optimizira steroidogene puteve i stabilizira genetske programe povezane s reproduktivnom dugovječnošću.",
+        "Za razliku od hormona ili stimulativnih spojeva, Testagen ne podiže umjetno endokrini output. Umjesto toga, djeluje kao suptilan unutarstanični signal koji pomaže obnoviti prirodnu homeostazu testikularne funkcije, posebno u uvjetima dobno uvjetovanog pada, oksidativnog stresa ili metaboličkog poremećaja.",
+        "Testisi igraju vitalnu ulogu u endokrinoj fiziologiji proizvodeći steroidne hormone koji utječu na metabolizam, gustoću kostiju, imunološku ravnotežu i ukupnu fiziološku stabilnost. Tijekom vremena, testikularno tkivo prolazi kroz progresivno starenje karakterizirano smanjenom antioksidativnom obranom, mitohondrijskom disfunkcijom i promijenjenom sintezom hormona.",
+        "Testagenova relevantnost u istraživanju proizlazi iz njegovog potencijalnog kapaciteta da se suprotstavi ovim dobno povezanim poremećajima utječući na ekspresiju gena povezanu sa staničnom diobom, sintezom proteina, antioksidativnim sustavima i regeneracijom tkiva.",
+        "Epigenetička modulacija ključan je aspekt Testagenove aktivnosti. Čini se da podržava stabilnu strukturu kromatina, poboljšava transkripcijsku točnost i čuva regulatorne oznake koje vode sintezu proteina u reproduktivnim tkivima.",
+        "Eksperimentalna opažanja ukazuju na poboljšanu organizaciju tkiva, poboljšanu mikrocirkulaciju, smanjenu fibrozu i jaču metaboličku enzimsku aktivnost u testikularnom tkivu tretiranom Testagenom.",
+        "Oksidativni stres glavni je doprinositelj testikularnog starenja. Istraživanje sugerira da Testagen povećava antioksidativne enzime, smanjuje lipidnu peroksidaciju i stabilizira mitohondrijsku izvedbu.",
+        "Testagen može podržati signalne puteve Sertolijevih stanica koji čuvaju metaboličku harmoniju i koordinirano sazrijevanje germinativnih stanica.",
+        "Također može pomoći očuvati funkciju Leydigovih stanica štiteći steroidogene puteve i mitohondrijski integritet.",
+        "Mikrovaskularna podrška još je jedno važno područje istraživanja, budući da Testagen može pomoći održati endotelnu stabilnost i perfuziju tkiva.",
+        "Ukupno, Testagen pokazuje jak potencijal kao bioregulatorni peptid koji podržava reproduktivnu i endokrinu otpornost tkiva."
+      ],
+      "bullets": [
+        "Podržava testikularnu staničnu homeostazu kroz regulaciju gena",
+        "Utječe na epigenetska okruženja povezana s reproduktivnom dugovječnošću",
+        "Poboljšava antioksidativnu obranu i smanjuje lipidnu peroksidaciju",
+        "Promovira zdraviju mikrovaskularnu perfuziju u testikularnom tkivu",
+        "Stabilizira funkciju Sertolijevih i Leydigovih stanica",
+        "Poboljšava mitohondrijsku učinkovitost pod oksidativnim stresom",
+        "Podržava popravak DNA i točnu sintezu proteina",
+        "Djeluje kao prirodni bioregulator, a ne kao endokrini stimulans"
+      ]
+    },
+    "bronchogen": {
+      "slug": "bronchogen",
+      "title": "Bronchogen: Respiratorni bioregulatorni peptid za stabilnost plućnog tkiva i integritet stanica dišnih puteva",
+      "subtitle": "Detaljna znanstvena analiza potencijalne uloge Bronchogena u podržavanju bronhijalnog epitelnog popravka, smanjenju oksidativnog opterećenja i stabilizaciji respiratornog mikrookruženja.",
+      "author": "Dr. Hannah",
+      "date": "prije mjesec dana",
+      "categories": ["Bioragulatori", "Respiratorno zdravlje", "Stanični popravak"],
+      "excerpt": "Bronchogen je respiratorno-specifičan bioregulatorni peptid proučavan zbog svoje uloge u održavanju integriteta bronhijalnog epitela, smanjenju oksidativnog stresa i podršci otpornosti stanica dišnih puteva.",
+      "paragraphs": [
+        "Bronchogen je bioregulatorni peptid izvorno identificiran u ekstraktima bronhijalnog i plućnog tkiva, proučavan zbog svoje sposobnosti da podrži respiratorno stanično zdravlje i održi integritet epitela dišnih puteva. Kao organ-specifičan regulatorni peptid, Bronchogen može utjecati na ekspresiju gena, stanične odgovore na stres i otpornost tkiva unutar plućnog sustava.",
+        "Respiratorni sustav kontinuirano je izložen okolišnim stresorima kao što su zagađivači, patogeni i oksidativni agensi. Bronchogen se čini da podržava stabilnost epitelne barijere, smanjuje pretjeranu upalu i promovira koordiniranu staničnu obnovu pod uvjetima kroničnog stresa.",
+        "Bronchogen pokazuje posebnu relevantnost u popravku epitela. Utječući na gene povezane sa staničnom adhezijom, integritetom čvrstih spojeva i remodeliranjem tkiva, može pomoći održati jaku i funkcionalnu bronhijalnu barijeru.",
+        "Modulacija upale još je jedno ključno područje interesa. Bronchogen može smanjiti pretjeranu proupalnu signalizaciju dok čuva zaštitne imunološke puteve u tkivima dišnih puteva.",
+        "Oksidativni stres glavni je doprinositelj plućnog starenja. Eksperimentalni podaci sugeriraju da Bronchogen povećava aktivnost antioksidativnih enzima i smanjuje oksidaciju lipida i DNA u plućnim stanicama.",
+        "Bronchogen također može podržati mukocilijarnu funkciju promovirajući koordinaciju cilija i održavajući ravnotežu hidratacije epitela, poboljšavajući mehanizme čišćenja dišnih puteva.",
+        "Stabilnost mikrocirkulacije u plućnom tkivu može biti podržana kroz Bronchogenov utjecaj na endotelnu otpornost i zaštitu kapilara.",
+        "Na molekularnoj razini, Bronchogen se čini da regulira ekspresiju gena povezanu sa staničnom proliferacijom, kontrolom apoptoze i organizacijom izvanstaničnog matriksa.",
+        "Mitohondrijska stabilnost još je jedan fokus istraživanja, sa studijama koje sugeriraju poboljšanu energetsku učinkovitost i smanjen metabolički stres u plućnim stanicama.",
+        "Bronchogen također može pomoći regulirati aktivnost fibroblasta, podržavajući uravnoteženu remodelaciju kolagena i smanjujući fibrotične tendencije.",
+        "Ukupno, Bronchogen predstavlja obećavajući bioregulatorni peptid za održavanje otpornosti respiratornog tkiva i homeostaze dišnih puteva."
+      ],
+      "bullets": [
+        "Podržava bronhijalni epitelni popravak i stabilnost tkiva",
+        "Modulira proupalnu i protuupalnu signalizaciju",
+        "Poboljšava antioksidativnu obranu i smanjuje oksidativno oštećenje",
+        "Poboljšava mikrocirkulaciju i endotelnu stabilnost u plućnom tkivu",
+        "Podržava mukocilijarnu funkciju i čišćenje dišnih puteva",
+        "Modulira aktivnost fibroblasta i remodeliranje izvanstaničnog matriksa",
+        "Pomaže održati mitohondrijsku učinkovitost tijekom stresa",
+        "Djeluje kao prirodni regulatorni peptid, a ne kao farmakološki stimulans"
+      ]
+    },
+    "cardiogen": {
+      "slug": "cardiogen",
+      "title": "Cardiogen: Srčano-specifičan bioregulatorni peptid koji podržava staničnu stabilnost i integritet srčanog tkiva",
+      "subtitle": "Znanstveno istraživanje potencijalne uloge Cardiogena u održavanju miokardijalne otpornosti, optimizaciji stanične energetske dinamike i podršci strukturalne stabilnosti u starijem srčanom tkivu.",
+      "author": "Dr. Hannah",
+      "date": "prije mjesec dana",
+      "categories": ["Bioragulatori", "Kardiovaskularno zdravlje", "Stanična dugovječnost"],
+      "excerpt": "Cardiogen je srčano-specifičan bioregulatorni peptid proučavan zbog svoje uloge u podržavanju mitohondrijske proizvodnje energije, mehanizama staničnog popravka i strukturalne stabilnosti unutar starijeg srčanog tkiva.",
+      "paragraphs": [
+        "Cardiogen je srčano-specifičan bioregulatorni peptid izvorno izoliran iz ekstrakata srčanog mišića i sintetiziran za istraživanje stanične ravnoteže pod stresom. Podržava genetsku stabilnost, mehanizme staničnog popravka i metaboličku učinkovitost u kardiomiocitima.",
+        "Srce je jedan od metabolički najzahtjevnijih organa, kontrahirajući se preko 100.000 puta dnevno. Cardiogen se čini da podržava mitohondrijsku dinamiku, energetski metabolizam, ravnotežu upale i stabilnost mikrocirkulacije.",
+        "Istraživanje pokazuje da Cardiogen stupa u interakciju s transkripcijskim regulatorima uključenim u srčani popravak i adaptivne odgovore na stres, pomažući očuvati miokardijalnu strukturu tijekom oksidativnog i mehaničkog stresa.",
+        "Cardiogen pokazuje jak utjecaj na mitohondrijsku izvedbu, podržavajući membranski potencijal, generaciju ATP-a i zaštitu od oksidacije mitohondrijske DNA.",
+        "Oksidativni stres ubrzava srčano starenje. Cardiogen je pokazao sposobnost poboljšanja endogenih antioksidativnih sustava i stabilizacije membrana kardiomiocita.",
+        "Ravnoteža upale još je jedno područje utjecaja. Cardiogen može smanjiti pretjeranu proupalnu signalizaciju dok čuva zaštitne imunološke odgovore u srčanom tkivu.",
+        "Mikrovaskularna stabilnost podržana je kroz endotelnu regulaciju, ravnotežu dušikovog oksida i poboljšanu kapilarnu perfuziju.",
+        "Cardiogen utječe na remodeliranje izvanstaničnog matriksa regulirajući signalizaciju fibroblasta, pomažući spriječiti pretjeranu fibrozu i održavajući srčanu elastičnost.",
+        "Popravak DNA i regulacija sinteze proteina podržani su kroz poboljšanu transkripcijsku točnost i ribosomalnu stabilnost.",
+        "Funkcionalno, Cardiogen podržava organiziranu usklađenost srčanih vlakana i stabilnost električne provodljivosti, doprinoseći učinkovitom srčanom ritmu i otpornosti."
+      ],
+      "bullets": [
+        "Podržava mitohondrijsku proizvodnju energije i stabilnost membrane",
+        "Smanjuje oksidativni stres i povećava aktivnost antioksidativnih enzima",
+        "Modulira upalnu signalizaciju unutar srčanog tkiva",
+        "Promovira mikrovaskularnu stabilnost i endotelno zdravlje",
+        "Pomaže regulirati aktivnost fibroblasta i spriječiti pretjeranu fibrozu",
+        "Poboljšava strukturnu organizaciju kardiomiocita",
+        "Podržava popravak DNA i točnu sintezu proteina u srčanim stanicama",
+        "Djeluje kao prirodni tkivno-specifičan regulatorni peptid, a ne kao stimulans"
+      ]
+    },
+    "regenerative-peptide-biology": {
+      "slug": "regenerative-peptide-biology",
+      "title": "Regenerativna biologija peptida: Mehanizmi popravka tkiva, stanične obnove i strukturalnog oporavka",
+      "subtitle": "Sveobuhvatno znanstveno istraživanje kako istraživački peptidi utječu na regeneraciju tkiva, staničnu signalizaciju, stabilnost mikrookruženja i koordinirane procese biološkog popravka.",
+      "author": "Dr. Hannah",
+      "date": "prije mjesec dana",
+      "categories": ["Regenerativna biologija", "Stanični popravak", "Znanost o peptidima"],
+      "excerpt": "Regenerativna biologija peptida ispituje kako kratkolančani signalni peptidi reguliraju popravak tkiva, staničnu obnovu, mitohondrijsku otpornost, kontrolu upale i strukturalni oporavak u starijim i pod stresom biološkim sustavima.",
+      "paragraphs": [
+        "Regenerativna biologija peptida jedno je od najnaprednijih područja moderne stanične znanosti. Peptidi djeluju kao prirodne signalne molekule koje koordiniraju popravak tkiva, adaptaciju i funkcionalni integritet fino podešavajući staničnu komunikaciju umjesto forsiranja biokemijske promjene.",
+        "U organskim sustavima, peptidi prenose regulatorne signale koji vode proliferaciju, kontrolu upale, antioksidativnu obranu i metaboličku učinkovitost, čineći ih esencijalnim alatima u regenerativnom i istraživanju dugovječnosti.",
+        "Peptidi su duboko integrirani u prirodne stanične procese, utječući na transkripciju DNA, formiranje kolagena, apoptozu, diferencijaciju i popravak dok održavaju biološku ravnotežu.",
+        "Glavni fokus istraživanja peptida uključuje izvanstanični matriks, gdje peptidi reguliraju ponašanje fibroblasta, izmjenu kolagena i strukturalno remodeliranje kritično za regeneraciju tkiva.",
+        "Na molekularnoj razini, peptidi reguliraju ekspresiju gena kroz receptorsku signalizaciju i transkripcijsku modulaciju, poboljšavajući preciznost u staničnom popravku i odgovoru na stres.",
+        "Peptidi igraju ključnu ulogu u upravljanju upalom balansirajući pro- i anti-upalne citokine, sprječavajući kronično oštećenje tkiva posebno u sustavima koji stare.",
+        "Mitohondrijska podrška središnja je za regenerativnu biologiju, a peptidi pomažu stabilizirati membrane, povećati proizvodnju ATP-a i smanjiti oksidativni stres.",
+        "Peptidi utječu na angiogenezu, poboljšavajući mikrocirkulaciju, isporuku kisika i preživljavanje tkiva tijekom popravka i regeneracije.",
+        "Regulacija matičnih stanica još je jedno glavno područje, gdje peptidi utječu na aktivaciju, migraciju i diferencijaciju kako bi održali regenerativni kapacitet.",
+        "Istraživanje regeneracije kože ističe peptide koji povećavaju sintezu kolagena, zdravlje fibroblasta, ravnotežu hidratacije i dermalnu strukturu.",
+        "U mišićno-koštanim tkivima, peptidi reguliraju popravak tetiva, očuvanje hrskavice i remodeliranje kosti pod mehaničkim stresom.",
+        "Epitelna tkiva imaju koristi od peptida koji poboljšavaju integritet barijere, popravak sluznice i imunološku spremnost.",
+        "Istraživanje neuralne regeneracije pokazuje peptide koji podržavaju neuroprotekciju, sinaptičku stabilnost, mitohondrijsko zdravlje i kognitivnu otpornost."
+      ],
+      "bullets": [
+        "Modulira puteve staničnog popravka i regeneracije tkiva",
+        "Podržava uravnoteženu sintezu kolagena i remodeliranje izvanstaničnog matriksa",
+        "Regulira upalne odgovore kako bi spriječio kronični stres tkiva",
+        "Poboljšava mitohondrijsku izvedbu i energetsku dostupnost za zacjeljivanje",
+        "Promovira angiogenezu i mikrovaskularnu stabilnost",
+        "Poboljšava antioksidativnu obranu i smanjuje oksidativnu degradaciju",
+        "Utječe na aktivaciju i diferencijaciju matičnih stanica",
+        "Pomaže održati regenerativni kapacitet u starijim tkivima"
+      ]
+    },
+    "metabolic-endocrine-peptide-modulation": {
+      "slug": "metabolic-endocrine-peptide-modulation",
+      "title": "Metabolička i endokrina modulacija peptida: Stanična energetska ravnoteža, hormonalna stabilnost i sustavna homeostaza",
+      "subtitle": "Sveobuhvatna znanstvena analiza kako istraživački peptidi utječu na metaboličku regulaciju, endokrinu harmoniju, mitohondrijsku učinkovitost i dugoročnu fiziološku ravnotežu.",
+      "author": "Dr. Hannah",
+      "date": "prije mjesec dana",
+      "categories": ["Metabolička regulacija", "Endokrino zdravlje", "Znanost o peptidima"],
+      "excerpt": "Metabolička i endokrina modulacija peptida ispituje kako regulatorni peptidi utječu na staničnu energetsku ravnotežu, hormonalnu signalizaciju, mitohondrijsku učinkovitost i sustavnu homeostazu esencijalnu za dugoročnu fiziološku otpornost.",
+      "paragraphs": [
+        "Metabolička i endokrina modulacija peptida brzo rastuće je područje stanične biologije, nudeći uvid u kako tijelo održava energetsku ravnotežu, hormonalnu harmoniju i fiziološku prilagodljivost. Peptidi djeluju kao prirodni kemijski glasnici koji fino podešavaju metaboličke puteve umjesto forsiranja naglih biokemijskih pomaka.",
+        "Metabolizam upravlja kako stanice generiraju energiju, reagiraju na nutrijente, popravljaju se i prilagođavaju fiziološkim zahtjevima. Endokrini sustav regulira proizvodnju hormona i međuorgansku komunikaciju, s peptidima koji djeluju na sjecištu oba sustava.",
+        "Peptidi snažno utječu na funkciju mitohondrija stabilizirajući membrane, smanjujući oksidativno curenje, poboljšavajući učinkovitost elektronskog transporta i normalizirajući proizvodnju ATP-a pod stresom.",
+        "Na molekularnoj razini, peptidi reguliraju metaboličku ekspresiju gena povezanu s glikolizom, oksidacijom lipida, inzulinskom osjetljivošću i antioksidativnom obranom, pomažući očuvati mladalačke metaboličke obrasce.",
+        "Peptidi koji reguliraju glukozu povećavaju osjetljivost inzulinskih receptora, poboljšavaju stanični unos glukoze i podržavaju metaboličku fleksibilnost između oksidacije glukoze i lipida.",
+        "Peptidi također utječu na metabolizam lipida regulirajući transport masnih kiselina, oksidaciju i skladištenje dok smanjuju oksidativno oštećenje lipida.",
+        "Endokrino povezani peptidi reguliraju komunikaciju preko organa kao što su štitnjača, gušterača, nadbubrežne žlijezde i gonade, podržavajući hormonalnu povratnu spregu i cirkadijalno usklađivanje.",
+        "Peptidi koji reguliraju štitnjaču utječu na bazalni metabolizam, termogenezu i mitohondrijsku učinkovitost, pomažući održati metaboličku stabilnost tijekom starenja.",
+        "Peptidi koji moduliraju nadbubrežne žlijezde pomažu ublažiti odgovore na stres regulirajući gensku aktivnost povezanu s kortizolom i čuvajući metaboličku ravnotežu.",
+        "Peptidi koji reguliraju apetit koordiniraju glad, sitost i distribuciju energije, podržavajući uravnotežen nutritivni unos.",
+        "Peptidi koji moduliraju krvne žile poboljšavaju endotelnu stabilnost i mikrocirkulaciju, osiguravajući isporuku nutrijenata i kisika metabolički aktivnim tkivima.",
+        "Peptidi koji reguliraju upalu smanjuju kroničnu metaupalu, štiteći inzulinsku osjetljivost, mitohondrijsko zdravlje i sistemsku metaboličku funkciju.",
+        "Istraživanje peptida također pruža uvid u hormonalno starenje i kako se endokrina regulacija gena mijenja tijekom vremena, podržavajući dugoročnu metaboličku otpornost."
+      ],
+      "bullets": [
+        "Podržava mitohondrijsku proizvodnju ATP-a i metaboličku fleksibilnost",
+        "Modulira inzulinsku signalizaciju i puteve korištenja glukoze",
+        "Utječe na oksidaciju lipida i staničnu raspodjelu energije",
+        "Regulira endokrinu ekspresiju gena za hormonalnu ravnotežu",
+        "Smanjuje kroničnu upalu i oksidativni metabolički stres",
+        "Poboljšava mikrovaskularnu stabilnost za podršku metaboličkim tkivima",
+        "Poboljšava sinkronizaciju cirkadijalnog metaboličkog ritma",
+        "Djeluje kao fiziološki modulator, a ne kao metabolički stimulans"
+      ]
+    },
+    "peptides-in-neuroplasticity-and-brain-optimization": {
+      "slug": "peptides-in-neuroplasticity-and-brain-optimization",
+      "title": "Peptidi u neuroplastičnosti i optimizaciji mozga: Molekularni putevi, kognitivna otpornost i neuralna regeneracija",
+      "subtitle": "Detaljno istraživanje kako istraživački peptidi utječu na sinaptičko remodeliranje, preživljavanje neurona, mitohondrijsku izvedbu i dugoročno kognitivno zdravlje.",
+      "author": "Dr. Hannah",
+      "date": "prije mjesec dana",
+      "categories": ["Neuroznanost", "Neuroplastičnost", "Kognitivno zdravlje"],
+      "excerpt": "Istraživanje peptida usmjereno na neuroplastičnost ispituje kako molekularni signalni peptidi utječu na sinaptičko remodeliranje, preživljavanje neurona, mitohondrijsku otpornost i kognitivnu prilagodljivost—ključne procese koji su u osnovi učenja, pamćenja i dugoročnog zdravlja mozga.",
+      "paragraphs": [
+        "Neuroplastičnost—sposobnost mozga da se reorganizira, prilagodi i ojača neuralne mreže—temelj je ljudske kognicije. Upravlja učenjem, konsolidacijom pamćenja, emocionalnom regulacijom i oporavkom od stresa ili ozljede. Istraživački peptidi djeluju na molekularnoj razini gdje se odvija neuralna adaptacija, utječući na unutarstaničnu signalizaciju, sinaptičko remodeliranje, ekspresiju gena i mitohondrijsko zdravlje.",
+        "Neuroni su među energetski najzahtjevnijim stanicama u tijelu. Peptidi koji reguliraju neuronski metabolizam i mitohondrijsku stabilnost pomažu očuvati energetski output, smanjiti oksidativni stres i zaštititi od dobno uvjetovanog kognitivnog pada.",
+        "Učinkovitost sinaptičke komunikacije središnja je za neuroplastičnost. Istraživački peptidi utječu na sinaptičku gustoću, formiranje dendritičkih izbočina i osjetljivost neurotransmiterskih receptora, podržavajući učinkovitost učenja i kognitivnu fleksibilnost.",
+        "Neurotrofični faktori kao što su BDNF, NGF i GDNF esencijalni su za preživljavanje i popravak neurona. Određeni peptidi neizravno povećavaju neurotrofične puteve, podržavajući oporavak od ozljede i dobno uvjetovanog pada.",
+        "Glijalne stanice igraju ključnu ulogu u neuralnoj stabilnosti i imunitetu. Peptidi koji reguliraju glijalnu aktivnost pomažu smanjiti neuroupalu, promovirati mijelinizaciju i održavati sinaptičku ravnotežu.",
+        "Peptidi koji utječu na krvno-moždanu barijeru pomažu zaštititi neurone od toksina i upale dok omogućuju ciljano neurobiološko istraživanje.",
+        "Neurotransmiterski sustavi imaju koristi od modulacije peptida, dopuštajući uravnoteženu regulaciju raspoloženja, fokusa, motivacije i ciklusa spavanja.",
+        "Peptidi također utječu na epigenetičku regulaciju u neuralnom tkivu, podržavajući adaptivne obrasce ekspresije gena povezane s kognitivnom otpornošću.",
+        "Mitohondrijska otpornost podupire kognitivnu izdržljivost. Peptidi koji stabiliziraju mitohondrijske membrane i smanjuju oksidativni stres pomažu očuvati neuronsku energetsku učinkovitost.",
+        "Peptidi koji moduliraju stres pomažu zaštititi sinaptički integritet i normalizirati puteve signalizacije povezane sa stresom.",
+        "Formiranje pamćenja oslanja se na dugotrajnu potencijaciju (LTP). Peptidi koji utječu na kalcijsku signalizaciju i sinaptičke puteve pružaju uvid u očuvanje pamćenja i optimizaciju učenja."
+      ],
+      "bullets": [
+        "Poboljšava sinaptičku plastičnost i neuralnu komunikaciju",
+        "Podržava mitohondrijsko zdravlje i neuronsku energetsku učinkovitost",
+        "Modulira neurotrofične puteve uključene u popravak mozga",
+        "Stabilizira osjetljivost neurotransmiterskih receptora",
+        "Smanjuje neuroupalu i pretjeranu aktivaciju mikroglije",
+        "Promovira rast dendrita i strukturnu neuroplastičnost",
+        "Utječe na integritet krvno-moždane barijere u istraživačkim modelima",
+        "Poboljšava otpornost na stres i kognitivnu prilagodljivost"
+      ]
+    },
+    "immune-modulation-anti-inflammatory-peptides": {
+      "slug": "immune-modulation-anti-inflammatory-peptides",
+      "title": "Imunomodulacija i znanost o protuupalnim peptidima: Stanična obrana, ravnoteža citokina i zaštita tkiva",
+      "subtitle": "Dubinski znanstveni pregled kako peptidi reguliraju imunološku signalizaciju, utječu na puteve upale i podržavaju sistemsku otpornost.",
+      "author": "Dr. Hannah",
+      "date": "prije mjesec dana",
+      "categories": ["Imunologija", "Protuupalno istraživanje", "Znanost o peptidima"],
+      "excerpt": "Istraživanje imunomodulacijskih peptida istražuje kako regulatorni peptidi utječu na ravnotežu citokina, signalizaciju imunoloških stanica, kontrolu oksidativnog stresa i zaštitu tkiva—ključne mehanizme koji su u osnovi imunološke otpornosti i zdravog starenja.",
+      "paragraphs": [
+        "Imunološki sustav jedna je od najsloženijih regulatornih mreža u ljudskom tijelu. Peptidi djeluju kao prirodni biološki glasnici koji koordiniraju imunološku komunikaciju, kontrolu upale i oporavak tkiva.",
+        "Imunomodulacija odnosi se na fino podešavanje imunološke aktivnosti bez prekomjerne stimulacije ili supresije. Regulatorni peptidi pomažu obnoviti imunološku ravnotežu umjesto forsiranja ekstremnih odgovora.",
+        "Upala je i zaštitna i potencijalno štetna. Kronična upala niskog stupnja, poznata kao inflamaging, doprinosi degeneraciji tkiva i ubrzanom starenju.",
+        "Na staničnoj razini, peptidi utječu na imunološke receptore, transkripcijske faktore i unutarstanične kaskade signalizacije koje reguliraju proizvodnju citokina i oksidativni stres.",
+        "Ravnoteža citokina središnja je za imunološko zdravlje. Peptidi pomažu normalizirati signalizaciju citokina i smanjiti pretjeranu proupalnu aktivnost.",
+        "Peptidi također utječu na makrofage, dendritičke stanice i prirodne stanice ubojice, podržavajući uravnotežene imunološke odgovore i popravak tkiva.",
+        "Oksidativni stres doprinosi imunološkoj neravnoteži i oštećenju tkiva. Određeni peptidi podržavaju antioksidativnu obranu i mitohondrijsku redoks stabilnost.",
+        "Istraživački peptidi pomažu istražiti interakcije imunološkog sustava i mikrobioma te njihovu ulogu u sistemskoj upali i imunološkoj toleranciji.",
+        "Imunosenescencija ili starenje imunološkog sustava dovodi do smanjene prilagodljivosti i povećane upale. Peptidi pružaju uvid u očuvanje imunološke otpornosti.",
+        "Vaskularna upala utječe na endotelno zdravlje i cirkulaciju. Peptidi mogu stabilizirati endotelne barijere i smanjiti upalno oštećenje.",
+        "U vezivnom tkivu, peptidi pomažu regulirati aktivnost fibroblasta, izmjenu kolagena i remodeliranje tkiva tijekom upale.",
+        "Peptidi igraju važne uloge u zacjeljivanju rana podržavajući angiogenezu, staničnu migraciju i remodeliranje matriksa.",
+        "Neuroimuna interakcija kritična je za zdravlje mozga. Peptidi koji smanjuju neuroupalu podržavaju kognitivnu otpornost i neuralnu dugovječnost."
+      ],
+      "bullets": [
+        "Modulira ravnotežu citokina za zdravu imunološku signalizaciju",
+        "Smanjuje kroničnu upalu niskog stupnja (inflamaging)",
+        "Podržava antioksidativnu obranu i mitohondrijsku stabilnost",
+        "Regulira aktivnost makrofaga i dendritičkih stanica",
+        "Poboljšava vaskularnu i endotelnu otpornost",
+        "Promovira učinkovit popravak tkiva i zacjeljivanje rana",
+        "Stabilizira neuroimunološku komunikaciju",
+        "Podržava zdravije starenje imunološkog sustava i dugoročnu otpornost"
+      ]
+    },
+    "peptides-cellular-longevity-anti-aging": {
+      "slug": "peptides-cellular-longevity-anti-aging",
+      "title": "Peptidi i stanična dugovječnost: Molekularni popravak, epigenetska stabilnost i budućnost istraživanja protiv starenja",
+      "subtitle": "Znanstveno dubinsko uranjanje u kako regulatorni peptidi podržavaju staničnu otpornost, održavanje DNA, zaštitu mitohondrija i dugoročnu biološku stabilnost.",
+      "author": "Dr. Hannah",
+      "date": "prije mjesec dana",
+      "categories": ["Stanična dugovječnost", "Istraživanje protiv starenja", "Znanost o peptidima"],
+      "excerpt": "Istraživanje peptida za staničnu dugovječnost istražuje kako regulatorni peptidi podržavaju molekularni popravak, epigenetsku stabilnost, zaštitu mitohondrija i kontrolu upale—ključne mehanizme koji su u osnovi zdravog starenja i dugoročne biološke otpornosti.",
+      "paragraphs": [
+        "Stanična dugovječnost odnosi se i na životni vijek i funkcionalnu kvalitetu stanica tijekom vremena. Starenje počinje na staničnoj razini, gdje se oštećenje DNA nakuplja, mitohondrijska učinkovitost opada, upala postaje kronična, a kapacitet popravka tkiva slabi. Istraživački peptidi djeluju kao regulatorne signalne molekule koje pomažu znanstvenicima razumjeti kako stanice održavaju ravnotežu, popravljaju oštećenja i čuvaju vitalnost.",
+        "Starenje je potaknuto oksidativnim stresom, metaboličkim iscrpljenjem, kroničnom upalom, epigenetskim pomakom, skraćivanjem telomera i mitohondrijskom disfunkcijom. Peptidi ne djeluju kao stimulansi već podržavaju učinkovitu staničnu komunikaciju, dopuštajući stanicama da održavaju homeostazu pod stresom.",
+        "Epigenetska regulacija ključni je fokus istraživanja dugovječnosti temeljenog na peptidima. Kako stanice stare, epigenetski markeri odstupaju od mladalačkih obrazaca, dovodeći do neučinkovite ekspresije gena. Regulatorni peptidi koji stabiliziraju strukturu kromatina ili epigenetsku signalizaciju pomažu očuvati zdravu ekspresiju gena tijekom vremena.",
+        "Integritet DNA esencijalan je za staničnu dugovječnost. Okolišni stres i metabolički procesi oštećuju DNA, narušavajući replikaciju i funkciju. Neki peptidi podržavaju puteve popravka DNA i proteine odgovorne za otkrivanje i ispravljanje genetskog oštećenja.",
+        "Proteostaza—regulacija sinteze, savijanja i odlaganja proteina—opada sa starenjem. Peptidi koji poboljšavaju izmjenu proteina i kontrolu kvalitete pomažu spriječiti nakupljanje oštećenih proteina i podržavaju staničnu učinkovitost.",
+        "Starenje mitohondrija dovodi do smanjene proizvodnje ATP-a i povećanog oksidativnog stresa. Istraživački peptidi koji stabiliziraju mitohondrijske membrane i podržavaju antioksidativnu obranu pomažu održati staničnu energetsku ravnotežu.",
+        "Kronična upala, ili inflamaging, ubrzava oštećenje tkiva i stanični pad. Peptidi koji reguliraju signalizaciju citokina i imunološku ravnotežu pomažu smanjiti upalno opterećenje tijekom vremena.",
+        "Skraćivanje telomera ograničava stanični životni vijek. Iako peptidi ne produžuju izravno telomere, mogu neizravno očuvati integritet telomera smanjujući oksidativni i metabolički stres.",
+        "Stanična senescencija doprinosi starenju nakupljanjem nedijelećih, ali upalnih stanica. Peptidi koji reguliraju puteve senescencije i apoptoze podržavaju zdraviju staničnu populaciju.",
+        "Starenje smanjuje regeneraciju tkiva zbog propadanja niše matičnih stanica. Peptidi koji utječu na signalizaciju matičnih stanica i stabilnost izvanstaničnog matriksa pomažu podržati regenerativni kapacitet.",
+        "Degradacija kolagena i elastina utječe na otpornost tkiva s godinama. Peptidi koji reguliraju aktivnost fibroblasta i remodeliranje matriksa pomažu očuvati strukturni integritet.",
+        "Endokrini pad utječe na metabolizam i oporavak s godinama. Peptidi koji moduliraju endokrinu ekspresiju gena pružaju uvid u održavanje hormonalne ravnoteže tijekom životnog vijeka."
+      ],
+      "bullets": [
+        "Podržava epigenetsku stabilnost i mladalačku ekspresiju gena",
+        "Promovira mitohondrijsku otpornost i uravnoteženu proizvodnju energije",
+        "Poboljšava popravak DNA i genomsku zaštitu",
+        "Smanjuje kroničnu upalu povezanu sa starenjem",
+        "Održava proteostazu i kontrolu kvalitete proteina",
+        "Podržava integritet kolagena, elastina i izvanstaničnog matriksa",
+        "Regulira puteve senescencije za staničnu obnovu",
+        "Poboljšava usklađenost cirkadijalnog ritma esencijalnog za dugovječnost"
+      ]
+    }
+  }
 
 
 

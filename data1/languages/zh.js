@@ -516,8 +516,15 @@ payment: {
   paySecurely: "安全支付",
   secureNote: "100% 安全支付"
 },
+researchPage: {
+  title: "肽科学研究",
+description:
+  "基于同行科学研究的文章，探讨生物调节肽、细胞信号传导、免疫平衡与再生生物学。"
+
+},
 research: {
-  1: {
+  "vilon": {
+    slug:"vilon",
     title: "Vilon：细胞再生与免疫生物调节",
     subtitle:
       "对最具研究价值的胸腺生物调节肽之一及其在细胞修复和免疫平衡中的作用进行深入分析。",
@@ -548,7 +555,8 @@ research: {
       "重要免疫研究工具"
     ]
   },
-  2: {
+  "pinealon": {
+    slug:"pinealon",
     title: "Pinealon：神经保护性生物调节与认知长寿",
     subtitle:
       "对 Pinealon 在脑代谢、线粒体平衡和神经韧性中的作用进行系统研究。",
@@ -579,7 +587,8 @@ research: {
       "影响衰老相关表观遗传机制"
     ]
   },
-  3: {
+  "testagen": {
+    slug:"testagen",
   title: "Testagen：支持内分泌稳定性与生殖细胞健康的生物调节肽",
   subtitle:
     "深入解析Testagen在睾丸组织调控、分子信号传导及内分泌稳定中的作用。",
@@ -609,7 +618,8 @@ research: {
     "非刺激性调节肽"
   ]
 },
-4: {
+"bronchogen": {
+  slug:"bronchogen",
   title: "Bronchogen：支持肺组织稳定与气道细胞完整性的生物调节肽",
   subtitle:
     "对Bronchogen在气道修复和呼吸系统保护中的作用进行科学分析。",
@@ -639,7 +649,8 @@ research: {
     "天然非药物调节肽"
   ]
 },
-5: {
+"cardiogen": {
+  slug:"cardiogen",
   title: "Cardiogen：支持心脏细胞稳定性的生物调节肽",
   subtitle:
     "对Cardiogen在心肌能量与结构稳定性中的作用进行科学分析。",
@@ -668,7 +679,8 @@ research: {
     "天然心脏调节肽"
   ]
 },
-6: {
+"regenerative-peptide-biology": {
+  slug:"regenerative-peptide-biology",
   title: "再生肽生物学：组织修复与细胞更新机制",
   subtitle:
     "研究肽在组织再生与细胞信号中的作用。",
@@ -700,7 +712,8 @@ research: {
     "维持再生能力"
   ]
 },
-7: {
+"metabolic-endocrine-peptide-modulation": {
+  slug:"metabolic-endocrine-peptide-modulation",
   title: "代谢与内分泌肽调节：能量与激素平衡",
   subtitle:
     "肽在代谢调控中的科学研究。",
@@ -732,7 +745,8 @@ research: {
     "生理性调节"
   ]
 },
-8: {
+"peptides-in-neuroplasticity-and-brain-optimization": {
+  slug:"peptides-in-neuroplasticity-and-brain-optimization",
   title: "神经可塑性与大脑优化中的肽",
   subtitle:
     "肽对脑功能影响的科学研究。",
@@ -762,7 +776,8 @@ research: {
     "提高认知适应力"
   ]
 },
-9: {
+"immune-modulation-anti-inflammatory-peptides": {
+  slug:"immune-modulation-anti-inflammatory-peptides",
   title: "免疫调节与抗炎肽科学",
   subtitle:
     "肽在免疫调控中的科学研究。",
@@ -794,7 +809,8 @@ research: {
     "支持免疫长寿"
   ]
 },
-10: {
+"peptides-cellular-longevity-anti-aging": {
+  slug:"peptides-cellular-longevity-anti-aging",
   title: "肽与细胞长寿",
   subtitle:
     "肽在抗衰老研究中的科学作用。",

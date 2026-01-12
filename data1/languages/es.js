@@ -521,8 +521,14 @@ payment: {
   paySecurely: "Pagar de forma segura",
   secureNote: "Pagos 100% seguros"
 },
+researchPage: {
+title: "Investigación en Ciencias de los Péptidos",
+description:
+  "Artículos científicos basados en investigación especializada que exploran péptidos biorreguladores, señalización celular, equilibrio inmunológico y biología regenerativa."
+},
 research: {
-  1: {
+  Vilon: {
+    slug:"Vilon",
     title: "Vilon: Regeneración celular y bioregulación inmunitaria",
     subtitle:
       "Un análisis científico profundo de uno de los péptidos bioreguladores tímicos más investigados y su papel en la reparación celular, el equilibrio inmunológico y la homeostasis tisular.",
@@ -553,7 +559,8 @@ research: {
       "Herramienta clave en investigación inmunológica"
     ]
   },
-  2: {
+  Pinealon: {
+    slug:"Pinealon",
     title: "Pinealon: Bioregulación neuroprotectora y longevidad cognitiva",
     subtitle:
       "Una exploración científica integral del papel de Pinealon en el metabolismo cerebral, el equilibrio mitocondrial y la resiliencia neuronal.",
@@ -584,7 +591,8 @@ research: {
       "Influye en mecanismos epigenéticos"
     ]
   },
-  3: {
+  Testagen: {
+    slug:"Testagen",
   title: "Testagen: Soporte Bioregulador para la Estabilidad Endocrina y la Salud Celular Reproductiva",
   subtitle:
     "Exploración científica del papel de Testagen en la regulación del tejido testicular y la estabilidad endocrina durante el envejecimiento.",
@@ -614,7 +622,8 @@ research: {
     "Actúa como regulador fisiológico"
   ]
 },
-4: {
+Bronchogen: {
+  slug:"Bronchogen",
   title: "Bronchogen: Péptido Bioregulador Respiratorio para la Estabilidad Pulmonar",
   subtitle:
     "Análisis científico del papel de Bronchogen en la reparación epitelial bronquial y la protección respiratoria.",
@@ -644,7 +653,8 @@ research: {
     "Regulador natural no farmacológico"
   ]
 },
-5: {
+Cardiogen: {
+  slug:"Cardiogen",
   title: "Cardiogen: Péptido Bioregulador Específico del Corazón",
   subtitle:
     "Exploración científica del papel de Cardiogen en la estabilidad y energía del tejido cardíaco.",
@@ -673,8 +683,9 @@ research: {
     "Regulador cardíaco natural"
   ]
 },
-6: {
-  title: "Biología Peptídica Regenerativa: Reparación y Renovación Celular",
+"regenerative-peptide-biology": {
+  slug:"regenerative-peptide-biology",
+    title: "Biología Peptídica Regenerativa: Reparación y Renovación Celular",
   subtitle:
     "Exploración científica del papel de los péptidos en la regeneración tisular.",
 
@@ -705,7 +716,8 @@ research: {
     "Mantienen capacidad regenerativa"
   ]
 },
-7: {
+"metabolic-endocrine-peptide-modulation": {
+  slug:"metabolic-endocrine-peptide-modulation",
   title: "Modulación Peptídica Metabólica y Endocrina: Equilibrio Energético y Hormonal",
   subtitle:
     "Análisis científico del papel de los péptidos en la regulación metabólica.",
@@ -737,7 +749,8 @@ research: {
     "Modula fisiológicamente"
   ]
 },
-8: {
+"peptides-in-neuroplasticity-and-brain-optimization": {
+  slug:"peptides-in-neuroplasticity-and-brain-optimization",
   title: "Péptidos en Neuroplasticidad y Optimización Cerebral",
   subtitle:
     "Exploración científica del papel de los péptidos en la función cerebral.",
@@ -767,7 +780,8 @@ research: {
     "Aumenta resiliencia cognitiva"
   ]
 },
-9: {
+"immune-modulation-anti-inflammatory-peptides" :{
+  slug:"immune-modulation-anti-inflammatory-peptides",
   title: "Modulación Inmunológica y Ciencia de Péptidos Anti-Inflamatorios",
   subtitle:
     "Revisión científica del control inmunológico mediante péptidos.",
@@ -799,7 +813,8 @@ research: {
     "Promueve longevidad inmune"
   ]
 },
-10: {
+"immune-modulation-anti-inflammatory-peptides": {
+  slug:"immune-modulation-anti-inflammatory-peptides",
   title: "Péptidos y Longevidad Celular",
   subtitle:
     "Análisis científico del envejecimiento celular regulado por péptidos.",

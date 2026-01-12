@@ -571,60 +571,68 @@ researchPage: {
       "Peer-informed scientific articles exploring bioregulator peptides, cellular signaling, immune balance, and regenerative biology."
   },
 research: {
-  1: {
-   title: "Vilon: Cellular Regeneration & Immune Bioregulation",
-    subtitle:
-      "A deep scientific examination of one of the most researched thymic bioregulator peptides and its role in cellular repair, immune balance, and tissue homeostasis.",
+ vilon: {
+  slug: "vilon",
 
-    // ✅ ADD META HERE
-    author: "Dr. Hannah",
-    date: "1 month ago",
-    categories: ["Bioregulators", "Immune Health"],
-    paragraphs: [
-      "Vilon is one of the most extensively studied bioregulator peptides in modern cellular biochemistry and longevity science. As a natural dipeptide derived from thymic extracts (Lys-Glu), Vilon represents the earliest generation of tissue-specific molecular regulators—short amino acid structures capable of restoring balanced gene expression, stabilizing cellular function, and supporting regenerative processes throughout the body. While the thymus is the source of Vilon’s biological identity, its impact is systemic, affecting immune integrity, inflammatory control, and epithelial repair across various organ systems.",
+  title: "Vilon: Cellular Regeneration & Immune Bioregulation",
 
-      "At its core, Vilon functions as a molecular “normalizer”: a regulatory signal that helps aging, stressed, or dysfunctional cells regain physiological equilibrium. Unlike pharmaceuticals that overstimulate or suppress pathways, Vilon works by modulating gene activity toward the body's natural baseline—supporting controlled proliferation, enhancing cellular resilience, and reducing harmful inflammatory responses. This mechanism has made Vilon one of the foundational peptides in the study of immunosenescence, tissue regeneration, and epigenetic modulation.",
+  subtitle:
+    "A deep scientific examination of one of the most researched thymic bioregulator peptides and its role in cellular repair, immune balance, and tissue homeostasis.",
 
-      "The thymus serves as one of the body's most important immune organs, responsible for developing and “training” T-cells. With age, the thymus undergoes involution—a gradual decline in size and function that reduces immune strength, slows injury recovery, and increases vulnerability to chronic inflammation. Vilon was discovered in the context of this age-related decline: researchers observed that short peptides derived from thymic tissue appeared to restore immune stability and support the transcriptional machinery involved in T-cell maturation and repair.",
+  author: "Dr. Hannah",
+  date: "1 month ago",
+  categories: ["Bioregulators", "Immune Health"],
 
-      "Experimental evidence indicates that Vilon interacts with genomic regulatory regions associated with cellular growth, apoptosis control, antioxidant enzyme systems, and inflammatory modulation. In vitro models suggest that Vilon enhances nucleic acid synthesis, restores balanced protein metabolism, and regulates oxidative stress responses—functions that are essential for maintaining healthy epithelial and immune cell turnover. These influences extend into broader organ systems, contributing to improved recovery from injury, enhanced tissue resilience, and more stable immune reactivity.",
+  excerpt:
+    "Vilon is one of the most extensively studied bioregulator peptides in modern cellular biochemistry and longevity science.",
 
-      "One of the most compelling areas of Vilon research is its role in reducing age-related inflammatory burden. Chronic inflammation is now recognized as a major driver of aging, commonly referred to as “inflammaging.” Vilon appears to counteract this state by modulating cytokine activity and improving the balance of pro-inflammatory versus anti-inflammatory signals. These regulatory actions do not suppress immune function; instead, they help normalize immune tone, fostering stronger defense mechanisms while preventing excessive or misdirected inflammatory responses.",
+  paragraphs: [
+    "Vilon is one of the most extensively studied bioregulator peptides in modern cellular biochemistry and longevity science. As a natural dipeptide derived from thymic extracts (Lys-Glu), Vilon represents the earliest generation of tissue-specific molecular regulators—short amino acid structures capable of restoring balanced gene expression, stabilizing cellular function, and supporting regenerative processes throughout the body. While the thymus is the source of Vilon’s biological identity, its impact is systemic, affecting immune integrity, inflammatory control, and epithelial repair across various organ systems.",
 
-      "Additionally, Vilon has shown promising activity in epithelial and mucosal repair. Experimental work in dermal, gastrointestinal, and respiratory tissues suggests that Vilon accelerates the renewal of barrier cells, enhances microcirculatory stability, and supports coordinated collagen remodeling. This regenerative influence makes Vilon a peptide of interest in research on wound healing, tissue recovery after stress or irradiation, and cellular rejuvenation under high oxidative or metabolic load.",
+    "At its core, Vilon functions as a molecular “normalizer”: a regulatory signal that helps aging, stressed, or dysfunctional cells regain physiological equilibrium. Unlike pharmaceuticals that overstimulate or suppress pathways, Vilon works by modulating gene activity toward the body's natural baseline—supporting controlled proliferation, enhancing cellular resilience, and reducing harmful inflammatory responses. This mechanism has made Vilon one of the foundational peptides in the study of immunosenescence, tissue regeneration, and epigenetic modulation.",
 
-      "At the molecular level, Vilon’s impact touches on fundamental biological processes including gene transcription, chromatin remodeling, and epigenetic regulation. Studies propose that Vilon interacts with DNA-binding proteins and transcription factors involved in cellular homeostasis. This interaction may allow Vilon to influence how cells interpret stress, repair damage, and determine when to undergo apoptosis. Although the full complexity of these interactions remains under investigation, the accumulating evidence reinforces the concept that bioregulatory peptides act as subtle, highly targeted modulators of cellular behavior.",
+    "The thymus serves as one of the body's most important immune organs, responsible for developing and “training” T-cells. With age, the thymus undergoes involution—a gradual decline in size and function that reduces immune strength, slows injury recovery, and increases vulnerability to chronic inflammation. Vilon was discovered in the context of this age-related decline: researchers observed that short peptides derived from thymic tissue appeared to restore immune stability and support the transcriptional machinery involved in T-cell maturation and repair.",
 
-      "In the context of aging, Vilon stands out as one of the earliest examples of a peptide capable of influencing lifespan determinants at the molecular level. Animal studies show potential improvements in immune performance, metabolic balance, and tissue regeneration following peptide administration. These effects align with broader gerontological research indicating that restoring youthful signaling patterns—especially through peptides derived from endocrine and immune tissues—may help counteract biological aging processes.",
+    "Experimental evidence indicates that Vilon interacts with genomic regulatory regions associated with cellular growth, apoptosis control, antioxidant enzyme systems, and inflammatory modulation. In vitro models suggest that Vilon enhances nucleic acid synthesis, restores balanced protein metabolism, and regulates oxidative stress responses—functions that are essential for maintaining healthy epithelial and immune cell turnover. These influences extend into broader organ systems, contributing to improved recovery from injury, enhanced tissue resilience, and more stable immune reactivity.",
 
-      "Unlike pharmacological agents, Vilon does not override the body’s regulatory systems. Instead, it provides a corrective feedback signal that helps maintain equilibrium. This makes Vilon particularly useful in research exploring chronic inflammation, immune aging, epithelial degeneration, stress recovery, and systemic regulatory decline. The idea that a simple dipeptide can support complex biological systems highlights the importance of peptide signaling networks in maintaining long-term health and vitality.",
+    "One of the most compelling areas of Vilon research is its role in reducing age-related inflammatory burden. Chronic inflammation is now recognized as a major driver of aging, commonly referred to as “inflammaging.” Vilon appears to counteract this state by modulating cytokine activity and improving the balance of pro-inflammatory versus anti-inflammatory signals. These regulatory actions do not suppress immune function; instead, they help normalize immune tone, fostering stronger defense mechanisms while preventing excessive or misdirected inflammatory responses.",
 
-      "As scientific interest in bioregulatory peptides continues to expand globally, Vilon remains at the forefront of experimental applications in cellular medicine. Its minimal structure, broad regulatory potential, and strong safety profile in research environments position it as a foundational model for understanding how small peptides can influence tissue stability, gene expression, and immune performance.",
+    "Additionally, Vilon has shown promising activity in epithelial and mucosal repair. Experimental work in dermal, gastrointestinal, and respiratory tissues suggests that Vilon accelerates the renewal of barrier cells, enhances microcirculatory stability, and supports coordinated collagen remodeling. This regenerative influence makes Vilon a peptide of interest in research on wound healing, tissue recovery after stress or irradiation, and cellular rejuvenation under high oxidative or metabolic load.",
 
-      "Ultimately, Vilon’s significance extends beyond thymic biology. It represents a class of natural molecular regulators capable of supporting the body’s inherent self-repair mechanisms. Whether studied for its effects on immune resilience, epithelial regeneration, or cellular aging, Vilon continues to demonstrate remarkable potential as a tool for advancing the science of biological optimization and health-span support.",
+    "At the molecular level, Vilon’s impact touches on fundamental biological processes including gene transcription, chromatin remodeling, and epigenetic regulation. Studies propose that Vilon interacts with DNA-binding proteins and transcription factors involved in cellular homeostasis. This interaction may allow Vilon to influence how cells interpret stress, repair damage, and determine when to undergo apoptosis. Although the full complexity of these interactions remains under investigation, the accumulating evidence reinforces the concept that bioregulatory peptides act as subtle, highly targeted modulators of cellular behavior.",
 
-      "In conclusion, Vilon exemplifies the next era of peptide-based research—one defined not by pharmacological force, but by physiological harmony. By restoring balance at the molecular level and supporting coordinated cellular behavior, Vilon provides a powerful lens into the future of regenerative science, immunobiology, and peptide-based longevity research."
-    ],
+    "In the context of aging, Vilon stands out as one of the earliest examples of a peptide capable of influencing lifespan determinants at the molecular level. Animal studies show potential improvements in immune performance, metabolic balance, and tissue regeneration following peptide administration. These effects align with broader gerontological research indicating that restoring youthful signaling patterns—especially through peptides derived from endocrine and immune tissues—may help counteract biological aging processes.",
 
-    bullets: [
-      "Supports thymic regulation and T-cell development",
-      "Enhances nucleic acid and protein synthesis in stressed cells",
-      "Modulates cytokine balance and reduces chronic inflammation",
-      "Promotes epithelial and mucosal repair across organ systems",
-      "Acts as a natural homeostatic regulator rather than a stimulant",
-      "Influences genetic and epigenetic pathways associated with aging",
-      "Improves cellular resilience and physiological equilibrium",
-      "Represents a key research tool in immunosenescence and tissue regeneration"
-    ]
-  },
+    "Unlike pharmacological agents, Vilon does not override the body’s regulatory systems. Instead, it provides a corrective feedback signal that helps maintain equilibrium. This makes Vilon particularly useful in research exploring chronic inflammation, immune aging, epithelial degeneration, stress recovery, and systemic regulatory decline. The idea that a simple dipeptide can support complex biological systems highlights the importance of peptide signaling networks in maintaining long-term health and vitality.",
 
-  2: {
-    title: "Pinealon: Neuroprotective Bioregulation and Cognitive Longevity",
+    "As scientific interest in bioregulatory peptides continues to expand globally, Vilon remains at the forefront of experimental applications in cellular medicine. Its minimal structure, broad regulatory potential, and strong safety profile in research environments position it as a foundational model for understanding how small peptides can influence tissue stability, gene expression, and immune performance.",
+
+    "Ultimately, Vilon’s significance extends beyond thymic biology. It represents a class of natural molecular regulators capable of supporting the body’s inherent self-repair mechanisms. Whether studied for its effects on immune resilience, epithelial regeneration, or cellular aging, Vilon continues to demonstrate remarkable potential as a tool for advancing the science of biological optimization and health-span support.",
+
+    "In conclusion, Vilon exemplifies the next era of peptide-based research—one defined not by pharmacological force, but by physiological harmony. By restoring balance at the molecular level and supporting coordinated cellular behavior, Vilon provides a powerful lens into the future of regenerative science, immunobiology, and peptide-based longevity research."
+  ],
+
+  bullets: [
+    "Supports thymic regulation and T-cell development",
+    "Enhances nucleic acid and protein synthesis in stressed cells",
+    "Modulates cytokine balance and reduces chronic inflammation",
+    "Promotes epithelial and mucosal repair across organ systems",
+    "Acts as a natural homeostatic regulator rather than a stimulant",
+    "Influences genetic and epigenetic pathways associated with aging",
+    "Improves cellular resilience and physiological equilibrium",
+    "Represents a key research tool in immunosenescence and tissue regeneration"
+  ]
+}
+,
+
+ pinealon: {
+  slug: "pinealon",
+
+  title: "Pinealon: Neuroprotective Bioregulation and Cognitive Longevity",
 
   subtitle:
     "A comprehensive scientific exploration of Pinealon’s role in brain metabolism, mitochondrial balance, antioxidant defense, and long-term neural resilience.",
 
-  // ✅ META (REQUIRED FOR UI)
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Bioregulators", "Neuroprotection", "Cognitive Longevity"],
@@ -632,48 +640,51 @@ research: {
   excerpt:
     "Pinealon is a neuroprotective bioregulator peptide studied for its role in optimizing neuronal metabolism, mitochondrial stability, antioxidant defense, and epigenetic regulation associated with cognitive resilience and longevity.",
 
-    paragraphs: [
-      "Pinealon is one of the most intriguing bioregulatory peptides in neuroscience and cellular longevity research. Originally identified in extracts of brain and pineal gland tissue, Pinealon is a unique tripeptide sequence (Glu–Asp–Arg) that acts as a regulatory messenger for neuronal gene expression, oxidative stability, and cellular energy metabolism. Although small in size, Pinealon demonstrates remarkable activity within the central nervous system (CNS), making it a powerful research molecule for examining neuroprotection, cognitive performance, and age-associated neuronal decline.",
+  paragraphs: [
+    "Pinealon is one of the most intriguing bioregulatory peptides in neuroscience and cellular longevity research. Originally identified in extracts of brain and pineal gland tissue, Pinealon is a unique tripeptide sequence (Glu–Asp–Arg) that acts as a regulatory messenger for neuronal gene expression, oxidative stability, and cellular energy metabolism. Although small in size, Pinealon demonstrates remarkable activity within the central nervous system (CNS), making it a powerful research molecule for examining neuroprotection, cognitive performance, and age-associated neuronal decline.",
 
-      "Unlike stimulants or nootropics that temporarily enhance neurotransmission, Pinealon influences brain health at the molecular foundation—regulating protein synthesis, modulating gene activity, and supporting mitochondrial dynamics within neurons and glial cells. This “bottom-up” biological influence makes Pinealon particularly relevant in studies of aging, oxidative stress, ischemic damage, neuroinflammation, and cognitive decline. Its broad regulatory profile has positioned it as an important research candidate in the emerging field of peptide-based neuroprotection.",
+    "Unlike stimulants or nootropics that temporarily enhance neurotransmission, Pinealon influences brain health at the molecular foundation—regulating protein synthesis, modulating gene activity, and supporting mitochondrial dynamics within neurons and glial cells. This “bottom-up” biological influence makes Pinealon particularly relevant in studies of aging, oxidative stress, ischemic damage, neuroinflammation, and cognitive decline. Its broad regulatory profile has positioned it as an important research candidate in the emerging field of peptide-based neuroprotection.",
 
-      "The human brain is uniquely vulnerable to oxidative stress, energy deficits, and mitochondrial instability. Neurons consume enormous amounts of ATP while lacking the robust regenerative capacity found in other tissues. Over time, the combination of metabolic strain, reactive oxygen species (ROS) accumulation, and impaired synaptic signaling contributes to cognitive aging. Pinealon appears to intervene in this process by normalizing gene clusters associated with redox balance, apoptosis regulation, and mitochondrial performance—key systems that sustain neural vitality.",
+    "The human brain is uniquely vulnerable to oxidative stress, energy deficits, and mitochondrial instability. Neurons consume enormous amounts of ATP while lacking the robust regenerative capacity found in other tissues. Over time, the combination of metabolic strain, reactive oxygen species (ROS) accumulation, and impaired synaptic signaling contributes to cognitive aging. Pinealon appears to intervene in this process by normalizing gene clusters associated with redox balance, apoptosis regulation, and mitochondrial performance—key systems that sustain neural vitality.",
 
-      "One of Pinealon’s most widely studied biological roles is its ability to enhance antioxidant defenses. Research suggests that Pinealon increases the activity of enzymes such as superoxide dismutase (SOD) and glutathione peroxidase, which protect neurons against oxidative injury. Additionally, Pinealon has been shown to reduce lipid peroxidation in cellular membranes—a common marker of neural stress and an early contributor to cell degeneration. By stabilizing redox homeostasis, Pinealon provides a buffer against environmental and age-related stressors that compromise neural function.",
+    "One of Pinealon’s most widely studied biological roles is its ability to enhance antioxidant defenses. Research suggests that Pinealon increases the activity of enzymes such as superoxide dismutase (SOD) and glutathione peroxidase, which protect neurons against oxidative injury. Additionally, Pinealon has been shown to reduce lipid peroxidation in cellular membranes—a common marker of neural stress and an early contributor to cell degeneration. By stabilizing redox homeostasis, Pinealon provides a buffer against environmental and age-related stressors that compromise neural function.",
 
-      "Beyond oxidative regulation, Pinealon exerts a significant influence on mitochondrial health. Mitochondria are central to neuronal survival, not only generating ATP but also determining how cells respond to damage and metabolic fluctuations. Research indicates that Pinealon can normalize mitochondrial membrane potential, improve energy utilization efficiency, and reduce “metabolic leak” during periods of hypoxia or oxidative distress. These effects are especially relevant in research models of ischemia, traumatic brain injury, and neurodegeneration, where mitochondrial instability plays a pivotal role.",
+    "Beyond oxidative regulation, Pinealon exerts a significant influence on mitochondrial health. Mitochondria are central to neuronal survival, not only generating ATP but also determining how cells respond to damage and metabolic fluctuations. Research indicates that Pinealon can normalize mitochondrial membrane potential, improve energy utilization efficiency, and reduce metabolic leak during periods of hypoxia or oxidative distress. These effects are especially relevant in research models of ischemia, traumatic brain injury, and neurodegeneration, where mitochondrial instability plays a pivotal role.",
 
-      "Pinealon’s modulatory influence also extends to apoptosis-related signaling pathways. Experimental work shows that Pinealon can shift the expression of genes associated with programmed cell death—reducing unnecessary apoptosis while protecting vulnerable neurons during periods of heightened stress. This subtle balancing effect helps maintain neural population integrity and supports stable synaptic networks as organisms age.",
+    "Pinealon’s modulatory influence also extends to apoptosis-related signaling pathways. Experimental work shows that Pinealon can shift the expression of genes associated with programmed cell death—reducing unnecessary apoptosis while protecting vulnerable neurons during periods of heightened stress. This subtle balancing effect helps maintain neural population integrity and supports stable synaptic networks as organisms age.",
 
-      "One of the most compelling areas of Pinealon research involves its epigenetic activity. Pinealon appears to influence the epigenome—the chemical tags that regulate which genes are turned on or off. By modifying transcriptional environments and stabilizing chromatin structure, Pinealon may help restore youthful expression patterns in aging neurons. This is particularly relevant for maintaining long-term cognitive resilience, as epigenetic drift is a major driver of age-related decline in learning, memory, and executive function.",
+    "One of the most compelling areas of Pinealon research involves its epigenetic activity. Pinealon appears to influence the epigenome—the chemical tags that regulate which genes are turned on or off. By modifying transcriptional environments and stabilizing chromatin structure, Pinealon may help restore youthful expression patterns in aging neurons. This is particularly relevant for maintaining long-term cognitive resilience, as epigenetic drift is a major driver of age-related decline in learning, memory, and executive function.",
 
-      "Animal studies have demonstrated improvements in cognitive performance following Pinealon administration in models of ischemia, hypoxia, toxin exposure, and aging. In these models, Pinealon-treated subjects often exhibit improved memory retention, sharper reaction times, and enhanced learning outcomes compared to controls. These observations suggest that Pinealon helps preserve neuronal circuitry during stress and may support long-term synaptic plasticity.",
+    "Animal studies have demonstrated improvements in cognitive performance following Pinealon administration in models of ischemia, hypoxia, toxin exposure, and aging. In these models, Pinealon-treated subjects often exhibit improved memory retention, sharper reaction times, and enhanced learning outcomes compared to controls. These observations suggest that Pinealon helps preserve neuronal circuitry during stress and may support long-term synaptic plasticity.",
 
-      "The peptide also seems to influence neurotrophic support. Researchers have reported increased expression of neuroprotective growth factors in Pinealon-treated tissues, including those associated with synaptogenesis, axonal stability, and neural repair. This activity may help explain Pinealon’s ability to promote cognitive recovery after brain injury or oxygen deprivation. By enhancing the molecular environment necessary for neuronal survival and regeneration, Pinealon reinforces the brain’s innate capacity for adaptive resilience.",
+    "The peptide also seems to influence neurotrophic support. Researchers have reported increased expression of neuroprotective growth factors in Pinealon-treated tissues, including those associated with synaptogenesis, axonal stability, and neural repair. This activity may help explain Pinealon’s ability to promote cognitive recovery after brain injury or oxygen deprivation. By enhancing the molecular environment necessary for neuronal survival and regeneration, Pinealon reinforces the brain’s innate capacity for adaptive resilience.",
 
-      "An often overlooked but significant aspect of Pinealon’s function is its ability to modulate neuroinflammation. The CNS requires a delicate equilibrium between inflammatory signaling (to fight stress and pathogens) and anti-inflammatory suppression (to prevent damage). Pinealon has been observed to reduce excessive microglial activation, lower pro-inflammatory cytokine levels, and stabilize the neuroimmune environment. This inflammation-modulating behavior supports healthy neuronal communication and protects against chronic inflammatory damage, a hallmark of many neurodegenerative disorders.",
+    "An often overlooked but significant aspect of Pinealon’s function is its ability to modulate neuroinflammation. The CNS requires a delicate equilibrium between inflammatory signaling and anti-inflammatory suppression. Pinealon has been observed to reduce excessive microglial activation, lower pro-inflammatory cytokine levels, and stabilize the neuroimmune environment. This behavior protects against chronic inflammatory damage.",
 
-      "From a systems perspective, Pinealon acts as a neuro-metabolic stabilizer."
-    ],
+    "From a systems perspective, Pinealon acts as a neuro-metabolic stabilizer."
+  ],
 
-    bullets: [
-      "Supports mitochondrial stability and cellular energy balance",
-      "Enhances antioxidant enzyme activity in neuronal tissues",
-      "Reduces oxidative stress and lipid peroxidation",
-      "Modulates gene expression related to apoptosis and survival",
-      "Promotes neurotrophic support and synaptic repair",
-      "Improves cognitive performance in aging and stress models",
-      "Reduces neuroinflammation and microglial overactivation",
-      "Influences epigenetic markers associated with aging and neural decline"
-    ]
-  },
-  3: {
-  title: "Testagen: Bioregulatory Support for Endocrine Stability and Reproductive Cellular Health",
+  bullets: [
+    "Supports mitochondrial stability and cellular energy balance",
+    "Enhances antioxidant enzyme activity in neuronal tissues",
+    "Reduces oxidative stress and lipid peroxidation",
+    "Modulates gene expression related to apoptosis and survival",
+    "Promotes neurotrophic support and synaptic repair",
+    "Improves cognitive performance in aging and stress models",
+    "Reduces neuroinflammation and microglial overactivation",
+    "Influences epigenetic markers associated with aging and neural decline"
+  ]
+}
+,
+ testagen: {
+  slug: "testagen",
+
+  title:
+    "Testagen: Bioregulatory Support for Endocrine Stability and Reproductive Cellular Health",
 
   subtitle:
     "An in-depth scientific exploration of Testagen’s role in testicular tissue regulation, molecular signaling, and the preservation of endocrine integrity across aging.",
 
-  // ✅ META (required for screen display)
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Bioregulators", "Endocrine Health", "Reproductive Biology"],
@@ -715,14 +726,17 @@ research: {
     "Supports DNA repair and accurate protein synthesis",
     "Acts as a natural bioregulator rather than an endocrine stimulant"
   ]
-},
-4: {
-title: "Bronchogen: A Respiratory Bioregulator Peptide for Lung Tissue Stability and Airway Cellular Integrity",
+}
+,
+bronchogen: {
+  slug: "bronchogen",
+
+  title:
+    "Bronchogen: A Respiratory Bioregulator Peptide for Lung Tissue Stability and Airway Cellular Integrity",
 
   subtitle:
     "A detailed scientific analysis of Bronchogen’s potential role in supporting bronchial epithelial repair, reducing oxidative burden, and stabilizing the respiratory microenvironment.",
 
-  // ✅ META (required for UI)
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Bioregulators", "Respiratory Health", "Cellular Repair"],
@@ -765,13 +779,15 @@ title: "Bronchogen: A Respiratory Bioregulator Peptide for Lung Tissue Stability
     "Acts as a natural regulatory peptide rather than a pharmacological stimulant"
   ]
 },
-5: {
-   title: "Cardiogen: A Heart-Specific Bioregulatory Peptide Supporting Cellular Stability and Cardiac Tissue Integrity",
+cardiogen: {
+  slug: "cardiogen",
+
+  title:
+    "Cardiogen: A Heart-Specific Bioregulatory Peptide Supporting Cellular Stability and Cardiac Tissue Integrity",
 
   subtitle:
     "A scientific exploration of Cardiogen’s potential role in maintaining myocardial resilience, optimizing cellular energy dynamics, and supporting structural stability in aging heart tissue.",
 
-  // ✅ META (required for UI rendering)
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Bioregulators", "Cardiovascular Health", "Cellular Longevity"],
@@ -811,15 +827,17 @@ title: "Bronchogen: A Respiratory Bioregulator Peptide for Lung Tissue Stability
     "Supports DNA repair and accurate protein synthesis in heart cells",
     "Acts as a natural tissue-specific regulatory peptide rather than a stimulant"
   ]
-},
-6: {
-   title:
+}
+,
+"regenerative-peptide-biology": {
+  slug: "regenerative-peptide-biology",
+
+  title:
     "Regenerative Peptide Biology: Mechanisms of Tissue Repair, Cellular Renewal, and Structural Recovery",
 
   subtitle:
     "A comprehensive scientific exploration of how research peptides influence tissue regeneration, cellular signaling, microenvironment stability, and the coordinated processes of biological repair.",
 
-  // ✅ META (required for header + listing)
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Regenerative Biology", "Cellular Repair", "Peptide Science"],
@@ -865,15 +883,17 @@ title: "Bronchogen: A Respiratory Bioregulator Peptide for Lung Tissue Stability
     "Influence stem cell activation and differentiation",
     "Help maintain regenerative capacity across aging tissues"
   ]
-},
-7: {
-   title:
+}
+,
+"metabolic-endocrine-peptide-modulation": {
+  slug: "metabolic-endocrine-peptide-modulation",
+
+  title:
     "Metabolic and Endocrine Peptide Modulation: Cellular Energy Balance, Hormonal Stability, and System-Wide Homeostasis",
 
   subtitle:
     "A comprehensive scientific analysis of how research peptides influence metabolic regulation, endocrine harmony, mitochondrial efficiency, and long-term physiological balance.",
 
-  // ✅ META (for header + cards)
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Metabolic Regulation", "Endocrine Health", "Peptide Science"],
@@ -919,8 +939,10 @@ title: "Bronchogen: A Respiratory Bioregulator Peptide for Lung Tissue Stability
     "Improves circadian metabolic rhythm synchronization",
     "Acts as a physiological modulator rather than a metabolic stimulant"
   ]
-},
-8: {
+}
+,
+"peptides-in-neuroplasticity-and-brain-optimization": {
+   slug:"peptides-in-neuroplasticity-and-brain-optimization",
  title:
     "Peptides in Neuroplasticity and Brain Optimization: Molecular Pathways, Cognitive Resilience, and Neural Regeneration",
 
@@ -970,14 +992,15 @@ title: "Bronchogen: A Respiratory Bioregulator Peptide for Lung Tissue Stability
     "Improves stress resilience and cognitive adaptability"
   ]
 },
-9: {
+"immune-modulation-anti-inflammatory-peptides": {
+  slug: "immune-modulation-anti-inflammatory-peptides",
+
   title:
     "Immune Modulation and Anti-Inflammatory Peptide Science: Cellular Defense, Cytokine Balance, and Tissue Protection",
 
   subtitle:
     "An in-depth scientific review of how peptides regulate immune signaling, influence inflammation pathways, and support systemic resilience.",
 
-  // ✅ META (needed for English UI header & cards)
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Immunology", "Anti-Inflammatory Research", "Peptide Science"],
@@ -1023,15 +1046,17 @@ title: "Bronchogen: A Respiratory Bioregulator Peptide for Lung Tissue Stability
     "Stabilizes neuroimmune communication",
     "Supports healthier immune aging and long-term resilience"
   ]
-},
-10: {
- title:
+}
+,
+"peptides-cellular-longevity-anti-aging": {
+  slug: "peptides-cellular-longevity-anti-aging",
+
+  title:
     "Peptides and Cellular Longevity: Molecular Repair, Epigenetic Stability, and the Future of Anti-Aging Research",
 
   subtitle:
     "A scientific deep-dive into how regulatory peptides support cellular resilience, DNA maintenance, mitochondrial protection, and long-term biological stability.",
 
-  // ✅ META (needed for English UI header & cards)
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Cellular Longevity", "Anti-Aging Research", "Peptide Science"],
@@ -1076,6 +1101,7 @@ title: "Bronchogen: A Respiratory Bioregulator Peptide for Lung Tissue Stability
     "Improves circadian rhythm alignment essential for longevity"
   ]
 }
+
 
 },
 

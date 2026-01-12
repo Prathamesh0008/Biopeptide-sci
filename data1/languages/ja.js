@@ -516,8 +516,15 @@ payment: {
   paySecurely: "安全に支払う",
   secureNote: "100% 安全な支払い"
 },
+researchPage: {
+  title: "ペプチド科学研究",
+description:
+  "生体調節ペプチド、細胞シグナル伝達、免疫バランス、再生生物学を探究する専門的な科学研究記事。"
+
+},
 research: {
-  1: {
+  "vilon": {
+    slug:"vilon",
     title: "ビロン：細胞再生と免疫バイオレギュレーション",
     subtitle:
       "最も研究されている胸腺由来バイオレギュレーターペプチドの一つに関する科学的考察。",
@@ -548,7 +555,8 @@ research: {
       "免疫研究の重要モデル"
     ]
   },
-  2: {
+  "pinealon": {
+    slug:"pinealon",
     title: "パイネアロン：神経保護的バイオレギュレーションと認知長寿",
     subtitle:
       "脳代謝、ミトコンドリア機能、神経回復力におけるパイネアロンの役割に関する科学的考察。",
@@ -579,7 +587,8 @@ research: {
       "老化関連制御"
     ]
   },
-  3: {
+  "testagen": {
+    slug:"testagen",
   title: "テスタゲン：内分泌の安定性と生殖細胞の健康を支える生体調節ペプチド",
   subtitle:
     "加齢に伴う精巣組織の調節と内分泌機能維持におけるテスタゲンの役割を科学的に解析。",
@@ -609,7 +618,8 @@ research: {
     "生理的調節作用"
   ]
 },
-4: {
+"bronchogen": {
+  slug:"bronchogen",
   title: "ブロンコゲン：肺組織と気道の安定性を支える生体調節ペプチド",
   subtitle:
     "気道上皮修復と呼吸環境の安定化におけるブロンコゲンの科学的解析。",
@@ -639,7 +649,8 @@ research: {
     "非薬理的調節ペプチド"
   ]
 },
-5: {
+"cardiogen": {
+  slug:"cardiogen",
   title: "カルディオゲン：心臓組織の安定性を支える生体調節ペプチド",
   subtitle:
     "心筋のエネルギーと構造安定性におけるカルディオゲンの科学的解析。",
@@ -668,7 +679,8 @@ research: {
     "天然心臓調節ペプチド"
   ]
 },
-6: {
+"regenerative-peptide-biology": {
+  slug:"regenerative-peptide-biology",
   title: "再生ペプチド生物学：組織修復と細胞再生の仕組み",
   subtitle:
     "ペプチドが組織再生に与える影響の科学的解析。",
@@ -700,7 +712,8 @@ research: {
     "再生能力維持"
   ]
 },
-7: {
+"metabolic-endocrine-peptide-modulation": {
+  slug:"metabolic-endocrine-peptide-modulation",
   title: "代謝・内分泌ペプチド調節：エネルギーとホルモンの安定",
   subtitle:
     "代謝調節におけるペプチドの科学的解析。",
@@ -732,7 +745,8 @@ research: {
     "生理的調節作用"
   ]
 },
-8: {
+"peptides-in-neuroplasticity-and-brain-optimization": {
+  slug:"peptides-in-neuroplasticity-and-brain-optimization",
   title: "神経可塑性と脳最適化におけるペプチド",
   subtitle:
     "脳機能におけるペプチドの科学的研究。",
@@ -761,8 +775,11 @@ research: {
     "血液脳関門保護",
     "認知耐性向上"
   ]
-},matchMedia9: {
+},
+"immune-modulation-anti-inflammatory-peptides": {
+  slug:"immune-modulation-anti-inflammatory-peptides",
   title: "免疫調節と抗炎症ペプチド科学",
+
   subtitle:
     "免疫調節におけるペプチドの科学的解析。",
 
@@ -793,7 +810,8 @@ research: {
     "免疫持続性向上"
   ]
 },
-10: {
+"peptides-cellular-longevity-anti-aging": {
+  slug:"peptides-cellular-longevity-anti-aging",
   title: "ペプチドと細胞の長寿",
   subtitle:
     "細胞老化におけるペプチドの科学的研究。",
