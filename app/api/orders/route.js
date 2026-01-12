@@ -13,12 +13,13 @@ export async function POST(req) {
     const cookieStore = await cookies();
     const token = cookieStore.get("auth")?.value;
 
-    if (!token) {
-      return Response.json(
-        { ok: false, error: "Not authenticated" },
-        { status: 401 }
-      );
-    }
+   let userId = null;
+
+if (token) {
+  const { payload } = await jwtVerify(token, secret);
+  userId = payload.id;
+}
+
 
     const { payload } = await jwtVerify(token, secret);
     const body = await req.json();

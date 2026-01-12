@@ -260,6 +260,8 @@ peptideInfo: {
     }
   }
 },
+
+
 home: {
  hero: {
     title: "Purchase Research Peptides",
@@ -563,6 +565,11 @@ payment: {
   paySecurely: "Pay Securely",
   secureNote: "100% Secure Payments"
 },
+researchPage: {
+    title: "Peptide Sciences Research",
+    description:
+      "Peer-informed scientific articles exploring bioregulator peptides, cellular signaling, immune balance, and regenerative biology."
+  },
 research: {
   1: {
    title: "Vilon: Cellular Regeneration & Immune Bioregulation",
@@ -1071,6 +1078,7 @@ title: "Bronchogen: A Respiratory Bioregulator Peptide for Lung Tissue Stability
 }
 
 },
+
 orderSuccess: {
   title: "Order Placed Successfully",
   subtitle: "Thank you for your order. We’ll begin processing it shortly.",
@@ -1689,7 +1697,146 @@ bundlePage: {
         { q: "Are they sterile?", a: "Not sterile until properly reconstituted with lab-grade solvents." } ],
          priceIncludes: [ "≥ 99% Purity", "HPLC + MS Verified", "Secure Lab Packaging", "Global Research Quality" ],
          addToCart: "Add Bundle to Cart" 
+        },
+ peptideInformation: {
+    introToPeptides: {
+      title: "Intro to Peptides",
+      meta: "By BioPeptide Research Team • October 20, 2023",
+
+      disclaimer: {
+        title: "Important Notice:",
+        text:
+          "All articles and product information on this website are provided strictly for educational and informational purposes only. Products sold by BioPeptide are intended for laboratory research and in-vitro studies only. These products are not approved for human or veterinary use and have not been evaluated by the U.S. FDA."
+      },
+      
+
+      sections: {
+        whatIs: {
+          title: "What Is a Peptide?",
+          paragraph1:
+            "A peptide is a naturally occurring chemical compound composed of two or more amino acids linked together by peptide bonds.",
+          paragraph2:
+            "Peptides are fundamental components of biological systems and play essential roles in biochemical research. Thousands occur naturally, while many are synthesized for controlled laboratory studies."
+        },
+
+        formation: {
+          title: "How Are Peptides Formed?",
+          paragraph1:
+            "Peptides may be formed naturally within living organisms or produced synthetically under controlled laboratory conditions.",
+          paragraph2:
+            "Solid Phase Peptide Synthesis (SPPS) is the most widely used method today due to its efficiency, reproducibility, and scalability."
+        },
+
+        history: {
+          title: "Historical Background",
+          paragraph:
+            "The first synthetic peptide was reported in 1901 by Emil Fischer. In 1953, oxytocin became the first synthesized polypeptide hormone."
+        },
+
+        terminology: {
+          title: "Peptide Terminology",
+          items: [
+            "Dipeptide – Two amino acids",
+            "Tripeptide – Three amino acids",
+            "Oligopeptide – Fewer than ten amino acids",
+            "Polypeptide – More than ten amino acids"
+          ]
+        },
+
+        classification: {
+          title: "Classification of Peptides",
+          paragraph:
+            "Peptides may be classified based on their method of production. Ribosomal peptides originate from mRNA translation, while non-ribosomal peptides are enzyme-synthesized."
+        },
+
+        importantTerms: {
+          title: "Important Peptide Terms",
+          items: [
+            "Amino Acids – Building blocks of peptides",
+            "Peptide Bond – Covalent bond linking amino acids",
+            "Peptide Sequence – Order of amino acids",
+            "Peptide Mapping – Sequence identification method",
+            "Peptide Library – Collection of peptide variants"
+          ]
         }
+      },
+
+      closing:
+        "BioPeptide supplies high-purity research peptides designed exclusively for laboratory investigation and scientific development."
+    },
+    peptideStorage: {
+    title: "Peptide Storage",
+    meta: "By BioPeptide Research Team • September 15, 2023",
+
+    disclaimer: {
+      title: "Important Notice:",
+      text:
+        "All articles and product information provided on this website are for informational and educational purposes only. Products supplied by BioPeptide are intended strictly for laboratory research and in-vitro studies. These products are not medicines or drugs and have not been evaluated or approved by the U.S. Food and Drug Administration."
+    },
+
+    sections: {
+      bestPractices: {
+        title: "Best Practices for Storing Peptides",
+        paragraph1:
+          "To preserve the integrity of experimental results, proper peptide storage is essential.",
+        paragraph2:
+          "Once peptides are received, they should be kept cold and protected from light.",
+        paragraph3:
+          "For long-term storage, peptides should be stored at approximately -80°C (-112°F)."
+      },
+
+      freezeThaw: {
+        title: "Avoiding Freeze–Thaw Damage",
+        paragraph:
+          "Repeated freeze–thaw cycles can significantly reduce peptide stability."
+      },
+
+      oxidation: {
+        title: "Preventing Oxidation and Moisture Contamination",
+        paragraph1:
+          "Exposure to air and moisture should be minimized.",
+        paragraph2:
+          "Resealing under inert gases such as nitrogen or argon reduces oxidation risk."
+      },
+
+      aliquoting: {
+        title: "Aliquoting for Stability",
+        paragraph:
+          "Aliquoting peptides minimizes repeated exposure to air and temperature changes."
+      },
+
+      solutionStorage: {
+        title: "Storing Peptides in Solution",
+        paragraph1:
+          "Peptides stored in solution have a shorter shelf life.",
+        paragraph2:
+          "If unavoidable, store at 4°C for no longer than 30 days."
+      },
+
+      containers: {
+        title: "Peptide Storage Containers",
+        paragraph:
+          "Glass and polypropylene vials are commonly used."
+      },
+
+      guidelines: {
+        title: "General Peptide Storage Guidelines",
+        items: [
+          "Store peptides in a cold, dry, dark environment",
+          "Avoid repeated freezing and thawing",
+          "Minimize exposure to air and light",
+          "Avoid long-term storage in solution",
+          "Aliquot peptides according to experimental needs"
+        ]
+      }
+    },
+
+    closing:
+      "Following these best practices helps ensure BioPeptide research peptides maintain integrity for scientific investigation."
+  }
+
+  },
+  
 
 
 

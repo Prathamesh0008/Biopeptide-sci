@@ -1443,7 +1443,145 @@ bundlePage: {
   ],
 
   addToCart: "Ajouter le bundle au panier"
+},
+peptideInformation: {
+  introToPeptides: {
+    title: "Introduction aux peptides",
+    meta: "Par l’équipe BioPeptide Research • 20 octobre 2023",
+
+    disclaimer: {
+      title: "Avis important :",
+      text:
+        "Tous les articles et informations produits présents sur ce site sont fournis strictement à des fins éducatives et informatives. Les produits vendus par BioPeptide sont exclusivement destinés à la recherche en laboratoire et aux études in vitro. Ces produits ne sont pas approuvés pour un usage humain ou vétérinaire et n’ont pas été évalués par la FDA américaine."
+    },
+
+    sections: {
+      whatIs: {
+        title: "Qu’est-ce qu’un peptide ?",
+        paragraph1:
+          "Un peptide est un composé chimique d’origine naturelle constitué de deux ou plusieurs acides aminés reliés entre eux par des liaisons peptidiques.",
+        paragraph2:
+          "Les peptides sont des composants fondamentaux des systèmes biologiques et jouent un rôle essentiel dans la recherche biochimique. Des milliers existent naturellement, tandis que beaucoup d’autres sont synthétisés pour des études contrôlées en laboratoire."
+      },
+
+      formation: {
+        title: "Comment les peptides sont-ils formés ?",
+        paragraph1:
+          "Les peptides peuvent être formés naturellement au sein des organismes vivants ou produits de manière synthétique dans des conditions de laboratoire contrôlées.",
+        paragraph2:
+          "La synthèse peptidique en phase solide (SPPS) est aujourd’hui la méthode la plus utilisée en raison de son efficacité, de sa reproductibilité et de sa capacité d’évolutivité."
+      },
+
+      history: {
+        title: "Contexte historique",
+        paragraph:
+          "Le premier peptide synthétique a été rapporté en 1901 par Emil Fischer. En 1953, l’ocytocine est devenue la première hormone polypeptidique synthétisée."
+      },
+
+      terminology: {
+        title: "Terminologie des peptides",
+        items: [
+          "Dipeptide – Deux acides aminés",
+          "Tripeptide – Trois acides aminés",
+          "Oligopeptide – Moins de dix acides aminés",
+          "Polypeptide – Plus de dix acides aminés"
+        ]
+      },
+
+      classification: {
+        title: "Classification des peptides",
+        paragraph:
+          "Les peptides peuvent être classés selon leur méthode de production. Les peptides ribosomaux proviennent de la traduction de l’ARNm, tandis que les peptides non ribosomaux sont synthétisés par des enzymes spécialisées."
+      },
+
+      importantTerms: {
+        title: "Termes importants liés aux peptides",
+        items: [
+          "Acides aminés – Éléments constitutifs des peptides",
+          "Liaison peptidique – Liaison covalente entre les acides aminés",
+          "Séquence peptidique – Ordre des acides aminés",
+          "Cartographie peptidique – Méthode d’identification des séquences",
+          "Bibliothèque de peptides – Collection de variantes peptidiques"
+        ]
+      }
+    },
+
+    closing:
+      "BioPeptide fournit des peptides de recherche de haute pureté, conçus exclusivement pour les investigations en laboratoire et le développement scientifique."
+  },
+  peptideStorage: {
+  title: "Stockage des peptides",
+  meta: "Équipe de recherche BioPeptide • 15 septembre 2023",
+
+  disclaimer: {
+    title: "Avis important :",
+    text:
+      "Tous les articles et informations produits fournis sur ce site sont destinés uniquement à des fins éducatives et informatives. Les produits fournis par BioPeptide sont strictement réservés à la recherche en laboratoire et aux études in vitro. Ces produits ne sont pas des médicaments et n’ont pas été évalués ni approuvés par la Food and Drug Administration (FDA) des États-Unis."
+  },
+
+  sections: {
+    bestPractices: {
+      title: "Bonnes pratiques pour le stockage des peptides",
+      paragraph1:
+        "Afin de préserver l’intégrité des résultats expérimentaux, un stockage approprié des peptides est essentiel.",
+      paragraph2:
+        "Après réception, les peptides doivent être conservés au froid et protégés de la lumière.",
+      paragraph3:
+        "Pour un stockage à long terme, les peptides doivent être conservés à environ -80°C (-112°F)."
+    },
+
+    freezeThaw: {
+      title: "Éviter les dommages liés aux cycles de congélation-décongélation",
+      paragraph:
+        "Les cycles répétés de congélation et de décongélation peuvent réduire considérablement la stabilité des peptides."
+    },
+
+    oxidation: {
+      title: "Prévenir l’oxydation et la contamination par l’humidité",
+      paragraph1:
+        "L’exposition à l’air et à l’humidité doit être minimisée autant que possible.",
+      paragraph2:
+        "Le rescellement sous une atmosphère de gaz inerte, comme l’azote ou l’argon, permet de réduire le risque d’oxydation."
+    },
+
+    aliquoting: {
+      title: "Aliquotage pour une meilleure stabilité",
+      paragraph:
+        "La division des peptides en aliquots distincts permet de réduire l’exposition répétée à l’air et aux variations de température."
+    },
+
+    solutionStorage: {
+      title: "Stockage des peptides en solution",
+      paragraph1:
+        "Les peptides stockés en solution ont une durée de conservation plus courte.",
+      paragraph2:
+        "Si cela est inévitable, ils doivent être conservés à 4°C pendant une durée maximale de 30 jours."
+    },
+
+    containers: {
+      title: "Contenants de stockage des peptides",
+      paragraph:
+        "Les flacons en verre et en polypropylène sont couramment utilisés."
+    },
+
+    guidelines: {
+      title: "Directives générales de stockage des peptides",
+      items: [
+        "Conserver les peptides dans un environnement froid, sec et sombre",
+        "Éviter les cycles répétés de congélation et de décongélation",
+        "Réduire l’exposition à l’air et à la lumière",
+        "Éviter le stockage à long terme en solution",
+        "Aliquoter les peptides selon les besoins expérimentaux"
+      ]
+    }
+  },
+
+  closing:
+    "Le respect de ces bonnes pratiques permet de garantir que les peptides de recherche BioPeptide conservent leur intégrité et leur fiabilité pour les investigations scientifiques."
 }
+
+}
+
 
 
 

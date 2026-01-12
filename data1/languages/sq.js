@@ -1262,7 +1262,145 @@ faqItems: [
   ],
 
   addToCart: "Shto paketën në shportë"
+},
+peptideInformation: {
+  introToPeptides: {
+    title: "Hyrje në Peptidet",
+    meta: "Ekipi i Kërkimit BioPeptide • 20 Tetor 2023",
+
+    disclaimer: {
+      title: "Njoftim i rëndësishëm:",
+      text:
+        "Të gjitha artikujt dhe informacionet mbi produktet në këtë faqe ofrohen vetëm për qëllime edukative dhe informative. Produktet e shitura nga BioPeptide janë të destinuara ekskluzivisht për kërkime laboratorike dhe studime in vitro. Këto produkte nuk janë të miratuara për përdorim njerëzor ose veterinar dhe nuk janë vlerësuar nga Administrata Amerikane e Ushqimit dhe Barnave (FDA)."
+    },
+
+    sections: {
+      whatIs: {
+        title: "Çfarë është një peptid?",
+        paragraph1:
+          "Një peptid është një përbërje kimike natyrore e përbërë nga dy ose më shumë aminoacide të lidhura së bashku me lidhje peptidike.",
+        paragraph2:
+          "Peptidet janë përbërës themelorë të sistemeve biologjike dhe luajnë një rol thelbësor në kërkimin biokimik. Mijëra ekzistojnë natyrshëm, ndërsa shumë të tjera sintetizohen për studime laboratorike të kontrolluara."
+      },
+
+      formation: {
+        title: "Si formohen peptidet?",
+        paragraph1:
+          "Peptidet mund të formohen natyrshëm brenda organizmave të gjallë ose të prodhohen në mënyrë sintetike nën kushte laboratorike të kontrolluara.",
+        paragraph2:
+          "Sinteza e peptidëve në fazë të ngurtë (SPPS) është metoda më e përdorur sot për shkak të efikasitetit, riprodhueshmërisë dhe shkallëzueshmërisë së saj."
+      },
+
+      history: {
+        title: "Sfondi historik",
+        paragraph:
+          "Peptidi i parë sintetik u raportua në vitin 1901 nga Emil Fischer. Në vitin 1953, oksitocina u bë hormoni i parë polipeptidik i sintetizuar."
+      },
+
+      terminology: {
+        title: "Terminologjia e peptideve",
+        items: [
+          "Dipeptid – Dy aminoacide",
+          "Tripeptid – Tre aminoacide",
+          "Oligopeptid – Më pak se dhjetë aminoacide",
+          "Polipeptid – Më shumë se dhjetë aminoacide"
+        ]
+      },
+
+      classification: {
+        title: "Klasifikimi i peptideve",
+        paragraph:
+          "Peptidet mund të klasifikohen sipas mënyrës së prodhimit të tyre. Peptidet ribozomale burojnë nga përkthimi i mRNA-së, ndërsa peptidet jo-ribozomale sintetizohen nga enzima të specializuara."
+      },
+
+      importantTerms: {
+        title: "Terma të rëndësishëm të peptideve",
+        items: [
+          "Aminoacidet – Ndërtuesit bazë të peptideve",
+          "Lidhja peptidike – Lidhje kovalente që lidh aminoacidet",
+          "Sekuenca peptidike – Renditja e aminoacideve",
+          "Hartëzimi i peptideve – Metodë për identifikimin e sekuencës",
+          "Bibliotekë peptidike – Koleksion variantesh peptidike"
+        ]
+      }
+    },
+
+    closing:
+      "BioPeptide ofron peptide kërkimore me pastërti të lartë, të dizajnuara ekskluzivisht për kërkime laboratorike dhe zhvillim shkencor."
+  },
+  peptideStorage: {
+  title: "Ruajtja e peptideve",
+  meta: "Ekipi i Kërkimit BioPeptide • 15 Shtator 2023",
+
+  disclaimer: {
+    title: "Njoftim i rëndësishëm:",
+    text:
+      "Të gjitha artikujt dhe informacionet mbi produktet e ofruara në këtë faqe interneti janë vetëm për qëllime edukative dhe informuese. Produktet e ofruara nga BioPeptide janë të destinuara ekskluzivisht për kërkime laboratorike dhe studime in vitro. Këto produkte nuk janë barna dhe nuk janë vlerësuar apo miratuar nga Administrata Amerikane e Ushqimit dhe Barnave (FDA)."
+  },
+
+  sections: {
+    bestPractices: {
+      title: "Praktikat më të mira për ruajtjen e peptideve",
+      paragraph1:
+        "Për të ruajtur integritetin e rezultateve eksperimentale, ruajtja e saktë e peptideve është thelbësore.",
+      paragraph2:
+        "Pas marrjes, peptidet duhet të ruhen në temperatura të ulëta dhe të mbrohen nga drita.",
+      paragraph3:
+        "Për ruajtje afatgjatë, peptidet rekomandohet të ruhen në rreth -80°C (-112°F)."
+    },
+
+    freezeThaw: {
+      title: "Shmangia e dëmtimeve nga ngrirja dhe shkrirja e përsëritur",
+      paragraph:
+        "Ciklet e përsëritura të ngrirjes dhe shkrirjes mund të ulin ndjeshëm stabilitetin e peptideve."
+    },
+
+    oxidation: {
+      title: "Parandalimi i oksidimit dhe ndotjes nga lagështia",
+      paragraph1:
+        "Ekspozimi ndaj ajrit dhe lagështisë duhet të minimizohet sa më shumë që të jetë e mundur.",
+      paragraph2:
+        "Rimbyllja e enëve nën gaze inerte si azoti ose argoni ndihmon në reduktimin e rrezikut të oksidimit."
+    },
+
+    aliquoting: {
+      title: "Ndarja në alikuota për stabilitet më të lartë",
+      paragraph:
+        "Ndarja e peptideve në alikuota të veçanta redukton ekspozimin e përsëritur ndaj ajrit dhe ndryshimeve të temperaturës."
+    },
+
+    solutionStorage: {
+      title: "Ruajtja e peptideve në tretësirë",
+      paragraph1:
+        "Peptidet e ruajtura në tretësirë kanë një jetëgjatësi më të shkurtër.",
+      paragraph2:
+        "Nëse është e pashmangshme, ato duhet të ruhen në 4°C për jo më shumë se 30 ditë."
+    },
+
+    containers: {
+      title: "Enët për ruajtjen e peptideve",
+      paragraph:
+        "Enët prej qelqi dhe polipropileni përdoren zakonisht për ruajtjen e peptideve."
+    },
+
+    guidelines: {
+      title: "Udhëzime të përgjithshme për ruajtjen e peptideve",
+      items: [
+        "Ruani peptidet në një mjedis të ftohtë, të thatë dhe të errët",
+        "Shmangni ciklet e përsëritura të ngrirjes dhe shkrirjes",
+        "Minimizoni ekspozimin ndaj ajrit dhe dritës",
+        "Shmangni ruajtjen afatgjatë në tretësirë",
+        "Ndani peptidet sipas nevojave eksperimentale"
+      ]
+    }
+  },
+
+  closing:
+    "Zbatimi i këtyre praktikave më të mira ndihmon që peptidet kërkimore BioPeptide të ruajnë integritetin dhe besueshmërinë për hetime shkencore."
 }
+
+}
+
 
 
 

@@ -1,3 +1,4 @@
+
 //peptides\app\peptide-research\[slug]\page.jsx
 import AppShell from "@/components/AppShell";
 import { RESEARCH_PAGES } from "@/data/researchPages";
@@ -110,4 +111,8 @@ export default function PeptideResearchArticlePage({ params }) {
     </AppShell>
   );
 }
+
+
+
+
 

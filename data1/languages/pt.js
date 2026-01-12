@@ -1451,7 +1451,145 @@ bundlePage: {
   ],
 
   addToCart: "Adicionar bundle ao carrinho"
+},
+peptideInformation: {
+  introToPeptides: {
+    title: "Introdução aos Peptídeos",
+    meta: "Equipe de Pesquisa BioPeptide • 20 de outubro de 2023",
+
+    disclaimer: {
+      title: "Aviso Importante:",
+      text:
+        "Todos os artigos e informações sobre produtos neste site são fornecidos estritamente para fins educacionais e informativos. Os produtos vendidos pela BioPeptide destinam-se exclusivamente à pesquisa laboratorial e a estudos in vitro. Esses produtos não são aprovados para uso humano ou veterinário e não foram avaliados pela Administração de Alimentos e Medicamentos dos Estados Unidos (FDA)."
+    },
+
+    sections: {
+      whatIs: {
+        title: "O que é um peptídeo?",
+        paragraph1:
+          "Um peptídeo é um composto químico de ocorrência natural composto por dois ou mais aminoácidos ligados entre si por ligações peptídicas.",
+        paragraph2:
+          "Os peptídeos são componentes fundamentais dos sistemas biológicos e desempenham papéis essenciais na pesquisa bioquímica. Milhares ocorrem naturalmente, enquanto muitos outros são sintetizados em ambientes laboratoriais controlados para aplicações de pesquisa."
+      },
+
+      formation: {
+        title: "Como os peptídeos são formados?",
+        paragraph1:
+          "Os peptídeos podem ser formados naturalmente em organismos vivos ou produzidos sinteticamente sob condições laboratoriais controladas.",
+        paragraph2:
+          "A Síntese de Peptídeos em Fase Sólida (SPPS) é o método mais amplamente utilizado atualmente devido à sua eficiência, reprodutibilidade e escalabilidade."
+      },
+
+      history: {
+        title: "Contexto histórico",
+        paragraph:
+          "O primeiro peptídeo sintético foi relatado em 1901 por Emil Fischer. Em 1953, a oxitocina tornou-se o primeiro hormônio polipeptídico sintetizado."
+      },
+
+      terminology: {
+        title: "Terminologia de peptídeos",
+        items: [
+          "Dipeptídeo – Dois aminoácidos",
+          "Tripeptídeo – Três aminoácidos",
+          "Oligopeptídeo – Menos de dez aminoácidos",
+          "Polipeptídeo – Mais de dez aminoácidos"
+        ]
+      },
+
+      classification: {
+        title: "Classificação dos peptídeos",
+        paragraph:
+          "Os peptídeos podem ser classificados com base no método de produção. Os peptídeos ribossomais originam-se da tradução do mRNA, enquanto os peptídeos não ribossomais são sintetizados por enzimas especializadas."
+      },
+
+      importantTerms: {
+        title: "Termos importantes sobre peptídeos",
+        items: [
+          "Aminoácidos – Blocos de construção dos peptídeos",
+          "Ligação peptídica – Ligação covalente que conecta aminoácidos",
+          "Sequência peptídica – Ordem dos aminoácidos",
+          "Mapeamento de peptídeos – Método de identificação de sequência",
+          "Biblioteca de peptídeos – Coleção de variantes de peptídeos"
+        ]
+      }
+    },
+
+    closing:
+      "A BioPeptide fornece peptídeos de pesquisa de alta pureza, desenvolvidos exclusivamente para investigação laboratorial e desenvolvimento científico."
+  },
+  peptideStorage: {
+  title: "Armazenamento de Peptídeos",
+  meta: "Equipe de Pesquisa BioPeptide • 15 de setembro de 2023",
+
+  disclaimer: {
+    title: "Aviso Importante:",
+    text:
+      "Todos os artigos e informações sobre produtos fornecidos neste site destinam-se exclusivamente a fins educacionais e informativos. Os produtos fornecidos pela BioPeptide são destinados estritamente à pesquisa laboratorial e a estudos in vitro. Esses produtos não são medicamentos e não foram avaliados ou aprovados pela Administração de Alimentos e Medicamentos dos Estados Unidos (FDA)."
+  },
+
+  sections: {
+    bestPractices: {
+      title: "Melhores práticas para o armazenamento de peptídeos",
+      paragraph1:
+        "Para preservar a integridade dos resultados experimentais, o armazenamento adequado de peptídeos é essencial.",
+      paragraph2:
+        "Após o recebimento, os peptídeos devem ser mantidos em baixa temperatura e protegidos da luz.",
+      paragraph3:
+        "Para armazenamento a longo prazo, recomenda-se manter os peptídeos a aproximadamente -80°C (-112°F)."
+    },
+
+    freezeThaw: {
+      title: "Evitar danos causados por ciclos de congelamento e descongelamento",
+      paragraph:
+        "Ciclos repetidos de congelamento e descongelamento podem reduzir significativamente a estabilidade dos peptídeos."
+    },
+
+    oxidation: {
+      title: "Prevenção da oxidação e contaminação por umidade",
+      paragraph1:
+        "A exposição ao ar e à umidade deve ser minimizada sempre que possível.",
+      paragraph2:
+        "A vedação sob gases inertes, como nitrogênio ou argônio, ajuda a reduzir o risco de oxidação."
+    },
+
+    aliquoting: {
+      title: "Alíquotas para maior estabilidade",
+      paragraph:
+        "A divisão dos peptídeos em alíquotas reduz a exposição repetida ao ar e às variações de temperatura."
+    },
+
+    solutionStorage: {
+      title: "Armazenamento de peptídeos em solução",
+      paragraph1:
+        "Peptídeos armazenados em solução apresentam uma vida útil mais curta.",
+      paragraph2:
+        "Se inevitável, devem ser armazenados a 4°C por no máximo 30 dias."
+    },
+
+    containers: {
+      title: "Recipientes para armazenamento de peptídeos",
+      paragraph:
+        "Frascos de vidro e de polipropileno são comumente utilizados."
+    },
+
+    guidelines: {
+      title: "Diretrizes gerais para o armazenamento de peptídeos",
+      items: [
+        "Armazenar os peptídeos em ambiente frio, seco e escuro",
+        "Evitar ciclos repetidos de congelamento e descongelamento",
+        "Minimizar a exposição ao ar e à luz",
+        "Evitar o armazenamento prolongado em solução",
+        "Dividir os peptídeos de acordo com as necessidades experimentais"
+      ]
+    }
+  },
+
+  closing:
+    "Seguir essas melhores práticas ajuda a garantir que os peptídeos de pesquisa da BioPeptide mantenham sua integridade e confiabilidade para investigações científicas."
 }
+
+}
+
 
 
 

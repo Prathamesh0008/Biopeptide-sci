@@ -356,7 +356,8 @@ bundlePage: {
   title: "Paquetes y Ahorra",
   subtitle:
     "Paquetes de investigación BioPeptide exclusivos diseñados para análisis de múltiples vías, experimentación de precisión y flujos de trabajo científicos avanzados.",
-  viewBundleButton: "Ver Paquete",
+  
+    viewBundleButton: "Ver Paquete",
 
   categories: {
     All: {
@@ -1457,7 +1458,145 @@ bundlePage: {
   ],
 
   addToCart: "Añadir paquete al carrito"
+},
+peptideInformation: {
+  introToPeptides: {
+    title: "Introducción a los péptidos",
+    meta: "Equipo de Investigación BioPeptide • 20 de octubre de 2023",
+
+    disclaimer: {
+      title: "Aviso importante:",
+      text:
+        "Todos los artículos y la información de productos en este sitio web se proporcionan estrictamente con fines educativos e informativos. Los productos vendidos por BioPeptide están destinados exclusivamente a la investigación de laboratorio y a estudios in vitro. Estos productos no están aprobados para uso humano o veterinario y no han sido evaluados por la Administración de Alimentos y Medicamentos de los Estados Unidos (FDA)."
+    },
+
+    sections: {
+      whatIs: {
+        title: "¿Qué es un péptido?",
+        paragraph1:
+          "Un péptido es un compuesto químico de origen natural compuesto por dos o más aminoácidos unidos entre sí mediante enlaces peptídicos.",
+        paragraph2:
+          "Los péptidos son componentes fundamentales de los sistemas biológicos y desempeñan un papel esencial en la investigación bioquímica. Miles ocurren de forma natural, mientras que muchos otros se sintetizan para estudios controlados en laboratorio."
+      },
+
+      formation: {
+        title: "¿Cómo se forman los péptidos?",
+        paragraph1:
+          "Los péptidos pueden formarse de manera natural en organismos vivos o producirse sintéticamente bajo condiciones de laboratorio controladas.",
+        paragraph2:
+          "La síntesis de péptidos en fase sólida (SPPS) es el método más utilizado en la actualidad debido a su eficiencia, reproducibilidad y escalabilidad."
+      },
+
+      history: {
+        title: "Contexto histórico",
+        paragraph:
+          "El primer péptido sintético fue reportado en 1901 por Emil Fischer. En 1953, la oxitocina se convirtió en la primera hormona polipeptídica sintetizada."
+      },
+
+      terminology: {
+        title: "Terminología de los péptidos",
+        items: [
+          "Dipéptido – Dos aminoácidos",
+          "Tripéptido – Tres aminoácidos",
+          "Oligopéptido – Menos de diez aminoácidos",
+          "Polipéptido – Más de diez aminoácidos"
+        ]
+      },
+
+      classification: {
+        title: "Clasificación de los péptidos",
+        paragraph:
+          "Los péptidos pueden clasificarse según su método de producción. Los péptidos ribosomales se originan a partir de la traducción del mRNA, mientras que los péptidos no ribosomales son sintetizados por enzimas especializadas."
+      },
+
+      importantTerms: {
+        title: "Términos importantes sobre los péptidos",
+        items: [
+          "Aminoácidos – Componentes básicos de los péptidos",
+          "Enlace peptídico – Enlace covalente que une los aminoácidos",
+          "Secuencia peptídica – Orden de los aminoácidos",
+          "Mapeo de péptidos – Método de identificación de secuencias",
+          "Biblioteca de péptidos – Colección de variantes de péptidos"
+        ]
+      }
+    },
+
+    closing:
+      "BioPeptide suministra péptidos de investigación de alta pureza, diseñados exclusivamente para la investigación de laboratorio y el desarrollo científico."
+  },
+  peptideStorage: {
+  title: "Almacenamiento de péptidos",
+  meta: "Equipo de Investigación BioPeptide • 15 de septiembre de 2023",
+
+  disclaimer: {
+    title: "Aviso importante:",
+    text:
+      "Todos los artículos e información de productos proporcionados en este sitio web se ofrecen únicamente con fines educativos e informativos. Los productos suministrados por BioPeptide están destinados exclusivamente a la investigación de laboratorio y a estudios in vitro. Estos productos no son medicamentos y no han sido evaluados ni aprobados por la Administración de Alimentos y Medicamentos de los Estados Unidos (FDA)."
+  },
+
+  sections: {
+    bestPractices: {
+      title: "Mejores prácticas para el almacenamiento de péptidos",
+      paragraph1:
+        "Para preservar la integridad de los resultados experimentales, el almacenamiento adecuado de los péptidos es esencial.",
+      paragraph2:
+        "Tras la recepción, los péptidos deben mantenerse a baja temperatura y protegidos de la luz.",
+      paragraph3:
+        "Para el almacenamiento a largo plazo, se recomienda conservar los péptidos a aproximadamente -80°C (-112°F)."
+    },
+
+    freezeThaw: {
+      title: "Evitar daños por ciclos de congelación y descongelación",
+      paragraph:
+        "Los ciclos repetidos de congelación y descongelación pueden reducir significativamente la estabilidad de los péptidos."
+    },
+
+    oxidation: {
+      title: "Prevención de la oxidación y la contaminación por humedad",
+      paragraph1:
+        "La exposición al aire y a la humedad debe minimizarse.",
+      paragraph2:
+        "El sellado bajo gases inertes como nitrógeno o argón ayuda a reducir el riesgo de oxidación."
+    },
+
+    aliquoting: {
+      title: "Alicuotado para una mayor estabilidad",
+      paragraph:
+        "Dividir los péptidos en alícuotas reduce la exposición repetida al aire y a los cambios de temperatura."
+    },
+
+    solutionStorage: {
+      title: "Almacenamiento de péptidos en solución",
+      paragraph1:
+        "Los péptidos almacenados en solución tienen una vida útil más corta.",
+      paragraph2:
+        "Si es inevitable, deben almacenarse a 4°C durante un máximo de 30 días."
+    },
+
+    containers: {
+      title: "Contenedores para el almacenamiento de péptidos",
+      paragraph:
+        "Los viales de vidrio y polipropileno se utilizan comúnmente para el almacenamiento de péptidos."
+    },
+
+    guidelines: {
+      title: "Directrices generales para el almacenamiento de péptidos",
+      items: [
+        "Almacenar los péptidos en un entorno frío, seco y oscuro",
+        "Evitar ciclos repetidos de congelación y descongelación",
+        "Minimizar la exposición al aire y a la luz",
+        "Evitar el almacenamiento prolongado en solución",
+        "Alicuotar los péptidos según las necesidades experimentales"
+      ]
+    }
+  },
+
+  closing:
+    "Seguir estas mejores prácticas ayuda a garantizar que los péptidos de investigación de BioPeptide mantengan su integridad y fiabilidad para la investigación científica."
 }
+
+}
+
 
 
 

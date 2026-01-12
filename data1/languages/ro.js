@@ -1254,7 +1254,145 @@ faqItems: [
   ],
 
   addToCart: "Adaugă pachetul în coș"
+},
+peptideInformation: {
+  introToPeptides: {
+    title: "Introducere în peptide",
+    meta: "Echipa de Cercetare BioPeptide • 20 octombrie 2023",
+
+    disclaimer: {
+      title: "Notificare importantă:",
+      text:
+        "Toate articolele și informațiile despre produse de pe acest site sunt furnizate strict în scopuri educaționale și informative. Produsele comercializate de BioPeptide sunt destinate exclusiv cercetării de laborator și studiilor in vitro. Aceste produse nu sunt aprobate pentru utilizare umană sau veterinară și nu au fost evaluate de Administrația pentru Alimente și Medicamente din Statele Unite (FDA)."
+    },
+
+    sections: {
+      whatIs: {
+        title: "Ce este o peptidă?",
+        paragraph1:
+          "O peptidă este un compus chimic natural format din doi sau mai mulți aminoacizi legați între ei prin legături peptidice.",
+        paragraph2:
+          "Peptidele sunt componente fundamentale ale sistemelor biologice și joacă un rol esențial în cercetarea biochimică. Mii apar în mod natural, în timp ce multe altele sunt sintetizate pentru studii de laborator controlate."
+      },
+
+      formation: {
+        title: "Cum se formează peptidele?",
+        paragraph1:
+          "Peptidele pot fi formate natural în organismele vii sau pot fi produse sintetic în condiții de laborator controlate.",
+        paragraph2:
+          "Sinteza peptidelor în fază solidă (SPPS) este metoda cea mai utilizată în prezent datorită eficienței, reproductibilității și scalabilității sale."
+      },
+
+      history: {
+        title: "Context istoric",
+        paragraph:
+          "Prima peptidă sintetică a fost raportată în 1901 de Emil Fischer. În 1953, oxitocina a devenit primul hormon polipeptidic sintetizat."
+      },
+
+      terminology: {
+        title: "Terminologia peptidelor",
+        items: [
+          "Dipeptidă – Doi aminoacizi",
+          "Tripeptidă – Trei aminoacizi",
+          "Oligopeptidă – Mai puțin de zece aminoacizi",
+          "Polipeptidă – Mai mult de zece aminoacizi"
+        ]
+      },
+
+      classification: {
+        title: "Clasificarea peptidelor",
+        paragraph:
+          "Peptidele pot fi clasificate în funcție de metoda de producție. Peptidele ribozomale provin din traducerea mRNA, în timp ce peptidele neribozomale sunt sintetizate de enzime specializate."
+      },
+
+      importantTerms: {
+        title: "Termeni importanți despre peptide",
+        items: [
+          "Aminoacizi – Elementele de bază ale peptidelor",
+          "Legătură peptidică – Legătură covalentă între aminoacizi",
+          "Secvență peptidică – Ordinea aminoacizilor",
+          "Cartografiere peptidică – Metodă de identificare a secvenței",
+          "Bibliotecă de peptide – Colecție de variante de peptide"
+        ]
+      }
+    },
+
+    closing:
+      "BioPeptide furnizează peptide de cercetare de înaltă puritate, concepute exclusiv pentru investigații de laborator și dezvoltare științifică."
+  },
+  peptideStorage: {
+  title: "Depozitarea peptidelor",
+  meta: "Echipa de Cercetare BioPeptide • 15 septembrie 2023",
+
+  disclaimer: {
+    title: "Notificare importantă:",
+    text:
+      "Toate articolele și informațiile despre produse furnizate pe acest site au scop strict educațional și informativ. Produsele furnizate de BioPeptide sunt destinate exclusiv cercetării de laborator și studiilor in vitro. Aceste produse nu sunt medicamente și nu au fost evaluate sau aprobate de Administrația pentru Alimente și Medicamente din Statele Unite (FDA)."
+  },
+
+  sections: {
+    bestPractices: {
+      title: "Cele mai bune practici pentru depozitarea peptidelor",
+      paragraph1:
+        "Pentru a păstra integritatea rezultatelor experimentale, depozitarea corectă a peptidelor este esențială.",
+      paragraph2:
+        "După recepție, peptidele trebuie păstrate la rece și protejate de lumină.",
+      paragraph3:
+        "Pentru depozitare pe termen lung, peptidele trebuie păstrate la aproximativ -80°C (-112°F)."
+    },
+
+    freezeThaw: {
+      title: "Evitarea deteriorării prin cicluri de congelare-dezghețare",
+      paragraph:
+        "Ciclurile repetate de congelare și dezghețare pot reduce semnificativ stabilitatea peptidelor."
+    },
+
+    oxidation: {
+      title: "Prevenirea oxidării și a contaminării cu umiditate",
+      paragraph1:
+        "Expunerea la aer și umiditate trebuie redusă la minimum.",
+      paragraph2:
+        "Resigilarea sub gaze inerte, precum azotul sau argonul, poate reduce riscul de oxidare."
+    },
+
+    aliquoting: {
+      title: "Aliquotarea pentru stabilitate",
+      paragraph:
+        "Împărțirea peptidelor în alicote separate minimizează expunerea repetată la aer și variațiile de temperatură."
+    },
+
+    solutionStorage: {
+      title: "Depozitarea peptidelor în soluție",
+      paragraph1:
+        "Peptidele depozitate în soluție au o durată de viață mai scurtă.",
+      paragraph2:
+        "Dacă este inevitabil, acestea trebuie păstrate la 4°C pentru cel mult 30 de zile."
+    },
+
+    containers: {
+      title: "Containere pentru depozitarea peptidelor",
+      paragraph:
+        "Flacoanele din sticlă și polipropilenă sunt utilizate în mod obișnuit."
+    },
+
+    guidelines: {
+      title: "Ghiduri generale pentru depozitarea peptidelor",
+      items: [
+        "Depozitați peptidele într-un mediu rece, uscat și întunecat",
+        "Evitați ciclurile repetate de congelare și dezghețare",
+        "Reduceți expunerea la aer și lumină",
+        "Evitați depozitarea pe termen lung în soluție",
+        "Aliquotați peptidele în funcție de necesitățile experimentale"
+      ]
+    }
+  },
+
+  closing:
+    "Respectarea acestor bune practici ajută la asigurarea faptului că peptidele de cercetare BioPeptide își mențin integritatea și fiabilitatea pentru investigațiile științifice."
 }
+
+}
+
 
 
 

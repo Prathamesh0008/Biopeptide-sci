@@ -1263,6 +1263,143 @@ faqItems: [
   ],
 
   addToCart: "Dodaj paket u košaricu"
+},
+peptideInformation: {
+  introToPeptides: {
+    title: "Uvod u peptide",
+    meta: "BioPeptide istraživački tim • 20. listopada 2023",
+
+    disclaimer: {
+      title: "Važna obavijest:",
+      text:
+        "Svi članci i informacije o proizvodima na ovoj web-stranici pruženi su isključivo u obrazovne i informativne svrhe. Proizvodi koje prodaje BioPeptide namijenjeni su isključivo laboratorijskim istraživanjima i in vitro studijama. Ovi proizvodi nisu odobreni za ljudsku ili veterinarsku uporabu i nisu evaluirani od strane Američke agencije za hranu i lijekove (FDA)."
+    },
+
+    sections: {
+      whatIs: {
+        title: "Što je peptid?",
+        paragraph1:
+          "Peptid je prirodno kemijsko jedinjenje sastavljeno od dva ili više aminokiselina povezanih peptidnim vezama.",
+        paragraph2:
+          "Peptidi su temeljne komponente bioloških sustava i imaju važnu ulogu u biokemijskim istraživanjima. Tisuće se javljaju prirodno, dok se mnogi sintetiziraju za kontrolirana laboratorijska istraživanja."
+      },
+
+      formation: {
+        title: "Kako nastaju peptidi?",
+        paragraph1:
+          "Peptidi mogu nastati prirodno u živim organizmima ili se mogu sintetizirati u kontroliranim laboratorijskim uvjetima.",
+        paragraph2:
+          "Sinteza peptida u čvrstoj fazi (SPPS) danas je najčešće korištena metoda zbog svoje učinkovitosti, ponovljivosti i skalabilnosti."
+      },
+
+      history: {
+        title: "Povijesni kontekst",
+        paragraph:
+          "Prvi sintetski peptid zabilježen je 1901. godine od strane Emila Fischera. Godine 1953. oksitocin je postao prvi sintetizirani polipeptidni hormon."
+      },
+
+      terminology: {
+        title: "Terminologija peptida",
+        items: [
+          "Dipeptid – Dvije aminokiseline",
+          "Tripeptid – Tri aminokiseline",
+          "Oligopeptid – Manje od deset aminokiselina",
+          "Polipeptid – Više od deset aminokiselina"
+        ]
+      },
+
+      classification: {
+        title: "Klasifikacija peptida",
+        paragraph:
+          "Peptidi se mogu klasificirati prema načinu proizvodnje. Ribosomalni peptidi nastaju translacijom mRNA, dok se neribosomalni peptidi sintetiziraju pomoću specijaliziranih enzima."
+      },
+
+      importantTerms: {
+        title: "Važni pojmovi vezani uz peptide",
+        items: [
+          "Aminokiseline – Gradivni elementi peptida",
+          "Peptidna veza – Kovalentna veza između aminokiselina",
+          "Peptidna sekvenca – Redoslijed aminokiselina",
+          "Mapiranje peptida – Metoda identifikacije sekvence",
+          "Peptidna biblioteka – Zbirka varijanti peptida"
+        ]
+      }
+    },
+
+    closing:
+      "BioPeptide osigurava visokokvalitetne istraživačke peptide, namijenjene isključivo laboratorijskim istraživanjima i znanstvenom razvoju."
+  },
+  peptideStorage: {
+  title: "Skladištenje peptida",
+  meta: "BioPeptide istraživački tim • 15. rujna 2023",
+
+  disclaimer: {
+    title: "Važna obavijest:",
+    text:
+      "Svi članci i informacije o proizvodima navedeni na ovoj web stranici služe isključivo u obrazovne i informativne svrhe. Proizvodi koje osigurava BioPeptide namijenjeni su isključivo laboratorijskim istraživanjima i in vitro studijama. Ovi proizvodi nisu lijekovi i nisu ocijenjeni niti odobreni od strane Američke agencije za hranu i lijekove (FDA)."
+  },
+
+  sections: {
+    bestPractices: {
+      title: "Najbolje prakse za skladištenje peptida",
+      paragraph1:
+        "Kako bi se očuvao integritet eksperimentalnih rezultata, pravilno skladištenje peptida je ključno.",
+      paragraph2:
+        "Nakon primitka, peptide treba čuvati na niskim temperaturama i zaštititi od svjetlosti.",
+      paragraph3:
+        "Za dugotrajno skladištenje preporučuje se čuvanje peptida na približno -80°C (-112°F)."
+    },
+
+    freezeThaw: {
+      title: "Izbjegavanje oštećenja uzrokovanih zamrzavanjem i odmrzavanjem",
+      paragraph:
+        "Ponovljeni ciklusi zamrzavanja i odmrzavanja mogu znatno smanjiti stabilnost peptida."
+    },
+
+    oxidation: {
+      title: "Sprječavanje oksidacije i kontaminacije vlagom",
+      paragraph1:
+        "Izloženost zraku i vlazi treba svesti na minimum.",
+      paragraph2:
+        "Ponovno zatvaranje pod inertnim plinovima poput dušika ili argona smanjuje rizik od oksidacije."
+    },
+
+    aliquoting: {
+      title: "Alikvotiranje za veću stabilnost",
+      paragraph:
+        "Podjela peptida u zasebne alikvote smanjuje ponovljenu izloženost zraku i temperaturnim promjenama."
+    },
+
+    solutionStorage: {
+      title: "Skladištenje peptida u otopini",
+      paragraph1:
+        "Peptidi pohranjeni u otopini imaju kraći rok trajanja.",
+      paragraph2:
+        "Ako je neizbježno, treba ih čuvati na 4°C najviše 30 dana."
+    },
+
+    containers: {
+      title: "Spremnici za skladištenje peptida",
+      paragraph:
+        "Staklene i polipropilenske bočice najčešće se koriste za skladištenje peptida."
+    },
+
+    guidelines: {
+      title: "Opće smjernice za skladištenje peptida",
+      items: [
+        "Čuvati peptide u hladnom, suhom i tamnom okruženju",
+        "Izbjegavati ponovljeno zamrzavanje i odmrzavanje",
+        "Smanjiti izloženost zraku i svjetlosti",
+        "Izbjegavati dugotrajno skladištenje u otopini",
+        "Alikvotirati peptide prema eksperimentalnim potrebama"
+      ]
+    }
+  },
+
+  closing:
+    "Poštivanje ovih najboljih praksi pomaže osigurati da BioPeptide istraživački peptidi zadrže svoj integritet i pouzdanost za znanstvena istraživanja."
+}
+
 }
 
 

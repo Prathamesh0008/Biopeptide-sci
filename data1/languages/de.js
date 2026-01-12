@@ -1456,7 +1456,145 @@ bundlePage: {
   ],
 
   addToCart: "Bundle in den Warenkorb legen"
+},
+peptideInformation: {
+  introToPeptides: {
+    title: "Einführung in Peptide",
+    meta: "BioPeptide Forschungsteam • 20. Oktober 2023",
+
+    disclaimer: {
+      title: "Wichtiger Hinweis:",
+      text:
+        "Alle Artikel und Produktinformationen auf dieser Website dienen ausschließlich zu Bildungs- und Informationszwecken. Die von BioPeptide verkauften Produkte sind ausschließlich für die Laborforschung und In-vitro-Studien bestimmt. Diese Produkte sind weder für den menschlichen noch für den veterinärmedizinischen Gebrauch zugelassen und wurden nicht von der US-amerikanischen Arzneimittelbehörde (FDA) bewertet."
+    },
+
+    sections: {
+      whatIs: {
+        title: "Was ist ein Peptid?",
+        paragraph1:
+          "Ein Peptid ist eine natürlich vorkommende chemische Verbindung, die aus zwei oder mehr Aminosäuren besteht, die durch Peptidbindungen miteinander verknüpft sind.",
+        paragraph2:
+          "Peptide sind grundlegende Bestandteile biologischer Systeme und spielen eine wesentliche Rolle in der biochemischen Forschung. Tausende kommen natürlich vor, während viele weitere für kontrollierte Laborstudien synthetisiert werden."
+      },
+
+      formation: {
+        title: "Wie entstehen Peptide?",
+        paragraph1:
+          "Peptide können sich natürlich in lebenden Organismen bilden oder unter kontrollierten Laborbedingungen synthetisch hergestellt werden.",
+        paragraph2:
+          "Die Festphasen-Peptidsynthese (SPPS) ist heute aufgrund ihrer Effizienz, Reproduzierbarkeit und Skalierbarkeit die am häufigsten verwendete Methode."
+      },
+
+      history: {
+        title: "Historischer Hintergrund",
+        paragraph:
+          "Das erste synthetische Peptid wurde 1901 von Emil Fischer beschrieben. Im Jahr 1953 wurde Oxytocin als erstes Polypeptidhormon synthetisiert."
+      },
+
+      terminology: {
+        title: "Peptid-Terminologie",
+        items: [
+          "Dipeptid – Zwei Aminosäuren",
+          "Tripeptid – Drei Aminosäuren",
+          "Oligopeptid – Weniger als zehn Aminosäuren",
+          "Polypeptid – Mehr als zehn Aminosäuren"
+        ]
+      },
+
+      classification: {
+        title: "Klassifizierung von Peptiden",
+        paragraph:
+          "Peptide können anhand ihrer Herstellungsweise klassifiziert werden. Ribosomale Peptide entstehen durch mRNA-Translation, während nicht-ribosomale Peptide durch spezialisierte Enzyme synthetisiert werden."
+      },
+
+      importantTerms: {
+        title: "Wichtige Peptidbegriffe",
+        items: [
+          "Aminosäuren – Bausteine der Peptide",
+          "Peptidbindung – Kovalente Bindung zwischen Aminosäuren",
+          "Peptidsequenz – Reihenfolge der Aminosäuren",
+          "Peptid-Mapping – Methode zur Sequenzidentifikation",
+          "Peptidbibliothek – Sammlung von Peptidvarianten"
+        ]
+      }
+    },
+
+    closing:
+      "BioPeptide liefert hochreine Forschungspeptide, die ausschließlich für Laboruntersuchungen und wissenschaftliche Entwicklungen konzipiert sind."
+  },
+  peptideStorage: {
+  title: "Lagerung von Peptiden",
+  meta: "BioPeptide Forschungsteam • 15. September 2023",
+
+  disclaimer: {
+    title: "Wichtiger Hinweis:",
+    text:
+      "Alle auf dieser Website bereitgestellten Artikel und Produktinformationen dienen ausschließlich Bildungs- und Informationszwecken. Die von BioPeptide gelieferten Produkte sind strikt für die Laborforschung und In-vitro-Studien bestimmt. Diese Produkte sind keine Arzneimittel und wurden weder von der US-amerikanischen Food and Drug Administration (FDA) bewertet noch zugelassen."
+  },
+
+  sections: {
+    bestPractices: {
+      title: "Bewährte Verfahren zur Lagerung von Peptiden",
+      paragraph1:
+        "Um die Integrität experimenteller Ergebnisse zu erhalten, ist eine sachgemäße Lagerung von Peptiden unerlässlich.",
+      paragraph2:
+        "Nach Erhalt sollten Peptide kühl gelagert und vor Licht geschützt werden.",
+      paragraph3:
+        "Für die Langzeitlagerung sollten Peptide bei etwa -80°C (-112°F) aufbewahrt werden."
+    },
+
+    freezeThaw: {
+      title: "Vermeidung von Schäden durch Einfrieren und Auftauen",
+      paragraph:
+        "Wiederholte Einfrier- und Auftauzyklen können die Stabilität von Peptiden erheblich beeinträchtigen."
+    },
+
+    oxidation: {
+      title: "Vermeidung von Oxidation und Feuchtigkeitskontamination",
+      paragraph1:
+        "Die Exposition gegenüber Luft und Feuchtigkeit sollte so gering wie möglich gehalten werden.",
+      paragraph2:
+        "Das erneute Verschließen unter inerten Gasen wie Stickstoff oder Argon kann das Oxidationsrisiko reduzieren."
+    },
+
+    aliquoting: {
+      title: "Aliquotierung zur Erhöhung der Stabilität",
+      paragraph:
+        "Die Aufteilung von Peptiden in separate Aliquots minimiert die wiederholte Exposition gegenüber Luft und Temperaturschwankungen."
+    },
+
+    solutionStorage: {
+      title: "Lagerung von Peptiden in Lösung",
+      paragraph1:
+        "In Lösung gelagerte Peptide weisen eine kürzere Haltbarkeit auf.",
+      paragraph2:
+        "Falls unvermeidbar, sollten sie bei 4°C für maximal 30 Tage gelagert werden."
+    },
+
+    containers: {
+      title: "Behälter zur Peptidlagerung",
+      paragraph:
+        "Glas- und Polypropylenfläschchen werden häufig zur Lagerung von Peptiden verwendet."
+    },
+
+    guidelines: {
+      title: "Allgemeine Richtlinien zur Peptidlagerung",
+      items: [
+        "Peptide in einer kühlen, trockenen und dunklen Umgebung lagern",
+        "Wiederholtes Einfrieren und Auftauen vermeiden",
+        "Exposition gegenüber Luft und Licht minimieren",
+        "Langzeitlagerung in Lösung vermeiden",
+        "Peptide entsprechend den experimentellen Anforderungen aliquotieren"
+      ]
+    }
+  },
+
+  closing:
+    "Die Einhaltung dieser bewährten Verfahren trägt dazu bei, dass BioPeptide-Forschungspeptide ihre Integrität und Zuverlässigkeit für wissenschaftliche Untersuchungen bewahren."
 }
+
+}
+
 
 
 

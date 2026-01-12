@@ -1519,7 +1519,145 @@ bundlePage: {
   ],
 
   addToCart: "Bundel aan winkelwagen toevoegen"
+},
+peptideInformation: {
+  introToPeptides: {
+    title: "Introductie tot Peptiden",
+    meta: "Door het BioPeptide Research Team • 20 oktober 2023",
+
+    disclaimer: {
+      title: "Belangrijke kennisgeving:",
+      text:
+        "Alle artikelen en productinformatie op deze website worden uitsluitend verstrekt voor educatieve en informatieve doeleinden. Producten die door BioPeptide worden verkocht, zijn uitsluitend bedoeld voor laboratoriumonderzoek en in-vitro studies. Deze producten zijn niet goedgekeurd voor menselijk of veterinair gebruik en zijn niet geëvalueerd door de Amerikaanse FDA."
+    },
+
+    sections: {
+      whatIs: {
+        title: "Wat is een peptide?",
+        paragraph1:
+          "Een peptide is een natuurlijk voorkomende chemische verbinding die bestaat uit twee of meer aminozuren die met elkaar zijn verbonden door peptidebindingen.",
+        paragraph2:
+          "Peptiden zijn fundamentele componenten van biologische systemen en spelen een essentiële rol in biochemisch onderzoek. Duizenden komen van nature voor, terwijl vele andere synthetisch worden geproduceerd voor gecontroleerde laboratoriumstudies."
+      },
+
+      formation: {
+        title: "Hoe worden peptiden gevormd?",
+        paragraph1:
+          "Peptiden kunnen van nature worden gevormd in levende organismen of synthetisch worden geproduceerd onder gecontroleerde laboratoriumomstandigheden.",
+        paragraph2:
+          "Solid Phase Peptide Synthesis (SPPS) is tegenwoordig de meest gebruikte methode vanwege de efficiëntie, reproduceerbaarheid en schaalbaarheid."
+      },
+
+      history: {
+        title: "Historische achtergrond",
+        paragraph:
+          "Het eerste synthetische peptide werd in 1901 gerapporteerd door Emil Fischer. In 1953 werd oxytocine het eerste gesynthetiseerde polypeptidehormoon."
+      },
+
+      terminology: {
+        title: "Peptide-terminologie",
+        items: [
+          "Dipeptide – Twee aminozuren",
+          "Tripeptide – Drie aminozuren",
+          "Oligopeptide – Minder dan tien aminozuren",
+          "Polypeptide – Meer dan tien aminozuren"
+        ]
+      },
+
+      classification: {
+        title: "Classificatie van peptiden",
+        paragraph:
+          "Peptiden kunnen worden geclassificeerd op basis van hun productiemethode. Ribosomale peptiden ontstaan uit mRNA-translatie, terwijl niet-ribosomale peptiden enzymatisch worden gesynthetiseerd."
+      },
+
+      importantTerms: {
+        title: "Belangrijke peptide-termen",
+        items: [
+          "Aminozuren – Bouwstenen van peptiden",
+          "Peptidebinding – Covalente binding tussen aminozuren",
+          "Peptidesequentie – Volgorde van aminozuren",
+          "Peptide mapping – Methode voor sequentie-identificatie",
+          "Peptidebibliotheek – Verzameling van peptidevarianten"
+        ]
+      }
+    },
+
+    closing:
+      "BioPeptide levert hoogzuivere onderzoekspeptiden die exclusief zijn ontworpen voor laboratoriumonderzoek en wetenschappelijke ontwikkeling."
+  },
+  peptideStorage: {
+  title: "Opslag van peptiden",
+  meta: "Door het BioPeptide Research Team • 15 september 2023",
+
+  disclaimer: {
+    title: "Belangrijke kennisgeving:",
+    text:
+      "Alle artikelen en productinformatie op deze website worden uitsluitend verstrekt voor educatieve en informatieve doeleinden. Producten geleverd door BioPeptide zijn strikt bedoeld voor laboratoriumonderzoek en in-vitro studies. Deze producten zijn geen geneesmiddelen en zijn niet geëvalueerd of goedgekeurd door de Amerikaanse Food and Drug Administration (FDA)."
+  },
+
+  sections: {
+    bestPractices: {
+      title: "Beste praktijken voor het opslaan van peptiden",
+      paragraph1:
+        "Om de integriteit van experimentele resultaten te behouden, is correcte opslag van peptiden essentieel.",
+      paragraph2:
+        "Na ontvangst dienen peptiden koel te worden bewaard en beschermd te worden tegen licht.",
+      paragraph3:
+        "Voor langdurige opslag moeten peptiden worden bewaard bij ongeveer -80°C (-112°F)."
+    },
+
+    freezeThaw: {
+      title: "Vermijden van schade door invriezen en ontdooien",
+      paragraph:
+        "Herhaalde invries- en ontdooicycli kunnen de stabiliteit van peptiden aanzienlijk verminderen."
+    },
+
+    oxidation: {
+      title: "Voorkomen van oxidatie en vochtverontreiniging",
+      paragraph1:
+        "Blootstelling aan lucht en vocht moet te allen tijde worden geminimaliseerd.",
+      paragraph2:
+        "Het opnieuw afsluiten onder een inert gas zoals stikstof of argon vermindert het risico op oxidatie."
+    },
+
+    aliquoting: {
+      title: "Aliquoteren voor stabiliteit",
+      paragraph:
+        "Het verdelen van peptiden in aparte aliquots minimaliseert herhaalde blootstelling aan lucht en temperatuurschommelingen."
+    },
+
+    solutionStorage: {
+      title: "Opslag van peptiden in oplossing",
+      paragraph1:
+        "Peptiden die in oplossing worden bewaard, hebben een kortere houdbaarheid.",
+      paragraph2:
+        "Indien onvermijdelijk, bewaar ze bij 4°C gedurende maximaal 30 dagen."
+    },
+
+    containers: {
+      title: "Opslagcontainers voor peptiden",
+      paragraph:
+        "Glazen en polypropyleen flacons worden het meest gebruikt."
+    },
+
+    guidelines: {
+      title: "Algemene richtlijnen voor peptide-opslag",
+      items: [
+        "Bewaar peptiden in een koude, droge en donkere omgeving",
+        "Vermijd herhaald invriezen en ontdooien",
+        "Beperk blootstelling aan lucht en licht",
+        "Vermijd langdurige opslag in oplossing",
+        "Aliquoteer peptiden volgens experimentele behoeften"
+      ]
+    }
+  },
+
+  closing:
+    "Het volgen van deze beste praktijken helpt ervoor te zorgen dat BioPeptide onderzoekspeptiden hun integriteit behouden voor wetenschappelijk onderzoek."
 }
+
+}
+
 
 
 

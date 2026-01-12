@@ -21,6 +21,12 @@ const t = (path) =>
     translations?.payment || {}
   );
 
+useEffect(() => {
+  fetch("/api/auth/me", { credentials: "include" })
+    .then(res => {
+      if (!res.ok) router.push("/login");
+    });
+}, []);
 
   useEffect(() => {
     const saved = localStorage.getItem("bio-checkout");
