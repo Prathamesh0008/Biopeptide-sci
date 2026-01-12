@@ -8,8 +8,8 @@ import Link from "next/link";
 
 const banners = [
   "/images/banner1.1.jpg",
-  "/images/banner1.2.jpg",
-  "/images/banner1.3.jpg",
+  "/images/bannerhero1.jpg",
+  "/images/bannerhero2.jpg",
 ];
 
 const slideLinks = [
