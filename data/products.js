@@ -34,7 +34,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
- image: "/roduct/peptides/bpc157_5.png"
+ image: "/product/peptides/bpc157_5.png"
 
 },
 
@@ -732,7 +732,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/Adipotide10mg.png"
+  image: "/product/peptides/adipotide.png"
 },
 
 {
@@ -1806,7 +1806,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp-2_10mg.svg"
+  image: "/productpPeptides/ghrp2_5.png"
 },
 {
   id: "ghrp-2-ipamorelin-5x5mg-bundle",
@@ -1844,7 +1844,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp-2_10mg.svg"
+  image: "/product/peptides/ghrp2_10.png"
 },
 {
   id: "ghrp-2-modgrf-1-29-5x10mg-bundle",
@@ -1882,7 +1882,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp-2_10mg.svg"
+  image: "/product/peptides/ghrp2_10.png"
 },
 {
   id: "ghrp-2-ipamorelin-5x10mg-bundle",
@@ -1920,7 +1920,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp-2_10mg.svg"
+  image: "/product/peptides/ghrp2_10.png"
 },
 {
   id: "ghrp-2-5mg",
@@ -1954,7 +1954,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp-2_5mg.svg"
+  image: "/product/peptides/ghrp2_5.png"
 },
 {
   id: "ghrp-6-cjc-1295-5x5mg-bundle",
@@ -1992,7 +1992,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp-2_10mg.svg"
+  image: "/product/peptides/ghrp2_10.png"
 },
 {
   id: "ghrp-6-ipamorelin-5x5mg-bundle",
@@ -2068,7 +2068,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp-6_5mg.svg"
+  image: "/product/peptides/ghrp6_5.png"
 },
 
 {
@@ -2107,7 +2107,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp-6_5mg.svg"
+  image: "/product/peptides/ghrp6_5.png"
 },
 {
   id: "ghrp-6-5mg",
@@ -2141,7 +2141,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp-6.svg"
+  image: "/product/peptides/ghrp6_5.png"
 },
 {
   id: "ghrp-6-10mg",
@@ -2175,7 +2175,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp6_5.png"
+  image: "/product/peptides/ghrp6_10.png"
 },
 {
   id: "gonadorelin-10mg",
@@ -2493,7 +2493,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/igf-1lr3_1mg.svg"
+  image: "/product/peptides/igf1mg.png"
 },
 {
   id: "igf-1-lr3-1mg-standard",
@@ -2633,7 +2633,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ipamorelin5mg.svg"
+  image: "/product/peptides/ipamorelin5.png"
 },
 {
   id: "ipamorelin-10mg",
@@ -2667,7 +2667,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ipamorelin10mg.svg"
+  image: "/product/peptides/ipamorelin10.png"
 },
 {
   id: "kisspeptin-10-5mg",
@@ -3114,7 +3114,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/mgf5.png"
+  image: "/product/peptides/gf5.png"
 },
 {
   id: "mod-grf-ghrp-2-10mg-blend",
@@ -3369,7 +3369,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/n-acetylepithalon.png"
+  image: "/product/peptides/n-acetylepithalon.png"
 },
 {
   id: "n-acetyl-epithalon-amidate-10mg",
@@ -3403,7 +3403,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/n-acetylselank.png"
+  image: "/product/peptides/n-acetylselank.png"
 },
 {
   id: "n-acetyl-epithalon-amidate-30mg",
@@ -3437,7 +3437,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/n-acetylselank.png"
+  image: "/product/peptides/n-acetylselank.png"
 },
 {
   id: "nad-plus-100mg",
@@ -3471,7 +3471,7 @@
   storage: "Store at −20°C. Protect from light and moisture.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/nad100.png"
+  image: "/product/peptides/nad100.png"
 },
 {
   id: "nad-plus-750mg",
@@ -3505,7 +3505,7 @@
   storage: "Store at −20°C. Protect from light and moisture.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/nad750.png"
+  image: "/product/peptides/nad750.png"
 },
 {
   id: "nonapeptide-1-200mg",
@@ -3607,7 +3607,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/ovagen.png"
+  image: "/product/peptides/ovagen.png"
 },
 {
   id: "oxytocin-10mg-6000iu",
@@ -3641,7 +3641,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/oxytocin.png"
+  image: "/product/peptides/oxytocin.png"
 },
 
 {
@@ -3778,7 +3778,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/pancragen.png"
+  image: "/product/peptides/pancragen.png"
 },
 {
   id: "pe-22-28",
@@ -3812,7 +3812,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/pe2228.png"
+  image: "/product/peptides/pe2228.png"
 },
 {
   id: "peg-mgf-5mg",
@@ -3846,7 +3846,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/pegmgf.png"
+  image: "/product/peptides/pegmgf.png"
 },
 {
   id: "pentapeptide-18-200mg-topical",
@@ -3914,7 +3914,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/pinealon.png"
+  image: "/product/peptides/pinealon.png"
 },
 {
   id: "pnc-27-5mg",
@@ -3948,7 +3948,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/pnc27.png"
+  image: "/product/peptides/pnc27.png"
 },
 {
   id: "prostamax-20mg-bioregulator",
@@ -3982,7 +3982,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/prostamax.png"
+  image: "/product/peptides/prostamax.png"
 },
 {
   id: "pt-141-3mg-x-10-vials",
@@ -4017,7 +4017,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/pt141_3.png"
+  image: "/product/peptides/pt141_3.png"
 },
 {
   id: "pt-141-10mg",
@@ -4052,7 +4052,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/pt141_10.png"
+  image: "/product/peptides/pt141_10.png"
 },
 {
   id: "repair-and-recovery-60-capsules",
@@ -4157,7 +4157,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/selank.png"
+  image: "/product/peptides/selank.png"
 },
 {
   id: "semax-30mg",
@@ -4682,7 +4682,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/tesamorelin5.png"
+  image: "/product/Peptides/tesamorelin5.png"
 },
 {
   id: "tesamorelin-cjc1295-ipamorelin-12mg-blend",
