@@ -2391,7 +2391,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/hexarelin5mg.svg"
+  image: "/product/peptides/hexarelin5.png"
 },
 {
   id: "hgh-fragment-176-191-6mg",
@@ -2599,7 +2599,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ipamorelin2mg.svg"
+  image: "/product/peptides/ipamorelin2.png"
 },
 {
   id: "ipamorelin-5mg",
