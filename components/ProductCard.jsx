@@ -61,7 +61,6 @@ export default function ProductCard({ product }) {
   className="
     relative w-full
     aspect-[1/1]
-    bg-gray-50
     flex items-center justify-center
     cursor-pointer
   "
