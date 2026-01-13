@@ -767,7 +767,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/aicar.png"
+  image: "/product/peptides/aicar_50mg.png"
 },
 {
   id: "ara-290-16mg",
