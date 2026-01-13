@@ -11,6 +11,8 @@ import { useLanguage } from "@/contexts/LanguageContext";
 
 
 export default function PaymentPage() {
+  const [isPlacingOrder, setIsPlacingOrder] = useState(false);
+
   const router = useRouter();
   const [data, setData] = useState(null);
   const [method, setMethod] = useState("card");
@@ -113,61 +115,77 @@ useEffect(() => {
             <span>${data.subtotal.toFixed(2)}</span>
           </div>
 <button
+  disabled={isPlacingOrder}
   onClick={async () => {
-    const saved = JSON.parse(localStorage.getItem("bio-checkout"));
-    if (!saved) return;
+    if (isPlacingOrder) return; // 🔒 HARD GUARD
 
-    // 1️⃣ Save payment method
-    const updated = {
-      ...saved,
-      paymentMethod: method,
-    };
+    setIsPlacingOrder(true); // 🔒 LOCK BUTTON
 
-    localStorage.setItem("bio-checkout", JSON.stringify(updated));
+    try {
+      const saved = JSON.parse(localStorage.getItem("bio-checkout"));
+      if (!saved) {
+        setIsPlacingOrder(false);
+        return;
+      }
 
-    // 2️⃣ CREATE ORDER IN MONGODB (THIS WAS MISSING)
-    const res = await fetch("/api/orders", {
-      method: "POST",
-      credentials: "include", // 🔴 REQUIRED
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        checkoutId: updated.checkoutId,
-        items: updated.cart,
-        totals: {
-          subtotal: updated.subtotal,
-          shipping: 0,
-          tax: 0,
-          total: updated.subtotal,
+      const updated = {
+  ...saved,
+  paymentMethod: method,
+  address: saved.form, // 🔴 FORCE FULL FORM
+};
+
+
+      localStorage.setItem("bio-checkout", JSON.stringify(updated));
+
+      const res = await fetch("/api/orders", {
+        method: "POST",
+        credentials: "include",
+        headers: {
+          "Content-Type": "application/json",
         },
-        address: updated.form,
-        userEmail: updated.user?.email,
-        userName: updated.user?.name,
-        phone: updated.user?.phone,
-      }),
-    });
+        body: JSON.stringify({
+          checkoutId: updated.checkoutId,
+          items: updated.cart,
+          totals: {
+            subtotal: updated.subtotal,
+            shipping: 0,
+            tax: 0,
+            total: updated.subtotal,
+          },
+         address: updated.address || updated.form,
 
-    const data = await res.json();
+          userEmail: updated.user?.email,
+          userName: updated.user?.name,
+          phone: updated.user?.phone,
+        }),
+      });
 
-    if (!data.ok) {
-      alert("Order creation failed");
-      return;
+      const data = await res.json();
+
+      if (!data.ok) {
+        alert("Order creation failed");
+        setIsPlacingOrder(false);
+        return;
+      }
+
+      router.push(`/order-success?orderId=${data.orderId}`);
+    } catch (err) {
+      console.error(err);
+      alert("Something went wrong. Please try again.");
+      setIsPlacingOrder(false);
     }
-
-    // 3️⃣ Redirect with orderId
-    router.push(`/order-success?orderId=${data.orderId}`);
   }}
-  className="
+  className={`
     mt-6 w-full py-3 rounded-full
     font-semibold text-white
     bg-gradient-to-r from-bioBlue to-bioGreen
-    shadow-lg hover:shadow-xl
-    transition
-  "
+    shadow-lg transition
+    ${isPlacingOrder ? "opacity-70 cursor-not-allowed" : "hover:shadow-xl"}
+  `}
 >
-  {t("paySecurely")}
+  {isPlacingOrder ? "Processing..." : t("paySecurely")}
 </button>
+
 
 
 

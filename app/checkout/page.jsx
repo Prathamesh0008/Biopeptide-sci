@@ -417,11 +417,19 @@ await fetch("/api/address/save", {
         <button
           type="button"
           onClick={() =>
-            setForm((prev) => ({
-              ...prev,
-              ...addr,
-            }))
-          }
+  setForm({
+    fullName: addr.fullName || "",
+    email: form.email,      // keep current email
+    phone: addr.phone || "",
+    house: addr.house || "",
+    area: addr.area || "",
+    city: addr.city || "",
+    state: addr.state || "",
+    pincode: addr.pincode || "",
+    country: addr.country || "",
+  })
+}
+
           className="mt-3 text-sm font-semibold text-bioBlue hover:underline"
         >
           Use this address
