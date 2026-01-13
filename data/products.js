@@ -4017,7 +4017,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/pt141_3.png"
+  image: "/product/peptides/pt141_3.pngg"
 },
 {
   id: "pt-141-10mg",
