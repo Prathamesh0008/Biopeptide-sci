@@ -325,7 +325,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/aod-9604_6mg.svg"
+  image: "/product/peptides/aod-9604.png"
 },
 
 {
@@ -1806,7 +1806,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/productpPeptides/ghrp2_5.png"
+  image: "/product/peptides/ghrp2_5.png"
 },
 {
   id: "ghrp-2-ipamorelin-5x5mg-bundle",
@@ -2527,7 +2527,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/igf-1lr3_1mg.svg"
+  image: "/product/peptides/igf1mg.png"
 },
 {
   id: "ipamorelin-modgrf-1-29-2x10-bundle",
@@ -3114,7 +3114,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/gf5.png"
+  image: "/product/peptides/mgf5.png"
 },
 {
   id: "mod-grf-ghrp-2-10mg-blend",
@@ -4682,7 +4682,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Peptides/tesamorelin5.png"
+  image: "/product/peptides/tb500_10.png"
 },
 {
   id: "tesamorelin-cjc1295-ipamorelin-12mg-blend",
