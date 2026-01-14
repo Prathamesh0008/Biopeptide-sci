@@ -108,7 +108,7 @@
   storage: "Store in a cool, dry environment away from direct light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/amino-1mq-nmn.png",
+  image: "/product/capsules/5-amino-1mq.png",
 },
 
  {
