@@ -108,7 +108,7 @@
   storage: "Store in a cool, dry environment away from direct light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/5amino1mq@300x.png",
+  image: "/product/capsules/5amino1mq.png",
 },
 
  {
@@ -1203,7 +1203,7 @@
   storage: "Store in a cool, dry environment away from light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/dihexa@300x.png"
+  image: "/product/capsules/dihexa.png"
 },
 {
   id: "dsip-5mg",
@@ -1271,7 +1271,7 @@
   storage: "Store in a cool, dry environment away from light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/epitalon@300x.png"
+  image: "/product/capsules/epitalon.png"
 },
 {
   id: "epitalon-20mg",
@@ -3080,7 +3080,7 @@
   storage: "Store in a cool, dry environment away from light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/methylene@300x.png"
+  image: "/product/capsules/methylene.png"
 },
 {
   id: "mgf-c-terminal-5mg",
@@ -3573,7 +3573,7 @@
   storage: "Store in a cool, dry environment away from direct light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/os01@300x.png"
+  image: "/product/capsules/os01.png"
 },
 {
   id: "ovagen-20mg-bioregulator",
@@ -4087,7 +4087,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/repair@300x.png"
+  image: "/product/capsules/repair.png"
 },
 {
   id: "rigin-200mg-palmitoyl-tetrapeptide-7-topical",
@@ -4472,7 +4472,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/slupp332_30capsule@300x.png"
+  image: "/product/capsules/slupp.png"
 },
 {
   id: "snap-8-200mg-topical",
@@ -4823,7 +4823,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/tesofensine@300x.png"
+  image: "/product/capsules/teso.png"
 },
 {
   id: "testagen-20mg-bioregulator",
@@ -4963,7 +4963,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/thymalin20.png"
+  image: "/product/capsules/thymosin.png"
 },
 {
   id: "thymosin-alpha-1-10mg",
