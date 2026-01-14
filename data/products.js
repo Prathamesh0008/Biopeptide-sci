@@ -179,7 +179,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrh.png"
+  image: "/product/Cosmetic peptides/ghkcu200.png"
 },
 
   
@@ -1734,7 +1734,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghkbasic.png"
+  image: "/product/Cosmetic peptides/ghkcu200.png"
 },
 {
   id: "ghrh-5mg",
