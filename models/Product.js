@@ -1,29 +1,14 @@
-//models\Product.js
 import mongoose from "mongoose";
 
 const ProductSchema = new mongoose.Schema(
   {
-    id: String,
-    slug: String,
     name: String,
-    category: String,
+    slug: { type: String, unique: true },
     price: Number,
+    category: String,
     strength: String,
-    size: String,
-    purity: String,
-
-    stock: { type: Boolean, default: true },
-    badge: String,
-
-    description: String,
-    components: [String],
-    applications: [String],
-
-    appearance: String,
-    storage: String,
-    researchStatus: String,
-
     image: String,
+    inStock: { type: Boolean, default: true },
   },
   { timestamps: true }
 );

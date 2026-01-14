@@ -1,3 +1,4 @@
+//peptides\components\admin\Sidebar.jsx
 "use client";
 
 import Link from "next/link";
@@ -8,13 +9,19 @@ import {
   FaUsers,
   FaSignOutAlt,
   FaTimes,
+  FaBox,
 } from "react-icons/fa";
 
 const links = [
   { href: "/admin/dashboard", label: "Dashboard", icon: FaTachometerAlt },
   { href: "/admin/orders", label: "Orders", icon: FaShoppingBag },
+
+  // ✅ ADD THIS LINE
+  { href: "/admin/products", label: "Products", icon: FaBox },
+
   { href: "/admin/users", label: "Users", icon: FaUsers },
 ];
+
 
 export default function Sidebar({ open, onClose }) {
   const pathname = usePathname();
