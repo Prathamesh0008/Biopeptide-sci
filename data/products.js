@@ -5138,7 +5138,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "p/product/Cosmetic peptides/tripeptide-29.png"
+  image: "/product/Cosmetic peptides/tripeptide-29.png"
 },
 {
   id: "vesilute-20mg-bioregulator",
