@@ -171,14 +171,15 @@ export default function BundleSavePage() {
   "
 >
 
-                    <div className="relative w-full h-56 sm:h-64 rounded-xl overflow-hidden">
-                      <Image
-                        src={bundle.image || "/images/product.png"}
-                        alt={bundle.title}
-                        fill
-                        className="object-cover scale-110"
-                      />
-                    </div>
+                   <div className="relative w-full h-56 sm:h-64 rounded-xl overflow-hidden bg-white">
+  <Image
+    src={bundle.image || "/images/product.png"}
+    alt={bundle.title}
+    fill
+    className="object-contain p-2"
+  />
+</div>
+
 
                     <div className="flex flex-col flex-grow mt-2">
 
