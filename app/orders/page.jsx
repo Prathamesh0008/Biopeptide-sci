@@ -32,35 +32,88 @@ useEffect(() => {
 }, [router]);
 
 
-useEffect(() => {
-  let active = true;
+// useEffect(() => {
+//   let active = true;
 
-  const loadOrders = async () => {
+//   const loadOrders = async () => {
+//     try {
+//       const res = await fetch("/api/orders/my", {
+//         credentials: "include",
+//          cache: "no-store",
+//       });
+
+//       const data = await res.json();
+
+//       if (active && data.ok) {
+//         setOrders(data.orders);
+//         setLoading(false);
+//       }
+//     } catch (err) {
+//       console.error("Failed to load orders", err);
+//     }
+//   };
+
+//   loadOrders(); // initial load
+
+//   const interval = setInterval(loadOrders, 20000); // 🔁 every 20 seconds
+
+//   return () => {
+//     active = false;
+//     clearInterval(interval);
+//   };
+// }, []);
+
+useEffect(() => {
+  let isMounted = true;
+
+  const loadOrders = async (silent = false) => {
     try {
       const res = await fetch("/api/orders/my", {
         credentials: "include",
-         cache: "no-store",
+        cache: "no-store",
       });
 
       const data = await res.json();
 
-      if (active && data.ok) {
+      if (isMounted && data.ok) {
         setOrders(data.orders);
-        setLoading(false);
       }
     } catch (err) {
       console.error("Failed to load orders", err);
+    } finally {
+      if (isMounted && !silent) {
+        setLoading(false);
+      }
     }
   };
 
   loadOrders(); // initial load
 
-  const interval = setInterval(loadOrders, 20000); // 🔁 every 20 seconds
+  const interval = setInterval(() => {
+    loadOrders(true); // silent refresh
+  }, 5000); // ✅ every 5 seconds
 
   return () => {
-    active = false;
+    isMounted = false;
     clearInterval(interval);
   };
+}, []);
+
+useEffect(() => {
+  const onFocus = () => {
+    fetch("/api/orders/my", {
+      credentials: "include",
+      cache: "no-store",
+    })
+      .then(res => res.json())
+      .then(data => {
+        if (data.ok) setOrders(data.orders);
+      });
+  };
+
+  window.addEventListener("focus", onFocus);
+
+  return () => window.removeEventListener("focus", onFocus);
 }, []);
 
 

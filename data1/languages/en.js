@@ -122,7 +122,7 @@ navbar: {
 },
 footer: {
   newsletter: {
-    title: "Stay Updated with BioPeptide",
+    title: "Stay Updated with Biopeptide",
     subtitle: "Research updates, product launches & exclusive offers.",
     placeholder: "your email",
     button: "Subscribe"
