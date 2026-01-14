@@ -179,7 +179,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/ghkcu200.png"
+  image: "/product/cosmeticpeptides/ghkcu200.png"
 },
 
   
@@ -214,7 +214,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/acetyl.png"
+  image: "/product/cosmeticpeptides/acetyl.png"
 },
 
 {
@@ -249,7 +249,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/ahk.png"
+  image: "/product/cosmeticpeptides/ahk.png"
 },
 {
   id: "ahk-cu-200mg",
@@ -291,7 +291,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/ahkcu.png"
+  image: "/product/cosmeticpeptides/ahkcu.png"
 },
 {
   id: "aod9604-6mg",
@@ -1169,7 +1169,7 @@
   storage: "Store at -20°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/decapeptide.png"
+  image: "/product/cosmeticpeptides/decapeptide.png"
 },
 {
   id: "dihexa-5mg-60-capsules",
@@ -1597,7 +1597,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/ghkbasic.png"
+  image: "/product/cosmeticpeptides/ghkbasic.png"
 },
 {
   id: "ghk-cu-1000mg-topical",
@@ -1631,7 +1631,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/ghkcu1000.png"
+  image: "/product/cosmeticpeptides/ghkcu1000.png"
 },
 {
   id: "ghk-cu-50mg",
@@ -1665,7 +1665,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/ghkcu500.png"
+  image: "/product/cosmeticpeptides/ghkcu500.png"
 },
 
 {
@@ -1700,7 +1700,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/ghkcu500.png"
+  image: "/product/cosmeticpeptides/ghkcu500.png"
 },
 {
   id: "ghk-basic-200mg",
@@ -1734,7 +1734,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/ghkcu200.png"
+  image: "/product/cosmeticpeptides/ghkcu200.png"
 },
 {
   id: "ghrh-5mg",
@@ -2910,7 +2910,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/matrixyl.png"
+  image: "/product/cosmeticpeptides/matrixyl.png"
 },
 {
   id: "melanostatin-dm-200mg",
@@ -2944,7 +2944,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/malenostatin.png"
+  image: "/product/cosmeticpeptides/malenostatin.png"
 },
 {
   id: "melanotan-1-10mg",
@@ -3539,7 +3539,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/nonapeptide.png"
+  image: "/product/cosmeticpeptides/nonapeptide.png"
 },
 {
   id: "os-01-100mg-30-capsules",
@@ -3676,7 +3676,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/palahk.png"
+  image: "/product/cosmeticpeptides/palahk.png"
 },
 {
   id: "pal-ghk-200mg-topical",
@@ -3710,7 +3710,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/palghk.png"
+  image: "/product/cosmeticpeptides/palghk.png"
 },
 {
   id: "palmitoyl-dipeptide-6-200mg-topical",
@@ -3744,7 +3744,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/palmitoyl.png"
+  image: "/product/cosmeticpeptides/palmitoyl.png"
 },
 {
   id: "pancragen-20mg-bioregulator",
@@ -3880,7 +3880,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/pentapeptide.png"
+  image: "/product/cosmeticpeptides/pentapeptide.png"
 },
 {
   id: "pinealon-20mg",
@@ -4122,7 +4122,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/rigin.png"
+  image: "/product/cosmeticpeptides/rigin.png"
 },
 {
   id: "selank-10mg",
@@ -4507,7 +4507,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/snap.png"
+  image: "/product/cosmeticpeptides/snap.png"
 },
 {
   id: "syn-ake-200mg-topical",
@@ -4542,7 +4542,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/synake.png"
+  image: "/product/cosmeticpeptides/synake.png"
 },
 {
   id: "syn-coll-palmitoyl-tripeptide-5-200mg-topical",
@@ -4577,7 +4577,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/syncoll.png"
+  image: "/product/cosmeticpeptides/syncoll.png"
 },
 {
   id: "tb-500-2mg-10-vial-kit",
@@ -5103,7 +5103,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/tripeptide.png"
+  image: "/product/cosmeticpeptides/tripeptide.png"
 },
 {
   id: "triptorelin-gnrh-2mg",
@@ -5138,7 +5138,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/tripeptide.png"
+  image: "/product/cosmeticpeptides/tripeptide.png"
 },
 {
   id: "vesilute-20mg-bioregulator",
@@ -5243,7 +5243,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/Cosmetic peptides/vialox.png"
+  image: "/product/cosmeticpeptides/vialox.png"
 },
 {
   id: "vilon-20mg",
