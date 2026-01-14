@@ -12,6 +12,8 @@ import {
 const secret = new TextEncoder().encode(process.env.JWT_SECRET);
 
 export async function POST(req) {
+  
+
   try {
     await dbConnect();
 
