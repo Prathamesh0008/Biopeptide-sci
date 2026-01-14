@@ -9,6 +9,20 @@ import { getTranslatedProduct } from "@/utils/getTranslatedProduct";
 
 export default function ProductCard({ product }) {
   const [imgLoaded, setImgLoaded] = useState(false);
+  const getSafeImage = (img) => {
+  if (!img || typeof img !== "string") {
+    return "/images/product.png";
+  }
+
+  const trimmed = img.trim();
+
+  if (trimmed.startsWith("http")) return trimmed;
+  if (trimmed.startsWith("/")) return trimmed;
+
+  // 🔥 auto-fix relative paths
+  return `/${trimmed}`;
+};
+
 
   const { translations, loading } = useLanguage();
   if (loading) return null;
@@ -83,16 +97,13 @@ export default function ProductCard({ product }) {
 
 
  <Image
-  src={
-    product.image && product.image.trim() !== ""
-      ? product.image
-      : "/images/product.png"
-  }
-  alt={product.name}
+  src={getSafeImage(product.image)}
+  alt={product.name || "Product image"}
   fill
   className="object-contain scale-95"
   onLoad={() => setImgLoaded(true)}
 />
+
 
   </Link>
 

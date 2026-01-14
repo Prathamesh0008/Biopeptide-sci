@@ -2769,7 +2769,7 @@
   storage: "Store in a cool, dry environment. Protect from moisture and light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/l-gluthathione.png"
+  image: "/product/peptides/lgluthathione.png"
 },
 {
   id: "livagen-20mg",
