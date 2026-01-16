@@ -2247,7 +2247,7 @@
   storage: "Store in a cool, dry environment away from direct light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/bpc157_15.png"
+  image: "/product/capsules/bcp157.png"
 },
 {
   id: "hexarelin-modgrf-1-29-2x10-bundle",
@@ -2978,7 +2978,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/melanotan2_10.png"
+  image: "/product/peptides/melanotan1.png"
 },
 {
   id: "melanotan-2-3mg-x-10",
