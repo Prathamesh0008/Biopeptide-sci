@@ -20,8 +20,8 @@ const slideLinks = [
 
 const slideImages = [
   "/images/combo.png",
-  "/images/combo2.png",
-  "/images/combo3.png",
+  "/images/combo 2.png",
+  "/images/combo4.png",
 ];
 
 export default function Hero() {
@@ -59,14 +59,14 @@ export default function Hero() {
         subtitle: hero.subtitle2,
         button: hero.button2,
         link: "/all-peptides",
-        image: "/images/combo2.png",
+        image: "/images/combo 2.png",
       },
       {
         title: hero.title3,
         subtitle: hero.subtitle3,
         button: hero.button3,
         link: "/bundle-save",
-        image: "/images/combo3.png",
+        image: "/images/combo4.png",
       },
     ].filter(Boolean);
   }, [hero]);
@@ -153,15 +153,26 @@ export default function Hero() {
               </div>
 
               {/* IMAGE */}
-              <div className="relative z-10 w-full max-w-[310px] h-[160px] sm:h-[220px] md:h-[340px] flex justify-center md:justify-end">
-                <Image
-                  src={activeBox.image}
-                  alt="BioPeptide Product"
-                  fill
-                  className="object-contain scale-190 md:scale-250 -translate-y-1"
-                  priority
-                />
-              </div>
+   <div className="
+  relative z-10
+  w-full
+  max-w-[340px] sm:max-w-[420px] md:max-w-[520px]
+  h-[200px] sm:h-[300px] md:h-[380px]
+  flex justify-center md:justify-end
+  overflow-hidden
+">
+  <Image
+    src={activeBox.image}
+    alt="BioPeptide Product"
+    fill
+    className="object-contain scale-125 sm:scale-140 md:scale-150"
+
+    priority
+  />
+</div>
+
+
+
 
             </div>
           </div>

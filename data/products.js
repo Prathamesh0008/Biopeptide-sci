@@ -2,80 +2,75 @@
 
 
   export const PRODUCTS = [
-  {
+{
   id: "bpc-157-5mg",
+  name: "BPC-157 Peptide 5mg",
   slug: "bpc-157-5mg",
-  name: "BPC-157 5mg",
-  category: "Popular Peptides",
-
-  price: 140.0,
-
-  strength:
-    "Synthetic pentadecapeptide studied extensively in cellular repair and regenerative research models.",
-
+  price: 79,
+  image: "/product/bpc-157-5mg.png",
+  purity: "≥99% HPLC",
+  size: "5 mg",
   cas: "137525-51-0",
-  size: "5mg vial",
-  purity: "≥ 99% (HPLC)",
+  category: "Research Peptides",
+  image:"/product/peptides/bpc157_5.png",
 
-  stock: true,
-  badge: "Best Seller",
-
-  description:
-    "BPC-157 is a stable synthetic peptide composed of 15 amino acids and derived from a naturally occurring gastric protein fragment. In laboratory research, it is widely studied for its role in cellular protection, angiogenesis, tissue regeneration, and signaling pathway modulation. Supplied as a high-purity lyophilized powder for controlled scientific research applications.",
-
-  applications: [
-    "Cellular repair and regeneration studies",
-    "Angiogenesis and vascular signaling research",
-    "Gastrointestinal tissue research models",
-    "Inflammatory pathway investigation"
-  ],
-
-  appearance: "White lyophilized powder",
-  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use.",
-
- image: "/product/peptides/bpc157_5.png"
-
+   seo: {
+    title: "Buy BPC-157 Peptide 5mg – CAS 137525-51-0 | BioPeptide",
+    description:
+      "Buy BPC-157 5mg research peptide (CAS 137525-51-0) from BioPeptide. ≥99% HPLC purity. Studied for angiogenic signaling, cytoprotection, nitric oxide pathways, and extracellular matrix remodeling in regenerative research. For Research Use Only.",
+    keywords: [
+      "BPC-157",
+      "BPC-157 peptide",
+      "BPC-157 5mg",
+      "CAS 137525-51-0",
+      "research peptide BPC-157",
+      "angiogenic signaling peptide",
+      "regenerative research peptide",
+      "high purity peptides",
+      "buy BPC-157 online"
+    ],
+    robots: "index, follow",
+    canonical: "https://www.bio-peptides.com/product/bpc-157-5mg"
+  }
 },
 
-  {
+ {
   id: "bpc-tb500-glow-blend",
   slug: "bpc-tb500-glow-blend",
   name: "Glow Blend (BPC-157 + TB-500)",
   category: "Peptide Blends",
 
   price: 315.0,
-
-  strength:
-    "Synergistic dual-peptide research blend combining BPC-157 and TB-500 for advanced regenerative and signaling studies.",
-
   size: "20mg blend",
   purity: "≥ 99% (HPLC)",
 
-  stock: true,
-  badge: "Research Blend",
+  image: "/product/peptide blends/bpctbblend20mg.png",
 
-  description:
-    "Glow Blend is a dual-peptide research formulation combining BPC-157, a pentadecapeptide studied in cellular protection and tissue signaling models, with TB-500, a thymosin beta-4 analog investigated in cell migration and angiogenesis research. This blend is designed for laboratory studies exploring synergistic peptide interactions, regenerative signaling pathways, and multi-target research models. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
+  seo: {
+    title:
+      "Buy BPC-157 TB-500 Blend 20mg | BioPeptide | CAS 137525-51-0, 77591-33-4",
 
-  components: [
-    "BPC-157 (pentadecapeptide)",
-    "TB-500 (thymosin beta-4 analog)"
-  ],
+    description:
+      "Buy BioPeptide BPC-157 & TB-500 peptide blend (20mg total). CAS 137525-51-0 (BPC-157) and 77591-33-4 (TB-500). Researched for tissue repair, angiogenesis, and cellular recovery. ≥99% HPLC purity. Research use only.",
 
-  applications: [
-    "Synergistic peptide interaction studies",
-    "Cellular repair and regeneration research",
-    "Angiogenesis and tissue signaling models",
-    "Multi-pathway peptide research"
-  ],
+    keywords: [
+      "BPC-157 TB-500 blend",
+      "BPC-157 TB-500 peptide",
+      "peptide blend research",
+      "CAS 137525-51-0",
+      "CAS 77591-33-4",
+      "angiogenesis peptide research",
+      "tissue repair peptide blend",
+      "BioPeptide blends"
+    ],
 
-  appearance: "White lyophilized powder blend",
-  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use.",
+    canonical:
+      "https://www.bio-peptides.com/product/bpc-tb500-glow-blend",
 
-  image: "/product/peptide blends/bpctbblend20mg.png"
-},
+    robots: "index, follow"
+  }
+}
+,
 
   {
   id: "5-amino-1mq-50mg",

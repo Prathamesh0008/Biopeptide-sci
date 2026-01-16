@@ -19,20 +19,7 @@ export default function HomePage() {
     <>
     
     <Navbar/>
-      {/* MOBILE BUTTON */}
-{/* <button
-  onClick={() => setDrawerOpen(true)}
-  className="
-    fixed right-0 top-1/2 -translate-y-1/2 z-50
-    flex md:hidden items-center justify-center shadow-lg
-    bg-gradient-to-b from-bioBlue to-bioGreen text-white font-semibold
-    h-28 w-12 rounded-r-xl
-  "
->
-  <span className="text-sm rotate-180 [writing-mode:vertical-rl] tracking-wide">
-    Product List
-  </span>
-</button> */}
+
 
       {/* DESKTOP BUTTON */}
     
