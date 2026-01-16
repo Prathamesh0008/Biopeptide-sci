@@ -154,6 +154,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
 
 
+
+
+
 // // peptides/app/layout.tsx
 // import "./globals.css";
 // import { LanguageProvider } from "@/contexts/LanguageContext";
