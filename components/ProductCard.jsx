@@ -133,35 +133,38 @@ export default function ProductCard({ product }) {
           w-full text-center
           border border-bioBlue
           text-bioBlue text-xs font-semibold
-          py-2 rounded-full
-          hover:bg-bioBlue hover:text-white
+          py-2 rounded-md
+         hover:bg-black hover:text-white
           transition
         "
       >
         {translations.productCard.learnMore}
       </Link>
 
-      <button
-        onClick={addToCart}
-        className="
-          w-full
-          bg-[linear-gradient(to_right,#145b2f,#559f45,#65b4d7,#1a497c)]
-          text-white text-xs font-semibold
-          py-2 rounded-full
-          hover:brightness-110
-          transition
-          cursor-pointer
-        "
-      >
-        {translations.productCard.addToCart}
-      </button>
+ <button
+  onClick={addToCart}
+  className="
+    w-full
+    bg-gradient-to-r from-[#145b2f] via-[#559f45] to-[#1a497c]
+    hover:bg-[#3a3a3a]
+    hover:bg-none
+    text-white text-xs font-semibold
+    py-2 rounded-md
+    transition-all duration-300
+    cursor-pointer
+  "
+>
+  {translations.productCard.addToCart}
+</button>
+
+
     </div>
   </div>
 </article>
 
   );
 }
-
+{/*gradient-to-r from-[#145b2f] via-[#559f45] to-[#1a497c] */}
 
 
 

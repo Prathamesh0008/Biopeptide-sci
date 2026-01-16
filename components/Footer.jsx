@@ -103,7 +103,7 @@ export default function Footer() {
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" aria-label="Go to homepage">
               <Image
-                src="/images/Logobio.svg"
+                src="/images/Biologo1.svg"
                 alt="BioPeptide Logo"
                 width={240}
                 height={64}

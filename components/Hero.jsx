@@ -7,7 +7,7 @@ import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 
 const banners = [
-  "/images/banner1.1.jpg",
+  
   "/images/bannerhero1.jpg",
   "/images/bannerhero2.jpg",
 ];
@@ -132,12 +132,24 @@ export default function Hero() {
                   {activeBox.subtitle}
                 </p>
 
-                <Link
-                  href={activeBox.link}
-                  className="inline-block px-7 py-2.5 rounded-full text-sm font-semibold text-white bg-[linear-gradient(to_right,#145b2f,#559f45,#65b4d7,#1a497c)] hover:opacity-90"
-                >
-                  {activeBox.button}
-                </Link>
+       <Link
+  href={activeBox.link}
+  className="
+    inline-block
+    px-7 py-2.5
+    rounded-md
+    text-sm font-semibold
+    text-white
+    bg-gradient-to-r from-[#145b2f] via-[#559f45] to-[#1a497c]
+    hover:bg-black
+    hover:bg-none
+    transition-all duration-300
+  "
+>
+  {activeBox.button}
+</Link>
+
+
               </div>
 
               {/* IMAGE */}

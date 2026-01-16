@@ -74,7 +74,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/bpctbblend20mg.svg"
+  image: "/product/peptide blends/bpctbblend20mg.png"
 },
 
   {
@@ -432,7 +432,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/bpctbblend10mg.svg"
+  image: "/product/peptide blends/bpctbblend10mg.png"
 },
 {
   id: "bpc-157-tb-500-blend-20mg",
@@ -470,7 +470,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/bpctbblend20mg.svg"
+  image: "/product/peptide blends/bpctbblend20mg.png"
 },
 {
   id: "bpc-157-tb-500-blend-30mg",
@@ -508,7 +508,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/bpctbghkcublend30mg.svg"
+  image: "/product/peptide blends/bpctbghkcublend30mg.png"
 },
 {
   id: "bpc-157-tb-500-blend-60mg",
@@ -546,7 +546,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/bpctbghkcublend60mg.svg"
+  image: "/product/peptide blends/bpctbghkcublend60mg.png"
 },
 {
   id: "bpc-157-tb-500-kpv-ghk-cu-80mg",
@@ -587,7 +587,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/bpctbkpvghk80mg.svg"
+  image: "/product/peptide blends/bpctbkpvghk80mg.png"
 },
 {
   id: "bronchogen-20mg",
@@ -910,7 +910,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/cjcghrpblend10mg.svg"
+  image: "/product/peptide blends/cjcghrp2blend10mg.png"
 },
 {
   id: "cjc-1295-ghrp-6-blend-10mg",
@@ -948,7 +948,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/cjcghrp6blend10mg.svg"
+  image: "/product/peptide blends/cjchexarelinblend10mg.png"
 },
 {
   id: "cjc-1295-hexarelin-blend-10mg",
@@ -986,7 +986,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/cjchexarelinblend10mg.svg"
+  image: "/product/peptide blends/cjchexarelinblend10mg.png"
 },
 {
   id: "cjc-1295-ipamorelin-ghrp-2-blend",
@@ -1025,7 +1025,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/cjcipamorelinghrpblend9mg.svg"
+  image: "/product/peptide blends/cjcipamorelinghrp2blend10mg.png"
 },
 {
   id: "cjc-1295-ipamorelin-blend-10mg",
@@ -1063,7 +1063,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/cjcipamorelinblend10mg.svg"
+  image: "/product/peptide blends/cjchexarelinblend10mg.png"
 },
 
 {
@@ -1098,7 +1098,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/modgrfghrp2blend10mg.svg"
+  image: "/product/peptide blends/modgrfghrp2blend10mg.png"
 },
 {
   id: "cortagen-20mg",
@@ -1525,7 +1525,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/cjcipamorelinghrpblend9mg.svg"
+  image: "/product/peptide blends/fragmentcjcipamorelinblend12mg.png"
 },
 {
   id: "mod-grf-ipamorelin-12mg-blend",
@@ -1563,7 +1563,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/modgrfipamorelinblend10mg.svg"
+  image: "/product/peptide blends/fragmentmodipamorelinblend12mg.png"
 },
 {
   id: "ghk-cu-copper-tripeptide",
@@ -3152,7 +3152,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/modgrfghrp2blend10mg.svg"
+  image: "/product/peptide blends/modgrfghrp2blend10mg.png"
 },
 {
   id: "mod-grf-hexarelin-10mg-blend",
@@ -3190,7 +3190,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/modgrfhexarelinblend10mg.svg"
+  image: "/product/peptide blends/modgrfhexarelinblend10mg_1.png"
 },
 {
   id: "mod-grf-ipamorelin-ghrp-2-blend",
@@ -3229,7 +3229,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/modgrfipamorelinghrp2blend9mg.svg"
+  image: "/product/peptide blends/modgrfipamorelinblend10mg.png"
 },
 {
   id: "mod-grf-ipamorelin-10mg-blend",
@@ -3267,7 +3267,7 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/modgrfghrp6blend10mg.svg"
+  image: "/product/peptide blends/modgrfipamorelinblend10mg.png"
 },
 {
   id: "mots-c-5mg",
@@ -4227,7 +4227,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/sermorelinghrp2blend10mg.svg"
+  image: "/product/peptide blends/sermorelinghrp2blend10mg.png"
 },
 {
   id: "sermorelin-ghrp-6-10mg-blend",
@@ -4262,7 +4262,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/sermorelinghrp6blend10mg.svg"
+  image: "/product/peptide blends/sermorelinghrp6blend10mg.png"
 },
 {
   id: "sermorelin-ghrp-6-ghrp-2-9mg-blend",
@@ -4297,7 +4297,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/sermorelinghrp6ghrp2blend9mg.svg"
+  image: "/product/peptide blends/sermorelinipamorelinblend10mg.png"
 },
 {
   id: "sermorelin-ipamorelin-10mg-blend",
@@ -4332,7 +4332,7 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/sermorelinipamorelinblend10mg.svg"
+  image: "/product/peptide blends/sermorelinipamorelinblend10mg.png"
 },
 {
   id: "sermorelin-2mg",
