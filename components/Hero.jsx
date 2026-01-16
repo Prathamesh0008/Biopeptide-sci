@@ -165,7 +165,13 @@ export default function Hero() {
     src={activeBox.image}
     alt="BioPeptide Product"
     fill
-    className="object-contain scale-125 sm:scale-140 md:scale-150"
+   className="
+  object-contain
+  scale-[1.4]
+  sm:scale-[1.6]
+  md:scale-[2]
+"
+
 
     priority
   />
