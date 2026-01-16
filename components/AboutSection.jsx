@@ -53,7 +53,7 @@ export default function AboutSection() {
 
         <div className="relative h-[650px] rounded-xl  overflow-hidden shadow-lg">
           <Image
-            src="/images/bg 1.jpg"
+            src="/images/bg 7.jpg"
             alt="About BioPeptide"
             fill
             className="object-cover"

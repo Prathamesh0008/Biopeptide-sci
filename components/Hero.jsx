@@ -7,9 +7,9 @@ import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 
 const banners = [
-  
   "/images/bannerhero1.jpg",
-  "/images/bannerhero2.jpg",
+  "/images/Background 1.png",
+  "/images/Background 2.png",
 ];
 
 const slideLinks = [
@@ -170,10 +170,6 @@ export default function Hero() {
     priority
   />
 </div>
-
-
-
-
             </div>
           </div>
         </div>

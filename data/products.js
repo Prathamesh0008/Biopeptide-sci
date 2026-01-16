@@ -104,6 +104,29 @@
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
   image: "/product/capsules/amino.png",
+  seo: {
+    title: "5-Amino-1MQ 50mg Capsules | CAS 42464-96-0 – BioPeptide",
+
+    description:
+      "5-Amino-1MQ 50mg capsules by BioPeptide (CAS 42464-96-0) are research-grade NNMT inhibitor compounds used in metabolic, NAD+ pathway, and cellular aging research.",
+
+    keywords: [
+      "5-Amino-1MQ",
+      "5-Amino-1MQ capsules",
+      "CAS 42464-96-0",
+      "NNMT inhibitor",
+      "NNMT research compound",
+      "metabolic research compound",
+      "NAD+ pathway research",
+      "cellular energy research",
+      "BioPeptide capsules"
+    ],
+
+    robots: "index, follow",
+
+    canonical:
+      "https://www.bio-peptides.com/product/5-amino-1mq-50mg"
+  }
 },
 
  {
@@ -138,7 +161,30 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/aod-9604.png"
+  image: "/product/peptides/aod-9604.png",
+  seo: {
+    title: "Buy AOD-9604 6mg Anti-Obesity Peptide – CAS 386264-39-7 | BioPeptide",
+
+    description:
+      "Purchase AOD-9604 6mg from BioPeptide. High-purity research peptide (CAS 386264-39-7) derived from HGH fragment 177-191, used in metabolic, adipocyte differentiation, and energy regulation research. Research Use Only.",
+
+    keywords: [
+      "AOD9604",
+      "AOD9604 peptide",
+      "AOD9604 5mg",
+      "CAS 221231-10-3",
+      "growth hormone fragment peptide",
+      "metabolic signaling research peptide",
+      "adipocyte research peptide",
+      "lipid metabolism research",
+      "BioPeptide AOD9604"
+    ],
+
+    robots: "index, follow",
+
+    canonical:
+      "https://www.bio-peptides.com/product/aod9604-5mg"
+  }
 },
 
 
@@ -174,7 +220,32 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/ghkcu200.png"
+  image: "/product/cosmeticpeptides/ghkcu200.png",
+  seo: {
+  title:
+    "GHK-Cu 2mg Capsules (Copper Tripeptide) | CAS 89030-95-5 – BioPeptide",
+
+  description:
+    "Buy GHK-Cu 2mg capsules by BioPeptide (CAS 89030-95-5), a high-purity copper tripeptide widely used in collagen synthesis, tissue repair, and peptide–metal interaction research. Ideal for research supply and resale.",
+
+  keywords: [
+    "GHK-Cu",
+    "GHK-Cu capsules",
+    "Copper tripeptide GHK-Cu",
+    "CAS 89030-95-5",
+    "copper peptide research",
+    "collagen synthesis peptide",
+    "tissue repair peptide research",
+    "peptide metal interaction research",
+    "BioPeptide GHK-Cu"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/ghk-cu-2mg"
+}
+
 },
 
   
@@ -244,7 +315,33 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/ahk.png"
+  image: "/product/cosmeticpeptides/ahk.png",
+  seo: {
+  title:
+    "Buy AHK (Tripeptide-3) 200mg Topical | CAS 158563-45-2 | BioPeptide USA",
+
+  description:
+    "Order AHK Tripeptide-3 200mg topical peptide for laboratory and cosmetic research. High-purity tripeptide studied for collagen remodeling, TGF-β pathways, and peptide–protein interactions. CAS 158563-45-2. US-compliant research use only.",
+
+  keywords: [
+    "AHK peptide",
+    "Tripeptide-3",
+    "AHK Tripeptide-3",
+    "AHK 200mg topical",
+    "CAS 158563-45-2",
+    "collagen remodeling peptide research",
+    "TGF-beta pathway research peptide",
+    "peptide protein interaction studies",
+    "cosmetic peptide research",
+    "BioPeptide AHK"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/ahk-tripeptide-3-200mg"
+}
+
 },
 {
   id: "ahk-cu-200mg",
@@ -286,7 +383,33 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/ahkcu.png"
+  image: "/product/cosmeticpeptides/ahkcu.png",
+  seo: {
+  title:
+    "Order AHK-Cu 200mg Topical | Copper Peptide | CAS 682809-81-0 | BioPeptide",
+
+  description:
+    "AHK-Cu is a copper-bound tripeptide used in skin biology and cosmetic formulation research involving extracellular matrix remodeling and redox signaling. Manufactured by BioPeptide to ≥99% HPLC purity. CAS 682809-81-0. RUO compliant.",
+
+  keywords: [
+    "AHK-Cu",
+    "AHK-Cu copper peptide",
+    "AHK-Cu 200mg topical",
+    "Copper tripeptide AHK-Cu",
+    "CAS 682809-81-0",
+    "skin biology peptide research",
+    "extracellular matrix remodeling research",
+    "redox signaling peptide research",
+    "cosmetic peptide research",
+    "BioPeptide copper peptides"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/ahk-cu-200mg"
+}
+
 },
 {
   id: "aod9604-6mg",
@@ -320,7 +443,32 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/aod-9604.png"
+  image: "/product/peptides/aod-9604.png",
+  seo: {
+  title:
+    "Buy AOD-9604 6mg Anti-Obesity Peptide – CAS 386264-39-7 | BioPeptide",
+
+  description:
+    "Purchase AOD-9604 6mg from BioPeptide. High-purity research peptide (CAS 386264-39-7) derived from HGH fragment 177–191, used in metabolic, adipocyte differentiation, and energy regulation research. Research Use Only.",
+
+  keywords: [
+    "AOD-9604",
+    "AOD-9604 peptide",
+    "AOD-9604 6mg",
+    "CAS 386264-39-7",
+    "HGH fragment 177-191",
+    "metabolic research peptide",
+    "adipocyte differentiation research",
+    "energy regulation peptide research",
+    "BioPeptide AOD-9604"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/ahk-tripeptide-3-200mg"
+}
+
 },
 
 {
@@ -355,7 +503,32 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/bpc157_10.png"
+  image: "/product/peptides/bpc157_10.png",
+  seo: {
+  title:
+    "BPC-157 Body Protection Compound 10mg | BioPeptide",
+
+  description:
+    "BioPeptide offers BPC-157 peptide 10mg (CAS 137525-51-0) in lyophilized form for maximum stability. ≥99% HPLC purity. Designed for experimental research on cellular repair, growth-factor expression, and angiogenic modulation. For Research Use Only.",
+
+  keywords: [
+    "BPC-157",
+    "BPC-157 peptide",
+    "BPC-157 10mg",
+    "Body Protection Compound 157",
+    "CAS 137525-51-0",
+    "cellular repair research peptide",
+    "angiogenic modulation research",
+    "growth factor expression research",
+    "BioPeptide BPC-157"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/bpc-157-10mg"
+}
+
 },
 {
   id: "bpc-157-15mg",
@@ -389,7 +562,32 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/bpc157_15.png"
+  image: "/product/peptides/bpc157_15.png",
+  seo: {
+  title:
+    "Buy BPC-157 Peptide 15mg – CAS 137525-51-0 | BioPeptide",
+
+  description:
+    "Buy BPC-157 lyophilized research peptide 15mg (CAS 137525-51-0) from BioPeptide. ≥99% HPLC purity. Studied for nitric oxide signaling, angiogenesis, cytoprotection, and extracellular matrix remodeling. For Research Use Only.",
+
+  keywords: [
+    "BPC-157",
+    "BPC-157 peptide",
+    "BPC-157 15mg",
+    "CAS 137525-51-0",
+    "nitric oxide signaling peptide research",
+    "angiogenesis research peptide",
+    "cytoprotection research peptide",
+    "extracellular matrix remodeling research",
+    "BioPeptide BPC-157"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/bpc-157-15mg"
+}
+
 },
 {
   id: "bpc-157-tb-500-blend-10mg",
@@ -427,7 +625,32 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/bpctbblend10mg.png"
+  image: "/product/peptide blends/bpctbblend10mg.png",
+  seo: {
+  title:
+    "Buy BPC-157 TB-500 Blend 10mg | BioPeptide | CAS 137525-51-0, 77591-33-4",
+
+  description:
+    "Buy BioPeptide BPC-157 & TB-500 blend (10mg total). CAS 137525-51-0 (BPC-157) and 77591-33-4 (TB-500). Researched for tissue repair, angiogenesis, and cellular recovery. 99% HPLC purity. USA lab supply. Research use only.",
+
+  keywords: [
+    "BPC-157 TB-500 blend",
+    "BPC-157 TB-500 peptide blend",
+    "BPC-157 TB-500 10mg",
+    "CAS 137525-51-0",
+    "CAS 77591-33-4",
+    "tissue repair research peptide blend",
+    "angiogenesis research peptide blend",
+    "cellular recovery peptide research",
+    "BioPeptide peptide blends"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/bpc-157-tb-500-blend-10mg"
+}
+
 },
 {
   id: "bpc-157-tb-500-blend-20mg",
@@ -465,7 +688,33 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/bpctbblend20mg.png"
+  image: "/product/peptide blends/bpctbblend20mg.png",
+  seo: {
+  title:
+    "BPC-157 & TB-500 Blend 20mg | BioPeptide | Research Peptides USA",
+
+  description:
+    "Order BioPeptide BPC-157 / TB-500 blend (20mg total) for regenerative biology research. Features BPC-157 (CAS 137525-51-0) and TB-500 (CAS 77591-33-4). Studied for wound modulation, angiogenesis, and cytoskeletal remodeling. RUO compliant.",
+
+  keywords: [
+    "BPC-157 TB-500 blend",
+    "BPC-157 TB-500 20mg",
+    "BPC-157 TB-500 peptide blend",
+    "CAS 137525-51-0",
+    "CAS 77591-33-4",
+    "regenerative biology research peptides",
+    "angiogenesis research peptide blend",
+    "cytoskeletal remodeling research",
+    "wound modulation peptide research",
+    "BioPeptide research blends"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/bpc-157-tb-500-blend-20mg"
+}
+
 },
 {
   id: "bpc-157-tb-500-blend-30mg",
@@ -503,7 +752,34 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/bpctbghkcublend30mg.png"
+  image: "/product/peptide blends/bpctbghkcublend30mg.png",
+  seo: {
+  title:
+    "BPC-157 TB-500 GHK-Cu Glow Blend | BioPeptide | Research Peptides",
+
+  description:
+    "BioPeptide Glow Blend features BPC-157, TB-500, and GHK-Cu in a single high-purity research formulation. CAS 137525-51-0, 77591-33-4, and 89030-95-5. Investigated for nitric oxide signaling, actin remodeling, angiogenesis, and peptide–metal interactions. RUO compliant.",
+
+  keywords: [
+    "BPC-157 TB-500 GHK-Cu blend",
+    "Glow Blend research peptides",
+    "BPC-157 TB-500 GHK-Cu 30mg",
+    "CAS 137525-51-0",
+    "CAS 77591-33-4",
+    "CAS 89030-95-5",
+    "nitric oxide signaling peptide research",
+    "angiogenesis research peptide blend",
+    "actin remodeling research peptides",
+    "peptide metal interaction research",
+    "BioPeptide peptide blends"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/bpc-157-tb-500-blend-30mg"
+}
+
 },
 {
   id: "bpc-157-tb-500-blend-60mg",

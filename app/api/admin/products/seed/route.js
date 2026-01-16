@@ -1,3 +1,4 @@
+//peptides\app\api\admin\products\seed\route.js
 export const dynamic = "force-dynamic";
 
 import dbConnect from "@/lib/dbConnect";
