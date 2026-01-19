@@ -1,4 +1,4 @@
-// peptides/components/Hero.jsx
+//peptides\components\Hero.jsx
 "use client";
 
 import Image from "next/image";
@@ -6,10 +6,12 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 
+/* ================= STATIC DATA ================= */
+
 const banners = [
   "/images/bannerhero1.jpg",
-  "/images/Background 1.png",
-  "/images/Background 2.png",
+  "/images/ban2.jpg",
+  "/images/bannerhero2.jpg",
 ];
 
 const slideLinks = [
@@ -20,9 +22,11 @@ const slideLinks = [
 
 const slideImages = [
   "/images/combo.png",
-  "/images/combo 2.png",
-  "/images/combo4.png",
+  "/images/combo2.png",
+  "/images/combo.png",
 ];
+
+/* ================= COMPONENT ================= */
 
 export default function Hero() {
   const { translations, loading } = useLanguage();
@@ -30,11 +34,11 @@ export default function Hero() {
 
   const hero = translations?.home?.hero;
 
-  // ✅ SUPPORT BOTH FORMATS (CRITICAL)
+  /* ===== SLIDES (NEW + OLD FORMAT SUPPORT) ===== */
   const whiteBoxes = useMemo(() => {
     if (!hero) return [];
 
-    // NEW FORMAT: hero.slides[]
+    // NEW FORMAT
     if (Array.isArray(hero.slides)) {
       return hero.slides.map((slide, index) => ({
         title: slide.title,
@@ -45,7 +49,7 @@ export default function Hero() {
       }));
     }
 
-    // OLD FORMAT: hero.title, title2, title3
+    // OLD FORMAT (BACKWARD COMPATIBLE)
     return [
       {
         title: hero.title,
@@ -59,19 +63,19 @@ export default function Hero() {
         subtitle: hero.subtitle2,
         button: hero.button2,
         link: "/all-peptides",
-        image: "/images/combo 2.png",
+        image: "/images/combo2.png",
       },
       {
         title: hero.title3,
         subtitle: hero.subtitle3,
         button: hero.button3,
         link: "/bundle-save",
-        image: "/images/combo4.png",
+        image: "/images/combo.png",
       },
     ].filter(Boolean);
   }, [hero]);
 
-  // 🔁 ROTATION
+  /* ===== AUTO ROTATION ===== */
   useEffect(() => {
     if (loading || whiteBoxes.length < 2) return;
 
@@ -82,7 +86,7 @@ export default function Hero() {
     return () => clearInterval(interval);
   }, [loading, whiteBoxes.length]);
 
-  // 🔒 RESET ON LANGUAGE CHANGE
+  /* ===== RESET ON LANGUAGE CHANGE ===== */
   useEffect(() => {
     if (whiteBoxes.length > 0) setCurrent(0);
   }, [whiteBoxes.length]);
@@ -90,7 +94,7 @@ export default function Hero() {
   if (whiteBoxes.length === 0) {
     return (
       <section className="relative border-b border-gray-200">
-        <div className="w-full h-[420px] md:h-[520px] bg-gray-100" />
+        <div className="w-full h-[450px] md:h-[550px] bg-gray-100" />
       </section>
     );
   }
@@ -99,9 +103,9 @@ export default function Hero() {
 
   return (
     <section className="relative border-b border-gray-200 overflow-hidden">
-      <div className="relative w-full h-[420px] md:h-[520px]">
+      <div className="relative w-full h-[450px] md:h-[550px]">
 
-        {/* BACKGROUND */}
+        {/* ========== BACKGROUND SLIDES ========== */}
         {banners.map((src, index) => (
           <Image
             key={src}
@@ -117,84 +121,76 @@ export default function Hero() {
 
         <div className="absolute inset-0 bg-black/20" />
 
-        {/* CARD */}
+        {/* ========== CONTENT CARD ========== */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="bg-white/55 backdrop-blur-md rounded-3xl shadow-xl px-5 py-3 sm:px-7 sm:py-5 md:px-12 md:py-7 w-[92%] max-w-4xl">
-            <div className="flex md:grid md:grid-cols-2 gap-4 md:gap-8 items-center">
+          <div className="
+           bg-white/45 backdrop-blur-sm
+            rounded-3xl shadow-xl
+        px-8 py-1 md:py-1.5
+            w-[90%] max-w-4xl
+          ">
+            <div className="flex flex-col md:grid md:grid-cols-2 gap-4 md:gap-5 items-center">
 
-              {/* TEXT */}
-              <div className="relative z-20 text-left">
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+              {/* ===== TEXT ===== */}
+              <div className="relative z-20 text-left w-full">
+                <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold text-gray-900">
                   {activeBox.title}
                 </h2>
 
-                <p className="text-sm md:text-base text-gray-600 mt-3 mb-6">
+                <p className="text-sm md:text-base lg:text-lg text-gray-700 mt-2 mb-4">
                   {activeBox.subtitle}
                 </p>
 
-       <Link
-  href={activeBox.link}
-  className="
-    inline-block
-    px-7 py-2.5
-    rounded-md
-    text-sm font-semibold
-    text-white
-    bg-gradient-to-r from-[#145b2f] via-[#559f45] to-[#1a497c]
-    hover:bg-black
-    hover:bg-none
-    transition-all duration-300
-  "
->
-  {activeBox.button}
-</Link>
-
-
+                <Link
+                  href={activeBox.link}
+                  className="
+                    inline-block
+                   px-7 py-2 md:px-8 md:py-2.5
+                    rounded-md
+                    text-sm md:text-base font-semibold
+                    text-white
+                    bg-gradient-to-r from-[#145b2f] via-[#559f45] to-[#1a497c]
+                    transition-all duration-300
+                    hover:opacity-90
+                  "
+                >
+                  {activeBox.button}
+                </Link>
               </div>
 
-              {/* IMAGE */}
-   <div className="
-  relative z-10
-  w-full
-  max-w-[340px] sm:max-w-[420px] md:max-w-[520px]
-  h-[200px] sm:h-[300px] md:h-[380px]
-  flex justify-center md:justify-end
-  overflow-hidden
-">
-  <Image
-    src={activeBox.image}
-    alt="BioPeptide Product"
-    fill
-   className="
-  object-contain
-  scale-[1.4]
-  sm:scale-[1.6]
-  md:scale-[2]
-"
+              {/* ===== IMAGE (EXTRA BIG) ===== */}
+              <div
+                className="
+                  relative z-10
+                  w-full
+                  h-[260px] sm:h-[320px] md:h-[420px] lg:h-[480px]
+                  flex justify-center items-center
+                  overflow-visible
+                  order-first md:order-last
+                "
+              >
+                <Image
+                  src={activeBox.image}
+                  alt="BioPeptide Product"
+                  fill
+                  priority
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 80vw, 700px"
+                  className="
+                    object-contain
+                    scale-[1.3]
+                    sm:scale-[1.5]
+                    md:scale-[1.8]
+                    lg:scale-[2]
+                    drop-shadow-2xl
+                    transition-transform duration-500
+                  "
+                />
+              </div>
 
-
-    priority
-  />
-</div>
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
