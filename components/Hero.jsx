@@ -10,8 +10,8 @@ import Link from "next/link";
 
 const banners = [
   "/images/bannerhero1.jpg",
-  "/images/ban2.jpg",
-  "/images/bannerhero2.jpg",
+  "/images/bannerhero1.jpg",
+  "/images/bannerhero1.jpg",
 ];
 
 const slideLinks = [
@@ -113,7 +113,7 @@ export default function Hero() {
             alt="BioPeptide Research Banner"
             fill
             priority={index === 0}
-            className={`absolute inset-0 object-cover transition-opacity duration-1000 ${
+            className={`absolute inset-0 ${
               index === current ? "opacity-100" : "opacity-0"
             }`}
           />
