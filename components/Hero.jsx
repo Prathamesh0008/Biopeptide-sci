@@ -180,9 +180,9 @@ export default function Hero() {
                   className="
                     object-cover
                     scale-[1.15]
-sm:scale-[1.25]
-md:scale-[1.4]
-lg:scale-[1.55]
+                    sm:scale-[1.25]
+                    md:scale-[1.4]
+                    lg:scale-[1.55]
 
                     drop-shadow-2xl
                     transition-transform duration-500

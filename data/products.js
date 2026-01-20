@@ -3383,72 +3383,7 @@ seo: {
 }
 
 },
-{
-  id: "ghrp-6-ipamorelin-5x5mg-bundle",
-  slug: "ghrp-6-5mg-x-5-and-ipamorelin-5mg-x-5",
-  name: "GHRP-6 5mg ×5 + Ipamorelin 5mg ×5 (Bundle)",
-  category: "Peptide Blends",
-  cas:"87616-84-0 & 170851-70-4",
 
-  price: 660.0,
-
-  strength:
-    "Multi-vial endocrine research bundle studied for growth hormone secretagogue receptor signaling and pituitary pathway interaction models.",
-
-  size: "10 vials total (GHRP-6 5mg ×5, Ipamorelin 5mg ×5)",
-  purity: "≥ 99% (HPLC)",
-
-  stock: true,
-  badge: "Research Bundle",
-
-  description:
-    "This research bundle includes five vials of GHRP-6 (Growth Hormone–Releasing Peptide-6) and five vials of Ipamorelin, supplied as separate lyophilized peptides. In laboratory research environments, this combination is used to investigate synergistic growth hormone secretagogue receptor signaling, endocrine pathway modulation, and peptide–receptor interaction dynamics. The multi-vial format supports controlled experimental design, comparative studies, and extended endocrine research applications.",
-
-  components: [
-    "GHRP-6 (Growth Hormone–Releasing Peptide-6) — 5mg ×5 vials",
-    "Ipamorelin — 5mg ×5 vials"
-  ],
-
-  applications: [
-    "Endocrine and pituitary signaling research",
-    "Growth hormone secretagogue receptor studies",
-    "Peptide–receptor interaction investigation",
-    "Synergistic endocrine peptide research"
-  ],
-
-  appearance: "White lyophilized powders (separate vials)",
-  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use.",
-
-  image: "/product/bundle/GHRP-6-Ipamorelin-5mg.png",
-  seo: {
-  title:
-    "GHRP-6 & Ipamorelin Research Peptide Bundle 5mg ×5 |",
-
-  description:
-    "GHRP-6 (CAS 87616-84-0) and Ipamorelin (CAS 170851-70-4) 5mg ×5 research peptide bundle by BioPeptide. ≥99% HPLC purity peptides produced via SPPS for GH pathway studies, receptor interaction, and cell signaling research. Research use only.",
-
-  keywords: [
-    "GHRP-6",
-    "Ipamorelin",
-    "GHRP-6 Ipamorelin bundle",
-    "GHRP-6 5mg x5",
-    "Ipamorelin 5mg x5",
-    "CAS 87616-84-0",
-    "CAS 170851-70-4",
-    "growth hormone pathway research",
-    "ghrelin receptor interaction research",
-    "cell signaling peptide research",
-    "BioPeptide peptide bundles"
-  ],
-
-  robots: "index, follow",
-
-  canonical:
-    "https://www.bio-peptides.com/product/ghrp-6-5mg-x-5-and-ipamorelin-5mg-x-5"
-}
-
-},
 {
   id: "ghrp-6-modgrf-1-29-5x10mg-bundle",
   slug: "ghrp-6-5mg-x-10-modgrf-1-29-5mg-x-10",
@@ -3553,7 +3488,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/bundle/GHRP-6-Ipamorelin-5mg.png",
+  image: "/product/Bundle/GHRP-6-Ipamorelin-5mg.png",
   seo: {
   title:
     "GHRP-6 & Ipamorelin Research Peptide Bundle 5mg ×10 |",
