@@ -108,7 +108,7 @@ export default function Hero() {
         {/* ========== BACKGROUND SLIDES ========== */}
         {banners.map((src, index) => (
           <Image
-            key={src}
+         key={index}
             src={src}
             alt="BioPeptide Research Banner"
             fill
