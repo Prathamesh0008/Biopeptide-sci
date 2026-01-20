@@ -94,23 +94,30 @@ const [drawerOpen, setDrawerOpen] = useState(false);
 </button>
 
 
-      <main className="min-h-screen bg-white pt-10 pb-20">
+      <main className="min-h-screen bg-white pt-4 md:pt-10 pb-20">
         {/* BACK */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 mb-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 mb-2">
           <Link href="/" className="text-bioBlue underline text-sm">
             {t?.back}
           </Link>
         </div>
 
         {/* PRODUCT */}
-        <section className="max-w-7xl mx-auto px-0 sm:px-6 mt-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14  p-6 sm:p-10 ">
+        <section className="max-w-7xl mx-auto px-0 sm:px-6 mt-4 md:mt-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-14 p-6 sm:p-10 ">
 
             {/* IMAGE */}
             <div className="flex flex-col gap-6 w-full max-w-[450px] mx-auto">
               <div
   onClick={() => setPreviewOpen(true)}
-  className="relative h-[560px] p-6 cursor-zoom-in flex items-center justify-center"
+  className="
+  relative
+  h-[360px] sm:h-[420px] md:h-[500px] lg:h-[560px]
+  p-4 sm:p-6
+  cursor-zoom-in
+  flex items-center justify-center
+"
+
 >
   {/* BOTTOM SHADOW */}
   <div

@@ -288,7 +288,10 @@ home: {
     of: "van",
     products: "producten",
     viewMore: "Meer bekijken",
-    productList: "Productlijst"
+    productList: "Productlijst",
+     highestQualityTitle: "Peptiden van de Hoogste Kwaliteit",
+    highestQualitySub:
+      "Blader per categorie en ontdek onze peptiden van onderzoekskwaliteit."
   },
 
   about: {
@@ -324,6 +327,19 @@ allPeptides: {
   showing: "Toont",
   products: "producten"
 },
+peptides: {
+  categories: {
+    All: "Alle",
+    "Popular Peptides": "Populaire Peptiden",
+    "Peptide Capsules": "Peptide Capsules",
+    "Peptide Blends": "Peptide Mengsels",
+    "IGF-1 Proteins": "IGF-1 Eiwitten",
+    "Melanotan Peptides": "Melanotan Peptiden",
+    Bioregulators: "Bioregulatoren",
+    "Cosmetic Peptides": "Cosmetische Peptiden"
+  }
+},
+
 breadcrumbs: {
   home: "Home",
   profile: "Profiel",

@@ -39,6 +39,7 @@
   slug: "bpc-tb500-glow-blend",
   name: "Glow Blend (BPC-157 + TB-500)",
   category: "Peptide Blends",
+  cas:"137525-51-0, 77591-33-4",
 
   price: 315.0,
   size: "20mg blend",
@@ -77,6 +78,7 @@
   slug: "5-amino-1mq-50mg",
   name: "5-Amino-1MQ 50mg (60 Capsules)", 
   category: "Peptide Capsules",
+  cas:" 42464-96-0 ",
 
   price: 255.0,
 
@@ -134,6 +136,7 @@
   slug: "aod9604-5mg",
   name: "AOD9604 5mg",
   category: "Popular Peptides",
+  cas:"386264-39-7",
 
   price: 200.0,
 
@@ -193,6 +196,7 @@
   slug: "ghk-cu-2mg",
   name: "GHK-Cu 2mg",
   category: "Cosmetic Peptides",
+  cas:"89030-95-5",
 
   price: 180.0,
 
@@ -280,7 +284,32 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/acetyl.png"
+  image: "/product/cosmeticpeptides/acetyl.png",
+  seo: {
+  title:
+    "Acetyl Hexapeptide-3 (Argireline) 200mg Topical | CAS 616204-22-9 | BioPeptide",
+
+  description:
+    "Buy Acetyl Hexapeptide-3 (Argireline) 200mg topical research peptide from BioPeptide. CAS 616204-22-9. A SNAP-25 analog supplied for laboratory and cosmetic formulation research involving SNARE complex modulation, neuromuscular signaling pathways, and peptide–protein interaction studies. ≥99% HPLC purity. For Research Use Only.",
+
+  keywords: [
+    "Argireline peptide",
+    "Acetyl Hexapeptide-3",
+    "Argireline 200mg",
+    "SNAP-25 analog",
+    "SNARE pathway research",
+    "topical cosmetic peptide",
+    "neuromuscular signaling peptide",
+    "CAS 616204-22-9",
+    "BioPeptide cosmetic peptides"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/acetyl-hexapeptide-3-argireline-200mg-topical"
+}
+
 },
 
 {

@@ -290,7 +290,10 @@ home: {
     of: "共",
     products: "个产品",
     viewMore: "查看更多",
-    productList: "产品列表"
+    productList: "产品列表",
+     highestQualityTitle: "最高品质的肽",
+    highestQualitySub:
+      "按类别浏览，探索我们的研究级肽产品。"
   },
 
   about: {
@@ -325,6 +328,18 @@ allPeptides: {
   subtitle: "探索我们完整的 BioPeptide 高纯度科研化合物系列。",
   showing: "显示",
   products: "产品"
+},
+peptides: {
+  categories: {
+    All: "全部",
+    "Popular Peptides": "热门肽类",
+    "Peptide Capsules": "肽胶囊",
+    "Peptide Blends": "肽混合物",
+    "IGF-1 Proteins": "IGF-1 蛋白质",
+    "Melanotan Peptides": "美拉诺坦肽",
+    Bioregulators: "生物调节肽",
+    "Cosmetic Peptides": "化妆品肽"
+  }
 },
 breadcrumbs: {
   home: "首页",

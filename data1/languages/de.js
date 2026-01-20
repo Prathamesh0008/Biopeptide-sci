@@ -294,7 +294,10 @@ home: {
     of: "von",
     products: "Produkten",
     viewMore: "Mehr anzeigen",
-    productList: "Produktliste"
+    productList: "Produktliste",
+    highestQualityTitle: "Peptide von Höchster Qualität",
+    highestQualitySub:
+      "Durchsuchen Sie die Kategorien und entdecken Sie unsere forschungsgeeigneten Peptide."
   },
 
   about: {
@@ -329,6 +332,18 @@ allPeptides: {
   subtitle: "Entdecken Sie unsere vollständige Sammlung hochwertiger BioPeptide-Forschungsverbindungen.",
   showing: "Angezeigt",
   products: "Produkte"
+},
+peptides: {
+  categories: {
+    All: "Alle",
+    "Popular Peptides": "Beliebte Peptide",
+    "Peptide Capsules": "Peptidkapseln",
+    "Peptide Blends": "Peptidmischungen",
+    "IGF-1 Proteins": "IGF-1 Proteine",
+    "Melanotan Peptides": "Melanotan-Peptide",
+    Bioregulators: "Bioregulatoren",
+    "Cosmetic Peptides": "Kosmetische Peptide"
+  }
 },
 breadcrumbs: {
   home: "Startseite",

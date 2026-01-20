@@ -251,7 +251,10 @@ export default {
       "of": "от",
       "products": "продукти",
       "viewMore": "Вижте повече",
-      "productList": "Списък с продукти"
+      "productList": "Списък с продукти",
+       highestQualityTitle: "Пептиди с Най-Високо Качество",
+    highestQualitySub:
+      "Разгледайте по категории и открийте нашите пептиди за научни изследвания."
     },
     "about": {
       "title": "За BioPeptide",
@@ -275,6 +278,18 @@ export default {
     "showing": "Показване на",
     "products": "продукти"
   },
+  peptides: {
+  categories: {
+    All: "Всички",
+    "Popular Peptides": "Популярни Пептиди",
+    "Peptide Capsules": "Пептидни Капсули",
+    "Peptide Blends": "Пептидни Смеси",
+    "IGF-1 Proteins": "IGF-1 Протеини",
+    "Melanotan Peptides": "Меланотан Пептиди",
+    Bioregulators: "Биорегулатори",
+    "Cosmetic Peptides": "Козметични Пептиди"
+  }
+},
   "breadcrumbs": {
     "home": "Начало",
     "profile": "Профил",

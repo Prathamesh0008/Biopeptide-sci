@@ -103,7 +103,8 @@ export default function Hero() {
 
   return (
     <section className="relative border-b border-gray-200 overflow-hidden">
-      <div className="relative w-full h-[450px] md:h-[550px]">
+     <div className="relative w-full min-h-[380px] md:min-h-[450px] py-10">
+
 
         {/* ========== BACKGROUND SLIDES ========== */}
         {banners.map((src, index) => (
@@ -124,20 +125,21 @@ export default function Hero() {
         {/* ========== CONTENT CARD ========== */}
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="
-           bg-white/45 backdrop-blur-sm
-            rounded-3xl shadow-xl
-        px-8 py-1 md:py-1.5
-            w-[90%] max-w-4xl
-          ">
-            <div className="flex flex-col md:grid md:grid-cols-2 gap-4 md:gap-5 items-center">
+  bg-white/60 backdrop-blur-md
+  rounded-2xl shadow-lg
+  px-4 py-3 md:px-6 md:py-4
+  w-[92%] max-w-3xl
+">
+
+            <div className="flex flex-col md:grid md:grid-cols-2 gap-3 md:gap-4 items-center">
 
               {/* ===== TEXT ===== */}
               <div className="relative z-20 text-left w-full">
-                <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold text-gray-900">
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900">
                   {activeBox.title}
                 </h2>
 
-                <p className="text-sm md:text-base lg:text-lg text-gray-700 mt-2 mb-4">
+                <p className="text-xs md:text-sm text-gray-700 mt-1.5 mb-3">
                   {activeBox.subtitle}
                 </p>
 
@@ -163,7 +165,7 @@ export default function Hero() {
                 className="
                   relative z-10
                   w-full
-                  h-[260px] sm:h-[320px] md:h-[420px] lg:h-[480px]
+               h-[150px] sm:h-[180px] md:h-[220px] lg:h-[260px]
                   flex justify-center items-center
                   overflow-visible
                   order-first md:order-last
@@ -177,10 +179,11 @@ export default function Hero() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 80vw, 700px"
                   className="
                     object-contain
-                    scale-[1.3]
-                    sm:scale-[1.5]
-                    md:scale-[1.8]
-                    lg:scale-[2]
+                    scale-[1.15]
+sm:scale-[1.25]
+md:scale-[1.4]
+lg:scale-[1.55]
+
                     drop-shadow-2xl
                     transition-transform duration-500
                   "

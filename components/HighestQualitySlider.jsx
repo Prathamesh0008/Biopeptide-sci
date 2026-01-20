@@ -101,7 +101,8 @@ const handleMouseMove = (e) => {
                   : "bg-white text-gray-700 border-gray-300 hover:border-gray-500"}
               `}
             >
-              {cat}
+             {translations?.peptides?.categories?.[cat]?.title || cat}
+
             </button>
           );
         })}

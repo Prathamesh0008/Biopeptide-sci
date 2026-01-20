@@ -289,7 +289,10 @@ home: {
     of: "/",
     products: "製品",
     viewMore: "もっと見る",
-    productList: "製品一覧"
+    productList: "製品一覧",
+     highestQualityTitle: "最高品質のペプチド",
+    highestQualitySub:
+      "カテゴリー別に閲覧し、研究用グレードのペプチドをご覧ください。"
   },
 
   about: {
@@ -324,6 +327,18 @@ allPeptides: {
   subtitle: "高品質なBioPeptide研究化合物の完全なコレクションをご覧ください。",
   showing: "表示中",
   products: "製品"
+},
+peptides: {
+  categories: {
+    All: "すべて",
+    "Popular Peptides": "人気のペプチド",
+    "Peptide Capsules": "ペプチドカプセル",
+    "Peptide Blends": "ペプチドブレンド",
+    "IGF-1 Proteins": "IGF-1 タンパク質",
+    "Melanotan Peptides": "メラノタンペプチド",
+    Bioregulators: "バイオレギュレーター",
+    "Cosmetic Peptides": "化粧品用ペプチド"
+  }
 },
 breadcrumbs: {
   home: "ホーム",

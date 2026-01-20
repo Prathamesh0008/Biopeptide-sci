@@ -254,7 +254,10 @@ export default {
       "of": "από",
       "products": "προϊόντα",
       "viewMore": "Δείτε Περισσότερα",
-      "productList": "Κατάλογος Προϊόντων"
+      "productList": "Κατάλογος Προϊόντων",
+       highestQualityTitle: "Πεπτίδια Υψηλότερης Ποιότητας",
+    highestQualitySub:
+      "Περιηγηθείτε ανά κατηγορία και εξερευνήστε τα πεπτίδιά μας ερευνητικής ποιότητας."
     },
     "about": {
       "title": "Σχετικά με τη BioPeptide",
@@ -278,6 +281,18 @@ export default {
     "showing": "Εμφάνιση",
     "products": "προϊόντων"
   },
+  peptides: {
+  categories: {
+    All: "Όλα",
+    "Popular Peptides": "Δημοφιλή Πεπτίδια",
+    "Peptide Capsules": "Κάψουλες Πεπτιδίων",
+    "Peptide Blends": "Μείγματα Πεπτιδίων",
+    "IGF-1 Proteins": "Πρωτεΐνες IGF-1",
+    "Melanotan Peptides": "Πεπτίδια Μελανοτάνης",
+    Bioregulators: "Βιορυθμιστές",
+    "Cosmetic Peptides": "Καλλυντικά Πεπτίδια"
+  }
+},
   "breadcrumbs": {
     "home": "Αρχική",
     "profile": "Προφίλ",

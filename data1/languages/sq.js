@@ -252,7 +252,10 @@ export default {
       "of": "nga",
       "products": "produkte",
       "viewMore": "Shiko Më Shumë",
-      "productList": "Lista e Produkteve"
+      "productList": "Lista e Produkteve",
+       highestQualityTitle: "Peptide të Cilësisë Më të Lartë",
+    highestQualitySub:
+      "Shfleto sipas kategorisë dhe eksploro peptidet tona për kërkime shkencore."
     },
     "about": {
       "title": "Rreth BioPeptide",
@@ -276,6 +279,18 @@ export default {
     "showing": "Duke treguar",
     "products": "produkte"
   },
+  peptides: {
+  categories: {
+    All: "Të gjitha",
+    "Popular Peptides": "Peptide Popullore",
+    "Peptide Capsules": "Kapsula Peptidesh",
+    "Peptide Blends": "Përzierje Peptidesh",
+    "IGF-1 Proteins": "Proteina IGF-1",
+    "Melanotan Peptides": "Peptide Melanotan",
+    Bioregulators: "Bioregullatorë",
+    "Cosmetic Peptides": "Peptide Kozmetike"
+  }
+},
   "breadcrumbs": {
     "home": "Kreu",
     "profile": "Profili",

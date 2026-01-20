@@ -296,7 +296,10 @@ home: {
     of: "من",
     products: "منتجات",
     viewMore: "عرض المزيد",
-    productList: "قائمة المنتجات"
+    productList: "قائمة المنتجات",
+     highestQualityTitle: "أعلى جودة من الببتيدات",
+    highestQualitySub:
+      "تصفح حسب الفئة واستكشف ببتيداتنا المخصصة للأبحاث العلمية."
   },
 
   about: {
@@ -331,6 +334,18 @@ allPeptides: {
   subtitle: "استكشف مجموعتنا الكاملة من مركبات BioPeptide البحثية عالية الجودة.",
   showing: "عرض",
   products: "منتجات"
+},
+peptides: {
+  categories: {
+    All: "الكل",
+    "Popular Peptides": "الببتيدات الشائعة",
+    "Peptide Capsules": "كبسولات الببتيد",
+    "Peptide Blends": "خلائط الببتيد",
+    "IGF-1 Proteins": "بروتينات IGF-1",
+    "Melanotan Peptides": "ببتيدات ميلانوتان",
+    Bioregulators: "المنظمات الحيوية",
+    "Cosmetic Peptides": "ببتيدات تجميلية"
+  }
 },
 breadcrumbs: {
   home: "الرئيسية",

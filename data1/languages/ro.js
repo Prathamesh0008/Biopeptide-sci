@@ -252,7 +252,10 @@ export default {
       "of": "din",
       "products": "produse",
       "viewMore": "Vezi Mai Multe",
-      "productList": "Listă Produse"
+      "productList": "Listă Produse",
+      highestQualityTitle: "Peptide de Cea Mai Înaltă Calitate",
+    highestQualitySub:
+      "Răsfoiește pe categorii și descoperă peptidele noastre de calitate pentru cercetare."
     },
     "about": {
       "title": "Despre BioPeptide",
@@ -276,6 +279,18 @@ export default {
     "showing": "Se afișează",
     "products": "produse"
   },
+  peptides: {
+  categories: {
+    All: "Toate",
+    "Popular Peptides": "Peptide Populare",
+    "Peptide Capsules": "Capsule de Peptide",
+    "Peptide Blends": "Amestecuri de Peptide",
+    "IGF-1 Proteins": "Proteine IGF-1",
+    "Melanotan Peptides": "Peptide Melanotan",
+    Bioregulators: "Bioreglatori",
+    "Cosmetic Peptides": "Peptide Cosmetice"
+  }
+},
   "breadcrumbs": {
     "home": "Acasă",
     "profile": "Profil",

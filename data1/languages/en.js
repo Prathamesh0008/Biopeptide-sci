@@ -290,7 +290,10 @@ home: {
     of: "of",
     products: "products",
     viewMore: "View More",
-    productList: "Product List"
+    productList: "Product List",
+    highestQualityTitle: "The Highest Quality Peptides",
+    highestQualitySub:
+      "Browse by category and explore our research-grade peptides."
   },
 
   about: {
@@ -326,6 +329,19 @@ allPeptides: {
   showing: "Showing",
   products: "products"
 },
+peptides: {
+  categories: {
+    All: "Todos",
+    "Popular Peptides": "Péptidos Populares",
+    "Peptide Capsules": "Cápsulas de Péptidos",
+    "Peptide Blends": "Mezclas de Péptidos",
+    "IGF-1 Proteins": "Proteínas IGF-1",
+    "Melanotan Peptides": "Péptidos de Melanotan",
+    Bioregulators: "Bioreguladores",
+    "Cosmetic Peptides": "Péptidos Cosméticos"
+  }
+},
+
 breadcrumbs: {
   home: "Home",
   profile: "Profile",
