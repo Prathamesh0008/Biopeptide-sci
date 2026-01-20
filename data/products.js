@@ -7665,7 +7665,33 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/snap.png"
+  image: "/product/cosmeticpeptides/snap.png",
+  seo: {
+  title:
+    "Buy SNAP-8 200mg (Acetyl Hexapeptide-8) | CAS 868844-74-0 | BioPeptide",
+
+  description:
+    "Order SNAP-8 (Acetyl Hexapeptide-8) 200mg topical research peptide from BioPeptide USA. CAS 868844-74-0. HPLC-verified purity for laboratory and cosmetic science research involving SNARE-mediated signaling and neuropeptide pathway studies. For Research Use Only.",
+
+  keywords: [
+    "SNAP-8",
+    "Acetyl Hexapeptide-8",
+    "SNAP-8 peptide",
+    "SNAP-8 200mg",
+    "CAS 868844-74-0",
+    "SNARE signaling research",
+    "neuropeptide signaling studies",
+    "topical cosmetic research peptides",
+    "skin biology peptide research",
+    "BioPeptide SNAP-8 USA"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/snap-8-200mg-topical"
+}
+
 },
 {
   id: "syn-ake-200mg-topical",
@@ -7700,7 +7726,33 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/synake.png"
+  image: "/product/cosmeticpeptides/synake.png",
+  seo: {
+  title:
+    "Buy Syn-AKE 200mg Topical Peptide | CAS 823202-99-9 | BioPeptide USA",
+
+  description:
+    "Purchase BioPeptide Syn-AKE 200mg topical research peptide (CAS 823202-99-9). HPLC-verified purity for advanced cosmetic and dermatological research examining peptide–receptor interactions and neurochemical signaling pathways. For Research Use Only.",
+
+  keywords: [
+    "Syn-AKE",
+    "Syn-AKE peptide",
+    "Syn-AKE 200mg",
+    "CAS 823202-99-9",
+    "topical research peptides",
+    "peptide receptor interaction research",
+    "neurochemical signaling peptide",
+    "dermatological research peptides",
+    "cosmetic peptide research",
+    "BioPeptide Syn-AKE USA"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/syn-ake-200mg-topical"
+}
+
 },
 {
   id: "syn-coll-palmitoyl-tripeptide-5-200mg-topical",
@@ -7735,7 +7787,33 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/syncoll.png"
+  image: "/product/cosmeticpeptides/syncoll.png",
+  seo: {
+  title:
+    "Buy Syn-Coll Palmitoyl Tripeptide-5 200mg | CAS 623172-55-4 | BioPeptide",
+
+  description:
+    "Purchase Syn-Coll (Palmitoyl Tripeptide-5) 200mg topical research peptide from BioPeptide USA. CAS 623172-55-4. HPLC-verified purity for laboratory and cosmetic science research focused on collagen signaling, fibroblast communication, and dermal extracellular matrix (ECM) pathway analysis. For Research Use Only.",
+
+  keywords: [
+    "Syn-Coll",
+    "Palmitoyl Tripeptide-5",
+    "Syn-Coll peptide",
+    "Palmitoyl Tripeptide-5 200mg",
+    "CAS 623172-55-4",
+    "collagen signaling research",
+    "fibroblast communication studies",
+    "dermal matrix research peptide",
+    "topical cosmetic research peptides",
+    "BioPeptide Syn-Coll USA"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/syn-coll-palmitoyl-tripeptide-5-200mg-topical"
+}
+
 },
 {
   id: "tb-500-2mg-10-vial-kit",
@@ -7770,7 +7848,32 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/tb500.png"
+  image: "/product/peptides/tb500.png",
+  seo: {
+  title:
+    "Buy TB-500 Thymosin Beta-4 20mg (2mg × 10) | CAS 77591-33-4 | BioPeptide",
+
+  description:
+    "Buy TB-500 (Thymosin Beta-4) 20mg research peptide kit (2mg × 10 vials) from BioPeptide. CAS 77591-33-4. 43-amino-acid peptide supplied for laboratory studies on tissue remodeling, angiogenesis signaling, actin regulation, and oxidative stress response pathways. ≥99% HPLC purity. For Research Use Only.",
+
+  keywords: [
+    "TB-500",
+    "Thymosin Beta-4",
+    "TB-500 20mg",
+    "TB-500 2mg x 10",
+    "CAS 77591-33-4",
+    "angiogenesis peptide research",
+    "tissue remodeling peptide",
+    "actin regulation peptide",
+    "BioPeptide research peptides"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/tb-500-2mg-10-vial-kit"
+}
+
 },
 {
   id: "tb-500-5mg",
@@ -7805,7 +7908,32 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/tb500_10.png"
+  image: "/product/peptides/tb500_10.png",
+  seo: {
+  title:
+    "Buy TB-500 Thymosin Beta-4 5mg (43aa) | CAS 77591-33-4 | BioPeptide",
+
+  description:
+    "Buy TB-500 (Thymosin Beta-4) 5mg research peptide from BioPeptide. CAS 77591-33-4. 43-amino-acid peptide supplied for laboratory studies involving cellular migration, angiogenesis signaling, actin cytoskeleton dynamics, and tissue remodeling pathways. ≥99% HPLC purity. For Research Use Only.",
+
+  keywords: [
+    "TB-500",
+    "Thymosin Beta-4",
+    "TB-500 5mg",
+    "TB-500 peptide",
+    "CAS 77591-33-4",
+    "angiogenesis peptide research",
+    "cell migration peptide",
+    "actin regulation peptide",
+    "BioPeptide research peptides"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/tb-500-5mg"
+}
+
 },
 {
   id: "tb-500-fragment-17-23-10mg",
@@ -7840,7 +7968,30 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/tb500_10.png"
+  image: "/product/peptides/tb500_10.png",
+  seo: {
+  title:
+    "Buy TB-500 Fragment 17–23 10mg | Thymosin Beta-4 Fragment | BioPeptide",
+
+  description:
+    "Buy TB-500 Fragment 17–23 10mg research peptide from BioPeptide. A short functional fragment of Thymosin Beta-4 supplied for laboratory studies on cell migration signaling, actin-associated pathways, angiogenic modulation, and tissue remodeling mechanisms. ≥99% HPLC purity. For Research Use Only.",
+
+  keywords: [
+    "TB-500 fragment 17-23",
+    "Thymosin Beta-4 fragment",
+    "TB-500 peptide fragment",
+    "cell migration peptide research",
+    "angiogenesis signaling peptide",
+    "actin dynamics peptide",
+    "BioPeptide research peptides"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/tb-500-fragment-17-23-10mg"
+}
+
 },
 {
   id: "tesamorelin-cjc1295-ipamorelin-12mg-blend",
@@ -7875,7 +8026,34 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/tesamorelin2.png"
+  image: "/product/peptides/tesamorelin2.png",
+  seo: {
+  title:
+    "Tesamorelin CJC-1295 No DAC Ipamorelin 12mg Blend | CAS Verified | BioPeptide",
+
+  description:
+    "Buy Tesamorelin, CJC-1295 (No DAC), and Ipamorelin 12mg research peptide blend from BioPeptide. CAS 901758-09-6, 446262-90-4, and 170851-70-4. Formulated for laboratory studies on growth hormone pulsatility, GHRH and ghrelin receptor signaling, endocrine pathway modulation, and peptide-receptor interaction research. ≥99% HPLC purity. For Research Use Only.",
+
+  keywords: [
+    "Tesamorelin peptide blend",
+    "CJC-1295 no DAC",
+    "Ipamorelin peptide",
+    "GH axis research blend",
+    "growth hormone pulsatility research",
+    "GHRH receptor signaling",
+    "ghrelin receptor GHS-R1a",
+    "CAS 901758-09-6",
+    "CAS 446262-90-4",
+    "CAS 170851-70-4",
+    "BioPeptide research blends"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/tesamorelin-cjc1295-ipamorelin-12mg-blend"
+}
+
 },
 {
   id: "tesamorelin-ipamorelin-8mg-blend",
@@ -7910,7 +8088,33 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/tesamorelin2.png"
+  image: "/product/peptides/tesamorelin2.png",
+  seo: {
+  title:
+    "Tesamorelin Ipamorelin 8mg Blend | CAS 901758-09-6, 170851-70-4 | BioPeptide",
+
+  description:
+    "Buy Tesamorelin and Ipamorelin 8mg research peptide blend from BioPeptide. CAS 901758-09-6 and 170851-70-4. Formulated for laboratory studies on growth hormone axis activation, GHRH and ghrelin receptor synergy, pituitary signaling pathways, and peptide–receptor interaction research. ≥99% HPLC purity. For Research Use Only.",
+
+  keywords: [
+    "Tesamorelin peptide",
+    "Ipamorelin peptide",
+    "Tesamorelin Ipamorelin blend",
+    "growth hormone axis research",
+    "GHRH receptor signaling",
+    "ghrelin receptor GHS-R1a",
+    "pituitary signaling peptide",
+    "CAS 901758-09-6",
+    "CAS 170851-70-4",
+    "BioPeptide research blends"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/tesamorelin-ipamorelin-8mg-blend"
+}
+
 },
 
 {
@@ -7946,7 +8150,33 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/tesamorelin5.png"
+  image: "/product/peptides/tesamorelin5.png",
+  seo: {
+  title:
+    "Buy Tesamorelin 5mg | CAS 901758-09-6 | BioPeptide Research Peptide",
+
+  description:
+    "Tesamorelin 5mg research peptide (CAS 901758-09-6) by BioPeptide is a stabilized GHRH analog supplied at ≥99% HPLC purity for laboratory studies on growth hormone signaling, pituitary regulation, and metabolic pathway research. For Research Use Only.",
+
+  keywords: [
+    "Tesamorelin",
+    "Tesamorelin peptide",
+    "Tesamorelin 5mg",
+    "CAS 901758-09-6",
+    "GHRH analog research",
+    "growth hormone signaling research",
+    "pituitary regulation studies",
+    "metabolic regulation peptide",
+    "GH axis research peptide",
+    "BioPeptide Tesamorelin USA"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/tesamorelin-5mg"
+}
+
 },
 {
   id: "tesofensine-500mcg-30-capsules",
@@ -7981,7 +8211,32 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "product/capsules/tesofensine.png"
+  image: "product/capsules/tesofensine.png",
+  seo: {
+  title:
+    "Buy Tesofensine 500mcg Capsules – CAS 195875-84-4 | BioPeptide",
+
+  description:
+    "Buy Tesofensine 500mcg research capsules (CAS 195875-84-4) from BioPeptide. ≥99% HPLC-purified small-molecule compound studied in laboratory research for monoamine signaling, appetite regulation pathways, energy expenditure, and metabolic regulation. For Research Use Only.",
+
+  keywords: [
+    "Tesofensine",
+    "Tesofensine capsules",
+    "Tesofensine 500mcg",
+    "CAS 195875-84-4",
+    "monoamine signaling research",
+    "appetite regulation research",
+    "energy expenditure studies",
+    "metabolic research compound",
+    "BioPeptide Tesofensine"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/tesofensine-500mcg-30-capsules"
+}
+
 },
 {
   id: "testagen-20mg-bioregulator",
@@ -8016,7 +8271,32 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/testagen.png"
+  image: "/product/peptides/testagen.png",
+  seo: {
+  title:
+    "Testagen 20mg Bioregulator for Research | BioPeptide",
+
+  description:
+    "BioPeptide Testagen 20mg is a testicular-derived peptide bioregulator supplied for preclinical and laboratory research investigating steroidogenesis, spermatogenic signaling, and endocrine feedback mechanisms. ≥99% HPLC purity. For Research Use Only.",
+
+  keywords: [
+    "Testagen",
+    "Testagen 20mg",
+    "Testagen bioregulator",
+    "testicular bioregulator peptide",
+    "steroidogenesis research",
+    "spermatogenic signaling studies",
+    "endocrine feedback research",
+    "organ specific bioregulators",
+    "BioPeptide bioregulators"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/testagen-20mg-bioregulator"
+}
+
 },
 {
   id: "thymagen-20mg-bioregulator",
@@ -8051,7 +8331,33 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/thymagen.png"
+  image: "/product/peptides/thymagen.png",
+  seo: {
+  title:
+    "Thymagen (Thymogen) 20mg | Thymic Bioregulator | CAS 38101-59-6 | BioPeptide USA",
+
+  description:
+    "Thymagen (Thymogen) 20mg bioregulator (CAS 38101-59-6) by BioPeptide is supplied for laboratory and preclinical research on thymic peptide signaling, immune system regulation, T-cell differentiation, and endocrine–immune pathway interactions. ≥99% HPLC purity. For Research Use Only.",
+
+  keywords: [
+    "Thymagen",
+    "Thymogen",
+    "Thymagen 20mg",
+    "thymic bioregulator peptide",
+    "CAS 38101-59-6",
+    "immune system peptide research",
+    "T-cell signaling studies",
+    "endocrine immune regulation",
+    "organ specific bioregulators",
+    "BioPeptide bioregulators USA"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/thymagen-20mg-bioregulator"
+}
+
 },
 {
   id: "thymalin-20mg",
@@ -8086,7 +8392,32 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/thymalin20.png"
+  image: "/product/peptides/thymalin20.png",
+  seo: {
+  title:
+    "Thymalin 20mg Thymic Peptide | CAS 63958-90-7 | BioPeptide",
+
+  description:
+    "Thymalin 20mg by BioPeptide (CAS 63958-90-7) is a thymic polypeptide complex supplied for laboratory and preclinical research on immune regulation, T-cell differentiation, and peptide-based bioregulation pathways. ≥99% HPLC purity. For Research Use Only.",
+
+  keywords: [
+    "Thymalin",
+    "Thymalin 20mg",
+    "Thymalin thymic peptide",
+    "CAS 63958-90-7",
+    "thymic bioregulator research",
+    "immune regulation peptide",
+    "T-cell differentiation studies",
+    "peptide based bioregulation",
+    "BioPeptide thymic peptides USA"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/thymalin-20mg"
+}
+
 },
 {
   id: "thymosin-alpha-1-3mg",
@@ -8121,7 +8452,32 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/thymosin.png"
+  image: "/product/capsules/thymosin.png",
+  seo: {
+  title:
+    "Buy Thymosin Alpha-1 3mg | BioPeptide | CAS 62304-98-7",
+
+  description:
+    "Thymosin Alpha-1 3mg by BioPeptide (CAS 62304-98-7) is a 28–amino-acid thymic research peptide supplied at ≥99% HPLC purity for laboratory studies on T-cell signaling, immune pathway modulation, cytokine regulation, and thymic peptide biology. For Research Use Only.",
+
+  keywords: [
+    "Thymosin Alpha-1",
+    "Thymosin Alpha-1 peptide",
+    "Thymosin Alpha-1 3mg",
+    "CAS 62304-98-7",
+    "thymic peptide research",
+    "T-cell signaling studies",
+    "immune pathway modulation",
+    "cytokine regulation research",
+    "BioPeptide Thymosin Alpha-1 USA"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/thymosin-alpha-1-3mg"
+}
+
 },
 {
   id: "thymosin-alpha-1-10mg",
@@ -8156,7 +8512,32 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/thymosin10.png"
+  image: "/product/peptides/thymosin10.png",
+  seo: {
+  title:
+    "Thymosin Alpha-1 10mg | CAS 62304-98-7 | BioPeptide",
+
+  description:
+    "BioPeptide Thymosin Alpha-1 10mg research peptide (CAS 62304-98-7) is supplied at ≥99% HPLC purity for laboratory studies comparing thymic peptides involved in immune signaling, transcriptional regulation, cytokine modulation, and cellular defense pathways. For Research Use Only.",
+
+  keywords: [
+    "Thymosin Alpha-1",
+    "Thymosin Alpha-1 peptide",
+    "Thymosin Alpha-1 10mg",
+    "CAS 62304-98-7",
+    "thymic peptide research",
+    "immune signaling studies",
+    "transcriptional regulation research",
+    "cellular defense pathways",
+    "BioPeptide Thymosin Alpha-1 USA"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/thymosin-alpha-1-10mg"
+}
+
 },
 {
   id: "trh-thyrotropin-protirelin-20mg",
@@ -8191,7 +8572,33 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/trh20.png"
+  image: "/product/peptides/trh20.png",
+  seo: {
+  title:
+    "Buy TRH Thyrotropin (Protirelin) 20mg | CAS 24305-27-9 | BioPeptide",
+
+  description:
+    "BioPeptide TRH Thyrotropin (Protirelin) 20mg research compound (CAS 24305-27-9) is a tripeptide supplied at ≥99% HPLC purity for laboratory studies on TSH release, prolactin signaling, and GPCR-mediated endocrine regulation. For Research Use Only.",
+
+  keywords: [
+    "TRH",
+    "Thyrotropin releasing hormone",
+    "Protirelin",
+    "TRH Protirelin peptide",
+    "TRH 20mg",
+    "CAS 24305-27-9",
+    "TSH release research",
+    "prolactin signaling studies",
+    "GPCR endocrine regulation",
+    "BioPeptide TRH USA"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/trh-thyrotropin-protirelin-20mg"
+}
+
 },
 {
   id: "trh-thyrotropin-protirelin-50mg",
@@ -8226,7 +8633,33 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/trh50.png"
+  image: "/product/peptides/trh50.png",
+  seo: {
+  title:
+    "TRH Thyrotropin (Protirelin) 50mg Research Peptide | CAS 24305-27-9 | BioPeptide",
+
+  description:
+    "TRH Thyrotropin (Protirelin) 50mg research peptide (CAS 24305-27-9) supplied by BioPeptide at ≥99% HPLC purity. Synthetic tripeptide utilized in laboratory studies of thyrotropin (TSH) secretion, prolactin signaling, and GPCR-mediated endocrine regulation. For Research Use Only.",
+
+  keywords: [
+    "TRH",
+    "Thyrotropin releasing hormone",
+    "Protirelin",
+    "TRH Protirelin peptide",
+    "TRH 50mg",
+    "CAS 24305-27-9",
+    "thyrotropin secretion research",
+    "prolactin signaling studies",
+    "GPCR endocrine regulation",
+    "BioPeptide TRH research peptide"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/trh-thyrotropin-protirelin-50mg"
+}
+
 },
 {
   id: "tripeptide-29-200mg-collagen-peptide-topical",
@@ -8261,7 +8694,33 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/tripeptide.png"
+  image: "/product/cosmeticpeptides/tripeptide.png",
+  seo: {
+  title:
+    "Tripeptide-29 Collagen Peptide 200mg (Topical) | CAS 2239-67-0 | BioPeptide",
+
+  description:
+    "Tripeptide-29 (Gly-Pro-Hyp) 200mg topical research peptide from BioPeptide. CAS 2239-67-0. Collagen-derived tripeptide supplied at ≥99% HPLC purity for laboratory and cosmetic science research on extracellular matrix synthesis, dermal protein stabilization, and collagen signaling pathways. For Research Use Only.",
+
+  keywords: [
+    "Tripeptide-29",
+    "Gly-Pro-Hyp",
+    "Tripeptide-29 collagen peptide",
+    "Tripeptide-29 200mg",
+    "CAS 2239-67-0",
+    "collagen synthesis research",
+    "extracellular matrix research",
+    "dermal protein stabilization",
+    "topical research peptides",
+    "BioPeptide Tripeptide-29 USA"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/tripeptide-29-200mg-collagen-peptide-topical"
+}
+
 },
 {
   id: "triptorelin-gnrh-2mg",
@@ -8296,7 +8755,33 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/tripeptide.png"
+  image: "/product/cosmeticpeptides/tripeptide.png",
+  seo: {
+  title:
+    "Triptorelin GnRH 2mg Research Supply | CAS 57773-63-4 | BioPeptide",
+
+  description:
+    "Triptorelin (GnRH) 2mg research peptide by BioPeptide (CAS 57773-63-4). ≥99% HPLC purity peptide synthesized via SPPS for laboratory studies on GnRH receptor interactions, downstream pathway signaling, and cell-based endocrine research models. For Research Use Only.",
+
+  keywords: [
+    "Triptorelin",
+    "Triptorelin GnRH",
+    "Triptorelin 2mg",
+    "CAS 57773-63-4",
+    "GnRH research peptide",
+    "gonadotropin releasing hormone studies",
+    "GnRH receptor interaction research",
+    "endocrine pathway signaling",
+    "cell based endocrine research",
+    "BioPeptide Triptorelin USA"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/triptorelin-gnrh-2mg"
+}
+
 },
 {
   id: "vesilute-20mg-bioregulator",
@@ -8331,7 +8816,32 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/vesilute.png"
+  image: "/product/peptides/vesilute.png",
+  seo: {
+  title:
+    "Vesilute 20mg Research Bioregulator – BioPeptide | CAS 3918-84-1",
+
+  description:
+    "Order Vesilute 20mg bioregulator peptide from BioPeptide (CAS 3918-84-1). High-purity research peptide supplied for laboratory studies on urogenital epithelial signaling, tissue-specific peptide regulation, and cellular homeostasis pathways. ≥99% HPLC purity. For Research Use Only.",
+
+  keywords: [
+    "Vesilute",
+    "Vesilute 20mg",
+    "Vesilute bioregulator",
+    "CAS 3918-84-1",
+    "urogenital bioregulator peptide",
+    "epithelial signaling research",
+    "cellular homeostasis peptide",
+    "organ specific bioregulators",
+    "BioPeptide bioregulators"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/vesilute-20mg-bioregulator"
+}
+
 },
 {
   id: "vesugen-20mg-bioregulator",
@@ -8366,7 +8876,32 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/vesugen.png"
+  image: "/product/peptides/vesugen.png",
+  seo: {
+  title:
+    "Vesugen 20mg Research Peptide | Vascular Bioregulator – BioPeptide USA",
+
+  description:
+    "Buy Vesugen 20mg bioregulator peptide from BioPeptide USA. High-purity synthetic vascular research peptide studied for endothelial signaling, microcirculation regulation, and vascular homeostasis pathways. ≥99% HPLC purity. CAS not assigned. For Research Use Only.",
+
+  keywords: [
+    "Vesugen",
+    "Vesugen 20mg",
+    "Vesugen bioregulator",
+    "vascular bioregulator peptide",
+    "endothelial signaling research",
+    "microcirculation peptide",
+    "vascular homeostasis research",
+    "organ specific bioregulators",
+    "BioPeptide bioregulators USA"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/vesugen-20mg-bioregulator"
+}
+
 },
 {
   id: "vialox-pentapeptide-3v-200mg-topical",
@@ -8401,7 +8936,32 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/vialox.png"
+  image: "/product/cosmeticpeptides/vialox.png",
+  seo: {
+  title:
+    "Buy Vialox (Pentapeptide-3V) 200mg Topical | CAS 135679-88-8 | BioPeptide",
+
+  description:
+    "Buy Vialox (Pentapeptide-3V) 200mg topical research peptide from BioPeptide. CAS 135679-88-8. High-purity peptide studied for neuromuscular signaling, nicotinic acetylcholine receptor (nAChR) modulation, and peptide–receptor interaction research. ≥99% HPLC purity. US lab supply. For Research Use Only.",
+
+  keywords: [
+    "Vialox",
+    "Pentapeptide-3V",
+    "Vialox 200mg",
+    "CAS 135679-88-8",
+    "neuromuscular signaling peptide",
+    "nAChR modulation research",
+    "cosmetic neuropeptide research",
+    "topical research peptides",
+    "BioPeptide USA"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/vialox-pentapeptide-3v-200mg-topical"
+}
+
 },
 {
   id: "vilon-20mg",
@@ -8436,7 +8996,32 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/vilon.png"
+  image: "/product/peptides/vilon.png",
+  seo: {
+  title:
+    "Vilon 20mg Research Peptide | Thymic Bioregulator | CAS 45234-02-4 | BioPeptide USA",
+
+  description:
+    "Purchase Vilon 20mg thymic bioregulator research peptide from BioPeptide (CAS 45234-02-4). High-purity synthetic peptide studied in laboratory models for gene regulation, cell cycle control, immune signaling, and peptide-mediated bioregulation pathways. ≥99% HPLC purity. US laboratory supply. For Research Use Only.",
+
+  keywords: [
+    "Vilon",
+    "Vilon 20mg",
+    "Vilon bioregulator",
+    "thymic bioregulator peptide",
+    "CAS 45234-02-4",
+    "gene regulation peptide research",
+    "cell cycle control peptide",
+    "immune bioregulator research",
+    "BioPeptide bioregulators USA"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/vilon-20mg"
+}
+
 },
 {
   id: "vip-6mg",
@@ -8471,7 +9056,33 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/vip.png"
+  image: "/product/peptides/vip.png",
+  seo: {
+  title:
+    "VIP 6mg Vasoactive Intestinal Peptide | CAS 37221-79-7 | BioPeptide",
+
+  description:
+    "BioPeptide VIP 6mg (Vasoactive Intestinal Peptide, CAS 37221-79-7) is a 28-amino-acid neuropeptide supplied for experimental research on VPAC1/VPAC2 receptor activation, cAMP-mediated signaling, neurovascular regulation, and peptide-driven vascular homeostasis pathways. ≥99% HPLC purity. For Research Use Only.",
+
+  keywords: [
+    "VIP peptide",
+    "Vasoactive Intestinal Peptide",
+    "VIP 6mg",
+    "CAS 37221-79-7",
+    "VPAC1 receptor research",
+    "VPAC2 receptor research",
+    "cAMP signaling peptide",
+    "neuropeptide research",
+    "vascular homeostasis peptide",
+    "BioPeptide USA"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/vip-6mg"
+}
+
 }
 
 
