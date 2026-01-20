@@ -81,9 +81,9 @@ const t = {
 
 
   /* ⭐ ALWAYS SCROLL TO TOP WHEN PAGE LOADS */
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   /* ⭐ Loader Animation */
   useEffect(() => {

@@ -178,7 +178,7 @@ export default function Hero() {
                   priority
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 80vw, 700px"
                   className="
-                    object-contain
+                    object-cover
                     scale-[1.15]
 sm:scale-[1.25]
 md:scale-[1.4]

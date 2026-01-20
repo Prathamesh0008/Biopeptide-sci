@@ -10,6 +10,8 @@ import {
   FaTruck,
   FaMapMarkerAlt,
 } from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaXTwitter } from "react-icons/fa6";
+
 
 export default function Footer() {
   const { translations } = useLanguage();
@@ -115,6 +117,50 @@ export default function Footer() {
             <p className="text-sm text-gray-600 leading-relaxed max-w-md">
               {t("brand.description")}
             </p>
+
+
+            {/* SOCIAL MEDIA */}
+<div className="flex items-center gap-4 pt-3">
+  <a
+    href="https://www.instagram.com/bio__peptides/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+    className="w-9 h-9 flex items-center justify-center rounded-full
+               border border-gray-300 text-gray-600
+               hover:bg-bioBlue hover:text-white hover:border-bioBlue
+               transition"
+  >
+    <FaInstagram />
+  </a>
+
+  <a
+    href="https://www.facebook.com/profile.php?id=61586630921496&ref=pl_edit_ig_profile_ac"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Facebook"
+    className="w-9 h-9 flex items-center justify-center rounded-full
+               border border-gray-300 text-gray-600
+               hover:bg-bioBlue hover:text-white hover:border-bioBlue
+               transition"
+  >
+    <FaFacebookF />
+  </a>
+
+  <a
+    href="TWITTER_X_LINK"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="X (Twitter)"
+    className="w-9 h-9 flex items-center justify-center rounded-full
+               border border-gray-300 text-gray-600
+               hover:bg-bioBlue hover:text-white hover:border-bioBlue
+               transition"
+  >
+    <FaXTwitter />
+  </a>
+</div>
+
           </div>
 
           {/* LINKS GRID */}

@@ -18,7 +18,15 @@ export default function PeptideResearchArticlePage({ params }) {
   );
 }
 
-
+  // return (
+  //   <>
+  //     <Navbar />
+  //     <main className="min-h-screen bg-white flex items-center justify-center">
+  //       <Loader />
+  //     </main>
+  //     <Footer />
+  //   </>
+  // );
 
 
 
@@ -39,7 +47,17 @@ export default function PeptideResearchArticlePage({ params }) {
 //   // ✅ REQUIRED IN NEXT 16
 //   const { slug } = use(params);
 //   const { translations, loading } = useLanguage();
-// if (loading) return null;
+// if (loading) {
+  // return (
+  //   <>
+  //     <Navbar />
+  //     <main className="min-h-screen bg-white flex items-center justify-center">
+  //       <Loader />
+  //     </main>
+  //     <Footer />
+  //   </>
+  // );
+
 
 // const article = translations.research[slug];
 

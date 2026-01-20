@@ -8,13 +8,25 @@ import Breadcrumbs from "../../../components/Breadcrumbs";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useParams } from "next/navigation"; // ✅ IMPORTANT
 import PeptideInfoSubNav from "@/components/PeptideInfoSubNav";
+import Loader from "@/components/Loader";
+
 
 export default function ArticleDetailPage() {
   // ✅ Correct way in Client Components
   const { slug } = useParams();
 
   const { translations, loading } = useLanguage();
-  if (loading) return null;
+  if (loading) {
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-white flex items-center justify-center">
+        <Loader />
+      </main>
+      <Footer />
+    </>
+  );
+}
 
   const article = translations?.peptideInfo?.articles?.[slug];
 

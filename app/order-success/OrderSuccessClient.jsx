@@ -4,6 +4,8 @@
 import { useEffect } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
+import Loader from "@/components/Loader";
+
 
 export default function OrderSuccessClient() {
   const params = useSearchParams();
@@ -22,7 +24,17 @@ export default function OrderSuccessClient() {
     localStorage.removeItem("bio-checkout-id");
   }, []);
 
-  if (loading) return null;
+  if (loading) {
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-white flex items-center justify-center">
+        <Loader />
+      </main>
+      <Footer />
+    </>
+  );
+}
 
   const t = translations.orderSuccess;
 

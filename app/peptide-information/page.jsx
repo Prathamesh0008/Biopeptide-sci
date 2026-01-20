@@ -11,11 +11,23 @@ import PeptideInfoSubNav from "@/components/PeptideInfoSubNav";
 import PeptideInfoLeftSidebar from "@/components/PeptideInfoLeftSidebar";
 import DrawerProducts from "@/components/DrawerProducts";
 import { useState } from "react";
+import Loader from "@/components/Loader";
+
 
 
 export default function PeptideInformationPage() {
   const { translations, loading } = useLanguage();
-  if (loading) return null;
+  if (loading) {
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-white flex items-center justify-center">
+        <Loader />
+      </main>
+      <Footer />
+    </>
+  );
+}
 
   const articles = translations.peptideInfo.articles;
   const [query, setQuery] = useState("");

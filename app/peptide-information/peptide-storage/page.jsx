@@ -141,11 +141,23 @@ import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import PeptideInfoSubNav from "@/components/PeptideInfoSubNav";
 import { useLanguage } from "@/contexts/LanguageContext";
+import Loader from "@/components/Loader";
+
 
 export default function PeptideStoragePage() {
   const { translations, loading } = useLanguage();
 
-  if (loading) return null;
+  if (loading) {
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-white flex items-center justify-center">
+        <Loader />
+      </main>
+      <Footer />
+    </>
+  );
+}
 
   const t =
     translations?.peptideInformation?.peptideStorage;

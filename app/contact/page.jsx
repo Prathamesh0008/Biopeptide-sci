@@ -8,6 +8,8 @@ import Breadcrumbs from "../../components/Breadcrumbs";
 import { useLanguage } from "@/contexts/LanguageContext";
 import DrawerProducts from "@/components/DrawerProducts";
 import { useState } from "react";
+import Loader from "@/components/Loader";
+
 
 export default function ContactPage() {
   const { translations, loading } = useLanguage();
@@ -56,7 +58,17 @@ export default function ContactPage() {
     }
   };
 
-  if (loading) return null;
+  if (loading) {
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-white flex items-center justify-center">
+        <Loader />
+      </main>
+      <Footer />
+    </>
+  );
+}
 
   return (
     <>

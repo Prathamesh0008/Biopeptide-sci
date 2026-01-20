@@ -3,6 +3,7 @@
 
 import { useState, useEffect } from "react";
 
+import Loader from "../../components/Loader";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
@@ -12,6 +13,8 @@ import { PRODUCTS } from "@/data/products";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { useLanguage } from "@/contexts/LanguageContext";
 import AllPeptidesCategorySlider from "@/components/AllPeptidesCategorySlider";
+
+
 
 export default function AllPeptidesPage() {
   const { translations, loading } = useLanguage();
@@ -23,11 +26,21 @@ export default function AllPeptidesPage() {
       ? PRODUCTS
       : PRODUCTS.filter(p => p.category === activeCategory);
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
-  if (loading) return null;
+  if (loading) {
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-white flex items-center justify-center">
+        <Loader />
+      </main>
+      <Footer />
+    </>
+  );
+}
 
   return (
     <>

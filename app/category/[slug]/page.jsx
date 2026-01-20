@@ -47,9 +47,9 @@ export default function CategoryPage() {
     if (newSlug) router.push(`/category/${newSlug}`);
   };
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [slug]);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, [slug]);
 
   return (
     <>

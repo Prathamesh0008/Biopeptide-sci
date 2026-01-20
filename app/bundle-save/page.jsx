@@ -47,11 +47,22 @@ export default function BundleSavePage() {
             normalize(p.category) === normalize(activeCategory)
         );
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
-  if (loading) return null;
+  if (loading) {
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-white flex items-center justify-center">
+        <Loader />
+      </main>
+      <Footer />
+    </>
+  );
+}
+
 
   return (
     <>
@@ -84,7 +95,7 @@ export default function BundleSavePage() {
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
 
       <main className="min-h-screen bg-white">
-        {loading && <Loader />}
+        {/* {loading && <Loader />} */}
 
         <div
           className="

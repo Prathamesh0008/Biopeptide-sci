@@ -12,10 +12,22 @@ import Footer from "@/components/Footer";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { useLanguage } from "@/contexts/LanguageContext";
 import AllPeptidesCategorySlider from "@/components/AllPeptidesCategorySlider";
+import Loader from "@/components/Loader";
 
 export default function PopularPeptidesPage() {
   const { translations, loading } = useLanguage();
-  if (loading) return null;
+  if (loading) {
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-white flex items-center justify-center">
+        <Loader />
+      </main>
+      <Footer />
+    </>
+  );
+}
+
 
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [activeCategory, setActiveCategory] = useState("All");

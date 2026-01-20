@@ -15,7 +15,7 @@
   image:"/product/peptides/bpc157_5.png",
 
    seo: {
-    title: "Buy BPC-157 Peptide 5mg – CAS 137525-51-0 | BioPeptide",
+    title: "Buy BPC-157 Peptide 5mg – CAS 137525-51-0 |",
     description:
       "Buy BPC-157 5mg research peptide (CAS 137525-51-0) from BioPeptide. ≥99% HPLC purity. Studied for angiogenic signaling, cytoprotection, nitric oxide pathways, and extracellular matrix remodeling in regenerative research. For Research Use Only.",
     keywords: [
@@ -36,7 +36,7 @@
 
  {
   id: "bpc-tb500-glow-blend",
-  slug: "bpc-tb500-glow-blend",
+  slug: "bpc-157-tb-500-blend",
   name: "Glow Blend (BPC-157 + TB-500)",
   category: "Peptide Blends",
   cas:"137525-51-0, 77591-33-4",
@@ -49,7 +49,7 @@
 
   seo: {
     title:
-      "Buy BPC-157 TB-500 Blend 20mg | BioPeptide | CAS 137525-51-0, 77591-33-4",
+      "Buy BPC-157 TB-500 Blend 20mg | CAS 137525-51-0, 77591-33-4",
 
     description:
       "Buy BioPeptide BPC-157 & TB-500 peptide blend (20mg total). CAS 137525-51-0 (BPC-157) and 77591-33-4 (TB-500). Researched for tissue repair, angiogenesis, and cellular recovery. ≥99% HPLC purity. Research use only.",
@@ -66,7 +66,7 @@
     ],
 
     canonical:
-      "https://www.bio-peptides.com/product/bpc-tb500-glow-blend",
+      "https://www.bio-peptides.com/product/bpc-157-tb-500-blend",
 
     robots: "index, follow"
   }
@@ -84,7 +84,6 @@
 
   strength: "Small-molecule NNMT inhibitor formulated for metabolic and cellular energy research.",
 
-  cas: "42464-96-0",
   size: "50mg x 60 capsules",
   purity: "≥ 99% (HPLC)",
 
@@ -136,14 +135,14 @@
   slug: "aod9604-5mg",
   name: "AOD9604 5mg",
   category: "Popular Peptides",
-  cas:"386264-39-7",
+  
 
   price: 200.0,
 
   strength:
     "Synthetic growth hormone fragment peptide studied in metabolic signaling and adipocyte research models.",
 
-  cas: "221231-10-3",
+  cas:"386264-39-7",
   size: "5mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -166,7 +165,7 @@
 
   image: "/product/peptides/aod-9604.png",
   seo: {
-    title: "Buy AOD-9604 6mg Anti-Obesity Peptide – CAS 386264-39-7 | BioPeptide",
+    title: "Buy AOD-9604 6mg Anti-Obesity Peptide – CAS 386264-39-7 |",
 
     description:
       "Purchase AOD-9604 6mg from BioPeptide. High-purity research peptide (CAS 386264-39-7) derived from HGH fragment 177-191, used in metabolic, adipocyte differentiation, and energy regulation research. Research Use Only.",
@@ -196,14 +195,14 @@
   slug: "ghk-cu-2mg",
   name: "GHK-Cu 2mg",
   category: "Cosmetic Peptides",
-  cas:"89030-95-5",
+  
 
   price: 180.0,
 
   strength:
     "Copper-binding cosmetic research peptide studied for dermal signaling, extracellular matrix interaction, and skin biology models.",
 
-  cas: "49557-75-7",
+ cas:"89030-95-5",
   size: "2mg vial",
   purity: "≥ 98%",
 
@@ -287,7 +286,7 @@
   image: "/product/cosmeticpeptides/acetyl.png",
   seo: {
   title:
-    "Acetyl Hexapeptide-3 (Argireline) 200mg Topical | CAS 616204-22-9 | BioPeptide",
+    "Acetyl Hexapeptide-3 (Argireline) 200mg Topical | CAS 616204-22-9 |",
 
   description:
     "Buy Acetyl Hexapeptide-3 (Argireline) 200mg topical research peptide from BioPeptide. CAS 616204-22-9. A SNAP-25 analog supplied for laboratory and cosmetic formulation research involving SNARE complex modulation, neuromuscular signaling pathways, and peptide–protein interaction studies. ≥99% HPLC purity. For Research Use Only.",
@@ -347,7 +346,7 @@
   image: "/product/cosmeticpeptides/ahk.png",
   seo: {
   title:
-    "Buy AHK (Tripeptide-3) 200mg Topical | CAS 158563-45-2 | BioPeptide USA",
+    "Buy AHK (Tripeptide-3) 200mg Topical | CAS 158563-45-2 | USA",
 
   description:
     "Order AHK Tripeptide-3 200mg topical peptide for laboratory and cosmetic research. High-purity tripeptide studied for collagen remodeling, TGF-β pathways, and peptide–protein interactions. CAS 158563-45-2. US-compliant research use only.",
@@ -377,14 +376,14 @@
   slug: "ahk-cu-200mg",
   name: "AHK-Cu 200mg (Topical)",
   category: "Cosmetic Peptides",
+  cas:"682809-81-0",
 
   price: 200.0,
 
   strength:
     "Copper-linked tripeptide complex studied in cosmetic and dermal signaling research models.",
 
-  // CAS is not shown on the source page snippet we pulled; keep it blank to avoid wrong data.
-  cas: "N/A",
+  
 
   size: "200mg (Topical)",
   purity: "≥ 99%",
@@ -415,7 +414,7 @@
   image: "/product/cosmeticpeptides/ahkcu.png",
   seo: {
   title:
-    "Order AHK-Cu 200mg Topical | Copper Peptide | CAS 682809-81-0 | BioPeptide",
+    "Order AHK-Cu 200mg Topical | Copper Peptide | CAS 682809-81-0 |",
 
   description:
     "AHK-Cu is a copper-bound tripeptide used in skin biology and cosmetic formulation research involving extracellular matrix remodeling and redox signaling. Manufactured by BioPeptide to ≥99% HPLC purity. CAS 682809-81-0. RUO compliant.",
@@ -445,13 +444,13 @@
   slug: "aod9604-6mg",
   name: "AOD9604 6mg",
   category: "Popular Peptides",
-
+ 
   price: 230.0,
 
   strength:
     "Synthetic growth hormone fragment peptide studied in metabolic signaling and adipocyte research models.",
 
-  cas: "221231-10-3",
+cas:"386264-39-7",
   size: "6mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -475,7 +474,7 @@
   image: "/product/peptides/aod-9604.png",
   seo: {
   title:
-    "Buy AOD-9604 6mg Anti-Obesity Peptide – CAS 386264-39-7 | BioPeptide",
+    "Buy AOD-9604 6mg Anti-Obesity Peptide – CAS 386264-39-7 |",
 
   description:
     "Purchase AOD-9604 6mg from BioPeptide. High-purity research peptide (CAS 386264-39-7) derived from HGH fragment 177–191, used in metabolic, adipocyte differentiation, and energy regulation research. Research Use Only.",
@@ -495,7 +494,7 @@
   robots: "index, follow",
 
   canonical:
-    "https://www.bio-peptides.com/product/ahk-tripeptide-3-200mg"
+    "https://www.bio-peptides.com/product/aod9604-6mg"
 }
 
 },
@@ -535,7 +534,7 @@
   image: "/product/peptides/bpc157_10.png",
   seo: {
   title:
-    "BPC-157 Body Protection Compound 10mg | BioPeptide",
+    "BPC-157 Body Protection Compound 10mg |",
 
   description:
     "BioPeptide offers BPC-157 peptide 10mg (CAS 137525-51-0) in lyophilized form for maximum stability. ≥99% HPLC purity. Designed for experimental research on cellular repair, growth-factor expression, and angiogenic modulation. For Research Use Only.",
@@ -594,7 +593,7 @@
   image: "/product/peptides/bpc157_15.png",
   seo: {
   title:
-    "Buy BPC-157 Peptide 15mg – CAS 137525-51-0 | BioPeptide",
+    "Buy BPC-157 Peptide 15mg – CAS 137525-51-0 |",
 
   description:
     "Buy BPC-157 lyophilized research peptide 15mg (CAS 137525-51-0) from BioPeptide. ≥99% HPLC purity. Studied for nitric oxide signaling, angiogenesis, cytoprotection, and extracellular matrix remodeling. For Research Use Only.",
@@ -623,6 +622,7 @@
   slug: "bpc-157-tb-500-blend-10mg",
   name: "BPC-157 + TB-500 Blend 10mg",
   category: "Peptide Blends",
+  cas:" 137525-51-0, 77591-33-4",
 
   price: 195.0,
 
@@ -657,7 +657,7 @@
   image: "/product/peptide blends/bpctbblend10mg.png",
   seo: {
   title:
-    "Buy BPC-157 TB-500 Blend 10mg | BioPeptide | CAS 137525-51-0, 77591-33-4",
+    "Buy BPC-157 TB-500 Blend 10mg | CAS 137525-51-0, 77591-33-4",
 
   description:
     "Buy BioPeptide BPC-157 & TB-500 blend (10mg total). CAS 137525-51-0 (BPC-157) and 77591-33-4 (TB-500). Researched for tissue repair, angiogenesis, and cellular recovery. 99% HPLC purity. USA lab supply. Research use only.",
@@ -686,6 +686,7 @@
   slug: "bpc-157-tb-500-blend-20mg",
   name: "BPC-157 + TB-500 Blend 20mg",
   category: "Peptide Blends",
+  cas:"137525-51-0 & 77591-33-4",
 
   price: 315.0,
 
@@ -720,7 +721,7 @@
   image: "/product/peptide blends/bpctbblend20mg.png",
   seo: {
   title:
-    "BPC-157 & TB-500 Blend 20mg | BioPeptide | Research Peptides USA",
+    "BPC-157 & TB-500 Blend 20mg | Research Peptides USA",
 
   description:
     "Order BioPeptide BPC-157 / TB-500 blend (20mg total) for regenerative biology research. Features BPC-157 (CAS 137525-51-0) and TB-500 (CAS 77591-33-4). Studied for wound modulation, angiogenesis, and cytoskeletal remodeling. RUO compliant.",
@@ -750,6 +751,7 @@
   slug: "bpc-157-tb-500-blend-30mg",
   name: "BPC-157 + TB-500 Blend 30mg",
   category: "Peptide Blends",
+  cas:"137525-51-0, 77591-33-4, and 89030-95-5",
 
   price: 315.0,
 
@@ -784,7 +786,7 @@
   image: "/product/peptide blends/bpctbghkcublend30mg.png",
   seo: {
   title:
-    "BPC-157 TB-500 GHK-Cu Glow Blend | BioPeptide | Research Peptides",
+    "BPC-157 TB-500 GHK-Cu Glow Blend | Research Peptides",
 
   description:
     "BioPeptide Glow Blend features BPC-157, TB-500, and GHK-Cu in a single high-purity research formulation. CAS 137525-51-0, 77591-33-4, and 89030-95-5. Investigated for nitric oxide signaling, actin remodeling, angiogenesis, and peptide–metal interactions. RUO compliant.",
@@ -815,6 +817,7 @@
   slug: "bpc-157-tb-500-blend-60mg",
   name: "BPC-157 + TB-500 Blend 60mg",
   category: "Peptide Blends",
+  cas:"137525-51-0, 77591-33-4, and 89030-95-5",
 
   price: 315.0,
 
@@ -849,7 +852,7 @@
   image: "/product/peptide blends/bpctbghkcublend60mg.png",
   seo: {
   title:
-    "Buy BPC-157 TB-500 GHK-Cu Glow Blend 60mg | BioPeptide | CAS Listed",
+    "Buy BPC-157 TB-500 GHK-Cu Glow Blend 60mg | CAS Listed",
 
   description:
     "Order BioPeptide Glow Blend 60mg featuring BPC-157 (CAS 137525-51-0), TB-500 (CAS 77591-33-4), and GHK-Cu (CAS 89030-95-5). High-purity research peptide blend studied for cellular repair, angiogenesis, extracellular matrix remodeling, and redox signaling. 99% HPLC. Research use only.",
@@ -880,6 +883,7 @@
   slug: "bpc-157-tb-500-kpv-ghk-cu-80mg-klow-blend",
   name: "klow Blend (BPC-157 + TB-500 + KPV + GHK-Cu) 80mg",
   category: "Peptide Blends",
+  cas:"137525-51-0, 77591-33-4, 112965-21-6 & 89030-95-5",
 
   price: 495.0,
 
@@ -982,7 +986,7 @@
   image: "/product/peptides/bronchogen.png",
   seo: {
   title:
-    "Buy Bronchogen 20mg Bioregulator Peptide | BioPeptide",
+    "Buy Bronchogen 20mg Bioregulator Peptide |",
 
   description:
     "BioPeptide supplies Bronchogen 20mg bioregulator peptide with ≥99% HPLC purity. Designed for laboratory research on pulmonary peptide regulation, airway cell gene expression, epithelial balance, and respiratory oxidative stress mechanisms. For Research Use Only.",
@@ -1044,7 +1048,7 @@
   image: "/product/peptides/cardiogen.png",
   seo: {
   title:
-    "Buy Cardiogen 20mg Bioregulator Peptide | BioPeptide",
+    "Buy Cardiogen 20mg Bioregulator Peptide |",
 
   description:
     "BioPeptide supplies Cardiogen 20mg bioregulator peptide with ≥99% HPLC purity. Developed for experimental research on myocardial adaptation, mitochondrial energy balance, calcium homeostasis, and peptide-mediated cardiac stress mechanisms. For Research Use Only.",
@@ -1107,7 +1111,7 @@
   image: "/product/peptides/cartalax.png",
   seo: {
   title:
-    "Buy Cartalax 20mg Bioregulator USA | BioPeptide Research Supply",
+    "Buy Cartalax 20mg Bioregulator USA | Research Supply",
 
   description:
     "BioPeptide offers Cartalax 20mg bioregulator to U.S. research labs with ≥99% HPLC purity. Designed for experimental studies on cartilage metabolism, collagen turnover, and connective tissue homeostasis. Reliable U.S. fulfillment. For Research Use Only.",
@@ -1136,13 +1140,14 @@
   slug: "adipotide-ftpp-10mg",
   name: "Adipotide (FTPP) 10mg",
   category: "Popular Peptides",
+  
 
   price: 295.0,
 
   strength:
     "Synthetic peptide studied in laboratory research for its interaction with adipose tissue signaling and vascular targeting models.",
 
-  cas: "N/A",
+ cas:"859216-15-2",
   size: "10mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -1166,7 +1171,7 @@
   image: "/product/peptides/adipotide.png",
   seo: {
   title:
-    "Buy Adipotide FTPP 10mg – CAS 859216-15-2 | BioPeptide",
+    "Buy Adipotide FTPP 10mg – CAS 859216-15-2 |",
 
   description:
     "Buy Adipotide (FTPP) 10mg from BioPeptide. High-purity research peptide (CAS 859216-15-2) designed for laboratory studies on adipose tissue metabolism, vascular remodeling, and receptor-mediated apoptosis pathways. Research Use Only.",
@@ -1197,12 +1202,13 @@
   name: "AICAR 50mg",
   category: "Popular Peptides",
 
+
   price: 265.0,
 
   strength:
     "Synthetic adenosine analog peptide studied in cellular energy regulation and metabolic signaling research models.",
 
-  cas: "2627-69-2",
+   cas:"3031-94-5",
   size: "50mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -1226,7 +1232,7 @@
   image: "/product/peptides/50mg_aicar.png",
   seo: {
   title:
-    "Buy AICAR 50mg – AMPK Activator (CAS 3031-94-5) | BioPeptide",
+    "Buy AICAR 50mg – AMPK Activator (CAS 3031-94-5) |",
 
   description:
     "Buy AICAR 50mg research compound (5-Aminoimidazole-4-carboxamide ribonucleotide, CAS 3031-94-5) from BioPeptide. ≥99% HPLC purity. Studied for AMPK activation, mitochondrial biogenesis, and metabolic signaling research.",
@@ -1254,13 +1260,14 @@
   slug: "ara-290-16mg",
   name: "ARA-290 16mg",
   category: "Popular Peptides",
+  
 
   price: 285.0,
 
   strength:
     "Synthetic peptide studied in laboratory research for its interaction with erythropoietin-derived receptor signaling pathways.",
 
-  cas: "N/A",
+cas:"1208243-50-8",
   size: "16mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -1284,7 +1291,7 @@
   image: "/product/peptides/ara-290.png",
   seo: {
   title:
-    "Buy ARA-290 16mg Peptide – CAS 1208243-50-8 | BioPeptide",
+    "Buy ARA-290 16mg Peptide – CAS 1208243-50-8 |",
 
   description:
     "Buy ARA-290 16mg research peptide from BioPeptide. ≥99% HPLC purity. Studied for tissue protection signaling, inflammatory modulation pathways, and non-erythropoietic peptide research without hematopoietic activity. For Research Use Only.",
@@ -1343,7 +1350,7 @@
   image: "/product/peptides/b7-33.png",
   seo: {
   title:
-    "B7-33 Relaxin Receptor Agonist 6mg | BioPeptide",
+    "B7-33 Relaxin Receptor Agonist 6mg |",
 
   description:
     "Buy B7-33 research peptide 6mg from BioPeptide with ≥99% HPLC purity. Relaxin family peptide analog studied for RXFP1 activation, ERK1/2 signaling, nitric oxide pathways, and cytoprotective receptor biology research. For Research Use Only.",
@@ -1372,6 +1379,7 @@
   slug: "chonluten-20mg-bioregulator",
   name: "Chonluten® 20mg (Bioregulator)",
   category: "Bioregulators",
+  cas:"75007-24-8",
 
   price: 145.0,
 
@@ -1435,6 +1443,7 @@
   slug: "cjc-1295-ghrp-2-10mg-blend",
   name: "CJC-1295 + GHRP-2 Blend 10mg",
   category: "Peptide Blends",
+  cas:"446262-90-4 & 158861-67-7",
 
   price: 295.0,
 
@@ -1467,31 +1476,32 @@
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
   image: "/product/peptide blends/cjcghrp2blend10mg.png",
-  seo: {
+ seo: {
   title:
-    "Chonluten Bioregulator 20mg (CAS 75007-24-8) | U.S. Research – BioPeptide",
+    "Buy CJC-1295 (No DAC) & GHRP-2 10mg Blend (CAS 446262-90-4 & 158861-67-7) |",
 
   description:
-    "Buy Chonluten 20mg bioregulator (CAS 75007-24-8) in the USA from BioPeptide. ≥99% HPLC-purified lung-derived peptide complex studied for respiratory gene expression, epithelial regeneration, and oxidative response pathways. Fast U.S. shipping. For Research Use Only.",
+    "Buy CJC-1295 (No DAC, CAS 446262-90-4) with GHRP-2 (CAS 158861-67-7) 10mg peptide blend from BioPeptide. Studied for growth hormone release, cAMP-PKA signaling, calcium-mediated secretion, and hypothalamic–pituitary pathway research. For Research Use Only.",
 
   keywords: [
-    "Chonluten",
-    "Chonluten peptide",
-    "Chonluten 20mg",
-    "Chonluten bioregulator",
-    "CAS 75007-24-8",
-    "lung bioregulator peptide research",
-    "respiratory gene expression research",
-    "epithelial regeneration peptide studies",
-    "oxidative response pathway research",
-    "BioPeptide bioregulators USA"
+    "CJC-1295 No DAC",
+    "GHRP-2",
+    "CJC-1295 GHRP-2 blend",
+    "CJC-1295 GHRP-2 10mg",
+    "CAS 446262-90-4",
+    "CAS 158861-67-7",
+    "growth hormone release research",
+    "cAMP PKA signaling studies",
+    "hypothalamic pituitary research",
+    "BioPeptide peptide blend USA"
   ],
 
   robots: "index, follow",
 
   canonical:
-    "https://www.bio-peptides.com/product/chonluten-20mg-bioregulator"
+    "https://www.bio-peptides.com/product/cjc-1295-ghrp-2-10mg-blend"
 }
+
 
 },
 {
@@ -1499,6 +1509,7 @@
   slug: "cjc-1295-ghrp-6-10mg-blend",
   name: "CJC-1295 + GHRP-6 Blend 10mg",
   category: "Peptide Blends",
+  cas:"446262-90-4 & CAS#: 87616-84-0 ",
 
   price: 295.0,
 
@@ -1530,10 +1541,10 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/cjchexarelinblend10mg.png",
+  image: "/product/peptide blends/cjcghrp6blend10mg.png",
   seo: {
   title:
-    "CJC-1295 (CAS 446262-90-4), GHRP-6 (CAS 87616-84-0) 10mg Blend | BioPeptide",
+    "CJC-1295 (CAS 446262-90-4), GHRP-6 (CAS 87616-84-0) 10mg Blend |",
 
   description:
     "CJC-1295 no DAC (CAS 446262-90-4) combined with GHRP-6 (CAS 87616-84-0) in a 10mg research peptide blend. Studied for synergistic growth hormone signaling via GHRH and ghrelin (GHS-R1a) receptor pathways. 99% HPLC purity. Research use only.",
@@ -1564,6 +1575,7 @@
   slug: "cjc-1295-hexarelin-10mg-blend",
   name: "CJC-1295 + Hexarelin Blend 10mg",
   category: "Peptide Blends",
+  cas:"446262-90-4 & 140703-51-1",
 
   price: 305.0,
 
@@ -1598,7 +1610,7 @@
   image: "/product/peptide blends/cjchexarelinblend10mg.png",
   seo: {
   title:
-    "Buy CJC-1295 & Hexarelin 10mg | CAS 446262-90-4 & 140703-51-1 | BioPeptide",
+    "Buy CJC-1295 & Hexarelin 10mg | CAS 446262-90-4 & 140703-51-1 |",
 
   description:
     "CJC-1295 (CAS 446262-90-4) combined with Hexarelin (CAS 140703-51-1) in a 10mg research peptide blend. Studied for synergistic growth hormone signaling via GHRH receptor activation and GHS-R1a–mediated calcium release. 99% HPLC purity. Research use only.",
@@ -1629,6 +1641,7 @@
   slug: "cjc1295-ipamorelin-ghrp-2-blend",
   name: "CJC-1295 + Ipamorelin + GHRP-2 Blend",
   category: "Peptide Blends",
+  cas:"446262-90-4, 170851-70-4 & 158861-67-7",
 
   price: 345.0,
 
@@ -1664,7 +1677,7 @@
   image: "/product/peptide blends/cjcipamorelinghrp2blend10mg.png",
  seo: {
   title:
-    "CJC-1295 (CAS 446262-90-4) Ipamorelin (CAS 170851-70-4) GHRP-2 (CAS 158861-67-7) | BioPeptide",
+    "CJC-1295 (CAS 446262-90-4) Ipamorelin (CAS 170851-70-4) GHRP-2 (CAS 158861-67-7) |",
 
   description:
     "CJC-1295 (CAS 446262-90-4), Ipamorelin (CAS 170851-70-4), and GHRP-2 (CAS 158861-67-7) combined in a 9mg research peptide blend. Studied for GH pulsatility, GHRH and ghrelin receptor synergy, and hypothalamic–pituitary signaling. 99% HPLC purity. Research use only.",
@@ -1687,7 +1700,7 @@
   robots: "index, follow",
 
   canonical:
-    "https://www.bio-peptides.com/product/cjc-1295-ipamorelin-10mg-blend"
+    "https://www.bio-peptides.com/product/cjc1295-ipamorelin-ghrp-2-bled"
 }
 
 
@@ -1697,6 +1710,7 @@
   slug: "cjc-1295-ipamorelin-10mg-blend",
   name: "CJC-1295 + Ipamorelin Blend 10mg",
   category: "Peptide Blends",
+  cas:"446262-90-4 & 170851-70-4",
 
   price: 315.0,
 
@@ -1728,10 +1742,10 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/cjchexarelinblend10mg.png",
+  image: "/product/peptide blends/cjcipamorelinblend10mg_1.png",
    seo: {
   title:
-    "CJC-1295 (CAS 446262-90-4) Ipamorelin (CAS 170851-70-4) 10mg Blend | BioPeptide",
+    "CJC-1295 (CAS 446262-90-4) Ipamorelin (CAS 170851-70-4) 10mg Blend |",
 
   description:
     "CJC-1295 (No DAC, CAS 446262-90-4) and Ipamorelin (CAS 170851-70-4) combined in a 10mg research peptide blend. Studied for GHRH receptor signaling, GHS-R1a activation, and growth hormone pulsatility mechanisms. 99% HPLC purity. Research use only.",
@@ -1753,14 +1767,14 @@
   robots: "index, follow",
 
   canonical:
-    "https://www.bio-peptides.com/product/cjc1295-ipamorelin-ghrp-2-blend"
+    "https://www.bio-peptides.com/product/cjc-1295-ipamorelin-10mg-blend"
 }
 },
 
 {
   id: "mod-grf-1-29-5mg",
   slug: "mod-grf-1-29-cjc-1295-no-dac-5mg",
-  name: "Mod GRF 1-29 (CJC-1295 No DAC) 5mg",
+  name: "Mod GRF + GHRP-2 10mg (Blend)",
   category: "IGF-1 Proteins",
 
   price: 285.0,
@@ -1790,31 +1804,32 @@
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
   image: "/product/peptide blends/modgrfghrp2blend10mg.png",
-  seo: {
+seo: {
   title:
-    "CJC-1295 no DAC Mod GRF 1-29 5mg (CAS 863288-34-0) | USA – BioPeptide",
+    "Mod GRF (1-29) & GHRP-2 10mg Blend (CAS 863288-34-0 & 158861-67-7) |",
 
   description:
-    "Buy CJC-1295 no DAC (Mod GRF 1-29) 5mg (CAS 863288-34-0) in the USA from BioPeptide. ≥99% HPLC-purified research peptide studied for GHRH receptor activation, cAMP signaling, and peptide stability. Fast U.S. shipping. For Research Use Only.",
+    "Mod GRF 1-29 (CAS 863288-34-0) combined with GHRP-2 (CAS 158861-67-7) in a 10mg research peptide blend from BioPeptide. Studied for GHRH and ghrelin receptor signaling, cAMP/PKA activation, calcium-mediated growth hormone release, and endocrine pathway modeling. For Research Use Only.",
 
   keywords: [
-    "CJC-1295 no DAC",
     "Mod GRF 1-29",
-    "CJC-1295 Mod GRF 1-29",
-    "CJC-1295 no DAC 5mg",
+    "GHRP-2",
+    "Mod GRF GHRP-2 blend",
+    "Mod GRF 1-29 GHRP-2 10mg",
     "CAS 863288-34-0",
-    "GHRH receptor activation research",
-    "cAMP signaling peptide research",
-    "growth hormone releasing hormone research",
-    "peptide stability studies",
-    "BioPeptide CJC-1295"
+    "CAS 158861-67-7",
+    "GHRH receptor signaling research",
+    "ghrelin receptor pathway studies",
+    "cAMP PKA signaling peptide research",
+    "BioPeptide peptide blend USA"
   ],
 
   robots: "index, follow",
 
   canonical:
-    "https://www.bio-peptides.com/product/mod-grf-1-29-cjc-1295-no-dac-5mg"
+    "https://www.bio-peptides.com/product/mod-grf-ghrp-2-10mg-blend"
 }
+
 
 },
 {
@@ -1915,7 +1930,7 @@
   image: "/product/cosmeticpeptides/decapeptide.png",
   seo: {
   title:
-    "Buy Decapeptide-12 Topical Peptide | Pigmentation Research | BioPeptide USA",
+    "Buy Decapeptide-12 Topical Peptide | Pigmentation Research | USA",
 
   description:
     "Buy Decapeptide-12 topical research peptide from BioPeptide. Studied for tyrosinase inhibition and melanogenesis regulation in cosmetic science. ≥99% HPLC purity. U.S. shipping. For research use only.",
@@ -2033,7 +2048,7 @@
   image: "/product/peptides/dsip.png",
   seo: {
   title:
-    "Buy DSIP 5mg Peptide USA (CAS 62568-57-4) | BioPeptide",
+    "Buy DSIP 5mg Peptide USA (CAS 62568-57-4) |",
 
   description:
     "Buy DSIP (Delta Sleep-Inducing Peptide) 5mg (CAS 62568-57-4) in the USA from BioPeptide. ≥99% HPLC-purified neuropeptide studied for neuroendocrine regulation, circadian rhythm signaling, and stress-adaptation pathways. Fast U.S. shipping. For Research Use Only.",
@@ -2152,7 +2167,7 @@
   image: "/product/peptides/epithalon20mg.png",
   seo: {
   title:
-    "Buy Epithalon Epitalon 20mg Peptide USA (CAS 307297-39-8) | BioPeptide",
+    "Buy Epithalon Epitalon 20mg Peptide USA (CAS 307297-39-8) |",
 
   description:
     "Buy Epithalon (Epitalon) research peptide (CAS 307297-39-8) in the USA from BioPeptide. ≥99% HPLC-purified tetrapeptide studied for telomerase activity, circadian gene expression, oxidative regulation, and epigenetic signaling. Fast U.S. shipping. For Research Use Only.",
@@ -2242,13 +2257,14 @@
   slug: "fgl-s-10mg",
   name: "FGL-S 10mg",
   category: "Bioregulators",
+  cas:" 499993-62-3",
 
   price: 165.0,
 
   strength:
     "Synthetic neuroactive peptide studied in synaptic plasticity, neurotrophic signaling, and cognitive pathway research models.",
 
-  cas: "N/A",
+ 
   size: "10mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -2332,7 +2348,7 @@
   image: "/product/peptides/follistatin314.png",
   seo: {
   title:
-    "Buy Follistatin 315 1mg USA | BioPeptide Research Supply",
+    "Buy Follistatin 315 1mg USA | Research Supply",
 
   description:
     "Purchase Follistatin 315 (FST-315) 1mg from a trusted U.S. supplier. BioPeptide offers high-purity research peptide for laboratory studies on myostatin inhibition, Smad-dependent signaling, and peptide–growth factor interactions. Ships across the United States. Research Use Only.",
@@ -2451,7 +2467,7 @@
   image: "/product/peptides/fox04.png",
   seo: {
   title:
-    "Buy FOXO4-DRI Proxofim 10mg USA | BioPeptide Research Supply",
+    "Buy FOXO4-DRI Proxofim 10mg USA | Research Supply",
 
   description:
     "BioPeptide supplies FOXO4-DRI (Proxofim) 10mg to U.S. research labs. ≥99% HPLC purity. Designed for experimental research on senolytic mechanisms, p53 nuclear signaling, cellular aging, and longevity-related pathways. Reliable U.S. fulfillment. For Research Use Only.",
@@ -2480,6 +2496,7 @@
   slug: "fragment-cjc1295-ipamorelin-12mg-blend",
   name: "Fragment CJC-1295 + Ipamorelin Blend 12mg",
   category: "Peptide Blends",
+  cas:" 66004-57-7, 446262-90-4 & 170851-70-4",
 
   price: 210.0,
 
@@ -2512,36 +2529,33 @@
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
   image: "/product/peptide blends/fragmentcjcipamorelinblend12mg.png",
-  seo: {
+seo: {
   title:
-    "Fragment 176-191, Mod GRF & Ipamorelin 12mg Blend | BioPeptide",
+    "Fragment 176-191, CJC-1295 & Ipamorelin 12mg Blend (CAS 66004-57-7, 446262-90-4, 170851-70-4) |",
 
   description:
-    "Fragment 176-191 (CAS 66004-57-7), Modified GRF 1-29 (CAS 863288-34-0), and Ipamorelin (CAS 170851-70-4) combined in a 12mg research peptide blend. Studied for growth hormone dynamics, AMPK signaling, GHRH activation, and ghrelin receptor pathways. 99% HPLC purity. Research use only.",
+    "Order a 12mg research peptide blend featuring Fragment 176-191 (CAS 66004-57-7), CJC-1295 no DAC (CAS 446262-90-4), and Ipamorelin (CAS 170851-70-4) from BioPeptide. Studied for growth hormone axis coordination, metabolic signaling, and hypothalamic–pituitary pathway research. For Research Use Only.",
 
   keywords: [
     "Fragment 176-191",
-    "Fragment 176-191 peptide",
-    "Modified GRF 1-29",
-    "Mod GRF 1-29 peptide",
+    "CJC-1295 No DAC",
     "Ipamorelin",
-    "Fragment Mod GRF Ipamorelin blend",
+    "Fragment CJC-1295 Ipamorelin blend",
     "12mg peptide blend",
     "CAS 66004-57-7",
-    "CAS 863288-34-0",
+    "CAS 446262-90-4",
     "CAS 170851-70-4",
-    "growth hormone dynamics research",
-    "AMPK signaling peptide research",
-    "GHRH activation research",
-    "ghrelin receptor pathway research",
-    "BioPeptide peptide blends"
+    "growth hormone axis research",
+    "hypothalamic pituitary signaling studies",
+    "BioPeptide peptide blend USA"
   ],
 
   robots: "index, follow",
 
   canonical:
-    "https://www.bio-peptides.com/product/fragment-modified-grf-ipamorelin-12mg-blend"
+    "https://www.bio-peptides.com/product/fragment-cjc1295-ipamorelin-12mg-blend"
 }
+
 
 },
 {
@@ -2549,6 +2563,7 @@
   slug: "fragment-modified-grf-ipamorelin-12mg-blend",
   name: "Fragment Modified GRF + Ipamorelin Blend 12mg",
   category: "Peptide Blends",
+  cas:"66004-57-7, 863288-34-0 & 170851-70-4",
 
   price: 215.0,
 
@@ -2583,7 +2598,7 @@
   image: "/product/peptide blends/fragmentmodipamorelinblend12mg.png",
   seo: {
   title:
-    "Fragment 176-191, Mod GRF & Ipamorelin 12mg Blend | BioPeptide",
+    "Fragment 176-191, Mod GRF & Ipamorelin 12mg Blend |",
 
   description:
     "Fragment 176-191 (CAS 66004-57-7), Modified GRF 1-29 (CAS 863288-34-0), and Ipamorelin (CAS 170851-70-4) combined in a 12mg research peptide blend. Studied for growth hormone dynamics, AMPK signaling, GHRH activation, and ghrelin receptor pathways. 99% HPLC purity. Research use only.",
@@ -2648,7 +2663,7 @@
   image: "/product/cosmeticpeptides/ghkbasic.png",
   seo: {
   title:
-    "Buy GHK-Cu Copper Peptide Topical | CAS 89030-95-5 | BioPeptide USA",
+    "Buy GHK-Cu Copper Peptide Topical | CAS 89030-95-5 | USA",
 
   description:
     "Buy GHK-Cu (Copper Peptide) topical research peptide from BioPeptide. CAS 89030-95-5. Studied for collagen signaling, extracellular matrix regulation, and redox balance. ≥99% HPLC purity. U.S. shipping. Research use only.",
@@ -2677,13 +2692,14 @@
   slug: "ghk-cu-1gram-copper-peptide-1000mg-topical",
   name: "GHK-Cu Copper Peptide 1000mg (Topical)",
   category: "Cosmetic Peptides",
+  cas:"89030-95-5",
 
   price: 1250.0,
 
   strength:
     "Copper-binding tripeptide supplied in bulk format, studied extensively in dermal signaling, extracellular matrix interaction, and cosmetic formulation research models.",
 
-  cas: "49557-75-7",
+  
   size: "1000mg (1 gram) topical powder",
   purity: "≥ 98%",
 
@@ -2737,13 +2753,14 @@
   slug: "ghk-cu-50mg-copper-peptide",
   name: "GHK-Cu Copper Peptide 50mg",
   category: "Cosmetic Peptides",
+  cas:"89030-95-5",
 
   price: 320.0,
 
   strength:
     "Copper-binding tripeptide supplied in a mid-scale research format, studied in dermal signaling, extracellular matrix interaction, and cosmetic peptide research models.",
 
-  cas: "49557-75-7",
+ 
   size: "50mg vial",
   purity: "≥ 98%",
 
@@ -2767,7 +2784,7 @@
   image: "/product/cosmeticpeptides/ghkcu500.png",
   seo: {
   title:
-    "Buy GHK-Cu Copper Peptide 50mg USA (CAS 89030-95-5) | BioPeptide",
+    "Buy GHK-Cu Copper Peptide 50mg USA (CAS 89030-95-5) |",
 
   description:
     "Buy GHK-Cu copper peptide 50mg (CAS 89030-95-5) in the USA from BioPeptide. ≥99% HPLC-purified research peptide–copper complex studied for extracellular matrix modulation, collagen regulation, gene expression, and antioxidant signaling. Fast U.S. shipping. For Research Use Only.",
@@ -2797,13 +2814,14 @@
   slug: "ghk-cu-copper-peptide-topical-500mg",
   name: "GHK-Cu Copper Peptide 500mg (Topical)",
   category: "Cosmetic Peptides",
+  cas:"89030-95-5",
 
   price: 480.0,
 
   strength:
     "Copper-binding tripeptide supplied in topical research format, studied in dermal signaling, extracellular matrix interaction, and cosmetic formulation research models.",
 
-  cas: "49557-75-7",
+ 
   size: "500mg topical powder",
   purity: "≥ 98%",
 
@@ -2825,22 +2843,23 @@
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
   image: "/product/cosmeticpeptides/ghkcu500.png",
-  seo: {
+seo: {
   title:
-    "GHK-Cu Copper Peptide 500mg (Topical) | CAS 89030-95-5 | US Supplier",
+    "GHK-Cu Copper Peptide 500mg (Topical) (CAS 89030-95-5) |",
 
   description:
-    "Buy GHK-Cu (Copper Peptide) 500mg topical research peptide from BioPeptide. CAS 89030-95-5. Studied for collagen signaling, extracellular matrix regulation, and redox balance. ≥99% HPLC purity. U.S. shipping. Research use only.",
+    "Buy GHK-Cu (Copper Peptide) 500mg topical research peptide (CAS 89030-95-5) from BioPeptide. ≥99% HPLC purity. Studied for collagen signaling, extracellular matrix regulation, wound-healing models, and redox balance research. For Research Use Only.",
 
   keywords: [
     "GHK-Cu",
-    "Copper peptide GHK-Cu",
-    "GHK-Cu 500mg topical",
+    "Copper Tripeptide",
+    "GHK-Cu copper peptide",
+    "GHK-Cu 500mg",
     "CAS 89030-95-5",
-    "collagen signaling research peptide",
-    "extracellular matrix regulation research",
+    "collagen signaling research",
+    "extracellular matrix regulation peptide",
+    "wound healing research peptide",
     "redox balance peptide studies",
-    "cosmetic copper peptide research",
     "BioPeptide GHK-Cu USA"
   ],
 
@@ -2856,13 +2875,14 @@
   slug: "ghk-basic-200mg-tripeptide-1",
   name: "GHK Basic (Tripeptide-1) 200mg",
   category: "Cosmetic Peptides",
+  cas:" CAS 89030-95-5 ",
 
   price: 360.0,
 
   strength:
     "Naturally occurring tripeptide studied in dermal signaling, extracellular matrix interaction, and cosmetic peptide research models.",
 
-  cas: "72957-37-0",
+       
   size: "200mg powder",
   purity: "≥ 98%",
 
@@ -2883,31 +2903,33 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/ghkcu200.png",
-  seo: {
+  image: "/product/peptides/ghkbasic.png",
+seo: {
   title:
-    "Buy GHK-Cu Copper Peptide Topical | CAS 89030-95-5 | BioPeptide USA",
+    "GHK Basic (Tripeptide-1) Topical 200mg (CAS 49557-75-7) |",
 
   description:
-    "Buy GHK-Cu (Copper Peptide) topical research peptide from BioPeptide. CAS 89030-95-5. Studied for collagen signaling, extracellular matrix regulation, and redox balance. ≥99% HPLC purity. U.S. shipping. Research use only.",
+    "Buy GHK Basic (Tripeptide-1) 200mg topical research peptide (CAS 49557-75-7) from BioPeptide. ≥99% HPLC purity. Studied for fibroblast activation, collagen gene expression, and extracellular matrix research. For Research Use Only.",
 
   keywords: [
-    "GHK-Cu",
-    "Copper peptide GHK-Cu",
-    "GHK-Cu topical",
-    "CAS 89030-95-5",
-    "collagen signaling research peptide",
-    "extracellular matrix regulation research",
-    "redox balance peptide studies",
-    "cosmetic copper peptide research",
-    "BioPeptide GHK-Cu USA"
+    "GHK Basic",
+    "Tripeptide-1",
+    "GHK Tripeptide-1",
+    "GHK Basic 200mg",
+    "CAS 49557-75-7",
+    "fibroblast activation research",
+    "collagen gene expression peptide",
+    "extracellular matrix research peptide",
+    "cosmetic research peptide",
+    "BioPeptide GHK Basic USA"
   ],
 
   robots: "index, follow",
 
   canonical:
-    "https://www.bio-peptides.com/product/ghk-cu-copper-tripeptide"
+    "https://www.bio-peptides.com/product/ghk-basic-200mg-tripeptide-1"
 }
+
 
 },
 {
@@ -2915,13 +2937,14 @@
   slug: "ghrh-5mg",
   name: "GHRH 5mg",
   category: "IGF-1 Proteins",
+ 
 
   price: 195.0,
 
   strength:
     "Endogenous hypothalamic peptide studied in growth hormone release signaling and pituitary–endocrine research models.",
 
-  cas: "86168-78-7",
+   cas:"9034-39-3",
   size: "5mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -2942,10 +2965,10 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp2_5.png",
+  image: "/product/peptides/ghrh 2.png",
   seo: {
   title:
-    "Buy GHRH 5mg USA (CAS 9034-39-3) | BioPeptide Research Supply",
+    "Buy GHRH 5mg USA (CAS 9034-39-3) | Research Supply",
 
   description:
     "BioPeptide supplies GHRH (Growth Hormone-Releasing Hormone) 5mg research peptide (CAS 9034-39-3) to U.S. laboratories. ≥99% HPLC purity. Designed for experimental research on GH synthesis, adenylate cyclase signaling, and neuroendocrine peptide regulation. For Research Use Only.",
@@ -2975,7 +2998,7 @@
   slug: "ghrp-2-5mg-x-5-and-cjc-1295-5mg-x-5",
   name: "GHRP-2 5mg ×5 + CJC-1295 5mg ×5 (Bundle)",
   category: "Peptide Blends",
-  cas:"",
+  cas:"158861-67-7 & 863288-34-0",
 
   price: 690.0,
 
@@ -3007,10 +3030,10 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp2_5.png",
+  image: "/product/peptide blends/cjcghrp2blend10mg.png",
   seo: {
   title:
-    "Buy GHRP-2 + CJC-1295 5mg Bundle (CAS 158861-67-7 / 863288-34-0) | BioPeptide",
+    "Buy GHRP-2 + CJC-1295 5mg Bundle (CAS 158861-67-7 / 863288-34-0) |",
 
   description:
     "Buy GHRP-2 5mg ×5 and CJC-1295 5mg ×5 research peptide bundle from BioPeptide. CAS 158861-67-7 and 863288-34-0. High-purity, analytically validated peptides supplied for biochemical and cell-based research. Research use only.",
@@ -3040,6 +3063,7 @@
   slug: "ghrp-2-5mg-x-5-and-ipamorelin-5mg-x-5",
   name: "GHRP-2 5mg ×5 + Ipamorelin 5mg ×5 (Bundle)",
   category: "Peptide Blends",
+  cas:"158861-67-7 & 170851-70-4",
 
   price: 670.0,
 
@@ -3071,10 +3095,10 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp2_10.png",
+  image: "/product/peptide blends/cjcipamorelinblend10mg_1.png",
   seo: {
   title:
-    "GHRP-2 5mg ×5 + Ipamorelin 5mg ×5 Bundle | BioPeptide Research Peptides",
+    "GHRP-2 5mg ×5 + Ipamorelin 5mg ×5 Bundle | Research Peptides",
 
   description:
     "Buy GHRP-2 (CAS 158861-67-7) and Ipamorelin (CAS 170851-70-4) 5mg ×5 research peptide bundle from BioPeptide. ≥99% HPLC purity, SPPS synthesized for GH signaling, receptor-binding, and cellular research. RUO compliant.",
@@ -3105,6 +3129,7 @@
   slug: "ghrp-2-5mg-x-10-modgrf-1-29-5mg-x-10",
   name: "GHRP-2 5mg ×10 + MOD GRF (1-29) 5mg ×10 (Bundle)",
   category: "Peptide Blends",
+  cas:"158861-67-7 & 86168-78-7",
 
   price: 1280.0,
 
@@ -3136,10 +3161,10 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp2_10.png",
+  image: "/product/peptide blends/modgrfghrp2blend10mg.png",
   seo: {
   title:
-    "Buy GHRP-2 + MOD GRF (1-29) 5mg ×10 Bundle (CAS 158861-67-7 / 86168-78-7) | BioPeptide",
+    "Buy GHRP-2 + MOD GRF (1-29) 5mg ×10 Bundle (CAS 158861-67-7 / 86168-78-7) |",
 
   description:
     "GHRP-2 (CAS 158861-67-7) and MOD GRF (1-29) (CAS 86168-78-7) 5mg ×10 research peptide bundle by BioPeptide. ≥99% HPLC purity peptides produced via SPPS for GH pathway studies, receptor interaction, and cell-based research applications. RUO compliant.",
@@ -3171,6 +3196,7 @@
   slug: "ghrp-2-5mg-x-10-ipamorelin-5mg-x-10",
   name: "GHRP-2 5mg ×10 + Ipamorelin 5mg ×10 (Bundle)",
   category: "Peptide Blends",
+  cas:"158861-67-7 & 170851-70-4",
 
   price: 1240.0,
 
@@ -3202,10 +3228,10 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp2_10.png",
+  image: "/product/bundle/GHRP-2-Ipamorelin-5mg.png",
   seo: {
   title:
-    "GHRP-2 + Ipamorelin 5mg ×10 Research Supply Bundle | BioPeptide",
+    "GHRP-2 + Ipamorelin 5mg ×10 Research Supply Bundle |",
 
   description:
     "BioPeptide supplies GHRP-2 (CAS 158861-67-7) and Ipamorelin (CAS 170851-70-4) 5mg ×10 research peptide bundle. High-purity, batch-tested peptides designed for receptor-binding analysis, signaling pathway research, and advanced laboratory studies. Research use only.",
@@ -3296,6 +3322,7 @@
   slug: "ghrp-6-5mg-x-5-and-cjc-1295-5mg-x-5",
   name: "GHRP-6 5mg ×5 + CJC-1295 5mg ×5 (Bundle)",
   category: "Peptide Blends",
+  cas:"87616-84-0 & 863288-34-0",
 
   price: 680.0,
 
@@ -3327,10 +3354,10 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp2_10.png",
+  image: "/product/peptide blends/cjcghrp6blend10mg.png",
   seo: {
   title:
-    "GHRP-6 5mg ×5 + CJC-1295 5mg ×5 Bundle | BioPeptide Research Peptides",
+    "GHRP-6 5mg ×5 + CJC-1295 5mg ×5 Bundle | Research Peptides",
 
   description:
     "Buy GHRP-6 5mg ×5 and CJC-1295 5mg ×5 research peptides from BioPeptide. CAS 87616-84-0 and 863288-34-0. High-purity, analytically validated peptides supplied for biochemical assays, pathway signaling, and controlled laboratory research. Research use only.",
@@ -3361,6 +3388,7 @@
   slug: "ghrp-6-5mg-x-5-and-ipamorelin-5mg-x-5",
   name: "GHRP-6 5mg ×5 + Ipamorelin 5mg ×5 (Bundle)",
   category: "Peptide Blends",
+  cas:"87616-84-0 & 170851-70-4",
 
   price: 660.0,
 
@@ -3392,10 +3420,10 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp6_5.png",
+  image: "/product/bundle/GHRP-6-Ipamorelin-5mg.png",
   seo: {
   title:
-    "GHRP-6 & Ipamorelin Research Peptide Bundle 5mg ×5 | BioPeptide",
+    "GHRP-6 & Ipamorelin Research Peptide Bundle 5mg ×5 |",
 
   description:
     "GHRP-6 (CAS 87616-84-0) and Ipamorelin (CAS 170851-70-4) 5mg ×5 research peptide bundle by BioPeptide. ≥99% HPLC purity peptides produced via SPPS for GH pathway studies, receptor interaction, and cell signaling research. Research use only.",
@@ -3426,6 +3454,7 @@
   slug: "ghrp-6-5mg-x-10-modgrf-1-29-5mg-x-10",
   name: "GHRP-6 5mg ×10 + MOD-GRF (1-29) 5mg ×10 (Bundle)",
   category: "Peptide Blends",
+  cas:"87616-84-0 & 86168-78-7",
 
   price: 1250.0,
 
@@ -3457,10 +3486,10 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp6_5.png",
+  image: "/product/peptide blends/modgrfghrp6blend10mg.png",
   seo: {
   title:
-    "Buy GHRP-6 + MOD-GRF (1-29) 5mg ×10 Research Bundle | BioPeptide",
+    "Buy GHRP-6 + MOD-GRF (1-29) 5mg ×10 Research Bundle |",
 
   description:
     "Buy GHRP-6 5mg ×10 and MOD-GRF (1-29) 5mg ×10 research peptides from BioPeptide. CAS 87616-84-0 and 86168-78-7. High-purity, analytically validated peptides supplied for biochemical assays, pathway signaling, and controlled laboratory research. Research use only.",
@@ -3492,6 +3521,7 @@
   slug: "ghrp-6-5mg-x-10-ipamorelin-5mg-x-10",
   name: "GHRP-6 5mg ×10 + Ipamorelin 5mg ×10 (Bundle)",
   category: "Peptide Blends",
+  cas:"87616-84-0 & 170851-70-4",
 
   price: 118.0,
 
@@ -3523,10 +3553,10 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp6_5.png",
+  image: "/product/bundle/GHRP-6-Ipamorelin-5mg.png",
   seo: {
   title:
-    "GHRP-6 & Ipamorelin Research Peptide Bundle 5mg ×10 | BioPeptide",
+    "GHRP-6 & Ipamorelin Research Peptide Bundle 5mg ×10 |",
 
   description:
     "GHRP-6 (CAS 87616-84-0) and Ipamorelin (CAS 170851-70-4) 5mg ×10 research peptide bundle by BioPeptide. ≥99% HPLC purity peptides produced via SPPS for GH pathway studies, receptor interaction, and cell signaling research. Research use only.",
@@ -3706,7 +3736,7 @@
   image: "/product/peptides/gonadorelin.png",
   seo: {
   title:
-    "Gonadorelin (GnRH) 10mg Research Peptide (CAS 9034-40-6) | BioPeptide",
+    "Gonadorelin (GnRH) 10mg Research Peptide (CAS 9034-40-6) |",
 
   description:
     "Buy Gonadorelin 10mg research peptide (CAS 9034-40-6) from BioPeptide USA. ≥99% HPLC purity. Studied as a GnRH decapeptide for pituitary receptor activation, Gq/11 signaling, and gonadotropin regulation in endocrine research. U.S.-based supplier. For Research Use Only.",
@@ -3734,8 +3764,9 @@
 {
   id: "bpc-157-arginate-kpv-60-capsules",
   slug: "gut-inflammation-bpc-157-arginate-kpv-60-capsules",
-  name: "BPC-157 Arginate + KPV (60 Capsules)",
+  name: "Gut Inflammation (60 Capsules) (Stable BPC-157 Arginate, KPV, Larazotide)",
   category: "Peptide Capsules",
+  cas:"137525-51-0 & 67763-96-6",
 
   price: 295.0,
 
@@ -3767,10 +3798,10 @@
   storage: "Store in a cool, dry environment away from direct light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/bcp157.png",
+  image: "/product/capsules/gut.png",
   seo: {
   title:
-    "Buy BPC-157 Arginate + KPV Capsules (60 Ct) | BioPeptide",
+    "Buy BPC-157 Arginate + KPV Capsules (60 Ct) |",
 
   description:
     "Buy BPC-157 Arginate (CAS 137525-51-0) and KPV (CAS 67763-96-6) capsules from BioPeptide. 500 mcg per capsule, ≥99% HPLC purity, SPPS synthesized for pathway signaling, cellular, and biochemical research. Research use only.",
@@ -3800,6 +3831,7 @@
   slug: "hexarelin-2mg-x-10-modgrf-1-29-2mg-x-10",
   name: "Hexarelin 2mg ×10 + MOD-GRF (1-29) 2mg ×10 (Bundle)",
   category: "Peptide Blends",
+  cas:"140703-51-1 & 86168-78-7",
 
   price: 980.0,
 
@@ -3831,10 +3863,10 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/hexarelin2.png",
+  image: "/product/peptide blends/modgrfhexarelinblend4mg.png",
   seo: {
   title:
-    "Hexarelin 2mg ×10 + MOD-GRF (1-29) 2mg ×10 Bundle | BioPeptide",
+    "Hexarelin 2mg ×10 + MOD-GRF (1-29) 2mg ×10 Bundle |",
 
   description:
     "Buy Hexarelin 2mg ×10 and MOD-GRF (1-29) 2mg ×10 research peptides from BioPeptide. CAS 140703-51-1 and 86168-78-7. High-purity, analytically validated peptides supplied for biochemical assays, pathway signaling, and controlled laboratory research. Research use only.",
@@ -3865,6 +3897,7 @@
   slug: "hexarelin-5mg-x-10-modgrf-1-29-5mg-x-10",
   name: "Hexarelin 5mg ×10 + MOD-GRF (1-29) 5mg ×10 (Bundle)",
   category: "Peptide Blends",
+  cas:"140703-51-1 & 86168-78-7",
 
   price: 980.0,
 
@@ -3896,10 +3929,10 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/hexarelin5.png",
+  image: "/product/peptide blends/modgrfhexarelinblend10mg.png",
   seo: {
   title:
-    "Buy Hexarelin + MOD-GRF (1-29) 5mg ×10 Research Bundle | BioPeptide",
+    "Buy Hexarelin + MOD-GRF (1-29) 5mg ×10 Research Bundle |",
 
   description:
     "Buy Hexarelin 5mg ×10 and MOD-GRF (1-29) 5mg ×10 research peptides from BioPeptide. CAS 140703-51-1 and 86168-78-7. High-purity, analytically validated peptides supplied for biochemical assays, pathway signaling, and controlled laboratory research. Research use only.",
@@ -3960,7 +3993,7 @@
   image: "/product/peptides/hexarelin2.png",
   seo: {
   title:
-    "Hexarelin (Examorelin) 2mg Peptide (CAS 140703-51-1) | BioPeptide",
+    "Hexarelin (Examorelin) 2mg Peptide (CAS 140703-51-1) |",
 
   description:
     "Buy Hexarelin (Examorelin) research peptide (CAS 140703-51-1) from BioPeptide USA. ≥99% HPLC purity. Studied as a ghrelin receptor (GHS-R1a) agonist for GH release, calcium signaling, cardioprotective pathways, and metabolic peptide research. U.S.-based supplier. For Research Use Only.",
@@ -4021,7 +4054,7 @@
   image: "/product/peptides/hexarelin5.png",
   seo: {
   title:
-    "Hexarelin 2mg Research Peptide (CAS 140703-51-1) | BioPeptide",
+    "Hexarelin 2mg Research Peptide (CAS 140703-51-1) |",
 
   description:
     "Order Hexarelin 2mg research peptide (CAS 140703-51-1) from BioPeptide USA. ≥99% HPLC purity. Investigated for ghrelin receptor (GHS-R1a) activation, GH-axis signaling, calcium-dependent pathways, and cardiometabolic peptide research. Reliable U.S. fulfillment. For Research Use Only.",
@@ -4042,7 +4075,7 @@
   robots: "index, follow",
 
   canonical:
-    "https://www.bio-peptides.com/product/hexarelin-2mg"
+    "https://www.bio-peptides.com/product/hexarelin-5mg"
 }
 
 },
@@ -4081,7 +4114,7 @@
   image: "/product/peptides/hGH.png",
   seo: {
   title:
-    "Buy hGH Fragment 176–191 6mg USA (CAS 66004-57-7) | BioPeptide",
+    "Buy hGH Fragment 176–191 6mg USA (CAS 66004-57-7) |",
 
   description:
     "BioPeptide supplies hGH Fragment 176–191 6mg research peptide (CAS 66004-57-7) to U.S. laboratories. ≥99% HPLC purity. Designed for experimental research on AMPK-mediated metabolism, fat signaling pathways, and energy balance mechanisms. Reliable U.S. fulfillment. For Research Use Only.",
@@ -4141,7 +4174,7 @@
   image: "/product/peptides/humanin10.png",
   seo: {
   title:
-    "Buy Humanin RNR2 10mg Peptide (CAS 330936-69-1) | BioPeptide",
+    "Buy Humanin RNR2 10mg Peptide (CAS 330936-69-1) |",
 
   description:
     "Buy Humanin (RNR2) 10mg research peptide (CAS 330936-69-1) from BioPeptide USA. ≥99% HPLC purity. Investigated for mitochondrial signaling, apoptosis regulation, oxidative stress modulation, and neuroendocrine research applications. U.S.-based supplier. For Research Use Only.",
@@ -4201,7 +4234,7 @@
   image: "/product/peptides/igf1mg.png",
   seo: {
   title:
-    "IGF-1 LR3 Receptor Grade 1mg | BioPeptide USA | CAS 946870-92-4",
+    "IGF-1 LR3 Receptor Grade 1mg | USA | CAS 946870-92-4",
 
   description:
     "IGF-1 LR3 Receptor Grade 1mg from BioPeptide is provided exclusively for research use in the United States. Studied for IGF-1 receptor kinetics, signaling dynamics, and peptide–receptor interaction research. CAS 946870-92-4. For Research Use Only.",
@@ -4261,7 +4294,7 @@
   image: "/product/peptides/igf1mg.png",
   seo: {
   title:
-    "IGF-1 LR3 1mg Research Peptide | BioPeptide | CAS 946870-92-4",
+    "IGF-1 LR3 1mg Research Peptide | CAS 946870-92-4",
 
   description:
     "BioPeptide IGF-1 LR3 1mg is a modified IGF-1 research peptide with enhanced stability, widely used in U.S. experimental studies on MAPK/ERK activation, metabolic regulation, and cell differentiation. CAS 946870-92-4. For Research Use Only.",
@@ -4291,6 +4324,7 @@
   slug: "ipamorelin-2mg-x-10-modgrf-1-29-2mg-x-10",
   name: "Ipamorelin 2mg ×10 + MOD-GRF (1-29) 2mg ×10 (Bundle)",
   category: "Peptide Blends",
+  cas:"170851-70-4 & 86168-78-7",
 
   price: 890.0,
 
@@ -4322,10 +4356,10 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ipamorelin2.png",
+  image: "/product/peptide blends/modgrfipamorelinblend4mg.png",
   seo: {
   title:
-    "Ipamorelin 2mg ×10 + MOD-GRF (1-29) 2mg ×10 Bundle | BioPeptide",
+    "Ipamorelin 2mg ×10 + MOD-GRF (1-29) 2mg ×10 Bundle |",
 
   description:
     "Buy Ipamorelin 2mg ×10 and MOD-GRF (1-29) 2mg ×10 research peptides from BioPeptide. CAS 170851-70-4 and 86168-78-7. High-purity, analytically validated peptides supplied for biochemical assays, GH-axis pathway signaling, and controlled laboratory research. Research use only.",
@@ -4384,32 +4418,31 @@
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
   image: "/product/peptides/ipamorelin2.png",
-  seo: {
+seo: {
   title:
-    "Ipamorelin 2mg ×10 + MOD-GRF (1-29) 2mg ×10 Bundle | BioPeptide",
+    "Buy Ipamorelin 2mg Research Peptide (CAS 170851-70-4) |",
 
   description:
-    "Buy Ipamorelin 2mg ×10 and MOD-GRF (1-29) 2mg ×10 research peptides from BioPeptide. CAS 170851-70-4 and 86168-78-7. High-purity, analytically validated peptides supplied for biochemical assays, pathway signaling, and controlled laboratory research. Research use only.",
+    "Ipamorelin 2mg research peptide (CAS 170851-70-4) available from BioPeptide USA. ≥99% HPLC purity. Studied for selective growth hormone release, GHS-R1a receptor pharmacology, and endocrine signaling research. For Research Use Only.",
 
   keywords: [
     "Ipamorelin",
-    "MOD-GRF 1-29",
-    "Ipamorelin MOD-GRF bundle",
-    "Ipamorelin 2mg x10",
-    "MOD-GRF 1-29 2mg x10",
+    "Ipamorelin peptide",
+    "Ipamorelin 2mg",
     "CAS 170851-70-4",
-    "CAS 86168-78-7",
-    "growth hormone axis research",
-    "ghrelin receptor signaling research",
-    "biochemical assay peptides",
-    "BioPeptide research bundles"
+    "growth hormone secretagogue research",
+    "GHS-R1a receptor studies",
+    "selective GH release peptide",
+    "endocrine signaling research",
+    "BioPeptide Ipamorelin USA"
   ],
 
   robots: "index, follow",
 
   canonical:
-    "https://www.bio-peptides.com/product/ipamorelin-2mg-x-10-modgrf-1-29-2mg-x-10"
+    "https://www.bio-peptides.com/product/ipamorelin-2mg"
 }
+
 
 },
 {
@@ -4447,7 +4480,7 @@
   image: "/product/peptides/ipamorelin5.png",
   seo: {
   title:
-    "Buy Ipamorelin 5mg (CAS 170851-70-4) | BioPeptide",
+    "Buy Ipamorelin 5mg (CAS 170851-70-4) |",
 
   description:
     "Ipamorelin 5mg research peptide available in the USA from BioPeptide. High-purity Ipamorelin (CAS 170851-70-4) supplied for laboratory research on selective growth hormone release, receptor pharmacology, and endocrine signaling. Trusted U.S. supplier. For Research Use Only.",
@@ -4506,7 +4539,7 @@
   image: "/product/peptides/ipamorelin10.png",
   seo: {
   title:
-    "Buy Ipamorelin 10mg (CAS 170851-70-4) | BioPeptide",
+    "Buy Ipamorelin 10mg (CAS 170851-70-4) |",
 
   description:
     "Buy Ipamorelin 10mg research peptide in the USA from BioPeptide. ≥99% HPLC purity. Ipamorelin (CAS 170851-70-4) is studied for selective GHS-R1a activation, growth hormone signaling, and pituitary receptor research. Fast U.S. shipping. For Research Use Only.",
@@ -4535,13 +4568,14 @@
   slug: "kisspeptin-10",
   name: "Kisspeptin-10 5mg",
   category: "Popular Peptides",
+  
 
   price: 165.0,
 
   strength:
     "Short neuropeptide fragment studied extensively for hypothalamic–pituitary–gonadal (HPG) axis signaling and neuroendocrine pathway research.",
 
-  cas: "36507-37-0",
+ cas:"388138-21-4",
   size: "5mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -4563,31 +4597,31 @@
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
   image: "/product/peptides/kisspeptin10_5.png",
-  seo: {
+seo: {
   title:
-    "KPV Ac-KPV-NH2 5mg Research Peptide | BioPeptide | CAS 112965-21-6",
+    "Buy Kisspeptin-10 5mg Research Peptide (CAS 36507-37-0) |",
 
   description:
-    "Buy KPV (Ac-KPV-NH2) 5mg research peptide from BioPeptide USA. CAS 112965-21-6. High-purity peptide studied for immune signaling, epithelial barrier integrity, cytokine balance, and inflammatory pathway research. For Research Use Only.",
+    "Buy Kisspeptin-10 5mg research peptide (CAS 36507-37-0) from BioPeptide. ≥99% HPLC purity. Studied for GnRH signaling, HPG axis regulation, and neuroendocrine pathway research. For Research Use Only.",
 
   keywords: [
-    "KPV",
-    "Ac-KPV-NH2",
-    "KPV peptide",
-    "KPV 5mg",
-    "CAS 112965-21-6",
-    "immune signaling peptide research",
-    "epithelial integrity research",
-    "cytokine balance studies",
-    "anti-inflammatory peptide research",
-    "BioPeptide KPV USA"
+    "Kisspeptin-10",
+    "Kisspeptin-10 peptide",
+    "Kisspeptin 5mg",
+    "CAS 36507-37-0",
+    "GnRH signaling research",
+    "HPG axis regulation peptide",
+    "neuroendocrine peptide research",
+    "hypothalamic signaling studies",
+    "BioPeptide Kisspeptin USA"
   ],
 
   robots: "index, follow",
 
   canonical:
-    "https://www.bio-peptides.com/product/kpv-ac-kpv-nh2-5mg"
+    "https://www.bio-peptides.com/product/kisspeptin-10"
 }
+
 
 
 
@@ -4597,13 +4631,15 @@
   slug: "kpv-5mg",
   name: "KPV 5mg",
   category: "Popular Peptides",
+  cas:"112965-21-6 ",
+  
 
   price: 95.0,
 
   strength:
     "Short tripeptide fragment studied extensively for inflammatory pathway signaling and epithelial research models.",
 
-  cas: "67763-96-6",
+  
   size: "5mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -4624,20 +4660,47 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/kpv.png"
+  image: "/product/peptides/kpv.png",
+  seo: {
+  title:
+    "Buy KPV 5mg (Ac-KPV-NH2) Research Peptide (CAS 112965-21-6) |",
+
+  description:
+    "Order KPV 5mg (Ac-KPV-NH2) research peptide (CAS 112965-21-6) from BioPeptide. ≥99% HPLC purity. Studied for immune signaling, melanocortin pathway modulation, and inflammatory pathway research. For Research Use Only.",
+
+  keywords: [
+    "KPV",
+    "Ac-KPV-NH2",
+    "KPV peptide",
+    "KPV 5mg",
+    "CAS 112965-21-6",
+    "immune signaling peptide research",
+    "melanocortin pathway studies",
+    "anti-inflammatory peptide research",
+    "epithelial barrier research",
+    "BioPeptide KPV USA"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/kpv-5mg"
+}
+
 },
 {
   id: "l-glutathione-600mg",
   slug: "l-glutathione-600mg",
   name: "L-Glutathione 600mg",
   category: "Bioregulators",
+  cas:" 170-18-8",
 
   price: 85.0,
 
   strength:
     "Tripeptide antioxidant studied extensively for cellular redox balance, oxidative stress modulation, and detoxification pathway research.",
 
-  cas: "70-18-8",
+ 
   size: "600mg vial",
   purity: "≥ 98%",
 
@@ -4661,7 +4724,7 @@
   image: "/product/peptides/lgluthathione.png",
   seo: {
   title:
-    "L-Glutathione (GSH) 600mg (CAS 170-18-8) | BioPeptide",
+    "L-Glutathione (GSH) 600mg (CAS 170-18-8) |",
 
   description:
     "Order L-Glutathione (GSH) 600mg research compound (CAS 170-18-8) from BioPeptide USA. ≥99% HPLC purity. Widely studied as a central intracellular antioxidant for redox balance, detoxification pathways, and oxidative stress regulation in biochemical research. U.S.-based supplier. For Research Use Only.",
@@ -4721,7 +4784,7 @@
   image: "/product/peptides/livagen.png",
   seo: {
   title:
-    "Livagen 20mg Liver Peptide (CAS 195875-84-4) | BioPeptide USA",
+    "Livagen 20mg Liver Peptide (CAS 195875-84-4) | USA",
 
   description:
     "Buy Livagen 20mg BioPeptide, a synthetic liver peptide bioregulator (CAS 195875-84-4) supplied by BioPeptide USA. Studied in laboratory research for hepatic homeostasis, protein synthesis regulation, detoxification pathways, and metabolic signaling. For Research Use Only.",
@@ -4751,13 +4814,14 @@
   slug: "ll-37-5mg-cap-18",
   name: "LL-37 (CAP-18) 5mg",
   category: "Popular Peptides",
+  
 
   price: 195.0,
 
   strength:
     "Cationic host-defense peptide studied extensively for innate immune signaling, antimicrobial pathway research, and epithelial biology models.",
 
-  cas: "162971-11-7",
+  cas:"154947-66-7",
   size: "5mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -4781,7 +4845,7 @@
   image: "/product/peptides/ll-37.png",
   seo: {
   title:
-    "LL-37 5mg Antimicrobial Peptide | CAS 154947-66-7 | BioPeptide",
+    "LL-37 5mg Antimicrobial Peptide | CAS 154947-66-7 |",
 
   description:
     "Buy LL-37 (CAP-18) 5mg BioPeptide, a human cathelicidin-derived research peptide (CAS 154947-66-7). Widely studied in immunology and microbiology research for antimicrobial activity, innate immune modulation, and host–pathogen interaction pathways. For Research Use Only.",
@@ -4811,6 +4875,7 @@
   slug: "5-amino-1mq-50mg-capsules",
   name: "5-Amino-1MQ + NMN + JBSNF (60 Capsules)",
   category: "Peptide Capsules",
+  cas:"42464-96-0",
 
   price: 325.0,
 
@@ -4867,7 +4932,7 @@
   robots: "index, follow",
 
   canonical:
-    "https://www.bio-peptides.com/product/longevity-performance-obesity-research-60-capsules"
+    "https://www.bio-peptides.com/product/5-amino-1mq-50mg-capsules"
 }
 
 },
@@ -4876,13 +4941,14 @@
   slug: "matrixyl-200mg-topical",
   name: "Matrixyl® 200mg (Topical)",
   category: "Cosmetic Peptides",
+  cas:"214047-00-4",
 
   price: 165.0,
 
   strength:
     "Palmitoylated cosmetic research peptide studied for extracellular matrix signaling, collagen-related pathway research, and dermal peptide interaction models.",
 
-  cas: "147732-56-7",
+ 
   size: "200mg topical powder",
   purity: "≥ 99% (HPLC)",
 
@@ -4936,13 +5002,14 @@
   slug: "melanostatin-dm-200mg",
   name: "Melanostatin-DM 200mg",
   category: "Cosmetic Peptides",
+  cas:"123689-72-5",
 
   price: 175.0,
 
   strength:
     "Synthetic cosmetic research peptide studied for melanocyte signaling modulation and pigmentation-related pathway investigation.",
 
-  cas: "N/A",
+
   size: "200mg topical powder",
   purity: "≥ 99% (HPLC)",
 
@@ -4996,13 +5063,14 @@
   slug: "melanotan-1-10mg",
   name: "Melanotan-1 10mg",
   category: "Melanotan Peptides",
+  cas:" 75921-69-6",
 
   price: 185.0,
 
   strength:
     "Synthetic melanocortin peptide studied extensively for melanocyte signaling, pigmentation pathway research, and receptor-mediated cellular models.",
 
-  cas: "121062-08-6",
+
   size: "10mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -5026,7 +5094,7 @@
   image: "/product/peptides/melanotan1.png",
   seo: {
   title:
-    "Melanotan 1 (MT1) 10mg | BioPeptide USA | CAS 75921-69-6",
+    "Melanotan 1 (MT1) 10mg | USA | CAS 75921-69-6",
 
   description:
     "Manufactured by BioPeptide, Melanotan 1 (MT1) 10mg is a ≥99% HPLC-purified research peptide supplied to U.S. laboratories. Studied for melanocortin receptor (MC1R/MC4R) signaling, pigmentation pathways, and peptide–GPCR interaction research. For Research Use Only.",
@@ -5086,7 +5154,7 @@
   image: "/product/peptides/melanotan2_3.png",
   seo: {
   title:
-    "Buy Melanotan 2 MT2 3mg × 10 Vials | BioPeptide USA | CAS 121062-08-6",
+    "Buy Melanotan 2 MT2 3mg × 10 Vials | USA | CAS 121062-08-6",
 
   description:
     "Melanotan 2 (MT2) 30mg research kit by BioPeptide (3mg × 10 vials, CAS 121062-08-6) supplied to U.S. laboratories. Studied for melanocortin receptor activation, GPCR signaling, and cAMP pathway research. ≥99% HPLC purity. For Research Use Only.",
@@ -5146,7 +5214,7 @@
   image: "/product/peptides/melanotan2_10.png",
   seo: {
   title:
-    "Buy Melanotan 2 (MT2) 10mg | BioPeptide USA | CAS 121062-08-6",
+    "Buy Melanotan 2 (MT2) 10mg | USA | CAS 121062-08-6",
 
   description:
     "BioPeptide Melanotan 2 (MT2) 10mg (CAS 121062-08-6) is a synthetic melanocortin receptor agonist supplied to U.S. laboratories. Studied for MC1R–MC5R signaling, receptor desensitization, GPCR dynamics, and neuroendocrine pathway research. ≥99% HPLC purity. For Research Use Only.",
@@ -5266,7 +5334,7 @@
   image: "/product/peptides/mgf5.png",
   seo: {
   title:
-    "IGF-1 Ec (MGF) 5mg Peptide | BioPeptide USA Research Grade",
+    "IGF-1 Ec (MGF) 5mg Peptide | USA Research Grade",
 
   description:
     "IGF-1 Ec (MGF) 5mg from BioPeptide is a high-purity research peptide studied for muscle adaptation, cellular stress response, and growth factor–mediated repair signaling. Supplied for laboratory research use only.",
@@ -5286,7 +5354,7 @@
   robots: "index, follow",
 
   canonical:
-    "https://www.bio-peptides.com/product/mgf-c-terminal-5mg"
+    "https://www.bio-peptides.com/product/mgf-igf-1-ec-5mg"
 }
 
 },
@@ -5295,6 +5363,7 @@
   slug: "mod-grf-ghrp-2-10mg-blend",
   name: "MOD-GRF (1-29) + GHRP-2 Blend 10mg",
   category: "Peptide Blends",
+  cas:"863288-34-0 & 158861-67-7158861-67-7",
 
   price: 210.0,
 
@@ -5329,7 +5398,7 @@
   image: "/product/peptide blends/modgrfghrp2blend10mg.png",
   seo: {
   title:
-    "Mod GRF (1-29) + GHRP-2 10mg Research Peptide Blend | BioPeptide",
+    "Mod GRF (1-29) + GHRP-2 10mg Research Peptide Blend |",
 
   description:
     "Mod GRF 1-29 (CAS 863288-34-0) and GHRP-2 (CAS 158861-67-7) combined in a 10mg research peptide blend. Studied for GHRH and ghrelin receptor signaling, cAMP/PKA activation, calcium-mediated growth hormone release, and endocrine pathway modeling. ≥99% HPLC purity. For Research Use Only.",
@@ -5361,6 +5430,7 @@
   slug: "mod-grf-hexarelin-10mg-blend",
   name: "MOD-GRF (1-29) + Hexarelin Blend 10mg",
   category: "Peptide Blends",
+  cas:"863288-34-0 & 140703-51-1",
 
   price: 215.0,
 
@@ -5392,10 +5462,10 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/modgrfhexarelinblend10mg_1.png",
+  image: "/product/peptide blends/modgrfhexarelinblend10mg.png",
   seo: {
   title:
-    "Mod GRF (1-29) + Hexarelin 10mg Peptide Blend | BioPeptide | CAS 863288-34-0, 140703-51-1",
+    "Mod GRF (1-29) + Hexarelin 10mg Peptide Blend | CAS 863288-34-0, 140703-51-1",
 
   description:
     "Mod GRF (1-29) (CAS 863288-34-0) and Hexarelin (CAS 140703-51-1) combined in a 10mg research peptide blend. Designed for preclinical studies on GHRH receptor activation, ghrelin (GHS-R1a) signaling, calcium-dependent growth hormone release, and pituitary somatotroph modeling. For Research Use Only.",
@@ -5427,6 +5497,7 @@
   slug: "mod-grf-ipamorelin-ghrp-2-blend",
   name: "MOD-GRF (1-29) + Ipamorelin + GHRP-2 Blend",
   category: "Peptide Blends",
+  cas:"863288-34-0, 170851-70-4, & 158861-67-7",
 
   price: 235.0,
 
@@ -5459,10 +5530,10 @@
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/modgrfipamorelinblend10mg.png",
+  image: "/product/peptide blends/modgrfhexarelinghrp2blend10mg.png",
   seo: {
   title:
-    "Mod GRF (1-29), Ipamorelin, GHRP-2 Blend | BioPeptide | CAS 863288-34-0, 170851-70-4, 158861-67-7",
+    "Mod GRF (1-29), Ipamorelin, GHRP-2 Blend | CAS 863288-34-0, 170851-70-4, 158861-67-7",
 
   description:
     "Buy Mod GRF (1-29), Ipamorelin, and GHRP-2 research peptide blend from BioPeptide. CAS 863288-34-0, 170851-70-4, and 158861-67-7. High-purity RUO blend supplied for GH-axis studies, GHRH and ghrelin receptor signaling, cAMP/PKA activation, and calcium-mediated growth hormone release research in U.S. laboratories.",
@@ -5494,6 +5565,7 @@
   slug: "mod-grf-ipamorelin-10mg-blend",
   name: "MOD-GRF (1-29) + Ipamorelin Blend 10mg",
   category: "Peptide Blends",
+  cas:"863288-34-0 & 170851-70-4",
 
   price: 210.0,
 
@@ -5528,7 +5600,7 @@
   image: "/product/peptide blends/modgrfipamorelinblend10mg.png",
   seo: {
   title:
-    "Mod GRF (1-29) + Ipamorelin 10mg Peptide Blend | BioPeptide | CAS 863288-34-0, 170851-70-4",
+    "Mod GRF (1-29) + Ipamorelin 10mg Peptide Blend | CAS 863288-34-0, 170851-70-4",
 
   description:
     "Premium Mod GRF (1-29) and Ipamorelin 10mg research peptide blend supplied by BioPeptide USA. CAS 863288-34-0 and 170851-70-4. Studied for GHRH and ghrelin receptor signaling, GH-axis modulation, cAMP/PKA activation, and calcium-dependent growth hormone release. For Research Use Only.",
@@ -5560,13 +5632,14 @@
   slug: "mots-c-5mg",
   name: "MOTS-c 5mg",
   category: "Bioregulators",
+  cas:"1627580-64-6",
 
   price: 295.0,
 
   strength:
     "Mitochondrial-derived research peptide studied for cellular metabolism, stress response, and metabolic signaling pathways.",
 
-  cas: "N/A",
+ 
   size: "5mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -5590,7 +5663,7 @@
   image: "/product/peptides/mots5.png",
   seo: {
   title:
-    "MOTS-c 5mg Mitochondrial Peptide (CAS 1627580-64-6) | BioPeptide",
+    "MOTS-c 5mg Mitochondrial Peptide (CAS 1627580-64-6) |",
 
   description:
     "BioPeptide MOTS-c 5mg is a 16-amino-acid mitochondrial research peptide (CAS 1627580-64-6) studied for metabolic homeostasis, mitochondrial signaling, and cellular stress-response pathways. Supplied for laboratory research use only.",
@@ -5620,13 +5693,14 @@
   slug: "mots-c-10mg",
   name: "MOTS-c 10mg",
   category: "Bioregulators",
+  cas:"1627580-64-6",
 
   price: 295.0,
 
   strength:
     "Mitochondrial-derived research peptide studied for cellular metabolism, stress response, and metabolic signaling pathways.",
 
-  cas: "N/A",
+  
   size: "10mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -5650,7 +5724,7 @@
   image: "/product/peptides/mots5.png",
   seo: {
   title:
-    "MOTS-c 5mg Mitochondrial Peptide (CAS 1627580-64-6) | BioPeptide",
+    "MOTS-c 5mg Mitochondrial Peptide (CAS 1627580-64-6) |",
 
   description:
     "BioPeptide MOTS-c 5mg is a 16-amino-acid mitochondrial research peptide (CAS 1627580-64-6) studied for metabolic homeostasis, mitochondrial signaling, and cellular stress-response pathways in laboratory models. For Research Use Only.",
@@ -5680,13 +5754,14 @@
   slug: "n-acetyl-epithalon-amidate-20mg",
   name: "N-Acetyl Epithalon Amidate 20mg",
   category: "Bioregulators",
+  cas:"307297-39-8",
 
   price: 285.0,
 
   strength:
     "Modified epithalon analog studied in advanced cellular aging, telomerase activity, and circadian rhythm research models.",
 
-  cas: "N/A",
+
   size: "20mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -5710,7 +5785,7 @@
   image: "/product/peptides/n-acetylepithalon.png",
   seo: {
   title:
-    "N-Acetyl Epithalon Amidate 20mg (CAS 307297-39-8) | BioPeptide",
+    "N-Acetyl Epithalon Amidate 20mg (CAS 307297-39-8) |",
 
   description:
     "BioPeptide N-Acetyl Epithalon Amidate 20mg (CAS 307297-39-8) is a modified Epithalon research peptide studied in longevity research for epigenetic regulation, telomere-associated signaling, circadian gene expression, and oxidative stress response pathways. For Research Use Only.",
@@ -5740,13 +5815,14 @@
   slug: "n-acetyl-selank-amidate-10mg",
   name: "N-Acetyl Selank Amidate 10mg",
   category: "Bioregulators",
+  cas:"2212313-10-6",
 
   price: 285.0,
 
   strength:
     "Modified Selank analog studied in advanced cellular aging, telomerase activity, and circadian rhythm research models.",
 
-  cas: "N/A",
+  
   size: "10mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -5770,7 +5846,7 @@
   image: "/product/peptides/n-acetylselank.png",
   seo: {
   title:
-    "Buy N-Acetyl Selank Amidate 10mg (CAS 2212313-10-6) | BioPeptide",
+    "Buy N-Acetyl Selank Amidate 10mg (CAS 2212313-10-6) |",
 
   description:
     "Order N-Acetyl Selank Amidate 10mg from BioPeptide USA. Research-grade Selank analog (CAS 2212313-10-6) studied for neuropeptide signaling, stress modulation, synaptic balance, and CNS pathway research. For Research Use Only.",
@@ -5791,7 +5867,7 @@
   robots: "index, follow",
 
   canonical:
-    "https://www.bio-peptides.com/product/n-acetyl-epithalon-amidate-10mg"
+    "https://www.bio-peptides.com/product/n-acetyl-selank-amidate-10mg"
 }
 
 },
@@ -5800,13 +5876,14 @@
   slug: "n-acetyl-semax-amidate-30mg",
   name: "N-Acetyl Semax Amidate 30mg",
   category: "Bioregulators",
+  cas:"2920938-90-3",
 
   price: 285.0,
 
   strength:
     "Modified semax analog studied in advanced cellular aging, telomerase activity, and circadian rhythm research models.",
 
-  cas: "N/A",
+  
   size: "30mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -5830,7 +5907,7 @@
   image: "/product/peptides/n-acetylselank.png",
   seo: {
   title:
-    "Buy N-Acetyl Semax Amidate 30mg | CAS 2920938-90-3 | BioPeptide",
+    "Buy N-Acetyl Semax Amidate 30mg | CAS 2920938-90-3 |",
 
   description:
     "N-Acetyl Semax Amidate 30mg by BioPeptide (CAS 2920938-90-3) is a stabilized Semax research peptide studied for BDNF signaling, synaptic plasticity, neuroadaptive pathways, and cognitive neuroscience research. For Research Use Only.",
@@ -5851,7 +5928,7 @@
   robots: "index, follow",
 
   canonical:
-    "https://www.bio-peptides.com/product/n-acetyl-epithalon-amidate-30mg"
+    "https://www.bio-peptides.com/product/n-acetyl-semax-amidate-30mg"
 }
 
 },
@@ -5890,7 +5967,7 @@
   image: "/product/peptides/nad100.png",
   seo: {
   title:
-    "NAD+ Nicotinamide Adenine Dinucleotide 100mg (CAS 53-84-9) | BioPeptide",
+    "NAD+ Nicotinamide Adenine Dinucleotide 100mg (CAS 53-84-9) |",
 
   description:
     "NAD+ 100mg (CAS 53-84-9) by BioPeptide is a research-grade nicotinamide adenine dinucleotide widely used in laboratory studies of mitochondrial metabolism, redox signaling, sirtuin activity, and cellular energy regulation. For Research Use Only.",
@@ -5950,7 +6027,7 @@
   image: "/product/peptides/nad750.png",
   seo: {
   title:
-    "Buy NAD+ 175mg Research Grade | CAS 53-84-9 | BioPeptide USA",
+    "Buy NAD+ 175mg Research Grade | CAS 53-84-9 | USA",
 
   description:
     "NAD+ 175mg (Nicotinamide Adenine Dinucleotide, CAS 53-84-9) by BioPeptide is a research-grade compound studied in laboratory models for redox balance, sirtuin signaling, DNA repair mechanisms, mitochondrial metabolism, and cellular energy regulation. For Research Use Only.",
@@ -5971,7 +6048,7 @@
   robots: "index, follow",
 
   canonical:
-    "https://www.bio-peptides.com/product/nad-plus-750mg"
+    "https://www.bio-peptides.com/product/nad-plus-175mg"
 }
 
 },
@@ -6010,7 +6087,7 @@
   image: "/product/cosmeticpeptides/nonapeptide.png",
   seo: {
   title:
-    "Nonapeptide-1 200mg Topical | CAS 158563-45-2 USA | BioPeptide",
+    "Nonapeptide-1 200mg Topical | CAS 158563-45-2 USA |",
 
   description:
     "Nonapeptide-1 (Melanostatin-5) 200mg topical research peptide (CAS 158563-45-2) supplied by BioPeptide USA. Studied in laboratory and cosmetic science research for melanin regulation, α-MSH pathway modulation, and tyrosinase signaling. High-purity, U.S.-ready. For Research Use Only.",
@@ -6047,7 +6124,7 @@
   strength:
     "Oral research peptide formulation studied for cellular aging mechanisms, senescence signaling, and longevity-associated pathway research models.",
 
-  cas: "N/A",
+  cas: "1261289-04-6",
   size: "100mg x 30 capsules",
   purity: "≥ 99% (HPLC)",
 
@@ -6068,10 +6145,10 @@
   storage: "Store in a cool, dry environment away from direct light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/os-01-100mg.png",
+  image: "/product/capsules/os01100mg.png",
   seo: {
   title:
-    "Buy OS-01 100mg Capsules – CAS 1261289-04-6 | BioPeptide",
+    "Buy OS-01 100mg Capsules – CAS 1261289-04-6 |",
 
   description:
     "Purchase OS-01 100mg research capsules (CAS 1261289-04-6) from BioPeptide. High-purity small-molecule compound used in laboratory studies of aging biology, epigenetic regulation, collagen synthesis pathways, and cellular longevity research. For Research Use Only.",
@@ -6107,7 +6184,7 @@
   strength:
     "Short-chain peptide bioregulator studied in ovarian tissue signaling and reproductive biology research models.",
 
-  cas: "N/A",
+  cas: "9046-70-2",
   size: "20mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -6131,7 +6208,7 @@
   image: "/product/peptides/ovagen.png",
   seo: {
   title:
-    "Buy Ovagen 20mg Bioregulator | CAS 9046-70-2 | BioPeptide USA",
+    "Buy Ovagen 20mg Bioregulator | CAS 9046-70-2 | USA",
 
   description:
     "Ovagen 20mg (CAS 9046-70-2) is a peptide bioregulator supplied by BioPeptide USA for laboratory research. Studied in experimental models of hepatic metabolism, antioxidant signaling, and peptide-mediated cytoprotection. For Research Use Only.",
@@ -6191,7 +6268,7 @@
   image: "/product/peptides/oxytocin.png",
   seo: {
   title:
-    "Oxytocin 10mg (6000 IU) Research Peptide | CAS 50-56-6 | BioPeptide",
+    "Oxytocin 10mg (6000 IU) Research Peptide | CAS 50-56-6 |",
 
   description:
     "Order Oxytocin 10mg (6000 IU) research peptide (CAS 50-56-6) from BioPeptide. Research-grade oxytocin studied in laboratory models of oxytocin receptor pharmacology, neuromodulation, smooth muscle signaling, and peptide-mediated neuroendocrine pathways. For Research Use Only.",
@@ -6252,7 +6329,7 @@
   image: "/product/cosmeticpeptides/palahk.png",
   seo: {
   title:
-    "Pal-AHK 200mg Topical | Buy Palmitoyl Tripeptide-3 | BioPeptide USA",
+    "Pal-AHK 200mg Topical | Buy Palmitoyl Tripeptide-3 | USA",
 
   description:
     "Buy Pal-AHK (Palmitoyl Tripeptide-3) 200mg topical research peptide from BioPeptide USA. ≥99% HPLC purity. Studied in laboratory and cosmetic science research for fibroblast activation, extracellular matrix signaling, collagen-related pathways, and skin biology research. For Research Use Only.",
@@ -6312,7 +6389,7 @@
   image: "/product/cosmeticpeptides/palghk.png",
   seo: {
   title:
-    "Pal-GHK 200mg Topical | CAS 147732-56-7 | Buy Palmitoyl Tripeptide-1 | BioPeptide",
+    "Pal-GHK 200mg Topical | CAS 147732-56-7 | Buy Palmitoyl Tripeptide-1 |",
 
   description:
     "Buy Pal-GHK (Palmitoyl Tripeptide-1) 200mg topical research peptide from BioPeptide USA. CAS 147732-56-7. ≥99% HPLC purity. Studied in laboratory and cosmetic science research for collagen signaling, fibroblast activity, and extracellular matrix (ECM) pathway analysis. For Research Use Only.",
@@ -6372,7 +6449,7 @@
   image: "/product/cosmeticpeptides/palmitoyl.png",
   seo: {
   title:
-    "Palmitoyl Dipeptide-6 200mg Topical | BioPeptide USA",
+    "Palmitoyl Dipeptide-6 200mg Topical | USA",
 
   description:
     "Buy Palmitoyl Dipeptide-6 200mg topical research peptide from BioPeptide USA. High-purity, HPLC-verified peptide studied in laboratory and cosmetic science research for fibroblast signaling, collagen biosynthesis, and extracellular matrix (ECM) regulation. For Research Use Only.",
@@ -6432,7 +6509,7 @@
   image: "/product/peptides/pancragen.png",
   seo: {
   title:
-    "Pancragen 20mg Bioregulator for Research | BioPeptide EU",
+    "Pancragen 20mg Bioregulator for Research | EU",
 
   description:
     "Pancragen 20mg bioregulator by BioPeptide is supplied for preclinical and laboratory research investigating pancreatic peptide signaling, endocrine regulation, and metabolic homeostasis pathways. ≥99% HPLC purity. For Research Use Only.",
@@ -6467,7 +6544,7 @@
   strength:
     "Short regulatory peptide fragment studied for neurobiological signaling, cognitive pathway research, and synaptic modulation models.",
 
-  cas: "N/A",
+  cas: "1801959-12-5",
   size: "Research vial",
   purity: "≥ 99% (HPLC)",
 
@@ -6491,7 +6568,7 @@
   image: "/product/peptides/pe2228.png",
   seo: {
   title:
-    "PE-22-28 8mg Peptide | CAS 1801959-12-5 | BioPeptide",
+    "PE-22-28 8mg Peptide | CAS 1801959-12-5 |",
 
   description:
     "Order PE-22-28 8mg research peptide from BioPeptide USA. CAS 1801959-12-5. High-purity peptide studied in laboratory research for neuropeptide signaling, CREB activation pathways, synaptic modulation, and neuroprotection models. For Research Use Only.",
@@ -6550,7 +6627,7 @@
   image: "/product/peptides/pegmgf.png",
   seo: {
   title:
-    "Buy PEG MGF 5mg | PEGylated Mechano Growth Factor | BioPeptide",
+    "Buy PEG MGF 5mg | PEGylated Mechano Growth Factor |",
 
   description:
     "PEG MGF 5mg is a PEGylated mechano growth factor research peptide supplied by BioPeptide. Designed for preclinical and laboratory studies on tissue regeneration, anabolic signaling, and IGF-1–mediated cellular proliferation pathways. High-purity, HPLC-verified. For Research Use Only.",
@@ -6609,7 +6686,7 @@
   image: "/product/cosmeticpeptides/pentapeptide.png",
   seo: {
   title:
-    "Pentapeptide-18 (Leuphasyl) 200mg Topical | CAS 64963-01-5 | BioPeptide",
+    "Pentapeptide-18 (Leuphasyl) 200mg Topical | CAS 64963-01-5 |",
 
   description:
     "Order Pentapeptide-18 (Leuphasyl) 200mg topical research peptide from BioPeptide USA. CAS 64963-01-5. High-purity, HPLC-verified peptide designed for dermatological and neuropeptide research involving signal transduction, neuromuscular communication, and muscle innervation pathways. For Research Use Only.",
@@ -6645,7 +6722,7 @@
   strength:
     "Short-chain peptide bioregulator studied for neuroendocrine signaling, pineal gland biology, and circadian pathway research models.",
 
-  cas: "N/A",
+  cas: "175175-23-2",
   size: "20mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -6669,7 +6746,7 @@
   image: "/product/peptides/pinealon.png",
   seo: {
   title:
-    "Buy Pinealon 20mg | Bioregulator Peptide CAS 175175-23-2 | BioPeptide",
+    "Buy Pinealon 20mg | Bioregulator Peptide CAS 175175-23-2 |",
 
   description:
     "Pinealon 20mg by BioPeptide is a synthetic tripeptide bioregulator (CAS 175175-23-2) studied in laboratory research for neuronal aging, mitochondrial regulation, gene expression control, and oxidative stress signaling pathways. ≥99% HPLC purity. For Research Use Only.",
@@ -6728,7 +6805,7 @@
   image: "/product/peptides/pnc27.png",
   seo: {
   title:
-    "Buy PNC-27 5mg | Oncology Research Peptide | BioPeptide",
+    "Buy PNC-27 5mg | Oncology Research Peptide |",
 
   description:
     "PNC-27 5mg by BioPeptide is a high-purity research peptide studied in vitro for p53–MDM2 interaction dynamics, membrane destabilization, and tumor-selective cytolytic mechanisms in cancer biology research. ≥99% HPLC purity. For Research Use Only.",
@@ -6787,7 +6864,7 @@
   image: "/product/peptides/prostamax.png",
   seo: {
   title:
-    "Prostamax 20mg | Prostate Bioregulator Peptide | BioPeptide USA",
+    "Prostamax 20mg | Prostate Bioregulator Peptide | USA",
 
   description:
     "Buy Prostamax 20mg bioregulator from BioPeptide USA. High-purity research peptide designed for laboratory studies on prostate peptide signaling, endocrine regulation, and tissue-specific bioregulator pathways. ≥99% HPLC purity. For Research Use Only.",
@@ -6846,7 +6923,7 @@
   image: "/product/peptides/pt141_3.png",
   seo: {
   title:
-    "Buy PT-141 Bremelanotide 30mg | 3mg × 10 Vials | BioPeptide",
+    "Buy PT-141 Bremelanotide 30mg | 3mg × 10 Vials |",
 
   description:
     "PT-141 (Bremelanotide) 30mg research kit (3mg × 10 vials) from BioPeptide. Synthetic α-MSH analog studied in preclinical models for melanocortin receptor activation, neuroimmune modulation, and autonomic signaling pathways. ≥99% HPLC purity. For Research Use Only.",
@@ -6907,7 +6984,7 @@
   image: "/product/peptides/pt141_10.png",
   seo: {
   title:
-    "Buy PT-141 Bremelanotide 30mg | 3mg × 10 Vials | BioPeptide",
+    "Buy PT-141 Bremelanotide 30mg | 3mg × 10 Vials |",
 
   description:
     "PT-141 (Bremelanotide) 30mg research kit (3mg × 10 vials) from BioPeptide. Synthetic α-MSH analog studied in preclinical models for melanocortin receptor activation, neuroimmune modulation, and autonomic signaling pathways. ≥99% HPLC purity. For Research Use Only.",
@@ -7028,7 +7105,7 @@
   image: "/product/cosmeticpeptides/rigin.png",
   seo: {
   title:
-    "Rigin (Palmitoyl Tetrapeptide-7) 200mg | CAS 221227-05-0 | BioPeptide",
+    "Rigin (Palmitoyl Tetrapeptide-7) 200mg | CAS 221227-05-0 |",
 
   description:
     "Buy Rigin (Palmitoyl Tetrapeptide-7) 200mg topical research peptide from BioPeptide USA. CAS 221227-05-0. High-purity, HPLC-verified peptide studied in laboratory and cosmetic science research for cytokine modulation, inflammatory signaling control, and dermal communication pathways. For Research Use Only.",
@@ -7064,7 +7141,7 @@
   strength:
     "Synthetic heptapeptide studied in laboratory research for neuropeptide signaling, neurotransmitter modulation pathways, and central nervous system communication models.",
 
-  cas: "135679-83-1",
+  cas: "129954-34-3",
   size: "10mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -7089,7 +7166,7 @@
   image: "/product/peptides/selank.png",
   seo: {
   title:
-    "Buy Selank 10mg Peptide (CAS 129954-34-3) | BioPeptide",
+    "Buy Selank 10mg Peptide (CAS 129954-34-3) |",
 
   description:
     "Selank 10mg research peptide (CAS 129954-34-3) from BioPeptide is supplied for controlled laboratory studies investigating neuropeptide signaling, immune modulation, GABAergic balance, and stress-response pathways. ≥99% HPLC purity. For Research Use Only.",
@@ -7149,7 +7226,7 @@
   image: "/product/peptides/semax.png",
   seo: {
   title:
-    "Buy Semax 30mg Research Peptide (CAS 80714-61-0) | BioPeptide",
+    "Buy Semax 30mg Research Peptide (CAS 80714-61-0) |",
 
   description:
     "Buy Semax 30mg research peptide (CAS 80714-61-0) from BioPeptide. High-purity synthetic Semax supplied for laboratory research in neurotrophic signaling, synaptic plasticity, BDNF pathway modulation, and central nervous system peptide studies. ≥99% HPLC purity. For Research Use Only.",
@@ -7184,7 +7261,7 @@
   strength:
     "Dual-peptide research blend combining Sermorelin and GHRP-2, studied in laboratory models for growth hormone–related signaling pathways and peptide-mediated endocrine communication research.",
 
-  cas: "N/A (peptide blend)",
+  cas: "86168-78-7 & 158861-67-7",
   size: "10mg vial (blend)",
   purity: "≥ 99% (HPLC, individual components)",
 
@@ -7209,7 +7286,7 @@
   image: "/product/peptide blends/sermorelinghrp2blend10mg.png",
   seo: {
   title:
-    "Sermorelin & GHRP-2 10mg Blend | CAS 86168-78-7 & 158861-67-7 | BioPeptide",
+    "Sermorelin & GHRP-2 10mg Blend | CAS 86168-78-7 & 158861-67-7 |",
 
   description:
     "Order Sermorelin (GHRH 1–29) and GHRP-2 10mg research peptide blend from BioPeptide USA. CAS 86168-78-7 and 158861-67-7. High-purity RUO blend developed for laboratory research on endocrine regulation, pituitary signaling, growth hormone secretion dynamics, and GHRH–ghrelin receptor synergy. ≥99% HPLC purity. For Research Use Only.",
@@ -7245,7 +7322,7 @@
   strength:
     "Dual-peptide research blend combining Sermorelin and GHRP-6, studied in laboratory models for growth hormone–related signaling pathways and peptide-mediated endocrine communication research.",
 
-  cas: "N/A (peptide blend)",
+  cas: "86168-78-7 & 87616-84-0",
   size: "10mg vial (blend)",
   purity: "≥ 99% (HPLC, individual components)",
 
@@ -7270,7 +7347,7 @@
   image: "/product/peptide blends/sermorelinghrp6blend10mg.png",
   seo: {
   title:
-    "Sermorelin & GHRP-6 10mg Blend | CAS 86168-78-7 & 87616-84-0 | BioPeptide",
+    "Sermorelin & GHRP-6 10mg Blend | CAS 86168-78-7 & 87616-84-0 |",
 
   description:
     "Premium Sermorelin (GHRH 1–29) and GHRP-6 10mg research peptide blend from BioPeptide USA. CAS 86168-78-7 and 87616-84-0. High-purity RUO blend trusted by researchers studying growth hormone pulsatility, receptor synergy, and hypothalamic–pituitary signaling pathways. ≥99% HPLC purity. For Research Use Only.",
@@ -7306,7 +7383,7 @@
   strength:
     "Triple-peptide research blend combining Sermorelin, GHRP-6, and GHRP-2, studied in laboratory models for growth hormone axis signaling, receptor-mediated endocrine communication, and peptide synergy research.",
 
-  cas: "N/A (multi-peptide blend)",
+  cas: "86168-78-7, 87616-84-0 & 158861-67-7",
   size: "9mg vial (blend)",
   purity: "≥ 99% (HPLC, individual components)",
 
@@ -7331,7 +7408,7 @@
   image: "/product/peptide blends/sermorelinipamorelinblend10mg.png",
   seo: {
   title:
-    "Sermorelin + GHRP-6 + GHRP-2 9mg Blend | CAS 86168-78-7, 87616-84-0, 158861-67-7 | BioPeptide",
+    "Sermorelin + GHRP-6 + GHRP-2 9mg Blend | CAS 86168-78-7, 87616-84-0, 158861-67-7 |",
 
   description:
     "Research peptide blend containing Sermorelin (CAS 86168-78-7), GHRP-6 (CAS 87616-84-0), and GHRP-2 (CAS 158861-67-7). Supplied by BioPeptide for laboratory studies on growth hormone axis modeling, ghrelin receptor activation, pituitary signaling, and hypothalamic–pituitary pathway research. ≥99% HPLC purity. For Research Use Only.",
@@ -7368,7 +7445,7 @@
   strength:
     "Dual-peptide research blend combining Sermorelin and Ipamorelin, studied in laboratory models for growth hormone axis signaling, receptor-selective peptide interactions, and endocrine communication research.",
 
-  cas: "N/A (peptide blend)",
+  cas: "86168-78-7 & 170851-70-4",
   size: "10mg vial (blend)",
   purity: "≥ 99% (HPLC, individual components)",
 
@@ -7393,7 +7470,7 @@
   image: "/product/peptide blends/sermorelinipamorelinblend10mg.png",
   seo: {
   title:
-    "Sermorelin & Ipamorelin 10mg Blend | CAS 86168-78-7 & 170851-70-4 | BioPeptide",
+    "Sermorelin & Ipamorelin 10mg Blend | CAS 86168-78-7 & 170851-70-4 |",
 
   description:
     "Buy Sermorelin and Ipamorelin 10mg research peptide blend from BioPeptide USA. CAS 86168-78-7 and 170851-70-4. High-purity RUO formulation designed for laboratory studies on growth hormone release, GHRH–ghrelin receptor synergy, pituitary signaling, and endocrine pathway research. ≥99% HPLC purity. For Research Use Only.",
@@ -7454,7 +7531,7 @@
   image: "/product/peptides/sermorelin2.png",
   seo: {
   title:
-    "Buy Sermorelin GHRH (1-29) Research Peptide | CAS 86168-78-7 | BioPeptide",
+    "Buy Sermorelin GHRH (1-29) Research Peptide | CAS 86168-78-7 |",
 
   description:
     "Buy Sermorelin GHRH (1–29) research peptide (CAS 86168-78-7) from BioPeptide USA. High-purity peptide supplied for laboratory research on endocrine regulation, somatotropic signaling, pituitary GH release mechanisms, and GHRH receptor pathway studies. ≥99% HPLC purity. For Research Use Only.",
@@ -7515,7 +7592,7 @@
   image: "/product/peptides/sermorelin5.png",
   seo: {
   title:
-    "Sermorelin 5mg GHRH (1-29) Peptide | CAS 86168-78-7 | BioPeptide",
+    "Sermorelin 5mg GHRH (1-29) Peptide | CAS 86168-78-7 |",
 
   description:
     "BioPeptide Sermorelin 5mg GHRH (1–29) research peptide (CAS 86168-78-7) is supplied at ≥99% HPLC purity for laboratory studies on hypothalamic–pituitary regulation, growth hormone signaling, and somatotropic pathway modeling. For Research Use Only.",
@@ -7576,7 +7653,7 @@
   image: "/product/peptides/sermorelin15.png",
   seo: {
   title:
-    "Sermorelin GHRH 1-29 15mg Peptide | CAS 86168-78-7 | BioPeptide",
+    "Sermorelin GHRH 1-29 15mg Peptide | CAS 86168-78-7 |",
 
   description:
     "Sermorelin GHRH (1–29) 15mg research peptide (CAS 86168-78-7) by BioPeptide is supplied at ≥99% HPLC purity for controlled laboratory studies of growth hormone release dynamics, hypothalamic–pituitary signaling, and endocrine feedback regulation. For Research Use Only.",
@@ -7612,7 +7689,7 @@
   strength:
     "Small-molecule research compound studied in laboratory models for metabolic signaling pathways, mitochondrial activity research, and cellular energy regulation mechanisms.",
 
-  cas: "N/A",
+  cas: "303760-60-3",
   size: "250 mcg capsules",
   purity: "Research-grade formulation",
 
@@ -7637,7 +7714,7 @@
   image: "/product/capsules/slu-pp-332.png",
   seo: {
   title:
-    "Buy SLU-PP-332 Capsules 250mcg – CAS 303760-60-3 | BioPeptide",
+    "Buy SLU-PP-332 Capsules 250mcg – CAS 303760-60-3 |",
 
   description:
     "Purchase SLU-PP-332 research capsules 250mcg (CAS 303760-60-3) from BioPeptide. High-purity small-molecule compound studied in laboratory models for fatty acid oxidation, endurance-related signaling, and mitochondrial efficiency pathways. Trusted global supplier. For Research Use Only.",
@@ -7697,7 +7774,7 @@
   image: "/product/cosmeticpeptides/snap.png",
   seo: {
   title:
-    "Buy SNAP-8 200mg (Acetyl Hexapeptide-8) | CAS 868844-74-0 | BioPeptide",
+    "Buy SNAP-8 200mg (Acetyl Hexapeptide-8) | CAS 868844-74-0 |",
 
   description:
     "Order SNAP-8 (Acetyl Hexapeptide-8) 200mg topical research peptide from BioPeptide USA. CAS 868844-74-0. HPLC-verified purity for laboratory and cosmetic science research involving SNARE-mediated signaling and neuropeptide pathway studies. For Research Use Only.",
@@ -7758,7 +7835,7 @@
   image: "/product/cosmeticpeptides/synake.png",
   seo: {
   title:
-    "Buy Syn-AKE 200mg Topical Peptide | CAS 823202-99-9 | BioPeptide USA",
+    "Buy Syn-AKE 200mg Topical Peptide | CAS 823202-99-9 | USA",
 
   description:
     "Purchase BioPeptide Syn-AKE 200mg topical research peptide (CAS 823202-99-9). HPLC-verified purity for advanced cosmetic and dermatological research examining peptide–receptor interactions and neurochemical signaling pathways. For Research Use Only.",
@@ -7794,7 +7871,7 @@
   strength:
     "Palmitoylated tripeptide studied in laboratory research for dermal signaling pathways, peptide–matrix interactions, and extracellular communication models.",
 
-  cas: "147732-56-7",
+  cas: "623172-55-4",
   size: "200mg topical preparation",
   purity: "≥ 99% (HPLC)",
 
@@ -7819,7 +7896,7 @@
   image: "/product/cosmeticpeptides/syncoll.png",
   seo: {
   title:
-    "Buy Syn-Coll Palmitoyl Tripeptide-5 200mg | CAS 623172-55-4 | BioPeptide",
+    "Buy Syn-Coll Palmitoyl Tripeptide-5 200mg | CAS 623172-55-4 |",
 
   description:
     "Purchase Syn-Coll (Palmitoyl Tripeptide-5) 200mg topical research peptide from BioPeptide USA. CAS 623172-55-4. HPLC-verified purity for laboratory and cosmetic science research focused on collagen signaling, fibroblast communication, and dermal extracellular matrix (ECM) pathway analysis. For Research Use Only.",
@@ -7855,7 +7932,7 @@
   strength:
     "Synthetic fragment peptide studied in laboratory research for cellular signaling, cytoskeletal dynamics, and tissue-level communication models.",
 
-  cas: "N/A",
+  cas: "77591-33-4",
   size: "2mg vial × 10 vials",
   purity: "≥ 99% (HPLC)",
 
@@ -7880,7 +7957,7 @@
   image: "/product/peptides/tb500.png",
   seo: {
   title:
-    "Buy TB-500 Thymosin Beta-4 20mg (2mg × 10) | CAS 77591-33-4 | BioPeptide",
+    "Buy TB-500 Thymosin Beta-4 20mg (2mg × 10) | CAS 77591-33-4 |",
 
   description:
     "Buy TB-500 (Thymosin Beta-4) 20mg research peptide kit (2mg × 10 vials) from BioPeptide. CAS 77591-33-4. 43-amino-acid peptide supplied for laboratory studies on tissue remodeling, angiogenesis signaling, actin regulation, and oxidative stress response pathways. ≥99% HPLC purity. For Research Use Only.",
@@ -7915,7 +7992,7 @@
   strength:
     "Synthetic peptide fragment studied in laboratory research for cellular signaling pathways, cytoskeletal dynamics, and tissue-level communication models.",
 
-  cas: "N/A",
+  cas: " 77591-33-4",
   size: "5mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -7940,7 +8017,7 @@
   image: "/product/peptides/tb500_10.png",
   seo: {
   title:
-    "Buy TB-500 Thymosin Beta-4 5mg (43aa) | CAS 77591-33-4 | BioPeptide",
+    "Buy TB-500 Thymosin Beta-4 5mg (43aa) | CAS 77591-33-4 |",
 
   description:
     "Buy TB-500 (Thymosin Beta-4) 5mg research peptide from BioPeptide. CAS 77591-33-4. 43-amino-acid peptide supplied for laboratory studies involving cellular migration, angiogenesis signaling, actin cytoskeleton dynamics, and tissue remodeling pathways. ≥99% HPLC purity. For Research Use Only.",
@@ -7975,7 +8052,7 @@
   strength:
     "Short synthetic peptide fragment studied in laboratory research for cellular signaling pathways, peptide–structure interaction models, and tissue-level communication research.",
 
-  cas: "N/A",
+  cas: "476014-70-7",
   size: "10mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -7997,10 +8074,10 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/tb500_10.png",
+  image: "/product/peptides/tb500fragemnt.png",
   seo: {
   title:
-    "Buy TB-500 Fragment 17–23 10mg | Thymosin Beta-4 Fragment | BioPeptide",
+    "Buy TB-500 Fragment 17–23 10mg | Thymosin Beta-4 Fragment |",
 
   description:
     "Buy TB-500 Fragment 17–23 10mg research peptide from BioPeptide. A short functional fragment of Thymosin Beta-4 supplied for laboratory studies on cell migration signaling, actin-associated pathways, angiogenic modulation, and tissue remodeling mechanisms. ≥99% HPLC purity. For Research Use Only.",
@@ -8033,7 +8110,7 @@
   strength:
     "Triple-peptide research blend combining Tesamorelin, CJC-1295, and Ipamorelin, studied in laboratory models for growth hormone axis signaling, peptide synergy, and endocrine communication research.",
 
-  cas: "N/A (multi-peptide blend)",
+  cas: "901758-09-6, 446262-90-4, and 170851-70-4",
   size: "12mg vial (blend)",
   purity: "≥ 99% (HPLC, individual components)",
 
@@ -8055,10 +8132,10 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/tesamorelin2.png",
+  image: "/product/peptide blends/tesamorelincjc1295ipamorelinblend12mg.png",
   seo: {
   title:
-    "Tesamorelin CJC-1295 No DAC Ipamorelin 12mg Blend | CAS Verified | BioPeptide",
+    "Tesamorelin CJC-1295 No DAC Ipamorelin 12mg Blend | CAS Verified |",
 
   description:
     "Buy Tesamorelin, CJC-1295 (No DAC), and Ipamorelin 12mg research peptide blend from BioPeptide. CAS 901758-09-6, 446262-90-4, and 170851-70-4. Formulated for laboratory studies on growth hormone pulsatility, GHRH and ghrelin receptor signaling, endocrine pathway modulation, and peptide-receptor interaction research. ≥99% HPLC purity. For Research Use Only.",
@@ -8095,7 +8172,7 @@
   strength:
     "Dual-peptide research blend combining Tesamorelin and Ipamorelin, studied in laboratory models for growth hormone axis signaling, receptor-selective peptide interactions, and endocrine communication research.",
 
-  cas: "N/A (peptide blend)",
+  cas: "901758-09-6 & 170851-70-4",
   size: "8mg vial (blend)",
   purity: "≥ 99% (HPLC, individual components)",
 
@@ -8117,10 +8194,10 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/tesamorelin2.png",
+  image: "/product/peptide blends/tesamorelinipamorelinblend8mg.png",
   seo: {
   title:
-    "Tesamorelin Ipamorelin 8mg Blend | CAS 901758-09-6, 170851-70-4 | BioPeptide",
+    "Tesamorelin Ipamorelin 8mg Blend | CAS 901758-09-6, 170851-70-4 |",
 
   description:
     "Buy Tesamorelin and Ipamorelin 8mg research peptide blend from BioPeptide. CAS 901758-09-6 and 170851-70-4. Formulated for laboratory studies on growth hormone axis activation, GHRH and ghrelin receptor synergy, pituitary signaling pathways, and peptide–receptor interaction research. ≥99% HPLC purity. For Research Use Only.",
@@ -8157,7 +8234,7 @@
   strength:
     "Synthetic growth hormone–releasing hormone (GHRH) analog studied in laboratory research for pituitary signaling pathways, growth hormone axis communication, and endocrine regulatory models.",
 
-  cas: "218949-48-5",
+  cas: "901758-09-6",
   size: "5mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -8182,7 +8259,7 @@
   image: "/product/peptides/tesamorelin5.png",
   seo: {
   title:
-    "Buy Tesamorelin 5mg | CAS 901758-09-6 | BioPeptide Research Peptide",
+    "Buy Tesamorelin 5mg | CAS 901758-09-6 | Research Peptide",
 
   description:
     "Tesamorelin 5mg research peptide (CAS 901758-09-6) by BioPeptide is a stabilized GHRH analog supplied at ≥99% HPLC purity for laboratory studies on growth hormone signaling, pituitary regulation, and metabolic pathway research. For Research Use Only.",
@@ -8218,7 +8295,7 @@
   strength:
     "Small-molecule research compound studied in laboratory models for monoamine signaling pathways, central nervous system regulation, and metabolic signaling research.",
 
-  cas: "179177-41-0",
+  cas: "195875-84-4",
   size: "500mcg capsules × 30",
   purity: "Research-grade formulation",
 
@@ -8240,10 +8317,10 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "product/capsules/tesofensine.png",
+  image: "/product/capsules/tesofensine.png",
   seo: {
   title:
-    "Buy Tesofensine 500mcg Capsules – CAS 195875-84-4 | BioPeptide",
+    "Buy Tesofensine 500mcg Capsules – CAS 195875-84-4 |",
 
   description:
     "Buy Tesofensine 500mcg research capsules (CAS 195875-84-4) from BioPeptide. ≥99% HPLC-purified small-molecule compound studied in laboratory research for monoamine signaling, appetite regulation pathways, energy expenditure, and metabolic regulation. For Research Use Only.",
@@ -8303,7 +8380,7 @@
   image: "/product/peptides/testagen.png",
   seo: {
   title:
-    "Testagen 20mg Bioregulator for Research | BioPeptide",
+    "Testagen 20mg Bioregulator for Research |",
 
   description:
     "BioPeptide Testagen 20mg is a testicular-derived peptide bioregulator supplied for preclinical and laboratory research investigating steroidogenesis, spermatogenic signaling, and endocrine feedback mechanisms. ≥99% HPLC purity. For Research Use Only.",
@@ -8338,7 +8415,7 @@
   strength:
     "Short-chain peptide bioregulator studied in laboratory research for thymus-related signaling pathways and immune system regulatory communication models.",
 
-  cas: "N/A",
+  cas: "CAS 38101-59-6",
   size: "20mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -8363,7 +8440,7 @@
   image: "/product/peptides/thymagen.png",
   seo: {
   title:
-    "Thymagen (Thymogen) 20mg | Thymic Bioregulator | CAS 38101-59-6 | BioPeptide USA",
+    "Thymagen (Thymogen) 20mg | Thymic Bioregulator | CAS 38101-59-6 | USA",
 
   description:
     "Thymagen (Thymogen) 20mg bioregulator (CAS 38101-59-6) by BioPeptide is supplied for laboratory and preclinical research on thymic peptide signaling, immune system regulation, T-cell differentiation, and endocrine–immune pathway interactions. ≥99% HPLC purity. For Research Use Only.",
@@ -8399,7 +8476,7 @@
   strength:
     "Short-chain peptide complex studied in laboratory research for thymus-associated signaling pathways and immune regulatory communication models.",
 
-  cas: "N/A",
+  cas: "63958-90-7",
   size: "20mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -8424,7 +8501,7 @@
   image: "/product/peptides/thymalin20.png",
   seo: {
   title:
-    "Thymalin 20mg Thymic Peptide | CAS 63958-90-7 | BioPeptide",
+    "Thymalin 20mg Thymic Peptide | CAS 63958-90-7 |",
 
   description:
     "Thymalin 20mg by BioPeptide (CAS 63958-90-7) is a thymic polypeptide complex supplied for laboratory and preclinical research on immune regulation, T-cell differentiation, and peptide-based bioregulation pathways. ≥99% HPLC purity. For Research Use Only.",
@@ -8481,10 +8558,10 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/thymosin.png",
+  image: "/product/peptides/thymosin3.png",
   seo: {
   title:
-    "Buy Thymosin Alpha-1 3mg | BioPeptide | CAS 62304-98-7",
+    "Buy Thymosin Alpha-1 3mg | CAS 62304-98-7",
 
   description:
     "Thymosin Alpha-1 3mg by BioPeptide (CAS 62304-98-7) is a 28–amino-acid thymic research peptide supplied at ≥99% HPLC purity for laboratory studies on T-cell signaling, immune pathway modulation, cytokine regulation, and thymic peptide biology. For Research Use Only.",
@@ -8544,7 +8621,7 @@
   image: "/product/peptides/thymosin10.png",
   seo: {
   title:
-    "Thymosin Alpha-1 10mg | CAS 62304-98-7 | BioPeptide",
+    "Thymosin Alpha-1 10mg | CAS 62304-98-7 |",
 
   description:
     "BioPeptide Thymosin Alpha-1 10mg research peptide (CAS 62304-98-7) is supplied at ≥99% HPLC purity for laboratory studies comparing thymic peptides involved in immune signaling, transcriptional regulation, cytokine modulation, and cellular defense pathways. For Research Use Only.",
@@ -8604,7 +8681,7 @@
   image: "/product/peptides/trh20.png",
   seo: {
   title:
-    "Buy TRH Thyrotropin (Protirelin) 20mg | CAS 24305-27-9 | BioPeptide",
+    "Buy TRH Thyrotropin (Protirelin) 20mg | CAS 24305-27-9 |",
 
   description:
     "BioPeptide TRH Thyrotropin (Protirelin) 20mg research compound (CAS 24305-27-9) is a tripeptide supplied at ≥99% HPLC purity for laboratory studies on TSH release, prolactin signaling, and GPCR-mediated endocrine regulation. For Research Use Only.",
@@ -8665,7 +8742,7 @@
   image: "/product/peptides/trh50.png",
   seo: {
   title:
-    "TRH Thyrotropin (Protirelin) 50mg Research Peptide | CAS 24305-27-9 | BioPeptide",
+    "TRH Thyrotropin (Protirelin) 50mg Research Peptide | CAS 24305-27-9 |",
 
   description:
     "TRH Thyrotropin (Protirelin) 50mg research peptide (CAS 24305-27-9) supplied by BioPeptide at ≥99% HPLC purity. Synthetic tripeptide utilized in laboratory studies of thyrotropin (TSH) secretion, prolactin signaling, and GPCR-mediated endocrine regulation. For Research Use Only.",
@@ -8701,7 +8778,7 @@
   strength:
     "Synthetic tripeptide studied in laboratory research for extracellular matrix signaling, collagen-related peptide interactions, and dermal communication models.",
 
-  cas: "959610-30-1",
+  cas: " 2239-67-0",
   size: "200mg topical preparation",
   purity: "≥ 99% (HPLC)",
 
@@ -8726,7 +8803,7 @@
   image: "/product/cosmeticpeptides/tripeptide.png",
   seo: {
   title:
-    "Tripeptide-29 Collagen Peptide 200mg (Topical) | CAS 2239-67-0 | BioPeptide",
+    "Tripeptide-29 Collagen Peptide 200mg (Topical) | CAS 2239-67-0 |",
 
   description:
     "Tripeptide-29 (Gly-Pro-Hyp) 200mg topical research peptide from BioPeptide. CAS 2239-67-0. Collagen-derived tripeptide supplied at ≥99% HPLC purity for laboratory and cosmetic science research on extracellular matrix synthesis, dermal protein stabilization, and collagen signaling pathways. For Research Use Only.",
@@ -8784,10 +8861,10 @@
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/tripeptide.png",
+  image: "/product/peptides/Triptorelin2mg (1).png",
   seo: {
   title:
-    "Triptorelin GnRH 2mg Research Supply | CAS 57773-63-4 | BioPeptide",
+    "Triptorelin GnRH 2mg Research Supply | CAS 57773-63-4 |",
 
   description:
     "Triptorelin (GnRH) 2mg research peptide by BioPeptide (CAS 57773-63-4). ≥99% HPLC purity peptide synthesized via SPPS for laboratory studies on GnRH receptor interactions, downstream pathway signaling, and cell-based endocrine research models. For Research Use Only.",
@@ -8823,7 +8900,7 @@
   strength:
     "Short-chain peptide bioregulator studied in laboratory research for bladder-related tissue signaling pathways and organ-specific regulatory communication models.",
 
-  cas: "N/A",
+  cas: "3918-84-1 ",
   size: "20mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -8943,7 +9020,7 @@
   strength:
     "Synthetic pentapeptide studied in laboratory research for dermal signaling pathways, peptide–receptor interaction models, and skin communication research.",
 
-  cas: "N/A",
+  cas: "135679-88-8",
   size: "200mg topical preparation",
   purity: "≥ 99% (HPLC)",
 
@@ -8968,7 +9045,7 @@
   image: "/product/cosmeticpeptides/vialox.png",
   seo: {
   title:
-    "Buy Vialox (Pentapeptide-3V) 200mg Topical | CAS 135679-88-8 | BioPeptide",
+    "Buy Vialox (Pentapeptide-3V) 200mg Topical | CAS 135679-88-8 |",
 
   description:
     "Buy Vialox (Pentapeptide-3V) 200mg topical research peptide from BioPeptide. CAS 135679-88-8. High-purity peptide studied for neuromuscular signaling, nicotinic acetylcholine receptor (nAChR) modulation, and peptide–receptor interaction research. ≥99% HPLC purity. US lab supply. For Research Use Only.",
@@ -9003,7 +9080,7 @@
   strength:
     "Short-chain synthetic peptide studied in laboratory research for immune-related signaling pathways, thymic peptide communication models, and cellular regulatory mechanisms.",
 
-  cas: "N/A",
+  cas: "45234-02-4",
   size: "20mg vial",
   purity: "≥ 99% (HPLC)",
 
@@ -9028,7 +9105,7 @@
   image: "/product/peptides/vilon.png",
   seo: {
   title:
-    "Vilon 20mg Research Peptide | Thymic Bioregulator | CAS 45234-02-4 | BioPeptide USA",
+    "Vilon 20mg Research Peptide | Thymic Bioregulator | CAS 45234-02-4 | USA",
 
   description:
     "Purchase Vilon 20mg thymic bioregulator research peptide from BioPeptide (CAS 45234-02-4). High-purity synthetic peptide studied in laboratory models for gene regulation, cell cycle control, immune signaling, and peptide-mediated bioregulation pathways. ≥99% HPLC purity. US laboratory supply. For Research Use Only.",
@@ -9088,7 +9165,7 @@
   image: "/product/peptides/vip.png",
   seo: {
   title:
-    "VIP 6mg Vasoactive Intestinal Peptide | CAS 37221-79-7 | BioPeptide",
+    "VIP 6mg Vasoactive Intestinal Peptide | CAS 37221-79-7 |",
 
   description:
     "BioPeptide VIP 6mg (Vasoactive Intestinal Peptide, CAS 37221-79-7) is a 28-amino-acid neuropeptide supplied for experimental research on VPAC1/VPAC2 receptor activation, cAMP-mediated signaling, neurovascular regulation, and peptide-driven vascular homeostasis pathways. ≥99% HPLC purity. For Research Use Only.",

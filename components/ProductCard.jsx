@@ -6,6 +6,8 @@ import Link from "next/link";
 import { useState } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { getTranslatedProduct } from "@/utils/getTranslatedProduct";
+import Loader from "@/components/Loader";
+
 
 export default function ProductCard({ product }) {
   const [imgLoaded, setImgLoaded] = useState(false);
@@ -25,7 +27,17 @@ export default function ProductCard({ product }) {
 
 
   const { translations, loading } = useLanguage();
-  if (loading) return null;
+  if (loading) {
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-white flex items-center justify-center">
+        <Loader />
+      </main>
+      <Footer />
+    </>
+  );
+}
 
   const p = getTranslatedProduct(product, translations);
 

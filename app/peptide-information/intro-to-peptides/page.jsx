@@ -128,11 +128,23 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import PeptideInfoSubNav from "@/components/PeptideInfoSubNav";
 import PeptideInfoSidebar from "@/components/PeptideInfoSidebar";
 import { useLanguage } from "@/contexts/LanguageContext";
+import Loader from "@/components/Loader";
+
 
 export default function IntroToPeptidesPage() {
   const { translations, loading } = useLanguage();
 
-  if (loading) return null;
+  if (loading) {
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-white flex items-center justify-center">
+        <Loader />
+      </main>
+      <Footer />
+    </>
+  );
+}
 
   const t =
     translations?.peptideInformation?.introToPeptides;
