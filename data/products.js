@@ -3190,8 +3190,74 @@ seo: {
     "https://www.bio-peptides.com/product/ghrp-2-5mg-x-10-modgrf-1-29-5mg-x-10"
 }
 
-},GHRP-2 5mg ×10 + Ipamorelin 5mg ×10 (Bundle)
+},
 
+{
+  id: "ghrp-2-ipamorelin-5x10mg-bundle",
+  slug: "ghrp-2-5mg-x-10-ipamorelin-5mg-x-10",
+  name: "GHRP-2 5mg ×10 + Ipamorelin 5mg ×10 (Bundle)",
+  category: "Peptide Blends",
+  cas:"158861-67-7 & 170851-70-4",
+
+  price: 1240.0,
+
+  strength:
+    "Large multi-vial endocrine research bundle studied for growth hormone secretagogue receptor signaling and pituitary pathway interaction models.",
+
+  size: "20 vials total (GHRP-2 5mg ×10, Ipamorelin 5mg ×10)",
+  purity: "≥ 99% (HPLC)",
+
+  stock: true,
+  badge: "Research Bundle",
+
+  description:
+    "This research bundle includes ten vials of GHRP-2 (Growth Hormone–Releasing Peptide-2) and ten vials of Ipamorelin, supplied as separate lyophilized peptides. In laboratory research environments, this combination is used to investigate synergistic growth hormone secretagogue receptor signaling, endocrine pathway modulation, and peptide–receptor interaction dynamics. The expanded multi-vial format supports extended experimental design, comparative studies, and higher-throughput endocrine research applications.",
+
+  components: [
+    "GHRP-2 (Growth Hormone–Releasing Peptide-2) — 5mg ×10 vials",
+    "Ipamorelin — 5mg ×10 vials"
+  ],
+
+  applications: [
+    "Endocrine and pituitary signaling research",
+    "Growth hormone secretagogue receptor studies",
+    "Peptide–receptor interaction investigation",
+    "Synergistic endocrine peptide research"
+  ],
+
+  appearance: "White lyophilized powders (separate vials)",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use.",
+
+  image: "/product/bundle/ghrp-2-Ipamorelin-5mg1.png",
+  seo: {
+  title:
+    "GHRP-2 + Ipamorelin 5mg ×10 Research Supply Bundle |",
+
+  description:
+    "BioPeptide supplies GHRP-2 (CAS 158861-67-7) and Ipamorelin (CAS 170851-70-4) 5mg ×10 research peptide bundle. High-purity, batch-tested peptides designed for receptor-binding analysis, signaling pathway research, and advanced laboratory studies. Research use only.",
+
+  keywords: [
+    "GHRP-2",
+    "Ipamorelin",
+    "GHRP-2 Ipamorelin bundle",
+    "GHRP-2 5mg x10",
+    "Ipamorelin 5mg x10",
+    "CAS 158861-67-7",
+    "CAS 170851-70-4",
+    "receptor binding research peptides",
+    "GH signaling pathway research",
+    "advanced laboratory peptide studies",
+    "BioPeptide research bundles"
+  ],
+
+  robots: "index, follow",
+
+  canonical:
+    "https://www.bio-peptides.com/product/ghrp-2-5mg-x-10-ipamorelin-5mg-x-10"
+}
+
+},
 {
   id: "ghrp-2-5mg",
   slug: "ghrp-2-5mg",
