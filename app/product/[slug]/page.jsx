@@ -139,11 +139,13 @@ export default function ProductPage() {
   src={product.image}
   alt={product.name}
   fill
+  priority
   sizes="(max-width: 640px) 100vw,
          (max-width: 1024px) 50vw,
          450px"
   className="object-contain p-2 relative z-10"
 />
+
 
 </div>
 

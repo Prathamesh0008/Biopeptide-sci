@@ -99,8 +99,8 @@ export default function ContactPage() {
 
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
 
-      <main className="min-h-screen bg-white text-gray-800">
-        <section className="max-w-[1400px] mx-auto px-6 md:px-10 xl:px-20 py-16">
+      <main className=" bg-white text-gray-800">
+        <section className="max-w-[1400px] mx-auto px-6 md:px-10 xl:px-20 pt-16 pb-0">
           <div className="grid lg:grid-cols-2 gap-14">
             {/* LEFT: FORM */}
             <div className="bg-white border border-gray-200 shadow-md rounded-xl p-6 space-y-6">
