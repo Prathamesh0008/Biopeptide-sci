@@ -48,6 +48,7 @@ export default function AboutSection() {
             </h3>
 
             <p>{t.customersText}</p>
+            {t.customersText2 && <p className="mt-4">{t.customersText2}</p>}
           </div>
         </div>
 

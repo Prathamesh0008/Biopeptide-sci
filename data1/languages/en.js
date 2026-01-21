@@ -281,8 +281,8 @@ home: {
   },
 
   productGrid: {
-    mainTitle: "Buy Peptides for Scientific Research",
-   "description": "BioPeptide™ specializes in the development and synthesis of high-purity peptides, proteins, and amino-acid–based compounds intended exclusively for scientific research and laboratory applications. BioPeptide™ utilizes advanced automated and manual peptide synthesis systems, along with both solid-phase and solution-phase synthesis technologies, to deliver peptides that consistently achieve purity levels exceeding 99%.\n\nFrom early-stage peptide design and synthesis through final processing, packaging, and distribution, BioPeptide™ follows rigorous quality control protocols to ensure maximum stability, integrity, and reliability of every compound. Each peptide undergoes comprehensive testing throughout the production lifecycle within our analytical laboratories.\n\nVerification of peptide sequence accuracy and molecular identity is performed using advanced High-Performance Liquid Chromatography (HPLC) and Mass Spectrometry (MS) techniques. These analytical methods scientifically confirm the purity, composition, and consistency of every BioPeptide™ product, ensuring dependable performance for research and development purposes.",
+    mainTitle: "Buy Peptides Online for Scientific Research & Development",
+   "description": "BioPeptide is a trusted provider of high-purity peptides, proteins, and amino acid derivatives designed exclusively for scientific research and development. Using advanced automated and manual peptide synthesizers, along with both solid-phase and solution-phase synthesis technologies, BioPeptide delivers research peptides with purity levels exceeding 99%.\n\n Researchers worldwide rely on BioPeptide when they need to buy peptides online with confidence in quality, consistency, and performance.\n\nFrom initial peptide synthesis to final packaging and delivery, BioPeptide follows strict quality control protocols to ensure maximum stability and precision. Every peptide undergoes comprehensive testing in our analytical laboratory, where its molecular sequence and identity are verified using High-Performance Liquid Chromatography (HPLC) and Mass Spectrometry (MS). This rigorous process guarantees accurate peptide composition, confirmed purity, and reliable results for laboratory research.\n\nIf you are looking to buy peptide online for advanced scientific applications, BioPeptide offers dependable peptide solutions backed by cutting-edge technology and uncompromising standards. Choose BioPeptide as your reliable source for research peptides and experience excellence in peptide synthesis and verification.",
     featuredTitle: "Featured Research Peptides",
     popularTitle: "Popular Peptides",
     filter: "Filter",
@@ -301,21 +301,23 @@ home: {
 
   companyTitle: "Our Company",
   companyText1:
-    "BioPeptide™ is a leading provider of research-grade peptides, committed to supporting scientific discovery and innovation worldwide. We collaborate with globally recognized WHO/GMP and ISO-certified manufacturing partners to ensure consistent quality, purity, and reliability across all products.",
+    "BioPeptide is a leading supplier of premium-grade research peptides, dedicated to supporting scientific research and development worldwide. We collaborate exclusively with WHO/GMP-certified and ISO 9001:2015-approved manufacturers to ensure consistent quality, exceptional purity, and competitive pricing. Our mission is to make it easy for researchers to buy peptides online without compromising on reliability or performance.",
 
   companyText2:
-    "Our mission is to make high-quality research peptides accessible to laboratories, institutions, and independent researchers by offering competitive pricing without compromising on standards. BioPeptide™ also provides educational resources and scientific references to support peptide and protein research advancements.",
+    "By optimizing our production and sourcing processes, BioPeptide is able to pass significant cost savings directly to our customers while maintaining industry-leading standards. In addition to supplying high-purity peptides, we provide access to up-to-date scientific resources and publications to support ongoing advancements in peptide and protein research.",
 
   qualityTitle: "Quality. Service. Value.",
   qualityText:
-    "BioPeptide™ is your trusted and discreet online source for high-purity research peptides. We prioritize rigorous quality control, reliable sourcing, and exceptional customer service. All products are manufactured by reputable research chemical producers, ensuring accuracy, consistency, and performance in laboratory environments.",
+    "At BioPeptide, quality and customer satisfaction are at the core of everything we do. We offer a safe, secure, and private platform to buy peptide online for research purposes. Every peptide is produced through reputable global research chemical manufacturers and undergoes strict quality assurance to meet the highest purity standards.",
 
   qualityText2:
-    "Ordering with BioPeptide™ is simple, secure, and available 24/7. Our platform uses advanced SSL encryption and strict privacy protocols to protect your data, ensuring confidential, safe, and seamless transactions at all times.",
+    "Our online ordering process is fast, simple, and available 24/7, allowing researchers to purchase peptides online with complete confidence. BioPeptide uses advanced SSL encryption technology to protect all personal and payment information, ensuring every transaction remains fully encrypted, secure, and discreet.",
 
   customersTitle: "Our Customers",
   customersText:
-    "We value every researcher and institution we serve. Trusted by customers across the globe, BioPeptide™ is dedicated to providing a reliable and professional experience. From product quality to customer support, we strive for long-term partnerships built on trust and scientific integrity."
+    "We value every customer relationship and take pride in providing dependable service to researchers across the globe. With a growing base of satisfied clients, BioPeptide has earned a reputation as a trusted source for high-quality research peptides online.",
+    customersText2:
+    "Whether you are purchasing for academic, laboratory, or development purposes, BioPeptide is committed to delivering a seamless and secure experience. From the entire BioPeptide team, thank you for choosing us as your trusted partner. If you have any questions or need assistance, our support team is always ready to help"
 }
 
 },
