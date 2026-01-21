@@ -117,6 +117,7 @@ export default function ProductCard({ product }) {
   priority
 />
 
+
  {/* <Image
   src={getSafeImage(product.image)}
   alt={product.name || "Product image"}

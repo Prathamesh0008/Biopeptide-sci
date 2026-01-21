@@ -18,15 +18,17 @@ import DrawerProducts from "@/components/DrawerProducts";
 
 export default function ProductPage() {
   const { slug } = useParams();
+  const [drawerOpen, setDrawerOpen] = useState(false);
+   const [previewOpen, setPreviewOpen] = useState(false);
   const { translations } = useLanguage();
   const t = translations?.productPage;
   if (!t?.description) {
   return null;
 }
-const [drawerOpen, setDrawerOpen] = useState(false);
 
 
-  const [previewOpen, setPreviewOpen] = useState(false);
+
+ 
   const product = PRODUCTS.find(p => p.slug === slug);
 
   // useEffect(() => {
@@ -133,12 +135,16 @@ const [drawerOpen, setDrawerOpen] = useState(false);
   />
 
   {/* PRODUCT IMAGE */}
-  <Image
-    src={product.image}
-    alt={product.name}
-    fill
-    className="object-contain p-2 relative z-10"
-  />
+<Image
+  src={product.image}
+  alt={product.name}
+  fill
+  sizes="(max-width: 640px) 100vw,
+         (max-width: 1024px) 50vw,
+         450px"
+  className="object-contain p-2 relative z-10"
+/>
+
 </div>
 
               {/* BADGES */}
