@@ -78,7 +78,7 @@ export default function BundleSavePage() {
           bg-gradient-to-b from-bioBlue to-bioGreen
           text-white shadow-lg
           cursor-pointer
-          h-36 w-10 rounded-l-xl
+          h-36 w-10 
         "
       >
         <span
@@ -214,14 +214,13 @@ export default function BundleSavePage() {
   onClick={() => router.push(`/bundle/${bundle.id}`)}
   className="
     w-full
-    bg-gradient-to-r from-bioBlue to-bioGreen
-    py-2.5 rounded-full
-    font-semibold text-xs
-    transition
-    hover:opacity-90
-    relative
-    !text-white
-    !opacity-100
+    bg-gradient-to-r from-[#145b2f] via-[#559f45] to-[#1a497c]
+    hover:bg-[#3a3a3a]
+    hover:bg-none
+    text-white text-xs font-semibold
+    py-2 rounded-md
+    transition-all duration-300
+    cursor-pointer
   "
 >
   <span className="!text-white !opacity-100 block">

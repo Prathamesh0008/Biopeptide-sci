@@ -5,14 +5,116 @@ export default {
       description:
         "科学的精度と分析的卓越性によるペプチド革新。"
     },
-    companyOverview: {
-      sectionTitle: "会社概要",
-      title: "当社について",
-      description1:
-        "BioPeptideはバイオテクノロジー研究組織です。",
-      description2:
-        "高純度と再現性を保証します。"
+  companyOverview : {
+  sectionTitle: "私たちについて",
+  title: "私たちの会社",
+
+  countries: [
+    {
+      code: "DE",
+      heading: "BioPeptideについて – ドイツ (DE)",
+      subheading: "ドイツの科学的卓越性のための研究用ペプチド",
+      paragraphs: [
+        "BioPeptideはヨーロッパに焦点を当てたバイオテクノロジー研究のサプライヤーであり、ドイツ全土の大学、民間研究所、科学機関に高純度の研究用ペプチドを提供しています。当社の取り組みは、バイオテクノロジー、医薬品研究、分子生物学、再生科学におけるドイツの強固なエコシステムを支援しています。",
+        "当社は研究専用のペプチド素材を専門としており、精密合成で設計され、HPLCや質量分析を含む透明な分析文書でサポートされています。BioPeptideのペプチドは、精度、追跡可能性、再現性が不可欠なドイツの研究基準を満たすよう設計されています。"
+      ],
+      bulletHeading: "ドイツで支援していること",
+      bullets: [
+        "分子生物学および生化学研究",
+        "内分泌および代謝経路の研究",
+        "再生および組織研究",
+        "細胞シグナル伝達および受容体解析"
+      ],
+      links: [
+        { label: "研究用ペプチドコレクションを見る", href: "/all-peptides" },
+        { label: "ペプチド研究の応用を見る", href: "/peptide-information" }
+      ]
     },
+
+    {
+      code: "FR",
+      heading: "BioPeptideについて – フランス (FR)",
+      subheading: "フランス全土のペプチド研究をサポート",
+      paragraphs: [
+        "BioPeptideは、高純度の研究用ペプチド素材をフランスの科学機関や研究所に提供しており、実験および分析用途に対応しています。",
+        "フランスは生物医学研究、生命科学、医薬品イノベーションでのリーダーであり、信頼性、追跡可能性、科学的に検証されたペプチドツールが求められています。"
+      ],
+      bulletHeading: "フランスでの研究の焦点",
+      bullets: [
+        "ペプチドベースの分子研究",
+        "細胞および生化学経路の研究",
+        "代謝および内分泌研究",
+        "高度な実験室実験"
+      ],
+      links: [
+        { label: "成長ホルモン研究用ペプチドを見る", href: "/all-peptides" },
+        { label: "研究用ペプチド標準", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "NL",
+      heading: "BioPeptideについて – オランダ (NL)",
+      subheading: "オランダの研究所向け精密ペプチドツール",
+      paragraphs: [
+        "オランダはバイオテクノロジーおよび医薬品研究の拠点であり、BioPeptideは精度と再現性を重視した研究用ペプチドを提供して、このイノベーションを支援しています。",
+        "当社のペプチドは、学術研究、バイオテク開発、実験研究にヨーロッパ全域で使用されています。"
+      ],
+      bulletHeading: "なぜオランダの研究者はBioPeptideを選ぶのか",
+      bullets: [
+        "高純度ペプチドの合成",
+        "透明な分析検証（HPLC & MS）",
+        "信頼できるバッチの一貫性",
+        "ヨーロッパ基準に準拠した研究"
+      ],
+      links: [
+        { label: "代謝および肥満研究用ペプチド", href: "/all-peptides" },
+        { label: "高度なペプチドブレンド", href: "/bundle-save" }
+      ]
+    },
+
+    {
+      code: "IT",
+      heading: "BioPeptideについて – イタリア (IT)",
+      subheading: "イタリアにおけるペプチド研究の推進",
+      paragraphs: [
+        "BioPeptideは、イタリアの大学、研究所、研究センターに高品質の研究用ペプチドを提供しています。",
+        "イタリアの研究環境では、一貫性があり、追跡可能で、分析的に検証されたペプチドツールが求められています。"
+      ],
+      bulletHeading: "当社のペプチド専門知識",
+      bullets: [
+        "再生および組織関連ペプチド",
+        "神経活性およびシグナル研究化合物",
+        "内分泌および分子ペプチド"
+      ],
+      links: [
+        { label: "再生研究用ペプチド", href: "/all-peptides" },
+        { label: "研究所でのペプチド応用", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "ES",
+      heading: "BioPeptideについて – スペイン (ES)",
+      subheading: "スペインの研究所向け信頼性の高い研究用ペプチド",
+      paragraphs: [
+        "BioPeptideは、スペイン全土の研究所や科学機関に研究用ペプチドを提供しています。",
+        "当社のペプチドは、実験精度と分析の透明性を確保するために開発されています。"
+      ],
+      bulletHeading: "スペインでの研究支援",
+      bullets: [
+        "分子および細胞研究",
+        "代謝およびシグナル研究",
+        "研究用ペプチドの実験的検証"
+      ],
+      links: [
+        { label: "トピカル研究用ペプチド", href: "/all-peptides" },
+        { label: "全ての研究用ペプチドを見る", href: "/all-peptides" }
+      ]
+    }
+  ]
+},
+
     mission: {
       title: "使命",
       description:
@@ -547,7 +649,10 @@ research: {
     title: "ビロン：細胞再生と免疫バイオレギュレーション",
     subtitle:
       "最も研究されている胸腺由来バイオレギュレーターペプチドの一つに関する科学的考察。",
-
+images: [
+  "/images/research/vilon/vilon-1.jpg",
+  "/images/research/vilon/vilon-2.jpg"
+],
     paragraphs: [
       "ビロンは現代の細胞生化学と長寿研究において最も研究されているペプチドの一つです。",
       "老化やストレスを受けた細胞の恒常性を回復させる分子調整因子として機能します。",
@@ -579,6 +684,11 @@ research: {
     title: "パイネアロン：神経保護的バイオレギュレーションと認知長寿",
     subtitle:
       "脳代謝、ミトコンドリア機能、神経回復力におけるパイネアロンの役割に関する科学的考察。",
+images: [
+  "/images/research/Pinealon/pinealon-brain-1.jpg",
+  "/images/research/Pinealon/pinealon-brain-2.jpg"
+],
+
 
     paragraphs: [
       "パイネアロンは神経科学における重要な調節ペプチドです。",
@@ -611,6 +721,10 @@ research: {
   title: "テスタゲン：内分泌の安定性と生殖細胞の健康を支える生体調節ペプチド",
   subtitle:
     "加齢に伴う精巣組織の調節と内分泌機能維持におけるテスタゲンの役割を科学的に解析。",
+images: [
+  "/images/research/Testagen/Testagen1.jpg",
+  "/images/research/Testagen/Testagen2.jpg"
+],
 
   paragraphs: [
     "テスタゲンは精巣組織由来の生体調節ペプチドです。",
@@ -642,6 +756,10 @@ research: {
   title: "ブロンコゲン：肺組織と気道の安定性を支える生体調節ペプチド",
   subtitle:
     "気道上皮修復と呼吸環境の安定化におけるブロンコゲンの科学的解析。",
+images:[
+"/images/research/Bronchogen/Bronchogen1.jpg",
+"/images/research/Bronchogen/Bronchogen2.jpg"
+],
 
   paragraphs: [
     "ブロンコゲンは肺組織由来の生体調節ペプチドです。",
@@ -673,6 +791,10 @@ research: {
   title: "カルディオゲン：心臓組織の安定性を支える生体調節ペプチド",
   subtitle:
     "心筋のエネルギーと構造安定性におけるカルディオゲンの科学的解析。",
+images:[
+  "images/research/Cardiogen/Cardiogen1.jpg",
+  "images/research/Cardiogen/Cardiogen2.jpg"
+],
 
   paragraphs: [
     "カルディオゲンは心筋特異的な調節ペプチドです。",
@@ -703,6 +825,10 @@ research: {
   title: "再生ペプチド生物学：組織修復と細胞再生の仕組み",
   subtitle:
     "ペプチドが組織再生に与える影響の科学的解析。",
+image:[
+  "/images/research/Regenerative/Regenerative1.jpg",
+  "/images/research/Regenerative/Regenerative2.jpg"
+],
 
   paragraphs: [
     "再生ペプチド生物学は最先端の細胞科学分野です。",
@@ -736,6 +862,10 @@ research: {
   title: "代謝・内分泌ペプチド調節：エネルギーとホルモンの安定",
   subtitle:
     "代謝調節におけるペプチドの科学的解析。",
+image:[
+  "/images/research/Metabolic/Metabolic1.jpg",
+    "/images/research/Metabolic/Metabolic2.jpg"
+],
 
   paragraphs: [
     "代謝ペプチド研究は細胞生物学の重要分野です。",
@@ -769,6 +899,10 @@ research: {
   title: "神経可塑性と脳最適化におけるペプチド",
   subtitle:
     "脳機能におけるペプチドの科学的研究。",
+images:[
+  "/images/research/Neuroplasticity/Neuroplasticity.jpg",
+    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
+],
 
   paragraphs: [
     "神経可塑性は脳の適応能力です。",
@@ -801,6 +935,9 @@ research: {
 
   subtitle:
     "免疫調節におけるペプチドの科学的解析。",
+images:[
+  "/images/research/Immune/Immune1.jpg"
+],
 
   paragraphs: [
     "免疫系は非常に複雑な調節ネットワークです。",
@@ -834,6 +971,10 @@ research: {
   title: "ペプチドと細胞の長寿",
   subtitle:
     "細胞老化におけるペプチドの科学的研究。",
+images:[
+  "/images/research/Anti-Aging/Anti-Aging1.jpg",
+  "/images/research/Anti-Aging/Anti-Aging1.jpg"
+],
 
   paragraphs: [
     "細胞の長寿は機能的な質に依存します。",

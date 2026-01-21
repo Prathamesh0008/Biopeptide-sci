@@ -5,12 +5,116 @@ export default {
       "title": "Rreth BioPeptide Research Labs",
       "description": "Përparimi i inovacionit të peptidëve përmes saktësisë shkencore, ekselencës analitike dhe praktikave të përgjegjshme kërkimore."
     },
-    "companyOverview": {
-      "sectionTitle": "Rreth Nesh",
-      "title": "Kompania Jonë",
-      "description1": "BioPeptide është një organizatë kërkimore e fokusuar në bioteknologji, e ndërtuar mbi saktësi, transparencë dhe integritet shkencor. Ne specializohemi në ofrimin e materialeve të peptidëve me vlerë të lartë për kërkime, të krijuara për të mbështetur hulumtimet laboratorike në shkencat biologjike, fiziologjinë molekulare, biokiminë dhe sistemet rigjeneruese.",
-      "description2": "Qasja jonë e bazuar në analizë garanton pastërti të patundur, gjurmueshmëri dhe riprodhueshmëri — duke fuqizuar hulumtuesit për të arritur rezultate të besueshme dhe përshpejtim të zbulimeve përmes mjeteve të karakterizuara mirë të peptidëve."
+ companyOverview : {
+  sectionTitle: "Rreth Nesh",
+  title: "Kompania Jonë",
+
+  countries: [
+    {
+      code: "DE",
+      heading: "Rreth BioPeptide – Gjermani (DE)",
+      subheading: "Peptidet e Kërkimit të Cilësisë së Lartë për Ekselencën Shkencore Gjermane",
+      paragraphs: [
+        "BioPeptide është një furnizues i fokusuar në Europë për kërkimin bioteknologjik, duke ofruar peptidet e kërkimit me pastërti të lartë për universitete, laboratorë privatë dhe institucione shkencore në Gjermani. Puna jonë mbështet ekosistemin e fuqishëm gjerman në bioteknologji, kërkimin farmaceutik, biologjinë molekulare dhe shkencat rigjeneruese.",
+        "Ne specializohemi në materiale peptidike vetëm për kërkim, të projektuar me sintezë precize dhe të mbështetura nga dokumentacion analitik transparent, përfshirë HPLC dhe spektrometri masash. Peptidet BioPeptide janë të dizajnuara për të përmbushur standardet e kërkimit gjerman, ku saktësia, gjurmueshmëria dhe riprodhueshmëria janë thelbësore."
+      ],
+      bulletHeading: "Çfarë Mbështesim në Gjermani",
+      bullets: [
+        "Biologji molekulare dhe kërkim biokimik",
+        "Studime të rrugëve endokrine dhe metabolike",
+        "Kërkim rigjenerues dhe i indeve",
+        "Analizë e sinjalizimit qelizor dhe receptorëve"
+      ],
+      links: [
+        { label: "Eksploro Koleksionin tonë të Peptidet e Kërkimit", href: "/all-peptides" },
+        { label: "Shiko Aplikimet e Kërkimit të Peptideve", href: "/peptide-information" }
+      ]
     },
+
+    {
+      code: "FR",
+      heading: "Rreth BioPeptide – Francë (FR)",
+      subheading: "Mbështetje për Kërkimin e Peptideve në Francë",
+      paragraphs: [
+        "BioPeptide mbështet me krenari institucionet shkencore dhe laboratorët e kërkimit francez me materiale peptidike me pastërti të lartë, të zhvilluara për përdorim eksperimental dhe analitik.",
+        "Lideranca e Francës në kërkimin biomedikal, shkencat e jetës dhe inovacionin farmaceutik kërkon mjete peptidike të besueshme, të gjurmueshme dhe të verifikuara shkencërisht."
+      ],
+      bulletHeading: "Fokusi ynë i Kërkimit në Francë",
+      bullets: [
+        "Kërkim molekular bazuar në peptide",
+        "Studime të rrugëve qelizore dhe biokimike",
+        "Kërkim metabolik dhe endokrin",
+        "Eksperimente të avancuara laboratorike"
+      ],
+      links: [
+        { label: "Shfleto Peptidet për Hormonin e Rritjes", href: "/all-peptides" },
+        { label: "Standardet e Peptideve të Kërkimit", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "NL",
+      heading: "Rreth BioPeptide – Hollandë (NL)",
+      subheading: "Mjete Precize të Peptideve për Laboratorët Holandezë",
+      paragraphs: [
+        "Hollanda është një qendër për bioteknologji dhe kërkime farmaceutike, dhe BioPeptide mbështet këtë inovacion duke ofruar peptidet e kërkimit të dizajnuara për saktësi dhe riprodhueshmëri.",
+        "Materialet tona peptidike përdoren në kërkime akademike, zhvillim bioteknologjik dhe studime eksperimentale në të gjithë Evropën."
+      ],
+      bulletHeading: "Pse Zgjedhin Kërkuesit Holandez BioPeptide",
+      bullets: [
+        "Sintezë peptidike me pastërti të lartë",
+        "Validim analitik transparent (HPLC & MS)",
+        "Konsistencë e besueshme e lotëve",
+        "Përputhshmëri me kërkimin me fokus Evropian"
+      ],
+      links: [
+        { label: "Peptidet për Kërkime Metabolike dhe Obesitet", href: "/all-peptides" },
+        { label: "Përzierje Peptidike e Avancuar", href: "/bundle-save" }
+      ]
+    },
+
+    {
+      code: "IT",
+      heading: "Rreth BioPeptide – Itali (IT)",
+      subheading: "Avancimi i Kërkimit të Peptideve në Itali",
+      paragraphs: [
+        "BioPeptide mbështet universitetet, laboratorët dhe qendrat kërkimore italiane me materiale peptidike të cilësisë së lartë.",
+        "Peizazhi kërkimor italian kërkon mjete peptidike të qëndrueshme, të gjurmueshme dhe të verifikuara analitikisht."
+      ],
+      bulletHeading: "Ekspertiza jonë në Peptide",
+      bullets: [
+        "Peptide rigjeneruese dhe të lidhura me indet",
+        "Komponentë neuroaktivë dhe të sinjalizimit për kërkime",
+        "Peptide endokrine dhe molekulare"
+      ],
+      links: [
+        { label: "Peptidet për Kërkime Rigjenerative", href: "/all-peptides" },
+        { label: "Aplikimet laboratorike të Peptideve", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "ES",
+      heading: "Rreth BioPeptide – Spanjë (ES)",
+      subheading: "Peptidet e Besueshme për Laboratorët Spanjollë",
+      paragraphs: [
+        "BioPeptide furnizon peptidet e kërkimit për laboratorët dhe institucionet shkencore në të gjithë Spanjën.",
+        "Peptidet tona janë zhvilluar për të garantuar saktësi eksperimentale dhe transparencë analitike."
+      ],
+      bulletHeading: "Mbështetja e Kërkimit në Spanjë",
+      bullets: [
+        "Kërkim molekular dhe qelizor",
+        "Studime metabolike dhe sinjalizimi",
+        "Verifikimi eksperimental i peptideve"
+      ],
+      links: [
+        { label: "Peptidet Topicë për Kërkime", href: "/all-peptides" },
+        { label: "Shfleto të gjitha Peptidet e Kërkimit", href: "/all-peptides" }
+      ]
+    }
+  ]
+},
+
     "mission": {
       "title": "Misioni Jonë",
       "description": "Të fuqizojmë komunitetet shkencore globale me peptide të pastërti të lartë të mbështetur nga dokumentimi analitik i avancuar — duke mundësuar kërkime të riprodhueshme, eksperimente me saktësi të lartë dhe progres shkencor kuptimplotë."
@@ -461,6 +565,10 @@ export default {
       "subtitle": "Një ekzaminim shkencor i thellë i një prej peptideve më të kërkura të biorregulluesve timik dhe roli i saj në riparimin qelizor, ekuilibrin imunitar dhe homeostazën e indeve.",
       "author": "Dr. Hannah",
       "date": "1 muaj më parë",
+      images: [
+  "/images/research/vilon/vilon-1.jpg",
+  "/images/research/vilon/vilon-2.jpg"
+],
       "categories": ["Biorregulluesit", "Shëndeti Imunitar"],
       "paragraphs": [
         "Vilon është një nga peptidet më të studiuara të biorregulluesve në biokiminë qelizore moderne dhe shkencën e gjatësisë së jetës. Si një dipeptid natyral i nxjerrë nga ekstraktet timike (Lys-Glu), Vilon përfaqëson brezin më të hershëm të rregulluesve molekularë të specifikë të indeve — struktura të shkurtra aminoacidesh të afta për të rikthyer shprehjen e ekuilibruar të gjeneve, për të stabilizuar funksionin qelizor dhe për të mbështetur proceset rigjeneruese në të gjithë trupin. Ndërsa timusi është burimi i identitetit biologjik të Vilonit, ndikimi i tij është sistematik, duke ndikuar në integritetin imunitar, kontrollin inflamator dhe riparimin epitelial nëpër sisteme të ndryshme organesh.",
@@ -492,6 +600,11 @@ export default {
       "subtitle": "Një eksplorim shkencor gjithëpërfshirës i rolit të Pinealonit në metabolizmin e trurit, ekuilibrin mitokondrial, mbrojtjen antioksidante dhe reziliencën afatgjatë nervore.",
       "author": "Dr. Hannah",
       "date": "1 muaj më parë",
+      images: [
+  "/images/research/Pinealon/pinealon-brain-1.jpg",
+  "/images/research/Pinealon/pinealon-brain-2.jpg"
+],
+
       "categories": ["Biorregulluesit", "Neuroproteksioni", "Gjatësi Jetë Kognitive"],
       "excerpt": "Pinealon është një peptid biorregullues neuroprotektiv i studiuar për rolin e tij në optimizimin e metabolizmit neuronal, stabilitetit mitokondrial, mbrojtjes antioksidante dhe rregullimit epigenetik të lidhur me reziliencën kognitive dhe gjatësinë e jetës.",
       "paragraphs": [
@@ -523,6 +636,11 @@ export default {
       "subtitle": "Një eksplorim shkencor i thellë i rolit të Testagenit në rregullimin e indeve testikulare, sinjalizimin molekular dhe ruajtjen e integritetit endokrin gjatë plakjes.",
       "author": "Dr. Hannah",
       "date": "1 muaj më parë",
+      images: [
+  "/images/research/Testagen/Testagen1.jpg",
+  "/images/research/Testagen/Testagen2.jpg"
+],
+
       "categories": ["Biorregulluesit", "Shëndeti Endokrin", "Biologjia Riprodhuese"],
       "excerpt": "Testagen është një peptid biorregullues i specifikë të indeve i studiuar për rolin e tij në ruajtjen e ekuilibrit endokrin, integritetit qelizor riprodhus dhe stabilitetit të lidhur me moshën të funksionit testikular përmes rregullimit gjenetik dhe epigenetik.",
       "paragraphs": [
@@ -554,6 +672,11 @@ export default {
       "subtitle": "Një analizë shkencore e hollësishme e rolit potencial të Bronchogenit në mbështetjen e riparimit epitelial bronkial, reduktimin e barrës oksidative dhe stabilizimin e mikro-mjedisit respirator.",
       "author": "Dr. Hannah",
       "date": "1 muaj më parë",
+      images:[
+"/images/research/Bronchogen/Bronchogen1.jpg",
+"/images/research/Bronchogen/Bronchogen2.jpg"
+],
+
       "categories": ["Biorregulluesit", "Shëndeti Respirator", "Riparim Qelizor"],
       "excerpt": "Bronchogen është një peptid biorregullues i specifikë respirator i studiuar për rolin e tij në ruajtjen e integritetit të epitelit bronkial, reduktimin e stresit oksidativ dhe mbështetjen e reziliencës qelizore të rrugëve të frymëmarrjes.",
       "paragraphs": [
@@ -585,6 +708,11 @@ export default {
       "subtitle": "Një eksplorim shkencor i rolit potencial të Cardiogenit në ruajtjen e reziliencës miokardiale, optimizimin e dinamikës së energjisë qelizore dhe mbështetjen e stabilitetit struktural në indin kardiak të plakur.",
       "author": "Dr. Hannah",
       "date": "1 muaj më parë",
+      images:[
+  "images/research/Cardiogen/Cardiogen1.jpg",
+  "images/research/Cardiogen/Cardiogen2.jpg"
+],
+
       "categories": ["Biorregulluesit", "Shëndeti Kardio-vaskular", "Gjatësi Jetë Qelizore"],
       "excerpt": "Cardiogen është një peptid biorregullues i specifikë i zemrës i studiuar për rolin e tij në mbështetjen e prodhimit të energjisë mitokondriale, mekanizmave të riparimit qelizor dhe stabilitetit struktural brenda indit kardiak të plakur.",
       "paragraphs": [
@@ -615,6 +743,11 @@ export default {
       "subtitle": "Një eksplorim shkencor gjithëpërfshirës se si peptidet kërkimore ndikojnë në rigjenerimin e indeve, sinjalizimin qelizor, stabilitetin e mikro-mjedisit dhe proceset e koordinuara të riparimit biologjik.",
       "author": "Dr. Hannah",
       "date": "1 muaj më parë",
+      image:[
+  "/images/research/Regenerative/Regenerative1.jpg",
+  "/images/research/Regenerative/Regenerative2.jpg"
+],
+
       "categories": ["Biologjia Rigjeneruese", "Riparim Qelizor", "Shkenca e Peptidëve"],
       "excerpt": "Biologjia e peptidëve rigjeneruese ekzaminon se si peptidet e shkurtër sinjalizuese rregullojnë riparimin e indeve, rinovimin qelizor, reziliencën mitokondriale, kontrollin e inflamacionit dhe shërimin struktural nëpër sistemet biologjike të plakura dhe të stresuara.",
       "paragraphs": [
@@ -648,6 +781,11 @@ export default {
       "subtitle": "Një analizë shkencore gjithëpërfshirëse se si peptidet kërkimore ndikojnë në rregullimin metabolik, harmoninë endokrine, efikasitetin mitokondrial dhe ekuilibrin afatgjatë fiziologjik.",
       "author": "Dr. Hannah",
       "date": "1 muaj më parë",
+      image:[
+  "/images/research/Metabolic/Metabolic1.jpg",
+    "/images/research/Metabolic/Metabolic2.jpg"
+],
+
       "categories": ["Rregullimi Metabolik", "Shëndeti Endokrin", "Shkenca e Peptidëve"],
       "excerpt": "Modulimi metabolik dhe endokrin i peptidëve ekzaminon se si peptidet rregullatore ndikojnë në ekuilibrin e energjisë qelizore, sinjalizimin hormonal, efikasitetin mitokondrial dhe homeostazinë sistemi-gjerë thelbësore për reziliencën afatgjatë fiziologjike.",
       "paragraphs": [
@@ -681,6 +819,11 @@ export default {
       "subtitle": "Një eksplorim i hollësishëm se si peptidet kërkimore ndikojnë në rimodelimin sinaptik, mbijetesën neuronale, performancën mitokondriale dhe shëndetin kognitiv afatgjatë.",
       "author": "Dr. Hannah",
       "date": "1 muaj më parë",
+      images:[
+  "/images/research/Neuroplasticity/Neuroplasticity.jpg",
+    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
+],
+
       "categories": ["Neuroshkenca", "Neuroplasticiteti", "Shëndeti Kognitiv"],
       "excerpt": "Kërkimi i fokusuar në neuroplasticitetin e peptidëve ekzaminon se si peptidet sinjalizuese molekulare ndikojnë në rimodelimin sinaptik, mbijetesën neuronale, reziliencën mitokondriale dhe përshtatshmërinë kognitive — proceset kyçe në themel të të nxënës, kujtesës dhe shëndetit afatgjatë të trurit.",
       "paragraphs": [
@@ -712,6 +855,10 @@ export default {
       "subtitle": "Një rishikim shkencor i thellë se si peptidet rregullojnë sinjalizimin imunitar, ndikojnë në rrugët e inflamacionit dhe mbështesin reziliencën sistematike.",
       "author": "Dr. Hannah",
       "date": "1 muaj më parë",
+      images:[
+  "/images/research/Immune/Immune1.jpg"
+],
+
       "categories": ["Imunologjia", "Kërkim Anti-Inflamator", "Shkenca e Peptidëve"],
       "excerpt": "Kërkimi i imunomodulimit të peptidëve eksploron se si peptidet rregullatore ndikojnë në ekuilibrin e citokineve, sinjalizimin e qelizave imune, kontrollin e stresit oksidativ dhe mbrojtjen e indeve — mekanizmat kyçe në themel të reziliencës imunitare dhe plakjes së shëndetshme.",
       "paragraphs": [
@@ -745,6 +892,12 @@ export default {
       "subtitle": "Një zhytje shkencore e thellë se si peptidet rregullatore mbështesin reziliencën qelizore, mirëmbajtjen e ADN-së, mbrojtjen mitokondriale dhe stabilitetin afatgjatë biologjik.",
       "author": "Dr. Hannah",
       "date": "1 muaj më parë",
+      
+images:[
+  "/images/research/Anti-Aging/Anti-Aging1.jpg",
+  "/images/research/Anti-Aging/Anti-Aging1.jpg"
+],
+
       "categories": ["Gjatësi Jetë Qelizore", "Kërkim Kundër Plakjes", "Shkenca e Peptidëve"],
       "excerpt": "Kërkimi i gjatësisë së jetës qelizore të peptidëve eksploron se si peptidet rregullatore mbështesin riparimin molekular, stabilitetin epigenetik, mbrojtjen mitokondriale dhe kontrollin e inflamacionit — mekanizmat kyçe në themel të plakjes së shëndetshme dhe reziliencës afatgjatë biologjike.",
       "paragraphs": [

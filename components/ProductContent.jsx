@@ -1,3 +1,260 @@
+// // components/ProductContent.jsx
+// "use client";
+
+// import Image from "next/image";
+// import Sidebar from "@/components/Sidebar";
+// import { useLanguage } from "@/contexts/LanguageContext";
+// import { useState } from "react";
+
+// export default function ProductContent({ product, slug }) {
+//   const { translations } = useLanguage();
+//   const [openFaq, setOpenFaq] = useState(null);
+
+//   // ✅ per-product content from language file
+//   const content = translations?.products?.[slug];
+
+//   // ✅ fallback if content not added yet
+//   if (!content) {
+//     return (
+//       <section className="max-w-7xl mx-auto px-4 sm:px-6 mt-16 sm:mt-24">
+//         <div className="border rounded-xl p-6 text-gray-700">
+//           Content coming soon for <b>{product.name}</b>.
+//         </div>
+//       </section>
+//     );
+//   }
+
+//   return (
+//     <section
+//       className="
+//         max-w-7xl mx-auto 
+//         px-4 sm:px-6 
+//         mt-16 sm:mt-24 
+//         grid grid-cols-1 lg:grid-cols-4 
+//         gap-12 lg:gap-16
+//       "
+//     >
+//       {/* LEFT SIDEBAR */}
+//       <aside className="hidden lg:block">
+//         <div className="sticky top-24">
+//           <Sidebar />
+//         </div>
+//       </aside>
+
+//       {/* RIGHT CONTENT */}
+//       <div className="lg:col-span-3 space-y-10 sm:space-y-12">
+//         {/* IMAGE */}
+//         <div className="flex justify-center">
+//           <Image
+//             src="/images/info.jpg"
+//             width={420}
+//             height={420}
+//             alt={product.name}
+//             className="object-contain w-full max-w-[420px]"
+//           />
+//         </div>
+
+//         {/* OVERVIEW */}
+//         <div className="space-y-3">
+//           <h2 className="text-3xl font-bold text-[#0d2d47]">
+//             {product.name} – {content.overview?.title || "Overview"}
+//           </h2>
+
+//           <div className="text-[15px] leading-relaxed text-gray-700">
+//             {(content.overview?.paragraphs || []).map((p, i) => (
+//               <p key={i} className={i ? "mt-4" : ""}>
+//                 {p?.replaceAll?.("{name}", product.name) ?? p}
+//               </p>
+//             ))}
+//           </div>
+//         </div>
+
+//         <Divider />
+
+//         {/* MECHANISM */}
+//         {content.mechanism && (
+//           <>
+//             <Section title={content.mechanism.title}>
+//               <ul className="text-[15px] leading-relaxed text-gray-700 space-y-1">
+//                 {(content.mechanism.points || []).map((item, i) => (
+//                   <li key={i}>• {item}</li>
+//                 ))}
+//               </ul>
+//             </Section>
+//             <Divider />
+//           </>
+//         )}
+
+//         {/* RESEARCH APPLICATIONS */}
+//         {content.applications && (
+//           <>
+//             <Section title={content.applications.title}>
+//               <ul className="list-disc ml-6 text-[15px] leading-relaxed text-gray-700 space-y-1">
+//                 {(content.applications.points || []).map((item, i) => (
+//                   <li key={i}>{item}</li>
+//                 ))}
+//               </ul>
+//             </Section>
+//             <Divider />
+//           </>
+//         )}
+
+//         {/* SCIENTIFIC BACKGROUND */}
+//         {content.scientificBackground && (
+//           <>
+//             <Section title={content.scientificBackground.title}>
+//               <div className="text-[15px] leading-relaxed text-gray-700">
+//                 {(content.scientificBackground.paragraphs || []).map((p, i) => (
+//                   <p key={i} className={i ? "mt-4" : ""}>
+//                     {p?.replaceAll?.("{name}", product.name) ?? p}
+//                   </p>
+//                 ))}
+//               </div>
+//             </Section>
+//             <Divider />
+//           </>
+//         )}
+
+//         {/* STABILITY */}
+//         {content.stability && (
+//           <>
+//             <Section title={content.stability.title}>
+//               <ul className="text-[15px] leading-relaxed text-gray-700 space-y-1">
+//                 {(content.stability.points || []).map((item, i) => (
+//                   <li key={i}>• {item}</li>
+//                 ))}
+//               </ul>
+//             </Section>
+//             <Divider />
+//           </>
+//         )}
+
+//         {/* SOLUBILITY */}
+//         {content.solubility && (
+//           <>
+//             <Section title={content.solubility.title}>
+//               <ul className="text-[15px] leading-relaxed text-gray-700 space-y-1">
+//                 {(content.solubility.points || []).map((item, i) => (
+//                   <li key={i}>• {item}</li>
+//                 ))}
+//               </ul>
+//             </Section>
+//             <Divider />
+//           </>
+//         )}
+
+//         {/* TECH SPECS (from product.js) */}
+//         <Section title={content.techSpecsTitle || "Technical Specifications"}>
+//           <ul className="text-[15px] leading-relaxed text-gray-700 space-y-2">
+//             <li>
+//               <b>CAS:</b> {product.cas || "N/A"}
+//             </li>
+//             <li>
+//               <b>Purity:</b> {product.purity || "≥99%"}
+//             </li>
+//             <li>
+//               <b>Unit Size:</b> {product.size || "Research vial"}
+//             </li>
+//             <li>
+//               <b>Form:</b> {content.formValue || "Lyophilized powder"}
+//             </li>
+//             <li>
+//               <b>Synthesis:</b> {content.synthesisValue || "SPPS"}
+//             </li>
+//             <li>
+//               <b>Analysis:</b> {content.analysisValue || "HPLC, MS"}
+//             </li>
+//           </ul>
+//         </Section>
+
+//         <Divider />
+
+//         {/* FAQ */}
+//         {Array.isArray(content.faq) && content.faq.length > 0 && (
+//           <>
+//             <Section title={content.faqTitle || "FAQ"}>
+//               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+//                 {content.faq.map((f, i) => {
+//                   const isOpen = openFaq === i;
+
+//                   return (
+//                     <div
+//                       key={i}
+//                       className={`border rounded-xl bg-white transition-all duration-300
+//                         ${isOpen ? "shadow-md" : "shadow-sm"}
+//                       `}
+//                     >
+//                       <button
+//                         type="button"
+//                         onClick={() => setOpenFaq(isOpen ? null : i)}
+//                         className="w-full flex justify-between items-center text-left p-4"
+//                       >
+//                         <span className="font-semibold text-gray-800">
+//                           {f.q}
+//                         </span>
+//                         <span
+//                           className={`transition-transform duration-300 ${
+//                             isOpen ? "rotate-180" : ""
+//                           }`}
+//                         >
+//                           ▼
+//                         </span>
+//                       </button>
+
+//                       <div
+//                         className={`overflow-hidden transition-[max-height,opacity] duration-300 ease-in-out
+//                           ${isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}
+//                         `}
+//                       >
+//                         <p className="px-4 pb-4 text-gray-700 leading-relaxed">
+//                           {f.a}
+//                         </p>
+//                       </div>
+//                     </div>
+//                   );
+//                 })}
+//               </div>
+//             </Section>
+
+//             <Divider />
+//           </>
+//         )}
+
+//         {/* DISCLAIMER */}
+//         {content.disclaimer && (
+//           <p className="text-[14px] text-red-700 leading-relaxed">
+//             <b>{content.disclaimerLabel || "Disclaimer"}:</b>{" "}
+//             {content.disclaimer}
+//           </p>
+//         )}
+//       </div>
+//     </section>
+//   );
+// }
+
+// /* ---------- Helpers ---------- */
+
+// const Divider = () => <div className="h-[1px] bg-[#dbe9f3]" />;
+
+// const Section = ({ title, children }) => (
+//   <div className="space-y-3">
+//     <h2 className="text-2xl font-bold text-[#0d2d47]">{title}</h2>
+//     {children}
+//   </div>
+// );
+
+
+
+
+
+
+
+
+
+
+
+
+
 // components/ProductContent.jsx
 "use client";
 

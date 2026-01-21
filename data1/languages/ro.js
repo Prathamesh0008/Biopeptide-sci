@@ -5,12 +5,116 @@ export default {
       "title": "Despre BioPeptide Research Labs",
       "description": "Avansarea inovației în peptidologie prin precizie științifică, excelență analitică și practici de cercetare responsabile."
     },
-    "companyOverview": {
-      "sectionTitle": "Despre Noi",
-      "title": "Compania Noastră",
-      "description1": "BioPeptide este o organizație de cercetare axată pe biotehnologie, construită pe precizie, transparență și integritate științifică. Ne specializăm în furnizarea de materiale peptidice de înaltă valoare pentru cercetare, create pentru a sprijini investigații de laborator în științele biologice, fiziologia moleculară, biochimie și sisteme regenerative.",
-      "description2": "Abordarea noastră analitică prioritară asigură puritate necompromisă, trasabilitate și reproductibilitate — capacitând cercetătorii să obțină rezultate fiabile și descoperiri accelerate prin instrumente peptidice bine caracterizate."
+    companyOverview : {
+  sectionTitle: "Despre Noi",
+  title: "Compania Noastră",
+
+  countries: [
+    {
+      code: "DE",
+      heading: "Despre BioPeptide – Germania (DE)",
+      subheading: "Peptide de Cercetare de Înaltă Calitate pentru Excelența Științifică Germană",
+      paragraphs: [
+        "BioPeptide este un furnizor european axat pe biotehnologie, care oferă peptide de cercetare de înaltă puritate universităților, laboratoarelor private și instituțiilor științifice din Germania. Activitatea noastră sprijină ecosistemul puternic din Germania în biotehnologie, cercetare farmaceutică, biologie moleculară și științe regeneratoare.",
+        "Ne specializăm în materiale peptidice destinate exclusiv cercetării, create prin sinteză de precizie și susținute de documentație analitică transparentă, inclusiv HPLC și spectrometrie de masă. Peptidele BioPeptide sunt concepute pentru a îndeplini standardele germane de cercetare, unde acuratețea, trasabilitatea și reproductibilitatea sunt esențiale."
+      ],
+      bulletHeading: "Ce sprijinim în Germania",
+      bullets: [
+        "Cercetare în biologie moleculară și biochimică",
+        "Studii ale căilor metabolice și endocriniene",
+        "Cercetare regenerativă și de țesuturi",
+        "Analiza semnalizării celulare și a receptorilor"
+      ],
+      links: [
+        { label: "Explorați Colecția noastră de Peptide de Cercetare", href: "/all-peptides" },
+        { label: "Vizualizați Aplicațiile Cercetării Peptidice", href: "/peptide-information" }
+      ]
     },
+
+    {
+      code: "FR",
+      heading: "Despre BioPeptide – Franța (FR)",
+      subheading: "Sprijinirea Cercetării Peptidice în Franța",
+      paragraphs: [
+        "BioPeptide susține cu mândrie instituțiile științifice franceze și laboratoarele de cercetare cu materiale peptidice de înaltă puritate, dezvoltate pentru utilizare experimentală și analitică.",
+        "Leadership-ul Franței în cercetarea biomedicală, științele vieții și inovația farmaceutică necesită instrumente peptidice fiabile, trasabile și validate științific."
+      ],
+      bulletHeading: "Focusul nostru de cercetare în Franța",
+      bullets: [
+        "Cercetare moleculară bazată pe peptide",
+        "Studii ale căilor celulare și biochimice",
+        "Cercetare metabolică și endocrină",
+        "Experimentare avansată în laborator"
+      ],
+      links: [
+        { label: "Răsfoiți Peptidele de Cercetare pentru Hormonul de Creștere", href: "/all-peptides" },
+        { label: "Standardele Peptidelor de Cercetare", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "NL",
+      heading: "Despre BioPeptide – Țările de Jos (NL)",
+      subheading: "Instrumente de Precizie pentru Laboratoarele Olandeze",
+      paragraphs: [
+        "Țările de Jos sunt un centru pentru biotehnologie și cercetare farmaceutică, iar BioPeptide sprijină această inovație prin furnizarea de peptide de cercetare proiectate pentru precizie și reproductibilitate.",
+        "Materialele noastre peptidice sunt utilizate în cercetarea academică, dezvoltarea biotehnologică și studiile experimentale în întreaga Europă."
+      ],
+      bulletHeading: "De ce cercetătorii olandezi aleg BioPeptide",
+      bullets: [
+        "Sinteză de peptide de înaltă puritate",
+        "Validare analitică transparentă (HPLC & MS)",
+        "Consistență fiabilă a loturilor",
+        "Conformitate cu cercetarea orientată pe Europa"
+      ],
+      links: [
+        { label: "Peptide pentru Cercetare Metabolică și Obezitate", href: "/all-peptides" },
+        { label: "Amestecuri de Peptide Avansate", href: "/bundle-save" }
+      ]
+    },
+
+    {
+      code: "IT",
+      heading: "Despre BioPeptide – Italia (IT)",
+      subheading: "Promovarea Cercetării Peptidice în Italia",
+      paragraphs: [
+        "BioPeptide sprijină universitățile, laboratoarele și centrele de cercetare din Italia cu materiale peptidice de înaltă calitate.",
+        "Peisajul de cercetare din Italia necesită instrumente peptidice consistente, trasabile și verificate analitic."
+      ],
+      bulletHeading: "Expertiza noastră în Peptide",
+      bullets: [
+        "Peptide regeneratoare și legate de țesuturi",
+        "Compuși neuroactivi și de semnalizare",
+        "Peptide endocrine și moleculare"
+      ],
+      links: [
+        { label: "Peptide pentru Cercetare Regenerativă", href: "/all-peptides" },
+        { label: "Aplicații de laborator pentru peptide", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "ES",
+      heading: "Despre BioPeptide – Spania (ES)",
+      subheading: "Peptide de Cercetare de Încredere pentru Laboratoarele Spaniole",
+      paragraphs: [
+        "BioPeptide furnizează peptide de cercetare laboratoarelor și instituțiilor științifice din întreaga Spanie.",
+        "Peptidele noastre sunt dezvoltate pentru a asigura precizie experimentală și transparență analitică."
+      ],
+      bulletHeading: "Sprijinirea Cercetării în Spania",
+      bullets: [
+        "Cercetare moleculară și celulară",
+        "Studii metabolice și de semnalizare",
+        "Validarea experimentală a peptidelor"
+      ],
+      links: [
+        { label: "Peptide de Cercetare Topică", href: "/all-peptides" },
+        { label: "Răsfoiți Toate Peptidele de Cercetare", href: "/all-peptides" }
+      ]
+    }
+  ]
+},
+
     "mission": {
       "title": "Misiunea Noastră",
       "description": "Să împuternicim comunitățile științifice globale cu peptizi de înaltă puritate susținuți de documentație analitică avansată — permițând cercetare reproductibilă, experimentare de înaltă precizie și progres științific semnificativ."
@@ -461,6 +565,10 @@ export default {
       "subtitle": "O examinare științifică profundă a unuia dintre cei mai cercetați peptizi bioregulatori timici și rolul său în repararea celulară, echilibrul imun și homeostazia tisulară.",
       "author": "Dr. Hannah",
       "date": "acum 1 lună",
+      images: [
+  "/images/research/vilon/vilon-1.jpg",
+  "/images/research/vilon/vilon-2.jpg"
+],
       "categories": ["Bioregulatori", "Sănătate Imună"],
       "paragraphs": [
         "Vilon este unul dintre cei mai extins studiați peptizi bioregulatori în biochimia celulară modernă și știința longevității. Ca dipeptid natural derivat din extracte timice (Lys-Glu), Vilon reprezintă cea mai timpurie generație de regulatori moleculari specifici țesuturilor — structuri scurte de aminoacizi capabile să restabilească expresia genică echilibrată, să stabilizeze funcția celulară și să sprijine procesele regenerative din întregul organism. Deși timusul este sursa identității biologice a Vilonului, impactul său este sistemic, afectând integritatea imună, controlul inflamator și repararea epithelială în diverse sisteme de organe.",
@@ -492,6 +600,11 @@ export default {
       "subtitle": "O explorare științifică cuprinzătoare a rolului Pinealonului în metabolismul cerebral, balanța mitocondrială, apărarea antioxidantă și reziliența neurală pe termen lung.",
       "author": "Dr. Hannah",
       "date": "acum 1 lună",
+      images: [
+  "/images/research/Pinealon/pinealon-brain-1.jpg",
+  "/images/research/Pinealon/pinealon-brain-2.jpg"
+],
+
       "categories": ["Bioregulatori", "Neuroprotecție", "Longevitate Cognitivă"],
       "excerpt": "Pinealon este un peptid bioregulator neuroprotector studiat pentru rolul său în optimizarea metabolismului neuronal, stabilitatea mitocondrială, apărarea antioxidantă și reglarea epigenetică asociată cu reziliența cognitivă și longevitatea.",
       "paragraphs": [
@@ -523,6 +636,11 @@ export default {
       "subtitle": "O explorare științifică aprofundată a rolului Testagenului în reglarea țesutului testicular, semnalizarea moleculară și păstrarea integrității endocrine pe parcursul îmbătrânirii.",
       "author": "Dr. Hannah",
       "date": "acum 1 lună",
+      images: [
+  "/images/research/Testagen/Testagen1.jpg",
+  "/images/research/Testagen/Testagen2.jpg"
+],
+
       "categories": ["Bioregulatori", "Sănătate Endocrină", "Biologie Reproductivă"],
       "excerpt": "Testagen este un peptid bioregulator specific țesutului studiat pentru rolul său în păstrarea balanței endocrine, integrității celulare reproductive și stabilității legate de vârstă a funcției testiculare prin reglare genetică și epigenetică.",
       "paragraphs": [
@@ -554,6 +672,11 @@ export default {
       "subtitle": "O analiză științifică detaliată a potențialului rol al Bronchogenului în sprijinirea reparației epiteliale bronșice, reducerea încărcăturii oxidante și stabilizarea micro-mediului respirator.",
       "author": "Dr. Hannah",
       "date": "acum 1 lună",
+      images:[
+"/images/research/Bronchogen/Bronchogen1.jpg",
+"/images/research/Bronchogen/Bronchogen2.jpg"
+],
+
       "categories": ["Bioregulatori", "Sănătate Respiratorie", "Reparare Celulară"],
       "excerpt": "Bronchogen este un peptid bioregulator specific respirator studiat pentru rolul său în menținerea integrității epiteliale bronșice, reducerea stresului oxidativ și sprijinirea rezilienței celulare a căilor aeriene.",
       "paragraphs": [
@@ -585,6 +708,12 @@ export default {
       "subtitle": "O explorare științifică a potențialului rol al Cardiogenului în menținerea rezilienței miocardice, optimizarea dinamicii energetice celulare și sprijinirea stabilității structurale în țesutul cardiac îmbătrânit.",
       "author": "Dr. Hannah",
       "date": "acum 1 lună",
+      images:[
+  "images/research/Cardiogen/Cardiogen1.jpg",
+  "images/research/Cardiogen/Cardiogen2.jpg"
+],
+
+
       "categories": ["Bioregulatori", "Sănătate Cardiovasculară", "Longevitate Celulară"],
       "excerpt": "Cardiogen este un peptid bioregulator specific cardiac studiat pentru rolul său în sprijinirea producției de energie mitocondrială, mecanismelor de reparare celulară și stabilității structurale în țesutul cardiac îmbătrânit.",
       "paragraphs": [
@@ -615,6 +744,11 @@ export default {
       "subtitle": "O explorare științifică cuprinzătoare a modului în care peptidele de cercetare influențează regenerarea tisulară, semnalizarea celulară, stabilitatea micro-mediului și procesele coordonate de reparare biologică.",
       "author": "Dr. Hannah",
       "date": "acum 1 lună",
+      image:[
+  "/images/research/Regenerative/Regenerative1.jpg",
+  "/images/research/Regenerative/Regenerative2.jpg"
+],
+
       "categories": ["Biologie Regenerativă", "Reparare Celulară", "Știința Peptidelor"],
       "excerpt": "Biologia peptidelor regenerative examinează cum peptidele de semnalizare cu lanț scurt reglează repararea tisulară, reînnoirea celulară, reziliența mitocondrială, controlul inflamației și recuperarea structurală în sistemele biologice îmbătrânite și stresate.",
       "paragraphs": [
@@ -648,6 +782,11 @@ export default {
       "subtitle": "O analiză științifică cuprinzătoare a modului în care peptidele de cercetare influențează reglarea metabolică, armonia endocrină, eficiența mitocondrială și balanța fiziologică pe termen lung.",
       "author": "Dr. Hannah",
       "date": "acum 1 lună",
+      image:[
+  "/images/research/Metabolic/Metabolic1.jpg",
+    "/images/research/Metabolic/Metabolic2.jpg"
+],
+
       "categories": ["Reglare Metabolică", "Sănătate Endocrină", "Știința Peptidelor"],
       "excerpt": "Modularea peptidică metabolică și endocrină examinează cum peptidele regulate influențează balanța energetică celulară, semnalizarea hormonală, eficiența mitocondrială și homeostazia sistemică, esențială pentru reziliența fiziologică pe termen lung.",
       "paragraphs": [
@@ -681,6 +820,11 @@ export default {
       "subtitle": "O explorare detaliată a modului în care peptidele de cercetare influențează remodelarea sinaptică, supraviețuirea neuronală, performanța mitocondrială și sănătatea cognitivă pe termen lung.",
       "author": "Dr. Hannah",
       "date": "acum 1 lună",
+      images:[
+  "/images/research/Neuroplasticity/Neuroplasticity.jpg",
+    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
+],
+
       "categories": ["Neuroștiință", "Neuroplasticitate", "Sănătate Cognitivă"],
       "excerpt": "Cercetarea peptidică axată pe neuroplasticitate examinează cum peptidele de semnalizare moleculară influențează remodelarea sinaptică, supraviețuirea neuronală, reziliența mitocondrială și adaptabilitatea cognitivă — procese-cheie care stau la baza învățării, memoriei și sănătății cerebrale pe termen lung.",
       "paragraphs": [
@@ -712,6 +856,10 @@ export default {
       "subtitle": "O revizuire științifică aprofundată a modului în care peptidele reglează semnalizarea imună, influențează căile inflamatoare și sprijină reziliența sistemică.",
       "author": "Dr. Hannah",
       "date": "acum 1 lună",
+      images:[
+  "/images/research/Immune/Immune1.jpg"
+],
+
       "categories": ["Imunologie", "Cercetare Anti-Inflamatorie", "Știința Peptidelor"],
       "excerpt": "Cercetarea peptidică de modulare imună explorează cum peptidele regulate influențează balanța citokinelor, semnalizarea celulelor imune, controlul stresului oxidativ și protecția tisulară — mecanisme-cheie care stau la baza rezilienței imune și îmbătrânirii sănătoase.",
       "paragraphs": [
@@ -745,6 +893,11 @@ export default {
       "subtitle": "O imersiune științifică profundă în modul în care peptidele regulate sprijină reziliența celulară, întreținerea ADN-ului, protecția mitocondrială și stabilitatea biologică pe termen lung.",
       "author": "Dr. Hannah",
       "date": "acum 1 lună",
+      images:[
+  "/images/research/Anti-Aging/Anti-Aging1.jpg",
+  "/images/research/Anti-Aging/Anti-Aging1.jpg"
+],
+
       "categories": ["Longevitate Celulară", "Cercetare Anti-Îmbătrânire", "Știința Peptidelor"],
       "excerpt": "Cercetarea peptidică a longevității celulare explorează cum peptidele regulate sprijină repararea moleculară, stabilitatea epigenetică, protecția mitocondrială și controlul inflamației — mecanisme-cheie care stau la baza îmbătrânirii sănătoase și a rezilienței biologice pe termen lung.",
       "paragraphs": [

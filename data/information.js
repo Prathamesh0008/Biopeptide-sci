@@ -15,7 +15,7 @@ export const INFO_ARTICLES = [
       "Each batch includes full COA documentation.",
       "High purity minimizes unwanted side-chain reactions that may alter biological performance.",
       "Advanced chromatographic techniques help isolate impurities and degradation fragments with high precision.",
-      "Maintaining purity also increases long-term stability during storage and reconstitution, ensuring reliable results across experiments."
+      
     ]
   },
 

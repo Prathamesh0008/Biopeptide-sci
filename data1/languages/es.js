@@ -6,14 +6,116 @@ export default {
         "Förderung der Peptidinnovation durch wissenschaftliche Präzision, analytische Exzellenz und verantwortungsvolle Forschungspraktiken."
     },
 
-    companyOverview: {
-      sectionTitle: "Über uns",
-      title: "Unser Unternehmen",
-      description1:
-        "BioPeptide ist eine biotechnologisch ausgerichtete Forschungsorganisation, die auf Präzision, Transparenz und wissenschaftlicher Integrität basiert.",
-      description2:
-        "Unser analytikorientierter Ansatz gewährleistet kompromisslose Reinheit, Rückverfolgbarkeit und Reproduzierbarkeit."
+   companyOverview : {
+  sectionTitle: "Sobre nosotros",
+  title: "Nuestra empresa",
+
+  countries: [
+    {
+      code: "DE",
+      heading: "Acerca de BioPeptide – Alemania (DE)",
+      subheading: "Péptidos de investigación de alta calidad para la excelencia científica alemana",
+      paragraphs: [
+        "BioPeptide es un proveedor europeo enfocado en biotecnología, que suministra péptidos de investigación de alta pureza a universidades, laboratorios privados e instituciones científicas en toda Alemania. Nuestro trabajo respalda el fuerte ecosistema alemán en biotecnología, investigación farmacéutica, biología molecular y ciencias regenerativas.",
+        "Nos especializamos en materiales péptidos solo para investigación, diseñados con síntesis de precisión y respaldados por documentación analítica transparente, incluyendo HPLC y espectrometría de masas. Los péptidos BioPeptide están diseñados para cumplir con los estándares de investigación alemanes, donde la precisión, la trazabilidad y la reproducibilidad son esenciales."
+      ],
+      bulletHeading: "Qué apoyamos en Alemania",
+      bullets: [
+        "Investigación en biología molecular y bioquímica",
+        "Estudios de vías endocrinas y metabólicas",
+        "Investigación regenerativa y de tejidos",
+        "Análisis de señalización celular y receptores"
+      ],
+      links: [
+        { label: "Explorar nuestra colección de péptidos de investigación", href: "/all-peptides" },
+        { label: "Ver aplicaciones de investigación de péptidos", href: "/peptide-information" }
+      ]
     },
+
+    {
+      code: "FR",
+      heading: "Acerca de BioPeptide – Francia (FR)",
+      subheading: "Apoyo a la investigación de péptidos en toda Francia",
+      paragraphs: [
+        "BioPeptide apoya con orgullo a las instituciones científicas y laboratorios de investigación franceses con materiales péptidos de alta pureza, desarrollados para uso experimental y analítico.",
+        "El liderazgo de Francia en investigación biomédica, ciencias de la vida e innovación farmacéutica requiere herramientas péptidas confiables, trazables y validadas científicamente."
+      ],
+      bulletHeading: "Nuestro enfoque de investigación en Francia",
+      bullets: [
+        "Investigación molecular basada en péptidos",
+        "Estudios de vías celulares y bioquímicas",
+        "Investigación metabólica y endocrina",
+        "Experimentación avanzada en laboratorio"
+      ],
+      links: [
+        { label: "Explorar péptidos de investigación de hormona del crecimiento", href: "/all-peptides" },
+        { label: "Estándares de péptidos de investigación", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "NL",
+      heading: "Acerca de BioPeptide – Países Bajos (NL)",
+      subheading: "Herramientas de péptidos de precisión para laboratorios holandeses",
+      paragraphs: [
+        "Los Países Bajos son un centro de investigación biotecnológica y farmacéutica, y BioPeptide apoya esta innovación proporcionando péptidos de investigación diseñados para precisión y reproducibilidad.",
+        "Nuestros materiales péptidos se utilizan en investigación académica, desarrollo biotecnológico y estudios experimentales en toda Europa."
+      ],
+      bulletHeading: "Por qué los investigadores holandeses eligen BioPeptide",
+      bullets: [
+        "Síntesis de péptidos de alta pureza",
+        "Validación analítica transparente (HPLC y MS)",
+        "Consistencia confiable de los lotes",
+        "Cumplimiento de investigación centrada en Europa"
+      ],
+      links: [
+        { label: "Péptidos para investigación metabólica y obesidad", href: "/all-peptides" },
+        { label: "Mezclas avanzadas de péptidos", href: "/bundle-save" }
+      ]
+    },
+
+    {
+      code: "IT",
+      heading: "Acerca de BioPeptide – Italia (IT)",
+      subheading: "Avanzando la investigación de péptidos en Italia",
+      paragraphs: [
+        "BioPeptide apoya a universidades, laboratorios y centros de investigación italianos con materiales péptidos de alta calidad.",
+        "El entorno de investigación en Italia requiere herramientas péptidas consistentes, trazables y verificadas analíticamente."
+      ],
+      bulletHeading: "Nuestra experiencia en péptidos",
+      bullets: [
+        "Péptidos regenerativos y relacionados con tejidos",
+        "Compuestos neuroactivos y de señalización para investigación",
+        "Péptidos endocrinos y moleculares"
+      ],
+      links: [
+        { label: "Péptidos para investigación regenerativa", href: "/all-peptides" },
+        { label: "Aplicaciones de péptidos en laboratorio", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "ES",
+      heading: "Acerca de BioPeptide – España (ES)",
+      subheading: "Péptidos de investigación confiables para laboratorios españoles",
+      paragraphs: [
+        "BioPeptide proporciona péptidos de investigación a laboratorios e instituciones científicas en toda España.",
+        "Nuestros péptidos están desarrollados para garantizar precisión experimental y transparencia analítica."
+      ],
+      bulletHeading: "Apoyo a la investigación en España",
+      bullets: [
+        "Investigación molecular y celular",
+        "Estudios metabólicos y de señalización",
+        "Validación experimental de péptidos"
+      ],
+      links: [
+        { label: "Péptidos de investigación tópicos", href: "/all-peptides" },
+        { label: "Explorar todos los péptidos de investigación", href: "/all-peptides" }
+      ]
+    }
+  ]
+},
+
 
     mission: {
       title: "Unsere Mission",
@@ -551,7 +653,10 @@ research: {
     title: "Vilon: Regeneración celular y bioregulación inmunitaria",
     subtitle:
       "Un análisis científico profundo de uno de los péptidos bioreguladores tímicos más investigados y su papel en la reparación celular, el equilibrio inmunológico y la homeostasis tisular.",
-
+images: [
+  "/images/research/vilon/vilon-1.jpg",
+  "/images/research/vilon/vilon-2.jpg"
+],
     paragraphs: [
       "Vilon es uno de los péptidos bioreguladores más estudiados en la bioquímica celular moderna y la ciencia de la longevidad.",
       "Actúa como un normalizador molecular que ayuda a las células envejecidas o estresadas a recuperar el equilibrio fisiológico.",
@@ -584,6 +689,11 @@ research: {
     subtitle:
       "Una exploración científica integral del papel de Pinealon en el metabolismo cerebral, el equilibrio mitocondrial y la resiliencia neuronal.",
 
+images: [
+  "/images/research/Pinealon/pinealon-brain-1.jpg",
+  "/images/research/Pinealon/pinealon-brain-2.jpg"
+],
+
     paragraphs: [
       "Pinealon es uno de los péptidos bioreguladores más interesantes en la neurociencia moderna.",
       "Actúa a nivel molecular regulando la expresión génica neuronal y el metabolismo energético.",
@@ -615,6 +725,10 @@ research: {
   title: "Testagen: Soporte Bioregulador para la Estabilidad Endocrina y la Salud Celular Reproductiva",
   subtitle:
     "Exploración científica del papel de Testagen en la regulación del tejido testicular y la estabilidad endocrina durante el envejecimiento.",
+images: [
+  "/images/research/Testagen/Testagen1.jpg",
+  "/images/research/Testagen/Testagen2.jpg"
+],
 
   paragraphs: [
     "Testagen es un péptido bioregulador específico del tejido testicular asociado al equilibrio endocrino.",
@@ -646,6 +760,10 @@ Bronchogen: {
   title: "Bronchogen: Péptido Bioregulador Respiratorio para la Estabilidad Pulmonar",
   subtitle:
     "Análisis científico del papel de Bronchogen en la reparación epitelial bronquial y la protección respiratoria.",
+images:[
+"/images/research/Bronchogen/Bronchogen1.jpg",
+"/images/research/Bronchogen/Bronchogen2.jpg"
+],
 
   paragraphs: [
     "Bronchogen es un péptido bioregulador identificado en tejido pulmonar.",
@@ -677,6 +795,10 @@ Cardiogen: {
   title: "Cardiogen: Péptido Bioregulador Específico del Corazón",
   subtitle:
     "Exploración científica del papel de Cardiogen en la estabilidad y energía del tejido cardíaco.",
+images:[
+  "images/research/Cardiogen/Cardiogen1.jpg",
+  "images/research/Cardiogen/Cardiogen2.jpg"
+],
 
   paragraphs: [
     "Cardiogen es un péptido bioregulador específico del músculo cardíaco.",
@@ -707,6 +829,10 @@ Cardiogen: {
     title: "Biología Peptídica Regenerativa: Reparación y Renovación Celular",
   subtitle:
     "Exploración científica del papel de los péptidos en la regeneración tisular.",
+image:[
+  "/images/research/Regenerative/Regenerative1.jpg",
+  "/images/research/Regenerative/Regenerative2.jpg"
+],
 
   paragraphs: [
     "La biología peptídica regenerativa es un campo avanzado de la ciencia celular.",
@@ -740,6 +866,10 @@ Cardiogen: {
   title: "Modulación Peptídica Metabólica y Endocrina: Equilibrio Energético y Hormonal",
   subtitle:
     "Análisis científico del papel de los péptidos en la regulación metabólica.",
+image:[
+  "/images/research/Metabolic/Metabolic1.jpg",
+    "/images/research/Metabolic/Metabolic2.jpg"
+],
 
   paragraphs: [
     "La modulación peptídica metabólica es un campo emergente de la biología celular.",
@@ -773,6 +903,10 @@ Cardiogen: {
   title: "Péptidos en Neuroplasticidad y Optimización Cerebral",
   subtitle:
     "Exploración científica del papel de los péptidos en la función cerebral.",
+images:[
+  "/images/research/Neuroplasticity/Neuroplasticity.jpg",
+    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
+],
 
   paragraphs: [
     "La neuroplasticidad permite al cerebro adaptarse y fortalecerse.",
@@ -804,6 +938,9 @@ Cardiogen: {
   title: "Modulación Inmunológica y Ciencia de Péptidos Anti-Inflamatorios",
   subtitle:
     "Revisión científica del control inmunológico mediante péptidos.",
+images:[
+  "/images/research/Immune/Immune1.jpg"
+],
 
   paragraphs: [
     "El sistema inmunológico es una red reguladora compleja.",
@@ -837,6 +974,10 @@ Cardiogen: {
   title: "Péptidos y Longevidad Celular",
   subtitle:
     "Análisis científico del envejecimiento celular regulado por péptidos.",
+images:[
+  "/images/research/Anti-Aging/Anti-Aging1.jpg",
+  "/images/research/Anti-Aging/Anti-Aging1.jpg"
+],
 
   paragraphs: [
     "La longevidad celular define la calidad funcional de las células.",

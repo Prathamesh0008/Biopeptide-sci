@@ -5,14 +5,116 @@ export default {
       description:
         "通过科学精度推动肽类创新。"
     },
-    companyOverview: {
-      sectionTitle: "关于我们",
-      title: "我们的公司",
-      description1:
-        "BioPeptide 是一家生物技术研究机构。",
-      description2:
-        "确保纯度和可重复性。"
+    companyOverview : {
+  sectionTitle: "关于我们",
+  title: "我们的公司",
+
+  countries: [
+    {
+      code: "DE",
+      heading: "关于 BioPeptide – 德国 (DE)",
+      subheading: "德国科研卓越的研究级肽",
+      paragraphs: [
+        "BioPeptide 是一家以欧洲为重点的生物技术研究供应商，向德国的大学、私人实验室和科研机构提供高纯度研究用肽。我们的工作支持德国在生物技术、药物研究、分子生物学和再生科学领域的强大生态系统。",
+        "我们专注于仅用于研究的肽材料，采用精密合成设计，并辅以透明的分析文档，包括高效液相色谱（HPLC）和质谱（MS）。BioPeptide 肽旨在满足德国科研标准的要求，确保精确性、可追溯性和可重复性。"
+      ],
+      bulletHeading: "我们在德国支持的领域",
+      bullets: [
+        "分子生物学与生化研究",
+        "内分泌及代谢途径研究",
+        "再生与组织研究",
+        "细胞信号与受体分析"
+      ],
+      links: [
+        { label: "探索我们的研究用肽系列", href: "/all-peptides" },
+        { label: "查看肽研究应用", href: "/peptide-information" }
+      ]
     },
+
+    {
+      code: "FR",
+      heading: "关于 BioPeptide – 法国 (FR)",
+      subheading: "支持法国的肽研究",
+      paragraphs: [
+        "BioPeptide 自豪地为法国科学机构和研究实验室提供高纯度研究用肽，用于实验和分析用途。",
+        "法国在生物医学研究、生命科学和药物创新方面的领先地位需要可靠、可追溯且经过科学验证的肽工具。"
+      ],
+      bulletHeading: "我们在法国的研究重点",
+      bullets: [
+        "基于肽的分子研究",
+        "细胞及生化途径研究",
+        "代谢与内分泌研究",
+        "高级实验室实验"
+      ],
+      links: [
+        { label: "浏览生长激素研究肽", href: "/all-peptides" },
+        { label: "研究级肽标准", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "NL",
+      heading: "关于 BioPeptide – 荷兰 (NL)",
+      subheading: "荷兰实验室的精密肽工具",
+      paragraphs: [
+        "荷兰是生物技术和药物研究的中心，BioPeptide 通过提供为精度和可重复性设计的研究用肽支持这一创新。",
+        "我们的肽材料被用于学术研究、生物技术开发和欧洲各地的实验研究。"
+      ],
+      bulletHeading: "荷兰研究人员选择 BioPeptide 的原因",
+      bullets: [
+        "高纯度肽合成",
+        "透明的分析验证（HPLC & MS）",
+        "可靠的批次一致性",
+        "符合欧洲研究规范"
+      ],
+      links: [
+        { label: "代谢与肥胖研究肽", href: "/all-peptides" },
+        { label: "高级肽组合", href: "/bundle-save" }
+      ]
+    },
+
+    {
+      code: "IT",
+      heading: "关于 BioPeptide – 意大利 (IT)",
+      subheading: "推进意大利的肽研究",
+      paragraphs: [
+        "BioPeptide 支持意大利的大学、实验室和研究中心，提供高质量的研究用肽材料。",
+        "意大利的研究环境需要一致性、可追溯且经过分析验证的肽工具。"
+      ],
+      bulletHeading: "我们的肽专业知识",
+      bullets: [
+        "再生及组织相关肽",
+        "神经活性及信号研究化合物",
+        "内分泌及分子肽"
+      ],
+      links: [
+        { label: "再生研究肽", href: "/all-peptides" },
+        { label: "实验室肽应用", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "ES",
+      heading: "关于 BioPeptide – 西班牙 (ES)",
+      subheading: "西班牙实验室信赖的研究用肽",
+      paragraphs: [
+        "BioPeptide 向西班牙各地的实验室和科研机构提供研究级肽。",
+        "我们的肽旨在保证实验精确性和分析透明性。"
+      ],
+      bulletHeading: "支持西班牙的研究",
+      bullets: [
+        "分子与细胞研究",
+        "代谢与信号研究",
+        "实验肽验证"
+      ],
+      links: [
+        { label: "局部研究用肽", href: "/all-peptides" },
+        { label: "浏览所有研究肽", href: "/all-peptides" }
+      ]
+    }
+  ]
+},
+
     mission: {
       title: "使命",
       description:
@@ -547,7 +649,10 @@ research: {
     title: "Vilon：细胞再生与免疫生物调节",
     subtitle:
       "对最具研究价值的胸腺生物调节肽之一及其在细胞修复和免疫平衡中的作用进行深入分析。",
-
+images: [
+  "/images/research/vilon/vilon-1.jpg",
+  "/images/research/vilon/vilon-2.jpg"
+],
     paragraphs: [
       "Vilon 是现代细胞生物化学和长寿研究中研究最广泛的生物调节肽之一。",
       "它作为分子级的调节因子，帮助受损或老化的细胞恢复生理平衡。",
@@ -579,6 +684,10 @@ research: {
     title: "Pinealon：神经保护性生物调节与认知长寿",
     subtitle:
       "对 Pinealon 在脑代谢、线粒体平衡和神经韧性中的作用进行系统研究。",
+images: [
+  "/images/research/Pinealon/pinealon-brain-1.jpg",
+  "/images/research/Pinealon/pinealon-brain-2.jpg"
+],
 
     paragraphs: [
       "Pinealon 是神经科学领域的重要生物调节肽。",
@@ -611,6 +720,10 @@ research: {
   title: "Testagen：支持内分泌稳定性与生殖细胞健康的生物调节肽",
   subtitle:
     "深入解析Testagen在睾丸组织调控、分子信号传导及内分泌稳定中的作用。",
+images: [
+  "/images/research/Testagen/Testagen1.jpg",
+  "/images/research/Testagen/Testagen2.jpg"
+],
 
   paragraphs: [
     "Testagen是一种源自睾丸组织的生物调节肽。",
@@ -642,6 +755,10 @@ research: {
   title: "Bronchogen：支持肺组织稳定与气道细胞完整性的生物调节肽",
   subtitle:
     "对Bronchogen在气道修复和呼吸系统保护中的作用进行科学分析。",
+images:[
+"/images/research/Bronchogen/Bronchogen1.jpg",
+"/images/research/Bronchogen/Bronchogen2.jpg"
+],
 
   paragraphs: [
     "Bronchogen是一种源自肺组织的生物调节肽。",
@@ -673,6 +790,10 @@ research: {
   title: "Cardiogen：支持心脏细胞稳定性的生物调节肽",
   subtitle:
     "对Cardiogen在心肌能量与结构稳定性中的作用进行科学分析。",
+images:[
+  "images/research/Cardiogen/Cardiogen1.jpg",
+  "images/research/Cardiogen/Cardiogen2.jpg"
+],
 
   paragraphs: [
     "Cardiogen是一种心脏特异性的生物调节肽。",
@@ -703,6 +824,10 @@ research: {
   title: "再生肽生物学：组织修复与细胞更新机制",
   subtitle:
     "研究肽在组织再生与细胞信号中的作用。",
+image:[
+  "/images/research/Regenerative/Regenerative1.jpg",
+  "/images/research/Regenerative/Regenerative2.jpg"
+],
 
   paragraphs: [
     "再生肽生物学是现代细胞科学的重要领域。",
@@ -736,6 +861,10 @@ research: {
   title: "代谢与内分泌肽调节：能量与激素平衡",
   subtitle:
     "肽在代谢调控中的科学研究。",
+image:[
+  "/images/research/Metabolic/Metabolic1.jpg",
+    "/images/research/Metabolic/Metabolic2.jpg"
+],
 
   paragraphs: [
     "代谢肽调节是细胞生物学的重要领域。",
@@ -769,6 +898,10 @@ research: {
   title: "神经可塑性与大脑优化中的肽",
   subtitle:
     "肽对脑功能影响的科学研究。",
+images:[
+  "/images/research/Neuroplasticity/Neuroplasticity.jpg",
+    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
+],
 
   paragraphs: [
     "神经可塑性是大脑适应能力的核心。",
@@ -800,6 +933,10 @@ research: {
   title: "免疫调节与抗炎肽科学",
   subtitle:
     "肽在免疫调控中的科学研究。",
+images:[
+  "/images/research/Immune/Immune1.jpg"
+],
+
 
   paragraphs: [
     "免疫系统是复杂的调节网络。",
@@ -833,6 +970,10 @@ research: {
   title: "肽与细胞长寿",
   subtitle:
     "肽在抗衰老研究中的科学作用。",
+images:[
+  "/images/research/Anti-Aging/Anti-Aging1.jpg",
+  "/images/research/Anti-Aging/Anti-Aging1.jpg"
+],
 
   paragraphs: [
     "细胞长寿取决于功能质量。",

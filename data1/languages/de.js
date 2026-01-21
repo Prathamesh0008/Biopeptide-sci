@@ -6,14 +6,115 @@ export default {
         "Förderung der Peptidinnovation durch wissenschaftliche Präzision, analytische Exzellenz und verantwortungsvolle Forschungspraktiken."
     },
 
-    companyOverview: {
-      sectionTitle: "Über uns",
-      title: "Unser Unternehmen",
-      description1:
-        "BioPeptide ist eine biotechnologisch ausgerichtete Forschungsorganisation, die auf Präzision, Transparenz und wissenschaftlicher Integrität basiert. Wir sind auf die Bereitstellung hochwertiger, forschungsgeeigneter Peptidmaterialien spezialisiert, die Laboruntersuchungen in den Bereichen Biowissenschaften, Molekularphysiologie, Biochemie und regenerative Systeme unterstützen.",
-      description2:
-        "Unser analytikorientierter Ansatz gewährleistet kompromisslose Reinheit, Rückverfolgbarkeit und Reproduzierbarkeit – und ermöglicht Forschern verlässliche Ergebnisse sowie beschleunigte Entdeckungen durch präzise charakterisierte Peptidwerkzeuge."
+   companyOverview :{
+  sectionTitle: "Über uns",
+  title: "Unser Unternehmen",
+
+  countries: [
+    {
+      code: "DE",
+      heading: "Über BioPeptide – Deutschland (DE)",
+      subheading: "Forschungspeptide für deutsche wissenschaftliche Exzellenz",
+      paragraphs: [
+        "BioPeptide ist ein auf Europa fokussierter Anbieter für biotechnologische Forschung und liefert hochreine Forschungspeptide an Universitäten, private Labore und wissenschaftliche Einrichtungen in ganz Deutschland. Unsere Arbeit unterstützt das starke deutsche Ökosystem in Biotechnologie, pharmazeutischer Forschung, Molekularbiologie und regenerativen Wissenschaften.",
+        "Wir spezialisieren uns auf ausschließlich für Forschungszwecke bestimmte Peptidmaterialien, die mit präziser Synthese hergestellt und durch transparente analytische Dokumentation, einschließlich HPLC und Massenspektrometrie, unterstützt werden. BioPeptide-Peptide sind darauf ausgelegt, den Erwartungen der deutschen Forschungsstandards zu entsprechen, bei denen Genauigkeit, Rückverfolgbarkeit und Reproduzierbarkeit entscheidend sind."
+      ],
+      bulletHeading: "Was wir in Deutschland unterstützen",
+      bullets: [
+        "Molekularbiologische und biochemische Forschung",
+        "Endokrine und metabolische Studien",
+        "Regenerative und Gewebeforschung",
+        "Zelluläre Signal- und Rezeptoranalyse"
+      ],
+      links: [
+        { label: "Unsere Forschungspeptid-Sammlung erkunden", href: "/all-peptides" },
+        { label: "Forschungsanwendungen für Peptide ansehen", href: "/peptide-information" }
+      ]
     },
+
+    {
+      code: "FR",
+      heading: "Über BioPeptide – Frankreich (FR)",
+      subheading: "Unterstützung der Peptidforschung in Frankreich",
+      paragraphs: [
+        "BioPeptide unterstützt stolz französische wissenschaftliche Institutionen und Forschungslabore mit hochreinen Peptidmaterialien, die für experimentelle und analytische Zwecke entwickelt wurden.",
+        "Frankreichs führende Rolle in der biomedizinischen Forschung, den Lebenswissenschaften und der pharmazeutischen Innovation erfordert Peptidwerkzeuge, die zuverlässig, rückverfolgbar und wissenschaftlich validiert sind."
+      ],
+      bulletHeading: "Unser Forschungsschwerpunkt in Frankreich",
+      bullets: [
+        "Peptidbasierte Molekularforschung",
+        "Zelluläre und biochemische Studien",
+        "Metabolische und endokrine Forschung",
+        "Fortgeschrittene Laborversuche"
+      ],
+      links: [
+        { label: "Wachstumshormon-Forschungspeptide durchsuchen", href: "/all-peptides" },
+        { label: "Forschungspeptid-Standards", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "NL",
+      heading: "Über BioPeptide – Niederlande (NL)",
+      subheading: "Präzisions-Peptidwerkzeuge für niederländische Forschungslabore",
+      paragraphs: [
+        "Die Niederlande sind ein Zentrum für Biotechnologie und pharmazeutische Forschung, und BioPeptide unterstützt diese Innovation, indem es Forschungspeptide liefert, die auf Präzision und Reproduzierbarkeit ausgelegt sind.",
+        "Unsere Peptidmaterialien werden in der akademischen Forschung, der Biotech-Entwicklung und in experimentellen Studien in ganz Europa verwendet."
+      ],
+      bulletHeading: "Warum niederländische Forscher BioPeptide wählen",
+      bullets: [
+        "Hochreine Peptidsynthese",
+        "Transparente analytische Validierung (HPLC & MS)",
+        "Zuverlässige Chargenkonsistenz",
+        "Europa-fokussierte Forschungskonformität"
+      ],
+      links: [
+        { label: "Metabolische & Adipositas-Forschungspeptide", href: "/all-peptides" },
+        { label: "Fortgeschrittene Peptidblends", href: "/bundle-save" }
+      ]
+    },
+
+    {
+      code: "IT",
+      heading: "Über BioPeptide – Italien (IT)",
+      subheading: "Förderung der Peptidforschung in Italien",
+      paragraphs: [
+        "BioPeptide unterstützt italienische Universitäten, Labore und Forschungszentren mit hochwertigen Forschungspeptiden.",
+        "Die Forschungslandschaft Italiens erfordert Peptidwerkzeuge, die konsistent, rückverfolgbar und analytisch verifiziert sind."
+      ],
+      bulletHeading: "Unsere Peptid-Expertise",
+      bullets: [
+        "Regenerative & gewebebezogene Peptide",
+        "Neuroaktive & signalbezogene Forschungsverbindungen",
+        "Endokrine und molekulare Peptide"
+      ],
+      links: [
+        { label: "Regenerative Forschungspeptide", href: "/all-peptides" },
+        { label: "Laboranwendungen für Peptide", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "ES",
+      heading: "Über BioPeptide – Spanien (ES)",
+      subheading: "Vertrauenswürdige Forschungspeptide für spanische Labore",
+      paragraphs: [
+        "BioPeptide liefert Forschungspeptide an Labore und wissenschaftliche Einrichtungen in ganz Spanien.",
+        "Unsere Peptide werden entwickelt, um experimentelle Genauigkeit und analytische Transparenz zu gewährleisten."
+      ],
+      bulletHeading: "Forschung in Spanien unterstützen",
+      bullets: [
+        "Molekulare und zelluläre Forschung",
+        "Metabolische und Signalstudien",
+        "Experimentelle Peptidvalidierung"
+      ],
+      links: [
+        { label: "Topische Forschungspeptide", href: "/all-peptides" },
+        { label: "Alle Forschungspeptide durchsuchen", href: "/all-peptides" }
+      ]
+    }
+  ]
+},
 
     mission: {
       title: "Unsere Mission",
@@ -552,7 +653,10 @@ research: {
     title: "Vilon: Zelluläre Regeneration & immunologische Bioregulation",
     subtitle:
       "Eine tiefgehende wissenschaftliche Analyse eines der am intensivsten erforschten thymischen Bioregulator-Peptide und seiner Rolle bei zellulärer Reparatur, Immunbalance und Gewebehomöostase.",
-
+images: [
+  "/images/research/vilon/vilon-1.jpg",
+  "/images/research/vilon/vilon-2.jpg"
+],
     paragraphs: [
       "Vilon gehört zu den am umfassendsten untersuchten bioregulatorischen Peptiden der modernen Zellbiochemie und Langlebigkeitsforschung. Als natürliches Dipeptid aus thymischen Extrakten (Lys-Glu) repräsentiert Vilon eine frühe Generation gewebespezifischer molekularer Regulatoren – kurze Aminosäurestrukturen, die eine ausgeglichene Genexpression wiederherstellen, zelluläre Funktionen stabilisieren und regenerative Prozesse im gesamten Körper unterstützen können.",
       "Im Kern fungiert Vilon als molekularer Normalisator – ein regulatorisches Signal, das alternden, gestressten oder dysfunktionalen Zellen hilft, ihr physiologisches Gleichgewicht wiederzuerlangen. Im Gegensatz zu Pharmaka, die Signalwege überstimulieren oder unterdrücken, moduliert Vilon die Genaktivität in Richtung des natürlichen Ausgangsniveaus des Körpers.",
@@ -584,6 +688,10 @@ research: {
     title: "Pinealon: Neuroprotektive Bioregulation und kognitive Langlebigkeit",
     subtitle:
       "Eine umfassende wissenschaftliche Untersuchung der Rolle von Pinealon im Gehirnstoffwechsel, der mitochondrialen Balance, der antioxidativen Abwehr und der langfristigen neuronalen Widerstandsfähigkeit.",
+images: [
+  "/images/research/Pinealon/pinealon-brain-1.jpg",
+  "/images/research/Pinealon/pinealon-brain-2.jpg"
+],
 
     paragraphs: [
       "Pinealon gehört zu den faszinierendsten bioregulatorischen Peptiden in der Neurowissenschaft und der zellulären Langlebigkeitsforschung. Ursprünglich aus Gehirn- und Zirbeldrüsengewebe isoliert, ist Pinealon ein einzigartiges Tripeptid (Glu–Asp–Arg), das als regulatorischer Botenstoff für neuronale Genexpression, oxidative Stabilität und zellulären Energiestoffwechsel fungiert.",
@@ -615,6 +723,10 @@ research: {
   title: "Testagen: Bioregulatorische Unterstützung für endokrine Stabilität und reproduktive Zellgesundheit",
   subtitle:
     "Eine wissenschaftliche Analyse der Rolle von Testagen bei der Regulation von Hodengewebe, molekularer Signalübertragung und dem Erhalt der endokrinen Integrität im Alter.",
+images: [
+  "/images/research/Testagen/Testagen1.jpg",
+  "/images/research/Testagen/Testagen2.jpg"
+],
 
   paragraphs: [
     "Testagen gehört zu den am intensivsten untersuchten gewebespezifischen Bioregulator-Peptiden. Es wurde ursprünglich aus Hodengewebe isoliert und ist mit der Aufrechterhaltung des endokrinen Gleichgewichts und der reproduktiven Zellgesundheit verbunden.",
@@ -646,6 +758,10 @@ bronchogen: {
   title: "Bronchogen: Ein bioregulatorisches Peptid zur Stabilisierung des Lungengewebes und der Atemwege",
   subtitle:
     "Wissenschaftliche Analyse der Rolle von Bronchogen bei der Reparatur des Bronchialepithels und der Stabilisierung des respiratorischen Milieus.",
+images:[
+"/images/research/Bronchogen/Bronchogen1.jpg",
+"/images/research/Bronchogen/Bronchogen2.jpg"
+],
 
   paragraphs: [
     "Bronchogen ist ein bioregulatorisches Peptid aus Bronchial- und Lungengewebe.",
@@ -677,6 +793,10 @@ cardiogen: {
   title: "Cardiogen: Herzspezifisches bioregulatorisches Peptid zur Stabilisierung des Herzgewebes",
   subtitle:
     "Wissenschaftliche Analyse der Rolle von Cardiogen bei der Erhaltung der Myokardstabilität und Energieeffizienz.",
+images:[
+  "images/research/Cardiogen/Cardiogen1.jpg",
+  "images/research/Cardiogen/Cardiogen2.jpg"
+],
 
   paragraphs: [
     "Cardiogen ist ein herzgewebespezifisches bioregulatorisches Peptid.",
@@ -707,6 +827,10 @@ cardiogen: {
   title: "Regenerative Peptidbiologie: Mechanismen der Gewebereparatur und Zellerneuerung",
   subtitle:
     "Wissenschaftliche Analyse der Rolle von Peptiden bei Regeneration, Zellkommunikation und Gewebestabilität.",
+image:[
+  "/images/research/Regenerative/Regenerative1.jpg",
+  "/images/research/Regenerative/Regenerative2.jpg"
+],
 
   paragraphs: [
     "Die regenerative Peptidbiologie ist ein hochentwickeltes Forschungsfeld der Zellbiologie.",
@@ -740,6 +864,10 @@ cardiogen: {
   title: "Metabolische und endokrine Peptidmodulation: Energiegleichgewicht und hormonelle Stabilität",
   subtitle:
     "Wissenschaftliche Analyse der Rolle von Peptiden in Stoffwechsel- und Hormonsystemen.",
+image:[
+  "/images/research/Metabolic/Metabolic1.jpg",
+    "/images/research/Metabolic/Metabolic2.jpg"
+],
 
   paragraphs: [
     "Die metabolische und endokrine Peptidmodulation ist ein wachsendes Forschungsfeld der Zellbiologie.",
@@ -773,6 +901,10 @@ cardiogen: {
   title: "Peptide in der Neuroplastizität und Gehirnoptimierung",
   subtitle:
     "Wissenschaftliche Analyse der Wirkung von Peptiden auf neuronale Anpassung.",
+images:[
+  "/images/research/Neuroplasticity/Neuroplasticity.jpg",
+    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
+],
 
   paragraphs: [
     "Neuroplastizität ist die Fähigkeit des Gehirns, sich anzupassen und neuronale Netzwerke zu stärken.",
@@ -804,6 +936,9 @@ cardiogen: {
   title: "Immunmodulation und entzündungshemmende Peptidforschung",
   subtitle:
     "Wissenschaftliche Analyse der immunregulierenden Wirkung von Peptiden.",
+images:[
+  "/images/research/Immune/Immune1.jpg"
+],
 
   paragraphs: [
     "Das Immunsystem ist ein komplexes Regulationsnetzwerk.",
@@ -837,6 +972,10 @@ cardiogen: {
   title: "Peptide und zelluläre Langlebigkeit",
   subtitle:
     "Wissenschaftliche Analyse der Rolle von Peptiden im Alterungsprozess.",
+images:[
+  "/images/research/Anti-Aging/Anti-Aging1.jpg",
+  "/images/research/Anti-Aging/Anti-Aging1.jpg"
+],
 
   paragraphs: [
     "Zelluläre Langlebigkeit beschreibt Lebensdauer und Funktionsqualität von Zellen.",

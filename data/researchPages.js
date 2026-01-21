@@ -9,6 +9,10 @@ export const RESEARCH_PAGES = [
   date: "1 month ago",
   categories: ["Bioregulators", "Immune Health"],
   excerpt: "Vilon is one of the original short chain bioregulatory peptides developed from thymic tissue...",
+  images: [
+      "/research/vilon-1.jpg",
+      "/research/vilon-2.jpg"
+    ],
   paragraphs: [
     `Vilon is one of the most extensively studied bioregulator peptides in modern cellular biochemistry and longevity science. As a natural dipeptide derived from thymic extracts (Lys-Glu), Vilon represents the earliest generation of tissue-specific molecular regulators—short amino acid structures capable of restoring balanced gene expression, stabilizing cellular function, and supporting regenerative processes throughout the body. While the thymus is the source of Vilon’s biological identity, its impact is systemic, affecting immune integrity, inflammatory control, and epithelial repair across various organ systems.`,
 
@@ -63,7 +67,10 @@ export const RESEARCH_PAGES = [
 
   excerpt:
     "Pinealon is a natural bioregulatory peptide complex designed to support the brain and central nervous system by optimizing neuronal metabolism, gene expression, antioxidant defense, and mitochondrial balance—key processes associated with cognitive resilience and longevity.",
-
+images: [
+      "/research/pinealon-brain-1.jpg",
+      "/research/pinealon-brain-2.jpg"
+    ],
   subtitle:
     "A comprehensive scientific exploration of Pinealon’s role in brain metabolism, mitochondrial balance, antioxidant defense, and long-term neural resilience.",
 

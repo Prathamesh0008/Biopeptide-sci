@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 //peptides\app\peptide-information\[slug]\page.jsx
 "use client";
 

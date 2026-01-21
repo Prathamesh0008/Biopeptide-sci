@@ -329,18 +329,21 @@ if (loading || !bundle || !t) return <Loader />;
                 ${bundle.original.toFixed(2)}
               </p>
 
-              <button
-                onClick={handleAddBundleToCart}
-                className="
-                  w-full py-3 mt-6 
-                  bg-gradient-to-r from-bioBlue to-bioGreen 
-                  text-white font-semibold rounded-full 
-                  hover:opacity-90 transition
-                "
-              >
-                {t.addToCart}
+             <button
+  onClick={handleAddBundleToCart}
+  className="
+    w-full py-3 mt-6
+    bg-gradient-to-r from-[#145b2f] via-[#559f45] to-[#1a497c]
+    text-white font-semibold
+    rounded-md
+    transition-all duration-300
+    hover:bg-[#3a3a3a] hover:bg-none hover:opacity-100
+    cursor-pointer
+  "
+>
+  {t.addToCart}
+</button>
 
-              </button>
 
 
              <div className="mt-6 bg-gray-50 p-4 rounded-xl text-sm text-gray-700 leading-relaxed">

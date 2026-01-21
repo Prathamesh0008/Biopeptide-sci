@@ -1,3 +1,4 @@
+//peptides\app\product\[slug]\layout.jsx
 import { PRODUCTS } from "@/data/products";
 
 export async function generateMetadata({ params }) {

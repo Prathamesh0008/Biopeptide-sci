@@ -5,14 +5,115 @@ export default {
       description:
         "Innovatie in peptiden door wetenschappelijke precisie."
     },
-    companyOverview: {
-      sectionTitle: "Over ons",
-      title: "Ons bedrijf",
-      description1:
-        "BioPeptide is een biotechnologisch onderzoeksbedrijf.",
-      description2:
-        "Wij garanderen zuiverheid en reproduceerbaarheid."
+    companyOverview : {
+  sectionTitle: "Over ons",
+  title: "Ons Bedrijf",
+
+  countries: [
+    {
+      code: "DE",
+      heading: "Over BioPeptide – Duitsland (DE)",
+      subheading: "Peptiden van onderzoekskwaliteit voor Duitse wetenschappelijke excellentie",
+      paragraphs: [
+        "BioPeptide is een op Europa gerichte leverancier van biotechnologisch onderzoek en levert peptiden van hoge zuiverheid aan universiteiten, particuliere laboratoria en wetenschappelijke instellingen in heel Duitsland. Ons werk ondersteunt het sterke Duitse ecosysteem in biotechnologie, farmaceutisch onderzoek, moleculaire biologie en regeneratieve wetenschappen.",
+        "Wij zijn gespecialiseerd in peptiden uitsluitend voor onderzoeksdoeleinden, vervaardigd met precisiesynthese en ondersteund door transparante analytische documentatie, inclusief HPLC en Massaspectrometrie. BioPeptide-peptiden zijn ontworpen om te voldoen aan de Duitse onderzoeksstandaarden, waar nauwkeurigheid, traceerbaarheid en reproduceerbaarheid essentieel zijn."
+      ],
+      bulletHeading: "Wat wij ondersteunen in Duitsland",
+      bullets: [
+        "Moleculair biologische en biochemische onderzoeken",
+        "Endocriene en metabole route-studies",
+        "Regeneratief en weefselonderzoek",
+        "Cellulaire signalering en receptoranalyse"
+      ],
+      links: [
+        { label: "Ontdek onze collectie onderzoekspeptiden", href: "/all-peptides" },
+        { label: "Bekijk toepassingen van peptidenonderzoek", href: "/peptide-information" }
+      ]
     },
+
+    {
+      code: "FR",
+      heading: "Over BioPeptide – Frankrijk (FR)",
+      subheading: "Ondersteuning van peptidenonderzoek in heel Frankrijk",
+      paragraphs: [
+        "BioPeptide ondersteunt met trots Franse wetenschappelijke instellingen en laboratoria met peptiden van hoge zuiverheid, ontwikkeld voor experimenteel en analytisch gebruik.",
+        "De leidende positie van Frankrijk in biomedisch onderzoek, levenswetenschappen en farmaceutische innovatie vereist peptiden die betrouwbaar, traceerbaar en wetenschappelijk gevalideerd zijn."
+      ],
+      bulletHeading: "Onze onderzoeksfocus in Frankrijk",
+      bullets: [
+        "Moleculair onderzoek met peptiden",
+        "Cellulaire en biochemische route-studies",
+        "Metabool en endocrien onderzoek",
+        "Geavanceerde laboratoriumexperimenten"
+      ],
+      links: [
+        { label: "Bekijk groeihormoon onderzoekspeptiden", href: "/all-peptides" },
+        { label: "Peptiden van onderzoekskwaliteit", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "NL",
+      heading: "Over BioPeptide – Nederland (NL)",
+      subheading: "Precisiepeptiden voor Nederlandse onderzoekslaboratoria",
+      paragraphs: [
+        "Nederland is een centrum voor biotechnologisch en farmaceutisch onderzoek, en BioPeptide ondersteunt deze innovatie door onderzoekspeptiden te leveren die zijn ontworpen voor precisie en reproduceerbaarheid.",
+        "Onze peptiden worden gebruikt in academisch onderzoek, biotechnologische ontwikkeling en experimentele studies in heel Europa."
+      ],
+      bulletHeading: "Waarom Nederlandse onderzoekers kiezen voor BioPeptide",
+      bullets: [
+        "Peptiden van hoge zuiverheid",
+        "Transparante analytische validatie (HPLC & MS)",
+        "Betrouwbare batchconsistentie",
+        "Onderzoek dat voldoet aan Europese normen"
+      ],
+      links: [
+        { label: "Metabool & obesitas onderzoekspeptiden", href: "/all-peptides" },
+        { label: "Geavanceerde peptideblends", href: "/bundle-save" }
+      ]
+    },
+
+    {
+      code: "IT",
+      heading: "Over BioPeptide – Italië (IT)",
+      subheading: "Vooruitgang in peptidenonderzoek in Italië",
+      paragraphs: [
+        "BioPeptide ondersteunt Italiaanse universiteiten, laboratoria en onderzoekscentra met peptiden van hoge kwaliteit.",
+        "Het Italiaanse onderzoekslandschap vereist peptiden die consistent, traceerbaar en analytisch geverifieerd zijn."
+      ],
+      bulletHeading: "Onze expertise in peptiden",
+      bullets: [
+        "Regeneratieve & weefselgerelateerde peptiden",
+        "Neuroactieve & signaalonderzoek verbindingen",
+        "Endocriene en moleculaire peptiden"
+      ],
+      links: [
+        { label: "Regeneratieve onderzoekspeptiden", href: "/all-peptides" },
+        { label: "Laboratoriumtoepassingen van peptiden", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "ES",
+      heading: "Over BioPeptide – Spanje (ES)",
+      subheading: "Betrouwbare onderzoekspeptiden voor Spaanse laboratoria",
+      paragraphs: [
+        "BioPeptide levert onderzoekspeptiden aan laboratoria en wetenschappelijke instellingen in heel Spanje.",
+        "Onze peptiden zijn ontwikkeld voor experimentele nauwkeurigheid en analytische transparantie."
+      ],
+      bulletHeading: "Ondersteuning van onderzoek in Spanje",
+      bullets: [
+        "Moleculair en cellulair onderzoek",
+        "Metabole en signaalstudies",
+        "Experimentele peptidevalidatie"
+      ],
+      links: [
+        { label: "Topische onderzoekspeptiden", href: "/all-peptides" },
+        { label: "Bekijk alle onderzoekspeptiden", href: "/all-peptides" }
+      ]
+    }
+  ]
+},
     mission: {
       title: "Onze missie",
       description:
@@ -532,7 +633,10 @@ research: {
     title: "Vilon: Cellulaire regeneratie en immuun-bioregulatie",
     subtitle:
       "Een diepgaande wetenschappelijke analyse van een van de meest onderzochte thymische bioregulatorpeptiden.",
-
+images: [
+  "/images/research/vilon/vilon-1.jpg",
+  "/images/research/vilon/vilon-2.jpg"
+],
     paragraphs: [
       "Vilon behoort tot de meest bestudeerde bioregulerende peptiden in de moderne celbiologie.",
       "Het werkt als een moleculaire normalisator voor cellulaire balans.",
@@ -564,6 +668,10 @@ research: {
     title: "Pinealon: Neuroprotectieve bioregulatie en cognitieve levensduur",
     subtitle:
       "Wetenschappelijke analyse van Pinealon en zijn rol in hersenmetabolisme en neuronale stabiliteit.",
+images: [
+  "/images/research/Pinealon/pinealon-brain-1.jpg",
+  "/images/research/Pinealon/pinealon-brain-2.jpg"
+],
 
     paragraphs: [
       "Pinealon is een belangrijk bioregulerend peptide in de neurowetenschap.",
@@ -596,6 +704,10 @@ research: {
   title: "Testagen: Bioregulerende ondersteuning voor endocriene stabiliteit en reproductieve cellulaire gezondheid",
   subtitle:
     "Een diepgaande wetenschappelijke verkenning van de rol van Testagen bij regulatie van testiculair weefsel, moleculaire signaaloverdracht en het behoud van endocriene integriteit tijdens veroudering.",
+images: [
+  "/images/research/Testagen/Testagen1.jpg",
+  "/images/research/Testagen/Testagen2.jpg"
+],
 
   paragraphs: [
     "Testagen is een van de meest onderzochte peptiden binnen de klasse van weefselspecifieke bioregulatoren—korte aminozuurstructuren die oorspronkelijk zijn geïsoleerd uit testiculair weefsel en geassocieerd worden met het behoud van endocrien evenwicht en reproductieve cellulaire gezondheid. Als een pentapeptide met een sterk geconserveerde sequentie vertegenwoordigt Testagen een regulerend molecuul dat genexpressie en intracellulaire signalering beïnvloedt binnen testiculaire cellen, waaronder kiemcellen, Leydig-cellen en ondersteunende Sertoli-cellen. De wetenschappelijke relevantie ligt voornamelijk in het potentieel om de testiculaire microarchitectuur te behouden, steroïdogene pathways te optimaliseren en genetische programma’s te stabiliseren die betrokken zijn bij reproductieve levensduur.",
@@ -637,6 +749,10 @@ research: {
   title: "Bronchogen: Een respiratoir bioregulerend peptide voor longweefselstabiliteit en cellulaire integriteit van de luchtwegen",
   subtitle:
     "Een gedetailleerde wetenschappelijke analyse van de potentiële rol van Bronchogen bij het ondersteunen van bronchiale epitheelherstel, het verminderen van oxidatieve belasting en het stabiliseren van de respiratoire micro-omgeving.",
+images:[
+"/images/research/Bronchogen/Bronchogen1.jpg",
+"/images/research/Bronchogen/Bronchogen2.jpg"
+],
 
   paragraphs: [
     "Bronchogen is een bioregulerend peptide dat oorspronkelijk werd geïdentificeerd in extracten van bronchiaal en longweefsel, en wordt bestudeerd vanwege zijn vermogen om de respiratoire cellulaire gezondheid te ondersteunen en de integriteit van het luchtwegepitheel te behouden. Als een orgaanspecifiek regulerend peptide kan Bronchogen genexpressie, cellulaire stressreacties en weefselresistentie binnen het pulmonale systeem beïnvloeden.",
@@ -678,6 +794,10 @@ research: {
   title: "Cardiogen: Een hartspecifiek bioregulerend peptide ter ondersteuning van cellulaire stabiliteit en integriteit van hartweefsel",
   subtitle:
     "Een wetenschappelijke verkenning van de potentiële rol van Cardiogen bij het behouden van myocardiale veerkracht, het optimaliseren van cellulaire energiedynamiek en het ondersteunen van structurele stabiliteit in verouderend hartweefsel.",
+images:[
+  "images/research/Cardiogen/Cardiogen1.jpg",
+  "images/research/Cardiogen/Cardiogen2.jpg"
+],
 
   paragraphs: [
     "Cardiogen is een hartspecifiek bioregulerend peptide dat oorspronkelijk werd geïsoleerd uit extracten van hartspierweefsel en gesynthetiseerd voor onderzoek naar cellulaire evenwichtsmechanismen onder stress. Het ondersteunt genetische stabiliteit, cellulaire herstelprocessen en metabole efficiëntie in cardiomyocyten.",
@@ -717,6 +837,10 @@ research: {
   title: "Regeneratieve peptidebiologie: Mechanismen van weefselherstel, cellulaire vernieuwing en structureel herstel",
   subtitle:
     "Een uitgebreide wetenschappelijke verkenning van hoe onderzoekspeptiden weefselregeneratie, cellulaire signalering, stabiliteit van de micro-omgeving en de gecoördineerde processen van biologisch herstel beïnvloeden.",
+image:[
+  "/images/research/Regenerative/Regenerative1.jpg",
+  "/images/research/Regenerative/Regenerative2.jpg"
+],
 
   paragraphs: [
     "Regeneratieve peptidebiologie behoort tot de meest geavanceerde gebieden binnen de moderne cellulaire wetenschap. Peptiden fungeren als natuurlijke signaalmoleculen die weefselherstel, aanpassing en functionele integriteit coördineren door cellulaire communicatie fijn af te stemmen in plaats van biochemische processen te forceren.",
@@ -762,6 +886,10 @@ research: {
   title: "Metabole en endocriene peptide-modulatie: cellulaire energiebalans, hormonale stabiliteit en systeem-brede homeostase",
   subtitle:
     "Een uitgebreide wetenschappelijke analyse van hoe onderzoekspeptiden de metabole regulatie, endocriene harmonie, mitochondriale efficiëntie en langdurige fysiologische balans beïnvloeden.",
+image:[
+  "/images/research/Metabolic/Metabolic1.jpg",
+    "/images/research/Metabolic/Metabolic2.jpg"
+],
 
   paragraphs: [
     "Metabole en endocriene peptide-modulatie is een snel groeiend onderzoeksgebied binnen de cellulaire biologie en biedt inzicht in hoe het lichaam energiebalans, hormonale harmonie en fysiologische aanpassingsvermogen behoudt. Peptiden functioneren als natuurlijke chemische boodschappers die metabole routes verfijnen in plaats van abrupte biochemische veranderingen af te dwingen.",
@@ -807,6 +935,10 @@ research: {
   title: "Peptiden in neuroplasticiteit en hersenoptimalisatie: moleculaire routes, cognitieve veerkracht en neurale regeneratie",
   subtitle:
     "Een gedetailleerde verkenning van hoe onderzoekspeptiden synaptische remodeling, neuronale overleving, mitochondriale prestaties en langdurige cognitieve gezondheid beïnvloeden.",
+images:[
+  "/images/research/Neuroplasticity/Neuroplasticity.jpg",
+    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
+],
 
   paragraphs: [
     "Neuroplasticiteit—het vermogen van de hersenen om neurale netwerken te reorganiseren, zich aan te passen en te versterken—is een kernfundament van menselijke cognitie. Het stuurt leren, geheugenconsolidatie, emotionele regulatie en herstel na stress of letsel aan. Onderzoekspeptiden werken op moleculair niveau waar neurale aanpassing plaatsvindt en beïnvloeden intracellulaire signalering, synaptische remodeling, genexpressie en mitochondriale gezondheid.",
@@ -848,6 +980,9 @@ research: {
   title: "Immuunmodulatie en anti-inflammatoire peptidewetenschap: cellulaire verdediging, cytokinebalans en weefselbescherming",
   subtitle:
     "Een diepgaande wetenschappelijke analyse van hoe peptiden immuunsignalering reguleren, ontstekingsroutes beïnvloeden en systemische veerkracht ondersteunen.",
+images:[
+  "/images/research/Immune/Immune1.jpg"
+],
 
   paragraphs: [
     "Het immuunsysteem is een van de meest complexe regulerende netwerken in het menselijk lichaam. Peptiden fungeren als natuurlijke biologische boodschappers die immuuncommunicatie, ontstekingscontrole en weefselherstel coördineren.",
@@ -893,6 +1028,10 @@ research: {
   title: "Peptiden en cellulaire levensduur: moleculair herstel, epigenetische stabiliteit en de toekomst van anti-verouderingsonderzoek",
   subtitle:
     "Een wetenschappelijke diepgaande analyse van hoe regulerende peptiden cellulaire veerkracht, DNA-onderhoud, mitochondriale bescherming en langdurige biologische stabiliteit ondersteunen.",
+images:[
+  "/images/research/Anti-Aging/Anti-Aging1.jpg",
+  "/images/research/Anti-Aging/Anti-Aging1.jpg"
+],
 
   paragraphs: [
     "Cellulaire levensduur verwijst zowel naar de levensduur als naar de functionele kwaliteit van cellen in de tijd. Veroudering begint op cellulair niveau, waar DNA-schade zich ophoopt, mitochondriale efficiëntie afneemt, ontsteking chronisch wordt en het vermogen tot weefselherstel verzwakt. Onderzoekspeptiden fungeren als regulerende signaalmoleculen die wetenschappers helpen begrijpen hoe cellen balans behouden, schade herstellen en vitaliteit bewaren.",

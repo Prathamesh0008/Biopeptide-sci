@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { FaFlask, FaCheckCircle, FaUsers } from "react-icons/fa";
 
+
 export default function AboutSection() {
   const { translations, loading } = useLanguage();
 

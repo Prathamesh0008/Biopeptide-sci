@@ -7,10 +7,113 @@ export default {
     },
     companyOverview: {
       sectionTitle: "About Us",
-      title: "Our Company",
-      description1: "BioPeptide is a biotechnology-focused research organization built upon precision, transparency, and scientific integrity. We specialize in providing high-value research-grade peptide materials crafted to support laboratory investigations across biological sciences, molecular physiology, biochemistry, and regenerative systems.",
-      description2: "Our analytical-first approach ensures uncompromised purity, traceability, and reproducibility—empowering researchers to achieve reliable results and accelerated discovery through well-characterized peptide tools."
+  title: "Our Company",
+
+  countries: [
+    {
+      code: "DE",
+      heading: "About BioPeptide – Germany (DE)",
+      subheading: "Research-Grade Peptides for German Scientific Excellence",
+      paragraphs: [
+        "BioPeptide is a Europe-focused biotechnology research supplier providing high-purity research peptides to universities, private laboratories, and scientific institutions across Germany. Our work supports Germany’s strong ecosystem in biotechnology, pharmaceutical research, molecular biology, and regenerative sciences.",
+        "We specialize in research-only peptide materials, engineered with precision synthesis and supported by transparent analytical documentation, including HPLC and Mass Spectrometry. BioPeptide peptides are designed to meet the expectations of German research standards, where accuracy, traceability, and reproducibility are essential."
+      ],
+      bulletHeading: "What We Support in Germany",
+      bullets: [
+        "Molecular biology & biochemical research",
+        "Endocrine and metabolic pathway studies",
+        "Regenerative & tissue research",
+        "Cellular signaling & receptor analysis"
+      ],
+      links: [
+        { label: "Explore our Research Peptides Collection", href: "/all-peptides" },
+        { label: "View Peptide Research Applications", href: "/peptide-information" }
+      ]
     },
+
+    {
+      code: "FR",
+      heading: "About BioPeptide – France (FR)",
+      subheading: "Supporting Peptide Research Across France",
+      paragraphs: [
+        "BioPeptide proudly supports French scientific institutions and research laboratories with high-purity peptide research materials developed for experimental and analytical use.",
+        "France’s leadership in biomedical research, life sciences, and pharmaceutical innovation demands peptide tools that are reliable, traceable, and scientifically validated."
+      ],
+      bulletHeading: "Our Research Focus in France",
+      bullets: [
+        "Peptide-based molecular research",
+        "Cellular and biochemical pathway studies",
+        "Metabolic and endocrine research",
+        "Advanced laboratory experimentation"
+      ],
+      links: [
+        { label: "Browse Growth Hormone Research Peptides", href: "/all-peptides" },
+        { label: "Research-Grade Peptide Standards", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "NL",
+      heading: "About BioPeptide – Netherlands (NL)",
+      subheading: "Precision Peptide Tools for Dutch Research Laboratories",
+      paragraphs: [
+        "The Netherlands is a hub for biotechnology and pharmaceutical research, and BioPeptide supports this innovation by supplying research-grade peptides designed for precision and reproducibility.",
+        "Our peptide materials are used in academic research, biotech development, and experimental studies across Europe."
+      ],
+      bulletHeading: "Why Dutch Researchers Choose BioPeptide",
+      bullets: [
+        "High-purity peptide synthesis",
+        "Transparent analytical validation (HPLC & MS)",
+        "Reliable batch consistency",
+        "Europe-focused research compliance"
+      ],
+      links: [
+        { label: "Metabolic & Obesity Research Peptides", href: "/all-peptides" },
+        { label: "Advanced Peptide Blends", href: "/bundle-save" }
+      ]
+    },
+
+    {
+      code: "IT",
+      heading: "About BioPeptide – Italy (IT)",
+      subheading: "Advancing Peptide Research in Italy",
+      paragraphs: [
+        "BioPeptide supports Italian universities, laboratories, and research centers with high-quality peptide research materials.",
+        "Italy’s research landscape demands peptide tools that are consistent, traceable, and analytically verified."
+      ],
+      bulletHeading: "Our Peptide Expertise",
+      bullets: [
+        "Regenerative & tissue-related peptides",
+        "Neuroactive & signaling research compounds",
+        "Endocrine and molecular peptides"
+      ],
+      links: [
+        { label: "Regenerative Research Peptides", href: "/all-peptides" },
+        { label: "Laboratory Peptide Applications", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "ES",
+      heading: "About BioPeptide – Spain (ES)",
+      subheading: "Trusted Research Peptides for Spanish Laboratories",
+      paragraphs: [
+        "BioPeptide provides research-grade peptides to laboratories and scientific institutions across Spain.",
+        "Our peptides are developed for experimental accuracy and analytical transparency."
+      ],
+      bulletHeading: "Supporting Research in Spain",
+      bullets: [
+        "Molecular and cellular research",
+        "Metabolic and signaling studies",
+        "Experimental peptide validation"
+      ],
+      links: [
+        { label: "Topical Research Peptides", href: "/all-peptides" },
+        { label: "Browse All Research Peptides", href: "/all-peptides" }
+      ]
+    }
+  ]
+},
     mission: {
       title: "Our Mission",
       description: "To empower global scientific communities with high-purity peptides backed by advanced analytical documentation—enabling reproducible research, high-precision experimentation, and meaningful scientific progress."
@@ -205,7 +308,7 @@ peptideInfo: {
   articles: {
     purity: {
        img: "/peptide-info/section-quality.jpg",
-      title: "Peptide Purity",
+      title: "Peptide Purity ",
       preview: "How is peptide purity achieved and verified? Using state-of-the-art technology...",
       content: [
         "Peptide purity is essential for research accuracy.",
@@ -214,8 +317,18 @@ peptideInfo: {
         "Each batch includes full COA documentation.",
         "High purity minimizes unwanted side-chain reactions that may alter biological performance.",
         "Advanced chromatographic techniques help isolate impurities and degradation fragments with high precision.",
-        "Maintaining purity also increases long-term stability during storage and reconstitution, ensuring reliable results across experiments."
+        "Maintaining purity also increases long-term stability during storage and reconstitution, ensuring reliable results across experiments.",
+        "Peptide Purity Standards and Quality Assurance at BioPeptide",
+"By BioPeptide Scientific Team | Published: October 21, 2023",
+"IMPORTANT NOTICE: All educational content, research articles, and product information presented on BioPeptide's official website are exclusively intended for informational and educational purposes." ,
+"Our premium peptide compounds, research chemicals, and synthetic peptides are specifically designed and furnished for controlled in-vitro laboratory research studies only.",
+ "The term in-vitro (derived from Latin meaning in glass) refers to scientific experiments conducted outside living organisms.",
+  "These research-grade peptides are not approved medications, pharmaceutical drugs, or therapeutic agents.", "None of our peptide products have been evaluated, approved, or authorized by the Food and Drug Administration (FDA) for the prevention, treatment, mitigation, or cure of any medical condition, disease, or health ailment. Any form of bodily introduction, injection, ingestion, or administration of our research peptides into humans or animals is strictly prohibited by federal law and regulatory guidelines."
+
+        
+      
       ]
+
     },
 
     intro: {
@@ -599,6 +712,12 @@ research: {
 
   subtitle:
     "A deep scientific examination of one of the most researched thymic bioregulator peptides and its role in cellular repair, immune balance, and tissue homeostasis.",
+images: [
+  "/images/research/vilon/vilon-1.jpg",
+  "/images/research/vilon/vilon-2.jpg"
+],
+
+
 
   author: "Dr. Hannah",
   date: "1 month ago",
@@ -657,7 +776,10 @@ research: {
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Bioregulators", "Neuroprotection", "Cognitive Longevity"],
-
+images: [
+  "/images/research/Pinealon/pinealon-brain-1.jpg",
+  "/images/research/Pinealon/pinealon-brain-2.jpg"
+],
   excerpt:
     "Pinealon is a neuroprotective bioregulator peptide studied for its role in optimizing neuronal metabolism, mitochondrial stability, antioxidant defense, and epigenetic regulation associated with cognitive resilience and longevity.",
 
@@ -709,7 +831,10 @@ research: {
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Bioregulators", "Endocrine Health", "Reproductive Biology"],
-
+images: [
+  "/images/research/Testagen/Testagen1.jpg",
+  "/images/research/Testagen/Testagen2.jpg"
+],
   excerpt:
     "Testagen is a tissue-specific bioregulatory peptide studied for its role in preserving endocrine balance, reproductive cellular integrity, and age-related stability of testicular function through genetic and epigenetic regulation.",
 
@@ -761,7 +886,10 @@ bronchogen: {
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Bioregulators", "Respiratory Health", "Cellular Repair"],
-
+images:[
+"/images/research/Bronchogen/Bronchogen1.jpg",
+"/images/research/Bronchogen/Bronchogen2.jpg"
+],
   excerpt:
     "Bronchogen is a respiratory-specific bioregulatory peptide studied for its role in maintaining bronchial epithelial integrity, reducing oxidative stress, and supporting airway cellular resilience.",
 
@@ -812,7 +940,10 @@ cardiogen: {
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Bioregulators", "Cardiovascular Health", "Cellular Longevity"],
-
+images:[
+  "images/research/Cardiogen/Cardiogen1.jpg",
+  "images/research/Cardiogen/Cardiogen2.jpg"
+],
   excerpt:
     "Cardiogen is a heart-specific bioregulatory peptide studied for its role in supporting mitochondrial energy production, cellular repair mechanisms, and structural stability within aging cardiac tissue.",
 
@@ -862,7 +993,10 @@ cardiogen: {
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Regenerative Biology", "Cellular Repair", "Peptide Science"],
-
+image:[
+  "/images/research/Regenerative/Regenerative1.jpg",
+  "/images/research/Regenerative/Regenerative2.jpg"
+],
   excerpt:
     "Regenerative peptide biology examines how short-chain signaling peptides regulate tissue repair, cellular renewal, mitochondrial resilience, inflammation control, and structural recovery across aging and stressed biological systems.",
 
@@ -921,7 +1055,10 @@ cardiogen: {
 
   excerpt:
     "Metabolic and endocrine peptide modulation examines how regulatory peptides influence cellular energy balance, hormonal signaling, mitochondrial efficiency, and system-wide homeostasis essential for long-term physiological resilience.",
-
+image:[
+  "/images/research/Metabolic/Metabolic1.jpg",
+    "/images/research/Metabolic/Metabolic2.jpg"
+],
   paragraphs: [
     "Metabolic and endocrine peptide modulation is a rapidly growing field in cellular biology, offering insight into how the body maintains energy balance, hormonal harmony, and physiological adaptability. Peptides act as natural chemical messengers that fine-tune metabolic pathways rather than forcing abrupt biochemical shifts.",
 
@@ -970,11 +1107,14 @@ cardiogen: {
   subtitle:
     "A detailed exploration of how research peptides influence synaptic remodeling, neuronal survival, mitochondrial performance, and long-term cognitive health.",
 
-  // ✅ META (needed for English UI header & cards)
+
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Neuroscience", "Neuroplasticity", "Cognitive Health"],
-
+images:[
+  "/images/research/Neuroplasticity/Neuroplasticity.jpg",
+    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
+],
   excerpt:
     "Neuroplasticity-focused peptide research examines how molecular signaling peptides influence synaptic remodeling, neuronal survival, mitochondrial resilience, and cognitive adaptability—key processes underlying learning, memory, and long-term brain health.",
 
@@ -1025,7 +1165,9 @@ cardiogen: {
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Immunology", "Anti-Inflammatory Research", "Peptide Science"],
-
+images:[
+  "/images/research/Immune/Immune1.jpg"
+],
   excerpt:
     "Immune modulation peptide research explores how regulatory peptides influence cytokine balance, immune cell signaling, oxidative stress control, and tissue protection—key mechanisms underlying immune resilience and healthy aging.",
 
@@ -1084,7 +1226,10 @@ cardiogen: {
 
   excerpt:
     "Cellular longevity peptide research explores how regulatory peptides support molecular repair, epigenetic stability, mitochondrial protection, and inflammation control—key mechanisms underlying healthy aging and long-term biological resilience.",
-
+images:[
+  "/images/research/Anti-Aging/Anti-Aging1.jpg",
+  "/images/research/Anti-Aging/Anti-Aging1.jpg"
+],
   paragraphs: [
     "Cellular longevity refers to both the lifespan and functional quality of cells over time. Aging begins at the cellular level, where DNA damage accumulates, mitochondrial efficiency declines, inflammation becomes chronic, and tissue repair capacity weakens. Research peptides act as regulatory signaling molecules that help scientists understand how cells maintain balance, repair damage, and preserve vitality.",
 

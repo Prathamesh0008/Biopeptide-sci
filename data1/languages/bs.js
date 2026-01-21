@@ -6,12 +6,116 @@ export default {
       "title": "O BioPeptide Research Labs",
       "description": "Unapređivanje peptidne inovacije kroz naučnu preciznost, analitičku izvrsnost i odgovorne istraživačke prakse."
     },
-    "companyOverview": {
-      "sectionTitle": "O nama",
-      "title": "Naša kompanija",
-      "description1": "BioPeptide je istraživačka organizacija fokusirana na biotehnologiju, izgrađena na preciznosti, transparentnosti i naučnom integritetu. Specijalizovani smo za pružanje visokovrijednih istraživačkih peptidnih materijala kreiranih da podrže laboratorijska istraživanja u biološkim naukama, molekularnoj fiziologiji, biohemiji i regenerativnim sistemima.",
-      "description2": "Naš analitički pristup osigurava nekompromisnu čistoću, sljedivost i ponovljivost — omogućavajući istraživačima da postignu pouzdane rezultate i ubrzaju otkrića kroz dobro okarakterisane peptide alate."
+ companyOverview : {
+  sectionTitle: "O nama",
+  title: "Naša kompanija",
+
+  countries: [
+    {
+      code: "DE",
+      heading: "O BioPeptide – Njemačka (DE)",
+      subheading: "Istraživački peptidi visoke čistoće za njemačku naučnu izvrsnost",
+      paragraphs: [
+        "BioPeptide je evropski dobavljač fokusiran na biotehnološka istraživanja, koji obezbjeđuje peptidne materijale visoke čistoće univerzitetima, privatnim laboratorijama i naučnim institucijama širom Njemačke. Naš rad podržava snažan njemački ekosistem u biotehnologiji, farmaceutskim istraživanjima, molekularnoj biologiji i regenerativnim naukama.",
+        "Specijalizovani smo za materijale peptida namijenjene isključivo za istraživanje, kreirane preciznom sintezom i podržane transparentnom analitičkom dokumentacijom, uključujući HPLC i masenu spektrometriju. BioPeptide peptidi su dizajnirani da zadovolje nemačke istraživačke standarde gdje su preciznost, sledivost i reproduktivnost ključni."
+      ],
+      bulletHeading: "Šta podržavamo u Njemačkoj",
+      bullets: [
+        "Molekularna i biohemijska istraživanja",
+        "Studije endokrinih i metaboličkih puteva",
+        "Regenerativna i tkivna istraživanja",
+        "Analiza ćelijskog signaliziranja i receptora"
+      ],
+      links: [
+        { label: "Istražite našu kolekciju istraživačkih peptida", href: "/all-peptides" },
+        { label: "Pogledajte primjene istraživanja peptida", href: "/peptide-information" }
+      ]
     },
+
+    {
+      code: "FR",
+      heading: "O BioPeptide – Francuska (FR)",
+      subheading: "Podrška istraživanju peptida u Francuskoj",
+      paragraphs: [
+        "BioPeptide sa ponosom podržava francuske naučne institucije i istraživačke laboratorije sa peptidima visoke čistoće, razvijenim za eksperimentalnu i analitičku upotrebu.",
+        "Liderstvo Francuske u biomedicinskim istraživanjima, naukama o životu i farmaceutskoj inovaciji zahtijeva pouzdane, sledive i naučno potvrđene peptidne alate."
+      ],
+      bulletHeading: "Naš istraživački fokus u Francuskoj",
+      bullets: [
+        "Molekularna istraživanja temeljena na peptidima",
+        "Studije staničnih i biohemijskih puteva",
+        "Metabolička i endokrina istraživanja",
+        "Napredni laboratorijski eksperimenti"
+      ],
+      links: [
+        { label: "Pregledajte peptide za istraživanje hormona rasta", href: "/all-peptides" },
+        { label: "Standardi istraživačkih peptida", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "NL",
+      heading: "O BioPeptide – Holandija (NL)",
+      subheading: "Precizni peptidni alati za holandske laboratorije",
+      paragraphs: [
+        "Holandija je centar za biotehnološka i farmaceutska istraživanja, a BioPeptide podržava ovu inovaciju pružajući istraživačke peptide dizajnirane za preciznost i reproduktivnost.",
+        "Naši peptidni materijali koriste se u akademskim istraživanjima, biotehnološkom razvoju i eksperimentalnim studijama širom Evrope."
+      ],
+      bulletHeading: "Zašto holandski istraživači biraju BioPeptide",
+      bullets: [
+        "Sinsteza peptida visoke čistoće",
+        "Transparentna analitička validacija (HPLC & MS)",
+        "Pouzdana konzistencija serija",
+        "Europski standardi istraživanja"
+      ],
+      links: [
+        { label: "Peptidi za metabolička i gojaznost istraživanja", href: "/all-peptides" },
+        { label: "Napredne peptidne mješavine", href: "/bundle-save" }
+      ]
+    },
+
+    {
+      code: "IT",
+      heading: "O BioPeptide – Italija (IT)",
+      subheading: "Napredovanje istraživanja peptida u Italiji",
+      paragraphs: [
+        "BioPeptide podržava italijanske univerzitete, laboratorije i istraživačke centre s visokokvalitetnim istraživačkim peptidima.",
+        "Istraživačko okruženje u Italiji zahtijeva konzistentne, sledive i analitički potvrđene peptidne alate."
+      ],
+      bulletHeading: "Naša stručnost u peptidima",
+      bullets: [
+        "Regenerativni i tkivno povezani peptidi",
+        "Neuroaktivni i signalni istraživački spojevi",
+        "Endokrini i molekularni peptidi"
+      ],
+      links: [
+        { label: "Peptidi za regenerativna istraživanja", href: "/all-peptides" },
+        { label: "Laboratorijske primjene peptida", href: "/peptide-information" }
+      ]
+    },
+
+    {
+      code: "ES",
+      heading: "O BioPeptide – Španija (ES)",
+      subheading: "Pouzdani istraživački peptidi za španske laboratorije",
+      paragraphs: [
+        "BioPeptide pruža istraživačke peptide laboratorijima i naučnim institucijama širom Španije.",
+        "Naši peptidi su razvijeni kako bi osigurali eksperimentalnu preciznost i analitičku transparentnost."
+      ],
+      bulletHeading: "Podrška istraživanjima u Španiji",
+      bullets: [
+        "Molekularna i ćelijska istraživanja",
+        "Metaboličke i signalne studije",
+        "Eksperimentalna validacija peptida"
+      ],
+      links: [
+        { label: "Topični istraživački peptidi", href: "/all-peptides" },
+        { label: "Pregledajte sve istraživačke peptide", href: "/all-peptides" }
+      ]
+    }
+  ]
+},
+
     "mission": {
       "title": "Naša misija",
       "description": "Da osnažimo globalne naučne zajednice visokopurem peptidima podržanim naprednom analitičkom dokumentacijom — omogućavajući ponovljivo istraživanje, eksperimentisanje visoke preciznosti i značajan naučni napredak."
@@ -462,6 +566,10 @@ export default {
       "subtitle": "Duboko naučno ispitivanje jednog od najistraživanijih timičnih bioregulatornih peptida i njegove uloge u ćelijskoj popravci, imunološkoj ravnoteži i homeostazi tkiva.",
       "author": "Dr. Hannah",
       "date": "prije 1 mjesec",
+      images: [
+  "/images/research/vilon/vilon-1.jpg",
+  "/images/research/vilon/vilon-2.jpg"
+],
       "categories": ["Bioregulatori", "Imunološko zdravlje"],
       "paragraphs": [
         "Vilon je jedan od najopsežnije proučavanih bioregulatornih peptida u modernoj ćelijskoj biohemiji i nauci o dugovječnosti. Kao prirodni dipeptid izveden iz timusnih ekstrakata (Lys-Glu), Vilon predstavlja najraniju generaciju tkivno specifičnih molekularnih regulatora — kratkih aminokiselinskih struktura sposobnih da obnove uravnoteženu ekspresiju gena, stabilizuju ćelijsku funkciju i podrže regenerativne procese širom tijela. Iako je timus izvor Vilonovog biološkog identiteta, njegov uticaj je sistemski, utičući na imunološki integritet, kontrolu upale i popravak epitela u različitim organskim sistemima.",
@@ -1434,6 +1542,11 @@ description:
       "subtitle": "Duboko naučno ispitivanje jednog od najistraženijih timičnih bioregulatornih peptida i njegova uloga u ćelijskoj popravci, imunološkoj ravnoteži i homeostazi tkiva.",
       "author": "Dr. Hannah",
       "date": "prije mjesec dana",
+      images: [
+  "/images/research/vilon/vilon-1.jpg",
+  "/images/research/vilon/vilon-2.jpg"
+],
+
       "categories": ["Biološki regulatori", "Imunološko zdravlje"],
       "excerpt": "Vilon je jedan od najopsežnije proučavanih bioregulatornih peptida u modernoj ćelijskoj biohemiji i nauci o dugovječnosti.",
       "paragraphs": [
@@ -1467,6 +1580,11 @@ description:
       "subtitle": "Sveobuhvatna naučna eksploracija uloge Pinealona u moždanoj metabolizmu, mitohondrijskoj ravnoteži, antioksidativnoj odbrani i dugoročnoj neuralnoj otpornosti.",
       "author": "Dr. Hannah",
       "date": "prije mjesec dana",
+      images: [
+  "/images/research/Pinealon/pinealon-brain-1.jpg",
+  "/images/research/Pinealon/pinealon-brain-2.jpg"
+],
+
       "categories": ["Biološki regulatori", "Neuroprotekcija", "Kognitivna dugovječnost"],
       "excerpt": "Pinealon je neuroprotektivni bioregulatorni peptid koji se proučava zbog svoje uloge u optimizaciji neuronskog metabolizma, stabilnosti mitohondrija, antioksidativne odbrane i epigenetske regulacije povezane sa kognitivnom otpornošću i dugovječnošću.",
       "paragraphs": [
@@ -1499,6 +1617,11 @@ description:
       "subtitle": "Duboko naučno istraživanje uloge Testagena u regulaciji testikularnog tkiva, molekularnoj signalizaciji i očuvanju endokrinog integriteta tokom starenja.",
       "author": "Dr. Hannah",
       "date": "prije mjesec dana",
+      images: [
+  "/images/research/Testagen/Testagen1.jpg",
+  "/images/research/Testagen/Testagen2.jpg"
+],
+
       "categories": ["Biološki regulatori", "Endokrino zdravlje", "Reproduktivna biologija"],
       "excerpt": "Testagen je tkivno-specifični bioregulatorni peptid koji se proučava zbog svoje uloge u očuvanju endokrine ravnoteže, reproduktivnog ćelijskog integriteta i starosne stabilnosti testikularne funkcije kroz genetsku i epigenetsku regulaciju.",
       "paragraphs": [
@@ -1531,6 +1654,11 @@ description:
       "subtitle": "Detaljna naučna analiza potencijalne uloge Bronchogena u podršci popravku bronhijalnog epitela, smanjenju oksidativnog opterećenja i stabilizaciji respiratornog mikrookruženja.",
       "author": "Dr. Hannah",
       "date": "prije mjesec dana",
+      images:[
+"/images/research/Bronchogen/Bronchogen1.jpg",
+"/images/research/Bronchogen/Bronchogen2.jpg"
+],
+
       "categories": ["Biološki regulatori", "Respiratorno zdravlje", "Ćelijski popravak"],
       "excerpt": "Bronchogen je respiratorno-specifični bioregulatorni peptid koji se proučava zbog svoje uloge u održavanju integriteta bronhijalnog epitela, smanjenju oksidativnog stresa i podršci otpornosti ćelija dišnih puteva.",
       "paragraphs": [
@@ -1563,6 +1691,11 @@ description:
       "subtitle": "Naučna eksploracija potencijalne uloge Cardiogena u održavanju miokardijalne otpornosti, optimizaciji ćelijske energijske dinamike i podršci strukturalne stabilnosti u starijem srčanom tkivu.",
       "author": "Dr. Hannah",
       "date": "prije mjesec dana",
+      images:[
+  "images/research/Cardiogen/Cardiogen1.jpg",
+  "images/research/Cardiogen/Cardiogen2.jpg"
+],
+
       "categories": ["Biološki regulatori", "Kardiovaskularno zdravlje", "Ćelijska dugovječnost"],
       "excerpt": "Cardiogen je srčano-specifični bioregulatorni peptid koji se proučava zbog svoje uloge u podršci mitohondrijskoj energetskoj proizvodnji, mehanizmima ćelijskog popravka i strukturalnoj stabilnosti unutar starijeg srčanog tkiva.",
       "paragraphs": [
@@ -1594,6 +1727,11 @@ description:
       "subtitle": "Sveobuhvatna naučna eksploracija kako istraživački peptidi utiču na regeneraciju tkiva, ćelijsku signalizaciju, stabilnost mikrookruženja i koordinirane procese biološkog popravka.",
       "author": "Dr. Hannah",
       "date": "prije mjesec dana",
+      image:[
+  "/images/research/Regenerative/Regenerative1.jpg",
+  "/images/research/Regenerative/Regenerative2.jpg"
+],
+
       "categories": ["Regenerativna biologija", "Ćelijski popravak", "Nauka o peptidima"],
       "excerpt": "Biologija regenerativnih peptida ispituje kako kratkolančani signalni peptidi regulišu popravak tkiva, ćelijsku obnovu, mitohondrijsku otpornost, kontrolu upale i strukturalni oporavak u starenim i pod stresom biološkim sistemima.",
       "paragraphs": [
@@ -1628,6 +1766,11 @@ description:
       "subtitle": "Sveobuhvatna naučna analiza kako istraživački peptidi utiču na metaboličku regulaciju, endokrinu harmoniju, mitohondrijsku efikasnost i dugoročnu fiziološku ravnotežu.",
       "author": "Dr. Hannah",
       "date": "prije mjesec dana",
+      image:[
+  "/images/research/Metabolic/Metabolic1.jpg",
+    "/images/research/Metabolic/Metabolic2.jpg"
+],
+
       "categories": ["Metabolička regulacija", "Endokrino zdravlje", "Nauka o peptidima"],
       "excerpt": "Metabolička i endokrina modulacija peptidima ispituje kako regulatorni peptidi utiču na ćelijsku energetsku ravnotežu, hormonsku signalizaciju, mitohondrijsku efikasnost i sistemsku homeostazu esencijalnu za dugoročnu fiziološku otpornost.",
       "paragraphs": [
@@ -1662,6 +1805,11 @@ description:
       "subtitle": "Detaljna eksploracija kako istraživački peptidi utiču na sinaptičko remodeliranje, preživljavanje neurona, performanse mitohondrija i dugoročno kognitivno zdravlje.",
       "author": "Dr. Hannah",
       "date": "prije mjesec dana",
+      images:[
+  "/images/research/Neuroplasticity/Neuroplasticity.jpg",
+    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
+],
+
       "categories": ["Neurologija", "Neuroplastičnost", "Kognitivno zdravlje"],
       "excerpt": "Istraživanje peptida fokusirano na neuroplastičnost ispituje kako molekularni signalni peptidi utiču na sinaptičko remodeliranje, preživljavanje neurona, mitohondrijsku otpornost i kognitivnu prilagodljivost—ključne procese koji su u osnovi učenja, memorije i dugoročnog zdravlja mozga.",
       "paragraphs": [
@@ -1694,6 +1842,10 @@ description:
       "subtitle": "Duboki naučni pregled kako peptidi regulišu imunološku signalizaciju, utiču na puteve upale i podržavaju sistemsku otpornost.",
       "author": "Dr. Hannah",
       "date": "prije mjesec dana",
+      images:[
+  "/images/research/Immune/Immune1.jpg"
+],
+
       "categories": ["Imunologija", "Anti-upalna istraživanja", "Nauka o peptidima"],
       "excerpt": "Istraživanje imunomodulacije peptidima istražuje kako regulatorni peptidi utiču na ravnotežu citokina, signalizaciju imunoloških ćelija, kontrolu oksidativnog stresa i zaštitu tkiva—ključne mehanizme koji su u osnovi imunološke otpornosti i zdravog starenja.",
       "paragraphs": [
@@ -1728,6 +1880,11 @@ description:
       "subtitle": "Naučni dubinski uvjet u kako regulatorni peptidi podržavaju ćelijsku otpornost, održavanje DNK, mitohondrijsku zaštitu i dugoročnu biološku stabilnost.",
       "author": "Dr. Hannah",
       "date": "prije mjesec dana",
+      images:[
+  "/images/research/Anti-Aging/Anti-Aging1.jpg",
+  "/images/research/Anti-Aging/Anti-Aging1.jpg"
+],
+
       "categories": ["Ćelijska dugovječnost", "Anti-aging istraživanja", "Nauka o peptidima"],
       "excerpt": "Istraživanje peptida za ćelijsku dugovječnost istražuje kako regulatorni peptidi podržavaju molekularni popravak, epigenetsku stabilnost, mitohondrijsku zaštitu i kontrolu upale—ključne mehanizme koji su u osnovi zdravog starenja i dugoročne biološke otpornosti.",
       "paragraphs": [
