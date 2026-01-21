@@ -6,6 +6,9 @@ import ResearchSidebar from "@/components/ResearchSidebar";
 import { User, Calendar } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import Loader from "@/components/Loader";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+
 
 
 export default function PeptideResearchArticleClient({ slug }) {
