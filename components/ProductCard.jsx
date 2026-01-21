@@ -114,6 +114,7 @@ export default function ProductCard({ product }) {
   className="object-contain scale-95"
   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
   onLoad={() => setImgLoaded(true)}
+  priority
 />
 
  {/* <Image

@@ -235,13 +235,22 @@ const [drawerOpen, setDrawerOpen] = useState(false);
 
       {/* IMAGE */}
       <div className="relative w-full h-[70vh]">
-        <Image
+        {/* <Image
           src={product.image}
           alt={product.name}
           fill
           className="object-contain"
           priority
-        />
+        /> */}
+        <Image
+  src={product.image}
+  alt={product.name}
+  fill
+  className="object-contain p-2 relative z-10"
+  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 500px"
+  priority
+/>
+
       </div>
     </div>
   </div>

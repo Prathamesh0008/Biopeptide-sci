@@ -317,7 +317,7 @@ const handleNavigate = (href) => {
     className="flex items-center h-12 w-auto cursor-pointer"
   >
     <Image
-      src="/images/Biologo1.svg"
+      src="/images/biologofinal.png"
       alt="BioPeptide Logo"
       width={260}
       height={80}
