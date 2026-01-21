@@ -107,14 +107,22 @@ export default function ProductCard({ product }) {
   </div>
 )}
 
+<Image
+  src={getSafeImage(product.image)}
+  alt={product.name || "Product image"}
+  fill
+  className="object-contain scale-95"
+  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
+  onLoad={() => setImgLoaded(true)}
+/>
 
- <Image
+ {/* <Image
   src={getSafeImage(product.image)}
   alt={product.name || "Product image"}
   fill
   className="object-contain scale-95"
   onLoad={() => setImgLoaded(true)}
-/>
+/> */}
 
 
   </Link>
