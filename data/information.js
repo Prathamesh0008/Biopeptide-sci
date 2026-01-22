@@ -7,7 +7,7 @@ export const INFO_ARTICLES = [
     date: "Oct 21, 2023",
     img: "/peptide-info/section-quality.jpg",
     preview:
-      "How is peptide purity achieved and verified? Using state-of-the-art technology...",
+      "How is peptide purity achieved and verified? Using state-of-the-art technology, we ensure that our peptides exceed the highest purity standards, surpassing 99%. This purity is critical in ensuring that research outcomes are reliable and reproducible. Our process includes advanced purification methods, thorough validation, and stringent quality control protocols, ensuring that every peptide batch is of the highest quality and suitable for your most demanding research needs.",
     content: [
       "Peptide purity is essential for research accuracy.",
       "At BioPeptide, we provide peptides that exceed 99% purity using solid-phase synthesis, HPLC purification, and MS validation.",
@@ -23,7 +23,7 @@ export const INFO_ARTICLES = [
     id: "intro",
     title: "Introduction to Peptides",
     date: "Oct 20, 2023",
-    img: "/peptide-info/section-basics.jpg",
+    img: "/peptide-info/intopeptide.jpg",
     preview: "Peptides are short amino-acid chains essential for signaling...",
     content: [
       "Peptides play essential roles in biological communication and research processes.",
@@ -53,19 +53,63 @@ export const INFO_ARTICLES = [
   },
 
   {
-    id: "storage",
-    title: "Peptide Storage",
+    id: "solubility",
+    title: "Peptide Solubility in Research Applications",
     date: "Sep 21, 2023",
     img: "/peptide-info/section-storage.jpg",
-    preview: "Proper storage ensures peptide stability for scientific research...",
+    preview: "Peptide solubility is one of the most critical variables in peptide-based research...",
     content: [
-      "Freeze-dried peptides should be stored at −20°C and protected from moisture.",
-      "Reconstituted peptides should be refrigerated between 2–8°C and avoided from repeated freeze–thaw cycles.",
-      "Lyophilized peptides are highly stable but can degrade if exposed to humidity or high temperature.",
-      "It is recommended to divide peptides into small aliquots to prevent repeated thawing during use.",
-      "Peptides reconstituted in sterile solvents should be used within 24–48 hours for optimal stability.",
-      "Proper labeling, shielding from light, and airtight storage significantly improve long-term reliability.",
-      "Researchers should always verify peptide clarity and pH after mixing to ensure no precipitation or contamination."
+       "Peptide solubility is one of the most critical variables in peptide-based research and experimental development. Whether peptides are used in biochemical assays, receptor binding studies, molecular modeling, or pharmaceutical screening, proper solubilization directly influences experimental accuracy, molecular stability, and biological activity.",
+          "At BioPeptides, we specialize in high-purity synthetic research peptides and provide advanced formulation knowledge to support laboratories, academic institutions, and biotechnology organizations worldwide. This guide presents a complete scientific overview of peptide solubility, the molecular forces that govern it, and best-practice solubilization protocols."
+        
     ]
-  }
+  },
+  {
+    id: "peptideBonds",
+    title: "Peptide Bonds: Structure, Formation, and Biological Importance",
+    date: "Sep 21, 2023",
+    img: "/peptide-info/section-basics.jpg",
+    preview: "The peptide bond is the fundamental chemical link that connects amino acids...",
+    content: [
+      "All content and product information published by BioPeptides is provided strictly for educational and in-vitro research purposes. Our products are supplied for laboratory and scientific investigation only. They are not medicines, drugs, or therapeutic agents and are not approved by the FDA to diagnose, treat, cure, or prevent any disease.",
+          "Any form of bodily administration in humans or animals is strictly prohibited."
+        ]
+  },
+
+  {
+    id: " peptidesVsProteins",
+    title: "Peptides vs Proteins: Understanding the Fundamental Difference",
+    date: "Sep 21, 2023",
+    img: "/peptide-info/protein.jpg",
+    preview: "Peptides and proteins are closely related biological molecules, yet they differ in meaningful ways...",
+    content: [
+      "Peptides and proteins are closely related biological molecules, yet they differ in meaningful ways that are critical for researchers...",
+            "Amino acids are small but essential organic molecules that form the foundation of peptides and proteins...",
+            "When amino acids link together through a reaction between the amino group of one molecule and the carboxyl group of another, a peptide bond is formed...",
+          ]
+  },
+    {
+    id: "storingPeptides",
+    title: "Best Practices for Storing Research Peptides",
+    date: "Sep 21, 2023",
+    img: "/peptide-info/storagepep.jpg",
+    preview: "Proper storage of research peptides is a foundational requirement for maintaining experimental accuracy...",
+    content: [
+                "Proper storage of research peptides is a foundational requirement for maintaining experimental accuracy, reproducibility, and long-term scientific reliability. Even peptides manufactured to the highest purity standards can rapidly degrade if exposed to unsuitable environmental conditions...",
+            "For laboratories across Europe and global research markets, following standardized peptide storage practices ensures that high-quality materials from trusted suppliers such as Biopeptides consistently perform as expected..."
+           ]
+  },
+  {
+    id: "researchPeptidesForDiscovery",
+    title: "Research Peptides for Scientific Discovery and Innovation",
+    date: "Sep 21, 2023",
+    img: "/peptide-info/research.jpg",
+    preview: "Research peptides have become one of the most powerful tools for innovation and discovery...",
+    content: [
+    "In modern biomedical and pharmaceutical science, research peptides have become one of the most powerful tools for innovation and discovery. These precisely engineered molecules are used by scientists to explore biological pathways, develop next-generation therapeutics, and expand the frontiers of molecular medicine.",
+            "At BioPeptides, we supply high-purity research peptides to laboratories, universities, and biotechnology companies across Spain, France, the Netherlands, Italy, Germany, and other European countries, supporting cutting-edge scientific advancement."
+            ]
+  },
+  
 ];
+
