@@ -744,7 +744,7 @@ export default {
       "subtitle": "O explorare științifică cuprinzătoare a modului în care peptidele de cercetare influențează regenerarea tisulară, semnalizarea celulară, stabilitatea micro-mediului și procesele coordonate de reparare biologică.",
       "author": "Dr. Hannah",
       "date": "acum 1 lună",
-      image:[
+      images:[
   "/images/research/Regenerative/Regenerative1.jpg",
   "/images/research/Regenerative/Regenerative2.jpg"
 ],
@@ -782,7 +782,7 @@ export default {
       "subtitle": "O analiză științifică cuprinzătoare a modului în care peptidele de cercetare influențează reglarea metabolică, armonia endocrină, eficiența mitocondrială și balanța fiziologică pe termen lung.",
       "author": "Dr. Hannah",
       "date": "acum 1 lună",
-      image:[
+      images:[
   "/images/research/Metabolic/Metabolic1.jpg",
     "/images/research/Metabolic/Metabolic2.jpg"
 ],

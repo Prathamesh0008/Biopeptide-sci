@@ -1703,7 +1703,7 @@ images:[
   title: "再生肽生物学：组织修复与细胞更新机制",
   subtitle:
     "研究肽在组织再生与细胞信号中的作用。",
-image:[
+images:[
   "/images/research/Regenerative/Regenerative1.jpg",
   "/images/research/Regenerative/Regenerative2.jpg"
 ],
@@ -1740,7 +1740,7 @@ image:[
   title: "代谢与内分泌肽调节：能量与激素平衡",
   subtitle:
     "肽在代谢调控中的科学研究。",
-image:[
+images:[
   "/images/research/Metabolic/Metabolic1.jpg",
     "/images/research/Metabolic/Metabolic2.jpg"
 ],

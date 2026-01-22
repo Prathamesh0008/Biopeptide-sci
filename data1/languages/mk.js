@@ -744,7 +744,7 @@ export default {
       "subtitle": "Сеопфатно научно истражување на тоа како истражувачките пептиди влијаат на регенерација на ткиво, клеточна сигнализација, стабилност на микро-средина и координирани процеси на биолошка поправка.",
       "author": "Д-р Хана",
       "date": "пред 1 месец",
-      image:[
+      images:[
   "/images/research/Regenerative/Regenerative1.jpg",
   "/images/research/Regenerative/Regenerative2.jpg"
 ],
@@ -782,7 +782,7 @@ export default {
       "subtitle": "Сеопфатна научна анализа на тоа како истражувачките пептиди влијаат на метаболичка регулација, ендокрина хармонија, митохондријална ефикасност и долгорочна физиолошка рамнотежа.",
       "author": "Д-р Хана",
       "date": "пред 1 месец",
-      image:[
+      images:[
   "/images/research/Metabolic/Metabolic1.jpg",
     "/images/research/Metabolic/Metabolic2.jpg"
 ],

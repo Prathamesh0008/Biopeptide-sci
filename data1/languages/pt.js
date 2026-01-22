@@ -1688,7 +1688,7 @@ images:[
   title: "Biologia Peptídica Regenerativa: Reparação Tecidual e Renovação Celular",
   subtitle:
     "Exploração científica da influência dos peptídeos na regeneração.",
-image:[
+images:[
   "/images/research/Regenerative/Regenerative1.jpg",
   "/images/research/Regenerative/Regenerative2.jpg"
 ],
@@ -1725,7 +1725,7 @@ image:[
   title: "Modulação Peptídica Metabólica e Endócrina: Equilíbrio Energético e Hormonal",
   subtitle:
     "Análise científica do papel dos peptídeos na regulação metabólica.",
-image:[
+images:[
   "/images/research/Metabolic/Metabolic1.jpg",
     "/images/research/Metabolic/Metabolic2.jpg"
 ],

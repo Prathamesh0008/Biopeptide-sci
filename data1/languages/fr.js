@@ -1710,7 +1710,7 @@ images:[
   title: "Biologie Peptidique Régénérative : Réparation et Renouvellement Cellulaire",
   subtitle:
     "Analyse scientifique du rôle des peptides dans la régénération tissulaire.",
-image:[
+images:[
   "/images/research/Regenerative/Regenerative1.jpg",
   "/images/research/Regenerative/Regenerative2.jpg"
 ],
@@ -1747,7 +1747,7 @@ image:[
   title: "Modulation Peptidique Métabolique et Endocrinienne",
   subtitle:
     "Analyse scientifique de l’influence des peptides sur l’équilibre métabolique.",
-image:[
+images:[
   "/images/research/Metabolic/Metabolic1.jpg",
     "/images/research/Metabolic/Metabolic2.jpg"
 ],

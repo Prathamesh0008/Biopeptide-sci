@@ -1696,7 +1696,7 @@ images:[
   title: "Regenerative Peptidbiologie: Mechanismen der Gewebereparatur und Zellerneuerung",
   subtitle:
     "Wissenschaftliche Analyse der Rolle von Peptiden bei Regeneration, Zellkommunikation und Gewebestabilität.",
-image:[
+images:[
   "/images/research/Regenerative/Regenerative1.jpg",
   "/images/research/Regenerative/Regenerative2.jpg"
 ],
@@ -1733,7 +1733,7 @@ image:[
   title: "Metabolische und endokrine Peptidmodulation: Energiegleichgewicht und hormonelle Stabilität",
   subtitle:
     "Wissenschaftliche Analyse der Rolle von Peptiden in Stoffwechsel- und Hormonsystemen.",
-image:[
+images:[
   "/images/research/Metabolic/Metabolic1.jpg",
     "/images/research/Metabolic/Metabolic2.jpg"
 ],

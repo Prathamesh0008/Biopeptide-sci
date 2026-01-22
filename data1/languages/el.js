@@ -1718,7 +1718,7 @@ description:
   "subtitle": "Μια περιεκτική επιστημονική εξερεύνηση του τρόπου με τον οποίο τα ερευνητικά πεπτίδια επηρεάζουν την αναγέννηση των ιστών, τη κυτταρική σηματοδότηση, τη σταθερότητα του μικροπεριβάλλοντος και τις συντονισμένες διεργασίες βιολογικής επιδιόρθωσης.",
   "author": "Dr. Hannah",
   "date": "πριν 1 μήνα",
-  image:[
+  images:[
   "/images/research/Regenerative/Regenerative1.jpg",
   "/images/research/Regenerative/Regenerative2.jpg"
 ],
@@ -1757,7 +1757,7 @@ description:
   "subtitle": "Μια περιεκτική επιστημονική ανάλυση του τρόπου με τον οποίο τα ερευνητικά πεπτίδια επηρεάζουν τη μεταβολική ρύθμιση, την ενδοκρινική αρμονία, την μιτοχονδριακή αποδοτικότητα και τη μακροπρόθεσμη φυσιολογική ισορροπία.",
   "author": "Dr. Hannah",
   "date": "πριν 1 μήνα",
-  image:[
+  images:[
   "/images/research/Metabolic/Metabolic1.jpg",
     "/images/research/Metabolic/Metabolic2.jpg"
 ],

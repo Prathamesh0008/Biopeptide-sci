@@ -744,7 +744,7 @@ export default {
       "subtitle": "Sveobuhvatno znanstveno istraživanje kako istraživački peptidi utječu na regeneraciju tkiva, staničnu signalizaciju, stabilnost mikrookruženja i koordinirane procese biološkog popravka.",
       "author": "Dr. Hannah",
       "date": "Prije mjesec dana",
-      image:[
+      images:[
   "/images/research/Regenerative/Regenerative1.jpg",
   "/images/research/Regenerative/Regenerative2.jpg"
 ],
@@ -782,7 +782,7 @@ export default {
       "subtitle": "Sveobuhvatna znanstvena analiza kako istraživački peptidi utječu na metaboličku regulaciju, endokrinu harmoniju, mitohondrijsku učinkovitost i dugoročnu fiziološku ravnotežu.",
       "author": "Dr. Hannah",
       "date": "Prije mjesec dana",
-      image:[
+      images:[
   "/images/research/Metabolic/Metabolic1.jpg",
     "/images/research/Metabolic/Metabolic2.jpg"
 ],

@@ -742,7 +742,7 @@ export default {
       "subtitle": "Цялостно научно изследване на това как изследователските пептиди влияят на тъканната регенерация, клетъчната сигнализация, стабилността на микро-средата и координираните процеси на биологична репарация.",
       "author": "Д-р Хана",
       "date": "преди 1 месец",
-      image:[
+      images:[
   "/images/research/Regenerative/Regenerative1.jpg",
   "/images/research/Regenerative/Regenerative2.jpg"
 ],
@@ -780,7 +780,7 @@ export default {
       "subtitle": "Цялостен научен анализ на това как изследователските пептиди влияят на метаболитната регулация, ендокринната хармония, митохондриалната ефективност и дългосрочния физиологичен баланс.",
       "author": "Д-р Хана",
       "date": "преди 1 месец",
-      image:[
+      images:[
   "/images/research/Metabolic/Metabolic1.jpg",
     "/images/research/Metabolic/Metabolic2.jpg"
 ],

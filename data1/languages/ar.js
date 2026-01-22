@@ -1839,7 +1839,7 @@ images:[
   subtitle:
     "تحليل علمي لدور الببتيدات في التجدد الخلوي.",
 
-image:[
+images:[
   "/images/research/Regenerative/Regenerative1.jpg",
   "/images/research/Regenerative/Regenerative2.jpg"
 ],
@@ -1876,7 +1876,7 @@ image:[
   title: "تنظيم الببتيدات الأيضية والغدية: توازن الطاقة والاستقرار الهرموني",
   subtitle:
     "تحليل علمي لدور الببتيدات في تنظيم الأيض.",
-image:[
+images:[
   "/images/research/Metabolic/Metabolic1.jpg",
     "/images/research/Metabolic/Metabolic2.jpg"
 ],

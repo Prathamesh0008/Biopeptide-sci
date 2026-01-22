@@ -14,7 +14,6 @@ const countryImages = [
   "/bg/Francebg.png",
   "/bg/Netherlandsbg.png",
   "/bg/Italybg.png",
-
   "/bg/Spainbg.png",
 ];
 

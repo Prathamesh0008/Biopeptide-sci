@@ -1746,7 +1746,7 @@ images:[
   title: "Regeneratieve peptidebiologie: Mechanismen van weefselherstel, cellulaire vernieuwing en structureel herstel",
   subtitle:
     "Een uitgebreide wetenschappelijke verkenning van hoe onderzoekspeptiden weefselregeneratie, cellulaire signalering, stabiliteit van de micro-omgeving en de gecoördineerde processen van biologisch herstel beïnvloeden.",
-image:[
+images:[
   "/images/research/Regenerative/Regenerative1.jpg",
   "/images/research/Regenerative/Regenerative2.jpg"
 ],
@@ -1795,7 +1795,7 @@ image:[
   title: "Metabole en endocriene peptide-modulatie: cellulaire energiebalans, hormonale stabiliteit en systeem-brede homeostase",
   subtitle:
     "Een uitgebreide wetenschappelijke analyse van hoe onderzoekspeptiden de metabole regulatie, endocriene harmonie, mitochondriale efficiëntie en langdurige fysiologische balans beïnvloeden.",
-image:[
+images:[
   "/images/research/Metabolic/Metabolic1.jpg",
     "/images/research/Metabolic/Metabolic2.jpg"
 ],

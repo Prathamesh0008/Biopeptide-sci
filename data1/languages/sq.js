@@ -743,7 +743,7 @@ export default {
       "subtitle": "Një eksplorim shkencor gjithëpërfshirës se si peptidet kërkimore ndikojnë në rigjenerimin e indeve, sinjalizimin qelizor, stabilitetin e mikro-mjedisit dhe proceset e koordinuara të riparimit biologjik.",
       "author": "Dr. Hannah",
       "date": "1 muaj më parë",
-      image:[
+      images:[
   "/images/research/Regenerative/Regenerative1.jpg",
   "/images/research/Regenerative/Regenerative2.jpg"
 ],
@@ -781,7 +781,7 @@ export default {
       "subtitle": "Një analizë shkencore gjithëpërfshirëse se si peptidet kërkimore ndikojnë në rregullimin metabolik, harmoninë endokrine, efikasitetin mitokondrial dhe ekuilibrin afatgjatë fiziologjik.",
       "author": "Dr. Hannah",
       "date": "1 muaj më parë",
-      image:[
+      images:[
   "/images/research/Metabolic/Metabolic1.jpg",
     "/images/research/Metabolic/Metabolic2.jpg"
 ],

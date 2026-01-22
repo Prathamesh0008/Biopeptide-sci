@@ -1690,7 +1690,7 @@ images:[
   title: "再生ペプチド生物学：組織修復と細胞再生の仕組み",
   subtitle:
     "ペプチドが組織再生に与える影響の科学的解析。",
-image:[
+images:[
   "/images/research/Regenerative/Regenerative1.jpg",
   "/images/research/Regenerative/Regenerative2.jpg"
 ],
@@ -1727,7 +1727,7 @@ image:[
   title: "代謝・内分泌ペプチド調節：エネルギーとホルモンの安定",
   subtitle:
     "代謝調節におけるペプチドの科学的解析。",
-image:[
+images:[
   "/images/research/Metabolic/Metabolic1.jpg",
     "/images/research/Metabolic/Metabolic2.jpg"
 ],
