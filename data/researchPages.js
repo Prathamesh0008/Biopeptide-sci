@@ -68,9 +68,9 @@ export const RESEARCH_PAGES = [
   excerpt:
     "Pinealon is a natural bioregulatory peptide complex designed to support the brain and central nervous system by optimizing neuronal metabolism, gene expression, antioxidant defense, and mitochondrial balance—key processes associated with cognitive resilience and longevity.",
 images: [
-      "/research/pinealon-brain-1.jpg",
-      "/research/pinealon-brain-2.jpg"
-    ],
+  "/images/research/Pinealon/pinealon-brain-1.jpg",
+  "/images/research/Pinealon/pinealon-brain-2.jpg"
+],
   subtitle:
     "A comprehensive scientific exploration of Pinealon’s role in brain metabolism, mitochondrial balance, antioxidant defense, and long-term neural resilience.",
 
@@ -131,7 +131,10 @@ images: [
 
   excerpt:
     "Testagen is a tissue-specific bioregulatory peptide derived from testicular tissue, studied for its ability to support endocrine balance, reproductive cellular integrity, and age-related preservation of testicular function through gene and epigenetic regulation.",
-
+images: [
+  "/images/research/Testagen/Testagen1.jpg",
+  "/images/research/Testagen/Testagen2.jpg"
+],
   subtitle:
     "An in-depth scientific exploration of Testagen’s role in testicular tissue regulation, molecular signaling, and the preservation of endocrine integrity across aging.",
 
@@ -179,7 +182,10 @@ images: [
 
   excerpt:
     "Bronchogen is a respiratory-specific bioregulatory peptide studied for its role in maintaining bronchial epithelial integrity, reducing oxidative stress, and supporting airway cellular resilience.",
-
+images:[
+"/images/research/Bronchogen/Bronchogen1.jpg",
+"/images/research/Bronchogen/Bronchogen2.jpg"
+],
   paragraphs: [
     `Bronchogen is a bioregulatory peptide originally identified in bronchial and lung tissue extracts, studied for its ability to support respiratory cellular health and maintain airway epithelial integrity. As an organ-specific regulatory peptide, Bronchogen may influence gene expression, cellular stress responses, and tissue resilience within the pulmonary system.`,
 
@@ -234,7 +240,10 @@ images: [
 
   excerpt:
     "Cardiogen is a heart-specific bioregulatory peptide derived from cardiac tissue, studied for its ability to support mitochondrial energy production, cellular repair mechanisms, and structural stability in aging myocardial cells.",
-
+images:[
+  "/images/research/Cardiogen/Cardiogen1.jpg",
+  "/images/research/Cardiogen/Cardiogen2.jpg"
+],
   subtitle:
     "A scientific exploration of Cardiogen’s potential role in maintaining myocardial resilience, optimizing cellular energy dynamics, and supporting structural stability in aging heart tissue.",
 
@@ -286,7 +295,10 @@ images: [
 
   excerpt:
     "Regenerative peptide biology is a rapidly advancing field examining how short-chain signaling peptides regulate tissue repair, cellular renewal, mitochondrial resilience, inflammation control, and structural recovery across aging and stressed biological systems.",
-
+    images:[
+  "/images/research/Regenerative/Regenerative1.jpg",
+  "/images/research/Regenerative/Regenerative2.jpg"
+],
   subtitle:
     "A comprehensive scientific exploration of how research peptides influence tissue regeneration, cellular signaling, microenvironment stability, and the coordinated processes of biological repair.",
 
@@ -341,7 +353,10 @@ images: [
 
   excerpt:
     "Metabolic and endocrine peptide modulation examines how regulatory peptides influence cellular energy balance, hormonal signaling, mitochondrial efficiency, and systemic homeostasis—key determinants of long-term physiological stability and metabolic resilience.",
-
+images:[
+  "/images/research/Metabolic/Metabolic1.jpg",
+    "/images/research/Metabolic/Metabolic2.jpg"
+],
   subtitle:
     "A comprehensive scientific analysis of how research peptides influence metabolic regulation, endocrine harmony, mitochondrial efficiency, and long-term physiological balance.",
 
@@ -399,7 +414,10 @@ images: [
 
   subtitle:
     "A detailed exploration of how research peptides influence synaptic remodeling, neuronal survival, mitochondrial performance, and long-term cognitive health.",
-
+images:[
+  "/images/research/Neuroplasticity/Neuroplasticity.jpg",
+    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
+],
   sections: [
     {
       heading: "Introduction",
@@ -449,7 +467,10 @@ images: [
 
   excerpt:
     "Immune modulation and anti-inflammatory peptide science explores how regulatory peptides influence cytokine balance, immune cell signaling, oxidative stress control, and tissue protection—key mechanisms underlying immune resilience and healthy aging.",
-
+images:[
+  "/images/research/Anti-Aging/Anti-Aging1.jpg",
+  "/images/research/Anti-Aging/Anti-Aging1.jpg"
+],
   subtitle:
     "An in-depth scientific review of how peptides regulate immune signaling, influence inflammation pathways, and support systemic resilience.",
 

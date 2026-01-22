@@ -416,7 +416,6 @@ peptideInfo: {
           ]
         }
       },
-
        intro: {
         img: "/peptide-info/intopeptide.jpg",
         title: "Introduction to Peptides",
@@ -531,7 +530,6 @@ peptideInfo: {
           ]
         }
       },
-
     synthesis: {
         img: "/peptide-info/section-testing.jpg",
         title: "Peptide Synthesis",
@@ -656,7 +654,6 @@ peptideInfo: {
           ]
         }
       },
-
     solubility: { 
         img: "/peptide-info/section-storage.jpg", 
         title: "Peptide Solubility in Research Applications",
@@ -1098,7 +1095,6 @@ peptideInfo: {
     ]
   }
 },
-
        researchPeptidesForDiscovery: {
        title: "Research Peptides for Scientific Discovery and Innovation",
   img: "/peptide-info/research.jpg",
@@ -1571,15 +1567,12 @@ images: [
   "/images/research/vilon/vilon-1.jpg",
   "/images/research/vilon/vilon-2.jpg"
 ],
-
-
-
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Bioregulators", "Immune Health"],
 
   excerpt:
-    "Vilon is one of the most extensively studied bioregulator peptides in modern cellular biochemistry and longevity science.",
+    "Vilon is one of the most extensively studied bioregulator peptides in modern cellular biochemistry and longevity science. As a natural dipeptide derived from thymic extracts (Lys-Glu), Vilon represents the earliest generation of tissue-specific molecular regulators—short amino acid structures capable of restoring balanced gene expression, stabilizing cellular function, and supporting regenerative processes throughout the body. While the thymus is the source of Vilon’s biological identity, its impact is systemic, affecting immune integrity, inflammatory control, and epithelial repair across various organ systems.",
 
   paragraphs: [
     "Vilon is one of the most extensively studied bioregulator peptides in modern cellular biochemistry and longevity science. As a natural dipeptide derived from thymic extracts (Lys-Glu), Vilon represents the earliest generation of tissue-specific molecular regulators—short amino acid structures capable of restoring balanced gene expression, stabilizing cellular function, and supporting regenerative processes throughout the body. While the thymus is the source of Vilon’s biological identity, its impact is systemic, affecting immune integrity, inflammatory control, and epithelial repair across various organ systems.",
@@ -1617,8 +1610,7 @@ images: [
     "Improves cellular resilience and physiological equilibrium",
     "Represents a key research tool in immunosenescence and tissue regeneration"
   ]
-}
-,
+},
 
  pinealon: {
   slug: "pinealon",
@@ -1627,16 +1619,16 @@ images: [
 
   subtitle:
     "A comprehensive scientific exploration of Pinealon’s role in brain metabolism, mitochondrial balance, antioxidant defense, and long-term neural resilience.",
-
-  author: "Dr. Hannah",
-  date: "1 month ago",
-  categories: ["Bioregulators", "Neuroprotection", "Cognitive Longevity"],
 images: [
   "/images/research/Pinealon/pinealon-brain-1.jpg",
   "/images/research/Pinealon/pinealon-brain-2.jpg"
 ],
+  author: "Dr. Hannah",
+  date: "1 month ago",
+  categories: ["Bioregulators", "Neuroprotection", "Cognitive Longevity"],
+
   excerpt:
-    "Pinealon is a neuroprotective bioregulator peptide studied for its role in optimizing neuronal metabolism, mitochondrial stability, antioxidant defense, and epigenetic regulation associated with cognitive resilience and longevity.",
+    "Pinealon is one of the most intriguing bioregulatory peptides in neuroscience and cellular longevity research. Originally identified in extracts of brain and pineal gland tissue, Pinealon is a unique tripeptide sequence (Glu–Asp–Arg) that acts as a regulatory messenger for neuronal gene expression, oxidative stability, and cellular energy metabolism. Although small in size, Pinealon demonstrates remarkable activity within the central nervous system (CNS), making it a powerful research molecule for examining neuroprotection, cognitive performance, and age-associated neuronal decline.",
 
   paragraphs: [
     "Pinealon is one of the most intriguing bioregulatory peptides in neuroscience and cellular longevity research. Originally identified in extracts of brain and pineal gland tissue, Pinealon is a unique tripeptide sequence (Glu–Asp–Arg) that acts as a regulatory messenger for neuronal gene expression, oxidative stability, and cellular energy metabolism. Although small in size, Pinealon demonstrates remarkable activity within the central nervous system (CNS), making it a powerful research molecule for examining neuroprotection, cognitive performance, and age-associated neuronal decline.",
@@ -1682,16 +1674,16 @@ images: [
 
   subtitle:
     "An in-depth scientific exploration of Testagen’s role in testicular tissue regulation, molecular signaling, and the preservation of endocrine integrity across aging.",
-
-  author: "Dr. Hannah",
-  date: "1 month ago",
-  categories: ["Bioregulators", "Endocrine Health", "Reproductive Biology"],
 images: [
   "/images/research/Testagen/Testagen1.jpg",
   "/images/research/Testagen/Testagen2.jpg"
 ],
+  author: "Dr. Hannah",
+  date: "1 month ago",
+  categories: ["Bioregulators", "Endocrine Health", "Reproductive Biology"],
+
   excerpt:
-    "Testagen is a tissue-specific bioregulatory peptide studied for its role in preserving endocrine balance, reproductive cellular integrity, and age-related stability of testicular function through genetic and epigenetic regulation.",
+    "Testagen is one of the most studied peptides within the class of tissue-specific bioregulators—short amino acid structures originally isolated from testicular tissue and associated with the maintenance of endocrine balance and reproductive cellular health. As a pentapeptide with a highly conserved sequence, Testagen represents a regulatory molecule that influences gene expression and intracellular signaling within testicular cells, including germ cells, Leydig cells, and supporting Sertoli cells. Its primary scientific interest lies in its potential to preserve testicular microarchitecture, optimize steroidogenic pathways, and stabilize genetic programs associated with reproductive longevity.",
 
   paragraphs: [
     "Testagen is one of the most studied peptides within the class of tissue-specific bioregulators—short amino acid structures originally isolated from testicular tissue and associated with the maintenance of endocrine balance and reproductive cellular health. As a pentapeptide with a highly conserved sequence, Testagen represents a regulatory molecule that influences gene expression and intracellular signaling within testicular cells, including germ cells, Leydig cells, and supporting Sertoli cells. Its primary scientific interest lies in its potential to preserve testicular microarchitecture, optimize steroidogenic pathways, and stabilize genetic programs associated with reproductive longevity.",
@@ -1737,16 +1729,16 @@ bronchogen: {
 
   subtitle:
     "A detailed scientific analysis of Bronchogen’s potential role in supporting bronchial epithelial repair, reducing oxidative burden, and stabilizing the respiratory microenvironment.",
-
-  author: "Dr. Hannah",
-  date: "1 month ago",
-  categories: ["Bioregulators", "Respiratory Health", "Cellular Repair"],
 images:[
 "/images/research/Bronchogen/Bronchogen1.jpg",
 "/images/research/Bronchogen/Bronchogen2.jpg"
 ],
+  author: "Dr. Hannah",
+  date: "1 month ago",
+  categories: ["Bioregulators", "Respiratory Health", "Cellular Repair"],
+
   excerpt:
-    "Bronchogen is a respiratory-specific bioregulatory peptide studied for its role in maintaining bronchial epithelial integrity, reducing oxidative stress, and supporting airway cellular resilience.",
+    "Bronchogen is a bioregulatory peptide originally identified in bronchial and lung tissue extracts, studied for its ability to support respiratory cellular health and maintain airway epithelial integrity. As an organ-specific regulatory peptide, Bronchogen may influence gene expression, cellular stress responses, and tissue resilience within the pulmonary system.The respiratory system is continuously exposed to environmental stressors such as pollutants, pathogens, and oxidative agents. Bronchogen appears to support epithelial barrier stability, reduce excessive inflammation, and promote coordinated cellular renewal under chronic stress conditions.",
 
   paragraphs: [
     "Bronchogen is a bioregulatory peptide originally identified in bronchial and lung tissue extracts, studied for its ability to support respiratory cellular health and maintain airway epithelial integrity. As an organ-specific regulatory peptide, Bronchogen may influence gene expression, cellular stress responses, and tissue resilience within the pulmonary system.",
@@ -1791,16 +1783,16 @@ cardiogen: {
 
   subtitle:
     "A scientific exploration of Cardiogen’s potential role in maintaining myocardial resilience, optimizing cellular energy dynamics, and supporting structural stability in aging heart tissue.",
-
+images:[
+  "/images/research/Cardiogen/Cardiogen1.jpg",
+  "/images/research/Cardiogen/Cardiogen2.jpg"
+],
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Bioregulators", "Cardiovascular Health", "Cellular Longevity"],
-images:[
-  "images/research/Cardiogen/Cardiogen1.jpg",
-  "images/research/Cardiogen/Cardiogen2.jpg"
-],
+
   excerpt:
-    "Cardiogen is a heart-specific bioregulatory peptide studied for its role in supporting mitochondrial energy production, cellular repair mechanisms, and structural stability within aging cardiac tissue.",
+    "Cardiogen is a heart-specific bioregulatory peptide originally isolated from cardiac muscle extracts and synthesized for research into cellular equilibrium under stress. It supports genetic stability, cellular repair mechanisms, and metabolic efficiency in cardiomyocytes.The heart is one of the most metabolically demanding organs, contracting over 100,000 times daily. Cardiogen appears to support mitochondrial dynamics, energy metabolism, inflammation balance, and microcirculatory stability.",
 
   paragraphs: [
     "Cardiogen is a heart-specific bioregulatory peptide originally isolated from cardiac muscle extracts and synthesized for research into cellular equilibrium under stress. It supports genetic stability, cellular repair mechanisms, and metabolic efficiency in cardiomyocytes.",
@@ -1844,17 +1836,17 @@ images:[
 
   subtitle:
     "A comprehensive scientific exploration of how research peptides influence tissue regeneration, cellular signaling, microenvironment stability, and the coordinated processes of biological repair.",
-
-  author: "Dr. Hannah",
-  date: "1 month ago",
-  image:[
+  images:[
   "/images/research/Regenerative/Regenerative1.jpg",
   "/images/research/Regenerative/Regenerative2.jpg"
 ],
+  author: "Dr. Hannah",
+  date: "1 month ago",
+
   categories: ["Regenerative Biology", "Cellular Repair", "Peptide Science"],
 
   excerpt:
-    "Regenerative peptide biology examines how short-chain signaling peptides regulate tissue repair, cellular renewal, mitochondrial resilience, inflammation control, and structural recovery across aging and stressed biological systems.",
+    "Regenerative peptide biology is one of the most advanced fields in modern cellular science. Peptides act as natural signaling molecules that coordinate tissue repair, adaptation, and functional integrity by fine-tuning cellular communication rather than forcing biochemical change.Across organ systems, peptides transmit regulatory signals that guide proliferation, inflammation control, antioxidant defense, and metabolic efficiency, making them essential tools in regenerative and longevity research.",
 
   paragraphs: [
     "Regenerative peptide biology is one of the most advanced fields in modern cellular science. Peptides act as natural signaling molecules that coordinate tissue repair, adaptation, and functional integrity by fine-tuning cellular communication rather than forcing biochemical change.",
@@ -1904,17 +1896,17 @@ images:[
 
   subtitle:
     "A comprehensive scientific analysis of how research peptides influence metabolic regulation, endocrine harmony, mitochondrial efficiency, and long-term physiological balance.",
-
+images:[
+  "/images/research/Metabolic/Metabolic1.jpg",
+    "/images/research/Metabolic/Metabolic2.jpg"
+],
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Metabolic Regulation", "Endocrine Health", "Peptide Science"],
 
   excerpt:
-    "Metabolic and endocrine peptide modulation examines how regulatory peptides influence cellular energy balance, hormonal signaling, mitochondrial efficiency, and system-wide homeostasis essential for long-term physiological resilience.",
-image:[
-  "/images/research/Metabolic/Metabolic1.jpg",
-    "/images/research/Metabolic/Metabolic2.jpg"
-],
+    "Metabolic and endocrine peptide modulation is a rapidly growing field in cellular biology, offering insight into how the body maintains energy balance, hormonal harmony, and physiological adaptability. Peptides act as natural chemical messengers that fine-tune metabolic pathways rather than forcing abrupt biochemical shifts.Metabolism governs how cells generate energy, respond to nutrients, repair themselves, and adapt to physiological demands. The endocrine system regulates hormone production and inter-organ communication, with peptides acting at the intersection of both systems.",
+
   paragraphs: [
     "Metabolic and endocrine peptide modulation is a rapidly growing field in cellular biology, offering insight into how the body maintains energy balance, hormonal harmony, and physiological adaptability. Peptides act as natural chemical messengers that fine-tune metabolic pathways rather than forcing abrupt biochemical shifts.",
 
@@ -1959,7 +1951,10 @@ image:[
    slug:"peptides-in-neuroplasticity-and-brain-optimization",
  title:
     "Peptides in Neuroplasticity and Brain Optimization: Molecular Pathways, Cognitive Resilience, and Neural Regeneration",
-
+images:[
+  "/images/research/Neuroplasticity/Neuroplasticity.jpg",
+    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
+],
   subtitle:
     "A detailed exploration of how research peptides influence synaptic remodeling, neuronal survival, mitochondrial performance, and long-term cognitive health.",
 
@@ -1967,12 +1962,9 @@ image:[
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Neuroscience", "Neuroplasticity", "Cognitive Health"],
-images:[
-  "/images/research/Neuroplasticity/Neuroplasticity.jpg",
-    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
-],
+
   excerpt:
-    "Neuroplasticity-focused peptide research examines how molecular signaling peptides influence synaptic remodeling, neuronal survival, mitochondrial resilience, and cognitive adaptability—key processes underlying learning, memory, and long-term brain health.",
+    "Neuroplasticity—the brain’s ability to reorganize, adapt, and strengthen neural networks—is a core foundation of human cognition. It governs learning, memory consolidation, emotional regulation, and recovery from stress or injury. Research peptides operate at the molecular level where neural adaptation occurs, influencing intracellular signaling, synaptic remodeling, gene expression, and mitochondrial health.Neurons are among the most energy-demanding cells in the body. Peptides that regulate neuronal metabolism and mitochondrial stability help preserve energy output, reduce oxidative stress, and protect against age-related cognitive decline.",
 
   paragraphs: [
     "Neuroplasticity—the brain’s ability to reorganize, adapt, and strengthen neural networks—is a core foundation of human cognition. It governs learning, memory consolidation, emotional regulation, and recovery from stress or injury. Research peptides operate at the molecular level where neural adaptation occurs, influencing intracellular signaling, synaptic remodeling, gene expression, and mitochondrial health.",
@@ -2011,7 +2003,9 @@ images:[
 },
 "immune-modulation-anti-inflammatory-peptides": {
   slug: "immune-modulation-anti-inflammatory-peptides",
-
+images:[
+  "/images/research/Immune/Immune1.jpg"
+],
   title:
     "Immune Modulation and Anti-Inflammatory Peptide Science: Cellular Defense, Cytokine Balance, and Tissue Protection",
 
@@ -2021,11 +2015,9 @@ images:[
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Immunology", "Anti-Inflammatory Research", "Peptide Science"],
-images:[
-  "/images/research/Immune/Immune1.jpg"
-],
+
   excerpt:
-    "Immune modulation peptide research explores how regulatory peptides influence cytokine balance, immune cell signaling, oxidative stress control, and tissue protection—key mechanisms underlying immune resilience and healthy aging.",
+    "The immune system is one of the most complex regulatory networks in the human body. Peptides act as natural biological messengers that coordinate immune communication, inflammation control, and tissue recovery.Immune modulation refers to fine-tuning immune activity without overstimulation or suppression. Regulatory peptides help restore immune equilibrium rather than forcing extreme responses.",
 
   paragraphs: [
     "The immune system is one of the most complex regulatory networks in the human body. Peptides act as natural biological messengers that coordinate immune communication, inflammation control, and tissue recovery.",
@@ -2075,17 +2067,17 @@ images:[
 
   subtitle:
     "A scientific deep-dive into how regulatory peptides support cellular resilience, DNA maintenance, mitochondrial protection, and long-term biological stability.",
-
+images:[
+  "/images/research/Anti-Aging/Anti-Aging1.jpg",
+  "/images/research/Anti-Aging/Anti-Aging1.jpg"
+],
   author: "Dr. Hannah",
   date: "1 month ago",
   categories: ["Cellular Longevity", "Anti-Aging Research", "Peptide Science"],
 
   excerpt:
-    "Cellular longevity peptide research explores how regulatory peptides support molecular repair, epigenetic stability, mitochondrial protection, and inflammation control—key mechanisms underlying healthy aging and long-term biological resilience.",
-images:[
-  "/images/research/Anti-Aging/Anti-Aging1.jpg",
-  "/images/research/Anti-Aging/Anti-Aging1.jpg"
-],
+    "Cellular longevity refers to both the lifespan and functional quality of cells over time. Aging begins at the cellular level, where DNA damage accumulates, mitochondrial efficiency declines, inflammation becomes chronic, and tissue repair capacity weakens. Research peptides act as regulatory signaling molecules that help scientists understand how cells maintain balance, repair damage, and preserve vitality.Aging is driven by oxidative stress, metabolic exhaustion, chronic inflammation, epigenetic drift, telomere shortening, and mitochondrial dysfunction. Peptides do not act as stimulants but instead support efficient cellular communication, allowing cells to maintain homeostasis under stress.",
+
   paragraphs: [
     "Cellular longevity refers to both the lifespan and functional quality of cells over time. Aging begins at the cellular level, where DNA damage accumulates, mitochondrial efficiency declines, inflammation becomes chronic, and tissue repair capacity weakens. Research peptides act as regulatory signaling molecules that help scientists understand how cells maintain balance, repair damage, and preserve vitality.",
 

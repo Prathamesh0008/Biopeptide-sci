@@ -10,12 +10,12 @@ import DrawerProducts from "@/components/DrawerProducts";
 import { useState } from "react";
 
 const countryImages = [
-  "/bg/germany Bg.png",
-  "/bg/France Bg.png",
-  "/bg/Netherlands Bg.png",
-  "/bg/Italy Bg.png",
+  "/bg/germanybg.png",
+  "/bg/Francebg.png",
+  "/bg/Netherlandsbg.png",
+  "/bg/Italybg.png",
 
-  "/bg/Spain Bg.png",
+  "/bg/Spainbg.png",
 ];
 
 export default function AboutPage() {
