@@ -3229,7 +3229,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/bundle/GHRP-2-Ipamorelin-5mg.png",
+  image: "/product/bundle/gHRP-2-Ipamorelin-5mg.png",
   seo: {
   title:
     "GHRP-2 + Ipamorelin 5mg ×10 Research Supply Bundle |",
@@ -3489,7 +3489,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/bundle/GHRP-6-Ipamorelin-5mg.png",
+  image: "/product/bundle/gHRP-6-Ipamorelin-5mg.png",
   seo: {
   title:
     "GHRP-6 & Ipamorelin Research Peptide Bundle 5mg ×10 |",
