@@ -1,4 +1,4 @@
-//peptides\data2\languages\en.js
+//peptides\data3\languages\en.js
 export default {
   dir: "ltr",
 

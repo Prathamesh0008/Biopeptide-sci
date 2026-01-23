@@ -6,21 +6,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // components/ProductContent.jsx
 "use client";
 
@@ -230,11 +215,6 @@ const [openFaq, setOpenFaq] = useState(null);
     })}
   </div>
 </Section>
-
-
-
-
-
         {/* DISCLAIMER */}
         <p className="text-[14px] text-red-700 leading-relaxed">
           <b>{tc.disclaimerLabel}:</b> {tc.disclaimer}

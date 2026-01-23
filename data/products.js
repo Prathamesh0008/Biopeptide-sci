@@ -1,6 +1,4 @@
 // peptides\data\products.js
-
-
   export const PRODUCTS = [
 {
   id: "bpc-157-5mg",

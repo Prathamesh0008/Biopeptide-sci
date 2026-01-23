@@ -3,7 +3,7 @@ export default {
   dir: "ltr",
 
   products: {
-    "bpc-157-5mg": {
+      "bpc-157-5mg": {
       name: "BPC-157 Peptide 5mg",
       tagline: "Research Overview and Technical Profile",
       cas: "137525-51-0",
