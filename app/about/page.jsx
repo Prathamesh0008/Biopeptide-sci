@@ -150,11 +150,9 @@ if (loading) {
   className="object-contain"
   priority={i === 0}
 />
-
 )}
 
 </div>
-
     </div>
   ))}
           </div>
