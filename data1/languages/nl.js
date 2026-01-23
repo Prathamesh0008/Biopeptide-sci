@@ -1653,59 +1653,69 @@ testagen: {
   ]
 },
 
-"bronchogen": {
-  slsug:"bronchogen",
-  title: "Bronchogen: Een respiratoir bioregulerend peptide voor longweefselstabiliteit en cellulaire integriteit van de luchtwegen",
+bronchogen: {
+  slug: "bronchogen",
+
+  title:
+    "Bronchogen: Een respiratoire bioregulatorpeptide voor longweefselstabiliteit en cellulaire integriteit van de luchtwegen",
+
   subtitle:
-    "Een gedetailleerde wetenschappelijke analyse van de potentiële rol van Bronchogen bij het ondersteunen van bronchiale epitheelherstel, het verminderen van oxidatieve belasting en het stabiliseren van de respiratoire micro-omgeving.",
-images:[
-"/images/research/Bronchogen/Bronchogen1.jpg",
-"/images/research/Bronchogen/Bronchogen2.jpg"
-],
+    "Een gedetailleerde wetenschappelijke analyse van de potentiële rol van Bronchogen bij het ondersteunen van herstel van het bronchiale epitheel, het verminderen van oxidatieve belasting en het stabiliseren van het respiratoire micro-omgeving.",
+  images: [
+    "/images/research/Bronchogen/Bronchogen1.jpg",
+    "/images/research/Bronchogen/Bronchogen2.jpg"
+  ],
+  author: "Dr. Hannah",
+  date: "1 month ago",
+  categories: ["Bioregulatoren", "Ademhalingsgezondheid", "Cellulair Herstel"],
+
+  excerpt:
+    "Bronchogen is een bioregulerend peptide dat oorspronkelijk werd geïdentificeerd in extracten van bronchiaal en longweefsel en wordt bestudeerd vanwege zijn vermogen om de cellulaire gezondheid van de luchtwegen te ondersteunen en de integriteit van het epitheel te behouden. Als orgaanspecifiek regulerend peptide kan Bronchogen invloed uitoefenen op genexpressie, cellulaire stressresponsen en weefselweerbaarheid binnen het pulmonale systeem. Het ademhalingssysteem wordt voortdurend blootgesteld aan omgevingsstressoren zoals verontreinigende stoffen, pathogenen en oxidatieve agentia. Bronchogen lijkt de stabiliteit van de epitheliale barrière te ondersteunen, overmatige ontsteking te verminderen en gecoördineerde cellulaire vernieuwing te bevorderen onder chronische stressomstandigheden.",
 
   paragraphs: [
-    "Bronchogen is een bioregulerend peptide dat oorspronkelijk werd geïdentificeerd in extracten van bronchiaal en longweefsel, en wordt bestudeerd vanwege zijn vermogen om de respiratoire cellulaire gezondheid te ondersteunen en de integriteit van het luchtwegepitheel te behouden. Als een orgaanspecifiek regulerend peptide kan Bronchogen genexpressie, cellulaire stressreacties en weefselresistentie binnen het pulmonale systeem beïnvloeden.",
+    "Bronchogen is een bioregulerend peptide dat oorspronkelijk werd geïdentificeerd in extracten van bronchiaal en longweefsel en wordt bestudeerd vanwege zijn vermogen om de cellulaire gezondheid van de luchtwegen te ondersteunen en de integriteit van het bronchiale epitheel te behouden. Als orgaanspecifiek regulerend peptide kan Bronchogen invloed uitoefenen op genexpressie, cellulaire stressresponsen en weefselweerbaarheid binnen het pulmonale systeem.",
 
     "Het ademhalingssysteem wordt voortdurend blootgesteld aan omgevingsstressoren zoals verontreinigende stoffen, pathogenen en oxidatieve agentia. Bronchogen lijkt de stabiliteit van de epitheliale barrière te ondersteunen, overmatige ontsteking te verminderen en gecoördineerde cellulaire vernieuwing te bevorderen onder chronische stressomstandigheden.",
 
-    "Bronchogen vertoont bijzondere relevantie bij epitheelherstel. Door genen te beïnvloeden die betrokken zijn bij cellulaire adhesie, integriteit van tight junctions en weefselremodellering, kan het helpen een sterke en functionele bronchiale barrière te behouden.",
+    "Bronchogen toont bijzondere relevantie bij epitheelherstel. Door genen te beïnvloeden die geassocieerd zijn met cellulaire adhesie, integriteit van tight junctions en weefselremodellering, kan het helpen een sterke en functionele bronchiale barrière te behouden.",
 
-    "Ontstekingsmodulatie is een ander belangrijk aandachtsgebied. Bronchogen kan overmatige pro-inflammatoire signalering verminderen terwijl beschermende immuunroutes in luchtwegweefsels behouden blijven.",
+    "Modulatie van ontsteking is een ander belangrijk onderzoeksgebied. Bronchogen kan overmatige pro-inflammatoire signalering verminderen terwijl beschermende immuunroutes in het luchtwegweefsel behouden blijven.",
 
     "Oxidatieve stress is een belangrijke bijdrage aan pulmonale veroudering. Experimentele gegevens suggereren dat Bronchogen de activiteit van antioxidatieve enzymen verhoogt en lipide- en DNA-oxidatie in longcellen vermindert.",
 
-    "Bronchogen kan ook de mucociliaire functie ondersteunen door de coördinatie van trilharen te bevorderen en de hydratatiebalans van het epitheel te behouden, wat de mechanismen voor luchtwegzuivering verbetert.",
+    "Bronchogen kan ook de mucociliaire functie ondersteunen door ciliaire coördinatie te bevorderen en de hydratatiebalans van het epitheel te behouden, wat de luchtwegklaring verbetert.",
 
-    "Microcirculatoire stabiliteit in longweefsel kan worden ondersteund door de invloed van Bronchogen op endotheliale veerkracht en capillaire bescherming.",
+    "Microcirculatoire stabiliteit in longweefsel kan worden ondersteund door de invloed van Bronchogen op endothele veerkracht en capillaire bescherming.",
 
-    "Op moleculair niveau lijkt Bronchogen de genexpressie te reguleren die verband houdt met cellulaire proliferatie, apoptosecontrole en organisatie van de extracellulaire matrix.",
+    "Op moleculair niveau lijkt Bronchogen de genexpressie te reguleren die verband houdt met cellulaire proliferatie, controle van apoptose en organisatie van de extracellulaire matrix.",
 
-    "Mitochondriale stabiliteit vormt een ander onderzoeksfocus, waarbij studies wijzen op verbeterde energie-efficiëntie en verminderde metabole stress in pulmonale cellen.",
+    "Mitochondriale stabiliteit is een ander onderzoeksfocus, waarbij studies wijzen op verbeterde energie-efficiëntie en verminderde metabole stress in pulmonale cellen.",
 
-    "Bronchogen kan ook helpen bij het reguleren van fibroblastactiviteit, waardoor evenwichtige collageenremodellering wordt ondersteund en fibrotische neigingen worden verminderd.",
+    "Bronchogen kan ook helpen bij het reguleren van fibroblastactiviteit, waardoor een evenwichtige collageenremodellering wordt ondersteund en fibrotische neigingen worden verminderd.",
 
-    "Over het geheel genomen vertegenwoordigt Bronchogen een veelbelovend bioregulerend peptide voor het behouden van respiratoire weefselresistentie en homeostase van de luchtwegen."
+    "Over het geheel genomen vertegenwoordigt Bronchogen een veelbelovend bioregulerend peptide voor het behoud van respiratoire weefselweerbaarheid en homeostase van de luchtwegen."
   ],
 
   bullets: [
-    "Ondersteunt herstel van bronchiaal epitheel en weefselstabiliteit",
+    "Ondersteunt herstel van het bronchiale epitheel en weefselstabiliteit",
     "Moduleert pro-inflammatoire en anti-inflammatoire signalering",
     "Verbetert antioxidatieve afweer en vermindert oxidatieve schade",
-    "Versterkt microcirculatie en endotheliale stabiliteit in longweefsel",
-    "Ondersteunt mucociliaire functie en luchtwegzuivering",
+    "Versterkt microcirculatie en endothele stabiliteit in longweefsel",
+    "Ondersteunt mucociliaire functie en luchtwegklaring",
     "Moduleert fibroblastactiviteit en remodellering van de extracellulaire matrix",
-    "Helpt mitochondriale efficiëntie tijdens stress te behouden",
+    "Helpt mitochondriale efficiëntie te behouden tijdens stress",
     "Werkt als een natuurlijk regulerend peptide in plaats van een farmacologische stimulant"
   ]
 },
+
 "cardiogen": {
   slug:"cardiogen",
   title: "Cardiogen: Een hartspecifiek bioregulerend peptide ter ondersteuning van cellulaire stabiliteit en integriteit van hartweefsel",
   subtitle:
     "Een wetenschappelijke verkenning van de potentiële rol van Cardiogen bij het behouden van myocardiale veerkracht, het optimaliseren van cellulaire energiedynamiek en het ondersteunen van structurele stabiliteit in verouderend hartweefsel.",
 images:[
-  "images/research/Cardiogen/Cardiogen1.jpg",
-  "images/research/Cardiogen/Cardiogen2.jpg"
+  "/images/research/Cardiogen/Cardiogen1.jpg",
+  "/images/research/Cardiogen/Cardiogen2.jpg"
 ],
 
   paragraphs: [
@@ -1846,7 +1856,7 @@ images:[
     "Een gedetailleerde verkenning van hoe onderzoekspeptiden synaptische remodeling, neuronale overleving, mitochondriale prestaties en langdurige cognitieve gezondheid beïnvloeden.",
 images:[
   "/images/research/Neuroplasticity/Neuroplasticity.jpg",
-    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
+    "/images/research/Neuroplasticity/Neuroplasticity2.jpg"
 ],
 
   paragraphs: [
@@ -1939,7 +1949,7 @@ images:[
     "Een wetenschappelijke diepgaande analyse van hoe regulerende peptiden cellulaire veerkracht, DNA-onderhoud, mitochondriale bescherming en langdurige biologische stabiliteit ondersteunen.",
 images:[
   "/images/research/Anti-Aging/Anti-Aging1.jpg",
-  "/images/research/Anti-Aging/Anti-Aging1.jpg"
+  "/images/research/Anti-Aging/Anti-Aging2.jpg"
 ],
 
   paragraphs: [

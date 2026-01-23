@@ -1804,8 +1804,8 @@ cardiogen: {
   subtitle:
     "تحليل علمي لدور كارديـوجين في دعم طاقة واستقرار عضلة القلب.",
 images:[
-  "images/research/Cardiogen/Cardiogen1.jpg",
-  "images/research/Cardiogen/Cardiogen2.jpg"
+  "/images/research/Cardiogen/Cardiogen1.jpg",
+  "/images/research/Cardiogen/Cardiogen2.jpg"
 ],
 
   paragraphs: [

@@ -278,61 +278,926 @@ export default {
       "notFound": "Članak nije pronađen"
     },
     "articles": {
-      "purity": {
-        "img": "/peptide-info/section-quality.jpg",
-        "title": "Čistoća peptida",
-        "preview": "Kako se postiže i potvrđuje čistoća peptida? Korištenjem najsavremenije tehnologije...",
-        "content": [
-          "Čistoća peptida je neophodna za tačnost istraživanja.",
-          "Kod BioPeptidea, pružamo peptide koji prelaze 99% čistoće koristeći sintezu u čvrstoj fazi, HPLC pročišćavanje i MS validaciju.",
-          "Čistoća peptida utiče na tačnost doziranja, konzistentnost biološkog odgovora i stabilnost umrežavanja ili testova.",
-          "Svaka serija uključuje kompletnu COA dokumentaciju.",
-          "Visoka čistoća minimizira neželjene reakcije bočnih lanaca koje mogu promijeniti biološke performanse.",
-          "Napredne hromatografske tehnike pomažu u preciznoj izolaciji nečistoća i fragmentata degradacije.",
-          "Održavanje čistoće takođe povećava dugoročnu stabilnost tokom skladištenja i rekonstitucije, osiguravajući pouzdane rezultate kroz eksperimente."
+      purity: {
+  img: "/peptide-info/section-quality.jpg",
+  title: "Čistoća peptida",
+  preview: "Kako se postiže i verificira čistoća peptida? Korištenjem najsavremenije tehnologije osiguravamo da naši peptidi premašuju najviše standarde čistoće, iznad 99%. Ova čistoća je ključna za pouzdane i ponovljive istraživačke rezultate. Naš proces uključuje napredne metode pročišćavanja, temeljitu validaciju i stroge protokole kontrole kvaliteta, čime se osigurava da je svaka serija peptida vrhunskog kvaliteta i pogodna za najzahtjevnije istraživačke potrebe.",
+  content: [
+    "Čistoća peptida je od suštinskog značaja za tačnost istraživanja.",
+    "U BioPeptide-u isporučujemo peptide čistoće veće od 99% koristeći sintezu na čvrstoj fazi, HPLC pročišćavanje i MS validaciju.",
+    "Čistoća peptida utiče na tačnost doziranja, konzistentnost biološkog odgovora te unakrsnu reaktivnost ili stabilnost testova.",
+    "Svaka serija uključuje kompletnu COA dokumentaciju.",
+    "Visoka čistoća minimizira neželjene reakcije bočnih lanaca koje mogu promijeniti biološke performanse.",
+    "Napredne hromatografske tehnike pomažu u izolaciji nečistoća i fragmenata degradacije s visokom preciznošću.",
+    "Održavanje čistoće također povećava dugoročnu stabilnost tokom skladištenja i rekonstitucije, osiguravajući pouzdane rezultate kroz eksperimente.",
+    "Standardi čistoće peptida i osiguranje kvaliteta u BioPeptide-u",
+    "BioPeptide naučni tim | Objavljeno: 21. oktobar 2023.",
+    "VAŽNA NAPOMENA: Sav edukativni sadržaj, istraživački članci i informacije o proizvodima predstavljeni na zvaničnoj web stranici BioPeptide-a namijenjeni su isključivo u informativne i edukativne svrhe. Naši premium peptidni spojevi, istraživačke hemikalije i sintetski peptidi posebno su dizajnirani i isporučeni isključivo za kontrolisana in-vitro laboratorijska istraživanja.",
+    "Pojam 'in-vitro' (iz latinskog, što znači 'u staklu') odnosi se na naučne eksperimente provedene izvan živih organizama. Ovi peptidi istraživačkog kvaliteta nisu odobreni lijekovi, farmaceutski preparati niti terapijska sredstva. Nijedan od naših peptidnih proizvoda nije procijenjen, odobren ili autoriziran od strane Američke agencije za hranu i lijekove (FDA) za prevenciju, liječenje, ublažavanje ili izlječenje bilo kojeg medicinskog stanja, bolesti ili zdravstvenog poremećaja. Bilo kakav oblik unošenja, injekcije, ingestije ili primjene naših istraživačkih peptida u ljudima ili životinjama strogo je zabranjen saveznim zakonima i regulatornim smjernicama."
+  ],
+  additionalContent: {
+    heading: "Kako BioPeptide postiže i potvrđuje izuzetne standarde čistoće peptida",
+    paragraphs: [
+      "U BioPeptide-u se ponosimo isporukom peptida istraživačkog kvaliteta koji dosljedno postižu nivoe čistoće veće od 99%. Kroz naše najsavremenije pogone za sintezu peptida koristimo vrhunsku tehnologiju sinteze peptida na čvrstoj fazi (SPPS) i napredne metode sinteze u tečnoj fazi kako bismo proizveli sintetske peptide najvišeg kvaliteta dostupne na istraživačkom tržištu. Naša posvećenost kontroli kvaliteta i analitičkoj validaciji osigurava da svaka serija peptida zadovoljava najstrožije istraživačke standarde potrebne za sofisticirane naučne primjene."
+    ],
+    subSections: [
+      {
+        heading: "Napredna analiza peptida i kontrola kvaliteta u BioPeptide-u",
+        content: [
+          "Protokoli osiguranja kvaliteta u BioPeptide-u uključuju više analitičkih tehnika za provjeru identiteta peptida, tačnosti sekvence i nivoa čistoće."
+        ],
+        bulletPoints: [
+          "Analiza tečnom hromatografijom visokih performansi (HPLC)",
+          "Karakterizacija masenom spektrometrijom (MS)",
+          "Sveobuhvatan set analitičkih testova"
         ]
       },
-      "intro": {
-        "img": "/peptide-info/section-basics.jpg",
-        "title": "Uvod u peptide",
-        "preview": "Peptidi su kratki lanci aminokiselina esencijalni za signalizaciju...",
-        "content": [
-          "Peptidi igraju ključnu ulogu u biološkoj komunikaciji i istraživačkim procesima.",
-          "Ovaj članak pokriva šta su peptidi, zašto su važni i njihove uobičajene istraživačke primjene.",
-          "Peptidi su kraći od proteina i obično sadrže manje od 50 aminokiselina, što ih čini idealnim za ciljana istraživanja.",
-          "Funkcionišu kao hormoni, neurotransmiteri, signalni molekuli i strukturalne komponente u biološkim putevima.",
-          "U modernom istraživanju, sintetički peptidi se koriste za proučavanje interakcija receptora, regeneracije tkiva, imunološke modulacije i metaboličkih puteva.",
-          "Njihova modularna struktura omogućava precizne modifikacije, omogućavajući naučnicima testiranje interakcija sa visokom specifičnošću."
+      {
+        heading: "Proizvodna izvrsnost i posvećenost kvalitetu u BioPeptide-u",
+        content: [
+          "BioPeptide održava laboratorije za sintezu peptida svjetske klase, gdje naši iskusni hemičari primjenjuju rigorozne protokole testiranja u svakoj fazi proizvodnje peptida."
         ]
       },
-      "synthesis": {
-        "img": "/peptide-info/section-testing.jpg",
-        "title": "Sinteza peptida",
-        "preview": "Peptidi se sintetišu koristeći automatizovane metode čvrste faze...",
-        "content": [
-          "Sinteza peptida u čvrstoj fazi (SPPS) je zlatni standard za proizvodnju istraživačkih peptida.",
-          "Proces sinteze uključuje vezivanje za rezino, spajanje aminokiselina, odvajanje, pročišćavanje i validaciju.",
-          "BioPeptide osigurava >99% čistoće u svim serijama.",
-          "SPPS omogućava brzu proizvodnju sa preciznom kontrolom sekvence.",
-          "Automatizovani sistemi osiguravaju uniformnu efikasnost.",
-          "Pročišćavanje uklanja skraćene fragmente.",
-          "Analitički alati potvrđuju molekularni integritet."
+      {
+        heading: "Peptidi istraživačkog kvaliteta (>70% čistoće peptida) – osnovni razred BioPeptide-a",
+        content: [
+          "Naši peptidi osnovnog razreda (>70% čistoće) pogodni su za:"
+        ],
+        bulletPoints: [
+          "Izradu i skrining peptidnih nizova",
+          "ELISA testove za određivanje titra antitijela",
+          "Antigene za proizvodnju poliklonskih antitijela",
+          "Pripremu liganada za afinitetno pročišćavanje",
+          "Početne skrining aplikacije",
+          "Edukativne i trening svrhe"
         ]
       },
-      "storage": {
-        "img": "/peptide-info/section-storage.jpg",
-        "title": "Skladištenje peptida",
-        "preview": "Pravilno skladištenje osigurava stabilnost peptida za naučna istraživanja...",
-        "content": [
-          "Liofilizovani peptidi treba da se čuvaju na −20°C.",
-          "Rekonstituisani peptidi treba da se čuvaju u frižideru.",
-          "Izbjegavajte ponovljene cikluse smrzavanja i odmrzavanja.",
-          "Podijelite peptide u male alikvote.",
-          "Koristite unutar 24–48 sati nakon rekonstitucije.",
-          "Zaštitite od svjetlosti i vlage.",
-          "Provjerite bistrinu i pH prije upotrebe."
+      {
+        heading: "Usluge prilagođene sinteze peptida u BioPeptide-u",
+        content: [
+          "Pored kataloških peptida, BioPeptide nudi i usluge prilagođene sinteze peptida prilagođene specifičnim istraživačkim zahtjevima. Naše mogućnosti prilagođene sinteze uključuju:"
+        ],
+        bulletPoints: [
+          "Modifikovane peptide s post-translacijskim modifikacijama",
+          "Označene peptide s fluorescentnim ili biotinskim oznakama",
+          "Peptide označene stabilnim izotopima za kvantitativnu proteomiku",
+          "Ciklične peptide i strukturno ograničene peptide",
+          "Duge peptide do 100+ aminokiselina",
+          "Peptidne biblioteke i nizove",
+          "Peptide GMP kvaliteta za pretklinička istraživanja"
         ]
       }
+    ]
+  },
+  faqSection: {
+    heading: "FAQ",
+    faqs: [
+      {
+        question: "Šta je čistoća peptida i zašto je važna u istraživanju?",
+        answer: "Čistoća peptida odnosi se na procenat ciljne peptidne molekule prisutne u uzorku u odnosu na nečistoće. Visoka čistoća je ključna za pouzdane istraživačke rezultate jer nečistoće mogu ometati testove, studije vezanja i biološke interpretacije. U BioPeptide-u peptidi se proizvode sa čistoćom ≥99% kako bi se osigurali tačni i ponovljivi rezultati za napredna in-vitro laboratorijska istraživanja."
+      },
+      {
+        question: "Kako BioPeptide provjerava čistoću svojih peptida?",
+        answer: "BioPeptide provjerava čistoću peptida koristeći tečnu hromatografiju visokih performansi (HPLC) i masenu spektrometriju (MS). HPLC potvrđuje procenat čistoće razdvajanjem komponenti u uzorku, dok MS potvrđuje molekularnu masu i identitet peptida."
+      },
+      {
+        question: "Da li su BioPeptide peptidi sigurni za upotrebu kod ljudi ili životinja?",
+        answer: "Ne. Svi peptidi koje prodaje BioPeptide namijenjeni su isključivo za in-vitro istraživačku upotrebu. Oni nisu odobreni lijekovi, suplementi ili kozmetički proizvodi i ne smiju se koristiti kod ljudi ili životinja."
+      },
+      {
+        question: "Koji nivo čistoće obično imaju BioPeptide peptidi?",
+        answer: "Svi peptidi koje prodaje BioPeptide namijenjeni su isključivo za in-vitro istraživačku upotrebu. Oni nisu odobreni lijekovi, suplementi ili kozmetički proizvodi i ne smiju se koristiti kod ljudi ili životinja. Bilo kakav oblik tjelesne primjene zabranjen je zakonom. Ove informacije su jasno navedene na cijeloj BioPeptide web stranici radi regulatorne i etičke usklađenosti."
+      },
+      {
+        question: "Koje istraživačke primjene zahtijevaju najvišu čistoću peptida?",
+        answer: "Primjene kao što su kvantitativne studije receptor–ligand, kinetika enzima, ELISA kalibracija, proizvodnja monoklonskih antitijela, kristalografija i istraživanja otkrivanja lijekova zahtijevaju veoma visoku čistoću peptida. BioPeptide peptidi su dizajnirani da zadovolje ove zahtjevne primjene minimiziranjem nečistoća nastalih sintezom i osiguravanjem molekularne tačnosti, čineći ih pogodnim za napredne i ponovljivosti kritične laboratorijske eksperimente."
+      },
+      {
+        question: "Mogu li se peptidi visoke čistoće koristiti za primjene koje zahtijevaju nižu čistoću?",
+        answer: "Da. Peptidi veće čistoće uvijek se mogu koristiti u primjenama koje zahtijevaju niže minimalne nivoe čistoće. Međutim, peptidi niže čistoće ne mogu zamijeniti peptide visoke čistoće u osjetljivim eksperimentima. Obezbjeđivanjem peptida čistoće ≥99%, BioPeptide omogućava istraživačima da s povjerenjem koriste isti proizvod u više istraživačkih modela bez kompromisa po kvalitet podataka."
+      },
+      {
+        question: "Da li BioPeptide isporučuje analitičke podatke uz svoje peptide?",
+        answer: "Da. BioPeptide pruža transparentnu analitičku verifikaciju, uključujući HPLC i MS podatke, kako bi potvrdio čistoću i identitet peptida. Ova dokumentacija pomaže istraživačima da validiraju eksperimentalne ulaze, održe usklađenost s internim laboratorijskim standardima i osiguraju ponovljivost. Analitičko testiranje je dio BioPeptide procesa kontrole kvaliteta za proizvodnju peptida istraživačkog kvaliteta."
+      },
+      {
+        question: "Gdje mogu pronaći detaljne informacije o čistoći peptida na BioPeptide web stranici?",
+        answer: "Detaljne informacije o čistoći peptida, metodama testiranja i istraživačkim standardima dostupne su u BioPeptide odjeljku s informacijama o peptidima. Istraživači mogu posjetiti https://www.bio-peptides.com/peptide-information/purity kako bi saznali kako BioPeptide osigurava peptide visoke čistoće namijenjene isključivo istraživanjima koristeći napredne tehnologije sinteze i analitike."
+      }
+    ]
+  }
+},
+     intro: {
+  img: "/peptide-info/intopeptide.jpg",
+  title: "Uvod u peptide",
+  preview: "Peptidi su kratki lanci aminokiselina ključni za signalizaciju...",
+  content: [
+    "Peptidi imaju ključnu ulogu u biološkoj komunikaciji i istraživačkim procesima.",
+    "Ovaj članak objašnjava šta su peptidi, zašto su važni i koje su njihove najčešće istraživačke primjene.",
+    "Peptidi su kraći od proteina i obično sadrže manje od 50 aminokiselina, što ih čini idealnim za ciljano istraživanje.",
+    "Djeluju kao hormoni, neurotransmiteri, signalne molekule i strukturne komponente u biološkim putevima.",
+    "U savremenim istraživanjima, sintetski peptidi se koriste za proučavanje interakcije receptora, regeneracije tkiva, imunološke modulacije i metaboličkih puteva.",
+    "Njihova modularna struktura omogućava precizne modifikacije, omogućavajući naučnicima testiranje interakcija s visokom specifičnošću."
+  ],
+  additionalContent: {
+    heading: "Razumijevanje peptida: Sveobuhvatan evropski vodič BioPeptides-a",
+    publicationDetails: "BioPeptides naučni tim | Objavljeno: 20. oktobar 2023. | Evropsko istraživačko izdanje",
+    paragraphs: [
+      "VAŽNA NAPOMENA: Sav edukativni sadržaj i informacije o proizvodima koje pruža BioPeptides namijenjeni su isključivo za istraživačke i edukativne svrhe unutar istraživačkih institucija Evropske unije. Naši premium peptidni spojevi posebno su dizajnirani za in-vitro laboratorijska ispitivanja u skladu s EU istraživačkim smjernicama i propisima. Ovi peptidi istraživačkog kvaliteta nisu medicinski proizvodi i nisu evaluirani od strane Evropske agencije za lijekove (EMA) niti nacionalnih regulatornih tijela za terapijsku upotrebu. Bilo kakav oblik primjene na ljudima ili životinjama strogo je zabranjen prema evropskim zakonima i regulatornim okvirima."
+    ],
+    subSections: [
+      {
+        heading: "Šta su zapravo peptidi? Objašnjenje gradivnih blokova života",
+        content: [
+          "Peptidi su u suštini prirodni hemijski glasnici – mali, ali moćni lanci aminokiselina koji igraju ključne uloge u gotovo svakom biološkom procesu.",
+          "Možete ih zamisliti kao sitne fragmente proteina, svaki sa svojom jedinstvenom strukturom i funkcijom. Kada se dvije ili više aminokiselina povežu putem tzv. 'peptidnih veza', nastaju ovi izuzetni spojevi koji revolucioniraju istraživanja širom Evrope.",
+          "Riječ 'peptid' potiče od grčke riječi 'πέσσειν' (pessein), što znači 'probaviti'. Ova etimologija savršeno opisuje njihovu osnovnu ulogu u biološkim sistemima – otkriće koje i dalje pokreće evropska farmaceutska istraživanja i biotehnološke inovacije."
+        ]
+      },
+      {
+        heading: "Nauka iza formiranja peptida: priroda i laboratorijska sinteza",
+        content: [
+          "U Evropi se naše razumijevanje formiranja peptida značajno razvilo tokom posljednjeg stoljeća. U BioPeptides-u svakodnevno svjedočimo kako se ovi spojevi mogu stvarati i prirodno u živim organizmima i sintetski u sofisticiranim evropskim laboratorijama."
+        ],
+        subSections: [
+          {
+            heading: "Prirodno formiranje peptida u evropskom istraživačkom kontekstu",
+            content: [
+              "Ljudsko tijelo proizvodi peptide putem dva osnovna mehanizma: ribosomske i neribosomske sinteze. Evropski istraživači su bili na čelu razumijevanja ovih procesa, posebno u institucijama širom Njemačke, Francuske, Švicarske i Nizozemske."
+            ]
+          },
+          {
+            heading: "Sintetska sinteza peptida: evropska izvrsnost u laboratorijskoj proizvodnji",
+            content: [
+              "Historija sintetske sinteze peptida duboko je ukorijenjena u evropskoj naučnoj tradiciji. Godine 1901. njemački hemičar Emil Fischer, zajedno sa svojim francuskim kolegom Ernestom Fourneauom, ostvario je prvu sintetsku sintezu peptida – prekretnicu koja je Evropu postavila kao lidera u istraživanju peptida.",
+              "Danas BioPeptides koristi i sintezu peptida u tečnoj fazi i sintezu peptida na čvrstoj fazi (SPPS) u našim evropskim pogonima."
+            ]
+          },
+          {
+            heading: "Prirodno formiranje peptida u evropskom istraživačkom kontekstu",
+            content: [
+              "Ljudsko tijelo proizvodi peptide putem dva osnovna mehanizma: ribosomske i neribosomske sinteze. Evropski istraživači su bili na čelu razumijevanja ovih procesa, posebno u institucijama širom Njemačke, Francuske, Švicarske i Nizozemske.",
+              "Ribosomski peptidi nastaju prirodnom translacijom glasničke RNK unutar ćelija. Ovi peptidi su posebno važni za evropske farmaceutske kompanije zbog svoje uloge kao hormoni i signalne molekule. Primjeri uključuju:"
+            ],
+            bulletPoints: [
+              "Tahikininski peptidi: važni u istraživanjima neurotransmisije",
+              "Vazoaktivni intestinalni peptidi (VIP): ključni za kardiovaskularna istraživanja",
+              "Opioidni peptidi: neophodni za istraživanja upravljanja bolom",
+              "Pankreasni peptidi: važni za dijabetes i metabolička istraživanja",
+              "Kalcitoninski peptidi: značajni za istraživanja metabolizma kostiju"
+            ]
+          },
+          {
+            heading: "Peptidni fragmenti: evropske analitičke primjene",
+            content: [
+              "Peptidni fragmenti se često koriste u evropskoj analitičkoj hemiji. Ovi manji dijelovi većih peptida nastaju kontrolisanom enzimskom degradacijom i izuzetno su vrijedni u različitim primjenama kao što su:"
+            ],
+            bulletPoints: [
+              "Identifikacija proteina: korištenjem tehnika masene spektrometrije",
+              "Analiza sekvence: određivanje rasporeda aminokiselina",
+              "Studije struktura–funkcija: razumijevanje bioloških odnosa",
+              "Kontrola kvaliteta: provjera tačnosti sinteze peptida"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  faqSection: {
+    heading: "Često postavljana pitanja",
+    faqs: [
+      {
+        question: "Šta su tačno istraživački peptidi i po čemu se razlikuju od proteina?",
+        answer: "Istraživački peptidi su kratki lanci aminokiselina povezani peptidnim vezama, obično sadrže od 2 do 50 aminokiselinskih ostataka. Za razliku od proteina koji su veći i složeniji, peptidi su manje molekule koje služe kao ključni gradivni blokovi u biološkim sistemima."
+      },
+      {
+        question: "Kako BioPeptides osigurava kvalitet i čistoću peptida prema evropskim istraživačkim standardima?",
+        answer: "BioPeptides održava najviše evropske standarde kvaliteta kroz sveobuhvatne protokole analitičkog testiranja. Svaki istraživački peptid prolazi rigoroznu HPLC analizu i verifikaciju masenom spektrometrijom kako bi se potvrdila čistoća peptida veća od 99%."
+      },
+      {
+        question: "Koje su najčešće primjene istraživačkih peptida u evropskim laboratorijama?",
+        answer: "Evropske istraživačke institucije koriste istraživačke spojeve BioPeptides-a u širokom spektru naučnih primjena. Najčešće upotrebe uključuju in-vitro ćelijske studije, istraživanja interakcija protein–protein, ispitivanja kinetike enzima, razvoj antitijela i eksperimente strukturne biologije."
+      },
+      {
+        question: "Kako treba skladištiti i rukovati istraživačkim peptidima radi očuvanja stabilnosti?",
+        answer: "Pravilno skladištenje i rukovanje su ključni za očuvanje stabilnosti peptida u evropskim laboratorijskim uslovima. BioPeptides preporučuje skladištenje liofiliziranih peptida na –20°C ili niže za dugoročno očuvanje, dok se rekonstituisani rastvori trebaju alikvotirati i skladištiti na –80°C kako bi se spriječila degradacija usljed ciklusa zamrzavanja i odmrzavanja."
+      },
+      {
+        question: "Koje je uobičajeno vrijeme isporuke za BioPeptides narudžbe unutar Evrope?",
+        answer: "BioPeptides održava efikasne evropske distributivne mreže koje osiguravaju brzu isporuku širom država članica EU. Standardni kataloški peptidi obično se isporučuju u roku od 2–3 radna dana iz naših evropskih pogona, uz mogućnost ekspresne isporuke za hitne istraživačke potrebe."
+      },
+      {
+        question: "Da li su istraživački spojevi BioPeptides-a legalni za laboratorijsku upotrebu širom Evrope?",
+        answer: "BioPeptides posluje u potpunosti u skladu s propisima Evropske unije koji regulišu istraživačke hemikalije i laboratorijske spojeve. Naši istraživački peptidi namijenjeni su isključivo za in-vitro studije i laboratorijske istraživačke primjene."
+      },
+      {
+        question: "Koje nivoe čistoće peptida nudi BioPeptides i koji bih trebao izabrati za svoje istraživanje?",
+        answer: "BioPeptides nudi više nivoa čistoće peptida kako bi odgovorio specifičnim istraživačkim zahtjevima i budžetskim razmatranjima. Naš premium razred prelazi 99% čistoće za kritične primjene uključujući kvantitativne studije, strukturnu analizu i farmaceutska istraživanja."
+      },
+      {
+        question: "Da li BioPeptides nudi usluge prilagođene sinteze peptida za specijalizirane evropske istraživačke potrebe?",
+        answer: "BioPeptides se specijalizira za prilagođenu sintezu peptida prilagođenu jedinstvenim evropskim istraživačkim zahtjevima. Naše mogućnosti uključuju modificirane peptide s posttranslacijskim modifikacijama, označene spojeve za studije praćenja, ciklične peptide za poboljšanu stabilnost i duge sekvence do 100+ aminokiselina."
+      }
+    ]
+  }
+},
+      synthesis: {
+  img: "/peptide-info/section-testing.jpg",
+  title: "Sinteza peptida",
+  preview: "Peptidi se sintetiziraju korištenjem automatiziranih metoda sinteze na čvrstoj fazi...",
+  content: [
+    "Sinteza peptida na čvrstoj fazi (SPPS) predstavlja zlatni standard za proizvodnju peptida istraživačkog kvaliteta.",
+    "Proces sinteze uključuje vezivanje za smolu, spajanje aminokiselina, cijepanje, pročišćavanje i validaciju.",
+    "BioPeptides osigurava čistoću veću od 99% u svim serijama.",
+    "SPPS omogućava brzu proizvodnju uz preciznu kontrolu sekvence.",
+    "Automatizirani sistemi osiguravaju ujednačenu efikasnost.",
+    "Pročišćavanje uklanja skraćene fragmente.",
+    "Analitički alati potvrđuju molekularni integritet."
+  ],
+  additionalContent: {
+    heading: "Sinteza peptida za napredna naučna istraživanja",
+    subHeading: "Precizna proizvodnja od strane BioPeptides-a",
+    researchDisclaimer: [
+      "Sve informacije i proizvodi koje pruža BioPeptides namijenjeni su isključivo za in-vitro istraživanja i laboratorijske eksperimente. Naši peptidi nisu lijekovi niti terapijski preparati i nisu odobreni od strane FDA za prevenciju, liječenje ili izlječenje bilo koje bolesti ili medicinskog stanja.",
+      "Bilo kakav oblik primjene u tijelu strogo je zabranjen."
+    ],
+    paragraphs: [
+      "Savremena biomedicinska nauka u velikoj mjeri se oslanja na sintezu peptida kako bi se stvorile precizno dizajnirane molekule za farmaceutska istraživanja, dijagnostiku, biotehnologiju i molekularnu biologiju. Sintetski peptidi omogućavaju naučnicima proučavanje bioloških mehanizama, dizajniranje kandidata za lijekove i razvoj terapija nove generacije.",
+      "U BioPeptides-u se specijaliziramo za visokopreciznu sintezu peptida za istraživačke institucije i biotehnološke kompanije širom Španije, Francuske, Nizozemske, Italije, Njemačke, Švicarske i drugih evropskih zemalja."
+    ],
+    subSections: [
+      {
+        heading: "Šta je sinteza peptida?",
+        content: [
+          "Sinteza peptida je kontrolirani hemijski proces sastavljanja aminokiselina u definirane peptidne sekvence putem formiranja peptidnih veza. Svaka veza povezuje karboksilnu grupu jedne aminokiseline s amino grupom druge, stvarajući stabilan molekularni lanac.",
+          "Napredak u hemijskom inženjerstvu i automatizaciji transformisao je sintezu peptida u visoko efikasan, skalabilan i precizan proizvodni proces, omogućavajući proizvodnju složenih peptidnih sekvenci s izuzetnom čistoćom i ponovljivošću."
+        ]
+      },
+      {
+        heading: "Kako se proizvode sintetski peptidi",
+        content: [
+          "Peptidi se stvaraju postupnim sastavljanjem aminokiselina u kontroliranom okruženju. Za razliku od prirodne biosinteze proteina, koja se odvija od N-terminala ka C-terminalu, hemijska sinteza peptida napreduje od C-terminala prema N-terminalu.",
+          "Postoji više od dvadeset prirodnih aminokiselina, uz stotine sintetskih varijanti. Ova velika hemijska raznolikost omogućava naučnicima dizajniranje visoko specijaliziranih peptida za ciljane biološke funkcije.",
+          "Međutim, aminokiseline sadrže više reaktivnih mjesta, što može ometati sintezu ako se ne kontroliše pravilno. Kako bi se spriječile neželjene reakcije, hemičari koriste selektivne strategije hemijske zaštite."
+        ],
+        subSections: [
+          {
+            heading: "Zaštitne grupe u sintezi peptida",
+            content: [
+              "Tokom sastavljanja peptida, određene funkcionalne grupe moraju biti privremeno blokirane kako bi se osiguralo pravilno formiranje veza i spriječile sporedne reakcije."
+            ],
+            bulletPoints: [
+              "N-terminalne zaštitne grupe poput Fmoc i Boc koriste se za kontrolu postupnog produženja peptidnog lanca.",
+              "C-terminalne zaštitne grupe primjenjuju se u sintezi u tečnoj fazi radi stabilizacije karboksilne grupe.",
+              "Zaštitne grupe bočnih lanaca štite reaktivne bočne lance aminokiselina tokom sinteze i uklanjaju se tek nakon završetka sastavljanja peptida."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Savremene tehnologije sinteze peptida",
+        content: [
+          "Danas je najšire korištena metoda sinteza peptida na čvrstoj fazi (SPPS). U ovom procesu, rastući peptidni lanac je vezan za čvrstu smolu, što omogućava efikasno ispiranje, spajanje i pročišćavanje u svakom koraku.",
+          "SPPS funkcioniše kroz ponovljene cikluse vezivanja aminokiselina, privremene zaštite, reakcije spajanja, dezaštite i konačnog oslobađanja peptida sa smole.",
+          "Za složene i duge peptidne sekvence, SPPS uz pomoć mikrovalova povećava brzinu reakcije i prinos.",
+          "Iako se sinteza u tečnoj fazi još uvijek koristi za proizvodnju velikih razmjera, SPPS ostaje industrijski standard za peptide istraživačkog kvaliteta."
+        ]
+      },
+      {
+        heading: "Pročišćavanje i kontrola kvaliteta",
+        content: [
+          "Čak i uz naprednu tehnologiju sinteze, pročišćavanje je neophodno. Duži peptidi zahtijevaju više ciklusa spajanja, što povećava mogućnost nečistoća.",
+          "U BioPeptides-u se pročišćavanje provodi korištenjem reverzno-fazne hromatografije (RPC) i visokoučinkovite tečne hromatografije (HPLC).",
+          "Svaki peptid se validira masenom spektrometrijom kako bi se potvrdila molekularna masa i tačnost sekvence."
+        ]
+      },
+      {
+        heading: "Zašto su sintetski peptidi važni",
+        content: [
+          "Sintetski peptidi postali su nezamjenjivi alati u otkrivanju lijekova, istraživanju raka, proučavanju metaboličkih bolesti, razvoju vakcina, molekularnoj dijagnostici te analizi enzima i receptora.",
+          "Njihova visoka specifičnost, predvidljiv metabolizam i niska toksičnost čine peptide idealnim kandidatima za savremeni farmaceutski razvoj. Širom Francuske, Španije, Nizozemske, Italije, Belgije, Švedske i Njemačke, istraživanje peptida nastavlja brzo rasti."
+        ]
+      },
+      {
+        heading: "Zašto odabrati BioPeptides",
+        content: [
+          "BioPeptides je pouzdan evropski dobavljač usluga sinteze peptida, prilagođene sinteze peptida, istraživačkih peptida, sintetskih peptida i peptida farmaceutskog kvaliteta.",
+          "Naši proizvodni pogoni rade prema strogim standardima kvaliteta kako bi podržali akademska, farmaceutska i biotehnološka istraživanja širom svijeta."
+        ]
+      }
+    ]
+  },
+  faqSection: {
+    heading: "Često postavljana pitanja",
+    faqs: [
+      {
+        question: "Za šta se koristi sinteza peptida u naučnim istraživanjima?",
+        answer: "Sinteza peptida se koristi za stvaranje preciznih molekularnih sekvenci za otkrivanje lijekova, molekularnu biologiju, dijagnostiku, razvoj vakcina i farmaceutski skrining. Sintetski peptidi omogućavaju istraživačima proučavanje bioloških mehanizama uz visoku specifičnost i ponovljivost u laboratorijskim okruženjima širom svijeta."
+      },
+      {
+        question: "Da li BioPeptides nudi usluge prilagođene sinteze peptida?",
+        answer: "Da. BioPeptides se specijalizira za prilagođenu sintezu peptida, nudeći prilagođene peptidne sekvence, modificirane peptide i dugolančane peptide za napredne istraživačke programe u biotehnologiji, farmaciji i akademskim laboratorijama širom Španije, Francuske, Nizozemske, Italije i šire."
+      },
+      {
+        question: "Koju tehnologiju BioPeptides koristi za sintezu peptida?",
+        answer: "BioPeptides koristi naprednu sintezu peptida na čvrstoj fazi (SPPS) u kombinaciji s modernom automatizacijom i tehnologijom uz pomoć mikrovalova kako bi se osigurao visok prinos, vrhunska čistoća i precizna tačnost sekvence za složene peptidne dizajne."
+      },
+      {
+        question: "Kako BioPeptides osigurava čistoću i kvalitet peptida?",
+        answer: "Svaki peptid se pročišćava korištenjem reverzno-fazne hromatografije i visokoučinkovite tečne hromatografije. Strukturna validacija se provodi masenom spektrometrijom kako bi se potvrdila molekularna masa, integritet sekvence i standardi čistoće istraživačkog kvaliteta."
+      },
+      {
+        question: "Može li BioPeptides proizvoditi duge i složene peptidne sekvence?",
+        answer: "Da. BioPeptides proizvodi dugolančane peptide, ciklične peptide, modificirane peptide i označene peptide za napredna farmaceutska i biohemijska istraživanja. Naše platforme za sintezu optimizirane su za složene molekularne arhitekture i visokoučinkovit dizajn peptida."
+      },
+      {
+        question: "Da li su BioPeptides peptidi pogodni za farmaceutska istraživanja?",
+        answer: "BioPeptides peptidi su dizajnirani za in-vitro farmaceutska istraživanja, skrining lijekova, razvoj formulacija i molekularno modeliranje. Oni služe kao osnovni spojevi u ranim fazama otkrivanja lijekova i pretkliničkim istraživačkim procesima."
+      },
+      {
+        question: "U koje zemlje BioPeptides isporučuje peptide?",
+        answer: "BioPeptides isporučuje istraživačke peptide i usluge prilagođene sinteze peptida širom Španije, Francuske, Nizozemske, Italije, Njemačke, Švicarske, Belgije, Švedske i drugih evropskih zemalja uz brzu i sigurnu laboratorijsku isporuku."
+      },
+      {
+        question: "Da li BioPeptides nudi tehničku podršku za projekte vezane za peptide?",
+        answer: "Da. BioPeptides pruža stručne konsultacije o dizajnu peptida, optimizaciji sinteze, rastvorljivosti, formulaciji, pročišćavanju i ispitivanju stabilnosti kako bi podržao napredne projekte iz oblasti hemije peptida i biotehnologije."
+      }
+    ]
+  }
+},
+     solubility: {
+  img: "/peptide-info/section-storage.jpg",
+  title: "Rastvorljivost peptida u istraživačkim primjenama",
+  preview: "Rastvorljivost peptida jedna je od najkritičnijih varijabli u istraživanjima zasnovanim na peptidima...",
+  content: [
+    "Rastvorljivost peptida jedna je od najkritičnijih varijabli u istraživanjima zasnovanim na peptidima i eksperimentalnom razvoju. Bez obzira da li se peptidi koriste u biohemijskim testovima, studijama vezivanja receptora, molekularnom modeliranju ili farmaceutskom skriningu, pravilna solubilizacija direktno utiče na eksperimentalnu tačnost, molekularnu stabilnost i biološku aktivnost.",
+    "U BioPeptides-u se specijaliziramo za sintetske istraživačke peptide visoke čistoće i pružamo napredno znanje o formulaciji kako bismo podržali laboratorije, akademske institucije i biotehnološke organizacije širom svijeta. Ovaj vodič predstavlja cjelovit naučni pregled rastvorljivosti peptida, molekularnih sila koje je određuju i protokola najbolje prakse za solubilizaciju."
+  ],
+  additionalContent: {
+    heading: "Naučni pregled rastvorljivosti peptida",
+    paragraphs: [
+      "Rastvorljivost peptida određena je intermolekularnim interakcijama između peptidnih ostataka i molekula rastvarača. Na ove interakcije utiču polarnost aminokiselina, raspodjela naboja, sposobnost formiranja vodoničnih veza, molekularna veličina i konformacija peptida.",
+      "Peptidi stupaju u interakciju s rastvaračima putem ionskih sila, vodoničnih veza i hidrofobnih interakcija. Kada zbirne sile favorizuju vezivanje s rastvaračem, peptid se rastvara. Kada dominira privlačenje peptid–peptid, dolazi do agregacije i taloženja.",
+      "Osnovno ponašanje rastvorljivosti peptida stoga se može predvidjeti procjenom aminokiselinskog sastava i izračunavanjem neto električnog naboja."
+    ],
+    subSections: [
+      {
+        heading: "Molekularna klasifikacija aminokiselina",
+        content: [
+          "Svaki peptid izgrađen je od aminokiselina koje imaju različita hemijska svojstva:"
+        ],
+        bulletPoints: [
+          "Bazne aminokiseline nose pozitivan naboj i pokazuju pojačan afinitet prema kiselim vodenim sredinama.",
+          "Kisele aminokiseline nose negativan naboj i pokazuju povećanu rastvorljivost u baznim rastvorima.",
+          "Polarne, nenabijene aminokiseline su hidrofilne i često rastvorljive u vodi.",
+          "Nepolarne aminokiseline su hidrofobne i slabo rastvorljive u vodi, te često zahtijevaju organske rastvarače.",
+          "Peptidi obogaćeni nepolarnim ostacima poput leucina, izoleucina, fenilalanina i valina obično pokazuju smanjenu vodenu rastvorljivost i mogu zahtijevati denaturirajuće ili organske sisteme rastvarača."
+        ]
+      },
+      {
+        heading: "Prediktivno modeliranje naboja za procjenu rastvorljivosti",
+        content: [
+          "Prije odabira rastvarača, BioPeptides preporučuje izračunavanje neto ionskog naboja peptida, koji pruža prediktivni pokazatelj kompatibilnosti s rastvaračem.",
+          "Svaki kiseli ostatak doprinosi negativnim nabojem. Svaki bazni ostatak doprinosi pozitivnim nabojem. N-terminalna amino grupa doprinosi pozitivnim nabojem, dok C-terminalna karboksilna grupa doprinosi negativnim nabojem. Histidin doprinosi pozitivnim nabojem pri fiziološkom pH.",
+          "Dobijeni neto naboj klasificira peptid kao kiseli, bazni ili neutralni, što direktno usmjerava izbor rastvarača."
+        ]
+      },
+      {
+        heading: "Strategija izbora rastvarača",
+        content: [
+          "U BioPeptides-u slijedimo hijerarhijski protokol izbora rastvarača kako bismo očuvali integritet peptida i maksimalizirali efikasnost rastvorljivosti.",
+          "Početni pokušaji rastvaranja trebaju uvijek započeti sa sterilnom vodom, jer se mnogi peptidi, posebno oni kraći od pet ostataka, lako rastvaraju u vodenim medijima. Ako vodena solubilizacija nije uspješna, izbor rastvarača se nastavlja prema klasifikaciji zasnovanoj na naboju."
+        ],
+        bulletPoints: [
+          "Pozitivno nabijeni peptidi pokazuju poboljšanu rastvorljivost u blago kiselim rastvorima poput sirćetne ili trifluorosirćetne kiseline.",
+          "Negativno nabijeni peptidi povoljnije reaguju na bazne rastvarače poput amonijum-hidroksida.",
+          "Neutralni ili hidrofobni peptidi obično zahtijevaju organske rastvarače uključujući acetonitril, metanol, izopropanol ili dimetil-sulfoksid."
+        ]
+      },
+      {
+        heading: "Napredne metode solubilizacije",
+        content: [
+          "Određeni peptidi zahtijevaju poboljšane tehnike kako bi se savladale sile agregacije i stabilizacija sekundarne strukture.",
+          "Blago povećanje temperature ispod 40°C povećava molekularno kretanje i poboljšava prodiranje rastvarača. Sonikacija razbija interakcije peptid–peptid i pomaže disperziji.",
+          "Haotropni agensi poput gvanidin-hlorida i uree narušavaju vodonične veze i stabiliziraju denaturirane konformacije za peptide koji se teško rastvaraju.",
+          "Ove metode olakšavaju rastvaranje, ali ne mijenjaju intrinzična svojstva rastvorljivosti."
+        ]
+      },
+      {
+        heading: "Prevencija agregacije peptida",
+        content: [
+          "Agregacija peptida je čest izazov kod hidrofobnih i amfipatskih sekvenci. Agregati se mogu formirati putem slaganja beta-listova, hidrofobnog grupiranja ili elektrostatičkih interakcija.",
+          "Agregacija se može smanjiti održavanjem niskih radnih koncentracija, upotrebom haotropnih agenasa kada je potrebno i primjenom sporih tehnika razrjeđivanja u puferisane rastvore uz stalno miješanje. Izbjegavanje brze izmjene rastvarača sprječava lokalnu prezasićenost i taloženje."
+        ]
+      },
+      {
+        heading: "Protokoli rukovanja i skladištenja peptida",
+        content: [
+          "Nakon rastvaranja, peptide treba odmah alikvotirati u sterilne posude i skladištiti pod kontrolisanim uslovima. Skladištenje na –20°C ili –80°C čuva stabilnost peptida. Oksidaciji osjetljivi ostaci poput cisteina, metionina i triptofana zahtijevaju okruženja bez prisustva kisika.",
+          "Ponovljeni ciklusi zamrzavanja i odmrzavanja trebaju se izbjegavati kako bi se spriječila molekularna degradacija."
+        ]
+      },
+      {
+        heading: "Istraživačka izvrsnost BioPeptides-a",
+        content: [
+          "BioPeptides pruža istraživačke peptide farmaceutskog kvaliteta uz analitičku karakterizaciju, verifikaciju čistoće putem HPLC-a, validaciju masenom spektrometrijom i savjetovanje o rastvorljivosti.",
+          "Naša misija je osnaživanje naučnih otkrića kroz preciznu sintezu peptida i stručnu tehničku podršku."
+        ]
+      }
+    ]
+  },
+  conclusion: [
+    "Rastvorljivost peptida je višedimenzionalni naučni parametar koji direktno utiče na eksperimentalne performanse i integritet podataka. Kroz prediktivno modeliranje naboja, optimizaciju rastvarača i napredne tehnike solubilizacije, istraživači mogu postići ponovljive formulacije peptida.",
+    "BioPeptides ostaje posvećen podršci globalnoj naučnoj zajednici kroz visokokvalitetne istraživačke peptide i autoritativnu ekspertizu u formulaciji."
+  ],
+  faqSection: {
+    heading: "Često postavljana pitanja (FAQ)",
+    faqs: [
+      {
+        question: "Zašto se neki sintetski peptidi lako rastvaraju dok se drugi ne rastvaraju?",
+        answer: "Rastvorljivost peptida varira u zavisnosti od molekularne strukture. Peptidi bogati nabijenim ili polarnim aminokiselinama lako stupaju u interakciju s molekulama vode, dok peptidi kojima dominiraju hidrofobni ostaci imaju tendenciju odbijanja vodenih sredina i zahtijevaju organske ili denaturirajuće rastvarače za pravilno rastvaranje."
+      },
+      {
+        question: "Koji je prvi korak koji BioPeptides preporučuje prije izbora rastvarača?",
+        answer: "BioPeptides preporučuje da se liofilizirani peptid ostavi da dostigne sobnu temperaturu i da se prvo pokuša rastvaranje u sterilnoj vodi. Time se sprječava kondenzacija vlage i izbjegava nepotrebna izloženost agresivnim rastvaračima."
+      },
+      {
+        question: "Mogu li se puferisani rastvori koristiti kao primarni rastvarač za peptide?",
+        answer: "Puferi se trebaju koristiti tek nakon što je peptid uspješno rastvoren u kompatibilnom rastvaraču. Direktno rastvaranje u puferu može dovesti do taloženja zbog efekata jonske jačine i pH."
+      },
+      {
+        question: "Šta uzrokuje taloženje peptida nakon razrjeđivanja?",
+        answer: "Taloženje se obično javlja kada se peptidi prebrzo dodaju u vodene rastvore, stvarajući lokalnu prezasićenost. Sporo, kontrolisano razrjeđivanje uz kontinuirano miješanje sprječava ovaj problem."
+      },
+      {
+        question: "Da li su organski rastvarači štetni za strukturu peptida?",
+        answer: "Kada se koriste pravilno i u malim zapreminama, organski rastvarači poput acetonitrila ili metanola ne oštećuju strukturu peptida. Međutim, dugotrajna izloženost ili visoke koncentracije mogu uticati na stabilnost."
+      },
+      {
+        question: "Kako postupati s peptidima sklonim oksidaciji?",
+        answer: "Peptidi osjetljivi na oksidaciju trebaju se rukovati u uslovima sa smanjenim prisustvom kisika, rastvarati odmah nakon otvaranja i skladištiti u zatvorenim alikvotima pod inertnim gasom kada je moguće."
+      },
+      {
+        question: "Na kojoj koncentraciji treba pripremiti osnovne rastvore peptida?",
+        answer: "BioPeptides preporučuje pripremu koncentrisanih osnovnih rastvora i izvođenje radnih razrjeđenja neposredno prije upotrebe. Ovaj pristup smanjuje cikluse zamrzavanja i odmrzavanja te poboljšava dugoročnu stabilnost."
+      },
+      {
+        question: "Može li BioPeptides pomoći kod izazova u formulaciji peptida?",
+        answer: "Da. BioPeptides pruža tehničke konsultacije za solubilizaciju peptida, optimizaciju formulacija, ispitivanje stabilnosti i analitičku karakterizaciju kako bi podržao napredne istraživačke tokove rada."
+      }
+    ]
+  }
+},
+peptideBonds: {
+  img: "/peptide-info/section-basics.jpg",
+  title: "Peptidne veze: struktura, formiranje i biološki značaj",
+  preview: "Peptidna veza je osnovna hemijska veza koja povezuje aminokiseline...",
+  content: [
+    "Sav sadržaj i informacije o proizvodima koje objavljuje BioPeptides namijenjeni su isključivo edukativnim i in-vitro istraživačkim svrhama. Naši proizvodi se isporučuju samo za laboratorijska i naučna istraživanja. Oni nisu lijekovi, terapijska sredstva ili farmaceutski proizvodi i nisu odobreni od strane FDA za dijagnosticiranje, liječenje, izlječenje ili prevenciju bilo koje bolesti.",
+    "Svaki oblik tjelesne primjene kod ljudi ili životinja strogo je zabranjen."
+  ],
+  additionalContent: {
+    heading: "Uvod u peptidne veze",
+    paragraphs: [
+      "U savremenim biohemijskim istraživanjima, razumijevanje prirode peptidne veze je ključno. Peptidna veza je osnovna hemijska veza koja povezuje aminokiseline u peptide, polipeptide i proteine — gradivne blokove svih bioloških sistema.",
+      "U BioPeptides-u podržavamo istraživače i laboratorije širom svijeta visokopročišćenim sintetskim peptidima i naprednim biohemijskim znanjem. Ovaj vodič pruža jasno, istraživačkog kvaliteta objašnjenje formiranja peptidnih veza, njihove strukture i hemijskih svojstava."
+    ],
+    subSections: [
+      {
+        heading: "Šta je peptidna veza?",
+        content: [
+          "Peptidna veza je jaka kovalentna veza koja nastaje između dvije aminokiseline. Formira se kada karboksilna grupa jedne aminokiseline reaguje sa amino grupom druge aminokiseline. Tokom ove reakcije oslobađa se molekul vode, što proces čini kondenzacijskom reakcijom.",
+          "Nastala veza poznata je kao CO–NH veza i hemijski se klasificira kao amidna veza. Nakon formiranja, dvije aminokiseline čine dipeptid, najjednostavniji oblik peptidnog lanca.",
+          "Ovaj proces predstavlja osnovu sinteze peptida, strukture proteina i sastavljanja bioloških makromolekula."
+        ]
+      },
+      {
+        heading: "Objašnjenje formiranja peptidne veze",
+        content: [
+          "Da bi se formirala peptidna veza, dvije aminokiseline moraju se poravnati tako da karboksilna grupa jedne molekule može reagovati s amino grupom druge molekule. Kada se to dogodi, oslobađa se molekul vode (H₂O) i formira se stabilna kovalentna veza.",
+          "Ovaj mehanizam omogućava povezivanje aminokiselina u duže lance:",
+          "Lanci s manje od 50 aminokiselina klasificiraju se kao peptidi",
+          "Lanci s 50–100 aminokiselina nazivaju se polipeptidi",
+          "Lanci s više od 100 aminokiselina smatraju se proteinima",
+          "Ove strukture imaju centralnu ulogu u enzimskim reakcijama, ćelijskom signaliziranju, metabolizmu i genetskoj ekspresiji."
+        ]
+      },
+      {
+        heading: "Hemijski proces: hidroliza peptidne veze",
+        content: [
+          "Iako su peptidne veze hemijski stabilne, mogu se razgraditi procesom poznatim kao hidroliza, koji uključuje reakciju s vodom. Iako se spontana hidroliza odvija sporo, biološki sistemi koriste enzime za efikasno cijepanje peptidnih veza tokom probave, metabolizma i recikliranja proteina.",
+          "Hidroliza peptidne veze oslobađa približno 10 kJ/mol slobodne energije. Talasna dužina apsorpcije peptidne veze nalazi se između 190–230 nm, što UV spektroskopiju čini vrijednim analitičkim alatom u istraživanju peptida."
+        ]
+      },
+      {
+        heading: "Biološki značaj peptidnih veza",
+        content: [
+          "U živim organizmima, enzimi neprekidno formiraju i razgrađuju peptidne veze. Mnogi esencijalni biološki molekuli su peptidi ili proteini, uključujući:",
+          "Hormone",
+          "Neurotransmitere",
+          "Antibiotike",
+          "Antitumorske spojeve",
+          "Enzime",
+          "Ovi molekuli regulišu gotovo svaki biohemijski proces u ljudskom tijelu, čineći hemiju peptida temeljem moderne biotehnologije i farmaceutskih istraživanja."
+        ]
+      },
+      {
+        heading: "Molekularna struktura peptidne veze",
+        content: [
+          "Napredna rendgenska difrakciona istraživanja pokazala su da je peptidna veza kruta i planarna. Ova krutost uzrokovana je rezonantnom interakcijom unutar amidne grupe.",
+          "Atom azota u amidnoj grupi donira svoj slobodni par elektrona karbonilnoj grupi, stvarajući djelimični karakter dvostruke veze. Kao rezultat:",
+          "N–C veza je kraća od normalne jednostruke veze",
+          "C=O veza je nešto duža od tipične karbonilne veze",
+          "Peptidna veza poprima trans konfiguraciju, koja je energetski stabilnija od cis konfiguracije",
+          "Ova krutost ima ključnu ulogu u određivanju savijanja proteina, sekundarne strukture i molekularne stabilnosti."
+        ]
+      },
+      {
+        heading: "Polarnost i električna svojstva peptidne veze",
+        content: [
+          "Rezonantna struktura peptidne veze stvara trajni električni dipol. Atom kisika nosi djelimični negativni naboj (–0,28), dok atom azota nosi djelimični pozitivni naboj (+0,28).",
+          "Ova polarnost utiče na:",
+          "Vodonične veze",
+          "Savijanje proteina",
+          "Vezivanje enzima",
+          "Molekularno prepoznavanje",
+          "Zbog djelimičnog karaktera dvostruke veze, peptidna veza ograničava rotaciju i doprinosi definisanom trodimenzionalnom obliku peptida i proteina."
+        ]
+      },
+      {
+        heading: "Zašto su peptidne veze važne u istraživanju",
+        content: [
+          "Peptidna veza je strukturna okosnica:",
+          "Sintetskih peptida",
+          "Istraživačkih peptida",
+          "Terapijskih peptida",
+          "Inženjeringa proteina",
+          "Otkrivanja lijekova",
+          "Razumijevanje hemije peptidnih veza omogućava naučnicima da dizajniraju stabilnije, efikasnije i biološki aktivnije molekule peptida.",
+          "U BioPeptides-u se specijaliziramo za razvoj i isporuku precizno dizajniranih prilagođenih peptida, podržavajući farmaceutska, biotehnološka i akademska istraživanja širom Evrope i svijeta."
+        ]
+      }
+    ]
+  },
+  conclusion: [
+    "Peptidna veza je jedna od najvažnijih hemijskih veza u biologiji. Ona povezuje aminokiseline u funkcionalne biomolekule, određuje arhitekturu proteina i omogućava život na molekularnom nivou.",
+    "Kroz naprednu sintezu peptida, strukturnu analizu i biohemijska istraživanja, naučnici nastavljaju otkrivati ogroman potencijal tehnologija zasnovanih na peptidima.",
+    "BioPeptides ostaje posvećen podršci ovom naučnom napretku kroz visokopročišćene istraživačke peptide, tehničku ekspertizu i inovacije."
+  ],
+  faqSection: {
+    heading: "Često postavljana pitanja (FAQ)",
+    faqs: [
+      {
+        question: "Šta je peptidna veza i zašto je važna u istraživanju peptida?",
+        answer: "Peptidna veza je kovalentna amidna veza koja povezuje aminokiseline u peptidne lance. Ona čini strukturnu okosnicu svih peptida i proteina, direktno utičući na molekularnu stabilnost, biološku aktivnost i eksperimentalne performanse u farmaceutskim, biohemijskim i biotehnološkim istraživanjima."
+      },
+      {
+        question: "Kako BioPeptides osigurava visoki kvalitet sinteze peptidnih veza?",
+        answer: "BioPeptides koristi preciznu solid-phase sintezu peptida, rigorozno pročišćavanje i analitičku validaciju kako bi osigurao da je svaka peptidna veza pravilno formirana. Svaka serija prolazi HPLC i masenu spektrometriju radi garantovanja strukturnog integriteta, tačnosti sekvence i istraživačkog stepena čistoće."
+      },
+      {
+        question: "Zašto je stabilnost peptidnih veza ključna u laboratorijskim eksperimentima?",
+        answer: "Stabilne peptidne veze čuvaju molekularnu strukturu tokom rukovanja, skladištenja i eksperimentiranja. Nestabilnost može dovesti do degradacije, promijenjene bioaktivnosti ili nekonzistentnih rezultata testova, što čini pouzdano formiranje peptidnih veza neophodnim za ponovljiva naučna istraživanja i razvoj lijekova."
+      },
+      {
+        question: "Može li BioPeptides sintetizirati duge peptidne lance s kompleksnim sekvencama?",
+        answer: "Da. BioPeptides se specijalizira za prilagođenu sintezu peptida, uključujući dugolančane peptide, modificirane peptide i kompleksne sekvence. Naša napredna tehnologija sinteze osigurava tačno formiranje peptidnih veza čak i kod zahtjevnih hidrofobnih ili visoko nabijenih dizajna."
+      },
+      {
+        question: "Kako struktura peptidne veze utiče na savijanje proteina?",
+        answer: "Kruta, planarna struktura peptidne veze ograničava rotaciju i usmjerava formiranje sekundarnih struktura poput alfa-spirala i beta-listova. Ova strukturna kontrola određuje trodimenzionalnu konformaciju neophodnu za funkciju proteina i biološke interakcije."
+      },
+      {
+        question: "Koju ulogu imaju peptidne veze u otkrivanju lijekova?",
+        answer: "Peptidne veze povezuju terapijske peptide koji stupaju u interakciju s receptorima, enzimima i ćelijskim ciljevima. Mnogi savremeni lijekovi su bazirani na peptidima, što hemiju peptidnih veza čini temeljnim dijelom farmaceutskih istraživanja, razvoja bioloških lijekova i terapija nove generacije."
+      },
+      {
+        question: "Da li su BioPeptides proizvodi pogodni za farmaceutska istraživanja?",
+        answer: "Da. BioPeptides isporučuje ultra-visokopročišćene istraživačke peptide pogodne za farmaceutski skrining, molekularno modeliranje, razvoj formulacija i preklinička istraživanja. Svi proizvodi su namijenjeni isključivo za in-vitro laboratorijska istraživanja i naučnu evaluaciju."
+      },
+      {
+        question: "Može li BioPeptides pružiti tehničku podršku za analizu peptidnih veza?",
+        answer: "BioPeptides nudi stručne konsultacije o dizajnu peptida, sintezi, stabilnosti veza, optimizaciji rastvorljivosti i analitičkoj karakterizaciji. Naš naučni tim podržava istraživače prilagođenim rješenjima za napredne projekte iz hemije peptida i molekularne biologije."
+      }
+    ]
+  }
+},
+peptidesVsProteins: {
+  title: "Peptidi naspram proteina: razumijevanje osnovnih razlika",
+  img: "/peptide-info/protein.jpg",
+  preview: "Peptidi i proteini su blisko povezani biološki molekuli, ali se razlikuju na značajne načine...",
+  
+  content: [
+    "Peptidi i proteini su blisko povezani biološki molekuli, ali se razlikuju na značajne načine koje je ključno razumjeti za istraživače, biohemičare i farmaceutske naučnike. Iako se termini ponekad koriste naizmjenično u neformalnom govoru, peptidi i proteini se razlikuju po veličini, strukturi, stabilnosti i biološkom ponašanju. U BioPeptides-u, razumijevanje ovih razlika je od suštinske važnosti za odabir odgovarajućih istraživačkih materijala i dizajniranje preciznih eksperimentalnih protokola.",
+    "I peptidi i proteini izgrađeni su od aminokiselina, ali način na koji su ovi gradivni blokovi povezani — i kako se rezultirajući molekuli ponašaju — određuje da li se jedinjenje najbolje klasificira kao peptid ili protein.",
+    "Aminokiseline su male, ali esencijalne organske molekule koje čine osnovu peptida i proteina. Svaka aminokiselina sadrži centralni atom ugljika povezan s amino grupom, karboksilnom grupom, atomom vodika i varijabilnim bočnim lancem koji određuje njena hemijska svojstva. Iako postoji na stotine aminokiselina, samo dvadeset je genetski kodirano i uobičajeno prisutno u biološkim sistemima. Mnoge dodatne aminokiseline mogu se hemijski sintetizirati i ugraditi u istraživačke peptide.",
+    "Kada se aminokiseline povezuju reakcijom između amino grupe jedne molekule i karboksilne grupe druge, formira se peptidna veza. Ova veza stvara lanac aminokiselina i, u zavisnosti od broja uključenih aminokiselina, nastali molekul može se klasificirati kao peptid, polipeptid ili protein."
+  ],
+
+  subSections: [
+    {
+      heading: "Šta su peptidi?",
+      content: [
+        "Peptidi su relativno kratki lanci aminokiselina povezani peptidnim vezama. Mogu biti prirodnog porijekla ili sintetski proizvedeni i široko se koriste u biohemijskim, farmaceutskim i molekularno-biološkim istraživanjima.",
+        "U BioPeptides-u, peptidi se obično kategoriziraju prema dužini, pri čemu se kraće sekvence često nazivaju oligopeptidima, a duže sekvence polipeptidima.",
+        "Kratki peptidi, poput dipeptida i tripeptida, sadrže dvije odnosno tri aminokiseline, dok duži peptidi mogu sadržavati nekoliko desetina aminokiselina. Ovi molekuli često djeluju kao signalne molekule, inhibitori enzima ili molekularne sonde u istraživačkim okruženjima. Zbog svoje veličine, peptidi su obično fleksibilniji i ne moraju usvajati stabilnu trodimenzionalnu strukturu."
+      ]
+    },
+    {
+      heading: "Polipeptidi i proteini: gdje se povlači granica",
+      content: [
+        "Polipeptidi zauzimaju prostor između peptida i proteina i općenito se definišu kao lanci aminokiselina koji sadrže više od deset ostataka.",
+        "Međutim, razlika između polipeptida i proteina postaje izraženija kako se povećavaju dužina lanca i strukturna složenost.",
+        "Proteini se obično definišu kao polipeptidi sastavljeni od približno 50 ili više aminokiselina koji se savijaju u stabilnu, trodimenzionalnu strukturu.",
+        "Ova savijena struktura je ključna za funkciju proteina, omogućavajući im da obavljaju visoko specifične biološke uloge kao što su kataliza, transport, strukturna podrška ili imunološka odbrana. Nasuprot tome, kraći polipeptidi često nemaju kooperativne interakcije potrebne za održavanje fiksne strukture i stoga se drugačije ponašaju u eksperimentalnim sistemima."
+      ]
+    },
+    {
+      heading: "Strukturne razlike između peptida i proteina",
+      content: [
+        "Jedna od najvažnijih razlika između peptida i proteina leži u njihovom strukturnom ponašanju. Proteini se obično savijaju u precizne i stabilne konformacije, često opisane kao tercijarne ili kvartarne strukture. Ove strukture stabilizirane su vodoničnim vezama, hidrofobnim interakcijama, ionskim interakcijama i disulfidnim mostovima.",
+        "Peptidi, posebno oni kraći od 40–50 aminokiselina, uglavnom ne formiraju stabilne savijene strukture. Umjesto toga, postoje u fleksibilnijim konformacijama, što može biti prednost u istraživačkim primjenama koje zahtijevaju dinamične molekularne interakcije. Ova strukturna fleksibilnost jedan je od razloga zašto se peptidi široko koriste u studijama vezivanja receptora, istraživanjima signalizacije i ranim fazama otkrivanja lijekova."
+      ]
+    },
+    {
+      heading: "Odabir ispravnog termina: peptidi naspram proteina",
+      content: [
+        "Sa tehničkog stanovišta, svi proteini su polipeptidi, ali nisu svi polipeptidi proteini. U istraživanju i naučnoj komunikaciji često je korisno termin 'protein' rezervisati za duže, strukturno definisane molekule, a termin 'peptid' koristiti za kraće lance aminokiselina.",
+        "U BioPeptides-u, ova razlika pomaže istraživačima da precizno opišu molekularna svojstva, odaberu odgovarajuće analitičke tehnike i jasno dizajniraju eksperimente. Razumijevanje da li se molekul ponaša kao peptid ili protein može uticati na rastvorljivost, stabilnost, zahtjeve za skladištenje i biološku aktivnost in vitro."
+      ]
+    },
+    {
+      heading: "BioPeptides i molekularna preciznost istraživačkog kvaliteta",
+      content: [
+        "BioPeptides se specijalizira za isporuku visokokvalitetnih istraživačkih peptida dizajniranih za preciznost, dosljednost i ponovljivost. Jasnim razlikovanjem između peptida i proteina, istraživači mogu donositi informisane odluke koje unapređuju pouzdanost eksperimenata i naučne rezultate. Bilo da rade s kratkim peptidnim sekvencama ili dužim polipeptidima, razumijevanje ovih molekularnih razlika je temelj naprednih biohemijskih istraživanja."
+      ]
+    }
+  ],
+
+  faqSection: {
+    heading: "Često postavljana pitanja",
+    faqs: [
+      {
+        question: "Koja je glavna razlika između peptida i proteina?",
+        answer: "Primarna razlika leži u veličini i strukturi. Peptidi su kraći lanci aminokiselina koji često nemaju stabilnu trodimenzionalnu strukturu, dok su proteini duži lanci koji se savijaju u definirane strukture neophodne za obavljanje složenih bioloških funkcija."
+      },
+      {
+        question: "Da li su peptidi i proteini izgrađeni od istih aminokiselina?",
+        answer: "Da. I peptidi i proteini sastavljeni su od istih dvadeset genetski kodiranih aminokiselina. Razlika između njih zasniva se na broju povezanih aminokiselina i na tome da li lanac formira stabilnu, funkcionalnu trodimenzionalnu strukturu."
+      },
+      {
+        question: "Zašto se peptidi često koriste u laboratorijskim istraživanjima?",
+        answer: "Peptidi se široko koriste zbog svoje manje veličine, fleksibilnosti i jednostavnije sinteze. Ove karakteristike ih čine idealnim za studije vezivanja receptora, istraživanja signalnih puteva, razvoj testova i rane faze eksperimenata u otkrivanju lijekova."
+      },
+      {
+        question: "Na kojoj dužini peptid postaje protein?",
+        answer: "Ne postoji apsolutna granica, ali lanci koji sadrže približno 50 ili više aminokiselina obično se klasificiraju kao proteini. Ovaj prag se temelji na sposobnosti dužih lanaca da se saviju u stabilne, biološki funkcionalne strukture."
+      },
+      {
+        question: "Da li svi polipeptidi funkcionišu kao proteini?",
+        answer: "Ne. Iako su svi proteini polipeptidi, ne formiraju svi polipeptidi stabilne strukture niti obavljaju proteinske funkcije. Mnogi kraći polipeptidi ostaju strukturno fleksibilni i ponašaju se više kao peptidi u istraživačkim primjenama."
+      },
+      {
+        question: "Kako struktura utiče na ponašanje peptida i proteina u eksperimentima?",
+        answer: "Strukturna stabilnost utiče na rastvorljivost, specifičnost vezivanja i biološku aktivnost. Proteini zahtijevaju precizno savijanje da bi pravilno funkcionisali, dok se peptidi često oslanjaju na interakcije vođene sekvencom, a ne na fiksne trodimenzionalne strukture."
+      },
+      {
+        question: "Mogu li se peptidi lakše sintetizirati od proteina?",
+        answer: "Da. Peptidi se generalno lakše i brže sintetiziraju hemijskim metodama poput solid-phase sinteze peptida. Proteini često zahtijevaju biološke sisteme ekspresije i složenije procese pročišćavanja."
+      },
+      {
+        question: "Zašto je razlika između peptida i proteina važna u istraživanju?",
+        answer: "Razumijevanje ove razlike pomaže istraživačima da odaberu odgovarajuće eksperimentalne metode, uslove skladištenja i analitičke tehnike. Također osigurava tačnu naučnu komunikaciju prilikom opisivanja molekularne veličine, strukture i funkcionalnog ponašanja u istraživačkim studijama."
+      }
+    ]
+  }
+},
+storingPeptides: {
+  title: "Najbolje prakse za skladištenje istraživačkih peptida",
+  img: "/peptide-info/storagepep.jpg",
+  preview: "Pravilno skladištenje istraživačkih peptida je osnovni zahtjev za očuvanje eksperimentalne tačnosti...",
+  
+  content: [
+    "Pravilno skladištenje istraživačkih peptida predstavlja temeljni zahtjev za očuvanje eksperimentalne tačnosti, ponovljivosti i dugoročne naučne pouzdanosti. Čak i peptidi proizvedeni prema najvišim standardima čistoće mogu se brzo degradirati ako su izloženi nepovoljnim okolišnim uslovima. Od trenutka kada istraživači kupe peptide online pa sve do njihove eksperimentalne primjene, pravilni protokoli skladištenja imaju ključnu ulogu u očuvanju integriteta peptida. Za laboratorije širom Evrope i globalna istraživačka tržišta, primjena standardizovanih praksi skladištenja peptida osigurava da visokokvalitetni materijali pouzdanih dobavljača poput Biopeptides-a dosljedno daju očekivane rezultate.",
+    "Kontrola temperature jedan je od najutjecajnijih faktora koji utiču na stabilnost peptida. Po isporuci, peptide treba zaštititi od toplote, direktne svjetlosti i vlage. Kratkoročno skladištenje na rashladnim temperaturama ispod 4°C je uglavnom prihvatljivo kada su peptidi namijenjeni za brzu eksperimentalnu upotrebu. Iako liofilizirani peptidi koje isporučuje Biopeptides mogu tolerisati kratkotrajnu izloženost sobnoj temperaturi tokom rukovanja ili transporta, to nikada ne smije zamijeniti kontrolisano skladištenje.",
+    "Za dugotrajno skladištenje koje traje mjesecima ili godinama, ultra-nisko zamrzavanje na približno -80°C smatra se najboljom praksom. Ovo značajno usporava hemijske reakcije poput oksidacije i hidrolize, pomažući očuvanju strukture i aktivnosti peptida. Laboratorije koje se bave farmaceutskim razvojem, molekularnom biologijom ili biotehnološkim istraživanjima oslanjaju se na ovaj pristup kako bi zaštitile osjetljive peptide nabavljene od vrhunskih dobavljača kao što je Biopeptides."
+  ],
+
+  subSections: [
+    {
+      heading: "Upravljanje temperaturom i dugoročna stabilnost peptida",
+      content: [
+        "Kontrola temperature jedan je od najutjecajnijih faktora koji utiču na stabilnost peptida. Po isporuci, peptide treba zaštititi od toplote, direktne svjetlosti i vlage. Kratkoročno skladištenje na rashladnim temperaturama ispod 4°C je uglavnom prihvatljivo kada su peptidi planirani za brzu eksperimentalnu upotrebu.",
+        "Za dugotrajno skladištenje koje traje mjesecima ili godinama, ultra-nisko zamrzavanje na približno -80°C smatra se najboljom praksom. Ovo značajno usporava hemijske reakcije poput oksidacije i hidrolize, pomažući očuvanju strukture i aktivnosti peptida."
+      ]
+    },
+    {
+      heading: "Smanjenje oštećenja uzrokovanih ciklusima zamrzavanja i odmrzavanja",
+      content: [
+        "Ponavljani ciklusi zamrzavanja i odmrzavanja spadaju među najčešće uzroke degradacije peptida u istraživačkim okruženjima. Svako odmrzavanje izlaže peptide vlazi, kisiku i strukturnom stresu, povećavajući rizik od agregacije i smanjene biološke aktivnosti. Kako bi se ovaj rizik smanjio, peptide treba alikvotirati u bočice za jednokratnu upotrebu odmah nakon prijema.",
+        "Istraživači koji redovno nabavljaju peptide od Biopeptides-a često primjenjuju alikvotiranje kao standardnu operativnu proceduru radi očuvanja dosljednosti eksperimenata. Također, treba izbjegavati zamrzivače bez leda (frost-free), jer njihovi automatski ciklusi odmrzavanja uzrokuju temperaturne oscilacije koje mogu vremenom ugroziti stabilnost peptida."
+      ]
+    },
+    {
+      heading: "Zaštita peptida od oksidacije i vlage",
+      content: [
+        "Oksidacija i izloženost vlazi predstavljaju ozbiljnu prijetnju dugotrajnosti peptida. Prije otvaranja zamrznutih spremnika s peptidima, bočice treba ostaviti da se izjednače sa sobnom temperaturom kako bi se spriječilo stvaranje kondenzacije unutar bočice. Izlaganje zraku treba svesti na apsolutni minimum, posebno kod peptida koji sadrže aminokiseline osjetljive na oksidaciju poput cisteina, metionina i triptofana.",
+        "Napredne laboratorije koje rade s Biopeptides-om često ponovo zatvaraju spremnike s peptidima pod inertnim gasovima kao što su dušik ili argon kako bi dodatno smanjile oksidativni stres. Ova praksa je posebno česta u regulisanim istraživačkim okruženjima širom Evrope, gdje je očuvanje integriteta materijala ključno za validaciju podataka i usklađenost s propisima."
+      ]
+    },
+    {
+      heading: "Razmatranja skladištenja peptida u rastvoru",
+      content: [
+        "Iako liofilizirani peptidi nude superiornu dugoročnu stabilnost, određeni eksperimentalni protokoli zahtijevaju skladištenje peptida u rastvoru. U tim slučajevima, sterilni puferi s blago kiselim pH vrijednostima su poželjni kako bi se smanjio rizik od degradacije. Međutim, peptidi u rastvoru su inherentno manje stabilni i osjetljiviji na mikrobiološku kontaminaciju i hemijsku razgradnju.",
+        "Za istraživače koji redovno kupuju peptide od Biopeptides-a za ponovljene testove, priprema alikvota malog volumena pomaže u ograničavanju degradacije uz istovremeno očuvanje eksperimentalne dosljednosti. Hlađenje ili zamrzavanje je neophodno, a period skladištenja peptida u rastvoru treba biti što kraći."
+      ]
+    },
+    {
+      heading: "Odabir odgovarajućih spremnika za skladištenje",
+      content: [
+        "Izbor spremnika za skladištenje direktno utiče na stabilnost peptida. Spremnici moraju biti čisti, hemijski inertni i odgovarajuće veličine kako bi se smanjio prostor za zrak i izlaganje zraku. Visokokvalitetne staklene bočice često se preferiraju za dugotrajno skladištenje peptida zbog svojih inertnih svojstava, dok polipropilenske bočice nude izdržljivost i hemijsku otpornost za rutinsku laboratorijsku upotrebu.",
+        "Peptidi koje isporučuje Biopeptides pakovani su tako da osiguraju siguran transport i početnu stabilnost, ali laboratorije mogu odlučiti da premjeste peptide u alternativne spremnike u skladu s internim protokolima ili zahtjevima dugoročnog skladištenja."
+      ]
+    },
+    {
+      heading: "Očuvanje naučnog integriteta kroz pravilno skladištenje",
+      content: [
+        "Efikasno skladištenje peptida nije samo logističko pitanje; to je naučna nužnost. Bilo da se radi o ranim fazama istraživanja, farmaceutskom razvoju ili analizi molekularnih puteva, održavanje strogih uslova skladištenja osigurava da peptidi daju pouzdane i ponovljive rezultate. Zaštitom peptida od temperaturnih oscilacija, oksidacije, vlage i nepotrebnog rukovanja, laboratorije širom svijeta mogu maksimalno iskoristiti vrijednost i performanse visokokvalitetnih istraživačkih peptida koje isporučuje Biopeptides."
+      ]
+    }
+  ],
+
+  faqSection: {
+    heading: "Često postavljana pitanja (FAQs)",
+    faqs: [
+      {
+        question: "Kako skladištenje peptida utiče na ponovljivost eksperimenata?",
+        answer: "Nepravilno skladištenje može dovesti do degradacije peptida, promjene strukture i smanjene aktivnosti, što rezultira nekonzistentnim eksperimentalnim ishodima. Održavanje stabilnih uslova skladištenja osigurava da peptidi iz Biopeptides-a dosljedno daju pouzdane rezultate kroz ponovljene studije i duge istraživačke periode."
+      },
+      {
+        question: "Da li su neke sekvence peptida osjetljivije na degradaciju?",
+        answer: "Da. Peptidi koji sadrže aminokiseline poput cisteina, metionina, triptofana, asparagina ili glutamina osjetljiviji su na oksidaciju i hemijsku nestabilnost. Ovi peptidi zahtijevaju strožiju kontrolu temperature i smanjenu izloženost zraku kako bi se očuvao njihov integritet."
+      },
+      {
+        question: "Zašto se preporučuje alikvotiranje peptida odmah nakon prijema?",
+        answer: "Alikvotiranje smanjuje ponovljenu izloženost zraku, vlazi i promjenama temperature. Ova praksa značajno smanjuje rizik od degradacije i pomaže istraživačima koji koriste Biopeptides da održe dosljedne performanse peptida kroz više eksperimenata."
+      },
+      {
+        question: "Kako izloženost vlazi utiče na stabilnost peptida?",
+        answer: "Vlaga može pokrenuti hidrolizu i poremetiti peptidne veze, što dovodi do brze degradacije. Omogućavanje zamrznutim peptidima da dostignu sobnu temperaturu prije otvaranja spremnika pomaže u sprječavanju kondenzacije i produžava vijek trajanja peptida."
+      },
+      {
+        question: "Da li izloženost svjetlosti doprinosi degradaciji peptida?",
+        answer: "Da. Dugotrajna izloženost svjetlosti, posebno ultraljubičastoj, može ubrzati hemijsku degradaciju određenih peptida. Skladištenje peptida u tamnim ili neprozirnim spremnicima pomaže očuvanju stabilnosti, naročito za dugoročnu istraživačku upotrebu."
+      },
+      {
+        question: "Može li se degradacija peptida prepoznati prije nego što eksperimenti ne uspiju?",
+        answer: "U mnogim slučajevima, degradacija se može prepoznati kroz promjene u rastvorljivosti, agregaciju ili neočekivanu varijabilnost testova. Analitičke metode poput HPLC-a ili masene spektrometrije često se koriste za provjeru integriteta peptida prije kritičnih eksperimenata."
+      },
+      {
+        question: "Zašto zamrzivači bez leda (frost-free) nisu pogodni za skladištenje peptida?",
+        answer: "Zamrzivači bez leda prolaze kroz redovne temperaturne cikluse kako bi spriječili stvaranje leda. Ove oscilacije mogu uzrokovati stres na strukturu peptida i povećati rizik od degradacije u poređenju sa ultra-niskim zamrzivačima sa konstantnom temperaturom."
+      },
+      {
+        question: "Kako pravilno skladištenje peptida podržava istraživanja usklađena s propisima?",
+        answer: "Kontrolisani uslovi skladištenja podržavaju sljedivost, ponovljivost i integritet podataka. Ovi faktori su ključni za farmaceutske, pretkliničke i kolaborativne istraživačke projekte koji koriste visokokvalitetne peptide iz Biopeptides-a."
+      }
+    ]
+  }
+},
+researchPeptidesForDiscovery: {
+  title: "Istraživački peptidi za naučna otkrića i inovacije",
+  img: "/peptide-info/research.jpg",
+  preview: "Istraživački peptidi postali su jedan od najmoćnijih alata za inovacije i otkrića...",
+
+  content: [
+    "U savremenoj biomedicinskoj i farmaceutskoj nauci, istraživački peptidi postali su jedan od najmoćnijih alata za inovacije i otkrića. Ove precizno dizajnirane molekule naučnici koriste za istraživanje bioloških puteva, razvoj terapija nove generacije i pomjeranje granica molekularne medicine.",
+    "U BioPeptides-u isporučujemo visokopročišćene istraživačke peptide laboratorijama, univerzitetima i biotehnološkim kompanijama širom Španije, Francuske, Holandije, Italije, Njemačke i drugih evropskih zemalja, podržavajući najsavremeniji naučni napredak.",
+    "Svi članci i informacije o proizvodima koje pruža BioPeptides namijenjeni su isključivo za edukativne i in-vitro istraživačke svrhe. Naši proizvodi su namijenjeni samo za laboratorijska i naučna ispitivanja. Oni nisu lijekovi niti farmaceutski preparati i nisu odobreni od strane FDA za dijagnostiku, liječenje, ublažavanje ili prevenciju bilo koje bolesti. Svaki oblik primjene u ljudima ili životinjama strogo je zabranjen."
+  ],
+
+  subSections: [
+    {
+      heading: "Šta su istraživački peptidi?",
+      content: [
+        "Istraživački peptidi su sintetičke ili prirodno izvedene peptidne sekvence koje se proizvode isključivo za laboratorijska ispitivanja i naučna istraživanja. Široko se koriste u:",
+        "• Programima otkrivanja lijekova",
+        "• Studijama vezivanja receptora",
+        "• Istraživanjima molekularne biologije",
+        "• Ispitivanjima ćelijskog signaliziranja",
+        "• Biohemijskom i farmaceutskom razvoju",
+        "Zbog svoje visoke selektivnosti, potentnosti i predvidivog metabolizma, peptidi su postali jedna od najperspektivnijih molekularnih klasa u savremenoj medicini. Kao rezultat toga, globalna potražnja za istraživačkim peptidima brzo raste širom Evrope i svijeta."
+      ]
+    },
+    {
+      heading: "Istraživački peptidi naspram lijekova",
+      content: [
+        "Izuzetno je važno jasno razlikovati istraživačke peptide od odobrenih farmaceutskih lijekova.",
+        "Istraživački peptidi proizvode se isključivo za in-vitro studije (latinski: „in glass“), što znači eksperimente koji se izvode izvan živih organizama. Naučnici ih koriste za istraživanje bioloških mehanizama i procjenu potencijalnih kandidata za lijekove.",
+        "Nasuprot tome, lijekovi zasnovani na peptidima moraju proći:",
+        "• Opsežna pretklinička ispitivanja",
+        "• Više faza kliničkih ispitivanja",
+        "• Regulatorna odobrenja agencija poput FDA ili EMA",
+        "Danas je globalno odobreno više od 60 peptidnih lijekova, uključujući tzv. blockbuster lijekove u onkologiji, metaboličkim bolestima i endokrinologiji. Međutim, oni više nisu istraživački peptidi — oni su regulisani farmaceutski proizvodi.",
+        "Istraživački peptidi predstavljaju temelj za otkrivanje lijekova budućnosti."
+      ]
+    },
+    {
+      heading: "Istraživački peptidi kao buduće terapije",
+      content: [
+        "Više od 7.000 prirodno prisutnih peptida već je identifikovano u biološkim sistemima. Ovi peptidi funkcionišu kao:",
+        "• Hormoni",
+        "• Faktori rasta",
+        "• Neurotransmiteri",
+        "• Imunomodulatori",
+        "• Antimikrobni agensi",
+        "Peptidi su visoko selektivne signalne molekule koje se precizno vežu za ćelijske receptore i pokreću unutarćelijske odgovore. Njihova specifičnost omogućava ciljana biološka djelovanja uz minimalne neželjene efekte.",
+        "Klinička istraživanja dosljedno pokazuju da terapije zasnovane na peptidima nude:",
+        "• Odličan sigurnosni profil",
+        "• Visoku biološku potentnost",
+        "• Predvidiv metabolizam",
+        "• Snažnu selektivnost receptora",
+        "Kao rezultat toga, peptidi predstavljaju jedan od najbrže rastućih sektora u farmaceutskim i biotehnološkim istraživanjima."
+      ]
+    },
+    {
+      heading: "Globalni rast istraživanja peptida",
+      content: [
+        "Širenje istraživanja peptida potaknuto je velikim globalnim zdravstvenim izazovima, uključujući:",
+        "• Metaboličke poremećaje poput dijabetesa tipa 2 i gojaznosti",
+        "• Onkologiju i ciljane terapije raka",
+        "• Infektivne bolesti",
+        "• Upalne bolesti",
+        "• Rijetke genetske poremećaje",
+        "Evropski istraživački centri u Francuskoj, Španiji, Holandiji, Italiji, Švicarskoj i Njemačkoj intenzivno ulažu u razvoj lijekova zasnovanih na peptidima, dijagnostiku i vakcinske tehnologije.",
+        "U BioPeptides-u podržavamo ovaj globalni istraživački ekosistem isporukom vrhunskih sintetičkih peptida, analitičke karakterizacije i usluga prilagođene sinteze peptida."
+      ]
+    },
+    {
+      heading: "Zašto naučnici biraju BioPeptides",
+      content: [
+        "BioPeptides je pouzdan dobavljač:",
+        "• Istraživačkih peptida",
+        "• Sintetičkih peptida",
+        "• Prilagođene sinteze peptida",
+        "• Visokopročišćenih peptidnih spojeva",
+        "• Farmaceutskih istraživačkih peptida",
+        "Naši peptidi proizvode se korištenjem napredne solid-phase peptide synthesis (SPPS) tehnologije i validirani su pomoću HPLC-a i masene spektrometrije kako bi se osigurala vrhunska kvaliteta i ponovljivost.",
+        "S ponosom podržavamo istraživačke institucije širom Španije, Francuske, Holandije, Italije, Belgije, Švedske, Danske i drugih evropskih zemalja."
+      ]
+    },
+    {
+      heading: "Zaključak",
+      content: [
+        "Istraživački peptidi predstavljaju temelj savremene peptidne nauke i farmaceutske inovacije. Od ranih faza otkrića do naprednog terapijskog razvoja, peptidi nastavljaju oblikovati budućnost medicine.",
+        "U BioPeptides-u ostajemo posvećeni osnaživanju naučnog napretka kroz precizno dizajnirana peptidna rješenja i vrhunsku tehničku ekspertizu."
+      ]
+    }
+  ],
+
+  faqSection: {
+    heading: "Često postavljana pitanja (FAQs)",
+    faqs: [
+      {
+        question: "Za šta se istraživački peptidi koriste u laboratorijama?",
+        answer: "Istraživački peptidi koriste se za proučavanje bioloških puteva, interakcija receptora, aktivnosti enzima i molekularnog signaliziranja. Oni podržavaju otkrivanje lijekova, dijagnostiku, razvoj vakcina i farmaceutske programe ispitivanja u istraživačkim laboratorijama širom Evrope i svijeta."
+      },
+      {
+        question: "Da li su BioPeptides istraživački peptidi pogodni za farmaceutski razvoj?",
+        answer: "Da. BioPeptides isporučuje ultra-visokopročišćene istraživačke peptide namijenjene farmaceutskim istraživanjima, molekularnom modeliranju, razvoju formulacija i pretkliničkim ispitivanjima. Svi proizvodi proizvedeni su prema strogim standardima kvaliteta i validirani naprednim analitičkim tehnikama."
+      },
+      {
+        question: "Da li BioPeptides isporučuje istraživačke peptide širom Evrope?",
+        answer: "BioPeptides isporučuje istraživačke peptide naučnim institucijama i biotehnološkim kompanijama u Španiji, Francuskoj, Holandiji, Italiji, Njemačkoj, Švicarskoj i drugim evropskim zemljama, uz brzu, sigurnu i usklađenu laboratorijsku isporuku."
+      },
+      {
+        question: "Kako BioPeptides osigurava kvalitet i čistoću peptida?",
+        answer: "Svaka serija peptida sintetizira se preciznom solid-phase peptide synthesis tehnologijom i pročišćava HPLC metodom. Strukturna verifikacija vrši se masenom spektrometrijom kako bi se osigurala tačnost sekvence, molekularni integritet i istraživačka čistoća."
+      },
+      {
+        question: "Šta čini peptide idealnim kandidatima za buduće lijekove?",
+        answer: "Peptidi nude visoku biološku selektivnost, snažno vezivanje za receptore, predvidiv metabolizam i odličan sigurnosni profil. Ove karakteristike čine ih idealnim za ciljane terapije u onkologiji, metaboličkim bolestima, imunologiji i istraživanjima infektivnih bolesti."
+      },
+      {
+        question: "Može li BioPeptides proizvoditi prilagođene peptidne sekvence?",
+        answer: "Da. BioPeptides se specijalizira za prilagođenu sintezu peptida, uključujući dugolančane peptide, modificirane peptide, označene peptide i složene molekularne dizajne za napredne istraživačke i farmaceutske razvojne programe."
+      },
+      {
+        question: "Da li su istraživački peptidi regulisani kao lijekovi?",
+        answer: "Ne. Istraživački peptidi nisu odobreni lijekovi. Proizvode se isključivo za in-vitro laboratorijska istraživanja i naučnu evaluaciju. Postaju lijekovi tek nakon opsežnih kliničkih ispitivanja i regulatornog odobrenja."
+      },
+      {
+        question: "Da li BioPeptides pruža tehničku podršku za istraživanje peptida?",
+        answer: "Da. BioPeptides nudi stručne konsultacije u vezi s dizajnom peptida, optimizacijom rastvorljivosti, strategijama formulacije, analitičkim testiranjem i studijama stabilnosti kako bi podržao napredne projekte u peptidnoj hemiji i biotehnološkim istraživanjima."
+      }
+    ]
+  }
+}
+
+
+
+
+
     }
   },
   "home": {

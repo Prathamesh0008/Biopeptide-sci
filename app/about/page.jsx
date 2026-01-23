@@ -11,10 +11,10 @@ import { useState } from "react";
 
 const countryImages = [
   "/bg/germanybg.png",
-  "/bg/Francebg.png",
-  "/bg/Netherlandsbg.png",
-  "/bg/Italybg.png",
-  "/bg/Spainbg.png",
+  "/bg/francebg.png",
+  "/bg/netherlandsbg.png",
+  "/bg/italybg.png",
+  "/bg/spainbg.png",
 ];
 
 export default function AboutPage() {

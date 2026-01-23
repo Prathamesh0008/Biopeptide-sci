@@ -277,61 +277,929 @@ export default {
       "notFound": "Articol Negăsit"
     },
     "articles": {
-      "purity": {
-        "img": "/peptide-info/section-quality.jpg",
-        "title": "Puritatea Peptidelor",
-        "preview": "Cum se obține și verifică puritatea peptidelor? Folosind tehnologie de ultimă generație...",
-        "content": [
-          "Puritatea peptidelor este esențială pentru acuratețea cercetării.",
-          "La BioPeptide, oferim peptizi care depășesc 99% puritate folosind sinteză în fază solidă, purificare HPLC și validare MS.",
-          "Puritatea peptidelor afectează acuratețea dozării, consistența răspunsului biologic și stabilitatea încrucișată sau a testelor.",
-          "Fiecare lot include documentație completă COA.",
-          "Puritatea ridicată minimizează reacțiile nedorite ale lanțurilor laterale care pot altera performanța biologică.",
-          "Tehnici cromatografice avansate ajută la izolarea impurităților și a fragmentelor de degradare cu precizie ridicată.",
-          "Menținerea purității crește, de asemenea, stabilitatea pe termen lung în timpul depozitării și reconstituirii, asigurând rezultate fiabile în experimente."
+     purity: {
+  img: "/peptide-info/section-quality.jpg",
+  title: "Puritatea Peptidelor",
+  preview: "Cum este obținută și verificată puritatea peptidelor? Folosind tehnologie de ultimă generație, ne asigurăm că peptidele noastre depășesc cele mai înalte standarde de puritate, atingând peste 99%. Această puritate este esențială pentru a garanta rezultate de cercetare fiabile și reproductibile. Procesul nostru include metode avansate de purificare, validare riguroasă și protocoale stricte de control al calității, asigurând că fiecare lot de peptide este de cea mai înaltă calitate și potrivit pentru cele mai exigente nevoi de cercetare.",
+  
+  content: [
+    "Puritatea peptidelor este esențială pentru acuratețea cercetării.",
+    "La BioPeptide, furnizăm peptide cu puritate de peste 99% folosind sinteză pe fază solidă, purificare HPLC și validare prin spectrometrie de masă.",
+    "Puritatea peptidelor influențează acuratețea dozării, consistența răspunsului biologic și stabilitatea testelor sau reacțiilor încrucișate.",
+    "Fiecare lot include documentație completă COA.",
+    "Puritatea ridicată minimizează reacțiile nedorite ale lanțurilor laterale care pot altera performanța biologică.",
+    "Tehnicile cromatografice avansate ajută la izolarea impurităților și a fragmentelor de degradare cu precizie ridicată.",
+    "Menținerea purității crește, de asemenea, stabilitatea pe termen lung în timpul depozitării și reconstituirii, asigurând rezultate fiabile între experimente.",
+    "Standarde de puritate a peptidelor și asigurarea calității la BioPeptide",
+    "De către echipa științifică BioPeptide | Publicat: 21 octombrie 2023",
+    "NOTĂ IMPORTANTĂ: Tot conținutul educațional, articolele de cercetare și informațiile despre produse prezentate pe site-ul oficial BioPeptide sunt destinate exclusiv scopurilor informative și educaționale. Compușii noștri premium de peptide, substanțele chimice de cercetare și peptidele sintetice sunt proiectate și furnizate exclusiv pentru studii de cercetare de laborator in-vitro controlate.",
+    "Termenul „in-vitro” (derivat din latină, însemnând „în sticlă”) se referă la experimente științifice efectuate în afara organismelor vii. Aceste peptide de calitate pentru cercetare nu sunt medicamente aprobate, produse farmaceutice sau agenți terapeutici. Niciun produs BioPeptide nu a fost evaluat, aprobat sau autorizat de Administrația pentru Alimente și Medicamente (FDA) pentru prevenirea, tratamentul, ameliorarea sau vindecarea oricărei afecțiuni medicale, boli sau probleme de sănătate. Orice formă de introducere în organism, injectare, ingestie sau administrare a peptidelor noastre de cercetare la oameni sau animale este strict interzisă prin lege și reglementări."
+  ],
+
+  additionalContent: {
+    heading: "Cum BioPeptide obține și verifică standarde excepționale de puritate a peptidelor",
+    paragraphs: [
+      "La BioPeptide, ne mândrim cu livrarea de peptide de calitate pentru cercetare care ating constant niveluri de puritate de peste 99%. Prin facilitățile noastre moderne de sinteză a peptidelor, utilizăm tehnologie avansată de sinteză pe fază solidă (SPPS) și metode sofisticate de sinteză în fază lichidă pentru a produce peptide sintetice de cea mai înaltă calitate disponibile pe piața de cercetare. Angajamentul nostru față de controlul calității și validarea analitică asigură că fiecare lot îndeplinește cele mai stricte standarde științifice."
+    ],
+    subSections: [
+      {
+        heading: "Analiză avansată a peptidelor și controlul calității la BioPeptide",
+        content: [
+          "Protocoalele de asigurare a calității BioPeptide includ multiple tehnici analitice pentru a verifica identitatea peptidelor, acuratețea secvenței și nivelul de puritate."
+        ],
+        bulletPoints: [
+          "Analiză prin cromatografie lichidă de înaltă performanță (HPLC)",
+          "Caracterizare prin spectrometrie de masă (MS)",
+          "Set complet de teste analitice"
         ]
       },
-      "intro": {
-        "img": "/peptide-info/section-basics.jpg",
-        "title": "Introducere în Peptizi",
-        "preview": "Peptizii sunt lanțuri scurte de aminoacizi esențiale pentru semnalizare...",
-        "content": [
-          "Peptizii joacă roluri esențiale în comunicarea biologică și procesele de cercetare.",
-          "Acest articol acoperă ce sunt peptizii, de ce sunt importanți și aplicațiile lor comune în cercetare.",
-          "Peptizii sunt mai scurți decât proteinele și conțin în mod obișnuit mai puțin de 50 de aminoacizi, ceea ce îi face ideali pentru cercetare țintită.",
-          "Ei funcționează ca hormoni, neurotransmițători, molecule de semnalizare și componente structurale în căi biologice.",
-          "În cercetarea modernă, peptizii sintetici sunt folosiți pentru a studia interacțiunea receptorilor, regenerarea țesuturilor, modularea imunității și căile metabolice.",
-          "Structura lor modulară permite modificarea precisă, permițând oamenilor de știință să testeze interacțiuni cu specificitate ridicată."
+      {
+        heading: "Excelența în producție și angajamentul față de calitate BioPeptide",
+        content: [
+          "BioPeptide menține laboratoare de sinteză a peptidelor de clasă mondială, unde chimiștii noștri experimentați aplică protocoale riguroase de testare în fiecare etapă a producției."
         ]
       },
-      "synthesis": {
-        "img": "/peptide-info/section-testing.jpg",
-        "title": "Sinteza Peptidelor",
-        "preview": "Peptizii sunt sintetizați folosind metode automate în fază solidă...",
-        "content": [
-          "Sinteza peptidică în fază solidă (SPPS) este metodologia standard de aur pentru producerea de peptizi de calitate pentru cercetare.",
-          "Procesul de sinteză include atașarea pe rezina, cuplarea aminoacizilor, clivare, purificare și validare.",
-          "BioPeptide asigură o puritate >99% în toate loturile.",
-          "SPPS permite producție rapidă cu control precis al secvenței.",
-          "Sistemele automate asigură eficiență uniformă.",
-          "Purificarea elimină fragmentele trunchiate.",
-          "Instrumentele analitice confirmă integritatea moleculară."
+      {
+        heading: "Peptide cu puritate pentru cercetare (>70% puritate) – Gama de bază BioPeptide",
+        content: [
+          "Peptidele noastre din gama de bază (>70% puritate) sunt potrivite pentru:"
+        ],
+        bulletPoints: [
+          "Construcția și screeningul array-urilor de peptide",
+          "Teste ELISA pentru determinarea titrului de anticorpi",
+          "Antigene pentru producția de anticorpi policlonali",
+          "Pregătirea ligandului pentru purificare prin afinitate",
+          "Aplicații de screening inițial",
+          "Scopuri educaționale și de instruire"
         ]
       },
-      "storage": {
-        "img": "/peptide-info/section-storage.jpg",
-        "title": "Depozitarea Peptidelor",
-        "preview": "Depozitarea corectă asigură stabilitatea peptidelor pentru cercetarea științifică...",
-        "content": [
-          "Peptizii liofilizați trebuie depozitați la −20°C.",
-          "Peptizii reconstituiți trebuie refrigerați.",
-          "Evitați ciclurile repetate de îngheț-dezgheț.",
-          "Împărțiți peptizii în alicote mici.",
-          "Utilizați în 24–48 de ore după reconstituire.",
-          "Protejați de lumină și umiditate.",
-          "Verificați claritatea și pH-ul înainte de utilizare."
+      {
+        heading: "Servicii de sinteză personalizată a peptidelor la BioPeptide",
+        content: [
+          "Pe lângă peptidele din catalog, BioPeptide oferă servicii de sinteză personalizată adaptate cerințelor specifice de cercetare. Capacitățile noastre includ:"
+        ],
+        bulletPoints: [
+          "Peptide modificate cu modificări post-translaționale",
+          "Peptide marcate cu etichete fluorescente sau biotină",
+          "Peptide marcate cu izotopi stabili pentru proteomică cantitativă",
+          "Peptide ciclice și structuri peptidice constrânse",
+          "Peptide lungi de până la 100+ aminoacizi",
+          "Biblioteci și array-uri de peptide",
+          "Peptide de calitate GMP pentru studii preclinice"
         ]
       }
+    ]
+  },
+
+  faqSection: {
+    heading: "Întrebări frecvente (FAQ)",
+    faqs: [
+      {
+        question: "Ce este puritatea peptidelor și de ce este importantă în cercetare?",
+        answer: "Puritatea peptidelor se referă la procentul moleculei țintă de peptidă prezent într-o probă comparativ cu impuritățile. Puritatea ridicată este esențială pentru rezultate de cercetare fiabile, deoarece impuritățile pot interfera cu testele, studiile de legare și interpretările biologice. La BioPeptide, peptidele sunt fabricate cu puritate ≥99% pentru a asigura rezultate precise și reproductibile în cercetarea avansată in-vitro."
+      },
+      {
+        question: "Cum verifică BioPeptide puritatea peptidelor sale?",
+        answer: "BioPeptide verifică puritatea peptidelor utilizând cromatografie lichidă de înaltă performanță (HPLC) și spectrometrie de masă (MS). HPLC confirmă procentul de puritate prin separarea componentelor probei, iar MS verifică greutatea moleculară și identitatea peptidei."
+      },
+      {
+        question: "Sunt peptidele BioPeptide sigure pentru utilizare la oameni sau animale?",
+        answer: "Nu. Toate peptidele vândute de BioPeptide sunt destinate exclusiv utilizării în cercetare in-vitro. Ele nu sunt medicamente, suplimente sau produse cosmetice aprobate și nu trebuie utilizate la oameni sau animale."
+      },
+      {
+        question: "Ce nivel de puritate au de obicei peptidele BioPeptide?",
+        answer: "Peptidele BioPeptide sunt fabricate în mod standard la niveluri de puritate foarte ridicate, inclusiv ≥99% pentru aplicații de cercetare avansată, în conformitate cu cerințele științifice și de reglementare."
+      },
+      {
+        question: "Ce aplicații de cercetare necesită cea mai mare puritate a peptidelor?",
+        answer: "Aplicații precum studiile cantitative receptor-ligand, cinetica enzimatică, calibrarea ELISA, producția de anticorpi monoclonali, cristalografia și cercetarea în descoperirea de medicamente necesită puritate foarte ridicată. Peptidele BioPeptide sunt concepute pentru a satisface aceste aplicații exigente."
+      },
+      {
+        question: "Pot fi utilizate peptidele cu puritate ridicată în aplicații cu cerințe mai scăzute?",
+        answer: "Da. Peptidele cu puritate ridicată pot fi utilizate întotdeauna în aplicații care necesită niveluri minime mai scăzute de puritate. În schimb, peptidele cu puritate scăzută nu pot înlocui peptidele de înaltă puritate în experimente sensibile."
+      },
+      {
+        question: "BioPeptide furnizează date analitice împreună cu peptidele sale?",
+        answer: "Da. BioPeptide furnizează verificare analitică transparentă, inclusiv date HPLC și MS, pentru a confirma puritatea și identitatea peptidelor, sprijinind validarea experimentală și reproducibilitatea."
+      },
+      {
+        question: "Unde pot găsi informații detaliate despre puritatea peptidelor pe site-ul BioPeptide?",
+        answer: "Informații detaliate despre puritatea peptidelor, metodele de testare și standardele de cercetare sunt disponibile în secțiunea Informații despre Peptide de pe site-ul BioPeptide."
+      }
+    ]
+  }
+},
+      intro: {
+  img: "/peptide-info/intopeptide.jpg",
+  title: "Introducere în Peptide",
+  preview: "Peptidele sunt lanțuri scurte de aminoacizi esențiale pentru semnalizare...",
+  content: [
+    "Peptidele joacă roluri esențiale în comunicarea biologică și în procesele de cercetare.",
+    "Acest articol explică ce sunt peptidele, de ce sunt importante și care sunt aplicațiile lor comune în cercetare.",
+    "Peptidele sunt mai scurte decât proteinele și conțin de obicei mai puțin de 50 de aminoacizi, ceea ce le face ideale pentru cercetarea țintită.",
+    "Ele funcționează ca hormoni, neurotransmițători, molecule de semnalizare și componente structurale în căile biologice.",
+    "În cercetarea modernă, peptidele sintetice sunt utilizate pentru a studia interacțiunile receptorilor, regenerarea țesuturilor, modularea imunitară și căile metabolice.",
+    "Structura lor modulară permite modificări precise, oferind oamenilor de știință posibilitatea de a testa interacțiuni cu o specificitate ridicată."
+  ],
+  additionalContent: {
+    heading: "Înțelegerea Peptidelor: Un ghid european cuprinzător realizat de BioPeptides",
+    publicationDetails: "De către echipa științifică BioPeptides | Publicat: 20 octombrie 2023 | Ediția de cercetare europeană",
+    paragraphs: [
+      "NOTĂ IMPORTANTĂ: Tot conținutul educațional și informațiile despre produse furnizate de BioPeptides sunt destinate exclusiv scopurilor de cercetare și educaționale în cadrul instituțiilor de cercetare din Uniunea Europeană. Compușii noștri premium de peptide sunt proiectați special pentru studii de laborator in-vitro, realizate în conformitate cu ghidurile și reglementările de cercetare ale UE. Aceste peptide de calitate pentru cercetare nu sunt produse medicinale și nu au fost evaluate de Agenția Europeană a Medicamentului (EMA) sau de autoritățile naționale pentru utilizare terapeutică. Orice formă de administrare la oameni sau animale este strict interzisă de legislația și cadrele de reglementare europene."
+    ],
+    subSections: [
+      {
+        heading: "Ce sunt, mai exact, peptidele? Explicarea elementelor fundamentale ale vieții",
+        content: [
+          "Peptidele sunt, în esență, mesagerii chimici ai naturii – lanțuri mici, dar extrem de puternice, de aminoacizi care joacă roluri cruciale în aproape fiecare proces biologic.",
+          "Gândiți-vă la ele ca la fragmente minuscule de proteine, fiecare având propria structură și funcție unică. Atunci când doi sau mai mulți aminoacizi se leagă prin ceea ce oamenii de știință numesc „legături peptidice”, se formează acești compuși remarcabili care revoluționează cercetarea în întreaga Europă.",
+          "Cuvântul „peptidă” provine din termenul grecesc „πέσσειν” (pessein), care înseamnă „a digera”. Această etimologie surprinde perfect rolul lor fundamental în sistemele biologice, o descoperire care continuă să stimuleze cercetarea farmaceutică și inovația biotehnologică europeană."
+        ]
+      },
+      {
+        heading: "Știința din spatele formării peptidelor: natură și sinteză de laborator",
+        content: [
+          "În Europa, înțelegerea noastră asupra formării peptidelor a evoluat dramatic în ultimul secol. La BioPeptides, observăm zilnic modul în care acești compuși pot fi creați atât în mod natural în organismele vii, cât și sintetic în laboratoare europene avansate."
+        ],
+        subSections: [
+          {
+            heading: "Formarea naturală a peptidelor în contextul cercetării europene",
+            content: [
+              "Corpul uman produce peptide prin două mecanisme principale: sinteză ribozomală și non-ribozomală. Cercetătorii europeni au fost în prima linie a înțelegerii acestor procese, în special în instituții din Germania, Franța, Elveția și Țările de Jos."
+            ]
+          },
+          {
+            heading: "Sinteza peptidelor sintetice: excelența europeană în producția de laborator",
+            content: [
+              "Istoria sintezei peptidelor sintetice este profund înrădăcinată în tradiția științifică europeană. În 1901, chimistul german Emil Fischer, lucrând alături de colegul său francez Ernest Fourneau, a realizat prima sinteză peptidică – un moment de referință care a consacrat Europa ca lider în cercetarea peptidelor.",
+              "Astăzi, BioPeptides utilizează atât sinteza peptidelor în fază lichidă, cât și sinteza pe fază solidă (SPPS) în facilitățile sale europene."
+            ]
+          },
+          {
+            heading: "Formarea naturală a peptidelor în contextul cercetării europene",
+            content: [
+              "Corpul uman produce peptide prin două mecanisme principale: sinteză ribozomală și non-ribozomală. Cercetătorii europeni au fost în avangarda înțelegerii acestor procese, în special în instituții din Germania, Franța, Elveția și Țările de Jos.",
+              "Peptidele ribozomale sunt produse prin traducerea naturală a ARN-ului mesager în interiorul celulelor. Aceste peptide sunt deosebit de importante pentru companiile farmaceutice europene datorită rolului lor ca hormoni și molecule de semnalizare. Exemple includ:"
+            ],
+            bulletPoints: [
+              "Peptidele tachikininei: importante în cercetarea neurotransmisiei",
+              "Peptidele intestinale vasoactive (VIP): esențiale pentru studiile cardiovasculare",
+              "Peptidele opioide: esențiale pentru cercetarea managementului durerii",
+              "Peptidele pancreatice: vitale pentru cercetarea diabetului și metabolismului",
+              "Peptidele calcitoninei: importante pentru studiile metabolismului osos"
+            ]
+          },
+          {
+            heading: "Fragmente peptidice: aplicații analitice europene",
+            content: [
+              "Fragmentele peptidice sunt frecvent utilizate în chimia analitică europeană. Aceste porțiuni mai mici ale peptidelor mari sunt create prin degradare enzimatică controlată și sunt extrem de valoroase în diverse aplicații, cum ar fi:"
+            ],
+            bulletPoints: [
+              "Identificarea proteinelor: utilizând tehnici de spectrometrie de masă",
+              "Analiza secvenței: determinarea aranjamentului aminoacizilor",
+              "Studii structură–funcție: înțelegerea relațiilor biologice",
+              "Controlul calității: verificarea acurateței sintezei peptidelor"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  faqSection: {
+    heading: "Întrebări frecvente",
+    faqs: [
+      {
+        question: "Ce sunt exact peptidele de cercetare și cum diferă ele de proteine?",
+        answer: "Peptidele de cercetare sunt lanțuri scurte de aminoacizi legați prin legături peptidice, conținând de obicei între 2 și 50 de reziduuri de aminoacizi. Spre deosebire de proteine, care sunt mai mari și mai complexe, peptidele sunt molecule mai mici ce servesc drept elemente fundamentale esențiale în sistemele biologice."
+      },
+      {
+        question: "Cum asigură BioPeptides calitatea și puritatea peptidelor pentru standardele europene de cercetare?",
+        answer: "BioPeptides menține cele mai înalte standarde europene de calitate prin protocoale analitice cuprinzătoare. Fiecare peptidă de cercetare este supusă analizei riguroase prin cromatografie lichidă de înaltă performanță (HPLC) și verificării prin spectrometrie de masă pentru a confirma niveluri de puritate care depășesc 99%."
+      },
+      {
+        question: "Care sunt cele mai frecvente aplicații ale peptidelor de cercetare în laboratoarele europene?",
+        answer: "Instituțiile europene de cercetare utilizează compușii BioPeptides într-o gamă largă de aplicații științifice. Utilizările comune includ studii celulare in-vitro, cercetări privind interacțiunile proteină–proteină, investigații de cinetică enzimatică, protocoale de dezvoltare a anticorpilor și experimente de biologie structurală."
+      },
+      {
+        question: "Cum trebuie depozitate și manipulate peptidele de cercetare pentru a menține stabilitatea?",
+        answer: "Depozitarea și manipularea corectă sunt esențiale pentru menținerea stabilității peptidelor în condițiile de laborator europene. BioPeptides recomandă depozitarea peptidelor liofilizate la -20°C sau mai jos pentru conservare pe termen lung, iar soluțiile reconstituite trebuie aliquotate și păstrate la -80°C pentru a preveni degradarea prin cicluri de îngheț–dezgheț."
+      },
+      {
+        question: "Care este timpul tipic de livrare pentru comenzile BioPeptides în Europa?",
+        answer: "BioPeptides menține rețele eficiente de distribuție europeană, asigurând livrare rapidă în statele membre ale UE. Peptidele standard din catalog sunt, de obicei, expediate în 2–3 zile lucrătoare din facilitățile noastre europene, cu opțiuni de livrare expres pentru cerințe urgente de cercetare."
+      },
+      {
+        question: "Sunt compușii de cercetare BioPeptides legali pentru utilizare în laboratoare în întreaga Europă?",
+        answer: "BioPeptides operează în deplină conformitate cu reglementările Uniunii Europene care guvernează substanțele chimice de cercetare și compușii de laborator. Peptidele noastre de cercetare sunt destinate exclusiv studiilor in-vitro și aplicațiilor de cercetare de laborator."
+      },
+      {
+        question: "Ce niveluri de puritate a peptidelor oferă BioPeptides și pe care ar trebui să-l aleg pentru cercetarea mea?",
+        answer: "BioPeptides oferă mai multe grade de puritate pentru a se potrivi cerințelor specifice de cercetare și considerentelor bugetare. Gama noastră premium depășește 99% puritate pentru aplicații critice, inclusiv studii cantitative, analize structurale și cercetare farmaceutică."
+      },
+      {
+        question: "Oferă BioPeptides servicii de sinteză personalizată a peptidelor pentru nevoi europene de cercetare specializate?",
+        answer: "BioPeptides este specializată în sinteza personalizată a peptidelor, adaptată cerințelor unice de cercetare europeană. Capacitățile noastre includ peptide modificate cu modificări post-translaționale, compuși marcați pentru studii de urmărire, peptide ciclice pentru stabilitate sporită și secvențe lungi de până la 100+ aminoacizi."
+      }
+    ]
+  }
+},
+     synthesis: {
+  img: "/peptide-info/section-testing.jpg",
+  title: "Sinteza peptidelor",
+  preview: "Peptidele sunt sintetizate folosind metode automate pe fază solidă...",
+  content: [
+    "Sinteza peptidelor pe fază solidă (SPPS) este metodologia standard de aur pentru producerea peptidelor de calitate pentru cercetare.",
+    "Procesul de sinteză include atașarea la rășină, cuplarea aminoacizilor, clivajul, purificarea și validarea.",
+    "BioPeptide asigură o puritate >99% pentru toate loturile.",
+    "SPPS permite producția rapidă cu un control precis al secvenței.",
+    "Sistemele automatizate asigură o eficiență uniformă.",
+    "Purificarea elimină fragmentele trunchiate.",
+    "Instrumentele analitice confirmă integritatea moleculară."
+  ],
+  additionalContent: {
+    heading: "Sinteza peptidelor pentru cercetare științifică avansată",
+    subHeading: "Producție de precizie realizată de BioPeptides",
+    researchDisclaimer: [
+      "Toate informațiile și produsele furnizate de BioPeptides sunt destinate strict cercetării in-vitro și experimentării de laborator. Peptidele noastre nu sunt medicamente sau produse terapeutice și nu sunt aprobate de FDA pentru prevenirea, tratarea sau vindecarea oricărei boli sau afecțiuni medicale.",
+      "Orice formă de administrare în organism este strict interzisă."
+    ],
+    paragraphs: [
+      "Știința biomedicală modernă se bazează în mare măsură pe sinteza peptidelor pentru a crea molecule proiectate cu precizie pentru cercetarea farmaceutică, diagnostic, biotehnologie și biologie moleculară. Peptidele sintetice permit oamenilor de știință să studieze mecanisme biologice, să proiecteze candidați medicamentoși și să dezvolte terapii de generație următoare.",
+      "La BioPeptides, suntem specializați în sinteza de peptide de înaltă precizie pentru instituții de cercetare și companii de biotehnologie din Spania, Franța, Țările de Jos, Italia, Germania, Elveția și alte țări europene."
+    ],
+    subSections: [
+      {
+        heading: "Ce este sinteza peptidelor?",
+        content: [
+          "Sinteza peptidelor este procesul chimic controlat de asamblare a aminoacizilor în secvențe peptidice definite prin formarea legăturilor peptidice. Fiecare legătură conectează gruparea carboxil a unui aminoacid cu gruparea amino a altuia, creând un lanț molecular stabil.",
+          "Progresele în ingineria chimică și automatizare au transformat sinteza peptidelor într-un proces de producție extrem de eficient, scalabil și precis, permițând obținerea de secvențe complexe cu o puritate și reproductibilitate excepționale."
+        ]
+      },
+      {
+        heading: "Cum sunt fabricate peptidele sintetice",
+        content: [
+          "Peptidele sunt create prin asamblarea pas cu pas a aminoacizilor într-un mediu controlat. Spre deosebire de biosinteza naturală a proteinelor, care are loc de la capătul N către capătul C, sinteza chimică a peptidelor are loc de la capătul C către capătul N.",
+          "Există peste douăzeci de aminoacizi naturali, alături de sute de variante sintetice. Această diversitate chimică vastă permite oamenilor de știință să proiecteze peptide extrem de specializate pentru funcții biologice țintite.",
+          "Totuși, aminoacizii conțin mai multe situsuri reactive, care pot interfera cu sinteza dacă nu sunt controlate corespunzător. Pentru a preveni reacțiile nedorite, chimiștii folosesc strategii selective de protecție chimică."
+        ],
+        subSections: [
+          {
+            heading: "Grupări de protecție în sinteza peptidelor",
+            content: [
+              "În timpul asamblării peptidelor, anumite grupări funcționale trebuie blocate temporar pentru a asigura formarea corectă a legăturilor și pentru a preveni reacțiile secundare."
+            ],
+            bulletPoints: [
+              "Grupările de protecție ale capătului N, precum Fmoc și Boc, sunt utilizate pentru a controla alungirea pas cu pas a lanțului peptidic.",
+              "Grupările de protecție ale capătului C sunt aplicate în sinteza în fază lichidă pentru stabilizarea grupării carboxil.",
+              "Grupările de protecție ale lanțurilor laterale protejează lanțurile laterale reactive ale aminoacizilor pe parcursul sintezei și sunt îndepărtate doar după finalizarea asamblării peptidice."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Tehnologii moderne de sinteză a peptidelor",
+        content: [
+          "Astăzi, cea mai utilizată metodă este sinteza peptidelor pe fază solidă (SPPS). În acest proces, lanțul peptidic în creștere este ancorat pe o rășină solidă, permițând spălări eficiente, cuplare și purificare la fiecare etapă.",
+          "SPPS funcționează prin cicluri repetate de atașare a aminoacizilor, protecție temporară, reacție de cuplare, deprotecție și eliberare finală a peptidei de pe rășină.",
+          "Pentru secvențe peptidice complexe și lungi, SPPS asistată cu microunde îmbunătățește viteza reacției și randamentul.",
+          "Deși sinteza în fază de soluție este încă utilizată pentru producția la scară mare, SPPS rămâne standardul industriei pentru peptidele de calitate pentru cercetare."
+        ]
+      },
+      {
+        heading: "Purificare și controlul calității",
+        content: [
+          "Chiar și cu tehnologii avansate de sinteză, purificarea este esențială. Peptidele mai lungi necesită mai multe cicluri de cuplare, crescând riscul de impurități.",
+          "La BioPeptides, purificarea se realizează folosind cromatografie în fază inversă (RPC) și cromatografie lichidă de înaltă performanță (HPLC).",
+          "Fiecare peptidă este validată prin spectrometrie de masă pentru a confirma greutatea moleculară și acuratețea secvenței."
+        ]
+      },
+      {
+        heading: "De ce sunt importante peptidele sintetice",
+        content: [
+          "Peptidele sintetice au devenit instrumente indispensabile în descoperirea de medicamente, cercetarea cancerului, studiile bolilor metabolice, dezvoltarea vaccinurilor, diagnostica moleculară și analiza enzimelor și receptorilor.",
+          "Specificitatea ridicată, metabolismul predictibil și toxicitatea scăzută fac peptidele candidați ideali pentru dezvoltarea farmaceutică modernă. În Franța, Spania, Țările de Jos, Italia, Belgia, Suedia și Germania, cercetarea peptidelor continuă să se extindă rapid."
+        ]
+      },
+      {
+        heading: "De ce să alegeți BioPeptides",
+        content: [
+          "BioPeptides este un furnizor european de încredere de servicii de sinteză a peptidelor, sinteză personalizată, peptide de cercetare, peptide sintetice și peptide de calitate farmaceutică.",
+          "Facilitățile noastre de producție operează conform unor standarde stricte de calitate pentru a sprijini cercetarea academică, farmaceutică și biotehnologică la nivel global."
+        ]
+      }
+    ]
+  },
+  faqSection: {
+    heading: "Întrebări frecvente",
+    faqs: [
+      {
+        question: "Pentru ce este utilizată sinteza peptidelor în cercetarea științifică?",
+        answer: "Sinteza peptidelor este utilizată pentru a crea secvențe moleculare precise pentru descoperirea de medicamente, biologie moleculară, diagnostic, dezvoltarea vaccinurilor și screening farmaceutic. Peptidele sintetice permit cercetătorilor să studieze mecanisme biologice cu o specificitate și reproductibilitate ridicate în laboratoare din întreaga lume."
+      },
+      {
+        question: "Oferă BioPeptides servicii de sinteză personalizată a peptidelor?",
+        answer: "Da. BioPeptides este specializată în sinteza personalizată a peptidelor, oferind secvențe adaptate, peptide modificate și peptide cu lanț lung pentru programe avansate de cercetare în biotehnologie, industrie farmaceutică și laboratoare academice din Spania, Franța, Țările de Jos, Italia și nu numai."
+      },
+      {
+        question: "Ce tehnologie utilizează BioPeptides pentru sinteza peptidelor?",
+        answer: "BioPeptides utilizează sinteza peptidelor pe fază solidă (SPPS) avansată, combinată cu automatizare modernă și tehnologie asistată cu microunde, pentru a asigura randament ridicat, puritate superioară și acuratețe precisă a secvenței pentru designuri peptidice complexe."
+      },
+      {
+        question: "Cum asigură BioPeptides puritatea și calitatea peptidelor?",
+        answer: "Fiecare peptidă este purificată prin cromatografie în fază inversă și cromatografie lichidă de înaltă performanță. Validarea structurală se realizează prin spectrometrie de masă pentru a confirma greutatea moleculară, integritatea secvenței și standardele de puritate de calitate pentru cercetare."
+      },
+      {
+        question: "Poate BioPeptides produce secvențe peptidice lungi și complexe?",
+        answer: "Da. BioPeptides produce peptide cu lanț lung, peptide ciclice, peptide modificate și peptide marcate pentru cercetare farmaceutică și biochimică avansată. Platformele noastre de sinteză sunt optimizate pentru arhitecturi moleculare complexe și design peptidic de înaltă performanță."
+      },
+      {
+        question: "Sunt peptidele BioPeptides potrivite pentru cercetare farmaceutică?",
+        answer: "Peptidele BioPeptides sunt proiectate pentru cercetare farmaceutică in-vitro, screening de medicamente, dezvoltare de formulări și modelare moleculară. Ele servesc drept compuși fundamentali în etapele timpurii ale descoperirii de medicamente și în fluxurile de cercetare preclinică."
+      },
+      {
+        question: "În ce țări livrează BioPeptides peptide?",
+        answer: "BioPeptides furnizează peptide de cercetare și servicii de sinteză personalizată în Spania, Franța, Țările de Jos, Italia, Germania, Elveția, Belgia, Suedia și alte țări europene, cu livrare rapidă și sigură către laboratoare."
+      },
+      {
+        question: "Oferă BioPeptides suport tehnic pentru proiecte peptidice?",
+        answer: "Da. BioPeptides oferă consultanță de specialitate privind designul peptidelor, optimizarea sintezei, solubilitate, formulare, purificare și testare a stabilității pentru a sprijini inițiativele avansate de chimie a peptidelor și cercetare biotehnologică."
+      }
+    ]
+  }
+},
+     solubility: {
+  img: "/peptide-info/section-storage.jpg",
+  title: "Solubilitatea peptidelor în aplicații de cercetare",
+  preview: "Solubilitatea peptidelor este una dintre cele mai critice variabile în cercetarea bazată pe peptide...",
+  content: [
+    "Solubilitatea peptidelor este una dintre cele mai critice variabile în cercetarea bazată pe peptide și în dezvoltarea experimentală. Indiferent dacă peptidele sunt utilizate în teste biochimice, studii de legare la receptori, modelare moleculară sau screening farmaceutic, solubilizarea corectă influențează direct acuratețea experimentală, stabilitatea moleculară și activitatea biologică.",
+    "La BioPeptides, suntem specializați în peptide sintetice de cercetare cu puritate ridicată și oferim cunoștințe avansate de formulare pentru a sprijini laboratoare, instituții academice și organizații biotehnologice din întreaga lume. Acest ghid prezintă o imagine de ansamblu științifică completă asupra solubilității peptidelor, forțelor moleculare care o guvernează și protocoalelor de solubilizare de bună practică."
+  ],
+  additionalContent: {
+    heading: "Prezentare științifică a solubilității peptidelor",
+    paragraphs: [
+      "Solubilitatea peptidelor este guvernată de interacțiunile intermoleculare dintre reziduurile peptidice și moleculele solventului. Aceste interacțiuni sunt influențate de polaritatea aminoacizilor, distribuția sarcinii, capacitatea de formare a legăturilor de hidrogen, dimensiunea moleculară și conformația peptidei.",
+      "Peptidele interacționează cu solvenții prin forțe ionice, legături de hidrogen și interacțiuni hidrofobe. Atunci când forțele cumulative favorizează asocierea cu solventul, peptida se dizolvă. Când atracția intermoleculară peptidă–peptidă predomină, apar agregarea și precipitarea.",
+      "Comportamentul fundamental de solubilitate al unei peptide poate fi astfel prezis prin evaluarea compoziției sale de aminoacizi și calcularea sarcinii electrice nete."
+    ],
+    subSections: [
+      {
+        heading: "Clasificarea moleculară a aminoacizilor",
+        content: [
+          "Fiecare peptidă este construită din aminoacizi care prezintă proprietăți chimice distincte:"
+        ],
+        bulletPoints: [
+          "Aminoacizii bazici poartă o sarcină pozitivă și prezintă o afinitate crescută pentru medii apoase acide.",
+          "Aminoacizii acizi poartă o sarcină negativă și demonstrează o solubilitate crescută în soluții bazice.",
+          "Aminoacizii polari neîncărcați sunt hidrofili și adesea solubili în apă.",
+          "Aminoacizii nepolari sunt hidrofobi și slab solubili în apă, necesitând adesea solvenți organici.",
+          "Peptidele îmbogățite cu reziduuri nepolare precum leucina, izoleucina, fenilalanina și valina prezintă, de obicei, o solubilitate apoasă redusă și pot necesita sisteme de solvenți denaturanți sau organici."
+        ]
+      },
+      {
+        heading: "Modelarea predictivă a sarcinii pentru evaluarea solubilității",
+        content: [
+          "Înainte de selectarea solventului, BioPeptides recomandă calcularea sarcinii ionice nete a peptidei, care oferă un indicator predictiv al compatibilității cu solventul.",
+          "Fiecare reziduu acid contribuie cu o sarcină negativă. Fiecare reziduu bazic contribuie cu o sarcină pozitivă. Gruparea amino de la capătul N contribuie cu o sarcină pozitivă, iar gruparea carboxil de la capătul C contribuie cu o sarcină negativă. Histidina contribuie cu o sarcină pozitivă la pH fiziologic.",
+          "Sarcina netă rezultată clasifică peptida ca fiind acidă, bazică sau neutră, ceea ce ghidează direct selecția solventului."
+        ]
+      },
+      {
+        heading: "Strategia de selecție a solventului",
+        content: [
+          "La BioPeptides, urmăm un protocol etapizat de selecție a solventului pentru a păstra integritatea peptidei și a maximiza eficiența solubilizării.",
+          "Încercările inițiale de dizolvare trebuie să înceapă întotdeauna cu apă sterilă, deoarece multe peptide, în special cele mai scurte de cinci reziduuri, se dizolvă ușor în medii apoase. Dacă solubilizarea apoasă nu are succes, selecția solventului continuă în funcție de clasificarea bazată pe sarcină."
+        ],
+        bulletPoints: [
+          "Peptidele cu sarcină pozitivă demonstrează o solubilitate îmbunătățită în soluții ușor acide, precum acidul acetic sau acidul trifluoroacetic.",
+          "Peptidele cu sarcină negativă răspund mai favorabil la solvenți bazici, precum hidroxidul de amoniu.",
+          "Peptidele neutre sau hidrofobe necesită, de obicei, solvenți organici, inclusiv acetonitril, metanol, izopropanol sau dimetilsulfoxid."
+        ]
+      },
+      {
+        heading: "Metodologii avansate de solubilizare",
+        content: [
+          "Anumite peptide necesită tehnici avansate pentru a depăși forțele de agregare și stabilizarea structurilor secundare.",
+          "Creșterea moderată a temperaturii sub 40°C mărește mișcarea moleculară și îmbunătățește penetrarea solventului. Sonicația perturbă interacțiunile peptidă–peptidă și ajută la dispersie.",
+          "Agenții chaotropi, precum clorhidratul de guanidină și ureea, perturbă legăturile de hidrogen și stabilizează conformațiile denaturate pentru peptidele dificil de dizolvat.",
+          "Aceste metode facilitează dizolvarea, dar nu modifică proprietățile intrinseci de solubilitate."
+        ]
+      },
+      {
+        heading: "Prevenirea agregării peptidelor",
+        content: [
+          "Agregarea peptidelor este o provocare frecventă în secvențele hidrofobe și amfipatice. Agregatele se pot forma prin aranjare în foi beta, grupare hidrofobă sau interacțiuni electrostatice.",
+          "Agregarea poate fi minimizată prin menținerea unor concentrații de lucru scăzute, utilizarea agenților chaotropi atunci când este necesar și aplicarea tehnicilor de diluare lentă în soluții tamponate cu agitare constantă. Evitarea schimbului rapid de solvent previne suprasaturația localizată și precipitarea."
+        ]
+      },
+      {
+        heading: "Protocoale de manipulare și depozitare a peptidelor",
+        content: [
+          "După dizolvare, peptidele trebuie aliquotate imediat în recipiente sterile și depozitate în condiții controlate. Depozitarea la –20°C sau –80°C menține stabilitatea peptidei. Reziduurile sensibile la oxidare, precum cisteina, metionina și triptofanul, necesită medii de depozitare fără oxigen.",
+          "Ciclurile repetate de îngheț–dezgheț trebuie evitate pentru a preveni degradarea moleculară."
+        ]
+      },
+      {
+        heading: "Excelența BioPeptides în cercetare",
+        content: [
+          "BioPeptides furnizează peptide de cercetare de calitate farmaceutică, susținute de caracterizare analitică, verificarea purității prin HPLC, validare prin spectrometrie de masă și consultanță privind solubilitatea.",
+          "Misiunea noastră este de a susține descoperirea științifică prin sinteză peptidică de precizie și suport tehnic de specialitate."
+        ]
+      }
+    ]
+  },
+  conclusion: [
+    "Solubilitatea peptidelor este un parametru științific multidimensional care influențează direct performanța experimentală și integritatea datelor. Prin modelare predictivă a sarcinii, optimizarea solventului și tehnici avansate de solubilizare, cercetătorii pot obține formulări peptidice reproductibile.",
+    "BioPeptides rămâne dedicată sprijinirii comunității științifice globale cu peptide de cercetare de înaltă calitate și expertiză autoritativă în formulare."
+  ],
+  faqSection: {
+    heading: "Întrebări frecvente (FAQs)",
+    faqs: [
+      {
+        question: "De ce unele peptide sintetice se dizolvă ușor, iar altele nu?",
+        answer: "Solubilitatea peptidelor variază în funcție de structura moleculară. Peptidele bogate în aminoacizi încărcați sau polari interacționează ușor cu moleculele de apă, în timp ce peptidele dominate de reziduuri hidrofobe tind să respingă mediile apoase și necesită solvenți organici sau denaturanți pentru o dizolvare corespunzătoare."
+      },
+      {
+        question: "Care este primul pas recomandat de BioPeptides înainte de alegerea unui solvent?",
+        answer: "BioPeptides recomandă aducerea peptidei liofilizate la temperatura camerei și încercarea inițială a dizolvării în apă sterilă. Acest lucru previne condensarea umezelii și elimină expunerea inutilă la solvenți agresivi."
+      },
+      {
+        question: "Pot fi utilizate soluțiile tampon ca solvent principal pentru peptide?",
+        answer: "Soluțiile tampon trebuie utilizate numai după ce peptida a fost dizolvată cu succes într-un solvent compatibil. Dizolvarea directă în tampon poate duce la precipitare din cauza efectelor de forță ionică și pH."
+      },
+      {
+        question: "Ce cauzează precipitarea peptidelor după diluare?",
+        answer: "Precipitarea apare, de obicei, atunci când peptidele sunt adăugate prea rapid în soluții apoase, creând suprasaturație localizată. Diluarea lentă și controlată, cu amestecare continuă, previne această problemă."
+      },
+      {
+        question: "Sunt solvenții organici dăunători pentru structura peptidei?",
+        answer: "Atunci când sunt utilizați corect și în volume mici, solvenții organici precum acetonitrilul sau metanolul nu deteriorează structura peptidei. Totuși, expunerea prelungită sau concentrațiile ridicate pot afecta stabilitatea."
+      },
+      {
+        question: "Cum trebuie manipulate peptidele predispuse la oxidare?",
+        answer: "Peptidele sensibile la oxidare trebuie manipulate în condiții cu oxigen redus, dizolvate imediat după deschidere și depozitate în aliquote sigilate sub gaz inert, atunci când este posibil."
+      },
+      {
+        question: "La ce concentrație ar trebui preparate soluțiile stoc de peptide?",
+        answer: "BioPeptides recomandă prepararea soluțiilor stoc concentrate și realizarea diluțiilor de lucru imediat înainte de utilizare. Această abordare reduce ciclurile de îngheț–dezgheț și îmbunătățește stabilitatea pe termen lung."
+      },
+      {
+        question: "Poate BioPeptides ajuta în provocările de formulare a peptidelor?",
+        answer: "Da. BioPeptides oferă consultanță tehnică pentru solubilizarea peptidelor, optimizarea formulării, testarea stabilității și caracterizarea analitică pentru a sprijini fluxurile de lucru avansate de cercetare."
+      }
+    ]
+  }
+},
+peptideBonds: {
+  img: "/peptide-info/section-basics.jpg",
+  title: "Legăturile peptidice: structură, formare și importanță biologică",
+  preview: "Legătura peptidică este legătura chimică fundamentală care conectează aminoacizii...",
+  content: [
+    "Tot conținutul și informațiile despre produse publicate de BioPeptides sunt furnizate strict în scopuri educaționale și de cercetare in-vitro. Produsele noastre sunt destinate exclusiv investigațiilor de laborator și științifice. Acestea nu sunt medicamente, substanțe farmaceutice sau agenți terapeutici și nu sunt aprobate de FDA pentru diagnosticarea, tratarea, vindecarea sau prevenirea oricărei boli.",
+    "Orice formă de administrare în corpul uman sau animal este strict interzisă."
+  ],
+  additionalContent: {
+    heading: "Introducere în legăturile peptidice",
+    paragraphs: [
+      "În cercetarea biochimică modernă, înțelegerea naturii legăturii peptidice este esențială. Legătura peptidică este legătura chimică fundamentală care conectează aminoacizii în peptide, polipeptide și proteine — elementele de bază ale tuturor sistemelor biologice.",
+      "La BioPeptides, sprijinim cercetători și laboratoare din întreaga lume cu peptide sintetice de înaltă puritate și cunoștințe biochimice avansate. Acest ghid oferă o explicație clară, de nivel științific, privind formarea legăturii peptidice, structura acesteia și proprietățile chimice ale legăturilor peptidice."
+    ],
+    subSections: [
+      {
+        heading: "Ce este o legătură peptidică?",
+        content: [
+          "O legătură peptidică este o legătură covalentă puternică formată între doi aminoacizi. Aceasta se creează atunci când gruparea carboxil a unui aminoacid reacționează cu gruparea amino a altui aminoacid. În timpul acestei reacții, se eliberează o moleculă de apă, procesul fiind o reacție de condensare.",
+          "Legătura rezultată este cunoscută sub denumirea de legătură CO–NH, clasificată chimic ca o legătură amidică. Odată formată, cei doi aminoacizi devin o dipeptidă, cea mai simplă formă a unui lanț peptidic.",
+          "Acest proces stă la baza întregii sinteze peptidice, a structurii proteinelor și a asamblării macromoleculelor biologice."
+        ]
+      },
+      {
+        heading: "Explicația formării legăturii peptidice",
+        content: [
+          "Pentru ca o legătură peptidică să se formeze, doi aminoacizi trebuie să se alinieze astfel încât gruparea carboxil a unei molecule să poată interacționa cu gruparea amino a celei de-a doua molecule. Când acest lucru are loc, se eliberează o moleculă de apă (H₂O) și se formează o legătură covalentă stabilă.",
+          "Acest mecanism permite aminoacizilor să se lege în lanțuri mai lungi:",
+          "Lanțurile cu mai puțin de 50 de aminoacizi sunt clasificate drept peptide",
+          "Lanțurile cu 50–100 de aminoacizi sunt denumite polipeptide",
+          "Lanțurile cu mai mult de 100 de aminoacizi sunt considerate proteine",
+          "Aceste structuri joacă un rol central în reacțiile enzimatice, semnalizarea celulară, metabolism și expresia genetică."
+        ]
+      },
+      {
+        heading: "Descompunere chimică: hidroliza legăturii peptidice",
+        content: [
+          "Deși legăturile peptidice sunt stabile din punct de vedere chimic, ele pot fi rupte printr-un proces numit hidroliză, care implică o reacție cu apa. Deși hidroliza spontană are loc lent, sistemele biologice folosesc enzime pentru a cliva eficient legăturile peptidice în timpul digestiei, metabolismului și reciclării proteinelor.",
+          "Hidroliza unei legături peptidice eliberează aproximativ 10 kJ/mol de energie liberă. Lungimea de undă de absorbție a unei legături peptidice se situează între 190–230 nm, ceea ce face ca spectroscopia UV să fie un instrument analitic valoros în cercetarea peptidelor."
+        ]
+      },
+      {
+        heading: "Importanța biologică a legăturilor peptidice",
+        content: [
+          "În organismele vii, enzimele formează și rup continuu legături peptidice. Multe molecule biologice esențiale sunt peptide sau proteine, inclusiv:",
+          "Hormoni",
+          "Neurotransmițători",
+          "Antibiotice",
+          "Compuși antitumorali",
+          "Enzime",
+          "Aceste molecule reglează aproape fiecare proces biochimic din corpul uman, făcând chimia peptidelor o piatră de temelie a biotehnologiei moderne și a cercetării farmaceutice."
+        ]
+      },
+      {
+        heading: "Structura moleculară a legăturii peptidice",
+        content: [
+          "Studii avansate de difracție cu raze X au arătat că legătura peptidică este atât rigidă, cât și planară. Această rigiditate este cauzată de o interacțiune de rezonanță în cadrul grupării amidice.",
+          "Atomul de azot din gruparea amidică își donează perechea liberă de electroni către gruparea carbonil, creând un caracter parțial de legătură dublă. Ca rezultat:",
+          "Legătura N–C este mai scurtă decât o legătură simplă normală",
+          "Legătura C=O este ușor mai lungă decât o legătură carbonil tipică",
+          "Legătura peptidică adoptă o configurație trans, care este mai stabilă energetic decât configurația cis",
+          "Această rigiditate joacă un rol crucial în determinarea plierii proteinelor, a structurii secundare și a stabilității moleculare."
+        ]
+      },
+      {
+        heading: "Polaritatea și proprietățile electrice ale legăturii peptidice",
+        content: [
+          "Structura de rezonanță a legăturii peptidice creează un dipol electric permanent. Atomul de oxigen poartă o sarcină parțial negativă (–0,28), în timp ce azotul poartă o sarcină parțial pozitivă (+0,28).",
+          "Această polaritate influențează:",
+          "Legarea prin hidrogen",
+          "Plierea proteinelor",
+          "Legarea enzimelor",
+          "Recunoașterea moleculară",
+          "Datorită caracterului său parțial de legătură dublă, legătura peptidică restricționează rotația și contribuie la forma tridimensională bine definită a peptidelor și proteinelor."
+        ]
+      },
+      {
+        heading: "De ce contează legăturile peptidice în cercetare",
+        content: [
+          "Legătura peptidică reprezintă coloana vertebrală structurală a:",
+          "Peptidelor sintetice",
+          "Peptidelor de cercetare",
+          "Peptidelor terapeutice",
+          "Ingineriei proteinelor",
+          "Descoperirii de medicamente",
+          "Înțelegerea chimiei legăturii peptidice le permite oamenilor de știință să proiecteze molecule peptidice mai stabile, mai eficiente și mai active biologic.",
+          "La BioPeptides, suntem specializați în dezvoltarea și furnizarea de peptide personalizate, proiectate cu precizie, sprijinind cercetarea farmaceutică, biotehnologică și academică din Europa și din întreaga lume."
+        ]
+      }
+    ]
+  },
+  conclusion: [
+    "Legătura peptidică este una dintre cele mai importante legături chimice din biologie. Ea leagă aminoacizii în biomolecule funcționale, determină arhitectura proteinelor și face posibilă viața la nivel molecular.",
+    "Prin sinteză peptidică avansată, analiză structurală și cercetare biochimică, oamenii de știință continuă să descopere potențialul imens al tehnologiilor bazate pe peptide.",
+    "BioPeptides rămâne dedicată sprijinirii acestui progres științific prin peptide de cercetare de înaltă puritate, expertiză tehnică și inovație."
+  ],
+  faqSection: {
+    heading: "Întrebări frecvente (FAQs)",
+    faqs: [
+      {
+        question: "Ce este o legătură peptidică și de ce este importantă în cercetarea peptidelor?",
+        answer: "O legătură peptidică este o legătură covalentă de tip amidic care conectează aminoacizii în lanțuri peptidice. Ea formează coloana vertebrală structurală a tuturor peptidelor și proteinelor, influențând direct stabilitatea moleculară, activitatea biologică și performanța experimentală în aplicații de cercetare farmaceutică, biochimică și biotehnologică."
+      },
+      {
+        question: "Cum asigură BioPeptides sinteza legăturilor peptidice de înaltă calitate?",
+        answer: "BioPeptides utilizează sinteză peptidică de precizie în fază solidă, purificare riguroasă și validare analitică pentru a se asigura că fiecare legătură peptidică este formată corect. Fiecare lot este supus analizelor HPLC și spectrometriei de masă pentru a garanta integritatea structurală, acuratețea secvenței și puritatea de nivel cercetare."
+      },
+      {
+        question: "De ce este critică stabilitatea legăturii peptidice în experimentele de laborator?",
+        answer: "Legăturile peptidice stabile păstrează structura moleculară în timpul manipulării, depozitării și experimentării. Instabilitatea poate duce la degradare, modificarea bioactivității sau rezultate inconsistente ale testelor, făcând esențială formarea fiabilă a legăturilor peptidice pentru cercetare științifică reproductibilă și dezvoltarea de medicamente."
+      },
+      {
+        question: "Poate BioPeptides să sintetizeze lanțuri peptidice lungi cu secvențe complexe?",
+        answer: "Da. BioPeptides este specializată în sinteza personalizată de peptide, inclusiv peptide cu lanț lung, peptide modificate și secvențe complexe. Tehnologia noastră avansată de sinteză asigură formarea corectă a legăturilor peptidice chiar și în proiecte dificile, hidrofobe sau cu sarcină ridicată."
+      },
+      {
+        question: "Cum influențează structura legăturii peptidice plierea proteinelor?",
+        answer: "Structura rigidă și planară a legăturii peptidice restricționează rotația și ghidează formarea structurilor secundare, precum alfa-helixurile și foile beta. Acest control structural determină conformația tridimensională esențială pentru funcția proteinelor și interacțiunile biologice."
+      },
+      {
+        question: "Ce rol joacă legăturile peptidice în descoperirea de medicamente?",
+        answer: "Legăturile peptidice conectează peptidele terapeutice care interacționează cu receptori, enzime și ținte celulare. Multe medicamente moderne sunt bazate pe peptide, ceea ce face ca chimia legăturilor peptidice să fie fundamentală pentru cercetarea farmaceutică, dezvoltarea biologicelor și terapiile de generație următoare."
+      },
+      {
+        question: "Sunt produsele BioPeptides potrivite pentru cercetare farmaceutică?",
+        answer: "Da. BioPeptides furnizează peptide de cercetare cu puritate ultra-înaltă, potrivite pentru screening farmaceutic, modelare moleculară, dezvoltare de formulări și investigații preclinice. Toate produsele sunt concepute exclusiv pentru cercetare in-vitro și evaluare științifică."
+      },
+      {
+        question: "Poate BioPeptides oferi suport tehnic pentru analiza legăturilor peptidice?",
+        answer: "BioPeptides oferă consultanță de specialitate privind proiectarea peptidelor, sinteză, stabilitatea legăturilor, optimizarea solubilității și caracterizarea analitică. Echipa noastră științifică sprijină cercetătorii cu soluții personalizate pentru proiecte avansate de chimie peptidică și biologie moleculară."
+      }
+    ]
+  }
+},
+peptidesVsProteins: {
+  title: "Peptide vs Proteine: Înțelegerea diferențelor fundamentale",
+  img: "/peptide-info/protein.jpg",
+  preview: "Peptidele și proteinele sunt molecule biologice strâns legate, însă diferă în moduri esențiale...",
+  
+  content: [
+    "Peptidele și proteinele sunt molecule biologice strâns legate, însă diferă în moduri semnificative, esențiale pentru cercetători, biochimiști și oameni de știință din domeniul farmaceutic. Deși termenii sunt uneori folosiți interschimbabil în discuții informale, peptidele și proteinele diferă prin dimensiune, structură, stabilitate și comportament biologic. La BioPeptides, înțelegerea acestor diferențe este esențială pentru selectarea materialelor corecte de cercetare și pentru proiectarea unor protocoale experimentale precise.",
+    "Atât peptidele, cât și proteinele sunt construite din aminoacizi, însă modul în care aceste elemente de bază sunt asamblate — și modul în care moleculele rezultate se comportă — determină dacă un compus este clasificat ca peptidă sau proteină.",
+    "Aminoacizii sunt molecule organice mici, dar esențiale, care formează fundamentul peptidelor și proteinelor. Fiecare aminoacid conține un atom central de carbon legat de o grupare amino, o grupare carboxil, un atom de hidrogen și un lanț lateral variabil care determină proprietățile sale chimice. Deși există sute de aminoacizi, doar douăzeci sunt codificați genetic și se regăsesc în mod obișnuit în sistemele biologice. Mulți aminoacizi suplimentari pot fi sintetizați chimic și integrați în peptidele de cercetare.",
+    "Atunci când aminoacizii se leagă între ei printr-o reacție între gruparea amino a unei molecule și gruparea carboxil a altei molecule, se formează o legătură peptidică. Această legătură creează un lanț de aminoacizi, iar în funcție de numărul de aminoacizi implicați, molecula rezultată poate fi clasificată ca peptidă, polipeptidă sau proteină."
+  ],
+
+  subSections: [
+    {
+      heading: "Ce sunt peptidele?",
+      content: [
+        "Peptidele sunt lanțuri relativ scurte de aminoacizi conectați prin legături peptidice. Ele pot fi de origine naturală sau sintetizate artificial și sunt utilizate pe scară largă în cercetarea biochimică, farmaceutică și de biologie moleculară.",
+        "La BioPeptides, peptidele sunt frecvent clasificate în funcție de lungime, secvențele mai mici fiind denumite adesea oligopetide, iar cele mai lungi fiind descrise ca polipeptide.",
+        "Peptidele scurte, precum dipeptidele și tripeptidele, conțin doi sau trei aminoacizi, în timp ce peptidele mai lungi pot conține câteva zeci de aminoacizi. Aceste molecule funcționează adesea ca agenți de semnalizare, inhibitori enzimatici sau sonde moleculare în mediile de cercetare. Datorită dimensiunii lor, peptidele sunt de obicei mai flexibile și pot să nu adopte o structură tridimensională stabilă."
+      ]
+    },
+    {
+      heading: "Polipeptide și proteine: unde se trasează linia",
+      content: [
+        "Polipeptidele ocupă spațiul dintre peptide și proteine și sunt, în general, definite ca lanțuri de aminoacizi care conțin mai mult de zece reziduuri.",
+        "Totuși, diferența dintre polipeptide și proteine devine mai pronunțată pe măsură ce lungimea lanțului și complexitatea structurală cresc.",
+        "Proteinele sunt de obicei definite ca polipeptide compuse din aproximativ 50 sau mai mulți aminoacizi care se pliază într-o structură tridimensională stabilă.",
+        "Această structură pliată este esențială pentru funcția proteinelor, permițându-le să îndeplinească roluri biologice extrem de specifice, precum cataliza, transportul, suportul structural sau apărarea imună. În contrast, polipeptidele mai scurte nu dispun adesea de interacțiunile cooperative necesare pentru menținerea unei structuri fixe și, prin urmare, se comportă diferit în sistemele experimentale."
+      ]
+    },
+    {
+      heading: "Diferențe structurale între peptide și proteine",
+      content: [
+        "Una dintre cele mai importante diferențe dintre peptide și proteine constă în comportamentul lor structural. Proteinele se pliază de obicei în conformații precise și stabile, adesea descrise ca structuri terțiare sau cuaternare. Aceste structuri sunt stabilizate prin legături de hidrogen, interacțiuni hidrofobe, interacțiuni ionice și punți disulfurice.",
+        "Peptidele, în special cele cu o lungime sub 40–50 de aminoacizi, nu formează, în general, structuri pliate stabile. În schimb, ele există în conformații mai flexibile, ceea ce poate fi avantajos pentru aplicațiile de cercetare care necesită interacțiuni moleculare dinamice. Această flexibilitate structurală este unul dintre motivele pentru care peptidele sunt utilizate pe scară largă în studii de legare la receptori, cercetări de semnalizare și descoperirea timpurie de medicamente."
+      ]
+    },
+    {
+      heading: "Alegerea termenului corect: peptide vs proteine",
+      content: [
+        "Din punct de vedere tehnic, toate proteinele sunt polipeptide, dar nu toate polipeptidele sunt proteine. În cercetare și comunicarea științifică, este adesea util să se rezerve termenul „proteină” pentru moleculele mai lungi, cu structură definită, și să se utilizeze termenul „peptidă” pentru lanțurile mai scurte de aminoacizi.",
+        "La BioPeptides, această diferențiere îi ajută pe cercetători să descrie corect proprietățile moleculare, să selecteze tehnici analitice adecvate și să proiecteze experimente cu claritate. Înțelegerea comportamentului unei molecule ca peptidă sau proteină poate influența solubilitatea, stabilitatea, cerințele de depozitare și activitatea biologică in vitro."
+      ]
+    },
+    {
+      heading: "BioPeptides și precizia moleculară de nivel cercetare",
+      content: [
+        "BioPeptides este specializată în furnizarea de peptide de cercetare de înaltă calitate, concepute pentru precizie, consistență și reproductibilitate. Prin diferențierea clară dintre peptide și proteine, cercetătorii pot lua decizii informate care îmbunătățesc fiabilitatea experimentală și rezultatele științifice. Fie că lucrează cu secvențe scurte de peptide sau cu polipeptide mai lungi, înțelegerea acestor diferențe moleculare este fundamentală pentru cercetarea biochimică avansată."
+      ]
+    }
+  ],
+
+  faqSection: {
+    heading: "Întrebări frecvente",
+    faqs: [
+      {
+        question: "Care este principala diferență dintre peptide și proteine?",
+        answer: "Diferența principală constă în dimensiune și structură. Peptidele sunt lanțuri mai scurte de aminoacizi care adesea nu au o structură tridimensională stabilă, în timp ce proteinele sunt lanțuri mai lungi care se pliază în structuri bine definite, necesare pentru îndeplinirea funcțiilor biologice complexe."
+      },
+      {
+        question: "Peptidele și proteinele sunt formate din aceiași aminoacizi?",
+        answer: "Da. Atât peptidele, cât și proteinele sunt compuse din aceiași douăzeci de aminoacizi codificați genetic. Diferența dintre ele se bazează pe numărul de aminoacizi legați între ei și pe faptul dacă lanțul formează sau nu o structură tridimensională stabilă și funcțională."
+      },
+      {
+        question: "De ce sunt peptidele utilizate frecvent în cercetarea de laborator?",
+        answer: "Peptidele sunt utilizate pe scară largă datorită dimensiunii lor mai mici, flexibilității și ușurinței de sinteză. Aceste caracteristici le fac ideale pentru studii de legare la receptori, cercetarea căilor de semnalizare, dezvoltarea de teste și experimentele de descoperire timpurie a medicamentelor."
+      },
+      {
+        question: "La ce lungime o peptidă devine proteină?",
+        answer: "Nu există o limită absolută, însă lanțurile care conțin aproximativ 50 sau mai mulți aminoacizi sunt, în general, clasificate ca proteine. Acest prag se bazează pe capacitatea lanțurilor mai lungi de a se plia în structuri stabile și biologic funcționale."
+      },
+      {
+        question: "Toate polipeptidele funcționează ca proteine?",
+        answer: "Nu. Deși toate proteinele sunt polipeptide, nu toate polipeptidele formează structuri stabile sau îndeplinesc funcții asemănătoare proteinelor. Multe polipeptide mai scurte rămân flexibile din punct de vedere structural și se comportă mai degrabă ca peptidele în aplicațiile de cercetare."
+      },
+      {
+        question: "Cum afectează structura comportamentul peptidelor și proteinelor în experimente?",
+        answer: "Stabilitatea structurală influențează solubilitatea, specificitatea de legare și activitatea biologică. Proteinele necesită o pliere precisă pentru a funcționa corect, în timp ce peptidele se bazează adesea pe interacțiuni determinate de secvență, mai degrabă decât pe structuri tridimensionale fixe."
+      },
+      {
+        question: "Pot fi peptidele sintetizate mai ușor decât proteinele?",
+        answer: "Da. Peptidele sunt, în general, mai ușor și mai rapid de sintetizat folosind metode chimice, precum sinteza peptidică în fază solidă. Proteinele necesită adesea sisteme de expresie biologică și procese de purificare mai complexe."
+      },
+      {
+        question: "De ce este importantă diferența dintre peptide și proteine în cercetare?",
+        answer: "Înțelegerea acestei diferențe îi ajută pe cercetători să aleagă metode experimentale adecvate, condiții de depozitare și tehnici analitice potrivite. De asemenea, asigură o comunicare științifică corectă atunci când se descriu dimensiunea, structura și comportamentul funcțional al moleculelor în studiile de cercetare."
+      }
+    ]
+  }
+},
+storingPeptides: {
+  title: "Cele mai bune practici pentru depozitarea peptidelor de cercetare",
+  img: "/peptide-info/storagepep.jpg",
+  preview: "Depozitarea corectă a peptidelor de cercetare este o cerință fundamentală pentru menținerea acurateței experimentale...",
+  
+  content: [
+    "Depozitarea corectă a peptidelor de cercetare este o cerință fundamentală pentru menținerea acurateței experimentale, reproductibilității și fiabilității științifice pe termen lung. Chiar și peptidele fabricate la cele mai înalte standarde de puritate se pot degrada rapid dacă sunt expuse la condiții de mediu necorespunzătoare. Din momentul în care cercetătorii achiziționează peptide online și până la aplicarea experimentală, protocoalele corecte de depozitare joacă un rol esențial în păstrarea integrității peptidelor. Pentru laboratoarele din Europa și piețele globale de cercetare, respectarea practicilor standardizate de depozitare asigură faptul că materialele de înaltă calitate de la furnizori de încredere precum Biopeptides funcționează constant conform așteptărilor.",
+    "Controlul temperaturii este unul dintre cei mai influenți factori care afectează stabilitatea peptidelor. La livrare, peptidele trebuie protejate de căldură, lumină directă și umiditate. Depozitarea pe termen scurt la temperaturi de refrigerare sub 4°C este, în general, acceptabilă atunci când peptidele sunt destinate utilizării experimentale imediate. Deși peptidele liofilizate furnizate de Biopeptides pot tolera o expunere scurtă la temperatura camerei în timpul manipulării sau transportului, aceasta nu trebuie să înlocuiască niciodată depozitarea controlată.",
+    "Pentru depozitare pe termen lung, care durează luni sau ani, congelarea la temperaturi ultra-scăzute de aproximativ -80°C este considerată cea mai bună practică. Aceasta încetinește semnificativ reacțiile chimice precum oxidarea și hidroliza, ajutând la conservarea structurii și activității peptidelor. Laboratoarele implicate în dezvoltare farmaceutică, biologie moleculară sau cercetare biotehnologică se bazează pe această abordare pentru a proteja peptidele sensibile provenite de la furnizori premium precum Biopeptides."
+  ],
+
+  subSections: [
+    {
+      heading: "Gestionarea temperaturii și stabilitatea peptidelor pe termen lung",
+      content: [
+        "Controlul temperaturii este unul dintre cei mai influenți factori care afectează stabilitatea peptidelor. La livrare, peptidele trebuie protejate de căldură, lumină directă și umiditate. Depozitarea pe termen scurt la temperaturi de refrigerare sub 4°C este, în general, acceptabilă atunci când peptidele sunt destinate utilizării experimentale imediate.",
+        "Pentru depozitare pe termen lung, care durează luni sau ani, congelarea la temperaturi ultra-scăzute de aproximativ -80°C este considerată cea mai bună practică. Aceasta încetinește semnificativ reacțiile chimice precum oxidarea și hidroliza, ajutând la conservarea structurii și activității peptidelor."
+      ]
+    },
+    {
+      heading: "Minimizarea deteriorării cauzate de ciclurile de congelare–dezghețare",
+      content: [
+        "Ciclurile repetate de congelare–dezghețare sunt printre cele mai frecvente cauze ale degradării peptidelor în mediile de cercetare. Fiecare dezghețare expune peptidele la umiditate, oxigen și stres structural, crescând riscul de agregare și reducere a activității biologice. Pentru a reduce acest risc, peptidele trebuie alicotate în fiole de unică folosință imediat după recepție.",
+        "Cercetătorii care achiziționează în mod regulat peptide de la Biopeptides implementează adesea alicotarea ca procedură standard de operare pentru a menține consistența între experimente. În plus, congelatoarele fără gheață (frost-free) trebuie evitate, deoarece ciclurile lor automate de dezghețare introduc fluctuații de temperatură care pot compromite stabilitatea peptidelor în timp."
+      ]
+    },
+    {
+      heading: "Protejarea peptidelor împotriva oxidării și umidității",
+      content: [
+        "Oxidarea și expunerea la umiditate reprezintă amenințări serioase pentru longevitatea peptidelor. Înainte de deschiderea recipientelor cu peptide congelate, fiolele trebuie lăsate să ajungă la temperatura camerei pentru a preveni formarea condensului în interior. Expunerea la aer trebuie menținută la un nivel minim absolut, în special pentru peptidele care conțin aminoacizi sensibili la oxidare, precum cisteina, metionina și triptofanul.",
+        "Laboratoarele avansate care lucrează cu Biopeptides resigilează adesea recipientele cu peptide sub gaze inerte, precum azotul sau argonul, pentru a reduce suplimentar stresul oxidativ. Această practică este deosebit de frecventă în mediile de cercetare reglementate din Europa, unde menținerea integrității materialelor este esențială pentru validarea datelor și conformitate."
+      ]
+    },
+    {
+      heading: "Considerații de depozitare pentru peptidele în soluție",
+      content: [
+        "Deși peptidele liofilizate oferă o stabilitate superioară pe termen lung, anumite protocoale experimentale necesită depozitarea peptidelor în soluție. În aceste cazuri, sunt preferate tampoanele sterile cu valori ușor acide ale pH-ului pentru a reduce riscul de degradare. Cu toate acestea, peptidele în soluție sunt inerent mai puțin stabile și mai susceptibile la contaminare microbiană și degradare chimică.",
+        "Pentru cercetătorii care achiziționează în mod curent peptide de la Biopeptides pentru teste repetate, prepararea alicoturilor de volum mic ajută la limitarea degradării, menținând în același timp consistența experimentală. Refrigerarea sau congelarea este esențială, iar duratele de depozitare în soluție trebuie menținute cât mai scurte posibil."
+      ]
+    },
+    {
+      heading: "Selectarea recipientelor adecvate pentru depozitare",
+      content: [
+        "Alegerea recipientului de depozitare influențează direct stabilitatea peptidelor. Recipientele trebuie să fie curate, chimic inerte și dimensionate corespunzător pentru a minimiza spațiul liber și expunerea la aer. Fiolele din sticlă de înaltă calitate sunt adesea preferate pentru depozitarea pe termen lung datorită proprietăților lor inerte, în timp ce fiolele din polipropilenă oferă durabilitate și rezistență chimică pentru utilizarea de rutină în laborator.",
+        "Peptidele furnizate de Biopeptides sunt ambalate pentru a asigura transportul sigur și stabilitatea inițială, însă laboratoarele pot alege să transfere peptidele în recipiente alternative, în funcție de protocoalele interne sau cerințele de depozitare pe termen lung."
+      ]
+    },
+    {
+      heading: "Menținerea integrității științifice prin depozitare corectă",
+      content: [
+        "Depozitarea eficientă a peptidelor nu este doar o considerație logistică; este o necesitate științifică. Fie că se desfășoară cercetare de descoperire în stadii incipiente, dezvoltare farmaceutică sau analiză a căilor moleculare, menținerea unor controale stricte de depozitare asigură faptul că peptidele oferă rezultate fiabile și reproductibile. Prin protejarea peptidelor de fluctuațiile de temperatură, oxidare, umiditate și manipulare inutilă, laboratoarele din întreaga lume pot maximiza valoarea și performanța peptidelor de cercetare cu puritate ridicată furnizate de Biopeptides."
+      ]
+    }
+  ],
+
+  faqSection: {
+    heading: "Întrebări frecvente (FAQs)",
+    faqs: [
+      {
+        question: "Cum afectează depozitarea peptidelor reproductibilitatea experimentală?",
+        answer: "Depozitarea necorespunzătoare poate duce la degradarea peptidelor, modificarea structurii și reducerea activității, rezultând rezultate experimentale inconsistente. Menținerea unor condiții stabile de depozitare asigură faptul că peptidele de la Biopeptides funcționează constant pe parcursul studiilor repetate și al perioadelor extinse de cercetare."
+      },
+      {
+        question: "Sunt anumite secvențe de peptide mai vulnerabile la degradare?",
+        answer: "Da. Peptidele care conțin aminoacizi precum cisteina, metionina, triptofanul, asparagina sau glutamina sunt mai susceptibile la oxidare și instabilitate chimică. Aceste peptide necesită un control mai strict al temperaturii și o expunere redusă la aer pentru a-și menține integritatea."
+      },
+      {
+        question: "De ce este recomandată alicotarea peptidelor imediat după recepție?",
+        answer: "Alicotarea minimizează expunerea repetată la aer, umiditate și variații de temperatură. Această practică reduce semnificativ riscul de degradare și îi ajută pe cercetătorii care utilizează Biopeptides să mențină performanțe constante ale peptidelor în multiple experimente."
+      },
+      {
+        question: "Cum influențează expunerea la umiditate stabilitatea peptidelor?",
+        answer: "Umiditatea poate iniția hidroliza și poate perturba legăturile peptidice, ducând la degradare rapidă. Permiterea peptidelor congelate să ajungă la temperatura camerei înainte de deschiderea recipientelor ajută la prevenirea condensului și prelungește durata de viață a peptidelor."
+      },
+      {
+        question: "Contribuie expunerea la lumină la degradarea peptidelor?",
+        answer: "Da. Expunerea prelungită la lumină, în special la lumină ultravioletă, poate accelera degradarea chimică a anumitor peptide. Depozitarea peptidelor în recipiente întunecate sau opace ajută la menținerea stabilității, în special pentru utilizarea pe termen lung în cercetare."
+      },
+      {
+        question: "Poate fi identificată degradarea peptidelor înainte ca experimentele să eșueze?",
+        answer: "În multe cazuri, degradarea poate fi detectată prin modificări ale solubilității, agregare sau variabilitate neașteptată a testelor. Metodele analitice precum HPLC sau spectrometria de masă sunt utilizate frecvent pentru a verifica integritatea peptidelor înainte de experimentele critice."
+      },
+      {
+        question: "De ce sunt congelatoarele fără gheață nepotrivite pentru depozitarea peptidelor?",
+        answer: "Congelatoarele fără gheață trec prin cicluri regulate de variație a temperaturii pentru a preveni formarea gheții. Aceste fluctuații pot stresa structurile peptidelor și pot crește riscul de degradare comparativ cu congelatoarele ultra-scăzute cu temperatură constantă."
+      },
+      {
+        question: "Cum sprijină depozitarea corectă a peptidelor cercetarea conformă cu reglementările?",
+        answer: "Condițiile controlate de depozitare susțin trasabilitatea, reproductibilitatea și integritatea datelor. Acești factori sunt esențiali pentru proiectele de cercetare farmaceutică, preclinică și colaborativă care utilizează peptide de înaltă calitate de la Biopeptides."
+      }
+    ]
+  }
+},
+researchPeptidesForDiscovery: {
+  title: "Peptide de cercetare pentru descoperire științifică și inovare",
+  img: "/peptide-info/research.jpg",
+  preview: "Peptidele de cercetare au devenit unul dintre cele mai puternice instrumente pentru inovare și descoperire...",
+  
+  content: [
+    "În știința biomedicală și farmaceutică modernă, peptidele de cercetare au devenit unul dintre cele mai puternice instrumente pentru inovare și descoperire. Aceste molecule proiectate cu precizie sunt utilizate de cercetători pentru a explora căi biologice, a dezvolta terapii de generație următoare și a extinde frontierele medicinei moleculare.",
+    "La BioPeptides, furnizăm peptide de cercetare cu puritate ridicată laboratoarelor, universităților și companiilor de biotehnologie din Spania, Franța, Țările de Jos, Italia, Germania și alte țări europene, susținând progresul științific de vârf.",
+    "Toate articolele și informațiile despre produse furnizate de BioPeptides sunt destinate strict scopurilor educaționale și cercetării in-vitro. Produsele noastre sunt furnizate exclusiv pentru investigații de laborator și cercetare științifică. Ele nu sunt medicamente sau produse farmaceutice și nu sunt aprobate de FDA pentru a diagnostica, trata, vindeca sau preveni vreo boală. Orice formă de administrare corporală la oameni sau animale este strict interzisă."
+  ],
+
+  subSections: [
+    {
+      heading: "Ce sunt peptidele de cercetare?",
+      content: [
+        "Peptidele de cercetare sunt secvențe peptidice sintetice sau derivate natural, fabricate exclusiv pentru experimentare de laborator și studiu științific. Ele sunt utilizate pe scară largă în:",
+        "• Programe de descoperire a medicamentelor",
+        "• Studii de legare la receptori",
+        "• Cercetare în biologie moleculară",
+        "• Investigații ale semnalizării celulare",
+        "• Dezvoltare biochimică și farmaceutică",
+        "Datorită selectivității ridicate, potenței și metabolismului predictibil, peptidele au devenit una dintre cele mai promițătoare clase moleculare din medicina modernă. Ca urmare, cererea globală pentru peptide de cercetare a crescut rapid în Europa și la nivel mondial."
+      ]
+    },
+    {
+      heading: "Peptide de cercetare vs. medicamente",
+      content: [
+        "Este esențial să se facă o distincție clară între peptidele de cercetare și medicamentele farmaceutice aprobate.",
+        "Peptidele de cercetare sunt fabricate exclusiv pentru studii in-vitro (din latină: „în sticlă”), adică experimente realizate în afara organismelor vii. Ele sunt utilizate de cercetători pentru a explora mecanisme biologice și a evalua potențiali candidați medicamentoși.",
+        "În schimb, medicamentele pe bază de peptide trebuie să parcurgă:",
+        "• Testări preclinice extinse",
+        "• Mai multe faze de studii clinice",
+        "• Aprobarea autorităților de reglementare precum FDA sau EMA",
+        "În prezent, peste 60 de medicamente pe bază de peptide au fost aprobate la nivel global, inclusiv medicamente de referință utilizate în oncologie, boli metabolice și endocrinologie. Totuși, acestea nu mai sunt peptide de cercetare — sunt produse farmaceutice reglementate.",
+        "Peptidele de cercetare constituie baza pentru descoperirea medicamentelor de mâine."
+      ]
+    },
+    {
+      heading: "Peptidele de cercetare ca terapii viitoare",
+      content: [
+        "Peste 7.000 de peptide naturale au fost deja identificate în sistemele biologice. Aceste peptide funcționează ca:",
+        "• Hormoni",
+        "• Factori de creștere",
+        "• Neurotransmițători",
+        "• Modulatori ai sistemului imunitar",
+        "• Agenți antimicrobieni",
+        "Peptidele sunt molecule de semnalizare extrem de selective care se leagă precis de receptorii de la suprafața celulelor și declanșează răspunsuri intracelulare. Specificitatea lor permite efecte biologice țintite cu activitate minimă în afara țintei.",
+        "Cercetarea clinică a demonstrat constant că terapiile pe bază de peptide oferă:",
+        "• Profiluri excelente de siguranță",
+        "• Potență biologică ridicată",
+        "• Metabolism predictibil",
+        "• Selectivitate ridicată pentru receptori",
+        "Ca rezultat, peptidele reprezintă unul dintre sectoarele cu cea mai rapidă creștere în cercetarea farmaceutică și biotehnologie."
+      ]
+    },
+    {
+      heading: "Creșterea globală a cercetării peptidelor",
+      content: [
+        "Extinderea cercetării peptidelor este determinată de provocări majore de sănătate la nivel global, inclusiv:",
+        "• Tulburări metabolice precum diabetul de tip 2 și obezitatea",
+        "• Oncologia și terapiile țintite împotriva cancerului",
+        "• Boli infecțioase",
+        "• Afecțiuni inflamatorii",
+        "• Boli genetice rare",
+        "Centrele europene de cercetare din Franța, Spania, Țările de Jos, Italia, Elveția și Germania investesc masiv în dezvoltarea medicamentelor pe bază de peptide, diagnosticare și tehnologii de vaccinare.",
+        "La BioPeptides, susținem acest ecosistem global de cercetare prin livrarea de peptide sintetice de calitate premium, caracterizare analitică și servicii personalizate de sinteză peptidică."
+      ]
+    },
+    {
+      heading: "De ce aleg oamenii de știință BioPeptides",
+      content: [
+        "BioPeptides este un furnizor de încredere de:",
+        "• Peptide de cercetare",
+        "• Peptide sintetice",
+        "• Sinteză personalizată de peptide",
+        "• Compuși peptidici cu puritate ridicată",
+        "• Peptide pentru cercetare farmaceutică",
+        "Peptidele noastre sunt fabricate utilizând sinteza peptidică în fază solidă (SPPS) avansată și sunt validate prin HPLC și spectrometrie de masă pentru a asigura o calitate și reproductibilitate de neegalat.",
+        "Sprijinim cu mândrie instituții de cercetare din Spania, Franța, Țările de Jos, Italia, Belgia, Suedia, Danemarca și alte țări europene."
+      ]
+    },
+    {
+      heading: "Concluzie",
+      content: [
+        "Peptidele de cercetare reprezintă fundamentul științei moderne a peptidelor și al inovației farmaceutice. De la descoperirea în stadii incipiente până la dezvoltarea terapeutică avansată, peptidele continuă să redefinească viitorul medicinei.",
+        "La BioPeptides, ne angajăm să susținem progresul științific prin soluții peptidice proiectate cu precizie și expertiză tehnică de clasă mondială."
+      ]
+    }
+  ],
+
+  faqSection: {
+    heading: "Întrebări frecvente (FAQs)",
+    faqs: [
+      {
+        question: "Pentru ce sunt utilizate peptidele de cercetare în laboratoare?",
+        answer: "Peptidele de cercetare sunt utilizate pentru a studia căi biologice, interacțiuni receptor-ligand, activitatea enzimatică și semnalizarea moleculară. Ele susțin programe de descoperire a medicamentelor, diagnosticare, dezvoltare de vaccinuri și screening farmaceutic în laboratoare de cercetare din Europa și din întreaga lume."
+      },
+      {
+        question: "Sunt peptidele de cercetare BioPeptides potrivite pentru dezvoltarea farmaceutică?",
+        answer: "Da. BioPeptides furnizează peptide de cercetare cu puritate ultra-înaltă, concepute pentru cercetare farmaceutică, modelare moleculară, dezvoltare de formulări și investigații preclinice. Toate produsele sunt fabricate conform unor standarde stricte de calitate și validate prin tehnici analitice avansate."
+      },
+      {
+        question: "Poate BioPeptides livra peptide de cercetare în întreaga Europă?",
+        answer: "BioPeptides livrează peptide de cercetare către instituții științifice și companii de biotehnologie din Spania, Franța, Țările de Jos, Italia, Germania, Elveția și alte țări europene, asigurând aprovizionare de laborator rapidă, sigură și conformă."
+      },
+      {
+        question: "Cum asigură BioPeptides calitatea și puritatea peptidelor?",
+        answer: "Fiecare lot de peptide este sintetizat utilizând sinteza peptidică în fază solidă de precizie și este purificat prin HPLC. Verificarea structurală se realizează prin spectrometrie de masă pentru a asigura acuratețea secvenței, integritatea moleculară și puritatea de nivel cercetare."
+      },
+      {
+        question: "Ce face peptidele candidați ideali pentru medicamentele viitorului?",
+        answer: "Peptidele oferă selectivitate biologică ridicată, legare puternică la receptori, metabolism predictibil și profiluri excelente de siguranță. Aceste caracteristici le fac ideale pentru terapii țintite în oncologie, boli metabolice, imunologie și cercetarea bolilor infecțioase."
+      },
+      {
+        question: "Poate BioPeptides produce secvențe peptidice personalizate?",
+        answer: "Da. BioPeptides este specializată în sinteza personalizată de peptide, inclusiv peptide cu lanț lung, peptide modificate, peptide marcate și structuri moleculare complexe pentru programe avansate de cercetare și dezvoltare farmaceutică."
+      },
+      {
+        question: "Sunt peptidele de cercetare reglementate ca medicamente?",
+        answer: "Nu. Peptidele de cercetare nu sunt medicamente aprobate. Ele sunt fabricate exclusiv pentru cercetare de laborator in-vitro și evaluare științifică. Ele devin medicamente doar după studii clinice extinse și aprobare de reglementare."
+      },
+      {
+        question: "Oferă BioPeptides suport tehnic pentru cercetarea peptidelor?",
+        answer: "Da. BioPeptides oferă consultanță de specialitate privind designul peptidelor, optimizarea solubilității, strategiile de formulare, testarea analitică și studiile de stabilitate pentru a susține proiecte avansate de chimie peptidică și biotehnologie."
+      }
+    ]
+  }
+}
+
+
+
+
+
     }
   },
   "home": {
@@ -560,15 +1428,15 @@ export default {
     "secureNote": "Plăți 100% Securizate"
   },
   "research": {
-    "1": {
+    "vilon": {
       "title": "Vilon: Bioregulare Celulară și Imună",
       "subtitle": "O examinare științifică profundă a unuia dintre cei mai cercetați peptizi bioregulatori timici și rolul său în repararea celulară, echilibrul imun și homeostazia tisulară.",
       "author": "Dr. Hannah",
       "date": "acum 1 lună",
-      images: [
-  "/images/research/vilon/vilon-1.jpg",
-  "/images/research/vilon/vilon-2.jpg"
-],
+  images: [
+      "/research/vilon-1.jpg",
+      "/research/vilon-2.jpg"
+    ],
       "categories": ["Bioregulatori", "Sănătate Imună"],
       "paragraphs": [
         "Vilon este unul dintre cei mai extins studiați peptizi bioregulatori în biochimia celulară modernă și știința longevității. Ca dipeptid natural derivat din extracte timice (Lys-Glu), Vilon reprezintă cea mai timpurie generație de regulatori moleculari specifici țesuturilor — structuri scurte de aminoacizi capabile să restabilească expresia genică echilibrată, să stabilizeze funcția celulară și să sprijine procesele regenerative din întregul organism. Deși timusul este sursa identității biologice a Vilonului, impactul său este sistemic, afectând integritatea imună, controlul inflamator și repararea epithelială în diverse sisteme de organe.",
@@ -822,7 +1690,7 @@ export default {
       "date": "acum 1 lună",
       images:[
   "/images/research/Neuroplasticity/Neuroplasticity.jpg",
-    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
+    "/images/research/Neuroplasticity/Neuroplasticity2.jpg"
 ],
 
       "categories": ["Neuroștiință", "Neuroplasticitate", "Sănătate Cognitivă"],

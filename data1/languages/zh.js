@@ -1670,8 +1670,8 @@ images:[
   subtitle:
     "对Cardiogen在心肌能量与结构稳定性中的作用进行科学分析。",
 images:[
-  "images/research/Cardiogen/Cardiogen1.jpg",
-  "images/research/Cardiogen/Cardiogen2.jpg"
+  "/images/research/Cardiogen/Cardiogen1.jpg",
+  "/images/research/Cardiogen/Cardiogen2.jpg"
 ],
 
   paragraphs: [
@@ -1779,7 +1779,7 @@ images:[
     "肽对脑功能影响的科学研究。",
 images:[
   "/images/research/Neuroplasticity/Neuroplasticity.jpg",
-    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
+    "/images/research/Neuroplasticity/Neuroplasticity2.jpg"
 ],
 
   paragraphs: [
@@ -1851,7 +1851,7 @@ images:[
     "肽在抗衰老研究中的科学作用。",
 images:[
   "/images/research/Anti-Aging/Anti-Aging1.jpg",
-  "/images/research/Anti-Aging/Anti-Aging1.jpg"
+  "/images/research/Anti-Aging/Anti-Aging2.jpg"
 ],
 
   paragraphs: [

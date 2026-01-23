@@ -1663,8 +1663,8 @@ cardiogen: {
   subtitle:
     "Wissenschaftliche Analyse der Rolle von Cardiogen bei der Erhaltung der Myokardstabilität und Energieeffizienz.",
 images:[
-  "images/research/Cardiogen/Cardiogen1.jpg",
-  "images/research/Cardiogen/Cardiogen2.jpg"
+  "/images/research/Cardiogen/Cardiogen1.jpg",
+  "/images/research/Cardiogen/Cardiogen2.jpg"
 ],
 
   paragraphs: [

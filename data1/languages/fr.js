@@ -1677,8 +1677,8 @@ images:[
   subtitle:
     "Analyse scientifique du rôle de Cardiogen dans la stabilité myocardique.",
 images:[
-  "images/research/Cardiogen/Cardiogen1.jpg",
-  "images/research/Cardiogen/Cardiogen2.jpg"
+  "/images/research/Cardiogen/Cardiogen1.jpg",
+  "/images/research/Cardiogen/Cardiogen2.jpg"
 ],
 
   paragraphs: [
@@ -1786,7 +1786,7 @@ images:[
     "Analyse scientifique des mécanismes peptidiques neuronaux.",
 images:[
   "/images/research/Neuroplasticity/Neuroplasticity.jpg",
-    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
+    "/images/research/Neuroplasticity/Neuroplasticity2.jpg"
 ],
 
   paragraphs: [
@@ -1857,7 +1857,7 @@ images:[
     "Exploration scientifique du vieillissement cellulaire.",
 images:[
   "/images/research/Anti-Aging/Anti-Aging1.jpg",
-  "/images/research/Anti-Aging/Anti-Aging1.jpg"
+  "/images/research/Anti-Aging/Anti-Aging2.jpg"
 ],
 
   paragraphs: [

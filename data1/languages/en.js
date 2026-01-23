@@ -1953,7 +1953,7 @@ images:[
     "Peptides in Neuroplasticity and Brain Optimization: Molecular Pathways, Cognitive Resilience, and Neural Regeneration",
 images:[
   "/images/research/Neuroplasticity/Neuroplasticity.jpg",
-    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
+    "/images/research/Neuroplasticity/Neuroplasticity2.jpg"
 ],
   subtitle:
     "A detailed exploration of how research peptides influence synaptic remodeling, neuronal survival, mitochondrial performance, and long-term cognitive health.",
@@ -2069,7 +2069,7 @@ images:[
     "A scientific deep-dive into how regulatory peptides support cellular resilience, DNA maintenance, mitochondrial protection, and long-term biological stability.",
 images:[
   "/images/research/Anti-Aging/Anti-Aging1.jpg",
-  "/images/research/Anti-Aging/Anti-Aging1.jpg"
+  "/images/research/Anti-Aging/Anti-Aging2.jpg"
 ],
   author: "Dr. Hannah",
   date: "1 month ago",

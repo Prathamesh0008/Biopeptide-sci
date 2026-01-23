@@ -1657,8 +1657,8 @@ images:[
   subtitle:
     "心筋のエネルギーと構造安定性におけるカルディオゲンの科学的解析。",
 images:[
-  "images/research/Cardiogen/Cardiogen1.jpg",
-  "images/research/Cardiogen/Cardiogen2.jpg"
+  "/images/research/Cardiogen/Cardiogen1.jpg",
+  "/images/research/Cardiogen/Cardiogen2.jpg"
 ],
 
   paragraphs: [
@@ -1766,7 +1766,7 @@ images:[
     "脳機能におけるペプチドの科学的研究。",
 images:[
   "/images/research/Neuroplasticity/Neuroplasticity.jpg",
-    "/images/research/Neuroplasticity/Neuroplasticity.jpg"
+    "/images/research/Neuroplasticity/Neuroplasticity2.jpg"
 ],
 
   paragraphs: [

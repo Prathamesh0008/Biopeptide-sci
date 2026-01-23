@@ -1655,8 +1655,8 @@ images:[
   subtitle:
     "Exploração científica do papel do Cardiogen na estabilidade do tecido cardíaco.",
 images:[
-  "images/research/Cardiogen/Cardiogen1.jpg",
-  "images/research/Cardiogen/Cardiogen2.jpg"
+  "/images/research/Cardiogen/Cardiogen1.jpg",
+  "/images/research/Cardiogen/Cardiogen2.jpg"
 ],
 
   paragraphs: [
