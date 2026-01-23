@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { useLanguage } from "@/contexts/LanguageContext";
 import DrawerProducts from "@/components/DrawerProducts";
-import { useState } from "react";
+import { useState, useCallback, useMemo } from "react";
 
 const countryImages = [
   "/bg/germanybg.png",
@@ -21,7 +21,8 @@ export default function AboutPage() {
   const { translations, loading } = useLanguage();
   const [drawerOpen, setDrawerOpen] = useState(false);
 
-  const t = (path) => {
+  const t = useCallback(
+  (path) => {
     try {
       return path
         .split(".")
@@ -29,14 +30,29 @@ export default function AboutPage() {
     } catch {
       return "";
     }
-  };
+  },
+  [translations]
+);
 
-  if (loading)
-    return (
-      <div className="flex items-center justify-center min-h-screen">
-        Loading...
-      </div>
-    );
+const about = useMemo(() => translations?.about || {}, [translations]);
+
+const countries = useMemo(
+  () => Array.isArray(about?.companyOverview?.countries)
+    ? about.companyOverview.countries
+    : [],
+  [about]
+);
+
+if (loading) {
+  return (
+    <>
+      <Navbar />
+      <div className="min-h-screen" />
+      <Footer />
+    </>
+  );
+}
+
 
   return (
     <>
@@ -87,8 +103,8 @@ export default function AboutPage() {
             {/* <p>{t("companyOverview.description1")}</p>
             <p>{t("companyOverview.description2")}</p> */}
 
-     {Array.isArray(t("companyOverview.countries")) &&
-  t("companyOverview.countries").map((country, i) => (
+  {countries.map((country, i) => (
+
     <div
       key={i}
       className="grid lg:grid-cols-2 gap-12 items-center pt-16"
@@ -119,24 +135,27 @@ export default function AboutPage() {
       </div>
 
       {/* IMAGE */}
-      <div
-  className={`relative aspect-[16/9] w-full rounded-xl overflow-hidden flex items-center justify-center ${
+ <div
+  className={`relative w-full h-[360px] rounded-xl overflow-hidden flex items-center justify-center ${
     i % 2 !== 0 ? "lg:order-1" : ""
   }`}
 >
+
+{countryImages[i] && (
   <Image
     src={countryImages[i]}
     alt={country.heading}
     fill
     sizes="(max-width: 1024px) 100vw, 50vw"
     className="object-contain"
+    priority={i === 0}
   />
+)}
+
 </div>
 
     </div>
   ))}
-
-
           </div>
 
           {/* MISSION & VISION */}
@@ -189,8 +208,7 @@ export default function AboutPage() {
       {item}
     </div>
   ))}
-
-            </div>
+  </div>
           </div>
 
           {/* ETHICS */}
@@ -220,6 +238,17 @@ export default function AboutPage() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 // // peptides/app/about/page.jsx
 // "use client";
 
@@ -230,6 +259,14 @@ export default function AboutPage() {
 // import { useLanguage } from "@/contexts/LanguageContext";
 // import DrawerProducts from "@/components/DrawerProducts";
 // import { useState } from "react";
+
+// const countryImages = [
+//   "/bg/germanybg.png",
+//   "/bg/francebg.png",
+//   "/bg/netherlandsbg.png",
+//   "/bg/italybg.png",
+//   "/bg/spainbg.png",
+// ];
 
 // export default function AboutPage() {
 //   const { translations, loading } = useLanguage();
@@ -301,47 +338,55 @@ export default function AboutPage() {
 //             {/* <p>{t("companyOverview.description1")}</p>
 //             <p>{t("companyOverview.description2")}</p> */}
 
-//             {Array.isArray(t("companyOverview.countries")) &&
+//      {Array.isArray(t("companyOverview.countries")) &&
 //   t("companyOverview.countries").map((country, i) => (
-//     <div key={i} className="space-y-6  pt-10">
-//       <h3 className="text-2xl font-bold text-[#0d2d47]">
-//         {country.heading}
-//       </h3>
+//     <div
+//       key={i}
+//       className="grid lg:grid-cols-2 gap-12 items-center pt-16"
+//     >
+//       {/* TEXT */}
+//       <div className={i % 2 !== 0 ? "lg:order-2" : ""}>
+//         <h3 className="text-2xl font-bold text-[#0d2d47]">
+//           {country.heading}
+//         </h3>
 
-//       <p className="text-lg font-medium text-bioBlue">
-//         {country.subheading}
-//       </p>
+//         <p className="text-lg font-medium text-bioBlue">
+//           {country.subheading}
+//         </p>
 
-//       {country.paragraphs.map((para, idx) => (
-//         <p key={idx}>{para}</p>
-//       ))}
-
-//       {/* BULLET HEADING */}
-//       <h4 className="text-lg font-semibold mt-4">
-//         {country.bulletHeading}
-//       </h4>
-
-//       {/* BULLETS */}
-//       <ul className="list-disc list-inside space-y-1">
-//         {country.bullets.map((item, idx) => (
-//           <li key={idx}>{item}</li>
+//         {country.paragraphs.map((para, idx) => (
+//           <p key={idx}>{para}</p>
 //         ))}
-//       </ul>
 
-//       {/* INTERNAL LINKS */}
-//       <div className="flex flex-col sm:flex-row gap-3 pt-3">
-//         {country.links.map((link, idx) => (
-//           <a
-//             key={idx}
-//             href={link.href}
-//             className="text-bioBlue font-semibold hover:underline"
-//           >
-//             🔗 {link.label}
-//           </a>
-//         ))}
+//         <h4 className="text-lg font-semibold mt-4">
+//           {country.bulletHeading}
+//         </h4>
+
+//         <ul className="list-disc list-inside space-y-1">
+//           {country.bullets.map((item, idx) => (
+//             <li key={idx}>{item}</li>
+//           ))}
+//         </ul>
 //       </div>
+
+//       {/* IMAGE */}
+//       <div
+//   className={`relative aspect-[16/9] w-full rounded-xl overflow-hidden flex items-center justify-center ${
+//     i % 2 !== 0 ? "lg:order-1" : ""
+//   }`}
+// >
+//   <Image
+//     src={countryImages[i]}
+//     alt={country.heading}
+//     fill
+//     sizes="(max-width: 1024px) 100vw, 50vw"
+//     className="object-contain"
+//   />
+// </div>
+
 //     </div>
 //   ))}
+
 
 //           </div>
 
@@ -413,6 +458,13 @@ export default function AboutPage() {
 //     </>
 //   );
 // }
+
+
+
+
+
+
+
 
 
 
