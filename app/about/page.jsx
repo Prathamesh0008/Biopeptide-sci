@@ -142,14 +142,15 @@ if (loading) {
 >
 
 {countryImages[i] && (
-  <Image
-    src={countryImages[i]}
-    alt={country.heading}
-    fill
-    sizes="(max-width: 1024px) 100vw, 50vw"
-    className="object-contain"
-    priority={i === 0}
-  />
+ <Image
+  src={countryImages[i]}
+  alt={country.heading}
+  fill
+  unoptimized
+  className="object-contain"
+  priority={i === 0}
+/>
+
 )}
 
 </div>
