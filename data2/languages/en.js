@@ -4,25 +4,154 @@ export default {
 
   products: {
     "bpc-157-5mg": {
-      name: "BPC-157 5mg",
+      name: "BPC-157 Peptide 5mg",
+      tagline: "Research Overview and Technical Profile",
+      cas: "137525-51-0",
 
+      // Short card/hero text (optional)
       strength:
-        "Synthetic pentadecapeptide studied extensively in cellular repair and regenerative research models.",
+        "High-purity synthetic research peptide used in advanced laboratory investigations of molecular signaling and cellular pathway analysis.",
 
-      description:
-        "BPC-157 is a stable synthetic peptide composed of 15 amino acids and derived from a naturally occurring gastric protein fragment. In laboratory research, it is widely studied for its role in cellular protection, angiogenesis, tissue regeneration, and signaling pathway modulation. Supplied as a high-purity lyophilized powder for controlled scientific research applications.",
+      // Main top description (3 paragraphs for your current UI)
+      topDescription: {
+        p0:
+          "BPC-157 Peptide 5mg (CAS 137525-51-0) is a high-purity synthetic research peptide developed for advanced laboratory investigations in molecular biology, biochemical signaling, and cellular pathway analysis.",
+        p1:
+          "Manufactured using Solid-Phase Peptide Synthesis (SPPS) under controlled conditions to ensure structural precision, reproducibility, and analytical reliability. Each batch undergoes HPLC and Mass Spectrometry (MS) testing to confirm identity and purity.",
+        p2:
+          "Used in in-vitro models for protein–peptide interactions, cellular regeneration pathways, mitochondrial activity, and receptor-binding behavior. For laboratory research use only."
+      },
 
-      applications: [
-        "Cellular repair and regeneration studies",
-        "Angiogenesis and vascular signaling research",
-        "Gastrointestinal tissue research models",
-        "Inflammatory pathway investigation"
-      ],
- 
-      appearance: "White lyophilized powder",
-      storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
-      researchStatus:
-        "For laboratory research use only. Not for human or veterinary use."
+      // Full page content for ProductContent
+      content: {
+        overviewTitle: "Research Overview",
+        overview: [
+          "Synthetic peptides are essential tools in modern biochemical research due to their ability to interact selectively with cellular targets.",
+          "BPC-157 Peptide 5mg is selected for its molecular stability, predictable degradation kinetics, and reproducible behavior under controlled experimental conditions."
+        ],
+
+        scientificBackgroundTitle: "Scientific Background",
+        scientificBackground: [
+          "BPC-157 Peptide 5mg is a laboratory-grade synthetic peptide known for stability and controlled experimental behavior.",
+          "Its sequence enables investigation of signaling cascades, gene expression modulation, and enzymatic sensitivity in controlled cellular models."
+        ],
+
+        mechanismTitle: "Mechanistic Research Properties",
+        mechanismPoints: [
+          "Modulation of cellular signaling pathways involved in intracellular communication",
+          "Influence on growth factor sensitivity and signal amplification",
+          "Regulation of gene expression patterns in controlled cellular models",
+          "Interaction with mitochondrial processes related to ATP production",
+          "Support of enzymatic activation and substrate sensitivity"
+        ],
+
+        applicationsTitle: "Primary Research Applications",
+        applications: [
+          {
+            title: "Regenerative Cell Biology",
+            text:
+              "Used in controlled in-vitro environments to study cellular repair pathways, matrix interactions, and signaling responses associated with regeneration models."
+          },
+          {
+            title: "Protein Expression Analysis",
+            text:
+              "Applied in studies examining protein synthesis, degradation, and interaction networks where peptide-mediated signaling is relevant."
+          },
+          {
+            title: "Receptor-Binding Studies",
+            text:
+              "Used to evaluate peptide–receptor affinity, ligand specificity, and downstream signaling activation."
+          },
+          {
+            title: "Mitochondrial Metabolic Research",
+            text:
+              "Used in assays observing mitochondrial function, energy metabolism, and ATP-related cellular processes."
+          },
+          {
+            title: "Enzymatic Sensitivity Experiments",
+            text:
+              "Supports investigations into enzyme activation thresholds, substrate binding, and catalytic efficiency under peptide-modulated conditions."
+          },
+          {
+            title: "Extracellular Matrix Remodeling Assays",
+            text:
+              "Used in studies focused on matrix structure, cellular adhesion, and cell–matrix signaling."
+          }
+        ],
+
+        molecularTitle: "Molecular Characteristics",
+        molecularPoints: [
+          "Molecular Type: Synthetic research peptide",
+          "Structure: Linear peptide chain",
+          "Stability: High when stored and handled per protocol",
+          "Molecular Weight: Sequence-dependent"
+        ],
+
+        stabilityTitle: "Stability and Storage Profile",
+        stabilityPoints: [
+          "Stable when stored lyophilized at −20°C",
+          "Sensitive to moisture and prolonged light exposure",
+          "Degradation increases predictably above room temperature",
+          "Reconstituted solutions remain stable ~24–48 hours under refrigeration",
+          "Aliquot after reconstitution to minimize freeze–thaw cycles"
+        ],
+
+        solubilityTitle: "Solubility and Reconstitution Options",
+        solubilityPoints: [
+          "Bacteriostatic water",
+          "Sterile saline solutions",
+          "Mildly acidic buffers",
+          "Organic solvents used for analytical testing"
+        ],
+
+        techSpecsTitle: "Technical Specifications",
+        techSpecs: {
+          productName: "BPC-157 Peptide 5mg",
+          cas: "137525-51-0",
+          purity: "≥99% (HPLC verified)",
+          unitSize: "5 mg",
+          form: "Lyophilized powder",
+          synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+          analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry"
+        },
+
+        validationTitle: "Analytical Validation and Quality Control",
+        validationPoints: [
+          "HPLC purity profiling",
+          "Mass Spectrometry (MS) molecular weight confirmation",
+          "UV Spectrophotometric analysis",
+          "Batch identity and purity verification",
+          "Endotoxin and microbial contamination screening"
+        ],
+
+        regulatoryTitle: "Regulatory and Compliance Information",
+        regulatoryText:
+          "Supplied strictly for laboratory research and in-vitro studies only. Not approved as a drug, supplement, cosmetic, or medical product. Any bodily introduction into humans or animals is prohibited. COA and MSDS available upon request.",
+
+        whyTitle: "Why Source from Biopeptides?",
+        whyText:
+          "Biopeptides emphasizes purity, documentation transparency, and batch-to-batch consistency, supporting regulated research environments in Europe and internationally.",
+
+        faqTitle: "Frequently Asked Questions",
+        faqItems: [
+          {
+            q: "What is BPC-157 Peptide 5mg used for in research?",
+            a: "Used in controlled in-vitro research for cellular signaling pathways, protein–peptide interactions, receptor-binding studies, and mechanistic models."
+          },
+          {
+            q: "What is the CAS number for BPC-157 Peptide 5mg?",
+            a: "137525-51-0."
+          },
+          {
+            q: "How pure is BPC-157 Peptide 5mg supplied by Biopeptides?",
+            a: "≥99% purity verified via HPLC and Mass Spectrometry."
+          },
+          {
+            q: "How should it be stored for stability?",
+            a: "Store lyophilized at −20°C or lower, protected from moisture and light. Reconstituted solutions should be refrigerated and used within 24–48 hours."
+          }
+        ]
+      }
     }
   ,
   
