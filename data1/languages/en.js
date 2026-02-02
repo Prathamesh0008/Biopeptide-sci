@@ -2721,6 +2721,8 @@ productContent: {
   disclaimer:
     "This product is intended strictly for laboratory research purposes only. It is not intended for human or veterinary consumption, diagnosis, treatment, or prevention of any disease. Improper use may result in serious health risks."
 },
+
+
 bundlePage: { 
   tagline: "A curated BioPeptide research bundle for advanced scientific workflows.", 
   overviewTitle: "Bundle Overview", 

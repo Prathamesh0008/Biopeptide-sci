@@ -11,6 +11,7 @@
   cas: "137525-51-0",
   category: "Research Peptides",
   image:"/product/peptides/bpc157_5.png",
+  coaImage: "/documents/coa/bpc-157-coa.png",
 
    seo: {
     title: "Buy BPC-157 Peptide 5mg – CAS 137525-51-0 |",
@@ -252,7 +253,7 @@
   
   {
   id: "acetyl-hexapeptide-3-200mg",
-  slug: "acetyl-hexapeptide-3-argireline-200mg-topical",
+  slug: "acetyl-hexapeptide-3-200mg",
   name: "Acetyl Hexapeptide-3 (Argireline®) 200mg",
   category: "Cosmetic Peptides",
 
