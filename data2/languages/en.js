@@ -1141,425 +1141,2550 @@ export default {
   }
 }
 ,
-  
 
-  
-    "ahk-tripeptide-3-200mg": {
-      name: "AHK-Tripeptide-3 200mg",
-
-      strength:
-        "Synthetic cosmetic research tripeptide studied for follicular biology and skin peptide signaling models.",
-
-      description:
-        "AHK-Tripeptide-3 is a synthetic cosmetic research peptide investigated in laboratory models for its interaction with follicular biology, dermal signaling pathways, and peptide-based cosmetic formulation research. It is commonly studied in hair and skin research environments focusing on peptide signaling and topical delivery systems. Supplied as a high-purity research compound.",
-
-      applications: [
-        "Cosmetic peptide signaling research",
-        "Follicular biology studies (in vitro)",
-        "Skin and hair research models",
-        "Topical formulation development"
-      ],
-
-      appearance: "White to off-white powder",
-      storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
-      researchStatus:
-        "For laboratory and cosmetic research use only. Not for human or veterinary use."
-    
-  },
  
 
   
-    "ahk-cu-200mg": {
-      name: "AHK-Cu 200mg (Topical)",
+  "ahk-cu-200mg": {
+  name: "AHK-Cu 200mg (Topical)",
+  tagline: "Advanced Copper Peptide Research Profile",
+  cas: "682809-81-0",
 
-      strength:
-        "Copper-linked tripeptide complex studied in cosmetic and dermal signaling research models.",
+  // Short card / hero text
+  strength: [
+    "AHK-Cu 200mg (Topical) from BioPeptides is a high-purity synthetic copper peptide identified by CAS 682809-81-0. Manufactured using solid-phase peptide synthesis (SPPS) and validated through HPLC, Mass Spectrometry, and UV analysis, this peptide is designed for advanced laboratory research in cell signaling, protein–peptide interaction analysis, regenerative cell models, and metabolic research. Supplied as a lyophilized powder, AHK-Cu 200mg offers excellent stability, reproducibility, and batch consistency for laboratories across Europe seeking reliable compounds when they buy peptides online."
+  ],
 
-      description:
-        "AHK-Cu is a short tripeptide complexed with copper, researched in laboratory and cosmetic science settings for its interaction with fibroblast activity and extracellular matrix signaling. It is commonly referenced in studies related to dermal biology, peptide-copper complex behavior, and formulation research.",
+  // Hero / intro description
+  topDescription: {
+    p0: "AHK-Cu 200mg (Topical) from BioPeptides is a premium synthetic copper peptide identified by CAS 682809-81-0 and developed exclusively for advanced in-vitro scientific research involving dermal signaling and cellular interaction studies.",
+    p1: "Manufactured using Solid-Phase Peptide Synthesis (SPPS), this peptide undergoes rigorous analytical verification via HPLC, Mass Spectrometry, and UV analysis to ensure ≥99% purity, molecular accuracy, and batch-to-batch consistency.",
+    p2: "Research laboratories across Europe rely on AHK-Cu 200mg for reproducible biochemical research, peptide–metal interaction studies, regenerative cell modeling, and controlled experimental workflows."
+  },
 
-      sequence: "Ala-His-Lys-Cu",
+  // Full product page content
+  content: {
+    overviewTitle: "Comprehensive Research Overview",
+    overview: [
+      "AHK-Cu 200mg (Topical) is a precision-engineered synthetic copper-binding research peptide supplied by BioPeptides for advanced in-vitro laboratory investigation.",
+      "Each batch is produced using Solid-Phase Peptide Synthesis (SPPS) and subjected to multi-stage purification and analytical validation to ensure high purity, structural integrity, and reproducibility.",
+      "Identified by CAS number 682809-81-0, this peptide meets documentation and traceability requirements for European and international research laboratories."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background",
+    scientificBackground: [
+      "Synthetic copper peptides such as AHK-Cu are extensively studied for their role in cellular communication, enzymatic regulation, and protein–metal ion interactions.",
+      "AHK-Cu serves as a valuable research tool for investigating intracellular signaling pathways, extracellular matrix behavior, and mitochondrial metabolic processes.",
+      "Its predictable degradation kinetics, copper-binding stability, and linear peptide structure support reproducible experimental outcomes in both short-term assays and long-duration research designs."
+    ],
+
+    mechanismTitle: "Mechanistic Research Properties",
+    mechanismPoints: [
+      "Modulation of intracellular signaling cascades in controlled laboratory models",
+      "Enhancement of growth factor sensitivity in regenerative cell research",
+      "Regulation of gene expression patterns in peptide-mediated signaling studies",
+      "Influence on mitochondrial ATP production and metabolic behavior",
+      "Support of enzymatic activation and inhibition pathway analysis",
+      "Interaction with extracellular matrix components in structural protein research"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Regenerative Cell Biology",
+        text: "Investigating cellular renewal, differentiation, and tissue modeling under controlled laboratory conditions."
+      },
+      {
+        title: "Protein Expression Analysis",
+        text: "Studying transcriptional and translational responses in peptide-treated experimental models."
+      },
+      {
+        title: "Receptor-Binding Studies",
+        text: "Analyzing ligand–receptor interactions and peptide-mediated signaling mechanisms."
+      },
+      {
+        title: "Mitochondrial Metabolic Research",
+        text: "Evaluating peptide influence on cellular energy production pathways."
+      },
+      {
+        title: "Enzymatic Sensitivity Experiments",
+        text: "Assessing enzyme activation, inhibition, and regulatory behavior."
+      },
+      {
+        title: "Extracellular Matrix Interaction Studies",
+        text: "Exploring matrix remodeling and cellular microenvironment dynamics."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic copper-binding research peptide",
+      "Structure: Linear tripeptide complexed with copper",
+      "Stability: High when stored under recommended laboratory conditions",
+      "Molecular Weight: 416.9 g/mol"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Considerations",
+    stabilityPoints: [
+      "Supplied as a lyophilized powder for enhanced long-term stability",
+      "Long-term storage: Store at −20°C to preserve molecular integrity",
+      "Sensitive to moisture and prolonged light exposure",
+      "Predictable degradation above room temperature",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline",
+      "Acidic aqueous buffers",
+      "Organic analytical solvents for advanced assay applications"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "AHK-Cu 200mg (Topical)",
+      cas: "682809-81-0",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "200 mg",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry"
+    },
+
+    validationTitle: "Analytical Validation and Quality Control",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity confirmation",
+      "Mass Spectrometry (MS) molecular weight and identity verification",
+      "UV spectrophotometric concentration analysis",
+      "Batch identity and consistency verification",
+      "Endotoxin and microbial contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Information",
+    regulatoryText:
+      "AHK-Cu 200mg (Topical) is supplied strictly for laboratory research and scientific investigation. It is not approved as a drug, cosmetic, food, or dietary product. BioPeptides provides Certificates of Analysis (COA), Material Safety Data Sheets (MSDS), and batch analytical documentation upon request.",
+
+    whyTitle: "Why Buy AHK-Cu from BioPeptides?",
+    whyText:
+      "BioPeptides is trusted by European and international research institutions for supplying high-purity synthetic peptides with transparent analytical validation. Researchers who buy peptides online choose BioPeptides for consistent quality, regulatory-aligned documentation, and reliable EU-wide shipping.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is AHK-Cu 200mg (Topical) used for in research?",
+        a: "AHK-Cu 200mg is used in regenerative cell biology, protein interaction studies, receptor-binding assays, mitochondrial research, and enzymatic pathway analysis under controlled laboratory conditions."
+      },
+      {
+        q: "What is the CAS number of AHK-Cu?",
+        a: "The CAS number is 682809-81-0, which uniquely identifies the compound for research documentation and regulatory reference."
+      },
+      {
+        q: "Is AHK-Cu approved for medical or cosmetic use?",
+        a: "No. AHK-Cu 200mg (Topical) is supplied strictly for laboratory research and is not approved for medical, cosmetic, therapeutic, or dietary applications."
+      },
+      {
+        q: "How should AHK-Cu 200mg be stored?",
+        a: "Store the lyophilized peptide at −20°C, protected from moisture and light. Reconstituted solutions should be refrigerated and used within 24–48 hours."
+      },
+      {
+        q: "Can I buy AHK-Cu peptides online in Europe?",
+        a: "Yes. BioPeptides supplies AHK-Cu 200mg to laboratories across Europe, including France, Germany, Italy, Spain, the Netherlands, Belgium, and Switzerland."
+      },
+    {
+      q:"How is peptide purity verified?",
+      a:"Purity is confirmed using HPLC, while molecular identity is verified through Mass Spectrometry and UV analysis for each production batch."
+    },
+    {
+      q:"What solvents are compatible with AHK-Cu?",
+      a:"AHK-Cu can be reconstituted using bacteriostatic water, sterile saline, acidic buffers, or compatible analytical solvents depending on experimental requirements."
+    },
+    {
+      q:"Is AHK-Cu suitable for long-term research studies?",
+      a:"Yes. When stored and handled properly, AHK-Cu maintains molecular stability and reproducibility for extended research timelines.",
+    }
+    ],
+
+    chemicalProperties: {
       molecularFormula: "C15H25CuN6O4",
-      molecularWeight: "416.9 g/mol",
-
-      applications: [
-        "Fibroblast and extracellular matrix research",
-        "Dermal signaling pathway studies",
-        "Cosmetic formulation and stability research",
-        "Peptide-copper complex research"
-      ],
-
-      appearance: "Powder (topical research material)",
-      storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
-      researchStatus:
-        "For laboratory and cosmetic research use only. Not for human or veterinary use."
-    
-  },
+      molecularWeight: "416.9",
+      polarArea: "N/A",
+      complexity: "N/A",
+      xlogP: "N/A",
+      heavyAtomCount: "N/A",
+      hydrogenBondDonorCount: "N/A",
+      hydrogenBondAcceptorCount: "N/A",
+      rotatableBondCount: "N/A",
+      sequence: "Ala-His-Lys-Cu"
+    }
+  }
+}
+,
   
 
 
-    "aod9604-6mg": {
-      name: "AOD9604 6mg",
+ "aod9604-6mg": {
+  name: "AOD9604 6mg",
+  tagline: "Advanced Metabolic Research Peptide Profile",
+  cas: "386264-39-7",
 
-      strength:
-        "Synthetic growth hormone fragment peptide studied in metabolic signaling and adipocyte research models.",
+  // Short card / hero text
+  strength: [
+    "AOD9604 6mg from BioPeptides is a high-purity synthetic research peptide identified by CAS 386264-39-7. Manufactured using solid-phase peptide synthesis (SPPS) and validated through HPLC and Mass Spectrometry, this peptide is designed for cellular signaling, metabolic pathway, and protein interaction research. Known for excellent stability and reproducibility, AOD9604 is trusted by European research laboratories seeking reliable compounds when they buy peptides online for controlled in-vitro experimentation."
+  ],
 
-      description:
-        "AOD9604 is a synthetic peptide fragment derived from the C-terminal region of human growth hormone. In laboratory research settings, this compound is studied for its role in metabolic signaling pathways, lipid metabolism mechanisms, and adipocyte-related research models. The 6mg format supports extended laboratory experimentation requiring higher material availability. Supplied as a high-purity lyophilized powder for controlled scientific investigation.",
-
-      applications: [
-        "Metabolic signaling research",
-        "Adipocyte and lipid metabolism studies",
-        "Hormone fragment pathway investigation",
-        "Cellular energy regulation research"
-      ],
-
-      appearance: "White lyophilized powder",
-      storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-      researchStatus:
-        "For laboratory research use only. Not for human or veterinary use."
-    
+  // Hero / intro description
+  topDescription: {
+    p0: "AOD9604 6mg from BioPeptides is a premium synthetic research peptide identified by CAS 386264-39-7 and developed for advanced in-vitro laboratory studies involving metabolic signaling and cellular pathway investigation.",
+    p1: "Manufactured using Solid-Phase Peptide Synthesis (SPPS), this peptide undergoes rigorous analytical verification through HPLC and Mass Spectrometry to ensure ≥99% purity, molecular identity, and batch-to-batch consistency.",
+    p2: "Research institutions across Europe rely on AOD9604 6mg for reproducible metabolic research, protein interaction studies, and controlled experimental workflows in regulated laboratory environments."
   },
+
+  // Full product page content
+  content: {
+    overviewTitle: "High-Purity Research Peptide Overview",
+    overview: [
+      "AOD9604 6mg is a premium synthetic research peptide supplied by BioPeptides for advanced in-vitro scientific investigation.",
+      "Each batch is synthesized using Solid-Phase Peptide Synthesis (SPPS) under tightly controlled laboratory conditions to ensure molecular precision, purity, and reproducibility.",
+      "Identified by CAS number 386264-39-7, this peptide meets traceability and documentation standards required by European research institutions."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background and Research Significance",
+    scientificBackground: [
+      "Synthetic peptides are essential tools in modern biochemical, pharmaceutical, and molecular biology research.",
+      "AOD9604 is a well-characterized peptide fragment studied for its role in cellular signaling pathways and metabolic research models.",
+      "Its predictable degradation profile, stability, and reproducibility make it suitable for complex experimental designs.",
+      "European laboratories rely on high-quality peptides such as AOD9604 to ensure consistency across multi-phase research studies."
+    ],
+
+    mechanismTitle: "Mechanism of Action in Laboratory Research",
+    mechanismPoints: [
+      "Modulation of intracellular signaling pathways",
+      "Enhancement of growth factor sensitivity in research models",
+      "Regulation of gene expression patterns",
+      "Influence on mitochondrial ATP production and energy metabolism",
+      "Support of enzymatic activation and pathway mapping studies"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Metabolic Signaling Research",
+        text: "Investigating intracellular signaling cascades related to metabolic regulation."
+      },
+      {
+        title: "Adipocyte and Lipid Metabolism Studies",
+        text: "Exploring lipid processing mechanisms and adipocyte-related research models."
+      },
+      {
+        title: "Protein Expression Analysis",
+        text: "Evaluating transcriptional and translational responses in controlled laboratory systems."
+      },
+      {
+        title: "Receptor-Binding Studies",
+        text: "Analyzing ligand–receptor interactions relevant to metabolic pathways."
+      },
+      {
+        title: "Mitochondrial Metabolic Research",
+        text: "Assessing peptide influence on cellular energy production pathways."
+      },
+      {
+        title: "Enzymatic Sensitivity Experiments",
+        text: "Studying enzyme activation, inhibition, and regulatory mechanisms."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic growth hormone fragment research peptide",
+      "Structure: Linear peptide chain",
+      "Stability: High when stored under recommended laboratory conditions",
+      "Molecular Weight: Sequence-dependent"
+    ],
+
+    stabilityTitle: "Molecular Stability and Storage Profile",
+    stabilityPoints: [
+      "Supplied as a lyophilized powder for enhanced long-term stability",
+      "Long-term storage: Store at −20°C to preserve molecular integrity",
+      "Sensitive to moisture and prolonged light exposure",
+      "Predictable degradation above room temperature",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Characteristics",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline",
+      "Acidic buffers",
+      "Compatible analytical-grade organic solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "AOD9604 6mg",
+      cas: "386264-39-7",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "6 mg vial",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear peptide chain",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Control",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity confirmation",
+      "Mass Spectrometry (MS) molecular identity and weight verification",
+      "UV spectrophotometric concentration analysis",
+      "Batch identity and consistency verification",
+      "Endotoxin and microbial contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "AOD9604 6mg is supplied strictly for laboratory research and scientific investigation. It is not approved for use as a drug, food, cosmetic, or medical product. Introduction into humans or animals is strictly prohibited. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support regulatory documentation and internal laboratory compliance.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is AOD9604 6mg used for in research?",
+        a: "AOD9604 6mg is used in controlled in-vitro studies focusing on cellular signaling pathways, metabolic research, receptor binding, and protein–peptide interaction analysis."
+      },
+      {
+        q: "What is the CAS number for AOD9604?",
+        a: "The CAS number for AOD9604 is 386264-39-7, which uniquely identifies the compound for research and regulatory documentation."
+      },
+      {
+        q: "How should AOD9604 6mg be stored?",
+        a: "Lyophilized AOD9604 should be stored at −20°C, protected from moisture and light, to maintain stability and purity."
+      },
+      {
+        q: "Is AOD9604 suitable for long-term research projects?",
+        a: "Yes. When stored correctly, AOD9604 maintains molecular integrity and reproducibility for extended research timelines."
+      },
+      {
+        q: "What solvents can be used to reconstitute AOD9604?",
+        a: "AOD9604 can be reconstituted using bacteriostatic water, sterile saline, acidic buffers, or suitable analytical solvents."
+      },
+      {
+        q: "Is AOD9604 approved for medical or therapeutic use?",
+        a: "No. AOD9604 is strictly for laboratory research use only and is not approved for medical, cosmetic, or dietary applications."
+      }
+    ],
+             chemicalProperties: {
+  molecularFormula: "C78H123N23O23S2",
+  molecularWeight: "1815.1",
+  monoisotopicMass: "1813.86035961",
+  polarArea: "815",
+  complexity: "3710",
+  xlogP: "-4.8",
+  heavyAtomCount: "126",
+  hydrogenBondDonorCount: "28",
+  hydrogenBondAcceptorCount: "28",
+  rotatableBondCount: "45",
+  cid: " 71300630",
+  inchi:
+    " InChI=1S/C78H123N23O23S2/c1-9-41(8)62(101-68(115)47(18-14-28-86-78(83)84)91-69(116)50(29-38(2)3)95-63(110)45(79)30-43-19-21-44(104)22-20-43)75(122)100-61(40(6)7)74(121)94-49(23-25-56(80)105)67(114)98-55-37-126-125-36-54(65(112)88-32-57(106)89-51(76(123)124)31-42-15-11-10-12-16-42)97-70(117)52(34-102)90-58(107)33-87-64(111)48(24-26-59(108)109)93-73(120)60(39(4)5)99-71(118)53(35-103)96-66(113)46(92-72(55)119)17-13-27-85-77(81)82/h10-12,15-16,19-22,38-41,45-55,60-62,102-104H,9,13-14,17-18,23-37,79H2,1-8H3,(H2,80,105)(H,87,111)(H,88,112)(H,89,106)(H,90,107)(H,91,116)(H,92,119)(H,93,120)(H,94,121)(H,95,110)(H,96,113)(H,97,117)(H,98,114)(H,99,118)(H,100,122)(H,101,115)(H,108,109)(H,123,124)(H4,81,82,85)(H4,83,84,86)/t41-,45-,46-,47-,48-,49-,50-,51-,52-,53-,54-,55-,60-,61-,62-/m0/s1",
+  inchiKey: "GVIYUKXRXPXMQM-BPXGDYAESA-N",
+
+  canonicalSmiles:
+    "CCC(C)C(C(=O)NC(C(C)C)C(=O)NC(CCC(=O)N)C(=O)NC1CSSCC(NC(=O)C(NC(=O)CNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCCNC(=N)N)CO)C(C)C)CCC(=O)O)CO)C(=O)NCC(=O)NC(CC2=CC=CC=C2)C(=O)O)NC(=O)C(CCCNC(=N)N)NC(=O)C(CC(C)C)NC(=O)C(CC3=CC=C(C=C3)O)N",
+
+  isomericSmiles:
+    "CC[C@H](C)[C@@H](C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@H]1CSSC[C@H](NC(=O)[C@@H](NC(=O)CNC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC1=O)CCCNC(=N)N)CO)C(C)C)CCC(=O)O)CO)C(=O)NCC(=O)N[C@@H](CC2=CC=CC=C2)C(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC3=CC=C(C=C3)O)N",
+
+  iupacName:
+    "(2S)-2-[[2-[[(4R,7S,13S,16S,19S,22S,25R)-25-[[(2S)-5-amino-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]-4-methylpentanoyl]amino]-5-carbamimidamidopentanoyl]amino]-3-methylpentanoyl]amino]-3-methylbutanoyl]amino]-5-oxopentanoyl]amino]-22-(3-carbamimidamidopropyl)-13-(2-carboxyethyl)-7,19-bis(hydroxymethyl)-6,9,12,15,18,21,24-heptaoxo-16-propan-2-yl-1,2-dithia-5,8,11,14,17,20,23-heptazacyclohexacosane-4-carbonyl]amino]acetyl]amino]-3-phenylpropanoic acid"
+}
+  }
+}
+,
   
+  "bpc-157-10mg": {
+  name: "BPC-157 10mg",
+  tagline: "Advanced Regenerative Research Peptide Profile",
+  cas: "137525-51-0",
 
-  
-    "bpc-157-10mg": {
-      name: "BPC-157 10mg",
+  // Short card / hero text
+  strength: [
+    "BPC-157 10mg from BioPeptides is a high-purity synthetic research peptide identified by CAS 137525-51-0. Manufactured using solid-phase peptide synthesis (SPPS) and validated through HPLC and Mass Spectrometry, it is widely studied in cellular signaling, protein expression, and metabolic research models. Known for excellent molecular stability and reproducibility, BPC-157 is trusted by European laboratories seeking reliable compounds when they buy peptides online for controlled scientific investigation."
+  ],
 
-      strength:
-        "Synthetic pentadecapeptide studied extensively in cellular repair, angiogenesis, and regenerative research models.",
-
-      description:
-        "BPC-157 is a stable synthetic peptide composed of 15 amino acids and derived from a naturally occurring gastric protein fragment. In laboratory research environments, it is widely investigated for its involvement in cellular protection mechanisms, angiogenic signaling, tissue regeneration pathways, and peptide-mediated cellular communication. The 10mg format supports extended or higher-volume research applications. Supplied as a high-purity lyophilized powder for controlled scientific investigation.",
-
-      applications: [
-        "Cellular repair and regeneration studies",
-        "Angiogenesis and vascular signaling research",
-        "Gastrointestinal and connective tissue research models",
-        "Inflammatory and protective pathway investigation"
-      ],
-
-      appearance: "White lyophilized powder",
-      storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-      researchStatus:
-        "For laboratory research use only. Not for human or veterinary use."
-    
+  // Hero / intro description
+  topDescription: {
+    p0: "BPC-157 10mg from BioPeptides is a premium synthetic research peptide identified by CAS 137525-51-0 and developed for advanced in-vitro laboratory investigations involving cellular repair, angiogenic signaling, and regenerative research pathways.",
+    p1: "Manufactured using Solid-Phase Peptide Synthesis (SPPS), this peptide undergoes rigorous analytical verification through HPLC and Mass Spectrometry to ensure ≥99% purity, molecular identity, and batch-to-batch consistency.",
+    p2: "Research institutions across Europe rely on BPC-157 10mg for reproducible peptide research, molecular interaction studies, and controlled experimental workflows under regulated laboratory conditions."
   },
+
+  // Full product page content
+  content: {
+    overviewTitle: "High-Purity Synthetic Research Peptide Overview",
+    overview: [
+      "BPC-157 10mg is a premium-grade synthetic research peptide supplied by BioPeptides for advanced in-vitro and laboratory-based scientific investigation.",
+      "Each batch is synthesized using Solid-Phase Peptide Synthesis (SPPS) under tightly controlled conditions to ensure molecular precision, purity, and reproducibility.",
+      "Identified by CAS number 137525-51-0, this peptide meets the traceability and documentation standards required by European research institutions."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background and Research Importance",
+    scientificBackground: [
+      "Synthetic peptides play a foundational role in modern biochemical and biomedical research due to their precision and reproducibility.",
+      "BPC-157 is a stable synthetic peptide fragment widely studied for its predictable biochemical behavior and versatility across research models.",
+      "Its structural stability and controlled degradation profile make it suitable for complex experimental designs.",
+      "European laboratories rely on analytically verified peptides such as BPC-157 to ensure consistency across multi-phase research studies."
+    ],
+
+    mechanismTitle: "Mechanism of Action in Research Contexts",
+    mechanismPoints: [
+      "Modulation of intracellular signaling pathways",
+      "Enhancement of growth factor sensitivity in research models",
+      "Regulation of gene expression patterns",
+      "Influence on mitochondrial ATP production and cellular energy regulation",
+      "Support of enzymatic activation and inhibition pathway analysis"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Cellular Repair and Regeneration Studies",
+        text: "Investigating controlled cellular behavior and experimental tissue modeling under laboratory conditions."
+      },
+      {
+        title: "Angiogenesis and Vascular Signaling Research",
+        text: "Studying peptide influence on vascular signaling pathways and cellular communication."
+      },
+      {
+        title: "Protein Expression Analysis",
+        text: "Evaluating transcriptional and translational responses in peptide-treated research models."
+      },
+      {
+        title: "Receptor-Binding Studies",
+        text: "Analyzing ligand–receptor interactions and peptide-mediated signaling mechanisms."
+      },
+      {
+        title: "Mitochondrial Metabolic Research",
+        text: "Assessing peptide effects on cellular energy pathways and ATP production."
+      },
+      {
+        title: "Enzymatic Sensitivity and Matrix Remodeling Assays",
+        text: "Exploring enzyme regulation and extracellular structure behavior in controlled environments."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic pentadecapeptide research compound",
+      "Structure: Linear peptide chain (15 amino acids)",
+      "Stability: High when stored under recommended laboratory conditions",
+      "Molecular Weight: Sequence-dependent"
+    ],
+
+    stabilityTitle: "Molecular Stability and Storage Profile",
+    stabilityPoints: [
+      "Supplied as a lyophilized powder for enhanced long-term stability",
+      "Long-term storage: Store at −20°C to preserve molecular integrity",
+      "Sensitive to moisture and prolonged light exposure",
+      "Predictable degradation above room temperature",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Characteristics",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline",
+      "Acidic buffers",
+      "Compatible analytical-grade organic solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "BPC-157 10mg",
+      cas: "137525-51-0",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "10 mg vial",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear peptide chain",
+      stability: "High when stored under recommended conditions"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity confirmation",
+      "Mass Spectrometry (MS) molecular identity and sequence verification",
+      "UV spectrophotometric concentration analysis",
+      "Batch identity and consistency verification",
+      "Endotoxin and microbial contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "BPC-157 10mg is supplied strictly for laboratory research and scientific investigation. It is not approved for use as a drug, food, cosmetic, or medical product, and is not intended for human or animal consumption. BioPeptides provides Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) upon request to support institutional compliance and internal laboratory documentation.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is BPC-157 10mg used for in research?",
+        a: "BPC-157 10mg is used in controlled laboratory studies involving cellular signaling, protein expression analysis, receptor-binding assays, and metabolic research models."
+      },
+      {
+        q: "What is the CAS number of BPC-157?",
+        a: "The CAS number for BPC-157 is 137525-51-0, which uniquely identifies the compound for research and regulatory reference."
+      },
+      {
+        q: "How should BPC-157 10mg be stored?",
+        a: "BPC-157 should be stored lyophilized at −20°C, protected from moisture and light, to maintain stability and purity."
+      },
+      {
+        q: "Is BPC-157 suitable for long-term research projects?",
+        a: "Yes. When stored correctly, BPC-157 maintains molecular integrity and reproducibility for extended research timelines."
+      },
+      {
+        q: "What solvents are suitable for reconstituting BPC-157?",
+        a: "Common solvents include bacteriostatic water, sterile saline, acidic buffers, and selected analytical-grade organic solvents."
+      },
+      {
+        q: "Is BPC-157 approved for medical or therapeutic use?",
+        a: "No. BPC-157 is strictly supplied for laboratory research use only and is not approved for medical, cosmetic, or dietary applications."
+      }
+    ],
+        chemicalProperties: {
+  molecularFormula: "C62H98N16O22",
+  molecularWeight: "1419.5",
+  monoisotopicMass: "1418.70415882",
+  polarArea: "573",
+  complexity: "3040",
+  xlogP: "-9",
+  heavyAtomCount: "100",
+  hydrogenBondDonorCount: "16",
+  hydrogenBondAcceptorCount: "24",
+  rotatableBondCount: "39",
+  cid: " 9941957",
+  inchi:
+    " InChI=1S/C62H98N16O22/c1-31(2)25-37(55(92)74-50(32(3)4)62(99)100)71-46(81)29-65-51(88)33(5)67-53(90)38(26-48(84)85)73-54(91)39(27-49(86)87)72-52(89)34(6)68-57(94)41-15-10-21-75(41)58(95)35(13-7-8-20-63)70-45(80)30-66-56(93)40-14-9-22-76(40)60(97)43-17-12-24-78(43)61(98)42-16-11-23-77(42)59(96)36(18-19-47(82)83)69-44(79)28-64/h31-43,50H,7-30,63-64H2,1-6H3,(H,65,88)(H,66,93)(H,67,90)(H,68,94)(H,69,79)(H,70,80)(H,71,81)(H,72,89)(H,73,91)(H,74,92)(H,82,83)(H,84,85)(H,86,87)(H,99,100)/t33-,34-,35-,36-,37-,38-,39-,40-,41-,42-,43-,50-/m0/s1",
+  inchiKey: "HEEWEZGQMLZMFE-RKGINYAYSA-N",
+
+  canonicalSmiles:
+    "CC(C)CC(C(=O)NC(C(C)C)C(=O)O)NC(=O)CNC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C1CCCN1C(=O)C(CCCCN)NC(=O)CNC(=O)C2CCCN2C(=O)C3CCCN3C(=O)C4CCCN4C(=O)C(CCC(=O)O)NC(=O)CN",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](C)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)O)NC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCCN)NC(=O)CNC(=O)[C@@H]2CCCN2C(=O)[C@@H]3CCCN3C(=O)[C@@H]4CCCN4C(=O)[C@H](CCC(=O)O)NC(=O)CN",
+
+  iupacName:
+    "(4S)-4-[(2-aminoacetyl)amino]-5-[(2S)-2-[(2S)-2-[(2S)-2-[[2-[[(2S)-6-amino-1-[(2S)-2-[[(2S)-1-[[(2S)-3-carboxy-1-[[(2S)-3-carboxy-1-[[(2S)-1-[[2-[[(2S)-1-[[(1S)-1-carboxy-2-methylpropyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxohexan-2-yl]amino]-2-oxoethyl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-5-oxopentanoic acid"
+}
+  }
+}
+,
+
+  
+  "bpc-157-15mg": {
+  name: "BPC-157 15mg",
+  tagline: "Advanced Regenerative Research Peptide Profile",
+  cas: "137525-51-0",
+
+  // Short card / hero text
+  strength: [
+    "BPC-157 15mg is a laboratory-grade synthetic research peptide identified by CAS 137525-51-0. Manufactured using solid-phase peptide synthesis (SPPS) and validated through HPLC and Mass Spectrometry, it achieves ≥99% purity and excellent batch-to-batch reproducibility. Supplied in lyophilized form, BPC-157 15mg is trusted by European research laboratories seeking high-purity peptides when they buy peptides online for precision-driven biochemical and molecular studies."
+  ],
+
+  // Hero / intro description
+  topDescription: {
+    p0: "BPC-157 15mg is a high-purity synthetic research peptide developed for advanced laboratory and in-vitro research applications involving cellular signaling, angiogenic pathways, and regenerative research models.",
+    p1: "Synthesised using Solid-Phase Peptide Synthesis (SPPS), this compound is analytically verified through High-Performance Liquid Chromatography and Mass Spectrometry to ensure ≥99% purity, molecular accuracy, and consistency.",
+    p2: "Trusted by research facilities across Germany, France, Italy, Spain, the Netherlands, and Northern Europe, BPC-157 15mg supports reproducible experimentation under EU-aligned research standards."
+  },
+
+  // Full product page content
+  content: {
+    overviewTitle: "Laboratory-Grade Research Peptide Overview",
+    overview: [
+      "BPC-157 15mg is a premium-grade synthetic pentadecapeptide supplied by Bio-Peptides for precision biochemical and molecular research.",
+      "Each batch is produced using Solid-Phase Peptide Synthesis (SPPS) under controlled laboratory conditions to ensure structural integrity, purity, and reproducibility.",
+      "Identified by CAS number 137525-51-0, BPC-157 meets documentation and traceability requirements expected by European academic, pharmaceutical, and private research institutions."
+    ],
+
+    scientificBackgroundTitle: "Role of BPC-157 in Contemporary Peptide Research",
+    scientificBackground: [
+      "Synthetic peptides enable controlled exploration of complex biological systems through reproducible molecular structures.",
+      "BPC-157 is frequently studied in experimental research due to its stability profile and predictable biochemical behaviour.",
+      "Its defined peptide chain supports investigation of cellular communication, enzymatic interactions, and signalling responses.",
+      "European laboratories value BPC-157 15mg for consistency across long-term and multi-phase research programmes."
+    ],
+
+    mechanismTitle: "Experimental Interaction and Research Focus",
+    mechanismPoints: [
+      "Interaction with intracellular signalling networks in controlled laboratory models",
+      "Influence on transcriptional behaviour and gene expression pathways",
+      "Modulation of enzymatic sensitivity and biochemical response mechanisms",
+      "Impact on mitochondrial activity and cellular energy regulation",
+      "Support of repeat-exposure and comparative pathway validation studies"
+    ],
+
+    applicationsTitle: "Laboratory Research Applications",
+    applications: [
+      {
+        title: "Cellular Repair and Regeneration Research",
+        text: "Examining cellular response behaviour and regenerative pathway modelling in vitro."
+      },
+      {
+        title: "Angiogenesis and Vascular Signaling Studies",
+        text: "Investigating peptide-mediated signalling related to vascular and angiogenic pathways."
+      },
+      {
+        title: "Connective Tissue and Gastrointestinal Models",
+        text: "Studying peptide interaction within connective and structural research environments."
+      },
+      {
+        title: "Protein Expression and Signalling Analysis",
+        text: "Evaluating transcriptional and translational changes under controlled experimental conditions."
+      },
+      {
+        title: "Metabolic and Mitochondrial Research",
+        text: "Assessing peptide influence on ATP production and metabolic regulation."
+      },
+      {
+        title: "Inflammatory and Protective Pathway Investigation",
+        text: "Exploring peptide involvement in cellular stress and protective signalling models."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic pentadecapeptide research compound",
+      "Structure: Linear peptide chain (15 amino acids)",
+      "Stability: High when stored under recommended laboratory conditions",
+      "Molecular Weight: Sequence-dependent"
+    ],
+
+    stabilityTitle: "Stability Characteristics and Storage Guidance",
+    stabilityPoints: [
+      "Supplied as a lyophilized powder for long-term molecular stability",
+      "Recommended storage: −20°C for extended preservation",
+      "Sensitive to humidity and prolonged light exposure",
+      "Predictable degradation above room temperature",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Experimental Handling",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Acidic laboratory buffers",
+      "Compatible analytical-grade organic solvents"
+    ],
+
+    techSpecsTitle: "Technical Overview",
+    techSpecs: {
+      productName: "BPC-157 15mg",
+      cas: "137525-51-0",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "15 mg vial",
+      form: "Lyophilized research powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic peptide chain",
+      stability: "High under appropriate laboratory storage"
+    },
+
+    validationTitle: "Quality Assurance and Analytical Control",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity verification",
+      "Mass Spectrometry (MS) molecular identity and sequence confirmation",
+      "UV spectrophotometric concentration assessment",
+      "Batch consistency and reproducibility checks",
+      "Endotoxin and microbial screening for research suitability"
+    ],
+
+    regulatoryTitle: "Regulatory Position and Intended Use",
+    regulatoryText:
+      "BPC-157 15mg is supplied strictly for laboratory research and scientific investigation. It is not approved for medicinal, cosmetic, dietary, or veterinary use and is not intended for human or animal consumption. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support institutional compliance across EU jurisdictions.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is BPC-157 15mg used for in laboratory research?",
+        a: "BPC-157 15mg is used in controlled laboratory environments to study cellular signalling behaviour, protein interactions, and molecular response pathways."
+      },
+      {
+        q: "What is the CAS number for BPC-157?",
+        a: "The CAS number for BPC-157 is 137525-51-0, which uniquely identifies the compound for research documentation and traceability."
+      },
+      {
+        q: "Is BPC-157 15mg approved for medical or human use?",
+        a: "No. BPC-157 15mg is supplied strictly for laboratory research and scientific investigation only."
+      },
+      {
+        q: "How should BPC-157 15mg be stored?",
+        a: "Store the peptide in lyophilized form at −20°C, protected from moisture and light."
+      },
+      {
+        q: "What solvents are used to reconstitute BPC-157?",
+        a: "Common solvents include bacteriostatic water, sterile saline, acidic buffers, and compatible analytical solvents."
+      },
+      {
+        q: "How is purity verified?",
+        a: "Purity and identity are confirmed using HPLC, Mass Spectrometry, and UV analysis for every batch."
+      },
+      {
+        q: "Can European laboratories buy BPC-157 online?",
+        a: "Yes. Bio-Peptides supplies BPC-157 15mg to research institutions across Europe with full analytical documentation."
+      },
+      {
+        q: "Why choose the 15mg format?",
+        a: "The 15mg format is preferred for long-term, high-throughput, or multi-phase studies requiring consistent aliquoting and reduced variability."
+      }
+    ],
+           chemicalProperties: {
+  molecularFormula: "C62H98N16O22",
+  molecularWeight: "1419.5",
+  monoisotopicMass: "1418.70415882",
+  polarArea: "573",
+  complexity: "3040",
+  xlogP: "-9",
+  heavyAtomCount: "100",
+  hydrogenBondDonorCount: "16",
+  hydrogenBondAcceptorCount: "24",
+  rotatableBondCount: "39",
+  cid: " 9941957",
+  inchi:
+    " InChI=1S/C62H98N16O22/c1-31(2)25-37(55(92)74-50(32(3)4)62(99)100)71-46(81)29-65-51(88)33(5)67-53(90)38(26-48(84)85)73-54(91)39(27-49(86)87)72-52(89)34(6)68-57(94)41-15-10-21-75(41)58(95)35(13-7-8-20-63)70-45(80)30-66-56(93)40-14-9-22-76(40)60(97)43-17-12-24-78(43)61(98)42-16-11-23-77(42)59(96)36(18-19-47(82)83)69-44(79)28-64/h31-43,50H,7-30,63-64H2,1-6H3,(H,65,88)(H,66,93)(H,67,90)(H,68,94)(H,69,79)(H,70,80)(H,71,81)(H,72,89)(H,73,91)(H,74,92)(H,82,83)(H,84,85)(H,86,87)(H,99,100)/t33-,34-,35-,36-,37-,38-,39-,40-,41-,42-,43-,50-/m0/s1",
+  inchiKey: "HEEWEZGQMLZMFE-RKGINYAYSA-N",
+
+  canonicalSmiles:
+    "CC(C)CC(C(=O)NC(C(C)C)C(=O)O)NC(=O)CNC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C1CCCN1C(=O)C(CCCCN)NC(=O)CNC(=O)C2CCCN2C(=O)C3CCCN3C(=O)C4CCCN4C(=O)C(CCC(=O)O)NC(=O)CN",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](C)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)O)NC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCCN)NC(=O)CNC(=O)[C@@H]2CCCN2C(=O)[C@@H]3CCCN3C(=O)[C@@H]4CCCN4C(=O)[C@H](CCC(=O)O)NC(=O)CN",
+
+  iupacName:
+    "(4S)-4-[(2-aminoacetyl)amino]-5-[(2S)-2-[(2S)-2-[(2S)-2-[[2-[[(2S)-6-amino-1-[(2S)-2-[[(2S)-1-[[(2S)-3-carboxy-1-[[(2S)-3-carboxy-1-[[(2S)-1-[[2-[[(2S)-1-[[(1S)-1-carboxy-2-methylpropyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxohexan-2-yl]amino]-2-oxoethyl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-5-oxopentanoic acid"
+}
+  }
+}
+,
  
+  "bpc-157-tb-500-blend-10mg": {
+  name: "BPC-157 + TB-500 Blend 10mg",
+  tagline: "Advanced Dual-Peptide Research Blend",
+  cas: "137525-51-0, 77591-33-4",
 
-  
-    "bpc-157-15mg": {
-      name: "BPC-157 15mg",
+  // Short card / hero text
+  strength: [
+    "BPC-157 + TB-500 Blend 10mg from Bio-Peptides is a premium dual-peptide research formulation identified by CAS 137525-51-0 and CAS 77591-33-4. Manufactured using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC, Mass Spectrometry, and UV analysis, this blend achieves ≥99% purity and excellent batch consistency. Trusted by European laboratories, it supports reproducible in-vitro research focused on cellular signalling, protein-peptide interaction, and regenerative pathway investigation."
+  ],
 
-      strength:
-        "Synthetic pentadecapeptide studied extensively in cellular repair, angiogenesis, and advanced regenerative research models.",
-
-      description:
-        "BPC-157 is a stable synthetic peptide composed of 15 amino acids and derived from a naturally occurring gastric protein fragment. In laboratory research environments, it is widely investigated for its role in cellular protection mechanisms, angiogenic signaling, connective tissue interaction, and peptide-mediated regenerative pathways. The 15mg format is designed for extended or high-throughput research applications requiring greater material availability. Supplied as a high-purity lyophilized powder for controlled scientific investigation.",
-
-      applications: [
-        "Cellular repair and regeneration studies",
-        "Angiogenesis and vascular signaling research",
-        "Connective tissue and gastrointestinal research models",
-        "Inflammatory and protective pathway investigation"
-      ],
-
-      appearance: "White lyophilized powder",
-      storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-      researchStatus:
-        "For laboratory research use only. Not for human or veterinary use."
-    
+  // Hero / intro description
+  topDescription: {
+    p0: "BPC-157 + TB-500 Blend 10mg is a high-purity synthetic dual-peptide research formulation developed for advanced in-vitro laboratory studies requiring molecular consistency and reproducibility.",
+    p1: "Each component is synthesised using Solid-Phase Peptide Synthesis (SPPS) and analytically verified using HPLC, Mass Spectrometry, and UV spectroscopy to confirm molecular identity and purity.",
+    p2: "Supplied to research institutions across Germany, France, Italy, Spain, the Netherlands, and other EU regions, this blend supports controlled experimental workflows under European research standards."
   },
+
+  // Full product page content
+  content: {
+    overviewTitle: "Advanced Research Peptide Blend Overview",
+    overview: [
+      "BPC-157 + TB-500 Blend 10mg is a specialised dual-peptide research formulation supplied by Bio-Peptides for precision in-vitro experimentation.",
+      "The blend combines two well-characterised synthetic peptides under tightly controlled production conditions to ensure batch-to-batch uniformity.",
+      "Identified by CAS 137525-51-0 (BPC-157) and CAS 77591-33-4 (TB-500), the product meets traceability and documentation requirements expected by European research laboratories."
+    ],
+
+    scientificBackgroundTitle: "Scientific Context and Research Relevance",
+    scientificBackground: [
+      "Synthetic peptide blends are valuable tools in modern biochemical and molecular research due to their ability to influence multiple pathways simultaneously.",
+      "The BPC-157 + TB-500 Blend is frequently selected for studies involving cellular signalling behaviour, protein-peptide interactions, and regenerative model exploration.",
+      "Blended formulations allow researchers to evaluate interaction effects, signal amplification, and pathway modulation under controlled conditions.",
+      "European laboratories increasingly prefer blend formats to reduce handling variability and improve experimental consistency."
+    ],
+
+    mechanismTitle: "Mechanistic Research Characteristics",
+    mechanismPoints: [
+      "Modulation of intracellular signalling pathways in controlled in-vitro systems",
+      "Influence on growth factor sensitivity and molecular activation cascades",
+      "Regulation of gene expression patterns in peptide-based research models",
+      "Interaction with mitochondrial ATP dynamics and metabolic pathways",
+      "Support of enzymatic response analysis and pathway-driven research designs"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Synergistic Peptide Interaction Studies",
+        text: "Evaluating interaction effects and signal modulation between multiple peptide pathways."
+      },
+      {
+        title: "Cellular Repair and Regeneration Research",
+        text: "Studying controlled cellular response behaviour in regenerative research models."
+      },
+      {
+        title: "Angiogenesis and Vascular Signalling Models",
+        text: "Investigating peptide-mediated signalling related to vascular and angiogenic pathways."
+      },
+      {
+        title: "Protein Expression and Receptor-Binding Studies",
+        text: "Analysing molecular interaction dynamics under defined laboratory conditions."
+      },
+      {
+        title: "Mitochondrial and Metabolic Research",
+        text: "Assessing peptide blend influence on energy-related cellular processes."
+      },
+      {
+        title: "Matrix Remodelling and Structural Assays",
+        text: "Exploring extracellular structure behaviour and peptide-driven cellular environments."
+      }
+    ],
+
+    molecularTitle: "Molecular Composition and Characteristics",
+    molecularPoints: [
+      "Component 1: BPC-157 (synthetic pentadecapeptide)",
+      "Component 2: TB-500 (thymosin beta-4 analogue)",
+      "Structure: Linear peptide chains supplied as a blended formulation",
+      "Stability: High when stored under recommended laboratory conditions"
+    ],
+
+    stabilityTitle: "Molecular Stability and Storage Profile",
+    stabilityPoints: [
+      "Supplied as a lyophilised powder for enhanced long-term stability",
+      "Recommended storage: −20°C for extended research use",
+      "Sensitive to moisture, oxygen, and prolonged light exposure",
+      "Predictable degradation at elevated temperatures",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Considerations",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Acidic laboratory buffers",
+      "Compatible analytical-grade organic solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "BPC-157 + TB-500 Blend 10mg",
+      cas: "137525-51-0, 77591-33-4",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "10 mg blended vial",
+      form: "Lyophilised peptide blend",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic peptide chains",
+      stability: "High under appropriate laboratory storage"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "HPLC purity verification for each peptide component",
+      "Mass Spectrometry confirmation of molecular identity",
+      "UV spectrophotometric concentration analysis",
+      "Batch consistency and reproducibility testing",
+      "Endotoxin and microbial screening for regulated research environments"
+    ],
+
+    regulatoryTitle: "Regulatory and Research Compliance",
+    regulatoryText:
+      "BPC-157 + TB-500 Blend 10mg is supplied strictly for laboratory research and in-vitro scientific investigation. It is not approved as a drug, food, cosmetic, or medical product and is not intended for human or animal use. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support institutional compliance across EU jurisdictions.",
+
+    whyTitle: "Why European Laboratories Choose Bio-Peptides",
+    whyText:
+      "Research institutions across Germany, France, Italy, Spain, the Netherlands, Belgium, Austria, Sweden, and Denmark rely on Bio-Peptides for consistent supply, transparent documentation, and high-purity research compounds. For laboratories seeking to buy peptides online with confidence, Bio-Peptides delivers reliability, traceability, and scientific integrity.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is BPC-157 + TB-500 Blend 10mg used for in research?",
+        a: "It is used exclusively in laboratory research to study cellular signalling behaviour, protein-peptide interactions, and molecular pathway dynamics under controlled in-vitro conditions."
+      },
+      {
+        q: "What are the CAS numbers for this peptide blend?",
+        a: "The blend contains CAS 137525-51-0 for BPC-157 and CAS 77591-33-4 for TB-500, ensuring full molecular traceability."
+      },
+      {
+        q: "Is this blend approved for medical or clinical use?",
+        a: "No. This product is strictly for laboratory research and is not approved for human, animal, or clinical use."
+      },
+      {
+        q: "How should the blend be stored?",
+        a: "Store the lyophilised blend at −20°C, protected from light and moisture, to preserve molecular integrity."
+      },
+      {
+        q: "Can European laboratories buy this peptide blend online?",
+        a: "Yes. Bio-Peptides supplies this blend to research facilities across Europe with full analytical documentation."
+      },
+      {
+        q: "How is purity verified?",
+        a: "Purity and identity are verified using HPLC, Mass Spectrometry, and UV analysis before release."
+      },
+      {
+        q: "Which solvents are suitable for reconstitution?",
+        a: "Common solvents include bacteriostatic water, sterile saline, acidic buffers, and compatible analytical solvents."
+      },
+      {
+        q: "Why choose a blended peptide instead of single peptides?",
+        a: "Blended peptides allow researchers to observe interaction effects and pathway modulation with reduced handling variability and improved experimental consistency."
+      }
+    ],
+           chemicalProperties: {
+  molecularFormula: "C62H98N16O22",
+  molecularWeight: "1419.5",
+  monoisotopicMass: "1418.70415882",
+  polarArea: "573",
+  complexity: "3040",
+  xlogP: "-9",
+  heavyAtomCount: "100",
+  hydrogenBondDonorCount: "16",
+  hydrogenBondAcceptorCount: "24",
+  rotatableBondCount: "39",
+  cid: " 9941957",
+  inchi:
+    " InChI=1S/C62H98N16O22/c1-31(2)25-37(55(92)74-50(32(3)4)62(99)100)71-46(81)29-65-51(88)33(5)67-53(90)38(26-48(84)85)73-54(91)39(27-49(86)87)72-52(89)34(6)68-57(94)41-15-10-21-75(41)58(95)35(13-7-8-20-63)70-45(80)30-66-56(93)40-14-9-22-76(40)60(97)43-17-12-24-78(43)61(98)42-16-11-23-77(42)59(96)36(18-19-47(82)83)69-44(79)28-64/h31-43,50H,7-30,63-64H2,1-6H3,(H,65,88)(H,66,93)(H,67,90)(H,68,94)(H,69,79)(H,70,80)(H,71,81)(H,72,89)(H,73,91)(H,74,92)(H,82,83)(H,84,85)(H,86,87)(H,99,100)/t33-,34-,35-,36-,37-,38-,39-,40-,41-,42-,43-,50-/m0/s1 Timbetasin: InChI=1S/C212H350N56O78S/c1-16-106(7)166(261-190(323)131(64-75-160(292)293)231-172(305)109(10)228-174(307)134(78-91-347-15)245-196(329)140(98-165(302)303)255-201(334)147-53-39-88-266(147)209(342)135(52-29-38-87-221)250-197(330)139(97-164(300)301)254-198(331)143(100-269)229-113(14)276)204(337)246-129(62-73-158(288)289)187(320)233-118(47-24-33-82-216)179(312)252-137(94-114-42-19-18-20-43-114)194(327)253-138(96-163(298)299)195(328)237-121(50-27-36-85-219)181(314)258-144(101-270)199(332)239-119(48-25-34-83-217)178(311)251-136(92-104(3)4)193(326)236-116(45-22-31-80-214)175(308)235-122(51-28-37-86-220)189(322)263-168(110(11)273)207(340)249-133(66-77-162(296)297)192(325)264-169(111(12)274)206(339)248-126(58-69-152(224)279)184(317)243-128(61-72-157(286)287)186(319)234-120(49-26-35-84-218)180(313)256-142(95-153(225)280)211(344)268-90-40-54-148(268)202(335)257-141(93-105(5)6)210(343)267-89-41-55-149(267)203(336)259-145(102-271)200(333)238-117(46-23-32-81-215)177(310)244-132(65-76-161(294)295)191(324)265-170(112(13)275)208(341)262-167(107(8)17-2)205(338)247-130(63-74-159(290)291)188(321)241-125(57-68-151(223)278)183(316)242-127(60-71-156(284)285)185(318)232-115(44-21-30-79-213)176(309)240-124(56-67-150(222)277)173(306)227-108(9)171(304)226-99-154(281)230-123(59-70-155(282)283)182(315)260-146(103-272)212(345)346/h18-20,42-43,104-112,115-149,166-170,269-275H,16-17,21-41,44-103,213-221H2,1-15H3,(H2,222,277)(H2,223,278)(H2,224,279)(H2,225,280)(H,226,304)(H,227,306)(H,228,307)(H,229,276)(H,230,281)(H,231,305)(H,232,318)(H,233,320)(H,234,319)(H,235,308)(H,236,326)(H,237,328)(H,238,333)(H,239,332)(H,240,309)(H,241,321)(H,242,316)(H,243,317)(H,244,310)(H,245,329)(H,246,337)(H,247,338)(H,248,339)(H,249,340)(H,250,330)(H,251,311)(H,252,312)(H,253,327)(H,254,331)(H,255,334)(H,256,313)(H,257,335)(H,258,314)(H,259,336)(H,260,315)(H,261,323)(H,262,341)(H,263,322)(H,264,325)(H,265,324)(H,282,283)(H,284,285)(H,286,287)(H,288,289)(H,290,291)(H,292,293)(H,294,295)(H,296,297)(H,298,299)(H,300,301)(H,302,303)(H,345,346)/t106-,107-,108-,109-,110+,111+,112+,115-,116-,117-,118-,119-,120-,121-,122-,123-,124-,125-,126-,127-,128-,129-,130-,131-,132-,133-,134-,135-,136-,137-,138-,139-,140-,141-,142-,143-,144-,145-,146-,147-,148-,149-,166-,167-,168-,169-,170-/m0/s1",
+  inchiKey: "HEEWEZGQMLZMFE-RKGINYAYSA-N",
+
+  canonicalSmiles:
+    "CC(C)CC(C(=O)NC(C(C)C)C(=O)O)NC(=O)CNC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C1CCCN1C(=O)C(CCCCN)NC(=O)CNC(=O)C2CCCN2C(=O)C3CCCN3C(=O)C4CCCN4C(=O)C(CCC(=O)O)NC(=O)CN",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](C)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)O)NC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCCN)NC(=O)CNC(=O)[C@@H]2CCCN2C(=O)[C@@H]3CCCN3C(=O)[C@@H]4CCCN4C(=O)[C@H](CCC(=O)O)NC(=O)CN",
+
+  iupacName:
+    "(4S)-4-[(2-aminoacetyl)amino]-5-[(2S)-2-[(2S)-2-[(2S)-2-[[2-[[(2S)-6-amino-1-[(2S)-2-[[(2S)-1-[[(2S)-3-carboxy-1-[[(2S)-3-carboxy-1-[[(2S)-1-[[2-[[(2S)-1-[[(1S)-1-carboxy-2-methylpropyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxohexan-2-yl]amino]-2-oxoethyl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-5-oxopentanoic acid Timbetasin: (4S)-4-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-2-acetamido-3-hydroxypropanoyl]amino]-3-carboxypropanoyl]amino]-6-aminohexanoyl]pyrrolidine-2-carbonyl]amino]-3-carboxypropanoyl]amino]-4-methylsulfanylbutanoyl]amino]propanoyl]amino]-4-carboxybutanoyl]amino]-3-methylpentanoyl]amino]-4-carboxybutanoyl]amino]-6-aminohexanoyl]amino]-3-phenylpropanoyl]amino]-3-carboxypropanoyl]amino]-6-aminohexanoyl]amino]-3-hydroxypropanoyl]amino]-6-aminohexanoyl]amino]-4-methylpentanoyl]amino]-6-aminohexanoyl]amino]-6-aminohexanoyl]amino]-3-hydroxybutanoyl]amino]-4-carboxybutanoyl]amino]-3-hydroxybutanoyl]amino]-5-amino-5-oxopentanoyl]amino]-4-carboxybutanoyl]amino]-6-aminohexanoyl]amino]-4-amino-4-oxobutanoyl]pyrrolidine-2-carbonyl]amino]-4-methylpentanoyl]pyrrolidine-2-carbonyl]amino]-3-hydroxypropanoyl]amino]-6-aminohexanoyl]amino]-4-carboxybutanoyl]amino]-3-hydroxybutanoyl]amino]-3-methylpentanoyl]amino]-4-carboxybutanoyl]amino]-5-amino-5-oxopentanoyl]amino]-4-carboxybutanoyl]amino]-6-aminohexanoyl]amino]-5-amino-5-oxopentanoyl]amino]propanoyl]amino]acetyl]amino]-5-[[(1S)-1-carboxy-2-hydroxyethyl]amino]-5-oxopentanoic acid"
+}
+  }
+},
  
-
  
-    "bpc-157-tb-500-blend-10mg": {
-      name: "BPC-157 + TB-500 Blend 10mg",
+ "bpc-157-tb-500-blend-20mg": {
+  name: "BPC-157 + TB-500 Blend 20mg",
+  tagline: "Advanced High-Dose Dual-Peptide Research Blend",
+  cas: "137525-51-0, 77591-33-4",
 
-      strength:
-        "Dual-peptide research blend combining BPC-157 and TB-500, studied for synergistic cellular repair, angiogenic signaling, and regenerative pathway research.",
+  // Short card / hero text
+  strength: [
+    "BPC-157 + TB-500 Blend 20mg is a high-purity dual-peptide research formulation developed for extended in-vitro experimentation. Synthesised using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC and Mass Spectrometry, this blend ensures ≥99% purity, molecular accuracy, and reproducibility. Identified by BPC-157 (CAS 137525-51-0) and TB-500 (CAS 77591-33-4), it is trusted by European laboratories sourcing top peptides online for cellular signalling, protein interaction, and metabolic research models."
+  ],
 
-      description:
-        "This research blend combines BPC-157, a pentadecapeptide investigated for cellular protection and tissue signaling mechanisms, with TB-500, a thymosin beta-4 analog studied in cell migration and angiogenesis research. The 10mg blend format is designed for laboratory studies focused on synergistic peptide interactions, multi-pathway regenerative signaling, and controlled in vitro research environments. Supplied as a high-purity lyophilized peptide blend.",
-
-      components: [
-        "BPC-157 (pentadecapeptide)",
-        "TB-500 (thymosin beta-4 analog)"
-      ],
-
-      applications: [
-        "Synergistic peptide interaction studies",
-        "Cellular repair and regeneration research",
-        "Angiogenesis and vascular signaling models",
-        "Multi-pathway peptide research"
-      ],
-
-      appearance: "White lyophilized powder blend",
-      storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-      researchStatus:
-        "For laboratory research use only. Not for human or veterinary use."
-    
+  // Hero / intro description
+  topDescription: {
+    p0: "BPC-157 + TB-500 Blend 20mg is a high-concentration dual synthetic peptide formulation engineered for advanced laboratory research requiring higher material availability.",
+    p1: "Manufactured using Solid-Phase Peptide Synthesis (SPPS), each batch undergoes analytical verification via HPLC, Mass Spectrometry, and UV analysis to confirm purity and molecular identity.",
+    p2: "Widely supplied to research institutions across Germany, France, Italy, Spain, the Netherlands, and other EU regions, this 20mg blend supports long-duration and multi-phase experimental workflows."
   },
+
+  // Full product page content
+  content: {
+    overviewTitle: "Advanced Dual-Peptide Research Compound Overview",
+    overview: [
+      "BPC-157 + TB-500 Blend 20mg is a specialised high-dose dual-peptide research formulation supplied by Bio-Peptides for precision-driven in-vitro experimentation.",
+      "The formulation combines two extensively studied synthetic peptides under controlled production conditions to ensure batch-to-batch uniformity and molecular consistency.",
+      "Traceable via CAS 137525-51-0 (BPC-157) and CAS 77591-33-4 (TB-500), the product supports transparent documentation and EU-aligned research compliance."
+    ],
+
+    scientificBackgroundTitle: "Role of High-Dose Peptide Blends in Modern Research",
+    scientificBackground: [
+      "High-dose peptide blends are increasingly utilised in molecular and biochemical research where extended study duration and reduced batch variability are essential.",
+      "The 20mg format allows laboratories to conduct long-running cell culture experiments, comparative pathway analysis, and multi-replicate studies using a single consistent batch.",
+      "European research institutions frequently prefer larger vial formats to support reproducibility requirements in peer-reviewed and grant-funded scientific work.",
+      "Blended peptide formulations also reduce handling variability and streamline experimental preparation workflows."
+    ],
+
+    mechanismTitle: "Molecular Behaviour and Research Mechanisms",
+    mechanismPoints: [
+      "Interaction with intracellular signalling and signal transduction pathways",
+      "Influence on gene transcription and molecular activation cascades",
+      "Modulation of growth factor sensitivity in controlled in-vitro systems",
+      "Relationship with mitochondrial ATP dynamics and metabolic behaviour",
+      "Support of enzymatic response and pathway-driven experimental models"
+    ],
+
+    applicationsTitle: "Common Research Applications Across Europe",
+    applications: [
+      {
+        title: "Regenerative Cell Biology Models",
+        text: "Studying controlled cellular behaviour and structural response mechanisms."
+      },
+      {
+        title: "Protein Expression and Interaction Studies",
+        text: "Evaluating transcriptional, translational, and peptide–protein interactions."
+      },
+      {
+        title: "Receptor–Ligand Binding Assays",
+        text: "Investigating molecular communication under defined laboratory conditions."
+      },
+      {
+        title: "Matrix Remodelling Investigations",
+        text: "Exploring extracellular structure behaviour and cellular microenvironments."
+      },
+      {
+        title: "Mitochondrial Metabolic Research",
+        text: "Assessing ATP-related cellular processes in isolated experimental systems."
+      },
+      {
+        title: "Enzymatic Sensitivity Experiments",
+        text: "Analysing activation and inhibition patterns across multiple pathways."
+      }
+    ],
+
+    molecularTitle: "Molecular Composition and Characteristics",
+    molecularPoints: [
+      "Component 1: BPC-157 (synthetic pentadecapeptide)",
+      "Component 2: TB-500 (thymosin beta-4 analogue)",
+      "Structure: Linear synthetic peptide chains supplied as a blended formulation",
+      "Dose Format: High-concentration 20mg blended vial",
+      "Stability: High under recommended laboratory storage conditions"
+    ],
+
+    stabilityTitle: "Stability, Handling, and Storage Profile",
+    stabilityPoints: [
+      "Supplied as a lyophilised powder for optimal long-term stability",
+      "Recommended storage temperature: −20°C",
+      "Sensitive to moisture, oxygen, and prolonged light exposure",
+      "Predictable degradation at elevated temperatures",
+      "Reconstituted solutions typically stable for 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Acidic buffer systems",
+      "Compatible organic analytical solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "BPC-157 + TB-500 Blend 20mg",
+      cas: "137525-51-0, 77591-33-4",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "20 mg blended vial",
+      form: "Lyophilised peptide blend",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic peptide chains",
+      stability: "High when stored under recommended conditions"
+    },
+
+    validationTitle: "Analytical Validation and Quality Control",
+    validationPoints: [
+      "HPLC purity confirmation for each peptide component",
+      "Mass Spectrometry molecular identity verification",
+      "UV spectrophotometric concentration analysis",
+      "Batch consistency and reproducibility testing",
+      "Endotoxin and microbial screening for regulated laboratory use"
+    ],
+
+    regulatoryTitle: "Regulatory Status and Intended Use",
+    regulatoryText:
+      "BPC-157 + TB-500 Blend 20mg is supplied strictly for laboratory research and in-vitro scientific investigation. It is not approved for use as a drug, food, cosmetic, or medical product and is not intended for human or animal consumption. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support EU institutional compliance.",
+
+    whyTitle: "Why European Researchers Choose Bio-Peptides",
+    whyText:
+      "Bio-Peptides supplies high-purity research peptides to institutions across Germany, France, Italy, Spain, the Netherlands, Belgium, Sweden, Denmark, and Austria. Laboratories that buy peptides online choose Bio-Peptides for analytical transparency, reliable batch quality, and adherence to European research standards.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is BPC-157 + TB-500 Blend 20mg used for?",
+        a: "It is used strictly for laboratory research, including cellular signalling studies, protein interaction analysis, and molecular pathway investigations."
+      },
+      {
+        q: "What are the CAS numbers for this peptide blend?",
+        a: "The blend includes BPC-157 (CAS 137525-51-0) and TB-500 (CAS 77591-33-4) for full molecular traceability."
+      },
+      {
+        q: "Is this product approved for medical or clinical use?",
+        a: "No. It is supplied solely for laboratory research and is not approved for human, veterinary, or clinical use."
+      },
+      {
+        q: "Why choose the 20mg blend instead of a lower dose?",
+        a: "The 20mg format supports longer studies, multiple experimental replicates, and reduced batch variability in advanced research projects."
+      },
+      {
+        q: "How should the blend be stored?",
+        a: "Store the lyophilised blend at −20°C, protected from moisture and light."
+      },
+      {
+        q: "Can European laboratories buy this peptide online?",
+        a: "Yes. Bio-Peptides supplies this product across Europe with full analytical documentation."
+      },
+      {
+        q: "What analytical testing is performed?",
+        a: "Each batch is verified using HPLC, Mass Spectrometry, and UV analysis to confirm purity and identity."
+      },
+      {
+        q: "Which solvents are suitable for reconstitution?",
+        a: "Common solvents include bacteriostatic water, sterile saline, acidic buffers, and compatible analytical solvents."
+      }
+    ],
+           chemicalProperties: {
+  molecularFormula: "C62H98N16O22",
+  molecularWeight: "1419.5",
+  monoisotopicMass: "1418.70415882",
+  polarArea: "573",
+  complexity: "3040",
+  xlogP: "-9",
+  heavyAtomCount: "100",
+  hydrogenBondDonorCount: "16",
+  hydrogenBondAcceptorCount: "24",
+  rotatableBondCount: "39",
+  cid: " 9941957",
+  inchi:
+    " InChI=1S/C62H98N16O22/c1-31(2)25-37(55(92)74-50(32(3)4)62(99)100)71-46(81)29-65-51(88)33(5)67-53(90)38(26-48(84)85)73-54(91)39(27-49(86)87)72-52(89)34(6)68-57(94)41-15-10-21-75(41)58(95)35(13-7-8-20-63)70-45(80)30-66-56(93)40-14-9-22-76(40)60(97)43-17-12-24-78(43)61(98)42-16-11-23-77(42)59(96)36(18-19-47(82)83)69-44(79)28-64/h31-43,50H,7-30,63-64H2,1-6H3,(H,65,88)(H,66,93)(H,67,90)(H,68,94)(H,69,79)(H,70,80)(H,71,81)(H,72,89)(H,73,91)(H,74,92)(H,82,83)(H,84,85)(H,86,87)(H,99,100)/t33-,34-,35-,36-,37-,38-,39-,40-,41-,42-,43-,50-/m0/s1",
+  inchiKey: "HEEWEZGQMLZMFE-RKGINYAYSA-N",
+
+  canonicalSmiles:
+    "CC(C)CC(C(=O)NC(C(C)C)C(=O)O)NC(=O)CNC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C1CCCN1C(=O)C(CCCCN)NC(=O)CNC(=O)C2CCCN2C(=O)C3CCCN3C(=O)C4CCCN4C(=O)C(CCC(=O)O)NC(=O)CN",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](C)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)O)NC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCCN)NC(=O)CNC(=O)[C@@H]2CCCN2C(=O)[C@@H]3CCCN3C(=O)[C@@H]4CCCN4C(=O)[C@H](CCC(=O)O)NC(=O)CN",
+
+  iupacName:
+    "(4S)-4-[(2-aminoacetyl)amino]-5-[(2S)-2-[(2S)-2-[(2S)-2-[[2-[[(2S)-6-amino-1-[(2S)-2-[[(2S)-1-[[(2S)-3-carboxy-1-[[(2S)-3-carboxy-1-[[(2S)-1-[[2-[[(2S)-1-[[(1S)-1-carboxy-2-methylpropyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxohexan-2-yl]amino]-2-oxoethyl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-5-oxopentanoic acid"
+}
+  }
+}
+,
+  
  
+  "bpc-157-tb-500-blend-30mg": {
+  name: "BPC-157 + TB-500 Blend 30mg",
+  tagline: "High-Dose Dual-Peptide Research System",
+  cas: "137525-51-0, 77591-33-4, 89030-95-5",
 
+  // Short card / hero text
+  strength: [
+    "BPC-157 + TB-500 Blend 30mg is a high-purity synthetic dual-peptide formulation engineered for advanced laboratory research applications. Manufactured using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC and Mass Spectrometry, this blend ensures ≥99% purity, molecular integrity, and reproducibility. Identified by CAS 137525-51-0, 77591-33-4, and 89030-95-5, it is widely selected by European laboratories sourcing top peptides online for cellular signalling, protein interaction, and metabolic pathway research."
+  ],
+
+  // Hero / intro description
+  topDescription: {
+    p0: "BPC-157 + TB-500 Blend 30mg is a high-volume synthetic peptide system developed for laboratories requiring extended experimental continuity and precision-controlled material.",
+    p1: "Produced via Solid-Phase Peptide Synthesis (SPPS), each batch undergoes analytical verification through HPLC, Mass Spectrometry, and UV analysis to confirm purity and molecular identity.",
+    p2: "Trusted by research institutions across Germany, France, Italy, Spain, the Netherlands, Sweden, and other EU regions, the 30mg format supports long-duration and multi-phase in-vitro studies."
+  },
+
+  // Full product page content
+  content: {
+    overviewTitle: "Advanced Synthetic Peptide System for Laboratory Investigation",
+    overview: [
+      "BPC-157 + TB-500 Blend 30mg is a professionally engineered dual-peptide research compound supplied by Bio-Peptides for high-continuity in-vitro experimentation.",
+      "The formulation combines well-documented synthetic peptides under controlled production conditions to ensure batch-to-batch uniformity and reproducible molecular behaviour.",
+      "Traceable via CAS 137525-51-0, CAS 77591-33-4, and CAS 89030-95-5, the blend supports transparent documentation and EU-aligned research compliance."
+    ],
+
+    scientificBackgroundTitle: "Designed for High-Continuity Research Workflows",
+    scientificBackground: [
+      "Higher-dose peptide blends are increasingly preferred in modern biochemical and molecular research where experimental continuity and reduced variability are critical.",
+      "The 30mg format minimises vial changes during long-term or multi-phase studies, supporting consistent concentrations across comparative experimental designs.",
+      "European laboratories conducting grant-funded and publication-driven research frequently select higher-dose formats to improve reproducibility and logistical efficiency.",
+      "Blended peptide systems further reduce handling variability and streamline laboratory preparation protocols."
+    ],
+
+    mechanismTitle: "Research-Focused Molecular Behaviour",
+    mechanismPoints: [
+      "Investigation of intercellular signalling coordination pathways",
+      "Evaluation of molecular sensitivity to growth mediator signals",
+      "Analysis of gene transcription and regulatory response models",
+      "Assessment of enzymatic pathway responsiveness",
+      "Exploration of mitochondrial and energy-related cellular processes"
+    ],
+
+    applicationsTitle: "Common Laboratory Research Applications",
+    applications: [
+      {
+        title: "Regenerative Cellular Modelling",
+        text: "Studying controlled cellular behaviour and matrix interaction patterns."
+      },
+      {
+        title: "Protein Synthesis and Degradation Studies",
+        text: "Evaluating transcriptional, translational, and peptide–protein interactions."
+      },
+      {
+        title: "Receptor-Binding and Affinity Assays",
+        text: "Investigating ligand–receptor dynamics under defined laboratory conditions."
+      },
+      {
+        title: "Structural Matrix Research",
+        text: "Exploring extracellular structure behaviour and cellular microenvironments."
+      },
+      {
+        title: "Metabolic and Mitochondrial Analysis",
+        text: "Assessing ATP-related and energy-regulation pathways in isolated systems."
+      },
+      {
+        title: "Enzymatic Response Profiling",
+        text: "Analysing activation and inhibition behaviour across molecular pathways."
+      }
+    ],
+
+    molecularTitle: "Molecular Composition and Characteristics",
+    molecularPoints: [
+      "Component 1: BPC-157 (synthetic pentadecapeptide)",
+      "Component 2: TB-500 (thymosin beta-4 analogue)",
+      "Referenced Component: CAS 89030-95-5 for analytical traceability",
+      "Structure: Linear synthetic peptide chains supplied as a blended formulation",
+      "Dose Format: High-concentration 30mg blended vial"
+    ],
+
+    stabilityTitle: "Stability and Storage Characteristics",
+    stabilityPoints: [
+      "Supplied as a lyophilised powder for optimal stability",
+      "Recommended storage temperature: −20°C",
+      "Sensitive to moisture, light exposure, and elevated temperatures",
+      "Predictable degradation above room temperature",
+      "Reconstituted solutions generally stable for 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Reconstitution Compatibility",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline",
+      "Acid-adjusted buffer systems",
+      "Selected analytical-grade organic solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "BPC-157 + TB-500 Blend 30mg",
+      cas: "137525-51-0, 77591-33-4, 89030-95-5",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "30 mg blended vial",
+      form: "Lyophilised peptide blend",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic peptide chains",
+      stability: "High under recommended laboratory storage"
+    },
+
+    validationTitle: "Quality Control and Documentation",
+    validationPoints: [
+      "HPLC purity confirmation",
+      "Mass Spectrometry molecular identity verification",
+      "UV spectrophotometric concentration analysis",
+      "Batch consistency and reproducibility testing",
+      "Endotoxin and microbial screening"
+    ],
+
+    regulatoryTitle: "Regulatory Statement",
+    regulatoryText:
+      "BPC-157 + TB-500 Blend 30mg is supplied strictly for laboratory research and scientific investigation. It is not approved for use as a drug, food, cosmetic, or medical product and is not intended for human or animal consumption. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support EU institutional compliance.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is the purpose of BPC-157 + TB-500 Blend 30mg?",
+        a: "It is used exclusively in laboratory research to study cellular signalling, protein interactions, and molecular pathway behaviour under controlled in-vitro conditions."
+      },
+      {
+        q: "Which CAS numbers are associated with this blend?",
+        a: "The formulation includes CAS 137525-51-0 (BPC-157), CAS 77591-33-4 (TB-500), and CAS 89030-95-5 for full analytical traceability."
+      },
+      {
+        q: "Is this product approved for medical or clinical use?",
+        a: "No. This product is strictly for laboratory research and is not approved for human, veterinary, or clinical applications."
+      },
+      {
+        q: "Why do researchers choose the 30mg format?",
+        a: "The 30mg format supports extended studies, multiple experimental replicates, and reduced batch variability in advanced research projects."
+      },
+      {
+        q: "How should the blend be stored?",
+        a: "Store the lyophilised powder at −20°C, protected from light and moisture."
+      },
+      {
+        q: "Can European laboratories buy this peptide online?",
+        a: "Yes. Bio-Peptides supplies this blend across Europe with full analytical documentation."
+      },
+      {
+        q: "What analytical testing is performed?",
+        a: "Each batch is verified using HPLC, Mass Spectrometry, and UV analysis."
+      },
+      {
+        q: "Which solvents are suitable for reconstitution?",
+        a: "Bacteriostatic water, sterile saline, acidic buffers, and compatible analytical solvents are commonly used."
+      }
+    ],
+           chemicalProperties: {
+  molecularFormula: "C62H98N16O22",
+  molecularWeight: "1419.5",
+  monoisotopicMass: "1418.70415882",
+  polarArea: "573",
+  complexity: "3040",
+  xlogP: "-9",
+  heavyAtomCount: "100",
+  hydrogenBondDonorCount: "16",
+  hydrogenBondAcceptorCount: "24",
+  rotatableBondCount: "39",
+  cid: " 9941957",
+  inchi:
+    " InChI=1S/C62H98N16O22/c1-31(2)25-37(55(92)74-50(32(3)4)62(99)100)71-46(81)29-65-51(88)33(5)67-53(90)38(26-48(84)85)73-54(91)39(27-49(86)87)72-52(89)34(6)68-57(94)41-15-10-21-75(41)58(95)35(13-7-8-20-63)70-45(80)30-66-56(93)40-14-9-22-76(40)60(97)43-17-12-24-78(43)61(98)42-16-11-23-77(42)59(96)36(18-19-47(82)83)69-44(79)28-64/h31-43,50H,7-30,63-64H2,1-6H3,(H,65,88)(H,66,93)(H,67,90)(H,68,94)(H,69,79)(H,70,80)(H,71,81)(H,72,89)(H,73,91)(H,74,92)(H,82,83)(H,84,85)(H,86,87)(H,99,100)/t33-,34-,35-,36-,37-,38-,39-,40-,41-,42-,43-,50-/m0/s1",
+  inchiKey: "HEEWEZGQMLZMFE-RKGINYAYSA-N",
+
+  canonicalSmiles:
+    "CC(C)CC(C(=O)NC(C(C)C)C(=O)O)NC(=O)CNC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C1CCCN1C(=O)C(CCCCN)NC(=O)CNC(=O)C2CCCN2C(=O)C3CCCN3C(=O)C4CCCN4C(=O)C(CCC(=O)O)NC(=O)CN",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](C)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)O)NC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCCN)NC(=O)CNC(=O)[C@@H]2CCCN2C(=O)[C@@H]3CCCN3C(=O)[C@@H]4CCCN4C(=O)[C@H](CCC(=O)O)NC(=O)CN",
+
+  iupacName:
+    "(4S)-4-[(2-aminoacetyl)amino]-5-[(2S)-2-[(2S)-2-[(2S)-2-[[2-[[(2S)-6-amino-1-[(2S)-2-[[(2S)-1-[[(2S)-3-carboxy-1-[[(2S)-3-carboxy-1-[[(2S)-1-[[2-[[(2S)-1-[[(1S)-1-carboxy-2-methylpropyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxohexan-2-yl]amino]-2-oxoethyl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-5-oxopentanoic acid"
+}
+  }
+},
+  "bpc-157-tb-500-blend-60mg": {
+  name: "BPC-157 + TB-500 Blend 60mg",
+  tagline: "High-Dose Dual-Peptide Research System",
+  cas: "137525-51-0, 77591-33-4, 89030-95-5",
+
+  // Short card / hero text
+  strength: [
+    "BPC-157 + TB-500 Blend 60mg is a high-purity synthetic dual-peptide formulation engineered for advanced laboratory research applications. Manufactured using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC, Mass Spectrometry, and UV spectrophotometry, this blend ensures ≥99% purity, molecular integrity, and reproducibility. Identified by CAS 137525-51-0, 77591-33-4, and 89030-95-5, it is widely selected by European laboratories sourcing top peptides online for cellular signalling, protein interaction, angiogenesis modelling, and metabolic pathway research."
+  ],
+
+  // Hero / intro description
+  topDescription: {
+    p0: "BPC-157 + TB-500 Blend 60mg is a high-volume synthetic peptide system developed for laboratories requiring extended experimental continuity and precision-controlled material.",
+    p1: "Produced via Solid-Phase Peptide Synthesis (SPPS), each batch undergoes analytical verification through HPLC, Mass Spectrometry, and UV analysis to confirm purity, molecular identity, and batch-to-batch consistency.",
+    p2: "Trusted by research institutions across Germany, France, Italy, Spain, the Netherlands, Sweden, and other EU regions, the 60mg format supports long-duration, repeat-cycle, and multi-phase in-vitro studies."
+  },
+
+  // Full product page content
+  content: {
+    overviewTitle: "Advanced Synthetic Peptide System for Laboratory Investigation",
+    overview: [
+      "BPC-157 + TB-500 Blend 60mg is a professionally engineered dual-peptide research compound supplied by Bio-Peptides for high-continuity in-vitro experimentation.",
+      "The formulation combines two extensively studied synthetic peptides under controlled production conditions to ensure batch-to-batch uniformity and reproducible molecular behaviour across experimental cycles.",
+      "Traceable via CAS 137525-51-0, CAS 77591-33-4, and CAS 89030-95-5, the blend supports transparent documentation, internal laboratory validation, and EU-aligned research compliance."
+    ],
+
+    scientificBackgroundTitle: "Designed for High-Continuity Research Workflows",
+    scientificBackground: [
+      "Higher-dose peptide blends are increasingly preferred in modern biochemical and molecular research where experimental continuity and reduced variability are critical success factors.",
+      "The 60mg format minimises vial changes during long-term or multi-phase studies, supporting stable concentrations across comparative experimental designs.",
+      "European laboratories conducting grant-funded, publication-driven, and industrial research frequently select higher-dose peptide formats to improve reproducibility and logistical efficiency.",
+      "Blended peptide systems further reduce handling variability, preparation error, and contamination risk compared to combining individual peptide vials."
+    ],
+
+    mechanismTitle: "Research-Focused Molecular Behaviour",
+    mechanismPoints: [
+      "Investigation of intercellular signalling coordination pathways",
+      "Evaluation of molecular sensitivity to growth mediator signals",
+      "Analysis of gene transcription and regulatory response models",
+      "Assessment of enzymatic pathway responsiveness",
+      "Exploration of mitochondrial, ATP-related, and energy-regulation processes"
+    ],
+
+    applicationsTitle: "Common Laboratory Research Applications",
+    applications: [
+      {
+        title: "Regenerative Cellular Modelling",
+        text:
+          "Studying controlled cellular behaviour, migration, and matrix interaction patterns under defined in-vitro laboratory conditions."
+      },
+      {
+        title: "Protein Synthesis and Degradation Studies",
+        text:
+          "Evaluating transcriptional, translational, and peptide–protein interaction behaviour with high reproducibility."
+      },
+      {
+        title: "Receptor-Binding and Affinity Assays",
+        text:
+          "Investigating ligand–receptor dynamics, binding affinity, and signal activation thresholds."
+      },
+      {
+        title: "Structural Matrix Research",
+        text:
+          "Exploring extracellular structure behaviour, matrix organisation, and cellular microenvironments."
+      },
+      {
+        title: "Metabolic and Mitochondrial Analysis",
+        text:
+          "Assessing ATP production, mitochondrial response, and cellular energy-regulation pathways."
+      },
+      {
+        title: "Enzymatic Response Profiling",
+        text:
+          "Analysing enzyme activation, inhibition, and sensitivity across molecular signalling pathways."
+      }
+    ],
+
+    molecularTitle: "Molecular Composition and Characteristics",
+    molecularPoints: [
+      "Component 1: BPC-157 (synthetic pentadecapeptide)",
+      "Component 2: TB-500 (thymosin beta-4 analogue)",
+      "Referenced Component: CAS 89030-95-5 for analytical traceability",
+      "Structure: Linear synthetic peptide chains supplied as a blended formulation",
+      "Dose Format: High-concentration 60mg blended vial"
+    ],
+
+    stabilityTitle: "Stability and Storage Characteristics",
+    stabilityPoints: [
+      "Supplied as a lyophilised powder for optimal molecular stability",
+      "Recommended storage temperature: −20°C",
+      "Sensitive to moisture, light exposure, and elevated temperatures",
+      "Predictable degradation behaviour above room temperature",
+      "Reconstituted solutions generally stable for 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Reconstitution Compatibility",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline",
+      "Acid-adjusted buffer systems",
+      "Selected analytical-grade organic solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "BPC-157 + TB-500 Blend 60mg",
+      cas: "137525-51-0, 77591-33-4, 89030-95-5",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "60 mg blended vial",
+      form: "Lyophilised peptide blend",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical:
+        "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic peptide chains",
+      stability: "High under recommended laboratory storage"
+    },
+
+    validationTitle: "Quality Control and Documentation",
+    validationPoints: [
+      "HPLC purity confirmation",
+      "Mass Spectrometry molecular identity verification",
+      "UV spectrophotometric concentration analysis",
+      "Batch consistency and reproducibility testing",
+      "Endotoxin and microbial screening"
+    ],
+
+    regulatoryTitle: "Regulatory Statement",
+    regulatoryText:
+      "BPC-157 + TB-500 Blend 60mg is supplied strictly for laboratory research and scientific investigation. It is not approved for use as a drug, food, cosmetic, or medical product and is not intended for human or animal consumption. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support EU institutional compliance.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is the purpose of BPC-157 + TB-500 Blend 60mg?",
+        a:
+          "It is used exclusively in laboratory research to study cellular signalling, protein interactions, angiogenesis models, and molecular pathway behaviour under controlled in-vitro conditions."
+      },
+      {
+        q: "Which CAS numbers are associated with this blend?",
+        a:
+          "The formulation includes CAS 137525-51-0 (BPC-157), CAS 77591-33-4 (TB-500), and CAS 89030-95-5 for full analytical traceability."
+      },
+      {
+        q: "Is this product approved for medical or clinical use?",
+        a:
+          "No. This product is strictly for laboratory research and is not approved for human, veterinary, or clinical applications."
+      },
+      {
+        q: "Why do researchers choose the 60mg format?",
+        a:
+          "The 60mg format supports extended studies, multiple experimental replicates, and reduced batch variability in advanced research projects."
+      },
+      {
+        q: "How should the blend be stored?",
+        a:
+          "Store the lyophilised powder at −20°C, protected from light and moisture."
+      },
+      {
+        q: "Can European laboratories buy this peptide online?",
+        a:
+          "Yes. Bio-Peptides supplies this blend across Europe with full analytical documentation."
+      },
+      {
+        q: "What analytical testing is performed?",
+        a:
+          "Each batch is verified using HPLC, Mass Spectrometry, and UV analysis."
+      },
+      {
+        q: "Which solvents are suitable for reconstitution?",
+        a:
+          "Bacteriostatic water, sterile saline, acidic buffers, and compatible analytical solvents are commonly used."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C62H98N16O22",
+      molecularWeight: "1419.5",
+      monoisotopicMass: "1418.70415882",
+      polarArea: "573",
+      complexity: "3040",
+      xlogP: "-9",
+      heavyAtomCount: "100",
+      hydrogenBondDonorCount: "16",
+      hydrogenBondAcceptorCount: "24",
+      rotatableBondCount: "39",
+      cid: "9941957",
+      inchi:
+        "InChI=1S/C62H98N16O22/...",
+      inchiKey: "HEEWEZGQMLZMFE-RKGINYAYSA-N",
+      canonicalSmiles:
+        "CC(C)CC(C(=O)NC(C(C)C)C(=O)O)...",
+      isomericSmiles:
+        "C[C@@H](C(=O)N[C@@H]...)",
+      iupacName:
+        "(4S)-4-[(2-aminoacetyl)amino]-5-[(2S)-2-[(2S)-2-[(2S)-2-..."
+    }
+  }
+},
+
+  "bpc-157-tb-500-kpv-ghk-cu-80mg-klow-blend": {
+  name: "Klow Blend (BPC-157 + TB-500 + KPV + GHK-Cu) 80mg",
+  tagline: "Advanced Multi-Peptide Regenerative Research System",
+  cas: "137525-51-0, 77591-33-4, 112965-21-6, 89030-95-5",
+
+  // Short card / hero text
+  strength: [
+    "The BioPeptides Klow Blend 80mg is a high-purity multi-peptide research formulation combining BPC-157, TB-500, KPV, and GHK-Cu. Manufactured using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC, Mass Spectrometry, and UV analysis, this blend ensures ≥99% purity, molecular accuracy, and batch-to-batch consistency. Widely used by European laboratories, it supports advanced cellular signaling, regenerative pathway modeling, protein interaction studies, and matrix remodeling research."
+  ],
+
+  // Hero / intro description
+  topDescription: {
+    p0: "The BioPeptides Klow Blend 80mg is a premium multi-peptide research compound designed for advanced in-vitro and laboratory-based scientific investigation.",
+    p1: "Combining four extensively studied synthetic peptides, this formulation is produced under controlled conditions and analytically verified for purity, identity, and reproducibility.",
+    p2: "Research institutions across Germany, France, Italy, Spain, the Netherlands, Belgium, and Switzerland rely on the Klow Blend for complex multi-pathway regenerative and cellular signaling studies."
+  },
+
+  // Full product page content
+  content: {
+    overviewTitle: "Premium Multi-Peptide Research Compound",
+    overview: [
+      "The BioPeptides Klow Blend 80mg represents a high-precision synthetic peptide system developed for advanced regenerative and cellular pathway research.",
+      "This formulation combines four complementary peptides to allow simultaneous investigation of cellular signaling, inflammatory modulation, tissue modeling, and extracellular matrix behavior.",
+      "Identified by CAS 137525-51-0, 77591-33-4, 112965-21-6, and 89030-95-5, the blend supports full traceability, regulatory documentation, and EU-aligned research compliance."
+    ],
+
+    scientificBackgroundTitle: "Scientific Overview",
+    scientificBackground: [
+      "Synthetic peptides are essential tools in modern biomedical and molecular research due to their ability to precisely modulate biological pathways.",
+      "The Klow Blend integrates peptides studied for angiogenesis, cellular migration, inflammatory signaling control, and extracellular matrix interactions.",
+      "This multi-peptide configuration enables researchers to study pathway convergence and interaction effects within a single controlled experimental framework.",
+      "European laboratories value blended peptide systems for reducing handling variability and improving experimental reproducibility."
+    ],
+
+    mechanismTitle: "Mechanism of Action (Research Context)",
+    mechanismPoints: [
+      "Modulation of cellular signaling and molecular communication pathways",
+      "Enhancement of growth factor sensitivity in in-vitro models",
+      "Regulation of gene expression and transcriptional activity",
+      "Influence on mitochondrial ATP production and energy metabolism",
+      "Support of enzymatic activation and peptide-mediated remodeling processes"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Regenerative Cell Biology",
+        text: "Investigating tissue repair, angiogenesis, and cellular regeneration models."
+      },
+      {
+        title: "Protein Expression & Interaction Studies",
+        text: "Evaluating protein–peptide and receptor-binding interactions."
+      },
+      {
+        title: "Inflammatory Pathway Research",
+        text: "Studying peptide-mediated modulation of inflammatory signaling."
+      },
+      {
+        title: "Mitochondrial Metabolism Research",
+        text: "Assessing cellular energy production and bioenergetic pathways."
+      },
+      {
+        title: "Matrix Remodeling Assays",
+        text: "Modeling wound healing, extracellular matrix organization, and cell migration."
+      },
+      {
+        title: "Advanced Multi-Pathway Research",
+        text: "Exploring synergistic peptide interactions across multiple biological systems."
+      }
+    ],
+
+    molecularTitle: "Molecular Composition and Characteristics",
+    molecularPoints: [
+      "Component 1: BPC-157 (synthetic pentadecapeptide)",
+      "Component 2: TB-500 (thymosin beta-4 analogue)",
+      "Component 3: KPV (tripeptide fragment of alpha-MSH)",
+      "Component 4: GHK-Cu (copper tripeptide complex)",
+      "Structure: Linear synthetic peptide chains supplied as a blended formulation",
+      "Dose Format: High-concentration 80mg blended vial"
+    ],
+
+    stabilityTitle: "Stability and Storage Guidelines",
+    stabilityPoints: [
+      "Supplied as a lyophilized powder for enhanced long-term stability",
+      "Recommended storage temperature: −20°C or below",
+      "Protect from moisture, humidity, and prolonged light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Acidic buffer systems",
+      "Compatible organic analytical solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Klow Blend (BPC-157 + TB-500 + KPV + GHK-Cu) 80mg",
+      cas: "137525-51-0, 77591-33-4, 112965-21-6, 89030-95-5",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "80 mg blended vial",
+      form: "Lyophilized peptide powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic peptide blend",
+      stability: "High when stored under recommended laboratory conditions"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "HPLC purity confirmation",
+      "Mass Spectrometry molecular identity verification",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch consistency verification",
+      "Endotoxin and microbial contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "The BioPeptides Klow Blend 80mg is supplied strictly for laboratory research and scientific investigation. It is not approved for human consumption, veterinary use, cosmetic, or medical applications. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support EU research compliance.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is the BioPeptides Klow Blend 80mg used for?",
+        a: "It is used in advanced laboratory research for regenerative cell biology, protein interaction assays, mitochondrial metabolism studies, and matrix remodeling experiments."
+      },
+      {
+        q: "Which CAS numbers are included in this blend?",
+        a: "The blend includes BPC-157 (CAS 137525-51-0), TB-500 (CAS 77591-33-4), KPV (CAS 112965-21-6), and GHK-Cu (CAS 89030-95-5)."
+      },
+      {
+        q: "How should the Klow Blend be stored?",
+        a: "Store the lyophilized powder at −20°C, protected from light and moisture. Avoid repeated freeze–thaw cycles."
+      },
+      {
+        q: "Is this blend approved for human or veterinary use?",
+        a: "No. The Klow Blend 80mg is strictly for laboratory research and is not approved for human or animal use."
+      },
+      {
+        q: "Can European laboratories buy this peptide online?",
+        a: "Yes. BioPeptides supplies this blend to research institutions across Europe with full analytical documentation."
+      },
+      {
+        q: "What makes this blend unique for research?",
+        a: "The combination of four complementary peptides enables simultaneous investigation of regenerative, inflammatory, metabolic, and matrix-related pathways within one formulation."
+      },
+      {
+        q: "How is purity verified?",
+        a: "Purity and identity are confirmed using HPLC, Mass Spectrometry, and UV spectrophotometry, along with microbial and endotoxin testing."
+      },
+      {
+        q: "Why choose a high-dose 80mg peptide blend?",
+        a: "High-dose blends support extended studies, multiple experimental replicates, reduced handling variability, and improved reproducibility in advanced laboratory research."
+      }
+    ],
+           chemicalProperties: {
+  molecularFormula: "C62H98N16O22",
+  molecularWeight: "1419.5",
+  monoisotopicMass: "1418.70415882",
+  polarArea: "573",
+  complexity: "3040",
+  xlogP: "-9",
+  heavyAtomCount: "100",
+  hydrogenBondDonorCount: "16",
+  hydrogenBondAcceptorCount: "24",
+  rotatableBondCount: "39",
+  cid: " 9941957",
+  inchi:
+    " InChI=1S/C62H98N16O22/c1-31(2)25-37(55(92)74-50(32(3)4)62(99)100)71-46(81)29-65-51(88)33(5)67-53(90)38(26-48(84)85)73-54(91)39(27-49(86)87)72-52(89)34(6)68-57(94)41-15-10-21-75(41)58(95)35(13-7-8-20-63)70-45(80)30-66-56(93)40-14-9-22-76(40)60(97)43-17-12-24-78(43)61(98)42-16-11-23-77(42)59(96)36(18-19-47(82)83)69-44(79)28-64/h31-43,50H,7-30,63-64H2,1-6H3,(H,65,88)(H,66,93)(H,67,90)(H,68,94)(H,69,79)(H,70,80)(H,71,81)(H,72,89)(H,73,91)(H,74,92)(H,82,83)(H,84,85)(H,86,87)(H,99,100)/t33-,34-,35-,36-,37-,38-,39-,40-,41-,42-,43-,50-/m0/s1",
+  inchiKey: "HEEWEZGQMLZMFE-RKGINYAYSA-N",
+
+  canonicalSmiles:
+    "CC(C)CC(C(=O)NC(C(C)C)C(=O)O)NC(=O)CNC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C1CCCN1C(=O)C(CCCCN)NC(=O)CNC(=O)C2CCCN2C(=O)C3CCCN3C(=O)C4CCCN4C(=O)C(CCC(=O)O)NC(=O)CN",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](C)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)O)NC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCCN)NC(=O)CNC(=O)[C@@H]2CCCN2C(=O)[C@@H]3CCCN3C(=O)[C@@H]4CCCN4C(=O)[C@H](CCC(=O)O)NC(=O)CN",
+
+  iupacName:
+    "(4S)-4-[(2-aminoacetyl)amino]-5-[(2S)-2-[(2S)-2-[(2S)-2-[[2-[[(2S)-6-amino-1-[(2S)-2-[[(2S)-1-[[(2S)-3-carboxy-1-[[(2S)-3-carboxy-1-[[(2S)-1-[[2-[[(2S)-1-[[(1S)-1-carboxy-2-methylpropyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxohexan-2-yl]amino]-2-oxoethyl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-5-oxopentanoic acid"
+}
+  }
+},
  
-    "bpc-157-tb-500-blend-20mg": {
-      name: "BPC-157 + TB-500 Blend 20mg",
+  "bronchogen-20mg-bioregulator": {
+  name: "Bronchogen® 20mg (Bioregulator)",
+  tagline: "Organ-Specific Bioregulatory Research Peptide",
+  cas: "N/A",
 
-      strength:
-        "Dual-peptide research blend combining BPC-157 and TB-500, studied for synergistic cellular repair, angiogenic signaling, and regenerative pathway research.",
+  // Short card / hero text
+  strength: [
+    "The Biopeptides Bronchogen® 20mg (Bioregulator) is a high-purity synthetic short-chain peptide formulation developed for advanced laboratory research. Manufactured using Solid-Phase Peptide Synthesis (SPPS) and validated by HPLC, Mass Spectrometry, and UV analysis, it ensures ≥99% purity, molecular accuracy, and batch-to-batch consistency. Widely used by European research institutions, Bronchogen® supports organ-specific cellular signaling, gene expression regulation, and bioregulatory pathway research."
+  ],
 
-      description:
-        "This research blend combines BPC-157, a pentadecapeptide investigated for cellular protection and tissue signaling mechanisms, with TB-500, a thymosin beta-4 analog studied in cell migration and angiogenesis research. The 20mg blend format is intended for extended laboratory studies exploring synergistic peptide interactions and multi-pathway regenerative signaling. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
-
-      components: [
-        "BPC-157 (pentadecapeptide)",
-        "TB-500 (thymosin beta-4 analog)"
-      ],
-
-      applications: [
-        "Synergistic peptide interaction studies",
-        "Cellular repair and regeneration research",
-        "Angiogenesis and vascular signaling models",
-        "Multi-pathway peptide research"
-      ],
-
-      appearance: "White lyophilized powder blend",
-      storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-      researchStatus:
-        "For laboratory research use only. Not for human or veterinary use."
-    
+  // Hero / intro description
+  topDescription: {
+    p0: "The Biopeptides Bronchogen® 20mg (Bioregulator) is a specialised research peptide developed for precision-driven in-vitro scientific investigation.",
+    p1: "Synthesised under controlled laboratory conditions and analytically verified for purity and identity, this peptide is designed to support advanced studies in cellular signaling and gene regulation.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Belgium, and Switzerland rely on Bronchogen® for reproducible and well-documented bioregulatory peptide research."
   },
-  
 
+  // Full product page content
+  content: {
+    overviewTitle: "Premium Bioregulatory Research Peptide",
+    overview: [
+      "Bronchogen® 20mg (Bioregulator) is a laboratory-grade synthetic peptide designed for organ-specific and regulatory pathway research.",
+      "It consists of short-chain regulatory peptides studied for their interaction with cellular differentiation, gene expression modulation, and peptide-mediated signaling mechanisms.",
+      "Supplied as a high-purity research material, Bronchogen® meets the analytical and documentation standards required by European research institutions."
+    ],
+
+    scientificBackgroundTitle: "Scientific Overview",
+    scientificBackground: [
+      "Short-chain bioregulatory peptides are widely studied for their role in fine-tuning cellular communication and gene expression.",
+      "Unlike larger biomolecules, these peptides offer predictable degradation profiles and high experimental reproducibility.",
+      "Bronchogen® has been investigated in laboratory models related to bronchial and pulmonary tissue signaling pathways.",
+      "European research environments value bioregulators for their precision, stability, and suitability for controlled in-vitro experimentation."
+    ],
+
+    mechanismTitle: "Mechanism of Action (Research Context)",
+    mechanismPoints: [
+      "Modulation of organ-specific cellular signaling pathways",
+      "Regulation of gene transcription and expression profiles",
+      "Support of cellular differentiation mechanisms",
+      "Influence on mitochondrial ATP production in regulated models",
+      "Facilitation of enzymatic activation and regulatory peptide signaling"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Organ-Specific Signaling Research",
+        text: "Studying regulatory peptide signaling in controlled bronchial and pulmonary tissue models."
+      },
+      {
+        title: "Gene Expression Analysis",
+        text: "Investigating transcriptional regulation and peptide-mediated gene modulation."
+      },
+      {
+        title: "Bioregulatory Pathway Research",
+        text: "Exploring short-chain peptide control of intracellular regulatory mechanisms."
+      },
+      {
+        title: "Protein Expression Studies",
+        text: "Assessing peptide influence on protein synthesis and molecular communication."
+      },
+      {
+        title: "Mitochondrial Metabolism Research",
+        text: "Evaluating cellular energy dynamics under peptide-regulated conditions."
+      },
+      {
+        title: "Matrix and Cellular Interaction Models",
+        text: "Analyzing peptide effects on cellular structure and extracellular matrix behavior."
+      }
+    ],
+
+    molecularTitle: "Molecular Composition and Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic bioregulatory peptide complex",
+      "Composition: Short-chain di- and tripeptide sequences",
+      "Structure: Linear peptide chains",
+      "Dose Format: 20mg research vial",
+      "Stability: High when stored under recommended laboratory conditions"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Guidelines",
+    stabilityPoints: [
+      "Supplied as a lyophilized powder for enhanced stability",
+      "Recommended storage temperature: −20°C",
+      "Protect from moisture, humidity, and prolonged light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Acidic buffer systems",
+      "Compatible organic analytical solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Bronchogen® 20mg (Bioregulator)",
+      cas: "N/A",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "20 mg",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Short-chain synthetic peptide complex",
+      stability: "High when stored under recommended laboratory conditions"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "HPLC purity and consistency confirmation",
+      "Mass Spectrometry molecular identity verification",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch reproducibility assessment",
+      "Microbial and contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "Bronchogen® 20mg (Bioregulator) is supplied strictly for laboratory research and scientific investigation. It is not approved for human consumption, veterinary use, cosmetic applications, or medical treatment. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support EU research compliance.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is Bronchogen® 20mg used for in research?",
+        a: "It is used in laboratory research focusing on organ-specific cellular signaling, gene expression regulation, and bioregulatory pathway studies."
+      },
+      {
+        q: "Does Bronchogen® 20mg have a CAS number?",
+        a: "Currently, Bronchogen® does not have a registered CAS number, but it is analytically validated for research-grade purity and identity."
+      },
+      {
+        q: "How should Bronchogen® be stored?",
+        a: "Store the lyophilized peptide at −20°C, protected from moisture and light. Avoid repeated freeze–thaw cycles."
+      },
+      {
+        q: "Is Bronchogen® approved for human or veterinary use?",
+        a: "No. Bronchogen® 20mg is strictly for laboratory research and is not approved for human or animal use."
+      },
+      {
+        q: "Can European laboratories buy Bronchogen® online?",
+        a: "Yes. Biopeptides supplies Bronchogen® 20mg to research institutions across Europe with full analytical documentation."
+      },
+      {
+        q: "What makes Bronchogen® unique as a bioregulator?",
+        a: "Its short-chain peptide composition allows precise modulation of gene expression and cellular regulatory pathways with high reproducibility."
+      },
+      {
+        q: "How is purity verified?",
+        a: "Purity is confirmed using HPLC, while molecular identity and concentration are verified through Mass Spectrometry and UV analysis."
+      },
+      {
+        q: "Why do laboratories prefer the 20mg format?",
+        a: "The 20mg format supports multiple experiments, reduced handling variability, and consistent results across extended research timelines."
+      }
+    ],
+  chemicalProperties: {
+      molecularFormula: "C15H25CuN6O4",
+      molecularWeight: "416.9",
+      polarArea: "N/A",
+      complexity: "N/A",
+      xlogP: "N/A",
+      heavyAtomCount: "N/A",
+      hydrogenBondDonorCount: "N/A",
+      hydrogenBondAcceptorCount: "N/A",
+      rotatableBondCount: "N/A",
+      sequence: "Ala-His-Lys-Cu"
+    }
+  }
+},
+  
+  
+    "cardiogen-20mg-bioregulator": {
+  name: "Cardiogen® 20mg (Bioregulator)",
+  tagline: "Cardiovascular Bioregulatory Research Peptide",
+  cas: "N/A",
+
+  // Short card / hero text
+  strength: [
+    "Biopeptides Cardiogen® 20mg (Bioregulator) is a high-purity synthetic short-chain peptide formulation developed for advanced laboratory research in cardiovascular and regenerative biology. Manufactured using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC, Mass Spectrometry, and UV analysis, it delivers ≥99% purity, molecular accuracy, and batch-to-batch reproducibility. Cardiogen® is widely used by European research institutions for organ-specific cellular signaling, gene expression regulation, and mitochondrial research models."
+  ],
+
+  // Hero / intro description
+  topDescription: {
+    p0: "Biopeptides Cardiogen® 20mg (Bioregulator) is a precision-engineered research peptide developed for in-vitro cardiovascular and regenerative studies.",
+    p1: "Synthesised under controlled laboratory conditions and analytically verified for purity and identity, this peptide supports advanced investigations into cellular signaling and gene regulation.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Belgium, Switzerland, and Denmark rely on Cardiogen® for reproducible and well-documented bioregulatory peptide research."
+  },
+
+  // Full product page content
+  content: {
+    overviewTitle: "Premium Cardiovascular Bioregulatory Research Peptide",
+    overview: [
+      "Cardiogen® 20mg (Bioregulator) is a laboratory-grade synthetic peptide designed for organ-specific and regulatory pathway research related to cardiac and vascular biology.",
+      "It consists of short-chain regulatory peptides studied for their interaction with gene expression, cellular differentiation, and peptide-mediated signaling mechanisms.",
+      "Supplied as a high-purity research material, Cardiogen® meets the analytical and documentation standards required by European research institutions."
+    ],
+
+    scientificBackgroundTitle: "Scientific Overview",
+    scientificBackground: [
+      "Short-chain bioregulatory peptides are increasingly studied for their role in precise control of cellular communication and transcriptional activity.",
+      "These peptides allow researchers to investigate regulatory signaling with predictable degradation profiles and high experimental reproducibility.",
+      "Cardiogen® has been examined in laboratory models related to cardiovascular tissue signaling and cellular energy regulation.",
+      "European research environments value bioregulators for their stability, traceability, and suitability for controlled in-vitro experimentation."
+    ],
+
+    mechanismTitle: "Mechanism of Action (Research Context)",
+    mechanismPoints: [
+      "Modulation of organ-specific cardiovascular cellular signaling pathways",
+      "Regulation of gene transcription and expression profiles",
+      "Support of cellular differentiation and regulatory mechanisms",
+      "Influence on mitochondrial ATP production in controlled models",
+      "Facilitation of enzymatic activation and peptide-mediated signaling"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Organ-Specific Cardiovascular Research",
+        text: "Studying regulatory peptide signaling in cardiac and vascular tissue models."
+      },
+      {
+        title: "Gene Expression and Transcription Studies",
+        text: "Investigating peptide-mediated modulation of gene regulation pathways."
+      },
+      {
+        title: "Bioregulatory Pathway Research",
+        text: "Exploring short-chain peptide control of intracellular regulatory mechanisms."
+      },
+      {
+        title: "Protein Expression Analysis",
+        text: "Assessing peptide influence on protein synthesis and molecular communication."
+      },
+      {
+        title: "Mitochondrial Metabolic Research",
+        text: "Evaluating cellular energy production and ATP regulation under controlled conditions."
+      },
+      {
+        title: "Matrix and Cellular Interaction Models",
+        text: "Analyzing peptide effects on cellular structure and extracellular matrix behavior."
+      }
+    ],
+
+    molecularTitle: "Molecular Composition and Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic bioregulatory peptide complex",
+      "Composition: Short-chain di- and tripeptide sequences",
+      "Structure: Linear peptide chains",
+      "Dose Format: 20mg research vial",
+      "Stability: High when stored under recommended laboratory conditions"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Guidelines",
+    stabilityPoints: [
+      "Supplied as a lyophilized powder for enhanced stability",
+      "Recommended storage temperature: −20°C",
+      "Protect from moisture, humidity, and prolonged light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Acidic buffer systems",
+      "Compatible organic analytical solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Cardiogen® 20mg (Bioregulator)",
+      cas: "N/A",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "20 mg",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Short-chain synthetic peptide complex",
+      stability: "High when stored under recommended laboratory conditions"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "HPLC purity and consistency confirmation",
+      "Mass Spectrometry molecular identity verification",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch reproducibility assessment",
+      "Microbial and contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "Cardiogen® 20mg (Bioregulator) is supplied strictly for laboratory research and scientific investigation. It is not approved for human consumption, veterinary use, cosmetic applications, or medical treatment. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support EU research compliance.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is Cardiogen® 20mg used for in research?",
+        a: "It is used in laboratory research focusing on cardiovascular cellular signaling, gene expression regulation, and bioregulatory pathway studies."
+      },
+      {
+        q: "Does Cardiogen® 20mg have a CAS number?",
+        a: "Currently, Cardiogen® does not have a registered CAS number, but it is analytically validated for research-grade purity and identity."
+      },
+      {
+        q: "How should Cardiogen® be stored?",
+        a: "Store the lyophilized peptide at −20°C, protected from moisture and light. Avoid repeated freeze–thaw cycles."
+      },
+      {
+        q: "Is Cardiogen® approved for human or veterinary use?",
+        a: "No. Cardiogen® 20mg is strictly for laboratory research and is not approved for human or animal use."
+      },
+      {
+        q: "Can European laboratories buy Cardiogen® online?",
+        a: "Yes. Biopeptides supplies Cardiogen® 20mg to research institutions across Europe with full analytical documentation."
+      },
+      {
+        q: "What makes Cardiogen® unique as a bioregulator?",
+        a: "Its short-chain peptide composition enables precise modulation of gene expression, mitochondrial activity, and cardiovascular cellular signaling."
+      },
+      {
+        q: "How is purity verified?",
+        a: "Purity is confirmed using HPLC, while molecular identity and concentration are verified through Mass Spectrometry and UV analysis."
+      },
+      {
+        q: "Why do laboratories prefer the 20mg format?",
+        a: "The 20mg format supports multiple experiments, reduced handling variability, and consistent results across extended research timelines."
+      }
+    ],
+     chemicalProperties: {
+      molecularFormula: "C15H25CuN6O4",
+      molecularWeight: "416.9",
+      polarArea: "N/A",
+      complexity: "N/A",
+      xlogP: "N/A",
+      heavyAtomCount: "N/A",
+      hydrogenBondDonorCount: "N/A",
+      hydrogenBondAcceptorCount: "N/A",
+      rotatableBondCount: "N/A",
+      sequence: "Ala-His-Lys-Cu"
+    }
+  }
+},
+  
+   "cartalax-20mg": {
+  name: "Cartalax® 20mg (Bioregulator)",
+  tagline: "Cartilage and Connective Tissue Bioregulatory Research Peptide",
+  cas: "N/A",
+
+  // Short card / hero text
+  strength: [
+    "Biopeptides Cartalax® 20mg (Bioregulator) is a high-purity synthetic short-chain peptide formulation developed for advanced laboratory research in cartilage biology and connective tissue signaling. Produced using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC, Mass Spectrometry, and UV analysis, it delivers ≥99% purity, molecular precision, and batch-to-batch reproducibility. Cartalax® is widely used by European research institutions for organ-specific gene expression studies and extracellular matrix research models."
+  ],
+
+  // Hero / intro description
+  topDescription: {
+    p0: "Biopeptides Cartalax® 20mg (Bioregulator) is a precision-engineered research peptide developed for in-vitro cartilage and connective tissue studies.",
+    p1: "Synthesised under controlled laboratory conditions and analytically verified for purity and molecular identity, Cartalax® supports advanced investigations into peptide-mediated regulatory signaling.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Belgium, Switzerland, Austria, and Denmark rely on Cartalax® for reproducible and well-documented bioregulatory peptide research."
+  },
+
+  // Full product page content
+  content: {
+    overviewTitle: "Premium Cartilage Bioregulatory Research Peptide",
+    overview: [
+      "Cartalax® 20mg (Bioregulator) is a laboratory-grade synthetic peptide designed for organ-specific research related to cartilage and connective tissue biology.",
+      "It consists of short-chain regulatory peptides studied for their influence on gene expression, cellular differentiation, and extracellular matrix signaling.",
+      "Supplied as a high-purity research material, Cartalax® meets the analytical and documentation standards required by European research institutions."
+    ],
+
+    scientificBackgroundTitle: "Scientific Overview",
+    scientificBackground: [
+      "Short-chain bioregulatory peptides are increasingly studied for their ability to modulate tissue-specific gene expression and cellular communication.",
+      "These peptides enable researchers to explore regulatory signaling with predictable degradation profiles and high experimental reproducibility.",
+      "Cartalax® has been examined in laboratory models focused on cartilage biology, matrix organization, and connective tissue signaling.",
+      "European research environments value bioregulators for their stability, traceability, and suitability for controlled in-vitro experimentation."
+    ],
+
+    mechanismTitle: "Mechanism of Action (Research Context)",
+    mechanismPoints: [
+      "Modulation of cartilage-specific cellular signaling pathways",
+      "Regulation of gene transcription related to connective tissue structure",
+      "Support of extracellular matrix organization and cellular interaction models",
+      "Influence on mitochondrial ATP production in controlled laboratory systems",
+      "Facilitation of enzymatic activation and peptide-mediated regulatory processes"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Cartilage and Connective Tissue Research",
+        text: "Studying peptide-regulated signaling pathways in cartilage and structural tissue models."
+      },
+      {
+        title: "Gene Expression and Transcription Studies",
+        text: "Investigating peptide-mediated regulation of genes involved in tissue structure and function."
+      },
+      {
+        title: "Bioregulatory Pathway Research",
+        text: "Exploring short-chain peptide control of intracellular regulatory mechanisms."
+      },
+      {
+        title: "Protein Expression Analysis",
+        text: "Assessing peptide influence on protein synthesis and molecular communication."
+      },
+      {
+        title: "Mitochondrial Metabolic Research",
+        text: "Evaluating cellular energy production and ATP regulation under controlled conditions."
+      },
+      {
+        title: "Matrix Remodeling Assays",
+        text: "Analyzing extracellular matrix organization, cellular migration, and structural modeling."
+      }
+    ],
+
+    molecularTitle: "Molecular Composition and Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic bioregulatory peptide complex",
+      "Composition: Short-chain di- and tripeptide sequences",
+      "Structure: Linear peptide chains",
+      "Dose Format: 20mg research vial",
+      "Stability: High when stored under recommended laboratory conditions"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Guidelines",
+    stabilityPoints: [
+      "Supplied as a lyophilized powder for enhanced stability",
+      "Recommended storage temperature: −20°C",
+      "Protect from moisture, humidity, and prolonged light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Acidic buffer systems",
+      "Compatible organic analytical solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Cartalax® 20mg (Bioregulator)",
+      cas: "N/A",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "20 mg",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Short-chain synthetic peptide complex",
+      stability: "High when stored under recommended laboratory conditions"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "HPLC purity and consistency confirmation",
+      "Mass Spectrometry molecular identity verification",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch reproducibility assessment",
+      "Microbial and contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "Cartalax® 20mg (Bioregulator) is supplied strictly for laboratory research and scientific investigation. It is not approved for human consumption, veterinary use, cosmetic applications, or medical treatment. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support EU research compliance.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is Cartalax® 20mg used for in research?",
+        a: "It is used in laboratory research focusing on cartilage biology, connective tissue signaling, and bioregulatory gene expression studies."
+      },
+      {
+        q: "Does Cartalax® 20mg have a CAS number?",
+        a: "Currently, Cartalax® does not have a registered CAS number, but it is analytically validated for research-grade purity and identity."
+      },
+      {
+        q: "How should Cartalax® be stored?",
+        a: "Store the lyophilized peptide at −20°C, protected from moisture and light. Avoid repeated freeze–thaw cycles."
+      },
+      {
+        q: "Is Cartalax® approved for human or veterinary use?",
+        a: "No. Cartalax® 20mg is strictly for laboratory research and is not approved for human or animal use."
+      },
+      {
+        q: "Can European laboratories buy Cartalax® online?",
+        a: "Yes. Biopeptides supplies Cartalax® 20mg to research institutions across Europe with full analytical documentation."
+      },
+      {
+        q: "What makes Cartalax® unique as a bioregulator?",
+        a: "Its short-chain peptide composition enables precise modulation of gene expression, extracellular matrix behavior, and cartilage-specific cellular signaling."
+      },
+      {
+        q: "How is purity verified?",
+        a: "Purity is confirmed using HPLC, while molecular identity and concentration are verified through Mass Spectrometry and UV analysis."
+      },
+      {
+        q: "Why do laboratories prefer the 20mg format?",
+        a: "The 20mg format supports multiple experiments, reduced handling variability, and consistent results across extended research timelines."
+      }
+    ]
+  }
+},
+  
+  "adipotide-ftpp-10mg": {
+  name: "Adipotide (FTPP) 10mg",
+  tagline: "Targeted Adipose and Vascular Research Peptide",
+  cas: "859216-15-2",
+
+  // Short card / hero text
+  strength: [
+    "Biopeptides Adipotide (FTPP) 10mg is a high-purity synthetic research peptide identified by CAS 859216-15-2 and developed for advanced laboratory investigation into adipose tissue signaling and vascular targeting mechanisms. Synthesized using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC, Mass Spectrometry, and UV analysis, it offers ≥99% purity, molecular precision, and batch-to-batch reproducibility. European research laboratories rely on Adipotide (FTPP) for reproducible in-vitro studies requiring analytically verified peptides."
+  ],
+
+  // Hero / intro description
+  topDescription: {
+    p0: "Biopeptides Adipotide (FTPP) 10mg is a precision-engineered synthetic peptide developed for controlled in-vitro research focused on adipose tissue and vascular signaling pathways.",
+    p1: "Manufactured using Solid-Phase Peptide Synthesis (SPPS), each batch is analytically verified to confirm molecular identity, purity, and consistency.",
+    p2: "Research institutions across Germany, France, Italy, Spain, the Netherlands, Belgium, Switzerland, Austria, and Denmark utilize Adipotide (FTPP) for advanced peptide-mediated signaling and transport studies."
+  },
+
+  // Full product page content
+  content: {
+    overviewTitle: "High-Purity Targeted Research Peptide",
+    overview: [
+      "Adipotide (FTPP) 10mg is a laboratory-grade synthetic peptide supplied for advanced scientific research involving adipose tissue and peptide–vascular interaction models.",
+      "It is studied in controlled laboratory environments for its role in adipocyte-related signaling, vascular targeting mechanisms, and peptide transport dynamics.",
+      "The CAS number 859216-15-2 ensures clear identification, traceability, and documentation alignment for European research institutions."
+    ],
+
+    scientificBackgroundTitle: "Scientific Overview",
+    scientificBackground: [
+      "Synthetic peptides enable highly targeted exploration of molecular signaling pathways under controlled experimental conditions.",
+      "Adipotide (FTPP) has been examined in laboratory research models focused on adipose tissue vasculature and selective peptide targeting mechanisms.",
+      "Its defined linear structure, stability profile, and predictable behavior make it suitable for reproducible in-vitro experimentation.",
+      "European laboratories value analytically validated peptides such as Adipotide for precision research requiring consistency and traceability."
+    ],
+
+    mechanismTitle: "Mechanism of Action (Research Context)",
+    mechanismPoints: [
+      "Modulation of adipose tissue-related cellular signaling pathways",
+      "Interaction with vascular targeting and peptide transport models",
+      "Influence on intracellular signaling cascades in adipocyte research systems",
+      "Regulation of gene expression patterns in controlled laboratory environments",
+      "Support of mitochondrial ATP-related metabolic studies"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Adipose Tissue Signaling Research",
+        text: "Studying peptide-mediated communication pathways in adipocyte-related laboratory models."
+      },
+      {
+        title: "Peptide–Vascular Interaction Studies",
+        text: "Evaluating selective peptide targeting and vascular binding behavior in vitro."
+      },
+      {
+        title: "Cellular Signaling Pathway Analysis",
+        text: "Investigating intracellular signaling cascades under controlled experimental conditions."
+      },
+      {
+        title: "Mitochondrial Metabolic Research",
+        text: "Assessing peptide influence on ATP production and cellular energy regulation."
+      },
+      {
+        title: "Protein Expression Studies",
+        text: "Observing transcriptional and translational responses in peptide-treated research models."
+      },
+      {
+        title: "Matrix and Transport Dynamics Research",
+        text: "Analyzing peptide transport, distribution, and interaction with extracellular components."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic research peptide",
+      "Structure: Linear peptide chain",
+      "CAS Identifier: 859216-15-2",
+      "Dose Format: 10mg research vial",
+      "Stability: High when stored under recommended laboratory conditions"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Guidelines",
+    stabilityPoints: [
+      "Supplied as a lyophilized powder for enhanced stability",
+      "Recommended storage temperature: −20°C",
+      "Protect from moisture and prolonged light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline",
+      "Acidic buffer systems",
+      "Compatible organic analytical solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Adipotide (FTPP) 10mg",
+      cas: "859216-15-2",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "10 mg",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic peptide",
+      stability: "High when stored under recommended laboratory conditions"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "HPLC purity confirmation and impurity profiling",
+      "Mass Spectrometry molecular identity verification",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch consistency assessment",
+      "Microbial and endotoxin screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "Adipotide (FTPP) 10mg is supplied strictly for laboratory research and scientific investigation. It is not approved for human consumption, veterinary use, cosmetic applications, or medical treatment. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support EU research compliance.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is Adipotide (FTPP) 10mg used for in research?",
+        a: "It is used in laboratory studies involving adipose tissue signaling, vascular targeting mechanisms, peptide transport dynamics, and controlled cellular signaling research."
+      },
+      {
+        q: "What is the CAS number of Adipotide (FTPP)?",
+        a: "The CAS number is 859216-15-2, providing precise compound identification and research traceability."
+      },
+      {
+        q: "How should Adipotide (FTPP) be stored?",
+        a: "Store the lyophilized peptide at −20°C, protected from moisture and light. Avoid repeated freeze–thaw cycles."
+      },
+      {
+        q: "Is Adipotide approved for human or veterinary use?",
+        a: "No. Adipotide (FTPP) 10mg is strictly for laboratory research and is not approved for human or animal use."
+      },
+      {
+        q: "Can European laboratories buy Adipotide online?",
+        a: "Yes. Biopeptides supplies Adipotide (FTPP) 10mg to research institutions across Europe with full analytical documentation."
+      },
+      {
+        q: "What makes Adipotide unique as a research peptide?",
+        a: "Its selective focus on adipose tissue and vascular targeting models allows precise investigation of peptide-mediated transport and signaling mechanisms."
+      },
+      {
+        q: "How is purity verified?",
+        a: "Purity is verified using HPLC, while molecular identity and concentration are confirmed through Mass Spectrometry and UV analysis."
+      },
+      {
+        q: "Why is the 10mg format preferred?",
+        a: "The 10mg format supports multiple experiments with reduced handling variability and consistent results across extended research timelines."
+      }
+    ],
+           chemicalProperties: {
+  molecularFormula: "C111H206N36O28S2",
+  molecularWeight: "2557.2",
+  monoisotopicMass: "2555.5243724",
+  polarArea: "1070",
+  complexity: "5220",
+  xlogP: "-11.4",
+  heavyAtomCount: "177",
+  hydrogenBondDonorCount: "40",
+  hydrogenBondAcceptorCount: "40",
+  rotatableBondCount: "98",
+  cid: " 163360068",
+  inchi:
+    "InChI=1S/C111H206N36O28S2/c1-60(2)49-79(142-99(163)71(32-15-23-41-113)133-87(150)56-125-86(149)55-127-97(161)84(59-177)147-109(173)83(53-89(152)153)146-103(167)76(36-19-27-45-117)138-90(154)64(9)128-98(162)72(39-30-48-123-111(121)122)134-88(151)57-124-85(148)54-126-96(160)70(31-14-22-40-112)139-95(159)69(120)58-176)105(169)129-66(11)92(156)136-74(34-17-25-43-115)101(165)143-80(50-61(3)4)106(170)130-65(10)91(155)135-73(33-16-24-42-114)100(164)140-77(37-20-28-46-118)104(168)145-82(52-63(7)8)107(171)131-67(12)93(157)137-75(35-18-26-44-116)102(166)144-81(51-62(5)6)108(172)132-68(13)94(158)141-78(110(174)175)38-21-29-47-119/h60-84,176-177H,14-59,112-120H2,1-13H3,(H,124,148)(H,125,149)(H,126,160)(H,127,161)(H,128,162)(H,129,169)(H,130,170)(H,131,171)(H,132,172)(H,133,150)(H,134,151)(H,135,155)(H,136,156)(H,137,157)(H,138,154)(H,139,159)(H,140,164)(H,141,158)(H,142,163)(H,143,165)(H,144,166)(H,145,168)(H,146,167)(H,147,173)(H,152,153)(H,174,175)(H4,121,122,123)/t64-,65+,66+,67+,68+,69-,70-,71+,72-,73+,74+,75+,76-,77+,78+,79+,80+,81+,82+,83-,84-/m0/s1",
+  inchiKey: "GZESIPHLGJDZRG-VCWDIOOSSA-N",
+
+  canonicalSmiles:
+    "CC(C)CC(C(=O)NC(C)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCCCN)C(=O)O)NC(=O)C(CCCCN)NC(=O)CNC(=O)CNC(=O)C(CS)NC(=O)C(CC(=O)O)NC(=O)C(CCCCN)NC(=O)C(C)NC(=O)C(CCCNC(=N)N)NC(=O)CNC(=O)CNC(=O)C(CCCCN)NC(=O)C(CS)N",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CS)C(=O)NCC(=O)NCC(=O)N[C@H](CCCCN)C(=O)N[C@H](CC(C)C)C(=O)N[C@H](C)C(=O)N[C@H](CCCCN)C(=O)N[C@H](CC(C)C)C(=O)N[C@H](C)C(=O)N[C@H](CCCCN)C(=O)N[C@H](CCCCN)C(=O)N[C@H](CC(C)C)C(=O)N[C@H](C)C(=O)N[C@H](CCCCN)C(=O)N[C@H](CC(C)C)C(=O)N[C@H](C)C(=O)N[C@H](CCCCN)C(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)CNC(=O)CNC(=O)[C@H](CCCCN)NC(=O)[C@H](CS)N",
+  iupacName:
+    "(2R)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2R)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2R)-6-amino-2-[[(2R)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2R)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2R)-6-amino-2-[[2-[[2-[[(2R)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[2-[[2-[[(2S)-6-amino-2-[[(2R)-2-amino-3-sulfanylpropanoyl]amino]hexanoyl]amino]acetyl]amino]acetyl]amino]-5-carbamimidamidopentanoyl]amino]propanoyl]amino]hexanoyl]amino]-3-carboxypropanoyl]amino]-3-sulfanylpropanoyl]amino]acetyl]amino]acetyl]amino]hexanoyl]amino]-4-methylpentanoyl]amino]propanoyl]amino]hexanoyl]amino]-4-methylpentanoyl]amino]propanoyl]amino]hexanoyl]amino]hexanoyl]amino]-4-methylpentanoyl]amino]propanoyl]amino]hexanoyl]amino]-4-methylpentanoyl]amino]propanoyl]amino]hexanoic acid"
+}
+  }
+}
+,
  
-    "bpc-157-tb-500-blend-30mg": {
-      name: "BPC-157 + TB-500 Blend 30mg",
+ "ahk-tripeptide-3-200mg": {
+  name: "AHK-Tripeptide-3 200mg",
+  tagline: "Advanced Cosmetic and Cellular Signaling Research Peptide",
+  cas: "158563-45-2",
 
-      strength:
-        "Dual-peptide research blend combining BPC-157 and TB-500, studied for synergistic cellular repair, angiogenic signaling, and regenerative pathway research.",
+  // Short card / hero text
+  strength: [
+    "AHK-Tripeptide-3 200mg from BioPeptides is a high-purity synthetic research tripeptide identified by CAS 158563-45-2 and engineered for advanced in-vitro laboratory investigations. Synthesized using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC and Mass Spectrometry, it ensures ≥99% purity, molecular precision, and batch-to-batch reproducibility. Widely used across European research laboratories, this peptide supports reliable studies in cellular signaling, protein expression, and regenerative research models."
+  ],
 
-      description:
-        "This research blend combines BPC-157, a pentadecapeptide investigated for cellular protection and tissue signaling mechanisms, with TB-500, a thymosin beta-4 analog studied in cell migration and angiogenesis research. The 30mg blend format is intended for extended laboratory studies exploring synergistic peptide interactions and multi-pathway regenerative signaling. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
-
-      components: [
-        "BPC-157 (pentadecapeptide)",
-        "TB-500 (thymosin beta-4 analog)"
-      ],
-
-      applications: [
-        "Synergistic peptide interaction studies",
-        "Cellular repair and regeneration research",
-        "Angiogenesis and vascular signaling models",
-        "Multi-pathway peptide research"
-      ],
-
-      appearance: "White lyophilized powder blend",
-      storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-      researchStatus:
-        "For laboratory research use only. Not for human or veterinary use."
-    
+  // Hero / intro description
+  topDescription: {
+    p0: "AHK-Tripeptide-3 200mg from BioPeptides is a premium synthetic research peptide developed for controlled in-vitro investigations involving follicular biology, dermal signaling, and peptide-mediated cellular communication.",
+    p1: "Manufactured using Solid-Phase Peptide Synthesis (SPPS), each batch is analytically verified by HPLC and Mass Spectrometry to confirm purity, molecular identity, and consistency.",
+    p2: "Research institutions across Germany, France, Italy, Spain, the Netherlands, and other EU regions rely on AHK-Tripeptide-3 for reproducible biochemical and molecular research workflows."
   },
-  
 
- 
-    "bpc-157-tb-500-blend-30mg": {
-      name: "BPC-157 + TB-500 Blend 30mg",
+  // Full product page content
+  content: {
+    overviewTitle: "Advanced Research Peptide Overview",
+    overview: [
+      "AHK-Tripeptide-3 200mg is a high-purity synthetic research peptide supplied by BioPeptides for precision laboratory investigation.",
+      "It is produced under controlled conditions using SPPS to ensure structural accuracy, molecular stability, and reproducibility across experimental batches.",
+      "Identified by CAS 158563-45-2, this peptide meets traceability and documentation standards required by European biochemical and cosmetic research institutions."
+    ],
 
-      strength:
-        "Dual-peptide research blend combining BPC-157 and TB-500, studied for synergistic cellular repair, angiogenic signaling, and regenerative pathway research.",
+    scientificBackgroundTitle: "Scientific Background and Research Importance",
+    scientificBackground: [
+      "Synthetic peptides are essential tools in modern biochemical, molecular biology, and regenerative research.",
+      "AHK-Tripeptide-3 is valued for its stable linear structure and predictable biochemical behavior in controlled laboratory environments.",
+      "Researchers utilize this tripeptide to study cellular communication, signaling pathways, and protein–peptide interactions with high reproducibility.",
+      "Its consistent molecular performance makes it suitable for exploratory research in tissue modeling, enzyme sensitivity, and gene regulation studies."
+    ],
 
-      description:
-        "This research blend combines BPC-157, a pentadecapeptide investigated for cellular protection and tissue signaling, with TB-500, a thymosin beta-4 analog studied in cell migration and angiogenesis. The 30mg blend is intended for extended laboratory studies exploring synergistic peptide interactions and multi-pathway regenerative signaling. Supplied as a high-purity lyophilized peptide blend for controlled scientific research.",
+    mechanismTitle: "Mechanism of Action in Research Settings",
+    mechanismPoints: [
+      "Modulation of cellular signaling pathways in controlled in-vitro models",
+      "Enhancement of growth factor sensitivity for regenerative research studies",
+      "Regulation of gene expression in peptide-based signaling research",
+      "Influence on mitochondrial ATP production and cellular energy metabolism",
+      "Support of enzymatic activation and inhibition pathway analysis"
+    ],
 
-      components: [
-        "BPC-157 (pentadecapeptide)",
-        "TB-500 (thymosin beta-4 analog)"
-      ],
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Regenerative Cell Biology",
+        text: "Studying cellular renewal, differentiation, and matrix remodeling under controlled laboratory conditions."
+      },
+      {
+        title: "Protein Expression Analysis",
+        text: "Evaluating transcriptional and translational responses in peptide-treated research models."
+      },
+      {
+        title: "Receptor-Binding Studies",
+        text: "Analyzing ligand–receptor interactions and molecular signaling mechanisms."
+      },
+      {
+        title: "Mitochondrial Metabolic Research",
+        text: "Investigating peptide influence on ATP production and cellular energy pathways."
+      },
+      {
+        title: "Enzymatic Sensitivity Experiments",
+        text: "Assessing enzyme activation, inhibition, and regulatory behavior in vitro."
+      },
+      {
+        title: "Matrix Remodeling Assays",
+        text: "Exploring extracellular matrix structure and cellular microenvironment dynamics."
+      }
+    ],
 
-      applications: [
-        "Synergistic peptide interaction studies",
-        "Cellular repair and regeneration research",
-        "Angiogenesis and vascular signaling models",
-        "Multi-pathway peptide research"
-      ],
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic cosmetic research tripeptide",
+      "Structure: Linear peptide chain",
+      "CAS Identifier: 158563-45-2",
+      "Stability: High when stored under recommended laboratory conditions",
+      "Molecular Weight: Sequence-dependent"
+    ],
 
-      appearance: "White lyophilized powder blend",
-      storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-      researchStatus:
-        "For laboratory research use only. Not for human or veterinary use."
-    
-  },
-  
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Supplied as a lyophilized powder for enhanced long-term stability",
+      "Recommended long-term storage at −20°C",
+      "Sensitive to moisture and prolonged light exposure",
+      "Predictable degradation above room temperature",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
 
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Buffered aqueous solutions",
+      "Compatible organic analytical solvents"
+    ],
 
-    "bpc-157-tb-500-kpv-ghk-cu-80mg": {
-      name: "Klow Blend (BPC-157 + TB-500 + KPV + GHK-Cu) 80mg",
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "AHK-Tripeptide-3 200mg",
+      cas: "158563-45-2",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "200 mg",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear peptide chain",
+      stability: "High when stored appropriately"
+    },
 
-      strength:
-        "Advanced multi-peptide research blend combining four well-studied peptides for synergistic cellular signaling and regenerative pathway research.",
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity confirmation",
+      "Mass Spectrometry (MS) molecular identity verification",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch consistency verification",
+      "Endotoxin and microbial contamination screening"
+    ],
 
-      description:
-        "Klow Blend is a complex multi-peptide research formulation combining BPC-157, TB-500, KPV, and GHK-Cu. Each component is individually studied in laboratory research for its interaction with cellular signaling, tissue modeling, inflammatory pathway investigation, and dermal or extracellular matrix research. This 80mg blend is designed for advanced laboratory studies exploring synergistic peptide interactions across multiple biological pathways. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "AHK-Tripeptide-3 200mg is supplied strictly for laboratory and cosmetic research use only. It is not approved as a drug, food, cosmetic, or medical product for human or veterinary use. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support compliance with European research standards.",
 
-      components: [
-        "BPC-157 (pentadecapeptide)",
-        "TB-500 (thymosin beta-4 analog)",
-        "KPV (tripeptide fragment of alpha-MSH)",
-        "GHK-Cu (copper tripeptide complex)"
-      ],
-
-      applications: [
-        "Multi-pathway peptide interaction studies",
-        "Cellular signaling and regeneration research",
-        "Inflammatory pathway and peptide signaling models",
-        "Dermal and extracellular matrix research",
-        "Advanced synergistic peptide research"
-      ],
-
-      appearance: "Lyophilized peptide powder blend",
-      storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-      researchStatus:
-        "For laboratory research use only. Not for human or veterinary use."
-    
-  },
- 
-
-  
-    "bronchogen-20mg": {
-      name: "Bronchogen® 20mg (Bioregulator)",
-
-      strength:
-        "Synthetic short-chain peptide bioregulator studied for organ-specific cellular signaling and gene expression research models.",
-
-      description:
-        "Bronchogen® is a synthetic bioregulatory peptide complex originally studied in organ-specific research models related to bronchial and pulmonary tissue signaling. In laboratory environments, it is investigated for its interaction with gene expression pathways, cellular differentiation mechanisms, and peptide-mediated regulatory signaling. Supplied as a high-purity research material for controlled scientific investigation.",
-
-      components: [
-        "Short-chain regulatory peptides (di- and tripeptide complexes)"
-      ],
-
-      applications: [
-        "Organ-specific peptide signaling research",
-        "Gene expression and regulatory pathway studies",
-        "Pulmonary and bronchial tissue research models",
-        "Bioregulatory peptide mechanism research"
-      ],
-
-      appearance: "White to off-white powder",
-      storage: "Store at -20°C. Protect from moisture and light.",
-      researchStatus:
-        "For laboratory research use only. Not for human or veterinary use."
-    
-  },
-  
-
-  
-    "cardiogen-20mg": {
-      name: "Cardiogen® 20mg (Bioregulator)",
-
-      strength:
-        "Synthetic short-chain peptide bioregulator studied for organ-specific cellular signaling and gene expression research models.",
-
-      description:
-        "Cardiogen® is a synthetic bioregulatory peptide complex investigated in laboratory research models related to cardiac and vascular tissue signaling. In controlled research environments, it is studied for its interaction with gene expression pathways, cellular differentiation mechanisms, and peptide-mediated regulatory signaling associated with cardiovascular biology. Supplied as a high-purity research material for scientific investigation.",
-
-      components: [
-        "Short-chain regulatory peptides (di- and tripeptide complexes)"
-      ],
-
-      applications: [
-        "Organ-specific peptide signaling research",
-        "Gene expression and regulatory pathway studies",
-        "Cardiac and vascular tissue research models",
-        "Bioregulatory peptide mechanism research"
-      ],
-
-      appearance: "White to off-white powder",
-      storage: "Store at -20°C. Protect from moisture and light.",
-      researchStatus:
-        "For laboratory research use only. Not for human or veterinary use."
-    
-  },
-  
-
-  
-    "cartalax-20mg": {
-      name: "Cartalax® 20mg (Bioregulator)",
-
-      strength:
-        "Synthetic short-chain peptide bioregulator studied for cartilage-related cellular signaling and gene expression research models.",
-
-      description:
-        "Cartalax® is a synthetic bioregulatory peptide complex investigated in laboratory research models focused on cartilage tissue biology and extracellular matrix signaling. In controlled research environments, it is studied for its interaction with gene expression pathways, peptide-mediated regulatory mechanisms, and tissue-specific cellular signaling relevant to connective and structural tissue research. Supplied as a high-purity research material for scientific investigation.",
-
-      components: [
-        "Short-chain regulatory peptides (di- and tripeptide complexes)"
-      ],
-
-      applications: [
-        "Organ-specific peptide signaling research",
-        "Gene expression and regulatory pathway studies",
-        "Cartilage and connective tissue research models",
-        "Bioregulatory peptide mechanism research"
-      ],
-
-      appearance: "White to off-white powder",
-      storage: "Store at -20°C. Protect from moisture and light.",
-      researchStatus:
-        "For laboratory research use only. Not for human or veterinary use."
-    
-  },
-  
-
-  
-    "adipotide-ftpp-10mg": {
-      name: "Adipotide (FTPP) 10mg",
-
-      strength:
-        "Synthetic peptide studied in laboratory research for its interaction with adipose tissue signaling and vascular targeting models.",
-
-      description:
-        "Adipotide, also known as FTPP, is a synthetic peptide investigated in laboratory research models for its selective interaction with adipose tissue vasculature and peptide-mediated cellular signaling pathways. In controlled research environments, it is studied for adipocyte-related signaling mechanisms, vascular targeting research, and peptide transport dynamics. Supplied as a high-purity lyophilized powder for scientific investigation.",
-
-      applications: [
-        "Adipose tissue signaling research",
-        "Peptide–vascular interaction studies",
-        "Cellular signaling pathway investigation",
-        "Targeted peptide transport research"
-      ],
-
-      appearance: "White lyophilized powder",
-      storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-      researchStatus:
-        "For laboratory research use only. Not for human or veterinary use."
-    
-  },
- 
-
- 
-    "ahk-tripeptide-3-200mg": {
-      name: "AHK-Tripeptide-3 200mg",
-
-      strength:
-        "Synthetic cosmetic research tripeptide studied for follicular biology and skin peptide signaling models.",
-
-      description:
-        "AHK-Tripeptide-3 is a synthetic cosmetic research peptide investigated in laboratory models for its interaction with follicular biology, dermal signaling pathways, and peptide-based cosmetic formulation research. It is commonly studied in hair and skin research environments focusing on peptide signaling and topical delivery systems. Supplied as a high-purity research compound.",
-
-      applications: [
-        "Cosmetic peptide signaling research",
-        "Follicular biology studies (in vitro)",
-        "Skin and hair research models",
-        "Topical formulation development"
-      ],
-
-      appearance: "White to off-white powder",
-      storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
-      researchStatus:
-        "For laboratory and cosmetic research use only. Not for human or veterinary use."
-    
-  },
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What research applications involve AHK-Tripeptide-3?",
+        a: "It is commonly studied in cellular signaling research, tissue regeneration models, peptide–protein interaction studies, and biochemical pathway analysis under controlled laboratory conditions."
+      },
+      {
+        q: "Does AHK-Tripeptide-3 have a registered CAS identifier?",
+        a: "Yes. AHK-Tripeptide-3 is registered under CAS No. 158563-45-2 for accurate compound identification and research traceability."
+      },
+      {
+        q: "How should AHK-Tripeptide-3 be stored?",
+        a: "Store the lyophilized peptide at −20°C, protected from light and moisture. Avoid repeated freeze–thaw cycles."
+      },
+      {
+        q: "Is AHK-Tripeptide-3 stable for long-term research?",
+        a: "Yes. When stored correctly, it remains stable and suitable for extended research projects."
+      },
+      {
+        q: "Can European laboratories buy AHK-Tripeptide-3 online?",
+        a: "Yes. BioPeptides supplies this peptide to qualified research institutions across Europe with full analytical documentation."
+      },
+      {
+        q: "Which solvents are suitable for reconstitution?",
+        a: "It can be dissolved in sterile water, bacteriostatic water, buffered aqueous solutions, or compatible analytical-grade solvents."
+      },
+      {
+        q: "How is purity confirmed?",
+        a: "Purity is verified by HPLC, while molecular identity is confirmed through Mass Spectrometry and UV analysis."
+      },
+      {
+        q: "Can AHK-Tripeptide-3 be used in clinical or cosmetic formulations?",
+        a: "No. It is supplied strictly for in-vitro laboratory and cosmetic research and is not approved for clinical or commercial cosmetic use."
+      }
+    ],
+     chemicalProperties: {
+      molecularFormula: "C15H25CuN6O4",
+      molecularWeight: "416.9",
+      polarArea: "N/A",
+      complexity: "N/A",
+      xlogP: "N/A",
+      heavyAtomCount: "N/A",
+      hydrogenBondDonorCount: "N/A",
+      hydrogenBondAcceptorCount: "N/A",
+      rotatableBondCount: "N/A",
+      sequence: "Ala-His-Lys-Cu"
+    }
+  }
+},
   
 
  

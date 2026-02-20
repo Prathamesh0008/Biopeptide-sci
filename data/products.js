@@ -878,7 +878,7 @@ cas:"386264-39-7",
 
 },
 {
-  id: "bpc-157-tb-500-kpv-ghk-cu-80mg",
+  id: "bpc-157-tb-500-kpv-ghk-cu-80mg-klow-blend",
   slug: "bpc-157-tb-500-kpv-ghk-cu-80mg-klow-blend",
   name: "klow Blend (BPC-157 + TB-500 + KPV + GHK-Cu) 80mg",
   category: "Peptide Blends",
@@ -948,7 +948,7 @@ cas:"386264-39-7",
 
 },
 {
-  id: "bronchogen-20mg",
+  id: "bronchogen-20mg-bioregulator",
   slug: "bronchogen-20mg-bioregulator",
   name: "Bronchogen® 20mg (Bioregulator)",
   category: "Bioregulators",
@@ -1010,7 +1010,7 @@ cas:"386264-39-7",
 
 },
 {
-  id: "cardiogen-20mg",
+  id: "cardiogen-20mg-bioregulator",
   slug: "cardiogen-20mg-bioregulator",
   name: "Cardiogen® 20mg (Bioregulator)",
   category: "Bioregulators",
