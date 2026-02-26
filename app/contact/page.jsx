@@ -187,7 +187,7 @@ export default function ContactPage() {
               </p>
 
               <div className="space-y-4 text-[16px]">
-                <InfoBlock title={t("info.email")} value="support@biopeptide.com" />
+                {/* <InfoBlock title={t("info.email")} value="support@biopeptide.com" /> */}
                 {/* <InfoBlock title={t("info.phone")} value="+1 (800) 000-0000" /> */}
                
                 <InfoBlock title={t("info.research")} value="info@bio-peptides.com" />
