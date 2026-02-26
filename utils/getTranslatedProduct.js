@@ -3,7 +3,7 @@ export function getTranslatedProduct(product, translations) {
 
   const tp = translations?.products?.[product.id];
 
-  if (!tp) return product; // fallback to English
+  if (!tp) return product; 
 
   return {
     ...product,
