@@ -201,24 +201,24 @@ export default function Footer() {
               </h3>
 
               <div className="space-y-4 text-sm text-gray-700">
-                <ContactRow icon={<FaPhoneAlt />} title={t("contact.phoneLabel")}>
+                {/* <ContactRow icon={<FaPhoneAlt />} title={t("contact.phoneLabel")}>
                   <p>1-800-986-6401</p>
                   <p className="text-xs text-gray-500">{t("contact.hours")}</p>
-                </ContactRow>
+                </ContactRow> */}
 
                 {/* ✅ EMAIL (ADDED BACK) */}
                 <ContactRow icon={<FaEnvelope />} title={t("contact.emailLabel")}>
-                  <p>support@biopeptide.com</p>
+                  <p>info@bio-peptides.com</p>
                 </ContactRow>
 
                 <ContactRow icon={<FaTruck />} title={t("contact.shippingLabel")}>
                   <p>Mon–Fri (Except Holidays)</p>
                 </ContactRow>
 
-                <ContactRow icon={<FaMapMarkerAlt />} title={t("contact.addressLabel")}>
+                {/* <ContactRow icon={<FaMapMarkerAlt />} title={t("contact.addressLabel")}>
                   <p>{t("contact.company")}</p>
                   <p>{t("contact.location")}</p>
-                </ContactRow>
+                </ContactRow> */}
               </div>
             </div>
           </div>
@@ -276,7 +276,7 @@ function ContactRow({ icon, title, children }) {
       <div className="min-w-0">
         <p className="font-semibold leading-tight">{title}</p>
 
-        <div className="text-sm text-gray-700 break-all sm:break-normal">
+       <div className="text-sm text-gray-700 whitespace-nowrap">
           {children}
         </div>
       </div>

@@ -2485,7 +2485,7 @@ accessibility: {
       title: "Feedback & Assistance",
       p1:
         "If you experience any difficulty accessing content on our website or have suggestions for improvement, we encourage you to contact us. Your feedback helps us improve accessibility for everyone.",
-      email: "support@biopeptide.com"
+      email: "info@bio-peptides.com"
     }
   }
 },
@@ -2556,7 +2556,7 @@ rewardsTerms: {
       title: "Contact Information",
       p1:
         "For questions regarding the Loyalty Program or reward points, please contact our support team.",
-      email: "support@biopeptide.com"
+      email: "info@bio-peptides.com"
     }
   }
 },
@@ -2598,7 +2598,7 @@ refundsReturns: {
       title: "Need Assistance?",
       p1:
         "If you have questions or believe there was an error in fulfillment, please contact our support team.",
-      email: "support@biopeptide.com"
+      email: "info@bio-peptides.com"
     }
   }
 },
