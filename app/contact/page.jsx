@@ -9,6 +9,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import DrawerProducts from "@/components/DrawerProducts";
 import { useState } from "react";
 import Loader from "@/components/Loader";
+import emailjs from "@emailjs/browser";
 
 
 export default function ContactPage() {
@@ -25,29 +26,53 @@ export default function ContactPage() {
   const [success, setSuccess] = useState(false);
   const [loadingSubmit, setLoadingSubmit] = useState(false);
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setLoadingSubmit(true);
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  setLoadingSubmit(true);
 
-    const res = await fetch("/api/contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(form),
-    });
-
-    if (res.ok) {
-      setSuccess(true);
-      setForm({
-        name: "",
-        email: "",
-        subject: "",
-        message: "",
-      });
-    }
-
-    setLoadingSubmit(false);
+  const templateParams = {
+    name: form.name,
+    email: form.email,
+    subject: form.subject,
+    message: form.message,
   };
 
+  try {
+    const adminRes = await emailjs.send(
+      "service_jcnoyfe",
+      "template_uowxayr",
+      templateParams,
+      "W6oyvSvHsLD85n4A3"
+    );
+
+    console.log("Admin Email Sent:", adminRes.status, adminRes.text);
+
+    const userRes = await emailjs.send(
+      "service_jcnoyfe",
+      "template_74yy82u",
+      templateParams,
+      "W6oyvSvHsLD85n4A3"
+    );
+
+    console.log("User Email Sent:", userRes.status, userRes.text);
+
+    setSuccess(true);
+    setForm({
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+    });
+
+  } catch (error) {
+    console.error("Email Error Status:", error?.status);
+    console.error("Email Error Text:", error?.text);
+    console.error("Raw Error:", error);
+    alert("Email sending failed. Please try later.");
+  }
+
+  setLoadingSubmit(false);
+};
   const t = (path) => {
     try {
       return path
