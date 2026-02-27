@@ -80,7 +80,7 @@ export default function Footer() {
             bg-[linear-gradient(to_right,#145b2f,#559f45)]
             hover:brightness-110
             transition
-            whitespace-nowrap
+            whitespace-nowrap cursor-pointer
           "
         >
           {t("newsletter.button")}

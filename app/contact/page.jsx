@@ -39,7 +39,7 @@ const handleSubmit = async (e) => {
 
   try {
     const adminRes = await emailjs.send(
-      "service_jcnoyfe",
+      "service_ml70c7k",
       "template_uowxayr",
       templateParams,
       "W6oyvSvHsLD85n4A3"
@@ -48,7 +48,7 @@ const handleSubmit = async (e) => {
     console.log("Admin Email Sent:", adminRes.status, adminRes.text);
 
     const userRes = await emailjs.send(
-      "service_jcnoyfe",
+      "service_ml70c7k",
       "template_74yy82u",
       templateParams,
       "W6oyvSvHsLD85n4A3"
