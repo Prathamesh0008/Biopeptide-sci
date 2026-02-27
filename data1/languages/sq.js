@@ -262,7 +262,7 @@ export default {
 },
 
     "disclaimer": {
-      "copyrightLine": "© 2026 BioPeptide.com. Të Gjitha të Drejtat e Rezervuara.",
+      "copyrightLine": "© 2025BioPeptide.com. Të Gjitha të Drejtat e Rezervuara.",
       "researchOnly": "Të gjitha produktet e disponueshme në këtë faqe interneti synohen rreptësisht vetëm për qëllime kërkimore laboratorike, analiza shkencore dhe zhvillimi. Produktet e shitura nga BioPeptide nuk synohen për konsum njerëzor, përdorim mjekësor ose përdorim veterinar të çfarëdolloj lloji.",
       "fda": "Deklaratat e bëra në këtë faqe interneti nuk janë vlerësuar nga Agjencia e Ushqimit dhe Barnave e Shteteve të Bashkuara (FDA). Produktet e ofruara nga BioPeptide nuk synohen për të diagnostikuar, trajtuar, shëruar ose parandaluar asnjë sëmundje."
     }

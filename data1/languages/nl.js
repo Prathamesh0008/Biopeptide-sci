@@ -285,7 +285,7 @@ contact: {
 },
 
   disclaimer: {
-    copyrightLine: "© 2026 BioPeptide.com. Alle rechten voorbehouden.",
+    copyrightLine: "© 2025BioPeptide.com. Alle rechten voorbehouden.",
 
     researchOnly:
       "Alle producten op deze website zijn uitsluitend bedoeld voor laboratoriumonderzoek, wetenschappelijke analyse en ontwikkelingsdoeleinden. Producten van BioPeptide zijn niet bedoeld voor menselijke, medische of veterinaire consumptie.",

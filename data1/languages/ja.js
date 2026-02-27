@@ -287,7 +287,7 @@ footer: {
 
 
   disclaimer: {
-    copyrightLine: "© 2026 BioPeptide.com. 無断転載禁止。",
+    copyrightLine: "© 2025BioPeptide.com. 無断転載禁止。",
 
     researchOnly:
       "本サイトのすべての製品は、研究、科学分析および開発目的のみに使用されます。BioPeptideの製品は、人間、医療、または獣医学的用途を目的としたものではありません。",

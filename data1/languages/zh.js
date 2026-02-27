@@ -288,7 +288,7 @@ contact: {
 
 
   disclaimer: {
-    copyrightLine: "© 2026 BioPeptide.com. 版权所有。",
+    copyrightLine: "© 2025BioPeptide.com. 版权所有。",
 
     researchOnly:
       "本网站上的所有产品仅用于实验室研究、科学分析和开发用途。BioPeptide 的产品不用于任何形式的人体、医疗或兽医用途。",

@@ -287,7 +287,7 @@ footer: {
 
 
   disclaimer: {
-    copyrightLine: "© 2026 BioPeptide.com. Tous droits réservés.",
+    copyrightLine: "© 2025BioPeptide.com. Tous droits réservés.",
 
     researchOnly:
       "Tous les produits disponibles sur ce site sont strictement destinés à la recherche en laboratoire, à l’analyse scientifique et au développement. Les produits BioPeptide ne sont pas destinés à la consommation humaine, médicale ou vétérinaire.",

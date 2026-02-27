@@ -262,7 +262,7 @@ companyOverview : {
 },
 
     "disclaimer": {
-      "copyrightLine": "© 2026 BioPeptide.com. Sva prava zadržana.",
+      "copyrightLine": "© 2025BioPeptide.com. Sva prava zadržana.",
       "researchOnly": "Svi proizvodi dostupni na ovoj veb stranici su strogo namenjeni za laboratorijska istraživanja, naučnu analizu i razvojne svrhe. Proizvodi koje prodaje BioPeptide nisu namenjeni za ljudsku upotrebu, medicinsku upotrebu ili veterinarsku upotrebu bilo koje vrste.",
       "fda": "Izjave date na ovoj veb stranici nisu procenjene od strane Američke agencije za hranu i lekove (FDA). Proizvodi koje nudi BioPeptide nisu namenjeni za dijagnozu, lečenje, izlečenje ili prevenciju bilo koje bolesti."
     }
