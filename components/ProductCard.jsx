@@ -153,7 +153,7 @@ export default function ProductCard({ product }) {
         href={`/product/${product.slug}`}
         className="
           w-full text-center
-          border border-bioBlue
+          border border-[#0978a7]
           text-bioBlue text-xs font-semibold
           py-2 rounded-md
          hover:bg-black hover:text-white
@@ -167,7 +167,7 @@ export default function ProductCard({ product }) {
   onClick={addToCart}
   className="
     w-full
-    bg-gradient-to-r from-[#145b2f] via-[#559f45] to-[#1a497c]
+    bg-gradient-to-r from-[#51c4c7] via-[#0978a7] to-[#0978a7]
     hover:bg-[#3a3a3a]
     hover:bg-none
     text-white text-xs font-semibold

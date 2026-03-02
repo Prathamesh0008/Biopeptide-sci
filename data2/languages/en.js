@@ -3688,95 +3688,765 @@ export default {
   
 
  
-    "aicar-50mg": {
-      name: "AICAR 50mg",
+"aicar-50mg": {
+  name: "AICAR 50mg",
+  tagline: "Advanced Metabolic and AMPK Signaling Research Compound",
+  cas: "3031-94-5",
 
-      strength:
-        "Synthetic adenosine analog peptide studied in cellular energy regulation and metabolic signaling research models.",
+  // Short Hero / Card Text
+  strength: [
+    "AICAR 50mg from BioPeptides is a high-purity synthetic research compound identified by CAS 3031-94-5 and engineered for advanced in-vitro metabolic and mitochondrial research. Validated using HPLC, Mass Spectrometry, and UV spectrophotometry, each batch ensures ≥99% purity and reproducible laboratory performance across European research institutions."
+  ],
 
-      description:
-        "AICAR (5-Aminoimidazole-4-carboxamide ribonucleotide) is a synthetic adenosine analog widely studied in laboratory research for its role in cellular energy sensing pathways and metabolic signaling mechanisms. In controlled research environments, it is investigated for its interaction with AMP-activated protein kinase (AMPK) pathways, mitochondrial activity models, and cellular bioenergetics research. Supplied as a high-purity lyophilized powder for scientific investigation.",
-
-      applications: [
-        "Cellular energy regulation research",
-        "AMPK signaling pathway studies",
-        "Metabolic and mitochondrial research models",
-        "Cellular bioenergetics investigation"
-      ],
-
-      appearance: "White lyophilized powder",
-      storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-      researchStatus:
-        "For laboratory research use only. Not for human or veterinary use."
-    
+  // Hero Description
+  topDescription: {
+    p0: "AICAR 50mg is a precision-synthesized research compound developed for controlled laboratory investigations in cellular metabolism, AMPK pathway analysis, and mitochondrial bioenergetics research.",
+    p1: "Manufactured under controlled conditions and analytically verified using HPLC, MS, and UV spectrophotometry, it ensures molecular integrity, purity, and batch-to-batch consistency.",
+    p2: "European laboratories across Germany, France, Italy, Spain, Netherlands, Belgium, Switzerland, Austria, and Denmark utilize AICAR for reproducible metabolic and signaling research workflows."
   },
+
+  content: {
+
+    overviewTitle: "Advanced Research Compound Overview",
+    overview: [
+      "AICAR (5-Aminoimidazole-4-carboxamide ribonucleotide) is a synthetic adenosine analog widely used in metabolic and cellular energy regulation research.",
+      "It is studied for its interaction with AMP-activated protein kinase (AMPK) pathways and mitochondrial energy signaling mechanisms.",
+      "Each 50mg vial is supplied as a high-purity lyophilized powder to ensure stability, traceability, and reproducibility in laboratory research environments."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background and Research Importance",
+    scientificBackground: [
+      "Synthetic nucleotide analogs like AICAR are essential tools in modern biochemical and metabolic research.",
+      "AICAR is widely investigated for its role in cellular energy sensing and AMPK pathway modulation in controlled in-vitro models.",
+      "Researchers use AICAR to explore metabolic adaptation, ATP production pathways, and cellular bioenergetics mechanisms.",
+      "Its predictable biochemical behavior supports reproducible results in long-term experimental research projects."
+    ],
+
+    mechanismTitle: "Mechanism of Action in Research Models",
+    mechanismPoints: [
+      "Activation and modulation of AMP-activated protein kinase (AMPK) pathways",
+      "Regulation of cellular energy sensing mechanisms",
+      "Influence on mitochondrial ATP production models",
+      "Support of metabolic signaling pathway investigations",
+      "Modulation of gene expression related to energy metabolism"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "AMPK Signaling Research",
+        text: "Studying cellular energy sensing and AMPK activation pathways in controlled laboratory models."
+      },
+      {
+        title: "Mitochondrial Bioenergetics",
+        text: "Investigating ATP production, energy utilization, and metabolic adaptation mechanisms."
+      },
+      {
+        title: "Regenerative Cell Biology",
+        text: "Exploring cellular repair processes and metabolic support pathways."
+      },
+      {
+        title: "Protein Expression Studies",
+        text: "Analyzing transcriptional and translational responses under metabolic stress conditions."
+      },
+      {
+        title: "Enzymatic Sensitivity Assays",
+        text: "Evaluating enzyme activation and inhibition in energy-related pathways."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic adenosine analog research compound",
+      "CAS Identifier: 3031-94-5",
+      "Form: Lyophilized powder",
+      "Stability: High when stored under recommended laboratory conditions"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Guidelines",
+    stabilityPoints: [
+      "Store lyophilized powder at −20°C for long-term stability",
+      "Protect from moisture and direct light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Buffered aqueous solutions",
+      "Compatible analytical-grade solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "AICAR 50mg",
+      cas: "3031-94-5",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "50 mg",
+      form: "Lyophilized powder",
+      synthesis: "Controlled synthetic production",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity confirmation",
+      "Mass Spectrometry molecular identity verification",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch reproducibility validation",
+      "Microbial and endotoxin screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "AICAR 50mg is supplied strictly for laboratory research use only. It is not approved as a drug, food, cosmetic, or medical product for human or veterinary use. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support compliance with European research standards.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is AICAR 50mg used for in research?",
+        a: "AICAR 50mg is primarily used in mitochondrial research, regenerative cell biology, protein expression studies, receptor-binding assays, and matrix remodeling experiments. European labs rely on it for reproducible results in advanced metabolic and molecular studies."
+      },
+      {
+        q: "What is the CAS number for AICAR?",
+        a: "The CAS number is 3031-94-5, ensuring traceability, quality, and compliance for European research laboratories seeking to buy peptides online."
+      },
+      {
+        q: "How should AICAR 50mg be stored?",
+        a: "Store lyophilized powder at −20°C, protected from light and moisture. Reconstituted solutions remain stable for 24–48 hours under refrigeration, avoiding repeated freeze-thaw cycles to maintain peptide integrity."
+      },
+      {
+        q:"Can I buy AICAR 50mg online in Europe?",
+        a:" Yes, Biopeptides supplies AICAR 50mg to laboratories in Germany, France, Italy, Spain, Netherlands, Belgium, Switzerland, Austria, and Denmark, including COA and MSDS documentation for EU regulatory compliance.",
+      },
+      {
+        q: "Is AICAR 50mg safe for human consumption",
+        a: " No. AICAR 50mg is strictly for laboratory research and is not approved for human, veterinary, cosmetic, or medical applications under EU regulations."
+      },
+      {
+        q:"Why is AICAR 50mg unique for research?",
+        a:"AICAR supports cellular signaling modulation, mitochondrial ATP production, gene expression regulation, and enzymatic activity, providing reproducible experimental results in multiple research applications."
+
+      },
+      {
+        q: "How is purity verified?",
+        a: "Purity ≥99% is confirmed using High-Performance Liquid Chromatography (HPLC), while identity is validated via Mass Spectrometry and UV analysis."
+      },
+      {
+        q:" Why choose 50mg vials of AICAR?",
+        a:" 50mg vials are ideal for multiple experiments, reduce handling errors, and ensure consistent peptide activity, critical for reproducible research outcomes in European laboratories."
+      }
+    ],
+
+     chemicalProperties: {
+  molecularFormula: "C53H88N16O23",
+  molecularWeight: "1317.4",
+  monoisotopicMass: "1316.62082312",
+  polarArea: "660",
+  complexity: "2600",
+  xlogP: "N/A",
+  heavyAtomCount: "92",
+  hydrogenBondDonorCount: "21",
+  hydrogenBondAcceptorCount: "24",
+  rotatableBondCount: "42",
+  cid: "163342019",
+  inchi:
+    "InChI=1S/C51H84N16O21.C2H4O2/c1-22(2)17-30(47(84)65-32(19-36(53)71)48(85)66-33(20-68)49(86)67-34(21-69)50(87)88)63-40(77)24(5)57-41(78)25(7-6-16-56-51(54)55)59-43(80)29(11-15-39(75)76)62-46(83)31(18-23(3)4)64-45(82)27(8-12-35(52)70)60-44(81)28(10-14-38(73)74)61-42(79)26-9-13-37(72)58-26;1-2(3)4/h22-34,68-69H,6-21H2,1-5H3,(H2,52,70)(H2,53,71)(H,57,78)(H,58,72)(H,59,80)(H,60,81)(H,61,79)(H,62,83)(H,63,77)(H,64,82)(H,65,84)(H,66,85)(H,67,86)(H,73,74)(H,75,76)(H,87,88)(H4,54,55,56);1H3,(H,3,4)/t24-,25-,26-,27-,28-,29-,30-,31-,32-,33-,34-;/m0./s1",
+  inchiKey: "AHEDJRSNELUIJJ-WVTOCIHHSA-N",
+
+  canonicalSmiles:
+    "CC(C)CC(C(=O)NC(CC(=O)N)C(=O)NC(CO)C(=O)NC(CO)C(=O)O)NC(=O)C(C)NC(=O)C(CCCN=C(N)N)NC(=O)C(CCC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(CCC(=O)N)NC(=O)C(CCC(=O)O)NC(=O)C1CCC(=O)N1.CC(=O)O",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CO)C(=O)O)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@@H]1CCC(=O)N1.CC(=O)O",
+
+  iupacName:
+    "acetic acid;(4S)-5-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-4-amino-1-[[(2S)-1-[[(1S)-1-carboxy-2-hydroxyethyl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-5-(diaminomethylideneamino)-1-oxopentan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-5-oxo-4-[[(2S)-5-oxopyrrolidine-2-carbonyl]amino]pentanoic acid"
+}
+  }
+},
   
 
- 
-    "ara-290-16mg": {
-      name: "ARA-290 16mg",
+ "ara-290-16mg": {
+  name: "ARA-290 16mg",
+  tagline: "Advanced Erythropoietin-Derived Receptor Signaling Research Peptide",
+  cas: "1208243-50-8",
 
-      strength:
-        "Synthetic peptide studied in laboratory research for its interaction with erythropoietin-derived receptor signaling pathways.",
+  // Short Hero / Card Text
+  strength: [
+    "ARA-290 16mg from BioPeptides is a high-purity synthetic research peptide identified by CAS 1208243-50-8 and engineered for advanced in-vitro receptor signaling investigations. Manufactured using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC, Mass Spectrometry, and UV spectrophotometry, each batch ensures ≥99% purity, structural precision, and reproducible laboratory performance across European research institutions."
+  ],
 
-      description:
-        "ARA-290 is a synthetic peptide derived from a specific region of erythropoietin (EPO) and is investigated in laboratory research for its interaction with tissue-protective receptor signaling pathways. In controlled research environments, it is studied for cellular signaling mechanisms, peptide–receptor interactions, and pathway-specific biological response models. Supplied as a high-purity lyophilized powder for controlled scientific investigation.",
-
-      applications: [
-        "Peptide–receptor interaction research",
-        "Cellular signaling pathway studies",
-        "Tissue-protective signaling model research",
-        "Erythropoietin-derived peptide investigation"
-      ],
-
-      appearance: "White lyophilized powder",
-      storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-      researchStatus:
-        "For laboratory research use only. Not for human or veterinary use."
-    
+  // Hero Description
+  topDescription: {
+    p0: "ARA-290 16mg is a precision-designed synthetic peptide derived from a specific region of erythropoietin (EPO), developed for controlled laboratory studies involving tissue-protective receptor signaling and peptide–receptor interaction research.",
+    p1: "Each batch is produced using Solid-Phase Peptide Synthesis (SPPS) and analytically verified through HPLC, Mass Spectrometry, and UV spectrophotometry to confirm molecular identity, purity, and batch-to-batch consistency.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, Netherlands, Belgium, Switzerland, Austria, and Denmark rely on ARA-290 for reproducible cellular signaling and biochemical pathway investigations."
   },
-  "b7-33-6mg": {
+
+  content: {
+
+    overviewTitle: "Advanced Research Peptide Overview",
+    overview: [
+      "ARA-290 is a synthetic erythropoietin-derived research peptide supplied as a high-purity lyophilized powder for laboratory investigation.",
+      "It is widely studied in controlled in-vitro environments for its interaction with tissue-protective receptor signaling pathways.",
+      "Identified by CAS 1208243-50-8, it supports traceability, documentation, and reproducibility required by European research institutions."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background and Research Importance",
+    scientificBackground: [
+      "Synthetic peptides derived from endogenous signaling proteins are essential tools in modern molecular and cellular biology research.",
+      "ARA-290 is investigated for its selective interaction with receptor-mediated signaling pathways under controlled laboratory conditions.",
+      "Researchers utilize this peptide to examine cellular communication, pathway-specific biological responses, and regulated gene expression models.",
+      "Its stable linear structure and predictable biochemical behavior support reproducible experimental workflows."
+    ],
+
+    mechanismTitle: "Mechanism of Action in Research Models",
+    mechanismPoints: [
+      "Selective modulation of erythropoietin-derived receptor signaling pathways",
+      "Influence on regulated cellular communication models",
+      "Support of gene expression pathway investigations",
+      "Interaction with tissue-protective receptor signaling mechanisms",
+      "Facilitation of controlled peptide–receptor binding studies"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Peptide–Receptor Interaction Studies",
+        text: "Analyzing ligand binding, receptor selectivity, and pathway activation in controlled laboratory models."
+      },
+      {
+        title: "Cellular Signaling Research",
+        text: "Investigating intracellular communication and regulated signaling cascades."
+      },
+      {
+        title: "Regenerative Biology Models",
+        text: "Studying controlled cellular response and pathway-specific tissue signaling mechanisms."
+      },
+      {
+        title: "Protein Expression Analysis",
+        text: "Evaluating transcriptional and translational responses under peptide exposure."
+      },
+      {
+        title: "Mitochondrial Function Studies",
+        text: "Exploring cellular energy regulation and signaling cross-talk mechanisms."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic erythropoietin-derived research peptide",
+      "Structure: Linear peptide chain",
+      "CAS Identifier: 1208243-50-8",
+      "Form: Lyophilized powder",
+      "Stability: High when stored under recommended laboratory conditions"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Supplied as a lyophilized powder for enhanced long-term stability",
+      "Recommended storage at −20°C",
+      "Protect from moisture and prolonged light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Buffered aqueous solutions",
+      "Compatible analytical-grade solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "ARA-290 16mg",
+      cas: "1208243-50-8",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "16 mg",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear peptide chain",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity confirmation",
+      "Mass Spectrometry (MS) molecular identity verification",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch consistency validation",
+      "Microbial and endotoxin screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "ARA-290 16mg is supplied strictly for laboratory research use only. It is not approved as a drug, food, cosmetic, or medical product for human or veterinary use. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support compliance with European research standards.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is ARA-290 16mg used for in research?",
+        a: "ARA-290 16mg is used in regenerative cell biology, mitochondrial metabolism research, receptor binding, protein expression studies, and matrix remodeling assays, allowing EU labs to achieve reproducible and accurate experimental outcomes."
+      },
+      {
+        q: "What is the CAS number for ARA-290?",
+        a: "The CAS number is 1208243-50-8, ensuring traceable, high-quality research-grade peptide for laboratories across Europe."
+      },
+      {
+        q: "How should ARA-290 16mg be stored?",
+        a: " Store lyophilized peptide at −20°C, protected from moisture and light. Reconstituted solutions remain stable for 24–48 hours under refrigeration, avoiding repeated freeze-thaw cycles."
+      },
+      {
+        q: "Is ARA-290 16mg safe for human consumption?",
+        a: "No. ARA-290 16mg is strictly for laboratory research and not approved for human or veterinary use under EU regulations."
+      },
+      {
+        q:" Can I buy ARA-290 16mg online in Europe?",
+        a:" Yes, Biopeptides supplies ARA-290 16mg to laboratories in Germany, France, Italy, Spain, Netherlands, Belgium, Switzerland, Austria, and Denmark, including COA and MSDS for EU compliance."
+
+      },
+      {
+        q:"How is the purity of ARA-290 validated?",
+        a:" Purity ≥99% is confirmed through HPLC, Mass Spectrometry, and UV spectrophotometry, alongside endotoxin and microbial testing for research-grade assurance.",
+
+      },
+
+      {
+        q:" What makes ARA-290 unique for research?",
+        a:"ARA-290 supports cellular signaling modulation, mitochondrial energy production, gene expression regulation, and enzymatic activity, providing multifunctional capabilities for precise scientific studies."
+
+      },
+      {
+        q: "Why choose 16mg vials of ARA-290?",
+        a: "16mg vials are ideal for multiple experiments, reducing handling errors, maintaining consistent peptide activity, and ensuring reproducible research outcomes for European laboratories."
+      }
+    ],
+
+      chemicalProperties: {
+  molecularFormula: "C53H88N16O23",
+  molecularWeight: "1317.4",
+  monoisotopicMass: "1316.62082312",
+  polarArea: "660",
+  complexity: "2600",
+  xlogP: "N/A",
+  heavyAtomCount: "92",
+  hydrogenBondDonorCount: "21",
+  hydrogenBondAcceptorCount: "24",
+  rotatableBondCount: "42",
+  cid: "163342019",
+  inchi:
+    "InChI=1S/C51H84N16O21.C2H4O2/c1-22(2)17-30(47(84)65-32(19-36(53)71)48(85)66-33(20-68)49(86)67-34(21-69)50(87)88)63-40(77)24(5)57-41(78)25(7-6-16-56-51(54)55)59-43(80)29(11-15-39(75)76)62-46(83)31(18-23(3)4)64-45(82)27(8-12-35(52)70)60-44(81)28(10-14-38(73)74)61-42(79)26-9-13-37(72)58-26;1-2(3)4/h22-34,68-69H,6-21H2,1-5H3,(H2,52,70)(H2,53,71)(H,57,78)(H,58,72)(H,59,80)(H,60,81)(H,61,79)(H,62,83)(H,63,77)(H,64,82)(H,65,84)(H,66,85)(H,67,86)(H,73,74)(H,75,76)(H,87,88)(H4,54,55,56);1H3,(H,3,4)/t24-,25-,26-,27-,28-,29-,30-,31-,32-,33-,34-;/m0./s1",
+  inchiKey: "AHEDJRSNELUIJJ-WVTOCIHHSA-N",
+
+  canonicalSmiles:
+    "CC(C)CC(C(=O)NC(CC(=O)N)C(=O)NC(CO)C(=O)NC(CO)C(=O)O)NC(=O)C(C)NC(=O)C(CCCN=C(N)N)NC(=O)C(CCC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(CCC(=O)N)NC(=O)C(CCC(=O)O)NC(=O)C1CCC(=O)N1.CC(=O)O",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC(C)C)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H]1CCCN1C(=O)[C@@H]2CCCN2C(=O)[C@@H]3CCCN3C(=O)[C@@H]4CCCN4C(=O)CN",
+
+  iupacName:
+    "acetic acid;(4S)-5-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-4-amino-1-[[(2S)-1-[[(1S)-1-carboxy-2-hydroxyethyl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-5-(diaminomethylideneamino)-1-oxopentan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-5-oxo-4-[[(2S)-5-oxopyrrolidine-2-carbonyl]amino]pentanoic acid"
+}
+  }
+},
+
+
+"b7-33-6mg": {
   name: "B7-33 6mg",
+  tagline: "Advanced Relaxin-Derived Receptor Signaling Research Peptide",
+  cas: "N/A",
 
-  strength:
-    "Synthetic relaxin-derived peptide studied in laboratory research for selective receptor signaling pathway investigation.",
-
-  description:
-    "B7-33 is a synthetic peptide derived from the B-chain of the hormone relaxin and is investigated in laboratory research for its selective interaction with relaxin family peptide receptors. In controlled research environments, it is studied for peptide–receptor signaling specificity, downstream cellular communication pathways, and structure–function relationship research. Supplied as a high-purity lyophilized powder for scientific investigation.",
-
-  applications: [
-    "Peptide–receptor interaction research",
-    "Selective relaxin receptor signaling studies",
-    "Cellular communication pathway investigation",
-    "Structure–function peptide research"
+  // Short Hero / Card Text
+  strength: [
+    "B7-33 6mg from BioPeptides is a high-purity synthetic relaxin-derived research peptide engineered for advanced in-vitro receptor signaling investigations. Produced using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC, Mass Spectrometry, and UV spectrophotometry, each batch ensures ≥99% purity, structural precision, and reproducible laboratory performance across European research institutions."
   ],
 
-  appearance: "White lyophilized powder",
-  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
+  // Hero Description
+  topDescription: {
+    p0: "B7-33 6mg is a precision-designed synthetic peptide derived from the B-chain region of relaxin, developed for controlled laboratory studies involving selective receptor signaling and peptide–receptor interaction research.",
+    p1: "Manufactured using Solid-Phase Peptide Synthesis (SPPS), each batch undergoes comprehensive analytical validation including HPLC, Mass Spectrometry, and UV spectrophotometric analysis to confirm purity, molecular identity, and batch reproducibility.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Belgium, Switzerland, Austria, Sweden, and Denmark utilize B7-33 for reproducible cellular signaling and biochemical pathway investigations."
+  },
+
+  content: {
+
+    overviewTitle: "Advanced Research Peptide Overview",
+    overview: [
+      "B7-33 is a synthetic relaxin-derived research peptide supplied as a high-purity lyophilized powder for laboratory investigation.",
+      "It is widely studied in controlled in-vitro environments for its selective interaction with relaxin family peptide receptors.",
+      "Although no CAS number is currently assigned, B7-33 is fully characterized through analytical validation to meet European research documentation and reproducibility standards."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background and Research Importance",
+    scientificBackground: [
+      "Synthetic peptides derived from endogenous signaling proteins are essential tools in modern molecular and cellular biology research.",
+      "B7-33 is investigated for its selective receptor-mediated signaling behavior under controlled laboratory conditions.",
+      "Researchers utilize this peptide to examine downstream cellular communication pathways, structure–function relationships, and regulated gene expression models.",
+      "Its predictable biochemical behavior supports consistent and reproducible experimental workflows in regulated European research environments."
+    ],
+
+    mechanismTitle: "Mechanism of Action in Research Models",
+    mechanismPoints: [
+      "Selective modulation of relaxin family peptide receptor signaling pathways",
+      "Influence on regulated intracellular communication cascades",
+      "Support of structure–function relationship investigations",
+      "Facilitation of controlled peptide–receptor binding studies",
+      "Modulation of downstream signaling pathway analysis in vitro"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Peptide–Receptor Interaction Studies",
+        text: "Analyzing receptor selectivity, ligand binding affinity, and downstream signaling mechanisms in controlled laboratory models."
+      },
+      {
+        title: "Selective Relaxin Receptor Signaling Research",
+        text: "Investigating pathway-specific receptor activation and intracellular response dynamics."
+      },
+      {
+        title: "Cellular Communication Analysis",
+        text: "Exploring regulated signaling cascades and biochemical pathway modulation."
+      },
+      {
+        title: "Structure–Function Research",
+        text: "Evaluating molecular stability, structural behavior, and receptor-binding specificity."
+      },
+      {
+        title: "Regenerative and Metabolic Models",
+        text: "Supporting controlled in-vitro studies involving energy regulation and cellular response mechanisms."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic relaxin-derived research peptide",
+      "Structure: Linear peptide chain",
+      "CAS Identifier: Not Assigned (N/A)",
+      "Form: Lyophilized powder",
+      "Stability: High when stored under recommended laboratory conditions"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Supplied as a lyophilized powder for enhanced long-term stability",
+      "Recommended storage at −20°C",
+      "Protect from moisture and prolonged light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Buffered aqueous solutions",
+      "Acidic buffer systems",
+      "Compatible analytical-grade organic solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "B7-33 6mg",
+      cas: "Not Assigned (N/A)",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "6 mg",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic peptide",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity confirmation",
+      "Mass Spectrometry (MS) molecular identity verification",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch reproducibility validation",
+      "Microbial and endotoxin screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "B7-33 6mg is supplied strictly for laboratory research use only. It is not approved as a drug, food, cosmetic, or medical product for human or veterinary use. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support compliance with European research standards.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is B7-33 6mg used for in research?",
+        a: "B7-33 6mg is used in laboratory studies involving cellular signaling, regenerative biology, protein-peptide interactions, mitochondrial metabolism, and enzymatic sensitivity assays within controlled research environments."
+      },
+      {
+        q: "Does B7-33 have a CAS number?",
+        a: "Currently, B7-33 does not have an assigned CAS number. However, it is fully characterized through HPLC, Mass Spectrometry, and UV analysis for research-grade validation."
+      },
+      {
+        q: "Is B7-33 6mg approved for human use?",
+        a: "No. B7-33 6mg is strictly intended for laboratory research only and is not approved for human, veterinary, medical, or cosmetic applications."
+      },
+      {
+        q: "Is B7-33 approved for human use?",
+        a: "No. B7-33 6mg is strictly intended for laboratory research use only and is not approved for human or veterinary applications."
+      },
+      {
+        q:"How should B7-33 6mg be stored?",
+        a:"The lyophilized peptide should be stored at −20°C, protected from light and moisture. Reconstituted solutions are stable for up to 48 hours under refrigeration."
+
+      },
+      {
+        q:"Can I buy B7-33 6mg online in Europe?",
+        a:"Yes. B7-33 6mg is available from EU-focused suppliers serving laboratories in Germany, France, Italy, Spain, the Netherlands, and other European countries."
+
+      },
+      {
+        q:"What makes B7-33 different from other research peptides?",
+        a:"B7-33 offers high molecular stability, reproducible experimental behavior, and versatility across signaling, metabolic, and regenerative research models."
+
+      },
+      {
+        q:"What analytical tests confirm B7-33 purity?",
+        a:"Each batch is validated using HPLC, Mass Spectrometry, and UV spectrophotometry, along with identity verification and contamination screening."
+
+      },
+      {
+        q:"Why is B7-33 popular in European laboratories?",
+        a:"European researchers value B7-33 for its consistent quality, transparent validation, EU-compliant documentation, and suitability for advanced experimental research."
+
+      },
+      {
+        q: "How is purity verified?",
+        a: "Purity ≥99% is confirmed using High-Performance Liquid Chromatography (HPLC), while molecular identity is validated through Mass Spectrometry and UV spectrophotometric analysis."
+      }
+    ],
+
+      chemicalProperties: {
+  molecularFormula: "N/A",
+  molecularWeight: "N/A",
+  monoisotopicMass: "N/A",
+  polarArea: "N/A",
+  complexity: "N/A",
+  xlogP: "N/A",
+  heavyAtomCount: "N/A",
+  hydrogenBondDonorCount: "N/A",
+  hydrogenBondAcceptorCount: "N/A",
+  rotatableBondCount: "N/A",
+  cid: "N/A",
+  inchi:
+    "N/A",
+  inchiKey: "N/A",
+
+  canonicalSmiles:
+    "N/A",
+
+  isomericSmiles:
+    "N/A",
+
+  iupacName:
+    "N/A"
+}
+  }
 },
-"chonluten-20mg": {
+
+
+"chonluten-20mg-bioregulator": {
   name: "Chonluten® 20mg (Bioregulator)",
+  tagline: "Advanced Organ-Specific Bioregulatory Research Peptide",
+  cas: "75007-24-8",
 
-  strength:
-    "Synthetic short-chain peptide bioregulator studied for organ-specific cellular signaling and gene expression research models.",
-
-  description:
-    "Chonluten® is a synthetic bioregulatory peptide complex investigated in laboratory research models related to respiratory and bronchopulmonary tissue signaling. In controlled research environments, it is studied for its interaction with gene expression pathways, peptide-mediated regulatory mechanisms, and tissue-specific cellular signaling associated with bronchial and lung biology. Supplied as a high-purity research material for scientific investigation.",
-
-  applications: [
-    "Organ-specific peptide signaling research",
-    "Gene expression and regulatory pathway studies",
-    "Respiratory and bronchopulmonary tissue research models",
-    "Bioregulatory peptide mechanism research"
+  // Short Hero / Card Text
+  strength: [
+    "Chonluten® 20mg is a high-purity synthetic bioregulatory research peptide identified by CAS 75007-24-8 and engineered for advanced in-vitro cellular signaling and gene expression studies. Manufactured using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC, Mass Spectrometry, and UV spectrophotometry, each batch ensures ≥99% purity, structural accuracy, and reproducible laboratory performance across European research institutions."
   ],
 
-  appearance: "White to off-white powder",
-  storage: "Store at -20°C. Protect from moisture and light.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
+  // Hero Description
+  topDescription: {
+    p0: "Chonluten® 20mg (Bioregulator) is a laboratory-grade synthetic peptide developed for advanced biochemical and molecular biology research within controlled scientific environments.",
+    p1: "Produced via Solid-Phase Peptide Synthesis (SPPS) and analytically verified using HPLC, Mass Spectrometry, and UV spectrophotometry, it delivers high molecular stability, batch-to-batch consistency, and research-grade purity.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Belgium, Switzerland, Austria, Sweden, Finland, and other EU regions rely on Chonluten for reproducible investigations into gene regulation, cellular signaling, and bronchopulmonary tissue research models."
+  },
+
+  content: {
+
+    overviewTitle: "Advanced Bioregulatory Research Peptide Overview",
+    overview: [
+      "Chonluten® is a synthetic short-chain bioregulatory peptide complex supplied as a high-purity lyophilized powder for laboratory investigation.",
+      "It is widely studied in controlled in-vitro research environments related to respiratory and bronchopulmonary tissue signaling models.",
+      "Identified by CAS 75007-24-8, Chonluten supports traceability, regulatory documentation, and reproducibility required by European research institutions."
+    ],
+
+    scientificBackgroundTitle: "Scientific Rationale and Research Importance",
+    scientificBackground: [
+      "Synthetic peptides classified as bioregulators are designed to mimic or influence naturally occurring biological signaling processes in a controlled research context.",
+      "Chonluten® is investigated for its interaction with gene expression pathways and tissue-specific cellular signaling mechanisms.",
+      "Researchers use Chonluten to explore transcriptional and translational regulation, peptide-mediated communication, and adaptive cellular responses.",
+      "Its stable molecular behavior and predictable degradation kinetics make it suitable for longitudinal and comparative laboratory studies."
+    ],
+
+    mechanismTitle: "Mechanistic Research Insights",
+    mechanismPoints: [
+      "Modulation of organ-specific cellular signaling pathways in controlled in-vitro models",
+      "Support of gene expression regulation research involving transcriptional and translational mechanisms",
+      "Influence on growth factor responsiveness and adaptive cellular signaling",
+      "Integration into mitochondrial ATP production and metabolic pathway investigations",
+      "Support of enzymatic activation and catalytic pathway analysis"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Organ-Specific Peptide Signaling Research",
+        text: "Investigating bronchopulmonary and respiratory-related cellular signaling pathways under controlled laboratory conditions."
+      },
+      {
+        title: "Gene Expression Studies",
+        text: "Exploring transcriptional regulation, peptide-mediated gene modulation, and regulatory pathway analysis."
+      },
+      {
+        title: "Regenerative and Cellular Biology Models",
+        text: "Studying cellular renewal, differentiation, and adaptive biological responses in vitro."
+      },
+      {
+        title: "Protein–Peptide Interaction Analysis",
+        text: "Evaluating binding affinity, molecular recognition, and structural compatibility."
+      },
+      {
+        title: "Mitochondrial and Metabolic Research",
+        text: "Investigating ATP production, cellular energy regulation, and metabolic efficiency models."
+      },
+      {
+        title: "Enzymatic Sensitivity and Matrix Remodeling",
+        text: "Analyzing enzyme response dynamics and extracellular matrix organization in advanced research systems."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic short-chain bioregulatory peptide",
+      "Structure: Linear synthetic peptide complex",
+      "CAS Identifier: 75007-24-8",
+      "Form: Lyophilized powder",
+      "Molecular Weight: Sequence-dependent",
+      "Stability: High when stored under recommended laboratory conditions"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Supplied as a lyophilized powder for enhanced long-term stability",
+      "Recommended storage at −20°C",
+      "Protect from moisture, condensation, and prolonged light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration when handled aseptically"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Buffered aqueous systems",
+      "Acidic buffer media",
+      "Compatible analytical-grade organic solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Chonluten® 20mg (Bioregulator)",
+      cas: "75007-24-8",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "20 mg",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic peptide",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity confirmation",
+      "Mass Spectrometry molecular identity verification",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch reproducibility validation",
+      "Endotoxin and microbial contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "Chonluten® 20mg (Bioregulator) is supplied strictly for laboratory research use only. It is not approved as a drug, food, cosmetic, dietary supplement, or medical product for human or veterinary use. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support compliance with European research standards.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is Chonluten® 20mg used for in research?",
+        a: "Chonluten 20mg is used in laboratory studies involving cellular signaling, regenerative biology, protein-peptide interactions, receptor binding, mitochondrial metabolism, and enzymatic research models."
+      },
+      {
+        q: "What is the CAS number for Chonluten®?",
+        a: "The CAS number for Chonluten 20mg is 75007-24-8, providing clear identification and traceability for research documentation."
+      },
+      {
+        q: "Is Chonluten® approved for medical or human use?",
+        a: "No. Chonluten 20mg is intended strictly for laboratory research and is not approved for human, veterinary, pharmaceutical, or cosmetic applications."
+      },
+      {
+        q: "How should Chonluten® 20mg be stored?",
+        a: "The lyophilized peptide should be stored at −20°C, protected from moisture and light. Reconstituted solutions are stable for up to 48 hours under refrigeration."
+      },
+      {
+        q: "Can I buy Chonluten 20mg online in Europe?",
+        a: "Yes. Chonluten 20mg is available from EU-focused suppliers serving research institutions across Germany, France, Italy, Spain, and other European countries."
+      },
+      {
+        q: "What makes Chonluten different from other research peptides?",
+        a: "Chonluten offers high purity, predictable degradation, strong molecular stability, and extensive analytical validation, making it suitable for complex research applications."
+      },
+      {
+        q:"Which analytical tests are performed on Chonluten?",
+        a:"Each batch is tested using HPLC, Mass Spectrometry, and UV analysis, along with identity verification and contamination screening."
+
+      },
+      {
+        q:"Why is Chonluten popular in European research labs?",
+        a:"European laboratories value Chonluten for its reproducibility, regulatory transparency, CAS identification, and alignment with EU research standards."
+
+      },
+    ],
+
+      chemicalProperties: {
+  molecularFormula: "C62H98N16O22",
+  molecularWeight: "1419.56",
+  monoisotopicMass: "1418.70415882",
+  polarArea: "573",
+  complexity: "3040",
+  xlogP: "-9",
+  heavyAtomCount: "100",
+  hydrogenBondDonorCount: "16",
+  hydrogenBondAcceptorCount: "24",
+  rotatableBondCount: "39",
+  cid: "9941957",
+  inchi:
+    "InChI=1S/C62H98N16O22/c1-31(2)25-37(55(92)74-50(32(34)62(99)100)71-46(81)29-65-51(88)33(5)67-53(90)38(26-48(84)85)73-54(91)39(27-49(86)87)72-52(89)36(18-19-47(83)82)66-45(80)28-64-35(17-8-20-75(41)58(95)35(13-7-8-20-63)40)30-63-64H,65,88(H,66,93)(H,67,90)(H,68,94)(H,69,79)(H,70,80)(H,71,81)(H,72,89)(H,73,91)(H,74,92)(H,82,83)(H,84,85)(H,99,100)",
+  inchiKey: "HEEWEZGQMLZMFE-RKGINYAYSA-N",
+
+  canonicalSmiles:
+    "CC(C)CC(C(=O)NC(C(C)C(=O)O)NC(=O)CNC(=O)C(C)NC(=O)C(C)NC(=O)C1CCCN1C(=O)C(CCCN)NC(=O)C2CCCN2C(=O)C3CCCN3C(=O)C4CCCN4C(=O)CN",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC(C)C)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H]1CCCN1C(=O)[C@@H]2CCCN2C(=O)[C@@H]3CCCN3C(=O)[C@@H]4CCCN4C(=O)CN",
+
+  iupacName:
+    "(4S)-4-[(2-aminoacetyl)amino]-5-[(2S)-2-[(2S)-2-[(2S)-2-[(2S)-6-amino-1-[(2S)-2-[(2S)-1-[(2S)-3-carboxy-1-[(2S)-3-carboxy-1-[(2S)-1-[(2S)-1-carboxy-2-methylpropyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxohexan-2-yl]amino]-2-oxoethylcarbamoyl]pyrrolidine-1-carboxamide"
+}
+  }
 },
+
 "cjc-1295-ghrp-2-blend-10mg": {
   name: "CJC-1295 + GHRP-2 Blend 10mg",
 
