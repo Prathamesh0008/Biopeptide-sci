@@ -95,7 +95,7 @@ const handleMouseMove = (e) => {
               onClick={() => onChange(cat)}
               className={`
                 whitespace-nowrap px-5 py-2 rounded-xl text-sm font-semibold
-                border transition
+                border transition cursor-pointer
                 ${isActive
                   ? "bg-gray-900 text-white border-gray-900"
                   : "bg-white text-gray-700 border-gray-300 hover:border-gray-500"}

@@ -1770,67 +1770,7 @@ cas:"1208243-50-8",
 }
 },
 
-{
-  id: "mod-grf-1-29-5mg",
-  slug: "mod-grf-1-29-cjc-1295-no-dac-5mg",
-  name: "Mod GRF + GHRP-2 10mg (Blend)",
-  category: "IGF-1 Proteins",
 
-  price: 285.0,
-
-  strength:
-    "Synthetic growth hormone–releasing hormone (GHRH) analog studied for short-acting receptor signaling and endocrine research models.",
-
-  cas: "N/A",
-  size: "5mg vial",
-  purity: "≥ 99% (HPLC)",
-
-  stock: true,
-  badge: "Research Use",
-
-  description:
-    "Mod GRF 1-29, also known as CJC-1295 No DAC, is a synthetic peptide analog of growth hormone–releasing hormone (GHRH). In laboratory research environments, it is investigated for short-duration GHRH receptor activation, endocrine signaling dynamics, and peptide–receptor interaction behavior. The 5mg format supports extended laboratory studies requiring increased material availability while maintaining controlled, short-acting signaling models. Supplied as a high-purity lyophilized powder for scientific investigation.",
-
-  applications: [
-    "Endocrine signaling pathway research",
-    "GHRH receptor interaction studies",
-    "Short-acting peptide signaling models",
-    "Hormonal communication research"
-  ],
-
-  appearance: "White lyophilized powder",
-  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use.",
-
-  image: "/product/peptide blends/modgrfghrp2blend10mg.png",
-seo: {
-  title:
-    "Mod GRF (1-29) & GHRP-2 10mg Blend (CAS 863288-34-0 & 158861-67-7) |",
-
-  description:
-    "Mod GRF 1-29 (CAS 863288-34-0) combined with GHRP-2 (CAS 158861-67-7) in a 10mg research peptide blend from BioPeptide. Studied for GHRH and ghrelin receptor signaling, cAMP/PKA activation, calcium-mediated growth hormone release, and endocrine pathway modeling. For Research Use Only.",
-
-  keywords: [
-    "Mod GRF 1-29",
-    "GHRP-2",
-    "Mod GRF GHRP-2 blend",
-    "Mod GRF 1-29 GHRP-2 10mg",
-    "CAS 863288-34-0",
-    "CAS 158861-67-7",
-    "GHRH receptor signaling research",
-    "ghrelin receptor pathway studies",
-    "cAMP PKA signaling peptide research",
-    "BioPeptide peptide blend USA"
-  ],
-
-  robots: "index, follow",
-
-  canonical:
-    "https://www.bio-peptides.com/product/mod-grf-ghrp-2-10mg-blend"
-}
-
-
-},
 {
   id: "cortagen-20mg",
   slug: "cortagen-20mg-bioregulator",
@@ -2490,73 +2430,7 @@ seo: {
 }
 
 },
-{
-  id: "cjc1295-ipamorelin-12mg-blend",
-  slug: "fragment-cjc1295-ipamorelin-12mg-blend",
-  name: "Fragment CJC-1295 + Ipamorelin Blend 12mg",
-  category: "Peptide Blends",
-  cas:" 66004-57-7, 446262-90-4 & 170851-70-4",
 
-  price: 210.0,
-
-  strength:
-    "Dual-peptide research blend studied for growth hormone–related receptor signaling and endocrine pathway interaction models.",
-
-  size: "12mg blend",
-  purity: "≥ 99% (HPLC)",
-
-  stock: true,
-  badge: "Research Blend",
-
-  description:
-    "This research blend combines Fragment CJC-1295 (MOD GRF 1-29), a growth hormone–releasing hormone analog studied in pituitary signaling models, with Ipamorelin, a selective growth hormone secretagogue receptor (GHS-R) agonist investigated in endocrine pathway research. In laboratory settings, this blend is used to explore synergistic peptide interactions, receptor-mediated signaling, and peptide-based endocrine research models. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
-
-  components: [
-    "Fragment CJC-1295 (MOD GRF 1-29)",
-    "Ipamorelin"
-  ],
-
-  applications: [
-    "Endocrine and pituitary signaling research",
-    "Growth hormone receptor pathway studies",
-    "Peptide–receptor interaction investigation",
-    "Synergistic peptide signaling research"
-  ],
-
-  appearance: "White lyophilized powder blend",
-  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use.",
-
-  image: "/product/peptide blends/fragmentcjcipamorelinblend12mg.png",
-seo: {
-  title:
-    "Fragment 176-191, CJC-1295 & Ipamorelin 12mg Blend (CAS 66004-57-7, 446262-90-4, 170851-70-4) |",
-
-  description:
-    "Order a 12mg research peptide blend featuring Fragment 176-191 (CAS 66004-57-7), CJC-1295 no DAC (CAS 446262-90-4), and Ipamorelin (CAS 170851-70-4) from BioPeptide. Studied for growth hormone axis coordination, metabolic signaling, and hypothalamic–pituitary pathway research. For Research Use Only.",
-
-  keywords: [
-    "Fragment 176-191",
-    "CJC-1295 No DAC",
-    "Ipamorelin",
-    "Fragment CJC-1295 Ipamorelin blend",
-    "12mg peptide blend",
-    "CAS 66004-57-7",
-    "CAS 446262-90-4",
-    "CAS 170851-70-4",
-    "growth hormone axis research",
-    "hypothalamic pituitary signaling studies",
-    "BioPeptide peptide blend USA"
-  ],
-
-  robots: "index, follow",
-
-  canonical:
-    "https://www.bio-peptides.com/product/fragment-cjc1295-ipamorelin-12mg-blend"
-}
-
-
-},
 {
   id: "mod-grf-ipamorelin-12mg-blend",
   slug: "fragment-modified-grf-ipamorelin-12mg-blend",
@@ -2749,7 +2623,7 @@ seo: {
 },
 {
   id: "ghk-cu-50mg",
-  slug: "ghk-cu-50mg-copper-peptide",
+  slug: "ghrh-5mg",
   name: "GHK-Cu Copper Peptide 50mg",
   category: "Cosmetic Peptides",
   cas:"89030-95-5",

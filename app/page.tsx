@@ -31,7 +31,7 @@ export default function HomePage() {
     bg-gradient-to-b from-bioBlue to-bioGreen
     text-white shadow-lg
     cursor-pointer
-    h-36 w-10 rounded-l-xl
+    h-36 w-10 rounded-l-xl cursor-pointer
   "
 >
   <span

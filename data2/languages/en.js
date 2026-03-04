@@ -4447,439 +4447,2897 @@ export default {
   }
 },
 
-"cjc-1295-ghrp-2-blend-10mg": {
+"cjc-1295-ghrp-2-10mg-blend": {
   name: "CJC-1295 + GHRP-2 Blend 10mg",
+  tagline: "Dual-Peptide Endocrine Signaling Research Blend",
+  cas: "446262-90-4 / 158861-67-7",
 
-  strength:
-    "Dual-peptide research blend combining CJC-1295 and GHRP-2, studied for synergistic endocrine signaling and peptide–receptor interaction research.",
+  // Short Hero / Card Text
+  strength: [
+    "CJC-1295 + GHRP-2 Blend 10mg is a premium dual-peptide research formulation combining CJC-1295 (CAS 446262-90-4) and GHRP-2 (CAS 158861-67-7). Produced using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC, Mass Spectrometry, and UV spectrophotometry, this lyophilized peptide blend delivers ≥99% purity, structural precision, and reproducible performance for advanced in-vitro endocrine signaling and receptor interaction research."
+  ],
 
-  description:
-    "This research blend combines CJC-1295, a growth hormone–releasing hormone (GHRH) analog studied for receptor-mediated endocrine signaling, with GHRP-2, a growth hormone secretagogue peptide investigated for its interaction with ghrelin and GHS-R pathways. The 10mg blend format is designed for laboratory studies exploring synergistic peptide signaling, receptor crosstalk, and endocrine pathway research. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
+  // Hero Description
+  topDescription: {
+    p0: "CJC-1295 + GHRP-2 Blend 10mg is a premium dual-peptide formulation developed exclusively for laboratory research applications.",
+    p1: "Manufactured using solid-phase peptide synthesis (SPPS) and verified to ≥99% purity, the blend supports advanced investigations into cellular signaling, receptor activity, and metabolic regulation.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Belgium, Switzerland, Austria, and other EU regions utilize this compound for precision-driven biochemical and molecular investigations."
+  },
 
+  // Components of Blend
   components: [
-    "CJC-1295 (GHRH analog)",
-    "GHRP-2 (growth hormone secretagogue peptide)"
+    "CJC-1295 (Growth Hormone Releasing Hormone analog) – CAS 446262-90-4",
+    "GHRP-2 (Growth Hormone Secretagogue Peptide) – CAS 158861-67-7"
   ],
 
-  applications: [
-    "Endocrine signaling pathway research",
-    "Peptide–receptor interaction studies",
-    "Synergistic peptide signaling investigation",
-    "Hormonal communication model research"
-  ],
+  content: {
 
-  appearance: "White lyophilized powder blend",
-  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
+    overviewTitle: "Dual-Peptide Research Compound Overview",
+    overview: [
+      "The CJC-1295 + GHRP-2 Blend 10mg is a synthetic dual-peptide formulation supplied as a high-purity lyophilized powder for laboratory investigation.",
+      "This blend integrates two extensively studied peptides into a single research compound, enabling coordinated analysis of multiple signaling pathways within controlled experimental systems.",
+      "The inclusion of CAS identifiers 446262-90-4 and 158861-67-7 ensures traceability and documentation compatibility with European research standards."
+    ],
+
+    scientificBackgroundTitle: "Scientific Context and Research Importance",
+    scientificBackground: [
+      "Synthetic peptides are essential tools in modern life-science research because they allow controlled manipulation of biological systems at the molecular level.",
+      "Compared with many small-molecule compounds, peptides provide high specificity and predictable biological behaviour, making them valuable for mechanistic studies.",
+      "The CJC-1295 + GHRP-2 blend supports research into signal transduction, receptor dynamics, gene expression modulation, and cellular metabolism.",
+      "European laboratories increasingly favor peptide blends for their efficiency, reproducibility, and ability to study coordinated biological responses within a single experimental framework."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Modulation of receptor-mediated endocrine signaling pathways",
+      "Support of peptide-driven intracellular communication models",
+      "Investigation of growth factor sensitivity and cellular response patterns",
+      "Influence on gene expression and transcriptional response studies",
+      "Integration into mitochondrial ATP production and metabolic pathway research"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Cellular and Regenerative Biology",
+        text: "Investigating cellular renewal signals, adaptive signaling, and regenerative responses in controlled in-vitro environments."
+      },
+      {
+        title: "Protein Expression and Peptide Interaction Studies",
+        text: "Analyzing protein-peptide interactions, binding affinity, and structural molecular dynamics."
+      },
+      {
+        title: "Receptor Binding and Signal Cascade Research",
+        text: "Exploring receptor activation, inhibition, and downstream biochemical signaling pathways."
+      },
+      {
+        title: "Mitochondrial and Metabolic Research",
+        text: "Studying ATP production, cellular energy balance, and metabolic stress responses."
+      },
+      {
+        title: "Enzymatic Sensitivity and Matrix Modeling",
+        text: "Supporting enzymatic activation and extracellular matrix remodeling experiments."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Dual synthetic peptide research blend",
+      "Structure: Linear synthetic peptides",
+      "CAS Identifiers: 446262-90-4 (CJC-1295) and 158861-67-7 (GHRP-2)",
+      "Form: Lyophilized powder blend",
+      "Molecular Weight: Sequence-dependent",
+      "Stability: High when stored under recommended laboratory conditions"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Supplied as a lyophilized peptide blend for long-term stability",
+      "Recommended storage at −20°C",
+      "Protect from humidity and direct light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Buffered aqueous solutions",
+      "Acidic buffer systems",
+      "Compatible analytical-grade organic solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "CJC-1295 + GHRP-2 Blend 10mg",
+      cas: "446262-90-4 / 158861-67-7",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "10 mg blend",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic peptide blend",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity verification",
+      "Mass Spectrometry molecular identity confirmation",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch consistency validation",
+      "Endotoxin and microbial contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "CJC-1295 + GHRP-2 Blend 10mg is supplied strictly for laboratory research use only. It is not approved as a drug, food, cosmetic, dietary supplement, or medical product for human or veterinary use. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support compliance with European research standards.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is CJC-1295 + GHRP-2 Blend 10mg used for?",
+        a: "It is used in laboratory research focusing on cellular signaling, receptor binding, gene expression analysis, mitochondrial metabolism, and enzymatic studies."
+      },
+      {
+        q: "What are the CAS numbers for this peptide blend?",
+        a: "CJC-1295 (CAS 446262-90-4) and GHRP-2 (CAS 158861-67-7)."
+      },
+      {
+        q: "Is this blend approved for human or medical use?",
+        a: "No. It is strictly intended for laboratory research and scientific investigation only."
+      },
+      {
+        q: "How should the peptide blend be stored?",
+        a: "Store the lyophilized powder at −20°C, protected from moisture and light. Reconstituted solutions are stable for up to 48 hours under refrigeration."
+      },
+      {
+        q: "Can European laboratories buy this peptide online?",
+        a: "Yes. The blend is available to research institutions across Germany, France, Italy, Spain, and other EU countries with full documentation."
+      },
+      {
+        q: "What makes this blend different from single peptides?",
+        a: "The dual-peptide formulation allows researchers to study coordinated biological mechanisms while reducing experimental variability."
+      },
+      {
+        q: "How is purity verified?",
+        a: "Purity ≥99% is confirmed using HPLC, Mass Spectrometry, and UV analysis, along with batch identity and contamination screening."
+      },
+      {
+        q: "Why is this blend popular in EU research environments?",
+        a: "Its reproducibility, CAS traceability, analytical validation, and alignment with EU research standards make it a trusted option."
+      }
+    ],
+      chemicalProperties: {
+  molecularFormula: "CJC-1295 Acetate: C152H252N44O42 Pralmorelin: C45H55N9O6",
+  molecularWeight: "CJC-1295 Acetate: 3367.9 Pralmorelin: 818",
+  monoisotopicMass: "CJC-1295 Acetate: 3365.8935782 Pralmorelin: 817.42753051",
+  polarArea: "CJC-1295 Acetate: 1450 Pralmorelin: 256",
+  complexity: "	 CJC-1295 Acetate: 7710 Pralmorelin: 1440",
+  xlogP: "CJC-1295 Acetate: -10.7 Pralmorelin: 2.5",
+  heavyAtomCount: "CJC-1295 Acetate: 238 Pralmorelin: 60",
+  hydrogenBondDonorCount: "CJC-1295 Acetate: 52 Pralmorelin: 9",
+  hydrogenBondAcceptorCount: "CJC-1295 Acetate: 48 Pralmorelin: 8",
+  rotatableBondCount: "CJC-1295 Acetate: 118 Pralmorelin: 21",
+  cid: "	CJC-1295 Acetate: 56841945 Pralmorelin: 6918245",
+  inchi:
+    "CJC-1295 Acetate: InChI=1S/C152H252N44O42/c1-22-79(15)118(194-125(214)84(20)171-135(224)107(68-115(206)207)181-124(213)81(17)169-126(215)91(155)65-87-41-45-89(201)46-42-87)147(236)189-106(66-86-34-25-24-26-35-86)141(230)196-120(85(21)200)149(238)180-99(51-54-114(158)205)132(221)190-111(72-199)145(234)185-105(67-88-43-47-90(202)48-44-88)140(229)178-96(40-33-59-168-152(164)165)128(217)177-94(37-28-30-56-154)133(222)193-117(78(13)14)146(235)187-100(60-73(3)4)134(223)170-82(18)123(212)175-97(49-52-112(156)203)130(219)183-103(63-76(9)10)138(227)191-109(70-197)143(232)172-83(19)122(211)174-95(39-32-58-167-151(162)163)127(216)176-93(36-27-29-55-153)129(218)182-102(62-75(7)8)137(226)184-101(61-74(5)6)136(225)179-98(50-53-113(157)204)131(220)186-108(69-116(208)209)142(231)195-119(80(16)23-2)148(237)188-104(64-77(11)12)139(228)192-110(71-198)144(233)173-92(121(159)210)38-31-57-166-150(160)161/h24-26,34-35,41-48,73-85,91-111,117-120,197-202H,22-23,27-33,36-40,49-72,153-155H2,1-21H3,(H2,156,203)(H2,157,204)(H2,158,205)(H2,159,210)(H,169,215)(H,170,223)(H,171,224)(H,172,232)(H,173,233)(H,174,211)(H,175,212)(H,176,216)(H,177,217)(H,178,229)(H,179,225)(H,180,238)(H,181,213)(H,182,218)(H,183,219)(H,184,226)(H,185,234)(H,186,220)(H,187,235)(H,188,237)(H,189,236)(H,190,221)(H,191,227)(H,192,228)(H,193,222)(H,194,214)(H,195,231)(H,196,230)(H,206,207)(H,208,209)(H4,160,161,166)(H4,162,163,167)(H4,164,165,168)/t79-,80-,81+,82-,83-,84-,85+,91-,92-,93-,94-,95-,96-,97-,98-,99-,100-,101-,102-,103-,104-,105-,106-,107-,108-,109-,110-,111-,117-,118-,119-,120-/m0/s1 Pralmorelin: InChI=1S/C45H55N9O6/c1-27(47)41(56)52-38(24-30-19-20-31-14-6-7-15-32(31)22-30)43(58)50-28(2)42(57)53-39(25-33-26-49-35-17-9-8-16-34(33)35)45(60)54-37(23-29-12-4-3-5-13-29)44(59)51-36(40(48)55)18-10-11-21-46/h3-9,12-17,19-20,22,26-28,36-39,49H,10-11,18,21,23-25,46-47H2,1-2H3,(H2,48,55)(H,50,58)(H,51,59)(H,52,56)(H,53,57)(H,54,60)/t27-,28+,36+,37-,38-,39+/m1/s1",
+  inchiKey: "CJC-1295 Acetate: XOZMWINMZMMOBR-HRDSVTNWSA-N Pralmorelin: HRNLPPBUBKMZMT-RDRUQFPZSA-N",
+
+  canonicalSmiles:
+    "CJC-1295 Acetate: CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)N)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C(CC3=CC=C(C=C3)O)N Pralmorelin: CC(C(=O)NC(CC1=CC2=CC=CC=C2C=C1)C(=O)NC(C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCCN)C(=O)N)N",
+
+  isomericSmiles:
+    "CJC-1295 Acetate: CC[C@H](C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N)NC(=O)[C@H](C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H](C)NC(=O)[C@H](CC3=CC=C(C=C3)O)N Pralmorelin: C[C@H](C(=O)N[C@H](CC1=CC2=CC=CC=C2C=C1)C(=O)N[C@@H](C)C(=O)N[C@@H](CC3=CNC4=CC=CC=C43)C(=O)N[C@H](CC5=CC=CC=C5)C(=O)N[C@@H](CCCCN)C(=O)N)N",
+
+  iupacName:
+    "CJC-1295 Acetate: (3S)-4-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S,3R)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-[[(2R)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]-4-oxobutanoic acid Pralmorelin: (2S)-6-amino-2-[[(2R)-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2R)-2-aminopropanoyl]amino]-3-naphthalen-2-ylpropanoyl]amino]propanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+}
+  }
 },
-"cjc-1295-ghrp-6-blend-10mg": {
+"cjc-1295-ghrp-6-10mg-blend": {
   name: "CJC-1295 + GHRP-6 Blend 10mg",
+  tagline: "Dual-Peptide Endocrine Signaling Research Blend",
+  cas: "446262-90-4 / 87616-84-0",
 
-  strength:
-    "Dual-peptide research blend combining CJC-1295 and GHRP-6, studied for synergistic endocrine signaling and peptide–receptor interaction research.",
+  strength: [
+    "CJC-1295 + GHRP-6 Blend 10mg is a premium dual-peptide research formulation combining CJC-1295 (CAS 446262-90-4) and GHRP-6 (CAS 87616-84-0). Produced using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC, Mass Spectrometry, and UV spectrophotometry, this lyophilized peptide blend delivers ≥99% purity, structural precision, and reproducible performance for advanced in-vitro endocrine signaling and receptor interaction research."
+  ],
 
-  description:
-    "This research blend combines CJC-1295, a growth hormone–releasing hormone (GHRH) analog studied for receptor-mediated endocrine signaling, with GHRP-6, a growth hormone secretagogue peptide investigated for its interaction with ghrelin and GHS-R pathways. The 10mg blend format is designed for laboratory studies exploring synergistic peptide signaling, receptor crosstalk, and endocrine pathway research. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
+  topDescription: {
+    p0: "CJC-1295 + GHRP-6 Blend 10mg is a research-grade dual peptide formulation developed for advanced laboratory investigations into cellular signaling and metabolic regulation.",
+    p1: "Manufactured using solid-phase peptide synthesis (SPPS) and validated to ≥99% purity, the blend combines CJC-1295 (CAS 446262-90-4) with GHRP-6 (CAS 87616-84-0) to deliver consistent molecular performance.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Belgium, Switzerland, Austria, and other EU regions utilize this compound for precision-driven biochemical and molecular investigations."
+  },
 
   components: [
-    "CJC-1295 (GHRH analog)",
-    "GHRP-6 (growth hormone secretagogue peptide)"
+    "CJC-1295 (Growth Hormone Releasing Hormone analog) – CAS 446262-90-4",
+    "GHRP-6 (Growth Hormone Secretagogue Peptide) – CAS 87616-84-0"
   ],
 
-  applications: [
-    "Endocrine signaling pathway research",
-    "Peptide–receptor interaction studies",
-    "Synergistic peptide signaling investigation",
-    "Hormonal communication model research"
-  ],
+  content: {
 
-  appearance: "White lyophilized powder blend",
-  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
+    overviewTitle: "Dual-Peptide Research Compound Overview",
+    overview: [
+      "The CJC-1295 + GHRP-6 Blend 10mg is a synthetic dual-peptide formulation supplied as a high-purity lyophilized powder for laboratory investigation.",
+      "This blend integrates two extensively studied peptides into a single research compound, enabling coordinated analysis of multiple signaling pathways within controlled experimental systems.",
+      "The inclusion of CAS identifiers 446262-90-4 and 87616-84-0 ensures traceability and documentation compatibility with European research standards."
+    ],
+
+    scientificBackgroundTitle: "Scientific Context and Research Importance",
+    scientificBackground: [
+      "Synthetic peptides are essential tools in modern life-science research because they allow controlled manipulation of biological systems at the molecular level.",
+      "Compared with many small-molecule compounds, peptides provide high specificity and predictable biological behaviour, making them valuable for mechanistic studies.",
+      "The CJC-1295 + GHRP-6 blend supports research into signal transduction, receptor dynamics, gene expression modulation, and cellular metabolism.",
+      "European laboratories increasingly favor peptide blends for their efficiency, reproducibility, and ability to study coordinated biological responses within a single experimental framework."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Modulation of receptor-mediated endocrine signaling pathways",
+      "Support of peptide-driven intracellular communication models",
+      "Investigation of growth factor sensitivity and cellular response patterns",
+      "Influence on gene expression and transcriptional response studies",
+      "Integration into mitochondrial ATP production and metabolic pathway research"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Cellular and Regenerative Biology",
+        text: "Investigating cellular renewal signals, adaptive signaling, and regenerative responses in controlled in-vitro environments."
+      },
+      {
+        title: "Protein Expression and Peptide Interaction Studies",
+        text: "Analyzing protein-peptide interactions, binding affinity, and structural molecular dynamics."
+      },
+      {
+        title: "Receptor Binding and Signal Cascade Research",
+        text: "Exploring receptor activation, inhibition, and downstream biochemical signaling pathways."
+      },
+      {
+        title: "Mitochondrial and Metabolic Research",
+        text: "Studying ATP production, cellular energy balance, and metabolic stress responses."
+      },
+      {
+        title: "Enzymatic Sensitivity and Matrix Modeling",
+        text: "Supporting enzymatic activation and extracellular matrix remodeling experiments."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Dual synthetic peptide research blend",
+      "Structure: Linear synthetic peptides",
+      "CAS Identifiers: 446262-90-4 (CJC-1295) and 87616-84-0 (GHRP-6)",
+      "Form: Lyophilized powder blend",
+      "Molecular Weight: Sequence-dependent",
+      "Stability: High when stored under recommended laboratory conditions"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Supplied as a lyophilized peptide blend for long-term stability",
+      "Recommended storage at −20°C",
+      "Protect from humidity and direct light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Buffered aqueous solutions",
+      "Acidic buffer systems",
+      "Compatible analytical-grade organic solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "CJC-1295 + GHRP-6 Blend 10mg",
+      cas: "446262-90-4 / 87616-84-0",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "10 mg blend",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic peptide blend",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity verification",
+      "Mass Spectrometry molecular identity confirmation",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch consistency validation",
+      "Endotoxin and microbial contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "CJC-1295 + GHRP-6 Blend 10mg is supplied strictly for laboratory research use only. It is not approved as a drug, food, cosmetic, dietary supplement, or medical product for human or veterinary use. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support compliance with European research standards.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is CJC-1295 + GHRP-6 Blend 10mg used for?",
+        a: "It is used in laboratory research to study cellular signaling pathways, receptor binding, gene expression, mitochondrial metabolism, and enzymatic activity."
+      },
+      {
+        q: "What are the CAS numbers for this peptide blend?",
+        a: "CJC-1295 (CAS 446262-90-4) and GHRP-6 (CAS 87616-84-0)."
+      },
+      {
+        q: "Is this blend approved for human or medical use?",
+        a: "No. It is strictly intended for laboratory research and scientific investigation only."
+      },
+      {
+        q: "How should CJC-1295 + GHRP-6 Blend 10mg be stored?",
+        a: "Store the lyophilized powder at −20°C, protected from light and moisture. Reconstituted solutions are stable for up to 48 hours under refrigeration."
+      },
+      {
+        q: "Can European laboratories buy this peptide online?",
+        a: "Yes. It is available to research institutions across the EU, including Germany, France, Italy, Spain, and Switzerland, with full documentation."
+      },
+      {
+        q: "What makes this blend different from single peptides?",
+        a: "The dual-peptide formulation enables coordinated pathway studies while reducing experimental complexity and variability."
+      },
+      {
+        q: "How is purity verified?",
+        a: "Purity ≥99% is confirmed using HPLC, Mass Spectrometry, and UV analysis, along with batch identity and contamination screening."
+      },
+      {
+        q: "Why is this blend popular in EU research settings?",
+        a: "Its reproducibility, CAS traceability, analytical validation, and alignment with EU research standards make it a trusted research compound."
+      }
+    ],
+
+    chemicalProperties: {
+  molecularFormula: "CJC-1295 Acetate: C152H252N44O42 Pralmorelin: C45H55N9O6",
+  molecularWeight: "CJC-1295 Acetate: 3367.9 Pralmorelin: 818",
+  monoisotopicMass: "CJC-1295 Acetate: 3365.8935782 Pralmorelin: 817.42753051",
+  polarArea: "CJC-1295 Acetate: 1450 Pralmorelin: 256",
+  complexity: "CJC-1295 Acetate: 7710 Pralmorelin: 1440",
+  xlogP: "CJC-1295 Acetate: -10.7 Pralmorelin: 2.5",
+  heavyAtomCount: "CJC-1295 Acetate: 238 Pralmorelin: 60",
+  hydrogenBondDonorCount: "CJC-1295 Acetate: 52 Pralmorelin: 9",
+  hydrogenBondAcceptorCount: "CJC-1295 Acetate: 48 Pralmorelin: 8",
+  rotatableBondCount: "CJC-1295 Acetate: 118 Pralmorelin: 21",
+  cid: "CJC-1295 Acetate: 56841945 Pralmorelin: 6918245",
+  inchi:
+    "CJC-1295 Acetate: InChI=1S/C152H252N44O42/c1-22-79(15)118(194-125(214)84(20)171-135(224)107(68-115(206)207)181-124(213)81(17)169-126(215)91(155)65-87-41-45-89(201)46-42-87)147(236)189-106(66-86-34-25-24-26-35-86)141(230)196-120(85(21)200)149(238)180-99(51-54-114(158)205)132(221)190-111(72-199)145(234)185-105(67-88-43-47-90(202)48-44-88)140(229)178-96(40-33-59-168-152(164)165)128(217)177-94(37-28-30-56-154)133(222)193-117(78(13)14)146(235)187-100(60-73(3)4)134(223)170-82(18)123(212)175-97(49-52-112(156)203)130(219)183-103(63-76(9)10)138(227)191-109(70-197)143(232)172-83(19)122(211)174-95(39-32-58-167-151(162)163)127(216)176-93(36-27-29-55-153)129(218)182-102(62-75(7)8)137(226)184-101(61-74(5)6)136(225)179-98(50-53-113(157)204)131(220)186-108(69-116(208)209)142(231)195-119(80(16)23-2)148(237)188-104(64-77(11)12)139(228)192-110(71-198)144(233)173-92(121(159)210)38-31-57-166-150(160)161/h24-26,34-35,41-48,73-85,91-111,117-120,197-202H,22-23,27-33,36-40,49-72,153-155H2,1-21H3,(H2,156,203)(H2,157,204)(H2,158,205)(H2,159,210)(H,169,215)(H,170,223)(H,171,224)(H,172,232)(H,173,233)(H,174,211)(H,175,212)(H,176,216)(H,177,217)(H,178,229)(H,179,225)(H,180,238)(H,181,213)(H,182,218)(H,183,219)(H,184,226)(H,185,234)(H,186,220)(H,187,235)(H,188,237)(H,189,236)(H,190,221)(H,191,227)(H,192,228)(H,193,222)(H,194,214)(H,195,231)(H,196,230)(H,206,207)(H,208,209)(H4,160,161,166)(H4,162,163,167)(H4,164,165,168)/t79-,80-,81+,82-,83-,84-,85+,91-,92-,93-,94-,95-,96-,97-,98-,99-,100-,101-,102-,103-,104-,105-,106-,107-,108-,109-,110-,111-,117-,118-,119-,120-/m0/s1 Pralmorelin: InChI=1S/C45H55N9O6/c1-27(47)41(56)52-38(24-30-19-20-31-14-6-7-15-32(31)22-30)43(58)50-28(2)42(57)53-39(25-33-26-49-35-17-9-8-16-34(33)35)45(60)54-37(23-29-12-4-3-5-13-29)44(59)51-36(40(48)55)18-10-11-21-46/h3-9,12-17,19-20,22,26-28,36-39,49H,10-11,18,21,23-25,46-47H2,1-2H3,(H2,48,55)(H,50,58)(H,51,59)(H,52,56)(H,53,57)(H,54,60)/t27-,28+,36+,37-,38-,39+/m1/s1",
+  inchiKey: "CJC-1295 Acetate: XOZMWINMZMMOBR-HRDSVTNWSA-N Pralmorelin: HRNLPPBUBKMZMT-RDRUQFPZSA-N",
+
+  canonicalSmiles:
+    "CJC-1295 Acetate: CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)N)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C(CC3=CC=C(C=C3)O)N Pralmorelin: CC(C(=O)NC(CC1=CC2=CC=CC=C2C=C1)C(=O)NC(C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCCN)C(=O)N)N",
+
+  isomericSmiles:
+    "CJC-1295 Acetate: CC[C@H](C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N)NC(=O)[C@H](C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H](C)NC(=O)[C@H](CC3=CC=C(C=C3)O)N Pralmorelin: C[C@H](C(=O)N[C@H](CC1=CC2=CC=CC=C2C=C1)C(=O)N[C@@H](C)C(=O)N[C@@H](CC3=CNC4=CC=CC=C43)C(=O)N[C@H](CC5=CC=CC=C5)C(=O)N[C@@H](CCCCN)C(=O)N)N",
+
+  iupacName:
+    "CJC-1295 Acetate: (3S)-4-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S,3R)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-[[(2R)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]-4-oxobutanoic acid Pralmorelin: (2S)-6-amino-2-[[(2R)-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2R)-2-aminopropanoyl]amino]-3-naphthalen-2-ylpropanoyl]amino]propanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+}
+  }
 },
-"cjc-1295-hexarelin-blend-10mg": {
+"cjc-1295-hexarelin-10mg-blend": {
   name: "CJC-1295 + Hexarelin Blend 10mg",
+  tagline: "Dual-Peptide Endocrine Signaling Research Blend",
+  cas: "446262-90-4 / 140703-51-1",
 
-  strength:
-    "Dual-peptide research blend combining CJC-1295 and Hexarelin, studied for synergistic endocrine signaling and peptide–receptor interaction research.",
+  strength: [
+    "CJC-1295 + Hexarelin Blend 10mg is a premium dual-peptide research formulation combining CJC-1295 (CAS 446262-90-4) and Hexarelin (CAS 140703-51-1). Produced using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC, Mass Spectrometry, and UV spectrophotometry, this lyophilized peptide blend delivers ≥99% purity, structural precision, and reproducible performance for advanced in-vitro endocrine signaling and receptor interaction research."
+  ],
 
-  description:
-    "This research blend combines CJC-1295, a growth hormone–releasing hormone (GHRH) analog investigated for receptor-mediated endocrine signaling, with Hexarelin, a growth hormone secretagogue peptide studied for its interaction with ghrelin and GHS-R pathways. The 10mg blend format is designed for laboratory studies exploring synergistic peptide signaling, receptor crosstalk, and endocrine pathway research. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
+  topDescription: {
+    p0: "CJC-1295 + Hexarelin Blend 10mg from Biopeptides is a premium-quality synthetic peptide formulation developed for professional laboratory research.",
+    p1: "Manufactured through advanced solid-phase peptide synthesis (SPPS) and verified to ≥99% purity, the blend combines CJC-1295 (CAS 446262-90-4) with Hexarelin (CAS 140703-51-1) to support precision-driven biochemical and molecular investigations.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Belgium, Switzerland, Austria, Sweden, and other EU regions rely on this compound for reproducible peptide research applications."
+  },
 
   components: [
-    "CJC-1295 (GHRH analog)",
-    "Hexarelin (growth hormone secretagogue peptide)"
+    "CJC-1295 (Growth Hormone Releasing Hormone analog) – CAS 446262-90-4",
+    "Hexarelin (Growth Hormone Secretagogue Peptide) – CAS 140703-51-1"
   ],
 
-  applications: [
-    "Endocrine signaling pathway research",
-    "Peptide–receptor interaction studies",
-    "Synergistic peptide signaling investigation",
-    "Hormonal communication model research"
-  ],
+  content: {
 
-  appearance: "White lyophilized powder blend",
-  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
+    overviewTitle: "Dual-Peptide Research Compound Overview",
+    overview: [
+      "The CJC-1295 + Hexarelin Blend 10mg represents a sophisticated peptide research formulation combining two structurally distinct synthetic peptides within a single analytically controlled compound.",
+      "This blend is designed exclusively for laboratory and in-vitro scientific investigations, enabling researchers to study coordinated cellular responses within controlled experimental systems.",
+      "The presence of clearly defined CAS identifiers 446262-90-4 and 140703-51-1 ensures traceability, documentation transparency, and compatibility with EU laboratory standards."
+    ],
+
+    scientificBackgroundTitle: "Scientific Context of Peptide Blends",
+    scientificBackground: [
+      "Synthetic peptides are essential tools in biochemical and molecular research because of their predictable behaviour, structural precision, and targeted interaction with biological systems.",
+      "Peptide blends expand research capabilities by allowing simultaneous analysis of multiple molecular pathways within a single experimental model.",
+      "The CJC-1295 + Hexarelin blend enables laboratories to streamline protocols, reduce experimental variability, and explore interconnected biological responses with improved analytical clarity.",
+      "European laboratories increasingly favour blended peptide systems when investigating complex signalling networks and multi-factor cellular responses."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Investigation of intracellular signalling pathway modulation",
+      "Analysis of receptor-mediated peptide interaction mechanisms",
+      "Evaluation of cellular responsiveness to growth factor signaling",
+      "Gene transcription and molecular regulation studies",
+      "Integration into mitochondrial ATP production and metabolic pathway research"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Cellular and Regenerative Models",
+        text: "Used in laboratory-based regenerative research models to study adaptive cellular behaviour, peptide-driven signalling, and intracellular communication."
+      },
+      {
+        title: "Protein and Receptor Interaction Studies",
+        text: "Applied in receptor-binding assays and protein interaction experiments to analyse binding dynamics and signal pathway activation."
+      },
+      {
+        title: "Metabolic and Mitochondrial Research",
+        text: "Supports controlled research into cellular energy balance, mitochondrial activity, and metabolic signalling pathways."
+      },
+      {
+        title: "Enzymatic and Matrix Investigations",
+        text: "Frequently incorporated into enzymatic sensitivity assays and extracellular matrix modelling experiments."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Dual synthetic peptide research blend",
+      "Structure: Linear synthetic peptides",
+      "CAS Identifiers: 446262-90-4 (CJC-1295) and 140703-51-1 (Hexarelin)",
+      "Form: Lyophilized powder blend",
+      "Molecular Weight: Sequence-dependent",
+      "Stability: High when stored under recommended laboratory conditions"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Supplied as a lyophilized peptide blend for long-term stability",
+      "Recommended storage temperature: −20°C",
+      "Protect from humidity and direct light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Buffered aqueous solutions",
+      "Acidic buffer systems",
+      "Analytical-grade organic solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "CJC-1295 + Hexarelin Blend 10mg",
+      brand: "Biopeptides",
+      cas: "446262-90-4 / 140703-51-1",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "10 mg blend",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic peptide blend",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity verification",
+      "Mass Spectrometry molecular identity confirmation",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch consistency validation",
+      "Endotoxin and microbial contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "CJC-1295 + Hexarelin Blend 10mg is supplied strictly for laboratory research use only. It is not approved as a drug, food, cosmetic, dietary supplement, or medical product for human or veterinary use. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support compliance with European research standards.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What distinguishes CJC-1295 + Hexarelin Blend 10mg from single peptides?",
+        a: "This blend allows researchers to study combined peptide interactions within a single experimental framework, reducing protocol complexity while improving insight into interconnected signalling, receptor activity, and metabolic responses under controlled laboratory conditions."
+      },
+      {
+        q: "Are CAS numbers important when purchasing research peptides?",
+        a: "Yes. CAS numbers provide precise chemical identification, ensuring traceability, reproducibility, and regulatory clarity. This blend includes CJC-1295 (CAS 446262-90-4) and Hexarelin (CAS 140703-51-1), supporting accurate scientific documentation."
+      },
+      {
+        q: "Is this peptide blend suitable for EU-based laboratories?",
+        a: "The product is designed to meet the expectations of European research institutions, offering high purity, analytical validation, and comprehensive documentation aligned with EU laboratory standards and internal compliance requirements."
+      },
+      {
+        q: "How is batch consistency maintained?",
+        a: "Each batch is produced using controlled SPPS methods and verified through HPLC, MS, and UV analysis, ensuring consistent molecular structure, purity, and performance across repeated research applications."
+      },
+      {
+        q: "What storage conditions are recommended for long-term stability?",
+        a: "For optimal stability, the lyophilised powder should be stored at −20°C, protected from light and moisture. Proper storage preserves peptide integrity and ensures reliable experimental outcomes."
+      },
+      {
+        q: "Can this product be purchased online for research use?",
+        a: "Yes. Biopeptides supplies this blend online to verified research customers across Europe, providing secure ordering, analytical documentation, and traceable product information."
+      },
+      {
+        q:"Is this product approved for medical or personal use?",
+        a:"No. The blend is supplied strictly for laboratory research and scientific investigation and is not approved for human consumption, medical treatment, or cosmetic applications."
+      }
+    ],
+
+   chemicalProperties: {
+  molecularFormula: "CJC-1295 Acetate: C152H252N44O42 Examorelin: C47H58N12O6",
+  molecularWeight: "CJC-1295 Acetate: 3367.9 Examorelin: 887",
+  monoisotopicMass: "CJC-1295 Acetate: 3365.8935782 Examorelin: 886.46022762",
+  polarArea: "CJC-1295 Acetate: 1450 Examorelin: 301",
+  complexity: "CJC-1295 Acetate: 7710 Examorelin: 1600",
+  xlogP: "CJC-1295 Acetate: -10.7 Examorelin: 2.3",
+  heavyAtomCount: "CJC-1295 Acetate: 238 Examorelin: 65",
+  hydrogenBondDonorCount: "CJC-1295 Acetate: 52 Examorelin: 11",
+  hydrogenBondAcceptorCount: "CJC-1295 Acetate: 48 Examorelin: 9",
+  rotatableBondCount: "CJC-1295 Acetate: 118 Examorelin: 23",
+  cid: "CJC-1295 Acetate: 56841945 Examorelin: 6918297",
+  inchi:
+    "CJC-1295 Acetate: InChI=1S/C152H252N44O42/c1-22-79(15)118(194-125(214)84(20)171-135(224)107(68-115(206)207)181-124(213)81(17)169-126(215)91(155)65-87-41-45-89(201)46-42-87)147(236)189-106(66-86-34-25-24-26-35-86)141(230)196-120(85(21)200)149(238)180-99(51-54-114(158)205)132(221)190-111(72-199)145(234)185-105(67-88-43-47-90(202)48-44-88)140(229)178-96(40-33-59-168-152(164)165)128(217)177-94(37-28-30-56-154)133(222)193-117(78(13)14)146(235)187-100(60-73(3)4)134(223)170-82(18)123(212)175-97(49-52-112(156)203)130(219)183-103(63-76(9)10)138(227)191-109(70-197)143(232)172-83(19)122(211)174-95(39-32-58-167-151(162)163)127(216)176-93(36-27-29-55-153)129(218)182-102(62-75(7)8)137(226)184-101(61-74(5)6)136(225)179-98(50-53-113(157)204)131(220)186-108(69-116(208)209)142(231)195-119(80(16)23-2)148(237)188-104(64-77(11)12)139(228)192-110(71-198)144(233)173-92(121(159)210)38-31-57-166-150(160)161/h24-26,34-35,41-48,73-85,91-111,117-120,197-202H,22-23,27-33,36-40,49-72,153-155H2,1-21H3,(H2,156,203)(H2,157,204)(H2,158,205)(H2,159,210)(H,169,215)(H,170,223)(H,171,224)(H,172,232)(H,173,233)(H,174,211)(H,175,212)(H,176,216)(H,177,217)(H,178,229)(H,179,225)(H,180,238)(H,181,213)(H,182,218)(H,183,219)(H,184,226)(H,185,234)(H,186,220)(H,187,235)(H,188,237)(H,189,236)(H,190,221)(H,191,227)(H,192,228)(H,193,222)(H,194,214)(H,195,231)(H,196,230)(H,206,207)(H,208,209)(H4,160,161,166)(H4,162,163,167)(H4,164,165,168)/t79-,80-,81+,82-,83-,84-,85+,91-,92-,93-,94-,95-,96-,97-,98-,99-,100-,101-,102-,103-,104-,105-,106-,107-,108-,109-,110-,111-,117-,118-,119-,120-/m0/s1 Examorelin: InChI=1S/C47H58N12O6/c1-27-34(33-15-7-9-17-37(33)54-27)23-41(58-44(62)35(49)22-31-25-51-26-53-31)45(63)55-28(2)43(61)57-40(21-30-24-52-36-16-8-6-14-32(30)36)47(65)59-39(20-29-12-4-3-5-13-29)46(64)56-38(42(50)60)18-10-11-19-48/h3-9,12-17,24-26,28,35,38-41,52,54H,10-11,18-23,48-49H2,1-2H3,(H2,50,60)(H,51,53)(H,55,63)(H,56,64)(H,57,61)(H,58,62)(H,59,65)/t28-,35-,38-,39+,40-,41+/m0/s1",
+  inchiKey: "CJC-1295 Acetate: XOZMWINMZMMOBR-HRDSVTNWSA-N Examorelin: RVWNMGKSNGWLOL-GIIHNPQRSA-N",
+
+  canonicalSmiles:
+    "CJC-1295 Acetate: CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)N)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C(CC3=CC=C(C=C3)O)N Examorelin: CC1=C(C2=CC=CC=C2N1)CC(C(=O)NC(C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCCN)C(=O)N)NC(=O)C(CC6=CN=CN6)N",
+
+  isomericSmiles:
+    "CJC-1295 Acetate: CC[C@H](C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N)NC(=O)[C@H](C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H](C)NC(=O)[C@H](CC3=CC=C(C=C3)O)NExamorelin: CC1=C(C2=CC=CC=C2N1)C[C@H](C(=O)N[C@@H](C)C(=O)N[C@@H](CC3=CNC4=CC=CC=C43)C(=O)N[C@H](CC5=CC=CC=C5)C(=O)N[C@@H](CCCCN)C(=O)N)NC(=O)[C@H](CC6=CN=CN6)N",
+
+  iupacName:
+    "CJC-1295 Acetate: (3S)-4-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S,3R)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-[[(2R)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]-4-oxobutanoic acid Examorelin: (2S)-6-amino-2-[[(2R)-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2S)-2-amino-3-(1H-imidazol-5-yl)propanoyl]amino]-3-(2-methyl-1H-indol-3-yl)propanoyl]amino]propanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+}
+  }
 },
-"cjc-1295-ipamorelin-ghrp-2-blend": {
+"cjc1295-ipamorelin-ghrp-2-blend": {
   name: "CJC-1295 + Ipamorelin + GHRP-2 Blend",
+  tagline: "Triple-Peptide Endocrine Signaling Research Blend",
+  cas: "446262-90-4 / 170851-70-4 / 158861-67-7",
 
-  strength:
-    "Triple-peptide research blend combining CJC-1295, Ipamorelin, and GHRP-2 for advanced endocrine signaling and peptide–receptor interaction studies.",
+  strength: [
+    "CJC-1295 + Ipamorelin + GHRP-2 Blend is a laboratory-grade triple-peptide research formulation combining CJC-1295 (CAS 446262-90-4), Ipamorelin (CAS 170851-70-4), and GHRP-2 (CAS 158861-67-7). Produced using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC, Mass Spectrometry, and UV spectrophotometry, this lyophilized peptide blend delivers ≥99% purity and reliable performance for advanced endocrine signaling and receptor interaction research."
+  ],
 
-  description:
-    "This research blend combines CJC-1295, a growth hormone–releasing hormone (GHRH) analog studied for receptor-mediated endocrine signaling, with Ipamorelin and GHRP-2, both growth hormone secretagogue peptides investigated for their interaction with ghrelin and GHS-R pathways. The blend is designed for laboratory research exploring synergistic endocrine signaling, receptor crosstalk, and complex peptide communication pathways. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
+  topDescription: {
+    p0: "The CJC-1295 + Ipamorelin + GHRP-2 Blend from Biopeptides is a laboratory-grade synthetic peptide formulation engineered for advanced biochemical research.",
+    p1: "Manufactured using precision solid-phase peptide synthesis and validated to ≥99% purity, this blend integrates three well-defined research peptides with traceable CAS identification.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Belgium, Sweden, Switzerland, and wider EU regions rely on this compound for reproducible biochemical and molecular investigations."
+  },
 
   components: [
-    "CJC-1295 (GHRH analog)",
-    "Ipamorelin (growth hormone secretagogue peptide)",
-    "GHRP-2 (growth hormone secretagogue peptide)"
+    "CJC-1295 (Growth Hormone Releasing Hormone analog) – CAS 446262-90-4",
+    "Ipamorelin (Growth Hormone Secretagogue Peptide) – CAS 170851-70-4",
+    "GHRP-2 (Growth Hormone Secretagogue Peptide) – CAS 158861-67-7"
   ],
 
-  applications: [
-    "Endocrine signaling pathway research",
-    "Peptide–receptor interaction studies",
-    "Synergistic peptide communication research",
-    "Hormonal signaling model investigation"
-  ],
+  content: {
 
-  appearance: "White lyophilized powder blend",
-  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
+    overviewTitle: "Triple-Peptide Research Compound Overview",
+    overview: [
+      "The CJC-1295 + Ipamorelin + GHRP-2 Blend is a multi-component synthetic peptide formulation developed exclusively for laboratory and in-vitro scientific investigation.",
+      "By combining three structurally defined research peptides within a single controlled formulation, the blend enables coordinated pathway analysis in advanced biochemical experiments.",
+      "European research institutions frequently employ peptide blends when studying complex molecular signalling networks that require simultaneous peptide-driven inputs."
+    ],
+
+    scientificBackgroundTitle: "Scientific Rationale for Multi-Peptide Blends",
+    scientificBackground: [
+      "Modern biochemical research increasingly relies on peptide-based systems to examine complex cellular signalling behaviour.",
+      "Multi-peptide blends allow scientists to observe how several signalling pathways interact within a controlled biological model.",
+      "The CJC-1295 + Ipamorelin + GHRP-2 Blend supports experimental designs focused on coordinated receptor activation, pathway modulation, and metabolic response observation.",
+      "This approach helps laboratories streamline experimental protocols while maintaining high analytical precision."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Investigation of intracellular signaling pathway modulation",
+      "Analysis of receptor-mediated peptide interaction mechanisms",
+      "Evaluation of growth factor responsiveness in cellular systems",
+      "Gene transcription and molecular regulation research",
+      "Integration into mitochondrial ATP production and metabolic pathway studies"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Cell Biology and Regenerative Models",
+        text: "Used in controlled cellular models to study signalling behaviour, adaptive responses, and peptide-driven molecular communication."
+      },
+      {
+        title: "Protein and Receptor Interaction Studies",
+        text: "Applied in receptor-binding assays and protein interaction experiments to analyse binding kinetics and pathway activation."
+      },
+      {
+        title: "Metabolic and Mitochondrial Research",
+        text: "Supports laboratory investigations into cellular energy regulation, mitochondrial activity, and metabolic signalling pathways."
+      },
+      {
+        title: "Enzymatic and Matrix Studies",
+        text: "Suitable for enzymatic sensitivity experiments and extracellular matrix modelling due to predictable molecular stability."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Triple synthetic peptide research blend",
+      "Structure: Linear synthetic peptides",
+      "CAS Identifiers: 446262-90-4 (CJC-1295), 170851-70-4 (Ipamorelin), 158861-67-7 (GHRP-2)",
+      "Form: Lyophilized powder blend",
+      "Molecular Weight: Sequence-dependent",
+      "Stability: High when stored under recommended laboratory conditions"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Supplied as a lyophilized peptide blend for long-term stability",
+      "Recommended storage temperature: −20°C",
+      "Protect from humidity and direct light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Buffered aqueous solutions",
+      "Acidic buffer systems",
+      "Analytical-grade organic solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "CJC-1295 + Ipamorelin + GHRP-2 Blend",
+      brand: "Biopeptides",
+      cas: "446262-90-4 / 170851-70-4 / 158861-67-7",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "Blend vial",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic peptide blend",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Quality Control and Analytical Validation",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity verification",
+      "Mass Spectrometry molecular identity confirmation",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch consistency validation",
+      "Endotoxin and microbial contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory Status and Intended Use",
+    regulatoryText:
+      "The CJC-1295 + Ipamorelin + GHRP-2 Blend is supplied strictly for laboratory research use only. It is not approved as a drug, food, cosmetic, dietary supplement, or medical product for human or veterinary use. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support compliance with European research standards.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is the purpose of a three-peptide blend in research?",
+        a: "A three-peptide blend allows researchers to evaluate combined molecular interactions within a single experimental system. This approach supports more complex signalling and receptor studies while reducing variability compared to testing each peptide independently."
+      },
+      {
+        q: "Why are CAS numbers important for peptide research products?",
+        a: "CAS numbers ensure precise chemical identification and traceability. They support reproducibility, regulatory documentation, and confidence in experimental design, particularly for laboratories operating under strict European compliance frameworks."
+      },
+      {
+        q: "Is this peptide blend suitable for European laboratories?",
+        a: "Yes. The product is manufactured and documented to meet the expectations of EU-based laboratories, offering high purity, analytical verification, and full transparency for research use across Europe."
+      },
+      {
+        q: "How does Biopeptides maintain batch consistency?",
+        a: "Each batch is synthesised using controlled SPPS methods and verified through HPLC, MS, and UV analysis, ensuring consistent structure, purity, and performance across multiple research applications."
+      },
+      {
+        q: "What storage conditions are recommended?",
+        a: "The lyophilised blend should be stored at −20°C and protected from moisture and light. These conditions preserve molecular integrity and ensure reliable results during long-term research use."
+      },
+      {
+        q: "Can this product be ordered online for laboratory use?",
+        a: "Yes. Biopeptides supplies this research peptide blend online to qualified customers, providing secure ordering, detailed documentation, and reliable delivery across European countries."
+      },
+      {
+        q:"Is this product approved for human or medical use?",
+        a:"No. This peptide blend is supplied strictly for laboratory research and scientific investigation and is not approved for human consumption, medical treatment, or cosmetic application."
+      }
+    ],
+
+   chemicalProperties: {
+  molecularFormula: "CJC-1295 Acetate: C152H252N44O42 Ipamorelin: C38H49N9O5",
+  molecularWeight: "CJC-1295 Acetate: 3367.9 Ipamorelin: 711.9",
+  monoisotopicMass: "CJC-1295 Acetate: 3365.8935782 Ipamorelin: 711.3856657",
+  polarArea: "CJC-1295 Acetate: 1450 Ipamorelin: 240",
+  complexity: "CJC-1295 Acetate: 7710 Ipamorelin: 1200",
+  xlogP: "CJC-1295 Acetate: -10.7 Ipamorelin: 1.8",
+  heavyAtomCount: "CJC-1295 Acetate: 238 Ipamorelin: 52",
+  hydrogenBondDonorCount: "CJC-1295 Acetate: 52 Ipamorelin: 8",
+  hydrogenBondAcceptorCount: "CJC-1295 Acetate: 48 Ipamorelin: 8",
+  rotatableBondCount: "CJC-1295 Acetate: 118 Ipamorelin: 19",
+  cid: "CJC-1295 Acetate: 56841945 Ipamorelin: 9831659",
+  inchi:
+    "CJC-1295 Acetate: InChI=1S/C152H252N44O42/c1-22-79(15)118(194-125(214)84(20)171-135(224)107(68-115(206)207)181-124(213)81(17)169-126(215)91(155)65-87-41-45-89(201)46-42-87)147(236)189-106(66-86-34-25-24-26-35-86)141(230)196-120(85(21)200)149(238)180-99(51-54-114(158)205)132(221)190-111(72-199)145(234)185-105(67-88-43-47-90(202)48-44-88)140(229)178-96(40-33-59-168-152(164)165)128(217)177-94(37-28-30-56-154)133(222)193-117(78(13)14)146(235)187-100(60-73(3)4)134(223)170-82(18)123(212)175-97(49-52-112(156)203)130(219)183-103(63-76(9)10)138(227)191-109(70-197)143(232)172-83(19)122(211)174-95(39-32-58-167-151(162)163)127(216)176-93(36-27-29-55-153)129(218)182-102(62-75(7)8)137(226)184-101(61-74(5)6)136(225)179-98(50-53-113(157)204)131(220)186-108(69-116(208)209)142(231)195-119(80(16)23-2)148(237)188-104(64-77(11)12)139(228)192-110(71-198)144(233)173-92(121(159)210)38-31-57-166-150(160)161/h24-26,34-35,41-48,73-85,91-111,117-120,197-202H,22-23,27-33,36-40,49-72,153-155H2,1-21H3,(H2,156,203)(H2,157,204)(H2,158,205)(H2,159,210)(H,169,215)(H,170,223)(H,171,224)(H,172,232)(H,173,233)(H,174,211)(H,175,212)(H,176,216)(H,177,217)(H,178,229)(H,179,225)(H,180,238)(H,181,213)(H,182,218)(H,183,219)(H,184,226)(H,185,234)(H,186,220)(H,187,235)(H,188,237)(H,189,236)(H,190,221)(H,191,227)(H,192,228)(H,193,222)(H,194,214)(H,195,231)(H,196,230)(H,206,207)(H,208,209)(H4,160,161,166)(H4,162,163,167)(H4,164,165,168)/t79-,80-,81+,82-,83-,84-,85+,91-,92-,93-,94-,95-,96-,97-,98-,99-,100-,101-,102-,103-,104-,105-,106-,107-,108-,109-,110-,111-,117-,118-,119-,120-/m0/s1 Ipamorelin: InChI=1S/C38H49N9O5/c1-38(2,41)37(52)47-32(21-28-22-42-23-43-28)36(51)46-31(20-25-15-16-26-12-6-7-13-27(26)18-25)35(50)45-30(19-24-10-4-3-5-11-24)34(49)44-29(33(40)48)14-8-9-17-39/h3-7,10-13,15-16,18,22-23,29-32H,8-9,14,17,19-21,39,41H2,1-2H3,(H2,40,48)(H,42,43)(H,44,49)(H,45,50)(H,46,51)(H,47,52)/t29-,30+,31+,32-/m0/s1",
+  inchiKey: "CJC-1295 Acetate: XOZMWINMZMMOBR-HRDSVTNWSA-N Ipamorelin: NEHWBYHLYZGBNO-BVEPWEIPSA-N",
+
+  canonicalSmiles:
+    "CJC-1295 Acetate: CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)N)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C(CC3=CC=C(C=C3)O)N Ipamorelin: CC(C)(C(=O)NC(CC1=CN=CN1)C(=O)NC(CC2=CC3=CC=CC=C3C=C2)C(=O)NC(CC4=CC=CC=C4)C(=O)NC(CCCCN)C(=O)N)N",
+
+  isomericSmiles:
+    "CJC-1295 Acetate: CC[C@H](C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N)NC(=O)[C@H](C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H](C)NC(=O)[C@H](CC3=CC=C(C=C3)O)N Ipamorelin: CC(C)(C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@H](CC2=CC3=CC=CC=C3C=C2)C(=O)N[C@H](CC4=CC=CC=C4)C(=O)N[C@@H](CCCCN)C(=O)N)N",
+
+  iupacName:
+    "CJC-1295 Acetate: (3S)-4-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S,3R)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-[[(2R)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]-4-oxobutanoic acid Ipamorelin: (2S)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2S)-2-[(2-amino-2-methylpropanoyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]-3-naphthalen-2-ylpropanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+}
+  }
 },
-"cjc-1295-ipamorelin-blend-10mg": {
+"cjc-1295-ipamorelin-10mg-blend": {
   name: "CJC-1295 + Ipamorelin Blend 10mg",
+  tagline: "Dual-Peptide Endocrine Signaling Research Blend",
+  cas: "446262-90-4 / 170851-70-4",
 
-  strength:
-    "Dual-peptide research blend combining CJC-1295 and Ipamorelin for endocrine signaling and peptide–receptor interaction studies.",
+  strength: [
+    "CJC-1295 + Ipamorelin Blend 10mg is a premium dual-peptide research formulation combining CJC-1295 (CAS 446262-90-4) and Ipamorelin (CAS 170851-70-4). Produced using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC, Mass Spectrometry, and UV spectrophotometry, this lyophilized peptide blend delivers ≥99% purity, molecular stability, and reproducible performance for advanced endocrine signaling and receptor interaction research."
+  ],
 
-  description:
-    "This research blend combines CJC-1295, a growth hormone–releasing hormone (GHRH) analog investigated for receptor-mediated endocrine signaling, with Ipamorelin, a selective growth hormone secretagogue peptide studied for its interaction with GHS-R pathways. The 10mg blend format is designed for laboratory research exploring synergistic peptide signaling, receptor crosstalk, and endocrine pathway communication. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
+  topDescription: {
+    p0: "The Biopeptides CJC-1295 + Ipamorelin Blend 10mg is a premium synthetic peptide formulation engineered for advanced laboratory research.",
+    p1: "Manufactured using solid-phase peptide synthesis (SPPS) and verified to ≥99% purity, the blend combines CJC-1295 (CAS 446262-90-4) with Ipamorelin (CAS 170851-70-4) to support high-precision biochemical and molecular investigations.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Belgium, Switzerland, Austria, and other EU regions rely on this compound for reproducible peptide-based research."
+  },
 
   components: [
-    "CJC-1295 (GHRH analog)",
-    "Ipamorelin (growth hormone secretagogue peptide)"
+    "CJC-1295 (Growth Hormone Releasing Hormone analog) – CAS 446262-90-4",
+    "Ipamorelin (Growth Hormone Secretagogue Peptide) – CAS 170851-70-4"
   ],
 
-  applications: [
-    "Endocrine signaling pathway research",
-    "Peptide–receptor interaction studies",
-    "Synergistic peptide signaling investigation",
-    "Hormonal communication model research"
-  ],
+  content: {
 
-  appearance: "White lyophilized powder blend",
-  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
+    overviewTitle: "Dual-Peptide Research Compound Overview",
+    overview: [
+      "The CJC-1295 + Ipamorelin Blend 10mg from Biopeptides is a laboratory-grade synthetic peptide formulation developed specifically for scientific research applications.",
+      "This dual-peptide blend integrates two well-characterized research peptides within a single analytically controlled compound, enabling coordinated pathway analysis in biochemical experiments.",
+      "European laboratories frequently employ peptide blends when investigating complex molecular signaling systems that require multiple peptide-driven inputs."
+    ],
+
+    scientificBackgroundTitle: "Scientific Rationale for Dual-Peptide Blends",
+    scientificBackground: [
+      "Synthetic peptides such as CJC-1295 and Ipamorelin are widely used in molecular and biochemical research due to their predictable behavior and targeted receptor interactions.",
+      "CJC-1295 is a growth hormone–releasing hormone (GHRH) analog known for extended signaling activity in peptide-mediated pathways.",
+      "Ipamorelin is a growth hormone secretagogue peptide that interacts selectively with ghrelin receptors (GHS-R), providing strong receptor affinity with minimal off-target activity.",
+      "When combined, the two peptides allow researchers to investigate coordinated signaling responses that cannot always be observed through single-peptide experiments."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Investigation of intracellular signaling pathway modulation",
+      "Analysis of receptor engagement across GHRH and GHS-R systems",
+      "Evaluation of growth factor sensitivity and cellular response patterns",
+      "Gene transcription and transcription-factor activity studies",
+      "Integration into mitochondrial ATP production and metabolic pathway research"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Regenerative and Cellular Biology Models",
+        text: "Used in laboratory-based cellular models to study adaptive signaling behaviour, molecular communication, and peptide-driven cellular regulation."
+      },
+      {
+        title: "Protein Expression and Peptide–Protein Interaction Studies",
+        text: "Applied in experiments analysing peptide binding affinity, protein network interactions, and structural dynamics."
+      },
+      {
+        title: "Receptor Binding and Signal Cascade Analysis",
+        text: "Supports receptor engagement studies where multiple signaling inputs influence downstream pathway activation."
+      },
+      {
+        title: "Mitochondrial and Metabolic Research",
+        text: "Used in controlled experiments examining cellular energy balance, ATP production, and mitochondrial signaling pathways."
+      },
+      {
+        title: "Enzyme Activity and Matrix Interaction Studies",
+        text: "Suitable for enzymatic assays and extracellular matrix investigations where peptide signals influence catalytic or structural responses."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Dual synthetic peptide research blend",
+      "Structure: Linear synthetic peptides",
+      "CAS Identifiers: 446262-90-4 (CJC-1295) and 170851-70-4 (Ipamorelin)",
+      "Form: Lyophilized powder blend",
+      "Molecular Weight: Sequence-dependent",
+      "Stability: High when stored under recommended laboratory conditions"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Supplied as a lyophilized peptide blend for long-term stability",
+      "Recommended storage temperature: −20°C",
+      "Protect from humidity and direct light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Buffered aqueous solutions",
+      "Acidic buffer systems",
+      "Analytical-grade organic solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "CJC-1295 + Ipamorelin Blend 10mg",
+      brand: "Biopeptides",
+      cas: "446262-90-4 / 170851-70-4",
+      purity: "≥99% (HPLC validated)",
+      unitSize: "10 mg blend",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic peptides",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity verification",
+      "Mass Spectrometry molecular identity confirmation",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch consistency validation",
+      "Endotoxin and microbial contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "The CJC-1295 + Ipamorelin Blend 10mg is supplied strictly for laboratory research and scientific investigation. It is not approved for human consumption, veterinary use, pharmaceutical treatment, cosmetic formulation, or nutritional applications. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support EU research compliance and institutional documentation requirements.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is the CJC-1295 + Ipamorelin Blend used for in research?",
+        a: "It is used in controlled laboratory experiments to investigate peptide-driven signaling, receptor engagement, metabolic regulation, and coordinated cellular responses."
+      },
+      {
+        q: "Why are CAS numbers important for peptide research?",
+        a: "CAS numbers provide precise chemical identification and traceability, ensuring reproducibility and regulatory clarity in research documentation."
+      },
+      {
+        q: "Can European laboratories purchase this peptide blend online?",
+        a: "Yes. Biopeptides supplies this research peptide blend to laboratories across Germany, France, Italy, Spain, the Netherlands, and other EU regions with full analytical documentation."
+      },
+      {
+        q: "What storage conditions are recommended?",
+        a: "Store the lyophilized peptide blend at −20°C and protect it from moisture and direct light exposure. Reconstituted solutions are stable for up to 48 hours under refrigeration."
+      },
+      {
+        q: "Is this product approved for therapeutic or medical use?",
+        a: "No. This product is intended strictly for laboratory research and scientific investigation."
+      },
+      {
+        q: "How is purity verified?",
+        a: "Purity ≥99% is verified through HPLC, Mass Spectrometry, and UV spectrophotometry along with batch identity and contamination screening."
+      },
+      {
+        q: "Why choose Biopeptides research materials?",
+        a: "Biopeptides provides consistent quality, transparent CAS identification, validated analytical documentation, and EU-focused compliance standards."
+      }
+    ],
+   chemicalProperties: {
+  molecularFormula: "CJC-1295 Acetate: C152H252N44O42 Ipamorelin: C38H49N9O5",
+  molecularWeight: "CJC-1295 Acetate: 3367.9 Ipamorelin: 711.9",
+  monoisotopicMass: "CJC-1295 Acetate: 3365.8935782 Ipamorelin: 711.3856657",
+  polarArea: "CJC-1295 Acetate: 1450 Ipamorelin: 240",
+  complexity: "CJC-1295 Acetate: 7710 Ipamorelin: 1200",
+  xlogP: "CJC-1295 Acetate: -10.7 Ipamorelin: 1.8",
+  heavyAtomCount: "CJC-1295 Acetate: 238 Ipamorelin: 52",
+  hydrogenBondDonorCount: "CJC-1295 Acetate: 52 Ipamorelin: 8",
+  hydrogenBondAcceptorCount: "CJC-1295 Acetate: 48 Ipamorelin: 8",
+  rotatableBondCount: "CJC-1295 Acetate: 118 Ipamorelin: 19",
+  cid: "CJC-1295 Acetate: 56841945 Ipamorelin: 9831659",
+  inchi:
+    "CJC-1295 Acetate: InChI=1S/C152H252N44O42/c1-22-79(15)118(194-125(214)84(20)171-135(224)107(68-115(206)207)181-124(213)81(17)169-126(215)91(155)65-87-41-45-89(201)46-42-87)147(236)189-106(66-86-34-25-24-26-35-86)141(230)196-120(85(21)200)149(238)180-99(51-54-114(158)205)132(221)190-111(72-199)145(234)185-105(67-88-43-47-90(202)48-44-88)140(229)178-96(40-33-59-168-152(164)165)128(217)177-94(37-28-30-56-154)133(222)193-117(78(13)14)146(235)187-100(60-73(3)4)134(223)170-82(18)123(212)175-97(49-52-112(156)203)130(219)183-103(63-76(9)10)138(227)191-109(70-197)143(232)172-83(19)122(211)174-95(39-32-58-167-151(162)163)127(216)176-93(36-27-29-55-153)129(218)182-102(62-75(7)8)137(226)184-101(61-74(5)6)136(225)179-98(50-53-113(157)204)131(220)186-108(69-116(208)209)142(231)195-119(80(16)23-2)148(237)188-104(64-77(11)12)139(228)192-110(71-198)144(233)173-92(121(159)210)38-31-57-166-150(160)161/h24-26,34-35,41-48,73-85,91-111,117-120,197-202H,22-23,27-33,36-40,49-72,153-155H2,1-21H3,(H2,156,203)(H2,157,204)(H2,158,205)(H2,159,210)(H,169,215)(H,170,223)(H,171,224)(H,172,232)(H,173,233)(H,174,211)(H,175,212)(H,176,216)(H,177,217)(H,178,229)(H,179,225)(H,180,238)(H,181,213)(H,182,218)(H,183,219)(H,184,226)(H,185,234)(H,186,220)(H,187,235)(H,188,237)(H,189,236)(H,190,221)(H,191,227)(H,192,228)(H,193,222)(H,194,214)(H,195,231)(H,196,230)(H,206,207)(H,208,209)(H4,160,161,166)(H4,162,163,167)(H4,164,165,168)/t79-,80-,81+,82-,83-,84-,85+,91-,92-,93-,94-,95-,96-,97-,98-,99-,100-,101-,102-,103-,104-,105-,106-,107-,108-,109-,110-,111-,117-,118-,119-,120-/m0/s1 Ipamorelin: InChI=1S/C38H49N9O5/c1-38(2,41)37(52)47-32(21-28-22-42-23-43-28)36(51)46-31(20-25-15-16-26-12-6-7-13-27(26)18-25)35(50)45-30(19-24-10-4-3-5-11-24)34(49)44-29(33(40)48)14-8-9-17-39/h3-7,10-13,15-16,18,22-23,29-32H,8-9,14,17,19-21,39,41H2,1-2H3,(H2,40,48)(H,42,43)(H,44,49)(H,45,50)(H,46,51)(H,47,52)/t29-,30+,31+,32-/m0/s1",
+  inchiKey: "CJC-1295 Acetate: XOZMWINMZMMOBR-HRDSVTNWSA-N Ipamorelin: NEHWBYHLYZGBNO-BVEPWEIPSA-N",
+
+  canonicalSmiles:
+    "CJC-1295 Acetate: CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)N)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C(CC3=CC=C(C=C3)O)N Ipamorelin: CC(C)(C(=O)NC(CC1=CN=CN1)C(=O)NC(CC2=CC3=CC=CC=C3C=C2)C(=O)NC(CC4=CC=CC=C4)C(=O)NC(CCCCN)C(=O)N)N",
+
+  isomericSmiles:
+    "CJC-1295 Acetate: CC[C@H](C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N)NC(=O)[C@H](C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H](C)NC(=O)[C@H](CC3=CC=C(C=C3)O)N Ipamorelin: CC(C)(C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@H](CC2=CC3=CC=CC=C3C=C2)C(=O)N[C@H](CC4=CC=CC=C4)C(=O)N[C@@H](CCCCN)C(=O)N)N",
+
+  iupacName:
+    "CJC-1295 Acetate: (3S)-4-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S,3R)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-[[(2R)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]-4-oxobutanoic acid Ipamorelin: (2S)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2S)-2-[(2-amino-2-methylpropanoyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]-3-naphthalen-2-ylpropanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+}
+  }
 },
-"mod-grf-1-29-5mg": {
-  name: "Mod GRF 1-29 (CJC-1295 No DAC) 5mg",
 
-  strength:
-    "Synthetic growth hormone–releasing hormone (GHRH) analog studied for short-acting receptor signaling and endocrine research models.",
-
-  description:
-    "Mod GRF 1-29, also known as CJC-1295 No DAC, is a synthetic peptide analog of growth hormone–releasing hormone (GHRH). In laboratory research environments, it is investigated for short-duration GHRH receptor activation, endocrine signaling dynamics, and peptide–receptor interaction behavior. The 5mg format supports extended laboratory studies requiring increased material availability while maintaining controlled, short-acting signaling models. Supplied as a high-purity lyophilized powder for scientific investigation.",
-
-  components: [
-    "Mod GRF 1-29 (CJC-1295 No DAC analog)"
-  ],
-
-  applications: [
-    "Endocrine signaling pathway research",
-    "GHRH receptor interaction studies",
-    "Short-acting peptide signaling models",
-    "Hormonal communication research"
-  ],
-
-  appearance: "White lyophilized powder",
-  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
-},
-"cortagen-20mg": {
+"cortagen-20mg-bioregulator": {
   name: "Cortagen® 20mg (Bioregulator)",
+  tagline: "Synthetic Bioregulator Peptide for Neural Signaling Research",
+  cas: "75007-24-8",
 
-  strength:
-    "Synthetic short-chain peptide bioregulator studied for neural tissue signaling and gene expression research models.",
+  strength: [
+    "Cortagen 20mg (Bioregulator) from BioPeptides is a precision-engineered synthetic peptide created for advanced laboratory research. Manufactured using solid-phase peptide synthesis (SPPS) and verified through HPLC and Mass Spectrometry, this bioregulator demonstrates exceptional structural integrity, molecular stability, and batch-to-batch consistency. Supplied as a 20mg lyophilised powder with a purity of ≥99%, Cortagen supports investigative work in cellular communication, signalling modulation, metabolic response analysis, and in-vitro model development. Trusted by research facilities across Germany, France, Italy, Spain, Netherlands, Belgium, Switzerland, Austria, and Scandinavia, this peptide is among the best peptides online for rigorous scientific studies."
+  ],
 
-  description:
-    "Cortagen® is a synthetic bioregulatory peptide complex investigated in laboratory research models related to central nervous system and neural tissue signaling. In controlled research environments, it is studied for its interaction with gene expression pathways, peptide-mediated regulatory mechanisms, and cellular communication models associated with neural biology. Supplied as a high-purity research material for scientific investigation.",
+  topDescription: {
+    p0: "Cortagen 20mg (Bioregulator) from BioPeptides is a precision-engineered synthetic peptide created for advanced laboratory research.",
+    p1: "Manufactured using solid-phase peptide synthesis (SPPS) and verified through HPLC and Mass Spectrometry, this peptide demonstrates strong structural integrity, stability, and reproducible analytical performance.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, Netherlands, Belgium, Switzerland, Austria, and Scandinavia rely on this peptide for controlled biochemical and molecular investigation."
+  },
 
   components: [
     "Short-chain regulatory peptides (di- and tripeptide complexes)"
   ],
 
-  applications: [
-    "Organ-specific peptide signaling research",
-    "Gene expression and regulatory pathway studies",
-    "Neural and central nervous system research models",
-    "Bioregulatory peptide mechanism research"
+  content: {
+
+    overviewTitle: "Bioregulator Peptide Research Overview",
+    overview: [
+      "Cortagen 20mg is a laboratory-grade synthetic peptide designed exclusively for scientific research and in-vitro experimentation.",
+      "This peptide belongs to the bioregulator class of compounds that are investigated for their ability to interact with cellular communication networks and regulatory signaling systems.",
+      "Researchers across Europe increasingly incorporate peptides such as Cortagen into experimental models exploring molecular adaptation, signal transduction, and intracellular regulatory responses."
+    ],
+
+    scientificBackgroundTitle: "Scientific Context of Bioregulator Peptides",
+    scientificBackground: [
+      "Bioregulator peptides are a specialized class of synthetic molecules designed to mimic regulatory mechanisms present in biological systems.",
+      "These peptides are investigated for their interaction with receptor pathways, gene expression mechanisms, and intracellular signaling networks.",
+      "Cortagen is particularly valuable in research environments where scientists aim to study regulatory pathways with minimal off-target interference and high molecular specificity.",
+      "Laboratories across Germany, France, Italy, Spain, the Netherlands, and Belgium rely on these peptides for reproducible and well-documented experimental outcomes."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Regulatory signaling pathway modulation in cellular research systems",
+      "Cellular responsiveness and receptor activation threshold studies",
+      "Gene expression and transcriptional activity investigation",
+      "Metabolic pathway integration and regulatory peptide response analysis",
+      "Enzymatic interaction and structural protein modulation research"
+    ],
+
+    applicationsTitle: "Primary Laboratory Research Applications",
+    applications: [
+      {
+        title: "Signal Transduction Studies",
+        text: "Used for pathway mapping and signal cascade investigations involving peptide-driven regulatory mechanisms."
+      },
+      {
+        title: "Tissue Culture Research Models",
+        text: "Applied in controlled in-vitro tissue models to examine cellular communication and regulatory feedback responses."
+      },
+      {
+        title: "Molecular Interaction Profiling",
+        text: "Supports research examining protein-peptide interaction networks and receptor-binding behaviour."
+      },
+      {
+        title: "Metabolic and Energy Research",
+        text: "Used in experiments investigating metabolic signaling, enzymatic activity, and cellular energy regulation."
+      },
+      {
+        title: "Gene Expression Research",
+        text: "Assists studies focused on transcriptional responses and gene regulatory pathways influenced by peptide signals."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic short-chain peptide bioregulator",
+      "Structure: Linear di- and tripeptide complexes",
+      "CAS Identifier: 75007-24-8",
+      "Form: Lyophilized powder",
+      "Molecular Weight: Sequence dependent",
+      "Stability: High under controlled storage conditions"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Supplied as a lyophilized peptide powder for long-term stability",
+      "Recommended storage temperature: −20°C",
+      "Protect from moisture and direct light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions typically remain stable for 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Acidic laboratory buffers",
+      "Organic analytical solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Cortagen® 20mg (Bioregulator)",
+      brand: "BioPeptides",
+      cas: "75007-24-8",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "20 mg vial",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Short-chain synthetic peptide complexes",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity verification",
+      "Mass Spectrometry molecular identity confirmation",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch consistency validation",
+      "Endotoxin and microbial contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Usage Statement",
+    regulatoryText:
+      "Cortagen 20mg (Bioregulator) is supplied strictly for laboratory research and scientific investigation. This peptide is not approved for therapeutic use, human consumption, veterinary application, cosmetic formulation, or medical diagnosis. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available to support EU laboratory compliance and documentation requirements.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What makes Cortagen 20mg suitable for research?",
+        a: "Cortagen’s high analytical purity, predictable stability, and validated synthesis make it ideal for probing regulatory signalling pathways, metabolic modulation, and protein interaction analysis in controlled laboratory environments."
+      },
+      {
+        q: "How should Cortagen be stored to maintain integrity?",
+        a: "Store Cortagen lyophilised at −20°C or lower, protected from light and moisture. When reconstituted, keep the solution refrigerated and use it within 48 hours to preserve structural fidelity."
+      },
+      {
+        q: "What kinds of experiments can use Cortagen?",
+        a: "Cortagen is used in tissue culture signalling assays, metabolic profiling, receptor interaction studies, gene expression modulation, and enzymatic response experiments within in-vitro research models."
+      },
+      {
+        q: " Is Cortagen approved for medical or therapeutic use?",
+        a: "No. Cortagen is strictly for laboratory research and scientific investigation. It is not approved for human consumption, clinical treatment, cosmetic application, or veterinary use."
+      },
+      {
+        q: " Why is analytical validation important in research peptides?",
+        a: "Analytical validation ensures purity, identity, and consistency across batches. Techniques like HPLC and MS confirm that the peptide meets rigorous standards, supporting reproducibility and scientific integrity."
+      },
+      {
+        q: " Can EU labs buy Cortagen online?",
+        a: "Yes. BioPeptides supplies Cortagen to research facilities across Europe with supporting documentation, secure ordering, and traceable quality metrics aligned to EU laboratory expectations."
+      },
+      {
+        q: "What solvent options are recommended for Cortagen reconstitution?",
+        a: "Reliable solvents include bacteriostatic water, sterile saline, acidic buffers, and select organic analytical solvents. Choice depends on assay type and compatibility with experimental systems."
+      },
+      {
+        q: " How does Cortagen support metabolic research?",
+        a: "Cortagen facilitates investigation into metabolic pathways, energy signalling, and cellular adaptation by enabling controlled modulation of peptide-linked regulatory circuits."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C17H27N5O8",
+      molecularWeight: "430.17 g/mol",
+      polarArea: "N/A",
+      complexity: "N/A",
+      heavyAtomCount: "N/A",
+      hydrogenBondDonorCount: "N/A",
+      hydrogenBondAcceptorCount: "N/A",
+      rotatableBondCount: "N/A",
+      cid:"18439621",
+    }
+
+  }
+},
+"decapeptide-12": {
+  name: "Decapeptide-12",
+  tagline: "Synthetic Cosmetic Research Peptide for Pigmentation Pathway Studies",
+  cas: "137665-91-9",
+
+  strength: [
+    "Decapeptide-12, available from BioPeptides, is a laboratory-grade synthetic peptide engineered for high-precision research applications. Synthesised using advanced solid-phase peptide synthesis (SPPS) and verified via high-performance liquid chromatography (HPLC) and mass spectrometry (MS), Decapeptide-12 delivers exceptional molecular definition and analytical confidence. Supplied as a lyophilised powder, this peptide supports investigations in cellular signalling, peptide interaction networks, and protein regulation studies within controlled in-vitro environments. Trusted across Europe including research facilities in Germany, France, Italy, Spain, the Netherlands, and Belgium Decapeptide-12 is recognised among the top peptides online for experiments requiring rigorous quality, reproducibility, and scientific traceability."
   ],
 
-  appearance: "White to off-white powder",
-  storage: "Store at -20°C. Protect from moisture and light.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
-},
-"decapeptide-12-10mg": {
-  name: "Decapeptide-12",
-
-  strength:
-    "Synthetic cosmetic research peptide studied for melanogenesis signaling and skin pigmentation pathway models.",
-
-  description:
-    "Decapeptide-12 is a synthetic peptide widely investigated in cosmetic and dermatological research for its role in melanogenesis signaling pathways and peptide-mediated pigmentation models. In laboratory studies, it is explored for its interaction with tyrosinase-related pathways and peptide signaling mechanisms associated with skin tone regulation. Supplied as a high-purity lyophilized peptide for controlled cosmetic and cellular research environments.",
+  topDescription: {
+    p0: "Decapeptide-12 from BioPeptides is a laboratory-grade synthetic peptide engineered for high-precision research applications.",
+    p1: "Produced using solid-phase peptide synthesis (SPPS) and validated through HPLC and Mass Spectrometry, the peptide demonstrates strong molecular integrity, analytical reliability, and reproducible purity levels of ≥99%.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Belgium, and other European research centers rely on Decapeptide-12 for controlled biochemical and cosmetic peptide research."
+  },
 
   components: [
-    "Synthetic decapeptide for cosmetic research"
+    "Synthetic decapeptide designed for cosmetic research and melanogenesis pathway investigation"
   ],
 
-  applications: [
-    "Melanogenesis and pigmentation signaling research",
-    "Cosmetic peptide pathway investigation",
-    "Skin biology and peptide interaction studies",
-    "Topical formulation and stability research"
-  ],
+  content: {
 
-  appearance: "White to off-white lyophilized powder",
-  storage: "Store at -20°C. Protect from light and moisture.",
-  researchStatus:
-    "For laboratory and cosmetic research use only. Not for human or veterinary use."
+    overviewTitle: "Synthetic Peptide Research Overview",
+    overview: [
+      "Decapeptide-12 is a synthetic peptide designed to support laboratory investigations into cellular signaling and peptide-mediated biochemical pathways.",
+      "Its defined linear peptide structure enables researchers to conduct reproducible experiments in molecular interaction studies and signaling pathway models.",
+      "Research institutions across Europe frequently use synthetic peptides like Decapeptide-12 to investigate biological signaling responses in controlled in-vitro environments."
+    ],
+
+    scientificBackgroundTitle: "Scientific Context and Research Significance",
+    scientificBackground: [
+      "Synthetic peptides are valuable tools in biochemical and molecular research because they can interact with biological targets in a predictable and controllable manner.",
+      "Decapeptide-12 is commonly studied in laboratory environments examining melanogenesis pathways and peptide signaling networks associated with pigmentation biology.",
+      "Researchers use defined peptide structures to observe how peptide signaling influences receptor engagement, intracellular pathways, and downstream regulatory effects.",
+      "This approach provides a simplified experimental system compared to large proteins while still allowing detailed mechanistic analysis."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Targeted peptide signaling modulation in controlled cellular systems",
+      "Mapping peptide–protein interaction behavior",
+      "Observation of cellular responses to peptide-mediated cues",
+      "Evaluation of regulatory feedback mechanisms within signaling networks",
+      "Analysis of peptide-driven pathway modulation in in-vitro experiments"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Signal Transduction Assays",
+        text: "Used to investigate intracellular signaling effects and regulatory peptide interactions in biochemical research."
+      },
+      {
+        title: "Protein Interaction Studies",
+        text: "Supports peptide–protein binding experiments in proteomics and structural biology research."
+      },
+      {
+        title: "Gene Expression Research",
+        text: "Used in studies evaluating transcriptional responses to peptide-mediated signaling cues."
+      },
+      {
+        title: "Molecular Network Analysis",
+        text: "Assists in understanding how peptides influence biochemical interaction networks within cellular systems."
+      },
+      {
+        title: "Functional Cellular Modeling",
+        text: "Applied in controlled in-vitro experiments where peptide signaling contributes to experimental outcomes."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic linear decapeptide",
+      "Structure: Linear peptide composed of ten amino acid residues",
+      "CAS Identifier: 137665-91-9",
+      "Form: Lyophilized powder",
+      "Molecular Weight: Approximately 1395 Da",
+      "Stability: High under recommended laboratory storage conditions"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Supplied as a lyophilized powder for improved long-term stability",
+      "Recommended storage temperature: −20°C",
+      "Protect from moisture and prolonged light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions typically remain stable for 24–48 hours under refrigerated conditions"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Mild acidic laboratory buffers",
+      "Analytical organic solvents compatible with peptide assays"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Decapeptide-12",
+      brand: "BioPeptides",
+      cas: "137665-91-9",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "Research vial",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic peptide",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity verification",
+      "Mass Spectrometry molecular identity confirmation",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch consistency validation",
+      "Endotoxin and microbial contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Usage Statement",
+    regulatoryText:
+      "Decapeptide-12 is supplied strictly for laboratory research and scientific investigation. This product is not approved for human consumption, medical treatment, cosmetic application, or veterinary use. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support EU research documentation and institutional compliance requirements.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What kinds of research is Decapeptide-12 used for?",
+        a: "Decapeptide-12 is used in molecular signalling studies, peptide–protein interaction assays, cellular responsiveness models, and gene regulatory research. It supports detailed examination of peptide effects within controlled in-vitro systems."
+      },
+      {
+        q: "How does Decapeptide-12 support protein interaction studies?",
+        a: "Its defined structure enables researchers to profile specific peptide bindings, monitor interaction dynamics, and measure affinities, providing clarity on protein interface behaviour under experimental conditions."
+      },
+      {
+        q: " Is Decapeptide-12 stable for long-term storage?",
+        a: "Yes. When stored at −20°C or below and protected from moisture and light, Decapeptide-12 maintains its chemical integrity. Reconstituted solutions remain stable for short-term experiments when refrigerated."
+      },
+      {
+        q: "Can I order Decapeptide-12 online for research in EU countries?",
+        a: "Yes. BioPeptides supplies Decapeptide-12 to qualified laboratories across Europe, including Germany, France, Italy, Spain, and the Netherlands, with documentation supporting analytical traceability and purchase verification."
+      },
+      {
+        q: "What makes Decapeptide-12 distinct from larger proteins?",
+        a: "Typical solvents include bacteriostatic water, sterile saline, mild acidic buffers, and compatible organic solvents depending on assay conditions.Decapeptide-12’s linear, well-defined sequence allows researchers to study specific regulatory effects with reduced conformational complexity compared to larger proteins, enabling clearer mechanistic interpretation."
+      },
+      {
+        q: "How does the peptide dissolve for laboratory use?",
+        a: "Decapeptide-12 dissolves reliably in bacteriostatic water, sterile saline, mild acidic buffers, or compatible organic solvents. Solvent choice should match the assay’s sensitivity and analytical requirements."
+      },
+      {
+        q: "Is Decapeptide-12 suitable for clinical use?",
+        a: "No. This peptide is supplied strictly for research use and not approved for clinical, therapeutic, cosmetic, or human application."
+      },
+      {
+        q:" Why choose BioPeptides for purchasing Decapeptide-12?",
+        a:"BioPeptides offers strong analytical validation, documented purity, EU-compliant documentation, and reliable procurement processes, making it a trusted source for research laboratories."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C17H27N5O8",
+      molecularWeight: " 430.17 g/mol",
+  
+      cid:"18439621"
+    }
+
+  }
 },
 "dihexa-5mg-60-capsules": {
   name: "Dihexa 5mg (60 Capsules)",
+  tagline: "Synthetic Peptide-Derived Compound for Neuroplasticity Research",
+  cas: "1401708-83-5",
 
-  strength:
-    "Small-molecule peptide-derived compound studied in neuroplasticity and synaptic signaling research models.",
+  strength: [
+    "Dihexa 5mg Capsules (60 Capsules / 300mg Total) | CAS 1401708-83-5 by BioPeptides are research-grade synthetic peptide capsules developed for advanced scientific and laboratory investigation. Identified by CAS 1401708-83-5, Dihexa is widely referenced in experimental molecular biology and neuroscience research for studying peptide–receptor interactions and cellular signalling mechanisms. Each capsule delivers precise peptide content to support reproducibility, consistency, and protocol accuracy. Manufactured under controlled conditions and supported by analytical validation, Dihexa 5mg Capsules are supplied strictly for research use and are trusted by laboratories across Europe seeking high-quality peptides from a reliable supplier."
+  ],
 
-  description:
-    "Dihexa is a peptide-derived small molecule investigated in laboratory research for its interaction with hepatocyte growth factor (HGF) signaling and synaptic plasticity pathways. In preclinical research models, it is studied for its role in neurogenesis, synapse formation, and cognitive signaling mechanisms. Supplied in capsule format to support controlled handling and stability for research environments.",
+  topDescription: {
+    p0: "Dihexa 5mg Capsules from BioPeptides are laboratory-grade synthetic peptide capsules developed for advanced scientific investigation.",
+    p1: "Manufactured under controlled conditions and verified through analytical validation, each capsule contains a precise 5mg quantity to support reproducibility and experimental accuracy.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Belgium, Switzerland, Austria, and Scandinavia rely on Dihexa capsules for controlled molecular biology and neuroscience research."
+  },
 
   components: [
-    "Peptide-derived small molecule for neuro research"
+    "Synthetic peptide-derived small molecule for neuroscience and signaling research"
   ],
 
-  applications: [
-    "Neuroplasticity and synaptic signaling research",
-    "HGF/c-Met pathway investigation",
-    "Cognitive and neuronal communication studies",
-    "Central nervous system research models"
-  ],
+  content: {
 
-  appearance: "Encapsulated solid research material",
-  storage: "Store in a cool, dry environment away from light.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
+    overviewTitle: "Research Overview",
+    overview: [
+      "Dihexa 5mg Capsules are a precision-formulated research compound designed for laboratory investigation of peptide-mediated cellular signaling systems.",
+      "Each vial contains 60 capsules delivering a total peptide content of 300mg, enabling controlled experimental protocols requiring consistent dosing formats.",
+      "European laboratories increasingly incorporate Dihexa into experimental models exploring synaptic signalling, receptor interactions, and molecular pathway modulation."
+    ],
+
+    scientificBackgroundTitle: "Scientific Context and Research Significance",
+    scientificBackground: [
+      "Dihexa is structurally derived from angiotensin-related peptide sequences and is widely referenced in experimental neuroscience and molecular biology research.",
+      "Synthetic peptides and peptide-derived compounds are valuable tools in life-science research because they allow precise investigation of receptor signaling and intracellular communication mechanisms.",
+      "Researchers frequently use Dihexa as a biochemical probe to examine how peptide-derived molecules influence cellular signaling pathways under controlled laboratory conditions.",
+      "Institutions across Germany, France, Italy, Spain, the Netherlands, and Belgium rely on well-characterized research peptides like Dihexa for reproducible and analytically verified experimental outcomes."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Modulation of cellular signaling pathways in experimental models",
+      "Investigation of peptide–receptor interaction mechanisms",
+      "Evaluation of growth-factor related cellular responses",
+      "Observation of transcriptional and gene expression changes in response to peptide signals",
+      "Analysis of neuronal communication and synaptic modeling systems"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Molecular Neuroscience Studies",
+        text: "Used in laboratory research models investigating synaptic communication, neuronal signaling, and cellular adaptation mechanisms."
+      },
+      {
+        title: "Peptide–Receptor Interaction Assays",
+        text: "Supports experiments examining receptor binding behavior and peptide signaling dynamics."
+      },
+      {
+        title: "Signal Transduction Analysis",
+        text: "Applied in studies exploring intracellular signaling cascades and regulatory peptide pathways."
+      },
+      {
+        title: "Cellular Response Modeling",
+        text: "Used to observe how cells respond to peptide-derived compounds within defined experimental conditions."
+      },
+      {
+        title: "Biochemical Pathway Mapping",
+        text: "Supports experimental designs aimed at understanding complex molecular interaction networks."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic peptide-derived small molecule",
+      "Structure: Linear peptide analogue",
+      "CAS Identifier: 1401708-83-5",
+      "Form: Encapsulated research compound",
+      "Molecular Weight: Approximately 814.0 Da",
+      "Stability: High under recommended storage conditions"
+    ],
+
+    stabilityTitle: "Storage and Stability Recommendations",
+    stabilityPoints: [
+      "Store capsules in a cool, dry environment",
+      "Refrigeration is recommended for extended storage",
+      "Protect from direct light exposure",
+      "Keep containers tightly sealed to prevent moisture contamination",
+      "Handle with care to maintain experimental consistency"
+    ],
+
+    solubilityTitle: "Handling and Laboratory Preparation",
+    solubilityPoints: [
+      "Capsule format provides fixed peptide quantity per unit",
+      "Supports consistent experimental dosing",
+      "Reduces handling variability in comparative research studies",
+      "Allows simplified protocol standardisation in repeat experiments"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Dihexa 5mg Capsules",
+      brand: "BioPeptides",
+      cas: "1401708-83-5",
+      purity: "≥99% (analytically verified)",
+      unitSize: "5mg per capsule",
+      totalContent: "300mg (60 capsules)",
+      form: "Encapsulated research compound",
+      synthesis: "Controlled synthetic peptide production",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Peptide-derived small molecule",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity verification",
+      "Mass Spectrometry molecular identity confirmation",
+      "UV spectrophotometric concentration validation",
+      "Batch-to-batch consistency verification",
+      "Contaminant screening in line with laboratory research standards"
+    ],
+
+    regulatoryTitle: "Regulatory and Usage Statement",
+    regulatoryText:
+      "Dihexa 5mg Capsules are supplied strictly for laboratory research and scientific investigation. This compound is not approved for human consumption, medical treatment, veterinary use, or cosmetic formulation. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available to support institutional compliance and laboratory documentation requirements.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is Dihexa used for in research?",
+        a: "Dihexa is used in laboratory studies focused on cellular signalling, peptide-receptor interactions, and molecular communication pathways. It serves as a research tool for exploring peptide-driven mechanisms in controlled experimental models."
+      },
+      {
+        q: "Is Dihexa 5mg suitable for clinical or human use?",
+        a: "No. Dihexa 5mg Capsules are supplied strictly for scientific research purposes and are not approved for human, medical, or therapeutic use under EU regulations."
+      },
+      {
+        q: "Why does Dihexa have a CAS number?",
+        a: "The CAS number 1401708-83-5 uniquely identifies Dihexa as a chemical substance, ensuring traceability, consistency, and accurate referencing across scientific publications and laboratory documentation."
+      },
+      {
+        q: "Why are capsule-based peptides useful in research?",
+        a: "Capsules provide consistent peptide quantities, reduce handling variability, and simplify protocol standardisation, making them valuable in comparative and repeat-run experimental studies."
+      },
+      {
+        q: "How should Dihexa capsules be stored?",
+        a: "Dihexa capsules should be stored in a cool, dry environment, protected from light and moisture. Proper storage helps preserve molecular stability for ongoing research projects."
+      },
+      {
+        q: "Can European laboratories purchase Dihexa online?",
+        a: "Yes. BioPeptides supplies Dihexa 5mg Capsules to qualified research customers across Europe, including Germany, France, Italy, Spain, and the Netherlands, with appropriate documentation."
+      },
+      {
+        q: "How does BioPeptides ensure product quality?",
+        a: "BioPeptides uses HPLC, mass spectrometry, and batch verification processes to confirm purity, identity, and consistency, supporting reliable scientific outcomes."
+      },
+      {
+        q: "Is Dihexa considered one of the top peptides online?",
+        a: "Within research communities, Dihexa is widely referenced due to its stability, documented properties, and relevance to advanced molecular studies, placing it among frequently sourced research peptides."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "C27H44N4O5",
+  molecularWeight: "504.7",
+  monoisotopicMass: "504.33117052",
+  polarArea: "151",
+  complexity: "679",
+  xlogP: "2.3",
+  heavyAtomCount: "30",
+  hydrogenBondDonorCount: "5",
+  hydrogenBondAcceptorCount: "5",
+  rotatableBondCount: "18",
+  cid: "129010512",
+  inchi:
+    "InChI=1S/C27H44N4O5/c1-4-6-8-12-24(34)30-22(18-20-13-15-21(32)16-14-20)26(35)31-25(19(3)5-2)27(36)29-17-10-7-9-11-23(28)33/h13-16,19,22,25,32H,4-12,17-18H2,1-3H3,(H2,28,33)(H,29,36)(H,30,34)(H,31,35)/t19-,22-,25-/m0/s1",
+  inchiKey: "XEUVNVNAVKZSPT-JTJYXVOQSA-N",
+
+  canonicalSmiles:
+    "CCCCCC(=O)NC(CC1=CC=C(C=C1)O)C(=O)NC(C(C)CC)C(=O)NCCCCCC(=O)N",
+
+  isomericSmiles:
+    "CCCCCC(=O)N[C@@H](CC1=CC=C(C=C1)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)NCCCCCC(=O)N",
+
+  iupacName:
+    "(2S,3S)-N-(6-amino-6-oxohexyl)-2-[[(2S)-2-(hexanoylamino)-3-(4-hydroxyphenyl)propanoyl]amino]-3-methylpentanamide"
+}
+
+  }
 },
 
 "dsip-5mg": {
   name: "DSIP 5mg",
+  tagline: "Synthetic Delta Sleep–Inducing Peptide for Neurochemical Research",
+  cas: "62568-57-4",
 
-  strength:
-    "Endogenous neuropeptide studied in sleep regulation, circadian rhythm signaling, and neuroendocrine research models.",
+  strength: [
+    "DSIP 5mg (Delta Sleep-Inducing Peptide), CAS 62568-57-4, is a highly purified synthetic research peptide supplied by BioPeptides for advanced laboratory investigations. Widely referenced in neurochemical and circadian rhythm research, DSIP is studied for its interaction with central nervous system signalling pathways and stress-response modulation. Each 5mg vial is produced under controlled conditions using solid-phase peptide synthesis and verified through HPLC and mass spectrometry. Trusted by research institutions across Germany, France, Italy, Spain, and the Netherlands, DSIP 5mg is supplied strictly for scientific research purposes."
+  ],
 
-  description:
-    "Delta Sleep–Inducing Peptide (DSIP) is a naturally occurring neuropeptide investigated in laboratory research for its involvement in sleep-related signaling pathways, circadian rhythm regulation, and neuroendocrine communication. In scientific studies, DSIP is explored for its interaction with central nervous system signaling mechanisms and stress-response pathways. Supplied as a high-purity lyophilized peptide for controlled research applications.",
+  topDescription: {
+    p0: "DSIP 5mg (Delta Sleep–Inducing Peptide), CAS 62568-57-4, is a research-grade synthetic peptide supplied by BioPeptides for advanced neurobiological and molecular investigations.",
+    p1: "Manufactured using solid-phase peptide synthesis (SPPS) and verified through HPLC and mass spectrometry, DSIP demonstrates ≥99% purity, structural stability, and reliable analytical reproducibility.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Switzerland, and Scandinavia use DSIP in experimental neuroscience and peptide signaling studies."
+  },
 
   components: [
-    "Endogenous neuropeptide for neuro research"
+    "Delta Sleep–Inducing Peptide (DSIP) – endogenous neuropeptide analogue"
   ],
 
-  applications: [
-    "Sleep–wake cycle and circadian rhythm research",
-    "Neuropeptide signaling studies",
-    "Neuroendocrine pathway investigation",
-    "Stress-response and CNS research models"
-  ],
+  content: {
 
-  appearance: "White lyophilized powder",
-  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
+    overviewTitle: "Product Overview",
+    overview: [
+      "DSIP 5mg is a laboratory-grade synthetic peptide designed for controlled research investigating neurochemical signaling pathways and peptide-mediated regulatory processes.",
+      "Identified by CAS 62568-57-4, DSIP has been referenced in neuroscience and molecular biology studies exploring circadian rhythm signaling, neuroendocrine communication, and adaptive stress responses.",
+      "European research institutions frequently incorporate DSIP into experimental protocols studying central nervous system signaling dynamics."
+    ],
+
+    scientificBackgroundTitle: "Scientific Context and Research Significance",
+    scientificBackground: [
+      "Synthetic peptides such as DSIP are valuable research tools because their defined molecular structures allow researchers to isolate specific biochemical signaling pathways.",
+      "In laboratory research environments, DSIP is investigated for its interaction with neurotransmitter signaling networks and circadian rhythm regulation models.",
+      "Researchers use DSIP to explore peptide-mediated signaling in neural tissue, enabling detailed analysis of molecular communication within central nervous system pathways.",
+      "Laboratories across Germany, Switzerland, Sweden, Italy, and France incorporate DSIP into controlled research models examining neurochemical stability and peptide degradation kinetics."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Regulation of neural cellular signaling pathways",
+      "Modulation of gene expression associated with circadian rhythms",
+      "Influence on mitochondrial energy balance within neural cells",
+      "Interaction with stress-responsive peptide networks",
+      "Analysis of peptide signaling integration in neural and endocrine systems"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Neurochemical Signaling Analysis",
+        text: "Used in experimental models studying neurotransmitter pathways and peptide-mediated neural communication."
+      },
+      {
+        title: "Circadian Rhythm Research",
+        text: "Applied in studies investigating molecular regulation of sleep–wake cycle signaling mechanisms."
+      },
+      {
+        title: "Peptide–Receptor Interaction Studies",
+        text: "Supports laboratory experiments analyzing receptor binding behavior and signaling cascade activation."
+      },
+      {
+        title: "Mitochondrial and Metabolic Research",
+        text: "Used to observe peptide influence on cellular energy regulation and metabolic pathways in neural cells."
+      },
+      {
+        title: "Stress-Response Molecular Mapping",
+        text: "Integrated into experimental designs examining peptide-mediated stress response pathways."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic short-chain neuropeptide",
+      "Structure: Linear peptide composed of nine amino acids",
+      "CAS Identifier: 62568-57-4",
+      "Form: Lyophilized powder",
+      "Molecular Weight: Approximately 848.9 Da",
+      "Stability: High under recommended laboratory storage conditions"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Supplied as a lyophilized powder to maintain molecular integrity",
+      "Recommended storage temperature: −20°C",
+      "Protect from moisture and direct light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Laboratory Compatibility",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Mild acidic laboratory buffers",
+      "Selected organic analytical solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "DSIP 5mg",
+      brand: "BioPeptides",
+      cas: "62568-57-4",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "5 mg vial",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic neuropeptide",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity verification",
+      "Mass Spectrometry molecular identity confirmation",
+      "UV spectrophotometric concentration analysis",
+      "Batch-to-batch consistency validation",
+      "Endotoxin and microbial contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Usage Statement",
+    regulatoryText:
+      "DSIP 5mg supplied by BioPeptides is intended strictly for laboratory research and scientific investigation. This product is not approved for human consumption, veterinary use, pharmaceutical treatment, cosmetic formulation, or medical diagnosis. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support institutional documentation and EU laboratory compliance requirements.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is DSIP 5mg used for in research?",
+        a: "DSIP 5mg is used in neuroscience and molecular biology research to study peptide-mediated signalling, circadian rhythm regulation, stress-response pathways, and neurochemical interactions within controlled laboratory models."
+      },
+      {
+        q: "What is the CAS number for DSIP?",
+        a: "The CAS number for Delta Sleep-Inducing Peptide (DSIP) is 62568-57-4, which ensures correct compound identification and traceability for scientific research."
+      },
+      {
+        q: "Is DSIP 5mg suitable for human use?",
+        a: "No. DSIP 5mg is supplied strictly for laboratory research and is not approved for human, veterinary, or medical use under EU regulations."
+      },
+      {
+        q: "How should DSIP 5mg be stored?",
+        a: "DSIP 5mg should be stored at −20°C in its lyophilised form. Once reconstituted, it should be refrigerated and used within 24–48 hours to maintain stability."
+      },
+      {
+        q: "Can DSIP 5mg be purchased online in Europe?",
+        a: "Yes. DSIP 5mg can be purchased from BioPeptides and supplied to research laboratories across Europe, including Germany, France, Italy, Spain, and the Netherlands."
+      },
+      {
+        q: "How is DSIP purity verified?",
+        a: "Purity is verified using HPLC, mass spectrometry, and UV analysis, ensuring ≥99% purity and suitability for high-precision research applications."
+      }
+    ],
+
+    chemicalProperties: {
+  molecularFormula: "C35H48N10O15",
+  molecularWeight: "848.8",
+  monoisotopicMass: "848.33006086",
+  polarArea: "407",
+  complexity: "1610",
+  xlogP: "-7.1",
+  heavyAtomCount: "60",
+  hydrogenBondDonorCount: "14",
+  hydrogenBondAcceptorCount: "16",
+  rotatableBondCount: "25",
+  cid: "68816",
+  inchi:
+    "InChI=1S/C35H48N10O15/c1-16(41-32(56)20(36)9-18-11-37-21-6-4-3-5-19(18)21)30(54)39-12-25(47)38-13-26(48)44-23(10-29(52)53)34(58)42-17(2)31(55)45-24(15-46)33(57)40-14-27(49)43-22(35(59)60)7-8-28(50)51/h3-6,11,16-17,20,22-24,37,46H,7-10,12-15,36H2,1-2H3,(H,38,47)(H,39,54)(H,40,57)(H,41,56)(H,42,58)(H,43,49)(H,44,48)(H,45,55)(H,50,51)(H,52,53)(H,59,60)/t16-,17-,20-,22-,23-,24-/m0/s1",
+  inchiKey: "ZRZROXNBKJAOKB-GFVHOAGBSA-N",
+
+  canonicalSmiles:
+    "CC(C(=O)NCC(=O)NCC(=O)NC(CC(=O)O)C(=O)NC(C)C(=O)NC(CO)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)O)NC(=O)C(CC1=CNC2=CC=CC=C21)N",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)NCC(=O)NCC(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](C)C(=O)N[C@@H](CO)C(=O)NCC(=O)N[C@@H](CCC(=O)O)C(=O)O)NC(=O)[C@H](CC1=CNC2=CC=CC=C21)N",
+
+  iupacName:
+    "(2S)-2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[2-[[2-[[(2S)-2-[[(2S)-2-amino-3-(1H-indol-3-yl)propanoyl]amino]propanoyl]amino]acetyl]amino]acetyl]amino]-3-carboxypropanoyl]amino]propanoyl]amino]-3-hydroxypropanoyl]amino]acetyl]amino]pentanedioic acid"
+}
+
+  }
 },
 "epitalon-1mg-60-capsules": {
   name: "Epitalon 1mg (60 Capsules)",
+  tagline: "Synthetic Tetrapeptide Bioregulator for Epigenetic and Cellular Signaling Research",
+  cas: "307297-39-8",
 
-  strength:
-    "Synthetic tetrapeptide bioregulator studied in epigenetic regulation, cellular aging, and circadian rhythm research models.",
+  strength: [
+    "Epitalon 1mg (60 Capsules) | CAS 307297-39-8 is a premium-grade synthetic research peptide developed for advanced molecular and cellular investigations. Manufactured using high-precision solid-phase peptide synthesis (SPPS) and validated through HPLC and mass spectrometry, this compound delivers ≥99% purity and reliable batch consistency. Identified by CAS 307297-39-8, Epitalon is widely selected by European research laboratories for peptide–protein interaction studies, gene expression analysis, and cellular signalling research. BioPeptides supplies Epitalon exclusively for laboratory use, offering a trusted option for researchers looking to buy peptides online from a compliant EU-focused source."
+  ],
 
-  description:
-    "Epitalon is a synthetic tetrapeptide bioregulator derived from epithalamic peptide research. In laboratory and preclinical research settings, it is widely studied for its role in epigenetic regulation, telomerase-related signaling pathways, circadian rhythm modulation, and cellular aging models. Supplied in capsule format to support controlled handling, stability, and consistency for research environments.",
+  topDescription: {
+    p0: "Epitalon 1mg (60 Capsules), CAS 307297-39-8, is a high-purity synthetic research peptide supplied by BioPeptides for advanced molecular and cellular investigations.",
+    p1: "Manufactured using solid-phase peptide synthesis (SPPS) and validated through HPLC and mass spectrometry, Epitalon demonstrates ≥99% purity and strong batch consistency for reproducible laboratory research.",
+    p2: "Research institutions across Germany, France, Italy, Spain, the Netherlands, Sweden, Switzerland, Austria, Belgium, and Denmark rely on Epitalon capsules for controlled biochemical and molecular research applications."
+  },
 
   components: [
-    "Synthetic tetrapeptide for bioregulator research"
+    "Synthetic tetrapeptide bioregulator (Epitalon)"
   ],
 
-  applications: [
-    "Epigenetic regulation and gene expression research",
-    "Cellular aging and longevity pathway studies",
-    "Circadian rhythm and pineal signaling research",
-    "Peptide-based bioregulator investigation"
-  ],
+  content: {
 
-  appearance: "Encapsulated solid research material",
-  storage: "Store in a cool, dry environment away from light.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
+    overviewTitle: "Product Introduction",
+    overview: [
+      "Epitalon 1mg (60 Capsules) is a laboratory-grade synthetic peptide designed for controlled scientific and academic research applications.",
+      "Identified by CAS number 307297-39-8, Epitalon is widely referenced in molecular biology and biochemical studies exploring peptide-mediated cellular signaling pathways.",
+      "European research institutions frequently incorporate Epitalon into experimental models investigating gene expression regulation, circadian rhythm signaling, and cellular regulatory mechanisms."
+    ],
+
+    scientificBackgroundTitle: "Scientific Context and Research Significance",
+    scientificBackground: [
+      "Synthetic peptides such as Epitalon allow researchers to isolate and analyze biochemical interactions with a high degree of control and reproducibility.",
+      "Epitalon has been studied in laboratory environments for its potential involvement in peptide signaling pathways, epigenetic regulation, and cellular communication networks.",
+      "Unlike complex biological extracts, synthetic peptides offer defined structures that reduce variability and improve experimental accuracy.",
+      "Research laboratories across Germany, France, Italy, Spain, and the Netherlands frequently use synthetic peptides like Epitalon in controlled research models requiring reliable compound identification."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Modulation of cellular signaling pathways",
+      "Regulation of gene expression patterns in molecular research models",
+      "Influence on mitochondrial metabolic activity",
+      "Interaction with enzymatic activation systems",
+      "Peptide-mediated cellular communication studies"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Cellular and Molecular Biology Studies",
+        text: "Used to explore peptide-mediated signaling behavior and intracellular regulatory mechanisms."
+      },
+      {
+        title: "Protein Expression and Regulation Research",
+        text: "Supports experiments examining protein synthesis, regulation pathways, and cellular adaptation mechanisms."
+      },
+      {
+        title: "Receptor-Binding Assays",
+        text: "Applied in laboratory research investigating peptide–receptor interaction dynamics."
+      },
+      {
+        title: "Mitochondrial Metabolism Studies",
+        text: "Used to examine cellular energy regulation and metabolic response pathways."
+      },
+      {
+        title: "Regenerative Cellular Models",
+        text: "Supports controlled research exploring cellular response patterns and regulatory peptide signaling."
+      },
+      {
+        title: "Enzymatic Sensitivity and Matrix Studies",
+        text: "Integrated into experiments studying enzyme activation systems and extracellular matrix interactions."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic tetrapeptide bioregulator",
+      "Structure: Linear peptide composed of four amino acids",
+      "CAS Identifier: 307297-39-8",
+      "Form: Encapsulated research compound",
+      "Molecular Weight: Approximately 390.4 Da",
+      "Stability: High when stored under recommended laboratory conditions"
+    ],
+
+    stabilityTitle: "Stability and Storage Guidelines",
+    stabilityPoints: [
+      "Store capsules in a cool, dry environment",
+      "Long-term storage recommended at −20°C",
+      "Protect from moisture and prolonged light exposure",
+      "Avoid elevated temperatures during handling",
+      "Maintain sealed container to preserve compound stability"
+    ],
+
+    solubilityTitle: "Solubility and Laboratory Compatibility",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Mild acidic laboratory buffers",
+      "Selected organic analytical solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Epitalon 1mg (60 Capsules)",
+      brand: "BioPeptides",
+      cas: "307297-39-8",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "1 mg per capsule",
+      totalContent: "60 capsules",
+      form: "Encapsulated synthetic peptide",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic tetrapeptide",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity verification",
+      "Mass Spectrometry molecular identity confirmation",
+      "UV spectrophotometric concentration validation",
+      "Batch-to-batch consistency verification",
+      "Endotoxin and microbial contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "Epitalon 1mg (60 Capsules) supplied by BioPeptides is intended strictly for laboratory research and scientific investigation. This compound is not approved for human consumption, veterinary use, cosmetic formulation, medical treatment, or food applications. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available to support institutional procurement and regulatory documentation across the European Union.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is Epitalon 1mg used for in research?",
+        a: "Epitalon 1mg is used in molecular biology and biochemical research to study cellular signalling pathways, gene expression regulation, mitochondrial activity, and peptide–protein interactions under controlled laboratory conditions."
+      },
+      {
+        q: "What is the CAS number of Epitalon?",
+        a: "The CAS number for Epitalon is 307297-39-8, which uniquely identifies the compound in scientific databases and regulatory documentation."
+      },
+      {
+        q: "Is Epitalon approved for human use?",
+        a: "No. Epitalon 1mg is supplied strictly for laboratory research and scientific investigation and is not approved for human, veterinary, or medical use."
+      },
+      {
+        q: "How pure is Epitalon supplied by BioPeptides?",
+        a: "Epitalon supplied by BioPeptides is verified at ≥99% purity using HPLC, mass spectrometry, and UV analytical methods."
+      },
+      {
+        q: "Can I buy Epitalon online in Europe?",
+        a: "Yes. Epitalon 1mg (60 Capsules) can be purchased online from BioPeptides and supplied to research institutions across Europe, including Germany, France, Italy, Spain, and the Netherlands."
+      },
+      {
+        q: "Why is the CAS number important when sourcing peptides?",
+        a: "The CAS number ensures accurate compound identification, traceability, and consistency across suppliers, which is critical for reproducible scientific research."
+      }
+    ],
+
+     chemicalProperties: {
+  molecularFormula: "C14H22N4O9",
+  molecularWeight: "390.35",
+  monoisotopicMass: "390.13867829",
+  polarArea: "225",
+  complexity: "607",
+  xlogP: "-5.5",
+  heavyAtomCount: "27",
+  hydrogenBondDonorCount: "7",
+  hydrogenBondAcceptorCount: "10",
+  rotatableBondCount: "12",
+  cid: "219042",
+  inchi:
+    "InChI=1S/C14H22N4O9/c1-6(15)12(25)17-7(2-3-9(19)20)14(27)18-8(4-10(21)22)13(26)16-5-11(23)24/h6-8H,2-5,15H2,1H3,(H,16,26)(H,17,25)(H,18,27)(H,19,20)(H,21,22)(H,23,24)/t6-,7-,8-/m0/s1",
+  inchiKey: "HGHOBRRUMWJWCU-FXQIFTODSA-N",
+
+  canonicalSmiles:
+    "CC(C(=O)NC(CCC(=O)O)C(=O)NC(CC(=O)O)C(=O)NCC(=O)O)N",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)NCC(=O)O)N",
+
+  iupacName:
+    "(4S)-4-[[(2S)-2-aminopropanoyl]amino]-5-[[(2S)-3-carboxy-1-(carboxymethylamino)-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+}
+
+  }
 },
 "epitalon-20mg": {
   name: "Epitalon (Epithalon) 20mg",
+  tagline: "Synthetic Tetrapeptide Bioregulator for Epigenetic and Cellular Signaling Research",
+  cas: "307297-39-8",
 
-  strength:
-    "Synthetic tetrapeptide bioregulator studied in epigenetic regulation, telomerase signaling, and cellular aging research models.",
+  strength: [
+    "Epitalon (Epithalon) 20mg, identified by CAS number 307297-39-8, is a high-purity research peptide developed for laboratory use across Europe. With precise synthesis, rigorous purification, and clear chemical identification, it provides researchers with a reliable compound suitable for a wide range of scientific studies.For laboratories seeking to buy peptides online, source best-quality research peptides, and work with clearly defined compounds, Epitalon (Epithalon) 20mg remains a well-established choice within the European research landscape."
+  ],
 
-  description:
-    "Epitalon (also known as Epithalon) is a synthetic tetrapeptide bioregulator derived from epithalamic peptide research. In laboratory and preclinical research models, it is widely investigated for its role in epigenetic regulation, telomerase-related signaling pathways, circadian rhythm modulation, and cellular aging mechanisms. The 20mg lyophilized format is intended for extended or higher-volume research applications requiring greater material availability.",
+  topDescription: {
+    p0: "Epitalon (Epithalon) 20mg, identified by CAS number 307297-39-8, is a high-purity synthetic peptide supplied by BioPeptides for advanced laboratory research.",
+    p1: "Manufactured using solid-phase peptide synthesis (SPPS) and verified through HPLC and mass spectrometry, Epitalon demonstrates ≥99% purity and reliable batch consistency for reproducible experimental protocols.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Belgium, Sweden, Switzerland, and Austria rely on Epitalon peptides for molecular biology, biochemical signaling, and peptide-interaction research."
+  },
 
   components: [
-    "Synthetic tetrapeptide for bioregulator research"
+    "Synthetic tetrapeptide bioregulator (Epitalon / Epithalon)"
   ],
 
-  applications: [
-    "Epigenetic regulation and gene expression research",
-    "Telomerase and cellular aging pathway studies",
-    "Circadian rhythm and pineal signaling research",
-    "Peptide-based bioregulator investigation"
-  ],
+  content: {
 
-  appearance: "White lyophilized powder",
-  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
+    overviewTitle: "Product Overview",
+    overview: [
+      "Epitalon (Epithalon) 20mg is a laboratory-grade synthetic peptide designed for controlled scientific and biochemical research applications.",
+      "The compound is registered under CAS number 307297-39-8, ensuring precise identification across chemical databases, scientific publications, and laboratory procurement systems.",
+      "Its lyophilised 20mg format provides laboratories with greater material availability for extended experiments, peptide screening programmes, and comparative molecular studies."
+    ],
+
+    scientificBackgroundTitle: "Scientific Context and Research Significance",
+    scientificBackground: [
+      "Synthetic peptides such as Epitalon enable researchers to study biological signaling with a high degree of molecular precision.",
+      "Epitalon is commonly examined in experimental environments focused on peptide-mediated signaling pathways, gene regulation mechanisms, and molecular interaction models.",
+      "Unlike complex biological extracts, synthetic peptides provide clearly defined structures, allowing researchers to isolate and analyse specific biochemical responses.",
+      "European research institutions frequently use peptides like Epitalon to support reproducible laboratory studies in cellular biology, peptide chemistry, and molecular signaling."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Modulation of cellular signaling pathways",
+      "Regulation of gene expression and epigenetic pathways",
+      "Investigation of telomerase-associated signaling mechanisms",
+      "Peptide-protein interaction studies in biochemical research",
+      "Cellular communication and molecular pathway analysis"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Cellular and Molecular Biology Research",
+        text: "Used to investigate peptide-mediated signaling and regulatory pathways within experimental cell systems."
+      },
+      {
+        title: "Biochemical Interaction Studies",
+        text: "Supports experiments examining peptide-protein binding interactions and enzymatic response mechanisms."
+      },
+      {
+        title: "Signal Transduction Research",
+        text: "Applied in laboratory models investigating intracellular signaling pathways and regulatory cascades."
+      },
+      {
+        title: "Comparative Peptide Screening",
+        text: "Often included in peptide libraries for screening and comparative molecular analysis."
+      },
+      {
+        title: "In-Vitro Cellular Response Studies",
+        text: "Supports research investigating cellular adaptation and response to defined peptide exposure."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic tetrapeptide bioregulator",
+      "CAS Identifier: 307297-39-8",
+      "Molecular Formula: C14H22N4O9",
+      "Molecular Weight: 390.349 g/mol",
+      "Structure: Linear synthetic peptide",
+      "Form: Lyophilised powder",
+      "Stability: High under recommended laboratory storage conditions"
+    ],
+
+    stabilityTitle: "Stability and Storage Guidelines",
+    stabilityPoints: [
+      "Store lyophilised peptide at −20°C for long-term stability",
+      "Protect from moisture and direct light exposure",
+      "Avoid repeated freeze-thaw cycles",
+      "Keep containers tightly sealed when not in use",
+      "Handle using standard laboratory safety procedures"
+    ],
+
+    solubilityTitle: "Solubility and Laboratory Compatibility",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Mild acidic buffers",
+      "Selected organic analytical solvents"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Epitalon (Epithalon) 20mg",
+      brand: "BioPeptides",
+      cas: "307297-39-8",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "20 mg vial",
+      form: "Lyophilised peptide powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Linear synthetic tetrapeptide",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity verification",
+      "Mass Spectrometry molecular identity confirmation",
+      "UV spectrophotometric concentration validation",
+      "Batch-to-batch consistency verification",
+      "Endotoxin and microbial contamination screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "Epitalon (Epithalon) 20mg supplied by BioPeptides is intended strictly for laboratory research and scientific investigation. This compound is not approved for human consumption, veterinary use, cosmetic formulation, or medical treatment. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available to support institutional procurement and compliance requirements across the European Union.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is Biopeptides Epitalon (Epithalon) used for?",
+        a: "Biopeptides Epitalon (Epithalon) is used in laboratory and scientific research, including cellular studies, biochemical experiments, and peptide interaction research."
+      },
+      {
+        q: "What does the CAS number 307297-39-8 indicate?",
+        a: "CAS number 307297-39-8 uniquely identifies Epitalon (Epithalon) and ensures researchers are sourcing the correct compound for their studies."
+      },
+      {
+        q: "How is Biopeptides Epitalon (Epithalon) manufactured?",
+        a: "It is synthesised using solid-phase peptide synthesis (SPPS) and purified through high-performance liquid chromatography (HPLC)."
+      },
+      {
+        q: "Why is Epitalon supplied as research use only?",
+        a: "Epitalon (Epithalon) has not been approved for human or veterinary use and is intended exclusively for controlled laboratory research."
+      },
+      {
+        q: "How should Epitalon (Epithalon) be stored in a laboratory?",
+        a: "The peptide should be stored in a cool, dry environment and protected from light and moisture, following standard laboratory storage procedures."
+      },
+      {
+        q: "Why do researchers choose Biopeptides for Epitalon?",
+        a: "Researchers choose Biopeptides due to consistent product quality, high purity standards, clear documentation, and verified CAS identification."
+      },
+      {
+        q:"Can Biopeptides Epitalon be shipped across Europe?",
+        a:"Biopeptides supplies Epitalon (Epithalon) to many European countries, subject to local regulations and research compliance requirements."
+      },
+      {
+        q:"What purity level is suitable for research peptides?",
+        a:"A purity level of 99% or higher, as provided by Biopeptides Epitalon (Epithalon), is generally preferred for accurate and reproducible research results."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "C14H22N4O9",
+  molecularWeight: "390.35",
+  monoisotopicMass: "390.13867829",
+  polarArea: "225",
+  complexity: "607",
+  xlogP: "-5.5",
+  heavyAtomCount: "27",
+  hydrogenBondDonorCount: "7",
+  hydrogenBondAcceptorCount: "10",
+  rotatableBondCount: "12",
+  cid: "219042",
+  inchi:
+    "InChI=1S/C14H22N4O9/c1-6(15)12(25)17-7(2-3-9(19)20)14(27)18-8(4-10(21)22)13(26)16-5-11(23)24/h6-8H,2-5,15H2,1H3,(H,16,26)(H,17,25)(H,18,27)(H,19,20)(H,21,22)(H,23,24)/t6-,7-,8-/m0/s1",
+  inchiKey: "HGHOBRRUMWJWCU-FXQIFTODSA-N",
+
+  canonicalSmiles:
+    "CC(C(=O)NC(CCC(=O)O)C(=O)NC(CC(=O)O)C(=O)NCC(=O)O)N",
+
+  isomericSmiles:
+    "CC[C@@H](C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)NCC(=O)O)N",
+
+  iupacName:
+    "(4S)-4-[[(2S)-2-aminopropanoyl]amino]-5-[[(2S)-3-carboxy-1-(carboxymethylamino)-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+}
+
+  }
 },
 "epitalon-50mg": {
   name: "Epitalon (Epithalon) 50mg",
+  tagline: "Synthetic Tetrapeptide Bioregulator for Advanced Cellular Signaling Research",
+  cas: "307297-39-8",
 
-  strength:
-    "Synthetic tetrapeptide bioregulator studied in epigenetic regulation, telomerase signaling, and cellular aging research models.",
+  strength: [
+    "Biopeptides Epitalon (Epithalon) 50mg, identified by CAS number 307297-39-8, is a high-purity research peptide designed for advanced laboratory use across Europe. With controlled synthesis, rigorous purification, and clear chemical identification, it supports a wide range of scientific research applications.For laboratories seeking to buy peptides online, source top-quality research peptides, and work with clearly defined compounds, Biopeptides Epitalon (Epithalon) 50mg provides a dependable solution for European research environments."
+  ],
 
-  description:
-    "Epitalon (also known as Epithalon) is a synthetic tetrapeptide bioregulator derived from epithalamic peptide research. In laboratory and preclinical research models, it is widely investigated for its role in epigenetic regulation, telomerase-related signaling pathways, circadian rhythm modulation, and cellular aging mechanisms. The 50mg lyophilized format is intended for extended or higher-volume research applications requiring greater material availability.",
+  topDescription: {
+    p0: "Biopeptides Epitalon (Epithalon) 50mg, identified by CAS number 307297-39-8, is a high-purity research peptide developed for advanced laboratory use across Europe.",
+    p1: "Manufactured using controlled solid-phase peptide synthesis (SPPS) and validated through analytical purification, this peptide provides consistent molecular identity and reproducible quality for scientific investigation.",
+    p2: "For laboratories seeking to buy peptides online and work with clearly defined research compounds, Biopeptides Epitalon (Epithalon) 50mg offers a dependable solution within the European research environment."
+  },
 
   components: [
-    "Synthetic tetrapeptide for bioregulator research"
+    "Synthetic tetrapeptide bioregulator (Epitalon / Epithalon)"
   ],
 
-  applications: [
-    "Epigenetic regulation and gene expression research",
-    "Telomerase and cellular aging pathway studies",
-    "Circadian rhythm and pineal signaling research",
-    "Peptide-based bioregulator investigation"
-  ],
+  content: {
 
-  appearance: "White lyophilized powder",
-  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
+    overviewTitle: "Product Overview",
+    overview: [
+      "Biopeptides Epitalon (Epithalon) 50mg is a high-purity synthetic peptide designed for advanced scientific and laboratory research applications.",
+      "This larger-quantity format provides increased material availability for research facilities conducting extended studies, multi-phase experiments, or repeated laboratory protocols.",
+      "The compound is identified by CAS number 307297-39-8, ensuring precise chemical identification and traceability across laboratory documentation, scientific publications, and procurement systems."
+    ],
+
+    scientificBackgroundTitle: "Understanding Epitalon (Epithalon)",
+    scientificBackground: [
+      "Epitalon, also known as Epithalon, is a synthetic tetrapeptide with the molecular formula C14H22N4O9 and a molecular weight of 390.349 g/mol.",
+      "Its short peptide structure allows researchers to work with clearly defined molecular compositions, improving experimental reproducibility and analytical accuracy.",
+      "In European research environments, Epitalon is commonly utilised in molecular biology, biochemical interaction studies, receptor-binding investigations, and controlled peptide signalling experiments.",
+      "The use of CAS number 307297-39-8 ensures laboratories can accurately reference the same compound across research records and international collaborations."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Peptide–protein interaction analysis",
+      "Cellular signaling pathway modulation",
+      "Gene expression and epigenetic pathway investigation",
+      "Telomerase-related biochemical research",
+      "Peptide-mediated cellular communication studies"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Cellular and Molecular Biology Research",
+        text: "Used in controlled laboratory experiments investigating peptide signaling and cellular regulatory mechanisms."
+      },
+      {
+        title: "Biochemical Interaction Studies",
+        text: "Supports research examining peptide–protein binding dynamics and enzymatic activation systems."
+      },
+      {
+        title: "Signal Transduction Research",
+        text: "Applied in experimental models exploring intracellular signaling cascades and pathway analysis."
+      },
+      {
+        title: "Comparative Peptide Screening",
+        text: "Frequently included in peptide libraries for screening and comparative compound evaluation."
+      },
+      {
+        title: "Long-Term Experimental Studies",
+        text: "The 50mg format supports extended laboratory projects requiring consistent compound availability."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic tetrapeptide bioregulator",
+      "CAS Identifier: 307297-39-8",
+      "Molecular Formula: C14H22N4O9",
+      "Molecular Weight: 390.349 g/mol",
+      "Structure: Linear synthetic peptide",
+      "Form: Lyophilised powder",
+      "Stability: High under recommended storage conditions"
+    ],
+
+    stabilityTitle: "Storage and Handling Recommendations",
+    stabilityPoints: [
+      "Store in a cool, dry laboratory environment",
+      "Maintain storage temperature at −20°C for long-term stability",
+      "Protect from moisture and prolonged light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Follow institutional laboratory safety procedures"
+    ],
+
+    solubilityTitle: "Solubility and Laboratory Compatibility",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Mild acidic laboratory buffers",
+      "Selected organic analytical solvents"
+    ],
+
+    techSpecsTitle: "Product Specifications",
+    techSpecs: {
+      productName: "Epitalon (Epithalon) 50mg",
+      brand: "BioPeptides",
+      cas: "307297-39-8",
+      quantity: "50 mg vial",
+      purity: "≥99% (HPLC verified)",
+      form: "Lyophilised peptide powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
+      molecularStructure: "Synthetic tetrapeptide",
+      classification: "Research use only"
+    },
+
+    validationTitle: "Manufacturing and Analytical Verification",
+    validationPoints: [
+      "Solid-phase peptide synthesis (SPPS) for sequence accuracy",
+      "High-performance liquid chromatography (HPLC) purification",
+      "Mass spectrometry verification of molecular identity",
+      "Batch-to-batch consistency validation",
+      "Laboratory analytical documentation for traceability"
+    ],
+
+    regulatoryTitle: "Regulatory Status",
+    regulatoryText:
+      "Biopeptides Epitalon (Epithalon) 50mg is supplied exclusively for laboratory research and scientific investigation. The product is not approved for human consumption, clinical application, veterinary use, or therapeutic purposes. Researchers and purchasing institutions are responsible for ensuring compliance with applicable European regulations governing research chemicals.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is Biopeptides Epitalon (Epithalon) 50mg used for?",
+        a: "It is used exclusively for laboratory and scientific research, including cellular studies, biochemical experiments, and peptide interaction research."
+      },
+      {
+        q: "Why choose the 50mg format instead of smaller quantities?",
+        a: "The 50mg format is suitable for extended studies, repeated experiments, or laboratories conducting multiple research projects requiring the same peptide."
+      },
+      {
+        q: "What does CAS number 307297-39-8 confirm?",
+        a: "CAS number 307297-39-8 confirms the precise chemical identity of Epitalon (Epithalon) and ensures consistency across research documentation."
+      },
+      {
+        q: "How is Biopeptides Epitalon (Epithalon) synthesised?",
+        a: "It is synthesised using solid-phase peptide synthesis (SPPS) and purified through high-performance liquid chromatography (HPLC)."
+      },
+      {
+        q: "Is Epitalon approved for human use?",
+        a: "No. Biopeptides Epitalon (Epithalon) is strictly supplied as a research-use-only compound."
+      },
+      {
+        q: "How should the 50mg vial be stored?",
+        a: "It should be stored in a cool, dry laboratory environment, protected from moisture and light, in accordance with standard laboratory guidelines."
+      },
+      {
+        q: "Why do European laboratories source Epitalon from Biopeptides?",
+        a: "Biopeptides is chosen for consistent purity standards, clear product documentation, CAS-based identification, and reliable supply."
+      },
+      {
+        q: "Can Biopeptides Epitalon (Epithalon) 50mg be shipped within Europe?",
+        a: "Yes, Biopeptides supplies Epitalon (Epithalon) to many European countries, subject to applicable regulations and research compliance requirements."
+      }
+    ],
+
+    chemicalProperties: {
+  molecularFormula: "C14H22N4O9",
+  molecularWeight: "390.35",
+  monoisotopicMass: "390.13867829",
+  polarArea: "225",
+  complexity: "607",
+  xlogP: "-5.5",
+  heavyAtomCount: "27",
+  hydrogenBondDonorCount: "7",
+  hydrogenBondAcceptorCount: "10",
+  rotatableBondCount: "12",
+  cid: "219042",
+  inchi:
+    "InChI=1S/C14H22N4O9/c1-6(15)12(25)17-7(2-3-9(19)20)14(27)18-8(4-10(21)22)13(26)16-5-11(23)24/h6-8H,2-5,15H2,1H3,(H,16,26)(H,17,25)(H,18,27)(H,19,20)(H,21,22)(H,23,24)/t6-,7-,8-/m0/s1",
+  inchiKey: "HGHOBRRUMWJWCU-FXQIFTODSA-N",
+
+  canonicalSmiles:
+    "CC(C(=O)NC(CCC(=O)O)C(=O)NC(CC(=O)O)C(=O)NCC(=O)O)N",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)NCC(=O)O)N",
+
+  iupacName:
+    "	(4S)-4-[[(2S)-2-aminopropanoyl]amino]-5-[[(2S)-3-carboxy-1-(carboxymethylamino)-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+}
+
+  }
 },
 "fgl-s-10mg": {
   name: "FGL-S 10mg",
+  tagline: "Synthetic Neuroactive Peptide for Synaptic Plasticity and Neurotrophic Signaling Research",
+  cas: "499993-62-3",
 
-  strength:
-    "Synthetic neuroactive peptide studied in synaptic plasticity, neurotrophic signaling, and cognitive pathway research models.",
+  strength: [
+    "Biopeptides FGL-S 10mg is a high-purity synthetic research peptide developed for controlled laboratory use. Identified by CAS Number 499993-62-3, FGL-S (Fibroblast Growth Loop) is supplied as a lyophilised powder and manufactured using precision solid-phase peptide synthesis. Each batch is analytically verified to ensure consistency, purity, and reliability for advanced biochemical and molecular research applications. This product is supplied strictly for research use and is not intended for human or veterinary use."
+  ],
 
-  description:
-    "FGL-S is a synthetic peptide derived from the neural cell adhesion molecule (NCAM) domain and is investigated in laboratory research for its interaction with fibroblast growth factor (FGF) receptor signaling. In scientific models, it is studied for its role in synaptic plasticity, neuronal communication pathways, and neurotrophic signaling mechanisms. Supplied as a high-purity lyophilized peptide for controlled neuroscience and cellular research applications.",
+  topDescription: {
+    p0: "Biopeptides FGL-S 10mg is a high-purity synthetic research peptide developed for controlled laboratory use.",
+    p1: "Identified by CAS number 499993-62-3, FGL-S (Fibroblast Growth Loop) is supplied as a lyophilised powder and produced using solid-phase peptide synthesis.",
+    p2: "Each batch undergoes analytical verification to ensure high purity, consistency, and reliability for advanced biochemical and molecular research applications."
+  },
 
   components: [
-    "Synthetic neuroactive peptide for neuroscience research"
+    "Synthetic neuroactive peptide derived from fibroblast growth loop structures"
   ],
 
-  applications: [
-    "Synaptic plasticity and neuronal signaling research",
-    "FGF receptor and neurotrophic pathway studies",
-    "Neurocommunication and CNS research models",
-    "Peptide-based cognitive pathway investigation"
-  ],
+  content: {
 
-  appearance: "White lyophilized powder",
-  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
+    overviewTitle: "Product Overview",
+    overview: [
+      "Biopeptides FGL-S 10mg is a high-purity synthetic peptide developed for laboratory and scientific research applications.",
+      "Manufactured using advanced peptide synthesis technologies and validated through analytical testing, this peptide is intended for use in controlled research environments across Europe.",
+      "The compound is identified by CAS number 499993-62-3, ensuring accurate chemical identification and traceability within laboratory documentation."
+    ],
+
+    scientificBackgroundTitle: "Understanding FGL-S (Fibroblast Growth Loop)",
+    scientificBackground: [
+      "FGL-S is a synthetic peptide derived from a loop region associated with fibroblast growth-related protein structures.",
+      "In research environments, peptides like FGL-S are used as molecular tools to study cellular behaviour, protein interactions, and biochemical signaling pathways.",
+      "Due to its defined molecular structure, FGL-S is commonly studied in in-vitro experimental systems where controlled conditions allow precise observation of peptide-driven biological responses.",
+      "Researchers in European laboratories frequently incorporate peptides like FGL-S into experiments investigating neuronal communication and molecular signaling networks."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Peptide–protein interaction analysis",
+      "Synaptic signaling pathway investigation",
+      "FGF receptor-related molecular studies",
+      "Neurotrophic signaling pathway analysis",
+      "Cellular communication and neuronal network modeling"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Cellular and Molecular Biology Research",
+        text: "Used in experimental models investigating peptide-mediated signaling and cellular regulatory mechanisms."
+      },
+      {
+        title: "Protein Interaction Studies",
+        text: "Supports laboratory experiments examining peptide-protein binding interactions and receptor activity."
+      },
+      {
+        title: "Neurochemical Signaling Research",
+        text: "Applied in studies exploring neuronal communication pathways and synaptic plasticity mechanisms."
+      },
+      {
+        title: "Biochemical Pathway Analysis",
+        text: "Used in controlled experiments investigating intracellular signaling and pathway regulation."
+      },
+      {
+        title: "Peptide Stability and Structural Research",
+        text: "Included in peptide panels designed to evaluate peptide structure, stability, and biological activity."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Peptide Type: Synthetic neuroactive peptide",
+      "CAS Identifier: 499993-62-3",
+      "Molecular Formula: C71H116N20O25",
+      "Molecular Weight: 1649.8 g/mol",
+      "Structure: Complex peptide sequence derived from fibroblast growth protein domains",
+      "Form: Lyophilised powder"
+    ],
+
+    stabilityTitle: "Storage and Handling Guidelines",
+    stabilityPoints: [
+      "Store in a cool, dry laboratory environment",
+      "Maintain recommended storage temperature at −20°C",
+      "Protect from light and moisture",
+      "Avoid repeated freeze–thaw cycles",
+      "Handle using appropriate laboratory safety protocols"
+    ],
+
+    solubilityTitle: "Solubility and Laboratory Compatibility",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Mild acidic buffers",
+      "Selected organic analytical solvents"
+    ],
+
+    techSpecsTitle: "Product Specifications",
+    techSpecs: {
+      productName: "FGL-S (Fibroblast Growth Loop) 10mg",
+      brand: "BioPeptides",
+      cas: "499993-62-3",
+      quantity: "10 mg vial",
+      molecularFormula: "C71H116N20O25",
+      molecularWeight: "1649.8 g/mol",
+      purity: "≥99% (HPLC verified)",
+      form: "Lyophilised powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry",
+      classification: "Research use only"
+    },
+
+    validationTitle: "Manufacturing and Quality Control",
+    validationPoints: [
+      "Solid-phase peptide synthesis (SPPS) production",
+      "High-performance liquid chromatography (HPLC) purification",
+      "Analytical verification of peptide identity",
+      "Molecular weight confirmation",
+      "Batch-level purity verification ≥99%"
+    ],
+
+    regulatoryTitle: "Regulatory Status",
+    regulatoryText:
+      "Biopeptides FGL-S 10mg is supplied strictly for laboratory research use. This product is not approved for human consumption, veterinary use, clinical application, or therapeutic purposes. Responsibility for regulatory compliance lies with the purchasing institution or research laboratory.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is FGL-S 10mg used for?",
+        a: "FGL-S 10mg is used exclusively in laboratory and scientific research as a synthetic peptide. Researchers utilise it in controlled experimental environments for biochemical, molecular, and receptor-based studies. It is not intended for medical, diagnostic, or therapeutic use."
+      },
+      {
+        q: "What is the CAS number for FGL-S?",
+        a: "The CAS number for FGL-S (Fibroblast Growth Loop) is 499993-62-3. This number uniquely identifies the compound and is commonly used by researchers to verify chemical identity and sourcing."
+      },
+      {
+        q: "Is FGL-S approved for human consumption?",
+        a: "No. FGL-S is not approved for human or veterinary use. It is supplied strictly as a research chemical and must only be used in professional laboratory settings in accordance with applicable regulations."
+      },
+      {
+        q: "What purity level should I expect from FGL-S 10mg?",
+        a: "High-quality FGL-S is typically supplied at ≥99% purity, verified using HPLC analysis. This level of purity supports consistency and reliability in controlled research applications."
+      },
+      {
+        q: "Why does the peptide vial sometimes appear partially filled?",
+        a: "Peptides are measured by mass, not volume. During lyophilisation, a normal 2–3% density variation may occur, which can affect visual fill levels without changing the actual peptide quantity or purity."
+      },
+      {
+        q: "How should FGL-S be stored for research stability?",
+        a: "FGL-S should be stored in a cool, dry environment and protected from light and moisture. Proper storage helps maintain chemical stability over time in research settings."
+      },
+      {
+        q: "How can I verify the authenticity of FGL-S?",
+        a: "Authentic FGL-S should be supplied with batch-specific documentation, including analytical verification such as HPLC purity data and CAS number confirmation. Purchasing from an established research supplier is essential."
+      },
+      {
+        q: "Can FGL-S be shipped to European countries?",
+        a: "Yes, FGL-S can be shipped to many European countries, subject to local research chemical regulations. Buyers should ensure compliance with institutional and national guidelines before ordering."
+      }
+    ],
+   chemicalProperties: {
+  molecularFormula: "C14H22N4O9",
+  molecularWeight: "390.35",
+  monoisotopicMass: "390.13867829",
+  polarArea: "225",
+  complexity: "607",
+  xlogP: "-5.5",
+  heavyAtomCount: "27",
+  hydrogenBondDonorCount: "7",
+  hydrogenBondAcceptorCount: "10",
+  rotatableBondCount: "12",
+  cid: "219042",
+  inchi:
+    "InChI=1S/C14H22N4O9/c1-6(15)12(25)17-7(2-3-9(19)20)14(27)18-8(4-10(21)22)13(26)16-5-11(23)24/h6-8H,2-5,15H2,1H3,(H,16,26)(H,17,25)(H,18,27)(H,19,20)(H,21,22)(H,23,24)/t6-,7-,8-/m0/s1",
+  inchiKey: "HGHOBRRUMWJWCU-FXQIFTODSA-N",
+
+  canonicalSmiles:
+    "CC(C(=O)NC(CCC(=O)O)C(=O)NC(CC(=O)O)C(=O)NCC(=O)O)N",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)NCC(=O)O)N",
+
+  iupacName:
+    "(4S)-4-[[(2S)-2-aminopropanoyl]amino]-5-[[(2S)-3-carboxy-1-(carboxymethylamino)-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+}
+
+  }
 },
 "follistatin-315-1mg": {
   name: "Follistatin-315 1mg",
+  tagline: "Recombinant Regulatory Protein for Activin Binding and Cellular Signaling Research",
+  cas: "Not Assigned",
 
-  strength:
-    "Recombinant regulatory protein studied in myostatin inhibition, TGF-β signaling, and cellular growth pathway research models.",
+  strength: [
+    "Follistatin-315 1mg is a high-purity synthetic research peptide developed for advanced biochemical and molecular biology studies. Produced using precision solid-phase peptide synthesis (SPPS) and verified at ≥99% HPLC purity, it delivers consistent performance for controlled laboratory research.Trusted by research professionals across Europe, Bio-Peptides provides a secure way to buy peptides online with EU-friendly shipping, strict quality control, and research-only compliance."
+  ],
 
-  description:
-    "Follistatin-315 is a recombinant protein isoform investigated in laboratory research for its interaction with myostatin and activin signaling pathways within the TGF-β superfamily. In scientific models, it is studied for its role in cellular growth regulation, differentiation signaling, and protein-mediated pathway modulation. Supplied as a high-purity lyophilized recombinant protein for controlled molecular and cellular research applications.",
+  topDescription: {
+    p0: "Follistatin-315 1mg is a high-purity recombinant research protein developed for advanced molecular biology and biochemical studies.",
+    p1: "Manufactured using controlled protein synthesis and purification methods and verified with ≥99% HPLC purity, the compound provides consistent quality for reproducible research applications.",
+    p2: "Bio-Peptides supplies Follistatin-315 exclusively for laboratory and in-vitro scientific research, supporting research institutions across Europe seeking reliable peptide suppliers."
+  },
 
   components: [
-    "Recombinant protein for molecular and cellular research"
+    "Recombinant follistatin protein isoform (FST-315)"
   ],
 
-  applications: [
-    "Myostatin and activin signaling research",
-    "TGF-β pathway investigation",
-    "Cell growth and differentiation studies",
-    "Protein-based regulatory signaling research"
-  ],
+  content: {
 
-  appearance: "White lyophilized protein powder",
-  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
+    overviewTitle: "Product Overview",
+    overview: [
+      "Follistatin-315 (FST-315) is a naturally occurring glycoprotein isoform belonging to the follistatin family, widely studied for its interaction with activin proteins and related signaling molecules.",
+      "Within laboratory research environments, this protein is used to investigate cellular regulation mechanisms, signaling modulation pathways, and protein-protein interaction systems.",
+      "The 315-amino-acid isoform is one of the most extensively researched follistatin variants due to its biological relevance and stability in controlled experimental systems."
+    ],
+
+    scientificBackgroundTitle: "Understanding Follistatin-315",
+    scientificBackground: [
+      "Follistatin proteins function as regulatory molecules that bind to activin and related signaling proteins within the TGF-β superfamily.",
+      "Researchers frequently investigate follistatin isoforms to better understand cellular growth regulation, differentiation signaling pathways, and protein-mediated regulatory systems.",
+      "The FST-315 isoform is particularly valuable for laboratory studies examining regulatory protein behavior and signal modulation in cellular models.",
+      "Recombinant proteins like Follistatin-315 provide clearly defined molecular tools that enable controlled and reproducible biochemical research."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Activin binding and signaling inhibition studies",
+      "Myostatin interaction and regulatory protein research",
+      "TGF-β pathway modulation analysis",
+      "Protein-protein interaction investigations",
+      "Cellular growth regulation and differentiation signaling studies"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Cellular and Molecular Biology Research",
+        text: "Used to explore protein-mediated cellular signaling pathways and regulatory growth mechanisms."
+      },
+      {
+        title: "Protein Interaction Studies",
+        text: "Supports research analyzing activin binding and regulatory protein interactions."
+      },
+      {
+        title: "Growth Factor Regulation Research",
+        text: "Applied in experimental models examining signaling systems within the TGF-β pathway."
+      },
+      {
+        title: "Biochemical Assay Development",
+        text: "Used in receptor-binding experiments and controlled in-vitro biochemical assays."
+      },
+      {
+        title: "Comparative Isoform Research",
+        text: "Researchers compare follistatin isoforms to evaluate signaling behavior across protein variants."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Protein Type: Recombinant regulatory glycoprotein",
+      "Isoform: Follistatin-315 (FST-315)",
+      "Amino Acid Length: 315 amino acids",
+      "Structure: Recombinant protein isoform",
+      "Form: Lyophilized powder",
+      "CAS Identifier: Not assigned"
+    ],
+
+    stabilityTitle: "Storage and Handling Guidelines",
+    stabilityPoints: [
+      "Store lyophilized protein at −20°C for optimal stability",
+      "Avoid repeated freeze-thaw cycles",
+      "Protect from moisture and direct light exposure",
+      "Handle using appropriate sterile laboratory procedures",
+      "Reconstitute under controlled laboratory conditions"
+    ],
+
+    solubilityTitle: "Solubility and Laboratory Compatibility",
+    solubilityPoints: [
+      "Sterile laboratory buffers",
+      "Bacteriostatic water",
+      "Physiological saline solutions",
+      "Standard biochemical assay buffers"
+    ],
+
+    techSpecsTitle: "Product Specifications",
+    techSpecs: {
+      productName: "Follistatin-315 1mg",
+      brand: "Bio-Peptides",
+      synonym: "FST-315",
+      quantity: "1 mg vial",
+      purity: "≥99% (HPLC verified)",
+      form: "Lyophilized recombinant protein",
+      synthesis: "Recombinant protein expression and purification",
+      analytical: "HPLC, Mass Spectrometry",
+      molecularStructure: "Recombinant follistatin isoform",
+      classification: "Research use only"
+    },
+
+    validationTitle: "Manufacturing and Analytical Verification",
+    validationPoints: [
+      "Controlled recombinant protein expression",
+      "High-resolution purification processes",
+      "High-performance liquid chromatography (HPLC) purity verification",
+      "Mass spectrometry molecular confirmation",
+      "Batch-to-batch consistency validation"
+    ],
+
+    regulatoryTitle: "Regulatory Status",
+    regulatoryText:
+      "Follistatin-315 supplied by Bio-Peptides is intended strictly for laboratory research use only. This product is not approved for human consumption, veterinary use, medical treatment, or therapeutic development. Responsibility for regulatory compliance lies with the purchasing research institution.",
+
+    faqTitle: "Frequently Asked Questions",
+
+    faqItems: [
+      {
+        q: "What is Follistatin-315 used for in research?",
+        a: "Follistatin-315 is primarily used in laboratory research to study protein signaling, activin inhibition, and cellular regulation pathways. It is applied in controlled in-vitro environments for biochemical and molecular biology investigations."
+      },
+      {
+        q: "Is Follistatin-315 approved for human use?",
+        a: "No. Follistatin-315 is strictly classified as Research Use Only (RUO). It is not approved for human or veterinary use and must only be handled within professional laboratory research settings."
+      },
+      {
+        q: "Why do researchers prefer the 315 isoform of follistatin?",
+        a: "The 315 isoform is widely studied due to its stability and relevance in circulating biological systems. Researchers often choose it for comparative signaling studies and controlled experimental modeling."
+      },
+      {
+        q: "How pure is Bio-Peptides Follistatin-315?",
+        a: "Each batch of Follistatin-315 supplied by Bio-Peptides is tested to ≥99% purity using HPLC, ensuring high analytical accuracy and reproducibility for professional research applications."
+      },
+      {
+        q: "Can European laboratories buy this peptide online?",
+        a: "Yes. Bio-Peptides provides a secure platform for European laboratories to buy peptides online, with EU-compatible shipping, professional packaging, and compliance-focused labeling."
+      },
+      {
+        q: "How should Follistatin-315 be stored?",
+        a: "For best stability, Follistatin-315 should be stored at -20°C in a dry environment. Proper storage helps maintain molecular integrity and ensures reliable experimental outcomes."
+      },
+      {
+        q: "Is this product suitable for clinical or therapeutic research?",
+        a: "No. This product is intended solely for non-clinical, laboratory research. It is not suitable for clinical trials, therapeutic development, or diagnostic applications."
+      },
+      {
+        q: "Why choose Bio-Peptides over other peptide suppliers in Europe?",
+        a: "Bio-Peptides focuses on high-purity synthesis, analytical validation, EU-friendly logistics, and transparent research-only compliance making it a trusted source for researchers seeking the best peptides in Europe."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "N/A",
+      molecularWeight: " 34.7 kDa",
+      complexity: "N/A",
+      heavyAtomCount: "N/A",
+      hydrogenBondDonorCount: "N/A",
+      hydrogenBondAcceptorCount: "N/A",
+      rotatableBondCount: "N/A",
+      cid:"178101631"
+    }
+
+  }
 },
 "follistatin-344-1mg": {
   name: "Follistatin-344 1mg",
+  tagline: "Recombinant Regulatory Protein for Myostatin and Activin Signaling Research",
+  cas: "Not Assigned",
 
-  strength:
-    "Recombinant regulatory protein isoform studied in myostatin inhibition, activin binding, and TGF-β signaling pathway research models.",
+  strength: [
+    "Follistatin-344 1mg is a high-purity recombinant research protein developed for advanced biochemical and molecular biology studies. Produced through controlled recombinant protein expression and purification and verified at ≥98% HPLC purity, it delivers consistent performance for controlled laboratory research. Trusted by research professionals across Europe, Bio-Peptides provides a secure way to buy peptides online with EU-friendly shipping, strict quality control, and research-only compliance."
+  ],
 
-  description:
-    "Follistatin-344 is a recombinant protein isoform consisting of 344 amino acids and is widely investigated in laboratory research for its interaction with myostatin, activin, and related members of the TGF-β superfamily. In scientific research models, it is studied for its role in cellular growth regulation, differentiation signaling, and protein-mediated pathway modulation. Compared to shorter isoforms, Follistatin-344 is noted for its extended binding properties in controlled experimental environments. Supplied as a high-purity lyophilized recombinant protein for molecular and cellular research applications.",
+  topDescription: {
+    p0: "Follistatin-344 1mg is a high-purity recombinant regulatory protein used in advanced molecular biology and biochemical research.",
+    p1: "Manufactured using controlled recombinant protein expression and purification methods and verified with high analytical purity, the compound provides consistent quality for reproducible research applications.",
+    p2: "Bio-Peptides supplies Follistatin-344 exclusively for laboratory and in-vitro scientific research, supporting research institutions across Europe seeking reliable peptide suppliers."
+  },
 
   components: [
-    "Recombinant protein for molecular and cellular research"
+    "Recombinant follistatin protein isoform (FST-344)"
   ],
 
-  applications: [
-    "Myostatin and activin signaling research",
-    "TGF-β pathway investigation",
-    "Cell growth and differentiation studies",
-    "Protein-based regulatory signaling research"
-  ],
+  content: {
 
-  appearance: "White lyophilized protein powder",
-  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
+    overviewTitle: "Product Overview",
+    overview: [
+      "Follistatin-344 (FST-344) is a naturally occurring glycoprotein isoform belonging to the follistatin protein family and is widely studied for its interaction with myostatin, activin, and related members of the TGF-β signaling superfamily.",
+      "Within laboratory research environments, this protein is frequently used to investigate cellular growth regulation mechanisms, protein-mediated signaling pathways, and molecular interactions between regulatory growth factors.",
+      "The 344-amino-acid isoform represents the precursor form of follistatin and is commonly used in experimental models to study regulatory protein processing and signaling behavior."
+    ],
+
+    scientificBackgroundTitle: "Understanding Follistatin-344",
+    scientificBackground: [
+      "Follistatin proteins function as regulatory molecules that bind to activin and myostatin signaling proteins within the TGF-β superfamily.",
+      "Researchers frequently investigate follistatin isoforms to better understand cellular growth regulation, differentiation signaling pathways, and regulatory protein interaction networks.",
+      "The FST-344 isoform serves as the precursor molecule that can be processed into shorter circulating isoforms such as Follistatin-315.",
+      "Recombinant proteins like Follistatin-344 provide clearly defined molecular tools that enable controlled and reproducible biochemical and molecular biology research."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Myostatin binding and inhibition pathway studies",
+      "Activin interaction and regulatory signaling analysis",
+      "TGF-β pathway modulation research",
+      "Protein-protein interaction investigations",
+      "Cellular growth regulation and differentiation signaling studies"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Cellular and Molecular Biology Research",
+        text: "Used to explore regulatory protein signaling pathways and growth factor mediated cellular mechanisms."
+      },
+      {
+        title: "Protein Interaction Studies",
+        text: "Supports investigation of activin and myostatin binding interactions within signaling pathways."
+      },
+      {
+        title: "Growth Factor Regulation Research",
+        text: "Applied in experimental models examining signaling systems within the TGF-β pathway."
+      },
+      {
+        title: "Biochemical Assay Development",
+        text: "Used in receptor-binding experiments and controlled in-vitro biochemical assays."
+      },
+      {
+        title: "Comparative Isoform Research",
+        text: "Researchers compare follistatin isoforms such as FST-344 and FST-315 to evaluate regulatory signaling behavior."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Protein Type: Recombinant regulatory glycoprotein",
+      "Isoform: Follistatin-344 (FST-344)",
+      "Amino Acid Length: 344 amino acids",
+      "Structure: Recombinant protein isoform",
+      "Form: Lyophilized powder",
+      "CAS Identifier: Not assigned"
+    ],
+
+    stabilityTitle: "Storage and Handling Guidelines",
+    stabilityPoints: [
+      "Store lyophilized protein at −20°C for optimal stability",
+      "Avoid repeated freeze-thaw cycles",
+      "Protect from moisture and direct light exposure",
+      "Handle using appropriate sterile laboratory procedures",
+      "Reconstitute under controlled laboratory conditions"
+    ],
+
+    solubilityTitle: "Solubility and Laboratory Compatibility",
+    solubilityPoints: [
+      "Sterile laboratory buffers",
+      "Bacteriostatic water",
+      "Physiological saline solutions",
+      "Standard biochemical assay buffers"
+    ],
+
+    techSpecsTitle: "Product Specifications",
+    techSpecs: {
+      productName: "Follistatin-344 1mg",
+      brand: "Bio-Peptides",
+      synonym: "FST-344",
+      quantity: "1 mg vial",
+      purity: "≥98% (HPLC verified)",
+      form: "Lyophilized recombinant protein",
+      synthesis: "Recombinant protein expression and purification",
+      analytical: "HPLC, Mass Spectrometry",
+      molecularStructure: "Recombinant follistatin isoform",
+      classification: "Research use only"
+    },
+
+    validationTitle: "Manufacturing and Analytical Verification",
+    validationPoints: [
+      "Controlled recombinant protein expression",
+      "High-resolution purification processes",
+      "High-performance liquid chromatography (HPLC) purity verification",
+      "Mass spectrometry molecular confirmation",
+      "Batch-to-batch consistency validation"
+    ],
+
+    regulatoryTitle: "Regulatory Status",
+    regulatoryText:
+      "Follistatin-344 supplied by Bio-Peptides is intended strictly for laboratory research use only. This product is not approved for human consumption, veterinary use, medical treatment, or therapeutic development. Responsibility for regulatory compliance lies with the purchasing research institution.",
+
+    faqTitle: "Frequently Asked Questions",
+
+    faqItems: [
+      {
+        q: " What is Follistatin-344 used for in research?",
+        a: "Follistatin-344 by Biopeptides is used in scientific studies of muscle growth, tissue regeneration, and metabolic regulation. It inhibits myostatin to promote muscle cell differentiation and tissue repair."
+      },
+      {
+        q: "Can I buy Follistatin-344 online in Europe?",
+        a: "Yes, Biopeptides offers high-quality research-grade Follistatin-344 to European researchers. Trusted suppliers ensure purity, documentation, and safe delivery."
+      },
+      {
+        q: "What are the benefits of Follistatin-344?",
+        a: " Follistatin-344 supports research into muscle growth, regenerative medicine, and metabolic health, helping scientists explore therapies for muscular dystrophy, sarcopenia, and tissue repair."
+      },
+      {
+        q: "How should Follistatin-344 be stored?",
+        a: "Store at -20°C, reconstitute with sterile water or buffer, and avoid repeated freeze-thaw cycles to maintain activity and stability."
+      },
+      {
+        q: "Is Follistatin-344 legal to buy in Europe?",
+        a: " Yes, Follistatin-344 by Biopeptides is legal for research purposes. It is not intended for human consumption and should be used only in laboratory studies."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "N/A",
+      molecularWeight: "3780 g/mol",
+      complexity: "N/A",
+      heavyAtomCount: "N/A",
+      hydrogenBondDonorCount: "N/A",
+      hydrogenBondAcceptorCount: "N/A",
+      rotatableBondCount: "N/A",
+      cid: "178101631"
+    }
+
+  }
 },
-"foxo4-dri-10mg-en": {
+"foxo4-dri-10mg-proxofim": {
   name: "FOXO4-DRI (Proxofim) 10mg",
+  tagline: "Cellular Senescence and FOXO4–p53 Interaction Research Peptide",
+  cas: "N/A",
 
-  strength:
-    "Synthetic research peptide studied in FOXO4–p53 interaction, cellular senescence signaling, and transcription-factor pathway models.",
+  strength: [
+    "FOXO4 DRI 10 mg Proxofim by Biopeptides is a cutting-edge research peptide designed for advanced studies in cellular senescence, apoptosis, and aging biology. Trusted by laboratories across Europe, including Germany, France, Italy, Spain, and the Netherlands, this high-purity peptide provides reliable results for preclinical research. Ideal for exploring senescent cell removal, p53-mediated apoptosis, and tissue regeneration mechanisms, FOXO4 DRI supports meaningful scientific discoveries. Biopeptides delivers top-quality peptides for researchers who want to buy peptides online with confidence. Unlock the potential of your laboratory studies with FOXO4 DRI, one of the best peptides for modern molecular biology research."
+  ],
 
-  description:
-    "FOXO4-DRI (also known as Proxofim) is a synthetic peptide designed for laboratory research into cellular senescence and transcription-factor signaling mechanisms. In scientific models, it is studied for its role in disrupting the interaction between FOXO4 and p53, enabling investigation into senescent cell behavior, apoptosis signaling, and age-associated cellular pathways. Supplied as a high-purity lyophilized peptide for controlled in vitro and molecular research applications.",
+  topDescription: {
+    p0: "FOXO4-DRI 10mg Proxofim by Biopeptides is a cutting-edge synthetic peptide developed for advanced research into cellular aging and senescence signaling.",
+    p1: "Engineered with a retro-inverso peptide design using D-amino acids, FOXO4-DRI is resistant to enzymatic degradation while maintaining biological activity in controlled laboratory experiments.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Belgium, Sweden, Austria, and other EU regions utilize FOXO4-DRI to investigate apoptosis pathways, p53 signaling, and age-associated molecular mechanisms."
+  },
 
   components: [
-    "Synthetic research peptide for transcription-factor pathway studies"
+    "FOXO4-DRI (Proxofim) – Synthetic retro-inverso peptide derived from the FOXO4 transcription factor sequence"
   ],
 
-  applications: [
-    "Cellular senescence pathway research",
-    "FOXO4–p53 interaction studies",
-    "Transcription-factor signaling investigation",
-    "Cell-cycle and apoptosis signaling models"
-  ],
+  content: {
+
+    overviewTitle: "FOXO4-DRI Research Peptide Overview",
+    overview: [
+      "FOXO4-DRI (Proxofim) from Biopeptides is a laboratory-grade synthetic peptide developed specifically for scientific research into cellular senescence and aging biology.",
+      "This peptide is engineered to disrupt the interaction between the transcription factor FOXO4 and the tumor suppressor protein p53, a key regulatory pathway involved in senescent cell survival.",
+      "By enabling controlled disruption of this interaction in experimental models, FOXO4-DRI allows researchers to investigate apoptosis signaling and cellular aging mechanisms."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background of FOXO4-DRI",
+    scientificBackground: [
+      "FOXO4 belongs to the FOXO family of transcription factors responsible for regulating cellular stress responses, metabolism, and survival signaling.",
+      "In senescent cells, FOXO4 binds to the tumor suppressor protein p53 and prevents it from initiating apoptosis.",
+      "FOXO4-DRI was designed to disrupt this interaction, allowing p53 to activate programmed cell death in senescent cells during laboratory studies.",
+      "This mechanism provides a valuable research model for investigating aging biology, cell-cycle regulation, and the role of senescent cells in tissue function."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Disruption of FOXO4–p53 protein interaction",
+      "Activation of p53-mediated apoptosis pathways",
+      "Modeling senescent cell survival and removal mechanisms",
+      "Analysis of transcription-factor signaling networks",
+      "Investigation of age-related cellular stress responses"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Cellular Senescence Studies",
+        text: "FOXO4-DRI is widely used in experimental models to investigate how senescent cells accumulate and influence tissue function."
+      },
+      {
+        title: "Apoptosis Signaling Research",
+        text: "Supports studies exploring programmed cell death pathways and p53-mediated apoptosis in aging or damaged cells."
+      },
+      {
+        title: "Aging Biology and Longevity Research",
+        text: "Used in controlled laboratory experiments to analyze mechanisms associated with cellular aging and regenerative processes."
+      },
+      {
+        title: "Inflammation and SASP Investigations",
+        text: "Allows researchers to study the senescence-associated secretory phenotype (SASP) and its effects on tissue inflammation."
+      },
+      {
+        title: "Transcription-Factor Pathway Analysis",
+        text: "Suitable for molecular experiments examining FOXO transcription factor signaling and gene regulation."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Synthetic retro-inverso peptide",
+      "Structure: Linear peptide with D-amino acid configuration",
+      "Research Name: FOXO4-DRI (Proxofim)",
+      "Form: Lyophilized peptide powder",
+      "Design: Derived from FOXO4 transcription-factor interaction sequence",
+      "Stability: Enhanced resistance to enzymatic degradation"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Supplied as a lyophilized peptide for long-term storage stability",
+      "Recommended storage temperature: −20°C",
+      "Protect from humidity and direct light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Sterile bacteriostatic water",
+      "Buffered aqueous solutions",
+      "Sterile saline solutions",
+      "Phosphate-buffered saline (PBS)",
+      "Analytical-grade laboratory buffers"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "FOXO4-DRI (Proxofim) 10mg",
+      brand: "Biopeptides",
+      cas: "N/A",
+      purity: "≥99% (HPLC validated)",
+      unitSize: "10 mg",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry",
+      molecularStructure: "Retro-inverso synthetic peptide",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity verification",
+      "Mass Spectrometry molecular identity confirmation",
+      "Batch-to-batch consistency validation",
+      "Quality control testing for research reliability",
+      "Analytical documentation available for laboratory records"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "FOXO4-DRI (Proxofim) 10mg is supplied strictly for laboratory research and scientific investigation. It is not approved for human consumption, veterinary use, pharmaceutical treatment, cosmetic formulation, or nutritional applications. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support institutional research documentation and compliance requirements.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is FOXO4-DRI used for in research?",
+        a: "FOXO4-DRI is used in laboratory studies investigating cellular senescence, apoptosis signaling, and FOXO4–p53 interaction pathways."
+      },
+      {
+        q: "How does FOXO4-DRI work in experimental models?",
+        a: "It disrupts the interaction between the FOXO4 transcription factor and p53, allowing researchers to analyze apoptosis signaling in senescent cells."
+      },
+      {
+        q: "Why is FOXO4-DRI important in aging research?",
+        a: "The peptide enables investigation into the role of senescent cells in aging and tissue function, helping scientists study molecular pathways associated with longevity."
+      },
+      {
+        q: "What storage conditions are recommended?",
+        a: "Store the lyophilized peptide at −20°C and protect it from moisture and light. Avoid repeated freeze–thaw cycles."
+      },
+      {
+        q: "Is FOXO4-DRI approved for therapeutic use?",
+        a: "No. FOXO4-DRI is intended strictly for laboratory research and is not approved for clinical or therapeutic applications."
+      }
+    ],
+       chemicalProperties: {
+  molecularFormula: "C228H388N86O64",
+  molecularWeight: "5358",
+  monoisotopicMass: "5354.9750124",
+  polarArea: "2530",
+  complexity: "13500",
+  xlogP: "-34.1",
+  heavyAtomCount: "378",
+  hydrogenBondDonorCount: "92",
+  hydrogenBondAcceptorCount: "79",
+  rotatableBondCount: "194",
+  cid: "168431240",
+  inchi:
+    "InChI=1S/C228H388N86O64/c1-16-115(9)174(308-201(361)145(70-76-171(331)332)295-207(367)155(109-316)304-180(340)119(13)276-210(370)158-58-38-92-311(158)216(376)147(71-77-172(333)334)298-196(356)132(47-23-27-81-232)284-192(352)137(53-33-87-264-224(249)250)290-203(363)149(98-114(7)8)303-214(374)176(121(15)319)310-181(341)126(233)96-112(3)4)212(372)277-120(14)177(337)280-141(66-72-162(234)321)200(360)306-157(111-318)209(369)309-175(116(10)17-2)213(373)302-148(97-113(5)6)204(364)293-144(69-75-170(329)330)185(345)274-117(11)178(338)299-150(99-122-62-64-124(320)65-63-122)205(365)307-156(110-317)208(368)294-143(68-74-164(236)323)199(359)301-152(101-165(237)324)183(343)272-106-169(328)279-151(100-123-103-269-127-43-19-18-42-125(123)127)202(362)275-118(12)179(339)300-153(102-166(238)325)206(366)291-138(54-34-88-265-225(251)252)193(353)288-139(55-35-89-266-226(253)254)197(357)305-154(108-315)184(344)271-104-167(326)270-105-168(327)278-129(44-20-24-78-229)186(346)297-146(57-37-91-268-228(257)258)215(375)313-94-40-60-160(313)218(378)314-95-41-61-161(314)217(377)312-93-39-59-159(312)211(371)296-140(56-36-90-267-227(255)256)195(355)287-134(50-30-84-261-221(243)244)190(350)286-136(52-32-86-263-223(247)248)194(354)292-142(67-73-163(235)322)198(358)289-135(51-31-85-262-222(245)246)191(351)285-133(49-29-83-260-220(241)242)189(349)283-131(46-22-26-80-231)188(348)282-130(45-21-25-79-230)187(347)281-128(48-28-82-259-219(239)240)182(342)273-107-173(335)336/h18-19,42-43,62-65,103,112-121,126,128-161,174-176,269,315-320H,16-17,20-41,44-61,66-102,104-111,229-233H2,1-15H3,(H2,234,321)(H2,235,322)(H2,236,323)(H2,237,324)(H2,238,325)(H,270,326)(H,271,344)(H,272,343)(H,273,342)(H,274,345)(H,275,362)(H,276,370)(H,277,372)(H,278,327)(H,279,328)(H,280,337)(H,281,347)(H,282,348)(H,283,349)(H,284,352)(H,285,351)(H,286,350)(H,287,355)(H,288,353)(H,289,358)(H,290,363)(H,291,366)(H,292,354)(H,293,364)(H,294,368)(H,295,367)(H,296,371)(H,297,346)(H,298,356)(H,299,338)(H,300,339)(H,301,359)(H,302,373)(H,303,374)(H,304,340)(H,305,357)(H,306,360)(H,307,365)(H,308,361)(H,309,369)(H,310,341)(H,329,330)(H,331,332)(H,333,334)(H,335,336)(H4,239,240,259)(H4,241,242,260)(H4,243,244,261)(H4,245,246,262)(H4,247,248,263)(H4,249,250,264)(H4,251,252,265)(H4,253,254,266)(H4,255,256,267)(H4,257,258,268)/t115-,116-,117-,118-,119-,120-,121+,126-,128+,129+,130+,131+,132-,133+,134+,135+,136+,137-,138-,139-,140+,141-,142+,143-,144-,145-,146+,147-,148-,149-,150-,151-,152-,153-,154-,155-,156-,157-,158-,159?,160+,161?,174-,175-,176-/m1/s1",
+  inchiKey: "WVZCDZFJLXBWHG-QLCXAPFOSA-N",
+
+  canonicalSmiles:
+    "CCC(C)C(C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(C(C)CC)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)O)C(=O)NC(C)C(=O)NC(CC1=CC=C(C=C1)O)C(=O)NC(CO)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)N)C(=O)NCC(=O)NC(CC2=CNC3=CC=CC=C32)C(=O)NC(C)C(=O)NC(CC(=O)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CO)C(=O)NCC(=O)NCC(=O)NC(CCCCN)C(=O)NC(CCCNC(=N)N)C(=O)N4CCCC4C(=O)N5CCCC5C(=O)N6CCCC6C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(CO)NC(=O)C(C)NC(=O)C7CCCN7C(=O)C(CCC(=O)O)NC(=O)C(CCCCN)NC(=O)C(CCCNC(=N)N)NC(=O)C(CC(C)C)NC(=O)C(C(C)O)NC(=O)C(CC(C)C)N",
+
+  isomericSmiles:
+    "CC[C@@H](C)[C@H](C(=O)N[C@H](C)C(=O)N[C@H](CCC(=O)N)C(=O)N[C@H](CO)C(=O)N[C@H]([C@H](C)CC)C(=O)N[C@H](CC(C)C)C(=O)N[C@H](CCC(=O)O)C(=O)N[C@H](C)C(=O)N[C@H](CC1=CC=C(C=C1)O)C(=O)N[C@H](CO)C(=O)N[C@H](CCC(=O)N)C(=O)N[C@H](CC(=O)N)C(=O)NCC(=O)N[C@H](CC2=CNC3=CC=CC=C32)C(=O)N[C@H](C)C(=O)N[C@H](CC(=O)N)C(=O)N[C@H](CCCNC(=N)N)C(=O)N[C@H](CCCNC(=N)N)C(=O)N[C@H](CO)C(=O)NCC(=O)NCC(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N4CCC[C@H]4C(=O)N5CCCC5C(=O)N6CCCC6C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCNC(=N)N)C(=O)NCC(=O)O)NC(=O)[C@@H](CCC(=O)O)NC(=O)[C@@H](CO)NC(=O)[C@@H](C)NC(=O)[C@H]7CCCN7C(=O)[C@@H](CCC(=O)O)NC(=O)[C@@H](CCCCN)NC(=O)[C@@H](CCCNC(=N)N)NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H]([C@H](C)O)NC(=O)[C@@H](CC(C)C)N",
+
+  iupacName:
+    "(4R)-5-[[(2R)-1-[[(2R)-1-[[(2R)-1-[[(2R)-5-amino-1-[[(2R)-4-amino-1-[[2-[[(2R)-1-[[(2R)-1-[[(2R)-4-amino-1-[[(2R)-1-[[(2R)-1-[[(2R)-1-[[2-[[2-[[(2S)-6-amino-1-[[(2S)-1-[(2S)-2-[2-[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-6-amino-1-[[(2S)-5-carbamimidamido-1-(carboxymethylamino)-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-2-oxoethyl]amino]-2-oxoethyl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-1,4-dioxobutan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-4-[[(2R)-2-[[(2R,3R)-2-[[(2R)-2-[[(2R)-5-amino-2-[[(2R)-2-[[(2R,3R)-2-[[(2R)-2-[[(2R)-2-[[(2R)-2-[[(2R)-1-[(2R)-2-[[(2R)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2R,3S)-2-[[(2R)-2-amino-4-methylpentanoyl]amino]-3-hydroxybutanoyl]amino]-4-methylpentanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-4-carboxybutanoyl]pyrrolidine-2-carbonyl]amino]propanoyl]amino]-3-hydroxypropanoyl]amino]-4-carboxybutanoyl]amino]-3-methylpentanoyl]amino]propanoyl]amino]-5-oxopentanoyl]amino]-3-hydroxypropanoyl]amino]-3-methylpentanoyl]amino]-4-methylpentanoyl]amino]-5-oxopentanoic acid"
+}
+  },
 
   appearance: "White lyophilized powder",
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use."
 },
-"cjc1295-ipamorelin-12mg-blend-en": {
+"fragment-modified-grf-ipamorelin-12mg-blend": {
   name: "Fragment CJC-1295 + Ipamorelin Blend 12mg",
 
   strength:
@@ -4925,23 +7383,179 @@ export default {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use."
 },
-"cjc1295-ipamorelin-12mg-blend": {
+"fragment-modified-grf-ipamorelin-12mg-blend": {
   name: "Fragment CJC-1295 + Ipamorelin Blend 12mg",
-  strength: "Dual-peptide research blend studied for growth hormone–related receptor signaling and endocrine pathway interaction models.",
-  description: "This research blend combines Fragment CJC-1295 (MOD GRF 1-29), a growth hormone–releasing hormone analog studied in pituitary signaling models, with Ipamorelin, a selective growth hormone secretagogue receptor (GHS-R) agonist investigated in endocrine pathway research. In laboratory settings, this blend is used to explore synergistic peptide interactions, receptor-mediated signaling, and peptide-based endocrine research models. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
+  tagline: "Triple-Peptide Growth Hormone Signaling Research Blend",
+  cas: "66004-57-7 / 446262-90-4 / 170851-70-4",
+
+  strength: [
+    "Fragment CJC-1295 + Ipamorelin Blend 12mg is a premium research-grade peptide formulation combining Fragment 6 mg (CAS 66004-57-7), CJC-1295 no DAC 3 mg (CAS 446262-90-4), and Ipamorelin 3 mg (CAS 170851-70-4). Manufactured using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC and Mass Spectrometry, this triple-peptide blend provides ≥99% purity and exceptional molecular stability for advanced endocrine signaling and growth hormone pathway research."
+  ],
+
+  topDescription: {
+    p0: "Fragment CJC-1295 + Ipamorelin Blend 12 mg by Biopeptides is a high-purity research peptide blend formulated for advanced laboratory studies in growth hormone signaling, protein synthesis, and cellular regeneration.",
+    p1: "This formulation combines Fragment 6 mg (CAS 66004-57-7), CJC-1295 no DAC 3 mg (CAS 446262-90-4), and Ipamorelin 3 mg (CAS 170851-70-4) to support reliable and reproducible experimental research.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Sweden, Belgium, Austria, and other EU regions rely on Biopeptides for validated peptide blends designed for biochemical and molecular pathway investigation."
+  },
+
   components: [
-    "Fragment CJC-1295 (MOD GRF 1-29)",
-    "Ipamorelin"
+    "Fragment 6 mg – CAS 66004-57-7",
+    "CJC-1295 no DAC – CAS 446262-90-4",
+    "Ipamorelin – CAS 170851-70-4"
   ],
-  applications: [
-    "Endocrine and pituitary signaling research",
-    "Growth hormone receptor pathway studies",
-    "Peptide–receptor interaction investigation",
-    "Synergistic peptide signaling research"
-  ],
+
+  content: {
+
+    overviewTitle: "Triple-Peptide Research Compound Overview",
+    overview: [
+      "Fragment CJC-1295 + Ipamorelin Blend 12mg from Biopeptides is a laboratory-grade peptide formulation developed for advanced endocrine and molecular signaling research.",
+      "This blend integrates three peptides with complementary signaling mechanisms that allow researchers to study growth hormone–related pathways and receptor interactions.",
+      "By combining Fragment 6 mg, CJC-1295 no DAC, and Ipamorelin in a single compound, laboratories can analyze coordinated peptide signaling in controlled experimental environments."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background of the Peptide Blend",
+    scientificBackground: [
+      "CJC-1295 no DAC is a truncated analog of growth hormone–releasing hormone (GHRH) used in research to stimulate growth hormone release pathways.",
+      "Ipamorelin is a selective ghrelin receptor agonist that activates growth hormone secretagogue receptors (GHS-R), supporting studies of endocrine signaling and receptor interactions.",
+      "Fragment 6 mg provides structural stability to the peptide blend and enhances molecular integrity in laboratory conditions.",
+      "Together, these peptides provide researchers with a robust experimental tool for studying growth hormone dynamics and cellular signaling."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Activation of growth hormone–releasing hormone receptor signaling",
+      "Selective stimulation of ghrelin receptor (GHS-R) pathways",
+      "Investigation of coordinated peptide–receptor signaling networks",
+      "Analysis of downstream protein synthesis pathways",
+      "Evaluation of metabolic and cellular growth signaling responses"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Growth Hormone Pathway Studies",
+        text: "Used in experimental models to analyze endocrine signaling mechanisms that regulate growth hormone release and receptor interactions."
+      },
+      {
+        title: "Cellular Regeneration Research",
+        text: "Supports studies exploring cellular proliferation, regeneration pathways, and tissue growth models in controlled laboratory environments."
+      },
+      {
+        title: "Protein Synthesis and Metabolic Research",
+        text: "Applied in biochemical experiments examining protein synthesis pathways and metabolic regulation processes."
+      },
+      {
+        title: "Receptor Binding Studies",
+        text: "Allows researchers to investigate peptide binding affinity and receptor activation across endocrine signaling systems."
+      },
+      {
+        title: "Biochemical Assays and Molecular Experiments",
+        text: "Suitable for in vitro and ex vivo assays studying peptide signaling, cellular metabolism, and hormonal pathway modulation."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Triple synthetic peptide research blend",
+      "Structure: Linear synthetic peptides",
+      "CAS Identifiers: 66004-57-7, 446262-90-4, 170851-70-4",
+      "Form: Lyophilized peptide powder blend",
+      "Molecular Weight: Sequence-dependent",
+      "Stability: High when stored under recommended laboratory conditions"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Supplied as a lyophilized peptide blend for long-term stability",
+      "Recommended storage temperature: −20°C",
+      "Protect from humidity and direct light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Sterile bacteriostatic water",
+      "Buffered aqueous solutions",
+      "Sterile saline solutions",
+      "Phosphate-buffered saline (PBS)",
+      "Analytical-grade laboratory buffers"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Fragment CJC-1295 + Ipamorelin Blend 12mg",
+      brand: "Biopeptides",
+      cas: "66004-57-7 / 446262-90-4 / 170851-70-4",
+      purity: "≥99% (HPLC validated)",
+      unitSize: "12 mg blend",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry",
+      molecularStructure: "Linear synthetic peptides",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-Performance Liquid Chromatography (HPLC) purity verification",
+      "Mass Spectrometry molecular identity confirmation",
+      "Batch-to-batch consistency validation",
+      "Quality control testing for research reliability",
+      "Analytical documentation available for laboratory records"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "Fragment CJC-1295 + Ipamorelin Blend 12mg is supplied strictly for laboratory research and scientific investigation. It is not approved for human consumption, veterinary use, pharmaceutical treatment, cosmetic formulation, or nutritional applications. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support institutional research documentation and compliance requirements.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is Fragment CJC-1295 + Ipamorelin Blend used for in research?",
+        a: "The blend is used in laboratory studies to investigate growth hormone pathways, protein synthesis, receptor signaling, and cellular regeneration mechanisms."
+      },
+      {
+        q: "What are the CAS numbers for the peptides in this blend?",
+        a: "Fragment 6 mg – 66004-57-7, CJC-1295 no DAC – 446262-90-4, and Ipamorelin – 170851-70-4."
+      },
+      {
+        q: "Can laboratories in Europe purchase this peptide blend online?",
+        a: "Yes. Biopeptides supplies this research peptide blend to laboratories across Germany, France, Italy, Spain, the Netherlands, and other EU regions."
+      },
+      {
+        q: "What storage conditions are recommended?",
+        a: "Store the lyophilized peptide blend at −20°C and protect it from moisture and light exposure."
+      },
+      {
+        q: "Is this product approved for therapeutic use?",
+        a: "No. The product is intended strictly for laboratory research and scientific investigation."
+      },
+      {
+        q: "How is purity verified?",
+        a: "Purity ≥99% is verified through HPLC analysis and mass spectrometry validation."
+      },
+      {
+        q: "Why choose Biopeptides research materials?",
+        a: "Biopeptides provides high-purity peptides, validated analytical documentation, and reliable supply for laboratories across Europe."
+      }
+    ],
+      chemicalProperties: {
+      molecularFormula: "N/A",
+      molecularWeight: "3780 g/mol",
+      complexity: "N/A",
+      heavyAtomCount: "N/A",
+      hydrogenBondDonorCount: "N/A",
+      hydrogenBondAcceptorCount: "N/A",
+      rotatableBondCount: "N/A",
+      cid: "178101631"
+    }
+  },
+
   appearance: "White lyophilized powder blend",
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
 },
 "mod-grf-ipamorelin-12mg-blend": {
   name: "Fragment Modified GRF + Ipamorelin Blend 12mg",
@@ -4967,58 +7581,376 @@ export default {
   researchStatus: "For laboratory research use only. Not for human or veterinary use."
 },
 "ghk-cu-copper-tripeptide": {
-  name: "GHK-Cu (Copper Tripeptide)",
+  name: "GHK-Cu (Copper Tripeptide-1)",
+  tagline: "Copper-Binding Tripeptide for Cellular Signaling and Extracellular Matrix Research",
+  cas: "49557-75-7",
 
-  strength:
-    "Naturally occurring copper-binding tripeptide studied extensively in dermal signaling, extracellular matrix interaction, and cosmetic peptide research models.",
-
-  description:
-    "GHK-Cu is a naturally occurring copper tripeptide composed of glycine, histidine, and lysine complexed with copper. In laboratory and cosmetic research models, it is widely studied for its interaction with dermal signaling pathways, extracellular matrix components, and peptide–metal complex stability. GHK-Cu is a foundational compound in cosmetic peptide science and is commonly used in topical formulation, skin biology, and peptide–copper interaction research. Supplied as a high-purity research-grade material.",
-
-  applications: [
-    "Dermal signaling and skin biology research",
-    "Extracellular matrix interaction studies",
-    "Cosmetic peptide formulation research",
-    "Peptide–copper complex stability analysis"
+  strength: [
+    "GHK-Cu (Copper Tripeptide-1) is a high-purity research peptide developed for advanced biochemical and molecular biology studies. Produced using precision solid-phase peptide synthesis (SPPS) and purified to ≥99% HPLC purity, this copper-binding tripeptide provides reliable molecular accuracy and reproducibility for laboratory research. BioPeptides enables research institutions across Europe to buy peptides online with confidence through verified quality control, EU-compatible shipping, and strict research-only compliance."
   ],
 
-  appearance: "Blue crystalline powder",
-  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
-  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
+  topDescription: {
+    p0: "GHK-Cu (Copper Tripeptide-1) is a naturally occurring copper-binding tripeptide widely studied for its role in cellular signaling and extracellular matrix regulation.",
+    p1: "Manufactured using precision peptide synthesis and purified to ≥99% HPLC, GHK-Cu provides consistent molecular stability for controlled laboratory studies.",
+    p2: "BioPeptides supplies GHK-Cu exclusively for laboratory and biochemical research, supporting scientists across Europe seeking reliable peptide suppliers."
+  },
+
+  components: [
+    "GHK-Cu Copper Tripeptide Complex (Glycine–Histidine–Lysine bound to copper ion)"
+  ],
+
+  content: {
+
+    overviewTitle: "Product Overview",
+    overview: [
+      "GHK-Cu (Copper Tripeptide-1) is a naturally occurring copper-binding peptide composed of glycine, histidine, and lysine complexed with a copper ion.",
+      "In laboratory research environments, this peptide is studied for its involvement in cellular communication pathways, extracellular matrix regulation, and biochemical signaling processes.",
+      "Because of its stable peptide–metal complex structure, GHK-Cu is frequently used as a model compound for studying copper-dependent biochemical mechanisms."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background of GHK-Cu",
+    scientificBackground: [
+      "Copper-binding peptides like GHK-Cu play important roles in biological systems by transporting copper ions and modulating biochemical signaling pathways.",
+      "Researchers study GHK-Cu to investigate how peptide–metal complexes influence protein expression, cellular communication, and extracellular matrix regulation.",
+      "Within experimental models, GHK-Cu has been used to analyze metalloprotein interactions and copper-dependent enzymatic activity.",
+      "These properties make Copper Tripeptide-1 a widely studied compound in peptide chemistry and molecular biology research."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Copper ion binding and transport studies",
+      "Cellular signaling pathway investigation",
+      "Extracellular matrix interaction analysis",
+      "Metalloprotein regulation studies",
+      "Peptide–metal complex stability research"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Cellular Signaling Research",
+        text: "Used in laboratory studies to investigate cellular communication pathways and biochemical response signaling."
+      },
+      {
+        title: "Extracellular Matrix Studies",
+        text: "Applied in research analyzing collagen-related signaling pathways and extracellular matrix structure regulation."
+      },
+      {
+        title: "Protein Expression Analysis",
+        text: "Supports biochemical experiments studying protein expression, regulation, and degradation pathways."
+      },
+      {
+        title: "Metalloprotein Interaction Research",
+        text: "Used in laboratory models examining copper-dependent protein interactions and enzymatic activity."
+      },
+      {
+        title: "Biochemical and Molecular Studies",
+        text: "GHK-Cu is suitable for in vitro biochemical assays investigating peptide–metal complexes and molecular signaling systems."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Copper-binding tripeptide complex",
+      "Amino Acid Composition: Glycine–Histidine–Lysine",
+      "CAS Identifier: 49557-75-7",
+      "Molecular Formula: C14H24N6O4",
+      "Molecular Weight: ~340.4 g/mol",
+      "Structure: Peptide–metal complex",
+      "Form: Lyophilized powder"
+    ],
+
+    stabilityTitle: "Storage and Handling Guidelines",
+    stabilityPoints: [
+      "Store lyophilized peptide at −20°C for optimal stability",
+      "Avoid repeated freeze-thaw cycles",
+      "Protect from moisture and direct light exposure",
+      "Handle using sterile laboratory procedures",
+      "Reconstitute under controlled laboratory conditions"
+    ],
+
+    solubilityTitle: "Solubility and Laboratory Compatibility",
+    solubilityPoints: [
+      "Sterile laboratory buffers",
+      "Bacteriostatic water",
+      "Physiological saline solutions",
+      "Standard biochemical assay buffers"
+    ],
+
+    techSpecsTitle: "Product Specifications",
+    techSpecs: {
+      productName: "GHK-Cu (Copper Tripeptide-1)",
+      brand: "BioPeptides",
+      cas: "49557-75-7",
+      quantity: "Research vial",
+      purity: "≥99% (HPLC verified)",
+      form: "Lyophilized peptide powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry",
+      molecularStructure: "Copper-binding tripeptide complex",
+      classification: "Research use only"
+    },
+
+    validationTitle: "Manufacturing and Analytical Verification",
+    validationPoints: [
+      "Precision peptide synthesis using SPPS",
+      "High-performance liquid chromatography (HPLC) purity verification",
+      "Mass spectrometry molecular confirmation",
+      "Batch-to-batch consistency validation",
+      "Stability testing for research reliability"
+    ],
+
+    regulatoryTitle: "Regulatory Status",
+    regulatoryText:
+      "GHK-Cu supplied by BioPeptides is intended strictly for laboratory and cosmetic research use only. This compound is not approved for human consumption, veterinary use, medical treatment, or therapeutic development. Compliance responsibility remains with the purchasing research institution.",
+
+    faqTitle: "Frequently Asked Questions",
+
+    faqItems: [
+      {
+        q: "What is GHK-Cu used for in research?",
+        a: "GHK-Cu is used in laboratory research to study cellular signaling, extracellular matrix interactions, protein expression pathways, and copper-dependent biochemical mechanisms."
+      },
+      {
+        q: "What is the CAS number for GHK-Cu?",
+        a: "The official CAS number for Copper Tripeptide-1 (GHK-Cu) is 49557-75-7, which ensures compound identification and traceability in scientific research."
+      },
+      {
+        q: "Can European laboratories buy GHK-Cu online?",
+        a: "Yes. BioPeptides supplies GHK-Cu to research institutions across Europe including Germany, France, Italy, Spain, the Netherlands, Sweden, Belgium, and Austria."
+      },
+      {
+        q: "Is GHK-Cu approved for human or veterinary use?",
+        a: "No. GHK-Cu is classified strictly as Research Use Only (RUO) and is not approved for human or veterinary applications."
+      },
+      {
+        q: "How pure is BioPeptides GHK-Cu?",
+        a: "Each batch is purified to ≥99% HPLC purity to ensure molecular accuracy and reproducibility for laboratory research."
+      },
+      {
+        q: "How should GHK-Cu be stored?",
+        a: "GHK-Cu should be stored at -20°C in a dry environment and protected from repeated freeze-thaw cycles to maintain stability."
+      },
+      {
+        q: "Why is CAS verification important for peptides?",
+        a: "CAS numbers ensure chemical identity and traceability, allowing researchers to verify compounds and maintain consistency across experiments."
+      },
+      {
+        q: "Why choose BioPeptides for research peptides?",
+        a: "BioPeptides provides high-purity peptides, verified CAS documentation, EU-friendly shipping, and transparent research-only compliance trusted by European laboratories."
+      }
+    ],
+
+    chemicalProperties: {
+  molecularFormula: "C14H23CuN6O4+",
+  molecularWeight: "402.92",
+  monoisotopicMass: "402.107675",
+  polarArea: "179",
+  complexity: "428",
+  xlogP: "N/A",
+  heavyAtomCount: "25",
+  hydrogenBondDonorCount: "5",
+  hydrogenBondAcceptorCount: "7",
+  rotatableBondCount: "10",
+  cid: "71587328",
+  inchi:
+    "InChI=1S/C14H24N6O4.Cu/c15-4-2-1-3-10(14(23)24)20-13(22)11(19-12(21)6-16)5-9-7-17-8-18-9;/h7-8,10-11H,1-6,15-16H2,(H,17,18)(H,19,21)(H,20,22)(H,23,24);/q;+2/p-1/t10-,11-;/m0./s1",
+  inchiKey: "NZWIFMYRRCMYMN-ACMTZBLWSA-M",
+
+  canonicalSmiles:
+    "C1=C(NC=N1)CC(C(=O)NC(CCCCN)C(=O)[O-])NC(=O)CN.[Cu+2]",
+
+  isomericSmiles:
+    "C1=C(NC=N1)C[C@@H](C(=O)N[C@@H](CCCCN)C(=O)[O-])NC(=O)CN.[Cu+2]",
+
+  iupacName:
+    "copper (2S)-6-amino-2-[[(2S)-2-[(2-aminoacetyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]hexanoate"
+}
+
+  }
 },
-"ghk-cu-1000mg-topical": {
+"ghk-basic-200mg-tripeptide-1": {
   name: "GHK-Cu Copper Peptide 1000mg (Topical)",
-  strength: "Copper-binding tripeptide supplied in bulk format, studied extensively in dermal signaling, extracellular matrix interaction, and cosmetic formulation research models.",
-  description: "GHK-Cu is a naturally occurring copper tripeptide composed of glycine, histidine, and lysine complexed with copper. This 1000mg bulk topical format is designed for laboratory and cosmetic research environments requiring larger material volumes for formulation development, stability testing, and extended dermal signaling studies. In scientific research models, GHK-Cu is widely investigated for its interaction with extracellular matrix components, peptide–metal complex behavior, and skin biology signaling pathways. Supplied as a high-purity cosmetic research material.",
-  applications: [
-    "Dermal signaling and skin biology research",
-    "Extracellular matrix interaction studies",
-    "Cosmetic and topical formulation development",
-    "Peptide–copper complex stability research"
+  tagline: "Copper-Binding Tripeptide for Dermal Signaling and Topical Pathway Research",
+  cas: "89030-95-5",
+
+  strength: [
+    "GHK-Cu Copper Peptide 1000mg (Topical) by BioPeptides is a high-purity research-grade copper tripeptide developed for advanced laboratory and formulation studies. Identified by CAS 89030-95-5 and purified to ≥99% HPLC, this bulk-format peptide provides exceptional consistency and reproducibility for biochemical assays, topical signaling pathway analysis, and extracellular matrix research. Laboratories across Europe rely on BioPeptides to buy peptides online with confidence, benefiting from EU-friendly logistics, verified analytical documentation, and research-grade quality."
   ],
+
+  topDescription: {
+    p0: "GHK-Cu Copper Peptide 1000mg (Topical) is a high-purity copper-binding tripeptide complex widely used in laboratory research studying dermal signaling pathways and extracellular matrix interactions.",
+    p1: "Synthesized using precision solid-phase peptide synthesis (SPPS) and purified to ≥99% HPLC purity, this large-format peptide provides reliable molecular stability for topical formulation and biochemical pathway research.",
+    p2: "BioPeptides supplies GHK-Cu Copper Peptide in bulk research format to laboratories across Germany, France, Italy, Spain, the Netherlands, Sweden, Belgium, Austria, and other EU regions."
+  },
+
+  components: [
+    "GHK-Cu Copper Tripeptide Complex – Glycine, Histidine, Lysine coordinated with copper ion"
+  ],
+
+  content: {
+
+    overviewTitle: "GHK-Cu Copper Peptide Research Overview",
+    overview: [
+      "GHK-Cu Copper Peptide is a naturally occurring copper-binding tripeptide composed of glycine, histidine, and lysine complexed with a copper ion.",
+      "In laboratory research models, this peptide–metal complex is widely studied for its role in cellular signaling, extracellular matrix regulation, and copper-dependent biochemical pathways.",
+      "The 1000mg topical research format allows laboratories to perform formulation testing, stability studies, and repeated biochemical assays requiring larger material volumes."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background of GHK-Cu Copper Peptide",
+    scientificBackground: [
+      "Copper-binding peptides such as GHK-Cu play important roles in biological systems through copper transport and biochemical signaling regulation.",
+      "Researchers investigate GHK-Cu to better understand peptide–metal complex behavior, extracellular matrix organization, and metalloprotein interactions.",
+      "Because copper acts as a cofactor in many enzymatic processes, GHK-Cu is frequently used to study copper-dependent biological signaling mechanisms.",
+      "In controlled experimental environments, the compound is applied in biochemical assays exploring cellular communication pathways and protein expression modulation."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Copper ion transport and peptide–metal complex interaction analysis",
+      "Extracellular matrix signaling pathway investigation",
+      "Cellular communication and biochemical signaling studies",
+      "Protein expression and metalloprotein regulation research",
+      "Copper-dependent enzymatic activity analysis"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Topical Formulation Research",
+        text: "The 1000mg format enables laboratories to conduct topical formulation testing, stability evaluation, and peptide compatibility studies."
+      },
+      {
+        title: "Cellular Signaling Studies",
+        text: "Researchers investigate how copper-binding peptides influence intracellular communication pathways and cellular regulatory systems."
+      },
+      {
+        title: "Extracellular Matrix Interaction Research",
+        text: "GHK-Cu is frequently used to analyze extracellular matrix organization and peptide-driven structural signaling pathways."
+      },
+      {
+        title: "Protein Expression and Biochemical Assays",
+        text: "Supports controlled laboratory experiments investigating copper-dependent protein expression and regulatory signaling mechanisms."
+      },
+      {
+        title: "In-Vitro and Ex-Vivo Research Models",
+        text: "The peptide is incorporated into controlled laboratory experiments exploring molecular signaling and cellular response systems."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Copper-binding tripeptide complex",
+      "Amino Acid Composition: Glycine–Histidine–Lysine",
+      "CAS Identifier: 89030-95-5",
+      "Molecular Formula: C14H21N6O4Cu",
+      "Structure: Peptide–metal coordination complex",
+      "Form: Lyophilized crystalline powder"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Store lyophilized peptide at −20°C for long-term stability",
+      "Protect from moisture and direct light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions should be refrigerated",
+      "Handle under controlled sterile laboratory conditions"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Sterile bacteriostatic water",
+      "Buffered aqueous solutions",
+      "Sterile saline solutions",
+      "Standard biochemical assay buffers",
+      "Laboratory-grade solvent systems"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "GHK-Cu Copper Peptide 1000mg (Topical)",
+      brand: "BioPeptides",
+      cas: "89030-95-5",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "1000 mg (1 gram)",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry",
+      molecularStructure: "Copper-binding tripeptide complex",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-performance liquid chromatography (HPLC) purity verification",
+      "Mass spectrometry molecular weight confirmation",
+      "Copper-binding verification analysis",
+      "Batch-to-batch consistency validation",
+      "Stability and integrity testing"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "GHK-Cu Copper Peptide 1000mg (Topical) supplied by BioPeptides is intended strictly for laboratory and scientific research use only. It is not approved for human consumption, veterinary use, cosmetic treatment, or therapeutic development. Buyers are responsible for ensuring compliance with applicable research regulations and institutional policies.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is GHK-Cu Copper Peptide 1000mg used for in research?",
+        a: "It is used in laboratory research to study topical formulation stability, extracellular matrix interactions, copper-dependent biochemical pathways, and cellular signaling mechanisms."
+      },
+      {
+        q: "What is the CAS number for GHK-Cu Copper Peptide?",
+        a: "The CAS number for GHK-Cu Copper Peptide is 89030-95-5, ensuring accurate compound identification in scientific documentation."
+      },
+      {
+        q: "Why choose the 1000mg format?",
+        a: "The 1-gram format allows laboratories to perform repeated experiments, formulation research, and extended biochemical studies with consistent peptide supply."
+      },
+      {
+        q: "How should GHK-Cu Copper Peptide be stored?",
+        a: "Store at −20°C, protect from light and moisture, and avoid repeated freeze–thaw cycles to maintain peptide stability."
+      },
+      {
+        q: "Is GHK-Cu Copper Peptide approved for human use?",
+        a: "No. This product is strictly designated for laboratory research use only."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "CJC-1295 Acetate: C152H252N44O42 Examorelin: C47H58N12O6",
+  molecularWeight: "402.92",
+  monoisotopicMass: "402.107675",
+  polarArea: "179",
+  complexity: "428",
+  xlogP: "N/A",
+  heavyAtomCount: "25",
+  hydrogenBondDonorCount: "5",
+  hydrogenBondAcceptorCount: "7",
+  rotatableBondCount: "10",
+  cid: "71587328",
+  inchi:
+    "InChI=1S/C14H24N6O4.Cu/c15-4-2-1-3-10(14(23)24)20-13(22)11(19-12(21)6-16)5-9-7-17-8-18-9;/h7-8,10-11H,1-6,15-16H2,(H,17,18)(H,19,21)(H,20,22)(H,23,24);/q;+2/p-1/t10-,11-;/m0./s1",
+  inchiKey: "NZWIFMYRRCMYMN-ACMTZBLWSA-M",
+
+  canonicalSmiles:
+    "C1=C(NC=N1)CC(C(=O)NC(CCCCN)C(=O)[O-])NC(=O)CN.[Cu+2]",
+
+  isomericSmiles:
+    "C1=C(NC=N1)C[C@@H](C(=O)N[C@@H](CCCCN)C(=O)[O-])NC(=O)CN.[Cu+2]",
+
+  iupacName:
+    "copper (2S)-6-amino-2-[[(2S)-2-[(2-aminoacetyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]hexanoate"
+}
+  },
+
   appearance: "Blue crystalline powder",
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
-  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
+  researchStatus:
+    "For laboratory and cosmetic research use only. Not for human or veterinary use."
 },
-"ghk-cu-50mg": {
-  name: "GHK-Cu Copper Peptide 50mg",
-  
-  strength: "Copper-binding tripeptide supplied in a mid-scale research format, studied in dermal signaling, extracellular matrix interaction, and cosmetic peptide research models.",
-  
-  description: "GHK-Cu is a naturally occurring copper tripeptide composed of glycine, histidine, and lysine complexed with copper. The 50mg format is designed for laboratory and cosmetic research environments requiring moderate material volumes for peptide signaling studies, formulation development, and stability testing. In scientific models, GHK-Cu is widely investigated for its interaction with dermal signaling pathways, extracellular matrix components, and peptide–metal complex behavior. Supplied as a high-purity research-grade material.",
-  
-  applications: [
-    "Dermal signaling and skin biology research",
-    "Extracellular matrix interaction studies",
-    "Cosmetic peptide formulation research",
-    "Peptide–copper complex stability analysis"
-  ],
-  
-  appearance: "Blue crystalline powder",
-  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
-  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
-},
-"ghk-cu-500mg-topical": {
+
+"ghk-cu-1gram-copper-peptide-1000mg-topical": {
   name: "GHK-Cu Copper Peptide 500mg (Topical)",
 
   strength:
@@ -5053,65 +7985,532 @@ export default {
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
 },
 "ghrh-5mg": {
-  name: "GHRH 5mg",
-  
-  strength: "Endogenous hypothalamic peptide studied in growth hormone release signaling and pituitary–endocrine research models.",
-  
-  description: "Growth Hormone–Releasing Hormone (GHRH) is an endogenous peptide produced in the hypothalamus and is widely studied in laboratory research for its role in stimulating growth hormone secretion via pituitary receptor signaling. In scientific research models, GHRH is investigated for its interaction with endocrine feedback mechanisms, peptide–receptor binding dynamics, and hypothalamic–pituitary axis regulation. Supplied as a high-purity lyophilized peptide for controlled molecular and endocrine research applications.",
-  
-  applications: [
-    "Pituitary and endocrine signaling research",
-    "Growth hormone release pathway studies",
-    "Hypothalamic–pituitary axis investigation",
-    "Peptide–receptor interaction research"
+  name: "GHK-Cu Copper Peptide 50mg",
+  tagline: "Copper-Binding Tripeptide for Dermal Signaling and Cosmetic Peptide Research",
+  cas: "89030-95-5",
+
+  strength: [
+    "GHK-Cu Copper Peptide 50mg by BioPeptides is a high-purity research-grade copper tripeptide designed for advanced laboratory and cosmetic formulation research. Identified by CAS 89030-95-5 and purified to ≥99% HPLC, this peptide provides consistent molecular performance for dermal signaling studies, extracellular matrix interaction research, and peptide–metal complex analysis. Laboratories across Europe rely on BioPeptides to buy peptides online with confidence thanks to EU-friendly logistics, transparent analytical documentation, and research-grade peptide quality."
   ],
-  
-  appearance: "White lyophilized powder",
-  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+
+  topDescription: {
+    p0: "GHK-Cu Copper Peptide 50mg is a copper-binding tripeptide complex commonly used in laboratory and cosmetic peptide research investigating dermal signaling pathways and extracellular matrix interactions.",
+    p1: "Synthesized using precision solid-phase peptide synthesis (SPPS) and purified to ≥99% HPLC purity, this peptide provides reliable molecular stability for topical formulation research and biochemical pathway analysis.",
+    p2: "BioPeptides supplies GHK-Cu Copper Peptide to research laboratories across Germany, France, Italy, Spain, the Netherlands, Sweden, Belgium, Austria, and other European research regions."
+  },
+
+  components: [
+    "GHK-Cu Copper Tripeptide Complex – Glycine, Histidine, Lysine coordinated with copper ion"
+  ],
+
+  content: {
+
+    overviewTitle: "GHK-Cu Copper Peptide Research Overview",
+    overview: [
+      "GHK-Cu Copper Peptide is a naturally occurring copper-binding tripeptide composed of glycine, histidine, and lysine coordinated with a copper ion.",
+      "In laboratory research environments, the compound is widely investigated for its role in cellular signaling pathways, extracellular matrix regulation, and peptide–metal complex behavior.",
+      "The 50mg research format allows laboratories to conduct formulation experiments, biochemical assays, and controlled signaling pathway studies requiring moderate peptide quantities."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background of GHK-Cu Copper Peptide",
+    scientificBackground: [
+      "Copper-binding peptides such as GHK-Cu play important roles in biological systems through copper transport and cellular signaling processes.",
+      "Researchers investigate this peptide to better understand metalloprotein interactions, extracellular matrix organization, and peptide-mediated biochemical signaling.",
+      "Because copper ions serve as cofactors in many enzymatic reactions, GHK-Cu is commonly studied in copper-dependent biological pathway models.",
+      "In controlled laboratory experiments, the compound is frequently applied to investigate molecular signaling pathways and cellular communication processes."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Copper ion transport and peptide–metal complex interaction analysis",
+      "Extracellular matrix signaling pathway investigation",
+      "Cellular communication and peptide signaling studies",
+      "Metalloprotein regulation and copper-dependent enzymatic activity research",
+      "Protein expression and biochemical pathway modulation analysis"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Dermal Signaling Research",
+        text: "GHK-Cu is widely used in research investigating dermal signaling pathways and peptide-mediated cellular communication in skin biology models."
+      },
+      {
+        title: "Cosmetic Peptide Formulation Research",
+        text: "Laboratories study GHK-Cu for its compatibility and stability in cosmetic peptide formulations and topical research models."
+      },
+      {
+        title: "Extracellular Matrix Interaction Studies",
+        text: "Researchers investigate how copper-binding peptides influence extracellular matrix organization and structural protein signaling."
+      },
+      {
+        title: "Peptide–Copper Complex Analysis",
+        text: "The compound is used in biochemical studies exploring peptide–metal complex stability and copper-dependent signaling pathways."
+      },
+      {
+        title: "In-Vitro and Ex-Vivo Research Models",
+        text: "GHK-Cu is frequently incorporated into controlled laboratory models studying molecular signaling and cellular response mechanisms."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Copper-binding tripeptide complex",
+      "Amino Acid Composition: Glycine–Histidine–Lysine",
+      "CAS Identifier: 89030-95-5",
+      "Molecular Formula: C14H21N6O4Cu",
+      "Structure: Peptide–metal coordination complex",
+      "Form: Lyophilized crystalline powder"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Store lyophilized peptide at −20°C for long-term stability",
+      "Protect from moisture and direct light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions should be refrigerated",
+      "Handle under controlled sterile laboratory conditions"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Sterile bacteriostatic water",
+      "Buffered aqueous laboratory solutions",
+      "Sterile saline solutions",
+      "Standard biochemical assay buffers",
+      "Laboratory-grade solvent systems"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "GHK-Cu Copper Peptide 50mg",
+      brand: "BioPeptides",
+      cas: "89030-95-5",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "50 mg",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry",
+      molecularStructure: "Copper-binding tripeptide complex",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-performance liquid chromatography (HPLC) purity verification",
+      "Mass spectrometry molecular weight confirmation",
+      "Copper-binding verification analysis",
+      "Batch-to-batch consistency validation",
+      "Stability and peptide integrity testing"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "GHK-Cu Copper Peptide 50mg supplied by BioPeptides is intended strictly for laboratory and cosmetic research use only. It is not approved for human consumption, veterinary use, therapeutic treatment, or diagnostic applications. Buyers must ensure compliance with applicable research regulations and institutional policies.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is GHK-Cu Copper Peptide 50mg used for in research?",
+        a: "GHK-Cu 50mg is commonly used in laboratory and cosmetic peptide research investigating dermal signaling pathways, extracellular matrix interaction, and peptide–copper complex behavior."
+      },
+      {
+        q: "What does CAS 89030-95-5 identify?",
+        a: "CAS 89030-95-5 uniquely identifies GHK-Cu Copper Peptide, ensuring accurate chemical documentation and traceability across laboratory research environments."
+      },
+      {
+        q: "Why choose the 50mg research format?",
+        a: "The 50mg format provides a balanced quantity suitable for controlled laboratory experiments, formulation development, and biochemical signaling studies."
+      },
+      {
+        q: "How should GHK-Cu Copper Peptide be stored?",
+        a: "Store at −20°C, protect from moisture and light exposure, and avoid repeated freeze–thaw cycles to maintain peptide stability."
+      },
+      {
+        q: "Is GHK-Cu Copper Peptide approved for human use?",
+        a: "No. This peptide is strictly intended for laboratory and cosmetic research use only."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C14H21N6O4Cu",
+      molecularWeight: "402.92",
+      monoisotopicMass: "402.107675",
+      polarArea: "179",
+      complexity: "428",
+      xlogP: "N/A",
+      heavyAtomCount: "25",
+      hydrogenBondDonorCount: "5",
+      hydrogenBondAcceptorCount: "7",
+      rotatableBondCount: "10",
+      cid: "71587328",
+      inchi:
+        "InChI=1S/C14H24N6O4.Cu/c15-4-2-1-3-10(14(23)24)20-13(22)11(19-12(21)6-16)5-9-7-17-8-18-9;/h7-8,10-11H,1-6,15-16H2,(H,17,18)(H,19,21)(H,20,22)(H,23,24);/q;+2/p-1/t10-,11-;/m0./s1",
+      inchiKey: "NZWIFMYRRCMYMN-ACMTZBLWSA-M",
+
+      canonicalSmiles:
+        "C1=C(NC=N1)CC(C(=O)NC(CCCCN)C(=O)[O-])NC(=O)CN.[Cu+2]",
+
+      isomericSmiles:
+        "C1=C(NC=N1)C[C@@H](C(=O)N[C@@H](CCCCN)C(=O)[O-])NC(=O)CN.[Cu+2]",
+
+      iupacName:
+        "copper (2S)-6-amino-2-[[(2S)-2-[(2-aminoacetyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]hexanoate"
+    }
+  },
+
+  appearance: "Blue crystalline powder",
+  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
+  researchStatus:
+    "For laboratory and cosmetic research use only. Not for human or veterinary use."
 },
-"ghrp-2-cjc-1295-5x5mg-bundle": {
+"ghrp-2-5mg-x-5-and-cjc-1295-5mg-x-5": {
   name: "GHRP-2 5mg ×5 + CJC-1295 5mg ×5 (Bundle)",
+  tagline: "Dual-Pathway Growth Hormone Signaling Research Peptide Bundle",
+  cas: "GHRP-2: 158861-67-7 | CJC-1295 (no DAC): 863288-34-0",
 
-  strength:
-    "Multi-vial endocrine research bundle studied for growth hormone–related receptor signaling and pituitary pathway interaction models.",
+  strength: [
+    "The GHRP-2 & CJC-1295 5mg ×5 Bundle by BioPeptides is a high-purity research-grade peptide combination developed for advanced laboratory studies in growth hormone signaling, receptor interaction, and endocrine pathway analysis. This bundle includes GHRP-2 (CAS 158861-67-7) and CJC-1295 no DAC (CAS 863288-34-0), each supplied in multiple 5mg vials for experimental flexibility. Purified to ≥99% HPLC, the peptides provide reliable molecular consistency for controlled biochemical and in-vitro studies. Laboratories across Europe rely on BioPeptides to buy peptides online with confidence through EU-friendly logistics and verified analytical documentation."
+  ],
 
-  description:
-    "This research bundle includes five vials of GHRP-2 (Growth Hormone–Releasing Peptide-2) and five vials of CJC-1295 (MOD GRF 1-29), supplied as separate lyophilized peptides. In laboratory research settings, this combination is used to investigate synergistic endocrine signaling, peptide–receptor interactions, and pituitary pathway dynamics. The multi-vial format supports controlled experimental design, comparative studies, and extended research applications.",
+  topDescription: {
+    p0: "GHRP-2 & CJC-1295 5mg ×5 Bundle is a research-grade peptide combination designed for laboratory studies investigating growth hormone signaling, receptor interaction, and endocrine pathway regulation.",
+    p1: "Manufactured using precision solid-phase peptide synthesis (SPPS) and purified to ≥99% HPLC purity, the peptides provide consistent molecular performance for receptor-binding studies and cellular signaling research.",
+    p2: "BioPeptides supplies this multi-vial peptide bundle to laboratories across Germany, France, Italy, Spain, the Netherlands, Sweden, Belgium, Austria, and other EU research regions."
+  },
 
   components: [
     "GHRP-2 (Growth Hormone–Releasing Peptide-2) — 5mg ×5 vials",
-    "CJC-1295 (MOD GRF 1-29) — 5mg ×5 vials"
+    "CJC-1295 (MOD GRF 1-29 / no DAC) — 5mg ×5 vials"
   ],
 
-  applications: [
-    "Endocrine and pituitary signaling research",
-    "Growth hormone release pathway studies",
-    "Peptide–receptor interaction investigation",
-    "Synergistic endocrine peptide research"
-  ],
+  content: {
+
+    overviewTitle: "GHRP-2 & CJC-1295 Research Overview",
+    overview: [
+      "The GHRP-2 & CJC-1295 bundle combines two peptides commonly studied for their role in growth hormone signaling and endocrine regulation pathways.",
+      "GHRP-2 functions as a growth hormone secretagogue acting through ghrelin receptors, while CJC-1295 is a synthetic analog of growth hormone–releasing hormone (GHRH) that stimulates pituitary receptor activity.",
+      "The bundle format allows laboratories to explore synergistic endocrine signaling mechanisms and receptor cross-talk in controlled experimental environments."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background of GHRP-2 & CJC-1295",
+    scientificBackground: [
+      "Growth hormone signaling is regulated through multiple hormonal pathways involving releasing hormones and secretagogue peptides.",
+      "CJC-1295 mimics the biological activity of GHRH, activating receptors responsible for stimulating growth hormone secretion in biological systems.",
+      "GHRP-2 acts through ghrelin receptors, triggering complementary signaling cascades that influence endocrine pathway activity.",
+      "In research models, combining these peptides allows scientists to investigate receptor interaction, hormonal feedback loops, and signal amplification mechanisms."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Ghrelin receptor activation and secretagogue signaling analysis",
+      "GHRH receptor interaction and pituitary pathway investigation",
+      "Dual-pathway endocrine signaling research",
+      "Receptor cross-talk and hormonal feedback loop analysis",
+      "Growth hormone release signaling pathway modeling"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Growth Hormone Signaling Research",
+        text: "This bundle is widely used to study GH release dynamics, receptor activation patterns, and endocrine signaling mechanisms."
+      },
+      {
+        title: "Endocrine Pathway Modeling",
+        text: "Researchers use the peptide combination to analyze hormonal regulation systems and pituitary signaling pathways."
+      },
+      {
+        title: "Receptor Interaction Studies",
+        text: "The combination allows detailed investigation of ghrelin receptor and GHRH receptor signaling behavior."
+      },
+      {
+        title: "Cellular Signaling Analysis",
+        text: "Laboratories conduct controlled studies on intracellular signaling cascades and gene expression responses triggered by peptide hormones."
+      },
+      {
+        title: "In-Vitro and Preclinical Research Models",
+        text: "The bundle is incorporated into controlled in-vitro models exploring endocrine signaling without therapeutic intent."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Peptide Type: Growth hormone secretagogue and GHRH analog",
+      "GHRP-2 CAS Identifier: 158861-67-7",
+      "CJC-1295 (no DAC) CAS Identifier: 863288-34-0",
+      "GHRP-2 Molecular Weight: ~817.9 g/mol",
+      "CJC-1295 Molecular Weight: ~3367.95 g/mol",
+      "Form: Lyophilized peptide powders supplied in separate vials"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Store lyophilized peptides at −20°C for long-term stability",
+      "Protect vials from moisture and direct light exposure",
+      "Avoid repeated freeze–thaw cycles after reconstitution",
+      "Use sterile laboratory-grade solvent when reconstituting peptides",
+      "Handle under aseptic laboratory conditions"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Sterile bacteriostatic water",
+      "Sterile saline solutions",
+      "Buffered aqueous laboratory solutions",
+      "Standard biochemical assay buffers",
+      "Laboratory-grade solvent systems"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "GHRP-2 5mg ×5 + CJC-1295 5mg ×5 Bundle",
+      brand: "BioPeptides",
+      cas: "158861-67-7 | 863288-34-0",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "5mg ×5 vials each peptide",
+      form: "Lyophilized powder (separate vials)",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry",
+      molecularStructure: "Synthetic peptide hormones",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-performance liquid chromatography (HPLC) purity verification",
+      "Mass spectrometry molecular weight confirmation",
+      "Structural integrity and peptide sequence validation",
+      "Batch-to-batch consistency testing",
+      "Peptide stability and analytical verification"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "The GHRP-2 & CJC-1295 5mg ×5 bundle supplied by BioPeptides is intended strictly for laboratory research use only. It is not approved for human consumption, veterinary use, cosmetic treatment, or therapeutic applications. Buyers must ensure compliance with applicable research regulations and institutional policies.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is the GHRP-2 & CJC-1295 bundle used for in research?",
+        a: "The bundle is used in laboratory studies investigating growth hormone signaling, receptor interaction, endocrine pathway regulation, and cellular response mechanisms."
+      },
+      {
+        q: "Why combine GHRP-2 and CJC-1295 in research models?",
+        a: "Researchers combine these peptides because they activate different receptor systems, allowing investigation of dual-pathway endocrine signaling."
+      },
+      {
+        q: "Are both peptides supplied separately?",
+        a: "Yes. Each peptide is supplied in individual 5mg vials to allow flexible experimental design and improved peptide stability."
+      },
+      {
+        q: "Is this bundle suitable for in-vitro studies?",
+        a: "Yes. The bundle is commonly used in controlled in-vitro and biochemical research models studying receptor signaling and hormonal pathways."
+      },
+      {
+        q: "How should these peptides be stored?",
+        a: "Store lyophilized vials at −20°C and avoid repeated freeze–thaw cycles to maintain peptide integrity."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "GHRP-2: C45H55N9O6 | CJC-1295: C152H252N44O42",
+      molecularWeight: "GHRP-2: ~817.9 | CJC-1295: ~3367.95",
+      monoisotopicMass: "N/A",
+      polarArea: "N/A",
+      complexity: "N/A",
+      xlogP: "N/A",
+      heavyAtomCount: "N/A",
+      hydrogenBondDonorCount: "N/A",
+      hydrogenBondAcceptorCount: "N/A",
+      rotatableBondCount: "N/A",
+      cid: "N/A",
+      inchi: "N/A",
+      inchiKey: "N/A",
+      canonicalSmiles: "N/A",
+      isomericSmiles: "N/A",
+      iupacName: "Synthetic peptide hormone analogs"
+    }
+  },
 
   appearance: "White lyophilized powders (separate vials)",
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
 },
-"ghrp-2-ipamorelin-5x5mg-bundle": {
-  name: "GHRP-2 5mg ×5 + Ipamorelin 5mg ×5 (Bundle)",
-  strength: "Multi-vial endocrine research bundle studied for growth hormone secretagogue receptor signaling and pituitary pathway interaction models.",
-  description: "This research bundle includes five vials of GHRP-2 (Growth Hormone–Releasing Peptide-2) and five vials of Ipamorelin, supplied as separate lyophilized peptides. In laboratory research settings, this combination is used to investigate synergistic growth hormone secretagogue receptor signaling, endocrine pathway modulation, and peptide–receptor interaction dynamics. The multi-vial format supports controlled experimental design, comparative studies, and extended endocrine research applications.",
+"ghrp-2-5mg-x-5-and-ipamorelin-5mg-x-5": {
+  name: "GHRP-2 5mg ×5 + CJC-1295 5mg ×5 (Bundle)",
+  tagline: "Dual-Pathway Growth Hormone Signaling Research Peptide Bundle",
+  cas: "GHRP-2: 158861-67-7 | CJC-1295 (no DAC): 863288-34-0",
+
+  strength: [
+    "The GHRP-2 & CJC-1295 5mg ×5 Bundle by BioPeptides is a high-purity research-grade peptide combination developed for advanced laboratory studies in growth hormone signaling, receptor interaction, and endocrine pathway analysis. This bundle includes GHRP-2 (CAS 158861-67-7) and CJC-1295 no DAC (CAS 863288-34-0), each supplied in multiple 5mg vials for experimental flexibility. Purified to ≥99% HPLC, the peptides provide reliable molecular consistency for controlled biochemical and in-vitro studies. Laboratories across Europe rely on BioPeptides to buy peptides online with confidence through EU-friendly logistics and verified analytical documentation."
+  ],
+
+  topDescription: {
+    p0: "GHRP-2 & CJC-1295 5mg ×5 Bundle is a research-grade peptide combination designed for laboratory studies investigating growth hormone signaling, receptor interaction, and endocrine pathway regulation.",
+    p1: "Manufactured using precision solid-phase peptide synthesis (SPPS) and purified to ≥99% HPLC purity, the peptides provide consistent molecular performance for receptor-binding studies and cellular signaling research.",
+    p2: "BioPeptides supplies this multi-vial peptide bundle to laboratories across Germany, France, Italy, Spain, the Netherlands, Sweden, Belgium, Austria, and other EU research regions."
+  },
+
   components: [
     "GHRP-2 (Growth Hormone–Releasing Peptide-2) — 5mg ×5 vials",
-    "Ipamorelin — 5mg ×5 vials"
+    "CJC-1295 (MOD GRF 1-29 / no DAC) — 5mg ×5 vials"
   ],
-  applications: [
-    "Endocrine and pituitary signaling research",
-    "Growth hormone secretagogue receptor studies",
-    "Peptide–receptor interaction investigation",
-    "Synergistic endocrine peptide research"
-  ],
+
+  content: {
+
+    overviewTitle: "GHRP-2 & CJC-1295 Research Overview",
+    overview: [
+      "The GHRP-2 & CJC-1295 bundle combines two peptides commonly studied for their role in growth hormone signaling and endocrine regulation pathways.",
+      "GHRP-2 functions as a growth hormone secretagogue acting through ghrelin receptors, while CJC-1295 is a synthetic analog of growth hormone–releasing hormone (GHRH) that stimulates pituitary receptor activity.",
+      "The bundle format allows laboratories to explore synergistic endocrine signaling mechanisms and receptor cross-talk in controlled experimental environments."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background of GHRP-2 & CJC-1295",
+    scientificBackground: [
+      "Growth hormone signaling is regulated through multiple hormonal pathways involving releasing hormones and secretagogue peptides.",
+      "CJC-1295 mimics the biological activity of GHRH, activating receptors responsible for stimulating growth hormone secretion in biological systems.",
+      "GHRP-2 acts through ghrelin receptors, triggering complementary signaling cascades that influence endocrine pathway activity.",
+      "In research models, combining these peptides allows scientists to investigate receptor interaction, hormonal feedback loops, and signal amplification mechanisms."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Ghrelin receptor activation and secretagogue signaling analysis",
+      "GHRH receptor interaction and pituitary pathway investigation",
+      "Dual-pathway endocrine signaling research",
+      "Receptor cross-talk and hormonal feedback loop analysis",
+      "Growth hormone release signaling pathway modeling"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Growth Hormone Signaling Research",
+        text: "This bundle is widely used to study GH release dynamics, receptor activation patterns, and endocrine signaling mechanisms."
+      },
+      {
+        title: "Endocrine Pathway Modeling",
+        text: "Researchers use the peptide combination to analyze hormonal regulation systems and pituitary signaling pathways."
+      },
+      {
+        title: "Receptor Interaction Studies",
+        text: "The combination allows detailed investigation of ghrelin receptor and GHRH receptor signaling behavior."
+      },
+      {
+        title: "Cellular Signaling Analysis",
+        text: "Laboratories conduct controlled studies on intracellular signaling cascades and gene expression responses triggered by peptide hormones."
+      },
+      {
+        title: "In-Vitro and Preclinical Research Models",
+        text: "The bundle is incorporated into controlled in-vitro models exploring endocrine signaling without therapeutic intent."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Peptide Type: Growth hormone secretagogue and GHRH analog",
+      "GHRP-2 CAS Identifier: 158861-67-7",
+      "CJC-1295 (no DAC) CAS Identifier: 863288-34-0",
+      "GHRP-2 Molecular Weight: ~817.9 g/mol",
+      "CJC-1295 Molecular Weight: ~3367.95 g/mol",
+      "Form: Lyophilized peptide powders supplied in separate vials"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Store lyophilized peptides at −20°C for long-term stability",
+      "Protect vials from moisture and direct light exposure",
+      "Avoid repeated freeze–thaw cycles after reconstitution",
+      "Use sterile laboratory-grade solvent when reconstituting peptides",
+      "Handle under aseptic laboratory conditions"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Sterile bacteriostatic water",
+      "Sterile saline solutions",
+      "Buffered aqueous laboratory solutions",
+      "Standard biochemical assay buffers",
+      "Laboratory-grade solvent systems"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "GHRP-2 5mg ×5 + CJC-1295 5mg ×5 Bundle",
+      brand: "BioPeptides",
+      cas: "158861-67-7 | 863288-34-0",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "5mg ×5 vials each peptide",
+      form: "Lyophilized powder (separate vials)",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry",
+      molecularStructure: "Synthetic peptide hormones",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-performance liquid chromatography (HPLC) purity verification",
+      "Mass spectrometry molecular weight confirmation",
+      "Structural integrity and peptide sequence validation",
+      "Batch-to-batch consistency testing",
+      "Peptide stability and analytical verification"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "The GHRP-2 & CJC-1295 5mg ×5 bundle supplied by BioPeptides is intended strictly for laboratory research use only. It is not approved for human consumption, veterinary use, cosmetic treatment, or therapeutic applications. Buyers must ensure compliance with applicable research regulations and institutional policies.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is the GHRP-2 & CJC-1295 bundle used for in research?",
+        a: "The bundle is used in laboratory studies investigating growth hormone signaling, receptor interaction, endocrine pathway regulation, and cellular response mechanisms."
+      },
+      {
+        q: "Why combine GHRP-2 and CJC-1295 in research models?",
+        a: "Researchers combine these peptides because they activate different receptor systems, allowing investigation of dual-pathway endocrine signaling."
+      },
+      {
+        q: "Are both peptides supplied separately?",
+        a: "Yes. Each peptide is supplied in individual 5mg vials to allow flexible experimental design and improved peptide stability."
+      },
+      {
+        q: "Is this bundle suitable for in-vitro studies?",
+        a: "Yes. The bundle is commonly used in controlled in-vitro and biochemical research models studying receptor signaling and hormonal pathways."
+      },
+      {
+        q: "How should these peptides be stored?",
+        a: "Store lyophilized vials at −20°C and avoid repeated freeze–thaw cycles to maintain peptide integrity."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "GHRP-2: C45H55N9O6 | CJC-1295: C152H252N44O42",
+      molecularWeight: "GHRP-2: ~817.9 | CJC-1295: ~3367.95",
+      monoisotopicMass: "N/A",
+      polarArea: "N/A",
+      complexity: "N/A",
+      xlogP: "N/A",
+      heavyAtomCount: "N/A",
+      hydrogenBondDonorCount: "N/A",
+      hydrogenBondAcceptorCount: "N/A",
+      rotatableBondCount: "N/A",
+      cid: "N/A",
+      inchi: "N/A",
+      inchiKey: "N/A",
+      canonicalSmiles: "N/A",
+      isomericSmiles: "N/A",
+      iupacName: "Synthetic peptide hormone analogs"
+    }
+  },
+
   appearance: "White lyophilized powders (separate vials)",
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
 },
 "ghrp-2-modgrf-1-29-5x10mg-bundle": {
   name: "GHRP-2 5mg ×10 + MOD GRF (1-29) 5mg ×10 (Bundle)",

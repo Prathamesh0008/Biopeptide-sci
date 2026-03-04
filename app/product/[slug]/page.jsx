@@ -89,7 +89,7 @@ const handleAddToCart = () => {
       text-gray-700
       hover:text-black
       transition
-      cursor:pointer
+      cursor-pointer
     "
   >
     ← Back
@@ -225,8 +225,8 @@ const handleAddToCart = () => {
     onClick={() => setActiveTab("chemical")}
     className={`pb-3 ${
       activeTab === "chemical"
-        ? "border-b-2 border-black text-black"
-        : "text-gray-500"
+        ? "border-b-2 border-black text-black  cursor-pointer"
+        : "text-gray-500  cursor-pointer"
     }`}
   >
     Chemical Properties
@@ -236,8 +236,8 @@ const handleAddToCart = () => {
     onClick={() => setActiveTab("description")}
     className={`pb-3 ${
       activeTab === "description"
-        ? "border-b-2 border-black text-black"
-        : "text-gray-500"
+        ? "border-b-2 border-black text-black  cursor-pointer"
+        : "text-gray-500  cursor-pointer"
     }`}
   >
     Description
@@ -247,8 +247,8 @@ const handleAddToCart = () => {
     onClick={() => setActiveTab("coa")}
     className={`pb-3 ${
       activeTab === "coa"
-        ? "border-b-2 border-black text-black"
-        : "text-gray-500"
+        ? "border-b-2 border-black text-black  cursor-pointer"
+        : "text-gray-500  cursor-pointer"
     }`}
   >
     COA / HPLC / MS
@@ -382,12 +382,12 @@ const handleAddToCart = () => {
     </ul>
 
     {/* WHY SOURCE */}
-    <h2 className="text-lg font-semibold mt-6">
+    <h2 className="text-lg font-semibold mt-6 cursor-pointer">
       {content.whyTitle}
     </h2>
     <p>{content.whyText}</p>
 
- {/* FAQ */}
+{/* FAQ */}
 <h2 className="text-lg font-semibold mt-6">
   {content.faqTitle}
 </h2>
@@ -399,12 +399,12 @@ const handleAddToCart = () => {
     return (
       <div
         key={i}
-        className="border-b pb-3 cursor-pointer"
+        className="border-b py-3"
       >
         {/* QUESTION */}
         <button
           onClick={() => setOpenFaq(isOpen ? null : i)}
-          className="w-full flex items-center justify-between text-left"
+          className="w-full flex items-center justify-between text-left cursor-pointer"
         >
           <span className="font-semibold text-gray-900">
             {f.q}
@@ -413,7 +413,7 @@ const handleAddToCart = () => {
           {/* ARROW */}
           <span
             className={`transition-transform duration-300 ${
-              isOpen ? "rotate-180" : "rotate-0"
+              isOpen ? "rotate-180" : ""
             }`}
           >
             ▼
@@ -422,13 +422,15 @@ const handleAddToCart = () => {
 
         {/* ANSWER */}
         <div
-          className={`overflow-hidden transition-all duration-300 ${
-            isOpen ? "max-h-40 mt-2" : "max-h-0"
+          className={`grid transition-all duration-300 ease-in-out ${
+            isOpen ? "grid-rows-[1fr] opacity-100 mt-3" : "grid-rows-[0fr] opacity-0"
           }`}
         >
-          <p className="text-sm text-gray-700 leading-6">
-            {f.a}
-          </p>
+          <div className="overflow-hidden">
+            <p className="text-sm text-gray-700 leading-6">
+              {f.a}
+            </p>
+          </div>
         </div>
       </div>
     );

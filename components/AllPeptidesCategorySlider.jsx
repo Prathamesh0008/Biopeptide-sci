@@ -66,7 +66,7 @@ export default function AllPeptidesCategorySlider({ active, onChange }) {
           <button
             key={cat}
             onClick={() => onChange(cat)}
-            className={`px-5 py-2 rounded-xl text-sm font-semibold border whitespace-nowrap transition
+            className={`px-5 py-2 rounded-xl text-sm font-semibold border whitespace-nowrap transition cursor-pointer
               ${
                 active === cat
                   ? "bg-gray-900 text-white border-gray-900"
