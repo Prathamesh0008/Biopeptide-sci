@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 export function middleware(request) {
-  const maintenanceMode = false; // turn ON/OFF here
+  const maintenanceMode = process.env.MAINTENANCE_MODE === "true";
 
   if (maintenanceMode) {
     return NextResponse.redirect(new URL("/maintenance", request.url));
