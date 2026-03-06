@@ -71,120 +71,86 @@ export default function ProductCard({ product }) {
     window.dispatchEvent(new Event("bio-cart-updated"));
   };
 
-  return (
-    <article
-  className="
-    
-    bg-white border border-gray-200 rounded-l
-    flex flex-col
-    min-h-[300px] sm:min-h-[320px]
-    overflow-hidden
-  "
->
-  {/* IMAGE — FULL WIDTH, NO PADDING */}
-  <Link
-  href={`/product/${product.slug}`}
-  className="
-    relative w-full
-    aspect-[1/1]
-    flex items-center justify-center
-    cursor-pointer
-  "
->
-
-  {/*Is loading buffering */}
-{!imgLoaded && (
-  <div className="absolute inset-0 flex items-center justify-center">
-    <span
-      className="
-        w-8 h-8
-        border-2 border-gray-300
-        border-t-bioBlue
-        rounded-full
-        animate-spin
-      "
-    />
-  </div>
-)}
-
-<Image
-  src={getSafeImage(product.image)}
-  alt={product.name || "Product image"}
-  fill
-  className="object-contain scale-95"
-  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
-  onLoad={() => setImgLoaded(true)}
-  priority
-/>
-
-
- {/* <Image
-  src={getSafeImage(product.image)}
-  alt={product.name || "Product image"}
-  fill
-  className="object-contain scale-95"
-  onLoad={() => setImgLoaded(true)}
-/> */}
-
-
-  </Link>
-
-  {/* CONTENT — PADDED */}
-  <div className="p-2 sm:p-4 flex flex-col justify-between flex-1">
-
-    {/* TITLE */}
+return (
+  <article
+    className="
+      bg-white border border-gray-200 rounded-lg
+      flex flex-col
+      min-h-[250px] sm:min-h-[260px]
+      overflow-hidden
+    "
+  >
+    {/* IMAGE */}
     <Link
       href={`/product/${product.slug}`}
-      className="mt-2 block cursor-pointer"
+      className="relative w-full aspect-[1/1] flex items-center justify-center cursor-pointer"
     >
-      <h4 className="text-[15px] font-semibold text-gray-900 leading-snug hover:underline">
-        {p.name}
-      </h4>
+      {!imgLoaded && (
+        <div className="absolute inset-0 flex items-center justify-center">
+          <span className="w-8 h-8 border-2 border-gray-300 border-t-bioBlue rounded-full animate-spin" />
+        </div>
+      )}
+
+      <Image
+        src={getSafeImage(product.image)}
+        alt={product.name || "Product image"}
+        fill
+        className="object-contain scale-95"
+        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
+        onLoad={() => setImgLoaded(true)}
+        priority
+      />
     </Link>
 
-    {/* PRICE */}
-    <p className="text-[17px] font-bold text-gray-900 mt-3">
-      ${product.price.toFixed(2)}
-    </p>
+    {/* CONTENT */}
+    <div className="p-3 flex flex-col justify-between flex-1">
 
-    {/* ACTIONS */}
-    <div className="mt-4 flex flex-col gap-2">
+      {/* TITLE */}
       <Link
         href={`/product/${product.slug}`}
-        className="
-          w-full text-center
-          border border-[#0978a7]
-          text-bioBlue text-xs font-semibold
-          py-2 rounded-md
-         hover:bg-black hover:text-white
-          transition
-        "
+        className="block cursor-pointer"
       >
-        {translations.productCard.learnMore}
+        <h4 className="text-[14px] font-semibold text-gray-900 leading-snug hover:underline">
+          {p.name}
+        </h4>
       </Link>
 
- <button
-  onClick={addToCart}
-  className="
-    w-full
-    bg-gradient-to-r from-[#51c4c7] via-[#0978a7] to-[#0978a7]
-    hover:bg-[#3a3a3a]
-    hover:bg-none
-    text-white text-xs font-semibold
-    py-2 rounded-md
-    transition-all duration-300
-    cursor-pointer
-  "
->
-  {translations.productCard.addToCart}
-</button>
+      {/* ACTIONS */}
+      <div className="mt-3 flex flex-col gap-2">
 
+        <Link
+          href={`/product/${product.slug}`}
+          className="
+            w-full text-center
+            border border-[#0978a7]
+            text-bioBlue text-sm font-semibold
+            py-2 rounded-md
+            hover:bg-black hover:text-white
+            transition
+          "
+        >
+          {translations.productCard.learnMore}
+        </Link>
 
+        <button
+          onClick={addToCart}
+          className="
+            w-full
+            bg-gradient-to-r from-[#145b2f] via-[#559f45] to-[#1a497c]
+            hover:bg-[#3a3a3a] hover:bg-none
+            text-white text-sm font-semibold
+            py-2 rounded-md
+            transition-all duration-300
+            cursor-pointer
+          "
+        >
+          {translations.productCard.addToCart} • ${product.price.toFixed(2)}
+        </button>
+
+      </div>
     </div>
-  </div>
-</article>
-
-  );
+  </article>
+);
 }
 {/*gradient-to-r from-[#145b2f] via-[#559f45] to-[#1a497c] */}
 
