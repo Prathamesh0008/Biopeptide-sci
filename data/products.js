@@ -5713,7 +5713,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/n-acetylselank.png",
+  image: "/product/Peptides/n-acetylsemax.png",
   seo: {
   title:
     "Buy N-Acetyl Semax Amidate 30mg | CAS 2920938-90-3 |",
@@ -5802,8 +5802,8 @@ seo: {
 
 },
 {
-  id: "nad-plus-175mg",
-  slug: "nad-plus-175mg",
+  id: "nad-plus-750mg",
+  slug: "nad-plus-750mg",
   name: "NAD⁺ (β-Nicotinamide Adenine Dinucleotide) 175mg",
   category: "Bioregulators",
 
