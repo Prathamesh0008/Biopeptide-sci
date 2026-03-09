@@ -10,7 +10,7 @@
   size: "5 mg",
   cas: "137525-51-0",
   category: "Research Peptides",
-  image:"/product/peptides/bpc157_5.png",
+  image:"/product2/peptide/BPC-157_5mg.png",
   coaImage: "/documents/coa/bpc-157-coa.png",
 
    seo: {
@@ -44,7 +44,7 @@
   size: "20mg blend",
   purity: "≥ 99% (HPLC)",
 
-  image: "/product/peptide blends/bpctbblend20mg.png",
+  image: "/product2/Blends/bpctbblend20mg.png",
 
   seo: {
     title:
@@ -103,7 +103,7 @@
   storage: "Store in a cool, dry environment away from direct light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/amino.png",
+  image: "/product2/Capsules/5amino1mq@300x.png",
   seo: {
     title: "5-Amino-1MQ 50mg Capsules | CAS 42464-96-0 – BioPeptide",
 
@@ -162,7 +162,7 @@
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/aod-9604.png",
+  image: "/product2/peptide/aod-9604 5mg.png",
   seo: {
     title: "Buy AOD-9604 6mg Anti-Obesity Peptide – CAS 386264-39-7 |",
 
@@ -192,7 +192,7 @@
   {
   id: "ghk-cu-2mg",
   slug: "ghk-cu-2mg",
-  name: "GHK-Cu 2mg",
+  name: "GHK-Cu 200mg",
   category: "Cosmetic Peptides",
   
 
@@ -202,7 +202,7 @@
     "Copper-binding cosmetic research peptide studied for dermal signaling, extracellular matrix interaction, and skin biology models.",
 
  cas:"89030-95-5",
-  size: "2mg vial",
+  size: "200mg vial",
   purity: "≥ 98%",
 
   stock: true,
@@ -222,7 +222,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/ghkcu200.png",
+  image: "/product2/Cosmetic peptide/ghk(ghk-cu).png",
   seo: {
   title:
     "GHK-Cu 2mg Capsules (Copper Tripeptide) | CAS 89030-95-5 – BioPeptide",
@@ -282,7 +282,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/acetyl.png",
+  image: "/product2/Cosmetic peptide/acetylhexapeptide-3.png",
   seo: {
   title:
     "Acetyl Hexapeptide-3 (Argireline) 200mg Topical | CAS 616204-22-9 |",
@@ -342,7 +342,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/ahk.png",
+  image: "/product2/Cosmetic peptide/ahk.png",
   seo: {
   title:
     "Buy AHK (Tripeptide-3) 200mg Topical | CAS 158563-45-2 | USA",
@@ -410,7 +410,7 @@
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/ahkcu.png",
+  image: "/product2/Cosmetic peptide/ahkcu.png",
   seo: {
   title:
     "Order AHK-Cu 200mg Topical | Copper Peptide | CAS 682809-81-0 |",
@@ -470,7 +470,7 @@ cas:"386264-39-7",
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/aod-9604.png",
+  image: "/product2/peptide/aod-9604.png",
   seo: {
   title:
     "Buy AOD-9604 6mg Anti-Obesity Peptide – CAS 386264-39-7 |",
@@ -530,7 +530,7 @@ cas:"386264-39-7",
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/bpc157_10.png",
+  image: "/product2/peptide/BPC-157_10mg.png",
   seo: {
   title:
     "BPC-157 Body Protection Compound 10mg |",
@@ -589,7 +589,7 @@ cas:"386264-39-7",
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/bpc157_15.png",
+  image: "/product2/peptide/BPC-157_15mg.png",
   seo: {
   title:
     "Buy BPC-157 Peptide 15mg – CAS 137525-51-0 |",
@@ -653,7 +653,7 @@ cas:"386264-39-7",
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/bpctbblend10mg.png",
+  image: "/product2/Blends/bpctbblend10mg.png",
   seo: {
   title:
     "Buy BPC-157 TB-500 Blend 10mg | CAS 137525-51-0, 77591-33-4",
@@ -717,7 +717,7 @@ cas:"386264-39-7",
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/bpctbblend20mg.png",
+  image: "/product2/Blends/bpctbblend20mg.png",
   seo: {
   title:
     "BPC-157 & TB-500 Blend 20mg | Research Peptides USA",
@@ -782,7 +782,7 @@ cas:"386264-39-7",
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/bpctbghkcublend30mg.png",
+  image: "/product2/Blends/bpctbghkcublend30mg.png",
   seo: {
   title:
     "BPC-157 TB-500 GHK-Cu Glow Blend | Research Peptides",
@@ -848,7 +848,7 @@ cas:"386264-39-7",
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/bpctbghkcublend60mg.png",
+  image: "/product2/Blends/bpctbghkcublend60mg.png",
   seo: {
   title:
     "Buy BPC-157 TB-500 GHK-Cu Glow Blend 60mg | CAS Listed",
@@ -917,7 +917,7 @@ cas:"386264-39-7",
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/bpctbkpvghk80mg.png",
+  image: "/product2/Blends/bpctbkpvghk80mg.png",
   seo: {
   title:
     "Buy BPC-157 TB-500 KPV GHK-Cu Klow Blend 80mg | CAS Listed | USA",
@@ -982,7 +982,7 @@ cas:"386264-39-7",
   storage: "Store at -20°C. Protect from moisture and light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/bronchogen.png",
+  image: "/product2/peptide/bronchogen.png",
   seo: {
   title:
     "Buy Bronchogen 20mg Bioregulator Peptide |",
@@ -1044,7 +1044,7 @@ cas:"386264-39-7",
   storage: "Store at -20°C. Protect from moisture and light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/cardiogen.png",
+  image: "/product2/peptide/cardiogen.png",
   seo: {
   title:
     "Buy Cardiogen 20mg Bioregulator Peptide |",
@@ -1107,7 +1107,7 @@ cas:"386264-39-7",
   storage: "Store at -20°C. Protect from moisture and light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/cartalax.png",
+  image: "/product2/peptide/cartalax.png",
   seo: {
   title:
     "Buy Cartalax 20mg Bioregulator USA | Research Supply",
@@ -1167,7 +1167,7 @@ cas:"386264-39-7",
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/adipotide.png",
+  image: "/product2/peptide/Adipotide.png",
   seo: {
   title:
     "Buy Adipotide FTPP 10mg – CAS 859216-15-2 |",
@@ -1228,7 +1228,7 @@ cas:"386264-39-7",
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/50mg_aicar.png",
+  image: "/product2/peptide/Aicar.png",
   seo: {
   title:
     "Buy AICAR 50mg – AMPK Activator (CAS 3031-94-5) |",
@@ -1287,7 +1287,7 @@ cas:"1208243-50-8",
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ara-290.png",
+  image: "/product2/peptide/ara-290.png",
   seo: {
   title:
     "Buy ARA-290 16mg Peptide – CAS 1208243-50-8 |",
@@ -1346,7 +1346,7 @@ cas:"1208243-50-8",
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/b7-33.png",
+  image: "/product2/peptide/b7-33.png",
   seo: {
   title:
     "B7-33 Relaxin Receptor Agonist 6mg |",
@@ -1409,7 +1409,7 @@ cas:"1208243-50-8",
   storage: "Store at -20°C. Protect from moisture and light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/chonluten.png",
+  image: "/product2/peptide/chonluten.png",
   seo: {
   title:
     "Chonluten Bioregulator 20mg (CAS 75007-24-8) | U.S. Research – BioPeptide",
@@ -1474,7 +1474,7 @@ cas:"1208243-50-8",
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/cjcghrp2blend10mg.png",
+  image: "/product2/Blends/cjcghrp2blend10mg.png",
  seo: {
   title:
     "Buy CJC-1295 (No DAC) & GHRP-2 10mg Blend (CAS 446262-90-4 & 158861-67-7) |",
@@ -1540,7 +1540,7 @@ cas:"1208243-50-8",
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/cjcghrp6blend10mg.png",
+  image: "/product2/Blends/cjcghrp6blend10mg.png",
   seo: {
   title:
     "CJC-1295 (CAS 446262-90-4), GHRP-6 (CAS 87616-84-0) 10mg Blend |",
@@ -1606,7 +1606,7 @@ cas:"1208243-50-8",
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/cjchexarelinblend10mg.png",
+  image: "/product2/Blends/cjchexarelinblend10mg.png",
   seo: {
   title:
     "Buy CJC-1295 & Hexarelin 10mg | CAS 446262-90-4 & 140703-51-1 |",
@@ -1673,7 +1673,7 @@ cas:"1208243-50-8",
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/cjcipamorelinghrp2blend10mg.png",
+  image: "/product2/Blends/cjcipamorelinblend10mg.png",
  seo: {
   title:
     "CJC-1295 (CAS 446262-90-4) Ipamorelin (CAS 170851-70-4) GHRP-2 (CAS 158861-67-7) |",
@@ -1741,7 +1741,7 @@ cas:"1208243-50-8",
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/cjcipamorelinblend10mg_1.png",
+  image: "/product2/Blends/cjcipamorelinblend10mg_1.png",
    seo: {
   title:
     "CJC-1295 (CAS 446262-90-4) Ipamorelin (CAS 170851-70-4) 10mg Blend |",
@@ -1770,67 +1770,7 @@ cas:"1208243-50-8",
 }
 },
 
-{
-  id: "mod-grf-1-29-5mg",
-  slug: "mod-grf-1-29-cjc-1295-no-dac-5mg",
-  name: "Mod GRF + GHRP-2 10mg (Blend)",
-  category: "IGF-1 Proteins",
 
-  price: 285.0,
-
-  strength:
-    "Synthetic growth hormone–releasing hormone (GHRH) analog studied for short-acting receptor signaling and endocrine research models.",
-
-  cas: "N/A",
-  size: "5mg vial",
-  purity: "≥ 99% (HPLC)",
-
-  stock: true,
-  badge: "Research Use",
-
-  description:
-    "Mod GRF 1-29, also known as CJC-1295 No DAC, is a synthetic peptide analog of growth hormone–releasing hormone (GHRH). In laboratory research environments, it is investigated for short-duration GHRH receptor activation, endocrine signaling dynamics, and peptide–receptor interaction behavior. The 5mg format supports extended laboratory studies requiring increased material availability while maintaining controlled, short-acting signaling models. Supplied as a high-purity lyophilized powder for scientific investigation.",
-
-  applications: [
-    "Endocrine signaling pathway research",
-    "GHRH receptor interaction studies",
-    "Short-acting peptide signaling models",
-    "Hormonal communication research"
-  ],
-
-  appearance: "White lyophilized powder",
-  storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use.",
-
-  image: "/product/peptide blends/modgrfghrp2blend10mg.png",
-seo: {
-  title:
-    "Mod GRF (1-29) & GHRP-2 10mg Blend (CAS 863288-34-0 & 158861-67-7) |",
-
-  description:
-    "Mod GRF 1-29 (CAS 863288-34-0) combined with GHRP-2 (CAS 158861-67-7) in a 10mg research peptide blend from BioPeptide. Studied for GHRH and ghrelin receptor signaling, cAMP/PKA activation, calcium-mediated growth hormone release, and endocrine pathway modeling. For Research Use Only.",
-
-  keywords: [
-    "Mod GRF 1-29",
-    "GHRP-2",
-    "Mod GRF GHRP-2 blend",
-    "Mod GRF 1-29 GHRP-2 10mg",
-    "CAS 863288-34-0",
-    "CAS 158861-67-7",
-    "GHRH receptor signaling research",
-    "ghrelin receptor pathway studies",
-    "cAMP PKA signaling peptide research",
-    "BioPeptide peptide blend USA"
-  ],
-
-  robots: "index, follow",
-
-  canonical:
-    "https://www.bio-peptides.com/product/mod-grf-ghrp-2-10mg-blend"
-}
-
-
-},
 {
   id: "cortagen-20mg",
   slug: "cortagen-20mg-bioregulator",
@@ -1866,7 +1806,7 @@ seo: {
   storage: "Store at -20°C. Protect from moisture and light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/cortagen.png",
+  image: "/product2/peptide/cortagen.png",
   seo: {
   title:
     "Cortagen 20mg Bioregulator | USA Neuro Research Peptide – BioPeptide",
@@ -1926,7 +1866,7 @@ seo: {
   storage: "Store at -20°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/decapeptide.png",
+  image: "/product2/Cosmetic peptide/decapeptide-12.png",
   seo: {
   title:
     "Buy Decapeptide-12 Topical Peptide | Pigmentation Research | USA",
@@ -1985,7 +1925,7 @@ seo: {
   storage: "Store in a cool, dry environment away from light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/dihexa-5mg.png",
+  image: "/product2/Capsules/dihexa@300x.png",
   seo: {
   title:
     "Dihexa 5mg Capsules (300mg) | CAS 1401708-83-5 – BioPeptide",
@@ -2044,7 +1984,7 @@ seo: {
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/dsip.png",
+  image: "/product2/peptide/dsip.png",
   seo: {
   title:
     "Buy DSIP 5mg Peptide USA (CAS 62568-57-4) |",
@@ -2103,7 +2043,7 @@ seo: {
   storage: "Store in a cool, dry environment away from light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/epitalon-1mg.png",
+  image: "/product2/Capsules/epitalon@300x.png",
   seo: {
   title:
     "Epitalon 1mg Capsules (60 Caps) | CAS 307297-39-8 – BioPeptide",
@@ -2163,7 +2103,7 @@ seo: {
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/epithalon20mg.png",
+  image: "/product2/peptide/epithalon20mg.png",
   seo: {
   title:
     "Buy Epithalon Epitalon 20mg Peptide USA (CAS 307297-39-8) |",
@@ -2223,7 +2163,7 @@ seo: {
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/epithalon50mg.png",
+  image: "/product2/peptide/epithalon50mg.png",
   seo: {
   title:
     "Epithalon (Epitalon) 50mg Research Peptide (CAS 307297-39-8) | USA – BioPeptide",
@@ -2284,7 +2224,7 @@ seo: {
   storage: "Store at -20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/fgl-s.png",
+  image: "/product2/peptide/fgl-s.png",
   seo: {
   title:
     "FGL-S 10mg Research Peptide (CAS 499993-62-3) | USA – BioPeptide",
@@ -2344,7 +2284,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/follistatin314.png",
+  image: "/product2/peptide/follistatin315.png",
   seo: {
   title:
     "Buy Follistatin 315 1mg USA | Research Supply",
@@ -2403,7 +2343,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/follistatin344.png",
+  image: "/product2/peptide/follistatin344.png",
   seo: {
   title:
     "Follistatin 344 (FST-344) 1mg Research Peptide | USA – BioPeptide",
@@ -2463,7 +2403,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/fox04.png",
+  image: "/product2/peptide/fox04.png",
   seo: {
   title:
     "Buy FOXO4-DRI Proxofim 10mg USA | Research Supply",
@@ -2490,73 +2430,7 @@ seo: {
 }
 
 },
-{
-  id: "cjc1295-ipamorelin-12mg-blend",
-  slug: "fragment-cjc1295-ipamorelin-12mg-blend",
-  name: "Fragment CJC-1295 + Ipamorelin Blend 12mg",
-  category: "Peptide Blends",
-  cas:" 66004-57-7, 446262-90-4 & 170851-70-4",
 
-  price: 210.0,
-
-  strength:
-    "Dual-peptide research blend studied for growth hormone–related receptor signaling and endocrine pathway interaction models.",
-
-  size: "12mg blend",
-  purity: "≥ 99% (HPLC)",
-
-  stock: true,
-  badge: "Research Blend",
-
-  description:
-    "This research blend combines Fragment CJC-1295 (MOD GRF 1-29), a growth hormone–releasing hormone analog studied in pituitary signaling models, with Ipamorelin, a selective growth hormone secretagogue receptor (GHS-R) agonist investigated in endocrine pathway research. In laboratory settings, this blend is used to explore synergistic peptide interactions, receptor-mediated signaling, and peptide-based endocrine research models. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
-
-  components: [
-    "Fragment CJC-1295 (MOD GRF 1-29)",
-    "Ipamorelin"
-  ],
-
-  applications: [
-    "Endocrine and pituitary signaling research",
-    "Growth hormone receptor pathway studies",
-    "Peptide–receptor interaction investigation",
-    "Synergistic peptide signaling research"
-  ],
-
-  appearance: "White lyophilized powder blend",
-  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use.",
-
-  image: "/product/peptide blends/fragmentcjcipamorelinblend12mg.png",
-seo: {
-  title:
-    "Fragment 176-191, CJC-1295 & Ipamorelin 12mg Blend (CAS 66004-57-7, 446262-90-4, 170851-70-4) |",
-
-  description:
-    "Order a 12mg research peptide blend featuring Fragment 176-191 (CAS 66004-57-7), CJC-1295 no DAC (CAS 446262-90-4), and Ipamorelin (CAS 170851-70-4) from BioPeptide. Studied for growth hormone axis coordination, metabolic signaling, and hypothalamic–pituitary pathway research. For Research Use Only.",
-
-  keywords: [
-    "Fragment 176-191",
-    "CJC-1295 No DAC",
-    "Ipamorelin",
-    "Fragment CJC-1295 Ipamorelin blend",
-    "12mg peptide blend",
-    "CAS 66004-57-7",
-    "CAS 446262-90-4",
-    "CAS 170851-70-4",
-    "growth hormone axis research",
-    "hypothalamic pituitary signaling studies",
-    "BioPeptide peptide blend USA"
-  ],
-
-  robots: "index, follow",
-
-  canonical:
-    "https://www.bio-peptides.com/product/fragment-cjc1295-ipamorelin-12mg-blend"
-}
-
-
-},
 {
   id: "mod-grf-ipamorelin-12mg-blend",
   slug: "fragment-modified-grf-ipamorelin-12mg-blend",
@@ -2594,7 +2468,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/fragmentmodipamorelinblend12mg.png",
+  image: "/product2/Blends/fragmentmodipamorelinblend12mg.png",
   seo: {
   title:
     "Fragment 176-191, Mod GRF & Ipamorelin 12mg Blend |",
@@ -2659,7 +2533,7 @@ seo: {
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/ghkbasic.png",
+  image: "/product2/Cosmetic peptide/ghkbasic.png",
   seo: {
   title:
     "Buy GHK-Cu Copper Peptide Topical | CAS 89030-95-5 | USA",
@@ -2719,7 +2593,7 @@ seo: {
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/ghkcu1000.png",
+  image: "/product2/Cosmetic peptide/ghkcu.png",
   seo: {
   title:
     "Buy GHK-Cu Copper Peptide 1g (1000mg) Topical | CAS 89030-95-5 | USA",
@@ -2747,66 +2621,7 @@ seo: {
 }
 
 },
-{
-  id: "ghk-cu-50mg",
-  slug: "ghk-cu-50mg-copper-peptide",
-  name: "GHK-Cu Copper Peptide 50mg",
-  category: "Cosmetic Peptides",
-  cas:"89030-95-5",
 
-  price: 320.0,
-
-  strength:
-    "Copper-binding tripeptide supplied in a mid-scale research format, studied in dermal signaling, extracellular matrix interaction, and cosmetic peptide research models.",
-
- 
-  size: "50mg vial",
-  purity: "≥ 98%",
-
-  stock: true,
-  badge: "Cosmetic Research",
-
-  description:
-    "GHK-Cu is a naturally occurring copper tripeptide composed of glycine, histidine, and lysine complexed with copper. The 50mg format is designed for laboratory and cosmetic research environments requiring moderate material volumes for peptide signaling studies, formulation development, and stability testing. In scientific models, GHK-Cu is widely investigated for its interaction with dermal signaling pathways, extracellular matrix components, and peptide–metal complex behavior. Supplied as a high-purity research-grade material.",
-
-  applications: [
-    "Dermal signaling and skin biology research",
-    "Extracellular matrix interaction studies",
-    "Cosmetic peptide formulation research",
-    "Peptide–copper complex stability analysis"
-  ],
-
-  appearance: "Blue crystalline powder",
-  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
-  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
-
-  image: "/product/cosmeticpeptides/ghkcu500.png",
-  seo: {
-  title:
-    "Buy GHK-Cu Copper Peptide 50mg USA (CAS 89030-95-5) |",
-
-  description:
-    "Buy GHK-Cu copper peptide 50mg (CAS 89030-95-5) in the USA from BioPeptide. ≥99% HPLC-purified research peptide–copper complex studied for extracellular matrix modulation, collagen regulation, gene expression, and antioxidant signaling. Fast U.S. shipping. For Research Use Only.",
-
-  keywords: [
-    "GHK-Cu",
-    "Copper peptide GHK-Cu",
-    "GHK-Cu 50mg",
-    "CAS 89030-95-5",
-    "extracellular matrix modulation research",
-    "collagen regulation peptide studies",
-    "gene expression peptide research",
-    "antioxidant signaling peptide research",
-    "BioPeptide GHK-Cu USA"
-  ],
-
-  robots: "index, follow",
-
-  canonical:
-    "https://www.bio-peptides.com/product/ghk-cu-50mg-copper-peptide"
-}
-
-},
 
 {
   id: "ghk-cu-500mg-topical",
@@ -2841,7 +2656,7 @@ seo: {
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/ghkcu500.png",
+  image: "/product2/Cosmetic peptide/ghkcu500.png",
 seo: {
   title:
     "GHK-Cu Copper Peptide 500mg (Topical) (CAS 89030-95-5) |",
@@ -2902,7 +2717,7 @@ seo: {
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghkbasic.png",
+  image: "/product2/Cosmetic peptide/ghkbasic.png",
 seo: {
   title:
     "GHK Basic (Tripeptide-1) Topical 200mg (CAS 49557-75-7) |",
@@ -2964,7 +2779,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrh 2.png",
+  image: "/product2/peptide/ghrh 2.png",
   seo: {
   title:
     "Buy GHRH 5mg USA (CAS 9034-39-3) | Research Supply",
@@ -3029,7 +2844,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/cjcghrp2blend10mg.png",
+  image: "/product2/Blends/cjcghrp2blend10mg.png",
   seo: {
   title:
     "Buy GHRP-2 + CJC-1295 5mg Bundle (CAS 158861-67-7 / 863288-34-0) |",
@@ -3094,7 +2909,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/cjcipamorelinblend10mg_1.png",
+  image: "/product2/Blends/cjcipamorelinblend10mg_1.png",
   seo: {
   title:
     "GHRP-2 5mg ×5 + Ipamorelin 5mg ×5 Bundle | Research Peptides",
@@ -3160,7 +2975,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/modgrfghrp2blend10mg.png",
+  image: "/product2/Blends/modgrfghrp2blend10mg.png",
   seo: {
   title:
     "Buy GHRP-2 + MOD GRF (1-29) 5mg ×10 Bundle (CAS 158861-67-7 / 86168-78-7) |",
@@ -3228,7 +3043,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/bundle/gHRP-2-Ipamorelin-5mg.png",
+  image: "/product2/bundle/GHRP-6-Ipamorelin-5mg.png",
   seo: {
   title:
     "GHRP-2 + Ipamorelin 5mg ×10 Research Supply Bundle |",
@@ -3289,7 +3104,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp2_5.png",
+  image: "/product2/peptide/ghrp2_5.png",
   seo: {
   title:
     "GHRP-2 Pralmorelin 5mg Research Peptide (CAS 158861-67-7) | USA – BioPeptide",
@@ -3354,7 +3169,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/cjcghrp6blend10mg.png",
+  image: "/product2/Blends/cjcghrp6blend10mg.png",
   seo: {
   title:
     "GHRP-6 5mg ×5 + CJC-1295 5mg ×5 Bundle | Research Peptides",
@@ -3421,7 +3236,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/modgrfghrp6blend10mg.png",
+  image: "/product2/Blends/modgrfghrp6blend10mg.png",
   seo: {
   title:
     "Buy GHRP-6 + MOD-GRF (1-29) 5mg ×10 Research Bundle |",
@@ -3488,7 +3303,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/bundle/gHRP-6-Ipamorelin-5mg.png",
+  image: "/product2/bundle/GHRP-6-Ipamorelin-5mg.png",
   seo: {
   title:
     "GHRP-6 & Ipamorelin Research Peptide Bundle 5mg ×10 |",
@@ -3549,7 +3364,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp6_5.png",
+  image: "/product2/peptide/ghrp6_5.png",
   seo: {
   title:
     "GHRP-6 5mg Research Peptide (CAS 87616-84-0) | USA – BioPeptide",
@@ -3609,7 +3424,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ghrp6_10.png",
+  image: "/product2/peptide/ghrp6_10.png",
   seo: {
   title:
     "GHRP-6 10mg Research Grade Peptide USA | CAS 87616-84-0 – BioPeptide",
@@ -3668,7 +3483,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/gonadorelin.png",
+  image: "/product2/peptide/Gonadorelin.png",
   seo: {
   title:
     "Gonadorelin (GnRH) 10mg Research Peptide (CAS 9034-40-6) |",
@@ -3733,7 +3548,7 @@ seo: {
   storage: "Store in a cool, dry environment away from direct light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/gut.png",
+  image: "/product2/Capsules/gut@300x.png",
   seo: {
   title:
     "Buy BPC-157 Arginate + KPV Capsules (60 Ct) |",
@@ -3798,7 +3613,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/modgrfhexarelinblend4mg.png",
+  image: "/product2/Blends/modgrfhexarelinblend4mg.png",
   seo: {
   title:
     "Hexarelin 2mg ×10 + MOD-GRF (1-29) 2mg ×10 Bundle |",
@@ -3864,7 +3679,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/modgrfhexarelinblend10mg.png",
+  image: "/product2/Blends/modgrfghrp6blend10mg.png",
   seo: {
   title:
     "Buy Hexarelin + MOD-GRF (1-29) 5mg ×10 Research Bundle |",
@@ -3925,7 +3740,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/hexarelin2.png",
+  image: "/product2/peptide/Hexarelin2.png",
   seo: {
   title:
     "Hexarelin (Examorelin) 2mg Peptide (CAS 140703-51-1) |",
@@ -3986,7 +3801,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/hexarelin5.png",
+  image: "/product2/peptide/Hexarelin5.png",
   seo: {
   title:
     "Hexarelin 2mg Research Peptide (CAS 140703-51-1) |",
@@ -4046,7 +3861,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/hGH.png",
+  image: "/product2/peptide/hGH.png",
   seo: {
   title:
     "Buy hGH Fragment 176–191 6mg USA (CAS 66004-57-7) |",
@@ -4106,7 +3921,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/humanin10.png",
+  image: "/product2/peptide/Humanin10.png",
   seo: {
   title:
     "Buy Humanin RNR2 10mg Peptide (CAS 330936-69-1) |",
@@ -4166,7 +3981,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/igf1mg.png",
+  image: "/product2/IGF/igf.png",
   seo: {
   title:
     "IGF-1 LR3 Receptor Grade 1mg | USA | CAS 946870-92-4",
@@ -4226,7 +4041,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/igf1mg.png",
+ image: "/product2/IGF/igf.png",
   seo: {
   title:
     "IGF-1 LR3 1mg Research Peptide | CAS 946870-92-4",
@@ -4291,7 +4106,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/modgrfipamorelinblend4mg.png",
+  image: "/product2/Blends/modgrfipamorelinblend4mg.png",
   seo: {
   title:
     "Ipamorelin 2mg ×10 + MOD-GRF (1-29) 2mg ×10 Bundle |",
@@ -4352,7 +4167,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ipamorelin2.png",
+  image: "/product2/peptide/ipamorelin2.png",
 seo: {
   title:
     "Buy Ipamorelin 2mg Research Peptide (CAS 170851-70-4) |",
@@ -4412,7 +4227,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ipamorelin5.png",
+  image: "/product2/peptide/ipamorelin5.png",
   seo: {
   title:
     "Buy Ipamorelin 5mg (CAS 170851-70-4) |",
@@ -4471,7 +4286,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ipamorelin10.png",
+  image: "/product2/peptide/ipamorelin10.png",
   seo: {
   title:
     "Buy Ipamorelin 10mg (CAS 170851-70-4) |",
@@ -4531,7 +4346,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/kisspeptin10_5.png",
+  image: "/product2/peptide/kisspeptin10_5.png",
 seo: {
   title:
     "Buy Kisspeptin-10 5mg Research Peptide (CAS 36507-37-0) |",
@@ -4595,7 +4410,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/kpv.png",
+  image: "/product2/peptide/kpv.png",
   seo: {
   title:
     "Buy KPV 5mg (Ac-KPV-NH2) Research Peptide (CAS 112965-21-6) |",
@@ -4656,7 +4471,7 @@ seo: {
   storage: "Store in a cool, dry environment. Protect from moisture and light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/lgluthathione.png",
+  image: "/product2/peptide/L-gluthathione.png",
   seo: {
   title:
     "L-Glutathione (GSH) 600mg (CAS 170-18-8) |",
@@ -4716,7 +4531,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/livagen.png",
+  image: "/product2/peptide/livagen.png",
   seo: {
   title:
     "Livagen 20mg Liver Peptide (CAS 195875-84-4) | USA",
@@ -4777,7 +4592,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ll-37.png",
+  image: "/product2/peptide/ll-37.png",
   seo: {
   title:
     "LL-37 5mg Antimicrobial Peptide | CAS 154947-66-7 |",
@@ -4843,7 +4658,7 @@ seo: {
   storage: "Store in a cool, dry environment away from direct light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/amino1mq.png",
+  image: "/product2/Capsules/5amino1mq@300x.png",
   seo: {
   title:
     "5-Amino-1MQ 50mg Capsules | CAS 42464-96-0 – BioPeptide",
@@ -4904,7 +4719,7 @@ seo: {
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/matrixyl.png",
+  image: "/product2/Cosmetic peptide/matrixyl.png",
   seo: {
   title:
     "Matrixyl (Palmitoyl Pentapeptide-4) 200mg Topical | CAS 214047-00-4 | USA",
@@ -4965,7 +4780,7 @@ seo: {
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/malenostatin.png",
+  image: "/product2/Cosmetic peptide/melanostatin.png",
   seo: {
   title:
     "Melanostatin DM 200mg Topical | Buy Research Peptide USA | CAS 123689-72-5",
@@ -5026,7 +4841,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/melanotan1.png",
+  image: "/product2/Melanotan peptides/melanotan1.png",
   seo: {
   title:
     "Melanotan 1 (MT1) 10mg | USA | CAS 75921-69-6",
@@ -5086,7 +4901,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/melanotan2_3.png",
+  image: "/product2/Melanotan peptides/melanotan2_3.png",
   seo: {
   title:
     "Buy Melanotan 2 MT2 3mg × 10 Vials | USA | CAS 121062-08-6",
@@ -5146,7 +4961,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/melanotan2_10.png",
+  image: "/product2/Melanotan peptides/melanotan2_10.png",
   seo: {
   title:
     "Buy Melanotan 2 (MT2) 10mg | USA | CAS 121062-08-6",
@@ -5206,7 +5021,7 @@ seo: {
   storage: "Store in a cool, dry environment away from light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/methylene-blue.png",
+  image: "/product2/Capsules/methylene@300x.png",
   seo: {
   title:
     "Methylene Blue 10mg Capsules (600mg) | CAS 61-73-4 – BioPeptide",
@@ -5266,7 +5081,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/mgf5.png",
+  image: "/product2/peptide/mgf5.png",
   seo: {
   title:
     "IGF-1 Ec (MGF) 5mg Peptide | USA Research Grade",
@@ -5330,7 +5145,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/modgrfghrp2blend10mg.png",
+  image: "/product2/Blends/modgrfghrp2blend10mg.png",
   seo: {
   title:
     "Mod GRF (1-29) + GHRP-2 10mg Research Peptide Blend |",
@@ -5397,7 +5212,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/modgrfhexarelinblend10mg.png",
+  image: "/product2/Blends/modgrfhexarelinblend10mg.png",
   seo: {
   title:
     "Mod GRF (1-29) + Hexarelin 10mg Peptide Blend | CAS 863288-34-0, 140703-51-1",
@@ -5465,7 +5280,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/modgrfhexarelinghrp2blend10mg.png",
+  image: "/product2/Blends/modgrfhexarelinblend10mg_1.png",
   seo: {
   title:
     "Mod GRF (1-29), Ipamorelin, GHRP-2 Blend | CAS 863288-34-0, 170851-70-4, 158861-67-7",
@@ -5532,7 +5347,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/modgrfipamorelinblend10mg.png",
+  image: "/product2/Blends/modgrfipamorelinblend10mg.png",
   seo: {
   title:
     "Mod GRF (1-29) + Ipamorelin 10mg Peptide Blend | CAS 863288-34-0, 170851-70-4",
@@ -5595,7 +5410,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/mots5.png",
+  image: "/product2/peptide/mots5.png",
   seo: {
   title:
     "MOTS-c 5mg Mitochondrial Peptide (CAS 1627580-64-6) |",
@@ -5656,7 +5471,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/mots5.png",
+  image: "/product2/peptide/mots10.png",
   seo: {
   title:
     "MOTS-c 5mg Mitochondrial Peptide (CAS 1627580-64-6) |",
@@ -5717,7 +5532,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/n-acetylepithalon.png",
+  image: "/product2/peptide/n-acetylepithalon.png",
   seo: {
   title:
     "N-Acetyl Epithalon Amidate 20mg (CAS 307297-39-8) |",
@@ -5778,7 +5593,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/n-acetylselank.png",
+  image: "/product2/peptide/n-acetylselank.png",
   seo: {
   title:
     "Buy N-Acetyl Selank Amidate 10mg (CAS 2212313-10-6) |",
@@ -5839,7 +5654,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/n-acetylselank.png",
+  image: "/product2/peptide/n-acetylsemax.png",
   seo: {
   title:
     "Buy N-Acetyl Semax Amidate 30mg | CAS 2920938-90-3 |",
@@ -5899,7 +5714,7 @@ seo: {
   storage: "Store at −20°C. Protect from light and moisture.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/nad100.png",
+  image: "/product2/peptide/nad100.png",
   seo: {
   title:
     "NAD+ Nicotinamide Adenine Dinucleotide 100mg (CAS 53-84-9) |",
@@ -5928,8 +5743,8 @@ seo: {
 
 },
 {
-  id: "nad-plus-175mg",
-  slug: "nad-plus-175mg",
+  id: "nad-plus-750mg",
+  slug: "nad-plus-750mg",
   name: "NAD⁺ (β-Nicotinamide Adenine Dinucleotide) 175mg",
   category: "Bioregulators",
 
@@ -5959,7 +5774,7 @@ seo: {
   storage: "Store at −20°C. Protect from light and moisture.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/nad750.png",
+  image: "/product2/peptide/nad750.png",
   seo: {
   title:
     "Buy NAD+ 175mg Research Grade | CAS 53-84-9 | USA",
@@ -6019,7 +5834,7 @@ seo: {
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/nonapeptide.png",
+  image: "/product2/Cosmetic peptide/nonapeptide.png",
   seo: {
   title:
     "Nonapeptide-1 200mg Topical | CAS 158563-45-2 USA |",
@@ -6072,7 +5887,7 @@ seo: {
   applications: [
     "Cellular aging and senescence research",
     "Longevity-associated signaling pathway studies",
-    "Peptide-based aging model investigation",
+    "Peptide-based aging modelOvagen 20mg (Bioregulator) investigation",
     "Cellular stress and regulatory pathway research"
   ],
 
@@ -6080,7 +5895,7 @@ seo: {
   storage: "Store in a cool, dry environment away from direct light.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/os01100mg.png",
+  image: "/product2/Capsules/os01@300x.png",
   seo: {
   title:
     "Buy OS-01 100mg Capsules – CAS 1261289-04-6 |",
@@ -6140,7 +5955,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/ovagen.png",
+  image: "/product2/peptide/ovagen.png",
   seo: {
   title:
     "Buy Ovagen 20mg Bioregulator | CAS 9046-70-2 | USA",
@@ -6200,7 +6015,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/oxytocin.png",
+  image: "/product2/peptide/oxytocin.png",
   seo: {
   title:
     "Oxytocin 10mg (6000 IU) Research Peptide | CAS 50-56-6 |",
@@ -6261,7 +6076,7 @@ seo: {
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/palahk.png",
+  image: "/product2/Cosmetic peptide/palahk.png",
   seo: {
   title:
     "Pal-AHK 200mg Topical | Buy Palmitoyl Tripeptide-3 | USA",
@@ -6321,7 +6136,7 @@ seo: {
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/palghk.png",
+  image: "/product2/Cosmetic peptide/palghk.png",
   seo: {
   title:
     "Pal-GHK 200mg Topical | CAS 147732-56-7 | Buy Palmitoyl Tripeptide-1 |",
@@ -6381,7 +6196,7 @@ seo: {
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/palmitoyl.png",
+  image: "/product2/Cosmetic peptide/palmitoyl.png",
   seo: {
   title:
     "Palmitoyl Dipeptide-6 200mg Topical | USA",
@@ -6441,7 +6256,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/pancragen.png",
+  image: "/product2/peptide/pancragen.png",
   seo: {
   title:
     "Pancragen 20mg Bioregulator for Research | EU",
@@ -6500,7 +6315,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/pe2228.png",
+  image: "/product2/peptide/pe2228.png",
   seo: {
   title:
     "PE-22-28 8mg Peptide | CAS 1801959-12-5 |",
@@ -6559,7 +6374,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/pegmgf.png",
+  image: "/product2/peptide/pegmgf.png",
   seo: {
   title:
     "Buy PEG MGF 5mg | PEGylated Mechano Growth Factor |",
@@ -6618,7 +6433,7 @@ seo: {
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
   researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/pentapeptide.png",
+  image: "/product2/Cosmetic peptide/pentapeptide.png",
   seo: {
   title:
     "Pentapeptide-18 (Leuphasyl) 200mg Topical | CAS 64963-01-5 |",
@@ -6678,7 +6493,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/pinealon.png",
+  image: "/product2/peptide/pinealon.png",
   seo: {
   title:
     "Buy Pinealon 20mg | Bioregulator Peptide CAS 175175-23-2 |",
@@ -6737,7 +6552,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/pnc27.png",
+  image: "/product2/peptide/pnc27.png",
   seo: {
   title:
     "Buy PNC-27 5mg | Oncology Research Peptide |",
@@ -6796,7 +6611,7 @@ seo: {
   storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/prostamax.png",
+  image: "/product2/peptide/prostamax.png",
   seo: {
   title:
     "Prostamax 20mg | Prostate Bioregulator Peptide | USA",
@@ -6855,7 +6670,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/pt141_3.png",
+  image: "/product2/peptide/pt141_3.png",
   seo: {
   title:
     "Buy PT-141 Bremelanotide 30mg | 3mg × 10 Vials |",
@@ -6916,7 +6731,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/pt141_10.png",
+  image: "/product2/peptide/pt141_10.png",
   seo: {
   title:
     "Buy PT-141 Bremelanotide 30mg | 3mg × 10 Vials |",
@@ -6977,7 +6792,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/repare_recovery.png",
+  image: "/product2/Capsules/repair.png",
   seo: {
   title:
     "Repair & Recovery Capsules | Stable BPC-157 Argininate & TB-4 Fragment – BioPeptide",
@@ -7037,7 +6852,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/rigin.png",
+  image: "/product2/Cosmetic peptide/rigin.png",
   seo: {
   title:
     "Rigin (Palmitoyl Tetrapeptide-7) 200mg | CAS 221227-05-0 |",
@@ -7098,7 +6913,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/selank.png",
+  image: "/product2/peptide/selank.png",
   seo: {
   title:
     "Buy Selank 10mg Peptide (CAS 129954-34-3) |",
@@ -7158,7 +6973,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/semax.png",
+  image: "/product2/peptide/semax.png",
   seo: {
   title:
     "Buy Semax 30mg Research Peptide (CAS 80714-61-0) |",
@@ -7218,7 +7033,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/sermorelinghrp2blend10mg.png",
+  image: "/product2/Blends/sermorelinghrp2blend10mg.png",
   seo: {
   title:
     "Sermorelin & GHRP-2 10mg Blend | CAS 86168-78-7 & 158861-67-7 |",
@@ -7279,7 +7094,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/sermorelinghrp6blend10mg.png",
+  image: "/product2/Blends/sermorelinghrp6blend10mg.png",
   seo: {
   title:
     "Sermorelin & GHRP-6 10mg Blend | CAS 86168-78-7 & 87616-84-0 |",
@@ -7340,7 +7155,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/sermorelinipamorelinblend10mg.png",
+  image: "/product2/Blends/sermorelinipamorelinblend10mg.png",
   seo: {
   title:
     "Sermorelin + GHRP-6 + GHRP-2 9mg Blend | CAS 86168-78-7, 87616-84-0, 158861-67-7 |",
@@ -7402,7 +7217,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/sermorelinipamorelinblend10mg.png",
+  image: "/product2/Blends/sermorelinipamorelinblend10mg.png",
   seo: {
   title:
     "Sermorelin & Ipamorelin 10mg Blend | CAS 86168-78-7 & 170851-70-4 |",
@@ -7463,7 +7278,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/sermorelin2.png",
+  image: "/product2/peptide/sermorelin2.png",
   seo: {
   title:
     "Buy Sermorelin GHRH (1-29) Research Peptide | CAS 86168-78-7 |",
@@ -7524,7 +7339,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/sermorelin5.png",
+  image: "/product2/peptide/sermorelin5.png",
   seo: {
   title:
     "Sermorelin 5mg GHRH (1-29) Peptide | CAS 86168-78-7 |",
@@ -7585,7 +7400,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/sermorelin15.png",
+  image: "/product2/peptide/sermorelin15.png",
   seo: {
   title:
     "Sermorelin GHRH 1-29 15mg Peptide | CAS 86168-78-7 |",
@@ -7646,7 +7461,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/slu-pp-332.png",
+  image: "/product2/Capsules/slupp@300x.png",
   seo: {
   title:
     "Buy SLU-PP-332 Capsules 250mcg – CAS 303760-60-3 |",
@@ -7706,7 +7521,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/snap.png",
+  image: "/product2/Cosmetic peptide/snap-8.png",
   seo: {
   title:
     "Buy SNAP-8 200mg (Acetyl Hexapeptide-8) | CAS 868844-74-0 |",
@@ -7767,7 +7582,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/synake.png",
+  image: "/product2/Cosmetic peptide/synake.png",
   seo: {
   title:
     "Buy Syn-AKE 200mg Topical Peptide | CAS 823202-99-9 | USA",
@@ -7828,7 +7643,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/syncoll.png",
+  image: "/product2/Cosmetic peptide/syncoll.png",
   seo: {
   title:
     "Buy Syn-Coll Palmitoyl Tripeptide-5 200mg | CAS 623172-55-4 |",
@@ -7889,7 +7704,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/tb500.png",
+  image: "/product2/peptide/trh20.png",
   seo: {
   title:
     "Buy TB-500 Thymosin Beta-4 20mg (2mg × 10) | CAS 77591-33-4 |",
@@ -7949,7 +7764,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/tb500_10.png",
+  image: "/product2/peptide/tb500_10.png",
   seo: {
   title:
     "Buy TB-500 Thymosin Beta-4 5mg (43aa) | CAS 77591-33-4 |",
@@ -8009,7 +7824,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/tb500fragemnt.png",
+  image: "/product2/peptide/tb500fragemnt.png",
   seo: {
   title:
     "Buy TB-500 Fragment 17–23 10mg | Thymosin Beta-4 Fragment |",
@@ -8067,7 +7882,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/tesamorelincjc1295ipamorelinblend12mg.png",
+  image: "/product2/Blends/tesamorelincjc1295ipamorelinblend12mg.png",
   seo: {
   title:
     "Tesamorelin CJC-1295 No DAC Ipamorelin 12mg Blend | CAS Verified |",
@@ -8129,7 +7944,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptide blends/tesamorelinipamorelinblend8mg.png",
+  image: "/product2/Blends/tesamorelinipamorelinblend8mg.png",
   seo: {
   title:
     "Tesamorelin Ipamorelin 8mg Blend | CAS 901758-09-6, 170851-70-4 |",
@@ -8191,7 +8006,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/tesamorelin5.png",
+  image: "/product2/peptide/tesamorelin5.png",
   seo: {
   title:
     "Buy Tesamorelin 5mg | CAS 901758-09-6 | Research Peptide",
@@ -8252,7 +8067,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/capsules/tesofensine.png",
+  image: "/product2/Capsules/teso.png",
   seo: {
   title:
     "Buy Tesofensine 500mcg Capsules – CAS 195875-84-4 |",
@@ -8312,7 +8127,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/testagen.png",
+  image: "/product2/peptide/testagen.png",
   seo: {
   title:
     "Testagen 20mg Bioregulator for Research |",
@@ -8372,7 +8187,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/thymagen.png",
+  image: "/product2/peptide/thymagen.png",
   seo: {
   title:
     "Thymagen (Thymogen) 20mg | Thymic Bioregulator | CAS 38101-59-6 | USA",
@@ -8433,7 +8248,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/thymalin20.png",
+  image: "/product2/peptide/thymalin20.png",
   seo: {
   title:
     "Thymalin 20mg Thymic Peptide | CAS 63958-90-7 |",
@@ -8493,7 +8308,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/thymosin3.png",
+  image: "/product2/peptide/thymosin3.png",
   seo: {
   title:
     "Buy Thymosin Alpha-1 3mg | CAS 62304-98-7",
@@ -8553,7 +8368,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/thymosin10.png",
+  image: "/product2/peptide/thymosin10.png",
   seo: {
   title:
     "Thymosin Alpha-1 10mg | CAS 62304-98-7 |",
@@ -8613,7 +8428,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/trh20.png",
+  image: "/product2/peptide/trh20.png",
   seo: {
   title:
     "Buy TRH Thyrotropin (Protirelin) 20mg | CAS 24305-27-9 |",
@@ -8674,7 +8489,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/trh50.png",
+  image: "/product2/peptide/trh50.png",
   seo: {
   title:
     "TRH Thyrotropin (Protirelin) 50mg Research Peptide | CAS 24305-27-9 |",
@@ -8735,7 +8550,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/tripeptide.png",
+  image: "/product2/Cosmetic peptide/tripeptide-29.png",
   seo: {
   title:
     "Tripeptide-29 Collagen Peptide 200mg (Topical) | CAS 2239-67-0 |",
@@ -8796,7 +8611,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/Triptorelin2mg (1).png",
+  image: "/product2/peptide/Triptorelin2mg.png",
   seo: {
   title:
     "Triptorelin GnRH 2mg Research Supply | CAS 57773-63-4 |",
@@ -8857,7 +8672,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/vesilute.png",
+  image: "/product2/peptide/vesilute.png",
   seo: {
   title:
     "Vesilute 20mg Research Bioregulator – BioPeptide | CAS 3918-84-1",
@@ -8917,7 +8732,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/vesugen.png",
+  image: "/product2/peptide/vesugen.png",
   seo: {
   title:
     "Vesugen 20mg Research Peptide | Vascular Bioregulator – BioPeptide USA",
@@ -8977,7 +8792,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/cosmeticpeptides/vialox.png",
+  image: "/product2/Cosmetic peptide/vialox.png",
   seo: {
   title:
     "Buy Vialox (Pentapeptide-3V) 200mg Topical | CAS 135679-88-8 |",
@@ -9037,7 +8852,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/vilon.png",
+  image: "/product2/peptide/vilon.png",
   seo: {
   title:
     "Vilon 20mg Research Peptide | Thymic Bioregulator | CAS 45234-02-4 | USA",
@@ -9097,7 +8912,7 @@ seo: {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use.",
 
-  image: "/product/peptides/vip.png",
+  image: "/product2/peptide/vip.png",
   seo: {
   title:
     "VIP 6mg Vasoactive Intestinal Peptide | CAS 37221-79-7 |",
