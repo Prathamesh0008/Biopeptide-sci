@@ -21,9 +21,9 @@ const slideLinks = [
 ];
 
 const slideImages = [
-  "/images/combo.png",
-  "/images/combo2.png",
-  "/images/combo.png",
+  "/images/combonew.png",
+  "/images/combo2new.png",
+  "/images/combonew.png",
 ];
 
 /* ================= COMPONENT ================= */
@@ -56,21 +56,21 @@ export default function Hero() {
         subtitle: hero.subtitle,
         button: hero.button,
         link: "/peptide-information",
-        image: "/images/combo.png",
+        image: "/images/combonew.png",
       },
       {
         title: hero.title2,
         subtitle: hero.subtitle2,
         button: hero.button2,
         link: "/all-peptides",
-        image: "/images/combo2.png",
+        image: "/images/combo2new.png",
       },
       {
         title: hero.title3,
         subtitle: hero.subtitle3,
         button: hero.button3,
         link: "/bundle-save",
-        image: "/images/combo.png",
+        image: "/images/combonew.png",
       },
     ].filter(Boolean);
   }, [hero]);
@@ -151,7 +151,7 @@ export default function Hero() {
                     rounded-md
                     text-sm md:text-base font-semibold
                     text-white
-                    bg-gradient-to-r from-[#145b2f] via-[#559f45] to-[#1a497c]
+                     bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
                     transition-all duration-300
                     hover:opacity-90
                   "

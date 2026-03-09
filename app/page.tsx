@@ -28,7 +28,7 @@ export default function HomePage() {
   className="
     fixed right-0 top-1/2 -translate-y-1/2 z-50
     flex items-center justify-center
-    bg-gradient-to-b from-bioBlue to-bioGreen
+     bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
     text-white shadow-lg
     cursor-pointer
     h-36 w-10 rounded-l-xl

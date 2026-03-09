@@ -188,7 +188,7 @@ const handleAddToCart = () => {
   onClick={handleAddToCart}
   className="
     w-full
-    bg-gradient-to-r from-[#145b2f] via-[#559f45] to-[#1a497c]
+    bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
     text-white text-sm font-semibold
     py-3 rounded-md
     transition-all duration-300

@@ -9,6 +9,7 @@ import { getTranslatedProduct } from "@/utils/getTranslatedProduct";
 import Loader from "@/components/Loader";
 
 
+
 export default function ProductCard({ product }) {
   const [imgLoaded, setImgLoaded] = useState(false);
   const getSafeImage = (img) => {
