@@ -77,7 +77,7 @@ export default function Footer() {
             text-sm font-semibold
             text-white
             rounded-md
-            bg-[linear-gradient(to_right,#145b2f,#559f45)]
+             bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
             hover:brightness-110
             transition
             whitespace-nowrap cursor-pointer
@@ -105,7 +105,7 @@ export default function Footer() {
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" aria-label="Go to homepage">
               <Image
-                src="/images/biologofinal.png"
+                src="/images/Biologofull.png"
                 alt="BioPeptide Logo"
                 width={240}
                 height={64}

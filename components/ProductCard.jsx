@@ -136,7 +136,7 @@ return (
           onClick={addToCart}
           className="
             w-full
-            bg-gradient-to-r from-[#145b2f] via-[#559f45] to-[#1a497c]
+            bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
             hover:bg-[#3a3a3a] hover:bg-none
             text-white text-sm font-semibold
             py-2 rounded-md

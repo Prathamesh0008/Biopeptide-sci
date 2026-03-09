@@ -763,18 +763,18 @@ export default {
 
   
 "ghk-cu-2mg": {
-  name: "GHK-Cu 2mg",
+  name: "GHK-Cu 200mg",
   tagline: "Advanced Copper Peptide Research Profile",
   cas: "89030-95-5",
 
   // Short card / hero text
   strength: [
-    "GHK-Cu 2mg from BioPeptides is a high-purity research peptide with CAS 89030-95-5, specifically designed for advanced molecular and cellular studies. Synthesized via solid-phase peptide synthesis (SPPS) and validated through HPLC and Mass Spectrometry, this peptide ensures exceptional structural integrity and reproducibility. Ideal for regenerative cell biology, receptor-binding assays, and metabolic research, GHK-Cu 2mg maintains stability when lyophilized and stored at −20°C. Researchers in Europe can confidently buy peptides online from BioPeptides, ensuring access to the best peptides with proper documentation for in-vitro studies and scientific experimentation. CAS 89030-95-5 guarantees precise peptide identification."
+    "GHK-Cu 200mg from BioPeptides is a high-purity research peptide with CAS 89030-95-5, specifically designed for advanced molecular and cellular studies. Synthesized via solid-phase peptide synthesis (SPPS) and validated through HPLC and Mass Spectrometry, this peptide ensures exceptional structural integrity and reproducibility. Ideal for regenerative cell biology, receptor-binding assays, and metabolic research, GHK-Cu 2mg maintains stability when lyophilized and stored at −20°C. Researchers in Europe can confidently buy peptides online from BioPeptides, ensuring access to the best peptides with proper documentation for in-vitro studies and scientific experimentation. CAS 89030-95-5 guarantees precise peptide identification."
   ],
 
   // Hero / intro description
   topDescription: {
-    p0: "GHK-Cu 2mg from BioPeptides is a premium copper tripeptide research compound identified by CAS 89030-95-5 and optimized for advanced in-vitro laboratory studies involving dermal signaling and cellular regeneration.",
+    p0: "GHK-Cu 200mg from BioPeptides is a premium copper tripeptide research compound identified by CAS 89030-95-5 and optimized for advanced in-vitro laboratory studies involving dermal signaling and cellular regeneration.",
     p1: "Manufactured using Solid-Phase Peptide Synthesis (SPPS), this lyophilized peptide undergoes HPLC and Mass Spectrometry verification to confirm high purity, molecular identity, and batch-to-batch consistency.",
     p2: "Trusted by research institutions across Europe, GHK-Cu 2mg supports reproducible biochemical studies, receptor-binding assays, extracellular matrix interaction research, and regenerative cell modeling under controlled laboratory environments."
   },
@@ -783,7 +783,7 @@ export default {
   content: {
     overviewTitle: "Comprehensive Research Overview",
     overview: [
-      "GHK-Cu 2mg is a premium-grade copper-binding research peptide supplied by BioPeptides for high-precision laboratory and in-vitro scientific investigation.",
+      "GHK-Cu 200mg is a premium-grade copper-binding research peptide supplied by BioPeptides for high-precision laboratory and in-vitro scientific investigation.",
       "Each batch is synthesized using Solid-Phase Peptide Synthesis (SPPS) and validated through advanced analytical techniques including HPLC and Mass Spectrometry.",
       "The CAS number 89030-95-5 ensures traceability, regulatory-aligned documentation, and confidence in laboratory procurement and experimental verification."
     ],
@@ -859,10 +859,10 @@ export default {
 
     techSpecsTitle: "Technical Specifications",
     techSpecs: {
-      productName: "GHK-Cu 2mg",
+      productName: "GHK-Cu 200mg",
       cas: "89030-95-5",
       purity: "≥98% (HPLC verified)",
-      unitSize: "2 mg vial",
+      unitSize: "200 mg vial",
       form: "Lyophilized powder",
       synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
       analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry"
@@ -879,7 +879,7 @@ export default {
 
     regulatoryTitle: "Regulatory and Compliance Information",
     regulatoryText:
-      "GHK-Cu 2mg is supplied strictly for laboratory research and scientific investigation. It is not approved for use as a drug, food, cosmetic, or medical product. BioPeptides provides Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) upon request to support compliance with laboratory standards across Europe and globally.",
+      "GHK-Cu 200mg is supplied strictly for laboratory research and scientific investigation. It is not approved for use as a drug, food, cosmetic, or medical product. BioPeptides provides Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) upon request to support compliance with laboratory standards across Europe and globally.",
 
     whyTitle: "Why Source from BioPeptides?",
     whyText:
@@ -888,36 +888,36 @@ export default {
     faqTitle: "Frequently Asked Questions",
     faqItems: [
       {
-        q: "What is GHK-Cu 2mg used for in research?",
-        a: " GHK-Cu 2mg is primarily used in cellular regeneration studies, receptor-binding assays, metabolic research, and protein-peptide interaction analysis. Researchers in Europe and globally purchase this peptide to explore molecular signaling and tissue remodeling."
+        q: "What is GHK-Cu 200mg used for in research?",
+        a: " GHK-Cu 200mg is primarily used in cellular regeneration studies, receptor-binding assays, metabolic research, and protein-peptide interaction analysis. Researchers in Europe and globally purchase this peptide to explore molecular signaling and tissue remodeling."
       },
       {
         q: "How should GHK-Cu 2mg be stored?",
-        a: " Store lyophilized GHK-Cu 2mg at −20°C for long-term stability. Avoid moisture, repeated freeze-thaw cycles, and prolonged light exposure. Reconstituted solutions remain stable for 24–48 hours under refrigeration."
+        a: " Store lyophilized GHK-Cu 200mg at −20°C for long-term stability. Avoid moisture, repeated freeze-thaw cycles, and prolonged light exposure. Reconstituted solutions remain stable for 24–48 hours under refrigeration."
       },
       {
-        q: "What solvents can be used to dissolve GHK-Cu 2mg?",
+        q: "What solvents can be used to dissolve GHK-Cu 200mg?",
         a: " This peptide dissolves efficiently in bacteriostatic water, sterile saline, acidic buffers, or organic analytical solvents, making it suitable for metabolic, enzymatic, and receptor-binding studies."
       },
       {
-        q: "How pure is GHK-Cu 2mg?",
+        q: "How pure is GHK-Cu 200mg?",
         a: " Each batch is ≥98% pure by HPLC, ensuring consistency, reproducibility, and reliable research outcomes."
       },
       {
         q: "Can I buy GHK-Cu online for research?",
-        a: "Yes, BioPeptides offers secure options to buy peptides online across Europe, providing high-purity GHK-Cu 2mg (CAS 89030-95-5) with COA and MSDS documentation."
+        a: "Yes, BioPeptides offers secure options to buy peptides online across Europe, providing high-purity GHK-Cu 200mg (CAS 89030-95-5) with COA and MSDS documentation."
       },
       {
         q: "What is the CAS number of GHK-Cu?",
         a: "The CAS number is 89030-95-5, which uniquely identifies this research peptide for laboratory verification and regulatory compliance."
       },
       {
-        q: "Is GHK-Cu 2mg suitable for long-term experiments?",
-        a: "Yes, when stored lyophilized at −20°C, GHK-Cu 2mg remains stable for months, ensuring consistent experimental results over time."
+        q: "Is GHK-Cu 200mg suitable for long-term experiments?",
+        a: "Yes, when stored lyophilized at −20°C, GHK-Cu 200mg remains stable for months, ensuring consistent experimental results over time."
       },
       {
         q: "What analytical methods verify GHK-Cu quality?",
-        a: "GHK-Cu 2mg is verified using HPLC, Mass Spectrometry, UV spectroscopy, and microbial/endotoxin testing, making it one of the top peptides online for European researchers."
+        a: "GHK-Cu 200mg is verified using HPLC, Mass Spectrometry, UV spectroscopy, and microbial/endotoxin testing, making it one of the top peptides online for European researchers."
       }
     ],
 
@@ -7769,7 +7769,7 @@ export default {
 
   }
 },
-"ghk-basic-200mg-tripeptide-1": {
+"ghk-cu-1gram-copper-peptide-1000mg-topical": {
   name: "GHK-Cu Copper Peptide 1000mg (Topical)",
   tagline: "Copper-Binding Tripeptide for Dermal Signaling and Topical Pathway Research",
   cas: "89030-95-5",
@@ -7949,52 +7949,369 @@ export default {
   researchStatus:
     "For laboratory and cosmetic research use only. Not for human or veterinary use."
 },
+"ghrh-5mg": {
+  name: "GHRH 5mg",
+  tagline: "Growth Hormone Releasing Hormone for Endocrine Signaling and Receptor Research",
+  cas: "9034-39-3",
 
-"ghk-cu-1gram-copper-peptide-1000mg-topical": {
-  name: "GHK-Cu Copper Peptide 500mg (Topical)",
-
-  strength:
-    "Copper-binding tripeptide supplied in topical research format, studied in dermal signaling, extracellular matrix interaction, and cosmetic formulation research models.",
-
-  description:
-    "GHK-Cu is a naturally occurring copper tripeptide composed of glycine, histidine, and lysine complexed with copper. The 500mg topical format is designed for laboratory and cosmetic research environments focused on topical formulation development, stability testing, and dermal signaling studies. In scientific research models, GHK-Cu is widely investigated for its interaction with extracellular matrix components, peptide–metal complex behavior, and skin biology signaling pathways. Supplied as a high-purity cosmetic research material.",
-
-  applications: [
-    "Dermal signaling and skin biology research",
-    "Extracellular matrix interaction studies",
-    "Topical cosmetic formulation development",
-    "Peptide–copper complex stability research"
+  strength: [
+    "GHRH 5mg by BioPeptide is a high-purity research-grade Growth Hormone Releasing Hormone peptide developed for advanced laboratory studies in endocrine signaling, receptor binding, and cellular pathway analysis. Synthesized using solid-phase peptide synthesis (SPPS) and purified to ≥99% HPLC, this peptide provides excellent molecular accuracy and reproducibility for professional research laboratories across Europe."
   ],
 
-  appearance: "Blue crystalline powder",
-  storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
-  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
+  topDescription: {
+    p0: "GHRH 5mg (Growth Hormone Releasing Hormone) is a peptide hormone widely studied in laboratory research for its role in stimulating growth hormone release through pituitary receptor activation.",
+    p1: "Manufactured using precision solid-phase peptide synthesis (SPPS) and purified to ≥99% HPLC, GHRH provides reliable molecular stability for endocrine signaling and receptor-binding research.",
+    p2: "BioPeptide supplies GHRH research peptide to laboratories across Germany, France, Italy, Spain, the Netherlands, Sweden, Belgium, Austria, and other European research regions."
+  },
+
+  components: [
+    "Growth Hormone Releasing Hormone (GHRH) – hypothalamic peptide hormone regulating growth hormone secretion"
+  ],
+
+  content: {
+
+    overviewTitle: "GHRH Research Overview",
+    overview: [
+      "Growth Hormone Releasing Hormone (GHRH) is a naturally occurring peptide hormone responsible for stimulating growth hormone secretion from the anterior pituitary gland.",
+      "In laboratory research environments, GHRH is studied for its role in endocrine signaling pathways, receptor-mediated hormone regulation, and peptide-driven signal transduction mechanisms.",
+      "The 5mg research format is suitable for controlled laboratory experiments, receptor-binding studies, endocrine pathway analysis, and academic research applications."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background of GHRH",
+    scientificBackground: [
+      "GHRH plays a central role in the hypothalamic–pituitary axis, regulating the release of growth hormone through receptor activation in pituitary cells.",
+      "Researchers study GHRH to understand hormone signaling cascades, receptor activation mechanisms, and endocrine feedback regulation.",
+      "Because of its well-defined biological function, GHRH is widely used in endocrine research models investigating hormone-driven cellular responses.",
+      "Synthetic GHRH enables controlled laboratory experiments analyzing hormone signaling pathways without therapeutic or clinical application."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Growth hormone release pathway investigation",
+      "Pituitary receptor activation and signaling analysis",
+      "Endocrine feedback mechanism research",
+      "Signal transduction pathway modulation studies",
+      "Hormone–receptor interaction and downstream response investigation"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Endocrine Signaling Research",
+        text: "GHRH is widely used to investigate hormonal signaling pathways regulating growth hormone release and endocrine system communication."
+      },
+      {
+        title: "Receptor-Binding Studies",
+        text: "Researchers apply GHRH in receptor-binding assays to examine activation of GHRH receptors and downstream intracellular signaling."
+      },
+      {
+        title: "Cellular Pathway Analysis",
+        text: "GHRH supports studies analyzing second-messenger signaling pathways and gene expression responses triggered by peptide hormones."
+      },
+      {
+        title: "Hormone Interaction Research",
+        text: "Laboratories investigate how GHRH interacts with other endocrine regulators within the hypothalamic–pituitary signaling network."
+      },
+      {
+        title: "In-Vitro Endocrine Research Models",
+        text: "European research institutions incorporate GHRH into controlled in-vitro models to study endocrine regulation and hormone signaling mechanisms."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Hypothalamic peptide hormone",
+      "CAS Identifier: 9034-39-3",
+      "Molecular Formula: C215H358N72O66S",
+      "Structure: Polypeptide hormone",
+      "Form: Lyophilized peptide powder"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Store lyophilized peptide at −20°C for long-term stability",
+      "Protect from moisture and light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions should be refrigerated",
+      "Handle using sterile laboratory procedures"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Sterile bacteriostatic water",
+      "Sterile saline solutions",
+      "Buffered aqueous laboratory solutions",
+      "Biochemical assay buffers",
+      "Laboratory-grade solvent systems"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "GHRH 5mg",
+      brand: "BioPeptide",
+      cas: "9034-39-3",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "5 mg",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry",
+      molecularStructure: "Polypeptide hormone",
+      stability: "High when stored correctly"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-performance liquid chromatography (HPLC) purity verification",
+      "Mass spectrometry molecular weight confirmation",
+      "Peptide structural integrity analysis",
+      "Batch-to-batch consistency validation",
+      "Stability and peptide integrity testing"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "GHRH 5mg supplied by BioPeptide is intended strictly for laboratory research use only. It is not approved for human consumption, veterinary use, therapeutic treatment, cosmetic application, or diagnostic purposes. Buyers must ensure compliance with applicable research regulations and institutional policies.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is GHRH 5mg used for in research?",
+        a: "GHRH 5mg is used in laboratory research studying growth hormone signaling pathways, endocrine regulation, receptor activation, and cellular signaling responses."
+      },
+      {
+        q: "How is GHRH different from growth hormone?",
+        a: "GHRH is a releasing hormone that stimulates the pituitary gland to release growth hormone, whereas growth hormone is the downstream hormone responsible for physiological effects."
+      },
+      {
+        q: "Why is CAS 9034-39-3 important?",
+        a: "CAS 9034-39-3 ensures accurate chemical identification and traceability of GHRH in laboratory documentation and research studies."
+      },
+      {
+        q: "Is GHRH suitable for in-vitro research?",
+        a: "Yes. GHRH is commonly used in controlled in-vitro experiments studying endocrine signaling and receptor-mediated hormone pathways."
+      },
+      {
+        q: "How should GHRH be stored?",
+        a: "GHRH should be stored at −20°C in lyophilized form and protected from repeated freeze–thaw cycles."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C215H358N72O66S",
+      molecularWeight: "5039.73",
+      complexity: "Very High",
+      heavyAtomCount: "354",
+      hydrogenBondDonorCount: "70",
+      hydrogenBondAcceptorCount: "80",
+      rotatableBondCount: "150",
+      cid: "439241",
+      inchi: "InChI=1S/C215H358N72O66S/...",
+      inchiKey: "GHRHPEPTIDEKEY",
+      canonicalSmiles: "Complex peptide structure",
+      isomericSmiles: "Complex peptide structure",
+      iupacName: "Growth Hormone Releasing Hormone polypeptide"
+    }
+  },
+
+  appearance: "White lyophilized powder",
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use.",
+
+  image: "/product/peptides/ghrh 2.png"
 },
-"ghk-basic-200mg": {
+
+"ghk-basic-200mg-tripeptide-1": {
   name: "GHK Basic (Tripeptide-1) 200mg",
-  strength: "Naturally occurring tripeptide studied in dermal signaling, extracellular matrix interaction, and cosmetic peptide research models.",
-  description: "GHK Basic, also known as Tripeptide-1, is a naturally occurring tripeptide composed of glycine, histidine, and lysine without copper complexation. In laboratory and cosmetic research models, it is studied for its role in dermal signaling pathways, extracellular matrix interaction, and peptide-based skin biology research. GHK Basic is frequently used as a precursor peptide in formulation studies and as a comparative reference compound alongside copper-bound GHK-Cu. Supplied as a high-purity cosmetic research material.",
-  applications: [
-    "Dermal signaling and skin biology research",
-    "Extracellular matrix interaction studies",
-    "Cosmetic peptide formulation research",
-    "Comparative peptide signaling studies (apo vs copper-bound)"
+  tagline: "Research-Grade Tripeptide for Cellular Signaling and Extracellular Matrix Studies",
+  cas: "49557-75-7",
+
+  strength: [
+    "GHK Basic (Tripeptide-1) 200mg by BioPeptide is a high-purity research-grade tripeptide designed for advanced laboratory studies in cellular signaling, protein interaction analysis, and extracellular matrix research. Identified by CAS 49557-75-7 and purified to ≥99% HPLC, this medium-scale format provides reliable molecular accuracy and reproducibility for professional research laboratories. BioPeptide supports European researchers seeking to buy peptides online with confidence through transparent documentation and EU-friendly logistics."
   ],
+
+  topDescription: {
+    p0: "GHK Basic (Tripeptide-1) 200mg is a naturally occurring tripeptide composed of glycine, histidine, and lysine, widely studied in biochemical research involving cellular communication and extracellular matrix interactions.",
+    p1: "Produced using advanced solid-phase peptide synthesis (SPPS) and purified to ≥99% HPLC, this peptide offers consistent molecular integrity for controlled laboratory experiments and comparative peptide signaling studies.",
+    p2: "BioPeptide supplies GHK Basic (Tripeptide-1) to research laboratories across Germany, France, Italy, Spain, the Netherlands, Sweden, Belgium, Austria, and other European scientific research regions."
+  },
+
+  components: [
+    "GHK Basic Tripeptide – Glycine, Histidine, Lysine"
+  ],
+
+  content: {
+
+    overviewTitle: "GHK Basic (Tripeptide-1) Research Overview",
+    overview: [
+      "GHK Basic, also known as Tripeptide-1, is a naturally occurring tripeptide composed of glycine, histidine, and lysine without copper complexation.",
+      "In laboratory research environments, the peptide is studied for its role in cellular signaling pathways, extracellular matrix regulation, and peptide-mediated molecular communication.",
+      "The 200mg research format enables laboratories to perform repeated experiments, comparative peptide studies, and medium-scale biochemical investigations requiring consistent peptide supply."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background of GHK Basic (Tripeptide-1)",
+    scientificBackground: [
+      "Tripeptides such as GHK Basic play important roles in biological systems through peptide-mediated signaling and protein interaction mechanisms.",
+      "Researchers investigate this compound to better understand extracellular matrix organization, peptide-driven signaling pathways, and molecular communication between cells.",
+      "Because GHK Basic represents the non-complexed form of the peptide, it is commonly used as a reference compound in comparative research involving copper-binding peptides such as GHK-Cu.",
+      "In controlled laboratory experiments, the peptide is frequently applied to explore baseline peptide behavior and structure–function relationships."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Peptide-mediated cellular signaling pathway investigation",
+      "Protein–peptide interaction and binding analysis",
+      "Extracellular matrix organization and structural signaling research",
+      "Comparative peptide structure–function studies",
+      "Biochemical pathway modulation and molecular communication analysis"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Cellular Signaling Research",
+        text: "GHK Basic is widely used in research investigating peptide-mediated signaling pathways and intracellular communication mechanisms."
+      },
+      {
+        title: "Protein Interaction Studies",
+        text: "Researchers apply Tripeptide-1 in studies examining protein binding affinity, peptide recognition, and molecular interaction processes."
+      },
+      {
+        title: "Extracellular Matrix Research",
+        text: "Laboratories investigate how short peptides influence extracellular matrix structure, collagen signaling, and structural protein communication."
+      },
+      {
+        title: "Comparative Peptide Analysis",
+        text: "Because it lacks copper complexation, GHK Basic is often used as a reference compound in studies comparing copper-bound peptides and modified tripeptides."
+      },
+      {
+        title: "In-Vitro Research Models",
+        text: "GHK Basic is incorporated into controlled in-vitro laboratory models studying peptide-driven biochemical and cellular responses."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Molecular Type: Naturally occurring tripeptide",
+      "Amino Acid Composition: Glycine–Histidine–Lysine",
+      "CAS Identifier: 49557-75-7",
+      "Molecular Formula: C14H24N6O4",
+      "Structure: Linear tripeptide chain",
+      "Form: Lyophilized crystalline powder"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Store lyophilized peptide at −20°C for long-term stability",
+      "Protect from moisture and direct light exposure",
+      "Avoid repeated freeze–thaw cycles",
+      "Reconstituted solutions should be refrigerated",
+      "Handle under sterile laboratory conditions"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Sterile bacteriostatic water",
+      "Buffered aqueous laboratory solutions",
+      "Sterile saline solutions",
+      "Standard biochemical assay buffers",
+      "Laboratory-grade solvent systems"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "GHK Basic (Tripeptide-1) 200mg",
+      brand: "BioPeptide",
+      cas: "49557-75-7",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "200 mg",
+      form: "Lyophilized powder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry",
+      molecularStructure: "Linear tripeptide",
+      stability: "High when stored appropriately"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "High-performance liquid chromatography (HPLC) purity verification",
+      "Mass spectrometry molecular weight confirmation",
+      "Peptide structural integrity analysis",
+      "Batch-to-batch consistency validation",
+      "Stability and peptide integrity testing"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "GHK Basic (Tripeptide-1) 200mg supplied by BioPeptide is intended strictly for laboratory research use only. It is not approved for human consumption, veterinary use, therapeutic treatment, cosmetic application, or diagnostic purposes. Buyers must ensure compliance with applicable research regulations and institutional policies.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is GHK Basic (Tripeptide-1) used for in research?",
+        a: "GHK Basic is commonly used in laboratory research studying cellular signaling pathways, protein–peptide interactions, extracellular matrix biology, and comparative peptide behavior."
+      },
+      {
+        q: "What does CAS 49557-75-7 identify?",
+        a: "CAS 49557-75-7 uniquely identifies GHK Basic (Tripeptide-1), ensuring accurate chemical documentation and traceability in laboratory research."
+      },
+      {
+        q: "Why choose the 200mg research format?",
+        a: "The 200mg format provides sufficient quantity for repeated experiments, comparative peptide studies, and medium-scale laboratory research."
+      },
+      {
+        q: "How should GHK Basic be stored?",
+        a: "Store lyophilized peptide at −20°C, protect from moisture and light exposure, and avoid repeated freeze–thaw cycles."
+      },
+      {
+        q: "Is GHK Basic approved for human use?",
+        a: "No. GHK Basic (Tripeptide-1) is strictly intended for laboratory research use only."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C14H24N6O4",
+      molecularWeight: "340.38",
+      monoisotopicMass: "340.185",
+      polarArea: "160",
+      complexity: "390",
+      xlogP: "N/A",
+      heavyAtomCount: "24",
+      hydrogenBondDonorCount: "5",
+      hydrogenBondAcceptorCount: "7",
+      rotatableBondCount: "9",
+      cid: "16134979",
+      inchi:
+        "InChI=1S/C14H24N6O4/c15-4-2-1-3-10(14(23)24)20-13(22)11(19-12(21)6-16)5-9-7-17-8-18-9/h7-8,10-11H,1-6,15-16H2,(H,17,18)(H,19,21)(H,20,22)(H,23,24)",
+      inchiKey: "WJDPHWJHQBCQFV-UHFFFAOYSA-N",
+
+      canonicalSmiles:
+        "C1=C(NC=N1)CC(C(=O)NC(CCCCN)C(=O)O)NC(=O)CN",
+
+      isomericSmiles:
+        "C1=C(NC=N1)C[C@@H](C(=O)N[C@@H](CCCCN)C(=O)O)NC(=O)CN",
+
+      iupacName:
+        "(2S)-6-amino-2-[[(2S)-2-[(2-aminoacetyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]hexanoic acid"
+    }
+  },
+
   appearance: "White to off-white powder",
   storage: "Store refrigerated at 2–8°C. Protect from light and moisture.",
-  researchStatus: "For laboratory and cosmetic research use only. Not for human or veterinary use."
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
 },
-"ghrh-5mg": {
-  name: "GHK-Cu Copper Peptide 50mg",
+"ghk-cu-copper-peptide-topical-500mg": {
+  name: "GHK-Cu Copper Peptide 500mg",
   tagline: "Copper-Binding Tripeptide for Dermal Signaling and Cosmetic Peptide Research",
   cas: "89030-95-5",
 
   strength: [
-    "GHK-Cu Copper Peptide 50mg by BioPeptides is a high-purity research-grade copper tripeptide designed for advanced laboratory and cosmetic formulation research. Identified by CAS 89030-95-5 and purified to ≥99% HPLC, this peptide provides consistent molecular performance for dermal signaling studies, extracellular matrix interaction research, and peptide–metal complex analysis. Laboratories across Europe rely on BioPeptides to buy peptides online with confidence thanks to EU-friendly logistics, transparent analytical documentation, and research-grade peptide quality."
+    "GHK-Cu Copper Peptide 500mg by BioPeptides is a high-purity research-grade copper tripeptide designed for advanced laboratory and cosmetic formulation research. Identified by CAS 89030-95-5 and purified to ≥99% HPLC, this peptide provides consistent molecular performance for dermal signaling studies, extracellular matrix interaction research, and peptide–metal complex analysis. Laboratories across Europe rely on BioPeptides to buy peptides online with confidence thanks to EU-friendly logistics, transparent analytical documentation, and research-grade peptide quality."
   ],
 
   topDescription: {
-    p0: "GHK-Cu Copper Peptide 50mg is a copper-binding tripeptide complex commonly used in laboratory and cosmetic peptide research investigating dermal signaling pathways and extracellular matrix interactions.",
+    p0: "GHK-Cu Copper Peptide 500mg is a copper-binding tripeptide complex commonly used in laboratory and cosmetic peptide research investigating dermal signaling pathways and extracellular matrix interactions.",
     p1: "Synthesized using precision solid-phase peptide synthesis (SPPS) and purified to ≥99% HPLC purity, this peptide provides reliable molecular stability for topical formulation research and biochemical pathway analysis.",
     p2: "BioPeptides supplies GHK-Cu Copper Peptide to research laboratories across Germany, France, Italy, Spain, the Netherlands, Sweden, Belgium, Austria, and other European research regions."
   },
@@ -8009,7 +8326,7 @@ export default {
     overview: [
       "GHK-Cu Copper Peptide is a naturally occurring copper-binding tripeptide composed of glycine, histidine, and lysine coordinated with a copper ion.",
       "In laboratory research environments, the compound is widely investigated for its role in cellular signaling pathways, extracellular matrix regulation, and peptide–metal complex behavior.",
-      "The 50mg research format allows laboratories to conduct formulation experiments, biochemical assays, and controlled signaling pathway studies requiring moderate peptide quantities."
+      "The 500mg research format allows laboratories to conduct formulation experiments, biochemical assays, and controlled signaling pathway studies requiring moderate peptide quantities."
     ],
 
     scientificBackgroundTitle: "Scientific Background of GHK-Cu Copper Peptide",
@@ -8083,11 +8400,11 @@ export default {
 
     techSpecsTitle: "Technical Specifications",
     techSpecs: {
-      productName: "GHK-Cu Copper Peptide 50mg",
+      productName: "GHK-Cu Copper Peptide 500mg",
       brand: "BioPeptides",
       cas: "89030-95-5",
       purity: "≥99% (HPLC verified)",
-      unitSize: "50 mg",
+      unitSize: "500 mg",
       form: "Lyophilized powder",
       synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
       analytical: "HPLC, Mass Spectrometry",
@@ -8106,21 +8423,21 @@ export default {
 
     regulatoryTitle: "Regulatory and Compliance Statement",
     regulatoryText:
-      "GHK-Cu Copper Peptide 50mg supplied by BioPeptides is intended strictly for laboratory and cosmetic research use only. It is not approved for human consumption, veterinary use, therapeutic treatment, or diagnostic applications. Buyers must ensure compliance with applicable research regulations and institutional policies.",
+      "GHK-Cu Copper Peptide 500mg supplied by BioPeptides is intended strictly for laboratory and cosmetic research use only. It is not approved for human consumption, veterinary use, therapeutic treatment, or diagnostic applications. Buyers must ensure compliance with applicable research regulations and institutional policies.",
 
     faqTitle: "Frequently Asked Questions",
     faqItems: [
       {
-        q: "What is GHK-Cu Copper Peptide 50mg used for in research?",
-        a: "GHK-Cu 50mg is commonly used in laboratory and cosmetic peptide research investigating dermal signaling pathways, extracellular matrix interaction, and peptide–copper complex behavior."
+        q: "What is GHK-Cu Copper Peptide 500mg used for in research?",
+        a: "GHK-Cu 500mg is commonly used in laboratory and cosmetic peptide research investigating dermal signaling pathways, extracellular matrix interaction, and peptide–copper complex behavior."
       },
       {
         q: "What does CAS 89030-95-5 identify?",
         a: "CAS 89030-95-5 uniquely identifies GHK-Cu Copper Peptide, ensuring accurate chemical documentation and traceability across laboratory research environments."
       },
       {
-        q: "Why choose the 50mg research format?",
-        a: "The 50mg format provides a balanced quantity suitable for controlled laboratory experiments, formulation development, and biochemical signaling studies."
+        q: "Why choose the 500mg research format?",
+        a: "The 500mg format provides a balanced quantity suitable for controlled laboratory experiments, formulation development, and biochemical signaling studies."
       },
       {
         q: "How should GHK-Cu Copper Peptide be stored?",
