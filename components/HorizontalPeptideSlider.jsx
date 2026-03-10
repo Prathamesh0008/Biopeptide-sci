@@ -38,13 +38,13 @@ export default function HorizontalPeptideSlider() {
         <div className="flex gap-2">
           <button
             onClick={() => scroll("left")}
-            className="p-2 rounded-full border hover:bg-gray-100"
+            className="p-2 rounded-full border hover:bg-gray-100 cursor-pointer"
           >
             <FaChevronLeft className="text-sm" />
           </button>
           <button
             onClick={() => scroll("right")}
-            className="p-2 rounded-full border hover:bg-gray-100"
+          className="p-2 rounded-full border hover:bg-gray-100 cursor-pointer"
           >
            <FaChevronRight className="text-sm" />
           </button>

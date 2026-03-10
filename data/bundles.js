@@ -7,7 +7,7 @@ export const BUNDLES = [
 
     title: "GHRP-2 + MOD-GRF (1-29) Research Bundle",
     discount: "Save 25%",
-    image: "/product/Bundle/GHRP-2-CJC1295-5mg.png",
+    image: "/product2/bundle/GHRP-2-CJC1295-5mg.png",
 
     description:
       "A curated growth hormone research bundle combining GHRP-2 and MOD-GRF (1-29) for receptor interaction studies, GH axis signaling research, and endocrine pathway modeling.",
@@ -34,7 +34,7 @@ export const BUNDLES = [
   title: "GHRP-2 + Ipamorelin Research Bundle",
   discount: "Save 25%",
 
-   image: "/product/Bundle/GHRP-2-Ipamorelin-5mg.png",
+   image: "/product2/bundle/GHRP-2-Ipamorelin-5mg.png",
 
   description:
     "A growth hormone research bundle combining GHRP-2 and Ipamorelin, designed for laboratory studies focused on GH axis signaling, receptor interaction analysis, and endocrine pathway research models.",
@@ -62,7 +62,7 @@ export const BUNDLES = [
   title: "GHRP-6 + MOD-GRF (1-29) Research Bundle",
   discount: "Save 25%",
 
-   image: "/product/Bundle/GHRP-6-CJC1295-5mg.png",
+   image: "/product2/bundle/GHRP-6-CJC1295-5mg.png",
 
   description:
     "A growth hormone research bundle combining GHRP-6 and MOD-GRF (1-29), designed for laboratory studies focused on GH axis signaling, receptor interaction analysis, and endocrine pathway research models.",
@@ -90,7 +90,7 @@ export const BUNDLES = [
   title: "GHRP-6 + Ipamorelin Research Bundle",
   discount: "Save 25%",
 
-   image: "/product/Bundle/GHRP-6-Ipamorelin-5mg.png",
+   image: "/product2/bundle/GHRP-6-Ipamorelin-5mg.png",
 
   description:
     "A growth hormone research bundle combining GHRP-6 and Ipamorelin, designed for laboratory studies focused on GH axis signaling, receptor interaction analysis, and endocrine pathway research models.",
@@ -117,7 +117,7 @@ export const BUNDLES = [
 
   title: "Hexarelin + MOD-GRF (1-29) Research Bundle",
   discount: "Save 25%",
-   image: "/product/Bundle/Hexarelin-CJC-1295-2mg.png",
+   image: "/product2/bundle/Hexarelin-CJC-1295-2mg.png",
 
   description:
     "A growth hormone research bundle combining Hexarelin and MOD-GRF (1-29), designed for laboratory studies focused on GH axis signaling, receptor activation research, and endocrine pathway analysis.",
@@ -145,7 +145,7 @@ export const BUNDLES = [
 
   title: "Hexarelin + MOD-GRF (1-29) Research Bundle",
   discount: "Save 25%",
-   image: "/product/Bundle/Hexarelin-CJC-1295-5mg.png",
+   image: "/product2/bundle/Hexarelin-CJC-1295-5mg.png",
 
   description:
     "A higher-strength growth hormone research bundle combining Hexarelin and MOD-GRF (1-29), designed for laboratory studies focused on GH axis signaling, receptor activation analysis, and endocrine pathway research models.",
@@ -173,7 +173,7 @@ export const BUNDLES = [
 
   title: "Ipamorelin + MOD-GRF (1-29) Research Bundle",
   discount: "Save 25%",
-   image: "/product/Bundle/Ipamorelin-CJC-1295-2mg.png",
+   image: "/product2/bundle/Ipamorelin-CJC-1295-2mg.png",
 
   description:
     "A growth hormone research bundle combining Ipamorelin and MOD-GRF (1-29), designed for laboratory studies focused on GH axis signaling, receptor-selective interaction analysis, and endocrine pathway research models.",
@@ -200,7 +200,7 @@ export const BUNDLES = [
 
   title: "Ipamorelin + MOD-GRF (1-29) Research Bundle",
   discount: "Save 25%",
-   image: "/product/Bundle/Ipamorelin-CJC-1295-5mg.png",
+   image: "/product2/bundle/Ipamorelin-CJC-1295-5mg.png",
 
   description:
     "A higher-strength growth hormone research bundle combining Ipamorelin and MOD-GRF (1-29), designed for laboratory studies focused on GH axis signaling, receptor-selective interaction analysis, and endocrine pathway research models.",

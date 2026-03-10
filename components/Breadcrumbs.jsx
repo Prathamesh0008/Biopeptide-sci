@@ -11,7 +11,10 @@ export default function Breadcrumbs() {
 
   if (!pathname || !translations) return null;
 
-  const segments = pathname.split("/").filter(Boolean);
+  const segments = pathname
+  .split("/")
+  .filter(Boolean)
+  .filter((seg) => seg !== "product");
 
   const t = (key) =>
     translations?.breadcrumbs?.[key] ||
