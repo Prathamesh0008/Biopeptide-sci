@@ -24745,39 +24745,335 @@ cas:"not assigned",
 },
 "testagen-20mg-bioregulator": {
   name: "Testagen 20mg (Bioregulator)",
-  strength: "Short-chain peptide bioregulator studied in laboratory research for testicular tissue signaling pathways and organ-specific regulatory communication models.",
-  description: "Testagen is a short-chain peptide bioregulator investigated in controlled laboratory environments for its interaction with testicular tissue signaling pathways and organ-specific regulatory mechanisms. In research settings, Testagen is studied for peptide-mediated cellular communication, tissue-level regulatory signaling, and bioregulatory pathway models related to reproductive organ research. It is commonly included in peptide bioregulator research programs focused on organ-targeted signaling investigations. Supplied as a high-purity lyophilized research peptide intended exclusively for scientific and analytical research applications.",
-  applications: [
-    "Testicular tissue signaling research",
-    "Organ-specific bioregulator studies",
-    "Peptide-mediated cellular communication research",
-    "Regulatory pathway investigation"
+  tagline: "Testicular Peptide Bioregulator Research Complex",
+  cas: "Unknown",
+
+  strength: [
+    "Testagen 20mg is a short-chain peptide bioregulator supplied for advanced laboratory research investigating testicular tissue signaling pathways, steroidogenesis regulation, spermatogenic signaling mechanisms, and endocrine feedback communication within reproductive biology research systems."
   ],
-  appearance: "White lyophilized powder",
-  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+
+  topDescription: {
+    p0: "Testagen is a testicular-derived peptide bioregulator studied in laboratory environments for its interaction with gonadal cellular signaling pathways and endocrine regulatory communication systems.",
+    p1: "In controlled research settings, Testagen is investigated for peptide-mediated regulatory signaling associated with steroidogenesis pathways, spermatogenic cellular communication, and endocrine feedback interactions between testicular tissue and systemic hormonal networks.",
+    p2: "Supplied as a high-purity lyophilized peptide preparation, Testagen is intended strictly for laboratory research and analytical scientific investigation."
+  },
+
+  content: {
+
+    overviewTitle: "Research Overview",
+    overview: [
+      "Testagen is a short-chain peptide bioregulator derived from testicular peptide complexes and studied within reproductive biology and peptide signaling research programs.",
+      "In laboratory environments, Testagen is investigated for its association with gonadal cellular signaling pathways and regulatory communication systems within testicular tissue.",
+      "This peptide is frequently incorporated into experimental research models examining organ-specific peptide bioregulators and endocrine signaling networks related to reproductive biology."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background",
+    scientificBackground: [
+      "Peptide bioregulators derived from organ-specific tissues are widely studied in molecular biology and endocrinology for their ability to influence localized cellular communication systems.",
+      "Testagen belongs to a class of testicular peptide complexes studied for regulatory signaling mechanisms that influence gonadal cellular activity and endocrine communication pathways.",
+      "These peptides allow researchers to explore tissue-level signaling mechanisms without introducing systemic hormone compounds, providing greater mechanistic clarity in laboratory models."
+    ],
+
+    mechanismTitle: "Mechanistic Research Properties",
+    mechanismPoints: [
+      "Interaction with testicular cellular signaling pathways",
+      "Participation in steroidogenic regulatory communication systems",
+      "Support of peptide-mediated reproductive cellular signaling studies",
+      "Investigation of spermatogenic signaling networks",
+      "Exploration of endocrine feedback communication between gonadal tissue and systemic hormone pathways"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Steroidogenesis Research",
+        text: "Used in laboratory models studying peptide-mediated regulation of steroid hormone synthesis pathways within testicular cell systems."
+      },
+      {
+        title: "Spermatogenic Signaling Studies",
+        text: "Supports investigation of cellular communication involved in spermatogenesis and germ cell regulatory signaling."
+      },
+      {
+        title: "Endocrine Feedback Mechanisms",
+        text: "Applied in experimental models examining regulatory signaling between gonadal tissue and systemic endocrine networks."
+      },
+      {
+        title: "Gonadal Cellular Biology",
+        text: "Used in in-vitro research models to investigate peptide-driven regulatory signaling within testicular cell systems."
+      },
+      {
+        title: "Comparative Bioregulator Research",
+        text: "Allows comparative analysis between Testagen and other organ-specific peptide bioregulators under standardized laboratory conditions."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Peptide Class: Testicular bioregulator peptide complex",
+      "Structure: Short-chain peptide fragments",
+      "Research Field: Reproductive biology and endocrine signaling research",
+      "Form: Lyophilized research peptide powder"
+    ],
+
+    stabilityTitle: "Stability and Storage Profile",
+    stabilityPoints: [
+      "Stable when stored lyophilized at −20°C",
+      "Sensitive to moisture and prolonged light exposure",
+      "Protect from environmental contamination",
+      "Reconstituted solutions should be refrigerated",
+      "Avoid repeated freeze–thaw cycles"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Buffered aqueous laboratory solvent systems",
+      "Analytical solvents used in peptide research"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Testagen 20mg (Bioregulator)",
+      cas: "Unknown",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "20 mg",
+      form: "Lyophilized powder",
+      synthesis: "Peptide extraction / peptide complex purification",
+      analytical: "HPLC, Mass Spectrometry"
+    },
+
+    validationTitle: "Analytical Validation and Quality Control",
+    validationPoints: [
+      "HPLC purity verification",
+      "Mass spectrometry identity confirmation",
+      "Peptide structural integrity testing",
+      "Batch consistency validation",
+      "Laboratory quality control screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Information",
+    regulatoryText:
+      "Testagen 20mg is supplied strictly for laboratory research and scientific investigation. It is not approved as a pharmaceutical product, dietary supplement, cosmetic ingredient, or medical product. The peptide complex is intended exclusively for controlled laboratory experimentation and analytical scientific use.",
+
+    whyTitle: "Why Source from Bio-Peptides?",
+    whyText:
+      "Bio-Peptides supplies research-grade peptides and peptide bioregulators to laboratories worldwide with a focus on analytical purity, batch consistency, and reliable supply chains designed for advanced peptide research environments.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is Testagen used for in research?",
+        a: "Testagen is used in laboratory and preclinical research studying testicular signaling pathways, steroidogenesis mechanisms, spermatogenic cellular communication, and endocrine feedback interactions."
+      },
+      {
+        q: "What type of peptide is Testagen?",
+        a: "Testagen is a testicular-derived peptide bioregulator studied for organ-specific cellular signaling and endocrine communication mechanisms."
+      },
+      {
+        q: "Which research fields commonly use Testagen?",
+        a: "Testagen is studied in reproductive biology, endocrinology, molecular biology, and peptide signaling research focused on male gonadal systems."
+      },
+      {
+        q: "Why is ≥99% purity important?",
+        a: "High purity minimizes experimental variability and ensures that research observations are linked directly to the peptide rather than impurities."
+      },
+      {
+        q: "How should Testagen be stored?",
+        a: "Testagen should be stored at −20°C and protected from light and moisture to maintain peptide stability."
+      },
+      {
+        q: "Is Testagen approved for human use?",
+        a: "No. This product is supplied strictly for laboratory research use."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "Unknown",
+      molecularWeight: "Unknown",
+      monoisotopicMass: "Unknown",
+      polarArea: "Unknown",
+      complexity: "Unknown",
+      xlogP: "Unknown",
+      heavyAtomCount: "Unknown",
+      hydrogenBondDonorCount: "Unknown",
+      hydrogenBondAcceptorCount: "Unknown",
+      rotatableBondCount: "Unknown",
+      cid: "Unknown",
+      inchi: "Unknown",
+      inchiKey: "Unknown",
+      canonicalSmiles: "Unknown",
+      isomericSmiles: "Unknown",
+      iupacName: "Unknown"
+    }
+
+  }
 },
+
+
+
 "thymagen-20mg-bioregulator": {
   name: "Thymagen 20mg (Bioregulator)",
+  tagline: "Thymus Bioregulator Research Peptide",
+  cas: "Not Assigned",
 
-  strength:
-    "Short-chain peptide bioregulator studied in laboratory research for thymus-related signaling pathways and immune system regulatory communication models.",
-
-  description:
-    "Thymagen is a short-chain peptide bioregulator investigated in controlled laboratory environments for its interaction with thymus-associated signaling pathways and organ-specific regulatory mechanisms. In research settings, Thymagen is studied for peptide-mediated cellular communication, immune-related signaling models, and bioregulatory pathway investigations associated with thymic tissue research. It is commonly included in peptide bioregulator research programs focused on organ-targeted regulatory signaling studies. Supplied as a high-purity lyophilized research peptide intended exclusively for scientific and analytical research applications.",
-
-  applications: [
-    "Thymus-related signaling research",
-    "Immune system regulatory pathway studies",
-    "Organ-specific bioregulator research",
-    "Peptide-mediated cellular communication investigation"
+  strength: [
+    "Thymagen 20mg is a short-chain peptide bioregulator supplied for advanced laboratory research focusing on thymus-associated regulatory signaling pathways, immune communication networks, and peptide-mediated cellular regulation models studied within immunology and peptide bioregulator research programs."
   ],
 
-  appearance: "White lyophilized powder",
-  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use."
-},
+  topDescription: {
+    p0: "Thymagen is a short-chain peptide bioregulator studied in laboratory environments for its interaction with thymus-related signaling pathways and immune regulatory communication systems.",
+    p1: "In controlled experimental settings, Thymagen is investigated for peptide-mediated regulatory signaling mechanisms associated with thymic tissue and immune system cellular communication.",
+    p2: "Supplied as a high-purity lyophilized peptide preparation, Thymagen is intended strictly for laboratory research and analytical scientific investigation."
+  },
 
+  content: {
+
+    overviewTitle: "Research Overview",
+    overview: [
+      "Thymagen is a short-chain peptide bioregulator studied in peptide signaling and immunology research programs.",
+      "In laboratory research environments, Thymagen is investigated for its relationship with thymus-associated regulatory signaling pathways and immune communication networks.",
+      "The peptide is frequently included in experimental models studying organ-specific peptide bioregulators and thymic regulatory communication systems."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background",
+    scientificBackground: [
+      "Peptide bioregulators derived from thymic tissue are widely investigated in immunology research due to their association with immune system signaling and regulatory communication networks.",
+      "Short-chain peptides such as Thymagen are studied for their role in organ-targeted peptide signaling systems and thymus-related cellular communication models.",
+      "These peptides are often included in laboratory models exploring thymus-regulated signaling pathways and immune regulatory mechanisms."
+    ],
+
+    mechanismTitle: "Mechanistic Research Properties",
+    mechanismPoints: [
+      "Interaction with thymus-associated regulatory signaling pathways",
+      "Participation in immune system communication models",
+      "Support of peptide-mediated regulatory signaling investigations",
+      "Influence on thymic cellular communication networks",
+      "Investigation of peptide bioregulator activity within thymus research systems"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Thymus Signaling Research",
+        text: "Used in laboratory models studying peptide-driven communication within thymus-associated regulatory signaling systems."
+      },
+      {
+        title: "Immune Regulatory Pathway Studies",
+        text: "Supports experimental investigation of immune communication pathways and regulatory signaling networks."
+      },
+      {
+        title: "Peptide Bioregulator Research",
+        text: "Applied in peptide bioregulator research programs investigating organ-specific regulatory signaling mechanisms."
+      },
+      {
+        title: "Cellular Communication Models",
+        text: "Used to investigate peptide-mediated cellular communication within immune-related research environments."
+      },
+      {
+        title: "Immunology Research Systems",
+        text: "Allows researchers to study thymus-related signaling behavior in immunological experimental models."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Peptide Class: Short-chain thymus bioregulator peptide",
+      "Structure: Small regulatory peptide fragment",
+      "Research Field: Immunology and thymus signaling research",
+      "Form: Lyophilized research peptide powder"
+    ],
+
+    stabilityTitle: "Stability and Storage Profile",
+    stabilityPoints: [
+      "Stable when stored in lyophilized form at −20°C",
+      "Sensitive to moisture and prolonged light exposure",
+      "Protect from environmental contamination",
+      "Reconstituted solutions should be refrigerated",
+      "Avoid repeated freeze–thaw cycles"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Buffered aqueous laboratory solvent systems",
+      "Analytical solvents used in peptide research"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Thymagen 20mg (Bioregulator)",
+      cas: "Unknown",
+      purity: "≥98–99% (Research-grade)",
+      unitSize: "20 mg",
+      form: "Lyophilized powder",
+      synthesis: "Peptide synthesis / bioregulator peptide preparation",
+      analytical: "HPLC, Mass Spectrometry"
+    },
+
+    validationTitle: "Analytical Validation and Quality Control",
+    validationPoints: [
+      "HPLC purity verification",
+      "Mass spectrometry identity confirmation",
+      "Peptide structural integrity testing",
+      "Batch consistency validation",
+      "Laboratory quality control screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Information",
+    regulatoryText:
+      "Thymagen 20mg is supplied strictly for laboratory research and scientific investigation. It is not approved as a pharmaceutical product, dietary supplement, cosmetic ingredient, or medical product. The peptide is intended exclusively for controlled laboratory experimentation and analytical scientific use.",
+
+    whyTitle: "Why Source from Bio-Peptides?",
+    whyText:
+      "Bio-Peptides supplies research-grade peptides to laboratories worldwide with a focus on analytical quality, batch consistency, and reliable scientific supply chains designed for advanced peptide research environments.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is Thymagen used for in research?",
+        a: "Thymagen is used in laboratory research studying thymus-related signaling pathways and immune regulatory communication systems."
+      },
+      {
+        q: "What type of peptide is Thymagen?",
+        a: "Thymagen is a short-chain thymus peptide bioregulator investigated in immunology and peptide signaling research."
+      },
+      {
+        q: "Which research fields use Thymagen?",
+        a: "It is commonly studied in immunology research, thymus signaling studies, and peptide bioregulator research programs."
+      },
+      {
+        q: "How should Thymagen be stored?",
+        a: "Thymagen should be stored at −20°C and protected from light and moisture."
+      },
+      {
+        q: "Is Thymagen approved for human use?",
+        a: "No. This product is supplied strictly for laboratory research use."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C10H16N4O3",
+      molecularWeight: "240.26",
+      monoisotopicMass: "240.122240",
+      polarArea: "96",
+      complexity: "312",
+      xlogP: "-1.5",
+      heavyAtomCount: "17",
+      hydrogenBondDonorCount: "4",
+      hydrogenBondAcceptorCount: "5",
+      rotatableBondCount: "6",
+      cid: "N/A",
+      inchi: "N/A",
+      inchiKey: "N/A",
+      canonicalSmiles: "N/A",
+      isomericSmiles: "N/A",
+      iupacName: "N/A",
+    }
+
+  }
+},
 
 
 "thymalin-20mg": {

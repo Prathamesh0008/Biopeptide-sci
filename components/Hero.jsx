@@ -103,7 +103,7 @@ export default function Hero() {
 
   return (
     <section className="relative border-b border-gray-200 overflow-hidden">
-     <div className="relative w-full min-h-[380px] md:min-h-[450px] py-10">
+     <div className="relative w-full min-h-[380px] md:min-h-[550px] py-10">
 
 
         {/* ========== BACKGROUND SLIDES ========== */}
@@ -124,11 +124,11 @@ export default function Hero() {
 
         {/* ========== CONTENT CARD ========== */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="
+      <div className="
   bg-white/60 backdrop-blur-md
-  rounded-2xl shadow-lg
-  px-4 py-3 md:px-6 md:py-4
-  w-[92%] max-w-3xl
+  rounded-2xl shadow-xl
+  px-6 py-5 md:px-10 md:py-7
+  w-[95%] max-w-5xl
 ">
 
             <div className="flex flex-col md:grid md:grid-cols-2 gap-3 md:gap-4 items-center">

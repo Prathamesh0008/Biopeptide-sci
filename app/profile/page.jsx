@@ -1,3 +1,4 @@
+
 //app\profile\page.jsx
 "use client";
 
@@ -322,6 +323,361 @@ function InfoRow({ label, value }) {
     </div>
   );
 }
+
+
+
+// "use client";
+
+// import { useRouter } from "next/navigation";
+// import { useEffect, useMemo, useState } from "react";
+// import Navbar from "@/components/Navbar";
+// import Footer from "@/components/Footer";
+// import Breadcrumbs from "../../components/Breadcrumbs";
+// import { useLanguage } from "@/contexts/LanguageContext";
+
+// export default function ProfilePage() {
+//   const router = useRouter();
+//   const [user, setUser] = useState(null);
+//   const [orders, setOrders] = useState([]);
+//   const [loadingOrders, setLoadingOrders] = useState(true);
+//   const { translations } = useLanguage();
+
+//   const [editMode, setEditMode] = useState(false);
+
+//   const [form, setForm] = useState({
+//     name: "",
+//     email: "",
+//     phone: "",
+//   });
+
+//   const t = (key) =>
+//     key.split(".").reduce(
+//       (obj, k) => obj?.[k],
+//       translations?.profilePage || {}
+//     );
+
+//   /* ---------------- LOAD USER ---------------- */
+//   useEffect(() => {
+//     const stored = localStorage.getItem("bio-user");
+
+//     if (!stored) {
+//       router.push("/login");
+//       return;
+//     }
+
+//     const parsed = JSON.parse(stored);
+
+//     setUser(parsed);
+
+//     setForm({
+//       name: parsed.name || "",
+//       email: parsed.email || "",
+//       phone: parsed.phone || "",
+//     });
+//   }, [router]);
+
+//   /* ---------------- LOAD ORDERS ---------------- */
+//   useEffect(() => {
+//     const loadOrders = async () => {
+//       try {
+//         const res = await fetch("/api/orders/my", {
+//           credentials: "include",
+//           cache: "no-store",
+//         });
+
+//         if (res.status === 401) {
+//           localStorage.removeItem("bio-user");
+//           router.push("/login");
+//           return;
+//         }
+
+//         const data = await res.json();
+//         setOrders(data.orders || []);
+//       } catch {
+//         setOrders([]);
+//       } finally {
+//         setLoadingOrders(false);
+//       }
+//     };
+
+//     if (user) loadOrders();
+//   }, [user, router]);
+
+//   const latestOrder = orders?.[0] || null;
+
+//   const stats = useMemo(
+//     () => ({
+//       total: orders.length,
+//       pending: orders.filter((o) => o.status === "pending").length,
+//       delivered: orders.filter((o) => o.status === "delivered").length,
+//     }),
+//     [orders]
+//   );
+
+//   /* ---------------- UPDATE PROFILE ---------------- */
+
+//   const updateProfile = async () => {
+//     try {
+//       const res = await fetch("/api/user/update", {
+//         method: "POST",
+//         headers: {
+//           "Content-Type": "application/json",
+//         },
+//         body: JSON.stringify(form),
+//       });
+
+//       const data = await res.json();
+
+//       if (data.ok) {
+//         localStorage.setItem("bio-user", JSON.stringify(data.user));
+//         setUser(data.user);
+//         setEditMode(false);
+
+//         window.dispatchEvent(new Event("bio-user-updated"));
+//       } else {
+//         alert("Update failed");
+//       }
+//     } catch {
+//       alert("Server error");
+//     }
+//   };
+
+//   const logout = async () => {
+//     try {
+//       await fetch("/api/auth/logout", { method: "POST" });
+//     } catch {}
+
+//     localStorage.removeItem("bio-user");
+
+//     window.dispatchEvent(new Event("bio-user-updated"));
+
+//     router.push("/");
+//   };
+
+//   if (!user) return null;
+
+//   const hasAddress =
+//     latestOrder?.address &&
+//     Object.values(latestOrder.address).some(Boolean);
+
+//   return (
+//     <>
+//       <Navbar />
+//       <Breadcrumbs />
+
+//       <main className="min-h-[80vh] bg-gradient-to-br from-white via-[#eef8ff] to-[#e8fff2]">
+//         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
+
+//           {/* HEADER */}
+//           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-10">
+//             <div>
+//               <h1 className="text-4xl font-bold text-[#0d2d47]">
+//                 {t("title")}
+//               </h1>
+//               <p className="text-gray-600 mt-2">
+//                 {t("subtitle")}
+//               </p>
+//             </div>
+
+//             <div className="grid grid-cols-3 gap-4">
+//               <Stat label="Orders" value={stats.total} />
+//               <Stat label="Pending" value={stats.pending} />
+//               <Stat label="Delivered" value={stats.delivered} />
+//             </div>
+//           </div>
+
+//           <div className="grid lg:grid-cols-4 gap-8">
+
+//             {/* PROFILE CARD */}
+//             <div className="lg:col-span-1 bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
+//               rounded-3xl shadow-xl p-6 text-white">
+
+//               <div className="flex flex-col items-center text-center">
+//                 <div className="w-24 h-24 rounded-full bg-white/20
+//                   flex items-center justify-center text-3xl font-bold">
+//                   {user.name?.[0]?.toUpperCase() || "U"}
+//                 </div>
+
+//                 <h2 className="mt-4 text-xl font-semibold">
+//                   {user.name}
+//                 </h2>
+
+//                 <p className="text-sm opacity-90">{user.email}</p>
+
+//                 <button
+//                   onClick={logout}
+//                   className="mt-8 w-full py-3 rounded-full font-semibold
+//                   bg-white text-[#0a79a8]"
+//                 >
+//                   Logout
+//                 </button>
+//               </div>
+//             </div>
+
+//             {/* RIGHT CONTENT */}
+//             <div className="lg:col-span-3 space-y-8">
+
+//               {/* ACCOUNT INFO */}
+//               <div className="bg-white rounded-2xl shadow-xl border p-6">
+
+//                 <div className="flex justify-between items-center mb-4">
+//                   <h3 className="text-xl font-semibold text-gray-900">
+//                     Account Information
+//                   </h3>
+
+//                   {!editMode && (
+//                     <button
+//                       onClick={() => setEditMode(true)}
+//                       className="text-sm font-semibold text-[#0a79a8]"
+//                     >
+//                       Edit
+//                     </button>
+//                   )}
+//                 </div>
+
+//                 {editMode ? (
+//                   <div className="grid gap-4 sm:grid-cols-2">
+
+//                     <input
+//                       className="border rounded-lg px-4 py-2"
+//                       value={form.name}
+//                       onChange={(e) =>
+//                         setForm({ ...form, name: e.target.value })
+//                       }
+//                       placeholder="Full Name"
+//                     />
+
+//                     <input
+//                       className="border rounded-lg px-4 py-2"
+//                       value={form.email}
+//                       onChange={(e) =>
+//                         setForm({ ...form, email: e.target.value })
+//                       }
+//                       placeholder="Email"
+//                     />
+
+//                     <input
+//                       className="border rounded-lg px-4 py-2"
+//                       value={form.phone}
+//                       onChange={(e) =>
+//                         setForm({ ...form, phone: e.target.value })
+//                       }
+//                       placeholder="Phone"
+//                     />
+
+//                     <div className="flex gap-3 mt-3">
+//                       <button
+//                         onClick={updateProfile}
+//                         className="px-5 py-2 rounded-full text-white
+//                         bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]"
+//                       >
+//                         Save
+//                       </button>
+
+//                       <button
+//                         onClick={() => setEditMode(false)}
+//                         className="px-5 py-2 border rounded-full"
+//                       >
+//                         Cancel
+//                       </button>
+//                     </div>
+
+//                   </div>
+//                 ) : (
+//                   <div className="grid sm:grid-cols-2 gap-4 text-sm">
+//                     <InfoRow label="Full Name" value={user.name} />
+//                     <InfoRow label="Email" value={user.email} />
+//                     <InfoRow label="Phone" value={user.phone || "—"} />
+//                   </div>
+//                 )}
+//               </div>
+
+//               {/* ORDERS */}
+//               <div className="bg-white rounded-2xl shadow-xl border p-6">
+
+//                 <h3 className="text-xl font-semibold mb-5">
+//                   Orders
+//                 </h3>
+
+//                 {loadingOrders ? (
+//                   <p className="text-gray-500">Loading...</p>
+//                 ) : orders.length === 0 ? (
+//                   <p>No orders yet</p>
+//                 ) : (
+//                   <div className="space-y-4">
+//                     {orders.map((order) => (
+//                       <div
+//                         key={order._id}
+//                         className="border rounded-xl p-4 flex justify-between"
+//                       >
+//                         <div>
+//                           <p className="font-semibold">
+//                             Order #{order._id.slice(-6)}
+//                           </p>
+//                           <p className="text-xs text-gray-500">
+//                             {new Date(order.createdAt).toLocaleString()}
+//                           </p>
+//                         </div>
+
+//                         <div className="text-right">
+//                           <p className="font-bold">
+//                             ${order.totals?.total?.toFixed(2)}
+//                           </p>
+
+//                           <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">
+//                             {order.status}
+//                           </span>
+//                         </div>
+//                       </div>
+//                     ))}
+//                   </div>
+//                 )}
+//               </div>
+
+//             </div>
+//           </div>
+//         </div>
+//       </main>
+
+//       <Footer />
+//     </>
+//   );
+// }
+
+// /* SMALL UI COMPONENTS */
+
+// function Stat({ label, value }) {
+//   return (
+//     <div className="bg-white rounded-2xl p-4 shadow-md text-center">
+//       <p className="text-xs text-gray-500">{label}</p>
+//       <p className="text-3xl font-bold text-[#0d2d47]">{value}</p>
+//     </div>
+//   );
+// }
+
+// function InfoRow({ label, value }) {
+//   return (
+//     <div className="bg-gray-50 border rounded-xl p-4">
+//       <p className="text-xs text-gray-500">{label}</p>
+//       <p className="font-semibold text-gray-900 mt-1">
+//         {value}
+//       </p>
+//     </div>
+//   );
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

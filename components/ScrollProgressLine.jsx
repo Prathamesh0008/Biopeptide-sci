@@ -28,7 +28,7 @@ export default function ScrollProgressBar() {
       <div
         className="
           h-full
-          bg-gradient-to-r from-bioBlue to-bioGreen
+           bg-gradient-to-r from-[#51c4c7] via-[#0978a7] to-[#0978a7] 
           origin-left
           transition-transform duration-75 ease-out
         "
