@@ -83,12 +83,19 @@ export const metadata = {
       "Buy research peptides online in the USA. High-purity bioactive peptides and research compounds by BioPeptide Sci.",
     images: ["https://www.bio-peptides.com/Biopeptidecolourlogo.png"],
   },
-
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/Biopeptidecolourlogo.png",
-  },
+icons: {
+  icon: [
+    { url: "/favicon.ico" },
+    { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+  ],
+  apple: "/Biopeptidecolourlogo.png",
+},
+  // icons: {
+  //   icon: "/favicon.ico",
+  //   shortcut: "/favicon.ico",
+  //   apple: "/Biopeptidecolourlogo.png",
+  // },
 };
 
 /* ===================== ROOT LAYOUT ===================== */

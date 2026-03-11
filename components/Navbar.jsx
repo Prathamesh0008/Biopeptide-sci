@@ -679,7 +679,7 @@ const handleNavigate = (href) => {
   {/* FULL WIDTH BACKGROUND */}
   <div className="w-full ">
     
-    {/* CENTERED CONTENT */}
+    {/* CENTERED CONTENT  font-semibold*/}
     <nav
   className="
     max-w-7xl mx-auto
@@ -689,7 +689,7 @@ const handleNavigate = (href) => {
     gap-2
     text-grey-700
     text-[15.5px]
-    font-semibold
+    
     flex-nowrap overflow-hidden
   "
 >

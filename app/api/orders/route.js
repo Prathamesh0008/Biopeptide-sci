@@ -67,29 +67,24 @@ export async function POST(req) {
     }
 
     /* ---------------- DUPLICATE CHECK ---------------- */
-    const existing = await Order.findOne({
-      checkoutId: body.checkoutId,
-    });
+  let order = await Order.findOne({
+  checkoutId: body.checkoutId,
+});
 
-    if (existing) {
-      return Response.json({
-        ok: true,
-        orderId: existing._id.toString(),
-      });
-    }
+if (!order) {
+  order = await Order.create({
+    checkoutId: body.checkoutId,
+    userId: payload.id || payload._id || payload.sub,
+    userEmail: body.userEmail || "",
+    userName: body.userName || "",
+    phone: body.phone || "",
+    address: body.address,
+    items: body.items,
+    totals: body.totals,
+    status: "pending",
+  });
+}
 
-    /* ---------------- SAVE ORDER ---------------- */
-    const order = await Order.create({
-      checkoutId: body.checkoutId,
-      userId: payload.id || payload._id || payload.sub,
-      userEmail: body.userEmail || "",
-      userName: body.userName || "",
-      phone: body.phone || "",
-      address: body.address,
-      items: body.items,
-      totals: body.totals,
-      status: "pending",
-    });
 
     /* ---------------- SEND EMAIL (SAFE MODE) ---------------- */
     try {

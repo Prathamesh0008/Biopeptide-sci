@@ -3166,78 +3166,76 @@ export default {
   }
 },
   
-   "cartalax-20mg": {
+"cartalax-20mg-bioregulator": {
   name: "Cartalax® 20mg (Bioregulator)",
   tagline: "Cartilage and Connective Tissue Bioregulatory Research Peptide",
   cas: "N/A",
 
-  // Short card / hero text
   strength: [
-    "Biopeptides Cartalax® 20mg (Bioregulator) is a high-purity synthetic short-chain peptide formulation developed for advanced laboratory research in cartilage biology and connective tissue signaling. Produced using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC, Mass Spectrometry, and UV analysis, it delivers ≥99% purity, molecular precision, and batch-to-batch reproducibility. Cartalax® is widely used by European research institutions for organ-specific gene expression studies and extracellular matrix research models."
+    "Biopeptides Cartalax® 20mg (Bioregulator) is a premium research peptide designed for advanced regenerative and molecular biology studies. Synthesized using Solid-Phase Peptide Synthesis (SPPS) and rigorously validated through HPLC, Mass Spectrometry, and UV spectrophotometry, it guarantees ≥99% purity and reproducible results. European laboratories in Germany, France, Italy, Spain, Netherlands, Belgium, and Switzerland utilize Cartalax® 20mg to explore cellular signaling modulation, mitochondrial ATP production, enzymatic activation, and protein-peptide interactions. Ideal for laboratories searching to buy peptides online, this peptide delivers consistent experimental outcomes, making it one of the best peptides and top peptides online for high-quality scientific research."
   ],
 
-  // Hero / intro description
   topDescription: {
-    p0: "Biopeptides Cartalax® 20mg (Bioregulator) is a precision-engineered research peptide developed for in-vitro cartilage and connective tissue studies.",
-    p1: "Synthesised under controlled laboratory conditions and analytically verified for purity and molecular identity, Cartalax® supports advanced investigations into peptide-mediated regulatory signaling.",
-    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Belgium, Switzerland, Austria, and Denmark rely on Cartalax® for reproducible and well-documented bioregulatory peptide research."
+    p0: "Biopeptides Cartalax® 20mg (Bioregulator) is a precision-engineered research peptide developed for advanced in-vitro studies focusing on cartilage biology, regenerative processes, and connective tissue signaling.",
+    p1: "Manufactured through Solid-Phase Peptide Synthesis (SPPS) and analytically verified using HPLC, Mass Spectrometry, and UV spectrophotometry, this peptide provides exceptional purity, molecular stability, and batch-to-batch reproducibility.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, Netherlands, Belgium, Switzerland, Austria, and Denmark rely on Cartalax® 20mg for reliable and reproducible peptide-based experiments in regenerative biology and extracellular matrix research."
   },
 
-  // Full product page content
   content: {
-    overviewTitle: "Premium Cartilage Bioregulatory Research Peptide",
+    overviewTitle: "Advanced Cartilage Bioregulatory Research Peptide",
+
     overview: [
-      "Cartalax® 20mg (Bioregulator) is a laboratory-grade synthetic peptide designed for organ-specific research related to cartilage and connective tissue biology.",
-      "It consists of short-chain regulatory peptides studied for their influence on gene expression, cellular differentiation, and extracellular matrix signaling.",
-      "Supplied as a high-purity research material, Cartalax® meets the analytical and documentation standards required by European research institutions."
+      "The Biopeptides Cartalax® 20mg (Bioregulator) is a high-precision research peptide formulated for advanced laboratory investigations involving regenerative biology, protein-peptide interactions, mitochondrial metabolism, and enzymatic activity.",
+      "Developed using solid-phase peptide synthesis (SPPS), this peptide offers exceptional purity, molecular stability, and reproducible analytical performance validated through High-Performance Liquid Chromatography (HPLC), Mass Spectrometry (MS), and UV spectrophotometry.",
+      "European research institutions across Germany, France, Italy, Spain, Netherlands, Belgium, Switzerland, Austria, and Denmark utilize Cartalax® 20mg for high-quality in-vitro experiments requiring precision, stability, and reproducibility."
     ],
 
     scientificBackgroundTitle: "Scientific Overview",
+
     scientificBackground: [
-      "Short-chain bioregulatory peptides are increasingly studied for their ability to modulate tissue-specific gene expression and cellular communication.",
-      "These peptides enable researchers to explore regulatory signaling with predictable degradation profiles and high experimental reproducibility.",
-      "Cartalax® has been examined in laboratory models focused on cartilage biology, matrix organization, and connective tissue signaling.",
-      "European research environments value bioregulators for their stability, traceability, and suitability for controlled in-vitro experimentation."
+      "Peptides have revolutionized modern biomedical research by enabling scientists to precisely modulate cellular communication, investigate molecular pathways, and analyze gene expression patterns.",
+      "Cartalax® 20mg provides researchers with a reliable peptide system for regenerative cell biology, receptor-binding studies, extracellular matrix research, and mitochondrial metabolism experiments.",
+      "European laboratories favor Cartalax® due to its molecular stability, predictable degradation profile, and consistent biological activity across experimental conditions.",
+      "The lyophilized peptide format ensures long-term stability while enabling convenient reconstitution using bacteriostatic water, sterile saline, acidic buffers, or analytical organic solvents."
     ],
 
     mechanismTitle: "Mechanism of Action (Research Context)",
+
     mechanismPoints: [
-      "Modulation of cartilage-specific cellular signaling pathways",
-      "Regulation of gene transcription related to connective tissue structure",
-      "Support of extracellular matrix organization and cellular interaction models",
-      "Influence on mitochondrial ATP production in controlled laboratory systems",
-      "Facilitation of enzymatic activation and peptide-mediated regulatory processes"
+      "Cellular Signaling Modulation – Supports intercellular communication and tissue-specific signaling pathways.",
+      "Growth Factor Sensitivity Enhancement – Improves cellular responsiveness to endogenous growth mediators.",
+      "Gene Expression Regulation – Influences transcription pathways associated with tissue repair and regeneration.",
+      "Mitochondrial ATP Production Influence – Supports cellular energy metabolism in high-demand experimental models.",
+      "Enzymatic Activation Support – Facilitates enzyme-mediated protein remodeling and metabolic processes."
     ],
 
     applicationsTitle: "Primary Research Applications",
+
     applications: [
       {
-        title: "Cartilage and Connective Tissue Research",
-        text: "Studying peptide-regulated signaling pathways in cartilage and structural tissue models."
+        title: "Regenerative Cell Biology",
+        text: "Investigating cartilage repair mechanisms, cellular proliferation, and connective tissue regeneration models."
       },
       {
-        title: "Gene Expression and Transcription Studies",
-        text: "Investigating peptide-mediated regulation of genes involved in tissue structure and function."
-      },
-      {
-        title: "Bioregulatory Pathway Research",
-        text: "Exploring short-chain peptide control of intracellular regulatory mechanisms."
-      },
-      {
-        title: "Protein Expression Analysis",
-        text: "Assessing peptide influence on protein synthesis and molecular communication."
+        title: "Protein Expression and Receptor-Binding Studies",
+        text: "Evaluating peptide-protein interactions and receptor signaling pathways."
       },
       {
         title: "Mitochondrial Metabolic Research",
-        text: "Evaluating cellular energy production and ATP regulation under controlled conditions."
+        text: "Studying ATP production, mitochondrial response, and cellular energy dynamics."
+      },
+      {
+        title: "Enzymatic Sensitivity Experiments",
+        text: "Analyzing peptide effects on enzyme activation and metabolic processes."
       },
       {
         title: "Matrix Remodeling Assays",
-        text: "Analyzing extracellular matrix organization, cellular migration, and structural modeling."
+        text: "Modeling extracellular matrix organization, wound healing, and cellular migration."
       }
     ],
 
     molecularTitle: "Molecular Composition and Characteristics",
+
     molecularPoints: [
       "Molecular Type: Synthetic bioregulatory peptide complex",
       "Composition: Short-chain di- and tripeptide sequences",
@@ -3246,84 +3244,93 @@ export default {
       "Stability: High when stored under recommended laboratory conditions"
     ],
 
-    stabilityTitle: "Stability Profile and Storage Guidelines",
+    stabilityTitle: "Stability and Storage Guidelines",
+
     stabilityPoints: [
-      "Supplied as a lyophilized powder for enhanced stability",
-      "Recommended storage temperature: −20°C",
-      "Protect from moisture, humidity, and prolonged light exposure",
-      "Avoid repeated freeze–thaw cycles",
+      "Supplied as a lyophilized powder for enhanced long-term stability",
+      "Recommended storage temperature: −20°C or below",
+      "Protect from moisture and humidity",
+      "Minimize exposure to light",
+      "Avoid repeated freeze-thaw cycles",
       "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
     ],
 
     solubilityTitle: "Solubility and Reconstitution Options",
+
     solubilityPoints: [
-      "Bacteriostatic water",
-      "Sterile saline solutions",
-      "Acidic buffer systems",
-      "Compatible organic analytical solvents"
+      "Bacteriostatic Water",
+      "Sterile Saline",
+      "Acidic Buffers",
+      "Organic Analytical Solvents"
     ],
 
     techSpecsTitle: "Technical Specifications",
+
     techSpecs: {
       productName: "Cartalax® 20mg (Bioregulator)",
       cas: "N/A",
-      purity: "≥99% (HPLC verified)",
-      unitSize: "20 mg",
+      purity: "≥99% (HPLC validated)",
+      unitSize: "20mg vial",
       form: "Lyophilized powder",
       synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
       analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
-      molecularStructure: "Short-chain synthetic peptide complex",
+      molecularType: "Synthetic research peptide",
+      structure: "Linear peptide chain",
       stability: "High when stored under recommended laboratory conditions"
     },
 
     validationTitle: "Analytical Validation and Quality Assurance",
+
     validationPoints: [
       "HPLC purity and consistency confirmation",
       "Mass Spectrometry molecular identity verification",
       "UV spectrophotometric concentration analysis",
       "Batch-to-batch reproducibility assessment",
-      "Microbial and contamination screening"
+      "Endotoxin and microbial contamination screening"
     ],
 
-    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryTitle: "Regulatory and Compliance",
+
     regulatoryText:
-      "Cartalax® 20mg (Bioregulator) is supplied strictly for laboratory research and scientific investigation. It is not approved for human consumption, veterinary use, cosmetic applications, or medical treatment. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support EU research compliance.",
+      "Biopeptides Cartalax® 20mg (Bioregulator) is strictly intended for laboratory research purposes. It is not approved for human consumption, veterinary use, cosmetic applications, or medical treatment. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support EU research compliance.",
 
     faqTitle: "Frequently Asked Questions",
+
     faqItems: [
       {
-        q: "What is Cartalax® 20mg used for in research?",
-        a: "It is used in laboratory research focusing on cartilage biology, connective tissue signaling, and bioregulatory gene expression studies."
+        q: "What is Cartalax® 20mg used for?",
+        a: "Cartalax® 20mg is used in regenerative cell biology, protein-peptide interaction studies, mitochondrial metabolism research, and extracellular matrix remodeling experiments."
       },
       {
-        q: "Does Cartalax® 20mg have a CAS number?",
-        a: "Currently, Cartalax® does not have a registered CAS number, but it is analytically validated for research-grade purity and identity."
+        q: "Does Cartalax® have a CAS number?",
+        a: "Currently Cartalax® does not have a registered CAS number, but its purity and molecular identity are validated through HPLC, MS, and UV analysis."
       },
       {
-        q: "How should Cartalax® be stored?",
-        a: "Store the lyophilized peptide at −20°C, protected from moisture and light. Avoid repeated freeze–thaw cycles."
+        q: "How should Cartalax® 20mg be stored?",
+        a: "Store the lyophilized peptide at −20°C in a dry and dark environment. Avoid repeated freeze-thaw cycles."
       },
       {
-        q: "Is Cartalax® approved for human or veterinary use?",
-        a: "No. Cartalax® 20mg is strictly for laboratory research and is not approved for human or animal use."
-      },
-      {
-        q: "Can European laboratories buy Cartalax® online?",
-        a: "Yes. Biopeptides supplies Cartalax® 20mg to research institutions across Europe with full analytical documentation."
-      },
-      {
-        q: "What makes Cartalax® unique as a bioregulator?",
-        a: "Its short-chain peptide composition enables precise modulation of gene expression, extracellular matrix behavior, and cartilage-specific cellular signaling."
-      },
-      {
-        q: "How is purity verified?",
-        a: "Purity is confirmed using HPLC, while molecular identity and concentration are verified through Mass Spectrometry and UV analysis."
+        q: "Is Cartalax® approved for human use?",
+        a: "No. Cartalax® 20mg is strictly intended for laboratory research only."
       },
       {
         q: "Why do laboratories prefer the 20mg format?",
-        a: "The 20mg format supports multiple experiments, reduced handling variability, and consistent results across extended research timelines."
+        a: "The 20mg format allows multiple experiments from a single vial while maintaining consistency across extended research timelines."
       }
-    ]
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C15H25CuN6O4",
+      molecularWeight: "416.9",
+      polarArea: "N/A",
+      complexity: "N/A",
+      xlogP: "N/A",
+      heavyAtomCount: "N/A",
+      hydrogenBondDonorCount: "N/A",
+      hydrogenBondAcceptorCount: "N/A",
+      rotatableBondCount: "N/A",
+      sequence: "Ala-His-Lys-Cu"
+    }
   }
 },
   
@@ -7337,52 +7344,8 @@ export default {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use."
 },
-"fragment-modified-grf-ipamorelin-12mg-blend": {
-  name: "Fragment CJC-1295 + Ipamorelin Blend 12mg",
 
-  strength:
-    "Dual-peptide research blend studied for growth hormone–related receptor signaling and endocrine pathway interaction models.",
 
-  description:
-    "This research blend combines Fragment CJC-1295 (MOD GRF 1-29), a growth hormone–releasing hormone analog studied in pituitary signaling models, with Ipamorelin, a selective growth hormone secretagogue receptor (GHS-R) agonist investigated in endocrine pathway research. In laboratory settings, this blend is used to explore synergistic peptide interactions, receptor-mediated signaling, and peptide-based endocrine research models. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
-
-  components: [
-    "Fragment CJC-1295 (MOD GRF 1-29)",
-    "Ipamorelin"
-  ],
-
-  applications: [
-    "Endocrine and pituitary signaling research",
-    "Growth hormone receptor pathway studies",
-    "Peptide–receptor interaction investigation",
-    "Synergistic peptide signaling research"
-  ],
-
-  appearance: "White lyophilized powder blend",
-  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
-},
-"foxo4-dri-10mg": {
-  name: "FOXO4-DRI (Proxofim) 10mg",
-
-  strength:
-    "Synthetic research peptide studied in FOXO4–p53 interaction, cellular senescence signaling, and transcription-factor pathway models.",
-
-  description:
-    "FOXO4-DRI (also known as Proxofim) is a synthetic peptide designed for laboratory research into cellular senescence and transcription-factor signaling mechanisms. In scientific models, it is studied for its role in disrupting the interaction between FOXO4 and p53, enabling investigation into senescent cell behavior, apoptosis signaling, and age-associated cellular pathways. Supplied as a high-purity lyophilized peptide for controlled in vitro and molecular research applications.",
-
-  applications: [
-    "Cellular senescence pathway research",
-    "FOXO4–p53 interaction studies",
-    "Transcription-factor signaling investigation",
-    "Cell-cycle and apoptosis signaling models"
-  ],
-
-  appearance: "White lyophilized powder",
-  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use."
-},
 "fragment-modified-grf-ipamorelin-12mg-blend": {
   name: "Fragment CJC-1295 + Ipamorelin Blend 12mg",
   tagline: "Triple-Peptide Growth Hormone Signaling Research Blend",

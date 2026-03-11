@@ -6,11 +6,14 @@ import { useParams, useRouter } from "next/navigation";
 import Image from "next/image";
 import { useState } from "react";
 import { PRODUCTS } from "@/data/products";
-import productLang from "@/data2/languages/en";
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import { useLanguage } from "@/contexts/LanguageContext";
+import enProducts from "@/data2/languages/en";
+import bgProducts from "@/data2/languages/bg";
 
 
 /* 🎨 BioPeptides Color Scheme */
@@ -25,11 +28,19 @@ const colors = {
 export default function ProductPage() {
   const { slug } = useParams();
   const router = useRouter();
+  const { language } = useLanguage();
+  const productLangMap = {
+  en: enProducts,
+  bg: bgProducts,
+};
+  
 
 const [openFaq, setOpenFaq] = useState(null);
 
   const product = PRODUCTS.find((p) => p.slug === slug);
-  const langProduct = productLang?.products?.[slug];
+const langProduct =
+  productLangMap[language]?.products?.[slug] ||
+  enProducts.products?.[slug];
 
   if (!product || !langProduct) {
     return (
@@ -89,7 +100,7 @@ const handleAddToCart = () => {
       text-gray-700
       hover:text-black
       transition
-      cursor:pointer
+      cursor-pointer
     "
   >
     ← Back
@@ -404,7 +415,7 @@ const handleAddToCart = () => {
         {/* QUESTION */}
         <button
           onClick={() => setOpenFaq(isOpen ? null : i)}
-          className="w-full flex items-center justify-between text-left"
+          className="w-full flex items-center justify-between text-left cursor-pointer"
         >
           <span className="font-semibold text-gray-900">
             {f.q}

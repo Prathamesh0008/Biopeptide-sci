@@ -143,21 +143,21 @@ useEffect(() => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({
-          checkoutId: updated.checkoutId,
-          items: updated.cart,
-          totals: {
-            subtotal: updated.subtotal,
-            shipping: 0,
-            tax: 0,
-            total: updated.subtotal,
-          },
-         address: updated.address || updated.form,
+   body: JSON.stringify({
+  checkoutId: updated.checkoutId,
+  items: updated.cart,
+  totals: {
+    subtotal: updated.subtotal,
+    shipping: 0,
+    tax: 0,
+    total: updated.subtotal,
+  },
+  address: updated.form,
 
-          userEmail: updated.user?.email,
-          userName: updated.user?.name,
-          phone: updated.user?.phone,
-        }),
+  userEmail: updated.form.email,
+  userName: updated.form.fullName,
+  phone: updated.form.phone,
+}),
       });
 
       const data = await res.json();
@@ -179,7 +179,7 @@ useEffect(() => {
     mt-6 w-full py-3 rounded-full
     font-semibold text-white
     bg-gradient-to-r from-bioBlue to-bioGreen
-    shadow-lg transition
+    shadow-lg transition cursor-pointer
     ${isPlacingOrder ? "opacity-70 cursor-not-allowed" : "hover:shadow-xl"}
   `}
 >
@@ -213,10 +213,10 @@ function PaymentOption({ active, onClick, title, desc, icon }) {
       className={`
         w-full flex items-center justify-between
         border rounded-xl px-6 py-4 text-left
-        transition-all duration-200
+        transition-all duration-200 cursor-pointer
         ${active
-          ? "border-bioBlue bg-bioBlue/10 shadow-md"
-          : "border-gray-200 hover:border-bioBlue hover:bg-gray-50"}
+          ? "border-bioBlue bg-bioBlue/10 shadow-md cursor-pointer"
+          : "border-gray-200 hover:border-bioBlue hover:bg-gray-50 cursor-pointer"}
       `}
     >
       <div className="flex items-center gap-4">
@@ -244,12 +244,12 @@ function PaymentOption({ active, onClick, title, desc, icon }) {
 
       <div
         className={`
-          w-5 h-5 rounded-full border-2 flex items-center justify-center
+          w-5 h-5 rounded-full border-2 flex items-center justify-center cursor-pointer
           ${active ? "border-bioBlue" : "border-gray-300"}
         `}
       >
         {active && (
-          <div className="w-2.5 h-2.5 bg-bioBlue rounded-full" />
+          <div className="w-2.5 h-2.5 bg-bioBlue rounded-full cursor-pointer" />
         )}
       </div>
     </button>
