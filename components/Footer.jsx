@@ -170,7 +170,7 @@ export default function Footer() {
               <FooterLink text={t("columns.information.links.0")} href="/all-peptides" />
               <FooterLink text={t("columns.information.links.1")} href="/bundle-save" />
               <FooterLink text={t("columns.information.links.2")} href="/peptide-research" />
-              <FooterLink text={t("columns.information.links.3")} href="/lab-testing" />
+            
               <FooterLink text={t("columns.information.links.4")} href="/about" />
               <FooterLink text={t("columns.information.links.5")} href="/contact" />
             </FooterColumn>

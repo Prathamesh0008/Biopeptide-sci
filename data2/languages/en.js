@@ -24690,21 +24690,192 @@ cas:"not assigned",
 
 "tesofensine-500mcg-30-capsules": {
   name: "Tesofensine 500mcg – 30 Capsules",
-  
-  strength: "Small-molecule research compound studied in laboratory models for monoamine signaling pathways, central nervous system regulation, and metabolic signaling research.",
-  
-  description: "Tesofensine is a synthetic small-molecule compound investigated in controlled laboratory environments for its interaction with central monoamine signaling pathways and metabolic regulation models. In research settings, Tesofensine is commonly studied for neurotransmitter transport modulation, CNS signaling dynamics, and pathway-level mechanisms related to metabolic research. This product is supplied in capsule form and is intended strictly for analytical and laboratory research applications.",
-  
-  applications: [
-    "Monoamine signaling pathway research",
-    "Central nervous system regulation studies",
-    "Metabolic signaling mechanism investigation",
-    "Neurotransmitter transport research"
+
+  tagline:
+    "Precision Neuro-Metabolic Research Compound for Monoamine Signaling and CNS Pathway Studies",
+
+  cas: "195875-84-4",
+
+  strength: [
+    "Tesofensine 500mcg Capsules by Bio-Peptides are a research-grade neuroactive compound developed for advanced laboratory studies involving monoamine signaling, appetite regulation pathways, metabolic signaling, and central nervous system research. Identified by CAS 195875-84-4, Tesofensine is widely studied in controlled research environments for its interaction with dopamine, norepinephrine, and serotonin transport mechanisms. Supplied as 30 precision-dosed capsules, this format supports consistency and reproducibility in experimental protocols used by research institutions across Europe and the United States."
   ],
-  
+
+  topDescription: {
+    p0: "Tesofensine is a synthetic small-molecule compound studied in laboratory environments for its influence on central monoamine neurotransmitter signaling systems.",
+    p1: "Identified by CAS 195875-84-4, Tesofensine interacts with neurotransmitter transport pathways involving dopamine, norepinephrine, and serotonin, making it valuable in neuroscience and metabolic research.",
+    p2: "The 500mcg capsule format allows laboratories to conduct controlled experimental studies while maintaining consistent dosing and reproducibility across research protocols."
+  },
+
+  components: [
+    "Synthetic monoamine signaling research compound",
+    "Central nervous system pathway investigation compound",
+    "Neuro-metabolic signaling research molecule",
+    "Capsule formulation — 500 mcg per capsule (30 capsules)"
+  ],
+
+  content: {
+
+    overviewTitle: "Research Overview",
+    overview: [
+      "Tesofensine is a synthetic neuroactive compound studied in laboratory environments investigating monoamine neurotransmitter signaling.",
+      "Researchers evaluate Tesofensine to analyze interactions between dopamine, norepinephrine, and serotonin transport systems.",
+      "The compound allows investigation of central nervous system pathways related to metabolic signaling and appetite regulation.",
+      "Its multi-pathway activity makes it valuable for studying integrated neuro-metabolic mechanisms."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background",
+    scientificBackground: [
+      "Monoamine neurotransmitters play a key role in central nervous system signaling and metabolic regulation.",
+      "Tesofensine has been studied for its interaction with monoamine reuptake mechanisms involving dopamine, norepinephrine, and serotonin pathways.",
+      "Research laboratories often evaluate Tesofensine when studying neural circuits associated with energy balance and appetite regulation.",
+      "These studies help researchers better understand complex communication between neurological and metabolic systems."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Monoamine neurotransmitter signaling pathway research",
+      "Central nervous system regulatory pathway analysis",
+      "Neurotransmitter transport modulation investigation",
+      "Appetite and satiety signaling research",
+      "Neuro-metabolic communication studies"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Neurotransmitter Signaling Research",
+        text: "Used to study dopamine, norepinephrine, and serotonin pathway modulation in laboratory models."
+      },
+      {
+        title: "Central Nervous System Studies",
+        text: "Researchers investigate CNS regulatory mechanisms and neural signaling pathways."
+      },
+      {
+        title: "Metabolic Signaling Research",
+        text: "Applied in studies examining interactions between neural networks and metabolic regulation."
+      },
+      {
+        title: "Molecular Neuroscience",
+        text: "Used in in-vitro experiments evaluating neurotransmitter transport and receptor signaling."
+      },
+      {
+        title: "Comparative Neuroactive Compound Research",
+        text: "Allows comparison between Tesofensine and other CNS-active research compounds."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Compound Name: Tesofensine",
+      "CAS Number: 195875-84-4",
+      "Compound Class: Neuroactive monoamine signaling compound",
+      "Form: Capsule formulation",
+      "Strength: 500 mcg per capsule",
+      "Quantity: 30 capsules"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Store capsules in a cool, dry place",
+      "Protect from excessive heat and moisture",
+      "Keep container tightly closed",
+      "Avoid prolonged exposure to light",
+      "Handle according to laboratory safety procedures"
+    ],
+
+    solubilityTitle: "Handling and Research Preparation Considerations",
+    solubilityPoints: [
+      "Suitable for structured experimental protocols",
+      "Supports reproducible research conditions",
+      "Compatible with neuroscience research workflows",
+      "Capsule format ensures consistent dosing",
+      "Allows simplified laboratory handling"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Tesofensine 500mcg Capsules",
+      brand: "BioPeptides",
+      purity: "Research-grade analytical quality",
+      form: "Capsules",
+      synthesis: "Synthetic small-molecule compound",
+      analytical: "Identity verification and quality testing",
+      molecularStructure: "Neuroactive monoamine signaling compound",
+      stability: "Stable under recommended dry storage conditions"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "Compound identity confirmation",
+      "Quality and stability testing",
+      "Batch-to-batch reproducibility validation",
+      "Capsule dosing verification",
+      "Internal analytical quality inspection"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "Tesofensine 500mcg Capsules supplied by Bio-Peptides are intended strictly for laboratory research use only. This compound is not approved for human consumption, veterinary use, therapeutic applications, or medical treatment.",
+
+    faqTitle: "Frequently Asked Questions",
+
+    faqItems: [
+      {
+        q: "What is Tesofensine used for in research?",
+        a: "Tesofensine is used in laboratory studies investigating monoamine neurotransmitter signaling, central nervous system pathways, and neuro-metabolic interactions."
+      },
+      {
+        q: "What does CAS 195875-84-4 identify?",
+        a: "CAS 195875-84-4 uniquely identifies Tesofensine, ensuring accurate chemical documentation and research reproducibility."
+      },
+      {
+        q: "Why is Tesofensine supplied in capsule form?",
+        a: "The capsule format provides consistent dosing, simplified handling, and improved experimental reproducibility."
+      },
+      {
+        q: "Which research fields commonly use Tesofensine?",
+        a: "Tesofensine is commonly studied in neuroscience, metabolic biology, neuropharmacology, and signaling pathway research."
+      },
+      {
+        q: "How should Tesofensine capsules be stored?",
+        a: "Capsules should be stored in a cool, dry place away from moisture and excessive heat."
+      }
+    ],
+           chemicalProperties: {
+  molecularFormula: "C221H366N72O67S",
+  molecularWeight: "5136",
+  monoisotopicMass: "5132.7166406",
+  polarArea: "2360",
+  complexity: "12800",
+  xlogP: "-23.3",
+  heavyAtomCount: "361",
+  hydrogenBondDonorCount: "83",
+  hydrogenBondAcceptorCount: "76",
+  rotatableBondCount: "187",
+  cid: "16137828",
+  inchi:
+    "InChI=1S/C221H366N72O67S/c1-25-28-30-53-163(308)260-145(92-120-54-58-122(299)59-55-120)198(343)255-116(21)179(324)276-150(96-169(316)317)199(344)256-117(22)180(325)291-172(111(16)26-2)214(359)284-147(91-119-43-31-29-32-44-119)206(351)293-174(118(23)298)215(360)285-149(95-162(230)307)205(350)289-155(104-297)210(355)280-146(93-121-56-60-123(300)61-57-121)203(348)267-130(51-41-83-248-220(240)241)186(331)266-126(46-34-36-78-223)197(342)290-171(110(14)15)212(357)283-141(87-106(6)7)183(328)252-100-166(311)258-133(63-70-157(225)302)190(335)278-144(90-109(12)13)202(347)288-152(101-294)208(353)257-115(20)178(323)262-128(49-39-81-246-218(236)237)185(330)265-125(45-33-35-77-222)189(334)277-143(89-108(10)11)201(346)279-142(88-107(8)9)200(345)272-137(66-73-160(228)305)195(340)282-151(97-170(318)319)207(352)292-173(112(17)27-3)213(358)274-139(76-85-361-24)196(341)287-153(102-295)209(354)268-131(52-42-84-249-221(242)243)187(332)270-135(64-71-158(226)303)192(337)269-132(62-69-156(224)301)182(327)251-99-165(310)259-134(67-74-167(312)313)191(336)286-154(103-296)211(356)281-148(94-161(229)306)204(349)273-136(65-72-159(227)304)193(338)271-138(68-75-168(314)315)194(339)264-124(47-37-79-244-216(232)233)181(326)250-98-164(309)253-113(18)176(321)261-127(48-38-80-245-217(234)235)184(329)254-114(19)177(322)263-129(50-40-82-247-219(238)239)188(333)275-140(175(231)320)86-105(4)5/h28-32,43-44,54-61,105-118,124-155,171-174,294-300H,25-27,33-42,45-53,62-104,222-223H2,1-24H3,(H2,224,301)(H2,225,302)(H2,226,303)(H2,227,304)(H2,228,305)(H2,229,306)(H2,230,307)(H2,231,320)(H,250,326)(H,251,327)(H,252,328)(H,253,309)(H,254,329)(H,255,343)(H,256,344)(H,257,353)(H,258,311)(H,259,310)(H,260,308)(H,261,321)(H,262,323)(H,263,322)(H,264,339)(H,265,330)(H,266,331)(H,267,348)(H,268,354)(H,269,337)(H,270,332)(H,271,338)(H,272,345)(H,273,349)(H,274,358)(H,275,333)(H,276,324)(H,277,334)(H,278,335)(H,279,346)(H,280,355)(H,281,356)(H,282,340)(H,283,357)(H,284,359)(H,285,360)(H,286,336)(H,287,341)(H,288,347)(H,289,350)(H,290,342)(H,291,325)(H,292,352)(H,293,351)(H,312,313)(H,314,315)(H,316,317)(H,318,319)(H4,232,233,244)(H4,234,235,245)(H4,236,237,246)(H4,238,239,247)(H4,240,241,248)(H4,242,243,249)/b30-28+/t111-,112-,113-,114-,115-,116-,117-,118+,124-,125-,126-,127-,128-,129-,130-,131-,132-,133-,134-,135-,136-,137-,138-,139-,140-,141-,142-,143-,144-,145-,146-,147-,148-,149-,150-,151-,152-,153-,154-,155-,171-,172-,173-,174-/m0/s1",
+  inchiKey: "QBEPNUQJQWDYKU-BMGKTWPMSA-N",
+
+  canonicalSmiles:
+    "CCC=CCC(=O)NC(CC1=CC=C(C=C1)O)C(=O)NC(C)C(=O)NC(CC(=O)O)C(=O)NC(C)C(=O)NC(C(C)CC)C(=O)NC(CC2=CC=CC=C2)C(=O)NC(C(C)O)C(=O)NC(CC(=O)N)C(=O)NC(CO)C(=O)NC(CC3=CC=C(C=C3)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NCC(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CCSC)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)NC(CC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CC(C)C)C(=O)N",
+
+  isomericSmiles:
+    "CC/C=C/CC(=O)N[C@@H](CC1=CC=C(C=C1)O)C(=O)N[C@@H](C)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](C)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC3=CC=C(C=C3)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)NCC(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CCSC)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)N)C(=O)NCC(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)NCC(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CC(C)C)C(=O)N",
+
+  iupacName:
+    "(4S)-4-[[2-[[(2S)-5-amino-2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-4-amino-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-3-carboxy-2-[[(2S)-2-[[(2S)-2-[[(E)-hex-3-enoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]propanoyl]amino]propanoyl]amino]-3-methylpentanoyl]amino]-3-phenylpropanoyl]amino]-3-hydroxybutanoyl]amino]-4-oxobutanoyl]amino]-3-hydroxypropanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-3-methylbutanoyl]amino]-4-methylpentanoyl]amino]acetyl]amino]-5-oxopentanoyl]amino]-4-methylpentanoyl]amino]-3-hydroxypropanoyl]amino]propanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]-5-oxopentanoyl]amino]-3-carboxypropanoyl]amino]-3-methylpentanoyl]amino]-4-methylsulfanylbutanoyl]amino]-3-hydroxypropanoyl]amino]-5-carbamimidamidopentanoyl]amino]-5-oxopentanoyl]amino]-5-oxopentanoyl]amino]acetyl]amino]-5-[[(2S)-1-[[(2S)-4-amino-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-4-methyl-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+}
+
+  },
+
   appearance: "Capsule formulation",
-  storage: "Store in a cool, dry place away from light and moisture.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+
+  storage:
+    "Store in a cool, dry place. Protect from heat, moisture, and direct light.",
+
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
 },
 "testagen-20mg-bioregulator": {
   name: "Testagen 20mg (Bioregulator)",

@@ -28,7 +28,23 @@
       "high purity peptides",
       "buy BPC-157 online"
     ],
-    robots: "index, follow",
+    robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
     canonical: "https://www.bio-peptides.com/product/bpc-157-5mg"
   }
 },
@@ -67,7 +83,23 @@
     canonical:
       "https://www.bio-peptides.com/product/bpc-157-tb-500-blend",
 
-    robots: "index, follow"
+   robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
   }
 }
 ,
@@ -122,7 +154,23 @@
       "BioPeptide capsules"
     ],
 
-    robots: "index, follow",
+    robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
     canonical:
       "https://www.bio-peptides.com/product/5-amino-1mq-50mg"
@@ -181,7 +229,23 @@
       "BioPeptide AOD9604"
     ],
 
-    robots: "index, follow",
+    robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
     canonical:
       "https://www.bio-peptides.com/product/aod9604-5mg"
@@ -242,7 +306,23 @@
     "BioPeptide GHK-Cu"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ghk-cu-2mg"
@@ -307,7 +387,23 @@
     "BioPeptide cosmetic peptides"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/acetyl-hexapeptide-3-argireline-200mg-topical"
@@ -368,7 +464,23 @@
     "BioPeptide AHK"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ahk-tripeptide-3-200mg"
@@ -436,7 +548,23 @@
     "BioPeptide copper peptides"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ahk-cu-200mg"
@@ -495,7 +623,23 @@ cas:"386264-39-7",
     "BioPeptide AOD-9604"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/aod9604-6mg"
@@ -555,7 +699,23 @@ cas:"386264-39-7",
     "BioPeptide BPC-157"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/bpc-157-10mg"
@@ -614,7 +774,23 @@ cas:"386264-39-7",
     "BioPeptide BPC-157"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/bpc-157-15mg"
@@ -683,7 +859,23 @@ cas:"386264-39-7",
     "BioPeptide peptide blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/bpc-157-tb-500-blend-10mg"
@@ -753,7 +945,23 @@ cas:"386264-39-7",
     "BioPeptide research blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/bpc-157-tb-500-blend-20mg"
@@ -819,7 +1027,23 @@ cas:"386264-39-7",
     "BioPeptide peptide blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/bpc-157-tb-500-blend-30mg"
@@ -885,7 +1109,23 @@ cas:"386264-39-7",
     "BioPeptide peptide blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/bpc-157-tb-500-blend-60mg"
@@ -960,7 +1200,23 @@ cas:"386264-39-7",
     "BioPeptide advanced peptide blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/bpc-157-tb-500-kpv-ghk-cu-80mg-klow-blend"
@@ -1022,7 +1278,23 @@ cas:"386264-39-7",
     "BioPeptide bioregulators"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/bronchogen-20mg-bioregulator"
@@ -1065,6 +1337,11 @@ cas:"386264-39-7",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
   image: "/product2/peptide/cardiogen.png",
+    coaImages: [
+  "/documents/CARDIOGEN/CARD223MS.png",
+  "/documents/CARDIOGEN/CARD223HPLC.png",
+  "/documents/CARDIOGEN/CARD223COA.png"
+],
   seo: {
   title:
     "Buy Cardiogen 20mg Bioregulator Peptide |",
@@ -1085,7 +1362,23 @@ cas:"386264-39-7",
     "BioPeptide bioregulators"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/cardiogen-20mg-bioregulator"
@@ -1147,7 +1440,23 @@ cas:"386264-39-7",
     "BioPeptide bioregulators USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/cartalax-20mg-bioregulator"
@@ -1207,7 +1516,23 @@ cas:"386264-39-7",
     "BioPeptide Adipotide"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/adipotide-ftpp-10mg"
@@ -1267,7 +1592,23 @@ cas:"386264-39-7",
     "BioPeptide AICAR"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/aicar-50mg"
@@ -1327,7 +1668,23 @@ cas:"1208243-50-8",
     "BioPeptide ARA-290"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ara-290-16mg"
@@ -1386,7 +1743,23 @@ cas:"1208243-50-8",
     "BioPeptide B7-33"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/b7-33-6mg"
@@ -1450,7 +1823,23 @@ cas:"1208243-50-8",
     "BioPeptide bioregulators USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/chonluten-20mg-bioregulator"
@@ -1520,7 +1909,23 @@ cas:"1208243-50-8",
     "BioPeptide peptide blend USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/cjc-1295-ghrp-2-10mg-blend"
@@ -1592,7 +1997,23 @@ cas:"1208243-50-8",
     "BioPeptide peptide blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/cjc-1295-ghrp-6-10mg-blend"
@@ -1663,7 +2084,23 @@ cas:"1208243-50-8",
     "BioPeptide peptide blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/cjc-1295-hexarelin-10mg-blend"
@@ -1731,7 +2168,23 @@ cas:"1208243-50-8",
     "BioPeptide peptide blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/cjc1295-ipamorelin-ghrp-2-bled"
@@ -1803,7 +2256,23 @@ cas:"1208243-50-8",
     "BioPeptide peptide blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/cjc-1295-ipamorelin-10mg-blend"
@@ -1867,7 +2336,23 @@ cas:"1208243-50-8",
     "BioPeptide bioregulators USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/cortagen-20mg-bioregulator"
@@ -1926,7 +2411,23 @@ cas:"1208243-50-8",
     "BioPeptide topical peptides USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/decapeptide-12"
@@ -1985,7 +2486,23 @@ cas:"1208243-50-8",
     "BioPeptide capsule peptides"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/dihexa-5mg-60-capsules"
@@ -2044,7 +2561,23 @@ cas:"1208243-50-8",
     "BioPeptide DSIP USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/dsip-5mg"
@@ -2104,7 +2637,23 @@ cas:"1208243-50-8",
     "BioPeptide capsule peptides"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/epitalon-1mg-60-capsules"
@@ -2164,7 +2713,23 @@ cas:"1208243-50-8",
     "BioPeptide Epitalon USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/epitalon-20mg"
@@ -2224,7 +2789,23 @@ cas:"1208243-50-8",
     "BioPeptide Epitalon USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/epitalon-50mg"
@@ -2285,7 +2866,23 @@ cas:"1208243-50-8",
     "BioPeptide neuro peptides USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/fgl-s-10mg"
@@ -2344,7 +2941,23 @@ cas:"1208243-50-8",
     "BioPeptide Follistatin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/follistatin-315-1mg"
@@ -2403,7 +3016,23 @@ cas:"1208243-50-8",
     "BioPeptide Follistatin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/follistatin-344-1mg"
@@ -2463,7 +3092,23 @@ cas:"1208243-50-8",
     "BioPeptide FOXO4-DRI USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/foxo4-dri-10mg-proxofim"
@@ -2539,7 +3184,23 @@ cas:"1208243-50-8",
     "BioPeptide peptide blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/fragment-modified-grf-ipamorelin-12mg-blend"
@@ -2598,7 +3259,23 @@ cas:"1208243-50-8",
     "BioPeptide GHK-Cu USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ghk-cu-copper-tripeptide"
@@ -2659,7 +3336,23 @@ cas:"1208243-50-8",
     "BioPeptide GHK-Cu USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ghk-cu-1gram-copper-peptide-1000mg-topical"
@@ -2722,7 +3415,23 @@ seo: {
     "BioPeptide GHK-Cu USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ghk-cu-copper-tripeptide"
@@ -2783,7 +3492,23 @@ seo: {
     "BioPeptide GHK Basic USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ghk-basic-200mg-tripeptide-1"
@@ -2845,7 +3570,23 @@ seo: {
     "BioPeptide GHRH USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ghrh-5mg"
@@ -2910,7 +3651,23 @@ seo: {
     "BioPeptide peptide bundles"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ghrp-2-5mg-x-5-and-cjc-1295-5mg-x-5"
@@ -2976,7 +3733,23 @@ seo: {
     "BioPeptide peptide bundles"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ghrp-2-5mg-x-5-and-ipamorelin-5mg-x-5"
@@ -3048,7 +3821,23 @@ seo: {
     "BioPeptide peptide bundles"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ghrp-2-5mg-x-10-modgrf-1-29-5mg-x-10"
@@ -3115,7 +3904,23 @@ seo: {
     "BioPeptide research bundles"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ghrp-2-5mg-x-10-ipamorelin-5mg-x-10"
@@ -3175,7 +3980,23 @@ seo: {
     "BioPeptide GHRP-2 USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ghrp-2-5mg"
@@ -3241,7 +4062,23 @@ seo: {
     "BioPeptide peptide bundles"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ghrp-6-5mg-x-5-and-cjc-1295-5mg-x-5"
@@ -3308,7 +4145,23 @@ seo: {
     "BioPeptide research bundles"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ghrp-6-5mg-x-10-modgrf-1-29-5mg-x-10"
@@ -3375,7 +4228,23 @@ seo: {
     "BioPeptide peptide bundles"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ghrp-6-5mg-x-10-ipamorelin-5mg-x-10"
@@ -3435,7 +4304,23 @@ seo: {
     "BioPeptide GHRP-6 USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ghrp-6-5mg"
@@ -3494,7 +4379,23 @@ seo: {
     "BioPeptide GHRP-6 USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ghrp-6-10mg"
@@ -3554,7 +4455,23 @@ seo: {
     "BioPeptide Gonadorelin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/gonadorelin-10mg"
@@ -3619,7 +4536,23 @@ seo: {
     "BioPeptide research capsules"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/gut-inflammation-bpc-157-arginate-kpv-60-capsules"
@@ -3685,7 +4618,23 @@ seo: {
     "BioPeptide research bundles"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/hexarelin-2mg-x-10-modgrf-1-29-2mg-x-10"
@@ -3751,7 +4700,23 @@ seo: {
     "BioPeptide research bundles"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/hexarelin-5mg-x-10-modgrf-1-29-5mg-x-10"
@@ -3812,7 +4777,23 @@ seo: {
     "BioPeptide Hexarelin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/hexarelin-2mg"
@@ -3872,7 +4853,23 @@ seo: {
     "BioPeptide Hexarelin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/hexarelin-5mg"
@@ -3932,7 +4929,23 @@ seo: {
     "BioPeptide hGH Fragment USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/hgh-fragment-176-191-6mg"
@@ -3992,7 +5005,23 @@ seo: {
     "BioPeptide Humanin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/humanin-10mg"
@@ -4057,7 +5086,23 @@ seo: {
     "BioPeptide IGF-1 LR3 USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/igf-1-lr3-receptor-grade-1mg"
@@ -4122,7 +5167,23 @@ seo: {
     "BioPeptide IGF-1 LR3"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/igf-1-lr3-1mg"
@@ -4188,7 +5249,23 @@ seo: {
     "BioPeptide research bundles"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ipamorelin-2mg-x-10-modgrf-1-29-2mg-x-10"
@@ -4247,7 +5324,23 @@ seo: {
     "BioPeptide Ipamorelin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ipamorelin-2mg"
@@ -4307,7 +5400,23 @@ seo: {
     "BioPeptide Ipamorelin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ipamorelin-5mg"
@@ -4366,7 +5475,23 @@ seo: {
     "BioPeptide Ipamorelin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ipamorelin-10mg"
@@ -4426,7 +5551,23 @@ seo: {
     "BioPeptide Kisspeptin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/kisspeptin-10"
@@ -4491,7 +5632,23 @@ seo: {
     "BioPeptide KPV USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/kpv-5mg"
@@ -4552,7 +5709,23 @@ seo: {
     "BioPeptide Glutathione USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/l-glutathione-600mg"
@@ -4612,7 +5785,23 @@ seo: {
     "BioPeptide Livagen USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/livagen-20mg"
@@ -4673,7 +5862,23 @@ seo: {
     "BioPeptide LL-37 USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ll-37-5mg-cap-18"
@@ -4739,7 +5944,23 @@ seo: {
     "BioPeptide 5-Amino-1MQ"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/5-amino-1mq-50mg-capsules"
@@ -4805,7 +6026,23 @@ seo: {
     "BioPeptide Matrixyl USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/matrixyl-200mg-topical"
@@ -4866,7 +6103,23 @@ seo: {
     "BioPeptide Melanostatin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/melanostatin-dm-200mg"
@@ -4932,7 +6185,23 @@ seo: {
     "BioPeptide Melanotan USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/melanotan-1-10mg"
@@ -4997,7 +6266,23 @@ seo: {
     "BioPeptide Melanotan 2 USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/melanotan-2-3mg-x-10-vials"
@@ -5062,7 +6347,23 @@ seo: {
     "BioPeptide Melanotan 2 USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/melanotan-2-10mg"
@@ -5122,7 +6423,23 @@ seo: {
     "BioPeptide Methylene Blue"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/methylene-blue-10mg-60-capsules"
@@ -5186,7 +6503,23 @@ seo: {
     "BioPeptide MGF USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/mgf-igf-1-ec-5mg"
@@ -5253,7 +6586,23 @@ seo: {
     "BioPeptide research peptide blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/mod-grf-ghrp-2-10mg-blend"
@@ -5320,7 +6669,23 @@ seo: {
     "BioPeptide GH-axis blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/mod-grf-hexarelin-10mg-blend"
@@ -5388,7 +6753,23 @@ seo: {
     "BioPeptide peptide blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/mod-grf-ipamorelin-ghrp-2-blend"
@@ -5455,7 +6836,23 @@ seo: {
     "BioPeptide research peptide blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/mod-grf-ipamorelin-10mg-blend"
@@ -5516,7 +6913,23 @@ seo: {
     "BioPeptide MOTS-c"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/mots-c-5mg"
@@ -5577,7 +6990,23 @@ seo: {
     "BioPeptide MOTS-c USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/mots-c-5mg"
@@ -5638,7 +7067,23 @@ seo: {
     "BioPeptide Epithalon USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/n-acetyl-epithalon-amidate-20mg"
@@ -5699,7 +7144,23 @@ seo: {
     "BioPeptide Selank USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/n-acetyl-selank-amidate-10mg"
@@ -5760,7 +7221,23 @@ seo: {
     "BioPeptide Semax USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/n-acetyl-semax-amidate-30mg"
@@ -5820,7 +7297,23 @@ seo: {
     "BioPeptide NAD+ USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/nad-plus-100mg"
@@ -5880,7 +7373,23 @@ seo: {
     "BioPeptide NAD+ USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/nad-plus-175mg"
@@ -5940,7 +7449,23 @@ seo: {
     "BioPeptide Nonapeptide-1 USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/nonapeptide-1-200mg"
@@ -6001,7 +7526,23 @@ seo: {
     "BioPeptide OS-01 USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/os-01-100mg-30-capsules"
@@ -6061,7 +7602,23 @@ seo: {
     "BioPeptide Ovagen USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/ovagen-20mg-bioregulator"
@@ -6121,7 +7678,23 @@ seo: {
     "BioPeptide Oxytocin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/oxytocin-10mg-6000iu"
@@ -6182,7 +7755,23 @@ seo: {
     "BioPeptide Pal-AHK USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/pal-ahk-200mg-topical"
@@ -6242,7 +7831,23 @@ seo: {
     "BioPeptide Pal-GHK USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/pal-ghk-200mg-palmitoyl-tripeptide-1-topical"
@@ -6302,7 +7907,23 @@ seo: {
     "BioPeptide Palmitoyl Dipeptide-6 USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/palmitoyl-dipeptide-6-200mg-topical"
@@ -6361,7 +7982,23 @@ seo: {
     "BioPeptide bioregulators EU"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/pancragen-20mg-bioregulator"
@@ -6420,7 +8057,23 @@ seo: {
     "BioPeptide neuro peptides"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/pe-22-28"
@@ -6479,7 +8132,23 @@ seo: {
     "BioPeptide growth factor peptides"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/peg-mgf-5mg"
@@ -6544,7 +8213,23 @@ seo: {
     "BioPeptide cosmetic peptides USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/pentapeptide-18-leuphasyl-200mg-topical"
@@ -6603,7 +8288,23 @@ seo: {
     "BioPeptide bioregulators"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/pinealon-20mg"
@@ -6662,7 +8363,23 @@ seo: {
     "BioPeptide oncology peptides"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/pnc-27-5mg"
@@ -6720,7 +8437,23 @@ seo: {
     "BioPeptide bioregulators USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/prostamax-20mg-bioregulator"
@@ -6761,6 +8494,11 @@ seo: {
     "For laboratory research use only. Not for human or veterinary use.",
 
   image: "/product2/peptide/pt141_3.png",
+    coaImages: [
+  "/documents/PT-141_10/PT-14110.png",
+  "/documents/PT-141_10/PT-14110_1.png",
+  "/documents/PT-141_10/PT-14110_2.png"
+],
   seo: {
   title:
     "Buy PT-141 Bremelanotide 30mg | 3mg × 10 Vials |",
@@ -6781,7 +8519,23 @@ seo: {
     "BioPeptide PT-141 USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/pt-141-3mg-x-10-vials"
@@ -6842,7 +8596,23 @@ seo: {
     "BioPeptide PT-141 USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/pt-141-3mg-x-10-vials"
@@ -6902,7 +8672,23 @@ seo: {
     "BioPeptide peptide blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/repair-and-recovery-60-capsules"
@@ -6963,7 +8749,23 @@ seo: {
     "BioPeptide Rigin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/rigin-200mg-palmitoyl-tetrapeptide-7-topical"
@@ -7004,6 +8806,11 @@ seo: {
     "For laboratory research use only. Not for human or veterinary use.",
 
   image: "/product2/peptide/selank.png",
+    coaImages: [
+  "/documents/Selank/Selank.png",
+  "/documents/Selank/Selank_1.png",
+  "/documents/Selank/Selank_1.png"
+],
   seo: {
   title:
     "Buy Selank 10mg Peptide (CAS 129954-34-3) |",
@@ -7023,7 +8830,23 @@ seo: {
     "BioPeptide Selank USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/selank-10mg"
@@ -7064,6 +8887,11 @@ seo: {
     "For laboratory research use only. Not for human or veterinary use.",
 
   image: "/product2/peptide/semax.png",
+    coaImages: [
+  "/documents/Semax/Semax.png",
+  "/documents/Semax/Semax_1.png",
+  "/documents/Semax/Semax_2.png"
+],
   seo: {
   title:
     "Buy Semax 30mg Research Peptide (CAS 80714-61-0) |",
@@ -7083,7 +8911,23 @@ seo: {
     "BioPeptide Semax USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/semax-30mg"
@@ -7144,7 +8988,23 @@ seo: {
     "BioPeptide GH axis peptides USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/sermorelin-ghrp-2-10mg-blend"
@@ -7205,7 +9065,23 @@ seo: {
     "BioPeptide GH axis peptides USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/sermorelin-ghrp-6-10mg-blend"
@@ -7272,7 +9148,23 @@ seo: {
     "BioPeptide GH axis peptide blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/sermorelin-ghrp-6-ghrp-2-9mg-blend"
@@ -7338,7 +9230,23 @@ seo: {
     "BioPeptide GH axis peptides USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/sermorelin-ipamorelin-10mg-blend"
@@ -7379,6 +9287,11 @@ seo: {
     "For laboratory research use only. Not for human or veterinary use.",
 
   image: "/product2/peptide/sermorelin2.png",
+    coaImages: [
+  "/documents/Sermorelin/Sermorelin.png",
+  "/documents/Sermorelin/Sermorelin_1.png",
+  "/documents/Sermorelin/Sermorelin_2.png"
+],
   seo: {
   title:
     "Buy Sermorelin GHRH (1-29) Research Peptide | CAS 86168-78-7 |",
@@ -7399,7 +9312,23 @@ seo: {
     "BioPeptide Sermorelin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/sermorelin-2mg"
@@ -7440,6 +9369,11 @@ seo: {
     "For laboratory research use only. Not for human or veterinary use.",
 
   image: "/product2/peptide/sermorelin5.png",
+    coaImages: [
+  "/documents/Sermorelin10mg/Sermorelin10mg.png",
+  "/documents/Sermorelin10mg/Sermorelin10mg_1.png",
+  "/documents/Sermorelin10mg/Sermorelin10mg_2.png"
+],
   seo: {
   title:
     "Sermorelin 5mg GHRH (1-29) Peptide | CAS 86168-78-7 |",
@@ -7460,7 +9394,23 @@ seo: {
     "BioPeptide Sermorelin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/sermorelin-5mg"
@@ -7501,6 +9451,11 @@ seo: {
     "For laboratory research use only. Not for human or veterinary use.",
 
   image: "/product2/peptide/sermorelin15.png",
+    coaImages: [
+  "/documents/Sermorelin10mg/Sermorelin10mg.png",
+  "/documents/Sermorelin10mg/Sermorelin10mg_1.png",
+  "/documents/Sermorelin10mg/Sermorelin10mg_2.png"
+],
   seo: {
   title:
     "Sermorelin GHRH 1-29 15mg Peptide | CAS 86168-78-7 |",
@@ -7521,7 +9476,23 @@ seo: {
     "BioPeptide Sermorelin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/sermorelin-15mg"
@@ -7581,7 +9552,23 @@ seo: {
     "BioPeptide SLU-PP-332"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/slu-pp-332-capsules-250mcg"
@@ -7647,7 +9634,23 @@ seo: {
     "BioPeptide SNAP-8 USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/snap-8-200mg-topical"
@@ -7708,7 +9711,23 @@ seo: {
     "BioPeptide Syn-AKE USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/syn-ake-200mg-topical"
@@ -7769,7 +9788,23 @@ seo: {
     "BioPeptide Syn-Coll USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/syn-coll-palmitoyl-tripeptide-5-200mg-topical"
@@ -7829,7 +9864,23 @@ seo: {
     "BioPeptide research peptides"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/tb-500-2mg-10-vial-kit"
@@ -7870,6 +9921,11 @@ seo: {
     "For laboratory research use only. Not for human or veterinary use.",
 
   image: "/product2/peptide/tb500_10.png",
+    coaImages: [
+  "/documents/TB-500/TB-500.png",
+  "/documents/TB-500/TB-500_1.png",
+  "/documents/TB-500/TB-500_2.png"
+],
   seo: {
   title:
     "Buy TB-500 Thymosin Beta-4 5mg (43aa) | CAS 77591-33-4 |",
@@ -7889,7 +9945,23 @@ seo: {
     "BioPeptide research peptides"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/tb-500-5mg"
@@ -7947,7 +10019,23 @@ seo: {
     "BioPeptide research peptides"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/tb-500-fragment-17-23-10mg"
@@ -8014,7 +10102,23 @@ seo: {
     "BioPeptide research blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/tesamorelin-cjc1295-ipamorelin-12mg-blend"
@@ -8080,7 +10184,23 @@ seo: {
     "BioPeptide research blends"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/tesamorelin-ipamorelin-8mg-blend"
@@ -8122,6 +10242,11 @@ seo: {
     "For laboratory research use only. Not for human or veterinary use.",
 
   image: "/product2/peptide/tesamorelin5.png",
+    coaImages: [
+  "/documents/Tesamorelin5mg/Tesamorelin5mg.png",
+  "/documents/Tesamorelin5mg/Tesamorelin5mg_1.png",
+  "/documents/Tesamorelin5mg/Tesamorelin5mg_2.png"
+],
   seo: {
   title:
     "Buy Tesamorelin 5mg | CAS 901758-09-6 | Research Peptide",
@@ -8142,7 +10267,23 @@ seo: {
     "BioPeptide Tesamorelin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/tesamorelin-5mg"
@@ -8202,7 +10343,23 @@ seo: {
     "BioPeptide Tesofensine"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/tesofensine-500mcg-30-capsules"
@@ -8267,7 +10424,23 @@ seo: {
     "BioPeptide bioregulators"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/testagen-20mg-bioregulator"
@@ -8332,7 +10505,23 @@ seo: {
     "BioPeptide bioregulators USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/thymagen-20mg-bioregulator"
@@ -8397,7 +10586,23 @@ seo: {
     "BioPeptide thymic peptides USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/thymalin-20mg"
@@ -8457,7 +10662,23 @@ seo: {
     "BioPeptide Thymosin Alpha-1 USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/thymosin-alpha-1-3mg"
@@ -8522,7 +10743,23 @@ seo: {
     "BioPeptide Thymosin Alpha-1 USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/thymosin-alpha-1-10mg"
@@ -8583,7 +10820,23 @@ seo: {
     "BioPeptide TRH USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/trh-thyrotropin-protirelin-20mg"
@@ -8644,7 +10897,23 @@ seo: {
     "BioPeptide TRH research peptide"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/trh-thyrotropin-protirelin-50mg"
@@ -8710,7 +10979,23 @@ seo: {
     "BioPeptide Tripeptide-29 USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/tripeptide-29-200mg-collagen-peptide-topical"
@@ -8771,7 +11056,23 @@ seo: {
     "BioPeptide Triptorelin USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/triptorelin-gnrh-2mg"
@@ -8836,7 +11137,23 @@ seo: {
     "BioPeptide bioregulators"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/vesilute-20mg-bioregulator"
@@ -8901,7 +11218,23 @@ seo: {
     "BioPeptide bioregulators USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/vesugen-20mg-bioregulator"
@@ -8961,7 +11294,23 @@ seo: {
     "BioPeptide USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/vialox-pentapeptide-3v-200mg-topical"
@@ -9026,7 +11375,23 @@ seo: {
     "BioPeptide bioregulators USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/vilon-20mg"
@@ -9092,7 +11457,23 @@ seo: {
     "BioPeptide USA"
   ],
 
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    },
+    bingBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1
+    }
+  },
 
   canonical:
     "https://www.bio-peptides.com/product/vip-6mg"
