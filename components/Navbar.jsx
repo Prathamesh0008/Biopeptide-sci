@@ -4,13 +4,15 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
-import { FaSearch, FaUser, FaShoppingCart, FaGlobe } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
+import { FaRegUser } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 import { PRODUCTS } from "@/data/products";
 import { useLanguage } from "@/contexts/LanguageContext"; 
 import CartDrawer from "@/components/CartDrawer";
 import { usePathname } from "next/navigation";
 import ScrollProgressLine from "@/components/ScrollProgressLine";
+import { ShoppingCart } from "lucide-react";
 
 export default function Navbar() {
   const { loadLanguage, translations } = useLanguage();
@@ -423,7 +425,7 @@ const handleNavigate = (href) => {
               onClick={() => handleNavigate("/login")}
               className="flex items-center gap-1.5 text-sm hover:text-bioBlue cursor-pointer"
             >
-              <FaUser className="text-gray-700" />
+             <FaRegUser className="text-gray-700" />
               <span>{t("auth.signIn")}</span>
             </button>
           ) : (
@@ -436,7 +438,7 @@ const handleNavigate = (href) => {
   className="flex items-center gap-1.5 text-sm hover:text-bioBlue cursor-pointer"
 >
 
-                <FaUser className="text-gray-700" />
+             <FaRegUser className="text-gray-700" />
                 <span className="font-medium">
                   {user.name || "Profile"}
                 </span>
@@ -493,64 +495,16 @@ const handleNavigate = (href) => {
           )}
 
         {/* ✅ LANGUAGE SWITCHER (GREY STYLE) */}
-<div ref={languageRef} className="relative hidden md:block">
- <button
-  onClick={(e) => {
-    e.stopPropagation();
-    setLanguageOpen((v) => !v);
-  }}
-
-    className="flex items-center  cursor-pointer gap-1 h-8 px-3 rounded-md border border-gray-300 text-gray-700 hover:text-bioBlue hover:bg-bioBlue/10 transition"
-  >
-
- <span className="flex items-center gap-2 text-sm font-medium">
-  <img
-    src={`https://flagcdn.com/w20/${languageFlag}.png`}
-    alt={language}
-    className="w-5 h-4 rounded-sm"
-  />
-  {language.toUpperCase()}
-</span>
-
-  </button>
-
-  {languageOpen && (
-    <div className="absolute right-0 mt-2 w-44 rounded-md bg-white text-black shadow-lg border border-gray-100 z-50">
-     {LANGUAGES.map(({ code, label, flag }) => (
-
-        <button
-          key={code}
-      onClick={() => changeLanguage(code, flag)}
-          className={`block w-full px-4 py-2 text-left text-sm hover:bg-bioBlue/10 ${
-            language === code ? "bg-bioBlue/20 text-bioBlue font-semibold" : "text-gray-700"
-          }`}
-        >
-         <span className="flex items-center gap-2 cursor-pointer">
-  <img
-  src={`https://flagcdn.com/w20/${flag}.png`}
-  alt={label}
-  className="w-5 h-4 rounded-sm"
-/>
-
-  <span>{label}</span>
-</span>
-
-        </button>
-      ))}
-    </div>
-  )}
-</div>
 
 
-         <button
+{/* CART BUTTON */}
+<button
   onClick={() => handleNavigate("/cart")}
   className="flex items-center gap-1.5 text-sm hover:text-bioBlue cursor-pointer"
 >
-  {/* ICON WRAPPER */}
   <div className="relative">
-    <FaShoppingCart className="text-gray-600 text-lg" />
+ <ShoppingCart size={20} className="text-gray-600" />
 
-    {/* CART COUNT BADGE */}
     {cartCount > 0 && (
       <span
         className="
@@ -560,8 +514,6 @@ const handleNavigate = (href) => {
           w-5 h-5
           flex items-center justify-center
           rounded-full
-          leading-none
-          pointer-events-none
         "
       >
         {cartCount}
@@ -569,9 +521,29 @@ const handleNavigate = (href) => {
     )}
   </div>
 
-  {/* TEXT — NEVER OVERLAPPED */}
   <span>{t("cart")}</span>
 </button>
+
+
+{/* LANGUAGE SWITCHER */}
+<div ref={languageRef} className="relative hidden md:block">
+  <button
+    onClick={(e) => {
+      e.stopPropagation();
+      setLanguageOpen((v) => !v);
+    }}
+    className="flex items-center cursor-pointer gap-1 h-8 px-3 rounded-md border border-gray-300 text-gray-700 hover:text-bioBlue hover:bg-bioBlue/10 transition"
+  >
+    <span className="flex items-center gap-2 text-sm font-medium">
+      <img
+        src={`https://flagcdn.com/w20/${languageFlag}.png`}
+        alt={language}
+        className="w-5 h-4 rounded-sm"
+      />
+      {language.toUpperCase()}
+    </span>
+  </button>
+</div>
 
 
         </div>
@@ -589,7 +561,7 @@ const handleNavigate = (href) => {
   onClick={() => handleNavigate("/cart")}
   className="relative"
 >
-  <FaShoppingCart className="text-gray-600 text-xl" />
+<ShoppingCart size={22} className="text-gray-600" />
 
   {/* CART COUNT BADGE */}
   {cartCount > 0 && (
@@ -675,7 +647,7 @@ const handleNavigate = (href) => {
 )}
 
      {/* DESKTOP LINKS */}
-<div className="hidden md:block border-t border-gray-200">
+<div className="hidden md:block">
   {/* FULL WIDTH BACKGROUND */}
   <div className="w-full ">
     
@@ -808,7 +780,7 @@ const handleNavigate = (href) => {
                 onClick={() => handleNavigate("/login")}
                className="flex items-center gap-1.5 text-sm hover:text-bioBlue cursor-pointer"
               >
-                <FaUser className="text-gray-700" />
+              <FaRegUser className="text-gray-700" />
                 <span>{t("auth.signIn")}</span>
               </button>
             ) : (
@@ -817,7 +789,7 @@ const handleNavigate = (href) => {
                   onClick={() => handleNavigate("/profile")}
                   className="flex items-center gap-2 hover:text-bioBlue"
                 >
-                  <FaUser className="text-gray-700" />
+                <FaRegUser className="text-gray-700" />
                   <span>{t("auth.profile")}</span>
                 </button>
 
@@ -845,7 +817,7 @@ const handleNavigate = (href) => {
 >
   {/* ICON WRAPPER */}
   <div className="relative">
-    <FaShoppingCart className="text-gray-600 text-lg" />
+  <ShoppingCart size={20} className="text-gray-600" />
 
     {/* CART COUNT BADGE */}
     {cartCount > 0 && (
