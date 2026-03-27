@@ -20,7 +20,7 @@ import arProducts from "@/data2/languages/ar";
 /* 🎨 BioPeptides Color Scheme */
 const colors = {
   primary: "#185b30",
-  secondary: "#55a045",
+  secondary: "#55a046",
   accent: "#1a4a7d",
   light: "#f7faf9",
   dark: "#0f172a",
