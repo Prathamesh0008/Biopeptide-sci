@@ -1933,7 +1933,7 @@ privacy: {
       "Esta Política de Privacidade explica como a BioPeptide™ coleta, utiliza e protege suas informações."
   },
   intro: {
-    site: "Política de Privacidade do www.biopeptide.com (BioPeptide™)",
+    site: "Política de Privacidade do info@bio-peptides.com (BioPeptide™)",
     contact:
       "Se precisar de mais informações ou tiver dúvidas sobre nossa política de privacidade, entre em contato por e-mail em",
     importance:

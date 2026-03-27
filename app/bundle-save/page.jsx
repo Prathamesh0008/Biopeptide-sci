@@ -67,7 +67,7 @@ export default function BundleSavePage() {
   return (
     <>
       <Navbar />
-      <Breadcrumbs />
+    
 
       {/* DRAWER BUTTON */}
         <button
@@ -116,12 +116,13 @@ export default function BundleSavePage() {
           {/* CONTENT */}
           <div className="lg:col-span-3">
             {/* TITLE */}
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
-              {translations.bundlePage.title}
-            </h1>
-            <p className="text-gray-600 text-sm mt-1 mb-4">
-              {translations.bundlePage.subtitle}
-            </p>
+           <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+  {translations.bundlePage.title}
+</h1>
+
+<p className="text-gray-600 text-sm mt-2 mb-6">
+  {translations.bundlePage.subtitle}
+</p>
 
           {/* SHOP BY CATEGORY HEADING */}
 <div className="mt-6 mb-3">

@@ -138,6 +138,7 @@ export default function RegisterPage() {
   hover:scale-[1.01] active:scale-[0.99]
   transition
   disabled:opacity-50
+  cursor-pointer
 "
           >
             {loading ? "Creating account..." : "Create Account"}
@@ -149,7 +150,7 @@ export default function RegisterPage() {
           Already have an account?
           <button
             onClick={() => router.push("/login")}
-            className="text-bioBlue ml-1 hover:underline font-medium"
+            className="text-bioBlue ml-1 hover:underline font-medium cursor-pointer"
           >
             Sign in →
           </button>

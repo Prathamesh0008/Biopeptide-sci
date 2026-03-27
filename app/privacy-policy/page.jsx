@@ -46,10 +46,10 @@ export default function PrivacyPolicyPage() {
             <p className="mt-3">
               {t.intro.contact}{" "}
               <a
-                href="mailto:support@biopeptide.com"
+                href="mailto:info@bio-peptides.com"
                 className="text-bioBlue font-medium hover:underline"
               >
-                support@biopeptide.com
+                info@bio-peptides.com
               </a>
               .
             </p>
@@ -79,10 +79,10 @@ export default function PrivacyPolicyPage() {
             <p className="mt-3">
               {t.sections.personal.p5}{" "}
               <a
-                href="mailto:support@biopeptide.com"
+                href="mailto:info@bio-peptides.com"
                 className="text-bioBlue font-medium hover:underline"
               >
-                support@biopeptide.com
+                info@bio-peptides.com
               </a>
             </p>
           </PolicySection>

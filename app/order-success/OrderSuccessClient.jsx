@@ -81,7 +81,7 @@ export default function OrderSuccessClient() {
           className="px-8 py-3 rounded-full border
           border-[#0a79a8] text-[#0a79a8]
           font-semibold hover:bg-[#0a79a8] hover:text-white
-          transition duration-300"
+          transition duration-300 cursor-pointer"
         >
           {t.viewOrders}
         </button>
@@ -92,7 +92,7 @@ export default function OrderSuccessClient() {
           className="px-8 py-3 rounded-full
           bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
           text-white font-semibold shadow-md hover:shadow-lg
-          transition duration-300"
+          transition duration-300 cursor-pointer"
         >
           {t.continueShopping}
         </button>

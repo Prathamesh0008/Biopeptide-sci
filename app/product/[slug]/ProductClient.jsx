@@ -259,6 +259,7 @@ const handleAddToCart = () => {
     Description
   </button>
 
+  {product.coaImages?.length > 0 && (
   <button
     onClick={() => setActiveTab("coa")}
     className={`pb-3 cursor-pointer ${
@@ -269,6 +270,7 @@ const handleAddToCart = () => {
   >
     COA / HPLC / MS
   </button>
+)}
 </div>
 
     {/* TAB CONTENT */}
@@ -456,7 +458,7 @@ const handleAddToCart = () => {
 )}
 
 
-{activeTab === "coa" && (
+{activeTab === "coa" && product.coaImages?.length > 0 && (
   <div className="mt-8 flex flex-col gap-10 items-center">
 
     {product.coaImages?.map((img, index) => (

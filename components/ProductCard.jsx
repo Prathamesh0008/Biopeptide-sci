@@ -152,27 +152,37 @@ export default function ProductCard({ product }) {
     <div className="mt-4 flex flex-col gap-2">
       <Link
         href={`/product/${product.slug}`}
-        className="
-          w-full text-center
-          border border-[#0978a7]
-          text-bioBlue text-xs font-semibold
-          py-2 rounded-md
-         hover:bg-black hover:text-white
-          transition
-        "
+       className="
+    w-full text-center
+    border border-[#0978a7]
+    text-bioBlue text-xs font-semibold
+    py-2 rounded-md
+    hover:text-white
+    hover:bg-gradient-to-r
+    hover:from-[#51c4c7]
+    hover:via-[#0978a7]
+    hover:to-[#0978a7]
+    transition-all duration-300
+  "
       >
         {translations.productCard.learnMore}
       </Link>
 
  <button
   onClick={addToCart}
-  className="
+className="
     w-full
     bg-gradient-to-r from-[#51c4c7] via-[#0978a7] to-[#0978a7]
-    hover:bg-[#3a3a3a]
-    hover:bg-none
     text-white text-xs font-semibold
     py-2 rounded-md
+
+    border border-transparent
+
+    hover:bg-white
+    hover:bg-none
+    hover:text-bioBlue
+    hover:border-[#0978a7]
+
     transition-all duration-300
     cursor-pointer
   "

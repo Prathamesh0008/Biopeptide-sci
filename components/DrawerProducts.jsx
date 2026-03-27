@@ -169,20 +169,32 @@ export default function DrawerProducts({ open, setOpen }) {
                 {!cartItems[p.id] ? (
                   <button
                     onClick={() => addToCart(p)}
-                    className="p-2 rounded-full bg-bioBlue text-white"
+                    className="p-2 rounded-full bg-bioBlue text-white cursor-pointer"
                   >
                     <FaShoppingCart size={12} />
                   </button>
                 ) : (
-                  <div className="flex items-center gap-2 border rounded-md px-2 py-1">
-                    <button onClick={() => decreaseQty(p.id)}>
-                      <FaMinus size={10} />
-                    </button>
-                    <span className="font-semibold">{cartItems[p.id]}</span>
-                    <button onClick={() => increaseQty(p.id)}>
-                      <FaPlus size={10} />
-                    </button>
-                  </div>
+                 <div className="flex items-center gap-2 border rounded-md px-2 py-1">
+  
+  <button
+    onClick={() => decreaseQty(p.id)}
+    className="cursor-pointer p-1"
+  >
+    <FaMinus size={10} />
+  </button>
+
+  <span className="font-semibold cursor-pointer">
+    {cartItems[p.id]}
+  </span>
+
+  <button
+    onClick={() => increaseQty(p.id)}
+    className="cursor-pointer p-1"
+  >
+    <FaPlus size={10} />
+  </button>
+
+</div>
                 )}
               </div>
             ))}
@@ -193,7 +205,7 @@ export default function DrawerProducts({ open, setOpen }) {
             <button
               disabled={!Object.keys(cartItems).length}
               onClick={() => router.push("/cart")}
-              className="w-full bg-bioBlue text-white py-3 rounded-md font-semibold disabled:opacity-50"
+              className="w-full cursor-pointer bg-bioBlue text-white py-3 rounded-md font-semibold disabled:opacity-50"
             >
               Checkout
             </button>

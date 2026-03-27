@@ -1942,7 +1942,7 @@ privacy: {
       "Esta Política de Privacidad explica cómo BioPeptide™ recopila, utiliza y protege su información."
   },
   intro: {
-    site: "Política de Privacidad de www.biopeptide.com (BioPeptide™)",
+    site: "Política de Privacidad de info@bio-peptides.com (BioPeptide™)",
     contact:
       "Si necesita más información o tiene preguntas sobre nuestra política de privacidad, contáctenos por correo electrónico en",
     importance:
@@ -2007,7 +2007,7 @@ terms: {
     general: {
       title: "Condiciones Generales de Uso",
       p1:
-        "Estos términos rigen a todos los usuarios de www.biopeptide.com."
+        "Estos términos rigen a todos los usuarios de info@bio-peptides.com."
     },
     payments: {
       title: "Pagos y Autorización",

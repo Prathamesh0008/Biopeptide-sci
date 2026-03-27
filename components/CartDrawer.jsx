@@ -99,7 +99,7 @@ const hasFreeShipping = subtotal >= FREE_SHIPPING_LIMIT;
 
           <button
             onClick={() => setOpen(false)}
-            className="text-sm text-bioBlue font-semibold"
+            className="text-sm text-bioBlue font-semibold cursor-pointer"
           >
             Continue shopping →
           </button>
@@ -178,7 +178,7 @@ const hasFreeShipping = subtotal >= FREE_SHIPPING_LIMIT;
                 <div className="flex items-center gap-2 mt-3">
                   <button
                     onClick={() => updateQty(item.id, item.qty - 1)}
-                    className="w-8 h-8 border rounded text-lg"
+                    className="w-8 h-8 border rounded text-lg cursor-pointer"
                   >
                     −
                   </button>
@@ -187,7 +187,7 @@ const hasFreeShipping = subtotal >= FREE_SHIPPING_LIMIT;
                   </span>
                   <button
                     onClick={() => updateQty(item.id, item.qty + 1)}
-                    className="w-8 h-8 border rounded text-lg"
+                    className="w-8 h-8 border rounded text-lg cursor-pointer"
                   >
                     +
                   </button>
@@ -200,7 +200,7 @@ const hasFreeShipping = subtotal >= FREE_SHIPPING_LIMIT;
                 </p>
                 <button
                   onClick={() => removeItem(item.id)}
-                  className="text-xs text-red-500 mt-2"
+                  className="text-xs cursor-pointer text-red-500 mt-2"
                 >
                   Remove
                 </button>
@@ -221,7 +221,7 @@ const hasFreeShipping = subtotal >= FREE_SHIPPING_LIMIT;
               setOpen(false);
               router.push("/checkout");
             }}
-            className="w-full py-4 rounded-full text-white text-lg font-bold bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]"
+            className="w-full py-4 cursor-pointer rounded-full text-white text-lg font-bold bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]"
           >
             Checkout
           </button>

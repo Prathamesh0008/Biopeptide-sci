@@ -2057,7 +2057,7 @@ privacy: {
       "Dit privacybeleid legt uit hoe BioPeptide™ uw informatie verzamelt, gebruikt en beschermt wanneer u onze website bezoekt."
   },
   intro: {
-    site: "Privacybeleid voor www.biopeptide.com (BioPeptide™)",
+    site: "Privacybeleid voor info@bio-peptides.com (BioPeptide™)",
     contact:
       "Als u meer informatie nodig heeft of vragen heeft over ons privacybeleid, neem dan gerust contact met ons op via e-mail op",
     importance:
@@ -2122,7 +2122,7 @@ terms: {
     general: {
       title: "Algemene gebruiksvoorwaarden",
       p1:
-        "Deze voorwaarden zijn van toepassing op alle gebruikers van www.biopeptide.com en moeten worden geaccepteerd voordat aankopen kunnen worden gedaan."
+        "Deze voorwaarden zijn van toepassing op alle gebruikers van info@bio-peptides.com en moeten worden geaccepteerd voordat aankopen kunnen worden gedaan."
     },
     payments: {
       title: "Betalingen & Autorisatie",

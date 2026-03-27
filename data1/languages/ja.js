@@ -1935,7 +1935,7 @@ privacy: {
       "本ポリシーは、BioPeptide™が情報を収集・使用・保護する方法を説明します。"
   },
   intro: {
-    site: "www.biopeptide.com のプライバシーポリシー",
+    site: "info@bio-peptides.com のプライバシーポリシー",
     contact:
       "プライバシーに関するご質問は、以下のメールまでご連絡ください",
     importance:

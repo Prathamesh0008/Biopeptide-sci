@@ -1947,7 +1947,7 @@ privacy: {
       "Cette politique explique comment BioPeptide™ collecte et protège vos informations."
   },
   intro: {
-    site: "Politique de confidentialité de www.biopeptide.com (BioPeptide™)",
+    site: "Politique de confidentialité de info@bio-peptides.com (BioPeptide™)",
     contact:
       "Pour toute question concernant notre politique de confidentialité, contactez-nous par e-mail à",
     importance:

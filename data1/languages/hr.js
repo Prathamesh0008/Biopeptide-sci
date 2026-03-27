@@ -1833,7 +1833,7 @@ researchPeptidesForDiscovery: {
       "description": "Ova Pravila o privatnosti objašnjavaju kako BioPeptide™ prikuplja, koristi i štiti vaše podatke kada posjetite našu web stranicu."
     },
     "intro": {
-      "site": "Pravila o privatnosti za www.biopeptide.com (BioPeptide™)",
+      "site": "Pravila o privatnosti za info@bio-peptides.com (BioPeptide™)",
       "contact": "Ako trebate više informacija ili imate pitanja o našim pravilima privatnosti, slobodno nas kontaktirajte putem emaila na",
       "importance": "U BioPeptide™, privatnost naših posjetitelja od iznimne je važnosti za nas. Ovaj dokument o pravilima privatnosti opisuje vrste osobnih podataka koje BioPeptide™ prima i prikuplja te kako se koriste."
     },
@@ -1880,7 +1880,7 @@ researchPeptidesForDiscovery: {
     "sections": {
       "general": {
         "title": "Opći uvjeti i odredbe korištenja",
-        "p1": "Ovi Uvjeti i odredbe reguliraju sve korisnike www.biopeptide.com. Ovi uvjeti moraju biti prihvaćeni prije bilo koje kupnje."
+        "p1": "Ovi Uvjeti i odredbe reguliraju sve korisnike info@bio-peptides.com. Ovi uvjeti moraju biti prihvaćeni prije bilo koje kupnje."
       },
       "payments": {
         "title": "Plaćanja i autorizacija",

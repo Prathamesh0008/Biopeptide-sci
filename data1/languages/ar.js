@@ -2083,7 +2083,7 @@ privacy: {
       "توضح سياسة الخصوصية هذه كيفية جمع واستخدام وحماية معلوماتك لدى BioPeptide™."
   },
   intro: {
-    site: "سياسة الخصوصية لموقع www.biopeptide.com (BioPeptide™)",
+    site: "سياسة الخصوصية لموقع info@bio-peptides.com (BioPeptide™)",
     contact:
       "إذا كان لديك أي استفسار بخصوص سياسة الخصوصية، يرجى التواصل معنا عبر البريد الإلكتروني",
     importance:

@@ -242,6 +242,20 @@ useEffect(() => {
 }, []);
 
 const handleNavigate = (href) => {
+
+  // ✅ SAVE CATEGORY PAGES
+  const categoryPages = [
+    "/all-peptides",
+    "/popular-peptides",
+    "/bundle-save",
+    "/peptide-research",
+    "/peptide-information",
+  ];
+
+  if (categoryPages.includes(href)) {
+    sessionStorage.setItem("lastCategory", href);
+  }
+
   router.push(href);
   setMenuOpen(false);
 };
@@ -379,10 +393,12 @@ const handleNavigate = (href) => {
           <button
             key={item.id}
             onClick={() => {
-              setSuggestions([]);
-              setQuery("");
-              router.push(`/product/${item.slug}`);
-            }}
+  sessionStorage.setItem("lastCategory", window.location.pathname); 
+
+  setSuggestions([]);
+  setQuery("");
+  router.push(`/product/${item.slug}`);
+}}
             className="flex items-center gap-4 p-3 rounded-xl hover:bg-gray-50 text-left"
           >
             {/* IMAGE */}
@@ -425,7 +441,7 @@ const handleNavigate = (href) => {
               onClick={() => handleNavigate("/login")}
               className="flex items-center gap-1.5 text-sm hover:text-bioBlue cursor-pointer"
             >
-             <FaRegUser className="text-gray-700" />
+             <FaRegUser className="text-gray-700 w-5 h-5" />
               <span>{t("auth.signIn")}</span>
             </button>
           ) : (
@@ -438,7 +454,7 @@ const handleNavigate = (href) => {
   className="flex items-center gap-1.5 text-sm hover:text-bioBlue cursor-pointer"
 >
 
-             <FaRegUser className="text-gray-700" />
+             <FaRegUser className="text-gray-700 w-5 h-5" />
                 <span className="font-medium">
                   {user.name || "Profile"}
                 </span>
@@ -503,7 +519,7 @@ const handleNavigate = (href) => {
   className="flex items-center gap-1.5 text-sm hover:text-bioBlue cursor-pointer"
 >
   <div className="relative">
- <ShoppingCart size={20} className="text-gray-600" />
+ <ShoppingCart className="text-gray-600 w-6 h-6" />
 
     {cartCount > 0 && (
       <span
@@ -561,7 +577,7 @@ const handleNavigate = (href) => {
   onClick={() => handleNavigate("/cart")}
   className="relative"
 >
-<ShoppingCart size={22} className="text-gray-600" />
+<ShoppingCart className="text-gray-600 w-5 h-5" />
 
   {/* CART COUNT BADGE */}
   {cartCount > 0 && (
@@ -626,12 +642,14 @@ const handleNavigate = (href) => {
           {suggestions.map((item) => (
             <button
               key={item.id}
-              onClick={() => {
-                setSuggestions([]);
-                setQuery("");
-                setMobileSearchOpen(false);
-                router.push(`/product/${item.slug}`);
-              }}
+            onClick={() => {
+  sessionStorage.setItem("lastCategory", window.location.pathname); // ✅ ADD THIS
+
+  setSuggestions([]);
+  setQuery("");
+  setMobileSearchOpen(false);
+  router.push(`/product/${item.slug}`);
+}}
               className="w-full text-left px-4 py-3 text-sm hover:bg-gray-100"
             >
               {item.name}
@@ -679,8 +697,11 @@ const handleNavigate = (href) => {
 
 <MenuItem title={t("menu.research")} onClick={() => handleNavigate("/peptide-research")} active={pathname === "/peptide-research"} />
 
-<MenuItem title={t("menu.information")} onClick={() => handleNavigate("/peptide-information")} active={pathname === "/peptide-information"} />
-<MenuItem title={t("menu.videos") || "Research Videos"} onClick={() =>  window.open( "https://www.youtube.com/@yourchannel", "_blank")}/>
+<MenuItem title={t("menu.information")} onClick={() => handleNavigate("/peptide-information")}active={pathname.startsWith("/peptide-information")} />
+<MenuItem
+  title={t("menu.videos") || "Research Videos"}
+  onClick={() => handleNavigate("/research-videos")}
+/>
   
  
    
@@ -780,7 +801,7 @@ const handleNavigate = (href) => {
                 onClick={() => handleNavigate("/login")}
                className="flex items-center gap-1.5 text-sm hover:text-bioBlue cursor-pointer"
               >
-              <FaRegUser className="text-gray-700" />
+              <FaRegUser className="text-gray-700 w-5 h-5" />
                 <span>{t("auth.signIn")}</span>
               </button>
             ) : (
@@ -789,7 +810,7 @@ const handleNavigate = (href) => {
                   onClick={() => handleNavigate("/profile")}
                   className="flex items-center gap-2 hover:text-bioBlue"
                 >
-                <FaRegUser className="text-gray-700" />
+                <FaRegUser className="text-gray-700 w-5 h-5" />
                   <span>{t("auth.profile")}</span>
                 </button>
 
@@ -817,7 +838,7 @@ const handleNavigate = (href) => {
 >
   {/* ICON WRAPPER */}
   <div className="relative">
-  <ShoppingCart size={20} className="text-gray-600" />
+  <ShoppingCart className="text-gray-600 w-7 h-7" />
 
     {/* CART COUNT BADGE */}
     {cartCount > 0 && (

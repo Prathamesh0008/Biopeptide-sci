@@ -46,7 +46,7 @@ export default function AllPeptidesPage() {
     <>
       {/* NAVBAR */}
       <Navbar />
-      <Breadcrumbs />
+      
 
       {/* DESKTOP / MOBILE DRAWER BUTTON */}
       <button
@@ -74,7 +74,7 @@ export default function AllPeptidesPage() {
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
 
       {/* MAIN CONTENT */}
-      <main className="min-h-screen bg-white pt-[55px] sm:pt-[90px]">
+      <main className="min-h-screen bg-white py-12">
         <div
           className="
             max-w-7xl mx-auto

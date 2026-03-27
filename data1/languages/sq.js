@@ -1836,7 +1836,7 @@ images:[
       "description": "Kjo Politikë e Privatësisë shpjegon se si BioPeptide™ mbledh, përdor dhe mbroj informacionin tuaj kur vizitoni faqen tonë të internetit."
     },
     "intro": {
-      "site": "Politika e Privatësisë për www.biopeptide.com (BioPeptide™)",
+      "site": "Politika e Privatësisë për info@bio-peptides.com (BioPeptide™)",
       "contact": "Nëse keni nevojë për më shumë informacion ose keni ndonjë pyetje në lidhje me politikën tonë të privatësisë, ju lutemi mos hezitoni të na kontaktoni me email në",
       "importance": "Tek BioPeptide™, privatësia e vizitorëve tanë është me rëndësi të jashtëzakonshme për ne. Ky dokument politikë privatësie përshkruan llojet e informacionit personal që merren dhe mblidhen nga BioPeptide™ dhe si përdoret."
     },
@@ -1883,7 +1883,7 @@ images:[
     "sections": {
       "general": {
         "title": "Marrëveshja e Përgjithshme e Kushteve dhe Kushteve të Përdorimit",
-        "p1": "Këto Kushte dhe Kushte qeverisin të gjithë përdoruesit e www.biopeptide.com. Këto kushte duhet të pranohen përpara se të mund të bëhen ndonjë blerje."
+        "p1": "Këto Kushte dhe Kushte qeverisin të gjithë përdoruesit e info@bio-peptides.com. Këto kushte duhet të pranohen përpara se të mund të bëhen ndonjë blerje."
       },
       "payments": {
         "title": "Pagesat & Autorizimi",

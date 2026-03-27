@@ -1322,8 +1322,8 @@ breadcrumbs: {
   "peptide-research": "Peptide Research",
   "peptide-information": "Peptide Information",
 
-  about: "About Us",
-  contact: "Contact",
+  about: "Our Company",
+  contact: "Contact Us",
 
   product: "Product"
 },
@@ -2187,7 +2187,7 @@ peptides: {
     },
 
     intro: {
-      site: "Privacy Policy for www.biopeptide.com (BioPeptide™)",
+      site: "Privacy Policy for info@bio-peptides.com (BioPeptide™)",
       contact:
         "If you require any more information or have any questions about our privacy policy, please feel free to contact us by email at",
       importance:
@@ -2259,7 +2259,7 @@ peptides: {
     general: {
       title: "General Terms and Conditions of Use Agreement",
       p1:
-        "These Terms and Conditions govern all users of www.biopeptide.com. These terms must be agreed upon before any purchases can be made."
+        "These Terms and Conditions govern all users of info@bio-peptides.com. These terms must be agreed upon before any purchases can be made."
     },
 
     payments: {

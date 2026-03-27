@@ -110,10 +110,10 @@ export default function CustomerServicePage() {
             <p className="text-gray-700">
               📧 Email:{" "}
               <a
-                href="mailto:support@biopeptide.com"
+                href="mailto:info@bio-peptides.com"
                 className="text-bioBlue font-medium hover:underline"
               >
-                support@biopeptide.com
+                info@bio-peptides.com
               </a>
             </p>
           </div>

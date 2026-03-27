@@ -1940,7 +1940,7 @@ privacy: {
       "Diese Datenschutzrichtlinie erklärt, wie BioPeptide™ Ihre Daten sammelt und schützt."
   },
   intro: {
-    site: "Datenschutzrichtlinie für www.biopeptide.com (BioPeptide™)",
+    site: "Datenschutzrichtlinie für info@bio-peptides.com (BioPeptide™)",
     contact:
       "Bei Fragen zu unserer Datenschutzrichtlinie kontaktieren Sie uns per E-Mail unter",
     importance:

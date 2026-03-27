@@ -1949,7 +1949,7 @@ privacy: {
       "本隐私政策说明 BioPeptide™ 如何收集、使用和保护您的信息。"
   },
   intro: {
-    site: "www.biopeptide.com 隐私政策",
+    site: "info@bio-peptides.com 隐私政策",
     contact:
       "如有任何隐私相关问题，请通过电子邮件联系我们",
     importance:

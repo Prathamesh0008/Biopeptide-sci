@@ -256,6 +256,7 @@ router.push("/profile");
   hover:scale-[1.01] active:scale-[0.99]
   transition
   disabled:opacity-50
+  cursor-pointer
 "
 
             >
@@ -264,7 +265,7 @@ router.push("/profile");
 
             <p className="text-center text-sm text-gray-600 tracking-wide">
               Don’t have an account?
-              <Link href="/register" className="text-bioBlue ml-1 hover:underline">
+              <Link href="/register" className="text-bioBlue cursor-pointer ml-1 hover:underline">
                 Create Account →
               </Link>
             </p>

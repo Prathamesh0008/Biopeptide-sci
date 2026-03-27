@@ -40,7 +40,7 @@ export default function PopularPeptidesPage() {
   return (
     <>
       <Navbar />
-      <Breadcrumbs />
+  
 
       {/* DRAWER BUTTON */}
       <button

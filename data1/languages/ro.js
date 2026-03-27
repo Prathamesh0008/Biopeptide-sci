@@ -1844,7 +1844,7 @@ researchPeptidesForDiscovery: {
       "description": "Această Politică de Confidențialitate explică modul în care BioPeptide™ colectează, utilizează și protejează informațiile dvs. când vizitați site-ul nostru web."
     },
     "intro": {
-      "site": "Politica de Confidențialitate pentru www.biopeptide.com (BioPeptide™)",
+      "site": "Politica de Confidențialitate pentru info@bio-peptides.com (BioPeptide™)",
       "contact": "Dacă aveți nevoie de mai multe informații sau aveți întrebări despre politica noastră de confidențialitate, nu ezitați să ne contactați prin e-mail la",
       "importance": "La BioPeptide™, confidențialitatea vizitatorilor noștri este de o importanță extremă. Acest document al politicii de confidențialitate descrie tipurile de informații personale care sunt primite și colectate de BioPeptide™ și modul în care sunt utilizate."
     },
@@ -1891,7 +1891,7 @@ researchPeptidesForDiscovery: {
     "sections": {
       "general": {
         "title": "Acord general privind termenii și condițiile de utilizare",
-        "p1": "Acești Termeni și Condiții guvernează toți utilizatorii www.biopeptide.com. Acești termeni trebuie să fie acceptați înainte ca orice achiziție să poată fi efectuată."
+        "p1": "Acești Termeni și Condiții guvernează toți utilizatorii info@bio-peptides.com. Acești termeni trebuie să fie acceptați înainte ca orice achiziție să poată fi efectuată."
       },
       "payments": {
         "title": "Plăți și autorizare",
