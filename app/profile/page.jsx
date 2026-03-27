@@ -151,7 +151,7 @@ const hasAddress =
     <button
       onClick={logout}
       className="mt-8 w-full py-3 rounded-full font-semibold
-        bg-white text-bioBlue hover:bg-gray-100 transition"
+        bg-white text-bioBlue hover:bg-gray-100 transition cursor-pointer"
     >
       {t("logout")}
     </button>
