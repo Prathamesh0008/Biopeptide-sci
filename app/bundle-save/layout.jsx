@@ -30,7 +30,7 @@ export const metadata = {
     siteName: "BioPeptide",
     images: [
       {
-        url: "https://biopeptide-sci.vercel.app/Biopeptidecolourlogo.png",
+        url: "https://biopeptide-sci.vercel.app/Biologofull.png",
         width: 1200,
         height: 630,
         alt: "Research Peptide Bundle Deals USA",
@@ -45,7 +45,7 @@ export const metadata = {
     title: "Research Peptide Bundle Deals USA | High-Purity Peptides",
     description:
       "Discover research peptide bundle deals in the USA. High-purity peptide combinations supplied for laboratory research and scientific development.",
-    images: ["https://biopeptide-sci.vercel.app/Biopeptidecolourlogo.png"],
+    images: ["https://biopeptide-sci.vercel.app/Biologofull.png"],
   },
 };
 

@@ -29,7 +29,7 @@ export const metadata = {
     siteName: "BioPeptide",
     images: [
       {
-        url: "https://biopeptide-sci.vercel.app/Biopeptidecolourlogo.png",
+        url: "https://biopeptide-sci.vercel.app/Biologofull.png",
         width: 1200,
         height: 630,
         alt: "Contact BioPeptide – Research Peptide Support USA",
@@ -44,7 +44,7 @@ export const metadata = {
     title: "Contact BioPeptide | Buy Peptides Online & Research Support",
     description:
       "Get in touch with BioPeptide for research peptide inquiries, product support, or ordering assistance. Buy peptides online with expert guidance.",
-    images: ["https://biopeptide-sci.vercel.app/Biopeptidecolourlogo.png"],
+    images: ["https://biopeptide-sci.vercel.app/Biologofull.png"],
   },
 };
 

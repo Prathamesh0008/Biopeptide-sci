@@ -220,7 +220,7 @@ router.push("/profile");
         focus:ring-2 focus:ring-bioBlue/60
         focus:border-bioBlue
         outline-none
-        pr-12
+        pr-12 cursor-pointer
       "
       value={form.password}
       onChange={(e) =>
@@ -235,7 +235,7 @@ router.push("/profile");
       className="
         absolute right-3 top-1/2 -translate-y-1/2
         text-gray-500 hover:text-bioBlue
-        transition
+        transition cursor-pointer
       "
       aria-label={showPassword ? "Hide password" : "Show password"}
     >

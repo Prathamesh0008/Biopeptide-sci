@@ -33,7 +33,7 @@ export const metadata = {
     siteName: "BioPeptide",
     images: [
       {
-        url: "https://biopeptide-sci.vercel.app/Biopeptidecolourlogo.png",
+        url: "https://biopeptide-sci.vercel.app/Biologofull.png",
         width: 1200,
         height: 630,
         alt: "Peptide Information and Research Education USA - BioPeptide ",
@@ -48,7 +48,7 @@ export const metadata = {
     title: "Peptide Information & Research Education | USA – BioPeptide ",
     description:
       "Peptide Information. Learn about peptide bonds, purity, purification, reconstitution, solubility, storage, and synthesis, peptides versus proteins from BioPeptide",
-    images: ["https://biopeptide-sci.vercel.app/Biopeptidecolourlogo.png"],
+    images: ["https://biopeptide-sci.vercel.app/Biologofull.png"],
   },
 };
 
