@@ -15,7 +15,7 @@ import ScrollProgressLine from "@/components/ScrollProgressLine";
 import { ShoppingCart } from "lucide-react";
 
 export default function Navbar() {
-  const { loadLanguage, translations } = useLanguage();
+const { loadLanguage, translations, language } = useLanguage();
   const [cartCount, setCartCount] = useState(0);
 
   const getCartCount = () => {
@@ -54,7 +54,6 @@ const t = (path) => {
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const searchRef = useRef(null);
   const [languageOpen, setLanguageOpen] = useState(false);
- const [language, setLanguage] = useState("en");
 const [languageFlag, setLanguageFlag] = useState("us");
 const mobileLanguageRef = useRef(null);
 
@@ -76,12 +75,10 @@ const [searchFocused, setSearchFocused] = useState(false);
 const changeLanguage = async (code, flag) => {
   await loadLanguage(code);
 
-  setLanguage(code);
-  setLanguageFlag(flag);
-
   localStorage.setItem("bio-lang", code);
   localStorage.setItem("bio-lang-flag", flag);
 
+  setLanguageFlag(flag);
   setLanguageOpen(false);
 };
 
@@ -110,14 +107,11 @@ const LANGUAGES = [
 ];
 
 useEffect(() => {
-  const savedLang = localStorage.getItem("bio-lang");
-  const savedFlag = localStorage.getItem("bio-lang-flag");
+  const savedLang = localStorage.getItem("bio-lang") || "en";
+  const savedFlag = localStorage.getItem("bio-lang-flag") || "us";
 
-  if (savedLang) {
-    setLanguage(savedLang);
-    loadLanguage(savedLang); // ✅ this was missing
-  }
-  if (savedFlag) setLanguageFlag(savedFlag);
+  loadLanguage(savedLang);
+  setLanguageFlag(savedFlag);
 }, [loadLanguage]);
 
 
@@ -559,6 +553,30 @@ const handleNavigate = (href) => {
       {language.toUpperCase()}
     </span>
   </button>
+
+  {/* 🔥 ADD THIS DROPDOWN */}
+  {languageOpen && (
+    <div className="absolute right-0 mt-2 w-44 bg-white border rounded-xl shadow-lg z-50">
+      {LANGUAGES.map(({ code, label, flag }) => (
+        <button
+          key={code}
+          onClick={() => changeLanguage(code, flag)}
+          className={`w-full flex items-center gap-2 px-3 py-2 text-sm text-left ${
+            language === code
+              ? "text-bioBlue font-semibold"
+              : "text-gray-700 hover:bg-gray-100"
+          }`}
+        >
+          <img
+            src={`https://flagcdn.com/w20/${flag}.png`}
+            alt={label}
+            className="w-5 h-4 rounded-sm"
+          />
+          {label}
+        </button>
+      ))}
+    </div>
+  )}
 </div>
 
 

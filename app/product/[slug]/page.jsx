@@ -1,3 +1,4 @@
+//app\product\[slug]\page.jsx
 import { PRODUCTS } from "@/data/products";
 import ProductClient from "./ProductClient";
 

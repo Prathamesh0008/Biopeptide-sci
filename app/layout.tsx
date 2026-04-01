@@ -1,3 +1,4 @@
+
 // peptides/app/layout.tsx
 
 import "./globals.css";
@@ -55,32 +56,31 @@ export const metadata = {
     canonical: "https://www.bio-peptides.com/",
   },
 
-  openGraph: {
-    title: "Buy Research Peptides Online | Peptides Supplier by BioPeptide",
-    description:
-      "Buy research peptides online in the USA. BioPeptide Sci offers high-purity bioactive peptides, peptide blends & research compounds for laboratory use.",
-    url: "https://www.bio-peptides.com/",
-    siteName: "BioPeptide",
-    images: [
-      {
-        url: "https://www.bio-peptides.com/Biologofull.png",
-        
-        width: 1200,
-        height: 630,
-        alt: "BioPeptide Research Peptide Supplier",
-      },
-    ],
-    locale: "en_US",
-    type: "website",
-  },
+openGraph: {
+  title: "Buy Research Peptides Online | Peptides Supplier by BioPeptide",
+  description:
+    "Buy research peptides online in the USA. BioPeptide Sci offers high-purity bioactive peptides, peptide blends & research compounds for laboratory use.",
+  url: "https://www.bio-peptides.com/",
+  siteName: "BioPeptide",
+  images: [
+    {
+      url: "/images/Biologofull.png", // ✅ FIXED - using relative path
+      width: 1200,
+      height: 630,
+      alt: "BioPeptide Research Peptide Supplier",
+    },
+  ],
+  locale: "en_US",
+  type: "website",
+},
 
-  twitter: {
-    card: "summary_large_image",
-    title: "Buy Research Peptides Online | Peptides Supplier by BioPeptide",
-    description:
-      "Buy research peptides online in the USA. High-purity bioactive peptides and research compounds by BioPeptide Sci.",
-    images: ["https://www.bio-peptides.com/Biologofull.png"],
-  },
+twitter: {
+  card: "summary_large_image",
+  title: "Buy Research Peptides Online | Peptides Supplier by BioPeptide",
+  description:
+    "Buy research peptides online in the USA. High-purity bioactive peptides and research compounds by BioPeptide Sci.",
+  images: ["/images/Biologofull.png"], // ✅ FIXED - using relative path
+},
 
   icons: {
   icon: "/favicon.ico",
@@ -155,7 +155,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-W3WRFH2K"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-W3WRFH2G"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
@@ -168,6 +168,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     </html>
   );
 }
+
+
+
+
 
 
 // // peptides/app/layout.tsx
@@ -218,50 +222,45 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 //   robots: {
 //     index: true,
 //     follow: true,
-//     googleBot: {
-//       index: true,
-//       follow: true,
-//       "max-snippet": -1,
-//       "max-image-preview": "large",
-//       "max-video-preview": -1,
-//     },
+//     maxImagePreview: "large",
+//     maxSnippet: -1,
+//     maxVideoPreview: -1,
 //   },
 
 //   alternates: {
 //     canonical: "https://www.bio-peptides.com/",
 //   },
 
-//   openGraph: {
-//     title: "Buy Research Peptides Online | Peptides Supplier by BioPeptide",
-//     description:
-//       "Buy research peptides online in the USA. BioPeptide Sci offers high-purity bioactive peptides, peptide blends & research compounds for laboratory use.",
-//     url: "https://www.bio-peptides.com/",
-//     siteName: "BioPeptide",
-//     images: [
-//       {
-//         url: "https://www.bio-peptides.com/Biopeptidecolourlogo.png",
-//         width: 1200,
-//         height: 630,
-//         alt: "BioPeptide Research Peptide Supplier",
-//       },
-//     ],
-//     locale: "en_US",
-//     type: "website",
-//   },
+// openGraph: {
+//   title: "Buy Research Peptides Online | Peptides Supplier by BioPeptide",
+//   description:
+//     "Buy research peptides online in the USA. BioPeptide Sci offers high-purity bioactive peptides, peptide blends & research compounds for laboratory use.",
+//   url: "https://www.bio-peptides.com/",
+//   siteName: "BioPeptide",
+//   images: [
+//     {
+//       url: "https://www.bio-peptides.com/images/Biologofull.png", 
+//       width: 1200,
+//       height: 630,
+//       alt: "BioPeptide Research Peptide Supplier",
+//     },
+//   ],
+//   locale: "en_US",
+//   type: "website",
+// },
 
-//   twitter: {
-//     card: "summary_large_image",
-//     title: "Buy Research Peptides Online | Peptides Supplier by BioPeptide",
-//     description:
-//       "Buy research peptides online in the USA. High-purity bioactive peptides and research compounds by BioPeptide Sci.",
-//     images: ["https://www.bio-peptides.com/Biopeptidecolourlogo.png"],
-//   },
+// twitter: {
+//   card: "summary_large_image",
+//   title: "Buy Research Peptides Online | Peptides Supplier by BioPeptide",
+//   description:
+//     "Buy research peptides online in the USA. High-purity bioactive peptides and research compounds by BioPeptide Sci.",
+//   images: ["https://www.bio-peptides.com/images/Biologofull.png"], // ✅ FIXED
+// },
 
 //   icons: {
-//     icon: "/favicon.ico",
-//     shortcut: "/favicon.ico",
-//     apple: "/Biopeptidecolourlogo.png",
-//   },
+//   icon: "/favicon.ico",
+//   apple: "/Biologofull.png",
+// },
 // };
 
 // /* ===================== ROOT LAYOUT ===================== */
@@ -270,23 +269,45 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 //   return (
 //     <html lang="en">
 //       <head>
-//         <meta name="google-site-verification" content="wORs3YhUeZvaUDVaOAfYk_yxtVLr8_6PHDZGo-dH4q4" />
+
+//         {/* Robots tags for all pages */}
+//         <meta
+//           name="robots"
+//           content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+//         />
+
+//         <meta
+//           name="googlebot"
+//           content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+//         />
+
+//         <meta
+//           name="bingbot"
+//           content="index, follow, max-snippet:-1, max-image-preview:large"
+//         />
+
+//         {/* Google verification */}
+//         <meta
+//           name="google-site-verification"
+//           content="wORs3YhUeZvaUDVaOAfYk_yxtVLr8_6PHDZGo-dH4q4"
+//         />
+
 //         {/* ================= GOOGLE TAG MANAGER ================= */}
+
 //         <Script id="gtm-head" strategy="afterInteractive">
 //           {`
-//             (function(w,d,s,l,i){w[l]=w[l]||[];
-//             w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
-//             var f=d.getElementsByTagName(s)[0],
-//             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-//             j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-//             f.parentNode.insertBefore(j,f);
-//             })(window,document,'script','dataLayer','GTM-W3WRFH2K');
+//           (function(w,d,s,l,i){w[l]=w[l]||[];
+//           w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+//           var f=d.getElementsByTagName(s)[0],
+//           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+//           j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+//           f.parentNode.insertBefore(j,f);
+//           })(window,document,'script','dataLayer','GTM-W3WRFH2K');
 //           `}
 //         </Script>
 
+//         {/* ================= GOOGLE ANALYTICS ================= */}
 
-
-//         {/* ================= GOOGLE ANALYTICS (GA4) ================= */}
 //         <Script
 //           src="https://www.googletagmanager.com/gtag/js?id=G-EGX0MJT9G4"
 //           strategy="afterInteractive"
@@ -294,22 +315,19 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
 //         <Script id="ga4-init" strategy="afterInteractive">
 //           {`
-//             window.dataLayer = window.dataLayer || [];
-//             function gtag(){dataLayer.push(arguments);}
-//             gtag('js', new Date());
-//             gtag('config', 'G-EGX0MJT9G4');
+//           window.dataLayer = window.dataLayer || [];
+//           function gtag(){dataLayer.push(arguments);}
+//           gtag('js', new Date());
+//           gtag('config', 'G-EGX0MJT9G4');
 //           `}
 //         </Script>
+
 //       </head>
 
-//       <body
-//         className={`
-//           ${atkinsonMono.variable}
-//           text-gray-900
-//           antialiased
-//         `}
-//       >
-//         {/* ================= GTM (noscript) ================= */}
+//       <body className={`${atkinsonMono.variable} text-gray-900 antialiased`}>
+
+//         {/* GTM noscript */}
+
 //         <noscript>
 //           <iframe
 //             src="https://www.googletagmanager.com/ns.html?id=GTM-W3WRFH2K"
@@ -320,9 +338,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 //         </noscript>
 
 //         <LanguageProvider>{children}</LanguageProvider>
+
 //       </body>
 //     </html>
 //   );
+// }
+
 
 
 
