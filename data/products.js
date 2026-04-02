@@ -128,10 +128,11 @@ robots: {
 
   image: "/product2/Capsules/5amino1mq@300x.png",
     coaImages: [
+  "/documents/5Amino/COA.png",
   "/documents/5Amino/HPLC 1.png",
   "/documents/5Amino/HPCL 2.png",
   "/documents/5Amino/HPCL 3.png",
-  "/documents/5Amino/COA.png"
+  
 ],
 descriptionImages: [
   "/chemicalproperties/capsule/5aminoMQ1_Molecule.webp",
@@ -203,9 +204,11 @@ descriptionImages: [
 
   image: "/product2/peptide/aod-9604 5mg.png",
      coaImages: [
+      "/documents/AOD/AOD8126COA_1.png",
+      "/documents/AOD/AOD8126HPLC_1.png",
   "/documents/AOD/AOD8126MS_1.png",
-  "/documents/AOD/AOD8126COA_1.png",
-  "/documents/AOD/AOD8126HPLC_1.png"
+  
+  
 ],
   descriptionImages: [
   "/chemicalproperties/peptides/AOD9604.webp",
@@ -562,10 +565,12 @@ cas:"386264-39-7",
   researchStatus: "For laboratory research use only. Not for human or veterinary use.",
 
   image: "/product2/peptide/aod-9604.png",
-    coaImages: [
+     coaImages: [
+      "/documents/AOD/AOD8126COA_1.png",
+      "/documents/AOD/AOD8126HPLC_1.png",
   "/documents/AOD/AOD8126MS_1.png",
-  "/documents/AOD/AOD8126COA_1.png",
-  "/documents/AOD/AOD8126HPLC_1.png"
+  
+  
 ],
  descriptionImages: [
   "/chemicalproperties/peptides/AOD9604.webp",
@@ -866,9 +871,11 @@ descriptionImages: [
 
   image: "/product2/Blends/bpctbblend20mg.png",
   coaImages: [
+    "/documents/BPC-157, TB-500-20mg/BPC-157, TB-500-20mg.png",
+     "/documents/BPC-157, TB-500-20mg/BPC-157, TB-500, GHK-Cu20mg_1.png",
   "/documents/BPC-157, TB-500-20mg/BPC-157, TB-500, GHK-Cu20mg_2.png",
-  "/documents/BPC-157, TB-500-20mg/BPC-157, TB-500-20mg.png",
-  "/documents/BPC-157, TB-500-20mg/BPC-157, TB-500, GHK-Cu20mg_1.png"
+  
+ 
 ],
   seo: {
   title:
@@ -1257,9 +1264,11 @@ descriptionImages: [
 
   image: "/product2/peptide/cardiogen.png",
     coaImages: [
+       "/documents/CARDIOGEN/CARD223COA.png",
+       "/documents/CARDIOGEN/CARD223HPLC.png",
   "/documents/CARDIOGEN/CARD223MS.png",
-  "/documents/CARDIOGEN/CARD223HPLC.png",
-  "/documents/CARDIOGEN/CARD223COA.png"
+  
+ 
 ],
 descriptionImages: [
   "/chemicalproperties/peptides/Cardiogen_Structure.webp",
@@ -1335,9 +1344,10 @@ descriptionImages: [
 
   image: "/product2/peptide/cartalax.png",
     coaImages: [
+        "/documents/CART/CART92720COA_1.png",
+          "/documents/CART/CART92720HPLC.png",
   "/documents/CART/CART92720MS.png",
-  "/documents/CART/CART92720COA_1.png",
-  "/documents/CART/CART92720HPLC.png"
+
 ],
 descriptionImages: [
   "/chemicalproperties/peptides/Cartalax.webp",
@@ -1410,9 +1420,11 @@ descriptionImages: [
 
   image: "/product2/peptide/Adipotide.png",
     coaImages: [
+      "/documents/AOD/AOD8126COA_1.png",
+        "/documents/AOD/AOD8126HPLC_1.png",
   "/documents/AOD/AOD8126MS_1.png",
-  "/documents/AOD/AOD8126COA_1.png",
-  "/documents/AOD/AOD8126HPLC_1.png"
+  
+
 ],
 descriptionImages: [
   "/chemicalproperties/peptides/Adipotide.webp",
@@ -1785,9 +1797,10 @@ descriptionImages: [
 
   image: "/product2/Blends/cjcghrp2blend10mg.png",
   coaImages: [
+     "/documents/CJC-1295 (no DAC), GHRP-2 10mg/CJC-1295 (no DAC), GHRP-6 10mg.png",
   "/documents/CJC-1295 (no DAC), GHRP-2 10mg/CJC-1295 (no DAC), GHRP-6 10mg_1.png",
   "/documents/CJC-1295 (no DAC), GHRP-2 10mg/CJC-1295 (no DAC), GHRP-6 10mg_2.png",
-  "/documents/CJC-1295 (no DAC), GHRP-2 10mg/CJC-1295 (no DAC), GHRP-6 10mg.png"
+ 
 ],
 descriptionImages: [
   "/chemicalproperties/blend/CJC 1295.webp",
@@ -1866,9 +1879,10 @@ descriptionImages: [
 
   image: "/product2/Blends/cjcghrp6blend10mg.png",
   coaImages: [
+     "/documents/CJC-1295 (no DAC), GHRP-6 10mg/CJC-1295 (no DAC), GHRP-6 10mg.png",
   "/documents/CJC-1295 (no DAC), GHRP-6 10mg/CJC-1295 (no DAC), GHRP-6 10mg_1.png",
   "/documents/CJC-1295 (no DAC), GHRP-6 10mg/CJC-1295 (no DAC), GHRP-6 10mg_2.png",
-  "/documents/CJC-1295 (no DAC), GHRP-6 10mg/CJC-1295 (no DAC), GHRP-6 10mg.png"
+ 
 ], 
 descriptionImages: [
   "/chemicalproperties/blend/CJC 1295.webp",
@@ -10443,9 +10457,11 @@ descriptionImages: [
 
   image: "/product2/Cosmetic peptide/tripeptide-29.png",
   coaImages: [
+    "/documents/Tripeptide-29 (Topical)/Tripeptide-29.png",
+      "/documents/Tripeptide-29 (Topical)/Tripeptide-29_1.png",
   "/documents/Tripeptide-29 (Topical)/Tripeptide-29_2.png",
-  "/documents/Tripeptide-29 (Topical)/Tripeptide-29_1.png",
-  "/documents/Tripeptide-29 (Topical)/Tripeptide-29.png"
+
+  
 ],
 descriptionImages: [
   "/chemicalproperties/cosmeticpeptide/Tripeptide-29.webp",
