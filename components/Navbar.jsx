@@ -94,8 +94,6 @@ const LANGUAGES = [
   { code: "ja", label: "Japanese", flag: "jp" },
   { code: "zh", label: "Chinese", flag: "cn" },
   { code: "fr", label: "French", flag: "fr" },
-
-  // ✅ NEW — Balkans / EU
   { code: "ro", label: "Romanian", flag: "ro" },
   { code: "sq", label: "Albanian", flag: "al" },
   { code: "el", label: "Greek", flag: "gr" },
@@ -327,7 +325,7 @@ const handleNavigate = (href) => {
     className="flex items-center h-16 w-auto cursor-pointer"
   >
     <Image
-      src="/images/Biologofull.png"
+      src="/images/Final1.png"
       alt="BioPeptide Logo"
       width={420}
       height={140}
@@ -561,11 +559,11 @@ const handleNavigate = (href) => {
         <button
           key={code}
           onClick={() => changeLanguage(code, flag)}
-          className={`w-full flex items-center gap-2 px-3 py-2 text-sm text-left ${
-            language === code
-              ? "text-bioBlue font-semibold"
-              : "text-gray-700 hover:bg-gray-100"
-          }`}
+        className={`w-full flex items-center gap-2 px-3 py-2 text-sm text-left cursor-pointer ${
+  language === code
+    ? "text-bioBlue font-semibold"
+    : "text-gray-700 hover:bg-gray-100"
+}`}
         >
           <img
             src={`https://flagcdn.com/w20/${flag}.png`}
@@ -789,11 +787,11 @@ const handleNavigate = (href) => {
         <button
           key={code}
           onClick={() => changeLanguage(code,flag)}
-          className={`px-3 py-2 text-sm text-left ${
-            language === code
-              ? "text-bioBlue font-semibold"
-              : "text-gray-700 hover:bg-gray-100"
-          }`}
+         className={`px-3 py-2 text-sm text-left cursor-pointer ${
+  language === code
+    ? "text-bioBlue font-semibold"
+    : "text-gray-700 hover:bg-gray-100"
+}`}
         >
      <span className="flex items-center gap-2">
   <img

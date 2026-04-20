@@ -15,7 +15,20 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import enProducts from "@/data2/languages/en";
 import bgProducts from "@/data2/languages/bg";
 import arProducts from "@/data2/languages/ar";
-
+import roProducts from "@/data2/languages/ro";
+import bsProducts from "@/data2/languages/bs";
+import deProducts from "@/data2/languages/de";
+import elProducts from "@/data2/languages/el";
+import esProducts from "@/data2/languages/es";
+import frProducts from "@/data2/languages/fr";
+import hrProducts from "@/data2/languages/hr";
+import jaProducts from "@/data2/languages/ja";
+import mkProducts from "@/data2/languages/mk";
+import nlProducts from "@/data2/languages/nl";
+import ptProducts from "@/data2/languages/pt";
+import sqProducts from "@/data2/languages/sq";
+import srProducts from "@/data2/languages/sr";
+import zhProducts from "@/data2/languages/zh";
 
 /* 🎨 BioPeptides Color Scheme */
 const colors = {
@@ -33,10 +46,24 @@ const { slug } = useParams();
 
 
 
-  const productLangMap = {
+ const productLangMap = {
   en: enProducts,
-  bg: bgProducts,
   ar: arProducts,
+  bg: bgProducts,
+  bs: bsProducts,
+  de: deProducts,
+  el: elProducts,
+  es: esProducts,
+  fr: frProducts,
+  hr: hrProducts,
+  ja: jaProducts,
+  mk: mkProducts,
+  nl: nlProducts,
+  pt: ptProducts,
+  ro: roProducts,
+  sq: sqProducts,
+  sr: srProducts,
+  zh: zhProducts,
 };
   
 

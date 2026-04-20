@@ -105,7 +105,7 @@ export default function Footer() {
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" aria-label="Go to homepage">
               <Image
-                src="/images/Biologofull.png"
+                src="/images/Final1.png"
                 alt="BioPeptide Logo"
                 width={240}
                 height={64}
@@ -211,9 +211,9 @@ export default function Footer() {
                   <p>info@bio-peptides.com</p>
                 </ContactRow>
 
-                <ContactRow icon={<FaTruck />} title={t("contact.shippingLabel")}>
+                {/* <ContactRow icon={<FaTruck />} title={t("contact.shippingLabel")}>
                   <p>Mon–Fri (Except Holidays)</p>
-                </ContactRow>
+                </ContactRow> */}
 
                 {/* <ContactRow icon={<FaMapMarkerAlt />} title={t("contact.addressLabel")}>
                   <p>{t("contact.company")}</p>

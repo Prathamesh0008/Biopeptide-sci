@@ -2644,6 +2644,36 @@ peptideInformation: {
     "遵循这些最佳实践，有助于确保 BioPeptide 研究级肽在科学研究中的完整性和可靠性。"
 }
 
+},
+researchVideos: {
+  title: "研究视频",
+  subtitle: "探索我们的教育内容与研究资源。",
+
+  comingSoon: "即将推出",
+  exploreButton: "查看产品",
+
+  educational: {
+    title: "教育内容",
+    description: "教程和科学讲解。"
+  },
+
+  webinars: {
+    title: "专家研讨会",
+    description: "与研究人员的直播。"
+  },
+
+  updates: {
+    title: "每周更新",
+    description: "最新研究内容。"
+  },
+
+  notification: {
+    title: "第一时间获取",
+    description: "订阅通知。",
+    placeholder: "输入邮箱",
+    button: "通知我",
+    note: "无垃圾邮件"
+  }
 }
 
 

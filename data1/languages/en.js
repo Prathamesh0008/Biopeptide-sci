@@ -194,7 +194,7 @@ export default {
     ]
   },
   /* ================= NAVBAR ================= */
-
+/*// peptides/data1/languages/en.jsx*/
 navbar: {
   tagline: "Premium Research Peptides • High Purity • Fast Shipping",
 
@@ -2881,6 +2881,41 @@ bundlePage: {
 
   },
   
+  researchVideos: {
+  title: "Research Videos",
+  subtitle:
+    "Explore our comprehensive library of educational content, peptide insights, and scientific research presentations.",
+
+  comingSoon: "Coming Soon",
+  exploreButton: "Explore Our Products",
+
+  educational: {
+    title: "Educational Content",
+    description:
+      "In-depth tutorials, peptide science explanations, and research methodology guides."
+  },
+
+  webinars: {
+    title: "Expert Webinars",
+    description:
+      "Live sessions with leading researchers, Q&A opportunities, and interactive discussions."
+  },
+
+  updates: {
+    title: "Weekly Updates",
+    description:
+      "Fresh content added regularly covering latest research, discoveries, and applications."
+  },
+
+  notification: {
+    title: "Be the First to Know",
+    description:
+      "Subscribe to get notified when our video library goes live and receive exclusive content.",
+    placeholder: "Enter your email address",
+    button: "Notify Me",
+    note: "No spam, unsubscribe anytime."
+  }
+}
 
 
 

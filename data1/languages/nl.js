@@ -2749,6 +2749,36 @@ peptideInformation: {
     "Het volgen van deze beste praktijken helpt ervoor te zorgen dat BioPeptide onderzoekspeptiden hun integriteit behouden voor wetenschappelijk onderzoek."
 }
 
+},
+researchVideos: {
+  title: "Onderzoeksvideo's",
+  subtitle: "Ontdek onze bibliotheek met educatieve inhoud.",
+
+  comingSoon: "Binnenkort",
+  exploreButton: "Producten bekijken",
+
+  educational: {
+    title: "Educatieve inhoud",
+    description: "Tutorials en wetenschappelijke uitleg."
+  },
+
+  webinars: {
+    title: "Webinars",
+    description: "Live sessies met onderzoekers."
+  },
+
+  updates: {
+    title: "Wekelijkse updates",
+    description: "Nieuwe inhoud regelmatig."
+  },
+
+  notification: {
+    title: "Blijf op de hoogte",
+    description: "Abonneer je.",
+    placeholder: "E-mail invoeren",
+    button: "Meld mij",
+    note: "Geen spam."
+  }
 }
 
 

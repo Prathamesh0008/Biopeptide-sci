@@ -102,7 +102,7 @@ const handleSubmit = async (e) => {
       <Breadcrumbs />
 
       {/* DRAWER BUTTON */}
-      <button
+      {/* <button
         onClick={() => setDrawerOpen(true)}
         className="
           fixed right-0 top-1/2 -translate-y-1/2 z-50
@@ -121,7 +121,7 @@ const handleSubmit = async (e) => {
         >
           Product List
         </span>
-      </button>
+      </button> */}
 
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
 

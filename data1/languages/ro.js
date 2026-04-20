@@ -2767,7 +2767,37 @@ description:
         "Îmbunătățește alinierea ritmului circadian esențială pentru longevitate"
       ]
     }
+  },
+  researchVideos: {
+  title: "Videoclipuri de cercetare",
+  subtitle: "Explorați biblioteca noastră de conținut educațional și științific.",
+
+  comingSoon: "În curând",
+  exploreButton: "Explorați produsele",
+
+  educational: {
+    title: "Conținut educațional",
+    description: "Tutoriale și explicații științifice."
+  },
+
+  webinars: {
+    title: "Webinarii experți",
+    description: "Sesiuni live cu cercetători."
+  },
+
+  updates: {
+    title: "Actualizări săptămânale",
+    description: "Conținut nou regulat."
+  },
+
+  notification: {
+    title: "Fii primul",
+    description: "Abonează-te pentru notificări.",
+    placeholder: "Introdu email",
+    button: "Anunță-mă",
+    note: "Fără spam."
   }
+}
 
 
 

@@ -2642,6 +2642,36 @@ peptideInformation: {
     "Le respect de ces bonnes pratiques permet de garantir que les peptides de recherche BioPeptide conservent leur intégrité et leur fiabilité pour les investigations scientifiques."
 }
 
+},
+researchVideos: {
+  title: "Vidéos de recherche",
+  subtitle: "Explorez notre bibliothèque de contenu scientifique.",
+
+  comingSoon: "Bientôt disponible",
+  exploreButton: "Voir les produits",
+
+  educational: {
+    title: "Contenu éducatif",
+    description: "Tutoriels et explications scientifiques."
+  },
+
+  webinars: {
+    title: "Webinaires experts",
+    description: "Sessions en direct avec chercheurs."
+  },
+
+  updates: {
+    title: "Mises à jour hebdomadaires",
+    description: "Nouveaux contenus régulièrement."
+  },
+
+  notification: {
+    title: "Soyez informé",
+    description: "Abonnez-vous aux mises à jour.",
+    placeholder: "Entrez votre email",
+    button: "Notifier",
+    note: "Pas de spam."
+  }
 }
 
 

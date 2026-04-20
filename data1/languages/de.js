@@ -2635,6 +2635,36 @@ peptideInformation: {
     "Die Einhaltung dieser bewährten Verfahren trägt dazu bei, dass BioPeptide-Forschungspeptide ihre Integrität und Zuverlässigkeit für wissenschaftliche Untersuchungen bewahren."
 }
 
+},
+researchVideos: {
+  title: "Forschungsvideos",
+  subtitle: "Entdecken Sie unsere umfassende Bibliothek mit Bildungsinhalten und Forschungseinblicken.",
+
+  comingSoon: "Demnächst",
+  exploreButton: "Produkte entdecken",
+
+  educational: {
+    title: "Bildungsinhalte",
+    description: "Detaillierte Tutorials und wissenschaftliche Erklärungen."
+  },
+
+  webinars: {
+    title: "Experten-Webinare",
+    description: "Live-Sessions mit Forschern und Diskussionen."
+  },
+
+  updates: {
+    title: "Wöchentliche Updates",
+    description: "Neue Inhalte zu aktuellen Forschungsergebnissen."
+  },
+
+  notification: {
+    title: "Als Erster informiert sein",
+    description: "Abonnieren Sie Updates.",
+    placeholder: "E-Mail eingeben",
+    button: "Benachrichtigen",
+    note: "Kein Spam."
+  }
 }
 
 

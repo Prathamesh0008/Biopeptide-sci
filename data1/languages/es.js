@@ -2637,6 +2637,36 @@ peptideInformation: {
     "Seguir estas mejores prácticas ayuda a garantizar que los péptidos de investigación de BioPeptide mantengan su integridad y fiabilidad para la investigación científica."
 }
 
+},
+researchVideos: {
+  title: "Videos de Investigación",
+  subtitle: "Explora nuestra biblioteca de contenido educativo e investigación.",
+
+  comingSoon: "Próximamente",
+  exploreButton: "Explorar productos",
+
+  educational: {
+    title: "Contenido educativo",
+    description: "Tutoriales y explicaciones científicas."
+  },
+
+  webinars: {
+    title: "Webinars expertos",
+    description: "Sesiones en vivo con investigadores."
+  },
+
+  updates: {
+    title: "Actualizaciones semanales",
+    description: "Contenido nuevo regularmente."
+  },
+
+  notification: {
+    title: "Sé el primero",
+    description: "Suscríbete para recibir actualizaciones.",
+    placeholder: "Introduce tu correo",
+    button: "Notifícame",
+    note: "Sin spam."
+  }
 }
 
 

@@ -30,7 +30,8 @@ export default function PopularPeptidesPage() {
 
 
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const [activeCategory, setActiveCategory] = useState("All");
+  // AFTER ✅
+const [activeCategory, setActiveCategory] = useState("Popular Peptides");
 
   const filteredProducts =
     activeCategory === "All"
@@ -43,7 +44,7 @@ export default function PopularPeptidesPage() {
   
 
       {/* DRAWER BUTTON */}
-      <button
+      {/* <button
         onClick={() => setDrawerOpen(true)}
         className="
           fixed right-0 top-1/2 -translate-y-1/2 z-50
@@ -62,7 +63,7 @@ export default function PopularPeptidesPage() {
         >
           Product List
         </span>
-      </button>
+      </button> */}
 
       {/* DRAWER (PAGE LEVEL) */}
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />

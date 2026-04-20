@@ -9,9 +9,9 @@ import Link from "next/link";
 /* ================= STATIC DATA ================= */
 
 const banners = [
-  "/images/bannerhero1.jpg",
-  "/images/bannerhero1.jpg",
-  "/images/bannerhero1.jpg",
+  "/images/Biopeptidehero2.png",
+  "/images/Biopeptidehero2.png",
+  "/images/Biopeptidehero2.png",
 ];
 
 const slideLinks = [

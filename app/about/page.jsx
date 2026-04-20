@@ -20,11 +20,11 @@ import { useState } from "react";
 
 
 const countryImages = [
-  "/bg/Germany(DE).png",
-  "/bg/France(FR).png",
-  "/bg/Netherlands(NL).png",
-  "/bg/Italy(IT).png",
-  "/bg/Spain(ES).png",
+  "/bg/germany1Bg.jpg",
+  "/bg/France1Bg.jpg",
+  "/bg/Netherlands1Bg.jpg",
+  "/bg/Italy1Bg.jpg",
+  "/bg/Spain1Bg.jpg",
 ];
 
 export default function AboutPage() {
@@ -54,7 +54,7 @@ export default function AboutPage() {
       <Breadcrumbs />
 
       {/* DRAWER BUTTON */}
-      <button
+      {/* <button
         onClick={() => setDrawerOpen(true)}
         className="
           fixed right-0 top-1/2 -translate-y-1/2 z-50
@@ -73,7 +73,7 @@ export default function AboutPage() {
         >
           Product List
         </span>
-      </button>
+      </button> */}
 
       {/* DRAWER (PAGE LEVEL ONLY) */}
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />

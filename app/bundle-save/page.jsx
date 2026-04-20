@@ -70,7 +70,7 @@ export default function BundleSavePage() {
     
 
       {/* DRAWER BUTTON */}
-        <button
+        {/* <button
         onClick={() => setDrawerOpen(true)}
         className="
           fixed right-0 top-1/2 -translate-y-1/2 z-50
@@ -89,7 +89,7 @@ export default function BundleSavePage() {
         >
           Product List
         </span>
-      </button>
+      </button> */}
 
       {/* DRAWER (PAGE LEVEL ONLY) */}
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />

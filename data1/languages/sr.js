@@ -2763,7 +2763,37 @@ description:
         "Poboljšava cirkadijalno poravnanje ritma esencijalno za dugovečnost"
       ]
     }
+  },
+  researchVideos: {
+  title: "Istraživački video zapisi",
+  subtitle: "Istražite našu biblioteku edukativnog i naučnog sadržaja.",
+
+  comingSoon: "Uskoro",
+  exploreButton: "Pogledaj proizvode",
+
+  educational: {
+    title: "Edukativni sadržaj",
+    description: "Tutorijali i naučna objašnjenja."
+  },
+
+  webinars: {
+    title: "Stručni webinari",
+    description: "Uživo sesije sa istraživačima."
+  },
+
+  updates: {
+    title: "Nedeljna ažuriranja",
+    description: "Novi sadržaj redovno."
+  },
+
+  notification: {
+    title: "Budi prvi",
+    description: "Prijavi se za obaveštenja.",
+    placeholder: "Unesi email",
+    button: "Obavesti me",
+    note: "Bez spama."
   }
+}
 
 
       

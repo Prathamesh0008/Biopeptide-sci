@@ -33,7 +33,9 @@ const scrollLeft = useRef(0);
       ...unique.filter(c => !preferredOrder.includes(c)),
     ];
 
-    return ["All", ...sorted];
+   return sorted.filter(
+  (c) => c !== "All" && c !== "Popular Peptides"
+);
   }, []);
 
   const handleMouseDown = (e) => {

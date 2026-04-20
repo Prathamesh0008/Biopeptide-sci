@@ -2764,7 +2764,37 @@ description:
       "Rregullon rrugët e senescencës për rinovim celular",
       "Përmirëson rreshtimin e ritmit cirkadian thelbësor për gjatëjetësinë"
     ]
+  },
+  researchVideos: {
+  title: "Video kërkimore",
+  subtitle: "Eksploroni bibliotekën tonë të përmbajtjes edukative dhe shkencore.",
+
+  comingSoon: "Së shpejti",
+  exploreButton: "Shiko produktet",
+
+  educational: {
+    title: "Përmbajtje edukative",
+    description: "Udhëzime dhe shpjegime shkencore."
+  },
+
+  webinars: {
+    title: "Webinare ekspertësh",
+    description: "Sesione live me studiues."
+  },
+
+  updates: {
+    title: "Përditësime javore",
+    description: "Përmbajtje e re rregullisht."
+  },
+
+  notification: {
+    title: "Ji i pari",
+    description: "Abonohu për njoftime.",
+    placeholder: "Shkruaj email",
+    button: "Njoftomë",
+    note: "Pa spam."
   }
+}
 
 
 

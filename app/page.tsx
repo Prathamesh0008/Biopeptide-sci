@@ -23,7 +23,7 @@ export default function HomePage() {
 
       {/* DESKTOP BUTTON */}
     
-<button
+{/* <button
   onClick={() => setDrawerOpen(true)}
   className="
     fixed right-0 top-1/2 -translate-y-1/2 z-50
@@ -42,7 +42,7 @@ export default function HomePage() {
   >
     Product List
   </span>
-</button>
+</button> */}
 
 
       <Hero />

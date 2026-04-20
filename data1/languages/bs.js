@@ -2777,7 +2777,37 @@ description:
         "Poboljšava usklađivanje cirkadijalnog ritma esencijalnog za dugovječnost"
       ]
     }
+  },
+  researchVideos: {
+  title: "Istraživački videozapisi",
+  subtitle: "Istražite našu biblioteku edukativnog sadržaja i naučnih istraživanja.",
+
+  comingSoon: "Uskoro",
+  exploreButton: "Pogledajte proizvode",
+
+  educational: {
+    title: "Edukativni sadržaj",
+    description: "Detaljni tutorijali i naučna objašnjenja."
+  },
+
+  webinars: {
+    title: "Stručni webinari",
+    description: "Uživo sesije sa istraživačima."
+  },
+
+  updates: {
+    title: "Sedmična ažuriranja",
+    description: "Novi sadržaj redovno."
+  },
+
+  notification: {
+    title: "Budite prvi",
+    description: "Pretplatite se za obavještenja.",
+    placeholder: "Unesite email",
+    button: "Obavijesti me",
+    note: "Bez spama."
   }
+}
 
 
 

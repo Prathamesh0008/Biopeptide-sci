@@ -1,4 +1,4 @@
-
+//Biopeptide-sci\app\research-videos\page.jsx
 "use client";
 
 import Navbar from "@/components/Navbar";
@@ -14,15 +14,16 @@ export default function ResearchVideosPage() {
   const { translations, loading } = useLanguage();
   const [drawerOpen, setDrawerOpen] = useState(false);
 
-  const t = (path) => {
-    try {
-      return path
-        .split(".")
-        .reduce((obj, key) => obj?.[key], translations?.researchVideos || {});
-    } catch {
-      return "";
-    }
-  };
+const t = (path, fallback = "") => {
+  try {
+    const value = path
+      .split(".")
+      .reduce((obj, key) => obj?.[key], translations?.researchVideos || {});
+    return value || fallback;
+  } catch {
+    return fallback;
+  }
+};
 
   if (loading) {
     return (
@@ -75,12 +76,11 @@ export default function ResearchVideosPage() {
               </div>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-[#0d2d47] mb-4">
-              {t("title") || "Research Videos"}
+             {t("title")}
             </h1>
             <div className="w-20 h-1 bg-gradient-to-r from-[#52c3c6] to-[#0978a7] mx-auto mb-6"></div>
             <p className="text-gray-600 text-lg leading-relaxed">
-              {t("subtitle") || 
-                "Explore our comprehensive library of educational content, peptide insights, and scientific research presentations."}
+              {t("subtitle")}
             </p>
           </div>
 
@@ -92,15 +92,14 @@ export default function ResearchVideosPage() {
                 <Video className="w-8 h-8 text-bioBlue" />
               </div>
               <h3 className="text-xl font-bold text-[#0d2d47] mb-3">
-                {t("educational.title") || "Educational Content"}
+              {t("educational.title")}
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                {t("educational.description") || 
-                  "In-depth tutorials, peptide science explanations, and research methodology guides."}
+                {t("educational.description")}
               </p>
               <div className="mt-4">
                 <span className="inline-block px-3 py-1 bg-bioBlue/10 text-bioBlue text-xs font-semibold rounded-full">
-                  {t("comingSoon") || "Coming Soon"}
+                 {t("comingSoon")}
                 </span>
               </div>
             </div>
@@ -111,11 +110,10 @@ export default function ResearchVideosPage() {
                 <Calendar className="w-8 h-8 text-bioBlue" />
               </div>
               <h3 className="text-xl font-bold text-[#0d2d47] mb-3">
-                {t("webinars.title") || "Expert Webinars"}
+              {t("webinars.title")}
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                {t("webinars.description") || 
-                  "Live sessions with leading researchers, Q&A opportunities, and interactive discussions."}
+                {t("webinars.description")}
               </p>
               <div className="mt-4">
                 <span className="inline-block px-3 py-1 bg-bioBlue/10 text-bioBlue text-xs font-semibold rounded-full">
@@ -130,15 +128,14 @@ export default function ResearchVideosPage() {
                 <Bell className="w-8 h-8 text-bioBlue" />
               </div>
               <h3 className="text-xl font-bold text-[#0d2d47] mb-3">
-                {t("updates.title") || "Weekly Updates"}
+               {t("updates.title")}
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                {t("updates.description") || 
-                  "Fresh content added regularly covering latest research, discoveries, and applications."}
+                {t("updates.description")}
               </p>
               <div className="mt-4">
                 <span className="inline-block px-3 py-1 bg-bioBlue/10 text-bioBlue text-xs font-semibold rounded-full">
-                  {t("comingSoon") || "Coming Soon"}
+                  {t("comingSoon")}
                 </span>
               </div>
             </div>
@@ -148,18 +145,17 @@ export default function ResearchVideosPage() {
           <div className="max-w-2xl mx-auto">
             <div className="bg-gradient-to-br from-bioBlue/5 to-bioGreen/5 border border-bioBlue/20 rounded-xl p-8 text-center">
               <h3 className="text-2xl font-bold text-[#0d2d47] mb-3">
-                {t("notification.title") || "Be the First to Know"}
+                {t("notification.title")}
               </h3>
               <p className="text-gray-600 mb-6">
-                {t("notification.description") || 
-                  "Subscribe to get notified when our video library goes live and receive exclusive content."}
+                {t("notification.description")}
               </p>
               
               {/* Email Subscription Form */}
               <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
                 <input
                   type="email"
-                  placeholder={t("notification.placeholder") || "Enter your email address"}
+                 placeholder={t("notification.placeholder")}
                   className="
                     flex-1 px-4 py-3 border border-gray-300 rounded-lg text-sm
                     focus:ring-2 focus:ring-bioBlue focus:border-transparent outline-none
@@ -174,12 +170,12 @@ export default function ResearchVideosPage() {
                     cursor-pointer whitespace-nowrap
                   "
                 >
-                  {t("notification.button") || "Notify Me"}
+                  {t("notification.button")}
                 </button>
               </form>
               
               <p className="text-xs text-gray-500 mt-4">
-                {t("notification.note") || "No spam, unsubscribe anytime."}
+                {t("notification.note")}
               </p>
             </div>
           </div>
@@ -195,7 +191,7 @@ export default function ResearchVideosPage() {
                 cursor-pointer
               "
             >
-              {t("exploreButton") || "Explore Our Products"}
+              {t("exploreButton")}
             </a>
           </div>
         </section>

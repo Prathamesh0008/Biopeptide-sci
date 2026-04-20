@@ -2630,6 +2630,36 @@ peptideInformation: {
     "これらのベストプラクティスに従うことで、BioPeptide の研究用ペプチドは科学的研究においてその完全性と信頼性を維持できます。"
 }
 
+},
+researchVideos: {
+  title: "研究動画",
+  subtitle: "教育コンテンツと研究情報をご覧ください。",
+
+  comingSoon: "近日公開",
+  exploreButton: "製品を見る",
+
+  educational: {
+    title: "教育コンテンツ",
+    description: "チュートリアルと科学的解説。"
+  },
+
+  webinars: {
+    title: "ウェビナー",
+    description: "研究者とのライブセッション。"
+  },
+
+  updates: {
+    title: "週次更新",
+    description: "最新の研究内容。"
+  },
+
+  notification: {
+    title: "最新情報を受け取る",
+    description: "通知を受け取る。",
+    placeholder: "メール入力",
+    button: "通知",
+    note: "スパムなし"
+  }
 }
 
 
