@@ -68,6 +68,8 @@ const { slug } = useParams();
   
 
 const [openFaq, setOpenFaq] = useState(null);
+const [activeTab, setActiveTab] = useState("description");
+const [qty, setQty] = useState(1);
 
   const product = PRODUCTS.find((p) => p.slug === slug);
 const langProduct =
@@ -84,11 +86,6 @@ const langProduct =
 
   const { name, cas, strength, topDescription, content } = langProduct;
 const hasCOA = product.coaImages && product.coaImages.length > 0;
-
-const [activeTab, setActiveTab] = useState(
-  hasCOA ? "description" : "chemical"
-);
-const [qty, setQty] = useState(1);
 
 const handleAddToCart = () => {
   const userStr = localStorage.getItem("bio-user");

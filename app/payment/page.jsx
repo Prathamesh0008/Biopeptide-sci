@@ -14,7 +14,11 @@ export default function PaymentPage() {
   const [isPlacingOrder, setIsPlacingOrder] = useState(false);
 
   const router = useRouter();
-  const [data, setData] = useState(null);
+  const [data] = useState(() => {
+    if (typeof window === "undefined") return null;
+    const saved = localStorage.getItem("bio-checkout");
+    return saved ? JSON.parse(saved) : null;
+  });
   const [method, setMethod] = useState("card");
   const { translations } = useLanguage();
 const t = (path) =>
@@ -34,9 +38,7 @@ useEffect(() => {
     const saved = localStorage.getItem("bio-checkout");
     if (!saved) {
       router.push("/checkout");
-      return;
     }
-    setData(JSON.parse(saved));
   }, [router]);
 
   if (!data) return null;

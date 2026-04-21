@@ -30,13 +30,9 @@ export default function ProductCard({ product }) {
   const { translations, loading } = useLanguage();
   if (loading) {
   return (
-    <>
-      <Navbar />
-      <main className="min-h-screen bg-white flex items-center justify-center">
-        <Loader />
-      </main>
-      <Footer />
-    </>
+    <div className="min-h-[220px] bg-white flex items-center justify-center">
+      <Loader />
+    </div>
   );
 }
 

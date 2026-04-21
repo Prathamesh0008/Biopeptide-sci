@@ -86,11 +86,6 @@ export default function Hero() {
     return () => clearInterval(interval);
   }, [loading, whiteBoxes.length]);
 
-  /* ===== RESET ON LANGUAGE CHANGE ===== */
-  useEffect(() => {
-    if (whiteBoxes.length > 0) setCurrent(0);
-  }, [whiteBoxes.length]);
-
   if (whiteBoxes.length === 0) {
     return (
       <section className="relative border-b border-gray-200">
@@ -99,7 +94,8 @@ export default function Hero() {
     );
   }
 
-  const activeBox = whiteBoxes[current];
+  const activeIndex = current % whiteBoxes.length;
+  const activeBox = whiteBoxes[activeIndex];
 
   return (
     <section className="relative border-b border-gray-200 overflow-hidden">
@@ -115,7 +111,7 @@ export default function Hero() {
             fill
             priority={index === 0}
             className={`absolute inset-0 ${
-              index === current ? "opacity-100" : "opacity-0"
+              index === activeIndex ? "opacity-100" : "opacity-0"
             }`}
           />
         ))}

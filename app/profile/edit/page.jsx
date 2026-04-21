@@ -5,10 +5,14 @@ import { useEffect, useState } from "react";
 
 export default function EditProfile() {
   const router = useRouter();
+  const initialUser =
+    typeof window !== "undefined"
+      ? JSON.parse(localStorage.getItem("bio-user") || "null")
+      : null;
 
   const [form, setForm] = useState({
-    name: "",
-    email: "",
+    name: initialUser?.name || "",
+    email: initialUser?.email || "",
     password: ""
   });
 
@@ -19,15 +23,6 @@ export default function EditProfile() {
       router.push("/login");
       return;
     }
-
-    const user = JSON.parse(stored);
-
-    setForm({
-      name: user.name || "",
-      email: user.email || "",
-      password: ""
-    });
-
   }, [router]);
 
   const handleChange = (e) => {

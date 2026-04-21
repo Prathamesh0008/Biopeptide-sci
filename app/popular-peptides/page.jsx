@@ -16,6 +16,9 @@ import Loader from "@/components/Loader";
 
 export default function PopularPeptidesPage() {
   const { translations, loading } = useLanguage();
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const [activeCategory, setActiveCategory] = useState("Popular Peptides");
+
   if (loading) {
   return (
     <>
@@ -29,9 +32,6 @@ export default function PopularPeptidesPage() {
 }
 
 
-  const [drawerOpen, setDrawerOpen] = useState(false);
-  // AFTER ✅
-const [activeCategory, setActiveCategory] = useState("Popular Peptides");
 
   const filteredProducts =
     activeCategory === "All"

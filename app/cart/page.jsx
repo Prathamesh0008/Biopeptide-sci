@@ -18,7 +18,14 @@ const getCartKey = (user) => {
 };
 
 export default function CartPage() {
-  const [cart, setCart] = useState([]);
+  const [cart, setCart] = useState(() => {
+    if (typeof window === "undefined") return [];
+    const storedUser = localStorage.getItem("bio-user");
+    if (!storedUser) return [];
+    const user = JSON.parse(storedUser);
+    const cartKey = getCartKey(user);
+    return JSON.parse(localStorage.getItem(cartKey) || "[]");
+  });
   const [drawerOpen, setDrawerOpen] = useState(false);
   const router = useRouter();
 
@@ -40,11 +47,6 @@ export default function CartPage() {
       return;
     }
 
-    const user = JSON.parse(storedUser);
-    const cartKey = getCartKey(user);
-
-    const savedCart = JSON.parse(localStorage.getItem(cartKey) || "[]");
-    setCart(savedCart);
   }, [router]);
 
   /* ✅ update quantity */

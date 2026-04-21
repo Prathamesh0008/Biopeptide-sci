@@ -6,17 +6,15 @@ import { useEffect, useState } from "react";
 export default function AdminProductsPage() {
   const [products, setProducts] = useState([]);
 
-  const load = async () => {
-    const res = await fetch("/api/products", {
+  useEffect(() => {
+    fetch("/api/products", {
       credentials: "include",
       cache: "no-store",
-    });
-    const data = await res.json();
-    if (data.ok) setProducts(data.products);
-  };
-
-  useEffect(() => {
-    load();
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.ok) setProducts(data.products);
+      });
   }, []);
 
   const toggleStock = async (id, inStock) => {

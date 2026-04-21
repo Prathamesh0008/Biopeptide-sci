@@ -16,7 +16,6 @@ import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function BundleDetailPage() {
   const { id } = useParams();
-  const [bundle, setBundle] = useState(null);
   const [loading, setLoading] = useState(true);
   const { translations } = useLanguage();
 const t = {
@@ -80,27 +79,20 @@ const t = {
 
 
 
-  /* ⭐ ALWAYS SCROLL TO TOP WHEN PAGE LOADS */
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
-
-  /* ⭐ Loader Animation */
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 900);
     return () => clearTimeout(timer);
   }, []);
 
-  /* ⭐ Resolve Bundle */
-  useEffect(() => {
-    const found = BUNDLES.find((b) => b.id === id);
-    if (found) {
-      const resolvedProducts = PRODUCTS.filter((p) =>
-        found.products.includes(p.id)
-      );
-      setBundle({ ...found, resolvedProducts });
-    }
-  }, [id]);
+  const foundBundle = BUNDLES.find((b) => b.id === id);
+  const bundle = foundBundle
+    ? {
+        ...foundBundle,
+        resolvedProducts: PRODUCTS.filter((p) =>
+          foundBundle.products.includes(p.id)
+        ),
+      }
+    : null;
 
 if (loading || !bundle || !t) return <Loader />;
 
@@ -379,7 +371,7 @@ if (loading || !bundle || !t) return <Loader />;
 // "use client";
 
 // import { useParams } from "next/navigation";
-// import { useEffect, useState } from "react";
+// import { useEffect, useMemo, useState } from "react";
 // import Image from "next/image";
 // import Loader from "@/components/Loader";
 // import Sidebar from "@/components/Sidebar";
@@ -390,8 +382,7 @@ if (loading || !bundle || !t) return <Loader />;
 
 // export default function BundleDetailPage() {
 //   const { id } = useParams();
-//   const [bundle, setBundle] = useState(null);
-//   const [loading, setLoading] = useState(true);
+//`r`n//   const [loading, setLoading] = useState(true);
 
 //   const [previewOpen, setPreviewOpen] = useState(false);
 
@@ -719,3 +710,4 @@ if (loading || !bundle || !t) return <Loader />;
 //     </>
 //   );
 // }
+

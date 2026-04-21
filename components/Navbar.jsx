@@ -47,14 +47,21 @@ const t = (path) => {
   //const [loading, setLoading] = useState(false);
   const [query, setQuery] = useState("");
   const router = useRouter();
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState(() => {
+    if (typeof window === "undefined") return null;
+    const stored = localStorage.getItem("bio-user");
+    return stored ? JSON.parse(stored) : null;
+  });
   const [profileOpen, setProfileOpen] = useState(false);
   const profileRef = useRef(null);
   const [suggestions, setSuggestions] = useState([]);
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const searchRef = useRef(null);
   const [languageOpen, setLanguageOpen] = useState(false);
-const [languageFlag, setLanguageFlag] = useState("us");
+const [languageFlag, setLanguageFlag] = useState(() => {
+  if (typeof window === "undefined") return "us";
+  return localStorage.getItem("bio-lang-flag") || "us";
+});
 const mobileLanguageRef = useRef(null);
 
 
@@ -105,15 +112,6 @@ const LANGUAGES = [
 ];
 
 useEffect(() => {
-  const savedLang = localStorage.getItem("bio-lang") || "en";
-  const savedFlag = localStorage.getItem("bio-lang-flag") || "us";
-
-  loadLanguage(savedLang);
-  setLanguageFlag(savedFlag);
-}, [loadLanguage]);
-
-
-useEffect(() => {
   if (languageOpen && window.innerWidth < 768) {
     setTimeout(() => {
       mobileLanguageRef.current?.scrollIntoView({
@@ -130,8 +128,6 @@ useEffect(() => {
     setCartCount(getCartCount());
   };
 
-  updateCount(); // initial load
-
   window.addEventListener("bio-cart-count-updated", updateCount);
 
   return () => {
@@ -143,9 +139,6 @@ useEffect(() => {
   
 
   useEffect(() => {
-  // initial load
-  setCartCount(getCartCount());
-
   const update = () => {
     setCartCount(getCartCount());
   };
@@ -173,7 +166,6 @@ useEffect(() => {
     setCartCount(getCartCount());
   };
 
-  syncUser();
   window.addEventListener("storage", syncUser);
   window.addEventListener("bio-user-updated", syncUser);
 
@@ -234,6 +226,10 @@ useEffect(() => {
 }, []);
 
 const handleNavigate = (href) => {
+  if (pathname === href) {
+    setMenuOpen(false);
+    return;
+  }
 
   // ✅ SAVE CATEGORY PAGES
   const categoryPages = [
