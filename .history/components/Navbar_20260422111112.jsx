@@ -713,7 +713,7 @@ const handleNavigate = (href) => {
 <MenuItem
   title={t("menu.videos") || "Research Videos"}
   onClick={() => handleNavigate("/research-videos")}
-  active={pathname === "/research-videos"}
+  \
 />
   
  

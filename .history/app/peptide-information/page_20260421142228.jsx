@@ -48,14 +48,14 @@ export default function PeptideInformationPage() {
       <Breadcrumbs />
 
       {/* DRAWER BUTTON */}
-      {/* <button
+      <button
         onClick={() => setDrawerOpen(true)}
         className="fixed right-0 top-1/2 -translate-y-1/2 z-50 flex items-center justify-center bg-gradient-to-b from-bioBlue to-bioGreen text-white shadow-lg cursor-pointer h-36 w-10 rounded-l-xl"
       >
         <span className="text-xs font-semibold tracking-widest [writing-mode:vertical-rl]">
           Product List
         </span>
-      </button> */}
+      </button>
 
       {/* DRAWER (PAGE LEVEL ONLY) */}
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />

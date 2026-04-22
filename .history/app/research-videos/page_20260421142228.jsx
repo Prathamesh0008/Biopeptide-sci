@@ -43,7 +43,7 @@ const t = (path, fallback = "") => {
       <Breadcrumbs />
 
       {/* DRAWER BUTTON */}
-      {/* <button
+      <button
         onClick={() => setDrawerOpen(true)}
         className="
           fixed right-0 top-1/2 -translate-y-1/2 z-50
@@ -62,7 +62,7 @@ const t = (path, fallback = "") => {
         >
           Product List
         </span>
-      </button> */}
+      </button>
 
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
 
