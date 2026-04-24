@@ -315,7 +315,7 @@ const handleNavigate = (href) => {
       <div className="max-w-7xl mx-auto px3 sm:px-6 py-4 flex items-center justify-between gap-6">
 
 {/* LOGO */}
-<div className="flex items-center h-16 w-auto -ml-10 sm:-ml-12">
+<div className="flex items-center h-16 w-auto ml-2 sm:ml-0">
   <Link
     href="/"
     className="flex items-center h-16 w-auto cursor-pointer"
