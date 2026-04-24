@@ -78,19 +78,20 @@ export default function PopularPeptidesPage() {
 
           {/* PRODUCTS */}
           <div className="lg:col-span-3">
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
+            {/* <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
               {translations.popularPeptides.title}
             </h1>
 
             <p className="text-gray-600 text-sm mt-1 mb-4">
               {translations.popularPeptides.subtitle}
-            </p>
+            </p> */}
 
             {/* CATEGORY SLIDER */}
-            <AllPeptidesCategorySlider
-              active={activeCategory}
-              onChange={setActiveCategory}
-            />
+           <AllPeptidesCategorySlider
+  active={activeCategory}
+  onChange={setActiveCategory}
+  mode="popular"   // ✅ ADD THIS
+/>
 
             {/* COUNT */}
             <p className="text-sm text-gray-700 mt-4 mb-6">
