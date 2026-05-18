@@ -144,6 +144,7 @@ companyOverview : {
       "description": "BioPeptide materijali su strogo namenjeni za laboratorijska istraživanja. Pružamo visoko precizne peptide alate za akademske institucije, naučne organizacije i sertifikovane istraživačke ustanove — obezbeđujući da se sav rad usklađuje sa etičkim, regulatornim i standardima naučnog integriteta."
     }
   },
+  
   "contact": {
     "hero": {
       "title": "Kontaktirajte BioPeptide",
@@ -1397,24 +1398,26 @@ researchPeptidesForDiscovery: {
     },
     "continue": "Nastavite na plaćanje"
   },
-  "payment": {
-    "title": "Plaćanje",
-    "chooseMethod": "Izaberite način plaćanja",
-    "methods": {
-      "card": {
-        "title": "Kreditna / Debitna kartica",
-        "desc": "Visa, MasterCard, RuPay"
-      },
-      "upi": {
-        "title": "UPI",
-        "desc": "Google Pay, PhonePe, Paytm"
-      }
+ payment: {
+  title: "Плаћање",
+  chooseMethod: "Изаберите начин плаћања",
+
+  methods: {
+    card: {
+      title: "Кредитна / Дебитна картица",
+      desc: "Visa, MasterCard, RuPay"
     },
-    "summary": "Rezime porudžbine",
-    "total": "Ukupno",
-    "paySecurely": "Platite sigurno",
-    "secureNote": "100% sigurna plaćanja"
+    upi: {
+      title: "UPI",
+      desc: "Google Pay, PhonePe, Paytm"
+    }
   },
+
+  summary: "Преглед поруџбине",
+  total: "Укупно",
+  paySecurely: "Платите сигурно",
+  secureNote: "100% сигурна плаћања"
+},
   "research": {
     "1": {
       "title": "Vilon: Ćelijska regeneracija i imuna bioregulacija",
@@ -2131,29 +2134,12 @@ researchPeptidesForDiscovery: {
     }
   }
 },
-"productPage": {
-  "back": "← Nazad na proizvode",
-  "tagline": "Premium BioPeptide • Visoko-čisti naučni istraživački materijal",
-  description: {
-  p0: "{name} je istraživački peptid visoke čistoće, sintetizovan korišćenjem napredne čvrstofazne peptidne sinteze (SPPS) i analitičke validacije.",
-  p1: "Razvijen pomoću tehnologije precizne peptidne sinteze, {name} prolazi kroz visokorezoluciono prečišćavanje radi obezbeđivanja molekularne tačnosti.",
-  p2: "Dizajniran za biohemijske analize, signalne puteve, ćelijske studije, analizu vezivanja receptora i kontrolisana istraživačka okruženja."
-}
-,
-  "badges": {
-    "hplc": "HPLC Testirano",
-    "research": "Istraživački stepen",
-    "coa": "COA Dostupno"
-  },
-  "priceNote": "Samo za istraživanje",
-  "addToCart": "Dodaj u korpu",
-  "specs": {
-    "category": "Kategorija",
-    "purity": "Čistoća",
-    "size": "Veličina jedinice",
-    "cas": "CAS"
-  },
-  "notFound": "Proizvod nije pronađen"
+productPage: {
+  back: "Nazad",
+  addToCart: "Dodaj u korpu",
+  chemicalProperties: "Hemijska svojstva",
+  description: "Opis",
+  coa: "COA / HPLC / MS",
 },
 "productContent": {
   "overviewTitle": "Pregled",

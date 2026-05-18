@@ -10,7 +10,7 @@ import Loader from "@/components/Loader";
 
 
 
-export default function ProductCard({ product }) {
+export default function ProductCard({ product, priority = false }) {
   const [imgLoaded, setImgLoaded] = useState(false);
   const getSafeImage = (img) => {
   if (!img || typeof img !== "string") {
@@ -37,6 +37,8 @@ export default function ProductCard({ product }) {
 }
 
   const p = getTranslatedProduct(product, translations);
+  const productId = product.id || product._id;
+  const price = Number(product.price || 0);
 
   const addToCart = () => {
     const storedUser = localStorage.getItem("bio-user");
@@ -48,13 +50,13 @@ export default function ProductCard({ product }) {
     }
 
     const cart = JSON.parse(localStorage.getItem(cartKey) || "[]");
-    const found = cart.find((item) => item.id === product.id);
+    const found = cart.find((item) => item.id === productId);
 
     if (found) {
       found.qty += 1;
     } else {
       cart.push({
-        id: product.id,
+        id: productId,
         name: p.name,
         price: product.price,
         strength: p.strength,
@@ -109,9 +111,9 @@ export default function ProductCard({ product }) {
   alt={product.name || "Product image"}
   fill
   className="object-contain scale-95"
-  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
+  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
   onLoad={() => setImgLoaded(true)}
-  priority
+  priority={priority}
 />
 
 
@@ -141,7 +143,7 @@ export default function ProductCard({ product }) {
 
     {/* PRICE */}
     <p className="text-[17px] font-bold text-gray-900 mt-3">
-      ${product.price.toFixed(2)}
+      ${price.toFixed(2)}
     </p>
 
     {/* ACTIONS */}

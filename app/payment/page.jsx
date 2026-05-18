@@ -1,11 +1,20 @@
-//app\payment\page.jsx
+//app/payment/page.jsx
 "use client";
 
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { FaCreditCard,FaUniversity,FaShieldAlt,} from "react-icons/fa";
+import { 
+  FaCreditCard, 
+  FaPaypal, 
+  FaUniversity,
+  FaShieldAlt,
+  FaMobileAlt,
+  FaBuilding,
+  FaMoneyBillWave
+} from "react-icons/fa";
+import { SiKlarna } from "react-icons/si";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 
@@ -72,25 +81,59 @@ useEffect(() => {
 
           <div className="space-y-4">
 
-            {/* CARD */}
-<PaymentOption
-  active={method === "card"}
-  onClick={() => setMethod("card")}
-  title={t("methods.card.title")}
-  desc={t("methods.card.desc")}
-  icon={<FaCreditCard />}
-/>
+            {/* CREDIT/DEBIT CARD */}
+            <PaymentOption
+              active={method === "card"}
+              onClick={() => setMethod("card")}
+              title="Credit / Debit Card"
+              desc="Visa, MasterCard, American Express"
+              icon={<FaCreditCard />}
+            />
 
-  {/* UPI */}
- <PaymentOption
-  active={method === "upi"}
-  onClick={() => setMethod("upi")}
-  title={t("methods.upi.title") || "UPI"}
-  desc={t("methods.upi.desc") || ""}
-  icon={<FaUniversity />}
-/>
+            {/* PAYPAL */}
+            <PaymentOption
+              active={method === "paypal"}
+              onClick={() => setMethod("paypal")}
+              title="PayPal"
+              desc="Pay with your PayPal account"
+              icon={<FaPaypal />}
+            />
 
+            {/* KLARNA */}
+            {/* <PaymentOption
+              active={method === "klarna"}
+              onClick={() => setMethod("klarna")}
+              title="Klarna"
+              desc="Pay later or in installments"
+              icon={<SiKlarna />}
+            /> */}
 
+            {/* SOFORT */}
+            {/* <PaymentOption
+              active={method === "sofort"}
+              onClick={() => setMethod("sofort")}
+              title="Sofort"
+              desc="Direct online bank transfer"
+              icon={<FaUniversity />}
+            /> */}
+
+            {/* iDEAL - Using FaMoneyBillWave instead */}
+            {/* <PaymentOption
+              active={method === "ideal"}
+              onClick={() => setMethod("ideal")}
+              title="iDEAL"
+              desc="Internet banking (Netherlands)"
+              icon={<FaMoneyBillWave />}
+            /> */}
+
+            {/* BANK TRANSFER */}
+            {/* <PaymentOption
+              active={method === "bank"}
+              onClick={() => setMethod("bank")}
+              title="Bank Transfer"
+              desc="SEPA / Wire transfer"
+              icon={<FaBuilding />}
+            /> */}
             
           </div>
         </div>
@@ -105,7 +148,7 @@ useEffect(() => {
             {data.cart.map((item) => (
               <div key={item.id} className="flex justify-between">
                 <span>{item.name} × {item.qty}</span>
-                <span>${(item.price * item.qty).toFixed(2)}</span>
+                <span>€{(item.price * item.qty).toFixed(2)}</span>
               </div>
             ))}
           </div>
@@ -114,14 +157,15 @@ useEffect(() => {
 
           <div className="flex justify-between font-semibold text-lg">
             <span>{t("total")}</span>
-            <span>${data.subtotal.toFixed(2)}</span>
+            <span>€{data.subtotal.toFixed(2)}</span>
           </div>
+          
 <button
   disabled={isPlacingOrder}
   onClick={async () => {
-    if (isPlacingOrder) return; // 🔒 HARD GUARD
+    if (isPlacingOrder) return;
 
-    setIsPlacingOrder(true); // 🔒 LOCK BUTTON
+    setIsPlacingOrder(true);
 
     try {
       const saved = JSON.parse(localStorage.getItem("bio-checkout"));
@@ -131,11 +175,10 @@ useEffect(() => {
       }
 
       const updated = {
-  ...saved,
-  paymentMethod: method,
-  address: saved.form, // 🔴 FORCE FULL FORM
-};
-
+        ...saved,
+        paymentMethod: method,
+        address: saved.form,
+      };
 
       localStorage.setItem("bio-checkout", JSON.stringify(updated));
 
@@ -145,21 +188,21 @@ useEffect(() => {
         headers: {
           "Content-Type": "application/json",
         },
-   body: JSON.stringify({
-  checkoutId: updated.checkoutId,
-  items: updated.cart,
-  totals: {
-    subtotal: updated.subtotal,
-    shipping: 0,
-    tax: 0,
-    total: updated.subtotal,
-  },
-  address: updated.form,
-
-  userEmail: updated.form.email,
-  userName: updated.form.fullName,
-  phone: updated.form.phone,
-}),
+        body: JSON.stringify({
+          checkoutId: updated.checkoutId,
+          items: updated.cart,
+          totals: {
+            subtotal: updated.subtotal,
+            shipping: 0,
+            tax: 0,
+            total: updated.subtotal,
+          },
+          address: updated.form,
+          userEmail: updated.form.email,
+          userName: updated.form.fullName,
+          phone: updated.form.phone,
+          paymentMethod: method,
+        }),
       });
 
       const data = await res.json();
@@ -188,14 +231,10 @@ useEffect(() => {
   {isPlacingOrder ? "Processing..." : t("paySecurely")}
 </button>
 
-
-
-
-
           <p className="text-xs text-gray-500 mt-3 text-center flex items-center justify-center gap-1">
-  <FaShieldAlt className="text-bioBlue" />
-  {t("secureNote")}
-</p>
+            <FaShieldAlt className="text-bioBlue" />
+            {t("secureNote")}
+          </p>
 
         </div>
       </div>
@@ -257,14 +296,3 @@ function PaymentOption({ active, onClick, title, desc, icon }) {
     </button>
   );
 }
-
-
-
-
-
-
-
-
-
-
-

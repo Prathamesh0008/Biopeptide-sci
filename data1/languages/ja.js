@@ -1483,24 +1483,23 @@ checkoutPage: {
 },
 payment: {
   title: "お支払い",
-  chooseMethod: "支払い方法を選択",
+  chooseMethod: "お支払い方法を選択",
 
   methods: {
     card: {
-      title: "クレジット / デビットカード",
+      title: "クレジット/デビットカード",
       desc: "Visa、MasterCard、RuPay"
     },
-   upi: {
-  title: "UPI",
-  desc: "Google Pay、PhonePe、Paytm"
-}
-
+    upi: {
+      title: "UPI",
+      desc: "Google Pay、PhonePe、Paytm"
+    }
   },
 
   summary: "注文概要",
   total: "合計",
-  paySecurely: "安全に支払う",
-  secureNote: "100% 安全な支払い"
+  paySecurely: "安全にお支払い",
+  secureNote: "100%安全な支払い"
 },
 researchPage: {
   title: "ペプチド科学研究",
@@ -2320,21 +2319,12 @@ refundsReturns: {
   }
 },
 productPage: {
-  back: "← 製品一覧へ戻る",
-  tagline: "プレミアムBioPeptide・高純度研究用素材",
-  description: {
-  p0: "{name} は、高度な固相ペプチド合成（SPPS）および分析的検証を用いて合成された高純度の研究用ペプチドです。",
-  p1: "精密なペプチド合成技術により開発された {name} は、分子精度を確保するために高分解能精製が施されています。",
-  p2: "生化学アッセイ、シグナル伝達経路、細胞研究、受容体結合解析、および管理された研究環境向けに設計されています。"
-}
-,
-  badges: { hplc: "HPLC検査済み", research: "研究グレード", coa: "COAあり" },
-  priceNote: "研究用途のみ",
+  back: "戻る",
   addToCart: "カートに追加",
-  specs: { category: "カテゴリー", purity: "純度", size: "単位サイズ", cas: "CAS" },
-  notFound: "製品が見つかりません"
-}
-,
+  chemicalProperties: "化学的特性",
+  description: "説明",
+  coa: "COA / HPLC / MS",
+},
 productContent: {
   overviewTitle: "概要",
 

@@ -9845,6 +9845,206 @@ export default {
   researchStatus:
     "Numai pentru utilizare în cercetarea de laborator. Nu pentru uz uman sau veterinar."
 },
+"hexarelin-2mg": {
+  name: "Hexarelin 2mg",
+
+  tagline:
+    "Secretagog al hormonului de creștere de grad de cercetare pentru studii privind receptorul de grelină și semnalizarea endocrină",
+
+  cas: "140703-51-1",
+
+  strength: [
+    "Hexarelin (Examorelin) 2mg de la BioPeptide este un peptid de înaltă puritate, de grad de cercetare, dezvoltat pentru studii de laborator privind semnalizarea hormonului de creștere, activarea receptorului de grelină și cercetarea căilor endocrine. Sintetizat folosind sinteză peptidică avansată în fază solidă și purificat la ≥99% HPLC, acest peptid asigură stabilitate moleculară excelentă și reproductibilitate. Identificat prin CAS 140703-51-1, Hexarelin este utilizat pe scară largă în modele controlate de cercetare in-vitro și biochimică în Europa și Statele Unite. BioPeptide permite laboratoarelor să cumpere peptide de cercetare online cu încredere prin documentație transparentă și ambalare profesională de laborator. Numai pentru uz de cercetare. Nu este destinat uzului uman sau veterinar."
+  ],
+
+  topDescription: {
+    p0: "Hexarelin (Examorelin) 2mg de la BioPeptides este un peptid de cercetare de înaltă puritate, dezvoltat pentru investigații de laborator privind semnalizarea hormonului de creștere, activarea receptorului de grelină și reglarea căilor endocrine.",
+    p1: "Fabricat folosind sinteză peptidică avansată în fază solidă (SPPS) și purificat la ≥99% HPLC, peptidul oferă stabilitate moleculară excelentă și reproductibilitate pentru medii de cercetare controlate.",
+    p2: "BioPeptides furnizează peptide de cercetare laboratoarelor profesionale din Europa și Statele Unite, sprijinind instituții academice, companii de biotehnologie și facilități independente de cercetare."
+  },
+
+  components: [
+    "Hexarelin (Examorelin) — flacon de peptid liofilizat de 2mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Prezentare generală a cercetării",
+    overview: [
+      "Hexarelin (Examorelin) este un hexapeptid sintetic studiat pe scară largă ca secretagog al hormonului de creștere.",
+      "În medii de laborator, Hexarelin interacționează cu receptorul secretagog al hormonului de creștere (GHS-R), cunoscut și ca receptorul de grelină.",
+      "Activarea acestui receptor inițiază cascade de semnalizare implicate în eliberarea hormonului de creștere și coordonarea endocrină.",
+      "Deoarece acționează în amonte în reglarea hormonală, Hexarelin este utilizat frecvent pentru studierea căilor de semnalizare mediate de receptori și a mecanismelor de feedback endocrin."
+    ],
+
+    scientificBackgroundTitle: "Context științific",
+    scientificBackground: [
+      "Eliberarea hormonului de creștere este reglată prin semnalizare complexă între hipotalamus și glanda hipofiză.",
+      "Secretagogii hormonului de creștere, precum Hexarelin, stimulează eliberarea hormonală prin activarea receptorului de grelină.",
+      "Acest mecanism mediat de receptori permite oamenilor de știință să investigheze căile de semnalizare endocrină și buclele de feedback hormonal.",
+      "Hexarelin a fost studiat pe scară largă datorită afinității sale puternice pentru receptori și activității de semnalizare fiabile în modele experimentale."
+    ],
+
+    mechanismTitle: "Perspectivă mecanistică de cercetare",
+    mechanismPoints: [
+      "Studii de activare a receptorului de grelină (GHS-R)",
+      "Analiza semnalizării eliberării hormonului de creștere",
+      "Cercetarea coordonării căilor endocrine",
+      "Modelarea interacțiunii ligand–receptor",
+      "Investigarea căilor de feedback hormonal"
+    ],
+
+    applicationsTitle: "Aplicații principale de cercetare",
+    applications: [
+      {
+        title: "Studii de semnalizare a hormonului de creștere",
+        text: "Cercetătorii folosesc Hexarelin pentru a investiga dinamica secreției hormonului de creștere, sincronizarea activării receptorilor și răspunsurile de semnalizare endocrină."
+      },
+      {
+        title: "Cercetarea legării receptorului de grelină",
+        text: "Hexarelin este aplicat pe scară largă în teste de legare la receptori care analizează afinitatea ligandului, sensibilitatea receptorului și intensitatea semnalizării."
+      },
+      {
+        title: "Modelarea sistemului endocrin",
+        text: "Oamenii de știință folosesc Hexarelin pentru a explora coordonarea căilor hormonale și comportamentul semnalizării endocrine în modele de cercetare controlate."
+      },
+      {
+        title: "Cercetare în biologie celulară și moleculară",
+        text: "Laboratoarele aplică Hexarelin în experimente bazate pe celule care studiază cascadele de semnalizare intracelulară și răspunsurile transcripționale."
+      },
+      {
+        title: "Modele de cercetare in-vitro",
+        text: "Hexarelin este utilizat frecvent în modele controlate de cercetare in-vitro care investighează semnalizarea hormonală mediată de receptori."
+      }
+    ],
+
+    molecularTitle: "Caracteristici moleculare",
+    molecularPoints: [
+      "Numele compusului: Hexarelin (Examorelin)",
+      "Număr CAS: 140703-51-1",
+      "Formula moleculară: C47H58N12O6",
+      "Greutate moleculară: ~887 g/mol",
+      "Formă: Pulbere peptidică liofilizată",
+      "Puritate: ≥99% verificată prin HPLC"
+    ],
+
+    stabilityTitle: "Profil de stabilitate și recomandări de depozitare",
+    stabilityPoints: [
+      "Depozitați peptidul liofilizat la −20°C",
+      "Protejați de umiditate și expunere directă la lumină",
+      "Evitați ciclurile repetate de înghețare–dezghețare",
+      "Soluțiile reconstituite trebuie păstrate la frigider",
+      "Manipulați folosind tehnici aseptice de laborator"
+    ],
+
+    solubilityTitle: "Opțiuni de solubilitate și reconstituire",
+    solubilityPoints: [
+      "Apă bacteriostatică sterilă",
+      "Soluții saline sterile",
+      "Soluții apoase tamponate de laborator",
+      "Tampoane pentru teste biochimice",
+      "Sisteme de solvenți de calitate de laborator"
+    ],
+
+    techSpecsTitle: "Specificații tehnice",
+    techSpecs: {
+      productName: "Hexarelin (Examorelin) 2mg",
+      brand: "BioPeptides",
+      cas: "140703-51-1",
+      purity: "≥99% (verificat prin HPLC)",
+      unitSize: "flacon de 2mg",
+      form: "Pulbere liofilizată",
+      synthesis: "Sinteză peptidică în fază solidă (SPPS)",
+      analytical: "HPLC și spectrometrie de masă",
+      molecularStructure: "Hexapeptid sintetic",
+      stability: "Stabil atunci când este depozitat la −20°C"
+    },
+
+    validationTitle: "Validare analitică și asigurarea calității",
+    validationPoints: [
+      "Verificarea purității prin cromatografie lichidă de înaltă performanță",
+      "Confirmarea greutății moleculare prin spectrometrie de masă",
+      "Validarea integrității structurale a peptidei",
+      "Testarea consistenței analitice între loturi",
+      "Verificarea stabilității peptidei"
+    ],
+
+    regulatoryTitle: "Declarație de reglementare și conformitate",
+    regulatoryText:
+      "Hexarelin furnizat de BioPeptides este destinat strict utilizării în cercetare de laborator și științifică. Nu este aprobat pentru consum uman, uz veterinar, aplicații cosmetice sau tratamente terapeutice. Cumpărătorii trebuie să asigure conformitatea cu reglementările de cercetare aplicabile și politicile instituționale.",
+
+    faqTitle: "Întrebări frecvente",
+
+    faqItems: [
+      {
+        q: "Pentru ce este utilizat în principal Hexarelin în cercetarea de laborator?",
+        a: "Hexarelin este utilizat pentru studierea eliberării hormonului de creștere, activării receptorului de grelină și mecanismelor de semnalizare endocrină în medii de laborator controlate."
+      },
+      {
+        q: "De ce Hexarelin este numit și Examorelin?",
+        a: "Examorelin este o denumire alternativă pentru Hexarelin folosită în literatura științifică și se referă la același compus peptidic identificat prin CAS 140703-51-1."
+      },
+      {
+        q: "Este Hexarelin potrivit pentru modele de cercetare in-vitro?",
+        a: "Da. Hexarelin este utilizat pe scară largă în experimente in-vitro care analizează legarea receptorilor, căile de semnalizare hormonală și mecanismele de răspuns celular."
+      },
+      {
+        q: "De ce este CAS 140703-51-1 important pentru cercetarea Hexarelin?",
+        a: "Numărul CAS asigură identificarea precisă a compusului, trasabilitatea și reproductibilitatea în documentația de laborator."
+      },
+      {
+        q: "De ce este util formatul de flacon de 2mg pentru cercetare?",
+        a: "Dimensiunea de 2mg este ideală pentru experimente pilot, studii comparative și proiecte academice care necesită cantități precise de peptid."
+      },
+      {
+        q: "Cum trebuie depozitat Hexarelin pentru uz de cercetare?",
+        a: "Hexarelin trebuie depozitat la −20°C în formă liofilizată și protejat de ciclurile repetate de înghețare–dezghețare."
+      },
+      {
+        q: "Poate fi Hexarelin utilizat în studii comparative ale secretagogilor GH?",
+        a: "Da. Hexarelin este utilizat frecvent ca compus de referință atunci când se compară intensitatea semnalizării și activarea receptorilor cu alți secretagogi ai hormonului de creștere."
+      },
+      {
+        q: "De ce să aleg BioPeptides pentru peptide de cercetare Hexarelin?",
+        a: "BioPeptides oferă sinteză peptidică de înaltă puritate, documentație CAS verificată și logistică fiabilă pentru laboratoarele de cercetare."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "C47H58N12O6",
+  molecularWeight: "887",
+  monoisotopicMass: "886.46022762",
+  polarArea: "301",
+  complexity: "1600",
+  xlogP: "2.3",
+  heavyAtomCount: "65",
+  hydrogenBondDonorCount: "11",
+  hydrogenBondAcceptorCount: "9",
+  rotatableBondCount: "23",
+  cid: "6918297",
+  inchi:
+    "InChI=1S/C47H58N12O6/c1-27-34(33-15-7-9-17-37(33)54-27)23-41(58-44(62)35(49)22-31-25-51-26-53-31)45(63)55-28(2)43(61)57-40(21-30-24-52-36-16-8-6-14-32(30)36)47(65)59-39(20-29-12-4-3-5-13-29)46(64)56-38(42(50)60)18-10-11-19-48/h3-9,12-17,24-26,28,35,38-41,52,54H,10-11,18-23,48-49H2,1-2H3,(H2,50,60)(H,51,53)(H,55,63)(H,56,64)(H,57,61)(H,58,62)(H,59,65)/t28-,35-,38-,39+,40-,41+/m0/s1",
+  inchiKey: "RVWNMGKSNGWLOL-GIIHNPQRSA-N",
+
+  canonicalSmiles:
+    "CC1=C(C2=CC=CC=C2N1)CC(C(=O)NC(C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCCN)C(=O)N)NC(=O)C(CC6=CN=CN6)N",
+
+  isomericSmiles:
+    "CC1=C(C2=CC=CC=C2N1)C[C@H](C(=O)N[C@@H](C)C(=O)N[C@@H](CC3=CNC4=CC=CC=C43)C(=O)N[C@H](CC5=CC=CC=C5)C(=O)N[C@@H](CCCCN)C(=O)N)NC(=O)[C@H](CC6=CN=CN6)N",
+
+  iupacName:
+    "(2S)-6-amino-2-[[(2R)-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2S)-2-amino-3-(1H-imidazol-5-yl)propanoyl]amino]-3-(2-methyl-1H-indol-3-yl)propanoyl]amino]propanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+}
+
+  },
+
+  appearance: "Pulbere peptidică liofilizată albă",
+
+  storage: "Depozitați la −20°C. Evitați ciclurile repetate de înghețare–dezghețare.",
+
+  researchStatus:
+    "Doar pentru utilizare în cercetare de laborator. Nu este destinat uzului uman sau veterinar."
+},
 "hexarelin-2mg-x-10-modgrf-1-29-2mg-x-10": {
   name: "Hexarelin 2mg ×10 + MOD-GRF (1-29) 2mg ×10 (Set)",
 
@@ -11011,6 +11211,1577 @@ export default {
   researchStatus:
     "Numai pentru utilizare în cercetarea de laborator. Nu pentru uz uman sau veterinar."
 },
+"ipamorelin-2mg": {
+  name: "Ipamorelin 2mg",
+  tagline: "Secretagog selectiv al hormonului de creștere pentru cercetarea semnalizării endocrine specifice receptorilor",
+  cas: "170851-70-4",
+
+  strength: [
+    "Ipamorelin 2mg de la BioPeptide este un peptid de cercetare de înaltă puritate, dezvoltat pentru studii avansate de laborator axate pe semnalizarea hormonului de creștere, activarea receptorului de grelină și analiza căilor endocrine. Sintetizat folosind chimie peptidică de precizie și purificat la ≥99% HPLC, Ipamorelin susține cercetări in-vitro și biochimice reproductibile în laboratoare academice și de biotehnologie."
+  ],
+
+  topDescription: {
+    p0: "Ipamorelin este un pentapeptid sintetic clasificat ca secretagog al hormonului de creștere, utilizat pe scară largă în cercetarea de laborator.",
+    p1: "Cercetătorii studiază Ipamorelin pentru interacțiunea sa selectivă cu receptorii secretagogi ai hormonului de creștere (GHS-R) și pentru rolul său în semnalizarea endocrină specifică receptorilor.",
+    p2: "Activitatea sa țintită asupra receptorilor îl face util pentru investigarea căilor hormonale hipofizare și a mecanismelor de secreție a hormonului de creștere."
+  },
+
+  components: [
+    "Ipamorelin — flacon de peptid liofilizat de 2mg"
+  ],
+
+  content: {
+    overviewTitle: "Prezentare generală a cercetării",
+    overview: [
+      "Ipamorelin este un pentapeptid sintetic aparținând clasei secretagogilor hormonului de creștere.",
+      "Este studiat în principal pentru interacțiunea sa cu receptorul secretagog al hormonului de creștere (GHS-R).",
+      "Cercetarea de laborator se concentrează frecvent pe activarea selectivă a receptorilor de către Ipamorelin și pe comportamentul său de semnalizare endocrină.",
+      "Aceste caracteristici îl fac valoros pentru modele de cercetare privind legarea receptorilor și căile hormonale."
+    ],
+
+    scientificBackgroundTitle: "Context științific",
+    scientificBackground: [
+      "Secreția hormonului de creștere este reglată prin căi endocrine complexe care implică peptide hipotalamice și receptori hipofizari.",
+      "Ipamorelin activează selectiv receptorii de grelină implicați în eliberarea hormonului de creștere.",
+      "Specificitatea sa față de receptori permite cercetătorilor să studieze semnalizarea hormonului de creștere cu interacțiuni minime cu alte căi hormonale.",
+      "Acest lucru face ca Ipamorelin să fie un compus util pentru cercetarea semnalizării endocrine și la nivel de receptor."
+    ],
+
+    mechanismTitle: "Perspectivă mecanistică de cercetare",
+    mechanismPoints: [
+      "Activarea receptorului secretagog al hormonului de creștere",
+      "Cercetarea semnalizării endocrine hipofizare",
+      "Studii selective de interacțiune peptidă–receptor",
+      "Investigarea căii de secreție hormonală",
+      "Cercetarea căilor de semnalizare celulară"
+    ],
+
+    applicationsTitle: "Aplicații principale de cercetare",
+    applications: [
+      {
+        title: "Cercetarea eliberării hormonului de creștere",
+        text: "Ipamorelin este utilizat în cercetarea de laborator pentru a studia tiparele secreției hormonului de creștere și sincronizarea activării receptorilor."
+      },
+      {
+        title: "Semnalizarea receptorilor hipofizari",
+        text: "Cercetătorii analizează modul în care Ipamorelin interacționează cu receptorii GHS-R în căile de semnalizare hipofizară."
+      },
+      {
+        title: "Investigarea căilor endocrine",
+        text: "Laboratoarele folosesc Ipamorelin pentru a explora coordonarea semnalizării hormonale și reglarea endocrină."
+      },
+      {
+        title: "Studii de semnalizare celulară",
+        text: "Ipamorelin este integrat în teste bazate pe celule care studiază cascadele de semnalizare intracelulară."
+      }
+    ],
+
+    molecularTitle: "Caracteristici moleculare",
+    molecularPoints: [
+      "Numele compusului: Ipamorelin",
+      "Număr CAS: 170851-70-4",
+      "Lungimea peptidei: 5 aminoacizi",
+      "Formula moleculară: C38H49N9O5",
+      "Greutate moleculară: ~711,85 g/mol",
+      "Formă: Pulbere peptidică liofilizată",
+      "Puritate: ≥99% verificată prin HPLC"
+    ],
+
+    stabilityTitle: "Profil de stabilitate și recomandări de depozitare",
+    stabilityPoints: [
+      "Depozitați peptidul liofilizat la −20°C",
+      "Protejați de umiditate și expunere la lumină",
+      "Evitați ciclurile repetate de înghețare–dezghețare",
+      "Soluțiile reconstituite trebuie păstrate la frigider",
+      "Folosiți solvenți sterili de laborator pentru preparare"
+    ],
+
+    solubilityTitle: "Opțiuni de solubilitate și reconstituire",
+    solubilityPoints: [
+      "Apă bacteriostatică sterilă",
+      "Soluții saline sterile",
+      "Soluții tampon de laborator",
+      "Tampoane pentru teste peptidice",
+      "Sisteme de solvenți biochimici"
+    ],
+
+    techSpecsTitle: "Specificații tehnice",
+    techSpecs: {
+      productName: "Ipamorelin 2mg",
+      brand: "BioPeptides",
+      cas: "170851-70-4",
+      purity: "≥99% (verificat prin HPLC)",
+      unitSize: "flacon de 2mg",
+      form: "Pulbere liofilizată",
+      synthesis: "Sinteză peptidică în fază solidă (SPPS)",
+      analytical: "HPLC și spectrometrie de masă",
+      molecularStructure: "Peptid secretagog al hormonului de creștere",
+      stability: "Stabil atunci când este depozitat la −20°C"
+    },
+
+    validationTitle: "Validare analitică și asigurarea calității",
+    validationPoints: [
+      "Verificarea purității prin cromatografie lichidă de înaltă performanță",
+      "Confirmarea greutății moleculare prin spectrometrie de masă",
+      "Validarea integrității structurale a peptidei",
+      "Testarea consistenței analitice între loturi",
+      "Verificarea stabilității peptidei"
+    ],
+
+    regulatoryTitle: "Declarație de reglementare și conformitate",
+    regulatoryText: "Ipamorelin furnizat de BioPeptides este destinat strict utilizării în cercetare de laborator și științifică. Nu este aprobat pentru consum uman, uz veterinar, aplicații cosmetice sau tratamente terapeutice.",
+
+    faqTitle: "Întrebări frecvente",
+    faqItems: [
+      {
+        q: "Pentru ce este utilizat Ipamorelin în cercetare?",
+        a: "Ipamorelin este utilizat pe scară largă pentru studierea mecanismelor de secreție a hormonului de creștere și a semnalizării receptorului de grelină în medii de laborator."
+      },
+      {
+        q: "Ce identifică CAS 170851-70-4?",
+        a: "CAS 170851-70-4 identifică în mod unic peptidul Ipamorelin pentru documentație de cercetare precisă și trasabilitate."
+      },
+      {
+        q: "Cum diferă Ipamorelin de alți secretagogi ai hormonului de creștere?",
+        a: "Ipamorelin este cunoscut pentru activarea selectivă a receptorilor, ceea ce îl face util pentru studierea semnalizării endocrine țintite."
+      },
+      {
+        q: "Ce domenii de cercetare folosesc frecvent Ipamorelin?",
+        a: "Ipamorelin este utilizat frecvent în endocrinologie, cercetarea semnalizării peptidice, biologie moleculară și studii ale căilor hormonale."
+      },
+      {
+        q: "Este Ipamorelin potrivit pentru cercetare in-vitro?",
+        a: "Da. Ipamorelin este utilizat pe scară largă în studii in-vitro controlate care examinează legarea receptorilor și semnalizarea intracelulară."
+      },
+      {
+        q: "De ce este util formatul de 2mg?",
+        a: "Formatul de 2mg este potrivit pentru experimente pilot și studii de legare la receptori care necesită cantități precise de peptid."
+      },
+      {
+        q: "Cum trebuie depozitat Ipamorelin?",
+        a: "Ipamorelin liofilizat trebuie depozitat la −20°C și protejat de ciclurile repetate de înghețare–dezghețare."
+      },
+      {
+        q: "De ce să aleg BioPeptides pentru Ipamorelin?",
+        a: "BioPeptides oferă peptide de înaltă puritate cu documentație CAS verificată și ambalare de grad de laborator."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C38H49N9O5",
+      molecularWeight: "711.9",
+      monoisotopicMass: "711.3856657",
+      polarArea: "240",
+      complexity: "1200",
+      xlogP: "1.8",
+      heavyAtomCount: "52",
+      hydrogenBondDonorCount: "8",
+      hydrogenBondAcceptorCount: "8",
+      rotatableBondCount: "19",
+      cid: "9831659",
+      inchi: "InChI=1S/C38H49N9O5/c1-38(2,41)37(52)47-32(21-28-22-42-23-43-28)36(51)46-31(20-25-15-16-26-12-6-7-13-27(26)18-25)35(50)45-30(19-24-10-4-3-5-11-24)34(49)44-29(33(40)48)14-8-9-17-39/h3-7,10-13,15-16,18,22-23,29-32H,8-9,14,17,19-21,39,41H2,1-2H3,(H2,40,48)(H,42,43)(H,44,49)(H,45,50)(H,46,51)(H,47,52)/t29-,30+,31+,32-/m0/s1",
+      inchiKey: "NEHWBYHLYZGBNO-BVEPWEIPSA-N",
+      canonicalSmiles: "CC(C)(C(=O)NC(CC1=CN=CN1)C(=O)NC(CC2=CC3=CC=CC=C3C=C2)C(=O)NC(CC4=CC=CC=C4)C(=O)NC(CCCCN)C(=O)N)N",
+      isomericSmiles: "CC(C)(C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@H](CC2=CC3=CC=CC=C3C=C2)C(=O)N[C@H](CC4=CC=CC=C4)C(=O)N[C@@H](CCCCN)C(=O)N)N",
+      iupacName: "(2S)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2S)-2-[(2-amino-2-methylpropanoyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]-3-naphthalen-2-ylpropanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+    }
+  },
+  appearance: "Pulbere liofilizată albă",
+  storage: "Depozitați la −20°C. Evitați ciclurile repetate de înghețare–dezghețare.",
+  researchStatus: "Doar pentru utilizare în cercetare de laborator. Nu este destinat uzului uman sau veterinar."
+},
+"ll-37-5mg-cap-18": {
+  name: "LL-37 (CAP-18) 5mg",
+
+  tagline:
+    "Peptid antimicrobian derivat din catelicidina umană pentru cercetarea imunității înnăscute și a interacțiunii gazdă–patogen",
+
+  cas: "154947-66-7",
+
+  strength: [
+    "LL-37 (CAP-18) 5mg de la BioPeptides este un peptid antimicrobian de cercetare de înaltă puritate, dezvoltat pentru studii de laborator axate pe semnalizarea imunității înnăscute, mecanismele de apărare ale gazdei și interacțiunile peptidă–membrană. Produs folosind sinteză peptidică în fază solidă de precizie și purificat la ≥99% HPLC, LL-37 oferă acuratețe moleculară excelentă și reproductibilitate pentru medii exigente de cercetare științifică."
+  ],
+
+  topDescription: {
+    p0: "LL-37 este un peptid antimicrobian natural, derivat din precursorul catelicidinei umane CAP-18.",
+    p1: "În medii de cercetare, este studiat pe scară largă pentru interacțiunea sa cu membranele microbiene și căile de semnalizare ale imunității înnăscute.",
+    p2: "Rolul său multifuncțional în apărarea antimicrobiană, semnalizarea inflamației și biologia epitelială face ca LL-37 să fie un peptid valoros pentru modele de cercetare în imunologie și microbiologie."
+  },
+
+  components: [
+    "LL-37 (CAP-18) — flacon de peptid liofilizat de 5mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Prezentare generală a cercetării",
+    overview: [
+      "LL-37 este un peptid antimicrobian cationic derivat din proteina precursoare a catelicidinei umane CAP-18.",
+      "Cercetătorii studiază LL-37 pentru rolul său în apărarea imunității înnăscute și în mecanismele de interacțiune gazdă–patogen.",
+      "Peptidul interacționează cu membranele microbiene și cu căile de semnalizare imună în modele de laborator controlate.",
+      "Formatul de cercetare de 5mg susține fluxuri experimentale extinse și multiple teste de microbiologie sau imunologie."
+    ],
+
+    scientificBackgroundTitle: "Context științific",
+    scientificBackground: [
+      "LL-37 este singurul peptid antimicrobian catelicidinic uman cunoscut, identificat în sistemele imunității înnăscute.",
+      "Acesta joacă un rol în apărarea antimicrobiană prin interacțiunea cu membranele bacteriene și modularea răspunsurilor imune.",
+      "În modelele de cercetare, LL-37 este studiat pentru implicarea sa în semnalizarea inflamatorie, recrutarea celulelor imune și biologia barierei epiteliale.",
+      "Datorită comportamentului său multifuncțional, LL-37 este utilizat pe scară largă în microbiologie și în cercetarea peptidelor de apărare ale gazdei."
+    ],
+
+    mechanismTitle: "Perspectivă mecanistică de cercetare",
+    mechanismPoints: [
+      "Studii ale interacțiunii peptid antimicrobian–membrană",
+      "Cercetarea căilor de semnalizare ale imunității înnăscute",
+      "Cercetarea modulării semnalizării inflamatorii",
+      "Mecanisme de interacțiune gazdă–patogen",
+      "Studii ale semnalizării celulelor imune și ale căilor de chemotaxie"
+    ],
+
+    applicationsTitle: "Aplicații principale de cercetare",
+    applications: [
+      {
+        title: "Cercetarea mecanismelor antimicrobiene",
+        text: "LL-37 este utilizat pe scară largă în cercetarea microbiologică pentru investigarea interacțiunilor peptidelor antimicrobiene cu membranele microbiene."
+      },
+      {
+        title: "Studii ale imunității înnăscute",
+        text: "Cercetătorii studiază LL-37 pentru a înțelege semnalizarea apărării gazdei și reglarea răspunsului imun."
+      },
+      {
+        title: "Cercetarea căilor inflamatorii",
+        text: "LL-37 susține investigarea cascadelor de semnalizare asociate inflamației și a mecanismelor de modulare imună."
+      },
+      {
+        title: "Cercetare în biologie celulară și moleculară",
+        text: "Laboratoarele folosesc LL-37 în teste bazate pe celule pentru a studia semnalizarea mediată de peptide și răspunsurile transcripționale."
+      },
+      {
+        title: "Cercetarea interacțiunii gazdă–patogen",
+        text: "LL-37 este utilizat frecvent în studii care explorează interacțiunile dintre peptidele antimicrobiene și sistemele microbiene."
+      }
+    ],
+
+    molecularTitle: "Caracteristici moleculare",
+    molecularPoints: [
+      "Numele compusului: LL-37 (CAP-18)",
+      "Număr CAS: 154947-66-7",
+      "Lungimea peptidei: 37 aminoacizi",
+      "Clasa peptidei: Peptid antimicrobian catelicidinic uman",
+      "Formă: Pulbere peptidică liofilizată",
+      "Puritate: ≥99% verificată prin HPLC",
+      "Dimensiune unitate: format de cercetare de 5mg"
+    ],
+
+    stabilityTitle: "Profil de stabilitate și recomandări de depozitare",
+    stabilityPoints: [
+      "Depozitați peptidul liofilizat la −20°C",
+      "Protejați de umiditate și expunere directă la lumină",
+      "Evitați ciclurile repetate de înghețare–dezghețare",
+      "Soluțiile reconstituite trebuie păstrate la frigider",
+      "Pregătiți soluțiile folosind solvenți sterili de laborator"
+    ],
+
+    solubilityTitle: "Opțiuni de solubilitate și reconstituire",
+    solubilityPoints: [
+      "Apă bacteriostatică sterilă",
+      "Soluție salină sterilă",
+      "Soluții apoase tamponate de laborator",
+      "Tampoane compatibile cu cultura celulară",
+      "Sisteme de solvenți pentru teste biochimice"
+    ],
+
+    techSpecsTitle: "Specificații tehnice",
+    techSpecs: {
+      productName: "LL-37 (CAP-18) 5mg",
+      brand: "BioPeptides",
+      cas: "154947-66-7",
+      purity: "≥99% (verificat prin HPLC)",
+      unitSize: "flacon de 5mg",
+      form: "Pulbere liofilizată",
+      synthesis: "Sinteză peptidică în fază solidă",
+      analytical: "HPLC și spectrometrie de masă",
+      molecularStructure: "Peptid antimicrobian cu 37 aminoacizi",
+      stability: "Stabil atunci când este depozitat la −20°C"
+    },
+
+    validationTitle: "Validare analitică și asigurarea calității",
+    validationPoints: [
+      "Verificarea purității prin cromatografie lichidă de înaltă performanță",
+      "Confirmarea greutății moleculare prin spectrometrie de masă",
+      "Validarea integrității structurale a peptidei",
+      "Testarea consistenței analitice între loturi",
+      "Verificarea stabilității peptidei"
+    ],
+
+    regulatoryTitle: "Declarație de reglementare și conformitate",
+    regulatoryText:
+      "LL-37 furnizat de BioPeptides este destinat strict utilizării în cercetare de laborator și științifică. Nu este aprobat pentru consum uman, uz veterinar, aplicații cosmetice sau tratamente terapeutice.",
+
+    faqTitle: "Întrebări frecvente",
+
+    faqItems: [
+      {
+        q: "Pentru ce este studiat în principal LL-37 în cercetare?",
+        a: "LL-37 este studiat în principal pentru mecanismele antimicrobiene, semnalizarea imunității înnăscute și cercetarea căilor de apărare ale gazdei."
+      },
+      {
+        q: "Cum diferă LL-37 de alte peptide antimicrobiene?",
+        a: "LL-37 combină perturbarea membranei microbiene cu modularea semnalizării imune, permițând cercetătorilor să studieze atât interacțiunea microbiană, cât și căile de apărare ale gazdei."
+      },
+      {
+        q: "Ce reprezintă CAS 154947-66-7?",
+        a: "CAS 154947-66-7 identifică în mod unic LL-37, asigurând identificarea precisă a compusului și reproductibilitatea în documentația de cercetare de laborator."
+      },
+      {
+        q: "Este LL-37 utilizat în cercetarea microbiologică?",
+        a: "Da. LL-37 este utilizat pe scară largă în studii de microbiologie care investighează activitatea peptidelor antimicrobiene și interacțiunea cu membranele microbiene."
+      },
+      {
+        q: "Ce domenii de cercetare folosesc frecvent LL-37?",
+        a: "LL-37 este utilizat frecvent în imunologie, microbiologie, biologie moleculară, cercetare antimicrobiană și studii de interacțiune gazdă–patogen."
+      },
+      {
+        q: "De ce să alegeți formatul de cercetare de 5mg?",
+        a: "Formatul de flacon de 5mg permite multiple teste și studii de cercetare extinse, reducând în același timp risipa de peptid."
+      },
+      {
+        q: "Cum trebuie depozitat LL-37?",
+        a: "LL-37 trebuie depozitat la −20°C în formă liofilizată și protejat de umiditate și cicluri repetate de înghețare–dezghețare."
+      },
+      {
+        q: "De ce să alegeți BioPeptides pentru peptidele de cercetare LL-37?",
+        a: "BioPeptides oferă peptide de cercetare de înaltă puritate, cu documentație CAS verificată și livrare fiabilă pentru laboratoarele de cercetare."
+      }
+    ],
+
+     chemicalProperties: {
+  molecularFormula: "C205H340N60O53",
+  molecularWeight: "4493",
+  monoisotopicMass: "4490.5754259",
+  polarArea: "1900",
+  complexity: "10700",
+  xlogP: "-20.7",
+  heavyAtomCount: "318",
+  hydrogenBondDonorCount: "68",
+  hydrogenBondAcceptorCount: "65",
+  rotatableBondCount: "166",
+  cid: "16198951",
+  inchi:
+    "InChI=1S/C205H340N60O53/c1-20-114(16)162(261-179(296)128(66-40-46-86-211)235-176(293)135(74-78-155(273)274)243-170(287)125(63-37-43-83-208)241-192(309)148(106-266)257-174(291)126(64-38-44-84-209)234-171(288)129(67-47-87-225-201(215)216)240-185(302)142(98-119-55-29-24-30-56-119)252-187(304)144(100-121-59-33-26-34-60-121)253-189(306)146(102-158(279)280)233-154(272)104-230-167(284)138(94-109(6)7)248-166(283)122(212)93-108(4)5)194(311)231-105-153(271)232-123(61-35-41-81-206)168(285)242-136(75-79-156(275)276)177(294)251-141(97-118-53-27-23-28-54-118)184(301)238-124(62-36-42-82-207)169(286)236-131(69-49-89-227-203(219)220)181(298)263-164(116(18)22-3)197(314)259-160(112(12)13)195(312)246-134(73-77-151(213)269)175(292)237-132(70-50-90-228-204(221)222)180(297)262-163(115(17)21-2)196(313)245-127(65-39-45-85-210)172(289)256-147(103-159(281)282)190(307)254-143(99-120-57-31-25-32-58-120)186(303)249-139(95-110(8)9)183(300)239-130(68-48-88-226-202(217)218)173(290)255-145(101-152(214)270)188(305)250-140(96-111(10)11)191(308)260-161(113(14)15)199(316)265-92-52-72-150(265)193(310)244-133(71-51-91-229-205(223)224)182(299)264-165(117(19)268)198(315)247-137(76-80-157(277)278)178(295)258-149(107-267)200(317)318/h23-34,53-60,108-117,122-150,160-165,266-268H,20-22,35-52,61-107,206-212H2,1-19H3,(H2,213,269)(H2,214,270)(H,230,284)(H,231,311)(H,232,271)(H,233,272)(H,234,288)(H,235,293)(H,236,286)(H,237,292)(H,238,301)(H,239,300)(H,240,302)(H,241,309)(H,242,285)(H,243,287)(H,244,310)(H,245,313)(H,246,312)(H,247,315)(H,248,283)(H,249,303)(H,250,305)(H,251,294)(H,252,304)(H,253,306)(H,254,307)(H,255,290)(H,256,289)(H,257,291)(H,258,295)(H,259,314)(H,260,308)(H,261,296)(H,262,297)(H,263,298)(H,264,299)(H,273,274)(H,275,276)(H,277,278)(H,279,280)(H,281,282)(H,317,318)(H4,215,216,225)(H4,217,218,226)(H4,219,220,227)(H4,221,222,228)(H4,223,224,229)/t114-,115-,116-,117+,122-,123-,124-,125-,126-,127-,128-,129-,130-,131-,132-,133-,134-,135-,136-,137-,138-,139-,140-,141-,142-,143-,144-,145-,146-,147-,148-,149-,150-,160-,161-,162-,163-,164-,165-/m0/s1",
+  inchiKey: "POIUWJQBRNEFGX-XAMSXPGMSA-N",
+
+  canonicalSmiles:
+    "CCC(C)C(C(=O)NCC(=O)NC(CCCCN)C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(CCCCN)C(=O)NC(CCCNC(=N)N)C(=O)NC(C(C)CC)C(=O)NC(C(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(C(C)CC)C(=O)NC(CCCCN)C(=O)NC(CC(=O)O)C(=O)NC(CC2=CC=CC=C2)C(=O)NC(CC(C)C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)N3CCCC3C(=O)NC(CCCNC(=N)N)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)O)NC(=O)C(CCCCN)NC(=O)C(CCC(=O)O)NC(=O)C(CCCCN)NC(=O)C(CO)NC(=O)C(CCCCN)NC(=O)C(CCCNC(=N)N)NC(=O)C(CC4=CC=CC=C4)NC(=O)C(CC5=CC=CC=C5)NC(=O)C(CC(=O)O)NC(=O)CNC(=O)C(CC(C)C)NC(=O)C(CC(C)C)N",
+
+  isomericSmiles:
+    "CC[C@H](C)[C@@H](C(=O)NCC(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)N3CCC[C@H]3C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CO)C(=O)O)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CO)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CC4=CC=CC=C4)NC(=O)[C@H](CC5=CC=CC=C5)NC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(C)C)N",
+
+  iupacName:
+    "(4S)-5-[[(2S)-6-amino-1-[[(2S,3S)-1-[[2-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-4-amino-1-[[(2S)-1-[[(2S)-1-[(2S)-2-[[(2S)-5-carbamimidamido-1-[[(2S,3R)-1-[[(2S)-4-carboxy-1-[[(1S)-1-carboxy-2-hydroxyethyl]amino]-1-oxobutan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-3-methyl-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1-oxohexan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-2-oxoethyl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-4-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[2-[[(2S)-2-[[(2S)-2-amino-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]acetyl]amino]-3-carboxypropanoyl]amino]-3-phenylpropanoyl]amino]-3-phenylpropanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-3-hydroxypropanoyl]amino]hexanoyl]amino]-5-oxopentanoic acid"
+}
+
+  },
+
+  appearance: "Pulbere liofilizată albă până la aproape albă",
+
+  storage: "Depozitați la −20°C. Evitați ciclurile repetate de înghețare–dezghețare.",
+
+  researchStatus:
+    "Doar pentru utilizare în cercetare de laborator. Nu este destinat uzului uman sau veterinar."
+},
+"matrixyl-200mg-topical": {
+  name: "Matrixyl® 200mg (Topic)",
+
+  tagline:
+    "Peptid semnal Palmitoyl Pentapeptide-4 pentru cercetarea matricei extracelulare și a semnalizării dermice",
+
+  cas: "214047-00-4",
+
+  strength: [
+    "Matrixyl® (Palmitoyl Pentapeptide-4) 200mg Topic de la BioPeptides este un peptid semnal de înaltă puritate, de grad de cercetare, formulat pentru studii avansate de laborator și formulare, axate pe semnalizarea matricei extracelulare, căile asociate colagenului și cercetarea interacțiunii peptidă–piele. Sintetizat folosind sinteză peptidică în fază solidă de precizie și purificat la ≥99% HPLC, acest material topic de cercetare oferă acuratețe moleculară excelentă și reproductibilitate. Identificat prin CAS 214047-00-4, Matrixyl® este utilizat pe scară largă în cercetări controlate in-vitro și de formulare în Europa și Statele Unite."
+  ],
+
+  topDescription: {
+    p0: "Matrixyl® (Palmitoyl Pentapeptide-4) este o secvență semnal lipopeptidică sintetică, studiată pentru rolul său în comunicarea matricei extracelulare și semnalizarea celulară asociată colagenului.",
+    p1: "Gruparea lipidică palmitoil îmbunătățește interacțiunea cu mediile lipidice, făcând acest peptid deosebit de relevant pentru cercetarea formulărilor topice și a modelelor de livrare a peptidelor.",
+    p2: "În cercetarea controlată de laborator, Matrixyl® este utilizat pentru investigarea semnalizării fibroblastelor dermice, a căilor de comunicare ECM și a răspunsurilor celulare mediate de peptide."
+  },
+
+  components: [
+    "Matrixyl® (Palmitoyl Pentapeptide-4) — peptid topic de cercetare 200mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Prezentare generală a cercetării",
+    overview: [
+      "Matrixyl® este un peptid semnal palmitoilat derivat din fragmente de proteine ale matricei extracelulare.",
+      "Cercetătorii studiază acest peptid pentru interacțiunea sa cu semnalizarea fibroblastelor dermice și căile asociate colagenului.",
+      "Structura sa modificată lipidic permite investigarea interacțiunilor peptidă–lipidă și a modelelor topice de livrare a peptidelor.",
+      "Formatul de cercetare de 200mg susține testarea extinsă a formulărilor și experimente repetate de laborator."
+    ],
+
+    scientificBackgroundTitle: "Context științific",
+    scientificBackground: [
+      "Peptidele semnal joacă un rol în reglarea comunicării celulare în cadrul matricei extracelulare.",
+      "Palmitoyl Pentapeptide-4 imită fragmente ale proteinelor structurale implicate în semnalizarea matricei dermice.",
+      "În medii de cercetare, Matrixyl® este studiat pentru interacțiunea sa cu căile de semnalizare ale fibroblastelor și comunicarea moleculară asociată ECM.",
+      "Datorită structurii sale conjugate lipidic, peptidul este utilizat și în cercetarea formulărilor care examinează stabilitatea peptidelor și comportamentul de livrare."
+    ],
+
+    mechanismTitle: "Perspectivă mecanistică de cercetare",
+    mechanismPoints: [
+      "Investigarea căilor de semnalizare ale matricei extracelulare",
+      "Cercetarea comunicării celulare a fibroblastelor",
+      "Studii ale expresiei genice asociate colagenului",
+      "Modele de interacțiune peptidă–lipidă",
+      "Cercetarea sistemelor topice de livrare a peptidelor"
+    ],
+
+    applicationsTitle: "Aplicații principale de cercetare",
+    applications: [
+      {
+        title: "Studii de semnalizare a matricei extracelulare",
+        text: "Matrixyl® este utilizat pentru investigarea căilor de comunicare celulară asociate ECM în modele de cercetare dermică."
+      },
+      {
+        title: "Cercetarea căilor colagenului",
+        text: "Cercetătorii studiază acest peptid pentru a explora căile de semnalizare asociate expresiei genice a colagenului și reglării matricei dermice."
+      },
+      {
+        title: "Cercetarea formulărilor topice",
+        text: "Structura modificată lipidic face ca Matrixyl® să fie util în studii axate pe sistemele de livrare a peptidelor și stabilitatea formulărilor topice."
+      },
+      {
+        title: "Cercetare în biologie celulară și moleculară",
+        text: "Laboratoarele folosesc Matrixyl® în teste bazate pe celule pentru a examina răspunsurile de semnalizare și comportamentul căilor moleculare."
+      },
+      {
+        title: "Cercetarea sistemelor de livrare a peptidelor",
+        text: "Matrixyl® este frecvent încorporat în formulări topice experimentale pentru a investiga transportul și stabilitatea peptidelor."
+      }
+    ],
+
+    molecularTitle: "Caracteristici moleculare",
+    molecularPoints: [
+      "Numele compusului: Matrixyl® (Palmitoyl Pentapeptide-4)",
+      "Număr CAS: 214047-00-4",
+      "Lungimea peptidei: 5 aminoacizi",
+      "Clasa peptidei: Peptid semnal lipopeptidic",
+      "Formă: Pulbere peptidică topică de cercetare",
+      "Puritate: ≥99% verificată prin HPLC",
+      "Dimensiune unitate: format de cercetare de 200mg"
+    ],
+
+    stabilityTitle: "Profil de stabilitate și recomandări de depozitare",
+    stabilityPoints: [
+      "Depozitați la frigider la 2–8°C",
+      "Protejați de expunerea directă la lumină",
+      "Evitați contaminarea cu umiditate",
+      "Sigilați recipientul bine după utilizare",
+      "Manipulați folosind practici standard de laborator"
+    ],
+
+    solubilityTitle: "Considerații privind solubilitatea și prepararea",
+    solubilityPoints: [
+      "Compatibil cu solvenți pentru formulări cosmetice",
+      "Solubil în solvenți de laborator compatibili cu peptidele",
+      "Potrivit pentru sisteme de formulare pe bază de lipide",
+      "Compatibil cu soluții tamponate de laborator",
+      "Utilizabil în protocoale de cercetare a formulărilor topice"
+    ],
+
+    techSpecsTitle: "Specificații tehnice",
+    techSpecs: {
+      productName: "Matrixyl® 200mg (Topic)",
+      brand: "BioPeptides",
+      cas: "214047-00-4",
+      purity: "≥99% (verificat prin HPLC)",
+      unitSize: "200mg",
+      form: "Pulbere peptidică topică de cercetare",
+      synthesis: "Sinteză peptidică în fază solidă (SPPS)",
+      analytical: "Verificare prin HPLC și spectrometrie de masă",
+      molecularStructure: "Secvență semnal pentapeptidică palmitoilată",
+      stability: "Stabil în condiții de refrigerare"
+    },
+
+    validationTitle: "Validare analitică și asigurarea calității",
+    validationPoints: [
+      "Testarea purității prin cromatografie lichidă de înaltă performanță",
+      "Confirmarea identității moleculare",
+      "Verificarea integrității structurale a peptidei",
+      "Validarea consistenței între loturi",
+      "Testarea stabilității și compatibilității formulării"
+    ],
+
+    regulatoryTitle: "Declarație de reglementare și conformitate",
+    regulatoryText:
+      "Matrixyl® furnizat de BioPeptides este destinat strict utilizării în cercetare de laborator și cosmetică. Nu este aprobat pentru consum uman, uz veterinar, tratamente terapeutice sau aplicații medicale.",
+
+    faqTitle: "Întrebări frecvente",
+
+    faqItems: [
+      {
+        q: "Pentru ce este studiat în principal Matrixyl® în cercetare?",
+        a: "Matrixyl® este studiat pentru semnalizarea matricei extracelulare, comunicarea fibroblastelor dermice și cercetarea căilor asociate colagenului."
+      },
+      {
+        q: "Ce este Palmitoyl Pentapeptide-4?",
+        a: "Palmitoyl Pentapeptide-4 este o secvență semnal lipopeptidică sintetică derivată din fragmente de proteine ale matricei extracelulare."
+      },
+      {
+        q: "De ce este important CAS 214047-00-4?",
+        a: "CAS 214047-00-4 identifică în mod unic Matrixyl®, asigurând identificarea chimică precisă și reproductibilitatea în cercetarea științifică."
+      },
+      {
+        q: "Este Matrixyl® potrivit pentru cercetare in-vitro?",
+        a: "Da. Matrixyl® este utilizat pe scară largă în studii in-vitro care examinează semnalizarea ECM, comunicarea fibroblastelor și interacțiunile peptidă–celulă."
+      },
+      {
+        q: "Ce domenii de cercetare folosesc frecvent Matrixyl®?",
+        a: "Matrixyl® este utilizat frecvent în biologie moleculară, cercetarea peptidelor cosmetice, studiile de semnalizare ECM și cercetarea formulărilor topice."
+      },
+      {
+        q: "De ce să alegeți formatul de cercetare de 200mg?",
+        a: "Formatul de 200mg permite testarea extinsă a formulărilor și experimente repetate de laborator fără reaprovizionare frecventă."
+      },
+      {
+        q: "Cum trebuie depozitat Matrixyl®?",
+        a: "Matrixyl® trebuie depozitat la frigider la 2–8°C și protejat de lumină și umiditate."
+      },
+      {
+        q: "De ce să alegeți BioPeptides pentru peptidele de cercetare Matrixyl®?",
+        a: "BioPeptides oferă peptide de cercetare de înaltă puritate, cu documentație verificată și aprovizionare fiabilă pentru cercetare de laborator și cosmetică."
+      }
+    ],
+
+      chemicalProperties: {
+  molecularFormula: "C39H75N7O10",
+  molecularWeight: "802.1",
+  monoisotopicMass: "801.55754161",
+  polarArea: "296",
+  complexity: "1130",
+  xlogP: "0.8",
+  heavyAtomCount: "56",
+  hydrogenBondDonorCount: "11",
+  hydrogenBondAcceptorCount: "12",
+  rotatableBondCount: "35",
+  cid: "9897237",
+  inchi:
+    "InChI=1S/C39H75N7O10/c1-4-5-6-7-8-9-10-11-12-13-14-15-16-23-32(50)42-29(21-17-19-24-40)36(52)45-34(28(3)49)38(54)46-33(27(2)48)37(53)43-30(22-18-20-25-41)35(51)44-31(26-47)39(55)56/h27-31,33-34,47-49H,4-26,40-41H2,1-3H3,(H,42,50)(H,43,53)(H,44,51)(H,45,52)(H,46,54)(H,55,56)/t27-,28-,29+,30+,31+,33+,34+/m1/s1",
+  inchiKey: "WSGCRSMLXFHGRM-DEVHWETNSA-N",
+
+  canonicalSmiles:
+    "CCCCCCCCCCCCCCCC(=O)NC(CCCCN)C(=O)NC(C(C)O)C(=O)NC(C(C)O)C(=O)NC(CCCCN)C(=O)NC(CO)C(=O)O",
+
+  isomericSmiles:
+    "CCCCCCCCCCCCCCCC(=O)N[C@@H](CCCCN)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CO)C(=O)O",
+
+  iupacName:
+    "(2S)-2-[[(2S)-6-amino-2-[[(2S,3R)-2-[[(2S,3R)-2-[[(2S)-6-amino-2-(hexadecanoylamino)hexanoyl]amino]-3-hydroxybutanoyl]amino]-3-hydroxybutanoyl]amino]hexanoyl]amino]-3-hydroxypropanoic acid"
+}
+
+  },
+
+  appearance: "Pulbere albă până la aproape albă",
+
+  storage: "Depozitați la frigider la 2–8°C. Protejați de lumină și umiditate.",
+
+  researchStatus:
+    "Doar pentru utilizare în cercetare de laborator și cosmetică. Nu este destinat uzului uman sau veterinar."
+},
+"methylene-blue-10mg-60-capsules": {
+  name: "Methylene Blue 10mg (60 capsule)",
+
+  tagline:
+    "Compus fenotiazinic de grad de cercetare pentru biologia redox, transportul electronic mitocondrial și cercetarea energiei celulare",
+
+  cas: "61-73-4",
+
+  strength: [
+    "Capsulele Methylene Blue 10mg de la BioPeptides conțin un compus fenotiazinic de înaltă puritate, de grad de cercetare, utilizat pe scară largă în studii de laborator privind biologia redox, transportul electronic mitocondrial și căile de semnalizare oxidativă. Identificat prin CAS 61-73-4, acest compus este verificat analitic pentru consistență și reproductibilitate în cercetare. Formatul de capsule susține fluxuri experimentale controlate și manipulare fiabilă în laboratoare de cercetare biochimică și celulară din Europa și Statele Unite."
+  ],
+
+  topDescription: {
+    p0: "Methylene Blue (CAS 61-73-4) este un compus derivat din fenotiazină, investigat pe scară largă în cercetarea biochimică și de biologie moleculară.",
+    p1: "În medii de cercetare de laborator, este studiat pentru comportamentul său reversibil de ciclare redox, interacțiunile cu transportul electronic mitocondrial și căile de semnalizare oxidativă.",
+    p2: "Formatul de capsule de 10mg permite laboratoarelor să desfășoare experimente controlate care implică bioenergetica mitocondrială, modele de răspuns la stres oxidativ și cercetarea metabolismului celular."
+  },
+
+  components: [
+    "Methylene Blue — 10mg per capsulă",
+    "Cantitate totală — 60 capsule (600mg material total de cercetare)"
+  ],
+
+  content: {
+
+    overviewTitle: "Prezentare generală a cercetării",
+    overview: [
+      "Methylene Blue este un compus derivat din fenotiazină, studiat frecvent în biologia redox și cercetarea mitocondrială.",
+      "Cercetătorii investighează proprietățile sale reversibile de oxidare-reducere pentru a analiza procesele celulare de transport al electronilor.",
+      "Compusul este utilizat pe scară largă în studii privind respirația mitocondrială și căile metabolice.",
+      "Formatul pe bază de capsule permite manipularea consecventă a compusului și îmbunătățește stabilitatea fluxului de lucru în medii de laborator."
+    ],
+
+    scientificBackgroundTitle: "Context științific",
+    scientificBackground: [
+      "Methylene Blue are un istoric extins de cercetare în experimente biochimice care implică ciclarea redox și transportul electronic mitocondrial.",
+      "Structura sa moleculară permite reacții reversibile de oxidare-reducere care susțin investigațiile privind transferul de electroni.",
+      "Cercetătorii folosesc Methylene Blue pentru a explora răspunsurile la stres oxidativ și mecanismele de reglare a energiei celulare.",
+      "Datorită comportamentului său redox bine caracterizat, este inclus frecvent în cercetări comparative privind căile mitocondriale și metabolice."
+    ],
+
+    mechanismTitle: "Perspectivă mecanistică de cercetare",
+    mechanismPoints: [
+      "Cercetarea ciclării redox și a căilor de oxidare-reducere",
+      "Investigarea lanțului de transport electronic mitocondrial",
+      "Analiza metabolismului energetic celular",
+      "Cercetarea căilor de semnalizare redox intracelulare",
+      "Modelarea răspunsului la stres oxidativ"
+    ],
+
+    applicationsTitle: "Aplicații principale de cercetare",
+    applications: [
+      {
+        title: "Cercetarea biologiei redox",
+        text: "Methylene Blue este utilizat pe scară largă pentru a studia reacțiile de oxidare-reducere și mecanismele de semnalizare redox celulară."
+      },
+      {
+        title: "Studii ale funcției mitocondriale",
+        text: "Cercetătorii aplică acest compus pentru a analiza respirația mitocondrială și dinamica lanțului de transport electronic."
+      },
+      {
+        title: "Cercetarea stresului oxidativ",
+        text: "Laboratoarele includ Methylene Blue în experimente care investighează răspunsurile la stres oxidativ și reziliența celulară."
+      },
+      {
+        title: "Cercetarea metabolismului celular",
+        text: "Compusul susține experimente care studiază reglarea metabolică și producția de energie mitocondrială."
+      },
+      {
+        title: "Cercetare biochimică și de biologie moleculară",
+        text: "Methylene Blue este utilizat frecvent în teste bazate pe celule pentru a analiza semnalizarea intracelulară și procesele metabolice."
+      }
+    ],
+
+    molecularTitle: "Caracteristici moleculare",
+    molecularPoints: [
+      "Numele compusului: Methylene Blue",
+      "Număr CAS: 61-73-4",
+      "Clasă chimică: Derivat de fenotiazină",
+      "Formă: Compus de cercetare sub formă de capsule",
+      "Concentrație: 10mg per capsulă",
+      "Cantitate totală: 600mg (60 capsule)"
+    ],
+
+    stabilityTitle: "Profil de stabilitate și recomandări de depozitare",
+    stabilityPoints: [
+      "Depozitați într-un mediu răcoros și uscat",
+      "Protejați de expunerea directă la lumină",
+      "Evitați expunerea la umiditate",
+      "Sigilați recipientul bine după utilizare",
+      "Manipulați conform procedurilor standard de siguranță în laborator"
+    ],
+
+    solubilityTitle: "Considerații privind solubilitatea și prepararea",
+    solubilityPoints: [
+      "Solubil în apă și soluții apoase de laborator",
+      "Compatibil cu soluții biochimice tamponate pentru cercetare",
+      "Potrivit pentru teste redox și de transfer electronic",
+      "Aplicabil în experimente privind căile mitocondriale",
+      "Compatibil cu protocoale de cercetare biochimică"
+    ],
+
+    techSpecsTitle: "Specificații tehnice",
+    techSpecs: {
+      productName: "Methylene Blue 10mg capsule",
+      brand: "BioPeptides",
+      cas: "61-73-4",
+      purity: "Puritate de grad de cercetare",
+      unitSize: "60 capsule",
+      form: "Format capsulă",
+      synthesis: "Sinteză chimică controlată",
+      analytical: "Verificarea identității și purității",
+      molecularStructure: "Compus redox fenotiazinic",
+      stability: "Stabil în condiții de depozitare răcoroase și uscate"
+    },
+
+    validationTitle: "Validare analitică și asigurarea calității",
+    validationPoints: [
+      "Verificarea identității compusului",
+      "Evaluarea purității și validare analitică",
+      "Evaluarea consistenței între loturi",
+      "Inspecția integrității ambalajului",
+      "Procese de fabricație cu control al calității"
+    ],
+
+    regulatoryTitle: "Declarație de reglementare și conformitate",
+    regulatoryText:
+      "Methylene Blue furnizat de BioPeptides este destinat strict utilizării în cercetare de laborator. Nu este aprobat pentru consum uman, uz veterinar, aplicații terapeutice sau tratamente medicale.",
+
+    faqTitle: "Întrebări frecvente",
+
+    faqItems: [
+      {
+        q: "Pentru ce este utilizat în principal Methylene Blue în cercetare?",
+        a: "Methylene Blue este studiat în principal pentru biologia redox, transportul electronic mitocondrial, semnalizarea stresului oxidativ și metabolismul energetic celular în modele controlate de cercetare de laborator."
+      },
+      {
+        q: "De ce este important Methylene Blue în studiile mitocondriale?",
+        a: "Proprietățile sale redox reversibile permit cercetătorilor să analizeze cu precizie procesele de transfer electronic și bioenergetica mitocondrială."
+      },
+      {
+        q: "Ce identifică CAS 61-73-4?",
+        a: "CAS 61-73-4 identifică în mod unic Methylene Blue, asigurând identificarea precisă a compusului și reproductibilitatea în documentația de cercetare științifică."
+      },
+      {
+        q: "Este Methylene Blue potrivit pentru cercetare in-vitro?",
+        a: "Da. Este utilizat pe scară largă în experimente in-vitro controlate care implică respirația mitocondrială, stresul oxidativ și căile de semnalizare metabolică."
+      },
+      {
+        q: "Ce domenii de cercetare folosesc frecvent Methylene Blue?",
+        a: "Methylene Blue este utilizat pe scară largă în biochimie, biologie mitocondrială, biologie moleculară, studii de semnalizare redox și cercetarea metabolismului celular."
+      },
+      {
+        q: "De ce să alegeți formatul de cercetare în capsule?",
+        a: "Capsulele oferă o cantitate consecventă de compus, manipulare simplificată în laborator și stabilitate îmbunătățită la depozitare."
+      },
+      {
+        q: "Cum trebuie depozitat Methylene Blue?",
+        a: "Trebuie depozitat într-un loc răcoros și uscat, protejat de umiditate și expunere directă la lumină."
+      },
+      {
+        q: "De ce să alegeți BioPeptides pentru compuși de cercetare Methylene Blue?",
+        a: "BioPeptides oferă compuși de cercetare verificați, cu calitate consecventă, ambalare profesională de laborator și aprovizionare internațională fiabilă pentru cercetare."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "C16H18ClN3S",
+  molecularWeight: "319.9",
+  monoisotopicMass: "319.0909965",
+  polarArea: "43.9",
+  complexity: "483",
+  xlogP: "N/A",
+  heavyAtomCount: "21",
+  hydrogenBondDonorCount: "0",
+  hydrogenBondAcceptorCount: "4",
+  rotatableBondCount: "1",
+  cid: "6099",
+  inchi:
+    "InChI=1S/C16H18N3S.ClH/c1-18(2)11-5-7-13-15(9-11)20-16-10-12(19(3)4)6-8-14(16)17-13;/h5-10H,1-4H3;1H/q+1;/p-1",
+  inchiKey: "CXKWCBBOMKCUKX-UHFFFAOYSA-M",
+
+  canonicalSmiles:
+    "CN(C)C1=CC2=C(C=C1)N=C3C=CC(=[N+](C)C)C=C3S2.[Cl-]",
+
+  isomericSmiles:
+    "CN(C)C1=CC2=C(C=C1)N=C3C=CC(=[N+](C)C)C=C3S2.[Cl-]",
+
+  iupacName:
+    "[7-(dimethylamino)phenothiazin-3-ylidene]-dimethylazanium chloride"
+}
+  },
+
+  appearance: "Material solid de cercetare încapsulat",
+
+  storage: "Depozitați într-un mediu răcoros și uscat, departe de lumină.",
+
+  researchStatus:
+    "Doar pentru utilizare în cercetare de laborator. Nu este destinat uzului uman sau veterinar."
+},
+"mots-c-5mg": {
+  name: "MOTS-c 5mg",
+
+  tagline:
+    "Peptid derivat din mitocondrii pentru cercetarea metabolismului celular și a răspunsului la stres",
+
+  cas: "1627580-64-6",
+
+  strength: [
+    "MOTS-c 5mg de la BioPeptides este un peptid de cercetare de înaltă puritate, derivat din mitocondrii, dezvoltat pentru studii avansate de laborator privind metabolismul celular, semnalizarea mitocondrială și căile adaptive de răspuns la stres. Sintetizat folosind sinteză peptidică în fază solidă de precizie și purificat la ≥99% HPLC, MOTS-c oferă stabilitate moleculară excelentă și reproductibilitate. Identificat prin CAS 1627580-64-6, acest peptid este utilizat pe scară largă în cercetări controlate in-vitro în Europa și Statele Unite."
+  ],
+
+  topDescription: {
+    p0: "MOTS-c este un peptid derivat din mitocondrii, studiat pe scară largă în cercetări care explorează metabolismul celular și comunicarea mitocondrială.",
+    p1: "În medii de laborator, acest peptid este investigat pentru rolul său în semnalizarea metabolică, comunicarea mitocondrie–nucleu și căile adaptive de răspuns la stres.",
+    p2: "Deoarece MOTS-c provine din ADN-ul mitocondrial, acesta oferă cercetătorilor un model unic pentru studierea semnalizării mitocondriale și a reglării metabolice."
+  },
+
+  components: [
+    "MOTS-c — peptid de semnalizare derivat din mitocondrii",
+    "Peptid de cercetare liofilizat de înaltă puritate",
+    "Format de peptid pentru cercetare de laborator",
+    "Cantitate totală — 5 mg peptid"
+  ],
+
+  content: {
+
+    overviewTitle: "Prezentare generală a cercetării",
+    overview: [
+      "MOTS-c este un peptid codificat mitocondrial, utilizat în cercetarea de laborator pentru investigarea reglării metabolice și a căilor de semnalizare mitocondrială.",
+      "Cercetătorii studiază MOTS-c pentru a înțelege modul în care peptidele mitocondriale influențează metabolismul celular și răspunsurile adaptive la stres.",
+      "Peptidul oferă un model pentru examinarea mecanismelor de comunicare mitocondrie–nucleu.",
+      "Cercetarea MOTS-c contribuie la investigații mai ample privind semnalizarea metabolică și biologia mitocondrială."
+    ],
+
+    scientificBackgroundTitle: "Context științific",
+    scientificBackground: [
+      "MOTS-c (Mitochondrial Open Reading Frame of the Twelve S rRNA-c) este codificat în ADN-ul mitocondrial, nu în ADN-ul nuclear.",
+      "Acest peptid aparține unei clase de molecule cunoscute ca peptide derivate din mitocondrii (MDP).",
+      "Cercetătorii studiază MOTS-c pentru rolul său în reglarea metabolică, semnalizarea răspunsului la stres și căile de comunicare mitocondrială.",
+      "Originea sa mitocondrială îl face deosebit de valoros pentru investigarea semnalizării retrograde dintre mitocondrii și nucleu."
+    ],
+
+    mechanismTitle: "Perspectivă mecanistică de cercetare",
+    mechanismPoints: [
+      "Cercetarea căilor de semnalizare mitocondrie–nucleu",
+      "Studii privind metabolismul celular și semnalizarea echilibrului energetic",
+      "Investigarea căilor adaptive de răspuns la stres",
+      "Analiza semnalizării peptidelor mitocondriale",
+      "Cercetarea cascadelor de semnalizare metabolică"
+    ],
+
+    applicationsTitle: "Aplicații principale de cercetare",
+    applications: [
+      {
+        title: "Cercetarea semnalizării mitocondriale",
+        text: "MOTS-c este utilizat pentru investigarea căilor de comunicare prin care mitocondriile reglează expresia genelor nucleare."
+      },
+      {
+        title: "Studii ale metabolismului celular",
+        text: "Cercetătorii examinează modul în care MOTS-c influențează reglarea energiei celulare și căile de semnalizare metabolică."
+      },
+      {
+        title: "Analiza căilor de răspuns la stres",
+        text: "Peptidul susține studii de laborator care analizează adaptarea celulară la stres metabolic sau de mediu."
+      },
+      {
+        title: "Cercetarea biologiei mitocondriale",
+        text: "Laboratoarele includ MOTS-c în experimente care studiază peptidele mitocondriale și comunicarea intracelulară."
+      },
+      {
+        title: "Cercetare celulară in-vitro",
+        text: "Peptidul este utilizat pe scară largă în modele controlate de cercetare bazate pe celule, care examinează mecanismele de semnalizare metabolică."
+      }
+    ],
+
+    molecularTitle: "Caracteristici moleculare",
+    molecularPoints: [
+      "Numele compusului: MOTS-c",
+      "Număr CAS: 1627580-64-6",
+      "Clasa peptidei: Peptid derivat din mitocondrii (MDP)",
+      "Formă: Pulbere peptidică liofilizată",
+      "Puritate: ≥99% verificată prin HPLC",
+      "Dimensiune unitate: 5 mg peptid de cercetare"
+    ],
+
+    stabilityTitle: "Profil de stabilitate și recomandări de depozitare",
+    stabilityPoints: [
+      "Depozitați peptidul liofilizat la −20°C",
+      "Protejați de umiditate și expunere la lumină",
+      "Evitați ciclurile repetate de înghețare–dezghețare",
+      "Reconstituiți folosind solvent steril de grad de laborator",
+      "Sigilați bine flaconul după fiecare utilizare"
+    ],
+
+    solubilityTitle: "Considerații privind solubilitatea și prepararea",
+    solubilityPoints: [
+      "Solubil în apă bacteriostatică sterilă",
+      "Compatibil cu soluții apoase tamponate de laborator",
+      "Potrivit pentru protocoale de cercetare cu peptide",
+      "Aplicabil în prepararea testelor de semnalizare mitocondrială",
+      "Compatibil cu modele experimentale de cultură celulară"
+    ],
+
+    techSpecsTitle: "Specificații tehnice",
+    techSpecs: {
+      productName: "MOTS-c 5mg",
+      brand: "BioPeptides",
+      cas: "1627580-64-6",
+      purity: "≥99% (verificat prin HPLC)",
+      form: "Pulbere peptidică liofilizată",
+      synthesis: "Sinteză peptidică în fază solidă (SPPS)",
+      analytical: "Verificare prin HPLC și spectrometrie de masă",
+      molecularStructure: "Peptid de semnalizare derivat din mitocondrii",
+      stability: "Stabil în condiții de depozitare la −20°C"
+    },
+
+    validationTitle: "Validare analitică și asigurarea calității",
+    validationPoints: [
+      "Testarea purității prin HPLC de înaltă rezoluție",
+      "Verificarea identității peptidei",
+      "Analiza integrității structurale",
+      "Validarea consistenței între loturi",
+      "Testarea stabilității peptidei"
+    ],
+
+    regulatoryTitle: "Declarație de reglementare și conformitate",
+    regulatoryText:
+      "MOTS-c furnizat de BioPeptides este destinat strict utilizării în cercetare de laborator. Nu este aprobat pentru consum uman, uz veterinar, aplicații terapeutice sau tratamente medicale.",
+
+    faqTitle: "Întrebări frecvente",
+
+    faqItems: [
+      {
+        q: "Pentru ce este utilizat în principal MOTS-c în cercetare?",
+        a: "MOTS-c este studiat frecvent în cercetări de laborator axate pe semnalizarea mitocondrială, reglarea metabolică și căile de răspuns celular la stres."
+      },
+      {
+        q: "De ce MOTS-c este considerat unic printre peptide?",
+        a: "MOTS-c este codificat în ADN-ul mitocondrial, nu în ADN-ul nuclear, ceea ce îl face valoros pentru studierea comunicării mitocondrie–nucleu."
+      },
+      {
+        q: "Ce identifică CAS 1627580-64-6?",
+        a: "CAS 1627580-64-6 identifică în mod unic MOTS-c, asigurând documentație exactă a compusului și reproductibilitate în laboratoarele de cercetare."
+      },
+      {
+        q: "Este MOTS-c potrivit pentru cercetare in-vitro?",
+        a: "Da. MOTS-c este utilizat pe scară largă în studii in-vitro controlate care implică funcția mitocondrială și semnalizarea metabolică."
+      },
+      {
+        q: "Ce domenii de cercetare folosesc frecvent MOTS-c?",
+        a: "MOTS-c este utilizat frecvent în biologia mitocondrială, cercetarea metabolică, biologia moleculară și studiile de semnalizare peptidică."
+      },
+      {
+        q: "Ce avantaje oferă formatul de cercetare de 5mg?",
+        a: "Formatul de 5mg permite multiple rulări experimentale și îmbunătățește eficiența costurilor pentru programe extinse de cercetare de laborator."
+      },
+      {
+        q: "Cum trebuie depozitat MOTS-c?",
+        a: "Peptidul trebuie depozitat la −20°C în formă liofilizată și protejat de umiditate și lumină."
+      },
+      {
+        q: "De ce să alegeți BioPeptides pentru peptidele de cercetare MOTS-c?",
+        a: "BioPeptides oferă peptide de înaltă puritate cu documentație CAS verificată și aprovizionare internațională fiabilă pentru laboratoarele de cercetare."
+      }
+    ],
+       chemicalProperties: {
+  molecularFormula: "C101H152N28O22S2",
+  molecularWeight: "2174.6",
+  monoisotopicMass: "2173.1077409",
+  polarArea: "890",
+  complexity: "4510",
+  xlogP: "-3.9",
+  heavyAtomCount: "153",
+  hydrogenBondDonorCount: "31",
+  hydrogenBondAcceptorCount: "29",
+  rotatableBondCount: "73",
+  cid: "146675088",
+  inchi:
+    "InChI=1S/C101H152N28O22S2/c1-7-57(4)83(96(148)126-76(50-58-19-9-8-10-20-58)92(144)127-78(52-60-30-34-63(131)35-31-60)97(149)129-46-18-27-79(129)95(147)122-69(25-16-44-112-100(107)108)86(138)118-67(23-13-14-42-102)87(139)124-74(49-56(2)3)91(143)123-73(98(150)151)26-17-45-113-101(109)110)128-94(146)75(51-59-28-32-62(130)33-29-59)116-81(133)55-115-85(137)72(41-48-153-6)121-90(142)71(37-39-82(134)135)119-89(141)70(36-38-80(104)132)120-93(145)77(53-61-54-114-66-22-12-11-21-64(61)66)125-88(140)68(24-15-43-111-99(105)106)117-84(136)65(103)40-47-152-5/h8-12,19-22,28-35,54,56-57,65,67-79,83,114,130-131H,7,13-18,23-27,36-53,55,102-103H2,1-6H3,(H2,104,132)(H,115,137)(H,116,133)(H,117,136)(H,118,138)(H,119,141)(H,120,145)(H,121,142)(H,122,147)(H,123,143)(H,124,139)(H,125,140)(H,126,148)(H,127,144)(H,128,146)(H,134,135)(H,150,151)(H4,105,106,111)(H4,107,108,112)(H4,109,110,113)/t57-,65-,67-,68-,69-,70-,71-,72-,73-,74-,75-,76-,77-,78-,79-,83-/m0/s1",
+  inchiKey: "WYTHCOXVWRKRAH-LOKRTKBUSA-N",
+
+  canonicalSmiles:
+    "CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)N3CCCC3C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CCCNC(=N)N)C(=O)O)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)CNC(=O)C(CCSC)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)N)NC(=O)C(CC5=CNC6=CC=CC=C65)NC(=O)C(CCCNC(=N)N)NC(=O)C(CCSC)N",
+
+  isomericSmiles:
+    "CC[C@H](C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N3CCC[C@H]3C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)O)NC(=O)[C@H](CC4=CC=C(C=C4)O)NC(=O)CNC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CC5=CNC6=CC=CC=C65)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CCSC)N",
+
+  iupacName:
+    "(4S)-4-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-amino-4-methylsulfanylbutanoyl]amino]-5-carbamimidamidopentanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-5-oxopentanoyl]amino]-5-[[(2S)-1-[[2-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[(2S)-2-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(1S)-4-carbamimidamido-1-carboxybutyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-4-methylsulfanyl-1-oxobutan-2-yl]amino]-5-oxopentanoic acid"
+}
+  },
+
+  appearance: "Pulbere liofilizată albă",
+
+  storage: "Depozitați la −20°C. Evitați ciclurile repetate de înghețare–dezghețare.",
+
+  researchStatus:
+    "Doar pentru utilizare în cercetare de laborator. Nu este destinat uzului uman sau veterinar."
+},
+"n-acetyl-selank-amidate-10mg": {
+  name: "N-Acetyl Selank Amidate 10mg",
+
+  tagline:
+    "Analog Selank stabilizat pentru cercetarea semnalizării neuropeptidice și reglării neurotransmițătorilor",
+
+  cas: "2212313-10-6",
+
+  strength: [
+    "N-Acetyl Selank Amidate 10mg de la BioPeptides este un neuropeptid sintetic de înaltă puritate, de grad de cercetare, dezvoltat pentru studii avansate de laborator care implică semnalizarea neuropeptidică, modularea neurotransmițătorilor și cercetarea neuromodulării bazate pe peptide. Produs folosind sinteză peptidică în fază solidă de precizie și purificat la ≥99% HPLC, acest analog Selank stabilizat oferă stabilitate moleculară puternică și reproductibilitate. Identificat prin CAS 2212313-10-6, este utilizat pe scară largă în cercetări controlate in-vitro în Europa și Statele Unite."
+  ],
+
+  topDescription: {
+    p0: "N-Acetyl Selank Amidate este un analog stabilizat chimic al neuropeptidului Selank, investigat în neuroștiință și cercetarea semnalizării peptidice.",
+    p1: "Cercetătorii studiază acest peptid pentru interacțiunile sale cu căile de reglare a neurotransmițătorilor, mecanismele de semnalizare neuropeptidică și sistemele de comunicare neuronală.",
+    p2: "Adăugarea grupărilor funcționale N-acetil și amidat îmbunătățește stabilitatea moleculară și rezistența la degradarea enzimatică, permițând performanță experimentală constantă."
+  },
+
+  components: [
+    "N-Acetyl Selank Amidate — analog neuropeptidic Selank stabilizat",
+    "Peptid de cercetare liofilizat de înaltă puritate",
+    "Preparat peptidic de grad de cercetare",
+    "Cantitate totală de peptid — 10 mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Prezentare generală a cercetării",
+    overview: [
+      "N-Acetyl Selank Amidate este un analog Selank modificat, utilizat în cercetarea neuroștiințifică pentru investigarea comunicării neuronale mediate de peptide.",
+      "Cercetătorii studiază acest compus pentru a explora căile de semnalizare neuropeptidică și mecanismele de reglare a neurotransmițătorilor.",
+      "Structura moleculară stabilizată permite expunere experimentală extinsă în medii de laborator controlate.",
+      "Peptidul susține investigații mai ample privind biologia neuropeptidelor, semnalizarea sinaptică și căile de neuromodulare."
+    ],
+
+    scientificBackgroundTitle: "Context științific",
+    scientificBackground: [
+      "Selank este un neuropeptid sintetic studiat pentru implicarea sa în modularea neurotransmițătorilor și în căile de comunicare neuronală.",
+      "N-Acetyl Selank Amidate este un derivat modificat chimic, conceput pentru a îmbunătăți stabilitatea moleculară și reproductibilitatea experimentală.",
+      "Cercetătorii investighează acest analog pentru interacțiunile sale cu sistemele de semnalizare GABAergice și serotoninergice.",
+      "Structura sa stabilizată permite experimente de durată mai lungă, fără degradarea rapidă a peptidului."
+    ],
+
+    mechanismTitle: "Perspectivă mecanistică de cercetare",
+    mechanismPoints: [
+      "Investigarea căilor de semnalizare neuropeptidică",
+      "Cercetarea modulării neurotransmițătorilor",
+      "Studii de semnalizare GABAergică",
+      "Cercetarea căilor serotoninergice",
+      "Investigații comparative ale analogilor Selank"
+    ],
+
+    applicationsTitle: "Aplicații principale de cercetare",
+    applications: [
+      {
+        title: "Cercetarea semnalizării neuropeptidice",
+        text: "Cercetătorii folosesc acest peptid pentru a investiga căile de comunicare neuronală conduse de peptide."
+      },
+      {
+        title: "Studii de modulare a neurotransmițătorilor",
+        text: "Modelele de laborator analizează interacțiunile dintre analogii Selank și sistemele de semnalizare ale neurotransmițătorilor."
+      },
+      {
+        title: "Cercetare comparativă a analogilor Selank",
+        text: "Oamenii de știință compară peptidele Selank native cu analogi modificați pentru a evalua diferențele de stabilitate și semnalizare."
+      },
+      {
+        title: "Neuroștiință moleculară și celulară",
+        text: "Aplicat în teste bazate pe celule care studiază semnalizarea neuronală ulterioară și răspunsurile expresiei genice."
+      },
+      {
+        title: "Cercetare neuroștiințifică in-vitro",
+        text: "Utilizat pe scară largă în experimente de laborator controlate care examinează biologia neuropeptidelor și căile de neuromodulare."
+      }
+    ],
+
+    molecularTitle: "Caracteristici moleculare",
+    molecularPoints: [
+      "Numele compusului: N-Acetyl Selank Amidate",
+      "Număr CAS: 2212313-10-6",
+      "Clasa peptidei: Analog neuropeptidic Selank modificat",
+      "Formă: Pulbere peptidică liofilizată",
+      "Puritate: ≥99% verificată prin HPLC",
+      "Dimensiune unitate: 10 mg peptid de cercetare"
+    ],
+
+    stabilityTitle: "Profil de stabilitate și recomandări de depozitare",
+    stabilityPoints: [
+      "Depozitați peptidul liofilizat la −20°C",
+      "Protejați de umiditate și expunere la lumină",
+      "Evitați ciclurile repetate de înghețare–dezghețare",
+      "Reconstituiți folosind solvent steril de grad de laborator",
+      "Sigilați bine flaconul după fiecare utilizare"
+    ],
+
+    solubilityTitle: "Considerații privind solubilitatea și prepararea",
+    solubilityPoints: [
+      "Solubil în apă bacteriostatică sterilă",
+      "Compatibil cu soluții apoase tamponate de laborator",
+      "Potrivit pentru protocoale neuroștiințifice cu peptide",
+      "Aplicabil în teste de semnalizare a neurotransmițătorilor",
+      "Compatibil cu sisteme de cercetare prin cultură celulară"
+    ],
+
+    techSpecsTitle: "Specificații tehnice",
+    techSpecs: {
+      productName: "N-Acetyl Selank Amidate 10mg",
+      brand: "BioPeptides",
+      cas: "2212313-10-6",
+      purity: "≥99% (verificat prin HPLC)",
+      form: "Pulbere peptidică liofilizată",
+      synthesis: "Sinteză peptidică în fază solidă (SPPS)",
+      analytical: "Verificare prin HPLC și spectrometrie de masă",
+      molecularStructure: "Analog neuropeptidic Selank modificat",
+      stability: "Stabil în condiții de depozitare la −20°C"
+    },
+
+    validationTitle: "Validare analitică și asigurarea calității",
+    validationPoints: [
+      "Testarea purității prin HPLC de înaltă rezoluție",
+      "Verificarea identității peptidei",
+      "Analiza integrității structurale",
+      "Validarea consistenței între loturi",
+      "Testarea stabilității peptidei"
+    ],
+
+    regulatoryTitle: "Declarație de reglementare și conformitate",
+    regulatoryText:
+      "N-Acetyl Selank Amidate furnizat de BioPeptides este destinat strict utilizării în cercetare de laborator. Nu este aprobat pentru consum uman, uz veterinar, aplicații terapeutice sau tratamente medicale.",
+
+    faqTitle: "Întrebări frecvente",
+
+    faqItems: [
+      {
+        q: "Pentru ce este utilizat în principal N-Acetyl Selank Amidate în cercetare?",
+        a: "Este utilizat în principal în cercetări de laborator axate pe semnalizarea neuropeptidică, modularea neurotransmițătorilor și mecanismele de neuromodulare mediate de peptide."
+      },
+      {
+        q: "Cum diferă N-Acetyl Selank Amidate de Selank standard?",
+        a: "Modificările N-acetil și amidat îmbunătățesc stabilitatea moleculară și rezistența la degradarea enzimatică în comparație cu Selank nativ."
+      },
+      {
+        q: "Ce identifică CAS 2212313-10-6?",
+        a: "CAS 2212313-10-6 identifică în mod unic N-Acetyl Selank Amidate, asigurând documentație exactă și trasabilitate în laboratoarele de cercetare."
+      },
+      {
+        q: "Este acest peptid potrivit pentru studii neuroștiințifice in-vitro?",
+        a: "Da. Este utilizat pe scară largă în experimente in-vitro controlate care implică semnalizarea neuronală și cercetarea căilor neurotransmițătorilor."
+      },
+      {
+        q: "Ce domenii de cercetare folosesc frecvent acest peptid?",
+        a: "Este utilizat frecvent în neuroștiință, biologie moleculară, cercetare neurofarmacologică, studii de semnalizare peptidică și cercetarea comunicării celulare."
+      },
+      {
+        q: "De ce să alegeți formatul de 10mg pentru cercetare?",
+        a: "Formatul de 10mg susține programe de cercetare pe termen lung, multiple rulări experimentale și o eficiență mai bună a costurilor."
+      },
+      {
+        q: "Cum trebuie depozitat N-Acetyl Selank Amidate?",
+        a: "Trebuie depozitat la −20 °C în formă liofilizată și protejat de umiditate și lumină."
+      },
+      {
+        q: "De ce să alegeți BioPeptides pentru peptide de cercetare?",
+        a: "BioPeptides oferă peptide de înaltă puritate cu documentație CAS verificată și aprovizionare internațională fiabilă pentru laboratoarele de cercetare."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "C35H59N11O10",
+  molecularWeight: "793.9",
+  monoisotopicMass: "793.44463712",
+  polarArea: "325",
+  complexity: "1480",
+  xlogP: "-5.8",
+  heavyAtomCount: "56",
+  hydrogenBondDonorCount: "9",
+  hydrogenBondAcceptorCount: "12",
+  rotatableBondCount: "20",
+  cid: "133082488",
+  inchi:
+    "InChI=1S/C35H59N11O10/c1-20(47)28(41-21(2)48)31(52)43-22(9-3-4-14-36)32(53)46-18-7-12-25(46)30(51)42-23(10-5-15-39-35(37)38)33(54)45-17-6-11-24(45)29(50)40-19-27(49)44-16-8-13-26(44)34(55)56/h20,22-26,28,47H,3-19,36H2,1-2H3,(H,40,50)(H,41,48)(H,42,51)(H,43,52)(H,55,56)(H4,37,38,39)/t20-,22+,23+,24+,25+,26+,28+/m1/s1",
+  inchiKey: "MMPAGAHMLCPVEK-GSAYKZDLSA-N",
+
+  canonicalSmiles:
+    "CC(C(C(=O)NC(CCCCN)C(=O)N1CCCC1C(=O)NC(CCCN=C(N)N)C(=O)N2CCCC2C(=O)NCC(=O)N3CCCC3C(=O)O)NC(=O)C)O",
+
+  isomericSmiles:
+    "C[C@H]([C@@H](C(=O)N[C@@H](CCCCN)C(=O)N1CCC[C@H]1C(=O)N[C@@H](CCCN=C(N)N)C(=O)N2CCC[C@H]2C(=O)NCC(=O)N3CCC[C@H]3C(=O)O)NC(=O)C)O",
+
+  iupacName:
+    "(2S)-1-[2-[[(2S)-1-[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S,3R)-2-acetamido-3-hydroxybutanoyl]amino]-6-aminohexanoyl]pyrrolidine-2-carbonyl]amino]-5-(diaminomethylideneamino)pentanoyl]pyrrolidine-2-carbonyl]amino]acetyl]pyrrolidine-2-carboxylic acid"
+}
+  },
+
+  appearance: "Pulbere liofilizată albă",
+
+  storage: "Depozitați la −20°C. Evitați ciclurile repetate de înghețare–dezghețare.",
+
+  researchStatus:
+    "Doar pentru utilizare în cercetare de laborator. Nu este destinat uzului uman sau veterinar."
+},
+"n-acetyl-semax-amidate-30mg": {
+  name: "N-Acetyl Semax Amidate 30mg",
+
+  tagline:
+    "Analog Semax stabilizat pentru cercetarea semnalizării neuropeptidice și plasticității sinaptice",
+
+  cas: "2920938-90-3",
+
+  strength: [
+    "N-Acetyl Semax Amidate 30mg de la BioPeptides este un neuropeptid sintetic de înaltă puritate, de grad de cercetare, dezvoltat pentru studii avansate de laborator care implică semnalizarea neuropeptidică, modelarea căilor cognitive și cercetarea neuromodulării mediate de peptide. Fabricat folosind sinteză peptidică în fază solidă de precizie și purificat la ≥99% HPLC, acest analog Semax stabilizat oferă integritate moleculară excelentă și reproductibilitate. Identificat prin CAS 2920938-90-3, este utilizat pe scară largă în cercetări controlate in-vitro în Europa și Statele Unite."
+  ],
+
+  topDescription: {
+    p0: "N-Acetyl Semax Amidate este un derivat stabilizat chimic al peptidei Semax, investigat în neuroștiință și cercetarea semnalizării peptidice.",
+    p1: "În sisteme de laborator, acest peptid este studiat pentru interacțiunile sale cu căile de semnalizare neuropeptidică, mecanismele plasticității sinaptice și cascadele moleculare asociate cogniției.",
+    p2: "Modificările N-acetil și amidat îmbunătățesc stabilitatea structurală și rezistența la degradarea enzimatică, permițând o analiză experimentală mai fiabilă."
+  },
+
+  components: [
+    "N-Acetyl Semax Amidate — analog neuropeptidic Semax stabilizat",
+    "Peptid de cercetare liofilizat de înaltă puritate",
+    "Preparat peptidic de grad de cercetare",
+    "Cantitate totală de peptid — 30 mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Prezentare generală a cercetării",
+    overview: [
+      "N-Acetyl Semax Amidate este un analog modificat al peptidei Semax, utilizat în cercetarea neuroștiințifică pentru explorarea căilor de comunicare neuronală mediate de peptide.",
+      "Cercetătorii investighează acest compus pentru a studia rețelele de semnalizare neuropeptidică și răspunsurile moleculare asociate cogniției.",
+      "Structura sa stabilizată chimic permite expunere experimentală extinsă în comparație cu Semax nativ.",
+      "Peptidul susține investigații de laborator privind plasticitatea sinaptică, semnalizarea neurotrofică și mecanismele de neuromodulare."
+    ],
+
+    scientificBackgroundTitle: "Context științific",
+    scientificBackground: [
+      "Semax este un neuropeptid sintetic studiat pentru implicarea sa în semnalizarea neurotrofică și căile de comunicare neuronală.",
+      "N-Acetyl Semax Amidate este o versiune modificată chimic, concepută pentru a îmbunătăți stabilitatea moleculară și consistența experimentală.",
+      "Cercetătorii explorează acest analog pentru interacțiunile sale cu căile de semnalizare sinaptică și factorii neurotrofici.",
+      "Structura sa stabilizată permite analiza experimentală controlată a mecanismelor de semnalizare neuronală mediate de peptide."
+    ],
+
+    mechanismTitle: "Perspectivă mecanistică de cercetare",
+    mechanismPoints: [
+      "Investigarea căilor de semnalizare neuropeptidică",
+      "Studii privind plasticitatea sinaptică și comunicarea neuronală",
+      "Analiza căilor de semnalizare neurotrofică",
+      "Cercetarea neuromodulării mediate de peptide",
+      "Cercetare comparativă a analogilor Semax"
+    ],
+
+    applicationsTitle: "Aplicații principale de cercetare",
+    applications: [
+      {
+        title: "Cercetarea semnalizării neuropeptidice",
+        text: "Utilizat pentru investigarea căilor de comunicare neuronală conduse de peptide în condiții controlate de laborator."
+      },
+      {
+        title: "Cercetarea căilor cognitive",
+        text: "Susține studii de laborator care examinează căile moleculare asociate semnalizării cognitive și comunicării neuronale."
+      },
+      {
+        title: "Studii de semnalizare neurotrofică",
+        text: "Cercetătorii analizează interacțiunile mediate de peptide cu căile neurotrofice și rețelele de semnalizare sinaptică."
+      },
+      {
+        title: "Neuroștiință moleculară și celulară",
+        text: "Aplicat în teste bazate pe celule care explorează expresia genică ulterioară și căile intracelulare de semnalizare neuronală."
+      },
+      {
+        title: "Cercetare comparativă a peptidelor",
+        text: "Permite comparația între peptidele Semax native și formele analogice stabilizate chimic."
+      }
+    ],
+
+    molecularTitle: "Caracteristici moleculare",
+    molecularPoints: [
+      "Numele compusului: N-Acetyl Semax Amidate",
+      "Număr CAS: 2920938-90-3",
+      "Clasa peptidei: Analog neuropeptidic Semax modificat",
+      "Formă: Pulbere peptidică liofilizată",
+      "Puritate: ≥99% verificată prin HPLC",
+      "Dimensiune unitate: 30 mg peptid de cercetare"
+    ],
+
+    stabilityTitle: "Profil de stabilitate și recomandări de depozitare",
+    stabilityPoints: [
+      "Depozitați peptidul liofilizat la −20°C",
+      "Protejați de umiditate și expunere la lumină",
+      "Evitați ciclurile repetate de înghețare–dezghețare",
+      "Reconstituiți folosind solvent steril de grad de laborator",
+      "Sigilați bine flaconul după fiecare utilizare"
+    ],
+
+    solubilityTitle: "Considerații privind solubilitatea și prepararea",
+    solubilityPoints: [
+      "Solubil în apă bacteriostatică sterilă",
+      "Compatibil cu soluții apoase tamponate de laborator",
+      "Potrivit pentru protocoale neuroștiințifice cu peptide",
+      "Aplicabil în teste de cercetare a semnalizării sinaptice",
+      "Compatibil cu sisteme de cercetare prin cultură celulară"
+    ],
+
+    techSpecsTitle: "Specificații tehnice",
+    techSpecs: {
+      productName: "N-Acetyl Semax Amidate 30mg",
+      brand: "BioPeptides",
+      cas: "2920938-90-3",
+      purity: "≥99% (verificat prin HPLC)",
+      form: "Pulbere peptidică liofilizată",
+      synthesis: "Sinteză peptidică în fază solidă (SPPS)",
+      analytical: "Verificare prin HPLC și spectrometrie de masă",
+      molecularStructure: "Analog peptidic Semax stabilizat",
+      stability: "Stabil în condiții de depozitare la −20°C"
+    },
+
+    validationTitle: "Validare analitică și asigurarea calității",
+    validationPoints: [
+      "Testarea purității prin HPLC de înaltă rezoluție",
+      "Verificarea identității peptidei",
+      "Analiza integrității structurale",
+      "Validarea consistenței între loturi",
+      "Testarea stabilității peptidei"
+    ],
+
+    regulatoryTitle: "Declarație de reglementare și conformitate",
+    regulatoryText:
+      "N-Acetyl Semax Amidate furnizat de BioPeptides este destinat strict utilizării în cercetare de laborator. Nu este aprobat pentru consum uman, uz veterinar, aplicații terapeutice sau tratamente medicale.",
+
+    faqTitle: "Întrebări frecvente",
+
+    faqItems: [
+      {
+        q: "Pentru ce este utilizat în principal N-Acetyl Semax Amidate în cercetare?",
+        a: "Este utilizat în principal în cercetări de laborator axate pe semnalizarea neuropeptidică, modelarea căilor cognitive și neuromodularea mediată de peptide în condiții controlate, non-clinice."
+      },
+      {
+        q: "Cum diferă N-Acetyl Semax Amidate de Semax standard?",
+        a: "Modificările N-acetil și amidat îmbunătățesc stabilitatea moleculară și rezistența la degradarea enzimatică în comparație cu Semax nativ."
+      },
+      {
+        q: "De ce este important CAS 2920938-90-3?",
+        a: "CAS 2920938-90-3 identifică în mod unic N-Acetyl Semax Amidate, asigurând documentație exactă și trasabilitate în laboratoarele de cercetare."
+      },
+      {
+        q: "Este acest peptid potrivit pentru studii neuroștiințifice in-vitro?",
+        a: "Da. Este utilizat pe scară largă în experimente in-vitro controlate care implică semnalizarea neuronală, căile neurotrofice și modele de cercetare ale neuropeptidelor."
+      },
+      {
+        q: "Ce domenii de cercetare folosesc frecvent acest peptid?",
+        a: "Este utilizat frecvent în neuroștiință, biologie moleculară, cercetare neurofarmacologică, studii de semnalizare peptidică și cercetarea comunicării celulare."
+      },
+      {
+        q: "De ce să alegeți formatul de 30mg pentru cercetare?",
+        a: "Formatul de 30mg susține proiecte de cercetare pe termen lung, multiple rulări experimentale și o eficiență mai bună a costurilor."
+      },
+      {
+        q: "Cum trebuie depozitat N-Acetyl Semax Amidate?",
+        a: "Trebuie depozitat la −20 °C în formă liofilizată și protejat de umiditate și lumină."
+      },
+      {
+        q: "De ce să alegeți BioPeptides pentru acest peptid de cercetare?",
+        a: "BioPeptides oferă peptide de înaltă puritate cu documentație CAS verificată și aprovizionare internațională fiabilă pentru laboratoarele de cercetare."
+      }
+    ],
+       chemicalProperties: {
+  molecularFormula: "C39H54N10O10S",
+  molecularWeight: "855",
+  monoisotopicMass: "854.37450913",
+  polarArea: "320",
+  complexity: "1560",
+  xlogP: "-0.9",
+  heavyAtomCount: "60",
+  hydrogenBondDonorCount: "8",
+  hydrogenBondAcceptorCount: "12",
+  rotatableBondCount: "22",
+  cid: "172638603",
+  inchi:
+    "InChI=1S/C39H54N10O10S/c1-23(50)44-27(14-17-60-2)36(56)45-26(12-13-33(52)53)35(55)46-28(19-25-20-41-22-43-25)37(57)47-29(18-24-8-4-3-5-9-24)39(59)49-16-7-11-31(49)38(58)42-21-32(51)48-15-6-10-30(48)34(40)54/h3-5,8-9,20,22,26-31H,6-7,10-19,21H2,1-2H3,(H2,40,54)(H,41,43)(H,42,58)(H,44,50)(H,45,56)(H,46,55)(H,47,57)(H,52,53)/t26-,27-,28-,29-,30-,31-/m0/s1",
+  inchiKey: "	QQOAKFVAEDCKGY-HPMAGDRPSA-N",
+
+  canonicalSmiles:
+    "CC(=O)NC(CCSC)C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CN=CN1)C(=O)NC(CC2=CC=CC=C2)C(=O)N3CCCC3C(=O)NCC(=O)N4CCCC4C(=O)N",
+
+  isomericSmiles:
+    "CC(=O)N[C@@H](CCSC)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N3CCC[C@H]3C(=O)NCC(=O)N4CCC[C@H]4C(=O)N",
+
+  iupacName:
+    "(4S)-4-[[(2S)-2-acetamido-4-methylsulfanylbutanoyl]amino]-5-[[(2S)-1-[[(2S)-1-[(2S)-2-[[2-[(2S)-2-carbamoylpyrrolidin-1-yl]-2-oxoethyl]carbamoyl]pyrrolidin-1-yl]-1-oxo-3-phenylpropan-2-yl]amino]-3-(1H-imidazol-5-yl)-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+}
+  },
+
+  appearance: "Pulbere liofilizată albă",
+
+  storage: "Depozitați la −20°C. Evitați ciclurile repetate de înghețare–dezghețare.",
+
+  researchStatus:
+    "Doar pentru utilizare în cercetare de laborator. Nu este destinat uzului uman sau veterinar."
+},
+"tesamorelin-5mg": {
+  name: "Tesamorelin 5mg",
+
+  tagline:
+    "Peptid de cercetare GHRH de precizie pentru studiile axei hormonului de creștere și semnalizării endocrine",
+
+  cas: "901758-09-6",
+
+  strength: [
+    "Tesamorelin 5mg de la Bio-Peptides este un peptid de înaltă puritate, de grad de cercetare, dezvoltat pentru studii avansate de laborator privind semnalizarea hormonului de eliberare a hormonului de creștere (GHRH), reglarea endocrină și căile celulare mediate de receptori. Identificat prin CAS 901758-09-6, Tesamorelin este un analog sintetic GHRH studiat pe scară largă în medii de cercetare controlate pentru rolul său în modularea axei hormonului de creștere. Furnizat în format de cercetare de 5mg, este ideal pentru protocoale experimentale focalizate și studii endocrine comparative. De încredere pentru instituțiile de cercetare din Europa și Statele Unite."
+  ],
+
+  topDescription: {
+    p0: "Tesamorelin este un analog sintetic stabilizat al hormonului endogen de eliberare a hormonului de creștere (GHRH), studiat în cercetări avansate de laborator axate pe mecanismele secreției GH și reglarea căilor endocrine.",
+    p1: "Identificat prin CAS 901758-09-6, Tesamorelin interacționează cu receptorii GHRH localizați în hipofiza anterioară, devenind un instrument valoros de cercetare pentru studierea dinamicii semnalizării hormonale.",
+    p2: "Formatul de cercetare de 5mg susține studii experimentale focalizate, investigații privind interacțiunea cu receptorii și experimente comparative de semnalizare endocrină."
+  },
+
+  components: [
+    "Peptid analog sintetic GHRH",
+    "Compus de cercetare pentru semnalizarea axei hormonului de creștere",
+    "Peptid de cercetare pentru interacțiunea cu receptorii hipofizari",
+    "Preparat peptidic liofilizat — 5 mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Prezentare generală a cercetării",
+    overview: [
+      "Tesamorelin este un analog sintetic al hormonului de eliberare a hormonului de creștere, conceput pentru studii de laborator care investighează semnalizarea endocrină și dinamica secreției GH.",
+      "Cercetătorii studiază Tesamorelin pentru a analiza activarea receptorilor GHRH în cadrul axei hipotalamo–hipofizare.",
+      "Peptidul permite investigarea controlată a mecanismelor de semnalizare hormonală fără introducerea hormonului de creștere exogen.",
+      "Similaritatea sa structurală cu GHRH endogen îl face un compus de cercetare valoros pentru studiile de biologie endocrină."
+    ],
+
+    scientificBackgroundTitle: "Context științific",
+    scientificBackground: [
+      "Secreția hormonului de creștere este reglată în principal prin semnalizarea hipotalamică a hormonului de eliberare a hormonului de creștere.",
+      "Tesamorelin este înrudit structural cu GHRH nativ și este studiat pentru interacțiunea sa cu receptorii GHRH.",
+      "Cercetarea de laborator evaluează frecvent Tesamorelin pentru examinarea dinamicii eliberării GH și a căilor de reglare endocrină.",
+      "Aceste investigații susțin o înțelegere mai profundă a rețelelor de comunicare hormonală și a semnalizării mediate de receptori."
+    ],
+
+    mechanismTitle: "Perspectivă mecanistică de cercetare",
+    mechanismPoints: [
+      "Cercetarea semnalizării receptorului hormonului de eliberare a hormonului de creștere",
+      "Analiza comunicării endocrine hipotalamo–hipofizare",
+      "Investigarea interacțiunii peptidă–receptor",
+      "Cercetarea căii de secreție a hormonului de creștere",
+      "Studii privind reglarea feedbackului endocrin"
+    ],
+
+    applicationsTitle: "Aplicații principale de cercetare",
+    applications: [
+      {
+        title: "Cercetarea axei hormonului de creștere",
+        text: "Utilizat pentru studierea activării receptorului GHRH și a dinamicii secreției GH în modele de laborator."
+      },
+      {
+        title: "Studii de semnalizare endocrină",
+        text: "Cercetătorii examinează comunicarea hormonală hipotalamo–hipofizară și căile de reglare."
+      },
+      {
+        title: "Cercetarea interacțiunii cu receptorii",
+        text: "Aplicat în experimente care evaluează legarea peptidelor de receptorii GHRH."
+      },
+      {
+        title: "Biologie moleculară și celulară",
+        text: "Utilizat în experimente in-vitro care investighează mecanismele intracelulare de semnalizare endocrină."
+      },
+      {
+        title: "Cercetare comparativă a peptidelor",
+        text: "Permite comparația cu alte peptide GHRH, precum CJC-1295 și Sermorelin."
+      }
+    ],
+
+    molecularTitle: "Caracteristici moleculare",
+    molecularPoints: [
+      "Numele compusului: Tesamorelin",
+      "Număr CAS: 901758-09-6",
+      "Clasa peptidei: Analog al hormonului de eliberare a hormonului de creștere",
+      "Formă: Pulbere peptidică liofilizată",
+      "Dimensiune unitate: 5 mg peptid de cercetare"
+    ],
+
+    stabilityTitle: "Profil de stabilitate și recomandări de depozitare",
+    stabilityPoints: [
+      "Depozitați Tesamorelin liofilizat la −20°C",
+      "Protejați de umiditate și lumină directă",
+      "Evitați ciclurile repetate de înghețare–dezghețare",
+      "Reconstituiți folosind solvent steril de grad de laborator",
+      "Sigilați corect flaconul după utilizare"
+    ],
+
+    solubilityTitle: "Considerații privind manipularea și pregătirea pentru cercetare",
+    solubilityPoints: [
+      "Compatibil cu solvenți apoși sterili de laborator",
+      "Potrivit pentru teste de semnalizare endocrină",
+      "Aplicabil în experimente de activare a receptorilor",
+      "Compatibil cu fluxuri de lucru pentru cercetarea peptidelor",
+      "Conceput pentru pregătire experimentală reproductibilă"
+    ],
+
+    techSpecsTitle: "Specificații tehnice",
+    techSpecs: {
+      productName: "Tesamorelin 5mg",
+      brand: "BioPeptides",
+      purity: "Calitate analitică de grad de cercetare",
+      form: "Pulbere peptidică liofilizată",
+      synthesis: "Sinteză peptidică în fază solidă (SPPS)",
+      analytical: "Verificarea identității și testarea purității",
+      molecularStructure: "Analog sintetic GHRH",
+      stability: "Stabil în condiții de depozitare la −20°C"
+    },
+
+    validationTitle: "Validare analitică și asigurarea calității",
+    validationPoints: [
+      "Confirmarea identității moleculare",
+      "Testarea purității și stabilității",
+      "Verificarea integrității structurale",
+      "Validarea consistenței între loturi",
+      "Inspecția controlului calității analitice"
+    ],
+
+    regulatoryTitle: "Declarație de reglementare și conformitate",
+    regulatoryText:
+      "Tesamorelin 5mg furnizat de Bio-Peptides este destinat strict utilizării în cercetare de laborator. Nu este aprobat pentru consum uman, uz veterinar, aplicații terapeutice sau tratament medical.",
+
+    faqTitle: "Întrebări frecvente",
+
+    faqItems: [
+      {
+        q: "Pentru ce este utilizat Tesamorelin în cercetare?",
+        a: "Tesamorelin este utilizat în studii de laborator care investighează semnalizarea hormonului de eliberare a hormonului de creștere și reglarea căilor endocrine."
+      },
+      {
+        q: "Ce identifică CAS 901758-09-6?",
+        a: "CAS 901758-09-6 identifică în mod unic Tesamorelin, asigurând documentație chimică precisă și reproductibilitate."
+      },
+      {
+        q: "Este Tesamorelin potrivit pentru cercetare in-vitro?",
+        a: "Da. Tesamorelin este utilizat frecvent în experimente in-vitro controlate care analizează activarea receptorilor și semnalizarea endocrină."
+      },
+      {
+        q: "Ce domenii de cercetare folosesc frecvent Tesamorelin?",
+        a: "Tesamorelin este studiat pe scară largă în endocrinologie, cercetarea semnalizării peptidice și investigații de biologie moleculară."
+      },
+      {
+        q: "Cum trebuie depozitat Tesamorelin?",
+        a: "Tesamorelin trebuie depozitat la −20°C și protejat de umiditate și lumină."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "C221H366N72O67S",
+  molecularWeight: "5136",
+  monoisotopicMass: "5132.7166406",
+  polarArea: "2360",
+  complexity: "12800",
+  xlogP: "-23.3",
+  heavyAtomCount: "361",
+  hydrogenBondDonorCount: "83",
+  hydrogenBondAcceptorCount: "76",
+  rotatableBondCount: "187",
+  cid: "16137828",
+  inchi:
+    "InChI=1S/C221H366N72O67S/c1-25-28-30-53-163(308)260-145(92-120-54-58-122(299)59-55-120)198(343)255-116(21)179(324)276-150(96-169(316)317)199(344)256-117(22)180(325)291-172(111(16)26-2)214(359)284-147(91-119-43-31-29-32-44-119)206(351)293-174(118(23)298)215(360)285-149(95-162(230)307)205(350)289-155(104-297)210(355)280-146(93-121-56-60-123(300)61-57-121)203(348)267-130(51-41-83-248-220(240)241)186(331)266-126(46-34-36-78-223)197(342)290-171(110(14)15)212(357)283-141(87-106(6)7)183(328)252-100-166(311)258-133(63-70-157(225)302)190(335)278-144(90-109(12)13)202(347)288-152(101-294)208(353)257-115(20)178(323)262-128(49-39-81-246-218(236)237)185(330)265-125(45-33-35-77-222)189(334)277-143(89-108(10)11)201(346)279-142(88-107(8)9)200(345)272-137(66-73-160(228)305)195(340)282-151(97-170(318)319)207(352)292-173(112(17)27-3)213(358)274-139(76-85-361-24)196(341)287-153(102-295)209(354)268-131(52-42-84-249-221(242)243)187(332)270-135(64-71-158(226)303)192(337)269-132(62-69-156(224)301)182(327)251-99-165(310)259-134(67-74-167(312)313)191(336)286-154(103-296)211(356)281-148(94-161(229)306)204(349)273-136(65-72-159(227)304)193(338)271-138(68-75-168(314)315)194(339)264-124(47-37-79-244-216(232)233)181(326)250-98-164(309)253-113(18)176(321)261-127(48-38-80-245-217(234)235)184(329)254-114(19)177(322)263-129(50-40-82-247-219(238)239)188(333)275-140(175(231)320)86-105(4)5/h28-32,43-44,54-61,105-118,124-155,171-174,294-300H,25-27,33-42,45-53,62-104,222-223H2,1-24H3,(H2,224,301)(H2,225,302)(H2,226,303)(H2,227,304)(H2,228,305)(H2,229,306)(H2,230,307)(H2,231,320)(H,250,326)(H,251,327)(H,252,328)(H,253,309)(H,254,329)(H,255,343)(H,256,344)(H,257,353)(H,258,311)(H,259,310)(H,260,308)(H,261,321)(H,262,323)(H,263,322)(H,264,339)(H,265,330)(H,266,331)(H,267,348)(H,268,354)(H,269,337)(H,270,332)(H,271,338)(H,272,345)(H,273,349)(H,274,358)(H,275,333)(H,276,324)(H,277,334)(H,278,335)(H,279,346)(H,280,355)(H,281,356)(H,282,340)(H,283,357)(H,284,359)(H,285,360)(H,286,336)(H,287,341)(H,288,347)(H,289,350)(H,290,342)(H,291,325)(H,292,352)(H,293,351)(H,312,313)(H,314,315)(H,316,317)(H,318,319)(H4,232,233,244)(H4,234,235,245)(H4,236,237,246)(H4,238,239,247)(H4,240,241,248)(H4,242,243,249)/b30-28+/t111-,112-,113-,114-,115-,116-,117-,118+,124-,125-,126-,127-,128-,129-,130-,131-,132-,133-,134-,135-,136-,137-,138-,139-,140-,141-,142-,143-,144-,145-,146-,147-,148-,149-,150-,151-,152-,153-,154-,155-,171-,172-,173-,174-/m0/s1",
+  inchiKey: "QBEPNUQJQWDYKU-BMGKTWPMSA-N",
+
+  canonicalSmiles:
+    "CCC=CCC(=O)NC(CC1=CC=C(C=C1)O)C(=O)NC(C)C(=O)NC(CC(=O)O)C(=O)NC(C)C(=O)NC(C(C)CC)C(=O)NC(CC2=CC=CC=C2)C(=O)NC(C(C)O)C(=O)NC(CC(=O)N)C(=O)NC(CO)C(=O)NC(CC3=CC=C(C=C3)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NCC(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CCSC)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)NC(CC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CC(C)C)C(=O)N",
+
+  isomericSmiles:
+    "CC/C=C/CC(=O)N[C@@H](CC1=CC=C(C=C1)O)C(=O)N[C@@H](C)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](C)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC3=CC=C(C=C3)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)NCC(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CCSC)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)N)C(=O)NCC(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)NCC(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CC(C)C)C(=O)N",
+
+  iupacName:
+    "(4S)-4-[[2-[[(2S)-5-amino-2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-4-amino-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-3-carboxy-2-[[(2S)-2-[[(2S)-2-[[(E)-hex-3-enoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]propanoyl]amino]propanoyl]amino]-3-methylpentanoyl]amino]-3-phenylpropanoyl]amino]-3-hydroxybutanoyl]amino]-4-oxobutanoyl]amino]-3-hydroxypropanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-3-methylbutanoyl]amino]-4-methylpentanoyl]amino]acetyl]amino]-5-oxopentanoyl]amino]-4-methylpentanoyl]amino]-3-hydroxypropanoyl]amino]propanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]-5-oxopentanoyl]amino]-3-carboxypropanoyl]amino]-3-methylpentanoyl]amino]-4-methylsulfanylbutanoyl]amino]-3-hydroxypropanoyl]amino]-5-carbamimidamidopentanoyl]amino]-5-oxopentanoyl]amino]-5-oxopentanoyl]amino]acetyl]amino]-5-[[(2S)-1-[[(2S)-4-amino-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-4-methyl-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+}
+
+  },
+
+  appearance: "Pulbere liofilizată albă",
+
+  storage:
+    "Depozitați la −20°C. Protejați de lumină și umiditate. Evitați ciclurile repetate de înghețare–dezghețare.",
+
+  researchStatus:
+    "Doar pentru utilizare în cercetare de laborator. Nu este destinat uzului uman sau veterinar."
+},
  "ipamorelin-2mg-x-10-modgrf-1-29-2mg-x-10": {
     name: "Ipamorelin 2mg ×10 + MOD-GRF (1-29) 2mg ×10 (Pachet)",
     tagline: "Pachet Dual de Cercetare a Căii Hormonului de Creștere pentru Studii de Semnalizare a Receptorilor și Coordonare Endocrină",
@@ -11345,8 +13116,8 @@ export default {
     "appearance": "Pulbere liofilizată albă",
     "storage": "Depozitați la −20°C. Evitați ciclurile repetate de congelare-descongelare.",
     "researchStatus": "Doar pentru utilizare în cercetarea de laborator. Nu pentru uz uman sau veterinar."
-  }
-},
+  },
+
 
   "ipamorelin-10mg": {
     name: "Ipamorelin 10mg",
@@ -11679,7 +13450,7 @@ export default {
         isomericSmiles: "CC(C)C[C@@H](C(=O)N[C@@H](CCCN=C(N)N)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N)NC(=O)CNC(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CO)NC(=O)[C@H](CC(=O)N)NC(=O)[C@H](CC3=CNC4=CC=CC=C43)NC(=O)[C@H](CC(=O)N)NC(=O)[C@H](CC5=CC=C(C=C5)O)N",
         iupacName: "(2S)-N-[(2S)-1-[[(2S)-4-amino-1-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-1-oxo-3-phenylpropan-2-yl]amino]-5-(diaminomethylideneamino)-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]butanediamide"
       }
-    },
+    }},
    
   "kisspeptin-10": {
     name: "Kisspeptin-10 5mg",
@@ -11848,6 +13619,7 @@ export default {
     "appearance": "Pó liofilizado branco",
     "storage": "Armazenar a −20°C. Evitar ciclos repetidos de congelamento e descongelamento.",
     "researchStatus": "Apenas para uso em pesquisa laboratorial. Não para uso humano ou veterinário."
+  
   },
   "kpv-5mg": {
   name: "KPV 5mg",
@@ -24017,6 +25789,574 @@ export default {
       }
     }
   },
-    }
-  
+  "epitalon-1mg-60-capsules": {
+  name: "Epitalon 1mg (60 capsule)",
+  tagline: "Bioregulator tetrapeptidic sintetic pentru cercetarea epigenetică și a semnalizării celulare",
+  cas: "307297-39-8",
+
+  strength: [
+    "Epitalon 1mg (60 capsule) | CAS 307297-39-8 este un peptid sintetic de cercetare de calitate premium, dezvoltat pentru investigații moleculare și celulare avansate. Fabricat prin sinteză peptidică în fază solidă (SPPS) de înaltă precizie și validat prin HPLC și spectrometrie de masă, acest compus oferă puritate ≥99% și consistență fiabilă între loturi. Identificat prin CAS 307297-39-8, Epitalon este selectat pe scară largă de laboratoarele europene de cercetare pentru studii de interacțiune peptidă–proteină, analiza expresiei genice și cercetarea semnalizării celulare. BioPeptides furnizează Epitalon exclusiv pentru utilizare în laborator, oferind o opțiune de încredere pentru cercetătorii care doresc să cumpere peptide online de la o sursă conformă, orientată către UE."
+  ],
+
+  topDescription: {
+    p0: "Epitalon 1mg (60 capsule), CAS 307297-39-8, este un peptid sintetic de cercetare de înaltă puritate, furnizat de BioPeptides pentru investigații moleculare și celulare avansate.",
+    p1: "Fabricat folosind sinteză peptidică în fază solidă (SPPS) și validat prin HPLC și spectrometrie de masă, Epitalon demonstrează puritate ≥99% și consistență puternică între loturi pentru cercetare de laborator reproductibilă.",
+    p2: "Instituțiile de cercetare din Germania, Franța, Italia, Spania, Țările de Jos, Suedia, Elveția, Austria, Belgia și Danemarca se bazează pe capsulele Epitalon pentru aplicații controlate de cercetare biochimică și moleculară."
+  },
+
+  components: [
+    "Bioregulator tetrapeptidic sintetic (Epitalon)"
+  ],
+
+  content: {
+
+    overviewTitle: "Introducere produs",
+    overview: [
+      "Epitalon 1mg (60 capsule) este un peptid sintetic de calitate de laborator, conceput pentru aplicații controlate de cercetare științifică și academică.",
+      "Identificat prin numărul CAS 307297-39-8, Epitalon este frecvent menționat în studii de biologie moleculară și biochimie care explorează căile de semnalizare celulară mediate de peptide.",
+      "Instituțiile europene de cercetare integrează frecvent Epitalon în modele experimentale care investighează reglarea expresiei genice, semnalizarea ritmului circadian și mecanismele de reglare celulară."
+    ],
+
+    scientificBackgroundTitle: "Context științific și importanță în cercetare",
+    scientificBackground: [
+      "Peptidele sintetice precum Epitalon permit cercetătorilor să izoleze și să analizeze interacțiuni biochimice cu un grad ridicat de control și reproductibilitate.",
+      "Epitalon a fost studiat în medii de laborator pentru posibila sa implicare în căile de semnalizare peptidică, reglarea epigenetică și rețelele de comunicare celulară.",
+      "Spre deosebire de extractele biologice complexe, peptidele sintetice oferă structuri definite care reduc variabilitatea și îmbunătățesc precizia experimentală.",
+      "Laboratoarele de cercetare din Germania, Franța, Italia, Spania și Țările de Jos folosesc frecvent peptide sintetice precum Epitalon în modele de cercetare controlate care necesită identificarea fiabilă a compusului."
+    ],
+
+    mechanismTitle: "Perspectivă mecanistică de cercetare",
+    mechanismPoints: [
+      "Modularea căilor de semnalizare celulară",
+      "Reglarea tiparelor de expresie genică în modele de cercetare moleculară",
+      "Influență asupra activității metabolice mitocondriale",
+      "Interacțiune cu sistemele de activare enzimatică",
+      "Studii de comunicare celulară mediată de peptide"
+    ],
+
+    applicationsTitle: "Aplicații principale de cercetare",
+    applications: [
+      {
+        title: "Studii de biologie celulară și moleculară",
+        text: "Utilizat pentru explorarea comportamentului de semnalizare mediat de peptide și a mecanismelor reglatoare intracelulare."
+      },
+      {
+        title: "Cercetarea expresiei și reglării proteinelor",
+        text: "Susține experimente care examinează sinteza proteinelor, căile de reglare și mecanismele de adaptare celulară."
+      },
+      {
+        title: "Teste de legare la receptori",
+        text: "Aplicat în cercetarea de laborator care investighează dinamica interacțiunii peptidă–receptor."
+      },
+      {
+        title: "Studii ale metabolismului mitocondrial",
+        text: "Utilizat pentru examinarea reglării energiei celulare și a căilor de răspuns metabolic."
+      },
+      {
+        title: "Modele celulare regenerative",
+        text: "Susține cercetarea controlată care explorează tiparele de răspuns celular și semnalizarea peptidică reglatoare."
+      },
+      {
+        title: "Studii de sensibilitate enzimatică și matrice",
+        text: "Integrat în experimente care studiază sistemele de activare enzimatică și interacțiunile cu matricea extracelulară."
+      }
+    ],
+
+    molecularTitle: "Caracteristici moleculare",
+    molecularPoints: [
+      "Tip molecular: Bioregulator tetrapeptidic sintetic",
+      "Structură: Peptid liniar compus din patru aminoacizi",
+      "Identificator CAS: 307297-39-8",
+      "Formă: Compus de cercetare încapsulat",
+      "Greutate moleculară: Aproximativ 390,4 Da",
+      "Stabilitate: Ridicată atunci când este depozitat în condițiile de laborator recomandate"
+    ],
+
+    stabilityTitle: "Ghid de stabilitate și depozitare",
+    stabilityPoints: [
+      "Depozitați capsulele într-un mediu răcoros și uscat",
+      "Depozitarea pe termen lung este recomandată la −20°C",
+      "Protejați de umiditate și expunere prelungită la lumină",
+      "Evitați temperaturile ridicate în timpul manipulării",
+      "Mențineți recipientul sigilat pentru a păstra stabilitatea compusului"
+    ],
+
+    solubilityTitle: "Solubilitate și compatibilitate de laborator",
+    solubilityPoints: [
+      "Apă bacteriostatică",
+      "Soluții saline sterile",
+      "Tampoane de laborator ușor acide",
+      "Solvenți organici analitici selectați"
+    ],
+
+    techSpecsTitle: "Specificații tehnice",
+    techSpecs: {
+      productName: "Epitalon 1mg (60 capsule)",
+      brand: "BioPeptides",
+      cas: "307297-39-8",
+      purity: "≥99% (verificat prin HPLC)",
+      unitSize: "1 mg per capsulă",
+      totalContent: "60 capsule",
+      form: "Peptid sintetic încapsulat",
+      synthesis: "Sinteză peptidică în fază solidă (SPPS)",
+      analytical: "HPLC, spectrometrie de masă, spectrofotometrie UV",
+      molecularStructure: "Tetrapeptid sintetic liniar",
+      stability: "Ridicată atunci când este depozitat corespunzător"
+    },
+
+    validationTitle: "Validare analitică și asigurarea calității",
+    validationPoints: [
+      "Verificarea purității prin cromatografie lichidă de înaltă performanță (HPLC)",
+      "Confirmarea identității moleculare prin spectrometrie de masă",
+      "Validarea concentrației prin spectrofotometrie UV",
+      "Verificarea consistenței între loturi",
+      "Screening pentru endotoxine și contaminare microbiană"
+    ],
+
+    regulatoryTitle: "Declarație de reglementare și conformitate",
+    regulatoryText:
+      "Epitalon 1mg (60 capsule) furnizat de BioPeptides este destinat strict cercetării de laborator și investigației științifice. Acest compus nu este aprobat pentru consum uman, uz veterinar, formulare cosmetică, tratament medical sau aplicații alimentare. Certificatele de analiză (COA) și fișele cu date de securitate ale materialului (MSDS) sunt disponibile pentru a sprijini achizițiile instituționale și documentația de reglementare în întreaga Uniune Europeană.",
+
+    faqTitle: "Întrebări frecvente",
+    faqItems: [
+      {
+        q: "Pentru ce este utilizat Epitalon 1mg în cercetare?",
+        a: "Epitalon 1mg este utilizat în cercetarea de biologie moleculară și biochimie pentru a studia căile de semnalizare celulară, reglarea expresiei genice, activitatea mitocondrială și interacțiunile peptidă–proteină în condiții controlate de laborator."
+      },
+      {
+        q: "Care este numărul CAS al Epitalon?",
+        a: "Numărul CAS pentru Epitalon este 307297-39-8, care identifică în mod unic compusul în bazele de date științifice și în documentația de reglementare."
+      },
+      {
+        q: "Este Epitalon aprobat pentru utilizare umană?",
+        a: "Nu. Epitalon 1mg este furnizat strict pentru cercetare de laborator și investigație științifică și nu este aprobat pentru uz uman, veterinar sau medical."
+      },
+      {
+        q: "Cât de pur este Epitalon furnizat de BioPeptides?",
+        a: "Epitalon furnizat de BioPeptides este verificat la o puritate ≥99% folosind HPLC, spectrometrie de masă și metode analitice UV."
+      },
+      {
+        q: "Pot cumpăra Epitalon online în Europa?",
+        a: "Da. Epitalon 1mg (60 capsule) poate fi achiziționat online de la BioPeptides și furnizat instituțiilor de cercetare din întreaga Europă, inclusiv Germania, Franța, Italia, Spania și Țările de Jos."
+      },
+      {
+        q: "De ce este important numărul CAS atunci când se achiziționează peptide?",
+        a: "Numărul CAS asigură identificarea precisă a compusului, trasabilitatea și consistența între furnizori, ceea ce este esențial pentru cercetarea științifică reproductibilă."
+      }
+    ],
+
+     chemicalProperties: {
+  molecularFormula: "C14H22N4O9",
+  molecularWeight: "390.35",
+  monoisotopicMass: "390.13867829",
+  polarArea: "225",
+  complexity: "607",
+  xlogP: "-5.5",
+  heavyAtomCount: "27",
+  hydrogenBondDonorCount: "7",
+  hydrogenBondAcceptorCount: "10",
+  rotatableBondCount: "12",
+  cid: "219042",
+  inchi:
+    "InChI=1S/C14H22N4O9/c1-6(15)12(25)17-7(2-3-9(19)20)14(27)18-8(4-10(21)22)13(26)16-5-11(23)24/h6-8H,2-5,15H2,1H3,(H,16,26)(H,17,25)(H,18,27)(H,19,20)(H,21,22)(H,23,24)/t6-,7-,8-/m0/s1",
+  inchiKey: "HGHOBRRUMWJWCU-FXQIFTODSA-N",
+
+  canonicalSmiles:
+    "CC(C(=O)NC(CCC(=O)O)C(=O)NC(CC(=O)O)C(=O)NCC(=O)O)N",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)NCC(=O)O)N",
+
+  iupacName:
+    "(4S)-4-[[(2S)-2-aminopropanoyl]amino]-5-[[(2S)-3-carboxy-1-(carboxymethylamino)-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
 }
+
+  }
+},
+"ghk-cu-copper-tripeptide": {
+  name: "GHK-Cu (Tripeptid de cupru-1)",
+  tagline: "Tripeptid care leagă cuprul pentru cercetarea semnalizării celulare și a matricei extracelulare",
+  cas: "49557-75-7",
+
+  strength: [
+    "GHK-Cu (Tripeptid de cupru-1) este un peptid de cercetare de înaltă puritate, dezvoltat pentru studii biochimice și de biologie moleculară avansate. Produs folosind sinteză peptidică în fază solidă (SPPS) de precizie și purificat la o puritate HPLC ≥99%, acest tripeptid care leagă cuprul oferă acuratețe moleculară fiabilă și reproductibilitate pentru cercetarea de laborator. BioPeptides permite instituțiilor de cercetare din Europa să cumpere peptide online cu încredere prin control al calității verificat, livrare compatibilă cu UE și conformitate strictă pentru utilizare exclusiv în cercetare."
+  ],
+
+  topDescription: {
+    p0: "GHK-Cu (Tripeptid de cupru-1) este un tripeptid natural care leagă cuprul, studiat pe scară largă pentru rolul său în semnalizarea celulară și reglarea matricei extracelulare.",
+    p1: "Fabricat folosind sinteză peptidică de precizie și purificat la o puritate HPLC ≥99%, GHK-Cu oferă stabilitate moleculară constantă pentru studii de laborator controlate.",
+    p2: "BioPeptides furnizează GHK-Cu exclusiv pentru cercetare de laborator și biochimică, sprijinind oamenii de știință din Europa care caută furnizori de peptide fiabili."
+  },
+
+  components: [
+    "Complex tripeptidic de cupru GHK-Cu (Glicină–Histidină–Lizină legată de ion de cupru)"
+  ],
+
+  content: {
+
+    overviewTitle: "Prezentare generală a produsului",
+    overview: [
+      "GHK-Cu (Tripeptid de cupru-1) este un peptid natural care leagă cuprul, compus din glicină, histidină și lizină complexate cu un ion de cupru.",
+      "În medii de cercetare de laborator, acest peptid este studiat pentru implicarea sa în căile de comunicare celulară, reglarea matricei extracelulare și procesele de semnalizare biochimică.",
+      "Datorită structurii sale stabile de complex peptidă–metal, GHK-Cu este folosit frecvent ca model de compus pentru studierea mecanismelor biochimice dependente de cupru."
+    ],
+
+    scientificBackgroundTitle: "Context științific al GHK-Cu",
+    scientificBackground: [
+      "Peptidele care leagă cuprul, precum GHK-Cu, joacă roluri importante în sistemele biologice prin transportul ionilor de cupru și modularea căilor de semnalizare biochimică.",
+      "Cercetătorii studiază GHK-Cu pentru a investiga modul în care complexele peptidă–metal influențează expresia proteinelor, comunicarea celulară și reglarea matricei extracelulare.",
+      "În modelele experimentale, GHK-Cu a fost utilizat pentru analiza interacțiunilor metaloproteinelor și a activității enzimatice dependente de cupru.",
+      "Aceste proprietăți fac din Copper Tripeptide-1 un compus studiat pe scară largă în cercetarea chimiei peptidelor și a biologiei moleculare."
+    ],
+
+    mechanismTitle: "Perspectivă mecanistică de cercetare",
+    mechanismPoints: [
+      "Studii privind legarea și transportul ionilor de cupru",
+      "Investigarea căilor de semnalizare celulară",
+      "Analiza interacțiunilor cu matricea extracelulară",
+      "Studii de reglare a metaloproteinelor",
+      "Cercetarea stabilității complexelor peptidă–metal"
+    ],
+
+    applicationsTitle: "Aplicații principale de cercetare",
+    applications: [
+      {
+        title: "Cercetarea semnalizării celulare",
+        text: "Utilizat în studii de laborator pentru investigarea căilor de comunicare celulară și a semnalizării răspunsului biochimic."
+      },
+      {
+        title: "Studii ale matricei extracelulare",
+        text: "Aplicat în cercetări care analizează căile de semnalizare asociate colagenului și reglarea structurii matricei extracelulare."
+      },
+      {
+        title: "Analiza expresiei proteinelor",
+        text: "Susține experimente biochimice care studiază expresia, reglarea și căile de degradare ale proteinelor."
+      },
+      {
+        title: "Cercetarea interacțiunilor metaloproteinelor",
+        text: "Utilizat în modele de laborator care examinează interacțiunile proteinelor dependente de cupru și activitatea enzimatică."
+      },
+      {
+        title: "Studii biochimice și moleculare",
+        text: "GHK-Cu este potrivit pentru teste biochimice in vitro care investighează complexele peptidă–metal și sistemele de semnalizare moleculară."
+      }
+    ],
+
+    molecularTitle: "Caracteristici moleculare",
+    molecularPoints: [
+      "Tip molecular: Complex tripeptidic care leagă cuprul",
+      "Compoziție de aminoacizi: Glicină–Histidină–Lizină",
+      "Identificator CAS: 49557-75-7",
+      "Formula moleculară: C14H24N6O4",
+      "Greutate moleculară: ~340,4 g/mol",
+      "Structură: Complex peptidă–metal",
+      "Formă: Pulbere liofilizată"
+    ],
+
+    stabilityTitle: "Ghid de depozitare și manipulare",
+    stabilityPoints: [
+      "Depozitați peptidul liofilizat la −20°C pentru stabilitate optimă",
+      "Evitați ciclurile repetate de înghețare-dezghețare",
+      "Protejați de umiditate și expunere directă la lumină",
+      "Manipulați folosind proceduri sterile de laborator",
+      "Reconstituiți în condiții controlate de laborator"
+    ],
+
+    solubilityTitle: "Solubilitate și compatibilitate de laborator",
+    solubilityPoints: [
+      "Tampoane sterile de laborator",
+      "Apă bacteriostatică",
+      "Soluții saline fiziologice",
+      "Tampoane standard pentru teste biochimice"
+    ],
+
+    techSpecsTitle: "Specificații ale produsului",
+    techSpecs: {
+      productName: "GHK-Cu (Tripeptid de cupru-1)",
+      brand: "BioPeptides",
+      cas: "49557-75-7",
+      quantity: "Flacon de cercetare",
+      purity: "≥99% (verificat prin HPLC)",
+      form: "Pulbere peptidică liofilizată",
+      synthesis: "Sinteză peptidică în fază solidă (SPPS)",
+      analytical: "HPLC, spectrometrie de masă",
+      molecularStructure: "Complex tripeptidic care leagă cuprul",
+      classification: "Doar pentru uz de cercetare"
+    },
+
+    validationTitle: "Fabricare și verificare analitică",
+    validationPoints: [
+      "Sinteză peptidică de precizie folosind SPPS",
+      "Verificarea purității prin cromatografie lichidă de înaltă performanță (HPLC)",
+      "Confirmare moleculară prin spectrometrie de masă",
+      "Validarea consistenței între loturi",
+      "Testarea stabilității pentru fiabilitatea cercetării"
+    ],
+
+    regulatoryTitle: "Statut de reglementare",
+    regulatoryText:
+      "GHK-Cu furnizat de BioPeptides este destinat strict utilizării în cercetare de laborator și cosmetică. Acest compus nu este aprobat pentru consum uman, uz veterinar, tratament medical sau dezvoltare terapeutică. Responsabilitatea conformității aparține instituției de cercetare cumpărătoare.",
+
+    faqTitle: "Întrebări frecvente",
+
+    faqItems: [
+      {
+        q: "Pentru ce este utilizat GHK-Cu în cercetare?",
+        a: "GHK-Cu este utilizat în cercetarea de laborator pentru a studia semnalizarea celulară, interacțiunile cu matricea extracelulară, căile de expresie a proteinelor și mecanismele biochimice dependente de cupru."
+      },
+      {
+        q: "Care este numărul CAS pentru GHK-Cu?",
+        a: "Numărul CAS oficial pentru Copper Tripeptide-1 (GHK-Cu) este 49557-75-7, asigurând identificarea compusului și trasabilitatea în cercetarea științifică."
+      },
+      {
+        q: "Laboratoarele europene pot cumpăra GHK-Cu online?",
+        a: "Da. BioPeptides furnizează GHK-Cu instituțiilor de cercetare din Europa, inclusiv Germania, Franța, Italia, Spania, Țările de Jos, Suedia, Belgia și Austria."
+      },
+      {
+        q: "Este GHK-Cu aprobat pentru uz uman sau veterinar?",
+        a: "Nu. GHK-Cu este clasificat strict ca Research Use Only (RUO) și nu este aprobat pentru aplicații umane sau veterinare."
+      },
+      {
+        q: "Cât de pur este GHK-Cu de la BioPeptides?",
+        a: "Fiecare lot este purificat la o puritate HPLC ≥99% pentru a asigura acuratețe moleculară și reproductibilitate în cercetarea de laborator."
+      },
+      {
+        q: "Cum trebuie depozitat GHK-Cu?",
+        a: "GHK-Cu trebuie depozitat la -20°C într-un mediu uscat și protejat de cicluri repetate de înghețare-dezghețare pentru a menține stabilitatea."
+      },
+      {
+        q: "De ce este importantă verificarea CAS pentru peptide?",
+        a: "Numerele CAS asigură identitatea chimică și trasabilitatea, permițând cercetătorilor să verifice compușii și să mențină consistența între experimente."
+      },
+      {
+        q: "De ce să aleg BioPeptides pentru peptide de cercetare?",
+        a: "BioPeptides oferă peptide de înaltă puritate, documentație CAS verificată, livrare prietenoasă pentru UE și conformitate transparentă pentru cercetare, de încredere pentru laboratoarele europene."
+      }
+    ],
+
+    chemicalProperties: {
+  molecularFormula: "C14H23CuN6O4+",
+  molecularWeight: "402.92",
+  monoisotopicMass: "402.107675",
+  polarArea: "179",
+  complexity: "428",
+  xlogP: "N/A",
+  heavyAtomCount: "25",
+  hydrogenBondDonorCount: "5",
+  hydrogenBondAcceptorCount: "7",
+  rotatableBondCount: "10",
+  cid: "71587328",
+  inchi:
+    "InChI=1S/C14H24N6O4.Cu/c15-4-2-1-3-10(14(23)24)20-13(22)11(19-12(21)6-16)5-9-7-17-8-18-9;/h7-8,10-11H,1-6,15-16H2,(H,17,18)(H,19,21)(H,20,22)(H,23,24);/q;+2/p-1/t10-,11-;/m0./s1",
+  inchiKey: "NZWIFMYRRCMYMN-ACMTZBLWSA-M",
+
+  canonicalSmiles:
+    "C1=C(NC=N1)CC(C(=O)NC(CCCCN)C(=O)[O-])NC(=O)CN.[Cu+2]",
+
+  isomericSmiles:
+    "C1=C(NC=N1)C[C@@H](C(=O)N[C@@H](CCCCN)C(=O)[O-])NC(=O)CN.[Cu+2]",
+
+  iupacName:
+    "copper (2S)-6-amino-2-[[(2S)-2-[(2-aminoacetyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]hexanoate"
+}
+
+  }
+},
+"hexarelin-5mg-x-10-modgrf-1-29-5mg-x-10": {
+  name: "Hexarelin 5mg ×10 + MOD-GRF (1-29) 5mg ×10 (Pachet)",
+
+  tagline:
+    "Pachet de peptide de cercetare pentru două căi ale hormonului de creștere, destinat studiilor avansate de semnalizare endocrină",
+
+  cas: "Hexarelin: 140703-51-1 | MOD-GRF (1-29): 86168-78-7",
+
+  strength: [
+    "Acest pachet de cercetare cu două peptide combină Hexarelin, un secretagog puternic al hormonului de creștere studiat pentru activarea receptorului de grelină, cu MOD-GRF (1-29), un analog modificat al hormonului de eliberare a hormonului de creștere, investigat pentru stimularea receptorilor hipofizari. Împreună, aceste peptide sunt utilizate pe scară largă în cercetarea de laborator care examinează mecanismele de eliberare a hormonului de creștere, coordonarea căilor endocrine și semnalizarea mediată de receptori în cadrul axei hipotalamo–hipofizare."
+  ],
+
+  topDescription: {
+    p0: "Hexarelin 5mg ×10 și MOD-GRF (1-29) 5mg ×10 de la BioPeptides este un pachet de peptide de cercetare de înaltă puritate, dezvoltat pentru studii avansate de laborator axate pe semnalizarea hormonului de creștere, interacțiunea cu receptorii și coordonarea sistemului endocrin.",
+    p1: "Fiecare peptidă este sintetizată folosind sinteză peptidică în fază solidă (SPPS) avansată și verificată prin testare analitică pentru a asigura o puritate excelentă și reproductibilitate în medii profesionale de cercetare.",
+    p2: "BioPeptides furnizează peptide de cercetare laboratoarelor din întreaga Europă, inclusiv Germania, Franța, Italia, Spania, Țările de Jos, Belgia și instituțiilor de cercetare scandinave."
+  },
+
+  components: [
+    "Hexarelin (hexapeptidă de eliberare a hormonului de creștere) — 5mg ×10 flacoane",
+    "MOD-GRF (1-29) fără DAC (analog GHRH modificat) — 5mg ×10 flacoane"
+  ],
+
+  content: {
+
+    overviewTitle: "Prezentare generală a cercetării",
+    overview: [
+      "Acest pachet de cercetare combină Hexarelin și MOD-GRF (1-29), două peptide studiate pe scară largă pentru rolul lor în cercetarea semnalizării hormonului de creștere.",
+      "Hexarelin interacționează cu receptorul secretagog al hormonului de creștere (GHS-R), cunoscut și ca receptorul de grelină.",
+      "MOD-GRF (1-29) stimulează receptorii hipofizari responsabili pentru eliberarea hormonului de creștere.",
+      "Studierea acestor peptide împreună permite cercetătorilor să investigheze semnalizarea endocrină sinergică de-a lungul axei hipotalamo–hipofizare."
+    ],
+
+    scientificBackgroundTitle: "Context științific",
+    scientificBackground: [
+      "Secreția hormonului de creștere este reglată prin interacțiuni complexe între căile de semnalizare hipotalamice și hipofizare.",
+      "Analogii GHRH, precum MOD-GRF, activează receptorii de la nivelul glandei hipofize responsabili pentru eliberarea GH.",
+      "Secretagogii hormonului de creștere, precum Hexarelin, activează căile de semnalizare mediate de grelină.",
+      "Combinarea ambelor peptide permite cercetătorilor să investigheze comunicarea între receptori, amplificarea semnalului și coordonarea căilor endocrine."
+    ],
+
+    mechanismTitle: "Perspectivă mecanistică de cercetare",
+    mechanismPoints: [
+      "Studii de activare a receptorului secretagog al hormonului de creștere",
+      "Investigarea căii de semnalizare a receptorului GHRH",
+      "Analiza semnalizării endocrine hipotalamo–hipofizare",
+      "Cercetarea sincronizării secreției hormonale și a coordonării căilor",
+      "Modelarea interacțiunii ligand–receptor"
+    ],
+
+    applicationsTitle: "Aplicații principale de cercetare",
+    applications: [
+      {
+        title: "Cercetarea căii de eliberare a hormonului de creștere",
+        text: "Cercetătorii studiază mecanismele responsabile pentru secreția hormonului de creștere prin activarea combinată a receptorului de grelină și a receptorului GHRH."
+      },
+      {
+        title: "Studii ale axei hipotalamo–hipofizare",
+        text: "Pachetul de peptide susține investigații privind coordonarea endocrină dintre semnalizarea hipotalamică și eliberarea hormonilor hipofizari."
+      },
+      {
+        title: "Cercetarea interacțiunii peptidă–receptor",
+        text: "Oamenii de știință examinează legarea receptorilor, afinitatea ligandului și dinamica semnalizării asociate căilor peptidice endocrine."
+      },
+      {
+        title: "Studii de coordonare a semnalizării endocrine",
+        text: "Combinația permite analiza modului în care mai multe căi de semnalizare hormonală interacționează în cadrul sistemelor endocrine reglatoare."
+      },
+      {
+        title: "Cercetare în biologie celulară și moleculară",
+        text: "Laboratoarele aplică aceste peptide în teste bazate pe celule pentru a investiga cascadele de semnalizare ulterioare și răspunsurile căilor moleculare."
+      }
+    ],
+
+    molecularTitle: "Caracteristici moleculare",
+    molecularPoints: [
+      "Peptida 1: Hexarelin (secretagog al hormonului de creștere)",
+      "Număr CAS: 140703-51-1",
+      "Greutate moleculară: ~887 g/mol",
+      "Peptida 2: MOD-GRF (1-29) fără DAC (analog GHRH modificat)",
+      "Număr CAS: 86168-78-7",
+      "Greutate moleculară: ~3357 g/mol",
+      "Formă: Pulberi peptidice liofilizate",
+      "Puritate: ≥99% verificată prin HPLC"
+    ],
+
+    stabilityTitle: "Profil de stabilitate și recomandări de depozitare",
+    stabilityPoints: [
+      "Depozitați flacoanele cu peptide liofilizate la −20°C",
+      "Protejați de umiditate și expunere directă la lumină",
+      "Evitați ciclurile repetate de înghețare–dezghețare",
+      "Soluțiile reconstituite trebuie păstrate la frigider",
+      "Manipulați folosind tehnici aseptice de laborator"
+    ],
+
+    solubilityTitle: "Opțiuni de solubilitate și reconstituire",
+    solubilityPoints: [
+      "Apă bacteriostatică sterilă",
+      "Soluții saline sterile",
+      "Soluții apoase tamponate de laborator",
+      "Tampoane pentru teste biochimice",
+      "Sisteme de solvenți de calitate de laborator"
+    ],
+
+    techSpecsTitle: "Specificații tehnice",
+    techSpecs: {
+      productName: "Pachet de cercetare Hexarelin + MOD-GRF (1-29)",
+      brand: "BioPeptides",
+      hexarelinCAS: "140703-51-1",
+      modGRFCAS: "86168-78-7",
+      purity: "≥99% (verificat prin HPLC)",
+      unitSize: "5mg ×10 flacoane pentru fiecare peptidă",
+      form: "Pulberi liofilizate",
+      synthesis: "Sinteză peptidică în fază solidă (SPPS)",
+      analytical: "HPLC și spectrometrie de masă",
+      molecularStructure: "Peptide sintetice de cercetare endocrină",
+      stability: "Ridicată atunci când este depozitat la −20°C"
+    },
+
+    validationTitle: "Validare analitică și asigurarea calității",
+    validationPoints: [
+      "Verificarea purității prin cromatografie lichidă de înaltă performanță",
+      "Confirmarea greutății moleculare prin spectrometrie de masă",
+      "Testarea integrității structurale a peptidei",
+      "Validarea consistenței analitice între loturi",
+      "Verificarea stabilității peptidei pentru utilizare în cercetare"
+    ],
+
+    regulatoryTitle: "Declarație de reglementare și conformitate",
+    regulatoryText:
+      "Hexarelin și MOD-GRF (1-29) furnizate de BioPeptides sunt destinate strict utilizării în cercetare de laborator și științifică. Aceste materiale nu sunt aprobate pentru consum uman, uz veterinar, aplicații cosmetice sau tratamente terapeutice. Cumpărătorii trebuie să asigure conformitatea cu reglementările de cercetare aplicabile și politicile instituționale.",
+
+    faqTitle: "Întrebări frecvente",
+
+    faqItems: [
+      {
+        q: "Ce face pachetul 5mg ×10 potrivit pentru cercetare avansată?",
+        a: "Configurația mai mare de flacoane 5mg ×10 susține fluxuri de lucru de cercetare pe termen lung și permite oamenilor de știință să efectueze experimente extinse fără reaprovizionare frecventă."
+      },
+      {
+        q: "De ce sunt studiate Hexarelin și MOD-GRF împreună?",
+        a: "Hexarelin activează receptorii de grelină, în timp ce MOD-GRF stimulează receptorii GHRH, permițând cercetătorilor să studieze semnalizarea coordonată a hormonului de creștere prin două căi complementare."
+      },
+      {
+        q: "Poate fi utilizat acest pachet de peptide în modele de cercetare in-vitro?",
+        a: "Da. Pachetul este utilizat pe scară largă în experimente in-vitro controlate care analizează legarea receptorilor, căile de semnalizare endocrină și mecanismele de răspuns celular."
+      },
+      {
+        q: "De ce sunt importante numerele CAS pentru aceste peptide?",
+        a: "Numerele CAS asigură identificarea precisă a compușilor, trasabilitatea și reproductibilitatea în documentația de laborator."
+      },
+      {
+        q: "Cum trebuie depozitate aceste peptide?",
+        a: "Flacoanele liofilizate trebuie depozitate la −20°C și protejate de umiditate și de cicluri repetate de înghețare–dezghețare."
+      },
+      {
+        q: "De ce să aleg BioPeptides pentru peptide de cercetare?",
+        a: "BioPeptides oferă sinteză de înaltă puritate, documentație CAS verificată, ambalare profesională de laborator și logistică fiabilă pentru instituțiile de cercetare."
+      }
+    ],
+   chemicalProperties: {
+  molecularFormula: "	CJC-1295 Acetate: C152H252N44O42 Examorelin: C47H58N12O6",
+  molecularWeight: "CJC-1295 Acetate: 3367.9 Examorelin: 887",
+  monoisotopicMass: "CJC-1295 Acetate: 3365.8935782 Examorelin: 886.46022762",
+  polarArea: "CJC-1295 Acetate: 1450 Examorelin: 301",
+  complexity: "CJC-1295 Acetate: 7710 Examorelin: 1600",
+  xlogP: "CJC-1295 Acetate: -10.7 Examorelin: 2.3",
+  heavyAtomCount: "CJC-1295 Acetate: 238 Examorelin: 65",
+  hydrogenBondDonorCount: "CJC-1295 Acetate: 52 Examorelin: 11",
+  hydrogenBondAcceptorCount: "CJC-1295 Acetate: 48 Examorelin: 9",
+  rotatableBondCount: "CJC-1295 Acetate: 118 Examorelin: 23",
+  cid: "CJC-1295 Acetate: 56841945 Examorelin: 6918297",
+  inchi:
+    "CJC-1295 Acetate: InChI=1S/C152H252N44O42/c1-22-79(15)118(194-125(214)84(20)171-135(224)107(68-115(206)207)181-124(213)81(17)169-126(215)91(155)65-87-41-45-89(201)46-42-87)147(236)189-106(66-86-34-25-24-26-35-86)141(230)196-120(85(21)200)149(238)180-99(51-54-114(158)205)132(221)190-111(72-199)145(234)185-105(67-88-43-47-90(202)48-44-88)140(229)178-96(40-33-59-168-152(164)165)128(217)177-94(37-28-30-56-154)133(222)193-117(78(13)14)146(235)187-100(60-73(3)4)134(223)170-82(18)123(212)175-97(49-52-112(156)203)130(219)183-103(63-76(9)10)138(227)191-109(70-197)143(232)172-83(19)122(211)174-95(39-32-58-167-151(162)163)127(216)176-93(36-27-29-55-153)129(218)182-102(62-75(7)8)137(226)184-101(61-74(5)6)136(225)179-98(50-53-113(157)204)131(220)186-108(69-116(208)209)142(231)195-119(80(16)23-2)148(237)188-104(64-77(11)12)139(228)192-110(71-198)144(233)173-92(121(159)210)38-31-57-166-150(160)161/h24-26,34-35,41-48,73-85,91-111,117-120,197-202H,22-23,27-33,36-40,49-72,153-155H2,1-21H3,(H2,156,203)(H2,157,204)(H2,158,205)(H2,159,210)(H,169,215)(H,170,223)(H,171,224)(H,172,232)(H,173,233)(H,174,211)(H,175,212)(H,176,216)(H,177,217)(H,178,229)(H,179,225)(H,180,238)(H,181,213)(H,182,218)(H,183,219)(H,184,226)(H,185,234)(H,186,220)(H,187,235)(H,188,237)(H,189,236)(H,190,221)(H,191,227)(H,192,228)(H,193,222)(H,194,214)(H,195,231)(H,196,230)(H,206,207)(H,208,209)(H4,160,161,166)(H4,162,163,167)(H4,164,165,168)/t79-,80-,81+,82-,83-,84-,85+,91-,92-,93-,94-,95-,96-,97-,98-,99-,100-,101-,102-,103-,104-,105-,106-,107-,108-,109-,110-,111-,117-,118-,119-,120-/m0/s1 Examorelin: InChI=1S/C47H58N12O6/c1-27-34(33-15-7-9-17-37(33)54-27)23-41(58-44(62)35(49)22-31-25-51-26-53-31)45(63)55-28(2)43(61)57-40(21-30-24-52-36-16-8-6-14-32(30)36)47(65)59-39(20-29-12-4-3-5-13-29)46(64)56-38(42(50)60)18-10-11-19-48/h3-9,12-17,24-26,28,35,38-41,52,54H,10-11,18-23,48-49H2,1-2H3,(H2,50,60)(H,51,53)(H,55,63)(H,56,64)(H,57,61)(H,58,62)(H,59,65)/t28-,35-,38-,39+,40-,41+/m0/s1",
+  inchiKey: "CJC-1295 Acetate: XOZMWINMZMMOBR-HRDSVTNWSA-N Examorelin: RVWNMGKSNGWLOL-GIIHNPQRSA-N",
+
+  canonicalSmiles:
+    "CJC-1295 Acetate: CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)N)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C(CC3=CC=C(C=C3)O)N Examorelin: CC1=C(C2=CC=CC=C2N1)CC(C(=O)NC(C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCCN)C(=O)N)NC(=O)C(CC6=CN=CN6)N",
+
+  isomericSmiles:
+    "CJC-1295 Acetate: CC[C@H](C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N)NC(=O)[C@H](C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H](C)NC(=O)[C@H](CC3=CC=C(C=C3)O)N Examorelin: CC1=C(C2=CC=CC=C2N1)C[C@H](C(=O)N[C@@H](C)C(=O)N[C@@H](CC3=CNC4=CC=CC=C43)C(=O)N[C@H](CC5=CC=CC=C5)C(=O)N[C@@H](CCCCN)C(=O)N)NC(=O)[C@H](CC6=CN=CN6)N",
+
+  iupacName:
+    "CJC-1295 Acetate: (3S)-4-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S,3R)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-[[(2R)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]-4-oxobutanoic acid Examorelin: (2S)-6-amino-2-[[(2R)-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2S)-2-amino-3-(1H-imidazol-5-yl)propanoyl]amino]-3-(2-methyl-1H-indol-3-yl)propanoyl]amino]propanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+}
+
+  },
+
+  appearance: "Pulberi peptidice liofilizate albe (flacoane separate)",
+
+  storage: "Depozitați la −20°C. Evitați ciclurile repetate de înghețare–dezghețare.",
+
+  researchStatus:
+    "Doar pentru utilizare în cercetare de laborator. Nu este destinat uzului uman sau veterinar."
+},
+}  
+
+};

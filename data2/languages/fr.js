@@ -178,8 +178,779 @@ export default {
 
       }
     },
-  
+  "b7-33-6mg": {
+  name: "B7-33 6mg",
+  tagline: "Peptide de Recherche Avancé Dérivé de la Relaxine pour l’Étude de la Signalisation des Récepteurs",
+  cas: "N/A",
 
+  // Short Hero / Card Text
+  strength: [
+    "B7-33 6mg de BioPeptides est un peptide de recherche synthétique dérivé de la relaxine, de haute pureté, conçu pour des investigations avancées in-vitro sur la signalisation des récepteurs. Produit par Synthèse Peptidique en Phase Solide (SPPS) et validé par HPLC, Spectrométrie de Masse et spectrophotométrie UV, chaque lot garantit une pureté ≥99%, une précision structurelle et des performances de laboratoire reproductibles au sein des institutions de recherche européennes."
+  ],
+
+  // Hero Description
+  topDescription: {
+    p0: "B7-33 6mg est un peptide synthétique conçu avec précision, dérivé de la région de la chaîne B de la relaxine, développé pour des études de laboratoire contrôlées portant sur la signalisation sélective des récepteurs et la recherche sur les interactions peptide–récepteur.",
+    p1: "Fabriqué par Synthèse Peptidique en Phase Solide (SPPS), chaque lot fait l’objet d’une validation analytique complète incluant HPLC, Spectrométrie de Masse et analyse spectrophotométrique UV afin de confirmer la pureté, l’identité moléculaire et la reproductibilité des lots.",
+    p2: "Les laboratoires de recherche en Allemagne, France, Italie, Espagne, Pays-Bas, Belgique, Suisse, Autriche, Suède et Danemark utilisent B7-33 pour des études reproductibles de signalisation cellulaire et de voies biochimiques."
+  },
+
+  content: {
+
+    overviewTitle: "Aperçu Avancé du Peptide de Recherche",
+    overview: [
+      "B7-33 est un peptide de recherche synthétique dérivé de la relaxine, fourni sous forme de poudre lyophilisée de haute pureté pour les investigations en laboratoire.",
+      "Il est largement étudié dans des environnements in-vitro contrôlés pour son interaction sélective avec les récepteurs peptidiques de la famille de la relaxine.",
+      "Bien qu’aucun numéro CAS ne soit actuellement attribué, B7-33 est entièrement caractérisé par validation analytique afin de répondre aux normes européennes de documentation de recherche et de reproductibilité."
+    ],
+
+    scientificBackgroundTitle: "Contexte Scientifique et Importance en Recherche",
+    scientificBackground: [
+      "Les peptides synthétiques dérivés de protéines de signalisation endogènes sont des outils essentiels dans la recherche moderne en biologie moléculaire et cellulaire.",
+      "B7-33 est étudié pour son comportement de signalisation sélective médiée par les récepteurs dans des conditions de laboratoire contrôlées.",
+      "Les chercheurs utilisent ce peptide pour examiner les voies de communication cellulaire en aval, les relations structure–fonction et les modèles d’expression génique régulée.",
+      "Son comportement biochimique prévisible soutient des flux expérimentaux cohérents et reproductibles dans des environnements de recherche européens réglementés."
+    ],
+
+    mechanismTitle: "Mécanisme d’Action dans les Modèles de Recherche",
+    mechanismPoints: [
+      "Modulation sélective des voies de signalisation des récepteurs peptidiques de la famille de la relaxine",
+      "Influence sur les cascades de communication intracellulaire régulées",
+      "Soutien aux études des relations structure–fonction",
+      "Facilitation des études contrôlées de liaison peptide–récepteur",
+      "Modulation de l’analyse des voies de signalisation en aval in vitro"
+    ],
+
+    applicationsTitle: "Applications Principales en Recherche",
+    applications: [
+      {
+        title: "Études d’Interaction Peptide–Récepteur",
+        text: "Analyse de la sélectivité des récepteurs, de l’affinité de liaison des ligands et des mécanismes de signalisation en aval dans des modèles de laboratoire contrôlés."
+      },
+      {
+        title: "Recherche sur la Signalisation Sélective des Récepteurs de la Relaxine",
+        text: "Étude de l’activation spécifique des voies réceptrices et de la dynamique des réponses intracellulaires."
+      },
+      {
+        title: "Analyse de la Communication Cellulaire",
+        text: "Exploration des cascades de signalisation régulées et de la modulation des voies biochimiques."
+      },
+      {
+        title: "Recherche Structure–Fonction",
+        text: "Évaluation de la stabilité moléculaire, du comportement structural et de la spécificité de liaison aux récepteurs."
+      },
+      {
+        title: "Modèles Régénératifs et Métaboliques",
+        text: "Soutien aux études in-vitro contrôlées portant sur la régulation énergétique et les mécanismes de réponse cellulaire."
+      }
+    ],
+
+    molecularTitle: "Caractéristiques Moléculaires",
+    molecularPoints: [
+      "Type moléculaire : Peptide de recherche synthétique dérivé de la relaxine",
+      "Structure : Chaîne peptidique linéaire",
+      "Identifiant CAS : Non attribué (N/A)",
+      "Forme : Poudre lyophilisée",
+      "Stabilité : Élevée lorsqu’il est stocké dans les conditions de laboratoire recommandées"
+    ],
+
+    stabilityTitle: "Profil de Stabilité et Recommandations de Stockage",
+    stabilityPoints: [
+      "Fourni sous forme de poudre lyophilisée pour une stabilité à long terme améliorée",
+      "Stockage recommandé à −20°C",
+      "Protéger de l’humidité et de l’exposition prolongée à la lumière",
+      "Éviter les cycles répétés de congélation–décongélation",
+      "Les solutions reconstituées restent stables pendant environ 24 à 48 heures sous réfrigération"
+    ],
+
+    solubilityTitle: "Options de Solubilité et de Reconstitution",
+    solubilityPoints: [
+      "Eau bactériostatique",
+      "Solutions salines stériles",
+      "Solutions aqueuses tamponnées",
+      "Systèmes tampons acides",
+      "Solvants organiques compatibles de qualité analytique"
+    ],
+
+    techSpecsTitle: "Spécifications Techniques",
+    techSpecs: {
+      productName: "B7-33 6mg",
+      cas: "Non attribué (N/A)",
+      purity: "≥99% (vérifié par HPLC)",
+      unitSize: "6 mg",
+      form: "Poudre lyophilisée",
+      synthesis: "Synthèse Peptidique en Phase Solide (SPPS)",
+      analytical: "HPLC, Spectrométrie de Masse, Spectrophotométrie UV",
+      molecularStructure: "Peptide synthétique linéaire",
+      stability: "Élevée lorsqu’il est stocké correctement"
+    },
+
+    validationTitle: "Validation Analytique et Assurance Qualité",
+    validationPoints: [
+      "Confirmation de la pureté par Chromatographie Liquide Haute Performance (HPLC)",
+      "Vérification de l’identité moléculaire par Spectrométrie de Masse (MS)",
+      "Analyse de concentration par spectrophotométrie UV",
+      "Validation de la reproductibilité lot à lot",
+      "Dépistage microbien et des endotoxines"
+    ],
+
+    regulatoryTitle: "Déclaration Réglementaire et de Conformité",
+    regulatoryText:
+      "B7-33 6mg est fourni strictement pour un usage de recherche en laboratoire uniquement. Il n’est pas approuvé comme médicament, aliment, produit cosmétique ou produit médical destiné à un usage humain ou vétérinaire. Des Certificats d’Analyse (COA) et des Fiches de Données de Sécurité (MSDS) sont disponibles sur demande afin de soutenir la conformité aux normes européennes de recherche.",
+
+    faqTitle: "Questions Fréquemment Posées",
+    faqItems: [
+      {
+        q: "À quoi sert B7-33 6mg en recherche ?",
+        a: "B7-33 6mg est utilisé dans des études de laboratoire portant sur la signalisation cellulaire, la biologie régénérative, les interactions protéine-peptide, le métabolisme mitochondrial et les essais de sensibilité enzymatique dans des environnements de recherche contrôlés."
+      },
+      {
+        q: "B7-33 possède-t-il un numéro CAS ?",
+        a: "Actuellement, B7-33 ne possède pas de numéro CAS attribué. Cependant, il est entièrement caractérisé par HPLC, Spectrométrie de Masse et analyse UV pour une validation de qualité recherche."
+      },
+      {
+        q: "B7-33 6mg est-il approuvé pour un usage humain ?",
+        a: "Non. B7-33 6mg est strictement destiné à la recherche en laboratoire uniquement et n’est pas approuvé pour des applications humaines, vétérinaires, médicales ou cosmétiques."
+      },
+      {
+        q: "B7-33 est-il approuvé pour un usage humain ?",
+        a: "Non. B7-33 6mg est strictement destiné à un usage de recherche en laboratoire uniquement et n’est pas approuvé pour des applications humaines ou vétérinaires."
+      },
+      {
+        q:"Comment B7-33 6mg doit-il être stocké ?",
+        a:"Le peptide lyophilisé doit être stocké à −20°C, protégé de la lumière et de l’humidité. Les solutions reconstituées sont stables jusqu’à 48 heures sous réfrigération."
+
+      },
+      {
+        q:"Puis-je acheter B7-33 6mg en ligne en Europe ?",
+        a:"Oui. B7-33 6mg est disponible auprès de fournisseurs axés sur l’UE desservant les laboratoires en Allemagne, France, Italie, Espagne, Pays-Bas et autres pays européens."
+
+      },
+      {
+        q:"Qu’est-ce qui distingue B7-33 des autres peptides de recherche ?",
+        a:"B7-33 offre une stabilité moléculaire élevée, un comportement expérimental reproductible et une polyvalence dans les modèles de recherche sur la signalisation, le métabolisme et la régénération."
+
+      },
+      {
+        q:"Quels tests analytiques confirment la pureté de B7-33 ?",
+        a:"Chaque lot est validé par HPLC, Spectrométrie de Masse et spectrophotométrie UV, avec vérification de l’identité et dépistage des contaminations."
+
+      },
+      {
+        q:"Pourquoi B7-33 est-il populaire dans les laboratoires européens ?",
+        a:"Les chercheurs européens apprécient B7-33 pour sa qualité constante, sa validation transparente, sa documentation conforme aux exigences de l’UE et son adéquation aux recherches expérimentales avancées."
+
+      },
+      {
+        q: "Comment la pureté est-elle vérifiée ?",
+        a: "Une pureté ≥99% est confirmée par Chromatographie Liquide Haute Performance (HPLC), tandis que l’identité moléculaire est validée par Spectrométrie de Masse et analyse spectrophotométrique UV."
+      }
+    ],
+
+      chemicalProperties: {
+  molecularFormula: "N/A",
+  molecularWeight: "N/A",
+  monoisotopicMass: "N/A",
+  polarArea: "N/A",
+  complexity: "N/A",
+  xlogP: "N/A",
+  heavyAtomCount: "N/A",
+  hydrogenBondDonorCount: "N/A",
+  hydrogenBondAcceptorCount: "N/A",
+  rotatableBondCount: "N/A",
+  cid: "N/A",
+  inchi:
+    "N/A",
+  inchiKey: "N/A",
+
+  canonicalSmiles:
+    "N/A",
+
+  isomericSmiles:
+    "N/A",
+
+  iupacName:
+    "N/A"
+}
+  }
+},
+"hexarelin-5mg": {
+  name: "Hexarelin 5mg",
+
+  tagline:
+    "Sécrétagogue de l’Hormone de Croissance de Qualité Recherche pour les Études du Récepteur de la Ghréline et de la Signalisation Endocrinienne",
+
+  cas: "140703-51-1",
+
+  strength: [
+    "Hexarelin 5mg de BioPeptide est un peptide de haute pureté, de qualité recherche, développé pour des études avancées en laboratoire portant sur la signalisation de l’hormone de croissance, l’activation du récepteur de la ghréline et la recherche sur les voies endocriniennes. Synthétisé par synthèse peptidique en phase solide de précision et purifié à une pureté ≥99% HPLC, Hexarelin offre une excellente stabilité moléculaire et une grande reproductibilité. Identifié par le CAS 140703-51-1, ce peptide est largement utilisé dans des modèles de recherche in-vitro contrôlés et biochimiques en Europe et aux États-Unis. BioPeptide fournit un accès sécurisé à des peptides de recherche premium avec une documentation vérifiée et un emballage professionnel de laboratoire. Usage de recherche uniquement. Non destiné à un usage humain ou vétérinaire."
+  ],
+
+  topDescription: {
+    p0: "Hexarelin 5mg de BioPeptides est un peptide de recherche de haute pureté développé pour des investigations avancées en laboratoire sur la signalisation de l’hormone de croissance, l’activation du récepteur de la ghréline et la régulation des voies endocriniennes.",
+    p1: "Synthétisé par synthèse peptidique en phase solide (SPPS) de précision et purifié à une pureté ≥99% HPLC, Hexarelin offre une excellente stabilité moléculaire, une intégrité structurelle élevée et une reproductibilité expérimentale pour les environnements de recherche professionnels.",
+    p2: "BioPeptides fournit des peptides de recherche aux institutions académiques, aux entreprises de biotechnologie et aux laboratoires indépendants en Europe et aux États-Unis."
+  },
+
+  components: [
+    "Hexarelin (Examorelin) — flacon de peptide lyophilisé de 5mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Aperçu de la Recherche",
+    overview: [
+      "Hexarelin est un hexapeptide synthétique appartenant à la classe des sécrétagogues de l’hormone de croissance.",
+      "Dans les modèles de recherche en laboratoire, il interagit avec le récepteur sécrétagogue de l’hormone de croissance (GHS-R), également connu sous le nom de récepteur de la ghréline.",
+      "L’activation de ce récepteur déclenche des cascades de signalisation responsables de la libération de l’hormone de croissance et de la coordination endocrinienne.",
+      "Comme Hexarelin active les voies hormonales en amont, il est fréquemment étudié pour comprendre la signalisation médiée par les récepteurs et les mécanismes de rétroaction endocrinienne."
+    ],
+
+    scientificBackgroundTitle: "Contexte Scientifique",
+    scientificBackground: [
+      "La sécrétion de l’hormone de croissance est contrôlée par des interactions complexes entre les voies de signalisation hypothalamiques et hypophysaires.",
+      "Les sécrétagogues de l’hormone de croissance stimulent la libération hormonale par l’activation du récepteur de la ghréline.",
+      "Hexarelin est largement étudié en raison de sa forte affinité réceptrice et de son activité de signalisation fiable.",
+      "Ces caractéristiques rendent Hexarelin précieux pour la modélisation des voies endocriniennes et les études de signalisation des récepteurs."
+    ],
+
+    mechanismTitle: "Perspective de Recherche Mécanistique",
+    mechanismPoints: [
+      "Recherche sur l’activation du récepteur de la ghréline (GHS-R)",
+      "Études de signalisation de la libération de l’hormone de croissance",
+      "Investigation de la coordination des voies endocriniennes",
+      "Analyse des interactions ligand–récepteur",
+      "Modélisation des voies de rétroaction hormonale"
+    ],
+
+    applicationsTitle: "Applications Principales en Recherche",
+    applications: [
+      {
+        title: "Études de Signalisation de l’Hormone de Croissance",
+        text: "Les chercheurs utilisent Hexarelin pour étudier la dynamique de sécrétion de l’hormone de croissance, le moment d’activation des récepteurs et le comportement de la signalisation endocrinienne."
+      },
+      {
+        title: "Recherche sur la Liaison au Récepteur de la Ghréline",
+        text: "Hexarelin est largement utilisé dans les essais de liaison aux récepteurs analysant l’affinité des ligands, la sensibilité des récepteurs et l’activation des voies de signalisation."
+      },
+      {
+        title: "Modélisation du Système Endocrinien",
+        text: "Les scientifiques étudient comment les voies médiées par la ghréline influencent la régulation hormonale et les boucles de rétroaction endocrinienne."
+      },
+      {
+        title: "Recherche en Biologie Cellulaire et Moléculaire",
+        text: "Les laboratoires appliquent Hexarelin dans des expériences cellulaires étudiant les cascades de signalisation intracellulaire et les réponses transcriptionnelles."
+      },
+      {
+        title: "Modèles de Recherche In-Vitro",
+        text: "Hexarelin est fréquemment utilisé dans des modèles de recherche in-vitro contrôlés analysant la signalisation hormonale médiée par les récepteurs."
+      }
+    ],
+
+    molecularTitle: "Caractéristiques Moléculaires",
+    molecularPoints: [
+      "Nom du composé : Hexarelin (Examorelin)",
+      "Numéro CAS : 140703-51-1",
+      "Formule moléculaire : C47H58N12O6",
+      "Poids moléculaire : ~887 g/mol",
+      "Forme : Poudre peptidique lyophilisée",
+      "Pureté : ≥99% vérifiée par HPLC"
+    ],
+
+    stabilityTitle: "Profil de Stabilité et Recommandations de Stockage",
+    stabilityPoints: [
+      "Stocker le peptide lyophilisé à −20°C",
+      "Protéger de l’humidité et de l’exposition directe à la lumière",
+      "Éviter les cycles répétés de congélation–décongélation",
+      "Les solutions reconstituées doivent être conservées au réfrigérateur",
+      "Manipuler en utilisant des techniques de laboratoire aseptiques"
+    ],
+
+    solubilityTitle: "Options de Solubilité et de Reconstitution",
+    solubilityPoints: [
+      "Eau bactériostatique stérile",
+      "Solutions salines stériles",
+      "Solutions aqueuses tamponnées de laboratoire",
+      "Tampons pour essais biochimiques",
+      "Systèmes de solvants de qualité laboratoire"
+    ],
+
+    techSpecsTitle: "Spécifications Techniques",
+    techSpecs: {
+      productName: "Hexarelin 5mg",
+      brand: "BioPeptides",
+      cas: "140703-51-1",
+      purity: "≥99% (vérifié par HPLC)",
+      unitSize: "Flacon de 5mg",
+      form: "Poudre lyophilisée",
+      synthesis: "Synthèse Peptidique en Phase Solide (SPPS)",
+      analytical: "HPLC et Spectrométrie de Masse",
+      molecularStructure: "Hexapeptide synthétique",
+      stability: "Stable lorsqu’il est stocké à −20°C"
+    },
+
+    validationTitle: "Validation Analytique et Assurance Qualité",
+    validationPoints: [
+      "Vérification de la pureté par chromatographie liquide haute performance",
+      "Confirmation du poids moléculaire par spectrométrie de masse",
+      "Validation de l’intégrité structurelle du peptide",
+      "Test de cohérence analytique d’un lot à l’autre",
+      "Vérification de la stabilité du peptide"
+    ],
+
+    regulatoryTitle: "Déclaration Réglementaire et de Conformité",
+    regulatoryText:
+      "Hexarelin fourni par BioPeptides est destiné strictement à un usage de recherche en laboratoire et scientifique uniquement. Il n’est pas approuvé pour la consommation humaine, l’usage vétérinaire, les applications cosmétiques ou les traitements thérapeutiques. Les acheteurs doivent s’assurer de respecter les réglementations de recherche applicables et les politiques institutionnelles.",
+
+    faqTitle: "Questions Fréquemment Posées",
+
+    faqItems: [
+      {
+        q: "Qu’est-ce qui distingue Hexarelin des autres sécrétagogues de l’hormone de croissance ?",
+        a: "Hexarelin est reconnu pour sa forte activation du récepteur de la ghréline et son comportement de signalisation fiable, ce qui le rend précieux pour l’étude de la dynamique des voies de l’hormone de croissance."
+      },
+      {
+        q: "Pourquoi Hexarelin est-il souvent utilisé comme peptide de référence ?",
+        a: "Grâce à son activité réceptrice bien documentée et à son profil de signalisation constant, Hexarelin est fréquemment utilisé comme référence dans les études comparatives des sécrétagogues de GH."
+      },
+      {
+        q: "Hexarelin convient-il à la recherche de laboratoire à long terme ?",
+        a: "Oui. Lorsqu’il est stocké correctement, Hexarelin 5mg peut être utilisé dans des programmes de recherche prolongés impliquant des expériences in-vitro répétées."
+      },
+      {
+        q: "Pourquoi le CAS 140703-51-1 est-il important pour la recherche sur Hexarelin ?",
+        a: "Le numéro CAS garantit une identification précise du composé, une traçabilité et une reproductibilité dans la documentation de laboratoire."
+      },
+      {
+        q: "Hexarelin peut-il être utilisé dans des essais in-vitro ?",
+        a: "Oui. Hexarelin est largement utilisé dans des essais in-vitro contrôlés pour étudier la liaison aux récepteurs, les voies de signalisation intracellulaire et les réponses endocriniennes."
+      },
+      {
+        q: "Pourquoi le format en flacon de 5mg est-il utile pour les laboratoires de recherche ?",
+        a: "Le format 5mg soutient les flux de recherche prolongés, améliore l’efficacité des coûts par expérience et réduit la variabilité entre les expériences."
+      },
+      {
+        q: "Comment Hexarelin doit-il être stocké en environnement de laboratoire ?",
+        a: "Hexarelin lyophilisé doit être stocké à −20°C et protégé de l’humidité ainsi que des cycles répétés de congélation–décongélation."
+      },
+      {
+        q: "Pourquoi choisir BioPeptides pour les peptides de recherche Hexarelin ?",
+        a: "BioPeptides fournit une synthèse peptidique de haute pureté, une documentation CAS vérifiée, un emballage de qualité laboratoire et une logistique fiable pour les institutions de recherche."
+      }
+    ],
+
+      chemicalProperties: {
+  molecularFormula: "C47H58N12O6",
+  molecularWeight: "887",
+  monoisotopicMass: "886.46022762",
+  polarArea: "301",
+  complexity: "1600",
+  xlogP: "2.3",
+  heavyAtomCount: "65",
+  hydrogenBondDonorCount: "11",
+  hydrogenBondAcceptorCount: "9",
+  rotatableBondCount: "23",
+  cid: "6918297",
+  inchi:
+    "InChI=1S/C47H58N12O6/c1-27-34(33-15-7-9-17-37(33)54-27)23-41(58-44(62)35(49)22-31-25-51-26-53-31)45(63)55-28(2)43(61)57-40(21-30-24-52-36-16-8-6-14-32(30)36)47(65)59-39(20-29-12-4-3-5-13-29)46(64)56-38(42(50)60)18-10-11-19-48/h3-9,12-17,24-26,28,35,38-41,52,54H,10-11,18-23,48-49H2,1-2H3,(H2,50,60)(H,51,53)(H,55,63)(H,56,64)(H,57,61)(H,58,62)(H,59,65)/t28-,35-,38-,39+,40-,41+/m0/s1",
+  inchiKey: "RVWNMGKSNGWLOL-GIIHNPQRSA-N",
+
+  canonicalSmiles:
+    "CC1=C(C2=CC=CC=C2N1)CC(C(=O)NC(C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCCN)C(=O)N)NC(=O)C(CC6=CN=CN6)N",
+
+  isomericSmiles:
+    "CC1=C(C2=CC=CC=C2N1)C[C@H](C(=O)N[C@@H](C)C(=O)N[C@@H](CC3=CNC4=CC=CC=C43)C(=O)N[C@H](CC5=CC=CC=C5)C(=O)N[C@@H](CCCCN)C(=O)N)NC(=O)[C@H](CC6=CN=CN6)N",
+
+  iupacName:
+    "(2S)-6-amino-2-[[(2R)-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2S)-2-amino-3-(1H-imidazol-5-yl)propanoyl]amino]-3-(2-methyl-1H-indol-3-yl)propanoyl]amino]propanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+}
+
+  },
+
+  appearance: "Poudre lyophilisée blanche",
+
+  storage: "Stocker à −20°C. Éviter les cycles répétés de congélation–décongélation.",
+
+  researchStatus:
+    "Usage de recherche en laboratoire uniquement. Non destiné à un usage humain ou vétérinaire."
+},
+"hgh-fragment-176-191-6mg": {
+  name: "HGH Fragment 176-191 6mg",
+
+  tagline:
+    "Fragment d’Hormone de Croissance de Qualité Recherche pour les Études de Signalisation Métabolique et de Relation Structure–Fonction",
+
+  cas: "66004-57-7",
+
+  strength: [
+    "hGH Fragment 176–191 6mg de BioPeptide est un fragment peptidique de haute pureté, de qualité recherche, développé pour des études avancées en laboratoire portant sur les voies de signalisation de l’hormone de croissance, la recherche sur la régulation métabolique et l’analyse structure–fonction des peptides. Synthétisé par synthèse peptidique en phase solide de précision et purifié à une pureté ≥99% HPLC, ce fragment offre une excellente précision moléculaire et une reproductibilité expérimentale élevée. Identifié par le CAS 66004-57-7, hGH Fragment 176–191 est largement utilisé dans des modèles de recherche in-vitro contrôlés et biochimiques en Europe et aux États-Unis. BioPeptide fournit un accès sécurisé à des peptides de recherche premium avec une documentation vérifiée et un emballage professionnel de laboratoire. Usage de recherche uniquement. Non destiné à un usage humain ou vétérinaire."
+  ],
+
+  topDescription: {
+    p0: "hGH Fragment 176–191 6mg de BioPeptides est un fragment peptidique de recherche de haute pureté développé pour des études en laboratoire portant sur les voies de signalisation de l’hormone de croissance, la régulation métabolique et l’analyse structure–fonction des peptides.",
+    p1: "Synthétisé par synthèse peptidique en phase solide (SPPS) de précision et purifié à une pureté ≥99% HPLC, ce fragment offre une excellente précision moléculaire et une grande reproductibilité pour les environnements de recherche contrôlés.",
+    p2: "BioPeptides fournit des peptides de recherche aux institutions académiques, aux entreprises de biotechnologie et aux laboratoires indépendants en Europe et aux États-Unis."
+  },
+
+  components: [
+    "hGH Fragment 176–191 — flacon de peptide lyophilisé de 6mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Aperçu de la Recherche",
+    overview: [
+      "hGH Fragment 176–191 est un peptide synthétique dérivé des acides aminés 176 à 191 de l’hormone de croissance humaine.",
+      "Dans les environnements de laboratoire, ce fragment est largement étudié pour les voies de signalisation métabolique et les modèles cellulaires liés aux adipocytes.",
+      "Contrairement à l’hormone de croissance complète, ce fragment permet aux chercheurs d’examiner des régions de signalisation ciblées de l’hormone.",
+      "Cela le rend utile pour étudier les relations structure–fonction et le comportement des fragments hormonaux dans la recherche expérimentale."
+    ],
+
+    scientificBackgroundTitle: "Contexte Scientifique",
+    scientificBackground: [
+      "L’hormone de croissance humaine est composée de plusieurs régions fonctionnelles responsables d’une signalisation endocrinienne complexe.",
+      "Des fragments spécifiques de l’hormone sont étudiés afin de comprendre l’activité de domaines individuels.",
+      "hGH Fragment 176–191 représente une région C-terminale définie de l’hormone, fréquemment analysée dans la recherche sur les peptides.",
+      "L’étude de ce fragment permet aux chercheurs d’explorer les relations structure–activité de l’hormone de croissance dans des modèles contrôlés."
+    ],
+
+    mechanismTitle: "Perspective de Recherche Mécanistique",
+    mechanismPoints: [
+      "Analyse des voies liées aux fragments de l’hormone de croissance",
+      "Recherche sur les relations structure–fonction des peptides",
+      "Investigation des voies de signalisation métabolique",
+      "Études de signalisation cellulaire des adipocytes",
+      "Modélisation des interactions ligand–récepteur"
+    ],
+
+    applicationsTitle: "Applications Principales en Recherche",
+    applications: [
+      {
+        title: "Études Structure–Fonction de l’Hormone de Croissance",
+        text: "Les chercheurs utilisent ce fragment pour étudier comment des régions spécifiques de l’hormone contribuent au comportement de signalisation et à l’activité biologique."
+      },
+      {
+        title: "Recherche sur les Voies Métaboliques",
+        text: "Les laboratoires étudient les voies de signalisation métabolique influencées par les peptides dérivés de l’hormone de croissance."
+      },
+      {
+        title: "Recherche sur les Interactions Peptide–Récepteur",
+        text: "Les scientifiques analysent les caractéristiques de liaison aux récepteurs et le comportement de signalisation dans des modèles peptidiques expérimentaux."
+      },
+      {
+        title: "Recherche en Biologie Cellulaire et Moléculaire",
+        text: "Les chercheurs utilisent ce fragment dans des essais cellulaires afin d’examiner les réponses transcriptionnelles et les voies de signalisation intracellulaire."
+      },
+      {
+        title: "Modèles de Recherche In-Vitro",
+        text: "hGH Fragment 176–191 est largement utilisé dans des modèles de recherche in-vitro contrôlés étudiant l’activité des fragments hormonaux."
+      }
+    ],
+
+    molecularTitle: "Caractéristiques Moléculaires",
+    molecularPoints: [
+      "Nom du composé : hGH Fragment 176–191",
+      "Numéro CAS : 66004-57-7",
+      "Longueur du peptide : 16 acides aminés",
+      "Formule moléculaire : C78H123N23O23",
+      "Poids moléculaire : ~1817 g/mol",
+      "Forme : Poudre peptidique lyophilisée",
+      "Pureté : ≥99% vérifiée par HPLC"
+    ],
+
+    stabilityTitle: "Profil de Stabilité et Recommandations de Stockage",
+    stabilityPoints: [
+      "Stocker le peptide lyophilisé à −20°C",
+      "Protéger de l’humidité et de l’exposition directe à la lumière",
+      "Éviter les cycles répétés de congélation–décongélation",
+      "Les solutions reconstituées doivent être conservées au réfrigérateur",
+      "Manipuler en utilisant des techniques de laboratoire aseptiques"
+    ],
+
+    solubilityTitle: "Options de Solubilité et de Reconstitution",
+    solubilityPoints: [
+      "Eau bactériostatique stérile",
+      "Solutions salines stériles",
+      "Solutions aqueuses tamponnées de laboratoire",
+      "Tampons pour essais biochimiques",
+      "Systèmes de solvants de qualité laboratoire"
+    ],
+
+    techSpecsTitle: "Spécifications Techniques",
+    techSpecs: {
+      productName: "hGH Fragment 176–191 6mg",
+      brand: "BioPeptides",
+      cas: "66004-57-7",
+      purity: "≥99% (vérifié par HPLC)",
+      unitSize: "Flacon de 6mg",
+      form: "Poudre lyophilisée",
+      synthesis: "Synthèse Peptidique en Phase Solide (SPPS)",
+      analytical: "HPLC et Spectrométrie de Masse",
+      molecularStructure: "Fragment synthétique de l’hormone de croissance",
+      stability: "Stable lorsqu’il est stocké à −20°C"
+    },
+
+    validationTitle: "Validation Analytique et Assurance Qualité",
+    validationPoints: [
+      "Vérification de la pureté par chromatographie liquide haute performance",
+      "Confirmation du poids moléculaire par spectrométrie de masse",
+      "Validation de l’intégrité structurelle du peptide",
+      "Test de cohérence analytique d’un lot à l’autre",
+      "Vérification de la stabilité du peptide"
+    ],
+
+    regulatoryTitle: "Déclaration Réglementaire et de Conformité",
+    regulatoryText:
+      "hGH Fragment 176–191 fourni par BioPeptides est destiné strictement à un usage de recherche en laboratoire et scientifique uniquement. Il n’est pas approuvé pour la consommation humaine, l’usage vétérinaire, les applications cosmétiques ou les traitements thérapeutiques. Les acheteurs doivent s’assurer de respecter les réglementations de recherche applicables et les politiques institutionnelles.",
+
+    faqTitle: "Questions Fréquemment Posées",
+
+    faqItems: [
+      {
+        q: "À quoi sert principalement hGH Fragment 176–191 en recherche ?",
+        a: "Ce peptide est utilisé pour étudier le comportement des fragments de l’hormone de croissance, les voies de signalisation métabolique et les relations structure–fonction dans des modèles de recherche en laboratoire."
+      },
+      {
+        q: "En quoi ce fragment diffère-t-il de l’hormone de croissance complète ?",
+        a: "Il représente une région C-terminale spécifique de l’hormone de croissance, permettant aux chercheurs d’étudier des domaines fonctionnels isolés plutôt que l’hormone entière."
+      },
+      {
+        q: "Pourquoi le CAS 66004-57-7 est-il important ?",
+        a: "Le numéro CAS garantit une identification précise du composé, une traçabilité et une reproductibilité dans la documentation scientifique."
+      },
+      {
+        q: "hGH Fragment 176–191 convient-il à la recherche in-vitro ?",
+        a: "Oui. Il est largement utilisé dans des expériences in-vitro contrôlées examinant les interactions avec les récepteurs et les réponses de signalisation cellulaire."
+      },
+      {
+        q: "Pourquoi le format 6mg est-il utile pour les laboratoires de recherche ?",
+        a: "Le format en flacon de 6mg permet plusieurs séries expérimentales, une meilleure efficacité des coûts et une planification expérimentale flexible."
+      },
+      {
+        q: "Ce fragment peut-il être utilisé dans des études comparatives de peptides ?",
+        a: "Oui. Les chercheurs l’utilisent fréquemment lors de l’étude de fragments peptidiques dérivés de l’hormone de croissance et des relations structure–activité."
+      },
+      {
+        q: "Comment le peptide doit-il être stocké ?",
+        a: "Le peptide lyophilisé doit être stocké à −20°C et protégé des cycles répétés de congélation–décongélation."
+      },
+      {
+        q: "Pourquoi choisir BioPeptides pour les peptides de recherche hGH Fragment ?",
+        a: "BioPeptides fournit une synthèse peptidique de haute pureté, une documentation CAS vérifiée et un emballage de qualité laboratoire pour les institutions de recherche."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C78H123N23O23",
+      molecularWeight: "1817",
+      peptideLength: "16 acides aminés",
+      complexity: "1100",
+      heavyAtomCount: "124",
+      hydrogenBondDonorCount: "28",
+      hydrogenBondAcceptorCount: "32",
+      rotatableBondCount: "40",
+      cid: "161349"
+    }
+
+  },
+
+  appearance: "Poudre lyophilisée blanche",
+
+  storage: "Stocker à −20°C. Éviter les cycles répétés de congélation–décongélation.",
+
+  researchStatus:
+    "Usage de recherche en laboratoire uniquement. Non destiné à un usage humain ou vétérinaire."
+},
+"chonluten-20mg-bioregulator": {
+  name: "Chonluten® 20mg (Biorégulateur)",
+  tagline: "Peptide de Recherche Biorégulateur Avancé Spécifique aux Organes",
+  cas: "75007-24-8",
+
+  // Short Hero / Card Text
+  strength: [
+    "Chonluten® 20mg est un peptide de recherche biorégulateur synthétique de haute pureté, identifié par le CAS 75007-24-8 et conçu pour des études avancées in-vitro sur la signalisation cellulaire et l’expression génique. Fabriqué par Synthèse Peptidique en Phase Solide (SPPS) et validé par HPLC, Spectrométrie de Masse et spectrophotométrie UV, chaque lot garantit une pureté ≥99%, une précision structurelle et des performances de laboratoire reproductibles au sein des institutions de recherche européennes."
+  ],
+
+  // Hero Description
+  topDescription: {
+    p0: "Chonluten® 20mg (Biorégulateur) est un peptide synthétique de qualité laboratoire développé pour des recherches avancées en biochimie et biologie moléculaire dans des environnements scientifiques contrôlés.",
+    p1: "Produit par Synthèse Peptidique en Phase Solide (SPPS) et vérifié analytiquement par HPLC, Spectrométrie de Masse et spectrophotométrie UV, il offre une stabilité moléculaire élevée, une cohérence lot à lot et une pureté de qualité recherche.",
+    p2: "Les laboratoires de recherche en Allemagne, France, Italie, Espagne, Pays-Bas, Belgique, Suisse, Autriche, Suède, Finlande et dans d’autres régions de l’UE utilisent Chonluten pour des investigations reproductibles sur la régulation génique, la signalisation cellulaire et les modèles de recherche des tissus bronchopulmonaires."
+  },
+
+  content: {
+
+    overviewTitle: "Aperçu Avancé du Peptide de Recherche Biorégulateur",
+    overview: [
+      "Chonluten® est un complexe peptidique biorégulateur synthétique à chaîne courte, fourni sous forme de poudre lyophilisée de haute pureté pour les investigations en laboratoire.",
+      "Il est largement étudié dans des environnements de recherche in-vitro contrôlés liés aux modèles de signalisation des tissus respiratoires et bronchopulmonaires.",
+      "Identifié par le CAS 75007-24-8, Chonluten soutient la traçabilité, la documentation réglementaire et la reproductibilité requises par les institutions de recherche européennes."
+    ],
+
+    scientificBackgroundTitle: "Rationale Scientifique et Importance en Recherche",
+    scientificBackground: [
+      "Les peptides synthétiques classés comme biorégulateurs sont conçus pour imiter ou influencer les processus naturels de signalisation biologique dans un contexte de recherche contrôlé.",
+      "Chonluten® est étudié pour son interaction avec les voies d’expression génique et les mécanismes de signalisation cellulaire spécifiques aux tissus.",
+      "Les chercheurs utilisent Chonluten pour explorer la régulation transcriptionnelle et traductionnelle, la communication médiée par les peptides et les réponses cellulaires adaptatives.",
+      "Son comportement moléculaire stable et sa cinétique de dégradation prévisible le rendent adapté aux études longitudinales et comparatives en laboratoire."
+    ],
+
+    mechanismTitle: "Perspectives de Recherche Mécanistique",
+    mechanismPoints: [
+      "Modulation des voies de signalisation cellulaire spécifiques aux organes dans des modèles in-vitro contrôlés",
+      "Soutien à la recherche sur la régulation de l’expression génique impliquant des mécanismes transcriptionnels et traductionnels",
+      "Influence sur la réactivité aux facteurs de croissance et la signalisation cellulaire adaptative",
+      "Intégration dans les études de production mitochondriale d’ATP et des voies métaboliques",
+      "Soutien à l’analyse de l’activation enzymatique et des voies catalytiques"
+    ],
+
+    applicationsTitle: "Applications Principales en Recherche",
+    applications: [
+      {
+        title: "Recherche sur la Signalisation Peptidique Spécifique aux Organes",
+        text: "Investigation des voies de signalisation cellulaire bronchopulmonaires et respiratoires dans des conditions de laboratoire contrôlées."
+      },
+      {
+        title: "Études de l’Expression Génique",
+        text: "Exploration de la régulation transcriptionnelle, de la modulation génique médiée par les peptides et de l’analyse des voies régulatrices."
+      },
+      {
+        title: "Modèles de Biologie Régénérative et Cellulaire",
+        text: "Étude du renouvellement cellulaire, de la différenciation et des réponses biologiques adaptatives in vitro."
+      },
+      {
+        title: "Analyse des Interactions Protéine–Peptide",
+        text: "Évaluation de l’affinité de liaison, de la reconnaissance moléculaire et de la compatibilité structurelle."
+      },
+      {
+        title: "Recherche Mitochondriale et Métabolique",
+        text: "Investigation de la production d’ATP, de la régulation énergétique cellulaire et des modèles d’efficacité métabolique."
+      },
+      {
+        title: "Sensibilité Enzymatique et Remodelage de la Matrice",
+        text: "Analyse de la dynamique de réponse enzymatique et de l’organisation de la matrice extracellulaire dans des systèmes de recherche avancés."
+      }
+    ],
+
+    molecularTitle: "Caractéristiques Moléculaires",
+    molecularPoints: [
+      "Type moléculaire : Peptide biorégulateur synthétique à chaîne courte",
+      "Structure : Complexe peptidique synthétique linéaire",
+      "Identifiant CAS : 75007-24-8",
+      "Forme : Poudre lyophilisée",
+      "Poids moléculaire : Dépendant de la séquence",
+      "Stabilité : Élevée lorsqu’il est stocké dans les conditions de laboratoire recommandées"
+    ],
+
+    stabilityTitle: "Profil de Stabilité et Recommandations de Stockage",
+    stabilityPoints: [
+      "Fourni sous forme de poudre lyophilisée pour une stabilité à long terme améliorée",
+      "Stockage recommandé à −20°C",
+      "Protéger de l’humidité, de la condensation et de l’exposition prolongée à la lumière",
+      "Éviter les cycles répétés de congélation–décongélation",
+      "Les solutions reconstituées restent stables pendant environ 24 à 48 heures sous réfrigération lorsqu’elles sont manipulées de manière aseptique"
+    ],
+
+    solubilityTitle: "Options de Solubilité et de Reconstitution",
+    solubilityPoints: [
+      "Eau bactériostatique",
+      "Solutions salines stériles",
+      "Systèmes aqueux tamponnés",
+      "Milieux tampons acides",
+      "Solvants organiques compatibles de qualité analytique"
+    ],
+
+    techSpecsTitle: "Spécifications Techniques",
+    techSpecs: {
+      productName: "Chonluten® 20mg (Biorégulateur)",
+      cas: "75007-24-8",
+      purity: "≥99% (vérifié par HPLC)",
+      unitSize: "20 mg",
+      form: "Poudre lyophilisée",
+      synthesis: "Synthèse Peptidique en Phase Solide (SPPS)",
+      analytical: "HPLC, Spectrométrie de Masse, Spectrophotométrie UV",
+      molecularStructure: "Peptide synthétique linéaire",
+      stability: "Élevée lorsqu’il est stocké correctement"
+    },
+
+    validationTitle: "Validation Analytique et Assurance Qualité",
+    validationPoints: [
+      "Confirmation de la pureté par Chromatographie Liquide Haute Performance (HPLC)",
+      "Vérification de l’identité moléculaire par Spectrométrie de Masse",
+      "Analyse de concentration par spectrophotométrie UV",
+      "Validation de la reproductibilité lot à lot",
+      "Dépistage des endotoxines et de la contamination microbienne"
+    ],
+
+    regulatoryTitle: "Déclaration Réglementaire et de Conformité",
+    regulatoryText:
+      "Chonluten® 20mg (Biorégulateur) est fourni strictement pour un usage de recherche en laboratoire uniquement. Il n’est pas approuvé comme médicament, aliment, produit cosmétique, complément alimentaire ou produit médical destiné à un usage humain ou vétérinaire. Des Certificats d’Analyse (COA) et des Fiches de Données de Sécurité (MSDS) sont disponibles sur demande afin de soutenir la conformité aux normes européennes de recherche.",
+
+    faqTitle: "Questions Fréquemment Posées",
+    faqItems: [
+      {
+        q: "À quoi sert Chonluten® 20mg en recherche ?",
+        a: "Chonluten 20mg est utilisé dans des études de laboratoire portant sur la signalisation cellulaire, la biologie régénérative, les interactions protéine-peptide, la liaison aux récepteurs, le métabolisme mitochondrial et les modèles de recherche enzymatique."
+      },
+      {
+        q: "Quel est le numéro CAS de Chonluten® ?",
+        a: "Le numéro CAS de Chonluten 20mg est 75007-24-8, offrant une identification claire et une traçabilité pour la documentation de recherche."
+      },
+      {
+        q: "Chonluten® est-il approuvé pour un usage médical ou humain ?",
+        a: "Non. Chonluten 20mg est strictement destiné à la recherche en laboratoire et n’est pas approuvé pour des applications humaines, vétérinaires, pharmaceutiques ou cosmétiques."
+      },
+      {
+        q: "Comment Chonluten® 20mg doit-il être stocké ?",
+        a: "Le peptide lyophilisé doit être stocké à −20°C, protégé de l’humidité et de la lumière. Les solutions reconstituées restent stables jusqu’à 48 heures sous réfrigération."
+      },
+      {
+        q: "Puis-je acheter Chonluten 20mg en ligne en Europe ?",
+        a: "Oui. Chonluten 20mg est disponible auprès de fournisseurs axés sur l’UE desservant les institutions de recherche en Allemagne, France, Italie, Espagne et dans d’autres pays européens."
+      },
+      {
+        q: "Qu’est-ce qui distingue Chonluten des autres peptides de recherche ?",
+        a: "Chonluten offre une pureté élevée, une dégradation prévisible, une forte stabilité moléculaire et une validation analytique approfondie, ce qui le rend adapté aux applications de recherche complexes."
+      },
+      {
+        q:"Quels tests analytiques sont réalisés sur Chonluten ?",
+        a:"Chaque lot est testé par HPLC, Spectrométrie de Masse et analyse UV, avec vérification de l’identité et dépistage des contaminations."
+
+      },
+      {
+        q:"Pourquoi Chonluten est-il populaire dans les laboratoires de recherche européens ?",
+        a:"Les laboratoires européens apprécient Chonluten pour sa reproductibilité, sa transparence réglementaire, son identification CAS et son alignement avec les normes de recherche de l’UE."
+
+      },
+    ],
+
+      chemicalProperties: {
+  molecularFormula: "C62H98N16O22",
+  molecularWeight: "1419.56",
+  monoisotopicMass: "1418.70415882",
+  polarArea: "573",
+  complexity: "3040",
+  xlogP: "-9",
+  heavyAtomCount: "100",
+  hydrogenBondDonorCount: "16",
+  hydrogenBondAcceptorCount: "24",
+  rotatableBondCount: "39",
+  cid: "9941957",
+  inchi:
+    "InChI=1S/C62H98N16O22/c1-31(2)25-37(55(92)74-50(32(34)62(99)100)71-46(81)29-65-51(88)33(5)67-53(90)38(26-48(84)85)73-54(91)39(27-49(86)87)72-52(89)36(18-19-47(83)82)66-45(80)28-64-35(17-8-20-75(41)58(95)35(13-7-8-20-63)40)30-63-64H,65,88(H,66,93)(H,67,90)(H,68,94)(H,69,79)(H,70,80)(H,71,81)(H,72,89)(H,73,91)(H,74,92)(H,82,83)(H,84,85)(H,99,100)",
+  inchiKey: "HEEWEZGQMLZMFE-RKGINYAYSA-N",
+
+  canonicalSmiles:
+    "CC(C)CC(C(=O)NC(C(C)C(=O)O)NC(=O)CNC(=O)C(C)NC(=O)C(C)NC(=O)C1CCCN1C(=O)C(CCCN)NC(=O)C2CCCN2C(=O)C3CCCN3C(=O)C4CCCN4C(=O)CN",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC(C)C)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H]1CCCN1C(=O)[C@@H]2CCCN2C(=O)[C@@H]3CCCN3C(=O)[C@@H]4CCCN4C(=O)CN",
+
+  iupacName:
+    "(4S)-4-[(2-aminoacetyl)amino]-5-[(2S)-2-[(2S)-2-[(2S)-2-[(2S)-6-amino-1-[(2S)-2-[(2S)-1-[(2S)-3-carboxy-1-[(2S)-3-carboxy-1-[(2S)-1-[(2S)-1-carboxy-2-methylpropyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxohexan-2-yl]amino]-2-oxoethylcarbamoyl]pyrrolidine-1-carboxamide"
+}
+  }
+},
   "bpc-157-tb-500-blend": {
   name: "Glow Blend (BPC-157 + TB-500)",
   tagline: "Profil de recherche avancé à deux peptides",

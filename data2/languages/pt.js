@@ -511,6 +511,7 @@ xlogP: "-9",
         canonicalSmiles: "CC(C)CC(C(=O)NC(C(C)C)C(=O)O)NC(=O)CNC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C1CCCN1C(=O)C(CCCCN)NC(=O)CNC(=O)C2CCCN2C(=O)C3CCCN3C(=O)C4CCCN4C(=O)C(CCC(=O)O)NC(=O)CN Timbetasin: CCC(C)C(C(=O)NC(CCC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(CC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CO)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)O)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CC(=O)N)C(=O)N2CCCC2C(=O)NC(CC(C)C)C(=O)N3CCCC3C(=O)NC(CO)C(=O)NC(CCCCN)C(=O)NC(CCC(=O)O)C(=O)NC(C(C)O)C(=O)NC(C(C)CC)C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CCC(=O)N)C(=O)NC(C)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(C)NC(=O)C(CCSC)NC(=O)C(CC(=O)O)NC(=O)C4CCCN4C(=O)C(CCCCN)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C"
       }
     }
+  
   },
     "aod9604-5mg": {
     name: "AOD9604 5mg",
@@ -9426,6 +9427,206 @@ xlogP: "1.9",
   researchStatus:
     "Apenas para uso em pesquisa laboratorial. Não para uso humano ou veterinário."
 },
+"hexarelin-2mg": {
+  name: "Hexarelin 2mg",
+
+  tagline:
+    "Secretagogo do hormônio do crescimento de grau de pesquisa para estudos de receptor de grelina e sinalização endócrina",
+
+  cas: "140703-51-1",
+
+  strength: [
+    "Hexarelin (Examorelin) 2mg da BioPeptide é um peptídeo de alta pureza, de grau de pesquisa, desenvolvido para estudos laboratoriais em sinalização do hormônio do crescimento, ativação do receptor de grelina e pesquisa de vias endócrinas. Sintetizado por meio de síntese peptídica em fase sólida avançada e purificado para ≥99% por HPLC, este peptídeo garante excelente estabilidade molecular e reprodutibilidade. Identificado pelo CAS 140703-51-1, Hexarelin é amplamente utilizado em modelos controlados de pesquisa in-vitro e bioquímica em toda a Europa e nos Estados Unidos. A BioPeptide permite que laboratórios comprem peptídeos de pesquisa online com confiança por meio de documentação transparente e embalagem laboratorial profissional. Somente para uso em pesquisa. Não destinado ao uso humano ou veterinário."
+  ],
+
+  topDescription: {
+    p0: "Hexarelin (Examorelin) 2mg da BioPeptides é um peptídeo de pesquisa de alta pureza desenvolvido para investigações laboratoriais sobre sinalização do hormônio do crescimento, ativação do receptor de grelina e regulação de vias endócrinas.",
+    p1: "Fabricado usando síntese peptídica em fase sólida (SPPS) avançada e purificado para ≥99% por HPLC, o peptídeo oferece excelente estabilidade molecular e reprodutibilidade para ambientes de pesquisa controlados.",
+    p2: "A BioPeptides fornece peptídeos de pesquisa para laboratórios profissionais em toda a Europa e nos Estados Unidos, apoiando instituições acadêmicas, empresas de biotecnologia e instalações independentes de pesquisa."
+  },
+
+  components: [
+    "Hexarelin (Examorelin) — frasco de peptídeo liofilizado de 2mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Visão geral da pesquisa",
+    overview: [
+      "Hexarelin (Examorelin) é um hexapeptídeo sintético amplamente estudado como secretagogo do hormônio do crescimento.",
+      "Em ambientes laboratoriais, Hexarelin interage com o receptor secretagogo do hormônio do crescimento (GHS-R), também conhecido como receptor de grelina.",
+      "A ativação desse receptor inicia cascatas de sinalização envolvidas na liberação do hormônio do crescimento e na coordenação endócrina.",
+      "Como atua a montante na regulação hormonal, Hexarelin é frequentemente usado para estudar vias de sinalização mediadas por receptores e mecanismos de feedback endócrino."
+    ],
+
+    scientificBackgroundTitle: "Contexto científico",
+    scientificBackground: [
+      "A liberação do hormônio do crescimento é regulada por sinalização complexa entre o hipotálamo e a glândula hipófise.",
+      "Secretagogos do hormônio do crescimento, como Hexarelin, estimulam a liberação hormonal por meio da ativação do receptor de grelina.",
+      "Esse mecanismo mediado por receptor permite que cientistas investiguem vias de sinalização endócrina e circuitos de feedback hormonal.",
+      "Hexarelin tem sido amplamente estudado devido à sua forte afinidade por receptores e atividade de sinalização confiável em modelos experimentais."
+    ],
+
+    mechanismTitle: "Perspectiva mecanística de pesquisa",
+    mechanismPoints: [
+      "Estudos de ativação do receptor de grelina (GHS-R)",
+      "Análise da sinalização de liberação do hormônio do crescimento",
+      "Pesquisa de coordenação de vias endócrinas",
+      "Modelagem de interação ligante–receptor",
+      "Investigação de vias de feedback hormonal"
+    ],
+
+    applicationsTitle: "Principais aplicações de pesquisa",
+    applications: [
+      {
+        title: "Estudos de sinalização do hormônio do crescimento",
+        text: "Pesquisadores usam Hexarelin para investigar a dinâmica da secreção do hormônio do crescimento, o tempo de ativação do receptor e as respostas de sinalização endócrina."
+      },
+      {
+        title: "Pesquisa de ligação ao receptor de grelina",
+        text: "Hexarelin é amplamente aplicado em ensaios de ligação a receptores que analisam afinidade de ligantes, sensibilidade do receptor e intensidade da sinalização."
+      },
+      {
+        title: "Modelagem do sistema endócrino",
+        text: "Cientistas usam Hexarelin para explorar a coordenação de vias hormonais e o comportamento da sinalização endócrina em modelos de pesquisa controlados."
+      },
+      {
+        title: "Pesquisa em biologia celular e molecular",
+        text: "Laboratórios aplicam Hexarelin em experimentos celulares que estudam cascatas de sinalização intracelular e respostas transcricionais."
+      },
+      {
+        title: "Modelos de pesquisa in-vitro",
+        text: "Hexarelin é frequentemente usado em modelos controlados de pesquisa in-vitro que investigam sinalização hormonal mediada por receptores."
+      }
+    ],
+
+    molecularTitle: "Características moleculares",
+    molecularPoints: [
+      "Nome do composto: Hexarelin (Examorelin)",
+      "Número CAS: 140703-51-1",
+      "Fórmula molecular: C47H58N12O6",
+      "Peso molecular: ~887 g/mol",
+      "Forma: Pó peptídico liofilizado",
+      "Pureza: ≥99% verificada por HPLC"
+    ],
+
+    stabilityTitle: "Perfil de estabilidade e recomendações de armazenamento",
+    stabilityPoints: [
+      "Armazenar o peptídeo liofilizado a −20°C",
+      "Proteger da umidade e da exposição direta à luz",
+      "Evitar ciclos repetidos de congelamento e descongelamento",
+      "Soluções reconstituídas devem ser mantidas refrigeradas",
+      "Manusear usando técnicas laboratoriais assépticas"
+    ],
+
+    solubilityTitle: "Opções de solubilidade e reconstituição",
+    solubilityPoints: [
+      "Água bacteriostática estéril",
+      "Soluções salinas estéreis",
+      "Soluções laboratoriais aquosas tamponadas",
+      "Tampões para ensaios bioquímicos",
+      "Sistemas de solventes de grau laboratorial"
+    ],
+
+    techSpecsTitle: "Especificações técnicas",
+    techSpecs: {
+      productName: "Hexarelin (Examorelin) 2mg",
+      brand: "BioPeptides",
+      cas: "140703-51-1",
+      purity: "≥99% (verificado por HPLC)",
+      unitSize: "Frasco de 2mg",
+      form: "Pó liofilizado",
+      synthesis: "Síntese Peptídica em Fase Sólida (SPPS)",
+      analytical: "HPLC e Espectrometria de Massa",
+      molecularStructure: "Hexapeptídeo sintético",
+      stability: "Estável quando armazenado a −20°C"
+    },
+
+    validationTitle: "Validação analítica e garantia de qualidade",
+    validationPoints: [
+      "Verificação de pureza por cromatografia líquida de alta eficiência",
+      "Confirmação do peso molecular por espectrometria de massa",
+      "Validação da integridade estrutural do peptídeo",
+      "Teste de consistência analítica entre lotes",
+      "Verificação da estabilidade do peptídeo"
+    ],
+
+    regulatoryTitle: "Declaração regulatória e de conformidade",
+    regulatoryText:
+      "Hexarelin fornecido pela BioPeptides é destinado estritamente apenas ao uso em pesquisa laboratorial e científica. Não é aprovado para consumo humano, uso veterinário, aplicações cosméticas ou tratamentos terapêuticos. Os compradores devem garantir conformidade com os regulamentos de pesquisa aplicáveis e políticas institucionais.",
+
+    faqTitle: "Perguntas frequentes",
+
+    faqItems: [
+      {
+        q: "Para que Hexarelin é usado principalmente em pesquisas laboratoriais?",
+        a: "Hexarelin é usado para estudar a liberação do hormônio do crescimento, ativação do receptor de grelina e mecanismos de sinalização endócrina em ambientes laboratoriais controlados."
+      },
+      {
+        q: "Por que Hexarelin também é chamado de Examorelin?",
+        a: "Examorelin é um nome alternativo para Hexarelin usado na literatura científica e refere-se ao mesmo composto peptídico identificado pelo CAS 140703-51-1."
+      },
+      {
+        q: "Hexarelin é adequado para modelos de pesquisa in-vitro?",
+        a: "Sim. Hexarelin é amplamente usado em experimentos in-vitro que analisam ligação a receptores, vias de sinalização hormonal e mecanismos de resposta celular."
+      },
+      {
+        q: "Por que o CAS 140703-51-1 é importante para a pesquisa com Hexarelin?",
+        a: "O número CAS garante identificação precisa do composto, rastreabilidade e reprodutibilidade em toda a documentação laboratorial."
+      },
+      {
+        q: "Por que o formato de frasco de 2mg é útil para pesquisa?",
+        a: "O tamanho de 2mg é ideal para experimentos piloto, estudos comparativos e projetos acadêmicos que exigem quantidades precisas de peptídeo."
+      },
+      {
+        q: "Como Hexarelin deve ser armazenado para uso em pesquisa?",
+        a: "Hexarelin deve ser armazenado a −20°C em forma liofilizada e protegido contra ciclos repetidos de congelamento e descongelamento."
+      },
+      {
+        q: "Hexarelin pode ser usado em estudos comparativos de secretagogos de GH?",
+        a: "Sim. Hexarelin é frequentemente usado como composto de referência ao comparar intensidade de sinalização e ativação de receptores com outros secretagogos do hormônio do crescimento."
+      },
+      {
+        q: "Por que escolher a BioPeptides para peptídeos de pesquisa Hexarelin?",
+        a: "A BioPeptides fornece síntese peptídica de alta pureza, documentação CAS verificada e logística confiável para laboratórios de pesquisa."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "C47H58N12O6",
+  molecularWeight: "887",
+  monoisotopicMass: "886.46022762",
+  polarArea: "301",
+  complexity: "1600",
+  xlogP: "2.3",
+  heavyAtomCount: "65",
+  hydrogenBondDonorCount: "11",
+  hydrogenBondAcceptorCount: "9",
+  rotatableBondCount: "23",
+  cid: "6918297",
+  inchi:
+    "InChI=1S/C47H58N12O6/c1-27-34(33-15-7-9-17-37(33)54-27)23-41(58-44(62)35(49)22-31-25-51-26-53-31)45(63)55-28(2)43(61)57-40(21-30-24-52-36-16-8-6-14-32(30)36)47(65)59-39(20-29-12-4-3-5-13-29)46(64)56-38(42(50)60)18-10-11-19-48/h3-9,12-17,24-26,28,35,38-41,52,54H,10-11,18-23,48-49H2,1-2H3,(H2,50,60)(H,51,53)(H,55,63)(H,56,64)(H,57,61)(H,58,62)(H,59,65)/t28-,35-,38-,39+,40-,41+/m0/s1",
+  inchiKey: "RVWNMGKSNGWLOL-GIIHNPQRSA-N",
+
+  canonicalSmiles:
+    "CC1=C(C2=CC=CC=C2N1)CC(C(=O)NC(C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCCN)C(=O)N)NC(=O)C(CC6=CN=CN6)N",
+
+  isomericSmiles:
+    "CC1=C(C2=CC=CC=C2N1)C[C@H](C(=O)N[C@@H](C)C(=O)N[C@@H](CC3=CNC4=CC=CC=C43)C(=O)N[C@H](CC5=CC=CC=C5)C(=O)N[C@@H](CCCCN)C(=O)N)NC(=O)[C@H](CC6=CN=CN6)N",
+
+  iupacName:
+    "(2S)-6-amino-2-[[(2R)-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2S)-2-amino-3-(1H-imidazol-5-yl)propanoyl]amino]-3-(2-methyl-1H-indol-3-yl)propanoyl]amino]propanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+}
+
+  },
+
+  appearance: "Pó peptídico liofilizado branco",
+
+  storage: "Armazenar a −20°C. Evitar ciclos repetidos de congelamento e descongelamento.",
+
+  researchStatus:
+    "Somente para uso em pesquisa laboratorial. Não destinado ao uso humano ou veterinário."
+},
 "hexarelin-2mg-x-10-modgrf-1-29-2mg-x-10": {
   name: "Hexarelin 2mg ×10 + MOD-GRF (1-29) 2mg ×10 (Pacote)",
 
@@ -10592,7 +10793,1766 @@ xlogP: "1.9",
   researchStatus:
     "Apenas para uso em pesquisa laboratorial. Não para uso humano ou veterinário."
 },
+"ipamorelin-2mg": {
+  name: "Ipamorelin 2mg",
+  tagline: "Secretagogo seletivo do hormônio do crescimento para pesquisa de sinalização endócrina específica de receptores",
+  cas: "170851-70-4",
 
+  strength: [
+    "Ipamorelin 2mg da BioPeptide é um peptídeo de pesquisa de alta pureza desenvolvido para estudos laboratoriais avançados focados na sinalização do hormônio do crescimento, ativação do receptor de grelina e análise de vias endócrinas. Sintetizado usando química peptídica de precisão e purificado para ≥99% por HPLC, Ipamorelin apoia pesquisas in-vitro e bioquímicas reprodutíveis em laboratórios acadêmicos e de biotecnologia."
+  ],
+
+  topDescription: {
+    p0: "Ipamorelin é um pentapeptídeo sintético classificado como secretagogo do hormônio do crescimento, amplamente utilizado em pesquisas laboratoriais.",
+    p1: "Pesquisadores estudam Ipamorelin por sua interação seletiva com receptores secretagogos do hormônio do crescimento (GHS-R) e seu papel na sinalização endócrina específica de receptores.",
+    p2: "Sua atividade direcionada ao receptor o torna útil para investigar vias hormonais hipofisárias e mecanismos de secreção do hormônio do crescimento."
+  },
+
+  components: [
+    "Ipamorelin — frasco de peptídeo liofilizado de 2mg"
+  ],
+
+  content: {
+    overviewTitle: "Visão geral da pesquisa",
+    overview: [
+      "Ipamorelin é um pentapeptídeo sintético pertencente à classe dos secretagogos do hormônio do crescimento.",
+      "Ele é estudado principalmente por sua interação com o receptor secretagogo do hormônio do crescimento (GHS-R).",
+      "A pesquisa laboratorial frequentemente se concentra na ativação seletiva de receptores pelo Ipamorelin e em seu comportamento de sinalização endócrina.",
+      "Essas características o tornam valioso para modelos de pesquisa de ligação a receptores e vias hormonais."
+    ],
+
+    scientificBackgroundTitle: "Contexto científico",
+    scientificBackground: [
+      "A secreção do hormônio do crescimento é regulada por vias endócrinas complexas que envolvem peptídeos hipotalâmicos e receptores hipofisários.",
+      "Ipamorelin ativa seletivamente receptores de grelina envolvidos na liberação do hormônio do crescimento.",
+      "Sua especificidade por receptores permite que pesquisadores estudem a sinalização do hormônio do crescimento com interação mínima com outras vias hormonais.",
+      "Isso torna Ipamorelin um composto útil para pesquisas de sinalização endócrina e em nível de receptor."
+    ],
+
+    mechanismTitle: "Perspectiva mecanística de pesquisa",
+    mechanismPoints: [
+      "Ativação do receptor secretagogo do hormônio do crescimento",
+      "Pesquisa de sinalização endócrina hipofisária",
+      "Estudos seletivos de interação peptídeo–receptor",
+      "Investigação da via de secreção hormonal",
+      "Pesquisa de vias de sinalização celular"
+    ],
+
+    applicationsTitle: "Principais aplicações de pesquisa",
+    applications: [
+      {
+        title: "Pesquisa sobre liberação do hormônio do crescimento",
+        text: "Ipamorelin é usado em pesquisas laboratoriais para estudar padrões de secreção do hormônio do crescimento e o tempo de ativação dos receptores."
+      },
+      {
+        title: "Sinalização de receptores hipofisários",
+        text: "Pesquisadores analisam como Ipamorelin interage com receptores GHS-R nas vias de sinalização hipofisária."
+      },
+      {
+        title: "Investigação de vias endócrinas",
+        text: "Laboratórios usam Ipamorelin para explorar a coordenação da sinalização hormonal e a regulação endócrina."
+      },
+      {
+        title: "Estudos de sinalização celular",
+        text: "Ipamorelin é incorporado em ensaios baseados em células que estudam cascatas de sinalização intracelular."
+      }
+    ],
+
+    molecularTitle: "Características moleculares",
+    molecularPoints: [
+      "Nome do composto: Ipamorelin",
+      "Número CAS: 170851-70-4",
+      "Comprimento do peptídeo: 5 aminoácidos",
+      "Fórmula molecular: C38H49N9O5",
+      "Peso molecular: ~711,85 g/mol",
+      "Forma: Pó peptídico liofilizado",
+      "Pureza: ≥99% verificada por HPLC"
+    ],
+
+    stabilityTitle: "Perfil de estabilidade e recomendações de armazenamento",
+    stabilityPoints: [
+      "Armazenar o peptídeo liofilizado a −20°C",
+      "Proteger da umidade e da exposição à luz",
+      "Evitar ciclos repetidos de congelamento e descongelamento",
+      "Soluções reconstituídas devem ser mantidas refrigeradas",
+      "Usar solventes laboratoriais estéreis para preparação"
+    ],
+
+    solubilityTitle: "Opções de solubilidade e reconstituição",
+    solubilityPoints: [
+      "Água bacteriostática estéril",
+      "Soluções salinas estéreis",
+      "Soluções tampão laboratoriais",
+      "Tampões para ensaios peptídicos",
+      "Sistemas de solventes bioquímicos"
+    ],
+
+    techSpecsTitle: "Especificações técnicas",
+    techSpecs: {
+      productName: "Ipamorelin 2mg",
+      brand: "BioPeptides",
+      cas: "170851-70-4",
+      purity: "≥99% (verificado por HPLC)",
+      unitSize: "Frasco de 2mg",
+      form: "Pó liofilizado",
+      synthesis: "Síntese Peptídica em Fase Sólida (SPPS)",
+      analytical: "HPLC e Espectrometria de Massa",
+      molecularStructure: "Peptídeo secretagogo do hormônio do crescimento",
+      stability: "Estável quando armazenado a −20°C"
+    },
+
+    validationTitle: "Validação analítica e garantia de qualidade",
+    validationPoints: [
+      "Verificação de pureza por cromatografia líquida de alta eficiência",
+      "Confirmação do peso molecular por espectrometria de massa",
+      "Validação da integridade estrutural do peptídeo",
+      "Teste de consistência analítica entre lotes",
+      "Verificação da estabilidade do peptídeo"
+    ],
+
+    regulatoryTitle: "Declaração regulatória e de conformidade",
+    regulatoryText: "Ipamorelin fornecido pela BioPeptides é destinado estritamente apenas ao uso em pesquisa laboratorial e científica. Não é aprovado para consumo humano, uso veterinário, aplicações cosméticas ou tratamentos terapêuticos.",
+
+    faqTitle: "Perguntas frequentes",
+    faqItems: [
+      {
+        q: "Para que Ipamorelin é usado em pesquisa?",
+        a: "Ipamorelin é amplamente usado para estudar mecanismos de secreção do hormônio do crescimento e sinalização do receptor de grelina em ambientes laboratoriais."
+      },
+      {
+        q: "O que o CAS 170851-70-4 identifica?",
+        a: "O CAS 170851-70-4 identifica exclusivamente o peptídeo Ipamorelin para documentação de pesquisa precisa e rastreabilidade."
+      },
+      {
+        q: "Como Ipamorelin difere de outros secretagogos do hormônio do crescimento?",
+        a: "Ipamorelin é conhecido pela ativação seletiva de receptores, tornando-o útil para estudar sinalização endócrina direcionada."
+      },
+      {
+        q: "Quais áreas de pesquisa geralmente usam Ipamorelin?",
+        a: "Ipamorelin é comumente usado em endocrinologia, pesquisa de sinalização peptídica, biologia molecular e estudos de vias hormonais."
+      },
+      {
+        q: "Ipamorelin é adequado para pesquisa in-vitro?",
+        a: "Sim. Ipamorelin é amplamente usado em estudos in-vitro controlados que examinam ligação a receptores e sinalização intracelular."
+      },
+      {
+        q: "Por que o formato de 2mg é útil?",
+        a: "O formato de 2mg é adequado para experimentos piloto e estudos de ligação a receptores que exigem quantidades precisas de peptídeo."
+      },
+      {
+        q: "Como Ipamorelin deve ser armazenado?",
+        a: "Ipamorelin liofilizado deve ser armazenado a −20°C e protegido contra ciclos repetidos de congelamento e descongelamento."
+      },
+      {
+        q: "Por que escolher a BioPeptides para Ipamorelin?",
+        a: "A BioPeptides fornece peptídeos de alta pureza com documentação CAS verificada e embalagem de grau laboratorial."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C38H49N9O5",
+      molecularWeight: "711.9",
+      monoisotopicMass: "711.3856657",
+      polarArea: "240",
+      complexity: "1200",
+      xlogP: "1.8",
+      heavyAtomCount: "52",
+      hydrogenBondDonorCount: "8",
+      hydrogenBondAcceptorCount: "8",
+      rotatableBondCount: "19",
+      cid: "9831659",
+      inchi: "InChI=1S/C38H49N9O5/c1-38(2,41)37(52)47-32(21-28-22-42-23-43-28)36(51)46-31(20-25-15-16-26-12-6-7-13-27(26)18-25)35(50)45-30(19-24-10-4-3-5-11-24)34(49)44-29(33(40)48)14-8-9-17-39/h3-7,10-13,15-16,18,22-23,29-32H,8-9,14,17,19-21,39,41H2,1-2H3,(H2,40,48)(H,42,43)(H,44,49)(H,45,50)(H,46,51)(H,47,52)/t29-,30+,31+,32-/m0/s1",
+      inchiKey: "NEHWBYHLYZGBNO-BVEPWEIPSA-N",
+      canonicalSmiles: "CC(C)(C(=O)NC(CC1=CN=CN1)C(=O)NC(CC2=CC3=CC=CC=C3C=C2)C(=O)NC(CC4=CC=CC=C4)C(=O)NC(CCCCN)C(=O)N)N",
+      isomericSmiles: "CC(C)(C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@H](CC2=CC3=CC=CC=C3C=C2)C(=O)N[C@H](CC4=CC=CC=C4)C(=O)N[C@@H](CCCCN)C(=O)N)N",
+      iupacName: "(2S)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2S)-2-[(2-amino-2-methylpropanoyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]-3-naphthalen-2-ylpropanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+    }
+  },
+  appearance: "Pó liofilizado branco",
+  storage: "Armazenar a −20°C. Evitar ciclos repetidos de congelamento e descongelamento.",
+  researchStatus: "Somente para uso em pesquisa laboratorial. Não destinado ao uso humano ou veterinário."
+},
+
+"ll-37-5mg-cap-18": {
+  name: "LL-37 (CAP-18) 5mg",
+
+  tagline:
+    "Peptídeo antimicrobiano derivado da catelicidina humana para pesquisa de imunidade inata e interação hospedeiro–patógeno",
+
+  cas: "154947-66-7",
+
+  strength: [
+    "LL-37 (CAP-18) 5mg da BioPeptides é um peptídeo antimicrobiano de pesquisa de alta pureza, desenvolvido para estudos laboratoriais focados em sinalização da imunidade inata, mecanismos de defesa do hospedeiro e interações peptídeo–membrana. Produzido por síntese peptídica em fase sólida de precisão e purificado para ≥99% por HPLC, LL-37 oferece excelente precisão molecular e reprodutibilidade para ambientes exigentes de pesquisa científica."
+  ],
+
+  topDescription: {
+    p0: "LL-37 é um peptídeo antimicrobiano naturalmente presente, derivado do precursor de catelicidina humana CAP-18.",
+    p1: "Em ambientes de pesquisa, é amplamente estudado por sua interação com membranas microbianas e vias de sinalização da imunidade inata.",
+    p2: "Seu papel multifuncional na defesa antimicrobiana, sinalização inflamatória e biologia epitelial torna o LL-37 um peptídeo valioso para modelos de pesquisa em imunologia e microbiologia."
+  },
+
+  components: [
+    "LL-37 (CAP-18) — frasco de peptídeo liofilizado de 5mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Visão geral da pesquisa",
+    overview: [
+      "LL-37 é um peptídeo antimicrobiano catiônico derivado da proteína precursora de catelicidina humana CAP-18.",
+      "Pesquisadores estudam o LL-37 por seu papel na defesa da imunidade inata e nos mecanismos de interação hospedeiro–patógeno.",
+      "O peptídeo interage com membranas microbianas e vias de sinalização imune em modelos laboratoriais controlados.",
+      "O formato de pesquisa de 5mg apoia fluxos experimentais prolongados e múltiplos ensaios de microbiologia ou imunologia."
+    ],
+
+    scientificBackgroundTitle: "Contexto científico",
+    scientificBackground: [
+      "LL-37 é o único peptídeo antimicrobiano de catelicidina humana conhecido identificado nos sistemas de imunidade inata.",
+      "Ele desempenha um papel na defesa antimicrobiana por meio da interação com membranas bacterianas e da modulação de respostas imunes.",
+      "Em modelos de pesquisa, LL-37 é estudado por seu envolvimento na sinalização inflamatória, recrutamento de células imunes e biologia da barreira epitelial.",
+      "Devido ao seu comportamento multifuncional, LL-37 é amplamente utilizado em microbiologia e pesquisa de peptídeos de defesa do hospedeiro."
+    ],
+
+    mechanismTitle: "Perspectiva mecanística de pesquisa",
+    mechanismPoints: [
+      "Estudos de interação entre peptídeo antimicrobiano e membrana",
+      "Pesquisa de vias de sinalização da imunidade inata",
+      "Pesquisa de modulação da sinalização inflamatória",
+      "Mecanismos de interação hospedeiro–patógeno",
+      "Estudos de sinalização de células imunes e vias de quimiotaxia"
+    ],
+
+    applicationsTitle: "Principais aplicações de pesquisa",
+    applications: [
+      {
+        title: "Pesquisa de mecanismos antimicrobianos",
+        text: "LL-37 é amplamente usado em pesquisas de microbiologia para investigar interações de peptídeos antimicrobianos com membranas microbianas."
+      },
+      {
+        title: "Estudos de imunidade inata",
+        text: "Pesquisadores estudam LL-37 para compreender a sinalização de defesa do hospedeiro e a regulação da resposta imune."
+      },
+      {
+        title: "Pesquisa de vias inflamatórias",
+        text: "LL-37 apoia a investigação de cascatas de sinalização relacionadas à inflamação e mecanismos de modulação imune."
+      },
+      {
+        title: "Pesquisa em biologia celular e molecular",
+        text: "Laboratórios usam LL-37 em ensaios baseados em células para estudar sinalização mediada por peptídeos e respostas transcricionais."
+      },
+      {
+        title: "Pesquisa de interação hospedeiro–patógeno",
+        text: "LL-37 é frequentemente usado em estudos que exploram interações entre peptídeos antimicrobianos e sistemas microbianos."
+      }
+    ],
+
+    molecularTitle: "Características moleculares",
+    molecularPoints: [
+      "Nome do composto: LL-37 (CAP-18)",
+      "Número CAS: 154947-66-7",
+      "Comprimento do peptídeo: 37 aminoácidos",
+      "Classe do peptídeo: Peptídeo antimicrobiano de catelicidina humana",
+      "Forma: Pó peptídico liofilizado",
+      "Pureza: ≥99% verificada por HPLC",
+      "Tamanho da unidade: formato de pesquisa de 5mg"
+    ],
+
+    stabilityTitle: "Perfil de estabilidade e recomendações de armazenamento",
+    stabilityPoints: [
+      "Armazenar o peptídeo liofilizado a −20°C",
+      "Proteger da umidade e da exposição direta à luz",
+      "Evitar ciclos repetidos de congelamento e descongelamento",
+      "Soluções reconstituídas devem ser mantidas refrigeradas",
+      "Preparar soluções usando solventes laboratoriais estéreis"
+    ],
+
+    solubilityTitle: "Opções de solubilidade e reconstituição",
+    solubilityPoints: [
+      "Água bacteriostática estéril",
+      "Solução salina estéril",
+      "Soluções laboratoriais aquosas tamponadas",
+      "Tampões compatíveis com cultura celular",
+      "Sistemas de solventes para ensaios bioquímicos"
+    ],
+
+    techSpecsTitle: "Especificações técnicas",
+    techSpecs: {
+      productName: "LL-37 (CAP-18) 5mg",
+      brand: "BioPeptides",
+      cas: "154947-66-7",
+      purity: "≥99% (verificado por HPLC)",
+      unitSize: "Frasco de 5mg",
+      form: "Pó liofilizado",
+      synthesis: "Síntese peptídica em fase sólida",
+      analytical: "HPLC e Espectrometria de Massa",
+      molecularStructure: "Peptídeo antimicrobiano de 37 aminoácidos",
+      stability: "Estável quando armazenado a −20°C"
+    },
+
+    validationTitle: "Validação analítica e garantia de qualidade",
+    validationPoints: [
+      "Verificação de pureza por cromatografia líquida de alta eficiência",
+      "Confirmação do peso molecular por espectrometria de massa",
+      "Validação da integridade estrutural do peptídeo",
+      "Teste de consistência analítica entre lotes",
+      "Verificação da estabilidade do peptídeo"
+    ],
+
+    regulatoryTitle: "Declaração regulatória e de conformidade",
+    regulatoryText:
+      "LL-37 fornecido pela BioPeptides é destinado estritamente apenas ao uso em pesquisa laboratorial e científica. Não é aprovado para consumo humano, uso veterinário, aplicações cosméticas ou tratamentos terapêuticos.",
+
+    faqTitle: "Perguntas frequentes",
+
+    faqItems: [
+      {
+        q: "Para que o LL-37 é principalmente estudado em pesquisa?",
+        a: "LL-37 é estudado principalmente por seus mecanismos antimicrobianos, sinalização da imunidade inata e pesquisa de vias de defesa do hospedeiro."
+      },
+      {
+        q: "Como LL-37 difere de outros peptídeos antimicrobianos?",
+        a: "LL-37 combina ruptura de membranas microbianas com modulação da sinalização imune, permitindo que pesquisadores estudem tanto a interação microbiana quanto as vias de defesa do hospedeiro."
+      },
+      {
+        q: "O que representa o CAS 154947-66-7?",
+        a: "CAS 154947-66-7 identifica exclusivamente o LL-37, garantindo identificação precisa do composto e reprodutibilidade na documentação de pesquisa laboratorial."
+      },
+      {
+        q: "LL-37 é usado em pesquisa microbiológica?",
+        a: "Sim. LL-37 é amplamente usado em estudos de microbiologia que investigam atividade de peptídeos antimicrobianos e interação com membranas microbianas."
+      },
+      {
+        q: "Quais áreas de pesquisa geralmente usam LL-37?",
+        a: "LL-37 é comumente usado em imunologia, microbiologia, biologia molecular, pesquisa antimicrobiana e estudos de interação hospedeiro–patógeno."
+      },
+      {
+        q: "Por que escolher o formato de pesquisa de 5mg?",
+        a: "O formato de frasco de 5mg permite múltiplos ensaios e estudos de pesquisa prolongados, minimizando o desperdício de peptídeo."
+      },
+      {
+        q: "Como LL-37 deve ser armazenado?",
+        a: "LL-37 deve ser armazenado a −20°C em forma liofilizada e protegido da umidade e de ciclos repetidos de congelamento e descongelamento."
+      },
+      {
+        q: "Por que escolher a BioPeptides para peptídeos de pesquisa LL-37?",
+        a: "A BioPeptides fornece peptídeos de pesquisa de alta pureza com documentação CAS verificada e envio confiável para laboratórios de pesquisa."
+      }
+    ],
+
+     chemicalProperties: {
+  molecularFormula: "C205H340N60O53",
+  molecularWeight: "4493",
+  monoisotopicMass: "4490.5754259",
+  polarArea: "1900",
+  complexity: "10700",
+  xlogP: "-20.7",
+  heavyAtomCount: "318",
+  hydrogenBondDonorCount: "68",
+  hydrogenBondAcceptorCount: "65",
+  rotatableBondCount: "166",
+  cid: "16198951",
+  inchi:
+    "InChI=1S/C205H340N60O53/c1-20-114(16)162(261-179(296)128(66-40-46-86-211)235-176(293)135(74-78-155(273)274)243-170(287)125(63-37-43-83-208)241-192(309)148(106-266)257-174(291)126(64-38-44-84-209)234-171(288)129(67-47-87-225-201(215)216)240-185(302)142(98-119-55-29-24-30-56-119)252-187(304)144(100-121-59-33-26-34-60-121)253-189(306)146(102-158(279)280)233-154(272)104-230-167(284)138(94-109(6)7)248-166(283)122(212)93-108(4)5)194(311)231-105-153(271)232-123(61-35-41-81-206)168(285)242-136(75-79-156(275)276)177(294)251-141(97-118-53-27-23-28-54-118)184(301)238-124(62-36-42-82-207)169(286)236-131(69-49-89-227-203(219)220)181(298)263-164(116(18)22-3)197(314)259-160(112(12)13)195(312)246-134(73-77-151(213)269)175(292)237-132(70-50-90-228-204(221)222)180(297)262-163(115(17)21-2)196(313)245-127(65-39-45-85-210)172(289)256-147(103-159(281)282)190(307)254-143(99-120-57-31-25-32-58-120)186(303)249-139(95-110(8)9)183(300)239-130(68-48-88-226-202(217)218)173(290)255-145(101-152(214)270)188(305)250-140(96-111(10)11)191(308)260-161(113(14)15)199(316)265-92-52-72-150(265)193(310)244-133(71-51-91-229-205(223)224)182(299)264-165(117(19)268)198(315)247-137(76-80-157(277)278)178(295)258-149(107-267)200(317)318/h23-34,53-60,108-117,122-150,160-165,266-268H,20-22,35-52,61-107,206-212H2,1-19H3,(H2,213,269)(H2,214,270)(H,230,284)(H,231,311)(H,232,271)(H,233,272)(H,234,288)(H,235,293)(H,236,286)(H,237,292)(H,238,301)(H,239,300)(H,240,302)(H,241,309)(H,242,285)(H,243,287)(H,244,310)(H,245,313)(H,246,312)(H,247,315)(H,248,283)(H,249,303)(H,250,305)(H,251,294)(H,252,304)(H,253,306)(H,254,307)(H,255,290)(H,256,289)(H,257,291)(H,258,295)(H,259,314)(H,260,308)(H,261,296)(H,262,297)(H,263,298)(H,264,299)(H,273,274)(H,275,276)(H,277,278)(H,279,280)(H,281,282)(H,317,318)(H4,215,216,225)(H4,217,218,226)(H4,219,220,227)(H4,221,222,228)(H4,223,224,229)/t114-,115-,116-,117+,122-,123-,124-,125-,126-,127-,128-,129-,130-,131-,132-,133-,134-,135-,136-,137-,138-,139-,140-,141-,142-,143-,144-,145-,146-,147-,148-,149-,150-,160-,161-,162-,163-,164-,165-/m0/s1",
+  inchiKey: "POIUWJQBRNEFGX-XAMSXPGMSA-N",
+
+  canonicalSmiles:
+    "CCC(C)C(C(=O)NCC(=O)NC(CCCCN)C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(CCCCN)C(=O)NC(CCCNC(=N)N)C(=O)NC(C(C)CC)C(=O)NC(C(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(C(C)CC)C(=O)NC(CCCCN)C(=O)NC(CC(=O)O)C(=O)NC(CC2=CC=CC=C2)C(=O)NC(CC(C)C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)N3CCCC3C(=O)NC(CCCNC(=N)N)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)O)NC(=O)C(CCCCN)NC(=O)C(CCC(=O)O)NC(=O)C(CCCCN)NC(=O)C(CO)NC(=O)C(CCCCN)NC(=O)C(CCCNC(=N)N)NC(=O)C(CC4=CC=CC=C4)NC(=O)C(CC5=CC=CC=C5)NC(=O)C(CC(=O)O)NC(=O)CNC(=O)C(CC(C)C)NC(=O)C(CC(C)C)N",
+
+  isomericSmiles:
+    "CC[C@H](C)[C@@H](C(=O)NCC(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)N3CCC[C@H]3C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CO)C(=O)O)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CO)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CC4=CC=CC=C4)NC(=O)[C@H](CC5=CC=CC=C5)NC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(C)C)N",
+
+  iupacName:
+    "(4S)-5-[[(2S)-6-amino-1-[[(2S,3S)-1-[[2-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-4-amino-1-[[(2S)-1-[[(2S)-1-[(2S)-2-[[(2S)-5-carbamimidamido-1-[[(2S,3R)-1-[[(2S)-4-carboxy-1-[[(1S)-1-carboxy-2-hydroxyethyl]amino]-1-oxobutan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-3-methyl-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1-oxohexan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-2-oxoethyl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-4-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[2-[[(2S)-2-[[(2S)-2-amino-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]acetyl]amino]-3-carboxypropanoyl]amino]-3-phenylpropanoyl]amino]-3-phenylpropanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-3-hydroxypropanoyl]amino]hexanoyl]amino]-5-oxopentanoic acid"
+}
+
+  },
+
+  appearance: "Pó liofilizado branco a quase branco",
+
+  storage: "Armazenar a −20°C. Evitar ciclos repetidos de congelamento e descongelamento.",
+
+  researchStatus:
+    "Somente para uso em pesquisa laboratorial. Não destinado ao uso humano ou veterinário."
+},
+"matrixyl-200mg-topical": {
+  name: "Matrixyl® 200mg (Tópico)",
+
+  tagline:
+    "Peptídeo sinalizador Palmitoyl Pentapeptide-4 para pesquisa da matriz extracelular e sinalização dérmica",
+
+  cas: "214047-00-4",
+
+  strength: [
+    "Matrixyl® (Palmitoyl Pentapeptide-4) 200mg Tópico da BioPeptides é um peptídeo sinalizador de alta pureza, de grau de pesquisa, formulado para estudos avançados laboratoriais e de formulação focados na sinalização da matriz extracelular, vias relacionadas ao colágeno e pesquisa de interação peptídeo–pele. Sintetizado por meio de síntese peptídica em fase sólida de precisão e purificado para ≥99% por HPLC, este material tópico de pesquisa oferece excelente precisão molecular e reprodutibilidade. Identificado pelo CAS 214047-00-4, Matrixyl® é amplamente utilizado em pesquisas controladas in-vitro e de formulação em toda a Europa e nos Estados Unidos."
+  ],
+
+  topDescription: {
+    p0: "Matrixyl® (Palmitoyl Pentapeptide-4) é uma sequência sinalizadora lipopeptídica sintética estudada por seu papel na comunicação da matriz extracelular e na sinalização celular associada ao colágeno.",
+    p1: "O grupo lipídico palmitoil melhora a interação com ambientes lipídicos, tornando este peptídeo especialmente relevante para pesquisa de formulações tópicas e modelos de entrega peptídica.",
+    p2: "Em pesquisas laboratoriais controladas, Matrixyl® é usado para investigar a sinalização de fibroblastos dérmicos, vias de comunicação da matriz extracelular e respostas celulares mediadas por peptídeos."
+  },
+
+  components: [
+    "Matrixyl® (Palmitoyl Pentapeptide-4) — peptídeo tópico de pesquisa de 200mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Visão geral da pesquisa",
+    overview: [
+      "Matrixyl® é um peptídeo sinalizador palmitoilado derivado de fragmentos de proteínas da matriz extracelular.",
+      "Pesquisadores estudam este peptídeo por sua interação com a sinalização de fibroblastos dérmicos e vias associadas ao colágeno.",
+      "Sua estrutura modificada por lipídios permite a investigação de interações peptídeo–lipídio e modelos tópicos de entrega peptídica.",
+      "O formato de pesquisa de 200mg apoia testes extensivos de formulação e experimentos laboratoriais repetidos."
+    ],
+
+    scientificBackgroundTitle: "Contexto científico",
+    scientificBackground: [
+      "Peptídeos sinalizadores desempenham um papel na regulação da comunicação celular dentro da matriz extracelular.",
+      "Palmitoyl Pentapeptide-4 imita fragmentos de proteínas estruturais envolvidas na sinalização da matriz dérmica.",
+      "Em ambientes de pesquisa, Matrixyl® é estudado por sua interação com vias de sinalização de fibroblastos e comunicação molecular associada à matriz extracelular.",
+      "Devido à sua estrutura conjugada a lipídios, o peptídeo também é usado em pesquisas de formulação que examinam estabilidade peptídica e comportamento de entrega."
+    ],
+
+    mechanismTitle: "Perspectiva mecanística de pesquisa",
+    mechanismPoints: [
+      "Investigação de vias de sinalização da matriz extracelular",
+      "Pesquisa de comunicação celular de fibroblastos",
+      "Estudos de expressão gênica associada ao colágeno",
+      "Modelos de interação peptídeo–lipídio",
+      "Pesquisa de sistemas tópicos de entrega peptídica"
+    ],
+
+    applicationsTitle: "Principais aplicações de pesquisa",
+    applications: [
+      {
+        title: "Estudos de sinalização da matriz extracelular",
+        text: "Matrixyl® é usado para investigar vias de comunicação celular relacionadas à matriz extracelular em modelos de pesquisa dérmica."
+      },
+      {
+        title: "Pesquisa de vias do colágeno",
+        text: "Pesquisadores estudam este peptídeo para explorar vias de sinalização associadas à expressão gênica do colágeno e à regulação da matriz dérmica."
+      },
+      {
+        title: "Pesquisa de formulação tópica",
+        text: "A estrutura modificada por lipídios torna Matrixyl® útil em estudos focados em sistemas de entrega peptídica e estabilidade de formulações tópicas."
+      },
+      {
+        title: "Pesquisa em biologia celular e molecular",
+        text: "Laboratórios usam Matrixyl® em ensaios baseados em células para examinar respostas de sinalização e comportamento de vias moleculares."
+      },
+      {
+        title: "Pesquisa de sistemas de entrega peptídica",
+        text: "Matrixyl® é frequentemente incorporado em formulações tópicas experimentais para investigar transporte e estabilidade de peptídeos."
+      }
+    ],
+
+    molecularTitle: "Características moleculares",
+    molecularPoints: [
+      "Nome do composto: Matrixyl® (Palmitoyl Pentapeptide-4)",
+      "Número CAS: 214047-00-4",
+      "Comprimento do peptídeo: 5 aminoácidos",
+      "Classe do peptídeo: Peptídeo sinalizador lipopeptídico",
+      "Forma: Pó peptídico tópico de pesquisa",
+      "Pureza: ≥99% verificada por HPLC",
+      "Tamanho da unidade: formato de pesquisa de 200mg"
+    ],
+
+    stabilityTitle: "Perfil de estabilidade e recomendações de armazenamento",
+    stabilityPoints: [
+      "Armazenar refrigerado entre 2–8°C",
+      "Proteger da exposição direta à luz",
+      "Evitar contaminação por umidade",
+      "Fechar bem o recipiente após o uso",
+      "Manusear usando práticas laboratoriais padrão"
+    ],
+
+    solubilityTitle: "Considerações de solubilidade e preparação",
+    solubilityPoints: [
+      "Compatível com solventes de formulação cosmética",
+      "Solúvel em solventes laboratoriais compatíveis com peptídeos",
+      "Adequado para sistemas de formulação à base de lipídios",
+      "Compatível com soluções laboratoriais tamponadas",
+      "Utilizável em protocolos de pesquisa de formulação tópica"
+    ],
+
+    techSpecsTitle: "Especificações técnicas",
+    techSpecs: {
+      productName: "Matrixyl® 200mg (Tópico)",
+      brand: "BioPeptides",
+      cas: "214047-00-4",
+      purity: "≥99% (verificado por HPLC)",
+      unitSize: "200mg",
+      form: "Pó peptídico tópico de pesquisa",
+      synthesis: "Síntese peptídica em fase sólida (SPPS)",
+      analytical: "Verificação por HPLC e espectrometria de massa",
+      molecularStructure: "Sequência sinalizadora pentapeptídica palmitoilada",
+      stability: "Estável sob condições refrigeradas"
+    },
+
+    validationTitle: "Validação analítica e garantia de qualidade",
+    validationPoints: [
+      "Teste de pureza por cromatografia líquida de alta eficiência",
+      "Confirmação da identidade molecular",
+      "Verificação da integridade estrutural do peptídeo",
+      "Validação da consistência entre lotes",
+      "Teste de estabilidade e compatibilidade de formulação"
+    ],
+
+    regulatoryTitle: "Declaração regulatória e de conformidade",
+    regulatoryText:
+      "Matrixyl® fornecido pela BioPeptides é destinado estritamente apenas ao uso em pesquisa laboratorial e cosmética. Não é aprovado para consumo humano, uso veterinário, tratamentos terapêuticos ou aplicações médicas.",
+
+    faqTitle: "Perguntas frequentes",
+
+    faqItems: [
+      {
+        q: "Para que Matrixyl® é principalmente estudado em pesquisa?",
+        a: "Matrixyl® é estudado para sinalização da matriz extracelular, comunicação de fibroblastos dérmicos e pesquisa de vias relacionadas ao colágeno."
+      },
+      {
+        q: "O que é Palmitoyl Pentapeptide-4?",
+        a: "Palmitoyl Pentapeptide-4 é uma sequência sinalizadora lipopeptídica sintética derivada de fragmentos de proteínas da matriz extracelular."
+      },
+      {
+        q: "Por que o CAS 214047-00-4 é importante?",
+        a: "CAS 214047-00-4 identifica exclusivamente Matrixyl®, garantindo identificação química precisa e reprodutibilidade na pesquisa científica."
+      },
+      {
+        q: "Matrixyl® é adequado para pesquisa in-vitro?",
+        a: "Sim. Matrixyl® é amplamente usado em estudos in-vitro que examinam sinalização da matriz extracelular, comunicação de fibroblastos e interações peptídeo–célula."
+      },
+      {
+        q: "Quais áreas de pesquisa geralmente usam Matrixyl®?",
+        a: "Matrixyl® é comumente usado em biologia molecular, pesquisa de peptídeos cosméticos, estudos de sinalização da matriz extracelular e pesquisa de formulação tópica."
+      },
+      {
+        q: "Por que escolher o formato de pesquisa de 200mg?",
+        a: "O formato de 200mg permite testes extensivos de formulação e experimentos laboratoriais repetidos sem necessidade de reposição frequente."
+      },
+      {
+        q: "Como Matrixyl® deve ser armazenado?",
+        a: "Matrixyl® deve ser armazenado refrigerado entre 2–8°C e protegido da luz e da umidade."
+      },
+      {
+        q: "Por que escolher a BioPeptides para peptídeos de pesquisa Matrixyl®?",
+        a: "A BioPeptides fornece peptídeos de pesquisa de alta pureza com documentação verificada e fornecimento confiável para pesquisa laboratorial e cosmética."
+      }
+    ],
+
+      chemicalProperties: {
+  molecularFormula: "C39H75N7O10",
+  molecularWeight: "802.1",
+  monoisotopicMass: "801.55754161",
+  polarArea: "296",
+  complexity: "1130",
+  xlogP: "0.8",
+  heavyAtomCount: "56",
+  hydrogenBondDonorCount: "11",
+  hydrogenBondAcceptorCount: "12",
+  rotatableBondCount: "35",
+  cid: "9897237",
+  inchi:
+    "InChI=1S/C39H75N7O10/c1-4-5-6-7-8-9-10-11-12-13-14-15-16-23-32(50)42-29(21-17-19-24-40)36(52)45-34(28(3)49)38(54)46-33(27(2)48)37(53)43-30(22-18-20-25-41)35(51)44-31(26-47)39(55)56/h27-31,33-34,47-49H,4-26,40-41H2,1-3H3,(H,42,50)(H,43,53)(H,44,51)(H,45,52)(H,46,54)(H,55,56)/t27-,28-,29+,30+,31+,33+,34+/m1/s1",
+  inchiKey: "WSGCRSMLXFHGRM-DEVHWETNSA-N",
+
+  canonicalSmiles:
+    "CCCCCCCCCCCCCCCC(=O)NC(CCCCN)C(=O)NC(C(C)O)C(=O)NC(C(C)O)C(=O)NC(CCCCN)C(=O)NC(CO)C(=O)O",
+
+  isomericSmiles:
+    "CCCCCCCCCCCCCCCC(=O)N[C@@H](CCCCN)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CO)C(=O)O",
+
+  iupacName:
+    "(2S)-2-[[(2S)-6-amino-2-[[(2S,3R)-2-[[(2S,3R)-2-[[(2S)-6-amino-2-(hexadecanoylamino)hexanoyl]amino]-3-hydroxybutanoyl]amino]-3-hydroxybutanoyl]amino]hexanoyl]amino]-3-hydroxypropanoic acid"
+}
+
+  },
+
+  appearance: "Pó branco a quase branco",
+
+  storage: "Armazenar refrigerado entre 2–8°C. Proteger da luz e da umidade.",
+
+  researchStatus:
+    "Somente para uso em pesquisa laboratorial e cosmética. Não destinado ao uso humano ou veterinário."
+},
+"melanotan-1-10mg": {
+  name: "Melanotan-I 10mg",
+
+  tagline:
+    "Peptídeo análogo sintético de α-MSH para pesquisa de receptores de melanocortina e vias de pigmentação",
+
+  cas: "75921-69-6",
+
+  strength: [
+    "Melanotan-1 (MT-1) 10mg da BioPeptides é um peptídeo melanocortínico de alta pureza, de grau de pesquisa, desenvolvido para estudos laboratoriais avançados envolvendo vias de pigmentação, sinalização de receptores de melanocortina e comunicação celular mediada por peptídeos. Sintetizado por meio de síntese peptídica em fase sólida de precisão e purificado para ≥99% por HPLC, o MT-1 oferece excelente estabilidade molecular e reprodutibilidade. Identificado pelo CAS 75921-69-6, Melanotan-1 é amplamente utilizado em pesquisas controladas in-vitro em toda a Europa e nos Estados Unidos. A BioPeptides fornece acesso seguro a peptídeos de pesquisa premium com documentação verificada e embalagem laboratorial profissional."
+  ],
+
+  topDescription: {
+    p0: "Melanotan-1 (MT-1) é um análogo sintético do hormônio estimulador de melanócitos alfa (α-MSH), estudado por sua interação com receptores de melanocortina envolvidos na sinalização da pigmentação.",
+    p1: "Em ambientes de pesquisa laboratorial, ele é comumente investigado pela regulação das vias de melanogênese, especificidade de ligação a receptores e comunicação celular mediada por peptídeos.",
+    p2: "O formato de pesquisa de 10mg permite que pesquisadores realizem experimentos in-vitro detalhados focados na sinalização melanocortínica e na análise de vias receptoras."
+  },
+
+  components: [
+    "Melanotan-1 (MT-1) — frasco de peptídeo liofilizado de 10mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Visão geral da pesquisa",
+    overview: [
+      "Melanotan-1 é um análogo sintético do hormônio peptídico endógeno α-MSH.",
+      "Pesquisadores estudam o MT-1 por sua interação com receptores de melanocortina envolvidos na sinalização relacionada à pigmentação.",
+      "Seu desenho estrutural proporciona maior estabilidade do que o α-MSH nativo, tornando-o adequado para pesquisas de ligação a receptores.",
+      "O formato de pesquisa de 10mg apoia múltiplas execuções experimentais e estudos laboratoriais controlados."
+    ],
+
+    scientificBackgroundTitle: "Contexto científico",
+    scientificBackground: [
+      "Peptídeos melanocortínicos estão envolvidos em vias de sinalização celular associadas à pigmentação e à regulação dos melanócitos.",
+      "Melanotan-1 foi desenvolvido como um análogo estável do α-MSH para facilitar pesquisas controladas sobre a biologia dos receptores de melanocortina.",
+      "Em ambientes laboratoriais, pesquisadores investigam como a ativação dos receptores de melanocortina influencia processos de sinalização relacionados à melanina.",
+      "Devido à sua estrutura definida, o MT-1 é comumente usado para explorar especificidade de ligação a receptores e vias de melanogênese."
+    ],
+
+    mechanismTitle: "Perspectiva mecanística de pesquisa",
+    mechanismPoints: [
+      "Pesquisa de ativação de receptores de melanocortina",
+      "Investigação de vias de sinalização da pigmentação",
+      "Estudos de interação peptídeo–receptor",
+      "Pesquisa de sinalização da síntese de melanina",
+      "Análise de vias intracelulares de melanogênese"
+    ],
+
+    applicationsTitle: "Principais aplicações de pesquisa",
+    applications: [
+      {
+        title: "Pesquisa de vias de pigmentação",
+        text: "Melanotan-1 é amplamente utilizado para investigar vias de sinalização celular envolvidas na produção de melanina."
+      },
+      {
+        title: "Estudos de receptores de melanocortina",
+        text: "Pesquisadores aplicam o MT-1 para examinar a ligação aos receptores de melanocortina e cascatas de sinalização posteriores."
+      },
+      {
+        title: "Análise de interação peptídeo–receptor",
+        text: "O peptídeo apoia ensaios de ligação a receptores usados para compreender a afinidade peptídica e o comportamento de sinalização."
+      },
+      {
+        title: "Pesquisa em biologia celular e molecular",
+        text: "Laboratórios usam o MT-1 em ensaios baseados em células para analisar respostas transcricionais e vias de sinalização."
+      },
+      {
+        title: "Modelos de pesquisa in-vitro",
+        text: "Melanotan-1 é comumente incorporado em experimentos in-vitro controlados envolvendo modelos de sinalização de melanócitos."
+      }
+    ],
+
+    molecularTitle: "Características moleculares",
+    molecularPoints: [
+      "Nome do composto: Melanotan-1 (MT-1)",
+      "Número CAS: 75921-69-6",
+      "Classe do peptídeo: Peptídeo de sinalização de receptores de melanocortina",
+      "Comprimento do peptídeo: 13 aminoácidos",
+      "Forma: Pó peptídico liofilizado",
+      "Pureza: ≥99% verificada por HPLC",
+      "Tamanho da unidade: formato de pesquisa de 10mg"
+    ],
+
+    stabilityTitle: "Perfil de estabilidade e recomendações de armazenamento",
+    stabilityPoints: [
+      "Armazenar o peptídeo liofilizado a −20°C",
+      "Proteger da exposição direta à luz",
+      "Evitar ciclos repetidos de congelamento e descongelamento",
+      "Reconstituir usando solventes laboratoriais estéreis",
+      "Fechar bem o frasco após o uso"
+    ],
+
+    solubilityTitle: "Solubilidade e considerações de preparação",
+    solubilityPoints: [
+      "Solúvel em água bacteriostática estéril",
+      "Compatível com soluções laboratoriais aquosas tamponadas",
+      "Adequado para solventes compatíveis com peptídeos",
+      "Aplicável em protocolos de pesquisa de cultura celular",
+      "Compatível com preparações de ensaios bioquímicos"
+    ],
+
+    techSpecsTitle: "Especificações técnicas",
+    techSpecs: {
+      productName: "Melanotan-1 (MT-1) 10mg",
+      brand: "BioPeptides",
+      cas: "75921-69-6",
+      purity: "≥99% (verificado por HPLC)",
+      unitSize: "Frasco de 10mg",
+      form: "Pó peptídico liofilizado",
+      synthesis: "Síntese peptídica em fase sólida (SPPS)",
+      analytical: "Verificação por HPLC e espectrometria de massa",
+      molecularStructure: "Peptídeo análogo sintético de α-MSH",
+      stability: "Estável sob condições de armazenamento a −20°C"
+    },
+
+    validationTitle: "Validação analítica e garantia de qualidade",
+    validationPoints: [
+      "Teste de pureza por cromatografia líquida de alta eficiência",
+      "Verificação da identidade do peptídeo",
+      "Análise da integridade estrutural",
+      "Validação da consistência entre lotes",
+      "Teste de estabilidade do peptídeo"
+    ],
+
+    regulatoryTitle: "Declaração regulatória e de conformidade",
+    regulatoryText:
+      "Melanotan-1 fornecido pela BioPeptides é destinado estritamente apenas ao uso em pesquisa laboratorial. Não é aprovado para consumo humano, uso veterinário, aplicações terapêuticas ou tratamentos médicos.",
+
+    faqTitle: "Perguntas frequentes",
+
+    faqItems: [
+      {
+        q: "Para que Melanotan-1 é principalmente estudado em pesquisa?",
+        a: "Melanotan-1 é estudado pela sinalização de receptores de melanocortina, vias de pigmentação e comunicação celular mediada por peptídeos em modelos laboratoriais controlados."
+      },
+      {
+        q: "Como Melanotan-1 difere do α-MSH nativo?",
+        a: "Melanotan-1 é um análogo sintético desenvolvido com estabilidade aprimorada e propriedades de interação com receptores em comparação ao α-MSH nativo."
+      },
+      {
+        q: "Por que o CAS 75921-69-6 é importante?",
+        a: "CAS 75921-69-6 identifica exclusivamente o Melanotan-1, garantindo identificação precisa do composto e reprodutibilidade na pesquisa científica."
+      },
+      {
+        q: "Melanotan-1 é adequado para pesquisa in-vitro?",
+        a: "Sim. O MT-1 é amplamente usado em estudos in-vitro controlados envolvendo modelos de melanócitos e ensaios de ligação a receptores."
+      },
+      {
+        q: "Quais áreas de pesquisa geralmente usam Melanotan-1?",
+        a: "O MT-1 é comumente usado em pesquisa de pigmentação, biologia molecular, farmacologia de receptores e estudos de sinalização peptídica."
+      },
+      {
+        q: "Por que escolher o formato de pesquisa de 10mg?",
+        a: "O formato de 10mg permite múltiplas execuções experimentais, minimizando o desperdício de peptídeo e garantindo eficiência de custo."
+      },
+      {
+        q: "Como Melanotan-1 deve ser armazenado?",
+        a: "Melanotan-1 deve ser armazenado a −20°C em forma liofilizada e protegido da umidade e da luz."
+      },
+      {
+        q: "Por que escolher a BioPeptides para peptídeos de pesquisa Melanotan-1?",
+        a: "A BioPeptides fornece peptídeos de alta pureza com documentação verificada e fornecimento confiável para laboratórios de pesquisa."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C78H111N21O19",
+      molecularWeight: "1646.874 g/mol",
+      peptideLength: "13 amino acids",
+      compoundClass: "Peptídeo análogo sintético de α-MSH",
+      heavyAtomCount: "118",
+      hydrogenBondDonorCount: "25",
+      hydrogenBondAcceptorCount: "30",
+      rotatableBondCount: "32",
+      cid: " 16154396"
+    }
+
+  },
+
+  appearance: "Pó liofilizado branco",
+
+  storage: "Armazenar a −20°C. Evitar ciclos repetidos de congelamento e descongelamento.",
+
+  researchStatus:
+    "Somente para uso em pesquisa laboratorial. Não destinado ao uso humano ou veterinário."
+},
+"methylene-blue-10mg-60-capsules": {
+  name: "Methylene Blue 10mg (60 Cápsulas)",
+
+  tagline:
+    "Composto fenotiazínico de grau de pesquisa para biologia redox, transporte eletrônico mitocondrial e pesquisa de energia celular",
+
+  cas: "61-73-4",
+
+  strength: [
+    "As cápsulas de Methylene Blue 10mg da BioPeptides contêm um composto fenotiazínico de alta pureza e grau de pesquisa, amplamente utilizado em estudos laboratoriais de biologia redox, transporte eletrônico mitocondrial e vias de sinalização oxidativa. Identificado pelo CAS 61-73-4, este composto é verificado analiticamente para consistência e reprodutibilidade em pesquisa. O formato em cápsulas apoia fluxos experimentais controlados e manuseio confiável em laboratórios de pesquisa bioquímica e celular em toda a Europa e nos Estados Unidos."
+  ],
+
+  topDescription: {
+    p0: "Methylene Blue (CAS 61-73-4) é um composto derivado da fenotiazina amplamente investigado em pesquisas bioquímicas e de biologia molecular.",
+    p1: "Em ambientes de pesquisa laboratorial, é estudado por seu comportamento reversível de ciclo redox, interações com o transporte eletrônico mitocondrial e vias de sinalização oxidativa.",
+    p2: "O formato de cápsulas de 10mg permite que laboratórios realizem experimentos controlados envolvendo bioenergética mitocondrial, modelos de resposta ao estresse oxidativo e pesquisa do metabolismo celular."
+  },
+
+  components: [
+    "Methylene Blue — 10mg por cápsula",
+    "Quantidade total — 60 cápsulas (600mg de material total de pesquisa)"
+  ],
+
+  content: {
+
+    overviewTitle: "Visão geral da pesquisa",
+    overview: [
+      "Methylene Blue é um composto derivado da fenotiazina comumente estudado em biologia redox e pesquisa mitocondrial.",
+      "Pesquisadores investigam suas propriedades reversíveis de oxidação-redução para analisar processos de transporte eletrônico celular.",
+      "O composto é amplamente utilizado em estudos de respiração mitocondrial e vias metabólicas.",
+      "O formato baseado em cápsulas permite manuseio consistente do composto e maior estabilidade do fluxo de trabalho em ambientes laboratoriais."
+    ],
+
+    scientificBackgroundTitle: "Contexto científico",
+    scientificBackground: [
+      "Methylene Blue possui um amplo histórico de pesquisa em experimentos bioquímicos envolvendo ciclos redox e transporte eletrônico mitocondrial.",
+      "Sua estrutura molecular permite reações reversíveis de oxidação-redução que apoiam investigações de transferência de elétrons.",
+      "Pesquisadores usam Methylene Blue para explorar respostas ao estresse oxidativo e mecanismos de regulação da energia celular.",
+      "Devido ao seu comportamento redox bem caracterizado, ele é frequentemente incluído em pesquisas comparativas de vias mitocondriais e metabólicas."
+    ],
+
+    mechanismTitle: "Perspectiva mecanística de pesquisa",
+    mechanismPoints: [
+      "Pesquisa de ciclos redox e vias de oxidação-redução",
+      "Investigação da cadeia de transporte eletrônico mitocondrial",
+      "Análise do metabolismo energético celular",
+      "Pesquisa de vias de sinalização redox intracelular",
+      "Modelagem de resposta ao estresse oxidativo"
+    ],
+
+    applicationsTitle: "Principais aplicações de pesquisa",
+    applications: [
+      {
+        title: "Pesquisa em biologia redox",
+        text: "Methylene Blue é amplamente usado para estudar reações de oxidação-redução e mecanismos de sinalização redox celular."
+      },
+      {
+        title: "Estudos de função mitocondrial",
+        text: "Pesquisadores aplicam o composto para analisar a respiração mitocondrial e a dinâmica da cadeia de transporte eletrônico."
+      },
+      {
+        title: "Pesquisa de estresse oxidativo",
+        text: "Laboratórios incorporam Methylene Blue em experimentos que investigam respostas ao estresse oxidativo e resiliência celular."
+      },
+      {
+        title: "Pesquisa de metabolismo celular",
+        text: "O composto apoia experimentos que estudam regulação metabólica e produção de energia mitocondrial."
+      },
+      {
+        title: "Pesquisa bioquímica e de biologia molecular",
+        text: "Methylene Blue é frequentemente usado em ensaios baseados em células para analisar sinalização intracelular e processos metabólicos."
+      }
+    ],
+
+    molecularTitle: "Características moleculares",
+    molecularPoints: [
+      "Nome do composto: Methylene Blue",
+      "Número CAS: 61-73-4",
+      "Classe química: Derivado de fenotiazina",
+      "Forma: Composto de pesquisa em cápsulas",
+      "Concentração: 10mg por cápsula",
+      "Quantidade total: 600mg (60 cápsulas)"
+    ],
+
+    stabilityTitle: "Perfil de estabilidade e recomendações de armazenamento",
+    stabilityPoints: [
+      "Armazenar em ambiente fresco e seco",
+      "Proteger da exposição direta à luz",
+      "Evitar exposição à umidade",
+      "Fechar bem o recipiente após o uso",
+      "Manusear de acordo com procedimentos padrão de segurança laboratorial"
+    ],
+
+    solubilityTitle: "Considerações de solubilidade e preparação",
+    solubilityPoints: [
+      "Solúvel em água e soluções laboratoriais aquosas",
+      "Compatível com soluções bioquímicas tamponadas de pesquisa",
+      "Adequado para ensaios redox e de transferência de elétrons",
+      "Aplicável em experimentos de vias mitocondriais",
+      "Compatível com protocolos de pesquisa bioquímica"
+    ],
+
+    techSpecsTitle: "Especificações técnicas",
+    techSpecs: {
+      productName: "Methylene Blue 10mg Cápsulas",
+      brand: "BioPeptides",
+      cas: "61-73-4",
+      purity: "Pureza de grau de pesquisa",
+      unitSize: "60 cápsulas",
+      form: "Formato em cápsulas",
+      synthesis: "Síntese química controlada",
+      analytical: "Verificação de identidade e pureza",
+      molecularStructure: "Composto redox fenotiazínico",
+      stability: "Estável sob condições de armazenamento frescas e secas"
+    },
+
+    validationTitle: "Validação analítica e garantia de qualidade",
+    validationPoints: [
+      "Verificação da identidade do composto",
+      "Avaliação de pureza e validação analítica",
+      "Avaliação da consistência entre lotes",
+      "Inspeção da integridade da embalagem",
+      "Processos de fabricação com controle de qualidade"
+    ],
+
+    regulatoryTitle: "Declaração regulatória e de conformidade",
+    regulatoryText:
+      "Methylene Blue fornecido pela BioPeptides é destinado estritamente apenas ao uso em pesquisa laboratorial. Não é aprovado para consumo humano, uso veterinário, aplicações terapêuticas ou tratamentos médicos.",
+
+    faqTitle: "Perguntas frequentes",
+
+    faqItems: [
+      {
+        q: "Para que Methylene Blue é principalmente usado em pesquisa?",
+        a: "Methylene Blue é estudado principalmente em biologia redox, transporte eletrônico mitocondrial, sinalização de estresse oxidativo e metabolismo energético celular em modelos controlados de pesquisa laboratorial."
+      },
+      {
+        q: "Por que Methylene Blue é importante em estudos mitocondriais?",
+        a: "Suas propriedades redox reversíveis permitem que pesquisadores analisem processos de transferência de elétrons e bioenergética mitocondrial com precisão."
+      },
+      {
+        q: "O que o CAS 61-73-4 identifica?",
+        a: "CAS 61-73-4 identifica exclusivamente o Methylene Blue, garantindo identificação precisa do composto e reprodutibilidade na documentação de pesquisa científica."
+      },
+      {
+        q: "Methylene Blue é adequado para pesquisa in-vitro?",
+        a: "Sim. Ele é amplamente usado em experimentos in-vitro controlados envolvendo respiração mitocondrial, estresse oxidativo e vias de sinalização metabólica."
+      },
+      {
+        q: "Quais áreas de pesquisa geralmente usam Methylene Blue?",
+        a: "Methylene Blue é amplamente usado em bioquímica, biologia mitocondrial, biologia molecular, estudos de sinalização redox e pesquisa de metabolismo celular."
+      },
+      {
+        q: "Por que escolher o formato de pesquisa em cápsulas?",
+        a: "As cápsulas fornecem quantidade consistente do composto, manuseio laboratorial simplificado e maior estabilidade de armazenamento."
+      },
+      {
+        q: "Como Methylene Blue deve ser armazenado?",
+        a: "Deve ser armazenado em local fresco e seco, protegido da umidade e da exposição direta à luz."
+      },
+      {
+        q: "Por que escolher a BioPeptides para compostos de pesquisa Methylene Blue?",
+        a: "A BioPeptides fornece compostos de pesquisa verificados com qualidade consistente, embalagem laboratorial profissional e fornecimento internacional confiável para pesquisa."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "C16H18ClN3S",
+  molecularWeight: "319.9",
+  monoisotopicMass: "319.0909965",
+  polarArea: "43.9",
+  complexity: "483",
+  xlogP: "N/A",
+  heavyAtomCount: "21",
+  hydrogenBondDonorCount: "0",
+  hydrogenBondAcceptorCount: "4",
+  rotatableBondCount: "1",
+  cid: "6099",
+  inchi:
+    "InChI=1S/C16H18N3S.ClH/c1-18(2)11-5-7-13-15(9-11)20-16-10-12(19(3)4)6-8-14(16)17-13;/h5-10H,1-4H3;1H/q+1;/p-1",
+  inchiKey: "CXKWCBBOMKCUKX-UHFFFAOYSA-M",
+
+  canonicalSmiles:
+    "CN(C)C1=CC2=C(C=C1)N=C3C=CC(=[N+](C)C)C=C3S2.[Cl-]",
+
+  isomericSmiles:
+    "CN(C)C1=CC2=C(C=C1)N=C3C=CC(=[N+](C)C)C=C3S2.[Cl-]",
+
+  iupacName:
+    "[7-(dimethylamino)phenothiazin-3-ylidene]-dimethylazanium chloride"
+}
+  },
+
+  appearance: "Material sólido de pesquisa encapsulado",
+
+  storage: "Armazenar em ambiente fresco e seco, longe da luz.",
+
+  researchStatus:
+    "Somente para uso em pesquisa laboratorial. Não destinado ao uso humano ou veterinário."
+},
+"n-acetyl-selank-amidate-10mg": {
+  name: "N-Acetyl Selank Amidate 10mg",
+
+  tagline:
+    "Análogo estabilizado de Selank para pesquisa de sinalização neuropeptídica e regulação de neurotransmissores",
+
+  cas: "2212313-10-6",
+
+  strength: [
+    "N-Acetyl Selank Amidate 10mg da BioPeptides é um neuropeptídeo sintético de alta pureza e grau de pesquisa, desenvolvido para estudos laboratoriais avançados envolvendo sinalização neuropeptídica, modulação de neurotransmissores e pesquisa de neuromodulação baseada em peptídeos. Produzido por síntese peptídica em fase sólida de precisão e purificado para ≥99% por HPLC, este análogo estabilizado de Selank oferece forte estabilidade molecular e reprodutibilidade. Identificado pelo CAS 2212313-10-6, é amplamente utilizado em pesquisas controladas in-vitro em toda a Europa e nos Estados Unidos."
+  ],
+
+  topDescription: {
+    p0: "N-Acetyl Selank Amidate é um análogo quimicamente estabilizado do neuropeptídeo Selank, investigado em neurociência e pesquisa de sinalização peptídica.",
+    p1: "Pesquisadores estudam este peptídeo por suas interações com vias de regulação de neurotransmissores, mecanismos de sinalização neuropeptídica e sistemas de comunicação neural.",
+    p2: "A adição de grupos funcionais N-acetil e amidato melhora a estabilidade molecular e a resistência à degradação enzimática, permitindo desempenho experimental consistente."
+  },
+
+  components: [
+    "N-Acetyl Selank Amidate — análogo estabilizado do neuropeptídeo Selank",
+    "Peptídeo de pesquisa liofilizado de alta pureza",
+    "Preparação peptídica de grau de pesquisa",
+    "Quantidade total de peptídeo — 10 mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Visão geral da pesquisa",
+    overview: [
+      "N-Acetyl Selank Amidate é um análogo modificado de Selank usado em pesquisas de neurociência que investigam a comunicação neural mediada por peptídeos.",
+      "Pesquisadores estudam este composto para explorar vias de sinalização neuropeptídica e mecanismos de regulação de neurotransmissores.",
+      "A estrutura molecular estabilizada permite exposição experimental prolongada em ambientes laboratoriais controlados.",
+      "O peptídeo apoia investigações mais amplas sobre biologia de neuropeptídeos, sinalização sináptica e vias de neuromodulação."
+    ],
+
+    scientificBackgroundTitle: "Contexto científico",
+    scientificBackground: [
+      "Selank é um neuropeptídeo sintético estudado por seu envolvimento na modulação de neurotransmissores e nas vias de comunicação neural.",
+      "N-Acetyl Selank Amidate é um derivado quimicamente modificado, desenvolvido para melhorar a estabilidade molecular e a reprodutibilidade experimental.",
+      "Pesquisadores investigam este análogo por suas interações com sistemas de sinalização GABAérgicos e serotoninérgicos.",
+      "Sua estrutura estabilizada permite experimentos de maior duração sem rápida degradação do peptídeo."
+    ],
+
+    mechanismTitle: "Perspectiva mecanística de pesquisa",
+    mechanismPoints: [
+      "Investigação de vias de sinalização neuropeptídica",
+      "Pesquisa de modulação de neurotransmissores",
+      "Estudos de sinalização GABAérgica",
+      "Pesquisa de vias serotoninérgicas",
+      "Investigações comparativas de análogos de Selank"
+    ],
+
+    applicationsTitle: "Principais aplicações de pesquisa",
+    applications: [
+      {
+        title: "Pesquisa de sinalização neuropeptídica",
+        text: "Pesquisadores usam este peptídeo para investigar vias de comunicação neural conduzidas por peptídeos."
+      },
+      {
+        title: "Estudos de modulação de neurotransmissores",
+        text: "Modelos laboratoriais analisam interações entre análogos de Selank e sistemas de sinalização de neurotransmissores."
+      },
+      {
+        title: "Pesquisa comparativa de análogos de Selank",
+        text: "Cientistas comparam peptídeos Selank nativos com análogos modificados para avaliar diferenças de estabilidade e sinalização."
+      },
+      {
+        title: "Neurociência molecular e celular",
+        text: "Aplicado em ensaios baseados em células que estudam sinalização neural posterior e respostas de expressão gênica."
+      },
+      {
+        title: "Pesquisa de neurociência in-vitro",
+        text: "Amplamente usado em experimentos laboratoriais controlados que examinam biologia de neuropeptídeos e vias de neuromodulação."
+      }
+    ],
+
+    molecularTitle: "Características moleculares",
+    molecularPoints: [
+      "Nome do composto: N-Acetyl Selank Amidate",
+      "Número CAS: 2212313-10-6",
+      "Classe do peptídeo: Análogo neuropeptídico modificado de Selank",
+      "Forma: Pó peptídico liofilizado",
+      "Pureza: ≥99% verificada por HPLC",
+      "Tamanho da unidade: 10 mg de peptídeo de pesquisa"
+    ],
+
+    stabilityTitle: "Perfil de estabilidade e recomendações de armazenamento",
+    stabilityPoints: [
+      "Armazenar o peptídeo liofilizado a −20°C",
+      "Proteger da umidade e da exposição à luz",
+      "Evitar ciclos repetidos de congelamento e descongelamento",
+      "Reconstituir usando solvente estéril de grau laboratorial",
+      "Fechar bem o frasco após cada uso"
+    ],
+
+    solubilityTitle: "Solubilidade e considerações de preparação",
+    solubilityPoints: [
+      "Solúvel em água bacteriostática estéril",
+      "Compatível com soluções laboratoriais aquosas tamponadas",
+      "Adequado para protocolos neurocientíficos com peptídeos",
+      "Aplicável em ensaios de sinalização de neurotransmissores",
+      "Compatível com sistemas de pesquisa em cultura celular"
+    ],
+
+    techSpecsTitle: "Especificações técnicas",
+    techSpecs: {
+      productName: "N-Acetyl Selank Amidate 10mg",
+      brand: "BioPeptides",
+      cas: "2212313-10-6",
+      purity: "≥99% (verificado por HPLC)",
+      form: "Pó peptídico liofilizado",
+      synthesis: "Síntese peptídica em fase sólida (SPPS)",
+      analytical: "Verificação por HPLC e espectrometria de massa",
+      molecularStructure: "Análogo neuropeptídico modificado de Selank",
+      stability: "Estável sob condições de armazenamento a −20°C"
+    },
+
+    validationTitle: "Validação analítica e garantia de qualidade",
+    validationPoints: [
+      "Teste de pureza por HPLC de alta resolução",
+      "Verificação da identidade do peptídeo",
+      "Análise da integridade estrutural",
+      "Validação da consistência entre lotes",
+      "Teste de estabilidade do peptídeo"
+    ],
+
+    regulatoryTitle: "Declaração regulatória e de conformidade",
+    regulatoryText:
+      "N-Acetyl Selank Amidate fornecido pela BioPeptides é destinado estritamente apenas ao uso em pesquisa laboratorial. Não é aprovado para consumo humano, uso veterinário, aplicações terapêuticas ou tratamentos médicos.",
+
+    faqTitle: "Perguntas frequentes",
+
+    faqItems: [
+      {
+        q: "Para que N-Acetyl Selank Amidate é usado principalmente em pesquisa?",
+        a: "É usado principalmente em pesquisas laboratoriais focadas em sinalização neuropeptídica, modulação de neurotransmissores e mecanismos de neuromodulação mediados por peptídeos."
+      },
+      {
+        q: "Como N-Acetyl Selank Amidate difere do Selank padrão?",
+        a: "As modificações N-acetil e amidato melhoram a estabilidade molecular e a resistência à degradação enzimática em comparação com o Selank nativo."
+      },
+      {
+        q: "O que o CAS 2212313-10-6 identifica?",
+        a: "O CAS 2212313-10-6 identifica exclusivamente N-Acetyl Selank Amidate, garantindo documentação precisa e rastreabilidade em laboratórios de pesquisa."
+      },
+      {
+        q: "Este peptídeo é adequado para estudos de neurociência in-vitro?",
+        a: "Sim. Ele é amplamente usado em experimentos in-vitro controlados envolvendo sinalização neuronal e pesquisa de vias de neurotransmissores."
+      },
+      {
+        q: "Quais áreas de pesquisa geralmente usam este peptídeo?",
+        a: "Ele é comumente usado em neurociência, biologia molecular, pesquisa neurofarmacológica, estudos de sinalização peptídica e pesquisa de comunicação celular."
+      },
+      {
+        q: "Por que escolher o formato de 10mg para pesquisa?",
+        a: "O formato de 10mg apoia programas de pesquisa de longo prazo, múltiplas execuções experimentais e melhor eficiência de custo."
+      },
+      {
+        q: "Como N-Acetyl Selank Amidate deve ser armazenado?",
+        a: "Ele deve ser armazenado a −20 °C em forma liofilizada e protegido da umidade e da luz."
+      },
+      {
+        q: "Por que escolher a BioPeptides para peptídeos de pesquisa?",
+        a: "A BioPeptides fornece peptídeos de alta pureza com documentação CAS verificada e fornecimento internacional confiável para laboratórios de pesquisa."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "C35H59N11O10",
+  molecularWeight: "793.9",
+  monoisotopicMass: "793.44463712",
+  polarArea: "325",
+  complexity: "1480",
+  xlogP: "-5.8",
+  heavyAtomCount: "56",
+  hydrogenBondDonorCount: "9",
+  hydrogenBondAcceptorCount: "12",
+  rotatableBondCount: "20",
+  cid: "133082488",
+  inchi:
+    "InChI=1S/C35H59N11O10/c1-20(47)28(41-21(2)48)31(52)43-22(9-3-4-14-36)32(53)46-18-7-12-25(46)30(51)42-23(10-5-15-39-35(37)38)33(54)45-17-6-11-24(45)29(50)40-19-27(49)44-16-8-13-26(44)34(55)56/h20,22-26,28,47H,3-19,36H2,1-2H3,(H,40,50)(H,41,48)(H,42,51)(H,43,52)(H,55,56)(H4,37,38,39)/t20-,22+,23+,24+,25+,26+,28+/m1/s1",
+  inchiKey: "MMPAGAHMLCPVEK-GSAYKZDLSA-N",
+
+  canonicalSmiles:
+    "CC(C(C(=O)NC(CCCCN)C(=O)N1CCCC1C(=O)NC(CCCN=C(N)N)C(=O)N2CCCC2C(=O)NCC(=O)N3CCCC3C(=O)O)NC(=O)C)O",
+
+  isomericSmiles:
+    "C[C@H]([C@@H](C(=O)N[C@@H](CCCCN)C(=O)N1CCC[C@H]1C(=O)N[C@@H](CCCN=C(N)N)C(=O)N2CCC[C@H]2C(=O)NCC(=O)N3CCC[C@H]3C(=O)O)NC(=O)C)O",
+
+  iupacName:
+    "(2S)-1-[2-[[(2S)-1-[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S,3R)-2-acetamido-3-hydroxybutanoyl]amino]-6-aminohexanoyl]pyrrolidine-2-carbonyl]amino]-5-(diaminomethylideneamino)pentanoyl]pyrrolidine-2-carbonyl]amino]acetyl]pyrrolidine-2-carboxylic acid"
+}
+  },
+
+  appearance: "Pó liofilizado branco",
+
+  storage: "Armazenar a −20°C. Evitar ciclos repetidos de congelamento e descongelamento.",
+
+  researchStatus:
+    "Somente para uso em pesquisa laboratorial. Não destinado ao uso humano ou veterinário."
+},
+"n-acetyl-semax-amidate-30mg": {
+  name: "N-Acetyl Semax Amidate 30mg",
+
+  tagline:
+    "Análogo estabilizado de Semax para pesquisa de sinalização neuropeptídica e plasticidade sináptica",
+
+  cas: "2920938-90-3",
+
+  strength: [
+    "N-Acetyl Semax Amidate 30mg da BioPeptides é um neuropeptídeo sintético de alta pureza e grau de pesquisa, desenvolvido para estudos laboratoriais avançados envolvendo sinalização neuropeptídica, modelagem de vias cognitivas e pesquisa de neuromodulação mediada por peptídeos. Fabricado por meio de síntese peptídica em fase sólida de precisão e purificado para ≥99% por HPLC, este análogo estabilizado de Semax oferece excelente integridade molecular e reprodutibilidade. Identificado pelo CAS 2920938-90-3, é amplamente utilizado em pesquisas controladas in-vitro em toda a Europa e nos Estados Unidos."
+  ],
+
+  topDescription: {
+    p0: "N-Acetyl Semax Amidate é um derivado quimicamente estabilizado do peptídeo Semax, investigado em neurociência e pesquisa de sinalização peptídica.",
+    p1: "Em sistemas laboratoriais, este peptídeo é estudado por suas interações com vias de sinalização neuropeptídica, mecanismos de plasticidade sináptica e cascatas moleculares relacionadas à cognição.",
+    p2: "As modificações N-acetil e amidato melhoram a estabilidade estrutural e a resistência à degradação enzimática, permitindo uma análise experimental mais confiável."
+  },
+
+  components: [
+    "N-Acetyl Semax Amidate — análogo estabilizado do neuropeptídeo Semax",
+    "Peptídeo de pesquisa liofilizado de alta pureza",
+    "Preparação peptídica de grau de pesquisa",
+    "Quantidade total de peptídeo — 30 mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Visão geral da pesquisa",
+    overview: [
+      "N-Acetyl Semax Amidate é um análogo modificado do peptídeo Semax usado em pesquisas de neurociência que exploram vias de comunicação neural mediadas por peptídeos.",
+      "Pesquisadores investigam este composto para estudar redes de sinalização neuropeptídica e respostas moleculares relacionadas à cognição.",
+      "Sua estrutura quimicamente estabilizada permite exposição experimental prolongada em comparação com o Semax nativo.",
+      "O peptídeo apoia investigações laboratoriais sobre plasticidade sináptica, sinalização neurotrófica e mecanismos de neuromodulação."
+    ],
+
+    scientificBackgroundTitle: "Contexto científico",
+    scientificBackground: [
+      "Semax é um neuropeptídeo sintético estudado por seu envolvimento na sinalização neurotrófica e em vias de comunicação neuronal.",
+      "N-Acetyl Semax Amidate é uma versão quimicamente modificada, desenvolvida para melhorar a estabilidade molecular e a consistência experimental.",
+      "Pesquisadores exploram este análogo por suas interações com vias de sinalização sináptica e fatores neurotróficos.",
+      "Sua estrutura estabilizada permite uma análise experimental controlada dos mecanismos de sinalização neural mediados por peptídeos."
+    ],
+
+    mechanismTitle: "Perspectiva mecanística de pesquisa",
+    mechanismPoints: [
+      "Investigação de vias de sinalização neuropeptídica",
+      "Estudos de plasticidade sináptica e comunicação neuronal",
+      "Análise de vias de sinalização neurotrófica",
+      "Pesquisa de neuromodulação mediada por peptídeos",
+      "Pesquisa comparativa de análogos de Semax"
+    ],
+
+    applicationsTitle: "Principais aplicações de pesquisa",
+    applications: [
+      {
+        title: "Pesquisa de sinalização neuropeptídica",
+        text: "Usado para investigar vias de comunicação neural conduzidas por peptídeos em condições laboratoriais controladas."
+      },
+      {
+        title: "Pesquisa de vias cognitivas",
+        text: "Apoia estudos laboratoriais que examinam vias moleculares associadas à sinalização cognitiva e à comunicação neuronal."
+      },
+      {
+        title: "Estudos de sinalização neurotrófica",
+        text: "Pesquisadores analisam interações mediadas por peptídeos com vias neurotróficas e redes de sinalização sináptica."
+      },
+      {
+        title: "Neurociência molecular e celular",
+        text: "Aplicado em ensaios baseados em células que exploram expressão gênica posterior e vias de sinalização neural intracelular."
+      },
+      {
+        title: "Pesquisa comparativa de peptídeos",
+        text: "Permite a comparação entre peptídeos Semax nativos e formas análogas quimicamente estabilizadas."
+      }
+    ],
+
+    molecularTitle: "Características moleculares",
+    molecularPoints: [
+      "Nome do composto: N-Acetyl Semax Amidate",
+      "Número CAS: 2920938-90-3",
+      "Classe do peptídeo: Análogo neuropeptídico modificado de Semax",
+      "Forma: Pó peptídico liofilizado",
+      "Pureza: ≥99% verificada por HPLC",
+      "Tamanho da unidade: 30 mg de peptídeo de pesquisa"
+    ],
+
+    stabilityTitle: "Perfil de estabilidade e recomendações de armazenamento",
+    stabilityPoints: [
+      "Armazenar o peptídeo liofilizado a −20°C",
+      "Proteger da umidade e da exposição à luz",
+      "Evitar ciclos repetidos de congelamento e descongelamento",
+      "Reconstituir usando solvente estéril de grau laboratorial",
+      "Fechar bem o frasco após cada uso"
+    ],
+
+    solubilityTitle: "Solubilidade e considerações de preparação",
+    solubilityPoints: [
+      "Solúvel em água bacteriostática estéril",
+      "Compatível com soluções laboratoriais aquosas tamponadas",
+      "Adequado para protocolos neurocientíficos com peptídeos",
+      "Aplicável em ensaios de pesquisa de sinalização sináptica",
+      "Compatível com sistemas de pesquisa em cultura celular"
+    ],
+
+    techSpecsTitle: "Especificações técnicas",
+    techSpecs: {
+      productName: "N-Acetyl Semax Amidate 30mg",
+      brand: "BioPeptides",
+      cas: "2920938-90-3",
+      purity: "≥99% (verificado por HPLC)",
+      form: "Pó peptídico liofilizado",
+      synthesis: "Síntese peptídica em fase sólida (SPPS)",
+      analytical: "Verificação por HPLC e espectrometria de massa",
+      molecularStructure: "Análogo estabilizado do peptídeo Semax",
+      stability: "Estável sob condições de armazenamento a −20°C"
+    },
+
+    validationTitle: "Validação analítica e garantia de qualidade",
+    validationPoints: [
+      "Teste de pureza por HPLC de alta resolução",
+      "Verificação da identidade do peptídeo",
+      "Análise da integridade estrutural",
+      "Validação da consistência entre lotes",
+      "Teste de estabilidade do peptídeo"
+    ],
+
+    regulatoryTitle: "Declaração regulatória e de conformidade",
+    regulatoryText:
+      "N-Acetyl Semax Amidate fornecido pela BioPeptides é destinado estritamente apenas ao uso em pesquisa laboratorial. Não é aprovado para consumo humano, uso veterinário, aplicações terapêuticas ou tratamentos médicos.",
+
+    faqTitle: "Perguntas frequentes",
+
+    faqItems: [
+      {
+        q: "Para que N-Acetyl Semax Amidate é usado principalmente em pesquisa?",
+        a: "É usado principalmente em pesquisas laboratoriais focadas em sinalização neuropeptídica, modelagem de vias cognitivas e neuromodulação mediada por peptídeos sob condições controladas e não clínicas."
+      },
+      {
+        q: "Como N-Acetyl Semax Amidate difere do Semax padrão?",
+        a: "As modificações N-acetil e amidato melhoram a estabilidade molecular e a resistência à degradação enzimática em comparação com o Semax nativo."
+      },
+      {
+        q: "Por que o CAS 2920938-90-3 é importante?",
+        a: "CAS 2920938-90-3 identifica exclusivamente N-Acetyl Semax Amidate, garantindo documentação precisa e rastreabilidade em laboratórios de pesquisa."
+      },
+      {
+        q: "Este peptídeo é adequado para estudos de neurociência in-vitro?",
+        a: "Sim. Ele é amplamente usado em experimentos in-vitro controlados envolvendo sinalização neuronal, vias neurotróficas e modelos de pesquisa de neuropeptídeos."
+      },
+      {
+        q: "Quais áreas de pesquisa geralmente usam este peptídeo?",
+        a: "Ele é comumente usado em neurociência, biologia molecular, pesquisa neurofarmacológica, estudos de sinalização peptídica e pesquisa de comunicação celular."
+      },
+      {
+        q: "Por que escolher o formato de 30mg para pesquisa?",
+        a: "O formato de 30mg apoia projetos de pesquisa de longo prazo, múltiplas execuções experimentais e melhor eficiência de custo."
+      },
+      {
+        q: "Como N-Acetyl Semax Amidate deve ser armazenado?",
+        a: "Ele deve ser armazenado a −20 °C em forma liofilizada e protegido da umidade e da luz."
+      },
+      {
+        q: "Por que escolher a BioPeptides para este peptídeo de pesquisa?",
+        a: "A BioPeptides fornece peptídeos de alta pureza com documentação CAS verificada e fornecimento internacional confiável para laboratórios de pesquisa."
+      }
+    ],
+       chemicalProperties: {
+  molecularFormula: "C39H54N10O10S",
+  molecularWeight: "855",
+  monoisotopicMass: "854.37450913",
+  polarArea: "320",
+  complexity: "1560",
+  xlogP: "-0.9",
+  heavyAtomCount: "60",
+  hydrogenBondDonorCount: "8",
+  hydrogenBondAcceptorCount: "12",
+  rotatableBondCount: "22",
+  cid: "172638603",
+  inchi:
+    "InChI=1S/C39H54N10O10S/c1-23(50)44-27(14-17-60-2)36(56)45-26(12-13-33(52)53)35(55)46-28(19-25-20-41-22-43-25)37(57)47-29(18-24-8-4-3-5-9-24)39(59)49-16-7-11-31(49)38(58)42-21-32(51)48-15-6-10-30(48)34(40)54/h3-5,8-9,20,22,26-31H,6-7,10-19,21H2,1-2H3,(H2,40,54)(H,41,43)(H,42,58)(H,44,50)(H,45,56)(H,46,55)(H,47,57)(H,52,53)/t26-,27-,28-,29-,30-,31-/m0/s1",
+  inchiKey: "	QQOAKFVAEDCKGY-HPMAGDRPSA-N",
+
+  canonicalSmiles:
+    "CC(=O)NC(CCSC)C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CN=CN1)C(=O)NC(CC2=CC=CC=C2)C(=O)N3CCCC3C(=O)NCC(=O)N4CCCC4C(=O)N",
+
+  isomericSmiles:
+    "CC(=O)N[C@@H](CCSC)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N3CCC[C@H]3C(=O)NCC(=O)N4CCC[C@H]4C(=O)N",
+
+  iupacName:
+    "(4S)-4-[[(2S)-2-acetamido-4-methylsulfanylbutanoyl]amino]-5-[[(2S)-1-[[(2S)-1-[(2S)-2-[[2-[(2S)-2-carbamoylpyrrolidin-1-yl]-2-oxoethyl]carbamoyl]pyrrolidin-1-yl]-1-oxo-3-phenylpropan-2-yl]amino]-3-(1H-imidazol-5-yl)-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+}
+  },
+
+  appearance: "Pó liofilizado branco",
+
+  storage: "Armazenar a −20°C. Evitar ciclos repetidos de congelamento e descongelamento.",
+
+  researchStatus:
+    "Somente para uso em pesquisa laboratorial. Não destinado ao uso humano ou veterinário."
+},
+"nad-plus-100mg": {
+  name: "NAD⁺ (β-Dinucleotídeo de Nicotinamida e Adenina) 100mg",
+
+  tagline:
+    "Coenzima celular essencial para pesquisa de sinalização metabólica e biologia redox",
+
+  cas: "53-84-9",
+
+  strength: [
+    "NAD⁺ (Dinucleotídeo de Nicotinamida e Adenina) 100mg da BioPeptides é um cofator bioquímico de alta pureza e grau de pesquisa, desenvolvido para estudos laboratoriais avançados envolvendo metabolismo celular, biologia redox e bioenergética mitocondrial. Produzido sob rigorosos padrões de qualidade analítica, este composto oferece consistência confiável para ensaios bioquímicos e investigações de vias metabólicas. Identificado pelo CAS 53-84-9, NAD⁺ é amplamente utilizado em pesquisas controladas in-vitro em toda a Europa e nos Estados Unidos."
+  ],
+
+  topDescription: {
+    p0: "NAD⁺ (Dinucleotídeo de Nicotinamida e Adenina) é uma coenzima metabólica central presente em todas as células vivas.",
+    p1: "Pesquisadores estudam esta molécula extensivamente por seu papel no metabolismo energético celular, reações redox e função mitocondrial.",
+    p2: "Seu papel como transportador de elétrons em reações bioquímicas torna o NAD⁺ um composto fundamental em pesquisas de metabolismo e sinalização celular."
+  },
+
+  components: [
+    "NAD⁺ (β-Dinucleotídeo de Nicotinamida e Adenina) — coenzima celular",
+    "Composto de alta pureza e grau de pesquisa",
+    "Cofator bioquímico usado em ensaios metabólicos",
+    "Quantidade total do composto — 100 mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Visão geral da pesquisa",
+    overview: [
+      "NAD⁺ é uma coenzima dinucleotídica naturalmente presente, usada em pesquisas laboratoriais que investigam metabolismo celular e reações redox.",
+      "Pesquisadores estudam NAD⁺ para compreender vias bioquímicas de energia, incluindo glicólise, ciclo do ácido cítrico e respiração mitocondrial.",
+      "O composto atua como um transportador crítico de elétrons em reações de oxidação–redução em numerosos processos celulares.",
+      "A pesquisa com NAD⁺ contribui para investigações mais amplas em regulação metabólica, biologia mitocondrial e sinalização enzimática."
+    ],
+
+    scientificBackgroundTitle: "Contexto científico",
+    scientificBackground: [
+      "NAD⁺ (Dinucleotídeo de Nicotinamida e Adenina) é uma coenzima encontrada em todas as células vivas e é essencial para reações redox.",
+      "Ele alterna entre as formas oxidada (NAD⁺) e reduzida (NADH) durante reações metabólicas.",
+      "Pesquisadores estudam NAD⁺ por seu envolvimento na bioenergética mitocondrial, vias de sinalização dependentes de enzimas e respostas ao estresse celular.",
+      "A molécula também é necessária para várias famílias enzimáticas, incluindo sirtuínas e enzimas PARP."
+    ],
+
+    mechanismTitle: "Perspectiva mecanística de pesquisa",
+    mechanismPoints: [
+      "Pesquisa de reações redox e transferência de elétrons",
+      "Estudos de metabolismo energético celular",
+      "Investigação de bioenergética mitocondrial",
+      "Pesquisa de vias de sinalização dependentes de enzimas",
+      "Análise de estresse oxidativo e regulação metabólica"
+    ],
+
+    applicationsTitle: "Principais aplicações de pesquisa",
+    applications: [
+      {
+        title: "Pesquisa de metabolismo celular",
+        text: "Pesquisadores usam NAD⁺ para estudar vias metabólicas envolvidas na geração de ATP e no equilíbrio energético celular."
+      },
+      {
+        title: "Estudos de biologia redox",
+        text: "O composto é aplicado em experimentos que analisam reações de oxidação–redução e mecanismos de estresse oxidativo."
+      },
+      {
+        title: "Análise da função mitocondrial",
+        text: "Cientistas investigam a respiração mitocondrial e a atividade da cadeia de transporte eletrônico usando NAD⁺ em ensaios bioquímicos."
+      },
+      {
+        title: "Pesquisa enzimática e de cofatores",
+        text: "NAD⁺ atua como cofator em estudos que examinam cinética enzimática e vias de sinalização bioquímica."
+      },
+      {
+        title: "Pesquisa bioquímica e de biologia molecular",
+        text: "Amplamente usado em modelos laboratoriais que analisam regulação metabólica e redes de sinalização celular."
+      }
+    ],
+
+    molecularTitle: "Características moleculares",
+    molecularPoints: [
+      "Nome do composto: NAD⁺ (Dinucleotídeo de Nicotinamida e Adenina)",
+      "Número CAS: 53-84-9",
+      "Classe química: Coenzima dinucleotídica",
+      "Forma: Pó cristalino",
+      "Pureza: Padrão analítico de grau de pesquisa",
+      "Tamanho da unidade: formato de pesquisa laboratorial de 100 mg"
+    ],
+
+    stabilityTitle: "Perfil de estabilidade e recomendações de armazenamento",
+    stabilityPoints: [
+      "Armazenar em ambiente fresco e seco",
+      "Proteger da umidade e da luz direta",
+      "Evitar exposição repetida ao ar ou à umidade",
+      "Fechar bem o recipiente após o uso",
+      "Usar procedimentos padrão de armazenamento laboratorial"
+    ],
+
+    solubilityTitle: "Solubilidade e considerações de preparação",
+    solubilityPoints: [
+      "Composto bioquímico solúvel em água",
+      "Compatível com soluções aquosas tamponadas",
+      "Adequado para preparação de ensaios bioquímicos",
+      "Aplicável em experimentos de vias metabólicas",
+      "Compatível com sistemas de pesquisa dependentes de enzimas"
+    ],
+
+    techSpecsTitle: "Especificações técnicas",
+    techSpecs: {
+      productName: "NAD⁺ 100mg",
+      brand: "BioPeptides",
+      cas: "53-84-9",
+      purity: "Pureza analítica de grau de pesquisa",
+      form: "Pó cristalino",
+      synthesis: "Síntese bioquímica controlada",
+      analytical: "Verificação de identidade e pureza",
+      molecularStructure: "Coenzima metabólica dinucleotídica",
+      stability: "Estável sob as condições recomendadas de armazenamento laboratorial"
+    },
+
+    validationTitle: "Validação analítica e garantia de qualidade",
+    validationPoints: [
+      "Verificação da identidade química",
+      "Avaliação de pureza e estabilidade",
+      "Validação da consistência entre lotes",
+      "Inspeção da integridade da embalagem",
+      "Teste de controle de qualidade analítica"
+    ],
+
+    regulatoryTitle: "Declaração regulatória e de conformidade",
+    regulatoryText:
+      "NAD⁺ fornecido pela BioPeptides é destinado estritamente apenas ao uso em pesquisa laboratorial. Não é aprovado para consumo humano, uso veterinário, aplicações terapêuticas ou tratamentos médicos.",
+
+    faqTitle: "Perguntas frequentes",
+
+    faqItems: [
+      {
+        q: "Para que NAD⁺ é usado principalmente em pesquisa?",
+        a: "NAD⁺ é amplamente usado em pesquisas laboratoriais que investigam metabolismo celular, função mitocondrial, biologia redox e vias bioquímicas dependentes de enzimas."
+      },
+      {
+        q: "Por que NAD⁺ é importante em estudos metabólicos?",
+        a: "NAD⁺ funciona como transportador de elétrons em reações metabólicas, tornando-o essencial para estudar produção de energia e equilíbrio redox."
+      },
+      {
+        q: "O que o CAS 53-84-9 identifica?",
+        a: "CAS 53-84-9 identifica exclusivamente o Dinucleotídeo de Nicotinamida e Adenina (NAD⁺), garantindo documentação química precisa e rastreabilidade."
+      },
+      {
+        q: "NAD⁺ é adequado para experimentos in-vitro?",
+        a: "Sim. NAD⁺ é comumente usado em ensaios bioquímicos, experimentos de cinética enzimática e pesquisa de vias metabólicas."
+      },
+      {
+        q: "Quais áreas de pesquisa geralmente usam NAD⁺?",
+        a: "Ele é amplamente usado em bioquímica, pesquisa metabólica, biologia mitocondrial, biologia molecular e estudos de sinalização celular."
+      },
+      {
+        q: "Por que escolher o formato de pesquisa de 100mg?",
+        a: "O formato de 100mg apoia experimentos laboratoriais prolongados, múltiplos ensaios e melhor eficiência de custo para laboratórios de pesquisa."
+      },
+      {
+        q: "Como NAD⁺ deve ser armazenado?",
+        a: "Deve ser armazenado em local fresco e seco, protegido da luz e da umidade, e manuseado usando procedimentos laboratoriais padrão."
+      },
+      {
+        q: "Por que escolher a BioPeptides para compostos de pesquisa NAD⁺?",
+        a: "A BioPeptides fornece materiais verificados de grau de pesquisa com identificação CAS documentada, qualidade consistente e fornecimento internacional confiável."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "C21H28N7O14P2+",
+  molecularWeight: "664.4",
+  monoisotopicMass: "664.11694759",
+  polarArea: "318",
+  complexity: "1130",
+  xlogP: "-5.9",
+  heavyAtomCount: "44",
+  hydrogenBondDonorCount: "8",
+  hydrogenBondAcceptorCount: "18",
+  rotatableBondCount: "11",
+  cid: "5893",
+  inchi:
+    "InChI=1S/C21H27N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1-4,7-8,10-11,13-16,20-21,29-32H,5-6H2,(H5-,22,23,24,25,33,34,35,36,37)/p+1/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1",
+  inchiKey: "BAWFJGJZGIEFAR-NNYOXOHSSA-O",
+
+  canonicalSmiles:
+    "C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N",
+
+  isomericSmiles:
+    "C1=CC(=C[N+](=C1)[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)OP(=O)(O)OC[C@@H]3[C@H]([C@H]([C@@H](O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N",
+
+  iupacName:
+    "[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate"
+}
+  },
+
+  appearance: "Pó cristalino branco a quase branco",
+
+  storage: "Armazenar a −20°C. Proteger da luz e da umidade.",
+
+  researchStatus:
+    "Somente para uso em pesquisa laboratorial. Não destinado ao uso humano ou veterinário."
+},
+"tesamorelin-5mg": {
+  name: "Tesamorelin 5mg",
+
+  tagline:
+    "Peptídeo de pesquisa GHRH de precisão para estudos do eixo do hormônio do crescimento e sinalização endócrina",
+
+  cas: "901758-09-6",
+
+  strength: [
+    "Tesamorelin 5mg da Bio-Peptides é um peptídeo de alta pureza e grau de pesquisa, desenvolvido para estudos laboratoriais avançados de sinalização do hormônio liberador do hormônio do crescimento (GHRH), regulação endócrina e vias celulares mediadas por receptores. Identificado pelo CAS 901758-09-6, Tesamorelin é um análogo sintético de GHRH amplamente estudado em ambientes de pesquisa controlados por seu papel na modulação do eixo do hormônio do crescimento. Fornecido em formato de pesquisa de 5mg, é ideal para protocolos experimentais focados e estudos endócrinos comparativos. Confiado por instituições de pesquisa em toda a Europa e nos Estados Unidos."
+  ],
+
+  topDescription: {
+    p0: "Tesamorelin é um análogo sintético estabilizado do hormônio liberador do hormônio do crescimento (GHRH) endógeno, estudado em pesquisas laboratoriais avançadas focadas nos mecanismos de secreção de GH e na regulação de vias endócrinas.",
+    p1: "Identificado pelo CAS 901758-09-6, Tesamorelin interage com receptores de GHRH localizados na hipófise anterior, tornando-se uma ferramenta valiosa de pesquisa para estudar a dinâmica da sinalização hormonal.",
+    p2: "O formato de pesquisa de 5mg apoia estudos experimentais focados, investigações de interação com receptores e experimentos comparativos de sinalização endócrina."
+  },
+
+  components: [
+    "Peptídeo análogo sintético de GHRH",
+    "Composto de pesquisa para sinalização do eixo do hormônio do crescimento",
+    "Peptídeo de pesquisa para interação com receptores hipofisários",
+    "Preparação peptídica liofilizada — 5 mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Visão geral da pesquisa",
+    overview: [
+      "Tesamorelin é um análogo sintético do hormônio liberador do hormônio do crescimento, desenvolvido para estudos laboratoriais que investigam a sinalização endócrina e a dinâmica de secreção de GH.",
+      "Pesquisadores estudam Tesamorelin para analisar a ativação de receptores de GHRH dentro do eixo hipotálamo–hipófise.",
+      "O peptídeo permite a investigação controlada de mecanismos de sinalização hormonal sem introduzir hormônio do crescimento exógeno.",
+      "Sua semelhança estrutural com o GHRH endógeno o torna um composto de pesquisa valioso para estudos de biologia endócrina."
+    ],
+
+    scientificBackgroundTitle: "Contexto científico",
+    scientificBackground: [
+      "A secreção do hormônio do crescimento é regulada principalmente pela sinalização hipotalâmica do hormônio liberador do hormônio do crescimento.",
+      "Tesamorelin é estruturalmente relacionado ao GHRH nativo e é estudado por sua interação com receptores de GHRH.",
+      "Pesquisas laboratoriais frequentemente avaliam Tesamorelin para examinar a dinâmica de liberação de GH e vias regulatórias endócrinas.",
+      "Essas investigações apoiam uma compreensão mais profunda das redes de comunicação hormonal e da sinalização mediada por receptores."
+    ],
+
+    mechanismTitle: "Perspectiva mecanística de pesquisa",
+    mechanismPoints: [
+      "Pesquisa de sinalização do receptor do hormônio liberador do hormônio do crescimento",
+      "Análise da comunicação endócrina hipotálamo–hipófise",
+      "Investigação da interação peptídeo–receptor",
+      "Pesquisa da via de secreção do hormônio do crescimento",
+      "Estudos de regulação do feedback endócrino"
+    ],
+
+    applicationsTitle: "Principais aplicações de pesquisa",
+    applications: [
+      {
+        title: "Pesquisa do eixo do hormônio do crescimento",
+        text: "Usado para estudar a ativação do receptor de GHRH e a dinâmica de secreção de GH em modelos laboratoriais."
+      },
+      {
+        title: "Estudos de sinalização endócrina",
+        text: "Pesquisadores examinam a comunicação hormonal hipotálamo–hipófise e vias regulatórias."
+      },
+      {
+        title: "Pesquisa de interação com receptores",
+        text: "Aplicado em experimentos que avaliam a ligação peptídica aos receptores de GHRH."
+      },
+      {
+        title: "Biologia molecular e celular",
+        text: "Usado em experimentos in-vitro que investigam mecanismos intracelulares de sinalização endócrina."
+      },
+      {
+        title: "Pesquisa comparativa de peptídeos",
+        text: "Permite comparação com outros peptídeos de GHRH, como CJC-1295 e Sermorelin."
+      }
+    ],
+
+    molecularTitle: "Características moleculares",
+    molecularPoints: [
+      "Nome do composto: Tesamorelin",
+      "Número CAS: 901758-09-6",
+      "Classe do peptídeo: Análogo do hormônio liberador do hormônio do crescimento",
+      "Forma: Pó peptídico liofilizado",
+      "Tamanho da unidade: 5 mg de peptídeo de pesquisa"
+    ],
+
+    stabilityTitle: "Perfil de estabilidade e recomendações de armazenamento",
+    stabilityPoints: [
+      "Armazenar Tesamorelin liofilizado a −20°C",
+      "Proteger da umidade e da luz direta",
+      "Evitar ciclos repetidos de congelamento e descongelamento",
+      "Reconstituir usando solvente estéril de grau laboratorial",
+      "Fechar o frasco corretamente após o uso"
+    ],
+
+    solubilityTitle: "Considerações de manuseio e preparação para pesquisa",
+    solubilityPoints: [
+      "Compatível com solventes laboratoriais aquosos estéreis",
+      "Adequado para ensaios de sinalização endócrina",
+      "Aplicável em experimentos de ativação de receptores",
+      "Compatível com fluxos de trabalho de pesquisa com peptídeos",
+      "Projetado para preparação experimental reprodutível"
+    ],
+
+    techSpecsTitle: "Especificações técnicas",
+    techSpecs: {
+      productName: "Tesamorelin 5mg",
+      brand: "BioPeptides",
+      purity: "Qualidade analítica de grau de pesquisa",
+      form: "Pó peptídico liofilizado",
+      synthesis: "Síntese peptídica em fase sólida (SPPS)",
+      analytical: "Verificação de identidade e teste de pureza",
+      molecularStructure: "Análogo sintético de GHRH",
+      stability: "Estável sob condições de armazenamento a −20°C"
+    },
+
+    validationTitle: "Validação analítica e garantia de qualidade",
+    validationPoints: [
+      "Confirmação da identidade molecular",
+      "Teste de pureza e estabilidade",
+      "Verificação da integridade estrutural",
+      "Validação da consistência entre lotes",
+      "Inspeção de controle de qualidade analítica"
+    ],
+
+    regulatoryTitle: "Declaração regulatória e de conformidade",
+    regulatoryText:
+      "Tesamorelin 5mg fornecido pela Bio-Peptides é destinado estritamente apenas ao uso em pesquisa laboratorial. Não é aprovado para consumo humano, uso veterinário, aplicações terapêuticas ou tratamento médico.",
+
+    faqTitle: "Perguntas frequentes",
+
+    faqItems: [
+      {
+        q: "Para que Tesamorelin é usado em pesquisa?",
+        a: "Tesamorelin é usado em estudos laboratoriais que investigam a sinalização do hormônio liberador do hormônio do crescimento e a regulação de vias endócrinas."
+      },
+      {
+        q: "O que o CAS 901758-09-6 identifica?",
+        a: "CAS 901758-09-6 identifica exclusivamente Tesamorelin, garantindo documentação química precisa e reprodutibilidade."
+      },
+      {
+        q: "Tesamorelin é adequado para pesquisa in-vitro?",
+        a: "Sim. Tesamorelin é comumente usado em experimentos in-vitro controlados que analisam ativação de receptores e sinalização endócrina."
+      },
+      {
+        q: "Quais áreas de pesquisa geralmente usam Tesamorelin?",
+        a: "Tesamorelin é amplamente estudado em endocrinologia, pesquisa de sinalização peptídica e investigações de biologia molecular."
+      },
+      {
+        q: "Como Tesamorelin deve ser armazenado?",
+        a: "Tesamorelin deve ser armazenado a −20°C e protegido da umidade e da luz."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "C221H366N72O67S",
+  molecularWeight: "5136",
+  monoisotopicMass: "5132.7166406",
+  polarArea: "2360",
+  complexity: "12800",
+  xlogP: "-23.3",
+  heavyAtomCount: "361",
+  hydrogenBondDonorCount: "83",
+  hydrogenBondAcceptorCount: "76",
+  rotatableBondCount: "187",
+  cid: "16137828",
+  inchi:
+    "InChI=1S/C221H366N72O67S/c1-25-28-30-53-163(308)260-145(92-120-54-58-122(299)59-55-120)198(343)255-116(21)179(324)276-150(96-169(316)317)199(344)256-117(22)180(325)291-172(111(16)26-2)214(359)284-147(91-119-43-31-29-32-44-119)206(351)293-174(118(23)298)215(360)285-149(95-162(230)307)205(350)289-155(104-297)210(355)280-146(93-121-56-60-123(300)61-57-121)203(348)267-130(51-41-83-248-220(240)241)186(331)266-126(46-34-36-78-223)197(342)290-171(110(14)15)212(357)283-141(87-106(6)7)183(328)252-100-166(311)258-133(63-70-157(225)302)190(335)278-144(90-109(12)13)202(347)288-152(101-294)208(353)257-115(20)178(323)262-128(49-39-81-246-218(236)237)185(330)265-125(45-33-35-77-222)189(334)277-143(89-108(10)11)201(346)279-142(88-107(8)9)200(345)272-137(66-73-160(228)305)195(340)282-151(97-170(318)319)207(352)292-173(112(17)27-3)213(358)274-139(76-85-361-24)196(341)287-153(102-295)209(354)268-131(52-42-84-249-221(242)243)187(332)270-135(64-71-158(226)303)192(337)269-132(62-69-156(224)301)182(327)251-99-165(310)259-134(67-74-167(312)313)191(336)286-154(103-296)211(356)281-148(94-161(229)306)204(349)273-136(65-72-159(227)304)193(338)271-138(68-75-168(314)315)194(339)264-124(47-37-79-244-216(232)233)181(326)250-98-164(309)253-113(18)176(321)261-127(48-38-80-245-217(234)235)184(329)254-114(19)177(322)263-129(50-40-82-247-219(238)239)188(333)275-140(175(231)320)86-105(4)5/h28-32,43-44,54-61,105-118,124-155,171-174,294-300H,25-27,33-42,45-53,62-104,222-223H2,1-24H3,(H2,224,301)(H2,225,302)(H2,226,303)(H2,227,304)(H2,228,305)(H2,229,306)(H2,230,307)(H2,231,320)(H,250,326)(H,251,327)(H,252,328)(H,253,309)(H,254,329)(H,255,343)(H,256,344)(H,257,353)(H,258,311)(H,259,310)(H,260,308)(H,261,321)(H,262,323)(H,263,322)(H,264,339)(H,265,330)(H,266,331)(H,267,348)(H,268,354)(H,269,337)(H,270,332)(H,271,338)(H,272,345)(H,273,349)(H,274,358)(H,275,333)(H,276,324)(H,277,334)(H,278,335)(H,279,346)(H,280,355)(H,281,356)(H,282,340)(H,283,357)(H,284,359)(H,285,360)(H,286,336)(H,287,341)(H,288,347)(H,289,350)(H,290,342)(H,291,325)(H,292,352)(H,293,351)(H,312,313)(H,314,315)(H,316,317)(H,318,319)(H4,232,233,244)(H4,234,235,245)(H4,236,237,246)(H4,238,239,247)(H4,240,241,248)(H4,242,243,249)/b30-28+/t111-,112-,113-,114-,115-,116-,117-,118+,124-,125-,126-,127-,128-,129-,130-,131-,132-,133-,134-,135-,136-,137-,138-,139-,140-,141-,142-,143-,144-,145-,146-,147-,148-,149-,150-,151-,152-,153-,154-,155-,171-,172-,173-,174-/m0/s1",
+  inchiKey: "QBEPNUQJQWDYKU-BMGKTWPMSA-N",
+
+  canonicalSmiles:
+    "CCC=CCC(=O)NC(CC1=CC=C(C=C1)O)C(=O)NC(C)C(=O)NC(CC(=O)O)C(=O)NC(C)C(=O)NC(C(C)CC)C(=O)NC(CC2=CC=CC=C2)C(=O)NC(C(C)O)C(=O)NC(CC(=O)N)C(=O)NC(CO)C(=O)NC(CC3=CC=C(C=C3)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NCC(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CCSC)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)NC(CC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CC(C)C)C(=O)N",
+
+  isomericSmiles:
+    "CC/C=C/CC(=O)N[C@@H](CC1=CC=C(C=C1)O)C(=O)N[C@@H](C)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](C)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC3=CC=C(C=C3)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)NCC(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CCSC)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)N)C(=O)NCC(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)NCC(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CC(C)C)C(=O)N",
+
+  iupacName:
+    "(4S)-4-[[2-[[(2S)-5-amino-2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-4-amino-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-3-carboxy-2-[[(2S)-2-[[(2S)-2-[[(E)-hex-3-enoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]propanoyl]amino]propanoyl]amino]-3-methylpentanoyl]amino]-3-phenylpropanoyl]amino]-3-hydroxybutanoyl]amino]-4-oxobutanoyl]amino]-3-hydroxypropanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-3-methylbutanoyl]amino]-4-methylpentanoyl]amino]acetyl]amino]-5-oxopentanoyl]amino]-4-methylpentanoyl]amino]-3-hydroxypropanoyl]amino]propanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]-5-oxopentanoyl]amino]-3-carboxypropanoyl]amino]-3-methylpentanoyl]amino]-4-methylsulfanylbutanoyl]amino]-3-hydroxypropanoyl]amino]-5-carbamimidamidopentanoyl]amino]-5-oxopentanoyl]amino]-5-oxopentanoyl]amino]acetyl]amino]-5-[[(2S)-1-[[(2S)-4-amino-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-4-methyl-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+}
+
+  },
+
+  appearance: "Pó liofilizado branco",
+
+  storage:
+    "Armazenar a −20°C. Proteger da luz e da umidade. Evitar ciclos repetidos de congelamento e descongelamento.",
+
+  researchStatus:
+    "Somente para uso em pesquisa laboratorial. Não destinado ao uso humano ou veterinário."
+},
   "ipamorelin-2mg-x-10-modgrf-1-29-2mg-x-10": {
     name: "Ipamorelin 2mg ×10 + MOD-GRF (1-29) 2mg ×10 (Pacote)",
     tagline: "Pacote Duplo de Pesquisa da Via do Hormônio do Crescimento para Estudos de Sinalização de Receptores e Coordenação Endócrina",
@@ -10766,8 +12726,8 @@ xlogP: "CJC-1295 Acetate: -10.7 Ipamorelin: 1.8",
     "appearance": "Pós liofilizados brancos (frascos separados)",
     "storage": "Armazenar a −20°C. Evitar ciclos repetidos de congelamento e descongelamento.",
     "researchStatus": "Apenas para uso em pesquisa laboratorial. Não para uso humano ou veterinário."
-  }
-},
+  },
+
  "ipamorelin-5mg": {
     name: "Ipamorelin 5mg",
     tagline: "Secretagogo Seletivo do Hormônio do Crescimento para Pesquisa do Receptor de Grelina e Sinalização Endócrina",
@@ -11291,6 +13251,7 @@ xlogP: "-1.9",
         isomericSmiles: "CC(C)C[C@@H](C(=O)N[C@@H](CCCN=C(N)N)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N)NC(=O)CNC(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CO)NC(=O)[C@H](CC(=O)N)NC(=O)[C@H](CC3=CNC4=CC=CC=C43)NC(=O)[C@H](CC(=O)N)NC(=O)[C@H](CC5=CC=C(C=C5)O)N",
         iupacName: "(2S)-N-[(2S)-1-[[(2S)-4-amino-1-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-1-oxo-3-phenylpropan-2-yl]amino]-5-(diaminomethylideneamino)-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]butanediamide"
       }
+    }
     },
     "kpv-5mg": {
   name: "KPV 5mg",
@@ -12032,165 +13993,8 @@ xlogP: "-4.5",
   researchStatus:
     "Apenas para uso em pesquisa laboratorial. Não para uso humano ou veterinário."
 },
-  "5-amino-1mq-50mg": {
-    name: "5-Amino-1MQ 50mg (60 Cápsulas)",
-    tagline: "Perfil Avançado do Composto de Pesquisa Metabólica",
-    cas: "42464-96-0",
-    strength: [
-      "5-Amino-1MQ 50mg (60 Cápsulas) é um composto de pesquisa de pequena molécula de alta pureza, desenvolvido para estudos avançados in-vitro em bioquímica, metabolismo e energia celular. Cada lote fornecido pela Biopeptides é submetido a validação analítica rigorosa, incluindo Cromatografia Líquida de Alta Eficiência (HPLC) e Espectrometria de Massa (MS), garantindo identidade molecular, reprodutibilidade e desempenho de pesquisa consistente."
-    ],
-    topDescription: {
-      p0: "5-Amino-1MQ 50mg (60 Cápsulas) é um peptídeo sintético de pesquisa de alta pureza, fornecido pela Biopeptides para investigações científicas avançadas in-vitro. Fabricado usando síntese de peptídeos em fase sólida (SPPS), este composto é projetado para atender aos padrões exigentes de laboratórios modernos de pesquisa bioquímica, biologia molecular e metabólica na Europa e nos mercados internacionais.",
-      
-p1: "Cada lote de produção de 5-Amino-1MQ 50mg é submetido a validação analítica rigorosa, incluindo Cromatografia Líquida de Alta Eficiência (HPLC), Espectrometria de Massa (MS) e Espectrofotometria UV, garantindo identidade molecular precisa, pureza ≥99% e reprodutibilidade consistente lote a lote. Esses padrões de qualidade fazem da Biopeptides uma escolha confiável para pesquisadores que compram peptídeos online e exigem confiabilidade, rastreabilidade e documentação alinhada às regulamentações.",
-      
-p2: "O composto é fornecido em formato de cápsula para manuseio em laboratório e fluxos de trabalho de pesquisa controlados, oferecendo conveniência para instituições que realizam estudos repetidos ou comparativos. Apesar de sua forma de cápsula, 5-Amino-1MQ 50mg (60 Cápsulas) permanece estritamente destinado apenas para uso em pesquisa e não é aprovado para aplicações humanas, veterinárias ou clínicas."
-    },
-    content: {
-      overviewTitle: "Visão Geral da Pesquisa",
-      overview: [
-        "5-Amino-1MQ 50mg (60 Cápsulas) é um composto de pesquisa sintético de grau laboratorial fornecido pela Biopeptides para investigações científicas avançadas in-vitro nas disciplinas bioquímicas, biologia molecular e pesquisa metabólica.",
-        "Cada lote de produção é submetido a validação analítica abrangente, incluindo Cromatografia Líquida de Alta Eficiência (HPLC), Espectrometria de Massa (MS) e Espectrofotometria UV, garantindo identidade molecular precisa, alta pureza e consistência lote a lote.",
-        "Fornecido em formato de cápsula para fluxos de trabalho controlados em laboratório, 5-Amino-1MQ apoia o desenho experimental reprodutível, permanecendo estritamente destinado apenas para uso em pesquisa."
-      ],
-     scientificBackgroundTitle: "Contexto Científico",
-      scientificBackground: [
-        "Peptídeos sintéticos e compostos de pesquisa semelhantes a peptídeos desempenham um papel central na ciência biomédica contemporânea. Eles permitem a manipulação precisa de vias de sinalização celular, regulação da expressão gênica e atividade enzimática, todos essenciais para a compreensão dos mecanismos de doenças e do comportamento molecular.",
-        "5-Amino-1MQ, identificado pelo número CAS 42464-96-0, é amplamente estudado em ambientes laboratoriais controlados por seu papel na análise de vias metabólicas, pesquisa de interações proteicas e modelagem da regulação celular. Pesquisadores na França, Alemanha, Itália, Países Baixos e outros países europeus utilizam compostos como 5-Amino-1MQ para investigar comunicação intracelular e mecanismos de resposta bioquímica sem depender de estruturas proteicas complexas.",
-        "Devido ao seu perfil de degradação previsível, alta estabilidade molecular e desempenho reprodutível, 5-Amino-1MQ 50mg tornou-se uma ferramenta valiosa em laboratórios que buscam os melhores peptídeos online que atendem a padrões analíticos e de documentação rigorosos."
-      ],
-      mechanismTitle: "Foco de Pesquisa Mecanística",
-      mechanismPoints: [
-        "Modulação da sinalização celular, onde o composto apoia a avaliação controlada de vias de resposta intracelular.",
-        "Estudos de sensibilidade a fatores de crescimento, permitindo que pesquisadores observem alterações na reatividade dos receptores sob condições experimentais definidas.",
-        "Regulação da expressão gênica, particularmente em modelos de pesquisa metabólica e enzimática.",
-        "Vias de produção de ATP mitocondrial, apoiando estudos de eficiência metabólica e energética celular.",
-        "Pesquisa de ativação e inibição enzimática, fornecendo insights sobre o comportamento de cascatas bioquímicas.",
-        "Essas direções de pesquisa posicionam 5-Amino-1MQ 50mg (60 Cápsulas) entre os melhores peptídeos e compostos de pesquisa derivados de peptídeos disponíveis através da Biopeptides, especialmente para laboratórios europeus que priorizam precisão de dados e reprodutibilidade experimental."
-      ],
-      applicationsTitle: "Principais Aplicações de Pesquisa",
-      applications: [
-        {
-          "title": "Pesquisa de Vias Metabólicas",
-          "text": "Utilizado em modelos in-vitro controlados para estudar regulação metabólica, equilíbrio energético e mecanismos de sinalização intracelular."
-        },
-        {
-          "title": "Análise de Expressão Proteica",
-          "text": "Aplicado em estudos que examinam síntese proteica, dinâmica de degradação e redes de interação molecular."
-        },
-        {
-          "title": "Estudos de Ligação a Receptores",
-          "text": "Utilizado para avaliar reatividade de receptores e ativação de sinalização a jusante sob condições experimentais definidas."
-        },
-        {
-          "title": "Pesquisa Metabólica Mitocondrial",
-          "text": "Apoia investigações sobre função mitocondrial, produção de ATP e metabolismo energético celular."
-        },
-        {
-          "title": "Experimentos de Sensibilidade Enzimática",
-          "text": "Utilizado em ensaios que analisam limiares de ativação enzimática, comportamento de inibição e eficiência catalítica."
-        }
-      ],
-      molecularTitle: "Características Moleculares",
-      molecularPoints: [
-        "5-Amino-1MQ (CAS 42464-96-0) é classificado como um composto de pesquisa sintético semelhante a peptídeos, com estrutura molecular linear. Seu peso molecular é dependente da sequência, e sua estabilidade química é considerada alta quando armazenado sob condições recomendadas.",
-        "Quando mantido em um ambiente seco e protegido, 5-Amino-1MQ 50mg permanece estável por longos períodos. No entanto, como muitos peptídeos de pesquisa de alta pureza, é sensível à exposição à umidade e luz prolongada, que podem acelerar a degradação. Acima da temperatura ambiente, a degradação segue um padrão previsível, permitindo que os pesquisadores planejem protocolos de armazenamento e uso de acordo.",
-        "Soluções reconstituídas, quando necessárias para procedimentos analíticos, demonstram estabilidade por aproximadamente 24 a 48 horas sob refrigeração, dependendo da composição do tampão e das condições de laboratório.",
-        "Peso Molecular: Específico do composto (CAS 42464-96-0)"
-      ],
-      stabilityTitle: "Perfil de Estabilidade e Considerações de Armazenamento",
-      stabilityTitle: [
-        "Estável quando armazenado em ambiente fresco e seco, protegido da luz direta",
-        "Sensível à umidade e exposição prolongada à luz",
-        "Perfil de degradação previsível acima da temperatura ambiente",
-        "Soluções reconstituídas permanecem estáveis por aproximadamente 24–48 horas sob refrigeração",
-        "O armazenamento adequado preserva a integridade molecular e a confiabilidade da pesquisa"
-      ],
-      solubilityTitle: "Opções de Solubilidade e Reconstituição",
-      solubilityPoints: [
-        "Água bacteriostática",
-        "Soluções salinas estéreis",
-        "Tampões levemente ácidos",
-        "Solventes orgânicos analíticos compatíveis"
-      ],
-      techSpecsTitle: "Especificações Técnicas",
-      techSpecs: {
-        productName: "5-Amino-1MQ 50mg (60 Cápsulas)",
-        cas: "42464-96-0",
-        purity: "≥99% (verificado por HPLC)",
-        unitSize: "50 mg total (60 cápsulas)",
-        form: "Material sólido de pesquisa encapsulado",
-         analytical: "HPLC, Espectrometria de Massa, Espectrofotometria UV"
-      },
-      validationTitle: "Validação Analítica e Controle de Qualidade",
-      validationPoints: [
-        "Verificação de pureza por Cromatografia Líquida de Alta Eficiência (HPLC)",
-        "Confirmação da identidade molecular por Espectrometria de Massa (MS)",
-        "Análise espectrofotométrica UV",
-        "Verificação de identidade e consistência do lote",
-        "Triagem para endotoxinas e contaminação microbiana"
-      ],
-      egulatoryTitle: "Informações Regulamentares e de Conformidade",
-      regulatoryText: "5-Amino-1MQ 50mg (60 Cápsulas) é fornecido estritamente para pesquisa laboratorial e investigação científica. Não é aprovado para uso como medicamento, suplemento alimentar, ingrediente cosmético ou produto médico e não deve ser administrado a humanos ou animais sob nenhuma circunstância. Certificados de Análise (COA) e Fichas de Dados de Segurança de Materiais (MSDS) estão disponíveis mediante solicitação.",
-      whyTitle: "Por que adquirir da Biopeptides?",
-      whyText: "A Biopeptides é confiada por instituições de pesquisa europeias por fornecer compostos de pesquisa de alta pureza com total transparência analítica. Pesquisadores que compram peptídeos e compostos de pesquisa online escolhem a Biopeptides pela qualidade consistente, documentação confiável e conformidade com os padrões de pesquisa acadêmica, farmacêutica e biotecnológica.",
-      faqTitle: "Perguntas Frequentes",
-      "faqItems": [
-        {
-          "q": "Para que é usado o 5-Amino-1MQ na pesquisa?",
-          "a": "5-Amino-1MQ é usado em pesquisas laboratoriais in-vitro para estudar sinalização celular, vias metabólicas, regulação da expressão gênica e atividade enzimática. Apoia experimentos bioquímicos e de biologia molecular controlados em ambientes de pesquisa acadêmica e farmacêutica."
-        },
-        {
-          "q": "Qual é o número CAS do 5-Amino-1MQ?",
-          "a": "O número CAS para 5-Amino-1MQ é 42464-96-0. Este identificador confirma a identidade molecular do composto e é usado para validação analítica, documentação regulamentar e processos de aquisição laboratorial."
-        },
-        {
-          "q": "O 5-Amino-1MQ é aprovado para uso humano?",
-          "a": "Não. 5-Amino-1MQ 50mg (60 Cápsulas) é estritamente destinado apenas para pesquisa laboratorial. Não é aprovado para uso humano ou animal e não deve ser administrado fora de ambientes de pesquisa in-vitro controlados."
-        },
-        {
-          "q": "Quão puro é o 5-Amino-1MQ da Biopeptides?",
-          "a": "5-Amino-1MQ fornecido pela Biopeptides é fabricado com pureza ≥99%, verificada por HPLC, Espectrometria de Massa e análise UV para garantir consistência e reprodutibilidade para pesquisa científica."
-        },
-        {
-          "q": "Como o 5-Amino-1MQ deve ser armazenado?",
-          "a": "Para estabilidade ideal, 5-Amino-1MQ deve ser armazenado em ambiente fresco e seco a −20°C, protegido da luz e umidade. O armazenamento adequado preserva a integridade molecular e prolonga a vida útil para uso em pesquisa de longo prazo."
-        },
-        {
-          "q": "Posso comprar 5-Amino-1MQ online na Europa?",
-          "a": "Sim. A Biopeptides permite que pesquisadores em toda a Europa comprem peptídeos online, incluindo 5-Amino-1MQ 50mg (60 Cápsulas), com documentação analítica completa e garantia de qualidade de grau de pesquisa."
-        },
-        {
-          "q": "Quais solventes são adequados para reconstituir 5-Amino-1MQ?",
-          "a": "5-Amino-1MQ pode ser reconstituído usando água bacteriostática, solução salina estéril, tampões ácidos ou solventes orgânicos compatíveis, dependendo do projeto experimental e dos requisitos do ensaio."
-        }
-      ],
-      chemicalProperties: {
-       
- molecularFormula: "C62H98N16O22",
-        
- molecularWeight: "1419.5",
-      
-  monoisotopicMass: "1418.70415882",
-       
- polarArea: "573",
-        
-complexity: "3040",
-        
-xlogP: "-9",
-        heavyAtomCount: "100",
-        hydrogenBondDonorCount: "16",
-        hydrogenBondAcceptorCount: "24",
-        rotatableBondCount: "39",
-        cid: "9941957",
-        inchi: "InChI=1S/C62H98N16O22/c1-31(2)25-37(55(92)74-50(32(3)4)62(99)100)71-46(81)29-65-51(88)33(5)67-53(90)38(26-48(84)85)73-54(91)39(27-49(86)87)72-52(89)34(6)68-57(94)41-15-10-21-75(41)58(95)35(13-7-8-20-63)70-45(80)30-66-56(93)40-14-9-22-76(40)60(97)43-17-12-24-78(43)61(98)42-16-11-23-77(42)59(96)36(18-19-47(82)83)69-44(79)28-64/h31-43,50H,7-30,63-64H2,1-6H3,(H,65,88)(H,66,93)(H,67,90)(H,68,94)(H,69,79)(H,70,80)(H,71,81)(H,72,89)(H,73,91)(H,74,92)(H,82,83)(H,84,85)(H,86,87)(H,99,100)/t33-,34-,35-,36-,37-,38-,39-,40-,41-,42-,43-,50-/m0/s1 Timbetasin: InChI=1S/C212H350N56O78S/c1-16-106(7)166(261-190(323)131(64-75-160(292)293)231-172(305)109(10)228-174(307)134(78-91-347-15)245-196(329)140(98-165(302)303)255-201(334)147-53-39-88-266(147)209(342)135(52-29-38-87-221)250-197(330)139(97-164(300)301)254-198(331)143(100-269)229-113(14)276)204(337)246-129(62-73-158(288)289)187(320)233-118(47-24-33-82-216)179(312)252-137(94-114-42-19-18-20-43-114)194(327)253-138(96-163(298)299)195(328)237-121(50-27-36-85-219)181(314)258-144(101-270)199(332)239-119(48-25-34-83-217)178(311)251-136(92-104(3)4)193(326)236-116(45-22-31-80-214)175(308)235-122(51-28-37-86-220)189(322)263-168(110(11)273)207(340)249-133(66-77-162(296)297)192(325)264-169(111(12)274)206(339)248-126(58-69-152(224)279)184(317)243-128(61-72-157(286)287)186(319)234-120(49-26-35-84-218)180(313)256-142(95-153(225)280)211(344)268-90-40-54-148(268)202(335)257-141(93-105(5)6)210(343)267-89-41-55-149(267)203(336)259-145(102-271)200(333)238-117(46-23-32-81-215)177(310)244-132(65-76-161(294)295)191(324)265-170(112(13)275)208(341)262-167(107(8)17-2)205(338)247-130(63-74-159(290)291)188(321)241-125(57-68-151(223)278)183(316)242-127(60-71-156(284)285)185(318)232-115(44-21-30-79-213)176(309)240-124(56-67-150(222)277)173(306)227-108(9)171(304)226-99-154(281)230-123(59-70-155(282)283)182(315)260-146(103-272)212(345)346/h18-20,42-43,104-112,115-149,166-170,269-275H,16-17,21-41,44-103,213-221H2,1-15H3,(H2,222,277)(H2,223,278)(H2,224,279)(H2,225,280)(H,226,304)(H,227,306)(H,228,307)(H,229,276)(H,230,281)(H,231,305)(H,232,318)(H,233,320)(H,234,319)(H,235,308)(H,236,326)(H,237,328)(H,238,333)(H,239,332)(H,240,309)(H,241,321)(H,242,316)(H,243,317)(H,244,310)(H,245,329)(H,246,337)(H,247,338)(H,248,339)(H,249,340)(H,250,330)(H,251,311)(H,252,312)(H,253,327)(H,254,331)(H,255,334)(H,256,313)(H,257,335)(H,258,314)(H,259,336)(H,260,315)(H,261,323)(H,262,341)(H,263,322)(H,264,325)(H,265,324)(H,282,283)(H,284,285)(H,286,287)(H,288,289)(H,290,291)(H,292,293)(H,294,295)(H,296,297)(H,298,299)(H,300,301)(H,302,303)(H,345,346)/t106-,107-,108-,109-,110+,111+,112+,115-,116-,117-,118-,119-,120-,121-,122-,123-,124-,125-,126-,127-,128-,129-,130-,131-,132-,133-,134-,135-,136-,137-,138-,139-,140-,141-,142-,143-,144-,145-,146-,147-,148-,149-,166-,167-,168-,169-,170-/m0/s1",
-        canonicalSmiles: "C[C@@H](C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](C)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)O)NC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCCN)NC(=O)CNC(=O)[C@@H]2CCCN2C(=O)[C@@H]3CCCN3C(=O)[C@@H]4CCCN4C(=O)[C@H](CCC(=O)O)NC(=O)CN Timbetasin: CC[C@H](C)[C@@H](C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(=O)N)C(=O)N2CCC[C@H]2C(=O)N[C@@H](CC(C)C)C(=O)N3CCC[C@H]3C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](C)C(=O)NCC(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CO)C(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](C)NC(=O)[C@H](CCSC)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H]4CCCN4C(=O)[C@H](CCCCN)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)C",
-        isomericSmiles: "C[C@@H](C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](C)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)O)NC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCCN)NC(=O)CNC(=O)[C@@H]2CCCN2C(=O)[C@@H]3CCCN3C(=O)[C@@H]4CCCN4C(=O)[C@H](CCC(=O)O)NC(=O)CN Timbetasin: CC[C@H](C)[C@@H](C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(=O)N)C(=O)N2CCC[C@H]2C(=O)N[C@@H](CC(C)C)C(=O)N3CCC[C@H]3C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](C)C(=O)NCC(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CO)C(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](C)NC(=O)[C@H](CCSC)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H]4CCCN4C(=O)[C@H](CCCCN)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)C",
-        iupacName: "(4S)-4-[(2-aminoacetyl)amino]-5-[(2S)-2-[(2S)-2-[(2S)-2-[(2S)-6-amino-1-[(2S)-2-[(2S)-1-[(2S)-3-carboxy-1-[(2S)-3-carboxy-1-[(2S)-1-[(2S)-1-carboxy-2-methylpropyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxohexan-2-yl]amino]-2-oxoethylcarbamoyl]pyrrolidine-1-carboxamide",
-        canonicalSmiles: "CC(C)CC(C(=O)NC(C(C)C)C(=O)O)NC(=O)CNC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C1CCCN1C(=O)C(CCCCN)NC(=O)CNC(=O)C2CCCN2C(=O)C3CCCN3C(=O)C4CCCN4C(=O)C(CCC(=O)O)NC(=O)CN Timbetasin: CCC(C)C(C(=O)NC(CCC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(CC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CO)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)O)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CC(=O)N)C(=O)N2CCCC2C(=O)NC(CC(C)C)C(=O)N3CCCC3C(=O)NC(CO)C(=O)NC(CCCCN)C(=O)NC(CCC(=O)O)C(=O)NC(C(C)O)C(=O)NC(C(C)CC)C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CCC(=O)N)C(=O)NC(C)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(C)NC(=O)C(CCSC)NC(=O)C(CC(=O)O)NC(=O)C4CCCN4C(=O)C(CCCCN)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C"
-      }
-    }
-  },
+
+ 
   
   "melanostatin-dm-200mg": {
     name: "Melanostatin DM 200mg",
@@ -13873,183 +15677,7 @@ xlogP: "-3.9",
     "storage": "Depozitați la −20°C. Evitați ciclurile repetate de îngheț-dezgheț.",
     "researchStatus": "Doar pentru utilizare în cercetarea de laborator. Nu pentru uz uman sau veterinar."
   },
-  "mots-c-5mg": {
-    name: "MOTS-c 5mg",
-    tagline: "Peptídeo derivado mitocondrial para pesquisa de metabolismo celular e resposta ao estresse",
-    cas: "1627580-64-6",
-    strength: [
-      "MOTS-c 5mg da BioPeptides é um peptídeo derivado mitocondrial de alta pureza, grau de pesquisa, desenvolvido para estudos laboratoriais avançados em metabolismo celular, sinalização mitocondrial e vias adaptativas de resposta ao estresse. Sintetizado usando síntese de peptídeos em fase sólida de precisão e purificado a ≥99% HPLC, o MOTS-c oferece excelente estabilidade molecular e reprodutibilidade. Identificado pelo CAS 1627580-64-6, este peptídeo é amplamente utilizado em pesquisa in-vitro controlada na Europa e nos Estados Unidos."
-    ],
-    topDescription: {
-      p0: "MOTS-c é um peptídeo derivado mitocondrial amplamente estudado em pesquisa que explora o metabolismo celular e a comunicação mitocondrial.",
-      
-p1: "Em ambientes laboratoriais, este peptídeo é investigado por seu papel na sinalização metabólica, comunicação mitocôndria-núcleo e vias adaptativas de resposta ao estresse.",
-      
-p2: "Como o MOTS-c se origina do DNA mitocondrial, ele fornece aos pesquisadores um modelo único para estudar a sinalização mitocondrial e a regulação metabólica."
-    },
-    "components": [
-      "MOTS-c — peptídeo de sinalização derivado mitocondrial",
-      "Peptídeo de pesquisa liofilizado de alta pureza",
-      "Formato de peptídeo para pesquisa laboratorial",
-      "Quantidade total — 5 mg de peptídeo"
-    ],
-    content: {
-      overviewTitle: "Visão Geral da Pesquisa",
-      overview: [
-        "MOTS-c é um peptídeo codificado mitocondrialmente usado em pesquisa laboratorial para investigar regulação metabólica e vias de sinalização mitocondrial.",
-        "Pesquisadores estudam MOTS-c para entender como os peptídeos mitocondriais influenciam o metabolismo celular e as respostas adaptativas ao estresse.",
-        "O peptídeo fornece um modelo para examinar mecanismos de comunicação mitocôndria-núcleo.",
-        "A pesquisa com MOTS-c contribui para investigações mais amplas de sinalização metabólica e biologia mitocondrial."
-      ],
-     scientificBackgroundTitle: "Contexto Científico",
-      scientificBackground: [
-        "MOTS-c (Quadro de Leitura Aberto Mitocondrial do rRNA Twelve S-c) é codificado no DNA mitocondrial, não no DNA nuclear.",
-        "Este peptídeo pertence a uma classe de moléculas conhecidas como peptídeos derivados mitocondriais (MDPs).",
-        "Pesquisadores estudam MOTS-c por seu papel na regulação metabólica, sinalização de resposta ao estresse e vias de comunicação mitocondrial.",
-        "Sua origem mitocondrial o torna particularmente valioso para investigar a sinalização retrógrada entre mitocôndrias e núcleo."
-      ],
-      mechanismTitle: "Perspectiva Mecanística de Pesquisa",
-      mechanismPoints: [
-        "Pesquisa de via de sinalização mitocôndria-núcleo",
-        "Estudos de sinalização de metabolismo celular e balanço energético",
-        "Investigação de via adaptativa de resposta ao estresse",
-        "Análise de sinalização de peptídeos mitocondriais",
-        "Pesquisa de cascata de sinalização metabólica"
-      ],
-      applicationsTitle: "Principais Aplicações de Pesquisa",
-      applications: [
-        {
-          "title": "Pesquisa de Sinalização Mitocondrial",
-          "text": "MOTS-c é usado para investigar vias de comunicação através das quais as mitocôndrias regulam a expressão gênica nuclear."
-        },
-        {
-          "title": "Estudos de Metabolismo Celular",
-          "text": "Pesquisadores examinam como o MOTS-c influencia a regulação da energia celular e as vias de sinalização metabólica."
-        },
-        {
-          "title": "Análise de Via de Resposta ao Estresse",
-          "text": "O peptídeo apoia estudos laboratoriais que analisam a adaptação celular ao estresse metabólico ou ambiental."
-        },
-        {
-          "title": "Pesquisa em Biologia Mitocondrial",
-          "text": "Laboratórios incorporam MOTS-c em experimentos que estudam peptídeos mitocondriais e comunicação intracelular."
-        },
-        {
-          "title": "Pesquisa Celular In-Vitro",
-          "text": "O peptídeo é amplamente utilizado em modelos de pesquisa controlada baseados em células que examinam mecanismos de sinalização metabólica."
-        }
-      ],
-      molecularTitle: "Características Moleculares",
-      molecularPoints: [
-        "Nome do composto: MOTS-c",
-        "Número CAS: 1627580-64-6",
-        "Classe de peptídeo: Peptídeo derivado mitocondrial (MDP)",
-        "Forma: Pó de peptídeo liofilizado",
-        "Pureza: ≥99% verificado por HPLC",
-        "Tamanho da unidade: 5 mg de peptídeo de pesquisa"
-      ],
-      stabilityTitle: "Perfil de Estabilidade e Recomendações de Armazenamento",
-      stabilityTitle: [
-        "Armazenar o peptídeo liofilizado a −20°C",
-        "Proteger da umidade e exposição à luz",
-        "Evitar ciclos repetidos de congelamento e descongelamento",
-        "Reconstituir usando solvente estéril de grau laboratorial",
-        "Selar o frasco hermeticamente após cada uso"
-      ],
-      solubilityTitle: "Considerações de Solubilidade e Preparação",
-      solubilityPoints: [
-        "Solúvel em água bacteriostática estéril",
-        "Compatível com soluções aquosas tamponadas de laboratório",
-        "Adequado para protocolos de pesquisa com peptídeos",
-        "Aplicável em preparação de ensaios de sinalização mitocondrial",
-        "Compatível com modelos experimentais de cultura celular"
-      ],
-      techSpecsTitle: "Especificações Técnicas",
-      techSpecs: {
-        productName: "MOTS-c 5mg",
-        "brand": "BioPeptides",
-        cas: "1627580-64-6",
-        purity: "≥99% (verificado por HPLC)",
-        form: "Pó de peptídeo liofilizado",
-        synthesis: "Síntese de peptídeos em fase sólida (SPPS)",
-         analytical: "Verificação por HPLC e espectrometria de massa",
-        "molecularStructure": "Peptídeo de sinalização derivado mitocondrial",
-        "stability": "Estável sob condições de armazenamento a −20°C"
-      },
-      validationTitle: "Validação Analítica e Garantia de Qualidade",
-      validationPoints: [
-        "Teste de pureza por HPLC de alta resolução",
-        "Verificação de identidade do peptídeo",
-        "Análise de integridade estrutural",
-        "Validação de consistência lote a lote",
-        "Teste de estabilidade do peptídeo"
-      ],
-      egulatoryTitle: "Declaração Regulatória e de Conformidade",
-      regulatoryText: "MOTS-c fornecido pela BioPeptides é destinado estritamente apenas para uso em pesquisa laboratorial. Não é aprovado para consumo humano, uso veterinário, aplicações terapêuticas ou tratamentos médicos.",
-      faqTitle: "Perguntas Frequentes",
-      "faqItems": [
-        {
-          "q": "Para que o MOTS-c é usado principalmente em pesquisa?",
-          "a": "MOTS-c é comumente estudado em pesquisa laboratorial focada em sinalização mitocondrial, regulação metabólica e vias de resposta celular ao estresse."
-        },
-        {
-          "q": "Por que o MOTS-c é considerado único entre os peptídeos?",
-          "a": "MOTS-c é codificado no DNA mitocondrial, não no DNA nuclear, tornando-o valioso para estudar a comunicação mitocôndria-núcleo."
-        },
-        {
-          "q": "O que o CAS 1627580-64-6 identifica?",
-          "a": "CAS 1627580-64-6 identifica unicamente o MOTS-c, garantindo documentação precisa do composto e reprodutibilidade em laboratórios de pesquisa."
-        },
-        {
-          "q": "O MOTS-c é adequado para pesquisa in-vitro?",
-          "a": "Sim. MOTS-c é amplamente utilizado em estudos in-vitro controlados envolvendo função mitocondrial e sinalização metabólica."
-        },
-        {
-          "q": "Quais campos de pesquisa usam frequentemente o MOTS-c?",
-          "a": "MOTS-c é comumente usado em biologia mitocondrial, pesquisa metabólica, biologia molecular e estudos de sinalização de peptídeos."
-        },
-        {
-          "q": "Quais vantagens o formato de pesquisa de 5 mg oferece?",
-          "a": "O formato de 5 mg permite múltiplas execuções experimentais e melhora a eficiência de custos para programas de pesquisa laboratorial estendidos."
-        },
-        {
-          "q": "Como o MOTS-c deve ser armazenado?",
-          "a": "O peptídeo deve ser armazenado a −20°C na forma liofilizada e protegido da umidade e luz."
-        },
-        {
-          "q": "Por que escolher a BioPeptides para peptídeos de pesquisa MOTS-c?",
-          "a": "A BioPeptides fornece peptídeos de alta pureza com documentação CAS verificada e fornecimento internacional confiável para laboratórios de pesquisa."
-        }
-      ],
-      chemicalProperties: {
-       
- molecularFormula: "C101H152N28O22S2",
-        
- molecularWeight: "2174.6",
-      
-  monoisotopicMass: "2173.1077409",
-       
- polarArea: "890",
-        
-complexity: "4510",
-        
-xlogP: "-3.9",
-        heavyAtomCount: "153",
-        hydrogenBondDonorCount: "31",
-        hydrogenBondAcceptorCount: "29",
-        rotatableBondCount: "73",
-        cid: "146675088",
-        inchi: "InChI=1S/C101H152N28O22S2/c1-7-57(4)83(96(148)126-76(50-58-19-9-8-10-20-58)92(144)127-78(52-60-30-34-63(131)35-31-60)97(149)129-46-18-27-79(129)95(147)122-69(25-16-44-112-100(107)108)86(138)118-67(23-13-14-42-102)87(139)124-74(49-56(2)3)91(143)123-73(98(150)151)26-17-45-113-101(109)110)128-94(146)75(51-59-28-32-62(130)33-29-59)116-81(133)55-115-85(137)72(41-48-153-6)121-90(142)71(37-39-82(134)135)119-89(141)70(36-38-80(104)132)120-93(145)77(53-61-54-114-66-22-12-11-21-64(61)66)125-88(140)68(24-15-43-111-99(105)106)117-84(136)65(103)40-47-152-5/h8-12,19-22,28-35,54,56-57,65,67-79,83,114,130-131H,7,13-18,23-27,36-53,55,102-103H2,1-6H3,(H2,104,132)(H,115,137)(H,116,133)(H,117,136)(H,118,138)(H,119,141)(H,120,145)(H,121,142)(H,122,147)(H,123,143)(H,124,139)(H,125,140)(H,126,148)(H,127,144)(H,128,146)(H,134,135)(H,150,151)(H4,105,106,111)(H4,107,108,112)(H4,109,110,113)/t57-,65-,67-,68-,69-,70-,71-,72-,73-,74-,75-,76-,77-,78-,79-,83-/m0/s1",
-        inchiKey: "WYTHCOXVWRKRAH-LOKRTKBUSA-N",
-        canonicalSmiles: "CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)N3CCCC3C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CCCNC(=N)N)C(=O)O)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)CNC(=O)C(CCSC)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)N)NC(=O)C(CC5=CNC6=CC=CC=C65)NC(=O)C(CCCNC(=N)N)NC(=O)C(CCSC)N",
-        isomericSmiles: "CC[C@H](C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N3CCC[C@H]3C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)O)NC(=O)[C@H](CC4=CC=C(C=C4)O)NC(=O)CNC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CC5=CNC6=CC=CC=C65)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CCSC)N",
-        iupacName: "(4S)-4-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-amino-4-metilsulfanilbutanoil]amino]-5-carbamimidamidopentanoil]amino]-3-(1H-indol-3-il)propanoil]amino]-5-oxopentanoil]amino]-5-[[(2S)-1-[[2-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[(2S)-2-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(1S)-4-carbamimidamido-1-carboxibutil]amino]-4-metil-1-oxopentan-2-il]amino]-1-oxohexan-2-il]amino]-5-carbamimidamido-1-oxopentan-2-il]carbamoil]pirrolidin-1-il]-3-(4-hidroxifenil)-1-oxopropan-2-il]amino]-1-oxo-3-fenilpropan-2-il]amino]-3-metil-1-oxopentan-2-il]amino]-3-(4-hidroxifenil)-1-oxopropan-2-il]amino]-2-oxoetil]amino]-4-metilsulfanil-1-oxobutan-2-il]amino]-5-oxopentanoico"
-      }
-    },
-    "appearance": "Pó liofilizado branco",
-    "storage": "Armazenar a −20°C. Evitar ciclos repetidos de congelamento e descongelamento.",
-    "researchStatus": "Apenas para uso em pesquisa laboratorial. Não para uso humano ou veterinário."
-  },
+ 
     "mots-c-10mg": {
     name: "MOTS-c 10mg",
     tagline: "Peptídeo Derivado de Mitocôndrias para Pesquisa de Metabolismo Celular e Resposta ao Estresse",
@@ -15285,183 +16913,7 @@ xlogP: "-2.6",
     "storage": "Armazenar a −20°C. Evitar ciclos repetidos de congelamento e descongelamento.",
     "researchStatus": "Apenas para uso em pesquisa laboratorial. Não para uso humano ou veterinário."
   },
-    "oxytocin-10mg-6000iu": {
-    name: "Ocitocina 10mg (6000 UI)",
-    tagline: "Neuropeptídeo Hormonal Cíclico de Grau de Pesquisa para Estudos de Sinalização Neuroendócrina e Vias de Receptores",
-    cas: "50-56-6",
-    strength: [
-      "Ocitocina 10mg (6000 UI) da BioPeptides é um neuropeptídeo hormonal cíclico de pesquisa de alta pureza, desenvolvido para estudos laboratoriais avançados envolvendo sinalização neuroendócrina, dinâmica de ligação a receptores e vias de comunicação comportamental mediadas por peptídeos. Produzido usando síntese de peptídeos de precisão e verificado analiticamente quanto à consistência, a Ocitocina garante desempenho confiável em modelos experimentais controlados. Identificada pelo CAS 50-56-6, este neuropeptídeo é amplamente utilizado em pesquisa in-vitro e exploratória na Europa e Estados Unidos."
-    ],
-    topDescription: {
-      p0: "A Ocitocina é um nonapeptídeo hormonal cíclico amplamente estudado em pesquisa em neurociência e endocrinologia por seu papel na sinalização neuroendócrina e comunicação mediada por receptores.",
-      
-p1: "Pesquisadores investigam interações da ocitocina com receptores de ocitocina (OXTR) para entender comunicação neural, sinalização hormonal e mecanismos de regulação comportamental.",
-      
-p2: "Sua função dupla como hormônio e neuropeptídeo a torna valiosa para pesquisa multidisciplinar em neurociência, biologia molecular e ciências comportamentais."
-    },
-    "components": [
-      "Ocitocina — hormônio nonapeptídeo cíclico",
-      "Peptídeo de pesquisa liofilizado de alta pureza",
-      "Composto de sinalização neuroendócrina para ligação a receptores",
-      "Quantidade total de peptídeo — 10mg (6000 UI)"
-    ],
-    content: {
-      overviewTitle: "Visão Geral da Pesquisa",
-      overview: [
-        "A Ocitocina é um hormônio peptídico cíclico extensivamente estudado em pesquisa laboratorial por seu papel na sinalização neuroendócrina e comunicação neural.",
-        "Pesquisadores aplicam ocitocina em modelos experimentais que investigam vias de sinalização hormônio-receptor e regulação comportamental mediada por peptídeos.",
-        "O peptídeo é frequentemente usado para estudar mecanismos de sinalização social, vias de processamento emocional e redes de comunicação neural.",
-        "A Ocitocina contribui para pesquisa multidisciplinar abrangendo neurociência, endocrinologia, biologia molecular e ciências comportamentais."
-      ],
-     scientificBackgroundTitle: "Contexto Científico",
-      scientificBackground: [
-        "A ocitocina é sintetizada naturalmente no hipotálamo e liberada através da glândula pituitária posterior.",
-        "Em ambientes de pesquisa, é examinada por sua interação com receptores de ocitocina (OXTR) e vias de sinalização a jusante.",
-        "O peptídeo é amplamente utilizado em estudos que examinam circuitos neurais, sinalização comportamental e comunicação celular mediada por hormônios.",
-        "Sua estrutura cíclica de nonapeptídeo fornece estabilidade e especificidade para modelos de pesquisa de ligação a receptores."
-      ],
-      mechanismTitle: "Perspectiva Mecanística da Pesquisa",
-      mechanismPoints: [
-        "Investigação da via de sinalização do receptor de ocitocina (OXTR)",
-        "Pesquisa de comunicação neural mediada por neuropeptídeos",
-        "Estudos de dinâmica de ligação hormônio-receptor",
-        "Pesquisa de vias de sinalização comportamental e emocional",
-        "Análise de vias de comunicação neuroendócrina"
-      ],
-      applicationsTitle: "Principais Aplicações de Pesquisa",
-      applications: [
-        {
-          "title": "Pesquisa de Sinalização Neuroendócrina",
-          "text": "Pesquisadores estudam ocitocina para explorar a comunicação entre os sistemas nervoso e endócrino."
-        },
-        {
-          "title": "Modelos de Ciências Comportamentais",
-          "text": "Modelos laboratoriais investigam vias de interação social e regulação emocional mediadas por peptídeos."
-        },
-        {
-          "title": "Estudos de Ligação a Receptores",
-          "text": "A ocitocina é usada em ensaios que examinam dinâmica de interação ligante-receptor e especificidade de ligação."
-        },
-        {
-          "title": "Pesquisa em Neurociência",
-          "text": "O peptídeo é aplicado em experimentos que investigam circuitos neurais e vias de comunicação."
-        },
-        {
-          "title": "Biologia Molecular e Celular",
-          "text": "Pesquisadores usam ocitocina em modelos celulares que analisam vias de sinalização reguladas por hormônios."
-        }
-      ],
-      molecularTitle: "Características Moleculares",
-      molecularPoints: [
-        "Nome do Composto: Ocitocina",
-        "Número CAS: 50-56-6",
-        "Classe de Peptídeo: Hormônio nonapeptídeo cíclico",
-        "Forma: Pó de peptídeo liofilizado",
-        "Pureza: Qualidade analítica de grau de pesquisa",
-        "Tamanho da Unidade: 10mg (6000 UI)"
-      ],
-      stabilityTitle: "Perfil de Estabilidade e Recomendações de Armazenamento",
-      stabilityTitle: [
-        "Armazene o peptídeo liofilizado a -20°C",
-        "Proteger da umidade e exposição à luz",
-        "Evitar ciclos repetidos de congelamento e descongelamento",
-        "Reconstituir usando solvente estéril de grau laboratorial",
-        "Selar firmemente o frasco após cada uso"
-      ],
-      solubilityTitle: "Considerações de Solubilidade e Preparação",
-      solubilityPoints: [
-        "Solúvel em água bacteriostática estéril",
-        "Compatível com soluções aquosas tamponadas de laboratório",
-        "Adequado para ensaios de ligação peptídeo-receptor",
-        "Aplicável em estudos de sinalização neuroendócrina",
-        "Compatível com sistemas experimentais de cultura celular"
-      ],
-      techSpecsTitle: "Especificações Técnicas",
-      techSpecs: {
-        productName: "Ocitocina 10mg (6000 UI)",
-        "brand": "BioPeptides",
-        cas: "50-56-6",
-        purity: "Qualidade analítica de grau de pesquisa",
-        form: "Pó de peptídeo liofilizado",
-        synthesis: "Síntese de peptídeos em fase sólida (SPPS)",
-         analytical: "Verificação por HPLC e espectrometria de massa",
-        "molecularStructure": "Hormônio nonapeptídeo cíclico",
-        "stability": "Estável sob condições de armazenamento a -20°C"
-      },
-      validationTitle: "Validação Analítica e Garantia de Qualidade",
-      validationPoints: [
-        "Verificação da identidade do peptídeo",
-        "Análise de pureza e estabilidade",
-        "Confirmação da integridade estrutural",
-        "Teste de consistência lote a lote",
-        "Validação analítica de controle de qualidade"
-      ],
-      egulatoryTitle: "Declaração Regulamentar e de Conformidade",
-      regulatoryText: "A Ocitocina fornecida pela BioPeptides é destinada estritamente apenas para uso em pesquisa laboratorial. Não é aprovada para consumo humano, uso veterinário, aplicações terapêuticas ou tratamentos médicos.",
-      faqTitle: "Perguntas Frequentes",
-      "faqItems": [
-        {
-          "q": "Para que é usado principalmente a ocitocina na pesquisa?",
-          "a": "A ocitocina é usada principalmente em pesquisa laboratorial que estuda sinalização neuroendócrina, interações hormônio-receptor e vias de comunicação comportamental."
-        },
-        {
-          "q": "Por que a ocitocina é importante na pesquisa em neurociência?",
-          "a": "A ocitocina desempenha um papel fundamental na comunicação neural e sinalização comportamental, sendo valiosa para estudar vias de interação social e mecanismos de regulação emocional."
-        },
-        {
-          "q": "O que o CAS 50-56-6 identifica?",
-          "a": "O CAS 50-56-6 identifica exclusivamente a ocitocina, garantindo documentação química precisa e reprodutibilidade em laboratórios de pesquisa."
-        },
-        {
-          "q": "A ocitocina é adequada para pesquisa in-vitro?",
-          "a": "Sim. A ocitocina é comumente usada em experimentos in-vitro controlados envolvendo ensaios de ligação a receptores e estudos de sinalização neuroendócrina."
-        },
-        {
-          "q": "Quais campos de pesquisa comumente usam ocitocina?",
-          "a": "A ocitocina é amplamente usada em neurociência, endocrinologia, ciências comportamentais, biologia molecular e pesquisa de sinalização de peptídeos."
-        },
-        {
-          "q": "Por que escolher o formato de 10mg (6000 UI) para pesquisa?",
-          "a": "O formato de 10mg suporta protocolos de pesquisa extensos e múltiplas configurações experimentais."
-        },
-        {
-          "q": "Como a ocitocina deve ser armazenada?",
-          "a": "A ocitocina deve ser armazenada a -20°C, protegida da umidade e luz, e manuseada usando técnicas estéreis de laboratório."
-        },
-        {
-          "q": "Por que escolher a BioPeptides para peptídeos de pesquisa de ocitocina?",
-          "a": "A BioPeptides fornece documentação CAS verificada, pureza de grau de pesquisa e fornecimento internacional confiável para laboratórios de pesquisa."
-        }
-      ],
-      chemicalProperties: {
-       
- molecularFormula: "C43H66N12O12S2",
-        
- molecularWeight: "1007.2",
-      
-  monoisotopicMass: "1006.43645793",
-       
- polarArea: "450",
-        
-complexity: "1870",
-        
-xlogP: "-2.6",
-        heavyAtomCount: "69",
-        hydrogenBondDonorCount: "12",
-        hydrogenBondAcceptorCount: "15",
-        rotatableBondCount: "17",
-        cid: "439302",
-        inchi: "InChI=1S/C43H66N12O12S2...",
-        inchiKey: "XNOPRXBHLZRZKH-DSZYJQQASA-N",
-        canonicalSmiles: "CCC(C)C1C(=O)NC(C(=O)...",
-        isomericSmiles: "CC[C@H](C)[C@H]1C(=O)...",
-        iupacName: "(2S)-1-[(4R,7S,10S,13S,16S,19R)-19-amino-7-(2-amino-2-oxoetil)-10-(3-amino-3-oxopropil)-13-[(2S)-butan-2-il]-16-[(4-hidroxifenil)metil]-6,9,12,15,18-pentaoxo-1,2-ditia-5,8,11,14,17-pentaazacicloicosano-4-carbonil]-N-[(2S)-1-[(2-amino-2-oxoetil)amino]-4-metil-1-oxopentan-2-il]pirrolidina-2-carboxamida"
-      }
-    },
-    "appearance": "Pó liofilizado branco",
-    "storage": "Armazenar a -20°C. Evitar ciclos repetidos de congelamento e descongelamento.",
-    "researchStatus": "Apenas para uso em pesquisa laboratorial. Não para uso humano ou veterinário."
-  },
+
   "pal-ahk-200mg-topical": {
     name: "Pal-AHK 200mg (Tópico)",
     tagline: "Peptídeo Sinal Conjugado com Lipídios para Pesquisa de Sinalização Dérmica e Biologia da Pele",
@@ -17925,156 +19377,7 @@ p2: "Sua estrutura peptídica regulatória curta permite análise controlada de 
     "storage": "Armazenar a −20°C. Proteger da luz e umidade. Evitar ciclos repetidos de congelamento e descongelamento.",
     "researchStatus": "Apenas para uso em pesquisa laboratorial. Não para uso humano ou veterinário."
   },
-  "selank-10mg": {
-    name: "Selank 10mg",
-    tagline: "Peptídeo Neuroregulador Sintético para Pesquisa de Sinalização de Neuropeptídeos e Comunicação do SNC",
-    cas: "129954343",
-    strength: [
-      "Selank 10mg da BioPeptides é um heptapeptídeo sintético de alta pureza desenvolvido para estudos laboratoriais avançados envolvendo sinalização de neuropeptídeos, vias de modulação de neurotransmissores e modelos de comunicação do sistema nervoso central. Fabricado usando síntese de peptídeos em fase sólida de precisão e verificado analiticamente quanto à estabilidade e reprodutibilidade, o Selank suporta pesquisa in-vitro controlada que investiga mecanismos neuromodulatórios mediados por peptídeos."
-    ],
-    topDescription: {
-      p0: "Selank é um heptapeptídeo sintético estudado em pesquisa laboratorial para sinalização de neuropeptídeos e vias regulatórias do sistema nervoso central.",
-      
-p1: "Pesquisadores investigam Selank por sua interação com sistemas de neurotransmissores e comunicação neural mediada por peptídeos.",
-      
-p2: "Sua estrutura peptídica regulatória curta permite análise controlada de mecanismos de sinalização neuromodulatória em modelos experimentais de neurociência."
-    },
-    "components": [
-      "Heptapeptídeo sintético Selank",
-      "Composto de sinalização peptídica neuroreguladora",
-      "Peptídeo de pesquisa liofilizado de alta pureza",
-      "Quantidade total de peptídeo — 10 mg"
-    ],
-    content: {
-      overviewTitle: "Visão Geral da Pesquisa",
-      overview: [
-        "Selank é um peptídeo neuroregulador sintético investigado em pesquisa laboratorial focada na sinalização de neuropeptídeos e comunicação do sistema nervoso central.",
-        "Pesquisadores usam Selank para explorar a modulação mediada por peptídeos de vias de sinalização neural e regulação de neurotransmissores.",
-        "O peptídeo é comumente incorporado em programas de pesquisa em neurociência que examinam neuromodulação baseada em peptídeos e processos de sinalização em nível de receptor.",
-        "Selank contribui para estudos mais amplos que investigam peptídeos regulatórios curtos e sua influência em sistemas de comunicação neural."
-      ],
-     scientificBackgroundTitle: "Contexto Científico",
-      scientificBackground: [
-        "Selank é derivado estruturalmente de programas de pesquisa de peptídeos baseados em tuftsina focados em sinalização neuroreguladora.",
-        "Peptídeos regulatórios curtos como Selank são investigados por seu papel na modulação de vias de comunicação neural.",
-        "Pesquisadores examinam Selank por sua capacidade de interagir com sistemas de neurotransmissores e redes de sinalização mediadas por peptídeos.",
-        "Sua estrutura heptapeptídica definida permite estudos controlados de estrutura-função em ambientes de pesquisa em neurociência."
-      ],
-      mechanismTitle: "Perspectiva Mecanística da Pesquisa",
-      mechanismPoints: [
-        "Investigação de vias de sinalização de neuropeptídeos",
-        "Pesquisa de comunicação do sistema nervoso central",
-        "Análise de interação peptídeo-receptor",
-        "Estudos de vias de modulação de neurotransmissores",
-        "Análise comparativa de peptídeos neuroativos"
-      ],
-      applicationsTitle: "Principais Aplicações de Pesquisa",
-      applications: [
-        {
-          "title": "Pesquisa de Sinalização de Neuropeptídeos",
-          "text": "Selank é usado para investigar vias de sinalização mediadas por peptídeos dentro de modelos de pesquisa do sistema nervoso central."
-        },
-        {
-          "title": "Estudos de Interação com Neurotransmissores",
-          "text": "Pesquisadores examinam como peptídeos regulatórios influenciam sistemas de neurotransmissores em modelos neurais experimentais."
-        },
-        {
-          "title": "Pesquisa de Interação Peptídeo-Receptor",
-          "text": "Aplicado em ensaios que analisam dinâmica de ligação a receptores e respostas de sinalização impulsionadas por peptídeos."
-        },
-        {
-          "title": "Neurociência Molecular",
-          "text": "Usado em experimentos in-vitro que estudam vias de comunicação neural mediadas por peptídeos."
-        },
-        {
-          "title": "Pesquisa Comparativa de Neuropeptídeos",
-          "text": "Suporta estudos comparativos que analisam diferentes peptídeos neuroativos em ambientes laboratoriais controlados."
-        }
-      ],
-      molecularTitle: "Características Moleculares",
-      molecularPoints: [
-        "Nome do composto: Selank",
-        "Número CAS: 129954-34-3",
-        "Classe de peptídeo: Peptídeo neuroregulador sintético",
-        "Forma: Pó de peptídeo liofilizado",
-        "Tamanho da unidade: 10 mg de peptídeo para pesquisa"
-      ],
-      stabilityTitle: "Perfil de Estabilidade e Recomendações de Armazenamento",
-      stabilityTitle: [
-        "Armazene o peptídeo liofilizado a −20°C",
-        "Proteja da exposição à umidade e luz direta",
-        "Evite ciclos repetidos de congelamento e descongelamento",
-        "Reconstitua com solvente estéril de grau laboratorial",
-        "Vede firmemente o frasco após cada uso"
-      ],
-      solubilityTitle: "Considerações sobre Solubilidade e Preparação",
-      solubilityPoints: [
-        "Solúvel em soluções aquosas estéreis de laboratório",
-        "Compatível com sistemas de pesquisa de peptídeos tamponados",
-        "Aplicável em ensaios de sinalização de neuropeptídeos",
-        "Adequado para pesquisa de vias do sistema nervoso central",
-        "Compatível com protocolos de neurociência molecular"
-      ],
-      techSpecsTitle: "Especificações Técnicas",
-      techSpecs: {
-        productName: "Selank 10mg",
-        "brand": "BioPeptides",
-        purity: "Qualidade analítica para pesquisa",
-        form: "Pó de peptídeo liofilizado",
-        synthesis: "Síntese de peptídeos em fase sólida (SPPS)",
-         analytical: "Verificação de identidade e pureza",
-        "molecularStructure": "Composto neuroregulador heptapeptídico sintético",
-        "stability": "Estável sob condições de armazenamento a −20°C"
-      },
-      validationTitle: "Validação Analítica e Garantia de Qualidade",
-      validationPoints: [
-        "Verificação da identidade molecular",
-        "Avaliação de pureza e estabilidade",
-        "Teste de integridade estrutural",
-        "Validação de consistência lote a lote",
-        "Inspeção analítica de controle de qualidade"
-      ],
-      egulatoryTitle: "Declaração Regulatória e de Conformidade",
-      regulatoryText: "Selank fornecido pela BioPeptides é destinado estritamente para uso em pesquisa laboratorial. Não é aprovado para consumo humano, uso veterinário, aplicações terapêuticas ou tratamentos médicos.",
-      faqTitle: "Perguntas Frequentes",
-      "faqItems": [
-        {
-          "q": "Para que o Selank é usado principalmente na pesquisa?",
-          "a": "Selank é usado principalmente em estudos laboratoriais que investigam sinalização de neuropeptídeos e vias regulatórias do sistema nervoso central."
-        },
-        {
-          "q": "Como o Selank é diferente dos neurotransmissores clássicos?",
-          "a": "Selank é um peptídeo regulatório, não um neurotransmissor clássico, permitindo que pesquisadores estudem mecanismos de sinalização neuromodulatória baseados em peptídeos."
-        },
-        {
-          "q": "O Selank é adequado para pesquisa in-vitro?",
-          "a": "Sim. Selank é amplamente utilizado em experimentos in-vitro controlados que analisam interações peptídeo-receptor e respostas de sinalização neural."
-        },
-        {
-          "q": "Quais campos de pesquisa comumente usam Selank?",
-          "a": "Selank é estudado em pesquisa em neurociência, biologia molecular, pesquisa de sinalização de peptídeos e investigações neurofarmacológicas."
-        },
-        {
-          "q": "Por que escolher o formato de 10mg para pesquisa?",
-          "a": "A quantidade de 10mg suporta experimentos laboratoriais estendidos e fornece fluxos de trabalho de pesquisa econômicos."
-        },
-        {
-          "q": "Como o Selank deve ser armazenado?",
-          "a": "Selank deve ser armazenado a −20°C e protegido da luz e umidade."
-        }
-      ],
-      chemicalProperties: {
-       
- molecularFormula: "C33H57N11O9",
-        
- molecularWeight: "751.87",
-        cas: "129954-34-3"
-      }
-    },
-    "appearance": "Pó liofilizado branco",
-    "storage": "Armazenar a −20°C. Proteger da luz e umidade. Evitar ciclos repetidos de congelamento e descongelamento.",
-    "researchStatus": "Apenas para uso em pesquisa laboratorial. Não para uso humano ou veterinário."
-  },
+ 
     "semax-30mg": {
     name: "Semax 30mg",
     tagline: "Peptídeo Neuroativo Sintético para Pesquisa de Sinalização de Neuropeptídeos e Vias do SNC",
@@ -18691,158 +19994,7 @@ p2: "Pesquisadores usam esta formulação de três peptídeos para estudar inter
     "storage": "Armazenar a −20°C. Proteger da luz e umidade. Evitar ciclos repetidos de congelamento e descongelamento.",
     "researchStatus": "Apenas para uso em pesquisa laboratorial. Não para uso humano ou veterinário."
   },
-    "sermorelin-ghrp-6-ghrp-2-9mg-blend": {
-    name: "Sermorelin + GHRP-6 + GHRP-2 9mg Blend",
-    tagline: "Blend de Peptídeos de Pesquisa de Via Tripla do Hormônio do Crescimento para Estudos de Sinalização Endócrina",
-    cas: "86168-78-7 / 87616-84-0 / 158861-67-7",
-    strength: [
-      "Sermorelin + GHRP-6 + GHRP-2 9mg Blend da BioPeptides é uma formulação de peptídeos de grau de pesquisa que combina um análogo do hormônio liberador do hormônio do crescimento (GHRH) com dois peptídeos liberadores do hormônio do crescimento (GHRP). O blend é projetado para investigações laboratoriais sobre vias de sinalização do hormônio do crescimento, interação cruzada de receptores e mecanismos de comunicação endócrina. Produzido usando síntese de peptídeos de precisão e verificado analiticamente quanto à estabilidade e pureza, esta formulação de três peptídeos permite modelos experimentais reproduzíveis que estudam sinalização de GH de múltiplas vias."
-    ],
-    topDescription: {
-      p0: "O blend Sermorelin + GHRP-6 + GHRP-2 combina três peptídeos estudados por seu papel nas vias de sinalização do hormônio do crescimento.",
-      
-p1: "Sermorelin é um análogo sintético do GHRH, enquanto GHRP-6 e GHRP-2 são agonistas do receptor de grelina investigados para comunicação endócrina mediada por peptídeos.",
-      
-p2: "Pesquisadores usam esta formulação de três peptídeos para estudar interação cruzada de receptores, sinergia de vias e mecanismos complexos de regulação do hormônio do crescimento."
-    },
-    "components": [
-      "Sermorelin — peptídeo análogo do GHRH",
-      "GHRP-6 — peptídeo liberador do hormônio do crescimento",
-      "GHRP-2 — peptídeo liberador do hormônio do crescimento",
-      "Formulação de pesquisa de sinalização de GH com peptídeos triplos",
-      "Quantidade total de peptídeos — 9 mg blend"
-    ],
-    content: {
-      overviewTitle: "Visão Geral da Pesquisa",
-      overview: [
-        "O blend Sermorelin + GHRP-6 + GHRP-2 é uma formulação de três peptídeos estudada em ambientes laboratoriais focados em mecanismos de sinalização do hormônio do crescimento.",
-        "Pesquisadores examinam a atividade combinada da sinalização do receptor GHRH e da sinalização dupla do receptor de grelina dentro de sistemas de comunicação endócrina.",
-        "O blend permite investigação de vias peptídicas complementares que influenciam a regulação do hormônio do crescimento.",
-        "Contribui para pesquisas mais amplas que exploram sinalização peptídica de múltiplas vias em modelos de pesquisa endócrina e hipofisária."
-      ],
-     scientificBackgroundTitle: "Contexto Científico",
-      scientificBackground: [
-        "A liberação do hormônio do crescimento é regulada por vias complexas de sinalização envolvendo tanto mecanismos de receptores GHRH quanto de grelina.",
-        "Sermorelin funciona como um análogo sintético do hormônio liberador do hormônio do crescimento, estudado para sinalização do receptor GHRH.",
-        "GHRP-6 e GHRP-2 interagem com receptores de grelina (GHS-R), representando vias complementares de regulação do GH.",
-        "Combinar esses peptídeos permite que pesquisadores examinem sinergia de sinalização, interação cruzada de receptores e convergência de vias em modelos de pesquisa controlados."
-      ],
-      mechanismTitle: "Perspectiva Mecanística da Pesquisa",
-      mechanismPoints: [
-        "Pesquisa da via de sinalização do receptor GHRH",
-        "Estudos de ativação do receptor de grelina (GHS-R)",
-        "Análise da sinalização do hormônio do crescimento de múltiplas vias",
-        "Dinâmica de interação peptídeo-receptor",
-        "Investigações de vias regulatórias endócrinas"
-      ],
-      applicationsTitle: "Principais Aplicações de Pesquisa",
-      applications: [
-        {
-          "title": "Pesquisa de Sinalização do Hormônio do Crescimento",
-          "text": "Usado para investigar mecanismos de liberação de GH através da ativação combinada de receptores GHRH e de grelina."
-        },
-        {
-          "title": "Estudos de Vias Endócrinas",
-          "text": "Pesquisadores analisam vias de sinalização hormonal mediadas por peptídeos e sistemas de comunicação hipofisária."
-        },
-        {
-          "title": "Pesquisa de Interação Peptídeo-Receptor",
-          "text": "Aplicado em ensaios laboratoriais que examinam ligação a receptores, ativação de vias e especificidade de sinalização."
-        },
-        {
-          "title": "Pesquisa Comparativa de Peptídeos GH",
-          "text": "Apoia comparações entre modelos de sinalização peptídica de via única, via dupla e via tripla."
-        },
-        {
-          "title": "Pesquisa Endócrina Exploratória",
-          "text": "Usado em modelos de pesquisa não clínica controlados que examinam sinalização regulatória hormonal."
-        }
-      ],
-      molecularTitle: "Características Moleculares",
-      molecularPoints: [
-        "Nome do Composto: Sermorelin + GHRP-6 + GHRP-2 Blend",
-        "Número CAS Sermorelin: 86168-78-7",
-        "Número CAS GHRP-6: 87616-84-0",
-        "Número CAS GHRP-2: 158861-67-7",
-        "Classe de Peptídeo: Peptídeos de sinalização do hormônio do crescimento",
-        "Forma: Blend de pó de peptídeos liofilizados",
-        "Tamanho da Unidade: 9 mg blend de pesquisa"
-      ],
-      stabilityTitle: "Perfil de Estabilidade e Recomendações de Armazenamento",
-      stabilityTitle: [
-        "Armazene o blend de peptídeos liofilizado a −20°C",
-        "Proteger da umidade e exposição direta à luz",
-        "Evitar ciclos repetidos de congelamento e descongelamento",
-        "Reconstituir usando solvente estéril de grau laboratorial",
-        "Selar firmemente o frasco após cada uso"
-      ],
-      solubilityTitle: "Considerações de Solubilidade e Preparação",
-      solubilityPoints: [
-        "Solúvel em soluções aquosas estéreis de laboratório",
-        "Compatível com sistemas de pesquisa de peptídeos tamponados",
-        "Aplicável em ensaios de vias endócrinas",
-        "Adequado para experimentos de sinalização de receptores",
-        "Compatível com protocolos de biologia molecular e pesquisa de peptídeos"
-      ],
-      techSpecsTitle: "Especificações Técnicas",
-      techSpecs: {
-        productName: "Sermorelin + GHRP-6 + GHRP-2 9mg Blend",
-        "brand": "BioPeptides",
-        purity: "Qualidade analítica de grau de pesquisa",
-        form: "Blend de pó de peptídeos liofilizados",
-        synthesis: "Síntese de peptídeos em fase sólida (SPPS)",
-         analytical: "Verificação de identidade e pureza",
-        "molecularStructure": "Formulação de sinalização de GH com peptídeos triplos",
-        "stability": "Estável sob condições de armazenamento a −20°C"
-      },
-      validationTitle: "Validação Analítica e Garantia de Qualidade",
-      validationPoints: [
-        "Verificação da identidade molecular de todos os componentes peptídicos",
-        "Avaliação de pureza e estabilidade",
-        "Teste de integridade estrutural",
-        "Validação de consistência lote a lote",
-        "Inspeção de controle de qualidade analítica"
-      ],
-      egulatoryTitle: "Declaração Regulamentar e de Conformidade",
-      regulatoryText: "O blend Sermorelin + GHRP-6 + GHRP-2 fornecido pela BioPeptides é destinado estritamente apenas para uso em pesquisa laboratorial. Não é aprovado para consumo humano, uso veterinário, aplicações terapêuticas ou tratamentos médicos.",
-      faqTitle: "Perguntas Frequentes",
-      "faqItems": [
-        {
-          "q": "Para que é usado o blend Sermorelin + GHRP-6 + GHRP-2 na pesquisa?",
-          "a": "O blend é usado em estudos laboratoriais que examinam a sinalização do hormônio do crescimento através das vias combinadas dos receptores GHRH e de grelina."
-        },
-        {
-          "q": "Por que combinar três peptídeos em uma formulação?",
-          "a": "Combinar esses peptídeos permite que pesquisadores investiguem mecanismos complementares de estimulação do GH e sinergia de vias."
-        },
-        {
-          "q": "O blend é adequado para pesquisa in-vitro?",
-          "a": "Sim. É comumente usado em experimentos laboratoriais controlados que analisam ativação de receptores e vias de sinalização endócrina."
-        },
-        {
-          "q": "Quais campos de pesquisa comumente usam este blend de peptídeos?",
-          "a": "O blend é estudado em pesquisa em endocrinologia, estudos de sinalização de peptídeos, biologia molecular e pesquisa exploratória de vias hormonais."
-        },
-        {
-          "q": "Por que escolher o formato de blend de 9mg?",
-          "a": "O formato de pesquisa de 9mg suporta protocolos experimentais extensos, reduzindo a variabilidade entre lotes de peptídeos."
-        },
-        {
-          "q": "Como o blend deve ser armazenado?",
-          "a": "Deve ser armazenado a −20°C e protegido da luz e umidade."
-        }
-      ],
-      chemicalProperties: {
-        "sermorelinCAS": "86168-78-7",
-        "ghrp6CAS": "87616-84-0",
-        "ghrp2CAS": "158861-67-7",
-        "peptideType": "Growth hormone signaling peptides"
-      }
-    },
-    "appearance": "Pó liofilizado branco",
-    "storage": "Armazenar a −20°C. Proteger da luz e umidade. Evitar ciclos repetidos de congelamento e descongelamento.",
-    "researchStatus": "Apenas para uso em pesquisa laboratorial. Não para uso humano ou veterinário."
-  },
+
    "sermorelin-ipamorelin-10mg-blend": {
     name: "Sermorelin + Ipamorelin 10mg Blend",
     tagline: "Blend de Peptídeos de Pesquisa de Via Dupla do Hormônio do Crescimento para Estudos de Sinalização Endócrina",
@@ -20977,182 +22129,928 @@ xlogP: "Ipamorelin: 1.8 Tesamorelin: -23.3",
     "storage": "Armazenar a −20°C. Proteger da luz e umidade. Evitar ciclos repetidos de congelamento e descongelamento.",
     "researchStatus": "Apenas para uso em pesquisa laboratorial. Não para uso humano ou veterinário."
   },
-    "tb-500-fragment-17-23-10mg": {
-    name: "TB-500 Fragment (17–23) 10mg",
-    tagline: "Fragmento de Precisão da Timosina Beta-4 para Pesquisa de Sinalização Citoesquelética e Relação Estrutura–Função",
-    cas: "476014-70-7",
-    strength: [
-      "TB-500 Fragment (17–23) 10mg da BioPeptides é um fragmento peptídico de pesquisa de alta pureza desenvolvido para investigações laboratoriais avançadas sobre sinalização do citoesqueleto, interações de ligação à actina e análise de vias regenerativas. Representando os aminoácidos 17–23 da Timosina Beta-4, esta sequência definida é produzida usando síntese controlada em fase sólida e verificada analiticamente quanto à identidade, pureza e reprodutibilidade. Sua estrutura específica de fragmento o torna especialmente útil para estudos mecanísticos, ensaios comparativos de peptídeos e pesquisas focadas de estrutura–função em laboratórios de biologia molecular."
-    ],
-    topDescription: {
-      p0: "TB-500 Fragment (17–23) 10mg é um fragmento peptídico sintético curto derivado da Timosina Beta-4 e usado em pesquisa laboratorial focada em sinalização do citoesqueleto, dinâmica da actina e comunicação celular mediada por peptídeos.",
-      
-p1: "Fabricado usando síntese de precisão de peptídeos e validado por controle de qualidade analítico, este fragmento suporta estudos in-vitro reproduzíveis que examinam a atividade molecular localizada dentro da sequência mais ampla da Timosina Beta-4.",
-      
-p2: "Pesquisadores usam este fragmento definido para isolar motivos funcionais, comparar o comportamento em nível de fragmento com TB-500 de comprimento total e estudar relações estrutura–função sob condições experimentais controladas. Apenas para uso em pesquisa laboratorial."
-    },
-    content: {
-      overviewTitle: "Visão Geral da Pesquisa",
-      overview: [
-        "TB-500 Fragment (17–23) é uma sequência peptídica curta derivada da Timosina Beta-4 e estudada em ambientes laboratoriais por seu papel na sinalização celular, interações peptídeo-proteína e modelos de comunicação em nível tecidual.",
-        "Ao contrário do TB-500 de comprimento total, este fragmento permite que pesquisadores isolem uma região funcional menor para análise focada de estrutura–função e de motivos.",
-        "Sua complexidade sequencial reduzida o torna particularmente útil em ensaios comparativos projetados para avaliar a atividade específica do fragmento versus o comportamento do peptídeo parental.",
-        "Para laboratórios que buscam peptídeos de pesquisa baseados em fragmentos com consistência analítica, TB-500 Fragment (17–23) 10mg oferece uma opção direcionada para pesquisa mecanística avançada."
-      ],
-     scientificBackgroundTitle: "Contexto Científico",
-      scientificBackground: [
-        "A pesquisa de peptídeos baseada em fragmentos é uma parte importante da biologia molecular moderna, pois permite que cientistas estudem regiões funcionais específicas dentro de estruturas peptídicas maiores.",
-        "TB-500 Fragment (17–23) corresponde a uma região definida da Timosina Beta-4 e é usado em pesquisa laboratorial que explora motivos de ligação à actina, vias de sinalização do citoesqueleto e mecanismos localizados de resposta celular.",
-        "Ao reduzir a complexidade associada a peptídeos de comprimento total, modelos de fragmentos permitem que pesquisadores avaliem a atividade dependente de sequência com maior especificidade e controle experimental.",
-        "Este fragmento é, portanto, bem adequado para estudos focados em reconhecimento molecular localizado, interação peptídeo-estrutura e biologia comparativa de peptídeos."
-      ],
-      mechanismTitle: "Propriedades Mecanísticas de Pesquisa",
-      mechanismPoints: [
-        "Investigação do motivo de ligação à actina",
-        "Análise da via de sinalização do citoesqueleto",
-        "Estudos de interação peptídeo-proteína específicos do fragmento",
-        "Comparação estrutura–função com TB-500 de comprimento total",
-        "Pesquisa da via de sinalização regenerativa localizada"
-      ],
-      applicationsTitle: "Principais Aplicações de Pesquisa",
-      applications: [
-        {
-          "title": "Estudos de Ligação à Actina e Citoesqueleto",
-          "text": "Usado em modelos laboratoriais controlados para investigar interações localizadas da actina e influência de peptídeos nas vias de sinalização do citoesqueleto."
-        },
-        {
-          "title": "Análise Estrutura–Função",
-          "text": "Aplicado em estudos que comparam o comportamento peptídico em nível de fragmento com a Timosina Beta-4 de comprimento total e peptídeos regenerativos relacionados."
-        },
-        {
-          "title": "Pesquisa de Interação Peptídeo–Proteína",
-          "text": "Apoia experimentos que examinam reconhecimento molecular específico do fragmento, comportamento de ligação e dinâmica de interação."
-        },
-        {
-          "title": "Pesquisa de Vias Regenerativas",
-          "text": "Incorporado em modelos de pesquisa in-vitro que investigam mecanismos de sinalização associados ao reparo celular e comunicação tecidual."
-        },
-        {
-          "title": "Biologia Molecular e Celular",
-          "text": "Usado em ensaios laboratoriais projetados para analisar respostas celulares impulsionadas por peptídeos com complexidade estrutural reduzida."
-        },
-        {
-          "title": "Pesquisa Comparativa de Peptídeos",
-          "text": "Permite comparação direta entre fragmentos de TB-500, TB-500 de comprimento total e outros peptídeos de pesquisa regenerativa."
-        }
-      ],
-      molecularTitle: "Características Moleculares",
-      molecularPoints: [
-        "Tipo Molecular: Fragmento peptídico sintético",
-        "Origem do Peptídeo: Fragmento da Timosina Beta-4",
-        "Região da Sequência: Aminoácidos 17–23",
-        "Forma: Pó de peptídeo liofilizado",
-        "Fórmula Molecular: C20H33N5O9",
-        "Peso Molecular: 487.5"
-      ],
-      stabilityTitle: "Perfil de Estabilidade e Armazenamento",
-      stabilityTitle: [
-        "Estável quando armazenado liofilizado a −20°C",
-        "Proteger da umidade e exposição à luz",
-        "Evitar ciclos repetidos de congelamento e descongelamento após reconstituição",
-        "Usar solventes estéreis de grau laboratorial para preparação",
-        "Selar firmemente o frasco após cada uso para preservar a integridade do peptídeo"
-      ],
-      solubilityTitle: "Opções de Solubilidade e Reconstituição",
-      solubilityPoints: [
-        "Água bacteriostática estéril",
-        "Soluções salinas estéreis",
-        "Sistemas aquosos tamponados de laboratório",
-        "Solventes de pesquisa compatíveis com o desenho do ensaio"
-      ],
-      techSpecsTitle: "Especificações Técnicas",
-      techSpecs: {
-        productName: "TB-500 Fragment (17–23) 10mg",
-        cas: "476014-70-7",
-        purity: "Grau de pesquisa, verificado analiticamente",
-        unitSize: "10 mg",
-        form: "Pó liofilizado",
-        synthesis: "Síntese em Fase Sólida (SPPS)",
-         analytical: "Verificação de identidade, teste de pureza, análise de integridade estrutural",
-        "sequenceRegion": "Aminoácidos 17–23 da Timosina Beta-4"
-      },
-      validationTitle: "Validação Analítica e Controle de Qualidade",
-      validationPoints: [
-        "Confirmação da identidade molecular",
-        "Avaliação de pureza e estabilidade",
-        "Verificação da integridade estrutural",
-        "Teste de consistência lote a lote",
-        "Revisão analítica de controle de qualidade"
-      ],
-      egulatoryTitle: "Informações Regulamentares e de Conformidade",
-      regulatoryText: "TB-500 Fragment (17–23) 10mg é fornecido estritamente para pesquisa laboratorial e investigação científica. Não é aprovado para uso como medicamento, suplemento alimentar, produto cosmético ou produto médico. O peptídeo é destinado exclusivamente a estudos in-vitro e analíticos, e qualquer introdução corporal em humanos ou animais é estritamente proibida. A documentação de suporte para identidade e manuseio em pesquisa pode ser mantida de acordo com os requisitos institucionais de laboratório.",
-      whyTitle: "Por que adquirir da BioPeptides?",
-      whyText: "A BioPeptides fornece fragmentos peptídicos de grau de pesquisa com consistência analítica, documentação transparente e fornecimento internacional confiável. Para laboratórios que buscam comprar peptídeos fragmento online para biologia molecular avançada, sinalização regenerativa e análise estrutura–função, TB-500 Fragment (17–23) 10mg representa uma opção confiável apoiada por síntese controlada e padrões de qualidade reproduzíveis.",
-      faqTitle: "Perguntas Frequentes",
-      "faqItems": [
-        {
-          "q": "Para que é usado o TB-500 Fragment (17–23) na pesquisa?",
-          "a": "TB-500 Fragment (17–23) é usado em pesquisa laboratorial para estudar interações de ligação à actina, sinalização do citoesqueleto, mecanismos de vias regenerativas e atividade peptídica específica do fragmento em modelos experimentais controlados."
-        },
-        {
-          "q": "O que o CAS 476014-70-7 identifica?",
-          "a": "CAS 476014-70-7 identifica exclusivamente TB-500 Fragment (17–23), apoiando documentação química precisa, registros de aquisição e reprodutibilidade em laboratórios de pesquisa."
-        },
-        {
-          "q": "Como um fragmento peptídico é diferente do TB-500 de comprimento total?",
-          "a": "Um fragmento peptídico isola uma sequência funcional específica do peptídeo parental, permitindo que pesquisadores estudem interações moleculares localizadas sem a complexidade adicional da estrutura completa da Timosina Beta-4."
-        },
-        {
-          "q": "TB-500 Fragment (17–23) é adequado para pesquisa in-vitro?",
-          "a": "Sim. É comumente usado em experimentos in-vitro controlados focados em interações peptídeo-proteína, dinâmica do citoesqueleto e análise estrutura–função."
-        },
-        {
-          "q": "Quais campos de pesquisa comumente usam fragmentos de TB-500?",
-          "a": "Fragmentos de TB-500 são usados em biologia molecular, química de peptídeos, pesquisa de sinalização regenerativa, estudos de estrutura–função e programas laboratoriais pré-clínicos exploratórios."
-        },
-        {
-          "q": "Por que escolher o formato de 10mg para pesquisa?",
-          "a": "A quantidade de pesquisa de 10mg suporta estudos extensos, experimentos de replicação e validação entre laboratórios, melhorando a eficiência de custos para investigações detalhadas em nível de fragmento."
-        },
-        {
-          "q": "Como o TB-500 Fragment (17–23) deve ser armazenado?",
-          "a": "Deve ser armazenado liofilizado a −20°C, protegido da luz e umidade, e manuseado usando técnicas estéreis de laboratório para manter a estabilidade."
-        },
-        {
-          "q": "Por que escolher a BioPeptides para peptídeos de pesquisa com fragmento TB-500?",
-          "a": "Pesquisadores escolhem a BioPeptides pela qualidade consistente de grau de pesquisa, documentação verificada, envio internacional confiável e adesão estrita aos padrões de uso apenas em pesquisa."
-        }
-      ],
-      chemicalProperties: {
-       
- molecularFormula: "C20H33N5O9",
-        
- molecularWeight: "487.5",
-      
-  monoisotopicMass: "487.22782765",
-       
- polarArea: "228",
-        
-complexity: "776",
-        
-xlogP: "-5.4",
-        heavyAtomCount: "34",
-        hydrogenBondDonorCount: "7",
-        hydrogenBondAcceptorCount: "10",
-        rotatableBondCount: "14",
-        cid: "4409396",
-        inchi: "InChI=1S/C20H33N5O9/c1-11(27)22-14(10-26)18(31)24-13(9-16(28)29)17(30)23-12(5-2-3-7-21)19(32)25-8-4-6-15(25)20(33)34/h12-15,26H,2-10,21H2,1H3,(H,22,27)(H,23,30)(H,24,31)(H,28,29)(H,33,34)",
-        inchiKey: "HJDRXEQUFWLOGJ-UHFFFAOYSA-N",
-        isomericSmiles: "CC(=O)NC(CO)C(=O)NC(CC(=O)O)C(=O)NC(CCCCN)C(=O)N1CCCC1C(=O)O",
-        canonicalSmiles: "CC(=O)NC(CO)C(=O)NC(CC(=O)O)C(=O)NC(CCCCN)C(=O)N1CCCC1C(=O)O",
-        iupacName: "1-[2-[[2-[(2-acetamido-3-hydroxypropanoyl)amino]-3-carboxypropanoyl]amino]-6-aminohexanoyl]pyrrolidine-2-carboxylic acid",
-        "pubChemLCSS": "Acetyl-Ser-Asp-Lys-Pro Laboratory Chemical Safety Summary"
-      }
-    },
-    "appearance": "Pó liofilizado branco",
-    "storage": "Armazenar a −20°C. Proteger da luz e umidade. Evitar ciclos repetidos de congelamento e descongelamento.",
-    "researchStatus": "Apenas para uso em pesquisa laboratorial. Não para uso humano ou veterinário."
+  "bpc-157-tb-500-kpv-ghk-cu-80mg-klow-blend": {
+  name: "Klow Blend (BPC-157 + TB-500 + KPV + GHK-Cu) 80mg",
+  tagline: "Sistema avançado de pesquisa regenerativa multi-peptídica",
+  cas: "137525-51-0, 77591-33-4, 112965-21-6, 89030-95-5",
+
+  // Short card / hero text
+  strength: [
+    "O BioPeptides Klow Blend 80mg é uma formulação de pesquisa multi-peptídica de alta pureza que combina BPC-157, TB-500, KPV e GHK-Cu. Fabricado por meio de Síntese Peptídica em Fase Sólida (SPPS) e validado por HPLC, Espectrometria de Massa e análise UV, este blend garante pureza ≥99%, precisão molecular e consistência entre lotes. Amplamente utilizado por laboratórios europeus, ele apoia estudos avançados de sinalização celular, modelagem de vias regenerativas, interações proteicas e remodelação da matriz."
+  ],
+
+  // Hero / intro description
+  topDescription: {
+    p0: "O BioPeptides Klow Blend 80mg é um composto premium de pesquisa multi-peptídica desenvolvido para investigação científica avançada in-vitro e baseada em laboratório.",
+    p1: "Combinando quatro peptídeos sintéticos amplamente estudados, esta formulação é produzida sob condições controladas e verificada analiticamente quanto à pureza, identidade e reprodutibilidade.",
+    p2: "Instituições de pesquisa na Alemanha, França, Itália, Espanha, Países Baixos, Bélgica e Suíça confiam no Klow Blend para estudos regenerativos complexos de múltiplas vias e sinalização celular."
   },
+
+  // Full product page content
+  content: {
+    overviewTitle: "Composto premium de pesquisa multi-peptídica",
+    overview: [
+      "O BioPeptides Klow Blend 80mg representa um sistema peptídico sintético de alta precisão desenvolvido para pesquisas avançadas de vias regenerativas e celulares.",
+      "Esta formulação combina quatro peptídeos complementares para permitir a investigação simultânea de sinalização celular, modulação inflamatória, modelagem tecidual e comportamento da matriz extracelular.",
+      "Identificado pelos CAS 137525-51-0, 77591-33-4, 112965-21-6 e 89030-95-5, o blend oferece rastreabilidade completa, documentação regulatória e conformidade de pesquisa alinhada à UE."
+    ],
+
+    scientificBackgroundTitle: "Visão geral científica",
+    scientificBackground: [
+      "Peptídeos sintéticos são ferramentas essenciais na pesquisa biomédica e molecular moderna devido à sua capacidade de modular com precisão vias biológicas.",
+      "O Klow Blend integra peptídeos estudados para angiogênese, migração celular, controle da sinalização inflamatória e interações com a matriz extracelular.",
+      "Esta configuração multi-peptídica permite que pesquisadores estudem a convergência de vias e efeitos de interação dentro de uma única estrutura experimental controlada.",
+      "Laboratórios europeus valorizam sistemas peptídicos combinados por reduzirem a variabilidade de manuseio e melhorarem a reprodutibilidade experimental."
+    ],
+
+    mechanismTitle: "Mecanismo de ação (contexto de pesquisa)",
+    mechanismPoints: [
+      "Modulação da sinalização celular e das vias de comunicação molecular",
+      "Aumento da sensibilidade a fatores de crescimento em modelos in-vitro",
+      "Regulação da expressão gênica e da atividade transcricional",
+      "Influência na produção mitocondrial de ATP e no metabolismo energético",
+      "Suporte à ativação enzimática e aos processos de remodelação mediados por peptídeos"
+    ],
+
+    applicationsTitle: "Principais aplicações de pesquisa",
+    applications: [
+      {
+        title: "Biologia celular regenerativa",
+        text: "Investigação de modelos de reparo tecidual, angiogênese e regeneração celular."
+      },
+      {
+        title: "Estudos de expressão e interação proteica",
+        text: "Avaliação de interações proteína–peptídeo e ligação a receptores."
+      },
+      {
+        title: "Pesquisa de vias inflamatórias",
+        text: "Estudo da modulação da sinalização inflamatória mediada por peptídeos."
+      },
+      {
+        title: "Pesquisa do metabolismo mitocondrial",
+        text: "Avaliação da produção de energia celular e das vias bioenergéticas."
+      },
+      {
+        title: "Ensaios de remodelação da matriz",
+        text: "Modelagem de cicatrização, organização da matriz extracelular e migração celular."
+      },
+      {
+        title: "Pesquisa avançada de múltiplas vias",
+        text: "Exploração de interações peptídicas sinérgicas em múltiplos sistemas biológicos."
+      }
+    ],
+
+    molecularTitle: "Composição molecular e características",
+    molecularPoints: [
+      "Componente 1: BPC-157 (pentadecapeptídeo sintético)",
+      "Componente 2: TB-500 (análogo da timosina beta-4)",
+      "Componente 3: KPV (fragmento tripeptídico do alfa-MSH)",
+      "Componente 4: GHK-Cu (complexo tripeptídico de cobre)",
+      "Estrutura: Cadeias peptídicas sintéticas lineares fornecidas como formulação combinada",
+      "Formato de dose: Frasco combinado de alta concentração com 80mg"
+    ],
+
+    stabilityTitle: "Diretrizes de estabilidade e armazenamento",
+    stabilityPoints: [
+      "Fornecido como pó liofilizado para maior estabilidade a longo prazo",
+      "Temperatura de armazenamento recomendada: −20°C ou inferior",
+      "Proteger contra umidade, humidade e exposição prolongada à luz",
+      "Evitar ciclos repetidos de congelamento e descongelamento",
+      "Soluções reconstituídas permanecem estáveis por aproximadamente 24–48 horas sob refrigeração"
+    ],
+
+    solubilityTitle: "Opções de solubilidade e reconstituição",
+    solubilityPoints: [
+      "Água bacteriostática",
+      "Soluções salinas estéreis",
+      "Sistemas tampão ácidos",
+      "Solventes orgânicos analíticos compatíveis"
+    ],
+
+    techSpecsTitle: "Especificações técnicas",
+    techSpecs: {
+      productName: "Klow Blend (BPC-157 + TB-500 + KPV + GHK-Cu) 80mg",
+      cas: "137525-51-0, 77591-33-4, 112965-21-6, 89030-95-5",
+      purity: "≥99% (verificado por HPLC)",
+      unitSize: "Frasco combinado de 80 mg",
+      form: "Pó peptídico liofilizado",
+      synthesis: "Síntese Peptídica em Fase Sólida (SPPS)",
+      analytical: "HPLC, Espectrometria de Massa, Espectrofotometria UV",
+      molecularStructure: "Blend peptídico sintético linear",
+      stability: "Alta quando armazenado sob as condições laboratoriais recomendadas"
+    },
+
+    validationTitle: "Validação analítica e garantia de qualidade",
+    validationPoints: [
+      "Confirmação de pureza por HPLC",
+      "Verificação da identidade molecular por Espectrometria de Massa",
+      "Análise de concentração por espectrofotometria UV",
+      "Verificação da consistência entre lotes",
+      "Triagem de endotoxinas e contaminação microbiana"
+    ],
+
+    regulatoryTitle: "Declaração regulatória e de conformidade",
+    regulatoryText:
+      "O BioPeptides Klow Blend 80mg é fornecido estritamente para pesquisa laboratorial e investigação científica. Não é aprovado para consumo humano, uso veterinário, cosmético ou aplicações médicas. Certificados de Análise (COA) e Fichas de Dados de Segurança de Material (MSDS) estão disponíveis mediante solicitação para apoiar a conformidade de pesquisa da UE.",
+
+    faqTitle: "Perguntas frequentes",
+    faqItems: [
+      {
+        q: "Para que é usado o BioPeptides Klow Blend 80mg?",
+        a: "É usado em pesquisas laboratoriais avançadas para biologia celular regenerativa, ensaios de interação proteica, estudos de metabolismo mitocondrial e experimentos de remodelação da matriz."
+      },
+      {
+        q: "Quais números CAS estão incluídos neste blend?",
+        a: "O blend inclui BPC-157 (CAS 137525-51-0), TB-500 (CAS 77591-33-4), KPV (CAS 112965-21-6) e GHK-Cu (CAS 89030-95-5)."
+      },
+      {
+        q: "Como o Klow Blend deve ser armazenado?",
+        a: "Armazene o pó liofilizado a −20°C, protegido da luz e da umidade. Evite ciclos repetidos de congelamento e descongelamento."
+      },
+      {
+        q: "Este blend é aprovado para uso humano ou veterinário?",
+        a: "Não. O Klow Blend 80mg é estritamente destinado à pesquisa laboratorial e não é aprovado para uso humano ou animal."
+      },
+      {
+        q: "Laboratórios europeus podem comprar este peptídeo online?",
+        a: "Sim. A BioPeptides fornece este blend para instituições de pesquisa em toda a Europa com documentação analítica completa."
+      },
+      {
+        q: "O que torna este blend único para pesquisa?",
+        a: "A combinação de quatro peptídeos complementares permite a investigação simultânea de vias regenerativas, inflamatórias, metabólicas e relacionadas à matriz em uma única formulação."
+      },
+      {
+        q: "Como a pureza é verificada?",
+        a: "A pureza e a identidade são confirmadas por HPLC, Espectrometria de Massa e espectrofotometria UV, juntamente com testes microbianos e de endotoxinas."
+      },
+      {
+        q: "Por que escolher um blend peptídico de alta dose de 80mg?",
+        a: "Blends de alta dose apoiam estudos prolongados, múltiplas réplicas experimentais, menor variabilidade de manuseio e melhor reprodutibilidade em pesquisas laboratoriais avançadas."
+      }
+    ],
+           chemicalProperties: {
+  molecularFormula: "C62H98N16O22",
+  molecularWeight: "1419.5",
+  monoisotopicMass: "1418.70415882",
+  polarArea: "573",
+  complexity: "3040",
+  xlogP: "-9",
+  heavyAtomCount: "100",
+  hydrogenBondDonorCount: "16",
+  hydrogenBondAcceptorCount: "24",
+  rotatableBondCount: "39",
+  cid: " 9941957",
+  inchi:
+    " InChI=1S/C62H98N16O22/c1-31(2)25-37(55(92)74-50(32(3)4)62(99)100)71-46(81)29-65-51(88)33(5)67-53(90)38(26-48(84)85)73-54(91)39(27-49(86)87)72-52(89)34(6)68-57(94)41-15-10-21-75(41)58(95)35(13-7-8-20-63)70-45(80)30-66-56(93)40-14-9-22-76(40)60(97)43-17-12-24-78(43)61(98)42-16-11-23-77(42)59(96)36(18-19-47(82)83)69-44(79)28-64/h31-43,50H,7-30,63-64H2,1-6H3,(H,65,88)(H,66,93)(H,67,90)(H,68,94)(H,69,79)(H,70,80)(H,71,81)(H,72,89)(H,73,91)(H,74,92)(H,82,83)(H,84,85)(H,86,87)(H,99,100)/t33-,34-,35-,36-,37-,38-,39-,40-,41-,42-,43-,50-/m0/s1",
+  inchiKey: "HEEWEZGQMLZMFE-RKGINYAYSA-N",
+
+  canonicalSmiles:
+    "CC(C)CC(C(=O)NC(C(C)C)C(=O)O)NC(=O)CNC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C1CCCN1C(=O)C(CCCCN)NC(=O)CNC(=O)C2CCCN2C(=O)C3CCCN3C(=O)C4CCCN4C(=O)C(CCC(=O)O)NC(=O)CN",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](C)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)O)NC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCCN)NC(=O)CNC(=O)[C@@H]2CCCN2C(=O)[C@@H]3CCCN3C(=O)[C@@H]4CCCN4C(=O)[C@H](CCC(=O)O)NC(=O)CN",
+
+  iupacName:
+    "(4S)-4-[(2-aminoacetyl)amino]-5-[(2S)-2-[(2S)-2-[(2S)-2-[[2-[[(2S)-6-amino-1-[(2S)-2-[[(2S)-1-[[(2S)-3-carboxy-1-[[(2S)-3-carboxy-1-[[(2S)-1-[[2-[[(2S)-1-[[(1S)-1-carboxy-2-methylpropyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxohexan-2-yl]amino]-2-oxoethyl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-5-oxopentanoic acid"
+}
+  }
+},
+"cartalax-20mg-bioregulator": {
+  name: "Cartalax® 20mg (Biorregulador)",
+  tagline: "Peptídeo de pesquisa biorregulador para cartilagem e tecido conjuntivo",
+  cas: "N/A",
+
+  strength: [
+    "Biopeptides Cartalax® 20mg (Biorregulador) é um peptídeo de pesquisa premium desenvolvido para estudos avançados de biologia regenerativa e molecular. Sintetizado por meio de Síntese Peptídica em Fase Sólida (SPPS) e rigorosamente validado por HPLC, Espectrometria de Massa e espectrofotometria UV, ele garante pureza ≥99% e resultados reprodutíveis. Laboratórios europeus na Alemanha, França, Itália, Espanha, Países Baixos, Bélgica e Suíça utilizam Cartalax® 20mg para explorar a modulação da sinalização celular, produção mitocondrial de ATP, ativação enzimática e interações proteína-peptídeo. Ideal para laboratórios que procuram comprar peptídeos online, este peptídeo oferece resultados experimentais consistentes, tornando-se um dos melhores peptídeos e principais peptídeos online para pesquisa científica de alta qualidade."
+  ],
+
+  topDescription: {
+    p0: "Biopeptides Cartalax® 20mg (Biorregulador) é um peptídeo de pesquisa desenvolvido com precisão para estudos avançados in-vitro focados em biologia da cartilagem, processos regenerativos e sinalização do tecido conjuntivo.",
+    p1: "Fabricado por meio de Síntese Peptídica em Fase Sólida (SPPS) e verificado analiticamente usando HPLC, Espectrometria de Massa e espectrofotometria UV, este peptídeo oferece pureza excepcional, estabilidade molecular e reprodutibilidade entre lotes.",
+    p2: "Laboratórios de pesquisa na Alemanha, França, Itália, Espanha, Países Baixos, Bélgica, Suíça, Áustria e Dinamarca confiam no Cartalax® 20mg para experimentos confiáveis e reprodutíveis baseados em peptídeos na biologia regenerativa e pesquisa da matriz extracelular."
+  },
+
+  content: {
+    overviewTitle: "Peptídeo avançado de pesquisa biorreguladora da cartilagem",
+
+    overview: [
+      "O Biopeptides Cartalax® 20mg (Biorregulador) é um peptídeo de pesquisa de alta precisão formulado para investigações laboratoriais avançadas envolvendo biologia regenerativa, interações proteína-peptídeo, metabolismo mitocondrial e atividade enzimática.",
+      "Desenvolvido usando síntese peptídica em fase sólida (SPPS), este peptídeo oferece pureza excepcional, estabilidade molecular e desempenho analítico reprodutível, validado por Cromatografia Líquida de Alta Eficiência (HPLC), Espectrometria de Massa (MS) e espectrofotometria UV.",
+      "Instituições de pesquisa europeias na Alemanha, França, Itália, Espanha, Países Baixos, Bélgica, Suíça, Áustria e Dinamarca utilizam Cartalax® 20mg para experimentos in-vitro de alta qualidade que exigem precisão, estabilidade e reprodutibilidade."
+    ],
+
+    scientificBackgroundTitle: "Visão geral científica",
+
+    scientificBackground: [
+      "Os peptídeos revolucionaram a pesquisa biomédica moderna ao permitir que cientistas modulem com precisão a comunicação celular, investiguem vias moleculares e analisem padrões de expressão gênica.",
+      "Cartalax® 20mg fornece aos pesquisadores um sistema peptídico confiável para biologia celular regenerativa, estudos de ligação a receptores, pesquisa da matriz extracelular e experimentos de metabolismo mitocondrial.",
+      "Laboratórios europeus preferem Cartalax® devido à sua estabilidade molecular, perfil de degradação previsível e atividade biológica consistente em diferentes condições experimentais.",
+      "O formato de peptídeo liofilizado garante estabilidade a longo prazo, permitindo reconstituição conveniente usando água bacteriostática, solução salina estéril, tampões ácidos ou solventes orgânicos analíticos."
+    ],
+
+    mechanismTitle: "Mecanismo de ação (contexto de pesquisa)",
+
+    mechanismPoints: [
+      "Modulação da sinalização celular – Apoia a comunicação intercelular e vias de sinalização específicas do tecido.",
+      "Aumento da sensibilidade a fatores de crescimento – Melhora a responsividade celular a mediadores endógenos de crescimento.",
+      "Regulação da expressão gênica – Influencia vias transcricionais associadas ao reparo e à regeneração tecidual.",
+      "Influência na produção mitocondrial de ATP – Apoia o metabolismo energético celular em modelos experimentais de alta demanda.",
+      "Suporte à ativação enzimática – Facilita a remodelação proteica mediada por enzimas e processos metabólicos."
+    ],
+
+    applicationsTitle: "Principais aplicações de pesquisa",
+
+    applications: [
+      {
+        title: "Biologia celular regenerativa",
+        text: "Investigação de mecanismos de reparo da cartilagem, proliferação celular e modelos de regeneração do tecido conjuntivo."
+      },
+      {
+        title: "Estudos de expressão proteica e ligação a receptores",
+        text: "Avaliação de interações peptídeo-proteína e vias de sinalização de receptores."
+      },
+      {
+        title: "Pesquisa metabólica mitocondrial",
+        text: "Estudo da produção de ATP, resposta mitocondrial e dinâmica de energia celular."
+      },
+      {
+        title: "Experimentos de sensibilidade enzimática",
+        text: "Análise dos efeitos peptídicos na ativação enzimática e nos processos metabólicos."
+      },
+      {
+        title: "Ensaios de remodelação da matriz",
+        text: "Modelagem da organização da matriz extracelular, cicatrização e migração celular."
+      }
+    ],
+
+    molecularTitle: "Composição molecular e características",
+
+    molecularPoints: [
+      "Tipo molecular: Complexo peptídico biorregulador sintético",
+      "Composição: Sequências curtas de dipeptídeos e tripeptídeos",
+      "Estrutura: Cadeias peptídicas lineares",
+      "Formato de dose: Frasco de pesquisa de 20mg",
+      "Estabilidade: Alta quando armazenado sob as condições laboratoriais recomendadas"
+    ],
+
+    stabilityTitle: "Diretrizes de estabilidade e armazenamento",
+
+    stabilityPoints: [
+      "Fornecido como pó liofilizado para maior estabilidade a longo prazo",
+      "Temperatura de armazenamento recomendada: −20°C ou inferior",
+      "Proteger contra umidade e humidade",
+      "Minimizar a exposição à luz",
+      "Evitar ciclos repetidos de congelamento e descongelamento",
+      "Soluções reconstituídas permanecem estáveis por aproximadamente 24–48 horas sob refrigeração"
+    ],
+
+    solubilityTitle: "Opções de solubilidade e reconstituição",
+
+    solubilityPoints: [
+      "Água bacteriostática",
+      "Solução salina estéril",
+      "Tampões ácidos",
+      "Solventes orgânicos analíticos"
+    ],
+
+    techSpecsTitle: "Especificações técnicas",
+
+    techSpecs: {
+      productName: "Cartalax® 20mg (Biorregulador)",
+      cas: "N/A",
+      purity: "≥99% (validado por HPLC)",
+      unitSize: "Frasco de 20mg",
+      form: "Pó liofilizado",
+      synthesis: "Síntese Peptídica em Fase Sólida (SPPS)",
+      analytical: "HPLC, Espectrometria de Massa, Espectrofotometria UV",
+      molecularType: "Peptídeo sintético de pesquisa",
+      structure: "Cadeia peptídica linear",
+      stability: "Alta quando armazenado sob as condições laboratoriais recomendadas"
+    },
+
+    validationTitle: "Validação analítica e garantia de qualidade",
+
+    validationPoints: [
+      "Confirmação de pureza e consistência por HPLC",
+      "Verificação da identidade molecular por Espectrometria de Massa",
+      "Análise de concentração por espectrofotometria UV",
+      "Avaliação da reprodutibilidade entre lotes",
+      "Triagem de endotoxinas e contaminação microbiana"
+    ],
+
+    regulatoryTitle: "Regulamentação e conformidade",
+
+    regulatoryText:
+      "Biopeptides Cartalax® 20mg (Biorregulador) é estritamente destinado a fins de pesquisa laboratorial. Não é aprovado para consumo humano, uso veterinário, aplicações cosméticas ou tratamento médico. Certificados de Análise (COA) e Fichas de Dados de Segurança de Material (MSDS) estão disponíveis mediante solicitação para apoiar a conformidade de pesquisa da UE.",
+
+    faqTitle: "Perguntas frequentes",
+
+    faqItems: [
+      {
+        q: "Para que é usado o Cartalax® 20mg?",
+        a: "Cartalax® 20mg é usado em biologia celular regenerativa, estudos de interação proteína-peptídeo, pesquisa de metabolismo mitocondrial e experimentos de remodelação da matriz extracelular."
+      },
+      {
+        q: "O Cartalax® possui número CAS?",
+        a: "Atualmente, Cartalax® não possui um número CAS registrado, mas sua pureza e identidade molecular são validadas por HPLC, MS e análise UV."
+      },
+      {
+        q: "Como o Cartalax® 20mg deve ser armazenado?",
+        a: "Armazene o peptídeo liofilizado a −20°C em ambiente seco e escuro. Evite ciclos repetidos de congelamento e descongelamento."
+      },
+      {
+        q: "O Cartalax® é aprovado para uso humano?",
+        a: "Não. Cartalax® 20mg é estritamente destinado apenas à pesquisa laboratorial."
+      },
+      {
+        q: "Por que os laboratórios preferem o formato de 20mg?",
+        a: "O formato de 20mg permite múltiplos experimentos a partir de um único frasco, mantendo consistência ao longo de cronogramas de pesquisa prolongados."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C15H25CuN6O4",
+      molecularWeight: "416.9",
+      polarArea: "N/A",
+      complexity: "N/A",
+      xlogP: "N/A",
+      heavyAtomCount: "N/A",
+      hydrogenBondDonorCount: "N/A",
+      hydrogenBondAcceptorCount: "N/A",
+      rotatableBondCount: "N/A",
+      sequence: "Ala-His-Lys-Cu"
+    }
+  }
+},
+"epitalon-1mg-60-capsules": {
+  name: "Epitalon 1mg (60 Cápsulas)",
+  tagline: "Biorregulador tetrapeptídico sintético para pesquisa epigenética e de sinalização celular",
+  cas: "307297-39-8",
+
+  strength: [
+    "Epitalon 1mg (60 Cápsulas) | CAS 307297-39-8 é um peptídeo sintético de pesquisa de grau premium desenvolvido para investigações moleculares e celulares avançadas. Fabricado usando síntese peptídica em fase sólida (SPPS) de alta precisão e validado por HPLC e espectrometria de massa, este composto oferece pureza ≥99% e consistência confiável entre lotes. Identificado pelo CAS 307297-39-8, Epitalon é amplamente selecionado por laboratórios de pesquisa europeus para estudos de interação peptídeo–proteína, análise de expressão gênica e pesquisa de sinalização celular. A BioPeptides fornece Epitalon exclusivamente para uso laboratorial, oferecendo uma opção confiável para pesquisadores que desejam comprar peptídeos online de uma fonte compatível e focada na UE."
+  ],
+
+  topDescription: {
+    p0: "Epitalon 1mg (60 Cápsulas), CAS 307297-39-8, é um peptídeo sintético de pesquisa de alta pureza fornecido pela BioPeptides para investigações moleculares e celulares avançadas.",
+    p1: "Fabricado usando síntese peptídica em fase sólida (SPPS) e validado por HPLC e espectrometria de massa, Epitalon demonstra pureza ≥99% e forte consistência entre lotes para pesquisa laboratorial reprodutível.",
+    p2: "Instituições de pesquisa na Alemanha, França, Itália, Espanha, Países Baixos, Suécia, Suíça, Áustria, Bélgica e Dinamarca confiam nas cápsulas de Epitalon para aplicações controladas de pesquisa bioquímica e molecular."
+  },
+
+  components: [
+    "Biorregulador tetrapeptídico sintético (Epitalon)"
+  ],
+
+  content: {
+
+    overviewTitle: "Introdução do produto",
+    overview: [
+      "Epitalon 1mg (60 Cápsulas) é um peptídeo sintético de grau laboratorial desenvolvido para aplicações controladas de pesquisa científica e acadêmica.",
+      "Identificado pelo número CAS 307297-39-8, Epitalon é amplamente referenciado em estudos de biologia molecular e bioquímica que exploram vias de sinalização celular mediadas por peptídeos.",
+      "Instituições de pesquisa europeias frequentemente incorporam Epitalon em modelos experimentais que investigam regulação da expressão gênica, sinalização do ritmo circadiano e mecanismos regulatórios celulares."
+    ],
+
+    scientificBackgroundTitle: "Contexto científico e importância na pesquisa",
+    scientificBackground: [
+      "Peptídeos sintéticos como Epitalon permitem que pesquisadores isolem e analisem interações bioquímicas com alto grau de controle e reprodutibilidade.",
+      "Epitalon tem sido estudado em ambientes laboratoriais por seu possível envolvimento em vias de sinalização peptídica, regulação epigenética e redes de comunicação celular.",
+      "Diferentemente de extratos biológicos complexos, peptídeos sintéticos oferecem estruturas definidas que reduzem a variabilidade e melhoram a precisão experimental.",
+      "Laboratórios de pesquisa na Alemanha, França, Itália, Espanha e Países Baixos frequentemente usam peptídeos sintéticos como Epitalon em modelos de pesquisa controlados que exigem identificação confiável do composto."
+    ],
+
+    mechanismTitle: "Perspectiva mecanística de pesquisa",
+    mechanismPoints: [
+      "Modulação de vias de sinalização celular",
+      "Regulação de padrões de expressão gênica em modelos de pesquisa molecular",
+      "Influência na atividade metabólica mitocondrial",
+      "Interação com sistemas de ativação enzimática",
+      "Estudos de comunicação celular mediada por peptídeos"
+    ],
+
+    applicationsTitle: "Principais aplicações de pesquisa",
+    applications: [
+      {
+        title: "Estudos de biologia celular e molecular",
+        text: "Usado para explorar o comportamento de sinalização mediado por peptídeos e mecanismos regulatórios intracelulares."
+      },
+      {
+        title: "Pesquisa de expressão e regulação proteica",
+        text: "Apoia experimentos que examinam síntese proteica, vias de regulação e mecanismos de adaptação celular."
+      },
+      {
+        title: "Ensaios de ligação a receptores",
+        text: "Aplicado em pesquisas laboratoriais que investigam a dinâmica de interação peptídeo–receptor."
+      },
+      {
+        title: "Estudos de metabolismo mitocondrial",
+        text: "Usado para examinar a regulação de energia celular e vias de resposta metabólica."
+      },
+      {
+        title: "Modelos celulares regenerativos",
+        text: "Apoia pesquisas controladas que exploram padrões de resposta celular e sinalização regulatória por peptídeos."
+      },
+      {
+        title: "Estudos de sensibilidade enzimática e matriz",
+        text: "Integrado em experimentos que estudam sistemas de ativação enzimática e interações com a matriz extracelular."
+      }
+    ],
+
+    molecularTitle: "Características moleculares",
+    molecularPoints: [
+      "Tipo molecular: Biorregulador tetrapeptídico sintético",
+      "Estrutura: Peptídeo linear composto por quatro aminoácidos",
+      "Identificador CAS: 307297-39-8",
+      "Forma: Composto de pesquisa encapsulado",
+      "Peso molecular: Aproximadamente 390,4 Da",
+      "Estabilidade: Alta quando armazenado sob as condições laboratoriais recomendadas"
+    ],
+
+    stabilityTitle: "Diretrizes de estabilidade e armazenamento",
+    stabilityPoints: [
+      "Armazenar as cápsulas em ambiente fresco e seco",
+      "Armazenamento de longo prazo recomendado a −20°C",
+      "Proteger da umidade e da exposição prolongada à luz",
+      "Evitar temperaturas elevadas durante o manuseio",
+      "Manter o recipiente fechado para preservar a estabilidade do composto"
+    ],
+
+    solubilityTitle: "Solubilidade e compatibilidade laboratorial",
+    solubilityPoints: [
+      "Água bacteriostática",
+      "Soluções salinas estéreis",
+      "Tampões laboratoriais levemente ácidos",
+      "Solventes orgânicos analíticos selecionados"
+    ],
+
+    techSpecsTitle: "Especificações técnicas",
+    techSpecs: {
+      productName: "Epitalon 1mg (60 Cápsulas)",
+      brand: "BioPeptides",
+      cas: "307297-39-8",
+      purity: "≥99% (verificado por HPLC)",
+      unitSize: "1 mg por cápsula",
+      totalContent: "60 cápsulas",
+      form: "Peptídeo sintético encapsulado",
+      synthesis: "Síntese Peptídica em Fase Sólida (SPPS)",
+      analytical: "HPLC, Espectrometria de Massa, Espectrofotometria UV",
+      molecularStructure: "Tetrapeptídeo sintético linear",
+      stability: "Alta quando armazenado adequadamente"
+    },
+
+    validationTitle: "Validação analítica e garantia de qualidade",
+    validationPoints: [
+      "Verificação de pureza por Cromatografia Líquida de Alta Eficiência (HPLC)",
+      "Confirmação da identidade molecular por Espectrometria de Massa",
+      "Validação de concentração por espectrofotometria UV",
+      "Verificação da consistência entre lotes",
+      "Triagem de endotoxinas e contaminação microbiana"
+    ],
+
+    regulatoryTitle: "Declaração regulatória e de conformidade",
+    regulatoryText:
+      "Epitalon 1mg (60 Cápsulas) fornecido pela BioPeptides é destinado estritamente à pesquisa laboratorial e investigação científica. Este composto não é aprovado para consumo humano, uso veterinário, formulação cosmética, tratamento médico ou aplicações alimentares. Certificados de Análise (COA) e Fichas de Dados de Segurança de Material (MSDS) estão disponíveis para apoiar aquisições institucionais e documentação regulatória em toda a União Europeia.",
+
+    faqTitle: "Perguntas frequentes",
+    faqItems: [
+      {
+        q: "Para que o Epitalon 1mg é usado em pesquisa?",
+        a: "Epitalon 1mg é usado em pesquisas de biologia molecular e bioquímica para estudar vias de sinalização celular, regulação da expressão gênica, atividade mitocondrial e interações peptídeo–proteína sob condições laboratoriais controladas."
+      },
+      {
+        q: "Qual é o número CAS do Epitalon?",
+        a: "O número CAS do Epitalon é 307297-39-8, que identifica exclusivamente o composto em bases de dados científicas e documentação regulatória."
+      },
+      {
+        q: "Epitalon é aprovado para uso humano?",
+        a: "Não. Epitalon 1mg é fornecido estritamente para pesquisa laboratorial e investigação científica e não é aprovado para uso humano, veterinário ou médico."
+      },
+      {
+        q: "Qual é a pureza do Epitalon fornecido pela BioPeptides?",
+        a: "O Epitalon fornecido pela BioPeptides é verificado com pureza ≥99% usando HPLC, espectrometria de massa e métodos analíticos UV."
+      },
+      {
+        q: "Posso comprar Epitalon online na Europa?",
+        a: "Sim. Epitalon 1mg (60 Cápsulas) pode ser comprado online na BioPeptides e fornecido a instituições de pesquisa em toda a Europa, incluindo Alemanha, França, Itália, Espanha e Países Baixos."
+      },
+      {
+        q: "Por que o número CAS é importante ao adquirir peptídeos?",
+        a: "O número CAS garante identificação precisa do composto, rastreabilidade e consistência entre fornecedores, o que é essencial para pesquisas científicas reprodutíveis."
+      }
+    ],
+
+     chemicalProperties: {
+  molecularFormula: "C14H22N4O9",
+  molecularWeight: "390.35",
+  monoisotopicMass: "390.13867829",
+  polarArea: "225",
+  complexity: "607",
+  xlogP: "-5.5",
+  heavyAtomCount: "27",
+  hydrogenBondDonorCount: "7",
+  hydrogenBondAcceptorCount: "10",
+  rotatableBondCount: "12",
+  cid: "219042",
+  inchi:
+    "InChI=1S/C14H22N4O9/c1-6(15)12(25)17-7(2-3-9(19)20)14(27)18-8(4-10(21)22)13(26)16-5-11(23)24/h6-8H,2-5,15H2,1H3,(H,16,26)(H,17,25)(H,18,27)(H,19,20)(H,21,22)(H,23,24)/t6-,7-,8-/m0/s1",
+  inchiKey: "HGHOBRRUMWJWCU-FXQIFTODSA-N",
+
+  canonicalSmiles:
+    "CC(C(=O)NC(CCC(=O)O)C(=O)NC(CC(=O)O)C(=O)NCC(=O)O)N",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)NCC(=O)O)N",
+
+  iupacName:
+    "(4S)-4-[[(2S)-2-aminopropanoyl]amino]-5-[[(2S)-3-carboxy-1-(carboxymethylamino)-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+}
+
+  }
+},
+"ghk-cu-copper-tripeptide": {
+  name: "GHK-Cu (Tripeptídeo de Cobre-1)",
+  tagline: "Tripeptídeo Ligado ao Cobre para Pesquisa em Sinalização Celular e Matriz Extracelular",
+  cas: "49557-75-7",
+
+  strength: [
+    "GHK-Cu (Tripeptídeo de Cobre-1) é um peptídeo de pesquisa de alta pureza desenvolvido para estudos avançados de bioquímica e biologia molecular. Produzido usando síntese de peptídeos em fase sólida (SPPS) de precisão e purificado para pureza ≥99% por HPLC, este tripeptídeo ligado ao cobre oferece precisão molecular confiável e reprodutibilidade para pesquisa laboratorial. A BioPeptides permite que instituições de pesquisa em toda a Europa comprem peptídeos online com confiança por meio de controle de qualidade verificado, envio compatível com a UE e conformidade rigorosa para uso exclusivo em pesquisa."
+  ],
+
+  topDescription: {
+    p0: "GHK-Cu (Tripeptídeo de Cobre-1) é um tripeptídeo natural ligado ao cobre, amplamente estudado por seu papel na sinalização celular e na regulação da matriz extracelular.",
+    p1: "Fabricado usando síntese de peptídeos de precisão e purificado para pureza ≥99% por HPLC, o GHK-Cu oferece estabilidade molecular consistente para estudos laboratoriais controlados.",
+    p2: "A BioPeptides fornece GHK-Cu exclusivamente para pesquisa laboratorial e bioquímica, apoiando cientistas em toda a Europa que procuram fornecedores confiáveis de peptídeos."
+  },
+
+  components: [
+    "Complexo GHK-Cu Tripeptídeo de Cobre (Glicina–Histidina–Lisina ligada a íon de cobre)"
+  ],
+
+  content: {
+
+    overviewTitle: "Visão Geral do Produto",
+    overview: [
+      "GHK-Cu (Tripeptídeo de Cobre-1) é um peptídeo natural ligado ao cobre, composto por glicina, histidina e lisina complexadas com um íon de cobre.",
+      "Em ambientes de pesquisa laboratorial, este peptídeo é estudado por seu envolvimento em vias de comunicação celular, regulação da matriz extracelular e processos de sinalização bioquímica.",
+      "Devido à sua estrutura estável de complexo peptídeo–metal, o GHK-Cu é frequentemente usado como composto modelo para estudar mecanismos bioquímicos dependentes de cobre."
+    ],
+
+    scientificBackgroundTitle: "Contexto Científico do GHK-Cu",
+    scientificBackground: [
+      "Peptídeos ligados ao cobre, como o GHK-Cu, desempenham papéis importantes em sistemas biológicos ao transportar íons de cobre e modular vias de sinalização bioquímica.",
+      "Pesquisadores estudam o GHK-Cu para investigar como complexos peptídeo–metal influenciam a expressão proteica, a comunicação celular e a regulação da matriz extracelular.",
+      "Em modelos experimentais, o GHK-Cu tem sido usado para analisar interações de metaloproteínas e atividade enzimática dependente de cobre.",
+      "Essas propriedades tornam o Tripeptídeo de Cobre-1 um composto amplamente estudado na química de peptídeos e na pesquisa em biologia molecular."
+    ],
+
+    mechanismTitle: "Perspectiva de Pesquisa Mecanística",
+    mechanismPoints: [
+      "Estudos de ligação e transporte de íons de cobre",
+      "Investigação de vias de sinalização celular",
+      "Análise de interações com a matriz extracelular",
+      "Estudos de regulação de metaloproteínas",
+      "Pesquisa sobre estabilidade de complexos peptídeo–metal"
+    ],
+
+    applicationsTitle: "Principais Aplicações de Pesquisa",
+    applications: [
+      {
+        title: "Pesquisa em Sinalização Celular",
+        text: "Usado em estudos laboratoriais para investigar vias de comunicação celular e sinalização de resposta bioquímica."
+      },
+      {
+        title: "Estudos da Matriz Extracelular",
+        text: "Aplicado em pesquisas que analisam vias de sinalização relacionadas ao colágeno e à regulação da estrutura da matriz extracelular."
+      },
+      {
+        title: "Análise de Expressão Proteica",
+        text: "Apoia experimentos bioquímicos que estudam expressão, regulação e vias de degradação de proteínas."
+      },
+      {
+        title: "Pesquisa de Interação com Metaloproteínas",
+        text: "Usado em modelos laboratoriais que examinam interações proteicas dependentes de cobre e atividade enzimática."
+      },
+      {
+        title: "Estudos Bioquímicos e Moleculares",
+        text: "GHK-Cu é adequado para ensaios bioquímicos in vitro que investigam complexos peptídeo–metal e sistemas de sinalização molecular."
+      }
+    ],
+
+    molecularTitle: "Características Moleculares",
+    molecularPoints: [
+      "Tipo Molecular: Complexo tripeptídico ligado ao cobre",
+      "Composição de Aminoácidos: Glicina–Histidina–Lisina",
+      "Identificador CAS: 49557-75-7",
+      "Fórmula Molecular: C14H24N6O4",
+      "Peso Molecular: ~340.4 g/mol",
+      "Estrutura: Complexo peptídeo–metal",
+      "Forma: Pó liofilizado"
+    ],
+
+    stabilityTitle: "Diretrizes de Armazenamento e Manuseio",
+    stabilityPoints: [
+      "Armazenar o peptídeo liofilizado a −20°C para estabilidade ideal",
+      "Evitar ciclos repetidos de congelamento e descongelamento",
+      "Proteger da umidade e da exposição direta à luz",
+      "Manusear usando procedimentos laboratoriais estéreis",
+      "Reconstituir sob condições laboratoriais controladas"
+    ],
+
+    solubilityTitle: "Solubilidade e Compatibilidade Laboratorial",
+    solubilityPoints: [
+      "Tampões laboratoriais estéreis",
+      "Água bacteriostática",
+      "Soluções salinas fisiológicas",
+      "Tampões bioquímicos padrão para ensaios"
+    ],
+
+    techSpecsTitle: "Especificações do Produto",
+    techSpecs: {
+      productName: "GHK-Cu (Tripeptídeo de Cobre-1)",
+      brand: "BioPeptides",
+      cas: "49557-75-7",
+      quantity: "Frasco de pesquisa",
+      purity: "≥99% (verificado por HPLC)",
+      form: "Pó peptídico liofilizado",
+      synthesis: "Síntese de Peptídeos em Fase Sólida (SPPS)",
+      analytical: "HPLC, Espectrometria de Massa",
+      molecularStructure: "Complexo tripeptídico ligado ao cobre",
+      classification: "Apenas para uso em pesquisa"
+    },
+
+    validationTitle: "Fabricação e Verificação Analítica",
+    validationPoints: [
+      "Síntese de peptídeos de precisão usando SPPS",
+      "Verificação de pureza por Cromatografia Líquida de Alta Eficiência (HPLC)",
+      "Confirmação molecular por Espectrometria de Massa",
+      "Validação de consistência lote a lote",
+      "Teste de estabilidade para confiabilidade em pesquisa"
+    ],
+
+    regulatoryTitle: "Status Regulamentar",
+    regulatoryText:
+      "O GHK-Cu fornecido pela BioPeptides é destinado estritamente apenas para uso em pesquisa laboratorial e cosmética. Este composto não é aprovado para consumo humano, uso veterinário, tratamento médico ou desenvolvimento terapêutico. A responsabilidade pela conformidade permanece com a instituição de pesquisa compradora.",
+
+    faqTitle: "Perguntas Frequentes",
+
+    faqItems: [
+      {
+        q: "Para que o GHK-Cu é usado em pesquisa?",
+        a: "O GHK-Cu é usado em pesquisa laboratorial para estudar sinalização celular, interações com a matriz extracelular, vias de expressão proteica e mecanismos bioquímicos dependentes de cobre."
+      },
+      {
+        q: "Qual é o número CAS do GHK-Cu?",
+        a: "O número CAS oficial do Tripeptídeo de Cobre-1 (GHK-Cu) é 49557-75-7, garantindo identificação do composto e rastreabilidade na pesquisa científica."
+      },
+      {
+        q: "Laboratórios europeus podem comprar GHK-Cu online?",
+        a: "Sim. A BioPeptides fornece GHK-Cu para instituições de pesquisa em toda a Europa, incluindo Alemanha, França, Itália, Espanha, Países Baixos, Suécia, Bélgica e Áustria."
+      },
+      {
+        q: "O GHK-Cu é aprovado para uso humano ou veterinário?",
+        a: "Não. O GHK-Cu é classificado estritamente como Apenas para Uso em Pesquisa (RUO) e não é aprovado para aplicações humanas ou veterinárias."
+      },
+      {
+        q: "Qual é a pureza do GHK-Cu da BioPeptides?",
+        a: "Cada lote é purificado para pureza ≥99% por HPLC, garantindo precisão molecular e reprodutibilidade para pesquisa laboratorial."
+      },
+      {
+        q: "Como o GHK-Cu deve ser armazenado?",
+        a: "O GHK-Cu deve ser armazenado a -20°C em ambiente seco e protegido de ciclos repetidos de congelamento e descongelamento para manter sua estabilidade."
+      },
+      {
+        q: "Por que a verificação CAS é importante para peptídeos?",
+        a: "Os números CAS garantem identidade química e rastreabilidade, permitindo que pesquisadores verifiquem compostos e mantenham consistência entre experimentos."
+      },
+      {
+        q: "Por que escolher a BioPeptides para peptídeos de pesquisa?",
+        a: "A BioPeptides fornece peptídeos de alta pureza, documentação CAS verificada, envio compatível com a UE e conformidade transparente para uso exclusivo em pesquisa, confiável por laboratórios europeus."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C14H23CuN6O4+",
+      molecularWeight: "402.92",
+      monoisotopicMass: "402.107675",
+      polarArea: "179",
+      complexity: "428",
+      xlogP: "N/A",
+      heavyAtomCount: "25",
+      hydrogenBondDonorCount: "5",
+      hydrogenBondAcceptorCount: "7",
+      rotatableBondCount: "10",
+      cid: "71587328",
+      inchi:
+        "InChI=1S/C14H24N6O4.Cu/c15-4-2-1-3-10(14(23)24)20-13(22)11(19-12(21)6-16)5-9-7-17-8-18-9;/h7-8,10-11H,1-6,15-16H2,(H,17,18)(H,19,21)(H,20,22)(H,23,24);/q;+2/p-1/t10-,11-;/m0./s1",
+      inchiKey: "NZWIFMYRRCMYMN-ACMTZBLWSA-M",
+
+      canonicalSmiles:
+        "C1=C(NC=N1)CC(C(=O)NC(CCCCN)C(=O)[O-])NC(=O)CN.[Cu+2]",
+
+      isomericSmiles:
+        "C1=C(NC=N1)C[C@@H](C(=O)N[C@@H](CCCCN)C(=O)[O-])NC(=O)CN.[Cu+2]",
+
+      iupacName:
+        "copper (2S)-6-amino-2-[[(2S)-2-[(2-aminoacetyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]hexanoate"
+    }
+
+  }
+},
+"hexarelin-5mg-x-10-modgrf-1-29-5mg-x-10": {
+  name: "Hexarelin 5mg ×10 + MOD-GRF (1-29) 5mg ×10 (Pacote)",
+
+  tagline:
+    "Pacote de peptídeos de pesquisa de dupla via do hormônio do crescimento para estudos avançados de sinalização endócrina",
+
+  cas: "Hexarelin: 140703-51-1 | MOD-GRF (1-29): 86168-78-7",
+
+  strength: [
+    "Este pacote de pesquisa com dois peptídeos combina Hexarelin, um potente secretagogo do hormônio do crescimento estudado pela ativação do receptor de grelina, com MOD-GRF (1-29), um análogo modificado do hormônio liberador do hormônio do crescimento investigado pela estimulação de receptores hipofisários. Juntos, esses peptídeos são amplamente utilizados em pesquisas laboratoriais que examinam mecanismos de liberação do hormônio do crescimento, coordenação de vias endócrinas e sinalização mediada por receptores dentro do eixo hipotálamo–hipófise."
+  ],
+
+  topDescription: {
+    p0: "Hexarelin 5mg ×10 e MOD-GRF (1-29) 5mg ×10 da BioPeptides é um pacote de peptídeos de pesquisa de alta pureza desenvolvido para estudos laboratoriais avançados focados em sinalização do hormônio do crescimento, interação com receptores e coordenação do sistema endócrino.",
+    p1: "Cada peptídeo é sintetizado usando síntese peptídica em fase sólida (SPPS) avançada e verificado por testes analíticos para garantir excelente pureza e reprodutibilidade em ambientes profissionais de pesquisa.",
+    p2: "A BioPeptides fornece peptídeos de pesquisa para laboratórios em toda a Europa, incluindo Alemanha, França, Itália, Espanha, Países Baixos, Bélgica e instituições de pesquisa escandinavas."
+  },
+
+  components: [
+    "Hexarelin (hexapeptídeo liberador do hormônio do crescimento) — 5mg ×10 frascos",
+    "MOD-GRF (1-29) sem DAC (análogo modificado de GHRH) — 5mg ×10 frascos"
+  ],
+
+  content: {
+
+    overviewTitle: "Visão geral da pesquisa",
+    overview: [
+      "Este pacote de pesquisa combina Hexarelin e MOD-GRF (1-29), dois peptídeos amplamente estudados por seu papel na pesquisa de sinalização do hormônio do crescimento.",
+      "Hexarelin interage com o receptor secretagogo do hormônio do crescimento (GHS-R), também conhecido como receptor de grelina.",
+      "MOD-GRF (1-29) estimula receptores hipofisários responsáveis pela liberação do hormônio do crescimento.",
+      "Estudar esses peptídeos juntos permite que pesquisadores investiguem sinalização endócrina sinérgica ao longo do eixo hipotálamo–hipófise."
+    ],
+
+    scientificBackgroundTitle: "Contexto científico",
+    scientificBackground: [
+      "A secreção do hormônio do crescimento é regulada por interações complexas entre vias de sinalização hipotalâmicas e hipofisárias.",
+      "Análogos de GHRH, como MOD-GRF, ativam receptores na glândula hipófise responsáveis pela liberação de GH.",
+      "Secretagogos do hormônio do crescimento, como Hexarelin, ativam vias de sinalização mediadas por grelina.",
+      "A combinação de ambos os peptídeos permite que pesquisadores investiguem comunicação cruzada entre receptores, amplificação de sinal e coordenação de vias endócrinas."
+    ],
+
+    mechanismTitle: "Perspectiva mecanística de pesquisa",
+    mechanismPoints: [
+      "Estudos de ativação do receptor secretagogo do hormônio do crescimento",
+      "Investigação da via de sinalização do receptor de GHRH",
+      "Análise da sinalização endócrina hipotálamo–hipófise",
+      "Pesquisa sobre tempo de secreção hormonal e coordenação de vias",
+      "Modelagem de interação ligante–receptor"
+    ],
+
+    applicationsTitle: "Principais aplicações de pesquisa",
+    applications: [
+      {
+        title: "Pesquisa da via de liberação do hormônio do crescimento",
+        text: "Pesquisadores estudam os mecanismos responsáveis pela secreção do hormônio do crescimento por meio da ativação combinada do receptor de grelina e do receptor de GHRH."
+      },
+      {
+        title: "Estudos do eixo hipotálamo–hipófise",
+        text: "O pacote de peptídeos apoia investigações sobre a coordenação endócrina entre a sinalização hipotalâmica e a liberação hormonal hipofisária."
+      },
+      {
+        title: "Pesquisa de interação peptídeo–receptor",
+        text: "Cientistas examinam ligação a receptores, afinidade de ligantes e dinâmica de sinalização associadas às vias peptídicas endócrinas."
+      },
+      {
+        title: "Estudos de coordenação da sinalização endócrina",
+        text: "A combinação permite analisar como múltiplas vias de sinalização hormonal interagem dentro dos sistemas regulatórios endócrinos."
+      },
+      {
+        title: "Pesquisa em biologia celular e molecular",
+        text: "Laboratórios aplicam esses peptídeos em ensaios celulares para investigar cascatas de sinalização posteriores e respostas de vias moleculares."
+      }
+    ],
+
+    molecularTitle: "Características moleculares",
+    molecularPoints: [
+      "Peptídeo 1: Hexarelin (secretagogo do hormônio do crescimento)",
+      "Número CAS: 140703-51-1",
+      "Peso molecular: ~887 g/mol",
+      "Peptídeo 2: MOD-GRF (1-29) sem DAC (análogo modificado de GHRH)",
+      "Número CAS: 86168-78-7",
+      "Peso molecular: ~3357 g/mol",
+      "Forma: Pós peptídicos liofilizados",
+      "Pureza: ≥99% verificada por HPLC"
+    ],
+
+    stabilityTitle: "Perfil de estabilidade e recomendações de armazenamento",
+    stabilityPoints: [
+      "Armazenar os frascos de peptídeo liofilizado a −20°C",
+      "Proteger da umidade e da exposição direta à luz",
+      "Evitar ciclos repetidos de congelamento e descongelamento",
+      "Soluções reconstituídas devem ser mantidas refrigeradas",
+      "Manusear usando técnicas laboratoriais assépticas"
+    ],
+
+    solubilityTitle: "Opções de solubilidade e reconstituição",
+    solubilityPoints: [
+      "Água bacteriostática estéril",
+      "Soluções salinas estéreis",
+      "Soluções laboratoriais aquosas tamponadas",
+      "Tampões para ensaios bioquímicos",
+      "Sistemas de solventes de grau laboratorial"
+    ],
+
+    techSpecsTitle: "Especificações técnicas",
+    techSpecs: {
+      productName: "Pacote de pesquisa Hexarelin + MOD-GRF (1-29)",
+      brand: "BioPeptides",
+      hexarelinCAS: "140703-51-1",
+      modGRFCAS: "86168-78-7",
+      purity: "≥99% (verificado por HPLC)",
+      unitSize: "5mg ×10 frascos de cada peptídeo",
+      form: "Pós liofilizados",
+      synthesis: "Síntese Peptídica em Fase Sólida (SPPS)",
+      analytical: "HPLC e Espectrometria de Massa",
+      molecularStructure: "Peptídeos sintéticos de pesquisa endócrina",
+      stability: "Alta quando armazenado a −20°C"
+    },
+
+    validationTitle: "Validação analítica e garantia de qualidade",
+    validationPoints: [
+      "Verificação de pureza por cromatografia líquida de alta eficiência",
+      "Confirmação do peso molecular por espectrometria de massa",
+      "Teste de integridade estrutural do peptídeo",
+      "Validação da consistência analítica entre lotes",
+      "Verificação da estabilidade do peptídeo para uso em pesquisa"
+    ],
+
+    regulatoryTitle: "Declaração regulatória e de conformidade",
+    regulatoryText:
+      "Hexarelin e MOD-GRF (1-29) fornecidos pela BioPeptides são destinados estritamente apenas ao uso em pesquisa laboratorial e científica. Estes materiais não são aprovados para consumo humano, uso veterinário, aplicações cosméticas ou tratamentos terapêuticos. Os compradores devem garantir conformidade com os regulamentos de pesquisa aplicáveis e políticas institucionais.",
+
+    faqTitle: "Perguntas frequentes",
+
+    faqItems: [
+      {
+        q: "O que torna o pacote 5mg ×10 adequado para pesquisa avançada?",
+        a: "A configuração maior de frascos 5mg ×10 apoia fluxos de trabalho de pesquisa de longo prazo e permite que cientistas realizem experimentos prolongados sem necessidade de reposição frequente."
+      },
+      {
+        q: "Por que Hexarelin e MOD-GRF são estudados juntos?",
+        a: "Hexarelin ativa receptores de grelina, enquanto MOD-GRF estimula receptores de GHRH, permitindo que pesquisadores estudem a sinalização coordenada do hormônio do crescimento por duas vias complementares."
+      },
+      {
+        q: "Este pacote de peptídeos pode ser usado em modelos de pesquisa in-vitro?",
+        a: "Sim. O pacote é amplamente usado em experimentos in-vitro controlados que analisam ligação a receptores, vias de sinalização endócrina e mecanismos de resposta celular."
+      },
+      {
+        q: "Por que os números CAS são importantes para estes peptídeos?",
+        a: "Os números CAS garantem identificação precisa do composto, rastreabilidade e reprodutibilidade em toda a documentação laboratorial."
+      },
+      {
+        q: "Como estes peptídeos devem ser armazenados?",
+        a: "Os frascos liofilizados devem ser armazenados a −20°C e protegidos da umidade e de ciclos repetidos de congelamento e descongelamento."
+      },
+      {
+        q: "Por que escolher a BioPeptides para peptídeos de pesquisa?",
+        a: "A BioPeptides fornece síntese de alta pureza, documentação CAS verificada, embalagem laboratorial profissional e logística confiável para instituições de pesquisa."
+      }
+    ],
+   chemicalProperties: {
+  molecularFormula: "	CJC-1295 Acetate: C152H252N44O42 Examorelin: C47H58N12O6",
+  molecularWeight: "CJC-1295 Acetate: 3367.9 Examorelin: 887",
+  monoisotopicMass: "CJC-1295 Acetate: 3365.8935782 Examorelin: 886.46022762",
+  polarArea: "CJC-1295 Acetate: 1450 Examorelin: 301",
+  complexity: "CJC-1295 Acetate: 7710 Examorelin: 1600",
+  xlogP: "CJC-1295 Acetate: -10.7 Examorelin: 2.3",
+  heavyAtomCount: "CJC-1295 Acetate: 238 Examorelin: 65",
+  hydrogenBondDonorCount: "CJC-1295 Acetate: 52 Examorelin: 11",
+  hydrogenBondAcceptorCount: "CJC-1295 Acetate: 48 Examorelin: 9",
+  rotatableBondCount: "CJC-1295 Acetate: 118 Examorelin: 23",
+  cid: "CJC-1295 Acetate: 56841945 Examorelin: 6918297",
+  inchi:
+    "CJC-1295 Acetate: InChI=1S/C152H252N44O42/c1-22-79(15)118(194-125(214)84(20)171-135(224)107(68-115(206)207)181-124(213)81(17)169-126(215)91(155)65-87-41-45-89(201)46-42-87)147(236)189-106(66-86-34-25-24-26-35-86)141(230)196-120(85(21)200)149(238)180-99(51-54-114(158)205)132(221)190-111(72-199)145(234)185-105(67-88-43-47-90(202)48-44-88)140(229)178-96(40-33-59-168-152(164)165)128(217)177-94(37-28-30-56-154)133(222)193-117(78(13)14)146(235)187-100(60-73(3)4)134(223)170-82(18)123(212)175-97(49-52-112(156)203)130(219)183-103(63-76(9)10)138(227)191-109(70-197)143(232)172-83(19)122(211)174-95(39-32-58-167-151(162)163)127(216)176-93(36-27-29-55-153)129(218)182-102(62-75(7)8)137(226)184-101(61-74(5)6)136(225)179-98(50-53-113(157)204)131(220)186-108(69-116(208)209)142(231)195-119(80(16)23-2)148(237)188-104(64-77(11)12)139(228)192-110(71-198)144(233)173-92(121(159)210)38-31-57-166-150(160)161/h24-26,34-35,41-48,73-85,91-111,117-120,197-202H,22-23,27-33,36-40,49-72,153-155H2,1-21H3,(H2,156,203)(H2,157,204)(H2,158,205)(H2,159,210)(H,169,215)(H,170,223)(H,171,224)(H,172,232)(H,173,233)(H,174,211)(H,175,212)(H,176,216)(H,177,217)(H,178,229)(H,179,225)(H,180,238)(H,181,213)(H,182,218)(H,183,219)(H,184,226)(H,185,234)(H,186,220)(H,187,235)(H,188,237)(H,189,236)(H,190,221)(H,191,227)(H,192,228)(H,193,222)(H,194,214)(H,195,231)(H,196,230)(H,206,207)(H,208,209)(H4,160,161,166)(H4,162,163,167)(H4,164,165,168)/t79-,80-,81+,82-,83-,84-,85+,91-,92-,93-,94-,95-,96-,97-,98-,99-,100-,101-,102-,103-,104-,105-,106-,107-,108-,109-,110-,111-,117-,118-,119-,120-/m0/s1 Examorelin: InChI=1S/C47H58N12O6/c1-27-34(33-15-7-9-17-37(33)54-27)23-41(58-44(62)35(49)22-31-25-51-26-53-31)45(63)55-28(2)43(61)57-40(21-30-24-52-36-16-8-6-14-32(30)36)47(65)59-39(20-29-12-4-3-5-13-29)46(64)56-38(42(50)60)18-10-11-19-48/h3-9,12-17,24-26,28,35,38-41,52,54H,10-11,18-23,48-49H2,1-2H3,(H2,50,60)(H,51,53)(H,55,63)(H,56,64)(H,57,61)(H,58,62)(H,59,65)/t28-,35-,38-,39+,40-,41+/m0/s1",
+  inchiKey: "CJC-1295 Acetate: XOZMWINMZMMOBR-HRDSVTNWSA-N Examorelin: RVWNMGKSNGWLOL-GIIHNPQRSA-N",
+
+  canonicalSmiles:
+    "CJC-1295 Acetate: CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)N)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C(CC3=CC=C(C=C3)O)N Examorelin: CC1=C(C2=CC=CC=C2N1)CC(C(=O)NC(C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCCN)C(=O)N)NC(=O)C(CC6=CN=CN6)N",
+
+  isomericSmiles:
+    "CJC-1295 Acetate: CC[C@H](C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N)NC(=O)[C@H](C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H](C)NC(=O)[C@H](CC3=CC=C(C=C3)O)N Examorelin: CC1=C(C2=CC=CC=C2N1)C[C@H](C(=O)N[C@@H](C)C(=O)N[C@@H](CC3=CNC4=CC=CC=C43)C(=O)N[C@H](CC5=CC=CC=C5)C(=O)N[C@@H](CCCCN)C(=O)N)NC(=O)[C@H](CC6=CN=CN6)N",
+
+  iupacName:
+    "CJC-1295 Acetate: (3S)-4-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S,3R)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-[[(2R)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]-4-oxobutanoic acid Examorelin: (2S)-6-amino-2-[[(2R)-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2S)-2-amino-3-(1H-imidazol-5-yl)propanoyl]amino]-3-(2-methyl-1H-indol-3-yl)propanoyl]amino]propanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+}
+
+  },
+
+  appearance: "Pós peptídicos liofilizados brancos (frascos separados)",
+
+  storage: "Armazenar a −20°C. Evitar ciclos repetidos de congelamento e descongelamento.",
+
+  researchStatus:
+    "Somente para uso em pesquisa laboratorial. Não destinado ao uso humano ou veterinário."
+},
+
     "tesofensine-500mcg-30-capsules": {
     name: "Tesofensine 500mcg – 30 Cápsulas",
     tagline: "Composto de Pesquisa Neuro-Metabólico de Precisão para Estudos de Sinalização Monoaminérgica e Vias do SNC",
@@ -23452,174 +25350,8 @@ xlogP: "-15.9",
       }
     }
   },
-    "adipotide-ftpp-10mg": {
-    name: "Adipotide (FTPP) 10mg",
-    tagline: "Peptídeo de Pesquisa Vascular e Adiposa Direcionada",
-    cas: "859216-15-2",
-    strength: [
-      "Adipotide (FTPP) 10mg da Biopeptides é um peptídeo sintético de pesquisa de alta pureza identificado pelo CAS 859216-15-2 e desenvolvido para investigação laboratorial avançada sobre sinalização do tecido adiposo e mecanismos de direcionamento vascular. Sintetizado usando Síntese de Peptídeos em Fase Sólida (SPPS) e validado por HPLC, Espectrometria de Massa e análise UV, oferece ≥99% de pureza, precisão molecular e reprodutibilidade lote a lote. Laboratórios de pesquisa europeus confiam no Adipotide (FTPP) para estudos in-vitro reproduzíveis que exigem peptídeos verificados analiticamente."
-    ],
-    topDescription: {
-      p0: "Adipotide (FTPP) 10mg da Biopeptides é um peptídeo sintético de engenharia de precisão desenvolvido para pesquisa in-vitro controlada focada no tecido adiposo e vias de sinalização vascular.",
-      
-p1: "Fabricado usando Síntese de Peptídeos em Fase Sólida (SPPS), cada lote é verificado analiticamente para confirmar identidade molecular, pureza e consistência.",
-      
-p2: "Instituições de pesquisa na Alemanha, França, Itália, Espanha, Países Baixos, Bélgica, Suíça, Áustria e Dinamarca utilizam Adipotide (FTPP) para estudos avançados de sinalização e transporte mediados por peptídeos."
-    },
-    content: {
-      overviewTitle: "Peptídeo de Pesquisa Direcionada de Alta Pureza",
-      overview: [
-        "Adipotide (FTPP) 10mg é um peptídeo sintético de grau laboratorial fornecido para pesquisa científica avançada envolvendo tecido adiposo e modelos de interação peptídeo-vascular.",
-        "É estudado em ambientes laboratoriais controlados por seu papel na sinalização relacionada a adipócitos, mecanismos de direcionamento vascular e dinâmica de transporte de peptídeos.",
-        "O número CAS 859216-15-2 garante identificação clara, rastreabilidade e alinhamento da documentação para instituições de pesquisa europeias."
-      ],
-     scientificBackgroundTitle: "Visão Científica",
-      scientificBackground: [
-        "Peptídeos sintéticos permitem exploração altamente direcionada de vias de sinalização molecular sob condições experimentais controladas.",
-        "Adipotide (FTPP) foi examinado em modelos de pesquisa laboratorial focados na vasculatura do tecido adiposo e mecanismos seletivos de direcionamento de peptídeos.",
-        "Sua estrutura linear definida, perfil de estabilidade e comportamento previsível o tornam adequado para experimentação in-vitro reproduzível.",
-        "Laboratórios europeus valorizam peptídeos analiticamente validados como Adipotide para pesquisa de precisão que requer consistência e rastreabilidade."
-      ],
-      mechanismTitle: "Mecanismo de Ação (Contexto de Pesquisa)",
-      mechanismPoints: [
-        "Modulação de vias de sinalização celular relacionadas ao tecido adiposo",
-        "Interação com modelos de direcionamento vascular e transporte de peptídeos",
-        "Influência em cascatas de sinalização intracelular em sistemas de pesquisa de adipócitos",
-        "Regulação de padrões de expressão gênica em ambientes laboratoriais controlados",
-        "Suporte a estudos metabólicos relacionados ao ATP mitocondrial"
-      ],
-      applicationsTitle: "Principais Aplicações de Pesquisa",
-      applications: [
-        {
-          "title": "Pesquisa de Sinalização do Tecido Adiposo",
-          "text": "Estudo de vias de comunicação mediadas por peptídeos em modelos laboratoriais relacionados a adipócitos."
-        },
-        {
-          "title": "Estudos de Interação Peptídeo–Vascular",
-          "text": "Avaliação do direcionamento seletivo de peptídeos e comportamento de ligação vascular in vitro."
-        },
-        {
-          "title": "Análise de Vias de Sinalização Celular",
-          "text": "Investigação de cascatas de sinalização intracelular sob condições experimentais controladas."
-        },
-        {
-          "title": "Pesquisa Metabólica Mitocondrial",
-          "text": "Avaliação da influência de peptídeos na produção de ATP e regulação energética celular."
-        },
-        {
-          "title": "Estudos de Expressão Proteica",
-          "text": "Observação de respostas transcricionais e traducionais em modelos de pesquisa tratados com peptídeos."
-        },
-        {
-          "title": "Pesquisa de Dinâmica da Matriz e Transporte",
-          "text": "Análise do transporte de peptídeos, distribuição e interação com componentes extracelulares."
-        }
-      ],
-      molecularTitle: "Características Moleculares",
-      molecularPoints: [
-        "Tipo Molecular: Peptídeo sintético de pesquisa",
-        "Estrutura: Cadeia peptídica linear",
-        "Identificador CAS: 859216-15-2",
-        "Formato de Dose: Frasco de pesquisa de 10mg",
-        "Estabilidade: Alta quando armazenado sob condições laboratoriais recomendadas"
-      ],
-      stabilityTitle: "Perfil de Estabilidade e Diretrizes de Armazenamento",
-      stabilityTitle: [
-        "Fornecido como pó liofilizado para maior estabilidade",
-        "Temperatura de armazenamento recomendada: −20°C",
-        "Proteger da umidade e exposição prolongada à luz",
-        "Evitar ciclos repetidos de congelamento e descongelamento",
-        "Soluções reconstituídas permanecem estáveis por aproximadamente 24–48 horas sob refrigeração"
-      ],
-      solubilityTitle: "Opções de Solubilidade e Reconstituição",
-      solubilityPoints: [
-        "Água bacteriostática",
-        "Solução salina estéril",
-        "Sistemas tampão ácidos",
-        "Solventes orgânicos analíticos compatíveis"
-      ],
-      techSpecsTitle: "Especificações Técnicas",
-      techSpecs: {
-        productName: "Adipotide (FTPP) 10mg",
-        cas: "859216-15-2",
-        purity: "≥99% (verificado por HPLC)",
-        unitSize: "10 mg",
-        form: "Pó liofilizado",
-        synthesis: "Síntese em Fase Sólida (SPPS)",
-         analytical: "HPLC, Espectrometria de Massa, Espectrofotometria UV",
-        "molecularStructure": "Peptídeo sintético linear",
-        "stability": "Alta quando armazenado sob condições laboratoriais recomendadas"
-      },
-      validationTitle: "Validação Analítica e Garantia de Qualidade",
-      validationPoints: [
-        "Confirmação de pureza por HPLC e perfil de impurezas",
-        "Verificação de identidade molecular por Espectrometria de Massa",
-        "Análise de concentração por espectrofotometria UV",
-        "Avaliação de consistência lote a lote",
-        "Triagem microbiológica e de endotoxinas"
-      ],
-      egulatoryTitle: "Declaração Regulamentar e de Conformidade",
-      regulatoryText: "Adipotide (FTPP) 10mg é fornecido estritamente para pesquisa laboratorial e investigação científica. Não é aprovado para consumo humano, uso veterinário, aplicações cosméticas ou tratamento médico. Certificados de Análise (COA) e Fichas de Dados de Segurança de Materiais (MSDS) estão disponíveis mediante solicitação para apoiar a conformidade com os regulamentos da UE.",
-      faqTitle: "Perguntas Frequentes",
-      "faqItems": [
-        {
-          "q": "Para que é usado o Adipotide (FTPP) 10mg na pesquisa?",
-          "a": "É usado em estudos laboratoriais envolvendo sinalização do tecido adiposo, mecanismos de direcionamento vascular, dinâmica de transporte de peptídeos e pesquisa controlada de sinalização celular."
-        },
-        {
-          "q": "Qual é o número CAS do Adipotide (FTPP)?",
-          "a": "O número CAS é 859216-15-2, fornecendo identificação precisa do composto e rastreabilidade da pesquisa."
-        },
-        {
-          "q": "Como o Adipotide (FTPP) deve ser armazenado?",
-          "a": "Armazene o peptídeo liofilizado a −20°C, protegido da umidade e luz. Evite ciclos repetidos de congelamento e descongelamento."
-        },
-        {
-          "q": "O Adipotide é aprovado para uso humano ou veterinário?",
-          "a": "Não. Adipotide (FTPP) 10mg é estritamente para pesquisa laboratorial e não é aprovado para uso humano ou animal."
-        },
-        {
-          "q": "Laboratórios europeus podem comprar Adipotide online?",
-          "a": "Sim. A Biopeptides fornece Adipotide (FTPP) 10mg a instituições de pesquisa em toda a Europa com documentação analítica completa."
-        },
-        {
-          "q": "O que torna o Adipotide único como peptídeo de pesquisa?",
-          "a": "Seu foco seletivo no tecido adiposo e modelos de direcionamento vascular permite investigação precisa de mecanismos de transporte e sinalização mediados por peptídeos."
-        },
-        {
-          "q": "Como a pureza é verificada?",
-          "a": "A pureza é verificada usando HPLC, enquanto a identidade molecular e a concentração são confirmadas por Espectrometria de Massa e análise UV."
-        },
-        {
-          "q": "Por que o formato de 10mg é preferido?",
-          "a": "O formato de 10mg suporta múltiplos experimentos com variabilidade reduzida de manuseio e resultados consistentes ao longo de períodos de pesquisa prolongados."
-        }
-      ],
-      chemicalProperties: {
-       
- molecularFormula: "C111H206N36O28S2",
-        
- molecularWeight: "2557.2",
-      
-  monoisotopicMass: "2555.5243724",
-       
- polarArea: "1070",
-        
-complexity: "5220",
-        
-xlogP: "-11.4",
-        heavyAtomCount: "177",
-        hydrogenBondDonorCount: "40",
-        hydrogenBondAcceptorCount: "40",
-        rotatableBondCount: "98",
-        cid: " 163360068",
-        inchi: "InChI=1S/C111H206N36O28S2/c1-60(2)49-79(142-99(163)71(32-15-23-41-113)133-87(150)56-125-86(149)55-127-97(161)84(59-177)147-109(173)83(53-89(152)153)146-103(167)76(36-19-27-45-117)138-90(154)64(9)128-98(162)72(39-30-48-123-111(121)122)134-88(151)57-124-85(148)54-126-96(160)70(31-14-22-40-112)139-95(159)69(120)58-176)105(169)129-66(11)92(156)136-74(34-17-25-43-115)101(165)143-80(50-61(3)4)106(170)130-65(10)91(155)135-73(33-16-24-42-114)100(164)140-77(37-20-28-46-118)104(168)145-82(52-63(7)8)107(171)131-67(12)93(157)137-75(35-18-26-44-116)102(166)144-81(51-62(5)6)108(172)132-68(13)94(158)141-78(110(174)175)38-21-29-47-119/h60-84,176-177H,14-59,112-120H2,1-13H3,(H,124,148)(H,125,149)(H,126,160)(H,127,161)(H,128,162)(H,129,169)(H,130,170)(H,131,171)(H,132,172)(H,133,150)(H,134,151)(H,135,155)(H,136,156)(H,137,157)(H,138,154)(H,139,159)(H,140,164)(H,141,158)(H,142,163)(H,143,165)(H,144,166)(H,145,168)(H,146,167)(H,147,173)(H,152,153)(H,174,175)(H4,121,122,123)/t64-,65+,66+,67+,68+,69-,70-,71+,72-,73+,74+,75+,76-,77+,78+,79+,80+,81+,82+,83-,84-/m0/s1",
-        inchiKey: "GZESIPHLGJDZRG-VCWDIOOSSA-N",
-        canonicalSmiles: "CC(C)CC(C(=O)NC(C)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCCCN)C(=O)O)NC(=O)C(CCCCN)NC(=O)CNC(=O)CNC(=O)C(CS)NC(=O)C(CC(=O)O)NC(=O)C(CCCCN)NC(=O)C(C)NC(=O)C(CCCNC(=N)N)NC(=O)CNC(=O)CNC(=O)C(CCCCN)NC(=O)C(CS)N",
-        isomericSmiles: "C[C@@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CS)C(=O)NCC(=O)NCC(=O)N[C@H](CCCCN)C(=O)N[C@H](CC(C)C)C(=O)N[C@H](C)C(=O)N[C@H](CCCCN)C(=O)N[C@H](CC(C)C)C(=O)N[C@H](C)C(=O)N[C@H](CCCCN)C(=O)N[C@H](CCCCN)C(=O)N[C@H](CC(C)C)C(=O)N[C@H](C)C(=O)N[C@H](CCCCN)C(=O)N[C@H](CC(C)C)C(=O)N[C@H](C)C(=O)N[C@H](CCCCN)C(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)CNC(=O)CNC(=O)[C@H](CCCCN)NC(=O)[C@H](CS)N",
-        iupacName: "(2R)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2R)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2R)-6-amino-2-[[(2R)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2R)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2R)-6-amino-2-[[2-[[2-[[(2R)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[2-[[2-[[(2S)-6-amino-2-[[(2R)-2-amino-3-sulfanylpropanoyl]amino]hexanoyl]amino]acetyl]amino]acetyl]amino]-5-carbamimidamidopentanoyl]amino]propanoyl]amino]hexanoyl]amino]-3-carboxypropanoyl]amino]-3-sulfanylpropanoyl]amino]acetyl]amino]acetyl]amino]hexanoyl]amino]-4-methylpentanoyl]amino]propanoyl]amino]hexanoyl]amino]-4-methylpentanoyl]amino]propanoyl]amino]hexanoyl]amino]hexanoyl]amino]-4-methylpentanoyl]amino]propanoyl]amino]hexanoyl]amino]-4-methylpentanoyl]amino]propanoyl]amino]hexanoic acid"
-      }
-    }
-  },
+ 
+}
+  
 
-   }}
+};

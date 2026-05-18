@@ -12457,14 +12457,11 @@ export default {
 },
 "ipamorelin-2mg": {
   name: "Ipamorelin 2mg",
-
-  tagline:
-    "Selective Growth Hormone Secretagogue for Receptor-Specific Endocrine Signaling Research",
-
+  tagline: "Selective growth hormone secretagogue for receptor-specific endocrine signaling research",
   cas: "170851-70-4",
 
   strength: [
-    "Ipamorelin 2mg by BioPeptide is a high-purity research peptide developed for advanced laboratory studies in growth hormone signaling, ghrelin receptor activation, and endocrine pathway analysis. Synthesized using precision peptide chemistry and purified to ≥99% HPLC, Ipamorelin supports reproducible in-vitro and biochemical research across academic and biotechnology laboratories."
+    "Ipamorelin 2mg by BioPeptide is a high-purity research peptide developed for advanced laboratory studies focused on growth hormone signaling, ghrelin receptor activation, and endocrine pathway analysis. Synthesized using precision peptide chemistry and purified to ≥99% HPLC, Ipamorelin supports reproducible in-vitro and biochemical research across academic and biotechnology laboratories."
   ],
 
   topDescription: {
@@ -12478,20 +12475,19 @@ export default {
   ],
 
   content: {
-
     overviewTitle: "Research Overview",
     overview: [
-      "Ipamorelin is a synthetic pentapeptide belonging to the growth hormone secretagogue class of research peptides.",
-      "It is studied primarily for its interaction with the growth hormone secretagogue receptor (GHS-R).",
+      "Ipamorelin is a synthetic pentapeptide belonging to the growth hormone secretagogue class.",
+      "It is primarily studied for its interaction with the growth hormone secretagogue receptor (GHS-R).",
       "Laboratory research frequently focuses on Ipamorelin’s selective receptor activation and endocrine signaling behavior.",
-      "These characteristics make it valuable for receptor-binding and hormonal pathway research models."
+      "These characteristics make it valuable for receptor-binding and hormone pathway research models."
     ],
 
     scientificBackgroundTitle: "Scientific Background",
     scientificBackground: [
       "Growth hormone secretion is regulated through complex endocrine pathways involving hypothalamic peptides and pituitary receptors.",
       "Ipamorelin selectively activates ghrelin receptors involved in growth hormone release.",
-      "Its receptor specificity allows researchers to study GH signaling with minimal interaction with other hormonal pathways.",
+      "Its receptor specificity allows researchers to study growth hormone signaling with minimal interaction with other hormonal pathways.",
       "This makes Ipamorelin a useful compound for endocrine signaling and receptor-level research."
     ],
 
@@ -12499,7 +12495,7 @@ export default {
     mechanismPoints: [
       "Growth hormone secretagogue receptor activation",
       "Pituitary endocrine signaling research",
-      "Selective peptide-receptor interaction studies",
+      "Selective peptide–receptor interaction studies",
       "Hormone secretion pathway investigation",
       "Cell signaling pathway research"
     ],
@@ -12508,7 +12504,7 @@ export default {
     applications: [
       {
         title: "Growth Hormone Release Research",
-        text: "Ipamorelin is used in laboratory research to study GH secretion patterns and receptor activation timing."
+        text: "Ipamorelin is used in laboratory research to study growth hormone secretion patterns and receptor activation timing."
       },
       {
         title: "Pituitary Receptor Signaling",
@@ -12539,7 +12535,7 @@ export default {
     stabilityPoints: [
       "Store lyophilized peptide at −20°C",
       "Protect from moisture and light exposure",
-      "Avoid repeated freeze-thaw cycles",
+      "Avoid repeated freeze–thaw cycles",
       "Reconstituted solutions should be refrigerated",
       "Use sterile laboratory solvents for preparation"
     ],
@@ -12577,11 +12573,9 @@ export default {
     ],
 
     regulatoryTitle: "Regulatory and Compliance Statement",
-    regulatoryText:
-      "Ipamorelin supplied by BioPeptides is intended strictly for laboratory and scientific research use only. It is not approved for human consumption, veterinary use, cosmetic applications, or therapeutic treatments.",
+    regulatoryText: "Ipamorelin supplied by BioPeptides is intended strictly for laboratory and scientific research use only. It is not approved for human consumption, veterinary use, cosmetic applications, or therapeutic treatments.",
 
     faqTitle: "Frequently Asked Questions",
-
     faqItems: [
       {
         q: "What is Ipamorelin used for in research?",
@@ -12592,7 +12586,7 @@ export default {
         a: "CAS 170851-70-4 uniquely identifies the Ipamorelin peptide for accurate research documentation and traceability."
       },
       {
-        q: "How does Ipamorelin differ from other GH secretagogues?",
+        q: "How does Ipamorelin differ from other growth hormone secretagogues?",
         a: "Ipamorelin is known for selective receptor activation, making it useful for studying targeted endocrine signaling."
       },
       {
@@ -12609,7 +12603,7 @@ export default {
       },
       {
         q: "How should Ipamorelin be stored?",
-        a: "Lyophilized Ipamorelin should be stored at −20°C and protected from repeated freeze-thaw cycles."
+        a: "Lyophilized Ipamorelin should be stored at −20°C and protected from repeated freeze–thaw cycles."
       },
       {
         q: "Why choose BioPeptides for Ipamorelin?",
@@ -12617,40 +12611,28 @@ export default {
       }
     ],
 
-   chemicalProperties: {
-  molecularFormula: "C38H49N9O5",
-  molecularWeight: "711.9",
-  monoisotopicMass: "711.3856657",
-  polarArea: "240",
-  complexity: "1200",
-  xlogP: "1.8",
-  heavyAtomCount: "52",
-  hydrogenBondDonorCount: "8",
-  hydrogenBondAcceptorCount: "8",
-  rotatableBondCount: "19",
-  cid: "9831659",
-  inchi:
-    "InChI=1S/C38H49N9O5/c1-38(2,41)37(52)47-32(21-28-22-42-23-43-28)36(51)46-31(20-25-15-16-26-12-6-7-13-27(26)18-25)35(50)45-30(19-24-10-4-3-5-11-24)34(49)44-29(33(40)48)14-8-9-17-39/h3-7,10-13,15-16,18,22-23,29-32H,8-9,14,17,19-21,39,41H2,1-2H3,(H2,40,48)(H,42,43)(H,44,49)(H,45,50)(H,46,51)(H,47,52)/t29-,30+,31+,32-/m0/s1",
-  inchiKey: "NEHWBYHLYZGBNO-BVEPWEIPSA-N",
-
-  canonicalSmiles:
-    "CC(C)(C(=O)NC(CC1=CN=CN1)C(=O)NC(CC2=CC3=CC=CC=C3C=C2)C(=O)NC(CC4=CC=CC=C4)C(=O)NC(CCCCN)C(=O)N)N",
-
-  isomericSmiles:
-    "CC(C)(C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@H](CC2=CC3=CC=CC=C3C=C2)C(=O)N[C@H](CC4=CC=CC=C4)C(=O)N[C@@H](CCCCN)C(=O)N)N",
-
-  iupacName:
-    "(2S)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2S)-2-[(2-amino-2-methylpropanoyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]-3-naphthalen-2-ylpropanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
-}
-
+    chemicalProperties: {
+      molecularFormula: "C38H49N9O5",
+      molecularWeight: "711.9",
+      monoisotopicMass: "711.3856657",
+      polarArea: "240",
+      complexity: "1200",
+      xlogP: "1.8",
+      heavyAtomCount: "52",
+      hydrogenBondDonorCount: "8",
+      hydrogenBondAcceptorCount: "8",
+      rotatableBondCount: "19",
+      cid: "9831659",
+      inchi: "InChI=1S/C38H49N9O5/c1-38(2,41)37(52)47-32(21-28-22-42-23-43-28)36(51)46-31(20-25-15-16-26-12-6-7-13-27(26)18-25)35(50)45-30(19-24-10-4-3-5-11-24)34(49)44-29(33(40)48)14-8-9-17-39/h3-7,10-13,15-16,18,22-23,29-32H,8-9,14,17,19-21,39,41H2,1-2H3,(H2,40,48)(H,42,43)(H,44,49)(H,45,50)(H,46,51)(H,47,52)/t29-,30+,31+,32-/m0/s1",
+      inchiKey: "NEHWBYHLYZGBNO-BVEPWEIPSA-N",
+      canonicalSmiles: "CC(C)(C(=O)NC(CC1=CN=CN1)C(=O)NC(CC2=CC3=CC=CC=C3C=C2)C(=O)NC(CC4=CC=CC=C4)C(=O)NC(CCCCN)C(=O)N)N",
+      isomericSmiles: "CC(C)(C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@H](CC2=CC3=CC=CC=C3C=C2)C(=O)N[C@H](CC4=CC=CC=C4)C(=O)N[C@@H](CCCCN)C(=O)N)N",
+      iupacName: "(2S)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2S)-2-[(2-amino-2-methylpropanoyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]-3-naphthalen-2-ylpropanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+    }
   },
-
   appearance: "White lyophilized powder",
-
-  storage: "Store at −20°C. Avoid repeated freeze-thaw cycles.",
-
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
 },
 "ipamorelin-5mg": {
   name: "Ipamorelin 5mg",

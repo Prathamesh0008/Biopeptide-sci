@@ -144,6 +144,7 @@ export default {
       "description": "Materialele BioPeptide sunt destinate strict cercetării de laborator. Oferim instrumente peptidice de înaltă acuratețe pentru instituții academice, organizații științifice și facilități de cercetare certificate — asigurând că toată activitatea se aliniază cu standarde etice, de reglementare și de integritate științifică."
     }
   },
+  
   "contact": {
     "hero": {
       "title": "Contactați BioPeptide",
@@ -1409,24 +1410,26 @@ researchPeptidesForDiscovery: {
     },
     "continue": "Continuă spre Plată"
   },
-  "payment": {
-    "title": "Plată",
-    "chooseMethod": "Alege Metoda de Plată",
-    "methods": {
-      "card": {
-        "title": "Card de Credit / Debit",
-        "desc": "Visa, MasterCard, RuPay"
-      },
-      "upi": {
-        "title": "UPI",
-        "desc": "Google Pay, PhonePe, Paytm"
-      }
+ payment: {
+  title: "Plată",
+  chooseMethod: "Alegeți metoda de plată",
+
+  methods: {
+    card: {
+      title: "Card credit/debit",
+      desc: "Visa, MasterCard, RuPay"
     },
-    "summary": "Sumar Comandă",
-    "total": "Total",
-    "paySecurely": "Plătește În Siguranță",
-    "secureNote": "Plăți 100% Securizate"
+    upi: {
+      title: "UPI",
+      desc: "Google Pay, PhonePe, Paytm"
+    }
   },
+
+  summary: "Rezumat comandă",
+  total: "Total",
+  paySecurely: "Plătiți în siguranță",
+  secureNote: "Plăți 100% sigure"
+},
   "research": {
     "vilon": {
       "title": "Vilon: Bioregulare Celulară și Imună",
@@ -2143,21 +2146,13 @@ researchPeptidesForDiscovery: {
       }
     }
   },
-  "productPage": {
-    "back": "← Înapoi la Produse",
-    "tagline": "BioPeptide Premium • Material de Cercetare Științifică de Înaltă Puritate",
-   description: {
-  p0: "{name} este un peptid de cercetare de înaltă puritate, sintetizat folosind sinteza peptidică avansată în fază solidă (SPPS) și validare analitică.",
-  p1: "Dezvoltat prin tehnologie de sinteză peptidică de precizie, {name} este supus unei purificări de înaltă rezoluție pentru a asigura acuratețea moleculară.",
-  p2: "Conceput pentru analize biochimice, semnalizare celulară, studii celulare, analiza legării receptorilor și medii de cercetare controlate."
-}
-,
-    "badges": { "hplc": "Testat HPLC", "research": "Grad de Cercetare", "coa": "COA Disponibil" },
-    "priceNote": "Numai pentru uz în cercetare",
-    "addToCart": "Adaugă în Coș",
-    "specs": { "category": "Categorie", "purity": "Puritate", "size": "Dimensiune unitară", "cas": "CAS" },
-    "notFound": "Produsul nu a fost găsit"
-  },
+productPage: {
+  back: "Înapoi",
+  addToCart: "Adaugă în coș",
+  chemicalProperties: "Proprietăți chimice",
+  description: "Descriere",
+  coa: "COA / HPLC / MS",
+},
   "productContent": {
     "overviewTitle": "Prezentare generală",
     "overviewDescription1": "este un peptid de cercetare de înaltă precizie sintetizat folosind sinteza peptidică în fază solidă (SPPS). Fiecare lot suferă o validare analitică extinsă, inclusiv HPLC și Spectrometrie de Masă, pentru a asigura integritatea structurală, puritatea și consistența de la lot la lot.",

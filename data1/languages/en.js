@@ -193,6 +193,7 @@ export default {
       }
     ]
   },
+
   /* ================= NAVBAR ================= */
 /*// peptides/data1/languages/en.jsx*/
 navbar: {
@@ -1537,11 +1538,27 @@ payment: {
   methods: {
     card: {
       title: "Credit / Debit Card",
-      desc: "Visa, MasterCard, RuPay"
+      desc: "Visa, MasterCard, American Express"
     },
-    upi: {
-      title: "UPI",
-      desc: "Google Pay, PhonePe, Paytm"
+    paypal: {
+      title: "PayPal",
+      desc: "Pay with your PayPal account"
+    },
+    klarna: {
+      title: "Klarna",
+      desc: "Pay later or in installments"
+    },
+    sofort: {
+      title: "Sofort",
+      desc: "Direct online bank transfer"
+    },
+    ideal: {
+      title: "iDEAL",
+      desc: "Internet banking (Netherlands)"
+    },
+    bank: {
+      title: "Bank Transfer",
+      desc: "SEPA / Wire transfer"
     }
   },
 
@@ -2603,20 +2620,12 @@ refundsReturns: {
   }
 },
 productPage: {
-  back: "← Back to Products",
-  tagline: "Premium BioPeptide • High-Purity Scientific Research Material",
-  description: {
-    p0: "{name} is a high-purity research peptide synthesized using advanced solid-phase peptide synthesis (SPPS) and analytical validation.",
-    p1: "Developed using precision peptide synthesis technology, {name} undergoes high-resolution purification to ensure molecular accuracy.",
-    p2: "Designed for biochemical assays, pathway signaling, cell studies, receptor-binding analysis, and controlled research environments."
-  },
-  badges: { hplc: "HPLC Tested", research: "Research Grade", coa: "COA Available" },
-  priceNote: "Research Use Only",
+  back: "Back",
   addToCart: "Add to Cart",
-  specs: { category: "Category", purity: "Purity", size: "Unit Size", cas: "CAS" },
-  notFound: "Product Not Found"
-}
-,
+  chemicalProperties: "Chemical Properties",
+  description: "Description",
+  coa: "COA / HPLC / MS",
+},
 productContent: {
   overviewTitle: "Overview",
 

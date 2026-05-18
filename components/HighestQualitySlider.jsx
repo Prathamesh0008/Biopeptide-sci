@@ -1,22 +1,137 @@
-//peptides\components\HighestQualitySlider.jsx
+// //peptides\components\HighestQualitySlider.jsx
+// "use client";
+
+// // import { useMemo } from "react";
+// import { PRODUCTS } from "@/data/products";
+// import { useLanguage } from "@/contexts/LanguageContext";
+// import { useMemo, useRef } from "react";
+
+
+// export default function HighestQualitySlider({ active, onChange }) {
+//     const tabsRef = useRef(null);
+// const isDown = useRef(false);
+// const startX = useRef(0);
+// const scrollLeft = useRef(0);
+
+//   const { translations } = useLanguage();
+
+//   const categories = useMemo(() => {
+//     const unique = Array.from(new Set(PRODUCTS.map(p => p.category))).filter(Boolean);
+
+//     const preferredOrder = [
+//       "Popular Peptides",
+//       "Peptide Capsules",
+//       "Peptide Blends",
+//       "IGF-1 Proteins",
+//       "Melanotan Peptides",
+//       "Bioregulators",
+//       "Cosmetic Peptides",
+//     ];
+
+//     const sorted = [
+//       ...preferredOrder.filter(c => unique.includes(c)),
+//       ...unique.filter(c => !preferredOrder.includes(c)),
+//     ];
+
+//    return sorted.filter(
+//   (c) => c !== "All" && c !== "Popular Peptides"
+// );
+//   }, []);
+
+//   const handleMouseDown = (e) => {
+//   isDown.current = true;
+//   tabsRef.current.classList.add("cursor-grabbing");
+//   startX.current = e.pageX - tabsRef.current.offsetLeft;
+//   scrollLeft.current = tabsRef.current.scrollLeft;
+// };
+
+// const handleMouseLeave = () => {
+//   isDown.current = false;
+//   tabsRef.current.classList.remove("cursor-grabbing");
+// };
+
+// const handleMouseUp = () => {
+//   isDown.current = false;
+//   tabsRef.current.classList.remove("cursor-grabbing");
+// };
+
+// const handleMouseMove = (e) => {
+//   if (!isDown.current) return;
+//   e.preventDefault();
+//   const x = e.pageX - tabsRef.current.offsetLeft;
+//   const walk = (x - startX.current) * 1.4; // drag speed
+//   tabsRef.current.scrollLeft = scrollLeft.current - walk;
+// };
+
+//   return (
+//     <section className="mt-12">
+//       {/* TITLE */}
+//       <div className="mb-4">
+//         <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+//           {translations?.home?.productGrid?.highestQualityTitle || "The Highest Quality Peptides"}
+//         </h2>
+//         <p className="text-sm text-gray-600 mt-1">
+//           {translations?.home?.productGrid?.highestQualitySub ||
+//             "Browse by category and explore our research-grade peptides."}
+//         </p>
+//       </div>
+
+//       {/* CATEGORY TABS */}
+//     <div
+//   ref={tabsRef}
+//   onMouseDown={handleMouseDown}
+//   onMouseLeave={handleMouseLeave}
+//   onMouseUp={handleMouseUp}
+//   onMouseMove={handleMouseMove}
+//   className="
+//     flex gap-3 overflow-x-auto scrollbar-hide pb-2
+//     cursor-grab select-none
+//   "
+// >
+
+//         {categories.map(cat => {
+//           const isActive = cat === active;
+//           return (
+//             <button
+//               key={cat}
+//               onClick={() => onChange(cat)}
+//               className={`
+//                 whitespace-nowrap px-5 py-2 rounded-xl text-sm font-semibold
+//                 border transition
+//                 ${isActive
+//                   ? "bg-gray-900 text-white border-gray-900"
+//                   : "bg-white text-gray-700 border-gray-300 hover:border-gray-500"}
+//               `}
+//             >
+//              {translations?.peptides?.categories?.[cat]?.title || cat}
+
+//             </button>
+//           );
+//         })}
+//       </div>
+//     </section>
+//   );
+// }  
+
 "use client";
 
-// import { useMemo } from "react";
-import { PRODUCTS } from "@/data/products";
-import { useLanguage } from "@/contexts/LanguageContext";
 import { useMemo, useRef } from "react";
-
+import { useLanguage } from "@/contexts/LanguageContext";
+import { useProducts } from "@/hooks/useProducts";
 
 export default function HighestQualitySlider({ active, onChange }) {
-    const tabsRef = useRef(null);
-const isDown = useRef(false);
-const startX = useRef(0);
-const scrollLeft = useRef(0);
+  const tabsRef = useRef(null);
+  const isDown = useRef(false);
+  const startX = useRef(0);
+  const scrollLeft = useRef(0);
 
   const { translations } = useLanguage();
+  const { products } = useProducts();
 
   const categories = useMemo(() => {
-    const unique = Array.from(new Set(PRODUCTS.map(p => p.category))).filter(Boolean);
+    const unique = Array.from(
+      new Set(products.map((p) => p.category))
+    ).filter(Boolean);
 
     const preferredOrder = [
       "Popular Peptides",
@@ -29,47 +144,56 @@ const scrollLeft = useRef(0);
     ];
 
     const sorted = [
-      ...preferredOrder.filter(c => unique.includes(c)),
-      ...unique.filter(c => !preferredOrder.includes(c)),
+      ...preferredOrder.filter((c) => unique.includes(c)),
+      ...unique.filter((c) => !preferredOrder.includes(c)),
     ];
 
-   return sorted.filter(
-  (c) => c !== "All" && c !== "Popular Peptides"
-);
-  }, []);
+    return sorted.filter((c) => c !== "All" && c !== "Popular Peptides");
+  }, [products]);
 
   const handleMouseDown = (e) => {
-  isDown.current = true;
-  tabsRef.current.classList.add("cursor-grabbing");
-  startX.current = e.pageX - tabsRef.current.offsetLeft;
-  scrollLeft.current = tabsRef.current.scrollLeft;
-};
+    if (!tabsRef.current) return;
 
-const handleMouseLeave = () => {
-  isDown.current = false;
-  tabsRef.current.classList.remove("cursor-grabbing");
-};
+    isDown.current = true;
+    tabsRef.current.classList.add("cursor-grabbing");
+    startX.current = e.pageX - tabsRef.current.offsetLeft;
+    scrollLeft.current = tabsRef.current.scrollLeft;
+  };
 
-const handleMouseUp = () => {
-  isDown.current = false;
-  tabsRef.current.classList.remove("cursor-grabbing");
-};
+  const handleMouseLeave = () => {
+    if (!tabsRef.current) return;
 
-const handleMouseMove = (e) => {
-  if (!isDown.current) return;
-  e.preventDefault();
-  const x = e.pageX - tabsRef.current.offsetLeft;
-  const walk = (x - startX.current) * 1.4; // drag speed
-  tabsRef.current.scrollLeft = scrollLeft.current - walk;
-};
+    isDown.current = false;
+    tabsRef.current.classList.remove("cursor-grabbing");
+  };
+
+  const handleMouseUp = () => {
+    if (!tabsRef.current) return;
+
+    isDown.current = false;
+    tabsRef.current.classList.remove("cursor-grabbing");
+  };
+
+  const handleMouseMove = (e) => {
+    if (!isDown.current || !tabsRef.current) return;
+
+    e.preventDefault();
+
+    const x = e.pageX - tabsRef.current.offsetLeft;
+    const walk = (x - startX.current) * 1.4;
+
+    tabsRef.current.scrollLeft = scrollLeft.current - walk;
+  };
 
   return (
     <section className="mt-12">
       {/* TITLE */}
       <div className="mb-4">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-          {translations?.home?.productGrid?.highestQualityTitle || "The Highest Quality Peptides"}
+          {translations?.home?.productGrid?.highestQualityTitle ||
+            "The Highest Quality Peptides"}
         </h2>
+
         <p className="text-sm text-gray-600 mt-1">
           {translations?.home?.productGrid?.highestQualitySub ||
             "Browse by category and explore our research-grade peptides."}
@@ -77,20 +201,20 @@ const handleMouseMove = (e) => {
       </div>
 
       {/* CATEGORY TABS */}
-    <div
-  ref={tabsRef}
-  onMouseDown={handleMouseDown}
-  onMouseLeave={handleMouseLeave}
-  onMouseUp={handleMouseUp}
-  onMouseMove={handleMouseMove}
-  className="
-    flex gap-3 overflow-x-auto scrollbar-hide pb-2
-    cursor-grab select-none
-  "
->
-
-        {categories.map(cat => {
+      <div
+        ref={tabsRef}
+        onMouseDown={handleMouseDown}
+        onMouseLeave={handleMouseLeave}
+        onMouseUp={handleMouseUp}
+        onMouseMove={handleMouseMove}
+        className="
+          flex gap-3 overflow-x-auto scrollbar-hide pb-2
+          cursor-grab select-none
+        "
+      >
+        {categories.map((cat) => {
           const isActive = cat === active;
+
           return (
             <button
               key={cat}
@@ -98,17 +222,18 @@ const handleMouseMove = (e) => {
               className={`
                 whitespace-nowrap px-5 py-2 rounded-xl text-sm font-semibold
                 border transition
-                ${isActive
-                  ? "bg-gray-900 text-white border-gray-900"
-                  : "bg-white text-gray-700 border-gray-300 hover:border-gray-500"}
+                ${
+                  isActive
+                    ? "bg-gray-900 text-white border-gray-900"
+                    : "bg-white text-gray-700 border-gray-300 hover:border-gray-500"
+                }
               `}
             >
-             {translations?.peptides?.categories?.[cat]?.title || cat}
-
+              {translations?.peptides?.categories?.[cat]?.title || cat}
             </button>
           );
         })}
       </div>
     </section>
   );
-}  
+}

@@ -316,6 +316,180 @@ export default {
       }
     }
   },
+  "ahk-cu-200mg": {
+  name: "AHK-Cu 200mg (Topical)",
+  tagline: "Profil i Avancuar Kërkimor i Peptidit të Bakrit",
+  cas: "682809-81-0",
+
+  // Short card / hero text
+  strength: [
+    "AHK-Cu 200mg (Topical) nga BioPeptides është një peptid sintetik bakri me pastërti të lartë, i identifikuar me CAS 682809-81-0. I prodhuar duke përdorur sintezën e peptideve në fazë të ngurtë (SPPS) dhe i validuar përmes HPLC, Spektrometrisë së Masës dhe analizës UV, ky peptid është projektuar për kërkime të avancuara laboratorike në sinjalizimin qelizor, analizën e ndërveprimeve proteinë–peptid, modelet qelizore rigjenerative dhe kërkimet metabolike. I furnizuar si pluhur i liofilizuar, AHK-Cu 200mg ofron stabilitet të shkëlqyer, riprodhueshmëri dhe qëndrueshmëri nga seria në seri për laboratorët në të gjithë Evropën që kërkojnë përbërje të besueshme kur blejnë peptide online."
+  ],
+
+  // Hero / intro description
+  topDescription: {
+    p0: "AHK-Cu 200mg (Topical) nga BioPeptides është një peptid sintetik premium i bakrit, i identifikuar me CAS 682809-81-0 dhe i zhvilluar ekskluzivisht për kërkime shkencore të avancuara in-vitro që përfshijnë studime të sinjalizimit dermal dhe ndërveprimeve qelizore.",
+    p1: "I prodhuar duke përdorur Sintezën e Peptideve në Fazë të Ngurtë (SPPS), ky peptid i nënshtrohet verifikimit të rreptë analitik përmes HPLC, Spektrometrisë së Masës dhe analizës UV për të siguruar pastërti ≥99%, saktësi molekulare dhe qëndrueshmëri nga seria në seri.",
+    p2: "Laboratorët kërkimorë në të gjithë Evropën mbështeten te AHK-Cu 200mg për kërkime biokimike të riprodhueshme, studime të ndërveprimit peptid–metal, modelim qelizor rigjenerativ dhe rrjedha eksperimentale të kontrolluara."
+  },
+
+  // Full product page content
+  content: {
+    overviewTitle: "Përmbledhje e Plotë Kërkimore",
+    overview: [
+      "AHK-Cu 200mg (Topical) është një peptid kërkimor sintetik që lidhet me bakrin, i projektuar me precizion dhe i furnizuar nga BioPeptides për hetime të avancuara laboratorike in-vitro.",
+      "Çdo seri prodhohet duke përdorur Sintezën e Peptideve në Fazë të Ngurtë (SPPS) dhe i nënshtrohet pastrimit në disa faza dhe validimit analitik për të siguruar pastërti të lartë, integritet strukturor dhe riprodhueshmëri.",
+      "I identifikuar me numrin CAS 682809-81-0, ky peptid plotëson kërkesat e dokumentimit dhe gjurmueshmërisë për laboratorët kërkimorë evropianë dhe ndërkombëtarë."
+    ],
+
+    scientificBackgroundTitle: "Sfondi Shkencor",
+    scientificBackground: [
+      "Peptidet sintetike të bakrit si AHK-Cu studiohen gjerësisht për rolin e tyre në komunikimin qelizor, rregullimin enzimatik dhe ndërveprimet proteinë–jon metalik.",
+      "AHK-Cu shërben si një mjet i vlefshëm kërkimor për hetimin e rrugëve të sinjalizimit ndërqelizor, sjelljes së matricës jashtëqelizore dhe proceseve metabolike mitokondriale.",
+      "Kinetika e tij e parashikueshme e degradimit, stabiliteti i lidhjes me bakrin dhe struktura lineare peptide mbështesin rezultate eksperimentale të riprodhueshme si në analiza afatshkurtra, ashtu edhe në dizajne kërkimore afatgjata."
+    ],
+
+    mechanismTitle: "Vetitë Kërkimore Mekanistike",
+    mechanismPoints: [
+      "Modulimi i kaskadave të sinjalizimit ndërqelizor në modele laboratorike të kontrolluara",
+      "Rritja e ndjeshmërisë ndaj faktorëve të rritjes në kërkimet qelizore rigjenerative",
+      "Rregullimi i modeleve të shprehjes gjenike në studimet e sinjalizimit të ndërmjetësuar nga peptidet",
+      "Ndikimi në prodhimin mitokondrial të ATP-së dhe sjelljen metabolike",
+      "Mbështetja e analizës së rrugëve të aktivizimit dhe frenimit enzimatik",
+      "Ndërveprimi me komponentët e matricës jashtëqelizore në kërkimet mbi proteinat strukturore"
+    ],
+
+    applicationsTitle: "Aplikimet Kryesore Kërkimore",
+    applications: [
+      {
+        title: "Biologjia Qelizore Rigjenerative",
+        text: "Hetimi i rinovimit qelizor, diferencimit dhe modelimit të indeve në kushte laboratorike të kontrolluara."
+      },
+      {
+        title: "Analiza e Shprehjes së Proteinave",
+        text: "Studimi i përgjigjeve transkriptuese dhe përkthyese në modele eksperimentale të trajtuara me peptide."
+      },
+      {
+        title: "Studime të Lidhjes me Receptorët",
+        text: "Analizimi i ndërveprimeve ligand–receptor dhe mekanizmave të sinjalizimit të ndërmjetësuar nga peptidet."
+      },
+      {
+        title: "Kërkime Metabolike Mitokondriale",
+        text: "Vlerësimi i ndikimit të peptideve në rrugët e prodhimit të energjisë qelizore."
+      },
+      {
+        title: "Eksperimente të Ndjeshmërisë Enzimatike",
+        text: "Vlerësimi i aktivizimit, frenimit dhe sjelljes rregullatore të enzimave."
+      },
+      {
+        title: "Studime të Ndërveprimit me Matricën Jashtëqelizore",
+        text: "Eksplorimi i rimodelimit të matricës dhe dinamikave të mikro-mjedisit qelizor."
+      }
+    ],
+
+    molecularTitle: "Karakteristikat Molekulare",
+    molecularPoints: [
+      "Tipi molekular: Peptid kërkimor sintetik që lidhet me bakrin",
+      "Struktura: Kompleks tripeptid linear me bakër",
+      "Stabiliteti: I lartë kur ruhet në kushtet laboratorike të rekomanduara",
+      "Pesha molekulare: 416.9 g/mol"
+    ],
+
+    stabilityTitle: "Profili i Stabilitetit dhe Konsideratat e Ruajtjes",
+    stabilityPoints: [
+      "Furnizohet si pluhur i liofilizuar për stabilitet të përmirësuar afatgjatë",
+      "Ruajtja afatgjatë: Ruajeni në −20°C për të ruajtur integritetin molekular",
+      "I ndjeshëm ndaj lagështisë dhe ekspozimit të zgjatur ndaj dritës",
+      "Degradim i parashikueshëm mbi temperaturën e dhomës",
+      "Tretësirat e rikompozuara mbeten stabile për afërsisht 24–48 orë nën ftohje"
+    ],
+
+    solubilityTitle: "Opsionet e Tretshmërisë dhe Rikompozimit",
+    solubilityPoints: [
+      "Ujë bakteriostatik",
+      "Solucion fiziologjik steril",
+      "Bufera ujore acide",
+      "Tretës organikë analitikë për aplikime të avancuara analitike"
+    ],
+
+    techSpecsTitle: "Specifikimet Teknike",
+    techSpecs: {
+      productName: "AHK-Cu 200mg (Topical)",
+      cas: "682809-81-0",
+      purity: "≥99% (e verifikuar me HPLC)",
+      unitSize: "200 mg",
+      form: "Pluhur i liofilizuar",
+      synthesis: "Sinteza e Peptideve në Fazë të Ngurtë (SPPS)",
+      analytical: "HPLC, Spektrometri e Masës, Spektrofotometri UV"
+    },
+
+    validationTitle: "Validimi Analitik dhe Kontrolli i Cilësisë",
+    validationPoints: [
+      "Konfirmimi i pastërtisë me Kromatografi të Lëngshme me Performancë të Lartë (HPLC)",
+      "Verifikimi i peshës molekulare dhe identitetit me Spektrometri të Masës (MS)",
+      "Analiza e përqendrimit me spektrofotometri UV",
+      "Verifikimi i identitetit dhe qëndrueshmërisë së serisë",
+      "Skrining për endotoksina dhe ndotje mikrobiale"
+    ],
+
+    regulatoryTitle: "Informacion mbi Rregulloren dhe Përputhshmërinë",
+    regulatoryText:
+      "AHK-Cu 200mg (Topical) furnizohet rreptësisht për kërkime laboratorike dhe hetime shkencore. Nuk është i miratuar si ilaç, produkt kozmetik, ushqim ose produkt dietik. BioPeptides ofron Certifikata Analize (COA), Fletë të të Dhënave të Sigurisë së Materialit (MSDS) dhe dokumentacion analitik të serisë sipas kërkesës.",
+
+    whyTitle: "Pse të blini AHK-Cu nga BioPeptides?",
+    whyText:
+      "BioPeptides është i besuar nga institucionet kërkimore evropiane dhe ndërkombëtare për furnizimin e peptideve sintetike me pastërti të lartë dhe validim analitik transparent. Studiuesit që blejnë peptide online zgjedhin BioPeptides për cilësi të qëndrueshme, dokumentacion të përafruar me kërkesat rregullatore dhe transport të besueshëm në të gjithë BE-në.",
+
+    faqTitle: "Pyetjet e Bëra Shpesh",
+    faqItems: [
+      {
+        q: "Për çfarë përdoret AHK-Cu 200mg (Topical) në kërkime?",
+        a: "AHK-Cu 200mg përdoret në biologjinë qelizore rigjenerative, studimet e ndërveprimeve proteinike, analizat e lidhjes me receptorët, kërkimet mitokondriale dhe analizën e rrugëve enzimatike në kushte laboratorike të kontrolluara."
+      },
+      {
+        q: "Cili është numri CAS i AHK-Cu?",
+        a: "Numri CAS është 682809-81-0, i cili identifikon në mënyrë unike përbërjen për dokumentim kërkimor dhe referencë rregullatore."
+      },
+      {
+        q: "A është AHK-Cu i miratuar për përdorim mjekësor ose kozmetik?",
+        a: "Jo. AHK-Cu 200mg (Topical) furnizohet rreptësisht për kërkime laboratorike dhe nuk është i miratuar për aplikime mjekësore, kozmetike, terapeutike ose dietike."
+      },
+      {
+        q: "Si duhet të ruhet AHK-Cu 200mg?",
+        a: "Ruajeni peptidin e liofilizuar në −20°C, të mbrojtur nga lagështia dhe drita. Tretësirat e rikompozuara duhet të ruhen në frigorifer dhe të përdoren brenda 24–48 orëve."
+      },
+      {
+        q: "A mund të blej peptide AHK-Cu online në Evropë?",
+        a: "Po. BioPeptides furnizon AHK-Cu 200mg për laboratorë në të gjithë Evropën, duke përfshirë Francën, Gjermaninë, Italinë, Spanjën, Holandën, Belgjikën dhe Zvicrën."
+      },
+      {
+        q:"Si verifikohet pastërtia e peptidit?",
+        a:"Pastërtia konfirmohet duke përdorur HPLC, ndërsa identiteti molekular verifikohet përmes Spektrometrisë së Masës dhe analizës UV për çdo seri prodhimi."
+      },
+      {
+        q:"Cilët tretës janë të përputhshëm me AHK-Cu?",
+        a:"AHK-Cu mund të rikompozohet duke përdorur ujë bakteriostatik, solucion fiziologjik steril, bufera acide ose tretës analitikë të përputhshëm, në varësi të kërkesave eksperimentale."
+      },
+      {
+        q:"A është AHK-Cu i përshtatshëm për studime kërkimore afatgjata?",
+        a:"Po. Kur ruhet dhe trajtohet siç duhet, AHK-Cu ruan stabilitetin molekular dhe riprodhueshmërinë për afate të zgjatura kërkimore.",
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C15H25CuN6O4",
+      molecularWeight: "416.9",
+      polarArea: "N/A",
+      complexity: "N/A",
+      xlogP: "N/A",
+      heavyAtomCount: "N/A",
+      hydrogenBondDonorCount: "N/A",
+      hydrogenBondAcceptorCount: "N/A",
+      rotatableBondCount: "N/A",
+      sequence: "Ala-His-Lys-Cu"
+    }
+  }
+},
     "5-amino-1mq-50mg": {
     name: "5-Amino-1MQ 50mg (60 Kapsula)",
    tagline: "Profili i Avancuar i Komponimit Kërkimor Metabolik",
@@ -481,7 +655,183 @@ export default {
       }
     }
   },
+"aod9604-6mg": {
+  name: "AOD9604 6mg",
+  tagline: "Profil i Avancuar i Peptidit për Kërkime Metabolike",
+  cas: "386264-39-7",
 
+  // Short card / hero text
+  strength: [
+    "AOD9604 6mg nga BioPeptides është një peptid kërkimor sintetik me pastërti të lartë, i identifikuar me CAS 386264-39-7. I prodhuar duke përdorur sintezën e peptideve në fazë të ngurtë (SPPS) dhe i validuar përmes HPLC dhe Spektrometrisë së Masës, ky peptid është projektuar për kërkime mbi sinjalizimin qelizor, rrugët metabolike dhe ndërveprimet proteinike. I njohur për stabilitet dhe riprodhueshmëri të shkëlqyer, AOD9604 është i besuar nga laboratorët kërkimorë evropianë që kërkojnë përbërje të besueshme kur blejnë peptide online për eksperimente të kontrolluara in-vitro."
+  ],
+
+  // Hero / intro description
+  topDescription: {
+    p0: "AOD9604 6mg nga BioPeptides është një peptid kërkimor sintetik premium, i identifikuar me CAS 386264-39-7 dhe i zhvilluar për studime të avancuara laboratorike in-vitro që përfshijnë sinjalizimin metabolik dhe hetimin e rrugëve qelizore.",
+    p1: "I prodhuar duke përdorur Sintezën e Peptideve në Fazë të Ngurtë (SPPS), ky peptid i nënshtrohet verifikimit të rreptë analitik përmes HPLC dhe Spektrometrisë së Masës për të siguruar pastërti ≥99%, identitet molekular dhe qëndrueshmëri nga seria në seri.",
+    p2: "Institucionet kërkimore në të gjithë Evropën mbështeten te AOD9604 6mg për kërkime metabolike të riprodhueshme, studime të ndërveprimeve proteinike dhe rrjedha eksperimentale të kontrolluara në mjedise laboratorike të rregulluara."
+  },
+
+  // Full product page content
+  content: {
+    overviewTitle: "Përmbledhje e Peptidit Kërkimor me Pastërti të Lartë",
+    overview: [
+      "AOD9604 6mg është një peptid kërkimor sintetik premium, i furnizuar nga BioPeptides për hetime shkencore të avancuara in-vitro.",
+      "Çdo seri sintetizohet duke përdorur Sintezën e Peptideve në Fazë të Ngurtë (SPPS) nën kushte laboratorike të kontrolluara rreptësisht për të siguruar precizion molekular, pastërti dhe riprodhueshmëri.",
+      "I identifikuar me numrin CAS 386264-39-7, ky peptid plotëson standardet e gjurmueshmërisë dhe dokumentimit të kërkuara nga institucionet kërkimore evropiane."
+    ],
+
+    scientificBackgroundTitle: "Sfondi Shkencor dhe Rëndësia Kërkimore",
+    scientificBackground: [
+      "Peptidet sintetike janë mjete thelbësore në kërkimet moderne biokimike, farmaceutike dhe të biologjisë molekulare.",
+      "AOD9604 është një fragment peptidik i karakterizuar mirë, i studiuar për rolin e tij në rrugët e sinjalizimit qelizor dhe modelet kërkimore metabolike.",
+      "Profili i tij i parashikueshëm i degradimit, stabiliteti dhe riprodhueshmëria e bëjnë të përshtatshëm për dizajne eksperimentale komplekse.",
+      "Laboratorët evropianë mbështeten në peptide me cilësi të lartë si AOD9604 për të siguruar qëndrueshmëri në studime kërkimore me shumë faza."
+    ],
+
+    mechanismTitle: "Mekanizmi i Veprimit në Kërkimet Laboratorike",
+    mechanismPoints: [
+      "Modulimi i rrugëve të sinjalizimit ndërqelizor",
+      "Rritja e ndjeshmërisë ndaj faktorëve të rritjes në modelet kërkimore",
+      "Rregullimi i modeleve të shprehjes gjenike",
+      "Ndikimi në prodhimin mitokondrial të ATP-së dhe metabolizmin e energjisë",
+      "Mbështetja e studimeve të aktivizimit enzimatik dhe hartëzimit të rrugëve"
+    ],
+
+    applicationsTitle: "Aplikimet Kryesore Kërkimore",
+    applications: [
+      {
+        title: "Kërkime mbi Sinjalizimin Metabolik",
+        text: "Hetimi i kaskadave të sinjalizimit ndërqelizor të lidhura me rregullimin metabolik."
+      },
+      {
+        title: "Studime mbi Adipocitet dhe Metabolizmin e Lipideve",
+        text: "Eksplorimi i mekanizmave të përpunimit të lipideve dhe modeleve kërkimore të lidhura me adipocitet."
+      },
+      {
+        title: "Analiza e Shprehjes së Proteinave",
+        text: "Vlerësimi i përgjigjeve transkriptuese dhe përkthyese në sisteme laboratorike të kontrolluara."
+      },
+      {
+        title: "Studime të Lidhjes me Receptorët",
+        text: "Analizimi i ndërveprimeve ligand–receptor që lidhen me rrugët metabolike."
+      },
+      {
+        title: "Kërkime Metabolike Mitokondriale",
+        text: "Vlerësimi i ndikimit të peptidit në rrugët e prodhimit të energjisë qelizore."
+      },
+      {
+        title: "Eksperimente të Ndjeshmërisë Enzimatike",
+        text: "Studimi i aktivizimit, frenimit dhe mekanizmave rregullatorë të enzimave."
+      }
+    ],
+
+    molecularTitle: "Karakteristikat Molekulare",
+    molecularPoints: [
+      "Tipi molekular: Peptid kërkimor sintetik, fragment i hormonit të rritjes",
+      "Struktura: Zinxhir peptidik linear",
+      "Stabiliteti: I lartë kur ruhet në kushtet laboratorike të rekomanduara",
+      "Pesha molekulare: Varet nga sekuenca"
+    ],
+
+    stabilityTitle: "Stabiliteti Molekular dhe Profili i Ruajtjes",
+    stabilityPoints: [
+      "Furnizohet si pluhur i liofilizuar për stabilitet të përmirësuar afatgjatë",
+      "Ruajtja afatgjatë: Ruajeni në −20°C për të ruajtur integritetin molekular",
+      "I ndjeshëm ndaj lagështisë dhe ekspozimit të zgjatur ndaj dritës",
+      "Degradim i parashikueshëm mbi temperaturën e dhomës",
+      "Tretësirat e rikompozuara mbeten stabile për afërsisht 24–48 orë nën ftohje"
+    ],
+
+    solubilityTitle: "Karakteristikat e Tretshmërisë dhe Rikompozimit",
+    solubilityPoints: [
+      "Ujë bakteriostatik",
+      "Solucion fiziologjik steril",
+      "Bufera acidike",
+      "Tretës organikë të përshtatshëm të gradës analitike"
+    ],
+
+    techSpecsTitle: "Specifikimet Teknike",
+    techSpecs: {
+      productName: "AOD9604 6mg",
+      cas: "386264-39-7",
+      purity: "≥99% (e verifikuar me HPLC)",
+      unitSize: "Flakon 6 mg",
+      form: "Pluhur i liofilizuar",
+      synthesis: "Sinteza e Peptideve në Fazë të Ngurtë (SPPS)",
+      analytical: "HPLC, Spektrometri e Masës, Spektrofotometri UV",
+      molecularStructure: "Zinxhir peptidik linear",
+      stability: "I lartë kur ruhet në mënyrë të përshtatshme"
+    },
+
+    validationTitle: "Validimi Analitik dhe Kontrolli i Cilësisë",
+    validationPoints: [
+      "Konfirmimi i pastërtisë me Kromatografi të Lëngshme me Performancë të Lartë (HPLC)",
+      "Verifikimi i identitetit dhe peshës molekulare me Spektrometri të Masës (MS)",
+      "Analiza e përqendrimit me spektrofotometri UV",
+      "Verifikimi i identitetit dhe qëndrueshmërisë së serisë",
+      "Skrining për endotoksina dhe ndotje mikrobiale"
+    ],
+
+    regulatoryTitle: "Deklaratë Rregullatore dhe Përputhshmërie",
+    regulatoryText:
+      "AOD9604 6mg furnizohet rreptësisht për kërkime laboratorike dhe hetime shkencore. Nuk është i miratuar për përdorim si ilaç, ushqim, produkt kozmetik ose produkt mjekësor. Futja te njerëzit ose kafshët është rreptësisht e ndaluar. Certifikatat e Analizës (COA) dhe Fletët e të Dhënave të Sigurisë së Materialit (MSDS) janë të disponueshme sipas kërkesës për të mbështetur dokumentacionin rregullator dhe përputhshmërinë e brendshme laboratorike.",
+
+    faqTitle: "Pyetjet e Bëra Shpesh",
+    faqItems: [
+      {
+        q: "Për çfarë përdoret AOD9604 6mg në kërkime?",
+        a: "AOD9604 6mg përdoret në studime të kontrolluara in-vitro që fokusohen në rrugët e sinjalizimit qelizor, kërkimet metabolike, lidhjen me receptorët dhe analizën e ndërveprimeve proteinë–peptid."
+      },
+      {
+        q: "Cili është numri CAS për AOD9604?",
+        a: "Numri CAS për AOD9604 është 386264-39-7, i cili identifikon në mënyrë unike përbërjen për dokumentim kërkimor dhe rregullator."
+      },
+      {
+        q: "Si duhet të ruhet AOD9604 6mg?",
+        a: "AOD9604 i liofilizuar duhet të ruhet në −20°C, i mbrojtur nga lagështia dhe drita, për të ruajtur stabilitetin dhe pastërtinë."
+      },
+      {
+        q: "A është AOD9604 i përshtatshëm për projekte kërkimore afatgjata?",
+        a: "Po. Kur ruhet siç duhet, AOD9604 ruan integritetin molekular dhe riprodhueshmërinë për afate të zgjatura kërkimore."
+      },
+      {
+        q: "Cilët tretës mund të përdoren për të rikompozuar AOD9604?",
+        a: "AOD9604 mund të rikompozohet duke përdorur ujë bakteriostatik, solucion fiziologjik steril, bufera acidike ose tretës analitikë të përshtatshëm."
+      },
+      {
+        q: "A është AOD9604 i miratuar për përdorim mjekësor ose terapeutik?",
+        a: "Jo. AOD9604 është rreptësisht vetëm për përdorim kërkimor laboratorik dhe nuk është i miratuar për aplikime mjekësore, kozmetike ose dietike."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C78H123N23O23S2",
+      molecularWeight: "1815.1",
+      monoisotopicMass: "1813.86035961",
+      polarArea: "815",
+      complexity: "3710",
+      xlogP: "-4.8",
+      heavyAtomCount: "126",
+      hydrogenBondDonorCount: "28",
+      hydrogenBondAcceptorCount: "28",
+      rotatableBondCount: "45",
+      cid: " 71300630",
+      inchi:
+        " InChI=1S/C78H123N23O23S2/c1-9-41(8)62(101-68(115)47(18-14-28-86-78(83)84)91-69(116)50(29-38(2)3)95-63(110)45(79)30-43-19-21-44(104)22-20-43)75(122)100-61(40(6)7)74(121)94-49(23-25-56(80)105)67(114)98-55-37-126-125-36-54(65(112)88-32-57(106)89-51(76(123)124)31-42-15-11-10-12-16-42)97-70(117)52(34-102)90-58(107)33-87-64(111)48(24-26-59(108)109)93-73(120)60(39(4)5)99-71(118)53(35-103)96-66(113)46(92-72(55)119)17-13-27-85-77(81)82/h10-12,15-16,19-22,38-41,45-55,60-62,102-104H,9,13-14,17-18,23-37,79H2,1-8H3,(H2,80,105)(H,87,111)(H,88,112)(H,89,106)(H,90,107)(H,91,116)(H,92,119)(H,93,120)(H,94,121)(H,95,110)(H,96,113)(H,97,117)(H,98,114)(H,99,118)(H,100,122)(H,101,115)(H,108,109)(H,123,124)(H4,81,82,85)(H4,83,84,86)/t41-,45-,46-,47-,48-,49-,50-,51-,52-,53-,54-,55-,60-,61-,62-/m0/s1",
+      inchiKey: "GVIYUKXRXPXMQM-BPXGDYAESA-N",
+
+      canonicalSmiles:
+        "CCC(C)C(C(=O)NC(C(C)C)C(=O)NC(CCC(=O)N)C(=O)NC1CSSCC(NC(=O)C(NC(=O)CNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCCNC(=N)N)CO)C(C)C)CCC(=O)O)CO)C(=O)NCC(=O)NC(CC2=CC=CC=C2)C(=O)O)NC(=O)C(CCCNC(=N)N)NC(=O)C(CC(C)C)NC(=O)C(CC3=CC=C(C=C3)O)N",
+
+      isomericSmiles:
+        "CC[C@H](C)[C@@H](C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@H]1CSSC[C@H](NC(=O)[C@@H](NC(=O)CNC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC1=O)CCCNC(=N)N)CO)C(C)C)CCC(=O)O)CO)C(=O)NCC(=O)N[C@@H](CC2=CC=CC=C2)C(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC3=CC=C(C=C3)O)N",
+
+      iupacName:
+        "(2S)-2-[[2-[[(4R,7S,13S,16S,19S,22S,25R)-25-[[(2S)-5-amino-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]-4-methylpentanoyl]amino]-5-carbamimidamidopentanoyl]amino]-3-methylpentanoyl]amino]-3-methylbutanoyl]amino]-5-oxopentanoyl]amino]-22-(3-carbamimidamidopropyl)-13-(2-carboxyethyl)-7,19-bis(hydroxymethyl)-6,9,12,15,18,21,24-heptaoxo-16-propan-2-yl-1,2-dithia-5,8,11,14,17,20,23-heptazacyclohexacosane-4-carbonyl]amino]acetyl]amino]-3-phenylpropanoic acid"
+    }
+  }
+},
   "aod9604-5mg": {
     name: "AOD9604 5mg",
    tagline: "Profili Gjithëpërfshirës i Peptidit Kërkimor",
@@ -23906,6 +24256,6 @@ export default {
     }
   },
 }
-}
+};
 
   

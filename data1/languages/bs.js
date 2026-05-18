@@ -145,6 +145,7 @@ export default {
       "description": "BioPeptide materijali su strogo namijenjeni za laboratorijska istraživanja. Pružamo visokoprecizne peptide alate za akademske institucije, naučne organizacije i sertifikovane istraživačke ustanove — osiguravajući da sav rad bude u skladu sa etičkim, regulatornim i standardima naučnog integriteta."
     }
   },
+  
   "contact": {
     "hero": {
       "title": "Kontaktirajte BioPeptide",
@@ -1407,24 +1408,26 @@ researchPeptidesForDiscovery: {
     },
     "continue": "Nastavite na plaćanje"
   },
-  "payment": {
-    "title": "Plaćanje",
-    "chooseMethod": "Odaberite način plaćanja",
-    "methods": {
-      "card": {
-        "title": "Kreditna/Debitna kartica",
-        "desc": "Visa, MasterCard, RuPay"
-      },
-      "upi": {
-        "title": "UPI",
-        "desc": "Google Pay, PhonePe, Paytm"
-      }
+ payment: {
+  title: "Plaćanje",
+  chooseMethod: "Odaberite način plaćanja",
+
+  methods: {
+    card: {
+      title: "Kreditna / Debitna kartica",
+      desc: "Visa, MasterCard, RuPay"
     },
-    "summary": "Sažetak narudžbe",
-    "total": "Ukupno",
-    "paySecurely": "Platite sigurno",
-    "secureNote": "100% sigurna plaćanja"
+    upi: {
+      title: "UPI",
+      desc: "Google Pay, PhonePe, Paytm"
+    }
   },
+
+  summary: "Sažetak narudžbe",
+  total: "Ukupno",
+  paySecurely: "Platite sigurno",
+  secureNote: "100% sigurna plaćanja"
+},
   "research": {
     "1": {
       "title": "Vilon: Ćelijska regeneracija i imunološka bioregulacija",
@@ -2096,30 +2099,13 @@ researchPeptidesForDiscovery: {
       }
     }
   },
-  "productPage": {
-    "back": "← Nazad na Proizvode",
-    "tagline": "Premium BioPeptide • Visokopuremi naučni istraživački materijal",
-    description: {
-  p0: "{name} je istraživački peptid visoke čistoće, sintetiziran korištenjem napredne čvrstofazne peptidne sinteze (SPPS) i analitičke validacije.",
-  p1: "Razvijen pomoću tehnologije precizne sinteze peptida, {name} prolazi kroz visokorezolucijsko pročišćavanje radi osiguravanja molekularne tačnosti.",
-  p2: "Dizajniran za biohemijske analize, signalne puteve, ćelijske studije, analizu vezivanja receptora i kontrolisana istraživačka okruženja."
-}
-,
-    "badges": {
-      "hplc": "HPLC testirano",
-      "research": "Istraživački stepen",
-      "coa": "COA dostupno"
-    },
-    "priceNote": "Samo za istraživačku upotrebu",
-    "addToCart": "Dodaj u korpu",
-    "specs": {
-      "category": "Kategorija",
-      "purity": "Čistoća",
-      "size": "Veličina jedinice",
-      "cas": "CAS"
-    },
-    "notFound": "Proizvod nije pronađen"
-  },
+ productPage: {
+  back: "Nazad",
+  addToCart: "Dodaj u korpu",
+  chemicalProperties: "Hemijska svojstva",
+  description: "Opis",
+  coa: "COA / HPLC / MS",
+},
   "productContent": {
     "overviewTitle": "Pregled",
     "overviewDescription1": "je visokoprecizni istraživački peptid sintetisan koristeći sintezu peptida u čvrstoj fazi (SPPS). Svaka serija prolazi kroz opsežnu analitičku validaciju uključujući HPLC i masenu spektrometriju kako bi se osigurali strukturni integritet, čistoća i konzistentnost od serije do serije.",

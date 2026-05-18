@@ -35,44 +35,33 @@ export default function AdminLayout({ children }) {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        Loading admin panel…
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-[#f2fbff] to-[#ecfff6]">
+        <div className="rounded-2xl border border-[#d8eef3] bg-white px-6 py-4 text-sm font-semibold text-[#0d2d47] shadow-sm">
+          Loading admin panel...
+        </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen flex flex-col">
-
-      {/* TOP BAR */}
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-white via-[#f2fbff] to-[#ecfff6] text-gray-800">
       <AdminTopbar onMenu={() => setSidebarOpen(true)} />
 
-      {/* MAIN */}
       <div className="flex flex-1 relative">
-
-        {/* MOBILE OVERLAY */}
         {sidebarOpen && (
           <div
-            className="fixed inset-0 bg-black/40 z-40 lg:hidden"
+            className="fixed inset-0 bg-[#0d2d47]/40 backdrop-blur-sm z-40 lg:hidden"
             onClick={() => setSidebarOpen(false)}
           />
         )}
 
-        {/* SIDEBAR */}
-        <Sidebar
-          open={sidebarOpen}
-          onClose={() => setSidebarOpen(false)}
-        />
+        <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
 
-        {/* CONTENT */}
-        <main className="flex-1 p-6 md:p-8 lg:p-10 overflow-y-auto bg-gradient-to-br from-white via-[#eef9ff] to-[#e8fff4]">
-          <div className="max-w-7xl mx-auto">
-            {children}
-          </div>
+        <main className="flex-1 p-4 sm:p-6 md:p-8 lg:p-10 overflow-y-auto">
+          <div className="max-w-7xl mx-auto">{children}</div>
         </main>
       </div>
 
-      {/* FOOTER */}
       <AdminFooter />
     </div>
   );

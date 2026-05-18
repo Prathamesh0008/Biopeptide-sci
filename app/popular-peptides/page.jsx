@@ -6,7 +6,7 @@ import { useState } from "react";
 import Sidebar from "@/components/Sidebar";
 import ProductCard from "@/components/ProductCard";
 import DrawerProducts from "@/components/DrawerProducts";
-import { PRODUCTS } from "@/data/products";
+import { useProducts } from "@/hooks/useProducts";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "../../components/Breadcrumbs";
@@ -16,10 +16,11 @@ import Loader from "@/components/Loader";
 
 export default function PopularPeptidesPage() {
   const { translations, loading } = useLanguage();
+  const { products, loading: productsLoading } = useProducts();
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [activeCategory, setActiveCategory] = useState("Popular Peptides");
 
-  if (loading) {
+  if (loading || productsLoading) {
   return (
     <>
       <Navbar />
@@ -35,8 +36,8 @@ export default function PopularPeptidesPage() {
 
   const filteredProducts =
     activeCategory === "All"
-      ? PRODUCTS.filter(p => p.category.toLowerCase() === "popular peptides")
-      : PRODUCTS.filter(p => p.category === activeCategory);
+      ? products.filter((p) => p.category?.toLowerCase() === "popular peptides")
+      : products.filter((p) => p.category === activeCategory);
 
   return (
     <>
@@ -111,7 +112,7 @@ export default function PopularPeptidesPage() {
 
               {filteredProducts.map(product => (
                 <ProductCard
-                  key={`${product.id}-${product.slug}`}
+                  key={product._id || product.id || product.slug}
                   product={product}
                 />
               ))}

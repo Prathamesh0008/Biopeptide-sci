@@ -1466,17 +1466,16 @@ payment: {
 
   methods: {
     card: {
-      title: "Credit- / Debitkaart",
+      title: "Credit-/Debetkaart",
       desc: "Visa, MasterCard, RuPay"
     },
     upi: {
-  title: "UPI",
-  desc: "Google Pay, PhonePe, Paytm"
-}
-
+      title: "UPI",
+      desc: "Google Pay, PhonePe, Paytm"
+    }
   },
 
-  summary: "Besteloverzicht",
+  summary: "Bestellingsoverzicht",
   total: "Totaal",
   paySecurely: "Veilig betalen",
   secureNote: "100% veilige betalingen"
@@ -2442,21 +2441,12 @@ refundsReturns: {
   }
 },
 productPage: {
-  back: "← Terug naar producten",
-  tagline: "Premium BioPeptide • Wetenschappelijk materiaal met hoge zuiverheid",
- description: {
-  p0: "{name} is een hoogzuiver onderzoekspeptide, gesynthetiseerd met geavanceerde vaste-fase peptidensynthese (SPPS) en analytische validatie.",
-  p1: "Ontwikkeld met precisie-peptidensynthesetechnologie ondergaat {name} een hoge-resolutiezuivering om moleculaire nauwkeurigheid te garanderen.",
-  p2: "Ontworpen voor biochemische assays, signaalroutes, celstudies, receptorbindingsanalyse en gecontroleerde onderzoeksomgevingen."
-}
-,
-  badges: { hplc: "HPLC getest", research: "Onderzoekskwaliteit", coa: "COA beschikbaar" },
-  priceNote: "Alleen voor onderzoek",
+  back: "Terug",
   addToCart: "Toevoegen aan winkelwagen",
-  specs: { category: "Categorie", purity: "Zuiverheid", size: "Eenheidsgrootte", cas: "CAS" },
-  notFound: "Product niet gevonden"
-}
-,
+  chemicalProperties: "Chemische eigenschappen",
+  description: "Beschrijving",
+  coa: "COA / HPLC / MS",
+},
 productContent: {
   overviewTitle: "Overzicht",
   overviewDescription1:

@@ -180,7 +180,755 @@ export default {
       }
     },
   
+"b7-33-6mg": {
+  name: "B7-33 6mg",
+  tagline: "Napredni istraživački peptid derivisan iz relaksina za proučavanje signalizacije receptora",
+  cas: "N/A",
 
+  // Short Hero / Card Text
+  strength: [
+    "B7-33 6mg iz BioPeptides je sintetički istraživački peptid visoke čistoće, derivisan iz relaksina, razvijen za napredna in-vitro ispitivanja signalizacije receptora. Proizveden korišćenjem sinteze peptida u čvrstoj fazi (SPPS) i validiran putem HPLC, masene spektrometrije i UV spektrofotometrije, svaka serija obezbeđuje čistoću ≥99%, strukturnu preciznost i ponovljive laboratorijske performanse u evropskim istraživačkim institucijama."
+  ],
+
+  // Hero Description
+  topDescription: {
+    p0: "B7-33 6mg je precizno dizajniran sintetički peptid izveden iz B-lanca relaksina, razvijen za kontrolisane laboratorijske studije koje uključuju selektivnu signalizaciju receptora i istraživanje interakcije peptid–receptor.",
+    p1: "Proizveden korišćenjem sinteze peptida u čvrstoj fazi (SPPS), svaka serija prolazi sveobuhvatnu analitičku validaciju, uključujući HPLC, masenu spektrometriju i UV spektrofotometrijsku analizu radi potvrde čistoće, molekularnog identiteta i ponovljivosti serije.",
+    p2: "Istraživačke laboratorije širom Nemačke, Francuske, Italije, Španije, Holandije, Belgije, Švajcarske, Austrije, Švedske i Danske koriste B7-33 za ponovljiva ispitivanja ćelijske signalizacije i biohemijskih puteva."
+  },
+
+  content: {
+
+    overviewTitle: "Pregled naprednog istraživačkog peptida",
+    overview: [
+      "B7-33 je sintetički istraživački peptid derivisan iz relaksina, isporučen kao liofilizovani prah visoke čistoće za laboratorijska ispitivanja.",
+      "Široko se proučava u kontrolisanim in-vitro okruženjima zbog svoje selektivne interakcije sa peptidnim receptorima iz porodice relaksina.",
+      "Iako trenutno nema dodeljen CAS broj, B7-33 je potpuno okarakterisan analitičkom validacijom kako bi ispunio evropske standarde istraživačke dokumentacije i ponovljivosti."
+    ],
+
+    scientificBackgroundTitle: "Naučna pozadina i značaj u istraživanju",
+    scientificBackground: [
+      "Sintetički peptidi izvedeni iz endogenih signalnih proteina predstavljaju ključne alate u savremenim istraživanjima molekularne i ćelijske biologije.",
+      "B7-33 se istražuje zbog svog selektivnog ponašanja u signalizaciji posredovanoj receptorima pod kontrolisanim laboratorijskim uslovima.",
+      "Istraživači koriste ovaj peptid za ispitivanje nizvodnih puteva ćelijske komunikacije, odnosa strukture i funkcije, kao i modela regulisane genske ekspresije.",
+      "Njegovo predvidljivo biohemijsko ponašanje podržava dosledne i ponovljive eksperimentalne tokove rada u regulisanim evropskim istraživačkim okruženjima."
+    ],
+
+    mechanismTitle: "Mehanizam delovanja u istraživačkim modelima",
+    mechanismPoints: [
+      "Selektivna modulacija signalnih puteva peptidnih receptora iz porodice relaksina",
+      "Uticaj na regulisane kaskade unutarćelijske komunikacije",
+      "Podrška istraživanjima odnosa strukture i funkcije",
+      "Omogućavanje kontrolisanih studija vezivanja peptida i receptora",
+      "Modulacija analize nizvodnih signalnih puteva in vitro"
+    ],
+
+    applicationsTitle: "Primarne istraživačke primene",
+    applications: [
+      {
+        title: "Studije interakcije peptid–receptor",
+        text: "Analiza selektivnosti receptora, afiniteta vezivanja liganda i nizvodnih signalnih mehanizama u kontrolisanim laboratorijskim modelima."
+      },
+      {
+        title: "Istraživanje selektivne signalizacije relaksinskih receptora",
+        text: "Ispitivanje aktivacije receptora specifične za određene puteve i dinamike unutarćelijskog odgovora."
+      },
+      {
+        title: "Analiza ćelijske komunikacije",
+        text: "Istraživanje regulisanih signalnih kaskada i modulacije biohemijskih puteva."
+      },
+      {
+        title: "Istraživanje odnosa strukture i funkcije",
+        text: "Procena molekularne stabilnosti, strukturnog ponašanja i specifičnosti vezivanja za receptore."
+      },
+      {
+        title: "Regenerativni i metabolički modeli",
+        text: "Podrška kontrolisanim in-vitro studijama koje uključuju regulaciju energije i mehanizme ćelijskog odgovora."
+      }
+    ],
+
+    molecularTitle: "Molekularne karakteristike",
+    molecularPoints: [
+      "Molekularni tip: Sintetički istraživački peptid derivisan iz relaksina",
+      "Struktura: Linearni peptidni lanac",
+      "CAS identifikator: Nije dodeljen (N/A)",
+      "Oblik: Liofilizovani prah",
+      "Stabilnost: Visoka kada se čuva pod preporučenim laboratorijskim uslovima"
+    ],
+
+    stabilityTitle: "Profil stabilnosti i preporuke za skladištenje",
+    stabilityPoints: [
+      "Isporučuje se kao liofilizovani prah radi poboljšane dugoročne stabilnosti",
+      "Preporučeno skladištenje na −20°C",
+      "Zaštititi od vlage i produženog izlaganja svetlosti",
+      "Izbegavati ponovljene cikluse zamrzavanja i odmrzavanja",
+      "Rekonstituisani rastvori ostaju stabilni približno 24–48 sati pod hlađenjem"
+    ],
+
+    solubilityTitle: "Opcije rastvorljivosti i rekonstitucije",
+    solubilityPoints: [
+      "Bakteriostatska voda",
+      "Sterilni fiziološki rastvori",
+      "Puferisani vodeni rastvori",
+      "Kiseli pufer sistemi",
+      "Kompatibilni organski rastvarači analitičkog kvaliteta"
+    ],
+
+    techSpecsTitle: "Tehničke specifikacije",
+    techSpecs: {
+      productName: "B7-33 6mg",
+      cas: "Nije dodeljen (N/A)",
+      purity: "≥99% (verifikovano HPLC metodom)",
+      unitSize: "6 mg",
+      form: "Liofilizovani prah",
+      synthesis: "Sinteza peptida u čvrstoj fazi (SPPS)",
+      analytical: "HPLC, masena spektrometrija, UV spektrofotometrija",
+      molecularStructure: "Linearni sintetički peptid",
+      stability: "Visoka kada se pravilno skladišti"
+    },
+
+    validationTitle: "Analitička validacija i osiguranje kvaliteta",
+    validationPoints: [
+      "Potvrda čistoće visokoperformansnom tečnom hromatografijom (HPLC)",
+      "Verifikacija molekularnog identiteta masenom spektrometrijom (MS)",
+      "UV spektrofotometrijska analiza koncentracije",
+      "Validacija ponovljivosti od serije do serije",
+      "Mikrobiološki skrining i skrining endotoksina"
+    ],
+
+    regulatoryTitle: "Regulatorna izjava i izjava o usklađenosti",
+    regulatoryText:
+      "B7-33 6mg se isporučuje isključivo za laboratorijsku istraživačku upotrebu. Nije odobren kao lek, hrana, kozmetički ili medicinski proizvod za ljudsku ili veterinarsku upotrebu. Sertifikati analize (COA) i Bezbednosni listovi materijala (MSDS) dostupni su na zahtev radi podrške usklađenosti sa evropskim istraživačkim standardima.",
+
+    faqTitle: "Često postavljana pitanja",
+    faqItems: [
+      {
+        q: "Za šta se B7-33 6mg koristi u istraživanju?",
+        a: "B7-33 6mg se koristi u laboratorijskim studijama koje uključuju ćelijsku signalizaciju, regenerativnu biologiju, interakcije protein-peptid, mitohondrijski metabolizam i testove enzimske osetljivosti u kontrolisanim istraživačkim okruženjima."
+      },
+      {
+        q: "Da li B7-33 ima CAS broj?",
+        a: "Trenutno B7-33 nema dodeljen CAS broj. Međutim, potpuno je okarakterisan putem HPLC, masene spektrometrije i UV analize za validaciju istraživačkog kvaliteta."
+      },
+      {
+        q: "Da li je B7-33 6mg odobren za ljudsku upotrebu?",
+        a: "Ne. B7-33 6mg je strogo namenjen samo za laboratorijska istraživanja i nije odobren za ljudsku, veterinarsku, medicinsku ili kozmetičku primenu."
+      },
+      {
+        q: "Da li je B7-33 odobren za ljudsku upotrebu?",
+        a: "Ne. B7-33 6mg je strogo namenjen samo za laboratorijsku istraživačku upotrebu i nije odobren za ljudsku ili veterinarsku primenu."
+      },
+      {
+        q:"Kako treba čuvati B7-33 6mg?",
+        a:"Liofilizovani peptid treba čuvati na −20°C, zaštićen od svetlosti i vlage. Rekonstituisani rastvori stabilni su do 48 sati pod hlađenjem."
+
+      },
+      {
+        q:"Da li mogu kupiti B7-33 6mg online u Evropi?",
+        a:"Da. B7-33 6mg je dostupan kod dobavljača fokusiranih na EU, koji opslužuju laboratorije u Nemačkoj, Francuskoj, Italiji, Španiji, Holandiji i drugim evropskim zemljama."
+
+      },
+      {
+        q:"Po čemu se B7-33 razlikuje od drugih istraživačkih peptida?",
+        a:"B7-33 pruža visoku molekularnu stabilnost, ponovljivo eksperimentalno ponašanje i svestranost u signalnim, metaboličkim i regenerativnim istraživačkim modelima."
+
+      },
+      {
+        q:"Koji analitički testovi potvrđuju čistoću B7-33?",
+        a:"Svaka serija se validira korišćenjem HPLC, masene spektrometrije i UV spektrofotometrije, zajedno sa proverom identiteta i skriningom kontaminacije."
+
+      },
+      {
+        q:"Zašto je B7-33 popularan u evropskim laboratorijama?",
+        a:"Evropski istraživači cene B7-33 zbog doslednog kvaliteta, transparentne validacije, dokumentacije usklađene sa EU standardima i pogodnosti za napredna eksperimentalna istraživanja."
+
+      },
+      {
+        q: "Kako se proverava čistoća?",
+        a: "Čistoća ≥99% potvrđuje se visokoperformansnom tečnom hromatografijom (HPLC), dok se molekularni identitet validira masenom spektrometrijom i UV spektrofotometrijskom analizom."
+      }
+    ],
+
+      chemicalProperties: {
+  molecularFormula: "N/A",
+  molecularWeight: "N/A",
+  monoisotopicMass: "N/A",
+  polarArea: "N/A",
+  complexity: "N/A",
+  xlogP: "N/A",
+  heavyAtomCount: "N/A",
+  hydrogenBondDonorCount: "N/A",
+  hydrogenBondAcceptorCount: "N/A",
+  rotatableBondCount: "N/A",
+  cid: "N/A",
+  inchi:
+    "N/A",
+  inchiKey: "N/A",
+
+  canonicalSmiles:
+    "N/A",
+
+  isomericSmiles:
+    "N/A",
+
+  iupacName:
+    "N/A"
+}
+  }
+},
+"pe-22-28": {
+  name: "PE-22-28 8mg",
+
+  tagline:
+    "Sintetički neuropeptidni fragment za istraživanje neurobiološke signalizacije i sinaptičkih procesa",
+    cas:"1801959125",
+
+  strength: [
+    "PE-22-28 8mg iz BioPeptides je sintetički peptidni fragment istraživačkog kvaliteta i visoke čistoće, razvijen za napredne laboratorijske studije koje uključuju neuropeptidnu signalizaciju, mehanizme vezivanja za receptore i puteve ćelijske komunikacije posredovane peptidima. Proizveden preciznom sintezom peptida i analitički verifikovan za stabilnost i čistoću, PE-22-28 pruža pouzdane performanse u kontrolisanim istraživačkim okruženjima neuronauke i molekularne biologije."
+  ],
+
+  topDescription: {
+    p0: "PE-22-28 je kratki sintetički neuropeptidni fragment koji se proučava u laboratorijskim istraživanjima zbog svoje uloge u neurobiološkoj signalizaciji i ćelijskoj komunikaciji.",
+    p1: "Istraživači proučavaju PE-22-28 kako bi razumeli kako specifični peptidni fragmenti stupaju u interakciju sa receptorima i utiču na unutarćelijske signalne puteve.",
+    p2: "Fragmentni peptidi poput PE-22-28 omogućavaju ciljano istraživanje funkcionalnih regiona unutar većih neuropeptidnih sistema."
+  },
+
+  components: [
+    "PE-22-28 neuropeptidni fragment",
+    "Liofilizovani istraživački peptid visoke čistoće",
+    "Sintetičko peptidno signalno jedinjenje",
+    "Ukupna količina peptida — 8 mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Pregled istraživanja",
+    overview: [
+      "PE-22-28 je sintetički peptidni fragment koji se proučava u modelima neuronaučnih istraživanja usmerenim na neurobiološke signalne puteve.",
+      "Istraživači koriste fragmentne peptide kako bi izolovali funkcionalne segmente većih neuropeptidnih sekvenci.",
+      "Ovaj pristup omogućava detaljno istraživanje interakcija sa receptorima i mehanizama unutarćelijske signalizacije.",
+      "PE-22-28 se često koristi u studijama koje istražuju komunikaciju posredovanu peptidima unutar nervnih sistema."
+    ],
+
+    scientificBackgroundTitle: "Naučna pozadina",
+    scientificBackground: [
+      "Neuropeptidi su kratki proteinski fragmenti koji deluju kao signalni molekuli u nervnom sistemu.",
+      "Fragmentni peptidi poput PE-22-28 pomažu istraživačima da razumeju kako specifični regioni peptida utiču na aktivaciju receptora.",
+      "U laboratorijskim modelima, ovi fragmenti se koriste za analizu signalnih kaskada i mehanizama ćelijskog odgovora.",
+      "Takve studije doprinose širem istraživanju neuralne komunikacije i mreža peptidne signalizacije."
+    ],
+
+    mechanismTitle: "Mehanistička istraživačka perspektiva",
+    mechanismPoints: [
+      "Istraživanje signalizacije neuropeptidnih fragmenata",
+      "Analiza interakcije peptid–receptor",
+      "Istraživanje unutarćelijskih signalnih kaskada",
+      "Studije puteva sinaptičke komunikacije",
+      "Analiza odnosa strukture i funkcije peptidnih fragmenata"
+    ],
+
+    applicationsTitle: "Primarne istraživačke primene",
+    applications: [
+      {
+        title: "Istraživanje neuropeptidnih fragmenata",
+        text: "PE-22-28 se koristi za istraživanje signalnih funkcija povezanih sa specifičnim peptidnim fragmentima."
+      },
+      {
+        title: "Studije vezivanja za receptore",
+        text: "Istraživači proučavaju modele interakcije ligand–receptor koji uključuju peptidne fragmente i aktivaciju receptora."
+      },
+      {
+        title: "Analiza odnosa strukture i funkcije",
+        text: "Peptid se primenjuje u eksperimentima koji upoređuju fragmentne peptide sa peptidnim sekvencama pune dužine."
+      },
+      {
+        title: "Molekularna neuronauka",
+        text: "Koristi se u ćelijskim testovima koji ispituju unutarćelijsku signalizaciju i modele sinaptičke komunikacije."
+      },
+      {
+        title: "Eksploratorna pretklinička istraživanja",
+        text: "PE-22-28 podržava neklinička istraživanja biologije peptidnih fragmenata i neuropeptidne signalizacije."
+      }
+    ],
+
+    molecularTitle: "Molekularne karakteristike",
+    molecularPoints: [
+      "Naziv jedinjenja: PE-22-28",
+      "CAS broj: 1801959-12-5",
+      "Klasa peptida: Sintetički neuropeptidni fragment",
+      "Oblik: Liofilizovani peptidni prah",
+      "Veličina jedinice: 8 mg istraživačkog peptida"
+    ],
+
+    stabilityTitle: "Profil stabilnosti i preporuke za skladištenje",
+    stabilityPoints: [
+      "Liofilizovani peptid čuvati na −20°C",
+      "Zaštititi od vlage i izlaganja svetlosti",
+      "Izbegavati ponovljene cikluse zamrzavanja i odmrzavanja",
+      "Rekonstituisati sterilnim laboratorijskim rastvaračem",
+      "Čvrsto zatvoriti bočicu nakon svake upotrebe"
+    ],
+
+    solubilityTitle: "Razmatranja rastvorljivosti i pripreme",
+    solubilityPoints: [
+      "Rastvorljiv u sterilnim vodenim laboratorijskim puferima",
+      "Kompatibilan sa protokolima istraživanja molekularne biologije",
+      "Primjenjiv u eksperimentalnim sistemima vezivanja za receptore",
+      "Pogodan za ćelijske testove u neuronauci",
+      "Kompatibilan sa istraživačkim modelima peptidne signalizacije"
+    ],
+
+    techSpecsTitle: "Tehničke specifikacije",
+    techSpecs: {
+      productName: "PE-22-28 8mg",
+      brand: "BioPeptides",
+      purity: "Analitički kvalitet istraživačkog nivoa",
+      form: "Liofilizovani peptidni prah",
+      synthesis: "Precizna sinteza peptida u čvrstoj fazi",
+      analytical: "Verifikacija identiteta i čistoće",
+      molecularStructure: "Sintetički neuropeptidni fragment",
+      stability: "Stabilan pri laboratorijskom skladištenju na −20°C"
+    },
+
+    validationTitle: "Analitička validacija i osiguranje kvaliteta",
+    validationPoints: [
+      "Verifikacija molekularnog identiteta",
+      "Testiranje čistoće i stabilnosti",
+      "Potvrda strukturnog integriteta",
+      "Analiza doslednosti od serije do serije",
+      "Laboratorijska kontrola kvaliteta"
+    ],
+
+    regulatoryTitle: "Regulatorna izjava i izjava o usklađenosti",
+    regulatoryText:
+      "PE-22-28 koji isporučuje BioPeptides namenjen je isključivo za laboratorijsku istraživačku upotrebu. Nije odobren za ljudsku upotrebu, veterinarsku upotrebu, terapijske primene ili dijagnostičke svrhe.",
+
+    faqTitle: "Često postavljana pitanja",
+
+    faqItems: [
+      {
+        q: "Za šta se PE-22-28 uglavnom koristi u istraživanju?",
+        a: "PE-22-28 se koristi u laboratorijskim istraživanjima neuropeptidne signalizacije fragmenata, modela interakcije sa receptorima i puteva unutarćelijske komunikacije."
+      },
+      {
+        q: "Zašto se proučavaju peptidni fragmenti poput PE-22-28?",
+        a: "Peptidni fragmenti omogućavaju istraživačima da izoluju funkcionalne regione većih peptida kako bi bolje razumeli odnose strukture i funkcije."
+      },
+      {
+        q: "Šta identifikuje CAS 1801959-12-5?",
+        a: "CAS 1801959-12-5 jedinstveno identifikuje peptidni fragment PE-22-28 za hemijsku dokumentaciju i sledljivost."
+      },
+      {
+        q: "Da li je PE-22-28 pogodan za in-vitro istraživanja?",
+        a: "Da. PE-22-28 se često koristi u in-vitro eksperimentima koji uključuju testove vezivanja za receptore i studije molekularne neuronauke."
+      },
+      {
+        q: "Koje istraživačke oblasti najčešće koriste PE-22-28?",
+        a: "PE-22-28 se široko koristi u neuronauci, molekularnoj biologiji, istraživanju peptidne signalizacije i studijama odnosa strukture i funkcije peptida."
+      },
+      {
+        q: "Zašto odabrati format od 8mg za istraživanje?",
+        a: "Format od 8mg podržava ciljane eksperimente uz minimiziranje rasipanja materijala u specijalizovanim istraživanjima peptidnih fragmenata."
+      },
+      {
+        q: "Kako treba čuvati PE-22-28?",
+        a: "Treba ga čuvati na −20°C, zaštićenog od vlage i svetlosti, i rukovati njime uz sterilne laboratorijske tehnike."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C35H55N11O9",
+      molecularWeight: "773.9",
+      monoisotopicMass: "773.41842237",
+      polarArea: "338",
+      complexity: "1360",
+      xlogP: "-3.7",
+      heavyAtomCount: "55",
+      hydrogenBondDonorCount: "12",
+      hydrogenBondAcceptorCount: "11",
+      rotatableBondCount: "23",
+      cid: "165437303",
+      inchiKey: "CMNBQRXBBJQIOA-YIHYGEMESA-N",
+      iupacName:
+        "(2S)-2-[[(2S)-2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[(2-aminoacetyl)amino]-3-methylbutanoyl]amino]-3-hydroxypropanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]acetyl]amino]-4-methylpentanoyl]amino]-5-(diaminomethylideneamino)pentanoic acid"
+    }
+  },
+
+  appearance: "Beli liofilizovani prah",
+
+  storage: "Čuvati na −20°C. Izbegavati ponovljene cikluse zamrzavanja i odmrzavanja.",
+
+  researchStatus:
+    "Samo za laboratorijsku istraživačku upotrebu. Nije namenjeno za ljudsku ili veterinarsku upotrebu."
+},
+"peg-mgf-5mg": {
+  name: "PEG-MGF 5mg",
+
+  tagline:
+    "PEGilovani Mechano Growth Factor za istraživanje signalizacije faktora rasta i regenerativne biologije",
+    cas:"Not assigned",
+
+  strength: [
+    "PEG-MGF 5mg iz BioPeptides je PEGilovani peptid faktora rasta visoke čistoće, istraživačkog kvaliteta, dizajniran za napredne laboratorijske studije koje uključuju puteve mišićne signalizacije, mehanizme ćelijskog odgovora i komunikacione sisteme posredovane faktorima rasta. PEGilacija poboljšava molekularnu stabilnost i otpornost na enzimsku degradaciju, omogućavajući istraživačima da prate produženu dinamiku peptidne signalizacije u kontrolisanim eksperimentalnim okruženjima."
+  ],
+
+  topDescription: {
+    p0: "PEG-MGF je PEGilovani oblik Mechano Growth Factor-a (MGF), varijante splajsovanja povezane sa signalnim putevima IGF-1.",
+    p1: "Istraživači proučavaju PEG-MGF kako bi ispitali ćelijsku komunikaciju posredovanu faktorima rasta, signalne puteve tkiva i mehanizme regenerativnog odgovora.",
+    p2: "PEGilacija poboljšava stabilnost i rastvorljivost peptida, čineći PEG-MGF pogodnim za produženo in-vitro eksperimentalno posmatranje."
+  },
+
+  components: [
+    "PEGilovani Mechano Growth Factor (PEG-MGF)",
+    "PEG-modifikovani peptid faktora rasta",
+    "Liofilizovani istraživački peptid visoke čistoće",
+    "Ukupna količina peptida — 5 mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Pregled istraživanja",
+    overview: [
+      "PEG-MGF je PEGilovani analog Mechano Growth Factor-a koji se proučava u laboratorijskim istraživanjima signalnih puteva faktora rasta.",
+      "Istraživači ispituju PEG-MGF radi analize mehanizama ćelijskog odgovora povezanih sa mehaničkom stimulacijom i signalizacijom rasta.",
+      "Proces PEGilacije poboljšava stabilnost peptida, omogućavajući istraživačima da prate signalne efekte tokom produženih eksperimentalnih perioda.",
+      "PEG-MGF se široko koristi u modelima molekularne biologije i regenerativnih istraživanja koji proučavaju signalno ponašanje tkiva."
+    ],
+
+    scientificBackgroundTitle: "Naučna pozadina",
+    scientificBackground: [
+      "Mechano Growth Factor (MGF) je varijanta splajsovanja gena IGF-1 koja je uključena u ćelijsku signalizaciju povezanu sa adaptacijom tkiva.",
+      "PEGilacija podrazumeva vezivanje molekula polietilen glikola za peptide radi poboljšanja stabilnosti i eksperimentalne dugotrajnosti.",
+      "U laboratorijskim istraživanjima, PEGilovani peptidi se često koriste za produženje perioda posmatranja i smanjenje degradacije tokom eksperimentalnih protokola.",
+      "PEG-MGF omogućava istraživačima da analiziraju signalizaciju faktora rasta i mehanizme odgovora tkiva u kontrolisanim istraživačkim okruženjima."
+    ],
+
+    mechanismTitle: "Mehanistička istraživačka perspektiva",
+    mechanismPoints: [
+      "Istraživanje ćelijske signalizacije posredovane faktorima rasta",
+      "Ispitivanje puteva odgovora tkiva",
+      "Signalizacija ćelijske komunikacije i adaptacije",
+      "Komparativne studije PEGilovanih i ne-PEGilovanih peptida",
+      "Analiza stabilnosti peptida i molekularne signalizacije"
+    ],
+
+    applicationsTitle: "Primarne istraživačke primene",
+    applications: [
+      {
+        title: "Istraživanje signalizacije faktora rasta",
+        text: "PEG-MGF se koristi u laboratorijskim modelima koji ispituju signalne puteve faktora rasta i sisteme ćelijskog odgovora."
+      },
+      {
+        title: "Istraživanje biologije mišića",
+        text: "Istraživači proučavaju PEG-MGF kako bi istražili mehanizme ćelijske komunikacije povezane sa modelima mišićne signalizacije."
+      },
+      {
+        title: "Studije regenerativne biologije",
+        text: "PEG-MGF podržava ispitivanja procesa ćelijske obnove i puteva odgovora tkiva."
+      },
+      {
+        title: "Molekularna i ćelijska biologija",
+        text: "Naučnici koriste PEG-MGF u in-vitro testovima koji ispituju signalne odgovore posredovane peptidima."
+      },
+      {
+        title: "Komparativno istraživanje peptida",
+        text: "Koristi se u studijama koje porede PEGilovane peptide sa ne-PEGilovanim peptidima faktora rasta."
+      }
+    ],
+
+    molecularTitle: "Molekularne karakteristike",
+    molecularPoints: [
+      "Naziv jedinjenja: PEG-MGF",
+      "Klasa peptida: PEGilovani peptid faktora rasta",
+      "Oblik: Liofilizovani peptidni prah",
+      "Čistoća: Analitički kvalitet istraživačkog nivoa",
+      "Veličina jedinice: 5 mg istraživačkog peptida"
+    ],
+
+    stabilityTitle: "Profil stabilnosti i preporuke za skladištenje",
+    stabilityPoints: [
+      "Liofilizovani peptid čuvati na −20°C",
+      "Zaštititi od vlage i direktne svetlosti",
+      "Izbegavati ponovljene cikluse zamrzavanja i odmrzavanja",
+      "Rekonstituisati sterilnim rastvaračem laboratorijskog kvaliteta",
+      "Čvrsto zatvoriti bočicu nakon svake upotrebe"
+    ],
+
+    solubilityTitle: "Razmatranja rastvorljivosti i pripreme",
+    solubilityPoints: [
+      "Rastvorljiv u sterilnim vodenim istraživačkim puferima",
+      "Kompatibilan sa sistemima istraživanja molekularne biologije",
+      "Primjenjiv u testovima signalizacije faktora rasta",
+      "Pogodan za eksperimente puteva ćelijske signalizacije",
+      "Kompatibilan sa protokolima istraživanja stabilnosti peptida"
+    ],
+
+    techSpecsTitle: "Tehničke specifikacije",
+    techSpecs: {
+      productName: "PEG-MGF 5mg",
+      brand: "BioPeptides",
+      purity: "Analitički kvalitet istraživačkog nivoa",
+      form: "Liofilizovani peptidni prah",
+      synthesis: "Precizna sinteza peptida sa PEGilacijom",
+      analytical: "Verifikacija identiteta i čistoće",
+      molecularStructure: "PEGilovani peptid mechano growth factor-a",
+      stability: "Stabilan pri laboratorijskom skladištenju na −20°C"
+    },
+
+    validationTitle: "Analitička validacija i osiguranje kvaliteta",
+    validationPoints: [
+      "Potvrda molekularnog identiteta",
+      "Analiza čistoće i stabilnosti",
+      "Verifikacija doslednosti PEGilacije",
+      "Testiranje ponovljivosti od serije do serije",
+      "Laboratorijska validacija kontrole kvaliteta"
+    ],
+
+    regulatoryTitle: "Regulatorna izjava i izjava o usklađenosti",
+    regulatoryText:
+      "PEG-MGF koji isporučuje BioPeptides namenjen je isključivo za laboratorijsku istraživačku upotrebu. Nije odobren za ljudsku upotrebu, veterinarsku upotrebu, terapijske primene ili medicinske tretmane.",
+
+    faqTitle: "Često postavljana pitanja",
+
+    faqItems: [
+      {
+        q: "Za šta se PEG-MGF uglavnom koristi u istraživanju?",
+        a: "PEG-MGF se koristi u laboratorijskim istraživanjima signalizacije faktora rasta, mehanizama ćelijskog odgovora i modela regenerativnih puteva."
+      },
+      {
+        q: "Šta PEGilacija znači za MGF?",
+        a: "PEGilacija označava vezivanje molekula polietilen glikola za peptid, čime se poboljšava stabilnost i otpornost na degradaciju u istraživačkim okruženjima."
+      },
+      {
+        q: "Kako se PEG-MGF razlikuje od standardnog MGF-a?",
+        a: "PEG-MGF nudi povećanu stabilnost i duže eksperimentalne periode posmatranja u poređenju sa ne-PEGilovanim MGF-om."
+      },
+      {
+        q: "Da li je PEG-MGF pogodan za in-vitro istraživanja?",
+        a: "Da. PEG-MGF se široko koristi u kontrolisanim in-vitro eksperimentima koji proučavaju signalizaciju faktora rasta i ćelijsku komunikaciju."
+      },
+      {
+        q: "Koje istraživačke oblasti najčešće koriste PEG-MGF?",
+        a: "PEG-MGF se koristi u istraživanju biologije mišića, studijama regenerativne biologije, molekularnoj biologiji i istraživanju peptidne signalizacije."
+      },
+      {
+        q: "Zašto odabrati format od 5mg za PEG-MGF istraživanje?",
+        a: "Količina od 5mg podržava ciljane eksperimente i pruža isplativost za laboratorije koje sprovode specijalizovana istraživanja peptida."
+      },
+      {
+        q: "Kako treba čuvati PEG-MGF?",
+        a: "PEG-MGF treba čuvati na −20°C, zaštićen od vlage i svetlosti, i rukovati njime uz sterilne laboratorijske procedure."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C121H200N42O39",
+      pubChemSID: "178101669",
+      synonyms: [
+        "PEGilovani MGF",
+        "PEG IGF-1 Ec",
+        "PEG myotrophin"
+      ]
+    }
+  },
+
+  appearance: "Beli liofilizovani prah",
+
+  storage: "Čuvati na −20°C. Izbegavati ponovljene cikluse zamrzavanja i odmrzavanja.",
+
+  researchStatus:
+    "Samo za laboratorijsku istraživačku upotrebu. Nije namenjeno za ljudsku ili veterinarsku upotrebu."
+},
+"chonluten-20mg-bioregulator": {
+  name: "Chonluten® 20mg (Bioregulator)",
+  tagline: "Napredni organ-specifični bioregulatorni istraživački peptid",
+  cas: "75007-24-8",
+
+  // Short Hero / Card Text
+  strength: [
+    "Chonluten® 20mg je sintetički bioregulatorni istraživački peptid visoke čistoće, identifikovan CAS brojem 75007-24-8 i razvijen za napredne in-vitro studije ćelijske signalizacije i ekspresije gena. Proizveden korišćenjem sinteze peptida u čvrstoj fazi (SPPS) i validiran putem HPLC, masene spektrometrije i UV spektrofotometrije, svaka serija obezbeđuje čistoću ≥99%, strukturnu tačnost i ponovljive laboratorijske performanse u evropskim istraživačkim institucijama."
+  ],
+
+  // Hero Description
+  topDescription: {
+    p0: "Chonluten® 20mg (Bioregulator) je sintetički peptid laboratorijskog kvaliteta razvijen za napredna biohemijska i molekularno-biološka istraživanja u kontrolisanim naučnim okruženjima.",
+    p1: "Proizveden putem sinteze peptida u čvrstoj fazi (SPPS) i analitički verifikovan korišćenjem HPLC, masene spektrometrije i UV spektrofotometrije, pruža visoku molekularnu stabilnost, doslednost od serije do serije i čistoću istraživačkog kvaliteta.",
+    p2: "Istraživačke laboratorije širom Nemačke, Francuske, Italije, Španije, Holandije, Belgije, Švajcarske, Austrije, Švedske, Finske i drugih EU regiona oslanjaju se na Chonluten za ponovljiva ispitivanja regulacije gena, ćelijske signalizacije i istraživačkih modela bronhopulmonalnog tkiva."
+  },
+
+  content: {
+
+    overviewTitle: "Pregled naprednog bioregulatornog istraživačkog peptida",
+    overview: [
+      "Chonluten® je sintetički kratkolančani bioregulatorni peptidni kompleks koji se isporučuje kao liofilizovani prah visoke čistoće za laboratorijska ispitivanja.",
+      "Široko se proučava u kontrolisanim in-vitro istraživačkim okruženjima povezanim sa modelima signalizacije respiratornog i bronhopulmonalnog tkiva.",
+      "Identifikovan CAS brojem 75007-24-8, Chonluten podržava sledljivost, regulatornu dokumentaciju i ponovljivost koje zahtevaju evropske istraživačke institucije."
+    ],
+
+    scientificBackgroundTitle: "Naučno obrazloženje i značaj u istraživanju",
+    scientificBackground: [
+      "Sintetički peptidi klasifikovani kao bioregulatori dizajnirani su da oponašaju ili utiču na prirodne biološke signalne procese u kontrolisanom istraživačkom kontekstu.",
+      "Chonluten® se istražuje zbog svoje interakcije sa putevima ekspresije gena i tkivno-specifičnim mehanizmima ćelijske signalizacije.",
+      "Istraživači koriste Chonluten za proučavanje transkripcione i translacione regulacije, komunikacije posredovane peptidima i adaptivnih ćelijskih odgovora.",
+      "Njegovo stabilno molekularno ponašanje i predvidljiva kinetika degradacije čine ga pogodnim za longitudinalne i komparativne laboratorijske studije."
+    ],
+
+    mechanismTitle: "Mehanistički istraživački uvidi",
+    mechanismPoints: [
+      "Modulacija organ-specifičnih puteva ćelijske signalizacije u kontrolisanim in-vitro modelima",
+      "Podrška istraživanju regulacije ekspresije gena koje uključuje transkripcione i translacione mehanizme",
+      "Uticaj na odgovor na faktore rasta i adaptivnu ćelijsku signalizaciju",
+      "Integracija u istraživanja mitohondrijske proizvodnje ATP-a i metaboličkih puteva",
+      "Podrška analizi enzimske aktivacije i katalitičkih puteva"
+    ],
+
+    applicationsTitle: "Primarne istraživačke primene",
+    applications: [
+      {
+        title: "Istraživanje organ-specifične peptidne signalizacije",
+        text: "Ispitivanje bronhopulmonalnih i respiratorno povezanih puteva ćelijske signalizacije pod kontrolisanim laboratorijskim uslovima."
+      },
+      {
+        title: "Studije ekspresije gena",
+        text: "Istraživanje transkripcione regulacije, modulacije gena posredovane peptidima i analize regulatornih puteva."
+      },
+      {
+        title: "Regenerativni i ćelijsko-biološki modeli",
+        text: "Proučavanje ćelijskog obnavljanja, diferencijacije i adaptivnih bioloških odgovora in vitro."
+      },
+      {
+        title: "Analiza interakcije protein–peptid",
+        text: "Procena afiniteta vezivanja, molekularnog prepoznavanja i strukturne kompatibilnosti."
+      },
+      {
+        title: "Mitohondrijska i metabolička istraživanja",
+        text: "Ispitivanje proizvodnje ATP-a, regulacije ćelijske energije i modela metaboličke efikasnosti."
+      },
+      {
+        title: "Enzimska osetljivost i remodelovanje matriksa",
+        text: "Analiza dinamike enzimskog odgovora i organizacije ekstracelularnog matriksa u naprednim istraživačkim sistemima."
+      }
+    ],
+
+    molecularTitle: "Molekularne karakteristike",
+    molecularPoints: [
+      "Molekularni tip: Sintetički kratkolančani bioregulatorni peptid",
+      "Struktura: Linearni sintetički peptidni kompleks",
+      "CAS identifikator: 75007-24-8",
+      "Oblik: Liofilizovani prah",
+      "Molekularna težina: Zavisi od sekvence",
+      "Stabilnost: Visoka kada se čuva pod preporučenim laboratorijskim uslovima"
+    ],
+
+    stabilityTitle: "Profil stabilnosti i preporuke za skladištenje",
+    stabilityPoints: [
+      "Isporučuje se kao liofilizovani prah radi poboljšane dugoročne stabilnosti",
+      "Preporučeno skladištenje na −20°C",
+      "Zaštititi od vlage, kondenzacije i produženog izlaganja svetlosti",
+      "Izbegavati ponovljene cikluse zamrzavanja i odmrzavanja",
+      "Rekonstituisani rastvori ostaju stabilni približno 24–48 sati pod hlađenjem kada se njima rukuje aseptično"
+    ],
+
+    solubilityTitle: "Opcije rastvorljivosti i rekonstitucije",
+    solubilityPoints: [
+      "Bakteriostatska voda",
+      "Sterilni fiziološki rastvori",
+      "Puferisani vodeni sistemi",
+      "Kiseli pufer mediji",
+      "Kompatibilni organski rastvarači analitičkog kvaliteta"
+    ],
+
+    techSpecsTitle: "Tehničke specifikacije",
+    techSpecs: {
+      productName: "Chonluten® 20mg (Bioregulator)",
+      cas: "75007-24-8",
+      purity: "≥99% (verifikovano HPLC metodom)",
+      unitSize: "20 mg",
+      form: "Liofilizovani prah",
+      synthesis: "Sinteza peptida u čvrstoj fazi (SPPS)",
+      analytical: "HPLC, masena spektrometrija, UV spektrofotometrija",
+      molecularStructure: "Linearni sintetički peptid",
+      stability: "Visoka kada se pravilno skladišti"
+    },
+
+    validationTitle: "Analitička validacija i osiguranje kvaliteta",
+    validationPoints: [
+      "Potvrda čistoće visokoperformansnom tečnom hromatografijom (HPLC)",
+      "Verifikacija molekularnog identiteta masenom spektrometrijom",
+      "UV spektrofotometrijska analiza koncentracije",
+      "Validacija ponovljivosti od serije do serije",
+      "Skrining endotoksina i mikrobiološke kontaminacije"
+    ],
+
+    regulatoryTitle: "Regulatorna izjava i izjava o usklađenosti",
+    regulatoryText:
+      "Chonluten® 20mg (Bioregulator) se isporučuje isključivo za laboratorijsku istraživačku upotrebu. Nije odobren kao lek, hrana, kozmetički proizvod, dodatak ishrani ili medicinski proizvod za ljudsku ili veterinarsku upotrebu. Sertifikati analize (COA) i Bezbednosni listovi materijala (MSDS) dostupni su na zahtev radi podrške usklađenosti sa evropskim istraživačkim standardima.",
+
+    faqTitle: "Često postavljana pitanja",
+    faqItems: [
+      {
+        q: "Za šta se Chonluten® 20mg koristi u istraživanju?",
+        a: "Chonluten 20mg se koristi u laboratorijskim studijama koje uključuju ćelijsku signalizaciju, regenerativnu biologiju, interakcije protein-peptid, vezivanje receptora, mitohondrijski metabolizam i enzimske istraživačke modele."
+      },
+      {
+        q: "Koji je CAS broj za Chonluten®?",
+        a: "CAS broj za Chonluten 20mg je 75007-24-8, što omogućava jasnu identifikaciju i sledljivost za istraživačku dokumentaciju."
+      },
+      {
+        q: "Da li je Chonluten® odobren za medicinsku ili ljudsku upotrebu?",
+        a: "Ne. Chonluten 20mg je namenjen isključivo za laboratorijska istraživanja i nije odobren za ljudsku, veterinarsku, farmaceutsku ili kozmetičku primenu."
+      },
+      {
+        q: "Kako treba čuvati Chonluten® 20mg?",
+        a: "Liofilizovani peptid treba čuvati na −20°C, zaštićen od vlage i svetlosti. Rekonstituisani rastvori stabilni su do 48 sati pod hlađenjem."
+      },
+      {
+        q: "Da li mogu kupiti Chonluten 20mg online u Evropi?",
+        a: "Da. Chonluten 20mg je dostupan kod dobavljača fokusiranih na EU, koji opslužuju istraživačke institucije širom Nemačke, Francuske, Italije, Španije i drugih evropskih zemalja."
+      },
+      {
+        q: "Po čemu se Chonluten razlikuje od drugih istraživačkih peptida?",
+        a: "Chonluten pruža visoku čistoću, predvidljivu degradaciju, snažnu molekularnu stabilnost i opsežnu analitičku validaciju, što ga čini pogodnim za kompleksne istraživačke primene."
+      },
+      {
+        q:"Koji analitički testovi se sprovode na Chonlutenu?",
+        a:"Svaka serija se testira korišćenjem HPLC, masene spektrometrije i UV analize, zajedno sa proverom identiteta i skriningom kontaminacije."
+
+      },
+      {
+        q:"Zašto je Chonluten popularan u evropskim istraživačkim laboratorijama?",
+        a:"Evropske laboratorije cene Chonluten zbog njegove ponovljivosti, regulatorne transparentnosti, CAS identifikacije i usklađenosti sa EU istraživačkim standardima."
+
+      },
+    ],
+
+      chemicalProperties: {
+  molecularFormula: "C62H98N16O22",
+  molecularWeight: "1419.56",
+  monoisotopicMass: "1418.70415882",
+  polarArea: "573",
+  complexity: "3040",
+  xlogP: "-9",
+  heavyAtomCount: "100",
+  hydrogenBondDonorCount: "16",
+  hydrogenBondAcceptorCount: "24",
+  rotatableBondCount: "39",
+  cid: "9941957",
+  inchi:
+    "InChI=1S/C62H98N16O22/c1-31(2)25-37(55(92)74-50(32(34)62(99)100)71-46(81)29-65-51(88)33(5)67-53(90)38(26-48(84)85)73-54(91)39(27-49(86)87)72-52(89)36(18-19-47(83)82)66-45(80)28-64-35(17-8-20-75(41)58(95)35(13-7-8-20-63)40)30-63-64H,65,88(H,66,93)(H,67,90)(H,68,94)(H,69,79)(H,70,80)(H,71,81)(H,72,89)(H,73,91)(H,74,92)(H,82,83)(H,84,85)(H,99,100)",
+  inchiKey: "HEEWEZGQMLZMFE-RKGINYAYSA-N",
+
+  canonicalSmiles:
+    "CC(C)CC(C(=O)NC(C(C)C(=O)O)NC(=O)CNC(=O)C(C)NC(=O)C(C)NC(=O)C1CCCN1C(=O)C(CCCN)NC(=O)C2CCCN2C(=O)C3CCCN3C(=O)C4CCCN4C(=O)CN",
+
+  isomericSmiles:
+    "C[C@@H](C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC(C)C)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H]1CCCN1C(=O)[C@@H]2CCCN2C(=O)[C@@H]3CCCN3C(=O)[C@@H]4CCCN4C(=O)CN",
+
+  iupacName:
+    "(4S)-4-[(2-aminoacetyl)amino]-5-[(2S)-2-[(2S)-2-[(2S)-2-[(2S)-6-amino-1-[(2S)-2-[(2S)-1-[(2S)-3-carboxy-1-[(2S)-3-carboxy-1-[(2S)-1-[(2S)-1-carboxy-2-methylpropyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxohexan-2-yl]amino]-2-oxoethylcarbamoyl]pyrrolidine-1-carboxamide"
+}
+  }
+},
   "bpc-157-tb-500-blend": {
   name: "Glow Blend (BPC-157 + TB-500)",
   tagline: "Napredni dvopeptidni istraživački profil",
@@ -24978,4 +25726,4 @@ researchStatus:
   },
 
 }
-}
+};

@@ -2,9 +2,9 @@
 "use client";
 
 import { useRef } from "react";
-import { PRODUCTS } from "@/data/products";
 import { useRouter } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useProducts } from "@/hooks/useProducts";
 import { getTranslatedProduct } from "@/utils/getTranslatedProduct";
 import Image from "next/image";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
@@ -14,6 +14,7 @@ export default function HorizontalPeptideSlider() {
   const sliderRef = useRef(null);
   const router = useRouter();
   const { translations } = useLanguage();
+  const { products, loading } = useProducts();
 
   const scroll = (dir) => {
     if (!sliderRef.current) return;
@@ -23,8 +24,9 @@ export default function HorizontalPeptideSlider() {
     });
   };
 
-  // pick popular peptides (you can change logic)
-  const popular = PRODUCTS.filter(p => p.badge === "Best Seller");
+  const popular = products.filter((p) => p.badge === "Best Seller");
+
+  if (loading || popular.length === 0) return null;
 
   return (
     <section className="relative mt-10">
@@ -62,10 +64,11 @@ export default function HorizontalPeptideSlider() {
       >
         {popular.map(product => {
           const p = getTranslatedProduct(product, translations);
+          const strength = product.strength || product.size || "";
 
           return (
             <div
-              key={product.slug}
+              key={product._id || product.id || product.slug}
               onClick={() => router.push(`/product/${product.slug}`)}
               className="
                 min-w-[260px]
@@ -76,7 +79,7 @@ export default function HorizontalPeptideSlider() {
             >
               <div className="relative w-full h-[140px] mb-3">
                 <Image
-                  src={product.image}
+                  src={product.image || "/images/product.png"}
                   alt={p.name}
                   fill
                   className="object-contain"
@@ -88,7 +91,7 @@ export default function HorizontalPeptideSlider() {
               </h4>
 
               <p className="text-xs text-gray-600 mt-1 line-clamp-2">
-                {p.strength}
+                {strength}
               </p>
             </div>
           );

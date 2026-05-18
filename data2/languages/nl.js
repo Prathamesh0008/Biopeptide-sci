@@ -171,6 +171,3764 @@ export default {
       }
     }
   },
+  "ghk-cu-2mg": {
+  name: "GHK-Cu 200mg",
+  tagline: "Geavanceerd onderzoeksprofiel voor koperpeptiden",
+  cas: "89030-95-5",
+
+  // Short card / hero text
+  strength: [
+    "GHK-Cu 200mg van BioPeptides is een hoogzuiver onderzoekspeptide met CAS 89030-95-5, speciaal ontwikkeld voor geavanceerde moleculaire en cellulaire studies. Gesynthetiseerd via solid-phase peptide synthesis (SPPS) en gevalideerd met HPLC en massaspectrometrie, garandeert dit peptide uitstekende structurele integriteit en reproduceerbaarheid. Ideaal voor regeneratieve celbiologie, receptorbindingsassays en metabolisch onderzoek. GHK-Cu 2mg behoudt stabiliteit wanneer het gelyofiliseerd wordt bewaard bij −20°C. Onderzoekers in Europa kunnen met vertrouwen online peptiden kopen bij BioPeptides, met toegang tot hoogwaardige peptiden en correcte documentatie voor in-vitro studies en wetenschappelijke experimenten. CAS 89030-95-5 garandeert nauwkeurige peptide-identificatie."
+  ],
+
+  // Hero / intro description
+  topDescription: {
+    p0: "GHK-Cu 200mg van BioPeptides is een premium kopertripeptide-onderzoeksverbinding, geïdentificeerd met CAS 89030-95-5 en geoptimaliseerd voor geavanceerde in-vitro laboratoriumstudies rond dermale signalering en cellulaire regeneratie.",
+    p1: "Dit gelyofiliseerde peptide wordt geproduceerd met Solid-Phase Peptide Synthesis (SPPS) en ondergaat HPLC- en massaspectrometrieverificatie om hoge zuiverheid, moleculaire identiteit en consistentie tussen batches te bevestigen.",
+    p2: "GHK-Cu 2mg wordt vertrouwd door onderzoeksinstellingen in heel Europa en ondersteunt reproduceerbare biochemische studies, receptorbindingsassays, onderzoek naar extracellulaire matrixinteracties en regeneratieve celmodellering binnen gecontroleerde laboratoriumomgevingen."
+  },
+
+  // Full product page content
+  content: {
+    overviewTitle: "Uitgebreid onderzoeksoverzicht",
+    overview: [
+      "GHK-Cu 200mg is een premium koperbindend onderzoekspeptide dat door BioPeptides wordt geleverd voor zeer nauwkeurig laboratorium- en in-vitro wetenschappelijk onderzoek.",
+      "Elke batch wordt gesynthetiseerd met Solid-Phase Peptide Synthesis (SPPS) en gevalideerd met geavanceerde analytische technieken, waaronder HPLC en massaspectrometrie.",
+      "Het CAS-nummer 89030-95-5 garandeert traceerbaarheid, documentatie volgens onderzoeksnormen en vertrouwen bij laboratoriuminkoop en experimentele verificatie."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Koperpeptiden zoals GHK-Cu zijn onmisbare hulpmiddelen in modern biochemisch en dermatologisch onderzoek vanwege hun vermogen om cellulaire signaalroutes en het gedrag van de extracellulaire matrix te moduleren.",
+      "GHK-Cu is een natuurlijk voorkomend tripeptide dat met koper is gecomplexeerd en breed wordt bestudeerd voor dermale signalering, eiwit-peptide-interacties en mechanismen van cellulaire regeneratie.",
+      "De sterke koperbindende affiniteit, moleculaire stabiliteit en voorspelbare degradatieprofiel maken GHK-Cu tot een waardevolle onderzoeksverbinding voor huidbiologie, regeneratieve modellering en peptide-metaalinteractiestudies."
+    ],
+
+    mechanismTitle: "Mechanistische onderzoekseigenschappen",
+    mechanismPoints: [
+      "Modulatie van cellulaire signaalroutes, waardoor onderzoekers moleculaire communicatie nauwkeurig kunnen bestuderen.",
+      "Verbetering van gevoeligheid voor groeifactoren, wat experimenten in regeneratieve biologie en eiwitactiviteit ondersteunt.",
+      "Regulatie van genexpressie, waardoor onderzoek naar transcriptionele veranderingen in cellen mogelijk wordt.",
+      "Invloed op mitochondriale ATP-productie, belangrijk voor metabolisch onderzoek en studies naar energiepaden.",
+      "Ondersteuning van enzymatische activatie, waardoor moleculaire reacties en interacties nauwkeurig kunnen worden waargenomen."
+    ],
+
+    applicationsTitle: "Belangrijkste onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Regeneratieve celbiologie",
+        text: "Evaluatie van weefselherstelmechanismen en processen van celproliferatie."
+      },
+      {
+        title: "Analyse van eiwitexpressie",
+        text: "Onderzoek naar eiwitsynthese, post-translationele modificaties en moleculaire interacties."
+      },
+      {
+        title: "Receptorbindingsstudies",
+        text: "Meting van receptor-ligandinteracties en signaleringsefficiëntie."
+      },
+      {
+        title: "Mitochondriaal metabolisch onderzoek",
+        text: "Beoordeling van energieproductie, mitochondriale functie en metabolische routes."
+      },
+      {
+        title: "Experimenten met enzymgevoeligheid",
+        text: "Onderzoek naar enzym-substraatdynamiek en biochemische kinetiek."
+      },
+      {
+        title: "Assays voor hermodellering van de extracellulaire matrix",
+        text: "Inzicht verkrijgen in interacties binnen de cellulaire micro-omgeving en modificaties van de extracellulaire matrix."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Moleculair type: Synthetisch koperbindend onderzoekspeptide",
+      "Structuur: Lineaire tripeptideketen gecomplexeerd met koper",
+      "Stabiliteit: Hoog wanneer opgeslagen onder aanbevolen laboratoriumomstandigheden",
+      "Moleculair gewicht: Afhankelijk van de sequentie"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagoverwegingen",
+    stabilityPoints: [
+      "Kortetermijnopslag: Koel bewaren bij 2–4°C voor gebruik binnen enkele weken.",
+      "Langetermijnopslag: Invriezen bij −20°C of lager om degradatie gedurende maanden te voorkomen.",
+      "Beschermen tegen langdurige blootstelling aan licht en vocht, omdat deze factoren de peptidekwaliteit kunnen verminderen.",
+      "Gereconstitueerde oplossingen blijven 24–48 uur stabiel onder gekoelde en steriele omstandigheden.",
+      "Gereconstitueerde oplossingen blijven ongeveer 24–48 uur stabiel onder koeling."
+    ],
+
+    solubilityTitle: "Oplosbaarheid en reconstitutie-opties",
+    solubilityPoints: [
+      "Bacteriostatisch water voor steriele laboratoriumpreparaten.",
+      "Steriele zoutoplossing voor fysiologische simulaties.",
+      "Zure buffers voor specifieke moleculaire interacties.",
+      "Organische analytische oplosmiddelen voor geavanceerde assays."
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "GHK-Cu 200mg",
+      cas: "89030-95-5",
+      purity: "≥98% (HPLC-gecontroleerd)",
+      unitSize: "200 mg flacon",
+      form: "Gelyofiliseerd poeder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Massaspectrometrie, UV-spectrofotometrie"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitscontrole",
+    validationPoints: [
+      "HPLC: Bevestigt ≥98% zuiverheid voor betrouwbare experimentele resultaten.",
+      "Massaspectrometrie (MS): Verifieert peptide-identiteit en structuur.",
+      "UV-spectrofotometrie: Garandeert structurele integriteit en concentratienauwkeurigheid.",
+      "Batchzuiverheid en identiteitsverificatie: Waarborgt reproduceerbaarheid tussen experimenten.",
+      "Endotoxine- en microbiële screening: Garandeert laboratoriumveiligheid en peptidekwaliteit."
+    ],
+
+    regulatoryTitle: "Regelgevende en compliance-informatie",
+    regulatoryText:
+      "GHK-Cu 200mg wordt strikt geleverd voor laboratoriumonderzoek en wetenschappelijke onderzoeksdoeleinden. Het is niet goedgekeurd voor gebruik als geneesmiddel, voedsel, cosmetisch product of medisch product. BioPeptides verstrekt op verzoek analysecertificaten (COA) en veiligheidsinformatiebladen (MSDS) ter ondersteuning van naleving van laboratoriumstandaarden in Europa en wereldwijd.",
+
+    whyTitle: "Waarom kopen bij BioPeptides?",
+    whyText:
+      "BioPeptides wordt vertrouwd door Europese en internationale onderzoeksinstellingen voor de levering van hoogzuivere synthetische peptiden met uitgebreide analytische documentatie. Onderzoekers die online peptiden kopen, kiezen BioPeptides vanwege consistentie, transparantie en betrouwbare onderzoekskwaliteit.",
+
+    faqTitle: "Veelgestelde vragen",
+    faqItems: [
+      {
+        q: "Waarvoor wordt GHK-Cu 200mg gebruikt in onderzoek?",
+        a: "GHK-Cu 200mg wordt voornamelijk gebruikt in studies naar cellulaire regeneratie, receptorbindingsassays, metabolisch onderzoek en analyse van eiwit-peptide-interacties. Onderzoekers in Europa en wereldwijd kopen dit peptide om moleculaire signalering en weefselremodellering te bestuderen."
+      },
+      {
+        q: "Hoe moet GHK-Cu 2mg worden opgeslagen?",
+        a: "Bewaar gelyofiliseerd GHK-Cu 200mg bij −20°C voor langdurige stabiliteit. Vermijd vocht, herhaalde vries-dooicycli en langdurige blootstelling aan licht. Gereconstitueerde oplossingen blijven 24–48 uur stabiel onder koeling."
+      },
+      {
+        q: "Welke oplosmiddelen kunnen worden gebruikt om GHK-Cu 200mg op te lossen?",
+        a: "Dit peptide lost efficiënt op in bacteriostatisch water, steriele zoutoplossing, zure buffers of organische analytische oplosmiddelen, waardoor het geschikt is voor metabolische, enzymatische en receptorbindingsstudies."
+      },
+      {
+        q: "Hoe zuiver is GHK-Cu 200mg?",
+        a: "Elke batch is ≥98% zuiver volgens HPLC, wat consistentie, reproduceerbaarheid en betrouwbare onderzoeksresultaten ondersteunt."
+      },
+      {
+        q: "Kan ik GHK-Cu online kopen voor onderzoek?",
+        a: "Ja, BioPeptides biedt veilige opties om online peptiden te kopen in Europa, inclusief hoogzuiver GHK-Cu 200mg (CAS 89030-95-5) met COA- en MSDS-documentatie."
+      },
+      {
+        q: "Wat is het CAS-nummer van GHK-Cu?",
+        a: "Het CAS-nummer is 89030-95-5, waarmee dit onderzoekspeptide uniek wordt geïdentificeerd voor laboratoriumverificatie en regelgevende compliance."
+      },
+      {
+        q: "Is GHK-Cu 200mg geschikt voor langdurige experimenten?",
+        a: "Ja, wanneer GHK-Cu 200mg gelyofiliseerd bij −20°C wordt opgeslagen, blijft het maandenlang stabiel en ondersteunt het consistente experimentele resultaten."
+      },
+      {
+        q: "Welke analytische methoden verifiëren de kwaliteit van GHK-Cu?",
+        a: "GHK-Cu 200mg wordt geverifieerd met HPLC, massaspectrometrie, UV-spectroscopie en microbiële/endotoxinetesten, waardoor het een van de hoogwaardige online peptiden is voor Europese onderzoekers."
+      }
+    ],
+
+    chemicalProperties: {
+  molecularFormula: "C14H23CuN6O4+",
+  molecularWeight: "402.92",
+  monoisotopicMass: "402.107675",
+  polarArea: "179",
+  complexity: "428",
+  xlogP: "N/A",
+  heavyAtomCount: "25",
+  hydrogenBondDonorCount: "5",
+  hydrogenBondAcceptorCount: "7",
+  rotatableBondCount: "10",
+  cid: " 71587328",
+  inchi:
+    " InChI=1S/C14H24N6O4.Cu/c15-4-2-1-3-10(14(23)24)20-13(22)11(19-12(21)6-16)5-9-7-17-8-18-9;/h7-8,10-11H,1-6,15-16H2,(H,17,18)(H,19,21)(H,20,22)(H,23,24);/q;+2/p-1/t10-,11-;/m0./s1",
+  inchiKey: "NZWIFMYRRCMYMN-ACMTZBLWSA-M",
+
+  canonicalSmiles:
+    "C1=C(NC=N1)CC(C(=O)NC(CCCCN)C(=O)[O-])NC(=O)CN.[Cu+2]",
+
+  isomericSmiles:
+    "C1=C(NC=N1)C[C@@H](C(=O)N[C@@H](CCCCN)C(=O)[O-])NC(=O)CN.[Cu+2]",
+
+  iupacName:
+    "copper (2S)-6-amino-2-[[(2S)-2-[(2-aminoacetyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]hexanoate"
+}
+  }
+},
+"ghk-cu-copper-tripeptide": {
+  name: "GHK-Cu (Kopertripeptide-1)",
+  tagline: "Koperbindend tripeptide voor onderzoek naar cellulaire signalering en extracellulaire matrix",
+  cas: "49557-75-7",
+
+  strength: [
+    "GHK-Cu (Kopertripeptide-1) is een hoogzuiver onderzoekspeptide dat is ontwikkeld voor geavanceerde biochemische en moleculair-biologische studies. Geproduceerd met precisie solid-phase peptide synthesis (SPPS) en gezuiverd tot ≥99% HPLC-zuiverheid, biedt dit koperbindende tripeptide betrouwbare moleculaire nauwkeurigheid en reproduceerbaarheid voor laboratoriumonderzoek. BioPeptides stelt onderzoeksinstellingen in Europa in staat om met vertrouwen online peptiden te kopen via gecontroleerde kwaliteitsvalidatie, EU-compatibele verzending en strikte research-only compliance."
+  ],
+
+  topDescription: {
+    p0: "GHK-Cu (Kopertripeptide-1) is een natuurlijk voorkomend koperbindend tripeptide dat breed wordt bestudeerd vanwege zijn rol in cellulaire signalering en regulatie van de extracellulaire matrix.",
+    p1: "GHK-Cu wordt geproduceerd met precisie-peptidesynthese en gezuiverd tot ≥99% HPLC-zuiverheid, waardoor het consistente moleculaire stabiliteit biedt voor gecontroleerde laboratoriumstudies.",
+    p2: "BioPeptides levert GHK-Cu uitsluitend voor laboratorium- en biochemisch onderzoek en ondersteunt wetenschappers in heel Europa die betrouwbare peptideleveranciers zoeken."
+  },
+
+  components: [
+    "GHK-Cu kopertripeptidecomplex (Glycine–Histidine–Lysine gebonden aan koperion)"
+  ],
+
+  content: {
+
+    overviewTitle: "Productoverzicht",
+    overview: [
+      "GHK-Cu (Kopertripeptide-1) is een natuurlijk voorkomend koperbindend peptide dat bestaat uit glycine, histidine en lysine, gecomplexeerd met een koperion.",
+      "In laboratoriumonderzoeksomgevingen wordt dit peptide bestudeerd vanwege zijn betrokkenheid bij cellulaire communicatieroutes, regulatie van de extracellulaire matrix en biochemische signaleringsprocessen.",
+      "Door zijn stabiele peptide-metaalcomplexstructuur wordt GHK-Cu vaak gebruikt als modelverbinding voor onderzoek naar koperafhankelijke biochemische mechanismen."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond van GHK-Cu",
+    scientificBackground: [
+      "Koperbindende peptiden zoals GHK-Cu spelen een belangrijke rol in biologische systemen door koperionen te transporteren en biochemische signaalroutes te moduleren.",
+      "Onderzoekers bestuderen GHK-Cu om te onderzoeken hoe peptide-metaalcomplexen eiwitexpressie, cellulaire communicatie en regulatie van de extracellulaire matrix beïnvloeden.",
+      "Binnen experimentele modellen is GHK-Cu gebruikt voor analyse van metalloproteïne-interacties en koperafhankelijke enzymatische activiteit.",
+      "Deze eigenschappen maken Kopertripeptide-1 tot een veel bestudeerde verbinding binnen peptidechemie en moleculair-biologisch onderzoek."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar koperionbinding en transport",
+      "Onderzoek naar cellulaire signaalroutes",
+      "Analyse van interacties met de extracellulaire matrix",
+      "Studies naar metalloproteïne-regulatie",
+      "Onderzoek naar de stabiliteit van peptide-metaalcomplexen"
+    ],
+
+    applicationsTitle: "Belangrijkste onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar cellulaire signalering",
+        text: "Gebruikt in laboratoriumstudies om cellulaire communicatieroutes en biochemische responssignalering te onderzoeken."
+      },
+      {
+        title: "Studies naar de extracellulaire matrix",
+        text: "Toegepast in onderzoek naar collageengerelateerde signaalroutes en regulatie van de structuur van de extracellulaire matrix."
+      },
+      {
+        title: "Analyse van eiwitexpressie",
+        text: "Ondersteunt biochemische experimenten naar eiwitexpressie, regulatie en degradatieroutes."
+      },
+      {
+        title: "Onderzoek naar metalloproteïne-interacties",
+        text: "Gebruikt in laboratoriummodellen waarin koperafhankelijke eiwitinteracties en enzymatische activiteit worden onderzocht."
+      },
+      {
+        title: "Biochemische en moleculaire studies",
+        text: "GHK-Cu is geschikt voor in-vitro biochemische assays waarin peptide-metaalcomplexen en moleculaire signaleringssystemen worden onderzocht."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Moleculair type: Koperbindend tripeptidecomplex",
+      "Aminozuursamenstelling: Glycine–Histidine–Lysine",
+      "CAS-identificatie: 49557-75-7",
+      "Molecuulformule: C14H24N6O4",
+      "Moleculair gewicht: ~340.4 g/mol",
+      "Structuur: Peptide-metaalcomplex",
+      "Vorm: Gelyofiliseerd poeder"
+    ],
+
+    stabilityTitle: "Richtlijnen voor opslag en hantering",
+    stabilityPoints: [
+      "Bewaar het gelyofiliseerde peptide bij −20°C voor optimale stabiliteit",
+      "Vermijd herhaalde vries-dooicycli",
+      "Bescherm tegen vocht en directe blootstelling aan licht",
+      "Hanteer met steriele laboratoriumprocedures",
+      "Reconstitueer onder gecontroleerde laboratoriumomstandigheden"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en laboratoriumcompatibiliteit",
+    solubilityPoints: [
+      "Steriele laboratoriumbuffers",
+      "Bacteriostatisch water",
+      "Fysiologische zoutoplossingen",
+      "Standaard biochemische assaybuffers"
+    ],
+
+    techSpecsTitle: "Productspecificaties",
+    techSpecs: {
+      productName: "GHK-Cu (Kopertripeptide-1)",
+      brand: "BioPeptides",
+      cas: "49557-75-7",
+      quantity: "Onderzoeksflacon",
+      purity: "≥99% (HPLC-gecontroleerd)",
+      form: "Gelyofiliseerd peptidepoeder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Massaspectrometrie",
+      molecularStructure: "Koperbindend tripeptidecomplex",
+      classification: "Alleen voor onderzoeksgebruik"
+    },
+
+    validationTitle: "Productie en analytische verificatie",
+    validationPoints: [
+      "Precisie-peptidesynthese met SPPS",
+      "Zuiverheidsverificatie met high-performance liquid chromatography (HPLC)",
+      "Moleculaire bevestiging met massaspectrometrie",
+      "Validatie van batch-tot-batchconsistentie",
+      "Stabiliteitstesten voor betrouwbare onderzoeksresultaten"
+    ],
+
+    regulatoryTitle: "Regelgevende status",
+    regulatoryText:
+      "GHK-Cu geleverd door BioPeptides is uitsluitend bedoeld voor laboratorium- en cosmetisch onderzoek. Deze verbinding is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, medische behandeling of therapeutische ontwikkeling. De verantwoordelijkheid voor naleving blijft bij de aankopende onderzoeksinstelling.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt GHK-Cu gebruikt in onderzoek?",
+        a: "GHK-Cu wordt gebruikt in laboratoriumonderzoek naar cellulaire signalering, interacties met de extracellulaire matrix, eiwitexpressieroutes en koperafhankelijke biochemische mechanismen."
+      },
+      {
+        q: "Wat is het CAS-nummer van GHK-Cu?",
+        a: "Het officiële CAS-nummer voor Kopertripeptide-1 (GHK-Cu) is 49557-75-7, wat compoundidentificatie en traceerbaarheid in wetenschappelijk onderzoek garandeert."
+      },
+      {
+        q: "Kunnen Europese laboratoria GHK-Cu online kopen?",
+        a: "Ja. BioPeptides levert GHK-Cu aan onderzoeksinstellingen in heel Europa, waaronder Duitsland, Frankrijk, Italië, Spanje, Nederland, Zweden, België en Oostenrijk."
+      },
+      {
+        q: "Is GHK-Cu goedgekeurd voor menselijk of veterinair gebruik?",
+        a: "Nee. GHK-Cu is strikt geclassificeerd als Research Use Only (RUO) en is niet goedgekeurd voor menselijke of veterinaire toepassingen."
+      },
+      {
+        q: "Hoe zuiver is BioPeptides GHK-Cu?",
+        a: "Elke batch wordt gezuiverd tot ≥99% HPLC-zuiverheid om moleculaire nauwkeurigheid en reproduceerbaarheid voor laboratoriumonderzoek te garanderen."
+      },
+      {
+        q: "Hoe moet GHK-Cu worden opgeslagen?",
+        a: "GHK-Cu moet worden opgeslagen bij -20°C in een droge omgeving en beschermd worden tegen herhaalde vries-dooicycli om stabiliteit te behouden."
+      },
+      {
+        q: "Waarom is CAS-verificatie belangrijk voor peptiden?",
+        a: "CAS-nummers garanderen chemische identiteit en traceerbaarheid, waardoor onderzoekers verbindingen kunnen verifiëren en consistentie tussen experimenten kunnen behouden."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor onderzoekspeptiden?",
+        a: "BioPeptides levert hoogzuivere peptiden, geverifieerde CAS-documentatie, EU-vriendelijke verzending en transparante research-only compliance, vertrouwd door Europese laboratoria."
+      }
+    ],
+
+    chemicalProperties: {
+  molecularFormula: "C14H23CuN6O4+",
+  molecularWeight: "402.92",
+  monoisotopicMass: "402.107675",
+  polarArea: "179",
+  complexity: "428",
+  xlogP: "N/A",
+  heavyAtomCount: "25",
+  hydrogenBondDonorCount: "5",
+  hydrogenBondAcceptorCount: "7",
+  rotatableBondCount: "10",
+  cid: "71587328",
+  inchi:
+    "InChI=1S/C14H24N6O4.Cu/c15-4-2-1-3-10(14(23)24)20-13(22)11(19-12(21)6-16)5-9-7-17-8-18-9;/h7-8,10-11H,1-6,15-16H2,(H,17,18)(H,19,21)(H,20,22)(H,23,24);/q;+2/p-1/t10-,11-;/m0./s1",
+  inchiKey: "NZWIFMYRRCMYMN-ACMTZBLWSA-M",
+
+  canonicalSmiles:
+    "C1=C(NC=N1)CC(C(=O)NC(CCCCN)C(=O)[O-])NC(=O)CN.[Cu+2]",
+
+  isomericSmiles:
+    "C1=C(NC=N1)C[C@@H](C(=O)N[C@@H](CCCCN)C(=O)[O-])NC(=O)CN.[Cu+2]",
+
+  iupacName:
+    "copper (2S)-6-amino-2-[[(2S)-2-[(2-aminoacetyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]hexanoate"
+}
+
+  }
+},
+"hexarelin-5mg-x-10-modgrf-1-29-5mg-x-10": {
+  name: "Hexarelin 5mg ×10 + MOD-GRF (1-29) 5mg ×10 (Bundel)",
+
+  tagline:
+    "Dubbel groeihormoonroute-onderzoekspeptidebundel voor geavanceerde endocriene signaalstudies",
+
+  cas: "Hexarelin: 140703-51-1 | MOD-GRF (1-29): 86168-78-7",
+
+  strength: [
+    "Deze dual-peptide onderzoeksbundel combineert Hexarelin, een krachtige groeihormoonsecretagoog die wordt bestudeerd voor ghrelinereceptoractivatie, met MOD-GRF (1-29), een gemodificeerd groeihormoon-releasing hormoon-analoog dat wordt onderzocht voor stimulatie van hypofysereceptoren. Samen worden deze peptiden veel gebruikt in laboratoriumonderzoek naar groeihormoonafgiftemechanismen, coördinatie van endocriene routes en receptor-gemedieerde signalering binnen de hypothalamus-hypofyse-as."
+  ],
+
+  topDescription: {
+    p0: "Hexarelin 5mg ×10 en MOD-GRF (1-29) 5mg ×10 van BioPeptides is een hoogzuivere onderzoekspeptidebundel die is ontwikkeld voor geavanceerde laboratoriumstudies gericht op groeihormoonsignalering, receptorinteractie en coördinatie van het endocriene systeem.",
+    p1: "Elk peptide wordt gesynthetiseerd met geavanceerde solid-phase peptide synthesis (SPPS) en gecontroleerd via analytische testen om uitstekende zuiverheid en reproduceerbaarheid te garanderen voor professionele onderzoeksomgevingen.",
+    p2: "BioPeptides levert onderzoekspeptiden aan laboratoria in heel Europa, waaronder Duitsland, Frankrijk, Italië, Spanje, Nederland, België en Scandinavische onderzoeksinstellingen."
+  },
+
+  components: [
+    "Hexarelin (groeihormoon-releasing hexapeptide) — 5mg ×10 flacons",
+    "MOD-GRF (1-29) no DAC (gemodificeerd GHRH-analoog) — 5mg ×10 flacons"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "Deze onderzoeksbundel combineert Hexarelin en MOD-GRF (1-29), twee peptiden die veel worden bestudeerd vanwege hun rol in groeihormoonsignaleringsonderzoek.",
+      "Hexarelin interageert met de groeihormoonsecretagoogreceptor (GHS-R), ook bekend als de ghrelinereceptor.",
+      "MOD-GRF (1-29) stimuleert hypofysereceptoren die verantwoordelijk zijn voor groeihormoonafgifte.",
+      "Door deze peptiden samen te bestuderen, kunnen onderzoekers synergetische endocriene signalering binnen de hypothalamus-hypofyse-as onderzoeken."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Groeihormoonsecretie wordt gereguleerd via complexe interacties tussen hypothalamische en hypofysaire signaalroutes.",
+      "GHRH-analogen zoals MOD-GRF activeren receptoren in de hypofyse die verantwoordelijk zijn voor GH-afgifte.",
+      "Groeihormoonsecretagogen zoals Hexarelin activeren ghreline-gemedieerde signaalroutes.",
+      "Door beide peptiden te combineren, kunnen onderzoekers receptor-cross-talk, signaalversterking en coördinatie van endocriene routes onderzoeken."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Studies naar activatie van groeihormoonsecretagoogreceptoren",
+      "Onderzoek naar GHRH-receptorsignaalroutes",
+      "Analyse van hypothalamus-hypofyse-endocriene signalering",
+      "Onderzoek naar hormonale secretietiming en routecoördinatie",
+      "Modellering van ligand-receptorinteracties"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar groeihormoonafgifteroutes",
+        text: "Onderzoekers bestuderen de mechanismen die verantwoordelijk zijn voor groeihormoonsecretie via gecombineerde activatie van ghrelinereceptoren en GHRH-receptoren."
+      },
+      {
+        title: "Studies naar de hypothalamus-hypofyse-as",
+        text: "De peptidebundel ondersteunt onderzoeken naar endocriene coördinatie tussen hypothalamische signalering en hypofysaire hormoonafgifte."
+      },
+      {
+        title: "Onderzoek naar peptide-receptorinteracties",
+        text: "Wetenschappers onderzoeken receptorbinding, ligandaffiniteit en signaaldynamiek die verband houdt met endocriene peptidepaden."
+      },
+      {
+        title: "Studies naar coördinatie van endocriene signalering",
+        text: "De combinatie maakt analyse mogelijk van hoe meerdere hormonale signaalroutes interageren binnen endocriene regulatiesystemen."
+      },
+      {
+        title: "Cellulair en moleculair biologisch onderzoek",
+        text: "Laboratoria passen deze peptiden toe in celgebaseerde assays om downstream signaalcascades en moleculaire routeresponsen te onderzoeken."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Peptide 1: Hexarelin (groeihormoonsecretagoog)",
+      "CAS-nummer: 140703-51-1",
+      "Moleculair gewicht: ~887 g/mol",
+      "Peptide 2: MOD-GRF (1-29) no DAC (gemodificeerd GHRH-analoog)",
+      "CAS-nummer: 86168-78-7",
+      "Moleculair gewicht: ~3357 g/mol",
+      "Vorm: Gelyofiliseerde peptidepoeders",
+      "Zuiverheid: ≥99% HPLC-gecontroleerd"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Bewaar gelyofiliseerde peptideflacons bij −20°C",
+      "Bescherm tegen vocht en directe blootstelling aan licht",
+      "Vermijd herhaalde vries-dooicycli",
+      "Gereconstitueerde oplossingen moeten gekoeld worden bewaard",
+      "Hanteer met aseptische laboratoriumtechnieken"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en reconstitutieopties",
+    solubilityPoints: [
+      "Steriel bacteriostatisch water",
+      "Steriele zoutoplossingen",
+      "Gebufferde waterige laboratoriumoplossingen",
+      "Biochemische assaybuffers",
+      "Laboratoriumkwaliteit oplosmiddelsystemen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "Hexarelin + MOD-GRF (1-29) onderzoeksbundel",
+      brand: "BioPeptides",
+      hexarelinCAS: "140703-51-1",
+      modGRFCAS: "86168-78-7",
+      purity: "≥99% (HPLC-gecontroleerd)",
+      unitSize: "5mg ×10 flacons per peptide",
+      form: "Gelyofiliseerde poeders",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC en massaspectrometrie",
+      molecularStructure: "Synthetische endocriene onderzoekspeptiden",
+      stability: "Hoog wanneer opgeslagen bij −20°C"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "Zuiverheidsverificatie met high-performance liquid chromatography",
+      "Bevestiging van moleculair gewicht via massaspectrometrie",
+      "Testen van structurele peptide-integriteit",
+      "Validatie van analytische consistentie tussen batches",
+      "Verificatie van peptidestabiliteit voor onderzoeksgebruik"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "Hexarelin en MOD-GRF (1-29) geleverd door BioPeptides zijn uitsluitend bedoeld voor laboratorium- en wetenschappelijk onderzoek. Deze materialen zijn niet goedgekeurd voor menselijke consumptie, veterinair gebruik, cosmetische toepassingen of therapeutische behandelingen. Kopers moeten naleving van toepasselijke onderzoeksregelgeving en institutioneel beleid waarborgen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Wat maakt de 5mg ×10-bundel geschikt voor geavanceerd onderzoek?",
+        a: "De grotere 5mg ×10-flaconconfiguratie ondersteunt langdurige onderzoeksworkflows en stelt wetenschappers in staat uitgebreide experimenten uit te voeren zonder vaak opnieuw te bestellen."
+      },
+      {
+        q: "Waarom worden Hexarelin en MOD-GRF samen bestudeerd?",
+        a: "Hexarelin activeert ghrelinereceptoren, terwijl MOD-GRF GHRH-receptoren stimuleert, waardoor onderzoekers gecoördineerde groeihormoonsignalering via twee complementaire routes kunnen bestuderen."
+      },
+      {
+        q: "Kan deze peptidebundel worden gebruikt in in-vitro onderzoeksmodellen?",
+        a: "Ja. De bundel wordt veel gebruikt in gecontroleerde in-vitro experimenten voor analyse van receptorbinding, endocriene signaalroutes en cellulaire responsmechanismen."
+      },
+      {
+        q: "Waarom zijn CAS-nummers belangrijk voor deze peptiden?",
+        a: "CAS-nummers zorgen voor nauwkeurige compoundidentificatie, traceerbaarheid en reproduceerbaarheid binnen laboratoriumdocumentatie."
+      },
+      {
+        q: "Hoe moeten deze peptiden worden opgeslagen?",
+        a: "Gelyofiliseerde flacons moeten bij −20°C worden bewaard en worden beschermd tegen vocht en herhaalde vries-dooicycli."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor onderzoekspeptiden?",
+        a: "BioPeptides biedt hoogzuivere synthese, geverifieerde CAS-documentatie, professionele laboratoriumverpakking en betrouwbare logistiek voor onderzoeksinstellingen."
+      }
+    ],
+   chemicalProperties: {
+  molecularFormula: "	CJC-1295-acetaat: C152H252N44O42 Examorelin: C47H58N12O6",
+  molecularWeight: "CJC-1295-acetaat: 3367.9 Examorelin: 887",
+  monoisotopicMass: "CJC-1295-acetaat: 3365.8935782 Examorelin: 886.46022762",
+  polarArea: "CJC-1295-acetaat: 1450 Examorelin: 301",
+  complexity: "CJC-1295-acetaat: 7710 Examorelin: 1600",
+  xlogP: "CJC-1295-acetaat: -10.7 Examorelin: 2.3",
+  heavyAtomCount: "CJC-1295-acetaat: 238 Examorelin: 65",
+  hydrogenBondDonorCount: "CJC-1295-acetaat: 52 Examorelin: 11",
+  hydrogenBondAcceptorCount: "CJC-1295-acetaat: 48 Examorelin: 9",
+  rotatableBondCount: "CJC-1295-acetaat: 118 Examorelin: 23",
+  cid: "CJC-1295-acetaat: 56841945 Examorelin: 6918297",
+  inchi:
+    "CJC-1295-acetaat: InChI=1S/C152H252N44O42/c1-22-79(15)118(194-125(214)84(20)171-135(224)107(68-115(206)207)181-124(213)81(17)169-126(215)91(155)65-87-41-45-89(201)46-42-87)147(236)189-106(66-86-34-25-24-26-35-86)141(230)196-120(85(21)200)149(238)180-99(51-54-114(158)205)132(221)190-111(72-199)145(234)185-105(67-88-43-47-90(202)48-44-88)140(229)178-96(40-33-59-168-152(164)165)128(217)177-94(37-28-30-56-154)133(222)193-117(78(13)14)146(235)187-100(60-73(3)4)134(223)170-82(18)123(212)175-97(49-52-112(156)203)130(219)183-103(63-76(9)10)138(227)191-109(70-197)143(232)172-83(19)122(211)174-95(39-32-58-167-151(162)163)127(216)176-93(36-27-29-55-153)129(218)182-102(62-75(7)8)137(226)184-101(61-74(5)6)136(225)179-98(50-53-113(157)204)131(220)186-108(69-116(208)209)142(231)195-119(80(16)23-2)148(237)188-104(64-77(11)12)139(228)192-110(71-198)144(233)173-92(121(159)210)38-31-57-166-150(160)161/h24-26,34-35,41-48,73-85,91-111,117-120,197-202H,22-23,27-33,36-40,49-72,153-155H2,1-21H3,(H2,156,203)(H2,157,204)(H2,158,205)(H2,159,210)(H,169,215)(H,170,223)(H,171,224)(H,172,232)(H,173,233)(H,174,211)(H,175,212)(H,176,216)(H,177,217)(H,178,229)(H,179,225)(H,180,238)(H,181,213)(H,182,218)(H,183,219)(H,184,226)(H,185,234)(H,186,220)(H,187,235)(H,188,237)(H,189,236)(H,190,221)(H,191,227)(H,192,228)(H,193,222)(H,194,214)(H,195,231)(H,196,230)(H,206,207)(H,208,209)(H4,160,161,166)(H4,162,163,167)(H4,164,165,168)/t79-,80-,81+,82-,83-,84-,85+,91-,92-,93-,94-,95-,96-,97-,98-,99-,100-,101-,102-,103-,104-,105-,106-,107-,108-,109-,110-,111-,117-,118-,119-,120-/m0/s1 Examorelin: InChI=1S/C47H58N12O6/c1-27-34(33-15-7-9-17-37(33)54-27)23-41(58-44(62)35(49)22-31-25-51-26-53-31)45(63)55-28(2)43(61)57-40(21-30-24-52-36-16-8-6-14-32(30)36)47(65)59-39(20-29-12-4-3-5-13-29)46(64)56-38(42(50)60)18-10-11-19-48/h3-9,12-17,24-26,28,35,38-41,52,54H,10-11,18-23,48-49H2,1-2H3,(H2,50,60)(H,51,53)(H,55,63)(H,56,64)(H,57,61)(H,58,62)(H,59,65)/t28-,35-,38-,39+,40-,41+/m0/s1",
+  inchiKey: "CJC-1295-acetaat: XOZMWINMZMMOBR-HRDSVTNWSA-N Examorelin: RVWNMGKSNGWLOL-GIIHNPQRSA-N",
+
+  canonicalSmiles:
+    "CJC-1295-acetaat: CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)N)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C(CC3=CC=C(C=C3)O)N Examorelin: CC1=C(C2=CC=CC=C2N1)CC(C(=O)NC(C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCCN)C(=O)N)NC(=O)C(CC6=CN=CN6)N",
+
+  isomericSmiles:
+    "CJC-1295-acetaat: CC[C@H](C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N)NC(=O)[C@H](C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H](C)NC(=O)[C@H](CC3=CC=C(C=C3)O)N Examorelin: CC1=C(C2=CC=CC=C2N1)C[C@H](C(=O)N[C@@H](C)C(=O)N[C@@H](CC3=CNC4=CC=CC=C43)C(=O)N[C@H](CC5=CC=CC=C5)C(=O)N[C@@H](CCCCN)C(=O)N)NC(=O)[C@H](CC6=CN=CN6)N",
+
+  iupacName:
+    "CJC-1295-acetaat: (3S)-4-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S,3R)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-[[(2R)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]-4-oxobutaanzuur Examorelin: (2S)-6-amino-2-[[(2R)-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2S)-2-amino-3-(1H-imidazol-5-yl)propanoyl]amino]-3-(2-methyl-1H-indol-3-yl)propanoyl]amino]propanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-fenylpropanoyl]amino]hexanamide"
+}
+
+  },
+
+  appearance: "Witte gelyofiliseerde peptidepoeders (afzonderlijke flacons)",
+
+  storage: "Bewaar bij −20°C. Vermijd herhaalde vries-dooicycli.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"hexarelin-2mg": {
+  name: "Hexarelin 2mg",
+
+  tagline:
+    "Onderzoekswaardige groeihormoonsecretagoog voor studies naar ghrelinereceptoren en endocriene signalering",
+
+  cas: "140703-51-1",
+
+  strength: [
+    "Hexarelin (Examorelin) 2mg van BioPeptide is een hoogzuiver onderzoekspeptide, ontwikkeld voor laboratoriumstudies naar groeihormoonsignalering, ghrelinereceptoractivatie en endocriene route-onderzoeken. Het peptide wordt gesynthetiseerd met geavanceerde solid-phase peptide synthesis en gezuiverd tot ≥99% HPLC, waardoor uitstekende moleculaire stabiliteit en reproduceerbaarheid worden gewaarborgd. Hexarelin, geïdentificeerd met CAS 140703-51-1, wordt veel gebruikt in gecontroleerde in-vitro en biochemische onderzoeksmodellen in Europa en de Verenigde Staten. BioPeptide stelt laboratoria in staat om onderzoekspeptiden online met vertrouwen te kopen via transparante documentatie en professionele laboratoriumverpakking. Alleen voor onderzoeksgebruik. Niet voor menselijk of veterinair gebruik."
+  ],
+
+  topDescription: {
+    p0: "Hexarelin (Examorelin) 2mg van BioPeptides is een hoogzuiver onderzoekspeptide dat is ontwikkeld voor laboratoriumonderzoek naar groeihormoonsignalering, ghrelinereceptoractivatie en endocriene routeregulatie.",
+    p1: "Het peptide wordt geproduceerd met geavanceerde solid-phase peptide synthesis (SPPS) en gezuiverd tot ≥99% HPLC, waardoor uitstekende moleculaire stabiliteit en reproduceerbaarheid worden geboden voor gecontroleerde onderzoeksomgevingen.",
+    p2: "BioPeptides levert onderzoekspeptiden aan professionele laboratoria in Europa en de Verenigde Staten en ondersteunt academische instellingen, biotechbedrijven en onafhankelijke onderzoeksfaciliteiten."
+  },
+
+  components: [
+    "Hexarelin (Examorelin) — 2mg gelyofiliseerde peptideflacon"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "Hexarelin (Examorelin) is een synthetisch hexapeptide dat uitgebreid wordt bestudeerd als groeihormoonsecretagoog.",
+      "In laboratoriumomgevingen interageert Hexarelin met de groeihormoonsecretagoogreceptor (GHS-R), ook bekend als de ghrelinereceptor.",
+      "Activatie van deze receptor initieert signaalcascades die betrokken zijn bij groeihormoonafgifte en endocriene coördinatie.",
+      "Omdat het stroomopwaarts werkt binnen hormonale regulatie, wordt Hexarelin vaak gebruikt om receptor-gemedieerde signaalroutes en endocriene feedbackmechanismen te bestuderen."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Groeihormoonafgifte wordt gereguleerd via complexe signalering tussen de hypothalamus en de hypofyse.",
+      "Groeihormoonsecretagogen zoals Hexarelin stimuleren hormoonafgifte via activatie van de ghrelinereceptor.",
+      "Dit receptor-gemedieerde mechanisme stelt wetenschappers in staat om endocriene signaalroutes en hormonale feedbacklussen te onderzoeken.",
+      "Hexarelin wordt uitgebreid bestudeerd vanwege zijn sterke receptoraffiniteit en betrouwbare signaalactiviteit in experimentele modellen."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Studies naar ghrelinereceptoractivatie (GHS-R)",
+      "Analyse van groeihormoonafgifte-signalering",
+      "Onderzoek naar coördinatie van endocriene routes",
+      "Modellering van ligand-receptorinteracties",
+      "Onderzoek naar hormonale feedbackroutes"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Studies naar groeihormoonsignalering",
+        text: "Onderzoekers gebruiken Hexarelin om groeihormoonsecretiedynamiek, timing van receptoractivatie en endocriene signaalresponsen te onderzoeken."
+      },
+      {
+        title: "Onderzoek naar ghrelinereceptorbinding",
+        text: "Hexarelin wordt veel toegepast in receptorbindingsassays voor analyse van ligandaffiniteit, receptorgevoeligheid en signaalsterkte."
+      },
+      {
+        title: "Modellering van het endocriene systeem",
+        text: "Wetenschappers gebruiken Hexarelin om hormonale routecoördinatie en endocrien signaalgedrag in gecontroleerde onderzoeksmodellen te onderzoeken."
+      },
+      {
+        title: "Cellulair en moleculair biologisch onderzoek",
+        text: "Laboratoria passen Hexarelin toe in celgebaseerde experimenten om intracellulaire signaalcascades en transcriptionele responsen te bestuderen."
+      },
+      {
+        title: "In-vitro onderzoeksmodellen",
+        text: "Hexarelin wordt vaak gebruikt in gecontroleerde in-vitro onderzoeksmodellen die receptor-gemedieerde hormoonsignalering onderzoeken."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van de verbinding: Hexarelin (Examorelin)",
+      "CAS-nummer: 140703-51-1",
+      "Molecuulformule: C47H58N12O6",
+      "Moleculair gewicht: ~887 g/mol",
+      "Vorm: Gelyofiliseerd peptidepoeder",
+      "Zuiverheid: ≥99% HPLC-gecontroleerd"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Bewaar het gelyofiliseerde peptide bij −20°C",
+      "Bescherm tegen vocht en directe blootstelling aan licht",
+      "Vermijd herhaalde vries-dooicycli",
+      "Gereconstitueerde oplossingen moeten gekoeld worden bewaard",
+      "Hanteer met aseptische laboratoriumtechnieken"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en reconstitutieopties",
+    solubilityPoints: [
+      "Steriel bacteriostatisch water",
+      "Steriele zoutoplossingen",
+      "Gebufferde waterige laboratoriumoplossingen",
+      "Biochemische assaybuffers",
+      "Laboratoriumkwaliteit oplosmiddelsystemen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "Hexarelin (Examorelin) 2mg",
+      brand: "BioPeptides",
+      cas: "140703-51-1",
+      purity: "≥99% (HPLC-gecontroleerd)",
+      unitSize: "2mg flacon",
+      form: "Gelyofiliseerd poeder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC en massaspectrometrie",
+      molecularStructure: "Synthetisch hexapeptide",
+      stability: "Stabiel wanneer opgeslagen bij −20°C"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "Zuiverheidsverificatie met high-performance liquid chromatography",
+      "Bevestiging van moleculair gewicht via massaspectrometrie",
+      "Validatie van structurele peptide-integriteit",
+      "Testen van analytische consistentie tussen batches",
+      "Verificatie van peptidestabiliteit"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "Hexarelin geleverd door BioPeptides is uitsluitend bedoeld voor laboratorium- en wetenschappelijk onderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, cosmetische toepassingen of therapeutische behandelingen. Kopers moeten naleving van toepasselijke onderzoeksregelgeving en institutioneel beleid waarborgen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt Hexarelin voornamelijk gebruikt in laboratoriumonderzoek?",
+        a: "Hexarelin wordt gebruikt om groeihormoonafgifte, ghrelinereceptoractivatie en endocriene signaalmechanismen te bestuderen in gecontroleerde laboratoriumomgevingen."
+      },
+      {
+        q: "Waarom wordt Hexarelin ook Examorelin genoemd?",
+        a: "Examorelin is een alternatieve naam voor Hexarelin die in wetenschappelijke literatuur wordt gebruikt en verwijst naar dezelfde peptideverbinding met CAS 140703-51-1."
+      },
+      {
+        q: "Is Hexarelin geschikt voor in-vitro onderzoeksmodellen?",
+        a: "Ja. Hexarelin wordt veel gebruikt in in-vitro experimenten voor analyse van receptorbinding, hormoonsignaalroutes en cellulaire responsmechanismen."
+      },
+      {
+        q: "Waarom is CAS 140703-51-1 belangrijk voor Hexarelin-onderzoek?",
+        a: "Het CAS-nummer zorgt voor nauwkeurige compoundidentificatie, traceerbaarheid en reproduceerbaarheid binnen laboratoriumdocumentatie."
+      },
+      {
+        q: "Waarom is het 2mg flaconformaat nuttig voor onderzoek?",
+        a: "Het 2mg formaat is ideaal voor pilotexperimenten, vergelijkende studies en academische onderzoeksprojecten die nauwkeurige peptidehoeveelheden vereisen."
+      },
+      {
+        q: "Hoe moet Hexarelin worden opgeslagen voor onderzoeksgebruik?",
+        a: "Hexarelin moet gelyofiliseerd bij −20°C worden bewaard en beschermd worden tegen herhaalde vries-dooicycli."
+      },
+      {
+        q: "Kan Hexarelin worden gebruikt in vergelijkende GH-secretagoogstudies?",
+        a: "Ja. Hexarelin wordt vaak gebruikt als referentieverbinding bij het vergelijken van signaalsterkte en receptoractivatie met andere groeihormoonsecretagogen."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor Hexarelin-onderzoekspeptiden?",
+        a: "BioPeptides biedt hoogzuivere peptidesynthese, geverifieerde CAS-documentatie en betrouwbare logistiek voor onderzoekslaboratoria."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "C47H58N12O6",
+  molecularWeight: "887",
+  monoisotopicMass: "886.46022762",
+  polarArea: "301",
+  complexity: "1600",
+  xlogP: "2.3",
+  heavyAtomCount: "65",
+  hydrogenBondDonorCount: "11",
+  hydrogenBondAcceptorCount: "9",
+  rotatableBondCount: "23",
+  cid: "6918297",
+  inchi:
+    "InChI=1S/C47H58N12O6/c1-27-34(33-15-7-9-17-37(33)54-27)23-41(58-44(62)35(49)22-31-25-51-26-53-31)45(63)55-28(2)43(61)57-40(21-30-24-52-36-16-8-6-14-32(30)36)47(65)59-39(20-29-12-4-3-5-13-29)46(64)56-38(42(50)60)18-10-11-19-48/h3-9,12-17,24-26,28,35,38-41,52,54H,10-11,18-23,48-49H2,1-2H3,(H2,50,60)(H,51,53)(H,55,63)(H,56,64)(H,57,61)(H,58,62)(H,59,65)/t28-,35-,38-,39+,40-,41+/m0/s1",
+  inchiKey: "RVWNMGKSNGWLOL-GIIHNPQRSA-N",
+
+  canonicalSmiles:
+    "CC1=C(C2=CC=CC=C2N1)CC(C(=O)NC(C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCCN)C(=O)N)NC(=O)C(CC6=CN=CN6)N",
+
+  isomericSmiles:
+    "CC1=C(C2=CC=CC=C2N1)C[C@H](C(=O)N[C@@H](C)C(=O)N[C@@H](CC3=CNC4=CC=CC=C43)C(=O)N[C@H](CC5=CC=CC=C5)C(=O)N[C@@H](CCCCN)C(=O)N)NC(=O)[C@H](CC6=CN=CN6)N",
+
+  iupacName:
+    "(2S)-6-amino-2-[[(2R)-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2S)-2-amino-3-(1H-imidazol-5-yl)propanoyl]amino]-3-(2-methyl-1H-indol-3-yl)propanoyl]amino]propanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-fenylpropanoyl]amino]hexanamide"
+}
+
+  },
+
+  appearance: "Wit gelyofiliseerd peptidepoeder",
+
+  storage: "Bewaar bij −20°C. Vermijd herhaalde vries-dooicycli.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"ipamorelin-2mg": {
+  name: "Ipamorelin 2mg",
+
+  tagline:
+    "Selectieve groeihormoonsecretagoog voor receptor-specifiek endocrien signaleringsonderzoek",
+
+  cas: "170851-70-4",
+
+  strength: [
+    "Ipamorelin 2mg van BioPeptide is een hoogzuiver onderzoekspeptide dat is ontwikkeld voor geavanceerde laboratoriumstudies naar groeihormoonsignalering, ghrelinereceptoractivatie en analyse van endocriene routes. Gesynthetiseerd met precisie-peptidechemie en gezuiverd tot ≥99% HPLC, ondersteunt Ipamorelin reproduceerbaar in-vitro en biochemisch onderzoek binnen academische en biotechnologische laboratoria."
+  ],
+
+  topDescription: {
+    p0: "Ipamorelin is een synthetisch pentapeptide dat wordt geclassificeerd als een groeihormoonsecretagoog en veel wordt gebruikt in laboratoriumonderzoek.",
+    p1: "Onderzoekers bestuderen Ipamorelin vanwege de selectieve interactie met groeihormoonsecretagoogreceptoren (GHS-R) en de rol ervan in receptor-specifieke endocriene signalering.",
+    p2: "De gerichte receptoractiviteit maakt het nuttig voor onderzoek naar hypofyse-hormoonroutes en mechanismen van groeihormoonsecretie."
+  },
+
+  components: [
+    "Ipamorelin — 2mg gelyofiliseerde peptideflacon"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "Ipamorelin is een synthetisch pentapeptide dat behoort tot de klasse van groeihormoonsecretagoog-onderzoekspeptiden.",
+      "Het wordt voornamelijk bestudeerd vanwege de interactie met de groeihormoonsecretagoogreceptor (GHS-R).",
+      "Laboratoriumonderzoek richt zich vaak op de selectieve receptoractivatie en het endocriene signaleringsgedrag van Ipamorelin.",
+      "Deze eigenschappen maken het waardevol voor receptorbindingsonderzoek en modellen voor hormonale signaalroutes."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Groeihormoonsecretie wordt gereguleerd via complexe endocriene routes waarbij hypothalamische peptiden en hypofyse-receptoren betrokken zijn.",
+      "Ipamorelin activeert selectief ghrelinereceptoren die betrokken zijn bij de afgifte van groeihormoon.",
+      "De receptorspecificiteit stelt onderzoekers in staat om GH-signalering te bestuderen met minimale interactie met andere hormonale routes.",
+      "Dit maakt Ipamorelin een nuttige verbinding voor endocrien signaleringsonderzoek en receptorgericht onderzoek."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Activatie van groeihormoonsecretagoogreceptoren",
+      "Onderzoek naar endocriene signalering van de hypofyse",
+      "Studies naar selectieve peptide-receptorinteractie",
+      "Onderzoek naar hormoonsecretieroutes",
+      "Onderzoek naar cellulaire signaalroutes"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar groeihormoonafgifte",
+        text: "Ipamorelin wordt gebruikt in laboratoriumonderzoek om GH-secretiepatronen en timing van receptoractivatie te bestuderen."
+      },
+      {
+        title: "Hypofyse-receptorsignalering",
+        text: "Onderzoekers analyseren hoe Ipamorelin interageert met GHS-R-receptoren binnen hypofyse-signaalroutes."
+      },
+      {
+        title: "Onderzoek naar endocriene routes",
+        text: "Laboratoria gebruiken Ipamorelin om hormonale signaleringscoördinatie en endocriene regulatie te onderzoeken."
+      },
+      {
+        title: "Cellulaire signaleringsstudies",
+        text: "Ipamorelin wordt opgenomen in celgebaseerde assays voor onderzoek naar intracellulaire signaalcascades."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van de verbinding: Ipamorelin",
+      "CAS-nummer: 170851-70-4",
+      "Peptidelengte: 5 aminozuren",
+      "Moleculaire formule: C38H49N9O5",
+      "Moleculair gewicht: ~711.85 g/mol",
+      "Vorm: Gelyofiliseerd peptidepoeder",
+      "Zuiverheid: ≥99% HPLC-gecontroleerd"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Bewaar het gelyofiliseerde peptide bij −20°C",
+      "Bescherm tegen vocht en blootstelling aan licht",
+      "Vermijd herhaalde vries-dooicycli",
+      "Gereconstitueerde oplossingen moeten gekoeld worden bewaard",
+      "Gebruik steriele laboratoriumoplosmiddelen voor bereiding"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en reconstitutieopties",
+    solubilityPoints: [
+      "Steriel bacteriostatisch water",
+      "Steriele zoutoplossingen",
+      "Laboratoriumbufferoplossingen",
+      "Peptide-assaybuffers",
+      "Biochemische oplosmiddelsystemen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "Ipamorelin 2mg",
+      brand: "BioPeptides",
+      cas: "170851-70-4",
+      purity: "≥99% (HPLC-gecontroleerd)",
+      unitSize: "2mg flacon",
+      form: "Gelyofiliseerd poeder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC en massaspectrometrie",
+      molecularStructure: "Groeihormoonsecretagoog-peptide",
+      stability: "Stabiel wanneer opgeslagen bij −20°C"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "Zuiverheidsverificatie met high-performance liquid chromatography",
+      "Bevestiging van moleculair gewicht via massaspectrometrie",
+      "Validatie van structurele peptide-integriteit",
+      "Testen van analytische consistentie tussen batches",
+      "Verificatie van peptidestabiliteit"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "Ipamorelin geleverd door BioPeptides is uitsluitend bedoeld voor laboratorium- en wetenschappelijk onderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, cosmetische toepassingen of therapeutische behandelingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt Ipamorelin gebruikt in onderzoek?",
+        a: "Ipamorelin wordt veel gebruikt om mechanismen van groeihormoonsecretie en ghrelinereceptorsignalering te bestuderen in laboratoriumomgevingen."
+      },
+      {
+        q: "Wat identificeert CAS 170851-70-4?",
+        a: "CAS 170851-70-4 identificeert het Ipamorelin-peptide uniek voor nauwkeurige onderzoeksdocumentatie en traceerbaarheid."
+      },
+      {
+        q: "Hoe verschilt Ipamorelin van andere GH-secretagogen?",
+        a: "Ipamorelin staat bekend om selectieve receptoractivatie, waardoor het nuttig is voor onderzoek naar gerichte endocriene signalering."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken Ipamorelin vaak?",
+        a: "Ipamorelin wordt vaak gebruikt in endocrinologie, peptide-signaleringsonderzoek, moleculaire biologie en studies naar hormoonroutes."
+      },
+      {
+        q: "Is Ipamorelin geschikt voor in-vitro onderzoek?",
+        a: "Ja. Ipamorelin wordt veel gebruikt in gecontroleerde in-vitro studies naar receptorbinding en intracellulaire signalering."
+      },
+      {
+        q: "Waarom is het 2mg-formaat nuttig?",
+        a: "Het 2mg-formaat is geschikt voor pilotexperimenten en receptorbindingsstudies waarvoor nauwkeurige peptidehoeveelheden nodig zijn."
+      },
+      {
+        q: "Hoe moet Ipamorelin worden opgeslagen?",
+        a: "Gelyofiliseerd Ipamorelin moet worden bewaard bij −20°C en beschermd worden tegen herhaalde vries-dooicycli."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor Ipamorelin?",
+        a: "BioPeptides levert hoogzuivere peptiden met geverifieerde CAS-documentatie en laboratoriumgeschikte verpakking."
+      }
+    ],
+
+   chemicalProperties: {
+  molecularFormula: "C38H49N9O5",
+  molecularWeight: "711.9",
+  monoisotopicMass: "711.3856657",
+  polarArea: "240",
+  complexity: "1200",
+  xlogP: "1.8",
+  heavyAtomCount: "52",
+  hydrogenBondDonorCount: "8",
+  hydrogenBondAcceptorCount: "8",
+  rotatableBondCount: "19",
+  cid: "9831659",
+  inchi:
+    "InChI=1S/C38H49N9O5/c1-38(2,41)37(52)47-32(21-28-22-42-23-43-28)36(51)46-31(20-25-15-16-26-12-6-7-13-27(26)18-25)35(50)45-30(19-24-10-4-3-5-11-24)34(49)44-29(33(40)48)14-8-9-17-39/h3-7,10-13,15-16,18,22-23,29-32H,8-9,14,17,19-21,39,41H2,1-2H3,(H2,40,48)(H,42,43)(H,44,49)(H,45,50)(H,46,51)(H,47,52)/t29-,30+,31+,32-/m0/s1",
+  inchiKey: "NEHWBYHLYZGBNO-BVEPWEIPSA-N",
+
+  canonicalSmiles:
+    "CC(C)(C(=O)NC(CC1=CN=CN1)C(=O)NC(CC2=CC3=CC=CC=C3C=C2)C(=O)NC(CC4=CC=CC=C4)C(=O)NC(CCCCN)C(=O)N)N",
+
+  isomericSmiles:
+    "CC(C)(C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@H](CC2=CC3=CC=CC=C3C=C2)C(=O)N[C@H](CC4=CC=CC=C4)C(=O)N[C@@H](CCCCN)C(=O)N)N",
+
+  iupacName:
+    "(2S)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2S)-2-[(2-amino-2-methylpropanoyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]-3-naftaleen-2-ylpropanoyl]amino]-3-fenylpropanoyl]amino]hexanamide"
+}
+
+  },
+
+  appearance: "Wit gelyofiliseerd poeder",
+
+  storage: "Bewaar bij −20°C. Vermijd herhaalde vries-dooicycli.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"l-glutathione-600mg": {
+  name: "L-Glutathion 600mg",
+
+  tagline:
+    "Endogene antioxidant-onderzoeksverbinding voor studies naar cellulaire redox- en detoxificatieroutes",
+
+  cas: "170-18-8",
+
+  strength: [
+    "L-Glutathion (GSH) 600mg van BioPeptides is een hoogzuivere, research-grade tripeptideverbinding die veel wordt gebruikt in laboratoriumstudies gericht op oxidatieve stress, cellulaire redoxbalans, detoxificatieroutes en antioxidante signaleringsmechanismen. Gesynthetiseerd en gezuiverd tot ≥99% HPLC, zorgt deze verbinding voor uitstekende moleculaire stabiliteit en reproduceerbaarheid voor veeleisend wetenschappelijk onderzoek. Geïdentificeerd met CAS 170-18-8 wordt L-Glutathion vertrouwd door onderzoekslaboratoria in Europa en de Verenigde Staten. BioPeptides biedt veilige toegang tot premium onderzoeksverbindingen met geverifieerde documentatie en professionele laboratoriumverpakking."
+  ],
+
+  topDescription: {
+    p0: "L-Glutathion (GSH) is een van nature voorkomend tripeptide dat bestaat uit glutamaat, cysteïne en glycine.",
+    p1: "In laboratoriumonderzoek wordt het breed bestudeerd vanwege zijn rol in cellulaire antioxidant-afweersystemen en redoxsignaleringsroutes.",
+    p2: "Door zijn centrale rol in intracellulaire bescherming en detoxificatiemechanismen is glutathion een fundamentele verbinding in biochemisch en cellulair onderzoek."
+  },
+
+  components: [
+    "L-Glutathion (gereduceerd, GSH) — 600mg research-grade verbinding"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "L-Glutathion (GSH) is een van de meest voorkomende endogene antioxidanten in biologische systemen.",
+      "Onderzoekers bestuderen glutathion vanwege zijn rol bij het behouden van de cellulaire redoxbalans en het beschermen van cellen tegen oxidatieve stress.",
+      "De verbinding neemt deel aan detoxificatieroutes en redoxgevoelige signaleringsmechanismen.",
+      "Het 600mg onderzoeksformaat ondersteunt uitgebreide experimentele studies en herhaalde biochemische assays."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Glutathion speelt een centrale rol bij het behouden van intracellulaire homeostase en cellulaire antioxidantafweer.",
+      "Het komt voor in zowel gereduceerde (GSH) als geoxideerde (GSSG) vorm en vormt daarmee een belangrijk regulerend systeem voor redoxbalans.",
+      "In biochemische onderzoeksmodellen wordt glutathion vaak gebruikt om oxidatieve stressresponsen en detoxificatieroutes te onderzoeken.",
+      "Vanwege zijn universele aanwezigheid in cellen wordt glutathion vaak gebruikt als referentieverbinding in antioxidant- en celbeschermingsstudies."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar oxidatieve stressroutes",
+      "Onderzoek naar redoxsignalering en antioxidantafweer",
+      "Analyse van detoxificatie- en conjugatieroutes",
+      "Studies naar mitochondriale functie en metabole signalering",
+      "Modellering van cellulaire bescherming en stressrespons"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar oxidatieve stress en redoxbalans",
+        text: "Glutathion wordt breed gebruikt om cellulaire reacties op oxidatieve stress te modelleren en redoxregulatiemechanismen te onderzoeken."
+      },
+      {
+        title: "Studies naar antioxidant-afweerroutes",
+        text: "Onderzoekers analyseren intracellulaire antioxidantsystemen en hun interacties met reactieve zuurstofsoorten."
+      },
+      {
+        title: "Onderzoek naar cellulaire detoxificatie",
+        text: "Glutathion neemt deel aan detoxificatieroutes, waardoor het nuttig is voor biochemische en enzymatische studies."
+      },
+      {
+        title: "Moleculair en cellulair biologisch onderzoek",
+        text: "Laboratoria nemen glutathion op in celgebaseerde assays voor onderzoek naar transcriptionele responsen en metabole regulatie."
+      },
+      {
+        title: "In-vitro onderzoeksmodellen",
+        text: "Glutathion wordt veel gebruikt in niet-klinisch onderzoek naar oxidatieve schade en cellulaire beschermingsmechanismen."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van de verbinding: L-Glutathion (gereduceerd, GSH)",
+      "CAS-nummer: 170-18-8",
+      "Peptidelengte: 3 aminozuren",
+      "Moleculaire formule: C10H17N3O6S",
+      "Moleculair gewicht: 307.32 g/mol",
+      "Vorm: Wit tot gebroken wit poeder",
+      "Zuiverheid: ≥99% HPLC-gecontroleerd"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Bewaar de verbinding bij −20°C voor langdurige stabiliteit",
+      "Bescherm tegen vocht en directe blootstelling aan licht",
+      "Vermijd herhaalde vries-dooicycli indien gereconstitueerd",
+      "Gebruik steriele laboratoriumoplosmiddelen voor bereiding",
+      "Hanteer volgens standaard aseptische laboratoriumtechnieken"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en reconstitutieopties",
+    solubilityPoints: [
+      "Steriel water",
+      "Gebufferde waterige laboratoriumoplossingen",
+      "Fysiologische zoutoplossingen",
+      "Biochemische assaybuffers",
+      "Laboratoriumgeschikte oplosmiddelsystemen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "L-Glutathion 600mg",
+      brand: "BioPeptides",
+      cas: "170-18-8",
+      purity: "≥99% (HPLC-gecontroleerd)",
+      unitSize: "600mg",
+      form: "Poeder",
+      synthesis: "Chemische synthese",
+      analytical: "HPLC en massaspectrometrie",
+      molecularStructure: "Tripeptide antioxidantverbinding",
+      stability: "Stabiel wanneer opgeslagen in een koele, droge omgeving"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "Zuiverheidsverificatie met high-performance liquid chromatography",
+      "Bevestiging van moleculair gewicht via massaspectrometrie",
+      "Validatie van structurele integriteit",
+      "Testen van analytische consistentie tussen batches",
+      "Verificatie van stabiliteit van de verbinding"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "L-Glutathion geleverd door BioPeptides is uitsluitend bedoeld voor laboratorium- en wetenschappelijk onderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, cosmetische toepassingen of therapeutische behandelingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt L-Glutathion voornamelijk gebruikt in onderzoek?",
+        a: "L-Glutathion wordt breed bestudeerd voor oxidatieve stressresponsen, antioxidant-afweermechanismen en cellulaire detoxificatieroutes."
+      },
+      {
+        q: "Waarom is L-Glutathion belangrijk in redoxbiologie?",
+        a: "Glutathion speelt een centrale rol bij het behouden van de cellulaire redoxbalans en het beschermen van cellen tegen oxidatieve schade."
+      },
+      {
+        q: "Wat geeft CAS 170-18-8 aan?",
+        a: "CAS 170-18-8 identificeert L-Glutathion uniek en zorgt voor nauwkeurige identificatie van de verbinding en reproduceerbaarheid binnen wetenschappelijke documentatie."
+      },
+      {
+        q: "Is L-Glutathion geschikt voor in-vitro onderzoek?",
+        a: "Ja. L-Glutathion wordt vaak gebruikt in gecontroleerde in-vitro experimenten waarin oxidatieve stress en gedrag van antioxidante routes worden gemodelleerd."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken glutathion vaak?",
+        a: "Glutathion wordt gebruikt in biochemie, moleculaire biologie, toxicologie, cellulaire fysiologie en onderzoek naar oxidatieve stress."
+      },
+      {
+        q: "Waarom kiezen voor het 600mg-formaat?",
+        a: "Het 600mg-formaat ondersteunt uitgebreide onderzoeksstudies en herhaalde experimentele assays zonder frequent opnieuw bestellen."
+      },
+      {
+        q: "Hoe moet L-Glutathion worden opgeslagen?",
+        a: "L-Glutathion moet worden bewaard in een koele, droge omgeving en beschermd worden tegen vocht en licht."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor glutathion-onderzoeksverbindingen?",
+        a: "BioPeptides levert hoogzuivere onderzoeksverbindingen met geverifieerde CAS-documentatie en laboratoriumgeschikte verpakking."
+      }
+    ],
+
+   chemicalProperties: {
+  molecularFormula: "C10H17N3O6S",
+  molecularWeight: "307.33",
+  monoisotopicMass: "307.08380644",
+  polarArea: "160",
+  complexity: "389",
+  xlogP: "-4.5",
+  heavyAtomCount: "20",
+  hydrogenBondDonorCount: "6",
+  hydrogenBondAcceptorCount: "8",
+  rotatableBondCount: "9",
+  cid: "124886",
+  inchi:
+    "InChI=1S/C10H17N3O6S/c11-5(10(18)19)1-2-7(14)13-6(4-20)9(17)12-3-8(15)16/h5-6,20H,1-4,11H2,(H,12,17)(H,13,14)(H,15,16)(H,18,19)/t5-,6-/m0/s1",
+  inchiKey: "RWSXRVCMGQZWBV-WDSKDSINSA-N",
+
+  canonicalSmiles:
+    "C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N",
+
+  isomericSmiles:
+    "C(CC(=O)N[C@@H](CS)C(=O)NCC(=O)O)[C@@H](C(=O)O)N",
+
+  iupacName:
+    "(2S)-2-amino-5-[[(2R)-1-(carboxymethylamino)-1-oxo-3-sulfanylpropan-2-yl]amino]-5-oxopentanoic acid"
+}
+  },
+
+  appearance: "Wit tot gebroken wit poeder",
+
+  storage: "Bewaar in een koele, droge omgeving. Bescherm tegen vocht en licht.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"ll-37-5mg-cap-18": {
+  name: "LL-37 (CAP-18) 5mg",
+
+  tagline:
+    "Van humane cathelicidine afgeleid antimicrobieel peptide voor onderzoek naar aangeboren immuniteit en gastheer–pathogeeninteracties",
+
+  cas: "154947-66-7",
+
+  strength: [
+    "LL-37 (CAP-18) 5mg van BioPeptides is een hoogzuiver antimicrobieel onderzoekspeptide dat is ontwikkeld voor laboratoriumstudies gericht op aangeboren immuunsignalering, gastheerafweermechanismen en peptide–membraaninteracties. Geproduceerd met precisie-solid-phase peptide synthesis en gezuiverd tot ≥99% HPLC, biedt LL-37 uitstekende moleculaire nauwkeurigheid en reproduceerbaarheid voor veeleisende wetenschappelijke onderzoeksomgevingen."
+  ],
+
+  topDescription: {
+    p0: "LL-37 is een van nature voorkomend antimicrobieel peptide dat is afgeleid van de humane cathelicidine-precursor CAP-18.",
+    p1: "In onderzoeksomgevingen wordt het breed bestudeerd vanwege zijn interactie met microbiële membranen en aangeboren immuunsignaleringsroutes.",
+    p2: "Zijn multifunctionele rol in antimicrobiële afweer, ontstekingssignalering en epitheliale biologie maakt LL-37 een waardevol peptide voor immunologische en microbiologische onderzoeksmodellen."
+  },
+
+  components: [
+    "LL-37 (CAP-18) — 5mg gevriesdroogde peptideflacon"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "LL-37 is een kationisch antimicrobieel peptide dat is afgeleid van het humane cathelicidine-precursoreiwit CAP-18.",
+      "Onderzoekers bestuderen LL-37 vanwege zijn rol in aangeboren immuunafweer en mechanismen van gastheer–pathogeeninteractie.",
+      "Het peptide interageert met microbiële membranen en immuunsignaleringsroutes in gecontroleerde laboratoriummodellen.",
+      "Het 5mg onderzoeksformaat ondersteunt uitgebreide experimentele workflows en meerdere microbiologische of immunologische assays."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "LL-37 is het enige bekende humane cathelicidine-antimicrobiële peptide dat is geïdentificeerd binnen aangeboren immuunsystemen.",
+      "Het speelt een rol in antimicrobiële afweer door interactie met bacteriële membranen en modulatie van immuunresponsen.",
+      "In onderzoeksmodellen wordt LL-37 bestudeerd vanwege zijn betrokkenheid bij ontstekingssignalering, rekrutering van immuuncellen en epitheliale barrièrebiologie.",
+      "Door zijn multifunctionele gedrag wordt LL-37 breed gebruikt in microbiologie en onderzoek naar gastheerafweerpeptiden."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Studies naar antimicrobieel peptide–membraaninteracties",
+      "Onderzoek naar aangeboren immuunsignaleringsroutes",
+      "Onderzoek naar modulatie van ontstekingssignalering",
+      "Mechanismen van gastheer–pathogeeninteractie",
+      "Studies naar immuuncelsignalering en chemotaxisroutes"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar antimicrobiële mechanismen",
+        text: "LL-37 wordt breed gebruikt in microbiologisch onderzoek om interacties tussen antimicrobiële peptiden en microbiële membranen te onderzoeken."
+      },
+      {
+        title: "Studies naar aangeboren immuniteit",
+        text: "Onderzoekers bestuderen LL-37 om gastheerafweersignalering en regulatie van immuunresponsen beter te begrijpen."
+      },
+      {
+        title: "Onderzoek naar ontstekingsroutes",
+        text: "LL-37 ondersteunt onderzoek naar ontstekingsgerelateerde signaleringscascades en immuunmodulatiemechanismen."
+      },
+      {
+        title: "Moleculair en cellulair biologisch onderzoek",
+        text: "Laboratoria gebruiken LL-37 in celgebaseerde assays om peptidegemedieerde signalering en transcriptionele responsen te bestuderen."
+      },
+      {
+        title: "Onderzoek naar gastheer–pathogeeninteracties",
+        text: "LL-37 wordt vaak gebruikt in studies naar interacties tussen antimicrobiële peptiden en microbiële systemen."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van de verbinding: LL-37 (CAP-18)",
+      "CAS-nummer: 154947-66-7",
+      "Peptidelengte: 37 aminozuren",
+      "Peptideklasse: Humaan cathelicidine-antimicrobieel peptide",
+      "Vorm: Gevriesdroogd peptidepoeder",
+      "Zuiverheid: ≥99% HPLC-gecontroleerd",
+      "Eenheidsformaat: 5mg onderzoeksformaat"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Bewaar het gevriesdroogde peptide bij −20°C",
+      "Bescherm tegen vocht en directe blootstelling aan licht",
+      "Vermijd herhaalde vries-dooicycli",
+      "Gereconstitueerde oplossingen moeten gekoeld worden bewaard",
+      "Bereid oplossingen met steriele laboratoriumoplosmiddelen"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en reconstitutieopties",
+    solubilityPoints: [
+      "Steriel bacteriostatisch water",
+      "Steriele zoutoplossing",
+      "Gebufferde waterige laboratoriumoplossingen",
+      "Celcultuur-compatibele buffers",
+      "Biochemische assay-oplosmiddelsystemen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "LL-37 (CAP-18) 5mg",
+      brand: "BioPeptides",
+      cas: "154947-66-7",
+      purity: "≥99% (HPLC-gecontroleerd)",
+      unitSize: "5mg flacon",
+      form: "Gevriesdroogd poeder",
+      synthesis: "Solid-phase peptide synthesis",
+      analytical: "HPLC en massaspectrometrie",
+      molecularStructure: "37-aminozuur antimicrobieel peptide",
+      stability: "Stabiel wanneer opgeslagen bij −20°C"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "Zuiverheidsverificatie met high-performance liquid chromatography",
+      "Bevestiging van moleculair gewicht via massaspectrometrie",
+      "Validatie van structurele integriteit van het peptide",
+      "Testen van analytische consistentie tussen batches",
+      "Verificatie van peptidestabiliteit"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "LL-37 geleverd door BioPeptides is uitsluitend bedoeld voor laboratorium- en wetenschappelijk onderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, cosmetische toepassingen of therapeutische behandelingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt LL-37 voornamelijk bestudeerd in onderzoek?",
+        a: "LL-37 wordt voornamelijk bestudeerd voor antimicrobiële mechanismen, aangeboren immuunsignalering en onderzoek naar gastheerafweerroutes."
+      },
+      {
+        q: "Hoe verschilt LL-37 van andere antimicrobiële peptiden?",
+        a: "LL-37 combineert antimicrobiële membraanverstoring met modulatie van immuunsignalering, waardoor onderzoekers zowel microbiële interactie als gastheerafweerroutes kunnen bestuderen."
+      },
+      {
+        q: "Wat vertegenwoordigt CAS 154947-66-7?",
+        a: "CAS 154947-66-7 identificeert LL-37 uniek en zorgt voor nauwkeurige identificatie van de verbinding en reproduceerbaarheid binnen laboratoriumonderzoeksdocumentatie."
+      },
+      {
+        q: "Wordt LL-37 gebruikt in microbiologisch onderzoek?",
+        a: "Ja. LL-37 wordt breed gebruikt in microbiologische studies naar antimicrobiële peptideactiviteit en interactie met microbiële membranen."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken LL-37 vaak?",
+        a: "LL-37 wordt vaak gebruikt in immunologie, microbiologie, moleculaire biologie, antimicrobieel onderzoek en studies naar gastheer–pathogeeninteracties."
+      },
+      {
+        q: "Waarom kiezen voor het 5mg onderzoeksformaat?",
+        a: "Het 5mg flaconformaat maakt meerdere assays en uitgebreide onderzoeksstudies mogelijk terwijl peptideverspilling wordt geminimaliseerd."
+      },
+      {
+        q: "Hoe moet LL-37 worden opgeslagen?",
+        a: "LL-37 moet in gevriesdroogde vorm bij −20°C worden bewaard en beschermd worden tegen vocht en herhaalde vries-dooicycli."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor LL-37 onderzoekspeptiden?",
+        a: "BioPeptides levert hoogzuivere onderzoekspeptiden met geverifieerde CAS-documentatie en betrouwbare verzending voor onderzoekslaboratoria."
+      }
+    ],
+
+     chemicalProperties: {
+  molecularFormula: "C205H340N60O53",
+  molecularWeight: "4493",
+  monoisotopicMass: "4490.5754259",
+  polarArea: "1900",
+  complexity: "10700",
+  xlogP: "-20.7",
+  heavyAtomCount: "318",
+  hydrogenBondDonorCount: "68",
+  hydrogenBondAcceptorCount: "65",
+  rotatableBondCount: "166",
+  cid: "16198951",
+  inchi:
+    "InChI=1S/C205H340N60O53/c1-20-114(16)162(261-179(296)128(66-40-46-86-211)235-176(293)135(74-78-155(273)274)243-170(287)125(63-37-43-83-208)241-192(309)148(106-266)257-174(291)126(64-38-44-84-209)234-171(288)129(67-47-87-225-201(215)216)240-185(302)142(98-119-55-29-24-30-56-119)252-187(304)144(100-121-59-33-26-34-60-121)253-189(306)146(102-158(279)280)233-154(272)104-230-167(284)138(94-109(6)7)248-166(283)122(212)93-108(4)5)194(311)231-105-153(271)232-123(61-35-41-81-206)168(285)242-136(75-79-156(275)276)177(294)251-141(97-118-53-27-23-28-54-118)184(301)238-124(62-36-42-82-207)169(286)236-131(69-49-89-227-203(219)220)181(298)263-164(116(18)22-3)197(314)259-160(112(12)13)195(312)246-134(73-77-151(213)269)175(292)237-132(70-50-90-228-204(221)222)180(297)262-163(115(17)21-2)196(313)245-127(65-39-45-85-210)172(289)256-147(103-159(281)282)190(307)254-143(99-120-57-31-25-32-58-120)186(303)249-139(95-110(8)9)183(300)239-130(68-48-88-226-202(217)218)173(290)255-145(101-152(214)270)188(305)250-140(96-111(10)11)191(308)260-161(113(14)15)199(316)265-92-52-72-150(265)193(310)244-133(71-51-91-229-205(223)224)182(299)264-165(117(19)268)198(315)247-137(76-80-157(277)278)178(295)258-149(107-267)200(317)318/h23-34,53-60,108-117,122-150,160-165,266-268H,20-22,35-52,61-107,206-212H2,1-19H3,(H2,213,269)(H2,214,270)(H,230,284)(H,231,311)(H,232,271)(H,233,272)(H,234,288)(H,235,293)(H,236,286)(H,237,292)(H,238,301)(H,239,300)(H,240,302)(H,241,309)(H,242,285)(H,243,287)(H,244,310)(H,245,313)(H,246,312)(H,247,315)(H,248,283)(H,249,303)(H,250,305)(H,251,294)(H,252,304)(H,253,306)(H,254,307)(H,255,290)(H,256,289)(H,257,291)(H,258,295)(H,259,314)(H,260,308)(H,261,296)(H,262,297)(H,263,298)(H,264,299)(H,273,274)(H,275,276)(H,277,278)(H,279,280)(H,281,282)(H,317,318)(H4,215,216,225)(H4,217,218,226)(H4,219,220,227)(H4,221,222,228)(H4,223,224,229)/t114-,115-,116-,117+,122-,123-,124-,125-,126-,127-,128-,129-,130-,131-,132-,133-,134-,135-,136-,137-,138-,139-,140-,141-,142-,143-,144-,145-,146-,147-,148-,149-,150-,160-,161-,162-,163-,164-,165-/m0/s1",
+  inchiKey: "POIUWJQBRNEFGX-XAMSXPGMSA-N",
+
+  canonicalSmiles:
+    "CCC(C)C(C(=O)NCC(=O)NC(CCCCN)C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(CCCCN)C(=O)NC(CCCNC(=N)N)C(=O)NC(C(C)CC)C(=O)NC(C(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(C(C)CC)C(=O)NC(CCCCN)C(=O)NC(CC(=O)O)C(=O)NC(CC2=CC=CC=C2)C(=O)NC(CC(C)C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)N3CCCC3C(=O)NC(CCCNC(=N)N)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)O)NC(=O)C(CCCCN)NC(=O)C(CCC(=O)O)NC(=O)C(CCCCN)NC(=O)C(CO)NC(=O)C(CCCCN)NC(=O)C(CCCNC(=N)N)NC(=O)C(CC4=CC=CC=C4)NC(=O)C(CC5=CC=CC=C5)NC(=O)C(CC(=O)O)NC(=O)CNC(=O)C(CC(C)C)NC(=O)C(CC(C)C)N",
+
+  isomericSmiles:
+    "CC[C@H](C)[C@@H](C(=O)NCC(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)N3CCC[C@H]3C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CO)C(=O)O)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CO)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CC4=CC=CC=C4)NC(=O)[C@H](CC5=CC=CC=C5)NC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(C)C)N",
+
+  iupacName:
+    "(4S)-5-[[(2S)-6-amino-1-[[(2S,3S)-1-[[2-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-4-amino-1-[[(2S)-1-[[(2S)-1-[(2S)-2-[[(2S)-5-carbamimidamido-1-[[(2S,3R)-1-[[(2S)-4-carboxy-1-[[(1S)-1-carboxy-2-hydroxyethyl]amino]-1-oxobutan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-3-methyl-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1-oxohexan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-2-oxoethyl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-4-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[2-[[(2S)-2-[[(2S)-2-amino-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]acetyl]amino]-3-carboxypropanoyl]amino]-3-phenylpropanoyl]amino]-3-phenylpropanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-3-hydroxypropanoyl]amino]hexanoyl]amino]-5-oxopentanoic acid"
+}
+
+  },
+
+  appearance: "Wit tot gebroken wit gevriesdroogd poeder",
+
+  storage: "Bewaar bij −20°C. Vermijd herhaalde vries-dooicycli.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"5-amino-1mq-50mg-capsules": {
+  name: "5-Amino-1MQ + NMN + JBSNF (60 Capsules)",
+
+  tagline:
+    "Metabole onderzoeksformule met meerdere verbindingen voor cellulaire energiebanen en studies naar longevity-signalering",
+
+  cas: "42464-96-0",
+
+  strength: [
+    "5-Amino-1MQ 50mg Capsules van BioPeptides combineren een research-grade kleine-molecuulverbinding met metabole cofactoren die vaak worden bestudeerd in cellulair energiemetabolisme, NAD⁺-signalering en onderzoek naar enzymatische routes. Geproduceerd via gecontroleerde productieprocessen en analytisch geverifieerd tot ≥99% zuiverheid, ondersteunt deze formulering betrouwbare prestaties in geavanceerde laboratoriumonderzoeksomgevingen."
+  ],
+
+  topDescription: {
+    p0: "5-Amino-1MQ is een op quinoline gebaseerd klein molecuul dat wordt bestudeerd vanwege zijn interactie met enzymatische metabole routes.",
+    p1: "In onderzoeksomgevingen wordt het vaak onderzocht naast NAD⁺-routeprecursoren zoals NMN om cellulair metabolisme en longevity-gerelateerde signalering te bestuderen.",
+    p2: "Het capsuleformaat ondersteunt consistente hantering en gecontroleerde onderzoeksworkflows in studies naar metabole routes."
+  },
+
+  components: [
+    "5-Amino-1MQ — op quinoline gebaseerde NNMT-remmer onderzoeksverbinding",
+    "NMN (Nicotinamide Mononucleotide) — NAD⁺-routeprecursor",
+    "JBSNF — gepatenteerde metabole onderzoeksblend"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "5-Amino-1MQ is een synthetische kleine-molecuulverbinding die behoort tot de familie van quinolinederivaten.",
+      "Onderzoekers bestuderen deze verbinding vanwege haar rol in enzymgerelateerde metabole regulatie en intracellulaire signaleringsroutes.",
+      "De combinatie met NMN en metabole onderzoeksblends maakt onderzoek mogelijk naar cellulaire energieregulatie en dynamiek van de NAD⁺-route.",
+      "Het capsuleformaat ondersteunt uitgebreide laboratoriumstudies en consistente experimentele hantering."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Kleine-molecuul metabole regulatoren worden veel gebruikt in onderzoek naar enzymatische signaleringsroutes.",
+      "5-Amino-1MQ is bestudeerd vanwege zijn interactie met nicotinamide N-methyltransferase (NNMT), een enzym dat wordt geassocieerd met metabool signaleringsonderzoek.",
+      "NMN is een precursormolecuul dat betrokken is bij NAD⁺-biosynthese en vaak wordt onderzocht in studies naar cellulair energiemetabolisme.",
+      "Samen bieden deze verbindingen onderzoekers hulpmiddelen om modulatie van metabole routes en moleculaire signaleringsnetwerken te bestuderen."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar interactie met het NNMT-enzym",
+      "Analyse van cellulaire metabole routes",
+      "Onderzoek naar de NAD⁺-biosyntheseroute",
+      "Onderzoek naar intracellulaire signalering door kleine moleculen",
+      "Studies naar metabole regulatieroutes"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Studies naar cellulair metabolisme",
+        text: "Onderzoekers gebruiken 5-Amino-1MQ om metabole signaleringsroutes en enzymatische regulatie binnen gecontroleerde laboratoriumomgevingen te verkennen."
+      },
+      {
+        title: "NAD⁺-routeonderzoek",
+        text: "De toevoeging van NMN maakt onderzoek mogelijk naar NAD⁺-biosynthese en modellen van cellulair energiemetabolisme."
+      },
+      {
+        title: "Studies naar enzymatische regulatie",
+        text: "Laboratoria onderzoeken hoe kleine moleculen interageren met metabole enzymen en intracellulaire signaleringsmechanismen."
+      },
+      {
+        title: "Moleculair en cellulair biologisch onderzoek",
+        text: "Celgebaseerde assays gebruiken verbindingen zoals 5-Amino-1MQ om transcriptionele responsen en metabole regulatie te analyseren."
+      },
+      {
+        title: "In-vitro onderzoeksmodellen",
+        text: "Deze samengestelde formulering wordt vaak gebruikt in niet-klinische in-vitro studies waarbij metabole en moleculaire routeanalyse centraal staat."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van de verbinding: 5-Amino-1MQ",
+      "CAS-nummer: 42464-96-0",
+      "Verbindingsklasse: Klein molecuul quinolinederivaat",
+      "Vorm: In capsules verpakte onderzoeksverbinding",
+      "Zuiverheid: ≥99% analytische zuiverheid",
+      "Eenheidsformaat: 50mg capsules (60 stuks)"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Bewaren in een koele, droge omgeving",
+      "Bescherm capsules tegen vocht en licht",
+      "Vermijd blootstelling aan overmatige hitte",
+      "Bewaar de verpakking gesloten wanneer niet in gebruik",
+      "Volg standaard laboratoriumopslagpraktijken"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en voorbereidingsrichtlijnen",
+    solubilityPoints: [
+      "Capsule-inhoud kan worden opgelost in compatibele laboratoriumoplosmiddelen",
+      "Geschikt voor biochemische assay-buffersystemen",
+      "Compatibel met waterige laboratoriumoplossingen",
+      "Kan worden gebruikt in voorbereidingen voor metabole route-assays",
+      "Compatibel met standaard in-vitro onderzoeksprotocollen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "5-Amino-1MQ 50mg Capsules",
+      brand: "BioPeptides",
+      cas: "42464-96-0",
+      purity: "≥99% analytische zuiverheid",
+      unitSize: "50mg capsules (60 stuks)",
+      form: "In capsules verpakte onderzoeksverbinding",
+      synthesis: "Gecontroleerde chemische synthese",
+      analytical: "HPLC en zuiverheidsverificatie",
+      molecularStructure: "Op quinoline gebaseerd klein molecuul",
+      stability: "Stabiel wanneer opgeslagen onder droge omstandigheden"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "Zuiverheidsverificatie met analytische tests",
+      "Bevestiging van de identiteit van de verbinding",
+      "Evaluatie van batch-tot-batch consistentie",
+      "Verificatie van chemische stabiliteit",
+      "Kwaliteitscontroleprocedures tijdens productie"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "5-Amino-1MQ geleverd door BioPeptides is uitsluitend bedoeld voor laboratorium- en wetenschappelijk onderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, cosmetische toepassingen of therapeutische behandelingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt 5-Amino-1MQ voornamelijk bestudeerd in onderzoek?",
+        a: "5-Amino-1MQ wordt bestudeerd voor onderzoek naar cellulair metabolisme, modulatie van enzymatische routes en analyse van intracellulaire signalering."
+      },
+      {
+        q: "Hoe verschilt 5-Amino-1MQ van peptide-onderzoeksverbindingen?",
+        a: "5-Amino-1MQ is een klein molecuul in plaats van een peptide en biedt gedefinieerde chemische stabiliteit en potentieel voor gericht enzyminteractieonderzoek."
+      },
+      {
+        q: "Wat vertegenwoordigt CAS 42464-96-0?",
+        a: "CAS 42464-96-0 identificeert de verbinding 5-Amino-1MQ uniek voor nauwkeurige chemische documentatie en reproduceerbaarheid in onderzoek."
+      },
+      {
+        q: "Wordt 5-Amino-1MQ gebruikt in in-vitro onderzoeksmodellen?",
+        a: "Ja. Het wordt vaak gebruikt in in-vitro experimenten die metabole regulatie en enzymatische signaleringsroutes onderzoeken."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken 5-Amino-1MQ vaak?",
+        a: "De verbinding wordt gebruikt in metabool onderzoek, moleculaire biologie, studies naar biochemische routes en onderzoeken naar cellulair metabolisme."
+      },
+      {
+        q: "Waarom kiezen voor het 50mg capsuleformaat?",
+        a: "Het capsuleformaat ondersteunt gemakkelijke laboratoriumhantering, consistente experimentele voorbereiding en uitgebreide onderzoeksworkflows."
+      },
+      {
+        q: "Hoe moeten 5-Amino-1MQ capsules worden opgeslagen?",
+        a: "Ze moeten worden bewaard op een koele, droge plaats, beschermd tegen vocht en licht."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor onderzoeksverbindingen?",
+        a: "BioPeptides levert hoogzuivere onderzoeksverbindingen met geverifieerde documentatie en betrouwbare levering voor onderzoekslaboratoria."
+      }
+    ],
+
+      chemicalProperties: {
+  molecularFormula: "C10H11N2+",
+  molecularWeight: "159.21",
+  monoisotopicMass: "159.092223359",
+  polarArea: "29.9",
+  complexity: "C158",
+  xlogP: "1.1",
+  heavyAtomCount: "12",
+  hydrogenBondDonorCount: "1",
+  hydrogenBondAcceptorCount: "1",
+  rotatableBondCount: "0",
+  cid: "950107",
+  inchi:
+    "InChI=1S/C10H10N2/c1-12-7-3-4-8-9(11)5-2-6-10(8)12/h2-7,11H,1H3/p+1",
+  inchiKey: "ZMJBCEIHNOWCMC-UHFFFAOYSA-O",
+
+  canonicalSmiles:
+    "C[N+]1=CC=CC2=C(C=CC=C21)N",
+
+  isomericSmiles:
+    "C[N+]1=CC=CC2=C(C=CC=C21)N",
+
+  iupacName:
+    "1-methylquinolin-1-ium-5-amine"
+}
+
+  },
+
+  appearance: "In capsules verpakt vast onderzoeksmateriaal",
+
+  storage: "Bewaren in een koele, droge omgeving, uit de buurt van direct licht.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"matrixyl-200mg-topical": {
+  name: "Matrixyl® 200mg (Topisch)",
+
+  tagline:
+    "Palmitoyl Pentapeptide-4 signaalpeptide voor onderzoek naar extracellulaire matrix en dermale signalering",
+
+  cas: "214047-00-4",
+
+  strength: [
+    "Matrixyl® (Palmitoyl Pentapeptide-4) 200mg Topisch van BioPeptides is een hoogzuivere, research-grade signaalpeptideformulering voor geavanceerde laboratorium- en formulatiestudies gericht op extracellulaire matrixsignalering, collageengerelateerde routes en onderzoek naar peptide-huidinteracties. Gesynthetiseerd met precisie solid-phase peptide synthesis en gezuiverd tot ≥99% HPLC, biedt dit topische onderzoeksmateriaal uitstekende moleculaire nauwkeurigheid en reproduceerbaarheid. Matrixyl®, geïdentificeerd met CAS 214047-00-4, wordt veel gebruikt in gecontroleerd in-vitro en formulatieonderzoek in Europa en de Verenigde Staten."
+  ],
+
+  topDescription: {
+    p0: "Matrixyl® (Palmitoyl Pentapeptide-4) is een synthetische lipopeptide-signaalsequentie die wordt bestudeerd vanwege haar rol in communicatie binnen de extracellulaire matrix en collageengeassocieerde cellulaire signalering.",
+    p1: "De palmitoyl-lipidegroep versterkt de interactie met lipide-omgevingen, waardoor deze peptide bijzonder relevant is voor topisch formulatieonderzoek en modellen voor peptideafgifte.",
+    p2: "In gecontroleerd laboratoriumonderzoek wordt Matrixyl® gebruikt om dermale fibroblastsignalering, ECM-communicatieroutes en peptidegemedieerde cellulaire responsen te onderzoeken."
+  },
+
+  components: [
+    "Matrixyl® (Palmitoyl Pentapeptide-4) — 200mg topische onderzoekspeptide"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "Matrixyl® is een gepalmitoyleerde signaalpeptide afgeleid van fragmenten van extracellulaire matrixeiwitten.",
+      "Onderzoekers bestuderen deze peptide vanwege haar interactie met dermale fibroblastsignalering en collageengeassocieerde routes.",
+      "De lipide-gemodificeerde structuur maakt onderzoek mogelijk naar peptide-lipide-interacties en topische peptideafgiftemodellen.",
+      "Het 200mg onderzoeksformaat ondersteunt uitgebreide formulatietests en herhaalde laboratoriumexperimenten."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Signaalpeptiden spelen een rol bij het reguleren van cellulaire communicatie binnen de extracellulaire matrix.",
+      "Palmitoyl Pentapeptide-4 bootst fragmenten na van structurele eiwitten die betrokken zijn bij dermale matrixsignalering.",
+      "In onderzoeksomgevingen wordt Matrixyl® bestudeerd vanwege haar interactie met fibroblastsignaleringsroutes en ECM-geassocieerde moleculaire communicatie.",
+      "Door de lipide-geconjugeerde structuur wordt de peptide ook gebruikt in formulatieonderzoek naar peptidestabiliteit en afgiftegedrag."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar signaleringsroutes van de extracellulaire matrix",
+      "Onderzoek naar cellulaire communicatie van fibroblasten",
+      "Studies naar collageengeassocieerde genexpressie",
+      "Modellen voor peptide-lipide-interactie",
+      "Onderzoek naar topische peptideafgiftesystemen"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Studies naar extracellulaire matrixsignalering",
+        text: "Matrixyl® wordt gebruikt om ECM-gerelateerde cellulaire communicatieroutes te onderzoeken in dermale onderzoeksmodellen."
+      },
+      {
+        title: "Onderzoek naar collageenroutes",
+        text: "Onderzoekers bestuderen deze peptide om signaleringsroutes te verkennen die verband houden met collageengenexpressie en regulatie van de dermale matrix."
+      },
+      {
+        title: "Topisch formulatieonderzoek",
+        text: "De lipide-gemodificeerde structuur maakt Matrixyl® nuttig in studies gericht op peptideafgiftesystemen en stabiliteit van topische formuleringen."
+      },
+      {
+        title: "Moleculair en cellulair biologisch onderzoek",
+        text: "Laboratoria gebruiken Matrixyl® in celgebaseerde assays om signaleringsresponsen en moleculair routegedrag te onderzoeken."
+      },
+      {
+        title: "Onderzoek naar peptideafgiftesystemen",
+        text: "Matrixyl® wordt vaak opgenomen in experimentele topische formuleringen om peptidetransport en stabiliteit te onderzoeken."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van de verbinding: Matrixyl® (Palmitoyl Pentapeptide-4)",
+      "CAS-nummer: 214047-00-4",
+      "Peptidelengte: 5 aminozuren",
+      "Peptideklasse: Lipopeptide signaalpeptide",
+      "Vorm: Topisch onderzoekspeptidepoeder",
+      "Zuiverheid: ≥99% HPLC-gecontroleerd",
+      "Eenheidsformaat: 200mg onderzoeksformaat"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Gekoeld bewaren bij 2–8°C",
+      "Beschermen tegen directe blootstelling aan licht",
+      "Vochtverontreiniging vermijden",
+      "Container na gebruik goed afsluiten",
+      "Hanteren volgens standaard laboratoriumpraktijken"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en voorbereidingsrichtlijnen",
+    solubilityPoints: [
+      "Compatibel met oplosmiddelen voor cosmetische formuleringen",
+      "Oplosbaar in peptide-compatibele laboratoriumoplosmiddelen",
+      "Geschikt voor lipide-gebaseerde formulatiesystemen",
+      "Compatibel met gebufferde laboratoriumoplossingen",
+      "Bruikbaar in protocollen voor topisch formulatieonderzoek"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "Matrixyl® 200mg (Topisch)",
+      brand: "BioPeptides",
+      cas: "214047-00-4",
+      purity: "≥99% (HPLC-gecontroleerd)",
+      unitSize: "200mg",
+      form: "Topisch onderzoekspeptidepoeder",
+      synthesis: "Solid-phase peptide synthesis (SPPS)",
+      analytical: "HPLC- en massaspectrometrieverificatie",
+      molecularStructure: "Gepalmitoyleerde pentapeptide-signaalsequentie",
+      stability: "Stabiel onder gekoelde omstandigheden"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "Zuiverheidstest met high-performance liquid chromatography",
+      "Bevestiging van moleculaire identiteit",
+      "Verificatie van structurele integriteit van de peptide",
+      "Validatie van batch-tot-batch consistentie",
+      "Testen van stabiliteit en formulatiecompatibiliteit"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "Matrixyl® geleverd door BioPeptides is uitsluitend bedoeld voor laboratorium- en cosmetisch onderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, therapeutische behandelingen of medische toepassingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt Matrixyl® voornamelijk bestudeerd in onderzoek?",
+        a: "Matrixyl® wordt bestudeerd voor extracellulaire matrixsignalering, dermale fibroblastcommunicatie en onderzoek naar collageengerelateerde routes."
+      },
+      {
+        q: "Wat is Palmitoyl Pentapeptide-4?",
+        a: "Palmitoyl Pentapeptide-4 is een synthetische lipopeptide-signaalsequentie afgeleid van fragmenten van extracellulaire matrixeiwitten."
+      },
+      {
+        q: "Waarom is CAS 214047-00-4 belangrijk?",
+        a: "CAS 214047-00-4 identificeert Matrixyl® uniek en zorgt voor nauwkeurige chemische identificatie en reproduceerbaarheid in wetenschappelijk onderzoek."
+      },
+      {
+        q: "Is Matrixyl® geschikt voor in-vitro onderzoek?",
+        a: "Ja. Matrixyl® wordt veel gebruikt in in-vitro studies naar ECM-signalering, fibroblastcommunicatie en peptide-celinteracties."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken Matrixyl® vaak?",
+        a: "Matrixyl® wordt vaak gebruikt in moleculaire biologie, cosmetisch peptideonderzoek, ECM-signaleringsstudies en topisch formulatieonderzoek."
+      },
+      {
+        q: "Waarom kiezen voor het 200mg onderzoeksformaat?",
+        a: "Het 200mg formaat maakt uitgebreide formulatietests en herhaalde laboratoriumexperimenten mogelijk zonder regelmatig opnieuw te bestellen."
+      },
+      {
+        q: "Hoe moet Matrixyl® worden bewaard?",
+        a: "Matrixyl® moet gekoeld worden bewaard bij 2–8°C en beschermd worden tegen licht en vocht."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor Matrixyl® onderzoekspeptiden?",
+        a: "BioPeptides levert hoogzuivere onderzoekspeptiden met geverifieerde documentatie en betrouwbare levering voor laboratorium- en cosmetisch onderzoek."
+      }
+    ],
+
+      chemicalProperties: {
+  molecularFormula: "C39H75N7O10",
+  molecularWeight: "802.1",
+  monoisotopicMass: "801.55754161",
+  polarArea: "296",
+  complexity: "1130",
+  xlogP: "0.8",
+  heavyAtomCount: "56",
+  hydrogenBondDonorCount: "11",
+  hydrogenBondAcceptorCount: "12",
+  rotatableBondCount: "35",
+  cid: "9897237",
+  inchi:
+    "InChI=1S/C39H75N7O10/c1-4-5-6-7-8-9-10-11-12-13-14-15-16-23-32(50)42-29(21-17-19-24-40)36(52)45-34(28(3)49)38(54)46-33(27(2)48)37(53)43-30(22-18-20-25-41)35(51)44-31(26-47)39(55)56/h27-31,33-34,47-49H,4-26,40-41H2,1-3H3,(H,42,50)(H,43,53)(H,44,51)(H,45,52)(H,46,54)(H,55,56)/t27-,28-,29+,30+,31+,33+,34+/m1/s1",
+  inchiKey: "WSGCRSMLXFHGRM-DEVHWETNSA-N",
+
+  canonicalSmiles:
+    "CCCCCCCCCCCCCCCC(=O)NC(CCCCN)C(=O)NC(C(C)O)C(=O)NC(C(C)O)C(=O)NC(CCCCN)C(=O)NC(CO)C(=O)O",
+
+  isomericSmiles:
+    "CCCCCCCCCCCCCCCC(=O)N[C@@H](CCCCN)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CO)C(=O)O",
+
+  iupacName:
+    "(2S)-2-[[(2S)-6-amino-2-[[(2S,3R)-2-[[(2S,3R)-2-[[(2S)-6-amino-2-(hexadecanoylamino)hexanoyl]amino]-3-hydroxybutanoyl]amino]-3-hydroxybutanoyl]amino]hexanoyl]amino]-3-hydroxypropanoic acid"
+}
+
+  },
+
+  appearance: "Wit tot gebroken wit poeder",
+
+  storage: "Gekoeld bewaren bij 2–8°C. Beschermen tegen licht en vocht.",
+
+  researchStatus:
+    "Alleen voor laboratorium- en cosmetisch onderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"melanostatin-dm-200mg": {
+  name: "Melanostatin DM 200mg",
+
+  tagline:
+    "Synthetisch melanocortine-signaleringspeptide voor onderzoek naar pigmentatieroutes en melanocyten",
+
+  cas: "123689-72-5",
+
+  strength: [
+    "Melanostatin DM 200mg van BioPeptides is een hoogzuiver onderzoekspeptide dat is ontwikkeld voor laboratoriumstudies gericht op melanocortine-signalering, pigmentatieroutes en onderzoek naar peptide-huidinteracties. Gesynthetiseerd met precisie solid-phase peptide synthesis en gezuiverd tot ≥99% HPLC, biedt dit topische onderzoekspeptide consistente moleculaire stabiliteit en reproduceerbaarheid voor geavanceerd wetenschappelijk onderzoek."
+  ],
+
+  topDescription: {
+    p0: "Melanostatin DM is een synthetisch peptide dat wordt bestudeerd vanwege zijn interactie met melanocyt-signaleringsroutes en melanogenese-gerelateerde cellulaire mechanismen.",
+    p1: "In gecontroleerde onderzoeksomgevingen wordt het vaak gebruikt om melanocortinereceptorsignalering, pigmentatie-geassocieerde genroutes en peptidegemedieerde cellulaire communicatie te onderzoeken.",
+    p2: "Het topische onderzoeksformaat stelt wetenschappers in staat om peptidegedrag te bestuderen in huidrelevante en epitheliale onderzoeksmodellen."
+  },
+
+  components: [
+    "Melanostatin DM — 200mg topisch onderzoekspeptide"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "Melanostatin DM is een synthetisch peptide dat wordt bestudeerd vanwege zijn betrokkenheid bij pigmentatiegerelateerde signalering en melanocytbiologie.",
+      "Onderzoekers onderzoeken dit peptide vanwege zijn rol in interacties met melanocortinereceptoren en melanine-geassocieerde cellulaire routes.",
+      "De gedefinieerde moleculaire structuur maakt gedetailleerde studie mogelijk van peptidegemedieerde signalering binnen pigmentatieroutes.",
+      "Het 200mg onderzoeksformaat ondersteunt uitgebreide laboratoriumexperimenten en testen van topische formuleringen."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Melanocortine-signaleringsroutes reguleren pigmentatie en melanineproductie in biologische systemen.",
+      "Peptiden zoals Melanostatin DM worden bestudeerd vanwege hun vermogen om te interageren met melanocyt-signaleringsmechanismen en melanogenese-gerelateerde routes.",
+      "In onderzoeksomgevingen worden deze peptiden gebruikt om receptor-gemedieerde cellulaire communicatie en pigmentatiesignaleringsresponsen te onderzoeken.",
+      "Door het gerichte ontwerp wordt Melanostatin DM vaak gebruikt in vergelijkende peptide-signaleringsstudies en onderzoek naar pigmentatieroutes."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar melanocortinereceptor-signaleringsroutes",
+      "Studies naar cellulaire communicatie van melanocyten",
+      "Onderzoek naar melanine-geassocieerde gensignalering",
+      "Analyse van peptidegemedieerde pigmentatieroutes",
+      "Huidrelevante cellulaire signaleringsmodellen"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar pigmentatieroutes",
+        text: "Melanostatin DM wordt gebruikt om signaalroutes te onderzoeken die betrokken zijn bij melaninegerelateerde cellulaire processen."
+      },
+      {
+        title: "Studies naar melanocortinereceptoren",
+        text: "Onderzoekers passen dit peptide toe om receptor-geassocieerde signaalcascades te onderzoeken die betrokken zijn bij pigmentatieroutes."
+      },
+      {
+        title: "Topische peptide-interactiemodellen",
+        text: "Het topische formaat maakt onderzoek mogelijk naar peptide-huidinteracties en epitheliale cellulaire responsen."
+      },
+      {
+        title: "Cellulair en moleculair biologisch onderzoek",
+        text: "Laboratoria gebruiken Melanostatin DM in celgebaseerde assays om transcriptionele responsen en peptidegemedieerde signalering te bestuderen."
+      },
+      {
+        title: "In-vitro onderzoeksmodellen",
+        text: "Het peptide wordt vaak opgenomen in gecontroleerde in-vitro studies naar melanocyt-signaleringsgedrag."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van de verbinding: Melanostatin DM",
+      "CAS-nummer: 123689-72-5",
+      "Peptideklasse: Onderzoekspeptide voor melanocortine-signalering",
+      "Vorm: Topisch onderzoekspeptidepoeder",
+      "Zuiverheid: ≥99% HPLC-gecontroleerd",
+      "Eenheidsformaat: 200mg onderzoeksformaat"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Gekoeld bewaren bij 2–8°C",
+      "Beschermen tegen directe blootstelling aan licht",
+      "Vochtverontreiniging vermijden",
+      "Container na gebruik goed afsluiten",
+      "Hanteren volgens standaard laboratoriumprocedures"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en voorbereidingsrichtlijnen",
+    solubilityPoints: [
+      "Compatibel met peptide-grade laboratoriumoplosmiddelen",
+      "Geschikt voor gebufferde waterige oplossingen",
+      "Toepasbaar in onderzoekssystemen voor cosmetische formuleringen",
+      "Compatibel met celcultuur-compatibele buffers",
+      "Geschikt voor protocollen voor topische onderzoeksvoorbereiding"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "Melanostatin DM 200mg",
+      brand: "BioPeptides",
+      cas: "123689-72-5",
+      purity: "≥99% (HPLC-gecontroleerd)",
+      unitSize: "200mg",
+      form: "Topisch onderzoekspeptidepoeder",
+      synthesis: "Solid-phase peptide synthesis (SPPS)",
+      analytical: "HPLC- en massaspectrometrieverificatie",
+      molecularStructure: "Synthetisch peptide voor de melanocortineroute",
+      stability: "Stabiel wanneer gekoeld bewaard"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "Zuiverheidstest met high-performance liquid chromatography",
+      "Bevestiging van peptide-identiteit",
+      "Verificatie van structurele integriteit",
+      "Analyse van batch-tot-batch consistentie",
+      "Testen van stabiliteit en formulatiecompatibiliteit"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "Melanostatin DM geleverd door BioPeptides is uitsluitend bedoeld voor laboratorium- en cosmetisch onderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, therapeutische behandelingen of medische toepassingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt Melanostatin DM voornamelijk bestudeerd in onderzoek?",
+        a: "Melanostatin DM wordt bestudeerd voor melanocortine-signalering, pigmentatieroutes en peptidegemedieerde cellulaire communicatie in gecontroleerde laboratoriummodellen."
+      },
+      {
+        q: "Hoe verschilt Melanostatin DM van andere pigmentatiepeptiden?",
+        a: "Melanostatin DM is specifiek ontworpen voor onderzoek naar de melanocortineroute en maakt gerichte analyse van pigmentatiegerelateerde signaleringsmechanismen mogelijk."
+      },
+      {
+        q: "Waarom is CAS 123689-72-5 belangrijk?",
+        a: "CAS 123689-72-5 identificeert Melanostatin DM uniek en zorgt voor nauwkeurige chemische identificatie en reproduceerbaarheid in laboratoriumonderzoek."
+      },
+      {
+        q: "Is Melanostatin DM geschikt voor in-vitro studies?",
+        a: "Ja. Het peptide wordt veel gebruikt in gecontroleerde in-vitro experimenten rond melanocyt-signalering en onderzoek naar pigmentatieroutes."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken Melanostatin DM vaak?",
+        a: "Melanostatin DM wordt vaak gebruikt in pigmentatieonderzoek, moleculaire biologie, peptide-signaleringsstudies, dermatologisch routeonderzoek en topische formulatiestudies."
+      },
+      {
+        q: "Waarom kiezen voor het 200mg onderzoeksformaat?",
+        a: "Het 200mg formaat ondersteunt uitgebreide onderzoeksprogramma’s en meerdere formulatie-experimenten zonder regelmatig opnieuw te bestellen."
+      },
+      {
+        q: "Hoe moet Melanostatin DM worden bewaard?",
+        a: "Melanostatin DM moet gekoeld worden bewaard bij 2–8°C en beschermd worden tegen vocht en licht."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor Melanostatin DM onderzoekspeptiden?",
+        a: "BioPeptides levert hoogzuivere peptiden met geverifieerde documentatie en betrouwbare levering voor laboratoriumonderzoek."
+      }
+    ],
+
+   chemicalProperties: {
+  molecularFormula: "C41H58N14O6",
+  molecularWeight: "843",
+  monoisotopicMass: "842.46637563",
+  polarArea: "350",
+  complexity: "1480",
+  xlogP: "-1.8",
+  heavyAtomCount: "61",
+  hydrogenBondDonorCount: "12",
+  hydrogenBondAcceptorCount: "10",
+  rotatableBondCount: "25",
+  cid: "20832941",
+  inchi:
+    "InChI=1S/C41H58N14O6/c1-24(51-38(59)32(15-9-17-48-41(45)46)53-37(58)29(43)20-27-22-47-23-50-27)36(57)54-34(19-26-21-49-30-13-6-5-12-28(26)30)40(61)55-33(18-25-10-3-2-4-11-25)39(60)52-31(35(44)56)14-7-8-16-42/h2-6,10-13,21-24,29,31-34,49H,7-9,14-20,42-43H2,1H3,(H2,44,56)(H,47,50)(H,51,59)(H,52,60)(H,53,58)(H,54,57)(H,55,61)(H4,45,46,48)",
+  inchiKey: "CGVQCSBCAOKPQQ-UHFFFAOYSA-N",
+
+  canonicalSmiles:
+    "CC(C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CC3=CC=CC=C3)C(=O)NC(CCCCN)C(=O)N)NC(=O)C(CCCN=C(N)N)NC(=O)C(CC4=CN=CN4)N",
+
+  isomericSmiles:
+    "CC(C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CC3=CC=CC=C3)C(=O)NC(CCCCN)C(=O)N)NC(=O)C(CCCN=C(N)N)NC(=O)C(CC4=CN=CN4)N",
+
+  iupacName:
+    "6-amino-2-[[2-[[2-[2-[[2-[[2-amino-3-(1H-imidazol-5-yl)propanoyl]amino]-5-(diaminomethylideneamino)pentanoyl]amino]propanoylamino]-3-(1H-indol-3-yl)propanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+}
+
+  },
+
+  appearance: "Wit tot gebroken wit poeder",
+
+  storage: "Gekoeld bewaren bij 2–8°C. Beschermen tegen licht en vocht.",
+
+  researchStatus:
+    "Alleen voor laboratorium- en cosmetisch onderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"melanotan-1-10mg": {
+  name: "Melanotan-I 10mg",
+
+  tagline:
+    "Synthetisch α-MSH analoog peptide voor onderzoek naar melanocortinereceptoren en pigmentatieroutes",
+
+  cas: "75921-69-6",
+
+  strength: [
+    "Melanotan-1 (MT-1) 10mg van BioPeptides is een hoogzuiver melanocortinepeptide van onderzoekskwaliteit, ontwikkeld voor geavanceerde laboratoriumstudies naar pigmentatieroutes, melanocortinereceptorsignalering en peptidegemedieerde cellulaire communicatie. Gesynthetiseerd met precisie solid-phase peptide synthesis en gezuiverd tot ≥99% HPLC, biedt MT-1 uitstekende moleculaire stabiliteit en reproduceerbaarheid. Melanotan-1, geïdentificeerd met CAS 75921-69-6, wordt veel gebruikt in gecontroleerd in-vitro onderzoek in Europa en de Verenigde Staten. BioPeptides biedt veilige toegang tot hoogwaardige onderzoekspeptiden met geverifieerde documentatie en professionele laboratoriumverpakking."
+  ],
+
+  topDescription: {
+    p0: "Melanotan-1 (MT-1) is een synthetisch analoog van α-melanocyt-stimulerend hormoon (α-MSH), dat wordt bestudeerd vanwege zijn interactie met melanocortinereceptoren die betrokken zijn bij pigmentatiesignalering.",
+    p1: "In laboratoriumonderzoeksomgevingen wordt het vaak onderzocht voor regulatie van melanogeneseroutes, receptorspecifieke binding en peptidegemedieerde cellulaire communicatie.",
+    p2: "Het 10mg onderzoeksformaat stelt onderzoekers in staat om gedetailleerde in-vitro experimenten uit te voeren gericht op melanocortinesignalering en analyse van receptorroutes."
+  },
+
+  components: [
+    "Melanotan-1 (MT-1) — 10mg gevriesdroogde peptideflacon"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "Melanotan-1 is een synthetisch analoog van het endogene peptidehormoon α-MSH.",
+      "Onderzoekers bestuderen MT-1 vanwege zijn interactie met melanocortinereceptoren die betrokken zijn bij pigmentatiegerelateerde signalering.",
+      "Het structurele ontwerp biedt meer stabiliteit dan natuurlijk α-MSH, waardoor het geschikt is voor receptorbindingsonderzoek.",
+      "Het 10mg onderzoeksformaat ondersteunt meerdere experimentele runs en gecontroleerde laboratoriumstudies."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Melanocortinepeptiden zijn betrokken bij cellulaire signaalroutes die verband houden met pigmentatie en regulatie van melanocyten.",
+      "Melanotan-1 werd ontwikkeld als een stabiel analoog van α-MSH om gecontroleerd onderzoek naar melanocortinereceptorbiologie mogelijk te maken.",
+      "In laboratoriumomgevingen onderzoeken onderzoekers hoe activering van melanocortinereceptoren melaniegerelateerde signaalprocessen beïnvloedt.",
+      "Vanwege de gedefinieerde structuur wordt MT-1 vaak gebruikt om receptorspecifieke binding en melanogeneseroutes te bestuderen."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar activering van melanocortinereceptoren",
+      "Onderzoek naar pigmentatiesignaleringsroutes",
+      "Studies naar peptide-receptorinteracties",
+      "Onderzoek naar signalering van melaninesynthese",
+      "Analyse van intracellulaire melanogeneseroutes"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar pigmentatieroutes",
+        text: "Melanotan-1 wordt veel gebruikt om cellulaire signaalroutes te onderzoeken die betrokken zijn bij melanineproductie."
+      },
+      {
+        title: "Studies naar melanocortinereceptoren",
+        text: "Onderzoekers gebruiken MT-1 om binding aan melanocortinereceptoren en downstream signaalcascades te onderzoeken."
+      },
+      {
+        title: "Analyse van peptide-receptorinteracties",
+        text: "Het peptide ondersteunt receptorbindingsassays die worden gebruikt om peptide-affiniteit en signaalgedrag te begrijpen."
+      },
+      {
+        title: "Cellulair en moleculair biologisch onderzoek",
+        text: "Laboratoria gebruiken MT-1 in celgebaseerde assays om transcriptionele responsen en signaalroutes te analyseren."
+      },
+      {
+        title: "In-vitro onderzoeksmodellen",
+        text: "Melanotan-1 wordt vaak opgenomen in gecontroleerde in-vitro experimenten met melanocyt-signaleringsmodellen."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van de verbinding: Melanotan-1 (MT-1)",
+      "CAS-nummer: 75921-69-6",
+      "Peptideklasse: Peptide voor melanocortinereceptorsignalering",
+      "Peptidelengte: 13 aminozuren",
+      "Vorm: Gevriesdroogd peptidepoeder",
+      "Zuiverheid: ≥99% HPLC-gecontroleerd",
+      "Eenheidsformaat: 10mg onderzoeksformaat"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Gevriesdroogd peptide bewaren bij −20°C",
+      "Beschermen tegen directe blootstelling aan licht",
+      "Herhaalde vries-dooicycli vermijden",
+      "Reconstitueren met steriele laboratoriumoplosmiddelen",
+      "Flacon na gebruik goed afsluiten"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en voorbereidingsrichtlijnen",
+    solubilityPoints: [
+      "Oplosbaar in steriel bacteriostatisch water",
+      "Compatibel met gebufferde waterige laboratoriumoplossingen",
+      "Geschikt voor peptide-compatibele oplosmiddelen",
+      "Toepasbaar in celcultuuronderzoeksprotocollen",
+      "Compatibel met biochemische assayvoorbereidingen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "Melanotan-1 (MT-1) 10mg",
+      brand: "BioPeptides",
+      cas: "75921-69-6",
+      purity: "≥99% (HPLC-gecontroleerd)",
+      unitSize: "10mg flacon",
+      form: "Gevriesdroogd peptidepoeder",
+      synthesis: "Solid-phase peptide synthesis (SPPS)",
+      analytical: "HPLC- en massaspectrometrieverificatie",
+      molecularStructure: "Synthetisch α-MSH analoog peptide",
+      stability: "Stabiel onder opslagcondities van −20°C"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "Zuiverheidstest met high-performance liquid chromatography",
+      "Verificatie van peptide-identiteit",
+      "Analyse van structurele integriteit",
+      "Validatie van batch-tot-batch consistentie",
+      "Testen van peptidestabiliteit"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "Melanotan-1 geleverd door BioPeptides is uitsluitend bedoeld voor laboratoriumonderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, therapeutische toepassingen of medische behandelingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt Melanotan-1 voornamelijk bestudeerd in onderzoek?",
+        a: "Melanotan-1 wordt bestudeerd voor melanocortinereceptorsignalering, pigmentatieroutes en peptidegemedieerde cellulaire communicatie in gecontroleerde laboratoriummodellen."
+      },
+      {
+        q: "Hoe verschilt Melanotan-1 van natuurlijk α-MSH?",
+        a: "Melanotan-1 is een synthetisch analoog dat is ontworpen met verbeterde stabiliteit en receptorinteractie-eigenschappen in vergelijking met natuurlijk α-MSH."
+      },
+      {
+        q: "Waarom is CAS 75921-69-6 belangrijk?",
+        a: "CAS 75921-69-6 identificeert Melanotan-1 uniek en zorgt voor nauwkeurige identificatie van de verbinding en reproduceerbaarheid in wetenschappelijk onderzoek."
+      },
+      {
+        q: "Is Melanotan-1 geschikt voor in-vitro onderzoek?",
+        a: "Ja. MT-1 wordt veel gebruikt in gecontroleerde in-vitro studies met melanocytmodellen en receptorbindingsassays."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken Melanotan-1 vaak?",
+        a: "MT-1 wordt vaak gebruikt in pigmentatieonderzoek, moleculaire biologie, receptorfarmacologie en peptide-signaleringsstudies."
+      },
+      {
+        q: "Waarom kiezen voor het 10mg onderzoeksformaat?",
+        a: "Het 10mg formaat maakt meerdere experimentele runs mogelijk, terwijl peptideverspilling wordt beperkt en kostenefficiëntie wordt behouden."
+      },
+      {
+        q: "Hoe moet Melanotan-1 worden bewaard?",
+        a: "Melanotan-1 moet in gevriesdroogde vorm bij −20°C worden bewaard en worden beschermd tegen vocht en licht."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor Melanotan-1 onderzoekspeptiden?",
+        a: "BioPeptides levert hoogzuivere peptiden met geverifieerde documentatie en betrouwbare levering voor onderzoekslaboratoria."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C78H111N21O19",
+      molecularWeight: "1646.874 g/mol",
+      peptideLength: "13 amino acids",
+      compoundClass: "Synthetic α-MSH analog peptide",
+      heavyAtomCount: "118",
+      hydrogenBondDonorCount: "25",
+      hydrogenBondAcceptorCount: "30",
+      rotatableBondCount: "32",
+      cid: " 16154396"
+    }
+
+  },
+
+  appearance: "Wit gevriesdroogd poeder",
+
+  storage: "Bewaren bij −20°C. Herhaalde vries-dooicycli vermijden.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"melanotan-2-3mg-x-10-vials": {
+  name: "Melanotan-II 3mg ×10 Flacons",
+
+  tagline:
+    "Synthetisch cyclisch α-MSH analoog voor onderzoek naar melanocortinereceptoren en pigmentatieroutes",
+
+  cas: "121062-08-6",
+
+  strength: [
+    "Melanotan-2 (MT-2) 10mg van BioPeptides is een hoogzuiver melanocortinepeptide van onderzoekskwaliteit, geformuleerd voor geavanceerde laboratoriumstudies naar melanocortinereceptorsignalering, pigmentatieroutes en onderzoek naar peptide-receptorinteracties. Geproduceerd met precisie solid-phase peptide synthesis en gezuiverd tot ≥99% HPLC, biedt MT-2 uitstekende moleculaire stabiliteit en reproduceerbaarheid. Dit peptide, geïdentificeerd met CAS 121062-08-6, wordt veel gebruikt in gecontroleerd in-vitro onderzoek in Europa en de Verenigde Staten. BioPeptides levert hoogwaardige onderzoekspeptiden met geverifieerde documentatie en professionele laboratoriumverpakking."
+  ],
+
+  topDescription: {
+    p0: "Melanotan-II is een synthetisch cyclisch analoog van α-melanocyt-stimulerend hormoon (α-MSH), dat wordt bestudeerd vanwege zijn interactie met melanocortinereceptoren die betrokken zijn bij pigmentatie en neuropeptidesignalering.",
+    p1: "In laboratoriumonderzoeksomgevingen wordt het vaak onderzocht voor activering van melanocortinereceptoren, melanogenese-signaalroutes en receptorspecifieke binding.",
+    p2: "Het bundelformaat met 10 flacons ondersteunt uitgebreide experimentele programma’s, vergelijkende receptorstudies en herhaalde in-vitro onderzoeksprotocollen."
+  },
+
+  components: [
+    "Melanotan-II (MT-2) — 3mg gevriesdroogd peptide per flacon",
+    "Totale verpakkingshoeveelheid — 10 onderzoeksflacons"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "Melanotan-II is een synthetisch cyclisch peptide-analoog van α-MSH dat uitgebreid wordt gebruikt in onderzoek naar melanocortinesignalering.",
+      "Onderzoekers bestuderen MT-2 vanwege zijn interactie met melanocortinereceptoren die betrokken zijn bij pigmentatie en neuropeptidesignalering.",
+      "De cyclische structuur biedt verbeterde receptor-affiniteit en stabiliteit in vergelijking met lineaire melanocortinepeptiden.",
+      "De 3mg ×10 flaconbundel ondersteunt uitgebreide laboratoriumstudies en vergelijkende receptorbindingsexperimenten."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Melanocortinepeptiden zijn betrokken bij cellulaire signaalroutes die verband houden met pigmentatie en melanocytbiologie.",
+      "Melanotan-II werd ontwikkeld als een cyclisch analoog van α-MSH om verbeterde stabiliteit en receptorinteractie te bieden voor onderzoeksstudies.",
+      "In laboratoriumomgevingen wordt MT-2 gebruikt om receptoractivatiepatronen, melanogenesesignalering en communicatie binnen neuropeptideroutes te onderzoeken.",
+      "Vanwege de brede receptoractiviteit wordt Melanotan-II vaak gebruikt in vergelijkende melanocortine-onderzoeksmodellen."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar activering van melanocortinereceptoren (MC1R–MC5R)",
+      "Onderzoek naar pigmentatiesignaleringsroutes",
+      "Studies naar neuropeptide-receptorinteracties",
+      "Analyse van melaninesynthesesignalering",
+      "Onderzoek naar peptidegemedieerde intracellulaire signalering"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar pigmentatieroutes",
+        text: "Melanotan-II wordt gebruikt om melanogenese-signaalroutes te onderzoeken die betrokken zijn bij melanineproductie."
+      },
+      {
+        title: "Studies naar melanocortinereceptoren",
+        text: "Onderzoekers gebruiken MT-2 om receptorbinding, activatieprofielen en downstream signaalcascades te onderzoeken."
+      },
+      {
+        title: "Analyse van peptide-receptorinteracties",
+        text: "Het peptide ondersteunt receptorbindingsassays die worden gebruikt om receptorselectiviteit en peptide-affiniteit te analyseren."
+      },
+      {
+        title: "Cellulair en moleculair biologisch onderzoek",
+        text: "Laboratoria gebruiken MT-2 in celgebaseerde assays om transcriptionele responsen en melanocortinesignaalroutes te bestuderen."
+      },
+      {
+        title: "Vergelijkend melanocortineonderzoek",
+        text: "MT-2 wordt vaak gebruikt in vergelijkende studies waarin signaalverschillen tussen MT-1, MT-2 en natuurlijk α-MSH worden geëvalueerd."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van de verbinding: Melanotan-II (MT-2)",
+      "CAS-nummer: 121062-08-6",
+      "Peptideklasse: Cyclisch melanocortinereceptorpeptide",
+      "Peptidelengte: 7 aminozuren (cyclische structuur)",
+      "Vorm: Gevriesdroogd peptidepoeder",
+      "Zuiverheid: ≥99% HPLC-gecontroleerd",
+      "Verpakkingsgrootte: 3mg ×10 flacons"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Gevriesdroogd peptide bewaren bij −20°C",
+      "Beschermen tegen directe blootstelling aan licht",
+      "Herhaalde vries-dooicycli vermijden",
+      "Reconstitueren met steriele laboratoriumoplosmiddelen",
+      "Flacon na gebruik goed afsluiten"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en voorbereidingsrichtlijnen",
+    solubilityPoints: [
+      "Oplosbaar in steriel bacteriostatisch water",
+      "Compatibel met peptide-grade laboratoriumoplosmiddelen",
+      "Geschikt voor gebufferde waterige onderzoeksoplossingen",
+      "Toepasbaar in voorbereidingen voor receptorassays",
+      "Compatibel met celcultuuronderzoeksprotocollen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "Melanotan-II (MT-2) 3mg ×10 Flacons",
+      brand: "BioPeptides",
+      cas: "121062-08-6",
+      purity: "≥99% (HPLC-gecontroleerd)",
+      unitSize: "3mg per flacon",
+      package: "10 onderzoeksflacons",
+      form: "Gevriesdroogd peptidepoeder",
+      synthesis: "Solid-phase peptide synthesis (SPPS)",
+      analytical: "HPLC- en massaspectrometrieverificatie",
+      molecularStructure: "Synthetisch cyclisch α-MSH analoog peptide",
+      stability: "Stabiel onder opslagcondities van −20°C"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "Zuiverheidstest met high-performance liquid chromatography",
+      "Bevestiging van peptide-identiteit",
+      "Verificatie van structurele integriteit",
+      "Analyse van batch-tot-batch consistentie",
+      "Peptidestabiliteit en analytische validatie"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "Melanotan-II geleverd door BioPeptides is uitsluitend bedoeld voor laboratoriumonderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, therapeutische behandelingen of medische toepassingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt Melanotan-II voornamelijk gebruikt in onderzoek?",
+        a: "Melanotan-II wordt bestudeerd voor melanocortinereceptorsignalering, pigmentatieroutes en peptidegemedieerde cellulaire communicatie in gecontroleerde laboratoriummodellen."
+      },
+      {
+        q: "Hoe verschilt Melanotan-II van Melanotan-I?",
+        a: "Melanotan-II heeft een cyclische structuur en bredere melanocortinereceptoractiviteit in vergelijking met het meer selectieve Melanotan-I peptide."
+      },
+      {
+        q: "Waarom is CAS 121062-08-6 belangrijk?",
+        a: "CAS 121062-08-6 identificeert Melanotan-II uniek en zorgt voor nauwkeurige documentatie van de verbinding en reproduceerbaarheid binnen laboratoriumonderzoeksprocessen."
+      },
+      {
+        q: "Is Melanotan-II geschikt voor in-vitro onderzoek?",
+        a: "Ja. MT-2 wordt veel gebruikt in gecontroleerde in-vitro studies met melanocyt-signaleringsmodellen en receptorassays."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken Melanotan-II vaak?",
+        a: "MT-2 wordt vaak gebruikt in pigmentatieonderzoek, receptorfarmacologie, moleculaire biologie en peptide-signaleringsonderzoek."
+      },
+      {
+        q: "Waarom kiezen voor de 3mg ×10 flaconbundel?",
+        a: "De bundel met 10 flacons ondersteunt uitgebreide experimentele programma’s, verbetert kostenefficiëntie en maakt herhaalde onderzoeksprotocollen mogelijk."
+      },
+      {
+        q: "Hoe moet Melanotan-II worden bewaard?",
+        a: "Melanotan-II moet in gevriesdroogde vorm bij −20°C worden bewaard en worden beschermd tegen vocht en licht."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor Melanotan-II onderzoekspeptiden?",
+        a: "BioPeptides levert hoogzuivere peptiden met geverifieerde documentatie, strikte research-only compliance en betrouwbare internationale levering."
+      }
+    ],
+
+      chemicalProperties: {
+  molecularFormula: "C50H69N15O9",
+  molecularWeight: "1024.2",
+  monoisotopicMass: "1023.54026884",
+  polarArea: "385",
+  complexity: "1950",
+  xlogP: "0",
+  heavyAtomCount: "74",
+  hydrogenBondDonorCount: "13",
+  hydrogenBondAcceptorCount: "11",
+  rotatableBondCount: "17",
+  cid: "92432",
+  inchi:
+    "InChI=1S/C50H69N15O9/c1-3-4-16-36(59-29(2)66)44(69)65-41-25-42(67)55-20-11-10-18-35(43(51)68)60-47(72)39(23-31-26-57-34-17-9-8-15-33(31)34)63-45(70)37(19-12-21-56-50(52)53)61-46(71)38(22-30-13-6-5-7-14-30)62-48(73)40(64-49(41)74)24-32-27-54-28-58-32/h5-9,13-15,17,26-28,35-41,57H,3-4,10-12,16,18-25H2,1-2H3,(H2,51,68)(H,54,58)(H,55,67)(H,59,66)(H,60,72)(H,61,71)(H,62,73)(H,63,70)(H,64,74)(H,65,69)(H4,52,53,56)/t35-,36-,37-,38+,39-,40-,41-/m0/s1",
+  inchiKey: "JDKLPDJLXHXHNV-MFVUMRCOSA-N",
+
+  canonicalSmiles:
+    "CCCCC(C(=O)NC1CC(=O)NCCCCC(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CC2=CN=CN2)CC3=CC=CC=C3)CCCN=C(N)N)CC4=CNC5=CC=CC=C54)C(=O)N)NC(=O)C",
+
+  isomericSmiles:
+    "CCCC[C@@H](C(=O)N[C@H]1CC(=O)NCCCC[C@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](NC(=O)[C@@H](NC1=O)CC2=CN=CN2)CC3=CC=CC=C3)CCCN=C(N)N)CC4=CNC5=CC=CC=C54)C(=O)N)NC(=O)C",
+
+  iupacName:
+    "(3S,6S,9R,12S,15S,23S)-15-[[(2S)-2-acetamidohexanoyl]amino]-9-benzyl-6-[3-(diaminomethylideneamino)propyl]-12-(1H-imidazol-5-ylmethyl)-3-(1H-indol-3-ylmethyl)-2,5,8,11,14,17-hexaoxo-1,4,7,10,13,18-hexazacyclotricosane-23-carboxamide"
+}
+
+  },
+
+  appearance: "Wit gevriesdroogd poeder (afzonderlijke flacons)",
+
+  storage: "Bewaren bij −20°C. Herhaalde vries-dooicycli vermijden.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"melanotan-2-10mg": {
+  name: "Melanotan-II 10mg",
+
+  tagline:
+    "Synthetisch cyclisch α-MSH analoog peptide voor onderzoek naar melanocortinereceptoren en pigmentatieroutes",
+
+  cas: "121062-08-6",
+
+  strength: [
+    "Melanotan-2 (MT-2) 10mg van BioPeptides is een hoogzuiver melanocortinepeptide van onderzoekskwaliteit, ontwikkeld voor geavanceerde laboratoriumstudies naar melanocortinereceptorsignalering, pigmentatieroutes en onderzoek naar peptide-receptorinteracties. Gesynthetiseerd met precisie solid-phase peptide synthesis en gezuiverd tot ≥99% HPLC, biedt MT-2 uitstekende moleculaire stabiliteit en reproduceerbaarheid. Dit peptide, geïdentificeerd met CAS 121062-08-6, wordt veel gebruikt in gecontroleerd in-vitro onderzoek in Europa en de Verenigde Staten. BioPeptides levert hoogwaardige onderzoekspeptiden met geverifieerde documentatie en professionele laboratoriumverpakking."
+  ],
+
+  topDescription: {
+    p0: "Melanotan-2 (MT-2) is een synthetisch cyclisch analoog van α-melanocyt-stimulerend hormoon (α-MSH), dat wordt bestudeerd vanwege zijn interactie met melanocortinereceptoren die betrokken zijn bij pigmentatie en neuropeptidesignalering.",
+    p1: "In laboratoriumonderzoeksomgevingen wordt het vaak onderzocht voor activering van melanocortinereceptoren, melanogenese-signaalroutes en receptorspecifieke binding.",
+    p2: "Het 10mg onderzoeksformaat stelt laboratoria in staat gerichte in-vitro experimenten uit te voeren waarin melanocortinesignalering en receptor-gemedieerde cellulaire responsen worden onderzocht."
+  },
+
+  components: [
+    "Melanotan-2 (MT-2) — 10mg gevriesdroogd peptideflacon"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "Melanotan-2 is een synthetisch cyclisch peptide-analoog van α-MSH dat uitgebreid wordt gebruikt in onderzoek naar melanocortinesignalering.",
+      "Onderzoekers bestuderen MT-2 vanwege zijn interactie met melanocortinereceptoren die betrokken zijn bij pigmentatie en neuropeptidesignalering.",
+      "De cyclische structuur biedt verbeterde receptor-affiniteit en stabiliteit in vergelijking met lineaire melanocortinepeptiden.",
+      "Het 10mg onderzoeksformaat ondersteunt meerdere experimentele runs en gecontroleerde laboratoriumstudies."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Melanocortinepeptiden zijn betrokken bij cellulaire signaalroutes die verband houden met pigmentatie en melanocytbiologie.",
+      "Melanotan-2 werd ontwikkeld als een cyclisch analoog van α-MSH om verbeterde receptorinteractie en stabiliteit te bieden voor laboratoriumonderzoek.",
+      "Onderzoekers gebruiken MT-2 om receptoractivatiepatronen, melanogenese-signaalroutes en peptide-gemedieerde cellulaire communicatie te bestuderen.",
+      "Vanwege de brede receptoractiviteit wordt MT-2 vaak opgenomen in vergelijkende studies naar melanocortinesignalering."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar activering van melanocortinereceptoren",
+      "Onderzoek naar pigmentatiesignaleringsroutes",
+      "Studies naar neuropeptide-receptorinteracties",
+      "Analyse van melaninesynthesesignalering",
+      "Onderzoek naar peptide-gemedieerde intracellulaire signalering"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar pigmentatieroutes",
+        text: "Melanotan-2 wordt veel gebruikt om melanogenese-signaalroutes te onderzoeken die betrokken zijn bij melanineproductie."
+      },
+      {
+        title: "Studies naar melanocortinereceptoren",
+        text: "Onderzoekers gebruiken MT-2 om binding aan melanocortinereceptoren, activatieprofielen en downstream signaalcascades te onderzoeken."
+      },
+      {
+        title: "Analyse van peptide-receptorinteracties",
+        text: "Het peptide ondersteunt receptorbindingsassays die worden gebruikt om peptide-affiniteit en receptorselectiviteit te analyseren."
+      },
+      {
+        title: "Cellulair en moleculair biologisch onderzoek",
+        text: "Laboratoria nemen MT-2 op in celgebaseerde assays om transcriptionele responsen en melanocortine-route signalering te bestuderen."
+      },
+      {
+        title: "Vergelijkend melanocortineonderzoek",
+        text: "MT-2 wordt vaak gebruikt in vergelijkende studies die signaalverschillen tussen MT-1, MT-2 en natuurlijk α-MSH onderzoeken."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van de verbinding: Melanotan-2 (MT-2)",
+      "CAS-nummer: 121062-08-6",
+      "Peptideklasse: Cyclisch melanocortinereceptor-signaleringspeptide",
+      "Peptidelengte: 7 aminozuren (cyclische structuur)",
+      "Vorm: Gevriesdroogd peptidepoeder",
+      "Zuiverheid: ≥99% HPLC-gecontroleerd",
+      "Eenheidsgrootte: 10mg onderzoeksformaat"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Gevriesdroogd peptide bewaren bij −20°C",
+      "Beschermen tegen directe blootstelling aan licht",
+      "Herhaalde vries-dooicycli vermijden",
+      "Reconstitueren met steriele laboratoriumoplosmiddelen",
+      "Flacon na gebruik goed afsluiten"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en voorbereidingsrichtlijnen",
+    solubilityPoints: [
+      "Oplosbaar in steriel bacteriostatisch water",
+      "Compatibel met gebufferde waterige laboratoriumoplossingen",
+      "Geschikt voor peptide-compatibele oplosmiddelen",
+      "Toepasbaar in voorbereidingen voor receptorassays",
+      "Compatibel met celcultuuronderzoeksprotocollen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "Melanotan-2 (MT-2) 10mg",
+      brand: "BioPeptides",
+      cas: "121062-08-6",
+      purity: "≥99% (HPLC-gecontroleerd)",
+      unitSize: "10mg flacon",
+      form: "Gevriesdroogd peptidepoeder",
+      synthesis: "Solid-phase peptide synthesis (SPPS)",
+      analytical: "HPLC- en massaspectrometrieverificatie",
+      molecularStructure: "Synthetisch cyclisch α-MSH analoog peptide",
+      stability: "Stabiel onder opslagcondities van −20°C"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "Zuiverheidstest met high-performance liquid chromatography",
+      "Verificatie van peptide-identiteit",
+      "Analyse van structurele integriteit",
+      "Validatie van batch-tot-batch consistentie",
+      "Testen van peptidestabiliteit"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "Melanotan-2 geleverd door BioPeptides is uitsluitend bedoeld voor laboratoriumonderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, therapeutische toepassingen of medische behandelingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt Melanotan-2 voornamelijk gebruikt in onderzoek?",
+        a: "Melanotan-2 wordt voornamelijk bestudeerd voor melanocortinereceptorsignalering, pigmentatieroutes en peptide-gemedieerde cellulaire communicatie in gecontroleerde laboratoriumonderzoeksmodellen."
+      },
+      {
+        q: "Hoe verschilt Melanotan-2 van Melanotan-1?",
+        a: "Melanotan-2 heeft een cyclische structuur en bredere melanocortinereceptoractiviteit in vergelijking met het meer selectieve Melanotan-1 peptide."
+      },
+      {
+        q: "Waarom is CAS 121062-08-6 belangrijk?",
+        a: "CAS 121062-08-6 identificeert Melanotan-2 uniek en zorgt voor nauwkeurige identificatie van de verbinding en reproduceerbaarheid binnen wetenschappelijke onderzoekslaboratoria."
+      },
+      {
+        q: "Is Melanotan-2 geschikt voor in-vitro onderzoek?",
+        a: "Ja. MT-2 wordt veel gebruikt in gecontroleerde in-vitro experimenten met melanocyt-signaleringsmodellen en receptorbindingsassays."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken Melanotan-2 vaak?",
+        a: "MT-2 wordt vaak gebruikt in pigmentatieonderzoek, receptorfarmacologie, moleculaire biologie en peptide-signaleringsstudies."
+      },
+      {
+        q: "Waarom kiezen voor het 10mg onderzoeksformaat?",
+        a: "Het 10mg formaat maakt meerdere experimentele runs mogelijk, terwijl peptideverspilling wordt verminderd en de laboratoriumefficiëntie wordt verbeterd."
+      },
+      {
+        q: "Hoe moet Melanotan-2 worden bewaard?",
+        a: "Melanotan-2 moet in gevriesdroogde vorm bij −20°C worden bewaard en worden beschermd tegen vocht en licht."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor Melanotan-2 onderzoekspeptiden?",
+        a: "BioPeptides levert hoogzuivere peptiden met geverifieerde documentatie en betrouwbare internationale levering voor onderzoekslaboratoria."
+      }
+    ],
+   chemicalProperties: {
+  molecularFormula: "C50H69N15O9",
+  molecularWeight: "1024.2",
+  monoisotopicMass: "1023.54026884",
+  polarArea: "385",
+  complexity: "1950",
+  xlogP: "0",
+  heavyAtomCount: "74",
+  hydrogenBondDonorCount: "13",
+  hydrogenBondAcceptorCount: "11",
+  rotatableBondCount: "17",
+  cid: "92432",
+  inchi:
+    "InChI=1S/C50H69N15O9/c1-3-4-16-36(59-29(2)66)44(69)65-41-25-42(67)55-20-11-10-18-35(43(51)68)60-47(72)39(23-31-26-57-34-17-9-8-15-33(31)34)63-45(70)37(19-12-21-56-50(52)53)61-46(71)38(22-30-13-6-5-7-14-30)62-48(73)40(64-49(41)74)24-32-27-54-28-58-32/h5-9,13-15,17,26-28,35-41,57H,3-4,10-12,16,18-25H2,1-2H3,(H2,51,68)(H,54,58)(H,55,67)(H,59,66)(H,60,72)(H,61,71)(H,62,73)(H,63,70)(H,64,74)(H,65,69)(H4,52,53,56)/t35-,36-,37-,38+,39-,40-,41-/m0/s1",
+  inchiKey: "JDKLPDJLXHXHNV-MFVUMRCOSA-N",
+
+  canonicalSmiles:
+    "CCCCC(C(=O)NC1CC(=O)NCCCCC(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CC2=CN=CN2)CC3=CC=CC=C3)CCCN=C(N)N)CC4=CNC5=CC=CC=C54)C(=O)N)NC(=O)C",
+
+  isomericSmiles:
+    "CCCC[C@@H](C(=O)N[C@H]1CC(=O)NCCCC[C@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](NC(=O)[C@@H](NC1=O)CC2=CN=CN2)CC3=CC=CC=C3)CCCN=C(N)N)CC4=CNC5=CC=CC=C54)C(=O)N)NC(=O)C",
+
+  iupacName:
+    "(3S,6S,9R,12S,15S,23S)-15-[[(2S)-2-acetamidohexanoyl]amino]-9-benzyl-6-[3-(diaminomethylideneamino)propyl]-12-(1H-imidazol-5-ylmethyl)-3-(1H-indol-3-ylmethyl)-2,5,8,11,14,17-hexaoxo-1,4,7,10,13,18-hexazacyclotricosane-23-carboxamide"
+}
+
+  },
+
+  appearance: "Wit gevriesdroogd poeder",
+
+  storage: "Bewaren bij −20°C. Herhaalde vries-dooicycli vermijden.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"methylene-blue-10mg-60-capsules": {
+  name: "Methyleenblauw 10mg (60 Capsules)",
+
+  tagline:
+    "Onderzoekswaardig fenothiazinecompound voor redoxbiologie, mitochondriaal elektronentransport en onderzoek naar cellulaire energie",
+
+  cas: "61-73-4",
+
+  strength: [
+    "Methyleenblauw 10mg Capsules van BioPeptides bevatten een hoogzuiver fenothiazinecompound van onderzoekskwaliteit dat veel wordt gebruikt in laboratoriumstudies naar redoxbiologie, mitochondriaal elektronentransport en oxidatieve signaalroutes. Dit compound, geïdentificeerd met CAS 61-73-4, wordt analytisch geverifieerd voor onderzoeksconsistentie en reproduceerbaarheid. Het capsuleformaat ondersteunt gecontroleerde experimentele workflows en betrouwbare hantering in biochemische en cellulaire onderzoekslaboratoria in Europa en de Verenigde Staten."
+  ],
+
+  topDescription: {
+    p0: "Methyleenblauw (CAS 61-73-4) is een van fenothiazine afgeleid compound dat uitgebreid wordt onderzocht binnen biochemisch en moleculair biologisch onderzoek.",
+    p1: "In laboratoriumonderzoeksomgevingen wordt het bestudeerd vanwege reversibel redox-cyclisch gedrag, interacties met mitochondriaal elektronentransport en oxidatieve signaalroutes.",
+    p2: "Het 10mg capsuleformaat stelt laboratoria in staat gecontroleerde experimenten uit te voeren met betrekking tot mitochondriale bio-energetica, modellen voor oxidatieve stressrespons en onderzoek naar cellulair metabolisme."
+  },
+
+  components: [
+    "Methyleenblauw — 10mg per capsule",
+    "Totale hoeveelheid — 60 capsules (600mg totaal onderzoeksmateriaal)"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "Methyleenblauw is een van fenothiazine afgeleid compound dat vaak wordt bestudeerd in redoxbiologie en mitochondriaal onderzoek.",
+      "Onderzoekers onderzoeken de reversibele oxidatie-reductie-eigenschappen om cellulaire elektronentransportprocessen te analyseren.",
+      "Het compound wordt veel gebruikt in studies naar mitochondriale respiratie en metabole routes.",
+      "Het capsulegebaseerde formaat maakt consistente compoundhantering en verbeterde workflowstabiliteit in laboratoriumomgevingen mogelijk."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Methyleenblauw heeft een uitgebreide onderzoeksgeschiedenis in biochemische experimenten met redoxcycling en mitochondriaal elektronentransport.",
+      "De moleculaire structuur maakt reversibele oxidatie-reductiereacties mogelijk die onderzoek naar elektronenoverdracht ondersteunen.",
+      "Onderzoekers gebruiken methyleenblauw om oxidatieve stressresponsen en mechanismen voor cellulaire energieregulatie te onderzoeken.",
+      "Vanwege het goed gekarakteriseerde redoxgedrag wordt het vaak opgenomen in vergelijkend mitochondriaal en metabool routeonderzoek."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar redoxcycling en oxidatie-reductieroutes",
+      "Onderzoek naar de mitochondriale elektronentransportketen",
+      "Analyse van cellulair energiemetabolisme",
+      "Onderzoek naar intracellulaire redoxsignaalroutes",
+      "Modellering van oxidatieve stressrespons"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar redoxbiologie",
+        text: "Methyleenblauw wordt veel gebruikt om oxidatie-reductiereacties en cellulaire redoxsignaleringsmechanismen te bestuderen."
+      },
+      {
+        title: "Studies naar mitochondriale functie",
+        text: "Onderzoekers gebruiken het compound om mitochondriale respiratie en dynamiek van de elektronentransportketen te analyseren."
+      },
+      {
+        title: "Onderzoek naar oxidatieve stress",
+        text: "Laboratoria nemen methyleenblauw op in experimenten die oxidatieve stressresponsen en cellulaire veerkracht onderzoeken."
+      },
+      {
+        title: "Onderzoek naar cellulair metabolisme",
+        text: "Het compound ondersteunt experimenten naar metabole regulatie en mitochondriale energieproductie."
+      },
+      {
+        title: "Biochemisch en moleculair biologisch onderzoek",
+        text: "Methyleenblauw wordt vaak gebruikt in celgebaseerde assays om intracellulaire signalering en metabole processen te analyseren."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van het compound: Methyleenblauw",
+      "CAS-nummer: 61-73-4",
+      "Chemische klasse: Fenothiazinederivaat",
+      "Vorm: Capsulegebaseerd onderzoekscompound",
+      "Sterkte: 10mg per capsule",
+      "Totale hoeveelheid: 600mg (60 capsules)"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Bewaren in een koele, droge omgeving",
+      "Beschermen tegen directe blootstelling aan licht",
+      "Blootstelling aan vocht vermijden",
+      "Container na gebruik goed afsluiten",
+      "Hanteren volgens standaard laboratoriumveiligheidsprocedures"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en voorbereidingsrichtlijnen",
+    solubilityPoints: [
+      "Oplosbaar in water en waterige laboratoriumoplossingen",
+      "Compatibel met gebufferde biochemische onderzoeksoplossingen",
+      "Geschikt voor redox- en elektronenoverdrachtsassays",
+      "Toepasbaar in experimenten met mitochondriale routes",
+      "Compatibel met biochemische onderzoeksprotocollen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "Methyleenblauw 10mg Capsules",
+      brand: "BioPeptides",
+      cas: "61-73-4",
+      purity: "Onderzoekskwaliteit zuiverheid",
+      unitSize: "60 capsules",
+      form: "Capsuleformaat",
+      synthesis: "Gecontroleerde chemische synthese",
+      analytical: "Verificatie van identiteit en zuiverheid",
+      molecularStructure: "Fenothiazine-redoxcompound",
+      stability: "Stabiel onder koele, droge opslagcondities"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "Verificatie van compoundidentiteit",
+      "Beoordeling van zuiverheid en analytische validatie",
+      "Evaluatie van batch-tot-batch consistentie",
+      "Inspectie van verpakkingsintegriteit",
+      "Kwaliteitsgecontroleerde productieprocessen"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "Methyleenblauw geleverd door BioPeptides is uitsluitend bedoeld voor laboratoriumonderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, therapeutische toepassingen of medische behandelingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt methyleenblauw voornamelijk gebruikt in onderzoek?",
+        a: "Methyleenblauw wordt voornamelijk bestudeerd voor redoxbiologie, mitochondriaal elektronentransport, oxidatieve stresssignalering en cellulair energiemetabolisme in gecontroleerde laboratoriumonderzoeksmodellen."
+      },
+      {
+        q: "Waarom is methyleenblauw belangrijk in mitochondriale studies?",
+        a: "De reversibele redoxeigenschappen stellen onderzoekers in staat elektronenoverdrachtsprocessen en mitochondriale bio-energetica nauwkeurig te analyseren."
+      },
+      {
+        q: "Wat identificeert CAS 61-73-4?",
+        a: "CAS 61-73-4 identificeert methyleenblauw uniek en zorgt voor nauwkeurige compoundidentificatie en reproduceerbaarheid in wetenschappelijke onderzoeksdocumentatie."
+      },
+      {
+        q: "Is methyleenblauw geschikt voor in-vitro onderzoek?",
+        a: "Ja. Het wordt veel gebruikt in gecontroleerde in-vitro experimenten met mitochondriale respiratie, oxidatieve stress en metabole signaalroutes."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken methyleenblauw vaak?",
+        a: "Methyleenblauw wordt veel gebruikt in biochemie, mitochondriale biologie, moleculaire biologie, redoxsignaleringsstudies en onderzoek naar cellulair metabolisme."
+      },
+      {
+        q: "Waarom kiezen voor het capsuleformaat voor onderzoek?",
+        a: "Capsules bieden een consistente compoundhoeveelheid, vereenvoudigde laboratoriumhantering en verbeterde opslagstabiliteit."
+      },
+      {
+        q: "Hoe moet methyleenblauw worden bewaard?",
+        a: "Het moet worden bewaard op een koele, droge plaats, beschermd tegen vocht en directe blootstelling aan licht."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor methyleenblauw onderzoekscompounds?",
+        a: "BioPeptides levert geverifieerde onderzoekscompounds met consistente kwaliteit, professionele laboratoriumverpakking en betrouwbare internationale onderzoekslevering."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "C16H18ClN3S",
+  molecularWeight: "319.9",
+  monoisotopicMass: "319.0909965",
+  polarArea: "43.9",
+  complexity: "483",
+  xlogP: "N/A",
+  heavyAtomCount: "21",
+  hydrogenBondDonorCount: "0",
+  hydrogenBondAcceptorCount: "4",
+  rotatableBondCount: "1",
+  cid: "6099",
+  inchi:
+    "InChI=1S/C16H18N3S.ClH/c1-18(2)11-5-7-13-15(9-11)20-16-10-12(19(3)4)6-8-14(16)17-13;/h5-10H,1-4H3;1H/q+1;/p-1",
+  inchiKey: "CXKWCBBOMKCUKX-UHFFFAOYSA-M",
+
+  canonicalSmiles:
+    "CN(C)C1=CC2=C(C=C1)N=C3C=CC(=[N+](C)C)C=C3S2.[Cl-]",
+
+  isomericSmiles:
+    "CN(C)C1=CC2=C(C=C1)N=C3C=CC(=[N+](C)C)C=C3S2.[Cl-]",
+
+  iupacName:
+    "[7-(dimethylamino)phenothiazin-3-ylidene]-dimethylazanium chloride"
+}
+  },
+
+  appearance: "In capsules verpakt vast onderzoeksmateriaal",
+
+  storage: "Bewaren in een koele, droge omgeving, uit de buurt van licht.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"mgf-igf-1-ec-5mg": {
+  name: "IGF-1 Ec (MGF) 5mg",
+
+  tagline:
+    "Mechanical Growth Factor-peptide voor onderzoek naar IGF-1 splice-variant signalering en weefselrespons",
+
+  cas: "—",
+
+  strength: [
+    "IGF-1 Ec (MGF) 5mg van BioPeptides is een hoogzuiver peptide van onderzoekskwaliteit, ontwikkeld voor geavanceerde laboratoriumstudies naar spierafgeleide signalering, weefselregeneratieroutes en IGF-1 splice-variantonderzoek. Het peptide wordt geproduceerd met precisie solid-phase peptidesynthese en gezuiverd tot ≥99% HPLC, waardoor uitstekende moleculaire stabiliteit en reproduceerbaarheid worden geleverd. IGF-1 Ec, bekend als Mechanical Growth Factor (MGF), wordt veel gebruikt in gecontroleerd in-vitro onderzoek in Europa en de Verenigde Staten. BioPeptides levert premium onderzoekpeptiden met geverifieerde documentatie en professionele laboratoriumverpakking."
+  ],
+
+  topDescription: {
+    p0: "IGF-1 Ec, algemeen bekend als Mechanical Growth Factor (MGF), is een splice-variant van insulin-like growth factor-1 die lokaal tot expressie komt als reactie op mechanische stress en weefselbelasting.",
+    p1: "In laboratoriumonderzoeksomgevingen wordt MGF bestudeerd voor lokale signaleringsmechanismen, modellen voor satellietcelactivatie en vroege weefselresponsroutes die verband houden met mechanische stimulatie.",
+    p2: "Het 5mg onderzoeksformaat stelt laboratoria in staat gecontroleerde in-vitro experimenten uit te voeren naar spierafgeleide signalering, activering van regeneratieve routes en IGF-1 splice-variantbiologie."
+  },
+
+  components: [
+    "IGF-1 Ec (MGF) — 5mg gevriesdroogd peptideflesje"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "IGF-1 Ec (MGF) is een splice-variant van insulin-like growth factor-1 die uitgebreid wordt bestudeerd in spierbiologie en regeneratieonderzoek.",
+      "Onderzoekers onderzoeken MGF vanwege zijn rol in lokale signalering na mechanische stress of weefselbelasting.",
+      "Het peptidefragment wordt geassocieerd met vroege signaalroutes die betrokken zijn bij cellulair herstel en weefselaanpassing.",
+      "Het 5mg onderzoeksformaat ondersteunt meerdere experimentele runs en gecontroleerde laboratoriumstudies."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Mechanical Growth Factor (MGF) wordt geproduceerd door alternatieve splicing van het IGF-1-gen als reactie op mechanische stimulatie.",
+      "In tegenstelling tot systemische IGF-1-isovormen komt IGF-1 Ec lokaal tot expressie in weefsels die mechanische belasting of stress ervaren.",
+      "Onderzoekers gebruiken MGF om signaalroutes te bestuderen die betrokken zijn bij vroeg spierherstel en cellulaire responsmechanismen.",
+      "Vanwege het lokale expressiepatroon wordt MGF veel gebruikt in vergelijkende studies naar IGF-1-signaleringsvarianten."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar signaalroutes geïnduceerd door mechanische stress",
+      "Studies naar modellen voor satellietcelactivatie",
+      "Onderzoek naar lokale IGF-signalering",
+      "Onderzoek naar spierafgeleide groeifactorsignalering",
+      "Analyse van peptidegemedieerde cellulaire regeneratieroutes"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar spiersignalering",
+        text: "IGF-1 Ec wordt veel gebruikt in laboratoriummodellen die spierspecifieke signaalresponsen bestuderen die worden geactiveerd door mechanische stress."
+      },
+      {
+        title: "Studies naar satellietcelactivatie",
+        text: "Onderzoekers onderzoeken MGF om vroege activatiemechanismen van spierprecursorcellen te bestuderen."
+      },
+      {
+        title: "Onderzoek naar weefselherstelroutes",
+        text: "Het peptide ondersteunt studies naar lokale weefselherstelprocessen en regeneratieve signaalroutes."
+      },
+      {
+        title: "Cellulair en moleculair biologisch onderzoek",
+        text: "Laboratoria nemen IGF-1 Ec op in celgebaseerde assays om intracellulaire signalering en transcriptionele responsen te analyseren."
+      },
+      {
+        title: "Vergelijkend IGF-onderzoek",
+        text: "MGF wordt vaak gebruikt in vergelijkende experimenten die signaalverschillen onderzoeken tussen systemische IGF-1 en splice-variantvormen."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van het compound: IGF-1 Ec (Mechanical Growth Factor)",
+      "Peptideklasse: IGF-1 splice-variant peptidefragment",
+      "Vorm: Gevriesdroogd peptidepoeder",
+      "Zuiverheid: ≥99% HPLC geverifieerd",
+      "Eenheidsgrootte: 5mg onderzoeksformaat"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Bewaar het gevriesdroogde peptide bij −20°C",
+      "Bescherm tegen directe blootstelling aan licht",
+      "Vermijd herhaalde vries-dooicycli",
+      "Reconstitueer met steriele laboratoriumoplosmiddelen",
+      "Sluit het flesje na gebruik goed af"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en voorbereidingsrichtlijnen",
+    solubilityPoints: [
+      "Oplosbaar in steriel bacteriostatisch water",
+      "Compatibel met gebufferde waterige laboratoriumoplossingen",
+      "Geschikt voor peptide-compatibele oplosmiddelen",
+      "Toepasbaar in celkweek-assayvoorbereidingen",
+      "Compatibel met peptideonderzoeksprotocollen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "IGF-1 Ec (MGF) 5mg",
+      brand: "BioPeptides",
+      cas: "—",
+      purity: "≥99% (HPLC geverifieerd)",
+      unitSize: "5mg flesje",
+      form: "Gevriesdroogd peptidepoeder",
+      synthesis: "Solid-phase peptidesynthese (SPPS)",
+      analytical: "HPLC en massaspectrometrische verificatie",
+      molecularStructure: "IGF-1 splice-variant peptidefragment",
+      stability: "Stabiel onder opslagcondities van −20°C"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "Zuiverheidstest via high-performance liquid chromatography",
+      "Verificatie van peptide-identiteit",
+      "Analyse van structurele integriteit",
+      "Validatie van batch-tot-batch consistentie",
+      "Testen van peptidestabiliteit"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "IGF-1 Ec (MGF) geleverd door BioPeptides is uitsluitend bedoeld voor laboratoriumonderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, therapeutische toepassingen of medische behandelingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt IGF-1 Ec (MGF) voornamelijk gebruikt in onderzoek?",
+        a: "IGF-1 Ec wordt voornamelijk bestudeerd voor spierafgeleide signalering, mechanische stressresponsen en weefselregeneratieroutes in gecontroleerd laboratoriumonderzoek."
+      },
+      {
+        q: "Hoe verschilt IGF-1 Ec van standaard IGF-1?",
+        a: "IGF-1 Ec is een splice-variant die lokaal tot expressie komt na mechanische stress, terwijl standaard IGF-1 meestal bredere systemische signaalactiviteit vertoont."
+      },
+      {
+        q: "Is IGF-1 Ec geschikt voor in-vitro onderzoek?",
+        a: "Ja. IGF-1 Ec wordt vaak gebruikt in gecontroleerde in-vitro experimenten met spiercelsignaleringsmodellen en studies naar regeneratieve routes."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken IGF-1 Ec vaak?",
+        a: "MGF wordt veel gebruikt in spierbiologie, regeneratief onderzoek, moleculaire biologie en studies naar groeifactorsignalering."
+      },
+      {
+        q: "Waarom wordt IGF-1 Ec Mechanical Growth Factor genoemd?",
+        a: "Het wordt Mechanical Growth Factor genoemd omdat de expressie ervan wordt geïnduceerd door mechanische belasting of stress binnen weefsels."
+      },
+      {
+        q: "Waarom kiezen voor het 5mg onderzoeksformaat?",
+        a: "Het 5mg formaat maakt meerdere experimentele runs mogelijk, vermindert peptideverspilling en verbetert de efficiëntie in het laboratorium."
+      },
+      {
+        q: "Hoe moet IGF-1 Ec worden bewaard?",
+        a: "Het peptide moet in gevriesdroogde vorm bij −20°C worden bewaard en beschermd worden tegen vocht en licht."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor IGF-1 Ec onderzoekpeptiden?",
+        a: "BioPeptides levert hoogzuivere peptiden met geverifieerde documentatie en betrouwbare internationale levering voor onderzoekslaboratoria."
+      }
+    ],
+       chemicalProperties: {
+  molecularFormula: "C121H199N41O40",
+  molecularWeight: "2868.1",
+  monoisotopicMass: "2866.4798003",
+  polarArea: "1390",
+  complexity: "6460",
+  xlogP: "-25.2",
+  heavyAtomCount: "202",
+  hydrogenBondDonorCount: "49",
+  hydrogenBondAcceptorCount: "48",
+  rotatableBondCount: "102",
+  cid: "175675731",
+  inchi:
+    "InChI=1S/C121H199N41O40/c1-60(166)93(158-108(191)80(55-89(130)173)153-101(184)68(23-8-12-44-123)146-107(190)79(54-88(129)172)155-115(198)95(62(3)168)160-111(194)83(59-165)157-112(195)84-29-18-50-161(84)117(200)85-30-19-51-162(85)116(199)76(36-40-87(128)171)151-96(179)66(126)52-64-31-33-65(169)34-32-64)113(196)150-69(24-9-13-45-124)102(185)156-82(58-164)109(192)149-73(35-39-86(127)170)103(186)144-71(27-16-48-138-120(133)134)99(182)143-70(26-15-47-137-119(131)132)98(181)142-67(22-7-11-43-122)97(180)140-56-90(174)141-81(57-163)110(193)159-94(61(2)167)114(197)154-78(53-63-20-5-4-6-21-63)106(189)148-75(38-42-92(177)178)105(188)147-74(37-41-91(175)176)104(187)145-72(28-17-49-139-121(135)136)100(183)152-77(118(201)202)25-10-14-46-125/h4-6,20-21,31-34,60-62,66-85,93-95,163-169H,7-19,22-30,35-59,122-126H2,1-3H3,(H2,127,170)(H2,128,171)(H2,129,172)(H2,130,173)(H,140,180)(H,141,174)(H,142,181)(H,143,182)(H,144,186)(H,145,187)(H,146,190)(H,147,188)(H,148,189)(H,149,192)(H,150,196)(H,151,179)(H,152,183)(H,153,184)(H,154,197)(H,155,198)(H,156,185)(H,157,195)(H,158,191)(H,159,193)(H,160,194)(H,175,176)(H,177,178)(H,201,202)(H4,131,132,137)(H4,133,134,138)(H4,135,136,139)/t60-,61-,62-,66+,67+,68+,69+,70+,71+,72+,73+,74+,75+,76+,77+,78+,79+,80+,81+,82+,83+,84+,85+,93+,94+,95+/m1/s1",
+  inchiKey: "TXMSCWQMYNJNDC-XGJLPCLZSA-N",
+
+  canonicalSmiles:
+    "CC(C(C(=O)NC(CCCCN)C(=O)NC(CO)C(=O)NC(CCC(=O)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NCC(=O)NC(CO)C(=O)NC(C(C)O)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)O)NC(=O)C(CC(=O)N)NC(=O)C(CCCCN)NC(=O)C(CC(=O)N)NC(=O)C(C(C)O)NC(=O)C(CO)NC(=O)C2CCCN2C(=O)C3CCCN3C(=O)C(CCC(=O)N)NC(=O)C(CC4=CC=C(C=C4)O)N)O",
+
+  isomericSmiles:
+    "C[C@H]([C@@H](C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)NCC(=O)N[C@@H](CO)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)O)NC(=O)[C@H](CC(=O)N)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CC(=O)N)NC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H](CO)NC(=O)[C@@H]2CCCN2C(=O)[C@@H]3CCCN3C(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CC4=CC=C(C=C4)O)N)O",
+
+  iupacName:
+    "(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S,3R)-2-[[(2S)-4-amino-2-[[(2S)-6-amino-2-[[(2S)-4-amino-2-[[(2S,3R)-2-[[(2S)-2-[[(2S)-1-[(2S)-1-[(2S)-5-amino-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]-5-oxopentanoyl]pyrrolidine-2-carbonyl]pyrrolidine-2-carbonyl]amino]-3-hydroxypropanoyl]amino]-3-hydroxybutanoyl]amino]-4-oxobutanoyl]amino]hexanoyl]amino]-4-oxobutanoyl]amino]-3-hydroxybutanoyl]amino]hexanoyl]amino]-3-hydroxypropanoyl]amino]-5-oxopentanoyl]amino]-5-carbamimidamidopentanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]acetyl]amino]-3-hydroxypropanoyl]amino]-3-hydroxybutanoyl]amino]-3-phenylpropanoyl]amino]-4-carboxybutanoyl]amino]-4-carboxybutanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoic acid"
+}
+  },
+
+  appearance: "Wit gevriesdroogd poeder",
+
+  storage: "Bewaren bij −20°C. Vermijd herhaalde vries-dooicycli.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"mod-grf-ghrp-2-10mg-blend": {
+  name: "MOD-GRF (1-29) + GHRP-2 Blend 10mg",
+
+  tagline:
+    "Dual-pathway growth hormone-as peptideblend voor onderzoek naar receptorsynergie en endocriene signalering",
+
+  cas: "863288-34-0 / 158861-67-7",
+
+  strength: [
+    "Mod GRF 1-29 + GHRP-2 10mg Blend van BioPeptides is een hoogzuivere peptidecombinatie van onderzoekskwaliteit, geformuleerd voor geavanceerde laboratoriumstudies naar groeihormoonsignalering, receptordynamiek en interacties binnen endocriene routes. Geproduceerd met precisie solid-phase peptidesynthese en gezuiverd tot ≥99% HPLC, garandeert deze blend uitstekende moleculaire stabiliteit en reproduceerbaarheid. Geïdentificeerd met CAS 863288-34-0 (Mod GRF 1-29) en CAS 158861-67-7 (GHRP-2), wordt het veel gebruikt in gecontroleerd in-vitro onderzoek in Europa en de Verenigde Staten. Alleen voor onderzoeksgebruik. Niet voor menselijk of veterinair gebruik."
+  ],
+
+  topDescription: {
+    p0: "MOD-GRF (1-29) + GHRP-2 is een onderzoekspeptideblend die een gestabiliseerde GHRH-analoog combineert met een ghrelinereceptoragonist om synergetische groeihormoonsignaleringsmechanismen te bestuderen.",
+    p1: "In laboratoriumonderzoeksomgevingen wordt deze dual-peptidecombinatie onderzocht voor receptor-cross-talk, pulserende signaleringsdynamiek en gecoördineerde activering van de groeihormoon-as.",
+    p2: "Het 10mg onderzoeksformaat stelt laboratoria in staat gecontroleerde in-vitro experimenten uit te voeren naar endocriene route-interacties en peptide-receptorsignaleringsmodellen."
+  },
+
+  components: [
+    "MOD-GRF (1-29) — gestabiliseerde GHRH-analoog peptide",
+    "GHRP-2 — ghrelinereceptor (GHS-R) agonist peptide",
+    "Totale blendhoeveelheid — 10mg gevriesdroogd peptidemengsel"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "MOD-GRF (1-29) + GHRP-2 is een dual-peptideblend die uitgebreid wordt bestudeerd in onderzoek naar de groeihormoon-as.",
+      "Onderzoekers onderzoeken de blend om interacties tussen GHRH-receptorsignalering en ghrelinereceptoractivering te analyseren.",
+      "De combinatie biedt een nuttig model voor het bestuderen van synergetische endocriene signaalroutes.",
+      "Het 10mg onderzoeksformaat ondersteunt meerdere experimentele runs en gecontroleerde laboratoriumonderzoeken."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "MOD-GRF (1-29) is een gemodificeerd fragment van growth-hormone-releasing hormone, ontwikkeld voor verbeterde stabiliteit en receptorinteractie.",
+      "GHRP-2 is een synthetisch growth-hormone-releasing peptide dat de ghrelinereceptor (GHS-R) activeert.",
+      "Onderzoekers gebruiken de combinatie om gecoördineerde receptoractivering binnen de groeihormoon-as te bestuderen.",
+      "Omdat de peptiden via afzonderlijke signaalroutes werken, is de blend waardevol voor vergelijkend endocrien signaleringsonderzoek."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar GHRH-receptoractivering",
+      "Analyse van de ghrelinereceptor (GHS-R) signaalroute",
+      "Dual-pathway modellen voor activering van de groeihormoon-as",
+      "Onderzoek naar receptorsynergie en cross-talk",
+      "Studies naar peptidegemedieerde endocriene signaalroutes"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar de groeihormoon-as",
+        text: "De blend wordt gebruikt om gecoördineerde activering van groeihormoonsignaalroutes te onderzoeken in laboratoriumonderzoeksmodellen."
+      },
+      {
+        title: "Studies naar receptor-cross-talk",
+        text: "Onderzoekers bestuderen interacties tussen GHRH-receptoren en ghrelinereceptoren met dit dual-peptidesysteem."
+      },
+      {
+        title: "Modellen voor pulserende signalering",
+        text: "De peptidecombinatie ondersteunt studies naar de temporele dynamiek van endocriene signalering."
+      },
+      {
+        title: "Cellulair en moleculair biologisch onderzoek",
+        text: "Laboratoria verwerken de blend in celgebaseerde assays om downstream transcriptionele en signaalresponsen te analyseren."
+      },
+      {
+        title: "Vergelijkend onderzoek naar endocriene routes",
+        text: "De combinatie wordt veel gebruikt om enkelvoudige receptoractivering te vergelijken met dual-pathway signaleringseffecten."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van het compound: MOD-GRF (1-29) + GHRP-2 Blend",
+      "CAS-nummers: 863288-34-0 (MOD-GRF 1-29), 158861-67-7 (GHRP-2)",
+      "Peptideklasse: GHRH-analoog + GHS-R agonist peptideblend",
+      "Vorm: Gevriesdroogde peptidepoederblend",
+      "Zuiverheid: ≥99% HPLC geverifieerd",
+      "Eenheidsgrootte: 10mg onderzoeksformaat"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Bewaar gevriesdroogde peptiden bij −20°C",
+      "Bescherm tegen vocht en blootstelling aan licht",
+      "Vermijd herhaalde vries-dooicycli",
+      "Reconstitueer met steriel laboratoriumwaardig oplosmiddel",
+      "Sluit het flesje na gebruik goed af"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en voorbereidingsrichtlijnen",
+    solubilityPoints: [
+      "Oplosbaar in steriel bacteriostatisch water",
+      "Compatibel met gebufferde waterige laboratoriumoplossingen",
+      "Geschikt voor peptideonderzoeksprotocollen",
+      "Toepasbaar in voorbereidingen voor receptorsignaleringsassays",
+      "Compatibel met experimentele celkweekmodellen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "MOD-GRF (1-29) + GHRP-2 Blend 10mg",
+      brand: "BioPeptides",
+      cas: "863288-34-0 / 158861-67-7",
+      purity: "≥99% (HPLC geverifieerd)",
+      unitSize: "10mg flesje",
+      form: "Gevriesdroogde peptidepoederblend",
+      synthesis: "Solid-phase peptidesynthese (SPPS)",
+      analytical: "HPLC en massaspectrometrische verificatie",
+      molecularStructure: "Dual-peptideblend gericht op GH-as signalering",
+      stability: "Stabiel onder opslagcondities van −20°C"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "High-resolution HPLC zuiverheidstest",
+      "Verificatie van peptide-identiteit",
+      "Analyse van structurele integriteit",
+      "Validatie van batch-tot-batch consistentie",
+      "Testen van peptidestabiliteit"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "MOD-GRF (1-29) + GHRP-2 geleverd door BioPeptides is uitsluitend bedoeld voor laboratoriumonderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, therapeutische toepassingen of medische behandelingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt MOD-GRF (1-29) + GHRP-2 voornamelijk gebruikt in onderzoek?",
+        a: "De blend wordt voornamelijk bestudeerd voor groeihormoon-as signalering, receptorsynergie en endocriene route-interacties in gecontroleerde laboratoriummodellen."
+      },
+      {
+        q: "Hoe vullen MOD-GRF (1-29) en GHRP-2 elkaar aan?",
+        a: "MOD-GRF (1-29) activeert de GHRH-receptor, terwijl GHRP-2 zich richt op de ghrelinereceptor, waardoor onderzoekers dual-pathway signalering en receptor-cross-talk kunnen bestuderen."
+      },
+      {
+        q: "Waarom zijn CAS-nummers belangrijk voor deze blend?",
+        a: "CAS 863288-34-0 en 158861-67-7 identificeren elk peptide uniek, waardoor nauwkeurige documentatie en reproduceerbaarheid in onderzoekslaboratoria worden gewaarborgd."
+      },
+      {
+        q: "Is deze peptideblend geschikt voor in-vitro onderzoek?",
+        a: "Ja. De blend wordt vaak gebruikt in receptorassays, signaalroute-experimenten en endocriene onderzoeksmodellen."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken deze blend vaak?",
+        a: "Het wordt veel gebruikt in endocrinologisch onderzoek, moleculaire biologie, receptorfarmacologie en peptide-signaleringsstudies."
+      },
+      {
+        q: "Waarom kiezen voor het 10mg onderzoeksformaat?",
+        a: "Het 10mg formaat maakt meerdere experimentele runs mogelijk, vermindert peptideverspilling en verbetert de efficiëntie in het laboratorium."
+      },
+      {
+        q: "Hoe moet de peptideblend worden bewaard?",
+        a: "De peptiden moeten in gevriesdroogde vorm bij −20°C worden bewaard en beschermd worden tegen vocht en licht."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor onderzoekspeptideblends?",
+        a: "BioPeptides levert hoogzuivere peptiden met geverifieerde CAS-documentatie en betrouwbare internationale levering voor onderzoekslaboratoria."
+      }
+    ],
+       chemicalProperties: {
+  molecularFormula: "CJC-1295 Acetate: C152H252N44O42 Pralmorelin: C45H55N9O6",
+  molecularWeight: "CJC-1295 Acetate: 3367.9 Pralmorelin: 818",
+  monoisotopicMass: "CJC-1295 Acetate: 3365.8935782 Pralmorelin: 817.42753051",
+  polarArea: "CJC-1295 Acetate: 1450 Pralmorelin: 256",
+  complexity: "CJC-1295 Acetate: 7710 Pralmorelin: 1440",
+  xlogP: "CJC-1295 Acetate: -10.7 Pralmorelin: 2.5",
+  heavyAtomCount: "CJC-1295 Acetate: 238 Pralmorelin: 60",
+  hydrogenBondDonorCount: "CJC-1295 Acetate: 52 Pralmorelin: 9",
+  hydrogenBondAcceptorCount: "CJC-1295 Acetate: 48 Pralmorelin: 8",
+  rotatableBondCount: "CJC-1295 Acetate: 118 Pralmorelin: 21",
+  cid: "CJC-1295 Acetate: 56841945 Pralmorelin: 6918245",
+  inchi:
+    "CJC-1295 Acetate: InChI=1S/C152H252N44O42/c1-22-79(15)118(194-125(214)84(20)171-135(224)107(68-115(206)207)181-124(213)81(17)169-126(215)91(155)65-87-41-45-89(201)46-42-87)147(236)189-106(66-86-34-25-24-26-35-86)141(230)196-120(85(21)200)149(238)180-99(51-54-114(158)205)132(221)190-111(72-199)145(234)185-105(67-88-43-47-90(202)48-44-88)140(229)178-96(40-33-59-168-152(164)165)128(217)177-94(37-28-30-56-154)133(222)193-117(78(13)14)146(235)187-100(60-73(3)4)134(223)170-82(18)123(212)175-97(49-52-112(156)203)130(219)183-103(63-76(9)10)138(227)191-109(70-197)143(232)172-83(19)122(211)174-95(39-32-58-167-151(162)163)127(216)176-93(36-27-29-55-153)129(218)182-102(62-75(7)8)137(226)184-101(61-74(5)6)136(225)179-98(50-53-113(157)204)131(220)186-108(69-116(208)209)142(231)195-119(80(16)23-2)148(237)188-104(64-77(11)12)139(228)192-110(71-198)144(233)173-92(121(159)210)38-31-57-166-150(160)161/h24-26,34-35,41-48,73-85,91-111,117-120,197-202H,22-23,27-33,36-40,49-72,153-155H2,1-21H3,(H2,156,203)(H2,157,204)(H2,158,205)(H2,159,210)(H,169,215)(H,170,223)(H,171,224)(H,172,232)(H,173,233)(H,174,211)(H,175,212)(H,176,216)(H,177,217)(H,178,229)(H,179,225)(H,180,238)(H,181,213)(H,182,218)(H,183,219)(H,184,226)(H,185,234)(H,186,220)(H,187,235)(H,188,237)(H,189,236)(H,190,221)(H,191,227)(H,192,228)(H,193,222)(H,194,214)(H,195,231)(H,196,230)(H,206,207)(H,208,209)(H4,160,161,166)(H4,162,163,167)(H4,164,165,168)/t79-,80-,81+,82-,83-,84-,85+,91-,92-,93-,94-,95-,96-,97-,98-,99-,100-,101-,102-,103-,104-,105-,106-,107-,108-,109-,110-,111-,117-,118-,119-,120-/m0/s1 Pralmorelin: InChI=1S/C45H55N9O6/c1-27(47)41(56)52-38(24-30-19-20-31-14-6-7-15-32(31)22-30)43(58)50-28(2)42(57)53-39(25-33-26-49-35-17-9-8-16-34(33)35)45(60)54-37(23-29-12-4-3-5-13-29)44(59)51-36(40(48)55)18-10-11-21-46/h3-9,12-17,19-20,22,26-28,36-39,49H,10-11,18,21,23-25,46-47H2,1-2H3,(H2,48,55)(H,50,58)(H,51,59)(H,52,56)(H,53,57)(H,54,60)/t27-,28+,36+,37-,38-,39+/m1/s1",
+  inchiKey: "CJC-1295 Acetate: XOZMWINMZMMOBR-HRDSVTNWSA-N Pralmorelin: HRNLPPBUBKMZMT-RDRUQFPZSA-N",
+
+  canonicalSmiles:
+    "CJC-1295 Acetate: CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)N)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C(CC3=CC=C(C=C3)O)N Pralmorelin: CC(C(=O)NC(CC1=CC2=CC=CC=C2C=C1)C(=O)NC(C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCCN)C(=O)N)N",
+
+  isomericSmiles:
+    "CJC-1295 Acetate: CC[C@H](C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N)NC(=O)[C@H](C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H](C)NC(=O)[C@H](CC3=CC=C(C=C3)O)N Pralmorelin: C[C@H](C(=O)N[C@H](CC1=CC2=CC=CC=C2C=C1)C(=O)N[C@@H](C)C(=O)N[C@@H](CC3=CNC4=CC=CC=C43)C(=O)N[C@H](CC5=CC=CC=C5)C(=O)N[C@@H](CCCCN)C(=O)N)N",
+
+  iupacName:
+    "CJC-1295 Acetate: (3S)-4-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S,3R)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-[[(2R)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]-4-oxobutanoic acid Pralmorelin: (2S)-6-amino-2-[[(2R)-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2R)-2-aminopropanoyl]amino]-3-naphthalen-2-ylpropanoyl]amino]propanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+}
+  },
+
+  appearance: "Witte gevriesdroogde poederblend",
+
+  storage: "Bewaren bij −20°C. Vermijd herhaalde vries-dooicycli.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"mod-grf-hexarelin-10mg-blend": {
+  name: "MOD-GRF (1-29) + Hexarelin Blend 10mg",
+
+  tagline:
+    "Dual-pathway groeihormoon-as peptideblend voor onderzoek naar receptorsynergie en endocriene signalering",
+
+  cas: "863288-34-0 / 140703-51-1",
+
+  strength: [
+    "MOD-GRF (1-29) + Hexarelin 10mg Blend van BioPeptides is een hoogzuivere peptidecombinatie van onderzoekskwaliteit, geformuleerd voor geavanceerde laboratoriumstudies naar groeihormoonsignalering, receptorroutedynamiek en endocriene signaleringsinteracties. Gesynthetiseerd met precisie solid-phase peptidesynthese en gezuiverd tot ≥99% HPLC, biedt deze blend uitstekende moleculaire stabiliteit en reproduceerbaarheid. Geïdentificeerd met CAS 863288-34-0 (MOD-GRF 1-29) en CAS 140703-51-1 (Hexarelin), wordt het veel gebruikt in gecontroleerd in-vitro onderzoek in Europa en de Verenigde Staten."
+  ],
+
+  topDescription: {
+    p0: "MOD-GRF (1-29) + Hexarelin is een onderzoekspeptideblend die een gestabiliseerde GHRH-analoog combineert met een ghrelinereceptoragonist om synergetische groeihormoonsignaleringsmechanismen te bestuderen.",
+    p1: "In laboratoriumonderzoeksomgevingen wordt deze dual-peptidecombinatie onderzocht voor receptor-cross-talk, pulserende endocriene signalering en gecoördineerde activering van de groeihormoon-as.",
+    p2: "Het 10mg onderzoeksformaat stelt laboratoria in staat gecontroleerde in-vitro experimenten uit te voeren naar endocriene route-interacties en peptide-receptorsignaleringsmodellen."
+  },
+
+  components: [
+    "MOD-GRF (1-29) — gestabiliseerde GHRH-analoog peptide",
+    "Hexarelin — ghrelinereceptor (GHS-R) agonist peptide",
+    "Totale blendhoeveelheid — 10mg gevriesdroogd peptidemengsel"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "MOD-GRF (1-29) + Hexarelin is een dual-peptideblend die uitgebreid wordt bestudeerd in onderzoek naar de groeihormoon-as.",
+      "Onderzoekers onderzoeken de blend om interacties tussen GHRH-receptorsignalering en ghrelinereceptoractivering te analyseren.",
+      "De combinatie biedt een nuttig model voor het bestuderen van synergetische endocriene signaalroutes.",
+      "Het 10mg onderzoeksformaat ondersteunt meerdere experimentele runs en gecontroleerde laboratoriumonderzoeken."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "MOD-GRF (1-29) is een gemodificeerd fragment van growth-hormone-releasing hormone, ontwikkeld voor verbeterde stabiliteit en receptorinteractie.",
+      "Hexarelin is een synthetisch hexapeptide dat de ghrelinereceptor (GHS-R) activeert.",
+      "Onderzoekers gebruiken de combinatie om gecoördineerde receptoractivering binnen de groeihormoonsignaleringsas te bestuderen.",
+      "Omdat de peptiden via afzonderlijke receptorroutes werken, is de blend waardevol voor vergelijkend endocrien signaleringsonderzoek."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar GHRH-receptoractivering",
+      "Analyse van de ghrelinereceptor (GHS-R) signaalroute",
+      "Dual-pathway modellen voor activering van de groeihormoon-as",
+      "Onderzoek naar receptorsynergie en cross-talk",
+      "Studies naar peptidegemedieerde endocriene signaalroutes"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar de groeihormoon-as",
+        text: "De blend wordt gebruikt om gecoördineerde activering van groeihormoonsignaalroutes te onderzoeken in laboratoriumonderzoeksmodellen."
+      },
+      {
+        title: "Studies naar receptor-cross-talk",
+        text: "Onderzoekers bestuderen interacties tussen GHRH-receptoren en ghrelinereceptoren met dit dual-peptidesysteem."
+      },
+      {
+        title: "Modellen voor pulserende signalering",
+        text: "De peptidecombinatie ondersteunt studies naar de temporele dynamiek van endocriene signalering."
+      },
+      {
+        title: "Cellulair en moleculair biologisch onderzoek",
+        text: "Laboratoria verwerken de blend in celgebaseerde assays om downstream transcriptionele en signaalresponsen te analyseren."
+      },
+      {
+        title: "Vergelijkend onderzoek naar endocriene routes",
+        text: "De combinatie wordt veel gebruikt om enkelvoudige receptoractivering te vergelijken met dual-pathway signaleringseffecten."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van het compound: MOD-GRF (1-29) + Hexarelin Blend",
+      "CAS-nummers: 863288-34-0 (MOD-GRF 1-29), 140703-51-1 (Hexarelin)",
+      "Peptideklasse: GHRH-analoog + GHS-R agonist peptideblend",
+      "Vorm: Gevriesdroogde peptidepoederblend",
+      "Zuiverheid: ≥99% HPLC geverifieerd",
+      "Eenheidsgrootte: 10mg onderzoeksformaat"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Bewaar gevriesdroogde peptiden bij −20°C",
+      "Bescherm tegen vocht en blootstelling aan licht",
+      "Vermijd herhaalde vries-dooicycli",
+      "Reconstitueer met steriel laboratoriumwaardig oplosmiddel",
+      "Sluit het flesje na gebruik goed af"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en voorbereidingsrichtlijnen",
+    solubilityPoints: [
+      "Oplosbaar in steriel bacteriostatisch water",
+      "Compatibel met gebufferde waterige laboratoriumoplossingen",
+      "Geschikt voor peptideonderzoeksprotocollen",
+      "Toepasbaar in voorbereidingen voor receptorsignaleringsassays",
+      "Compatibel met experimentele celkweekmodellen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "MOD-GRF (1-29) + Hexarelin Blend 10mg",
+      brand: "BioPeptides",
+      cas: "863288-34-0 / 140703-51-1",
+      purity: "≥99% (HPLC geverifieerd)",
+      unitSize: "10mg flesje",
+      form: "Gevriesdroogde peptidepoederblend",
+      synthesis: "Solid-phase peptidesynthese (SPPS)",
+      analytical: "HPLC en massaspectrometrische verificatie",
+      molecularStructure: "Dual-peptideblend gericht op GH-as signalering",
+      stability: "Stabiel onder opslagcondities van −20°C"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "High-resolution HPLC zuiverheidstest",
+      "Verificatie van peptide-identiteit",
+      "Analyse van structurele integriteit",
+      "Validatie van batch-tot-batch consistentie",
+      "Testen van peptidestabiliteit"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "MOD-GRF (1-29) + Hexarelin geleverd door BioPeptides is uitsluitend bedoeld voor laboratoriumonderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, therapeutische toepassingen of medische behandelingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt deze peptideblend voornamelijk gebruikt in onderzoek?",
+        a: "De blend wordt voornamelijk bestudeerd voor groeihormoon-as signalering, receptorsynergie en endocriene route-interacties in gecontroleerde laboratoriummodellen."
+      },
+      {
+        q: "Hoe vullen MOD-GRF (1-29) en Hexarelin elkaar aan?",
+        a: "MOD-GRF (1-29) activeert de GHRH-receptor, terwijl Hexarelin zich richt op de ghrelinereceptor, waardoor onderzoekers dual-pathway signalering en receptor-cross-talk kunnen bestuderen."
+      },
+      {
+        q: "Waarom zijn CAS-nummers belangrijk voor deze blend?",
+        a: "CAS 863288-34-0 en 140703-51-1 identificeren elk peptide uniek, waardoor nauwkeurige documentatie en reproduceerbaarheid in onderzoekslaboratoria worden gewaarborgd."
+      },
+      {
+        q: "Is deze peptideblend geschikt voor in-vitro onderzoek?",
+        a: "Ja. De blend wordt vaak gebruikt in receptorassays, signaalroute-experimenten en endocriene onderzoeksmodellen."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken deze blend vaak?",
+        a: "Het wordt veel gebruikt in endocrinologisch onderzoek, moleculaire biologie, receptorfarmacologie en peptide-signaleringsstudies."
+      },
+      {
+        q: "Waarom kiezen voor het 10mg onderzoeksformaat?",
+        a: "Het 10mg formaat maakt meerdere experimentele runs mogelijk, vermindert peptideverspilling en verbetert de efficiëntie in het laboratorium."
+      },
+      {
+        q: "Hoe moet de peptideblend worden bewaard?",
+        a: "De peptiden moeten in gevriesdroogde vorm bij −20°C worden bewaard en beschermd worden tegen vocht en licht."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor onderzoekspeptideblends?",
+        a: "BioPeptides levert hoogzuivere peptiden met geverifieerde CAS-documentatie en betrouwbare internationale levering voor onderzoekslaboratoria."
+      }
+    ],
+       chemicalProperties: {
+  molecularFormula: "CJC-1295 Acetate: C152H252N44O42 Examorelin: C47H58N12O6",
+  molecularWeight: "CJC-1295 Acetate: 3367.9 Examorelin: 887",
+  monoisotopicMass: "	CJC-1295 Acetate: 3365.8935782 Examorelin: 886.46022762",
+  polarArea: "CJC-1295 Acetate: 1450 Examorelin: 301",
+  complexity: "CJC-1295 Acetate: 7710 Examorelin: 1600",
+  xlogP: "CJC-1295 Acetate: -10.7 Examorelin: 2.3",
+  heavyAtomCount: "CJC-1295 Acetate: 238 Examorelin: 65",
+  hydrogenBondDonorCount: "CJC-1295 Acetate: 52 Examorelin: 11",
+  hydrogenBondAcceptorCount: "CJC-1295 Acetate: 48 Examorelin: 9",
+  rotatableBondCount: "CJC-1295 Acetate: 118 Examorelin: 23",
+  cid: "CJC-1295 Acetate: 56841945c Examorelin: 6918297",
+  inchi:
+    "CJC-1295 Acetate: InChI=1S/C152H252N44O42/c1-22-79(15)118(194-125(214)84(20)171-135(224)107(68-115(206)207)181-124(213)81(17)169-126(215)91(155)65-87-41-45-89(201)46-42-87)147(236)189-106(66-86-34-25-24-26-35-86)141(230)196-120(85(21)200)149(238)180-99(51-54-114(158)205)132(221)190-111(72-199)145(234)185-105(67-88-43-47-90(202)48-44-88)140(229)178-96(40-33-59-168-152(164)165)128(217)177-94(37-28-30-56-154)133(222)193-117(78(13)14)146(235)187-100(60-73(3)4)134(223)170-82(18)123(212)175-97(49-52-112(156)203)130(219)183-103(63-76(9)10)138(227)191-109(70-197)143(232)172-83(19)122(211)174-95(39-32-58-167-151(162)163)127(216)176-93(36-27-29-55-153)129(218)182-102(62-75(7)8)137(226)184-101(61-74(5)6)136(225)179-98(50-53-113(157)204)131(220)186-108(69-116(208)209)142(231)195-119(80(16)23-2)148(237)188-104(64-77(11)12)139(228)192-110(71-198)144(233)173-92(121(159)210)38-31-57-166-150(160)161/h24-26,34-35,41-48,73-85,91-111,117-120,197-202H,22-23,27-33,36-40,49-72,153-155H2,1-21H3,(H2,156,203)(H2,157,204)(H2,158,205)(H2,159,210)(H,169,215)(H,170,223)(H,171,224)(H,172,232)(H,173,233)(H,174,211)(H,175,212)(H,176,216)(H,177,217)(H,178,229)(H,179,225)(H,180,238)(H,181,213)(H,182,218)(H,183,219)(H,184,226)(H,185,234)(H,186,220)(H,187,235)(H,188,237)(H,189,236)(H,190,221)(H,191,227)(H,192,228)(H,193,222)(H,194,214)(H,195,231)(H,196,230)(H,206,207)(H,208,209)(H4,160,161,166)(H4,162,163,167)(H4,164,165,168)/t79-,80-,81+,82-,83-,84-,85+,91-,92-,93-,94-,95-,96-,97-,98-,99-,100-,101-,102-,103-,104-,105-,106-,107-,108-,109-,110-,111-,117-,118-,119-,120-/m0/s1 Examorelin: InChI=1S/C47H58N12O6/c1-27-34(33-15-7-9-17-37(33)54-27)23-41(58-44(62)35(49)22-31-25-51-26-53-31)45(63)55-28(2)43(61)57-40(21-30-24-52-36-16-8-6-14-32(30)36)47(65)59-39(20-29-12-4-3-5-13-29)46(64)56-38(42(50)60)18-10-11-19-48/h3-9,12-17,24-26,28,35,38-41,52,54H,10-11,18-23,48-49H2,1-2H3,(H2,50,60)(H,51,53)(H,55,63)(H,56,64)(H,57,61)(H,58,62)(H,59,65)/t28-,35-,38-,39+,40-,41+/m0/s1",
+  inchiKey: "CJC-1295 Acetate: XOZMWINMZMMOBR-HRDSVTNWSA-N Examorelin: RVWNMGKSNGWLOL-GIIHNPQRSA-N",
+
+  canonicalSmiles:
+    "CJC-1295 Acetate: CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)N)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C(CC3=CC=C(C=C3)O)N Examorelin: CC1=C(C2=CC=CC=C2N1)CC(C(=O)NC(C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCCN)C(=O)N)NC(=O)C(CC6=CN=CN6)N",
+
+  isomericSmiles:
+    "CJC-1295 Acetate: CC[C@H](C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N)NC(=O)[C@H](C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H](C)NC(=O)[C@H](CC3=CC=C(C=C3)O)N Examorelin: CC1=C(C2=CC=CC=C2N1)C[C@H](C(=O)N[C@@H](C)C(=O)N[C@@H](CC3=CNC4=CC=CC=C43)C(=O)N[C@H](CC5=CC=CC=C5)C(=O)N[C@@H](CCCCN)C(=O)N)NC(=O)[C@H](CC6=CN=CN6)N",
+
+  iupacName:
+    "CJC-1295 Acetate: (3S)-4-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S,3R)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-[[(2R)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]-4-oxobutanoic acid Examorelin: (2S)-6-amino-2-[[(2R)-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2S)-2-amino-3-(1H-imidazol-5-yl)propanoyl]amino]-3-(2-methyl-1H-indol-3-yl)propanoyl]amino]propanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+}
+  },
+
+  appearance: "Witte gevriesdroogde poederblend",
+
+  storage: "Bewaren bij −20°C. Vermijd herhaalde vries-dooicycli.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"mod-grf-ipamorelin-ghrp-2-blend": {
+  name: "MOD-GRF (1-29) + Ipamorelin + GHRP-2 Blend",
+
+  tagline:
+    "Triple-pathway groeihormoon-as peptideblend voor onderzoek naar receptorsynergie en endocriene signalering",
+
+  cas: "863288-34-0 / 170851-70-4 / 158861-67-7",
+
+  strength: [
+    "MOD-GRF (1-29) + Ipamorelin + GHRP-2 Blend van BioPeptides is een hoogzuivere peptidecombinatie van onderzoekskwaliteit, geformuleerd voor geavanceerde laboratoriumstudies naar groeihormoonsignalering, receptorroutedynamiek en endocriene signaleringsinteracties. Gesynthetiseerd met precisie solid-phase peptidesynthese en gezuiverd tot ≥99% HPLC, biedt deze blend uitstekende moleculaire stabiliteit en reproduceerbaarheid. Geïdentificeerd met CAS 863288-34-0 (MOD-GRF 1-29), CAS 170851-70-4 (Ipamorelin) en CAS 158861-67-7 (GHRP-2), wordt het veel gebruikt in gecontroleerd in-vitro onderzoek in Europa en de Verenigde Staten."
+  ],
+
+  topDescription: {
+    p0: "MOD-GRF (1-29) + Ipamorelin + GHRP-2 is een triple-peptide onderzoeksblend die is ontworpen om synergetische activering van de groeihormoon-as via meerdere receptorroutes te onderzoeken.",
+    p1: "In laboratoriumomgevingen wordt deze combinatie bestudeerd voor receptor-cross-talk, pulserende endocriene signaleringsmodellen en gecoördineerde activering van GHRH- en ghrelinereceptorroutes.",
+    p2: "Het blendformaat stelt onderzoekers in staat complexe signaaldynamiek en multi-receptorinteracties te onderzoeken in gecontroleerde in-vitro endocriene onderzoekssystemen."
+  },
+
+  components: [
+    "MOD-GRF (1-29) — gestabiliseerde GHRH-analoog peptide",
+    "Ipamorelin — selectieve ghrelinereceptor (GHS-R) agonist peptide",
+    "GHRP-2 — synthetische groeihormoon-secretagoog peptide",
+    "Totale blendhoeveelheid — gevriesdroogd peptidemengsel"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "MOD-GRF (1-29) + Ipamorelin + GHRP-2 is een triple-peptideblend die wordt gebruikt in geavanceerd onderzoek naar de groeihormoon-as.",
+      "Onderzoekers bestuderen deze formulering om gecoördineerde activering van GHRH- en ghrelinereceptorsignaleringsroutes te analyseren.",
+      "De blend biedt een model voor het onderzoeken van synergetische endocriene signaleringsmechanismen.",
+      "De formulering ondersteunt gecontroleerde laboratoriumexperimenten naar multi-receptorsignaleringsdynamiek."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "MOD-GRF (1-29) is een gemodificeerd fragment van groeihormoon-releasing hormone, ontwikkeld voor verbeterde stabiliteit en receptorinteractie.",
+      "Ipamorelin is een selectieve ghrelinereceptoragonist die wordt bestudeerd vanwege zijn gerichte groeihormoonsignaleringsactiviteit.",
+      "GHRP-2 is een synthetische peptide die de ghrelinereceptor activeert en onderzoek naar groeihormoonsecretieroutes ondersteunt.",
+      "Samen stellen deze peptiden onderzoekers in staat gecoördineerde receptoractivering en endocriene signaleringsinteracties te onderzoeken."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar GHRH-receptoractivering",
+      "Analyse van de ghrelinereceptor (GHS-R) signaalroute",
+      "Multi-pathway modellen voor activering van de groeihormoon-as",
+      "Onderzoek naar receptorsynergie en cross-talk",
+      "Onderzoek naar peptidegemedieerde endocriene signalering"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar de groeihormoon-as",
+        text: "De blend wordt gebruikt om gecoördineerde activering van groeihormoonsignaalroutes te onderzoeken in laboratoriumonderzoeksmodellen."
+      },
+      {
+        title: "Studies naar receptor-cross-talk",
+        text: "Onderzoekers analyseren interacties tussen GHRH-receptoren en ghrelinereceptoren met dit multi-peptidesysteem."
+      },
+      {
+        title: "Pulserende endocriene signaleringsmodellen",
+        text: "De peptidecombinatie ondersteunt experimenten naar de temporele dynamiek van endocriene signalering."
+      },
+      {
+        title: "Cellulair en moleculair biologisch onderzoek",
+        text: "Laboratoria verwerken de blend in celgebaseerde assays om downstream transcriptionele en signaalresponsen te analyseren."
+      },
+      {
+        title: "Vergelijkend onderzoek naar endocriene routes",
+        text: "De blend maakt vergelijking mogelijk tussen enkelvoudige receptoractivering en gecombineerde multi-pathway signaleringseffecten."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van het compound: MOD-GRF (1-29) + Ipamorelin + GHRP-2 Blend",
+      "CAS-nummers: 863288-34-0, 170851-70-4, 158861-67-7",
+      "Peptideklasse: GHRH-analoog + GHS-R agonist peptideblend",
+      "Vorm: Gevriesdroogde peptidepoederblend",
+      "Zuiverheid: ≥99% HPLC geverifieerd",
+      "Eenheidsgrootte: Onderzoekspeptideblendformaat"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Bewaar gevriesdroogde peptiden bij −20°C",
+      "Bescherm tegen vocht en blootstelling aan licht",
+      "Vermijd herhaalde vries-dooicycli",
+      "Reconstitueer met steriel laboratoriumwaardig oplosmiddel",
+      "Sluit het flesje na gebruik goed af"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en voorbereidingsrichtlijnen",
+    solubilityPoints: [
+      "Oplosbaar in steriel bacteriostatisch water",
+      "Compatibel met gebufferde waterige laboratoriumoplossingen",
+      "Geschikt voor peptideonderzoeksprotocollen",
+      "Toepasbaar in voorbereidingen voor receptorsignaleringsassays",
+      "Compatibel met experimentele celkweekmodellen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "MOD-GRF (1-29) + Ipamorelin + GHRP-2 Blend",
+      brand: "BioPeptides",
+      cas: "863288-34-0 / 170851-70-4 / 158861-67-7",
+      purity: "≥99% (HPLC geverifieerd)",
+      form: "Gevriesdroogde peptidepoederblend",
+      synthesis: "Solid-phase peptidesynthese (SPPS)",
+      analytical: "HPLC en massaspectrometrische verificatie",
+      molecularStructure: "Triple-peptideblend gericht op GH-as signalering",
+      stability: "Stabiel onder opslagcondities van −20°C"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "High-resolution HPLC zuiverheidstest",
+      "Verificatie van peptide-identiteit",
+      "Analyse van structurele integriteit",
+      "Validatie van batch-tot-batch consistentie",
+      "Testen van peptidestabiliteit"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "MOD-GRF (1-29) + Ipamorelin + GHRP-2 geleverd door BioPeptides is uitsluitend bedoeld voor laboratoriumonderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, therapeutische toepassingen of medische behandelingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt deze peptideblend gebruikt in onderzoek?",
+        a: "De blend wordt voornamelijk bestudeerd voor groeihormoon-as signalering, receptorsynergie en endocriene route-interacties in gecontroleerde laboratoriumonderzoeksmodellen."
+      },
+      {
+        q: "Hoe werken de drie peptiden samen?",
+        a: "MOD-GRF activeert de GHRH-receptor, terwijl Ipamorelin en GHRP-2 de ghrelinereceptor stimuleren, waardoor onderzoek naar multi-pathway endocriene signalering mogelijk wordt."
+      },
+      {
+        q: "Waarom zijn CAS-nummers belangrijk voor dit product?",
+        a: "CAS-nummers identificeren elk peptide uniek, waardoor nauwkeurige documentatie, traceerbaarheid en reproduceerbaarheid in onderzoekslaboratoria worden gewaarborgd."
+      },
+      {
+        q: "Is deze blend geschikt voor in-vitro experimenten?",
+        a: "Ja. De blend wordt vaak gebruikt in receptorassays, signaalroute-experimenten en endocriene onderzoeksmodellen."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken deze blend vaak?",
+        a: "Het wordt veel gebruikt in endocrinologisch onderzoek, moleculaire biologie, receptorfarmacologie en peptide-signaleringsstudies."
+      },
+      {
+        q: "Welke voordelen biedt een geblende formulering?",
+        a: "Een blend maakt gelijktijdige routeactivering mogelijk, vermindert experimentele variabiliteit en verbetert de efficiëntie van onderzoek."
+      },
+      {
+        q: "Hoe moet deze peptideblend worden bewaard?",
+        a: "De peptiden moeten in gevriesdroogde vorm bij −20°C worden bewaard en beschermd worden tegen vocht en licht."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor onderzoekspeptideblends?",
+        a: "BioPeptides levert hoogzuivere peptiden met geverifieerde CAS-documentatie en betrouwbare internationale levering voor onderzoekslaboratoria."
+      }
+    ],
+          chemicalProperties: {
+  molecularFormula: "CJC-1295 Acetate: C152H252N44O42 Examorelin: C47H58N12O6",
+  molecularWeight: "CJC-1295 Acetate: 3367.9 Examorelin: 887",
+  monoisotopicMass: "	CJC-1295 Acetate: 3365.8935782 Examorelin: 886.46022762",
+  polarArea: "CJC-1295 Acetate: 1450 Examorelin: 301",
+  complexity: "CJC-1295 Acetate: 7710 Examorelin: 1600",
+  xlogP: "CJC-1295 Acetate: -10.7 Examorelin: 2.3",
+  heavyAtomCount: "CJC-1295 Acetate: 238 Examorelin: 65",
+  hydrogenBondDonorCount: "CJC-1295 Acetate: 52 Examorelin: 11",
+  hydrogenBondAcceptorCount: "CJC-1295 Acetate: 48 Examorelin: 9",
+  rotatableBondCount: "CJC-1295 Acetate: 118 Examorelin: 23",
+  cid: "CJC-1295 Acetate: 56841945c Examorelin: 6918297",
+  inchi:
+    "CJC-1295 Acetate: InChI=1S/C152H252N44O42/c1-22-79(15)118(194-125(214)84(20)171-135(224)107(68-115(206)207)181-124(213)81(17)169-126(215)91(155)65-87-41-45-89(201)46-42-87)147(236)189-106(66-86-34-25-24-26-35-86)141(230)196-120(85(21)200)149(238)180-99(51-54-114(158)205)132(221)190-111(72-199)145(234)185-105(67-88-43-47-90(202)48-44-88)140(229)178-96(40-33-59-168-152(164)165)128(217)177-94(37-28-30-56-154)133(222)193-117(78(13)14)146(235)187-100(60-73(3)4)134(223)170-82(18)123(212)175-97(49-52-112(156)203)130(219)183-103(63-76(9)10)138(227)191-109(70-197)143(232)172-83(19)122(211)174-95(39-32-58-167-151(162)163)127(216)176-93(36-27-29-55-153)129(218)182-102(62-75(7)8)137(226)184-101(61-74(5)6)136(225)179-98(50-53-113(157)204)131(220)186-108(69-116(208)209)142(231)195-119(80(16)23-2)148(237)188-104(64-77(11)12)139(228)192-110(71-198)144(233)173-92(121(159)210)38-31-57-166-150(160)161/h24-26,34-35,41-48,73-85,91-111,117-120,197-202H,22-23,27-33,36-40,49-72,153-155H2,1-21H3,(H2,156,203)(H2,157,204)(H2,158,205)(H2,159,210)(H,169,215)(H,170,223)(H,171,224)(H,172,232)(H,173,233)(H,174,211)(H,175,212)(H,176,216)(H,177,217)(H,178,229)(H,179,225)(H,180,238)(H,181,213)(H,182,218)(H,183,219)(H,184,226)(H,185,234)(H,186,220)(H,187,235)(H,188,237)(H,189,236)(H,190,221)(H,191,227)(H,192,228)(H,193,222)(H,194,214)(H,195,231)(H,196,230)(H,206,207)(H,208,209)(H4,160,161,166)(H4,162,163,167)(H4,164,165,168)/t79-,80-,81+,82-,83-,84-,85+,91-,92-,93-,94-,95-,96-,97-,98-,99-,100-,101-,102-,103-,104-,105-,106-,107-,108-,109-,110-,111-,117-,118-,119-,120-/m0/s1 Examorelin: InChI=1S/C47H58N12O6/c1-27-34(33-15-7-9-17-37(33)54-27)23-41(58-44(62)35(49)22-31-25-51-26-53-31)45(63)55-28(2)43(61)57-40(21-30-24-52-36-16-8-6-14-32(30)36)47(65)59-39(20-29-12-4-3-5-13-29)46(64)56-38(42(50)60)18-10-11-19-48/h3-9,12-17,24-26,28,35,38-41,52,54H,10-11,18-23,48-49H2,1-2H3,(H2,50,60)(H,51,53)(H,55,63)(H,56,64)(H,57,61)(H,58,62)(H,59,65)/t28-,35-,38-,39+,40-,41+/m0/s1",
+  inchiKey: "CJC-1295 Acetate: XOZMWINMZMMOBR-HRDSVTNWSA-N Examorelin: RVWNMGKSNGWLOL-GIIHNPQRSA-N",
+
+  canonicalSmiles:
+    "CJC-1295 Acetate: CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)N)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C(CC3=CC=C(C=C3)O)N Examorelin: CC1=C(C2=CC=CC=C2N1)CC(C(=O)NC(C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCCN)C(=O)N)NC(=O)C(CC6=CN=CN6)N",
+
+  isomericSmiles:
+    "CJC-1295 Acetate: CC[C@H](C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N)NC(=O)[C@H](C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H](C)NC(=O)[C@H](CC3=CC=C(C=C3)O)N Examorelin: CC1=C(C2=CC=CC=C2N1)C[C@H](C(=O)N[C@@H](C)C(=O)N[C@@H](CC3=CNC4=CC=CC=C43)C(=O)N[C@H](CC5=CC=CC=C5)C(=O)N[C@@H](CCCCN)C(=O)N)NC(=O)[C@H](CC6=CN=CN6)N",
+
+  iupacName:
+    "CJC-1295 Acetate: (3S)-4-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S,3R)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-[[(2R)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]-4-oxobutanoic acid Examorelin: (2S)-6-amino-2-[[(2R)-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2S)-2-amino-3-(1H-imidazol-5-yl)propanoyl]amino]-3-(2-methyl-1H-indol-3-yl)propanoyl]amino]propanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+}
+  },
+
+  appearance: "Witte gevriesdroogde poederblend",
+
+  storage: "Bewaren bij −20°C. Vermijd herhaalde vries-dooicycli.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"mod-grf-ipamorelin-10mg-blend": {
+  name: "MOD-GRF (1-29) + Ipamorelin Blend 10mg",
+
+  tagline:
+    "Dual-pathway groeihormoon-as peptideblend voor receptorsignalering en endocrien onderzoek",
+
+  cas: "863288-34-0 / 170851-70-4",
+
+  strength: [
+    "MOD-GRF (1-29) + Ipamorelin 10mg Blend van BioPeptides is een hoogzuivere peptideformulering van onderzoekskwaliteit, ontwikkeld voor geavanceerde laboratoriumstudies naar groeihormoonsignalering, receptorselektiviteit en dynamiek van endocriene routes. Gesynthetiseerd met precisie solid-phase peptidesynthese en gezuiverd tot ≥99% HPLC, biedt deze peptideblend uitstekende moleculaire stabiliteit en reproduceerbaarheid. Geïdentificeerd met CAS 863288-34-0 (MOD-GRF 1-29) en CAS 170851-70-4 (Ipamorelin), wordt het veel gebruikt in gecontroleerd in-vitro onderzoek in Europa en de Verenigde Staten."
+  ],
+
+  topDescription: {
+    p0: "MOD-GRF (1-29) + Ipamorelin is een dual-peptide onderzoeksblend die is ontworpen om gecoördineerde activering van groeihormoonsignaleringsroutes te onderzoeken.",
+    p1: "In laboratoriumonderzoeksomgevingen wordt deze formulering vaak bestudeerd voor receptorsignaleringsdynamiek, modulatie van endocriene routes en modellen voor pulserende hormoonafgifte.",
+    p2: "De combinatie stelt onderzoekers in staat interacties tussen GHRH-receptoractivering en ghrelinereceptorsignalering binnen gecontroleerde experimentele systemen te analyseren."
+  },
+
+  components: [
+    "MOD-GRF (1-29) — gestabiliseerde groeihormoon-releasing hormone-analoog",
+    "Ipamorelin — selectieve ghrelinereceptor (GHS-R) agonist peptide",
+    "Gevriesdroogd peptideblendformaat",
+    "Totale peptidehoeveelheid — 10 mg onderzoeksblend"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "MOD-GRF (1-29) + Ipamorelin is een onderzoekspeptideblend die wordt gebruikt om activering van de groeihormoon-as via complementaire signaalroutes te onderzoeken.",
+      "Onderzoekers bestuderen deze formulering om receptorspecifieke signaleringsmechanismen en gecoördineerde endocriene responsen te analyseren.",
+      "De blend maakt gecontroleerde experimentele evaluatie van dual-pathway GH-signaleringsdynamiek mogelijk.",
+      "Het wordt vaak opgenomen in laboratoriumstudies naar modulatie van endocriene routes en peptide-receptorinteracties."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "MOD-GRF (1-29) is een gemodificeerd fragment van groeihormoon-releasing hormone, ontwikkeld om stabiliteit en weerstand tegen enzymatische afbraak te verbeteren.",
+      "Ipamorelin is een selectieve growth hormone secretagogue receptor (GHS-R) agonist die veel wordt bestudeerd vanwege zijn receptorspecificiteit.",
+      "Samen stellen deze peptiden onderzoekers in staat gecoördineerde activering van GHRH- en ghrelinereceptorsignaleringsroutes te onderzoeken.",
+      "De combinatie ondersteunt onderzoek naar regulatie van endocriene routes en groeihormoonsignaleringsmechanismen."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar GHRH-receptoractivering",
+      "Analyse van selectieve ghrelinereceptorsignalering",
+      "Dual-pathway modellen voor activering van de groeihormoon-as",
+      "Onderzoek naar receptor-cross-talk",
+      "Studies naar peptidegemedieerde endocriene signalering"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar de groeihormoon-as",
+        text: "De blend wordt gebruikt om gecoördineerde activering van groeihormoonsignaleringsroutes te bestuderen in laboratoriumonderzoeksmodellen."
+      },
+      {
+        title: "Studies naar receptorsignalering",
+        text: "Onderzoekers onderzoeken hoe GHRH-receptoractivering samenwerkt met ghrelinereceptorsignalering in endocrien onderzoek."
+      },
+      {
+        title: "Modellen voor pulserende endocriene signalering",
+        text: "De peptidecombinatie ondersteunt experimenten die temporele hormoonsignaleringspatronen analyseren."
+      },
+      {
+        title: "Cellulaire en moleculaire biologie",
+        text: "Laboratoria verwerken de blend in celgebaseerde assays om downstream transcriptionele en signaleringsresponsen te onderzoeken."
+      },
+      {
+        title: "Vergelijkend onderzoek naar endocriene routes",
+        text: "De blend maakt vergelijking mogelijk tussen afzonderlijke receptoractivering en gecoördineerde signaleringsresponsen."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van het compound: MOD-GRF (1-29) + Ipamorelin Blend",
+      "CAS-nummers: 863288-34-0 / 170851-70-4",
+      "Peptideklasse: GHRH-analoog + GHS-R agonist",
+      "Vorm: Gevriesdroogde peptidepoederblend",
+      "Zuiverheid: ≥99% HPLC geverifieerd",
+      "Eenheidsgrootte: 10 mg onderzoekspeptideblend"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Bewaar gevriesdroogde peptiden bij −20°C",
+      "Bescherm tegen vocht en blootstelling aan licht",
+      "Vermijd herhaalde vries-dooicycli",
+      "Reconstitueer met steriel laboratoriumwaardig oplosmiddel",
+      "Sluit het flesje na gebruik goed af"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en voorbereidingsrichtlijnen",
+    solubilityPoints: [
+      "Oplosbaar in steriel bacteriostatisch water",
+      "Compatibel met gebufferde waterige laboratoriumoplossingen",
+      "Geschikt voor peptideonderzoeksprotocollen",
+      "Toepasbaar in voorbereiding voor receptorsignaleringsassays",
+      "Compatibel met celkweekonderzoeksmodellen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "MOD-GRF (1-29) + Ipamorelin Blend 10mg",
+      brand: "BioPeptides",
+      cas: "863288-34-0 / 170851-70-4",
+      purity: "≥99% (HPLC geverifieerd)",
+      form: "Gevriesdroogde peptidepoederblend",
+      synthesis: "Solid-phase peptidesynthese (SPPS)",
+      analytical: "HPLC en massaspectrometrische verificatie",
+      molecularStructure: "Dual-peptide GH-as signaleringsblend",
+      stability: "Stabiel onder opslagcondities van −20°C"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "High-resolution HPLC zuiverheidstest",
+      "Verificatie van peptide-identiteit",
+      "Analyse van structurele integriteit",
+      "Validatie van batch-tot-batch consistentie",
+      "Testen van peptidestabiliteit"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "MOD-GRF (1-29) + Ipamorelin geleverd door BioPeptides is uitsluitend bedoeld voor laboratoriumonderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, therapeutische toepassingen of medische behandelingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt de MOD-GRF (1-29) + Ipamorelin blend gebruikt in onderzoek?",
+        a: "De blend wordt voornamelijk gebruikt in laboratoriumstudies naar groeihormoon-as signalering, receptorselektiviteit en interacties binnen endocriene routes."
+      },
+      {
+        q: "Hoe vullen MOD-GRF (1-29) en Ipamorelin elkaar aan?",
+        a: "MOD-GRF activeert de GHRH-receptor, terwijl Ipamorelin de ghrelinereceptor stimuleert, waardoor onderzoekers gecoördineerde GH-signaleringsroutes kunnen onderzoeken."
+      },
+      {
+        q: "Waarom zijn CAS-nummers belangrijk voor deze peptideblend?",
+        a: "CAS-nummers identificeren elk peptide uniek, waardoor nauwkeurige documentatie, traceerbaarheid en reproduceerbaarheid in onderzoekslaboratoria worden gewaarborgd."
+      },
+      {
+        q: "Is deze peptideblend geschikt voor in-vitro experimenten?",
+        a: "Ja. De blend wordt veel gebruikt in gecontroleerde in-vitro onderzoeksmodellen met receptorassays en studies naar endocriene routes."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken deze peptidecombinatie vaak?",
+        a: "Het wordt vaak gebruikt in endocrinologisch onderzoek, moleculaire biologie, receptorfarmacologie en studies naar peptidesignalering."
+      },
+      {
+        q: "Welke voordelen biedt de geblende peptideformulering?",
+        a: "De blend maakt gelijktijdige activering van complementaire signaalroutes mogelijk, waardoor onderzoeksefficiëntie en experimentele consistentie verbeteren."
+      },
+      {
+        q: "Hoe moet MOD-GRF + Ipamorelin worden bewaard?",
+        a: "De peptiden moeten in gevriesdroogde vorm bij −20°C worden bewaard en beschermd worden tegen vocht en licht."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor onderzoekspeptideblends?",
+        a: "BioPeptides levert hoogzuivere peptiden met geverifieerde CAS-documentatie en betrouwbare internationale levering voor professionele onderzoekslaboratoria."
+      }
+    ],
+       chemicalProperties: {
+        molecularFormula: "CJC-1295 Acetate: C152H252N44O42 Ipamorelin: C38H49N9O5",
+  molecularWeight: "CJC-1295 Acetate: 3367.9 Ipamorelin: 711.9",
+  monoisotopicMass: "CJC-1295 Acetate: 3365.8935782 Ipamorelin: 711.3856657",
+  polarArea: "CJC-1295 Acetate: 1450 Ipamorelin: 240",
+  complexity: "CJC-1295 Acetate: 7710 Ipamorelin: 1200",
+  xlogP: "CJC-1295 Acetate: -10.7 Ipamorelin: 1.8",
+  heavyAtomCount: "CJC-1295 Acetate: 238 Ipamorelin: 52",
+  hydrogenBondDonorCount: "CJC-1295 Acetate: 52 Ipamorelin: 8",
+  hydrogenBondAcceptorCount: "CJC-1295 Acetate: 48 Ipamorelin: 8",
+  rotatableBondCount: "CJC-1295 Acetate: 118 Ipamorelin: 19",
+  cid: "CJC-1295 Acetate: 56841945 Ipamorelin: 9831659",
+  inchi:
+    "CJC-1295 Acetate: InChI=1S/C152H252N44O42/c1-22-79(15)118(194-125(214)84(20)171-135(224)107(68-115(206)207)181-124(213)81(17)169-126(215)91(155)65-87-41-45-89(201)46-42-87)147(236)189-106(66-86-34-25-24-26-35-86)141(230)196-120(85(21)200)149(238)180-99(51-54-114(158)205)132(221)190-111(72-199)145(234)185-105(67-88-43-47-90(202)48-44-88)140(229)178-96(40-33-59-168-152(164)165)128(217)177-94(37-28-30-56-154)133(222)193-117(78(13)14)146(235)187-100(60-73(3)4)134(223)170-82(18)123(212)175-97(49-52-112(156)203)130(219)183-103(63-76(9)10)138(227)191-109(70-197)143(232)172-83(19)122(211)174-95(39-32-58-167-151(162)163)127(216)176-93(36-27-29-55-153)129(218)182-102(62-75(7)8)137(226)184-101(61-74(5)6)136(225)179-98(50-53-113(157)204)131(220)186-108(69-116(208)209)142(231)195-119(80(16)23-2)148(237)188-104(64-77(11)12)139(228)192-110(71-198)144(233)173-92(121(159)210)38-31-57-166-150(160)161/h24-26,34-35,41-48,73-85,91-111,117-120,197-202H,22-23,27-33,36-40,49-72,153-155H2,1-21H3,(H2,156,203)(H2,157,204)(H2,158,205)(H2,159,210)(H,169,215)(H,170,223)(H,171,224)(H,172,232)(H,173,233)(H,174,211)(H,175,212)(H,176,216)(H,177,217)(H,178,229)(H,179,225)(H,180,238)(H,181,213)(H,182,218)(H,183,219)(H,184,226)(H,185,234)(H,186,220)(H,187,235)(H,188,237)(H,189,236)(H,190,221)(H,191,227)(H,192,228)(H,193,222)(H,194,214)(H,195,231)(H,196,230)(H,206,207)(H,208,209)(H4,160,161,166)(H4,162,163,167)(H4,164,165,168)/t79-,80-,81+,82-,83-,84-,85+,91-,92-,93-,94-,95-,96-,97-,98-,99-,100-,101-,102-,103-,104-,105-,106-,107-,108-,109-,110-,111-,117-,118-,119-,120-/m0/s1 Ipamorelin: InChI=1S/C38H49N9O5/c1-38(2,41)37(52)47-32(21-28-22-42-23-43-28)36(51)46-31(20-25-15-16-26-12-6-7-13-27(26)18-25)35(50)45-30(19-24-10-4-3-5-11-24)34(49)44-29(33(40)48)14-8-9-17-39/h3-7,10-13,15-16,18,22-23,29-32H,8-9,14,17,19-21,39,41H2,1-2H3,(H2,40,48)(H,42,43)(H,44,49)(H,45,50)(H,46,51)(H,47,52)/t29-,30+,31+,32-/m0/s1",
+  inchiKey: "CJC-1295 Acetate: XOZMWINMZMMOBR-HRDSVTNWSA-N Ipamorelin: NEHWBYHLYZGBNO-BVEPWEIPSA-N",
+
+  canonicalSmiles:
+    "CJC-1295 Acetate: CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)N)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C(CC3=CC=C(C=C3)O)N Ipamorelin: CC(C)(C(=O)NC(CC1=CN=CN1)C(=O)NC(CC2=CC3=CC=CC=C3C=C2)C(=O)NC(CC4=CC=CC=C4)C(=O)NC(CCCCN)C(=O)N)N",
+
+  isomericSmiles:
+    "CJC-1295 Acetate: CC[C@H](C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N)NC(=O)[C@H](C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H](C)NC(=O)[C@H](CC3=CC=C(C=C3)O)N Ipamorelin: CC(C)(C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@H](CC2=CC3=CC=CC=C3C=C2)C(=O)N[C@H](CC4=CC=CC=C4)C(=O)N[C@@H](CCCCN)C(=O)N)N",
+
+  iupacName:
+    "CJC-1295 Acetate: (3S)-4-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S,3R)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-[[(2R)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]-4-oxobutanoic acid Ipamorelin: (2S)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2S)-2-[(2-amino-2-methylpropanoyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]-3-naphthalen-2-ylpropanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+}
+  },
+
+  appearance: "Witte gevriesdroogde poederblend",
+
+  storage: "Bewaren bij −20°C. Vermijd herhaalde vries-dooicycli.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
   "bpc-157-tb-500-blend": {
     name: "Glow Blend (BPC-157 + TB-500)",
     tagline: "Geavanceerd Onderzoeksprofiel met Twee Peptiden",
@@ -11347,7 +15105,7 @@ export default {
     "storage": "Bewaren bij −20°C. Vermijd herhaald invriezen en ontdooien.",
     "researchStatus": "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
   }
-},
+,
 "kpv-5mg": {
   name: "KPV 5mg",
 
@@ -11700,156 +15458,7 @@ export default {
   researchStatus:
     "Alleen voor laboratoriumonderzoek. Niet voor menselijk of diergeneeskundig gebruik."
 },
-  "5-amino-1mq-50mg": {
-    name: "5-Amino-1MQ 50mg (60 Capsules)",
-    tagline: "Geavanceerd Metabool Onderzoekscompound Profiel",
-   cas: "42464-96-0",
-    strength: [
-      "5-Amino-1MQ 50mg (60 Capsules) is een hoogzuiver kleinmoleculig onderzoekscompound ontwikkeld voor geavanceerde in-vitro studies in biochemie, metabolisme en cellulaire energie. Elke batch geleverd door Biopeptides ondergaat rigoureuze analytische validatie, waaronder Hogedrukvloeistofchromatografie (HPLC) en Massaspectrometrie (MS), wat zorgt voor moleculaire identiteit, reproduceerbaarheid en consistente onderzoeksprestaties."
-    ],
-    "topDescription": {
-      p0: "5-Amino-1MQ 50mg (60 Capsules) is een hoogzuiver synthetisch onderzoekspeptide, geleverd door Biopeptides voor geavanceerd in-vitro wetenschappelijk onderzoek. Vervaardigd met behulp van vaste-fase peptidesynthese (SPPS), is dit compound ontworpen om te voldoen aan de strenge normen van moderne biochemische, moleculair biologische en metabole onderzoekslaboratoria in Europa en op internationale markten.",
-     p1: "Elke productiebatch van 5-Amino-1MQ 50mg ondergaat rigoureuze analytische validatie, waaronder Hogedrukvloeistofchromatografie (HPLC), Massaspectrometrie (MS) en UV-spectrofotometrie, wat zorgt voor nauwkeurige moleculaire identiteit, zuiverheid ≥99% en consistente batch-tot-batch reproduceerbaarheid. Deze kwaliteitsnormen maken Biopeptides een betrouwbare keuze voor onderzoekers die peptiden online kopen en betrouwbaarheid, traceerbaarheid en regelgevingsgerichte documentatie nodig hebben.",
-      p2: "Het compound wordt geleverd in capsuleformaat voor laboratoriumhantering en gecontroleerde onderzoeksworkflows, wat gemak biedt aan instellingen die herhaalde of vergelijkende studies uitvoeren. Ondanks zijn capsulevorm blijft 5-Amino-1MQ 50mg (60 Capsules) strikt bestemd voor onderzoeksdoeleinden en is niet goedgekeurd voor menselijke, veterinaire of klinische toepassingen."
-    },
-    content: {
-      overviewTitle: "Onderzoeksoverzicht",
-      overview: [
-        "5-Amino-1MQ 50mg (60 Capsules) is een synthetisch onderzoekscompound van laboratoriumkwaliteit geleverd door Biopeptides voor geavanceerd in-vitro wetenschappelijk onderzoek in biochemische disciplines, moleculaire biologie en metabolisch onderzoek.",
-        "Elke productiebatch ondergaat uitgebreide analytische validatie, waaronder Hogedrukvloeistofchromatografie (HPLC), Massaspectrometrie (MS) en UV-spectrofotometrie, wat zorgt voor nauwkeurige moleculaire identiteit, hoge zuiverheid en batch-tot-batch consistentie.",
-        "Geleverd in capsuleformaat voor gecontroleerde laboratoriumworkflows, ondersteunt 5-Amino-1MQ reproduceerbare experimentele ontwerpen, terwijl het strikt bestemd blijft voor onderzoeksdoeleinden."
-      ],
-     scientificBackgroundTitle: "Wetenschappelijke Achtergrond",
-     scientificBackground: [
-        "Synthetische peptiden en peptide-achtige onderzoeksverbindingen spelen een centrale rol in de hedendaagse biomedische wetenschap. Ze maken nauwkeurige manipulatie van cellulaire signaalroutes, genexpressieregulatie en enzymatische activiteit mogelijk, allemaal essentieel voor het begrijpen van ziektemechanismen en moleculair gedrag.",
-        "5-Amino-1MQ, geïdentificeerd door CAS-nummer 42464-96-0, wordt veel bestudeerd in gecontroleerde laboratoriumomgevingen vanwege zijn rol in metabolische routeanalyse, eiwitinteractieonderzoek en modellering van cellulaire regulatie. Onderzoekers in Frankrijk, Duitsland, Italië, Nederland en andere Europese landen gebruiken verbindingen zoals 5-Amino-1MQ om intracellulaire communicatie en biochemische responsmechanismen te onderzoeken zonder afhankelijk te zijn van complexe eiwitstructuren.",
-        "Vanwege zijn voorspelbare degradatieprofiel, hoge moleculaire stabiliteit en reproduceerbare prestaties is 5-Amino-1MQ 50mg een waardevol hulpmiddel geworden in laboratoria die op zoek zijn naar de beste peptiden online die voldoen aan strikte analytische en documentatienormen."
-      ],
-      mechanismTitle: "Mechanistisch Onderzoeksfocus",
-      mechanismPoints: [
-        "Modulatie van cellulaire signalering, waarbij het compound de gecontroleerde evaluatie van intracellulaire responsroutes ondersteunt.",
-        "Groeifactor-gevoeligheidsstudies, waardoor onderzoekers veranderingen in receptorreactiviteit onder gedefinieerde experimentele omstandigheden kunnen observeren.",
-        "Genexpressieregulatie, met name in metabole en enzymatische onderzoeksmodellen.",
-        "Mitochondriale ATP-productieroutes, ter ondersteuning van studies naar metabole efficiëntie en cellulaire energie.",
-        "Onderzoek naar enzymatische activering en remming, met inzichten in het gedrag van biochemische cascades.",
-        "Deze onderzoeksrichtingen positioneren 5-Amino-1MQ 50mg (60 Capsules) bij de beste peptiden en peptide-afgeleide onderzoeksverbindingen die beschikbaar zijn via Biopeptides, met name voor Europese laboratoria die prioriteit geven aan data-nauwkeurigheid en experimentele reproduceerbaarheid."
-      ],
-      applicationsTitle: "Primaire Onderzoekstoepassingen",
-     applications: [
-        {
-          title: "Metabole Route Onderzoek",
-         text: "Gebruikt in gecontroleerde in-vitro modellen om metabole regulatie, energiebalans en intracellulaire signaalmechanismen te bestuderen."
-        },
-        {
-          title: "Eiwitexpressie Analyse",
-         text: "Toegepast in studies die eiwitsynthese, degradatiedynamiek en moleculaire interactienetwerken onderzoeken."
-        },
-        {
-          title: "Receptor Bindingsstudies",
-         text: "Gebruikt om receptorreactiviteit en stroomafwaartse signaalactivering onder gedefinieerde experimentele omstandigheden te evalueren."
-        },
-        {
-          title: "Mitochondriaal Metabool Onderzoek",
-         text: "Ondersteunt onderzoek naar mitochondriale functie, ATP-productie en cellulaire energiemetabolisme."
-        },
-        {
-          title: "Enzymatische Gevoeligheidsexperimenten",
-         text: "Gebruikt in assays die enzymatische activeringsdrempels, remmingsgedrag en katalytische efficiëntie analyseren."
-        }
-      ],
-      molecularTitle: "Moleculaire Kenmerken",
-      molecularPoints: [
-        "5-Amino-1MQ (CAS 42464-96-0) wordt geclassificeerd als een synthetisch peptide-achtig onderzoekscompound met een lineaire moleculaire structuur. Het molecuulgewicht is sequentie-afhankelijk en de chemische stabiliteit wordt als hoog beschouwd wanneer opgeslagen onder aanbevolen omstandigheden.",
-        "Wanneer bewaard in een droge, beschermde omgeving, blijft 5-Amino-1MQ 50mg gedurende lange perioden stabiel. Net als veel hoogzuivere onderzoekspeptiden is het echter gevoelig voor blootstelling aan vocht en langdurig licht, wat degradatie kan versnellen. Boven kamertemperatuur volgt de degradatie een voorspelbaar patroon, waardoor onderzoekers opslag- en gebruiksprotocollen dienovereenkomstig kunnen plannen.",
-        "Gereconstitueerde oplossingen, wanneer nodig voor analytische procedures, vertonen stabiliteit gedurende ongeveer 24 tot 48 uur onder koeling, afhankelijk van de buffersamenstelling en laboratoriumomstandigheden.",
-        "Moleculair Gewicht: Specifiek voor het compound (CAS 42464-96-0)"
-      ],
-      stabilityTitle: "Stabiliteitsprofiel en Opslagoverwegingen",
-      stabilityPoints: [
-        "Stabiel wanneer opgeslagen in een koele, droge omgeving, beschermd tegen direct licht",
-        "Gevoelig voor vocht en langdurige blootstelling aan licht",
-        "Voorspelbaar degradatieprofiel boven kamertemperatuur",
-        "Gereconstitueerde oplossingen blijven ongeveer 24–48 uur stabiel onder koeling",
-        "Correcte opslag behoudt moleculaire integriteit en onderzoeksbetrouwbaarheid"
-      ],
-      solubilityTitle: "Oplosbaarheid en Reconstituerende Opties",
-      solubilityPoints: [
-        "Bacteriostatisch water",
-        "Steriele zoutoplossingen",
-        "Mild zure buffers",
-        "Compatibele analytische organische oplosmiddelen"
-      ],
-      techSpecsTitle: "Technische Specificaties",
-      techSpecs: {
-        productName: "5-Amino-1MQ 50mg (60 Capsules)",
-       cas: "42464-96-0",
-        purity: "≥99% (HPLC geverifieerd)",
-        unitSize: "50 mg totaal (60 capsules)",
-        form: "Gecapsuleerd onderzoeksvast materiaal",
-        analytical: "HPLC, Massaspectrometrie, UV-spectrofotometrie"
-      },
-      validationTitle: "Analytische Validatie en Kwaliteitscontrole",
-      validationPoints: [
-        "Zuiverheidsverificatie door Hogedrukvloeistofchromatografie (HPLC)",
-        "Moleculaire identiteitsbevestiging door Massaspectrometrie (MS)",
-        "UV-spectrofotometrische analyse",
-        "Identiteits- en batchconsistentieverificatie",
-        "Screening op endotoxinen en microbiële contaminatie"
-      ],
-     regulatoryTitle: "Regulerende en Conformiteitsinformatie",
-      regulatoryText: "5-Amino-1MQ 50mg (60 Capsules) wordt uitsluitend geleverd voor laboratoriumonderzoek en wetenschappelijke investigatie. Het is niet goedgekeurd voor gebruik als geneesmiddel, voedingssupplement, cosmetisch ingrediënt of medisch product en mag onder geen enkele omstandigheid aan mensen of dieren worden toegediend. Certificaten van Analyse (COA) en Materiaalveiligheidsinformatiebladen (MSDS) zijn op aanvraag beschikbaar.",
-      whyTitle: "Waarom inkopen bij Biopeptides?",
-      whyText: "Biopeptides wordt vertrouwd door Europese onderzoeksinstellingen voor het leveren van hoogzuivere onderzoeksverbindingen met volledige analytische transparantie. Onderzoekers die peptiden en onderzoeksverbindingen online kopen, kiezen voor Biopeptides vanwege consistente kwaliteit, betrouwbare documentatie en naleving van academische, farmaceutische en biotechnologische onderzoeksnormen.",
-     faqTitle: "Veelgestelde Vragen",
-      faqItems: [
-        {
-          q: "Waar wordt 5-Amino-1MQ voor gebruikt in onderzoek?",
-         a: "5-Amino-1MQ wordt gebruikt in in-vitro laboratoriumonderzoek om cellulaire signalering, metabole routes, genexpressieregulatie en enzymatische activiteit te bestuderen. Het ondersteunt gecontroleerde biochemische en moleculair biologische experimenten in academische en farmaceutische onderzoeksomgevingen."
-        },
-        {
-          q: "Wat is het CAS-nummer van 5-Amino-1MQ?",
-         a: "Het CAS-nummer voor 5-Amino-1MQ is 42464-96-0. Deze identificatie bevestigt de moleculaire identiteit van de verbinding en wordt gebruikt voor analytische validatie, regelgevende documentatie en laboratoriuminkoopprocessen."
-        },
-        {
-          q: "Is 5-Amino-1MQ goedgekeurd voor menselijk gebruik?",
-         a: "Nee. 5-Amino-1MQ 50mg (60 Capsules) is strikt bestemd voor laboratoriumonderzoek. Het is niet goedgekeurd voor menselijk of dierlijk gebruik en mag niet worden toegediend buiten gecontroleerde in-vitro onderzoeksomgevingen."
-        },
-        {
-          q: "Hoe zuiver is 5-Amino-1MQ van Biopeptides?",
-         a: "5-Amino-1MQ geleverd door Biopeptides wordt vervaardigd met een zuiverheid van ≥99%, geverifieerd door HPLC, Massaspectrometrie en UV-analyse om consistentie en reproduceerbaarheid voor wetenschappelijk onderzoek te garanderen."
-        },
-        {
-          q: "Hoe moet 5-Amino-1MQ worden bewaard?",
-         a: "Voor optimale stabiliteit moet 5-Amino-1MQ worden bewaard in een koele, droge omgeving bij −20°C, beschermd tegen licht en vocht. Correcte opslag behoudt de moleculaire integriteit en verlengt de houdbaarheid voor langdurig onderzoeksgebruik."
-        },
-        {
-          q: "Kan ik 5-Amino-1MQ online kopen in Europa?",
-         a: "Ja. Biopeptides stelt onderzoekers in heel Europa in staat om peptiden online te kopen, waaronder 5-Amino-1MQ 50mg (60 Capsules), met volledige analytische documentatie en onderzoekskwaliteitsborging."
-        },
-        {
-          q: "Welke oplosmiddelen zijn geschikt voor reconstitutie van 5-Amino-1MQ?",
-         a: "5-Amino-1MQ kan worden gereconstitueerd met behulp van bacteriostatisch water, steriele zoutoplossing, zure buffers of compatibele organische oplosmiddelen, afhankelijk van het experimentele ontwerp en de assayvereisten."
-        }
-      ],
-      chemicalProperties: {
-        molecularFormula: "C62H98N16O22",
-      molecularWeight: "1419.5",
-       monoisotopicMass: "1418.70415882",
-       polarArea: "573",
-       complexity: "3040",
-       xlogP: "-9",
-     heavyAtomCount: "100",
-       heavyAtomChydrogenBondDonorCountount: "16",
-        hydrogenBondAcceptorCount: "24",
-        rotatableBondCount: "39",
-        cid: "9941957",
-        inchi: "InChI=1S/C62H98N16O22/c1-31(2)25-37(55(92)74-50(32(3)4)62(99)100)71-46(81)29-65-51(88)33(5)67-53(90)38(26-48(84)85)73-54(91)39(27-49(86)87)72-52(89)34(6)68-57(94)41-15-10-21-75(41)58(95)35(13-7-8-20-63)70-45(80)30-66-56(93)40-14-9-22-76(40)60(97)43-17-12-24-78(43)61(98)42-16-11-23-77(42)59(96)36(18-19-47(82)83)69-44(79)28-64/h31-43,50H,7-30,63-64H2,1-6H3,(H,65,88)(H,66,93)(H,67,90)(H,68,94)(H,69,79)(H,70,80)(H,71,81)(H,72,89)(H,73,91)(H,74,92)(H,82,83)(H,84,85)(H,86,87)(H,99,100)/t33-,34-,35-,36-,37-,38-,39-,40-,41-,42-,43-,50-/m0/s1 Timbetasin: InChI=1S/C212H350N56O78S/c1-16-106(7)166(261-190(323)131(64-75-160(292)293)231-172(305)109(10)228-174(307)134(78-91-347-15)245-196(329)140(98-165(302)303)255-201(334)147-53-39-88-266(147)209(342)135(52-29-38-87-221)250-197(330)139(97-164(300)301)254-198(331)143(100-269)229-113(14)276)204(337)246-129(62-73-158(288)289)187(320)233-118(47-24-33-82-216)179(312)252-137(94-114-42-19-18-20-43-114)194(327)253-138(96-163(298)299)195(328)237-121(50-27-36-85-219)181(314)258-144(101-270)199(332)239-119(48-25-34-83-217)178(311)251-136(92-104(3)4)193(326)236-116(45-22-31-80-214)175(308)235-122(51-28-37-86-220)189(322)263-168(110(11)273)207(340)249-133(66-77-162(296)297)192(325)264-169(111(12)274)206(339)248-126(58-69-152(224)279)184(317)243-128(61-72-157(286)287)186(319)234-120(49-26-35-84-218)180(313)256-142(95-153(225)280)211(344)268-90-40-54-148(268)202(335)257-141(93-105(5)6)210(343)267-89-41-55-149(267)203(336)259-145(102-271)200(333)238-117(46-23-32-81-215)177(310)244-132(65-76-161(294)295)191(324)265-170(112(13)275)208(341)262-167(107(8)17-2)205(338)247-130(63-74-159(290)291)188(321)241-125(57-68-151(223)278)183(316)242-127(60-71-156(284)285)185(318)232-115(44-21-30-79-213)176(309)240-124(56-67-150(222)277)173(306)227-108(9)171(304)226-99-154(281)230-123(59-70-155(282)283)182(315)260-146(103-272)212(345)346/h18-20,42-43,104-112,115-149,166-170,269-275H,16-17,21-41,44-103,213-221H2,1-15H3,(H2,222,277)(H2,223,278)(H2,224,279)(H2,225,280)(H,226,304)(H,227,306)(H,228,307)(H,229,276)(H,230,281)(H,231,305)(H,232,318)(H,233,320)(H,234,319)(H,235,308)(H,236,326)(H,237,328)(H,238,333)(H,239,332)(H,240,309)(H,241,321)(H,242,316)(H,243,317)(H,244,310)(H,245,329)(H,246,337)(H,247,338)(H,248,339)(H,249,340)(H,250,330)(H,251,311)(H,252,312)(H,253,327)(H,254,331)(H,255,334)(H,256,313)(H,257,335)(H,258,314)(H,259,336)(H,260,315)(H,261,323)(H,262,341)(H,263,322)(H,264,325)(H,265,324)(H,282,283)(H,284,285)(H,286,287)(H,288,289)(H,290,291)(H,292,293)(H,294,295)(H,296,297)(H,298,299)(H,300,301)(H,302,303)(H,345,346)/t106-,107-,108-,109-,110+,111+,112+,115-,116-,117-,118-,119-,120-,121-,122-,123-,124-,125-,126-,127-,128-,129-,130-,131-,132-,133-,134-,135-,136-,137-,138-,139-,140-,141-,142-,143-,144-,145-,146-,147-,148-,149-,166-,167-,168-,169-,170-/m0/s1",
-        canonicalSmiles: "C[C@@H](C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](C)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)O)NC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCCN)NC(=O)CNC(=O)[C@@H]2CCCN2C(=O)[C@@H]3CCCN3C(=O)[C@@H]4CCCN4C(=O)[C@H](CCC(=O)O)NC(=O)CN Timbetasin: CC[C@H](C)[C@@H](C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(=O)N)C(=O)N2CCC[C@H]2C(=O)N[C@@H](CC(C)C)C(=O)N3CCC[C@H]3C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](C)C(=O)NCC(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CO)C(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](C)NC(=O)[C@H](CCSC)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H]4CCCN4C(=O)[C@H](CCCCN)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)C",
-        isomericSmiles: "C[C@@H](C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](C)C(=O)NCC(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)O)NC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCCN)NC(=O)CNC(=O)[C@@H]2CCCN2C(=O)[C@@H]3CCCN3C(=O)[C@@H]4CCCN4C(=O)[C@H](CCC(=O)O)NC(=O)CN Timbetasin: CC[C@H](C)[C@@H](C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(=O)N)C(=O)N2CCC[C@H]2C(=O)N[C@@H](CC(C)C)C(=O)N3CCC[C@H]3C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](C)C(=O)NCC(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CO)C(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](C)NC(=O)[C@H](CCSC)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H]4CCCN4C(=O)[C@H](CCCCN)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)C",
-        iupacName: "(4S)-4-[(2-aminoacetyl)amino]-5-[(2S)-2-[(2S)-2-[(2S)-2-[(2S)-6-amino-1-[(2S)-2-[(2S)-1-[(2S)-3-carboxy-1-[(2S)-3-carboxy-1-[(2S)-1-[(2S)-1-carboxy-2-methylpropyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxohexan-2-yl]amino]-2-oxoethylcarbamoyl]pyrrolidine-1-carboxamide",
-        canonicalSmiles: "CC(C)CC(C(=O)NC(C(C)C)C(=O)O)NC(=O)CNC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C1CCCN1C(=O)C(CCCCN)NC(=O)CNC(=O)C2CCCN2C(=O)C3CCCN3C(=O)C4CCCN4C(=O)C(CCC(=O)O)NC(=O)CN Timbetasin: CCC(C)C(C(=O)NC(CCC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(CC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CO)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)O)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CC(=O)N)C(=O)N2CCCC2C(=O)NC(CC(C)C)C(=O)N3CCCC3C(=O)NC(CO)C(=O)NC(CCCCN)C(=O)NC(CCC(=O)O)C(=O)NC(C(C)O)C(=O)NC(C(C)CC)C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CCC(=O)N)C(=O)NC(C)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(C)NC(=O)C(CCSC)NC(=O)C(CC(=O)O)NC(=O)C4CCCN4C(=O)C(CCCCN)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C"
-      }
-    },
+  
       "melanostatin-dm-200mg": {
     name: "Melanostatin DM 200mg",
     tagline: "Synthetisch Melanocortine Signalering Peptide voor Onderzoek naar Pigmentatieroutes en Melanocyten",
@@ -12745,6 +16354,1666 @@ export default {
   researchStatus:
     "Alleen voor laboratoriumonderzoek. Niet voor menselijk of diergeneeskundig gebruik."
 },
+"mots-c-5mg": {
+  name: "MOTS-c 5mg",
+
+  tagline:
+    "Mitochondriaal-afgeleide peptide voor onderzoek naar cellulair metabolisme en stressrespons",
+
+  cas: "1627580-64-6",
+
+  strength: [
+    "MOTS-c 5mg van BioPeptides is een hoogzuivere mitochondriaal-afgeleide peptide van onderzoekskwaliteit, ontwikkeld voor geavanceerde laboratoriumstudies naar cellulair metabolisme, mitochondriale signalering en adaptieve stressresponsroutes. Gesynthetiseerd met precisie solid-phase peptidesynthese en gezuiverd tot ≥99% HPLC, biedt MOTS-c uitstekende moleculaire stabiliteit en reproduceerbaarheid. Geïdentificeerd met CAS 1627580-64-6, wordt deze peptide veel gebruikt in gecontroleerd in-vitro onderzoek in Europa en de Verenigde Staten."
+  ],
+
+  topDescription: {
+    p0: "MOTS-c is een mitochondriaal-afgeleide peptide die veel wordt bestudeerd in onderzoek naar cellulair metabolisme en mitochondriale communicatie.",
+    p1: "In laboratoriumomgevingen wordt deze peptide onderzocht vanwege zijn rol in metabole signalering, mitochondriaal-nucleaire communicatie en adaptieve stressresponsroutes.",
+    p2: "Omdat MOTS-c afkomstig is van mitochondriaal DNA, biedt het onderzoekers een uniek model voor het bestuderen van mitochondriale signalering en metabole regulatie."
+  },
+
+  components: [
+    "MOTS-c — mitochondriaal-afgeleide signaleringspeptide",
+    "Hoogzuivere gevriesdroogde onderzoekspeptide",
+    "Laboratoriumonderzoekspeptideformaat",
+    "Totale hoeveelheid — 5 mg peptide"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "MOTS-c is een mitochondriaal gecodeerde peptide die in laboratoriumonderzoek wordt gebruikt om metabole regulatie en mitochondriale signaleringsroutes te onderzoeken.",
+      "Onderzoekers bestuderen MOTS-c om te begrijpen hoe mitochondriale peptiden cellulair metabolisme en adaptieve stressresponsen beïnvloeden.",
+      "De peptide biedt een model voor het onderzoeken van mitochondriaal-nucleaire communicatiemechanismen.",
+      "MOTS-c-onderzoek draagt bij aan bredere studies naar metabole signalering en mitochondriale biologie."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "MOTS-c (Mitochondrial Open Reading Frame of the Twelve S rRNA-c) wordt gecodeerd binnen mitochondriaal DNA in plaats van nucleair DNA.",
+      "Deze peptide behoort tot een klasse moleculen die bekendstaan als mitochondriaal-afgeleide peptiden (MDP’s).",
+      "Onderzoekers bestuderen MOTS-c vanwege zijn rol in metabole regulatie, stressresponssignalering en mitochondriale communicatieroutes.",
+      "De mitochondriale oorsprong maakt het bijzonder waardevol voor onderzoek naar retrograde signalering tussen mitochondriën en de celkern."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar mitochondriaal-nucleaire signaleringsroutes",
+      "Studies naar cellulair metabolisme en energiebalanssignalering",
+      "Onderzoek naar adaptieve stressresponsroutes",
+      "Analyse van mitochondriale peptidesignalering",
+      "Onderzoek naar metabole signaleringscascades"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar mitochondriale signalering",
+        text: "MOTS-c wordt gebruikt om communicatieroutes te onderzoeken waarmee mitochondriën nucleaire genexpressie reguleren."
+      },
+      {
+        title: "Studies naar cellulair metabolisme",
+        text: "Onderzoekers onderzoeken hoe MOTS-c invloed heeft op cellulaire energieregulatie en metabole signaleringsroutes."
+      },
+      {
+        title: "Analyse van stressresponsroutes",
+        text: "De peptide ondersteunt laboratoriumstudies die cellulaire aanpassing aan metabole of omgevingsstress analyseren."
+      },
+      {
+        title: "Onderzoek naar mitochondriale biologie",
+        text: "Laboratoria verwerken MOTS-c in experimenten die mitochondriale peptiden en intracellulaire communicatie bestuderen."
+      },
+      {
+        title: "In-vitro cellulair onderzoek",
+        text: "De peptide wordt veel gebruikt in gecontroleerde celgebaseerde onderzoeksmodellen die metabole signaleringsmechanismen onderzoeken."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van het compound: MOTS-c",
+      "CAS-nummer: 1627580-64-6",
+      "Peptideklasse: Mitochondriaal-afgeleide peptide (MDP)",
+      "Vorm: Gevriesdroogd peptidepoeder",
+      "Zuiverheid: ≥99% HPLC geverifieerd",
+      "Eenheidsgrootte: 5 mg onderzoekspeptide"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Bewaar gevriesdroogde peptide bij −20°C",
+      "Bescherm tegen vocht en blootstelling aan licht",
+      "Vermijd herhaalde vries-dooicycli",
+      "Reconstitueer met steriel laboratoriumwaardig oplosmiddel",
+      "Sluit het flesje na elk gebruik goed af"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en voorbereidingsrichtlijnen",
+    solubilityPoints: [
+      "Oplosbaar in steriel bacteriostatisch water",
+      "Compatibel met gebufferde waterige laboratoriumoplossingen",
+      "Geschikt voor peptideonderzoeksprotocollen",
+      "Toepasbaar bij voorbereiding van mitochondriale signaleringsassays",
+      "Compatibel met celkweek-experimentele modellen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "MOTS-c 5mg",
+      brand: "BioPeptides",
+      cas: "1627580-64-6",
+      purity: "≥99% (HPLC geverifieerd)",
+      form: "Gevriesdroogd peptidepoeder",
+      synthesis: "Solid-phase peptidesynthese (SPPS)",
+      analytical: "HPLC en massaspectrometrische verificatie",
+      molecularStructure: "Mitochondriaal-afgeleide signaleringspeptide",
+      stability: "Stabiel onder opslagcondities van −20°C"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "High-resolution HPLC zuiverheidstest",
+      "Verificatie van peptide-identiteit",
+      "Analyse van structurele integriteit",
+      "Validatie van batch-tot-batch consistentie",
+      "Testen van peptidestabiliteit"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "MOTS-c geleverd door BioPeptides is uitsluitend bedoeld voor laboratoriumonderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, therapeutische toepassingen of medische behandelingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt MOTS-c voornamelijk gebruikt in onderzoek?",
+        a: "MOTS-c wordt vaak bestudeerd in laboratoriumonderzoek gericht op mitochondriale signalering, metabole regulatie en cellulaire stressresponsroutes."
+      },
+      {
+        q: "Waarom wordt MOTS-c als uniek beschouwd onder peptiden?",
+        a: "MOTS-c wordt gecodeerd binnen mitochondriaal DNA in plaats van nucleair DNA, waardoor het waardevol is voor onderzoek naar mitochondriaal-nucleaire communicatie."
+      },
+      {
+        q: "Wat identificeert CAS 1627580-64-6?",
+        a: "CAS 1627580-64-6 identificeert MOTS-c uniek en waarborgt nauwkeurige compounddocumentatie en reproduceerbaarheid in onderzoekslaboratoria."
+      },
+      {
+        q: "Is MOTS-c geschikt voor in-vitro onderzoek?",
+        a: "Ja. MOTS-c wordt veel gebruikt in gecontroleerde in-vitro studies naar mitochondriale functie en metabole signalering."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken MOTS-c vaak?",
+        a: "MOTS-c wordt vaak gebruikt in mitochondriale biologie, metabool onderzoek, moleculaire biologie en studies naar peptidesignalering."
+      },
+      {
+        q: "Welke voordelen biedt het 5mg onderzoeksformaat?",
+        a: "Het 5mg formaat maakt meerdere experimentele runs mogelijk en verbetert de kostenefficiëntie voor uitgebreide laboratoriumonderzoeksprogramma’s."
+      },
+      {
+        q: "Hoe moet MOTS-c worden bewaard?",
+        a: "De peptide moet in gevriesdroogde vorm bij −20°C worden bewaard en beschermd worden tegen vocht en licht."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor MOTS-c onderzoekpeptiden?",
+        a: "BioPeptides levert hoogzuivere peptiden met geverifieerde CAS-documentatie en betrouwbare internationale levering voor onderzoekslaboratoria."
+      }
+    ],
+       chemicalProperties: {
+  molecularFormula: "C101H152N28O22S2",
+  molecularWeight: "2174.6",
+  monoisotopicMass: "2173.1077409",
+  polarArea: "890",
+  complexity: "4510",
+  xlogP: "-3.9",
+  heavyAtomCount: "153",
+  hydrogenBondDonorCount: "31",
+  hydrogenBondAcceptorCount: "29",
+  rotatableBondCount: "73",
+  cid: "146675088",
+  inchi:
+    "InChI=1S/C101H152N28O22S2/c1-7-57(4)83(96(148)126-76(50-58-19-9-8-10-20-58)92(144)127-78(52-60-30-34-63(131)35-31-60)97(149)129-46-18-27-79(129)95(147)122-69(25-16-44-112-100(107)108)86(138)118-67(23-13-14-42-102)87(139)124-74(49-56(2)3)91(143)123-73(98(150)151)26-17-45-113-101(109)110)128-94(146)75(51-59-28-32-62(130)33-29-59)116-81(133)55-115-85(137)72(41-48-153-6)121-90(142)71(37-39-82(134)135)119-89(141)70(36-38-80(104)132)120-93(145)77(53-61-54-114-66-22-12-11-21-64(61)66)125-88(140)68(24-15-43-111-99(105)106)117-84(136)65(103)40-47-152-5/h8-12,19-22,28-35,54,56-57,65,67-79,83,114,130-131H,7,13-18,23-27,36-53,55,102-103H2,1-6H3,(H2,104,132)(H,115,137)(H,116,133)(H,117,136)(H,118,138)(H,119,141)(H,120,145)(H,121,142)(H,122,147)(H,123,143)(H,124,139)(H,125,140)(H,126,148)(H,127,144)(H,128,146)(H,134,135)(H,150,151)(H4,105,106,111)(H4,107,108,112)(H4,109,110,113)/t57-,65-,67-,68-,69-,70-,71-,72-,73-,74-,75-,76-,77-,78-,79-,83-/m0/s1",
+  inchiKey: "WYTHCOXVWRKRAH-LOKRTKBUSA-N",
+
+  canonicalSmiles:
+    "CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)N3CCCC3C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CCCNC(=N)N)C(=O)O)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)CNC(=O)C(CCSC)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)N)NC(=O)C(CC5=CNC6=CC=CC=C65)NC(=O)C(CCCNC(=N)N)NC(=O)C(CCSC)N",
+
+  isomericSmiles:
+    "CC[C@H](C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N3CCC[C@H]3C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)O)NC(=O)[C@H](CC4=CC=C(C=C4)O)NC(=O)CNC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CC5=CNC6=CC=CC=C65)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CCSC)N",
+
+  iupacName:
+    "(4S)-4-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-amino-4-methylsulfanylbutanoyl]amino]-5-carbamimidamidopentanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-5-oxopentanoyl]amino]-5-[[(2S)-1-[[2-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[(2S)-2-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(1S)-4-carbamimidamido-1-carboxybutyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-4-methylsulfanyl-1-oxobutan-2-yl]amino]-5-oxopentanoic acid"
+}
+  },
+
+  appearance: "Wit gevriesdroogd poeder",
+
+  storage: "Bewaren bij −20°C. Vermijd herhaalde vries-dooicycli.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"n-acetyl-selank-amidate-10mg": {
+  name: "N-Acetyl Selank Amidate 10mg",
+
+  tagline:
+    "Gestabiliseerde Selank-analoog voor onderzoek naar neuropeptidesignalering en neurotransmitterregulatie",
+
+  cas: "2212313-10-6",
+
+  strength: [
+    "N-Acetyl Selank Amidate 10mg van BioPeptides is een hoogzuivere synthetische neuropeptide van onderzoekskwaliteit, ontwikkeld voor geavanceerde laboratoriumstudies naar neuropeptidesignalering, neurotransmittermodulatie en peptidegebaseerd neuromodulatieonderzoek. Geproduceerd met precisie solid-phase peptidesynthese en gezuiverd tot ≥99% HPLC, biedt deze gestabiliseerde Selank-analoog sterke moleculaire stabiliteit en reproduceerbaarheid. Geïdentificeerd met CAS 2212313-10-6, wordt het veel gebruikt in gecontroleerd in-vitro onderzoek in Europa en de Verenigde Staten."
+  ],
+
+  topDescription: {
+    p0: "N-Acetyl Selank Amidate is een chemisch gestabiliseerde analoog van de Selank-neuropeptide die wordt onderzocht in neurowetenschappelijk en peptidesignaleringsonderzoek.",
+    p1: "Onderzoekers bestuderen deze peptide vanwege zijn interacties met neurotransmitterregulatieroutes, neuropeptidesignaleringsmechanismen en neurale communicatiesystemen.",
+    p2: "De toevoeging van N-acetyl- en amidate-functionele groepen verbetert de moleculaire stabiliteit en weerstand tegen enzymatische afbraak, waardoor consistente experimentele prestaties mogelijk zijn."
+  },
+
+  components: [
+    "N-Acetyl Selank Amidate — gestabiliseerde Selank-neuropeptide-analoog",
+    "Hoogzuivere gevriesdroogde onderzoekspeptide",
+    "Onderzoekskwaliteit peptidepreparaat",
+    "Totale peptidehoeveelheid — 10 mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "N-Acetyl Selank Amidate is een gemodificeerde Selank-analoog die wordt gebruikt in neurowetenschappelijk onderzoek naar peptidegemedieerde neurale communicatie.",
+      "Onderzoekers bestuderen deze verbinding om neuropeptidesignaleringsroutes en neurotransmitterregulatiemechanismen te onderzoeken.",
+      "De gestabiliseerde moleculaire structuur maakt langere experimentele blootstelling mogelijk in gecontroleerde laboratoriumomgevingen.",
+      "De peptide ondersteunt bredere onderzoeken naar neuropeptidebiologie, synaptische signalering en neuromodulatieroutes."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Selank is een synthetische neuropeptide die wordt bestudeerd vanwege zijn betrokkenheid bij neurotransmittermodulatie en neurale communicatieroutes.",
+      "N-Acetyl Selank Amidate is een chemisch gemodificeerd derivaat dat is ontworpen om de moleculaire stabiliteit en experimentele reproduceerbaarheid te verbeteren.",
+      "Onderzoekers onderzoeken deze analoog vanwege zijn interacties met GABAerge en serotonerge signaleringssystemen.",
+      "De gestabiliseerde structuur maakt experimenten van langere duur mogelijk zonder snelle peptideafbraak."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar neuropeptidesignaleringsroutes",
+      "Onderzoek naar neurotransmittermodulatie",
+      "Studies naar GABAerge signalering",
+      "Onderzoek naar serotonerge routes",
+      "Vergelijkend onderzoek naar Selank-analogen"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar neuropeptidesignalering",
+        text: "Onderzoekers gebruiken deze peptide om peptidegestuurde neurale communicatieroutes te onderzoeken."
+      },
+      {
+        title: "Studies naar neurotransmittermodulatie",
+        text: "Laboratoriummodellen analyseren interacties tussen Selank-analogen en neurotransmittersignaleringssystemen."
+      },
+      {
+        title: "Vergelijkend Selank-analoogonderzoek",
+        text: "Wetenschappers vergelijken native Selank-peptiden met gemodificeerde analogen om stabiliteits- en signaleringsverschillen te evalueren."
+      },
+      {
+        title: "Moleculaire en cellulaire neurowetenschap",
+        text: "Toegepast in celgebaseerde assays die downstream neurale signalering en genexpressieresponsen bestuderen."
+      },
+      {
+        title: "In-vitro neurowetenschappelijk onderzoek",
+        text: "Veel gebruikt in gecontroleerde laboratoriumexperimenten die neuropeptidebiologie en neuromodulatieroutes onderzoeken."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van het compound: N-Acetyl Selank Amidate",
+      "CAS-nummer: 2212313-10-6",
+      "Peptideklasse: Gemodificeerde Selank-neuropeptide-analoog",
+      "Vorm: Gevriesdroogd peptidepoeder",
+      "Zuiverheid: ≥99% HPLC geverifieerd",
+      "Eenheidsgrootte: 10 mg onderzoekspeptide"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Bewaar gevriesdroogde peptide bij −20°C",
+      "Bescherm tegen vocht en blootstelling aan licht",
+      "Vermijd herhaalde vries-dooicycli",
+      "Reconstitueer met steriel laboratoriumwaardig oplosmiddel",
+      "Sluit het flesje na elk gebruik goed af"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en voorbereidingsrichtlijnen",
+    solubilityPoints: [
+      "Oplosbaar in steriel bacteriostatisch water",
+      "Compatibel met gebufferde waterige laboratoriumoplossingen",
+      "Geschikt voor peptide-neurowetenschappelijke protocollen",
+      "Toepasbaar in neurotransmittersignaleringsassays",
+      "Compatibel met celkweek-onderzoekssystemen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "N-Acetyl Selank Amidate 10mg",
+      brand: "BioPeptides",
+      cas: "2212313-10-6",
+      purity: "≥99% (HPLC geverifieerd)",
+      form: "Gevriesdroogd peptidepoeder",
+      synthesis: "Solid-phase peptidesynthese (SPPS)",
+      analytical: "HPLC en massaspectrometrische verificatie",
+      molecularStructure: "Gemodificeerde Selank-neuropeptide-analoog",
+      stability: "Stabiel onder opslagcondities van −20°C"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "High-resolution HPLC zuiverheidstest",
+      "Verificatie van peptide-identiteit",
+      "Analyse van structurele integriteit",
+      "Validatie van batch-tot-batch consistentie",
+      "Testen van peptidestabiliteit"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "N-Acetyl Selank Amidate geleverd door BioPeptides is uitsluitend bedoeld voor laboratoriumonderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, therapeutische toepassingen of medische behandelingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt N-Acetyl Selank Amidate voornamelijk gebruikt in onderzoek?",
+        a: "Het wordt voornamelijk gebruikt in laboratoriumonderzoek gericht op neuropeptidesignalering, neurotransmittermodulatie en peptidegemedieerde neuromodulatiemechanismen."
+      },
+      {
+        q: "Hoe verschilt N-Acetyl Selank Amidate van standaard Selank?",
+        a: "De N-acetyl- en amidate-modificaties verbeteren de moleculaire stabiliteit en weerstand tegen enzymatische afbraak vergeleken met native Selank."
+      },
+      {
+        q: "Wat identificeert CAS 2212313-10-6?",
+        a: "CAS 2212313-10-6 identificeert N-Acetyl Selank Amidate uniek en waarborgt nauwkeurige documentatie en traceerbaarheid in onderzoekslaboratoria."
+      },
+      {
+        q: "Is deze peptide geschikt voor in-vitro neurowetenschappelijke studies?",
+        a: "Ja. Het wordt veel gebruikt in gecontroleerde in-vitro experimenten met neurale signalering en onderzoek naar neurotransmitterroutes."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken deze peptide vaak?",
+        a: "Het wordt vaak gebruikt in neurowetenschap, moleculaire biologie, neurofarmacologisch onderzoek, peptidesignaleringsstudies en onderzoek naar cellulaire communicatie."
+      },
+      {
+        q: "Waarom kiezen voor het 10mg formaat voor onderzoek?",
+        a: "Het 10mg formaat ondersteunt langdurige onderzoeksprogramma’s, meerdere experimentele runs en verbeterde kostenefficiëntie."
+      },
+      {
+        q: "Hoe moet N-Acetyl Selank Amidate worden bewaard?",
+        a: "Het moet in gevriesdroogde vorm bij −20°C worden bewaard en beschermd worden tegen vocht en licht."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor onderzoekspeptiden?",
+        a: "BioPeptides levert hoogzuivere peptiden met geverifieerde CAS-documentatie en betrouwbare internationale levering voor onderzoekslaboratoria."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "C35H59N11O10",
+  molecularWeight: "793.9",
+  monoisotopicMass: "793.44463712",
+  polarArea: "325",
+  complexity: "1480",
+  xlogP: "-5.8",
+  heavyAtomCount: "56",
+  hydrogenBondDonorCount: "9",
+  hydrogenBondAcceptorCount: "12",
+  rotatableBondCount: "20",
+  cid: "133082488",
+  inchi:
+    "InChI=1S/C35H59N11O10/c1-20(47)28(41-21(2)48)31(52)43-22(9-3-4-14-36)32(53)46-18-7-12-25(46)30(51)42-23(10-5-15-39-35(37)38)33(54)45-17-6-11-24(45)29(50)40-19-27(49)44-16-8-13-26(44)34(55)56/h20,22-26,28,47H,3-19,36H2,1-2H3,(H,40,50)(H,41,48)(H,42,51)(H,43,52)(H,55,56)(H4,37,38,39)/t20-,22+,23+,24+,25+,26+,28+/m1/s1",
+  inchiKey: "MMPAGAHMLCPVEK-GSAYKZDLSA-N",
+
+  canonicalSmiles:
+    "CC(C(C(=O)NC(CCCCN)C(=O)N1CCCC1C(=O)NC(CCCN=C(N)N)C(=O)N2CCCC2C(=O)NCC(=O)N3CCCC3C(=O)O)NC(=O)C)O",
+
+  isomericSmiles:
+    "C[C@H]([C@@H](C(=O)N[C@@H](CCCCN)C(=O)N1CCC[C@H]1C(=O)N[C@@H](CCCN=C(N)N)C(=O)N2CCC[C@H]2C(=O)NCC(=O)N3CCC[C@H]3C(=O)O)NC(=O)C)O",
+
+  iupacName:
+    "(2S)-1-[2-[[(2S)-1-[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S,3R)-2-acetamido-3-hydroxybutanoyl]amino]-6-aminohexanoyl]pyrrolidine-2-carbonyl]amino]-5-(diaminomethylideneamino)pentanoyl]pyrrolidine-2-carbonyl]amino]acetyl]pyrrolidine-2-carboxylic acid"
+}
+  },
+
+  appearance: "Wit gevriesdroogd poeder",
+
+  storage: "Bewaren bij −20°C. Vermijd herhaalde vries-dooicycli.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"n-acetyl-semax-amidate-30mg": {
+  name: "N-Acetyl Semax Amidate 30mg",
+
+  tagline:
+    "Gestabiliseerde Semax-analoog voor onderzoek naar neuropeptidesignalering en synaptische plasticiteit",
+
+  cas: "2920938-90-3",
+
+  strength: [
+    "N-Acetyl Semax Amidate 30mg van BioPeptides is een hoogzuivere synthetische neuropeptide van onderzoekskwaliteit, ontwikkeld voor geavanceerde laboratoriumstudies naar neuropeptidesignalering, modellering van cognitieve routes en peptidegemedieerd neuromodulatieonderzoek. Geproduceerd met precisie solid-phase peptidesynthese en gezuiverd tot ≥99% HPLC, levert deze gestabiliseerde Semax-analoog uitstekende moleculaire integriteit en reproduceerbaarheid. Geïdentificeerd met CAS 2920938-90-3, wordt het veel gebruikt in gecontroleerd in-vitro onderzoek in Europa en de Verenigde Staten."
+  ],
+
+  topDescription: {
+    p0: "N-Acetyl Semax Amidate is een chemisch gestabiliseerd derivaat van de Semax-peptide dat wordt onderzocht in neurowetenschappelijk en peptidesignaleringsonderzoek.",
+    p1: "In laboratoriumsystemen wordt deze peptide bestudeerd vanwege zijn interacties met neuropeptidesignaleringsroutes, mechanismen van synaptische plasticiteit en cognitief gerelateerde moleculaire cascades.",
+    p2: "De N-acetyl- en amidate-modificaties verbeteren de structurele stabiliteit en weerstand tegen enzymatische afbraak, waardoor betrouwbaardere experimentele analyse mogelijk is."
+  },
+
+  components: [
+    "N-Acetyl Semax Amidate — gestabiliseerde Semax-neuropeptide-analoog",
+    "Hoogzuivere gevriesdroogde onderzoekspeptide",
+    "Peptidepreparaat van onderzoekskwaliteit",
+    "Totale peptidehoeveelheid — 30 mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "N-Acetyl Semax Amidate is een gemodificeerde analoog van de Semax-peptide die wordt gebruikt in neurowetenschappelijk onderzoek naar peptidegemedieerde neurale communicatieroutes.",
+      "Onderzoekers onderzoeken deze verbinding om neuropeptidesignaleringsnetwerken en cognitief gerelateerde moleculaire responsen te bestuderen.",
+      "De chemisch gestabiliseerde structuur maakt langere experimentele blootstelling mogelijk in vergelijking met native Semax.",
+      "De peptide ondersteunt laboratoriumonderzoek naar synaptische plasticiteit, neurotrofe signalering en neuromodulatiemechanismen."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Semax is een synthetische neuropeptide die wordt bestudeerd vanwege zijn betrokkenheid bij neurotrofe signalering en neurale communicatieroutes.",
+      "N-Acetyl Semax Amidate is een chemisch gemodificeerde versie die is ontworpen om de moleculaire stabiliteit en experimentele consistentie te verbeteren.",
+      "Onderzoekers onderzoeken deze analoog vanwege zijn interacties met synaptische signaleringsroutes en neurotrofe factoren.",
+      "De gestabiliseerde structuur maakt gecontroleerde experimentele analyse van peptidegemedieerde neurale signaleringsmechanismen mogelijk."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar neuropeptidesignaleringsroutes",
+      "Studies naar synaptische plasticiteit en neuronale communicatie",
+      "Analyse van neurotrofe signaleringsroutes",
+      "Onderzoek naar peptidegemedieerde neuromodulatie",
+      "Vergelijkend onderzoek naar Semax-analogen"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar neuropeptidesignalering",
+        text: "Gebruikt om peptidegestuurde neurale communicatieroutes te onderzoeken onder gecontroleerde laboratoriumomstandigheden."
+      },
+      {
+        title: "Onderzoek naar cognitieve routes",
+        text: "Ondersteunt laboratoriumstudies naar moleculaire routes die verband houden met cognitieve signalering en neuronale communicatie."
+      },
+      {
+        title: "Studies naar neurotrofe signalering",
+        text: "Onderzoekers analyseren peptidegemedieerde interacties met neurotrofe routes en synaptische signaleringsnetwerken."
+      },
+      {
+        title: "Moleculaire en cellulaire neurowetenschap",
+        text: "Toegepast in celgebaseerde assays die downstream genexpressie en intracellulaire neurale signaleringsroutes onderzoeken."
+      },
+      {
+        title: "Vergelijkend peptideonderzoek",
+        text: "Maakt vergelijking mogelijk tussen native Semax-peptiden en chemisch gestabiliseerde analoge vormen."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van de verbinding: N-Acetyl Semax Amidate",
+      "CAS-nummer: 2920938-90-3",
+      "Peptideklasse: Gemodificeerde Semax-neuropeptide-analoog",
+      "Vorm: Gevriesdroogd peptidepoeder",
+      "Zuiverheid: ≥99% HPLC geverifieerd",
+      "Eenheidsgrootte: 30 mg onderzoekspeptide"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Bewaar gevriesdroogde peptide bij −20°C",
+      "Bescherm tegen vocht en blootstelling aan licht",
+      "Vermijd herhaalde vries-dooicycli",
+      "Reconstitueer met steriel laboratoriumwaardig oplosmiddel",
+      "Sluit het flesje na elk gebruik goed af"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en voorbereidingsrichtlijnen",
+    solubilityPoints: [
+      "Oplosbaar in steriel bacteriostatisch water",
+      "Compatibel met gebufferde waterige laboratoriumoplossingen",
+      "Geschikt voor peptide-neurowetenschappelijke protocollen",
+      "Toepasbaar in assays voor synaptisch signaleringsonderzoek",
+      "Compatibel met celkweek-onderzoekssystemen"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "N-Acetyl Semax Amidate 30mg",
+      brand: "BioPeptides",
+      cas: "2920938-90-3",
+      purity: "≥99% (HPLC geverifieerd)",
+      form: "Gevriesdroogd peptidepoeder",
+      synthesis: "Solid-phase peptidesynthese (SPPS)",
+      analytical: "HPLC en massaspectrometrische verificatie",
+      molecularStructure: "Gestabiliseerde Semax-peptide-analoog",
+      stability: "Stabiel onder opslagcondities van −20°C"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "High-resolution HPLC zuiverheidstest",
+      "Verificatie van peptide-identiteit",
+      "Analyse van structurele integriteit",
+      "Validatie van batch-tot-batch consistentie",
+      "Testen van peptidestabiliteit"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "N-Acetyl Semax Amidate geleverd door BioPeptides is uitsluitend bedoeld voor laboratoriumonderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, therapeutische toepassingen of medische behandelingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt N-Acetyl Semax Amidate voornamelijk gebruikt in onderzoek?",
+        a: "Het wordt voornamelijk gebruikt in laboratoriumonderzoek gericht op neuropeptidesignalering, modellering van cognitieve routes en peptidegemedieerde neuromodulatie onder gecontroleerde, niet-klinische omstandigheden."
+      },
+      {
+        q: "Hoe verschilt N-Acetyl Semax Amidate van standaard Semax?",
+        a: "De N-acetyl- en amidate-modificaties verbeteren de moleculaire stabiliteit en weerstand tegen enzymatische afbraak vergeleken met native Semax."
+      },
+      {
+        q: "Waarom is CAS 2920938-90-3 belangrijk?",
+        a: "CAS 2920938-90-3 identificeert N-Acetyl Semax Amidate uniek en waarborgt nauwkeurige documentatie en traceerbaarheid in onderzoekslaboratoria."
+      },
+      {
+        q: "Is deze peptide geschikt voor in-vitro neurowetenschappelijke studies?",
+        a: "Ja. Het wordt veel gebruikt in gecontroleerde in-vitro experimenten met neuronale signalering, neurotrofe routes en neuropeptide-onderzoekmodellen."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken deze peptide vaak?",
+        a: "Het wordt vaak gebruikt in neurowetenschap, moleculaire biologie, neurofarmacologisch onderzoek, peptidesignaleringsstudies en onderzoek naar cellulaire communicatie."
+      },
+      {
+        q: "Waarom kiezen voor het 30mg formaat voor onderzoek?",
+        a: "Het 30mg formaat ondersteunt langdurige onderzoeksprojecten, meerdere experimentele runs en verbeterde kostenefficiëntie."
+      },
+      {
+        q: "Hoe moet N-Acetyl Semax Amidate worden bewaard?",
+        a: "Het moet in gevriesdroogde vorm bij −20°C worden bewaard en beschermd worden tegen vocht en licht."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor deze onderzoekspeptide?",
+        a: "BioPeptides levert hoogzuivere peptiden met geverifieerde CAS-documentatie en betrouwbare internationale levering voor onderzoekslaboratoria."
+      }
+    ],
+       chemicalProperties: {
+  molecularFormula: "C39H54N10O10S",
+  molecularWeight: "855",
+  monoisotopicMass: "854.37450913",
+  polarArea: "320",
+  complexity: "1560",
+  xlogP: "-0.9",
+  heavyAtomCount: "60",
+  hydrogenBondDonorCount: "8",
+  hydrogenBondAcceptorCount: "12",
+  rotatableBondCount: "22",
+  cid: "172638603",
+  inchi:
+    "InChI=1S/C39H54N10O10S/c1-23(50)44-27(14-17-60-2)36(56)45-26(12-13-33(52)53)35(55)46-28(19-25-20-41-22-43-25)37(57)47-29(18-24-8-4-3-5-9-24)39(59)49-16-7-11-31(49)38(58)42-21-32(51)48-15-6-10-30(48)34(40)54/h3-5,8-9,20,22,26-31H,6-7,10-19,21H2,1-2H3,(H2,40,54)(H,41,43)(H,42,58)(H,44,50)(H,45,56)(H,46,55)(H,47,57)(H,52,53)/t26-,27-,28-,29-,30-,31-/m0/s1",
+  inchiKey: "	QQOAKFVAEDCKGY-HPMAGDRPSA-N",
+
+  canonicalSmiles:
+    "CC(=O)NC(CCSC)C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CN=CN1)C(=O)NC(CC2=CC=CC=C2)C(=O)N3CCCC3C(=O)NCC(=O)N4CCCC4C(=O)N",
+
+  isomericSmiles:
+    "CC(=O)N[C@@H](CCSC)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N3CCC[C@H]3C(=O)NCC(=O)N4CCC[C@H]4C(=O)N",
+
+  iupacName:
+    "(4S)-4-[[(2S)-2-acetamido-4-methylsulfanylbutanoyl]amino]-5-[[(2S)-1-[[(2S)-1-[(2S)-2-[[2-[(2S)-2-carbamoylpyrrolidin-1-yl]-2-oxoethyl]carbamoyl]pyrrolidin-1-yl]-1-oxo-3-phenylpropan-2-yl]amino]-3-(1H-imidazol-5-yl)-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+}
+  },
+
+  appearance: "Wit gevriesdroogd poeder",
+
+  storage: "Bewaren bij −20°C. Vermijd herhaalde vries-dooicycli.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"os-01-100mg-30-capsules": {
+  name: "OS-01 100mg (30 Capsules)",
+
+  tagline:
+    "Geavanceerde onderzoekspeptide voor studies naar cellulaire senescentie en verouderingsroutes",
+
+  cas: "1261289-04-6",
+
+  strength: [
+    "OS-01 100mg capsules van BioPeptides zijn een hoogzuivere peptideformulering van onderzoekskwaliteit, ontwikkeld voor geavanceerde laboratoriumstudies naar cellulaire senescentie, verouderingsbiomarkers en peptidegemedieerde signaleringsroutes. Geproduceerd onder streng gecontroleerde kwaliteitsomstandigheden en analytisch geverifieerd op consistentie, biedt OS-01 betrouwbare reproduceerbaarheid in experimentele onderzoeksmodellen. Geïdentificeerd met CAS 1261289-04-6, wordt deze verbinding veel gebruikt in gecontroleerd in-vitro en verkennend preklinisch onderzoek in Europa en de Verenigde Staten."
+  ],
+
+  topDescription: {
+    p0: "OS-01 is een in het laboratorium gesynthetiseerde onderzoekspeptide die wordt onderzocht vanwege zijn rol in cellulaire veroudering en senescentie-geassocieerde signaleringsroutes.",
+    p1: "Onderzoekers bestuderen deze verbinding in modellen voor verouderingsbiologie om peptidegestuurde modulatie van cellulaire stressreacties en moleculaire verouderingsmarkers te onderzoeken.",
+    p2: "Het capsuleformaat maakt gestandaardiseerde dosering mogelijk binnen experimentele onderzoeksprotocollen en verbetert de reproduceerbaarheid tussen laboratoriumstudies."
+  },
+
+  components: [
+    "OS-01 — peptideverbinding van onderzoekskwaliteit",
+    "Ingekapseld onderzoeksmateriaal voor gecontroleerde experimentele hantering",
+    "Gestandaardiseerd capsuleformaat voor reproduceerbare onderzoeksprotocollen",
+    "Totale hoeveelheid — 30 capsules (100 mg per capsule)"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "OS-01 is een peptidegebaseerde onderzoeksverbinding die wordt gebruikt in laboratoriumonderzoek gericht op cellulaire veroudering en senescentiesignalering.",
+      "Onderzoekers passen OS-01 toe in experimentele modellen die cellulaire stressreacties en leeftijdsgerelateerde regulatie van moleculaire routes onderzoeken.",
+      "De verbinding wordt vaak gebruikt om peptidegemedieerde interacties met senescentie-geassocieerde signaleringsnetwerken te bestuderen.",
+      "OS-01 ondersteunt bredere studies naar regulatie van de cellulaire levensduur en verouderingsbiologie."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Cellulaire senescentie is een biologisch proces dat wordt gekenmerkt door permanente stopzetting van de celcyclus en veranderde genexpressiepatronen.",
+      "Onderzoekers bestuderen senescentieroutes om moleculaire veranderingen die verband houden met veroudering en cellulaire stress beter te begrijpen.",
+      "OS-01 wordt onderzocht als onderzoeksverbinding voor het analyseren van peptidegemedieerde regulatie van senescentie-geassocieerde markers.",
+      "De verbinding maakt experimentele evaluatie mogelijk van peptide-interacties binnen verouderingsgerelateerde signaleringscascades."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar senescentie-geassocieerde signaleringsroutes",
+      "Onderzoek naar cellulaire stressresponsroutes",
+      "Peptidegemedieerde modulatie van verouderingsbiomarkers",
+      "Studies naar moleculaire regulatie van cellulaire levensduur",
+      "Vergelijkende analyse van verouderingsgerelateerde peptideverbindingen"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar cellulaire senescentie",
+        text: "OS-01 wordt gebruikt in laboratoriummodellen die moleculaire mechanismen onderzoeken die betrokken zijn bij cellulaire veroudering en senescentiesignalering."
+      },
+      {
+        title: "Studies naar verouderingsbiologie",
+        text: "Onderzoekers passen OS-01 toe in studies naar peptide-interacties met leeftijdsgerelateerde cellulaire routes."
+      },
+      {
+        title: "Onderzoek naar stressresponsroutes",
+        text: "De verbinding ondersteunt experimenten die cellulaire aanpassing aan biochemische en omgevingsstress onderzoeken."
+      },
+      {
+        title: "Onderzoek naar peptidesignalering",
+        text: "Wetenschappers onderzoeken structuur-functierelaties tussen peptideverbindingen en verouderingsgerelateerde signaleringsroutes."
+      },
+      {
+        title: "In-vitro en verkennend preklinisch onderzoek",
+        text: "OS-01 capsules bieden een gestandaardiseerd verbindingformaat voor herhaalbare experimentele ontwerpen in laboratoriumonderzoek."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van de verbinding: OS-01",
+      "CAS-nummer: 1261289-04-6",
+      "Verbindingsklasse: Peptide van onderzoekskwaliteit",
+      "Vorm: Ingekapselde onderzoeksverbinding",
+      "Sterkte: 100 mg per capsule",
+      "Hoeveelheid: 30 capsules laboratoriumonderzoeksformaat"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Bewaren in een koele, droge omgeving",
+      "Beschermen tegen vocht en overmatige hitte",
+      "Langdurige blootstelling aan direct licht vermijden",
+      "Container na elk gebruik goed afsluiten",
+      "Standaard laboratoriumopslagprocedures volgen"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en voorbereidingsrichtlijnen",
+    solubilityPoints: [
+      "Ingekapseld formaat ontworpen voor gecontroleerde experimentele hantering",
+      "Geschikt voor gestandaardiseerde onderzoeksprotocollen",
+      "Compatibel met laboratoriumstudieontwerpen die vaste dosering vereisen",
+      "Toepasbaar in modellen voor peptidesignaleringsonderzoek",
+      "Geschikt voor langdurige laboratoriumonderzoeken"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "OS-01 100mg capsules",
+      brand: "BioPeptides",
+      cas: "1261289-04-6",
+      purity: "Analytische kwaliteit voor onderzoek",
+      form: "Capsules (laboratoriumonderzoeksformaat)",
+      synthesis: "Gecontroleerde peptidesynthese",
+      analytical: "Verificatie van identiteit en consistentie",
+      molecularStructure: "Onderzoekspeptideverbinding",
+      stability: "Stabiel onder aanbevolen laboratoriumopslagcondities"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "Verificatie van de identiteit van de verbinding",
+      "Beoordeling van zuiverheid en stabiliteit",
+      "Testen van batch-tot-batch reproduceerbaarheid",
+      "Inspectie van verpakkingsintegriteit",
+      "Analytische kwaliteitscontrolevalidatie"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "OS-01 geleverd door BioPeptides is uitsluitend bedoeld voor laboratoriumonderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, therapeutische toepassingen of medische behandelingen.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt OS-01 voornamelijk gebruikt in onderzoek?",
+        a: "OS-01 wordt voornamelijk gebruikt in laboratoriumonderzoek naar cellulaire senescentie, verouderingsgerelateerde signaleringsroutes en peptidegemedieerde moleculaire regulatie."
+      },
+      {
+        q: "Waarom wordt OS-01 bestudeerd in verouderingsbiologie?",
+        a: "Onderzoekers bestuderen OS-01 om cellulaire stressreacties en moleculaire routes te onderzoeken die verband houden met cellulaire veroudering en senescentie."
+      },
+      {
+        q: "Wat identificeert CAS 1261289-04-6?",
+        a: "CAS 1261289-04-6 identificeert de verbinding OS-01 uniek en zorgt voor nauwkeurige chemische documentatie en traceerbaarheid in onderzoekslaboratoria."
+      },
+      {
+        q: "Zijn OS-01 capsules geschikt voor laboratoriumonderzoek?",
+        a: "Ja. Het capsuleformaat biedt gestandaardiseerde dosering en reproduceerbaarheid voor in-vitro en verkennende onderzoeksstudies."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken OS-01 vaak?",
+        a: "OS-01 wordt vaak gebruikt in verouderingsbiologie, moleculaire biologie, peptidesignaleringsonderzoek en onderzoek naar cellulaire stressroutes."
+      },
+      {
+        q: "Waarom kiezen voor het capsuleformaat voor OS-01 onderzoek?",
+        a: "Capsules bieden gestandaardiseerde dosering, verbeterde reproduceerbaarheid en minder variatie in hantering vergeleken met poedervormige onderzoeksverbindingen."
+      },
+      {
+        q: "Hoe moet OS-01 worden bewaard?",
+        a: "OS-01 moet worden bewaard op een koele, droge plaats, uit de buurt van vocht en overmatige hitte."
+      },
+      {
+        q: "Waarom kiezen voor BioPeptides voor OS-01 onderzoeksverbindingen?",
+        a: "BioPeptides levert geverifieerde CAS-documentatie, consistente materialen van onderzoekskwaliteit en betrouwbare internationale levering voor onderzoekslaboratoria."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "C16H11Cl2N3O2S",
+  molecularWeight: "380.2",
+  monoisotopicMass: "378.9949032",
+  polarArea: "87.1",
+  complexity: "515",
+  xlogP: "4.1",
+  heavyAtomCount: "24",
+  hydrogenBondDonorCount: "1",
+  hydrogenBondAcceptorCount: "3",
+  rotatableBondCount: "4",
+  cid: "50923806",
+  inchi:
+    "InChI=1S/C16H11Cl2N3O2S/c17-12-5-1-10(2-6-12)9-21-16(23)20-15(24-21)19-14(22)11-3-7-13(18)8-4-11/h1-8H,9H2,(H,19,20,22,23)",
+  inchiKey: "WEDWLYRQKUTOAX-UHFFFAOYSA-N",
+
+  canonicalSmiles:
+    "C1=CC(=CC=C1CN2C(=O)N=C(S2)NC(=O)C3=CC=C(C=C3)Cl)Cl",
+
+  isomericSmiles:
+    "C1=CC(=CC=C1CN2C(=O)N=C(S2)NC(=O)C3=CC=C(C=C3)Cl)Cl",
+
+  iupacName:
+    "4-chloro-N-[2-[(4-chlorophenyl)methyl]-3-oxo-1,2,4-thiadiazol-5-yl]benzamide"
+}
+  },
+
+  appearance: "Ingekapseld vast onderzoeksmateriaal",
+
+  storage: "Bewaren in een koele, droge omgeving, uit de buurt van direct licht.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"tesamorelin-5mg": {
+  name: "Tesamorelin 5mg",
+
+  tagline:
+    "Precisie GHRH-onderzoekspeptide voor studies naar de groeihormoonas en endocriene signalering",
+
+  cas: "901758-09-6",
+
+  strength: [
+    "Tesamorelin 5mg van Bio-Peptides is een hoogzuivere peptide van onderzoekskwaliteit, ontwikkeld voor geavanceerde laboratoriumstudies naar growth hormone-releasing hormone (GHRH)-signalering, endocriene regulatie en receptor-gemedieerde cellulaire routes. Geïdentificeerd door CAS 901758-09-6, is Tesamorelin een synthetisch GHRH-analoog dat breed wordt bestudeerd in gecontroleerde onderzoeksomgevingen vanwege zijn rol in modulatie van de groeihormoonas. Geleverd in een 5mg onderzoeksformaat, is het ideaal voor gerichte experimentele protocollen en vergelijkende endocriene studies. Vertrouwd door onderzoeksinstellingen in Europa en de Verenigde Staten."
+  ],
+
+  topDescription: {
+    p0: "Tesamorelin is een gestabiliseerd synthetisch analoog van endogeen growth hormone-releasing hormone (GHRH), bestudeerd in geavanceerd laboratoriumonderzoek gericht op GH-secretiemechanismen en endocriene routeregulatie.",
+    p1: "Geïdentificeerd door CAS 901758-09-6, interageert Tesamorelin met GHRH-receptoren in de hypofysevoorkwab, waardoor het een waardevol onderzoeksinstrument is voor het bestuderen van hormoonsignaleringsdynamiek.",
+    p2: "Het 5mg onderzoeksformaat ondersteunt gerichte experimentele studies, receptorinteractieonderzoeken en vergelijkende endocriene signaleringsexperimenten."
+  },
+
+  components: [
+    "Synthetisch GHRH-analoog peptide",
+    "Onderzoeksverbinding voor signalering van de groeihormoonas",
+    "Onderzoekspeptide voor hypofyse-receptorinteractie",
+    "Gelyofiliseerde peptidepreparatie — 5 mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "Tesamorelin is een synthetisch analoog van growth hormone-releasing hormone, ontworpen voor laboratoriumstudies naar endocriene signalering en GH-secretiedynamiek.",
+      "Onderzoekers bestuderen Tesamorelin om GHRH-receptoractivatie binnen de hypothalamus-hypofyse-as te analyseren.",
+      "De peptide maakt gecontroleerd onderzoek mogelijk naar hormonale signaleringsmechanismen zonder exogeen groeihormoon te introduceren.",
+      "De structurele gelijkenis met endogeen GHRH maakt het een waardevolle onderzoeksverbinding voor studies in de endocriene biologie."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Groeihormoonsecretie wordt voornamelijk gereguleerd via hypothalamische growth hormone-releasing hormone-signalering.",
+      "Tesamorelin is structureel verwant aan natuurlijk GHRH en wordt bestudeerd vanwege zijn interactie met GHRH-receptoren.",
+      "Laboratoriumonderzoek evalueert Tesamorelin vaak om GH-afgiftedynamiek en endocriene regulatieroutes te onderzoeken.",
+      "Deze onderzoeken ondersteunen een dieper begrip van hormonale communicatienetwerken en receptor-gemedieerde signalering."
+    ],
+
+    mechanismTitle: "Mechanistisch onderzoeksperspectief",
+    mechanismPoints: [
+      "Onderzoek naar growth hormone-releasing hormone-receptorsignalering",
+      "Analyse van hypothalamus-hypofyse endocriene communicatie",
+      "Onderzoek naar peptide-receptorinteractie",
+      "Onderzoek naar groeihormoonsecretieroutes",
+      "Studies naar endocriene feedbackregulatie"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar de groeihormoonas",
+        text: "Gebruikt om GHRH-receptoractivatie en GH-secretiedynamiek in laboratoriummodellen te bestuderen."
+      },
+      {
+        title: "Studies naar endocriene signalering",
+        text: "Onderzoekers onderzoeken hypothalamus-hypofyse hormooncommunicatie en regulatieroutes."
+      },
+      {
+        title: "Onderzoek naar receptorinteractie",
+        text: "Toegepast in experimenten die peptidebinding aan GHRH-receptoren evalueren."
+      },
+      {
+        title: "Moleculaire en cellulaire biologie",
+        text: "Gebruikt in in-vitro experimenten die intracellulaire endocriene signaleringsmechanismen onderzoeken."
+      },
+      {
+        title: "Vergelijkend peptideonderzoek",
+        text: "Maakt vergelijking mogelijk met andere GHRH-peptiden zoals CJC-1295 en Sermorelin."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Naam van de verbinding: Tesamorelin",
+      "CAS-nummer: 901758-09-6",
+      "Peptideklasse: Growth hormone-releasing hormone-analoog",
+      "Vorm: Gelyofiliseerd peptidepoeder",
+      "Eenheidsformaat: 5 mg onderzoekspeptide"
+    ],
+
+    stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
+    stabilityPoints: [
+      "Bewaar gelyofiliseerd Tesamorelin bij −20°C",
+      "Bescherm tegen vocht en direct licht",
+      "Vermijd herhaalde vries-dooicycli",
+      "Reconstitueer met steriel laboratoriumgeschikt oplosmiddel",
+      "Sluit de flacon correct af na gebruik"
+    ],
+
+    solubilityTitle: "Hantering en overwegingen voor onderzoeksvoorbereiding",
+    solubilityPoints: [
+      "Compatibel met steriele waterige laboratoriumoplosmiddelen",
+      "Geschikt voor endocriene signaleringsassays",
+      "Toepasbaar in receptoractivatie-experimenten",
+      "Compatibel met peptideonderzoeksworkflows",
+      "Ontworpen voor reproduceerbare experimentele voorbereiding"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "Tesamorelin 5mg",
+      brand: "BioPeptides",
+      purity: "Analytische kwaliteit voor onderzoek",
+      form: "Gelyofiliseerd peptidepoeder",
+      synthesis: "Solid-phase peptide synthesis (SPPS)",
+      analytical: "Identiteitsverificatie en zuiverheidstesten",
+      molecularStructure: "Synthetisch GHRH-analoog",
+      stability: "Stabiel onder opslagcondities van −20°C"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitsborging",
+    validationPoints: [
+      "Bevestiging van moleculaire identiteit",
+      "Zuiverheids- en stabiliteitstesten",
+      "Verificatie van structurele integriteit",
+      "Validatie van batch-tot-batch consistentie",
+      "Analytische kwaliteitscontrole-inspectie"
+    ],
+
+    regulatoryTitle: "Regelgevende en complianceverklaring",
+    regulatoryText:
+      "Tesamorelin 5mg geleverd door Bio-Peptides is uitsluitend bedoeld voor laboratoriumonderzoek. Het is niet goedgekeurd voor menselijke consumptie, veterinair gebruik, therapeutische toepassingen of medische behandeling.",
+
+    faqTitle: "Veelgestelde vragen",
+
+    faqItems: [
+      {
+        q: "Waarvoor wordt Tesamorelin gebruikt in onderzoek?",
+        a: "Tesamorelin wordt gebruikt in laboratoriumstudies naar growth hormone-releasing hormone-signalering en regulatie van endocriene routes."
+      },
+      {
+        q: "Wat identificeert CAS 901758-09-6?",
+        a: "CAS 901758-09-6 identificeert Tesamorelin uniek en zorgt voor nauwkeurige chemische documentatie en reproduceerbaarheid."
+      },
+      {
+        q: "Is Tesamorelin geschikt voor in-vitro onderzoek?",
+        a: "Ja. Tesamorelin wordt vaak gebruikt in gecontroleerde in-vitro experimenten die receptoractivatie en endocriene signalering analyseren."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken Tesamorelin vaak?",
+        a: "Tesamorelin wordt breed bestudeerd in endocrinologie, peptidesignaleringsonderzoek en moleculair-biologische onderzoeken."
+      },
+      {
+        q: "Hoe moet Tesamorelin worden bewaard?",
+        a: "Tesamorelin moet bij −20°C worden bewaard en beschermd worden tegen vocht en licht."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "C221H366N72O67S",
+  molecularWeight: "5136",
+  monoisotopicMass: "5132.7166406",
+  polarArea: "2360",
+  complexity: "12800",
+  xlogP: "-23.3",
+  heavyAtomCount: "361",
+  hydrogenBondDonorCount: "83",
+  hydrogenBondAcceptorCount: "76",
+  rotatableBondCount: "187",
+  cid: "16137828",
+  inchi:
+    "InChI=1S/C221H366N72O67S/c1-25-28-30-53-163(308)260-145(92-120-54-58-122(299)59-55-120)198(343)255-116(21)179(324)276-150(96-169(316)317)199(344)256-117(22)180(325)291-172(111(16)26-2)214(359)284-147(91-119-43-31-29-32-44-119)206(351)293-174(118(23)298)215(360)285-149(95-162(230)307)205(350)289-155(104-297)210(355)280-146(93-121-56-60-123(300)61-57-121)203(348)267-130(51-41-83-248-220(240)241)186(331)266-126(46-34-36-78-223)197(342)290-171(110(14)15)212(357)283-141(87-106(6)7)183(328)252-100-166(311)258-133(63-70-157(225)302)190(335)278-144(90-109(12)13)202(347)288-152(101-294)208(353)257-115(20)178(323)262-128(49-39-81-246-218(236)237)185(330)265-125(45-33-35-77-222)189(334)277-143(89-108(10)11)201(346)279-142(88-107(8)9)200(345)272-137(66-73-160(228)305)195(340)282-151(97-170(318)319)207(352)292-173(112(17)27-3)213(358)274-139(76-85-361-24)196(341)287-153(102-295)209(354)268-131(52-42-84-249-221(242)243)187(332)270-135(64-71-158(226)303)192(337)269-132(62-69-156(224)301)182(327)251-99-165(310)259-134(67-74-167(312)313)191(336)286-154(103-296)211(356)281-148(94-161(229)306)204(349)273-136(65-72-159(227)304)193(338)271-138(68-75-168(314)315)194(339)264-124(47-37-79-244-216(232)233)181(326)250-98-164(309)253-113(18)176(321)261-127(48-38-80-245-217(234)235)184(329)254-114(19)177(322)263-129(50-40-82-247-219(238)239)188(333)275-140(175(231)320)86-105(4)5/h28-32,43-44,54-61,105-118,124-155,171-174,294-300H,25-27,33-42,45-53,62-104,222-223H2,1-24H3,(H2,224,301)(H2,225,302)(H2,226,303)(H2,227,304)(H2,228,305)(H2,229,306)(H2,230,307)(H2,231,320)(H,250,326)(H,251,327)(H,252,328)(H,253,309)(H,254,329)(H,255,343)(H,256,344)(H,257,353)(H,258,311)(H,259,310)(H,260,308)(H,261,321)(H,262,323)(H,263,322)(H,264,339)(H,265,330)(H,266,331)(H,267,348)(H,268,354)(H,269,337)(H,270,332)(H,271,338)(H,272,345)(H,273,349)(H,274,358)(H,275,333)(H,276,324)(H,277,334)(H,278,335)(H,279,346)(H,280,355)(H,281,356)(H,282,340)(H,283,357)(H,284,359)(H,285,360)(H,286,336)(H,287,341)(H,288,347)(H,289,350)(H,290,342)(H,291,325)(H,292,352)(H,293,351)(H,312,313)(H,314,315)(H,316,317)(H,318,319)(H4,232,233,244)(H4,234,235,245)(H4,236,237,246)(H4,238,239,247)(H4,240,241,248)(H4,242,243,249)/b30-28+/t111-,112-,113-,114-,115-,116-,117-,118+,124-,125-,126-,127-,128-,129-,130-,131-,132-,133-,134-,135-,136-,137-,138-,139-,140-,141-,142-,143-,144-,145-,146-,147-,148-,149-,150-,151-,152-,153-,154-,155-,171-,172-,173-,174-/m0/s1",
+  inchiKey: "QBEPNUQJQWDYKU-BMGKTWPMSA-N",
+
+  canonicalSmiles:
+    "CCC=CCC(=O)NC(CC1=CC=C(C=C1)O)C(=O)NC(C)C(=O)NC(CC(=O)O)C(=O)NC(C)C(=O)NC(C(C)CC)C(=O)NC(CC2=CC=CC=C2)C(=O)NC(C(C)O)C(=O)NC(CC(=O)N)C(=O)NC(CO)C(=O)NC(CC3=CC=C(C=C3)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NCC(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CCSC)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)NC(CC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CC(C)C)C(=O)N",
+
+  isomericSmiles:
+    "CC/C=C/CC(=O)N[C@@H](CC1=CC=C(C=C1)O)C(=O)N[C@@H](C)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](C)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC3=CC=C(C=C3)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)NCC(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CCSC)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)N)C(=O)NCC(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)NCC(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CC(C)C)C(=O)N",
+
+  iupacName:
+    "(4S)-4-[[2-[[(2S)-5-amino-2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-4-amino-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-3-carboxy-2-[[(2S)-2-[[(2S)-2-[[(E)-hex-3-enoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]propanoyl]amino]propanoyl]amino]-3-methylpentanoyl]amino]-3-phenylpropanoyl]amino]-3-hydroxybutanoyl]amino]-4-oxobutanoyl]amino]-3-hydroxypropanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-3-methylbutanoyl]amino]-4-methylpentanoyl]amino]acetyl]amino]-5-oxopentanoyl]amino]-4-methylpentanoyl]amino]-3-hydroxypropanoyl]amino]propanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]-5-oxopentanoyl]amino]-3-carboxypropanoyl]amino]-3-methylpentanoyl]amino]-4-methylsulfanylbutanoyl]amino]-3-hydroxypropanoyl]amino]-5-carbamimidamidopentanoyl]amino]-5-oxopentanoyl]amino]-5-oxopentanoyl]amino]acetyl]amino]-5-[[(2S)-1-[[(2S)-4-amino-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-4-methyl-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+}
+
+  },
+
+  appearance: "Wit gelyofiliseerd poeder",
+
+  storage:
+    "Bewaren bij −20°C. Beschermen tegen licht en vocht. Herhaalde vries-dooicycli vermijden.",
+
+  researchStatus:
+    "Alleen voor laboratoriumonderzoek. Niet voor menselijk of veterinair gebruik."
+},
+"trh-thyrotropin-protirelin-50mg": {
+  name: "TRH (Thyrotropin / Protirelin) 50mg",
+  tagline: "Onderzoeksoverzicht en technisch profiel",
+  cas: "24305-27-9",
+
+  strength: [
+    "TRH (Thyrotropine / Protireline) 50mg is een synthetisch tripeptide dat wordt geleverd voor geavanceerd laboratoriumonderzoek gericht op signaleringsroutes van de hypothalamus-hypofyse-as, neuro-endocriene communicatiemodellen en peptide-gemedieerde regulatiemechanismen."
+  ],
+
+  topDescription: {
+    p0: "TRH, ook bekend als Thyrotropin-Releasing Hormone of Protireline, is een synthetisch tripeptide dat in laboratoriumomgevingen wordt bestudeerd vanwege zijn interactie met hypothalamus-hypofyse signaleringsroutes.",
+    p1: "In gecontroleerde onderzoeksomgevingen wordt TRH onderzocht voor peptide-gemedieerde endocriene communicatie en modellen voor neuro-endocriene feedbackregulatie.",
+    p2: "Geleverd als een hoogzuivere gelyofiliseerde peptidepreparatie, is TRH strikt bedoeld voor laboratoriumonderzoek en analytisch wetenschappelijk onderzoek."
+  },
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "Thyrotropin-Releasing Hormone (TRH) is een natuurlijk voorkomend tripeptide dat een belangrijke rol speelt in signaleringsroutes van de hypothalamus-hypofyse-as.",
+      "Synthetische TRH wordt in laboratoriumonderzoek bestudeerd vanwege zijn invloed op neuro-endocriene communicatiemodellen en peptide-gemedieerde regulatiemechanismen binnen endocriene signaleringsnetwerken.",
+      "Deze peptide wordt vaak opgenomen in neuro-endocriene en hypothalamus-hypofyse-as onderzoeksprogramma’s die endocriene feedback en regulatoire communicatie bestuderen."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "TRH is een belangrijke regulatoire peptide die betrokken is bij signalering tussen de hypothalamus en de hypofyse.",
+      "In laboratoriumonderzoek wordt synthetische TRH bestudeerd vanwege zijn peptide-receptorinteracties en rol in endocriene signaleringsmodellen die communicatie tussen schildklier en hypofyse omvatten."
+    ],
+
+    mechanismTitle: "Mechanistische onderzoekseigenschappen",
+    mechanismPoints: [
+      "Interactie met TRH-receptoren in neuro-endocriene signaleringsmodellen",
+      "Deelname aan hypothalamus-hypofyse communicatieroutes",
+      "Ondersteuning van peptide-gemedieerd endocrien feedbackonderzoek",
+      "Invloed op centrale regulatoire signaleringssystemen",
+      "Onderzoek naar endocriene communicatienetwerken in laboratoriummodellen"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Neuro-endocrien signaleringsonderzoek",
+        text: "Gebruikt in laboratoriumstudies die regulatoire signaleringsroutes binnen neuro-endocriene communicatiesystemen onderzoeken."
+      },
+      {
+        title: "Onderzoek naar de hypothalamus-hypofyse-as",
+        text: "Ondersteunt onderzoeken naar peptide-gemedieerde signalering binnen hypothalamische en hypofysaire regulatieroutes."
+      },
+      {
+        title: "Studies naar peptide-receptorinteractie",
+        text: "Toegepast in experimentele modellen die het signaleringsgedrag van TRH-receptoren bestuderen."
+      },
+      {
+        title: "Modellen voor endocriene feedbackmechanismen",
+        text: "Gebruikt om hormonale feedbacksignalering in endocriene regulatiesystemen te bestuderen."
+      },
+      {
+        title: "Onderzoek naar centrale regulatiemechanismen",
+        text: "Stelt onderzoekers in staat om regulatoire communicatieroutes in centrale endocriene signaleringsmodellen te onderzoeken."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Peptideklasse: Synthetisch tripeptide-hormoonanaloog",
+      "Structuur: Kortketenig tripeptide",
+      "Onderzoeksgebied: Neuro-endocrien en endocrien signaleringsonderzoek",
+      "Vorm: Gelyofiliseerde onderzoekspeptide"
+    ],
+
+    stabilityTitle: "Stabiliteits- en opslagprofiel",
+    stabilityPoints: [
+      "Stabiel wanneer gelyofiliseerd bewaard bij −20°C",
+      "Gevoelig voor vocht en langdurige blootstelling aan licht",
+      "Beschermen tegen omgevingscontaminatie",
+      "Gereconstitueerde oplossingen moeten gekoeld worden bewaard",
+      "Herhaalde vries-dooicycli vermijden"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en reconstitutie-opties",
+    solubilityPoints: [
+      "Bacteriostatisch water",
+      "Steriele zoutoplossingen",
+      "Gebufferde laboratoriumoplosmiddelsystemen",
+      "Analytische oplosmiddelen gebruikt in peptideonderzoek"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "TRH (Thyrotropine / Protireline) 50mg",
+      cas: "24305-27-9",
+      purity: "≥98–99% (HPLC geverifieerd)",
+      unitSize: "50 mg",
+      form: "Gelyofiliseerd poeder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, Mass Spectrometry"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitscontrole",
+    validationPoints: [
+      "HPLC-zuiverheidsverificatie",
+      "Identiteitsbevestiging via massaspectrometrie",
+      "Testen van peptide-structurele integriteit",
+      "Validatie van batchconsistentie",
+      "Laboratoriumkwaliteitscontrolescreening"
+    ],
+
+    regulatoryTitle: "Regelgevende en compliance-informatie",
+    regulatoryText:
+      "TRH (Thyrotropine / Protireline) 50mg wordt strikt geleverd voor laboratoriumonderzoek en wetenschappelijk onderzoek. Het is niet goedgekeurd als farmaceutisch product, voedingssupplement, cosmetisch ingrediënt of medisch product. De peptide is uitsluitend bedoeld voor gecontroleerde laboratoriumexperimenten en analytisch wetenschappelijk gebruik.",
+
+    whyTitle: "Waarom kopen bij Bio-Peptides?",
+    whyText:
+      "Bio-Peptides levert onderzoekspeptiden aan laboratoria wereldwijd, met een focus op analytische kwaliteit, batchconsistentie en betrouwbare wetenschappelijke toeleveringsketens die zijn ontworpen voor geavanceerde peptideonderzoeksomgevingen.",
+
+    faqTitle: "Veelgestelde vragen",
+    faqItems: [
+      {
+        q: "Waarvoor wordt TRH gebruikt in onderzoek?",
+        a: "TRH wordt gebruikt in laboratoriumonderzoek naar neuro-endocriene signaleringsroutes en hypothalamus-hypofyse communicatiemodellen."
+      },
+      {
+        q: "Wat voor type peptide is TRH?",
+        a: "TRH is een synthetisch tripeptide-hormoonanaloog dat verwant is aan thyrotropin-releasing hormone."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken TRH vaak?",
+        a: "TRH wordt vaak bestudeerd in neuro-endocrien onderzoek, endocriene signaleringsstudies en onderzoeken naar de hypothalamus-hypofyse-as."
+      },
+      {
+        q: "Hoe moet TRH worden bewaard?",
+        a: "TRH moet worden bewaard bij −20°C en beschermd worden tegen licht en vocht."
+      },
+      {
+        q: "Is TRH goedgekeurd voor menselijk gebruik?",
+        a: "Nee. Dit product wordt strikt geleverd voor laboratoriumonderzoek."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C16H22N6O4",
+      molecularWeight: "362.38",
+      monoisotopicMass: "362.17",
+      polarArea: "150",
+      complexity: "597",
+      xlogP: "-2.5",
+      heavyAtomCount: "26",
+      hydrogenBondDonorCount: "4",
+      hydrogenBondAcceptorCount: "6",
+      rotatableBondCount: "6",
+      cid: "638678",
+      inchi: "	InChI=1S/C16H22N6O4/c17-14(24)12-2-1-5-22(12)16(26)11(6-9-7-18-8-19-9)21-15(25)10-3-4-13(23)20-10/h7-8,10-12H,1-6H2,(H2,17,24)(H,18,19)(H,20,23)(H,21,25)/t10-,11-,12-/m0/s1",
+      inchiKey: "XNSAINXGIQZQOO-SRVKXCTJSA-N",
+      canonicalSmiles: "C1CC(N(C1)C(=O)C(CC2=CN=CN2)NC(=O)C3CCC(=O)N3)C(=O)N",
+      isomericSmiles: "C1C[C@H](N(C1)C(=O)[C@H](CC2=CN=CN2)NC(=O)[C@@H]3CCC(=O)N3)C(=O)N",
+      iupacName: "	(2S)-N-[(2S)-1-[(2S)-2-carbamoylpyrrolidin-1-yl]-3-(1H-imidazol-5-yl)-1-oxopropan-2-yl]-5-oxopyrrolidine-2-carboxamide"
+    }
+
+  }
+},
+"tripeptide-29-200mg-collagen-peptide-topical": {
+  name: "Tripeptide-29 (Collagen Peptide) 200mg – Topical",
+  tagline: "Onderzoeksoverzicht en technisch profiel",
+  cas: "Unknown",
+
+  strength: [
+    "Tripeptide-29 (Collageenpeptide) 200mg is een synthetisch tripeptide dat wordt geleverd voor laboratoriumonderzoek gericht op extracellulaire matrixsignaleringsroutes, collageen-geassocieerde peptide-interacties en peptide-gemedieerde dermale communicatiemodellen."
+  ],
+
+  topDescription: {
+    p0: "Tripeptide-29 is een synthetisch collageen-geassocieerd peptide dat in laboratoriumomgevingen wordt bestudeerd vanwege zijn interactie met extracellulaire matrixsignaleringsroutes en dermale communicatiesystemen.",
+    p1: "In gecontroleerde onderzoeksomgevingen wordt Tripeptide-29 onderzocht voor peptide-collageen interactiemodellen en peptide-gemedieerd signaleringsgedrag binnen huidgerelateerde experimentele systemen.",
+    p2: "Geleverd als een hoogzuivere topische onderzoeksvoorbereiding, is Tripeptide-29 strikt bedoeld voor laboratoriumonderzoek en analytisch wetenschappelijk onderzoek."
+  },
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "Synthetische tripeptiden worden veel onderzocht in cosmetisch en moleculair biologisch onderzoek vanwege hun vermogen om te interageren met extracellulaire matrixsignaleringsroutes.",
+      "Tripeptide-29 wordt in laboratoriumomgevingen bestudeerd vanwege zijn verband met collageen-gerelateerde peptide-interacties en peptide-gemedieerde communicatie binnen dermale matrix-experimentele systemen.",
+      "Dit peptide wordt vaak opgenomen in cosmetische peptideonderzoeksprogramma’s die gericht zijn op extracellulaire matrixcommunicatie en dermale signaleringsmodellen."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Collageen-geassocieerde peptiden worden vaak onderzocht in laboratoriumonderzoek om extracellulaire matrixsignalering en peptide-gestuurde communicatiemechanismen beter te begrijpen.",
+      "Tripeptide-29 is een kortketenig synthetisch peptide dat wordt bestudeerd vanwege zijn mogelijke interactie met collageen-gerelateerde signaleringsroutes en dermale cellulaire communicatiemodellen."
+    ],
+
+    mechanismTitle: "Mechanistische onderzoekseigenschappen",
+    mechanismPoints: [
+      "Interactie met extracellulaire matrixsignaleringsroutes",
+      "Deelname aan collageen-geassocieerde peptidecommunicatiemodellen",
+      "Ondersteuning van dermaal cellulair signaleringsonderzoek",
+      "Invloed op peptide-gemedieerde matrixcommunicatienetwerken",
+      "Onderzoek naar structuur-functierelaties in collageen-gerelateerde peptidesystemen"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar extracellulaire matrixsignalering",
+        text: "Gebruikt in laboratoriumstudies die peptide-gemedieerde communicatie binnen extracellulaire matrixsignaleringssystemen onderzoeken."
+      },
+      {
+        title: "Onderzoek naar collageeninteractie",
+        text: "Ondersteunt onderzoek naar peptide-collageen interactiemechanismen."
+      },
+      {
+        title: "Studies naar dermale communicatie",
+        text: "Toegepast in experimentele systemen die peptide-signaleringsgedrag binnen huidgerelateerde onderzoeksmodellen bestuderen."
+      },
+      {
+        title: "Cosmetisch peptideonderzoek",
+        text: "Gebruikt in laboratoriumonderzoeksprogramma’s gericht op synthetische peptiden in dermale signaleringsonderzoeken."
+      },
+      {
+        title: "Structuur-functie peptideonderzoek",
+        text: "Stelt onderzoekers in staat om structurele relaties tussen korte peptiden en extracellulair matrixsignaleringsgedrag te onderzoeken."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Peptideklasse: Synthetisch tripeptide",
+      "Structuur: Kortketenig peptidefragment",
+      "Onderzoeksgebied: Extracellulaire matrix en dermale signalering",
+      "Vorm: Topische onderzoekspeptidevoorbereiding"
+    ],
+
+    stabilityTitle: "Stabiliteits- en opslagprofiel",
+    stabilityPoints: [
+      "Aanbevolen opslag bij 2–8°C",
+      "Gevoelig voor langdurige blootstelling aan licht",
+      "Beschermen tegen vocht en omgevingscontaminatie",
+      "Herhaalde temperatuurschommelingen vermijden",
+      "Bewaren in afgesloten laboratoriumcontainers"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en formulatiekenmerken",
+    solubilityPoints: [
+      "Geleverd als topische onderzoeksvoorbereiding",
+      "Compatibel met dermale experimentele formuleringen",
+      "Kan worden bestudeerd in cosmetische onderzoeksoplosmiddelsystemen",
+      "Geformuleerd voor topisch laboratoriumonderzoek"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "Tripeptide-29 (Collageenpeptide) 200mg – Topisch",
+      cas: "Unknown",
+      purity: "Onderzoekskwaliteit",
+      unitSize: "200 mg",
+      form: "Topische onderzoeksformulering",
+      synthesis: "Synthetische peptideproductie",
+      analytical: "Kwaliteitsgecontroleerde laboratoriumvoorbereiding"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitscontrole",
+    validationPoints: [
+      "Verificatie van peptide-identiteit",
+      "Laboratoriumzuiverheidstesten",
+      "Evaluatie van formulatiestabiliteit",
+      "Validatie van batchconsistentie",
+      "Normen voor onderzoeksgrade voorbereiding"
+    ],
+
+    regulatoryTitle: "Regelgevende en compliance-informatie",
+    regulatoryText:
+      "Tripeptide-29 (Collageenpeptide) 200mg topische formulering wordt strikt geleverd voor laboratoriumonderzoek en wetenschappelijk onderzoek. Dit product is niet goedgekeurd als geneesmiddel, cosmetisch ingrediënt voor commercieel gebruik, voedingssupplement of medisch product. Het is uitsluitend bedoeld voor gecontroleerde wetenschappelijke experimenten en analytisch onderzoek.",
+
+    whyTitle: "Waarom kopen bij Bio-Peptides?",
+    whyText:
+      "Bio-Peptides levert peptideproducten van onderzoekskwaliteit die zijn ontworpen voor wetenschappelijk onderzoek binnen academische laboratoria, biotechnologische instellingen en cosmetische peptideonderzoeksprogramma’s. Het bedrijf legt nadruk op analytische consistentie, betrouwbare toeleveringsketens en transparante productspecificaties.",
+
+    faqTitle: "Veelgestelde vragen",
+    faqItems: [
+      {
+        q: "Waarvoor wordt Tripeptide-29 gebruikt in onderzoek?",
+        a: "Tripeptide-29 wordt gebruikt in laboratoriumonderzoek naar extracellulaire matrixsignaleringsroutes en collageen-gerelateerde peptidecommunicatiemodellen."
+      },
+      {
+        q: "Wat voor type peptide is Tripeptide-29?",
+        a: "Tripeptide-29 is een kort synthetisch tripeptide dat vaak wordt bestudeerd in dermale en extracellulaire matrixsignaleringsonderzoeken."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken Tripeptide-29 vaak?",
+        a: "Het wordt vaak bestudeerd in cosmetisch peptideonderzoek, extracellulaire matrixbiologie en onderzoeken naar dermale cellulaire signalering."
+      },
+      {
+        q: "Hoe moet Tripeptide-29 worden bewaard?",
+        a: "Het moet worden bewaard bij 2–8°C en beschermd worden tegen licht en vocht."
+      },
+      {
+        q: "Is Tripeptide-29 goedgekeurd voor menselijk gebruik?",
+        a: "Nee. Dit product wordt strikt geleverd voor laboratoriumonderzoek."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C12H19N3O5",
+      molecularWeight: "285.3",
+      monoisotopicMass: "285.13247072",
+      polarArea: "124",
+      complexity: "427",
+      xlogP: "-4.3",
+      heavyAtomCount: "20",
+      hydrogenBondDonorCount: "3",
+      hydrogenBondAcceptorCount: "6",
+      rotatableBondCount: "3",
+      cid: "11778669",
+      inchi: "	InChI=1S/C12H19N3O5/c13-5-10(17)14-3-1-2-8(14)11(18)15-6-7(16)4-9(15)12(19)20/h7-9,16H,1-6,13H2,(H,19,20)/t7-,8+,9+/m1/s1",
+      inchiKey: "SZEOBSAZWJLOGY-VGMNWLOBSA-N",
+      canonicalSmiles: "C1C[C@H](N(C1)C(=O)CN)C(=O)N2C[C@@H](C[C@H]2C(=O)O)O",
+      isomericSmiles: "C1C[C@H](N(C1)C(=O)CN)C(=O)N2C[C@@H](C[C@H]2C(=O)O)O",
+      iupacName: "(2S,4R)-1-[(2S)-1-(2-aminoacetyl)pyrrolidine-2-carbonyl]-4-hydroxypyrrolidine-2-carboxylic acid"
+    }
+
+  }
+},
+"triptorelin-gnrh-2mg": {
+  name: "Triptorelin (GnRH) 2mg",
+  tagline: "Onderzoeksoverzicht en technisch profiel",
+  cas: "57773-63-4",
+
+  strength: [
+    "Triptoreline (GnRH) 2mg is een synthetische gonadotropine-releasing-hormoon-analoog die wordt geleverd voor geavanceerd laboratoriumonderzoek naar hypothalamus-hypofyse-gonadale as-signalering, neuro-endocriene communicatieroutes en peptide-gemedieerde endocriene regulatiemechanismen."
+  ],
+
+  topDescription: {
+    p0: "Triptoreline is een synthetische analoog van gonadotropine-releasing hormone (GnRH) die in laboratoriumomgevingen wordt bestudeerd vanwege zijn interactie met hypothalamus-hypofyse-signaleringsroutes.",
+    p1: "In gecontroleerde onderzoeksomgevingen wordt Triptoreline onderzocht voor peptide-receptor communicatiemodellen en endocriene feedbackregulatie binnen neuro-endocriene experimentele systemen.",
+    p2: "Geleverd als een hoogzuiver gevriesdroogd peptide, is Triptoreline strikt bedoeld voor laboratoriumonderzoek en analytisch wetenschappelijk onderzoek."
+  },
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "Synthetische GnRH-analoogpeptiden worden veel gebruikt in moleculair en endocrien onderzoek om regulerende signaleringsroutes te onderzoeken die verband houden met de hypothalamus-hypofyse-gonadale as.",
+      "Triptoreline wordt in laboratoriumonderzoek onderzocht voor peptide-gemedieerde communicatie tussen hypothalamische en hypofysaire signaleringsnetwerken en endocriene regulatiemodellen.",
+      "Deze peptide-analoog wordt vaak opgenomen in neuro-endocriene en reproductieve hormoononderzoeksprogramma’s die gericht zijn op receptorsignalering en endocriene feedbacksystemen."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Gonadotropine-releasing hormone (GnRH) is een belangrijk regulerend peptide dat betrokken is bij endocriene signalering tussen de hypothalamus en de hypofyse.",
+      "Triptoreline is een synthetische GnRH-analoog die wordt bestudeerd vanwege zijn receptorbindingsgedrag en regulerende invloed op signaleringsmodellen die verband houden met reproductieve hormooncommunicatie."
+    ],
+
+    mechanismTitle: "Mechanistische onderzoekseigenschappen",
+    mechanismPoints: [
+      "Interactie met GnRH-receptoren in neuro-endocriene signaleringsmodellen",
+      "Deelname aan onderzoeken naar hypothalamus-hypofyse-signaleringscommunicatie",
+      "Invloed op peptide-gemedieerde endocriene regulatieroutes",
+      "Ondersteuning van onderzoek naar reproductieve hormoonsignalering",
+      "Onderzoek naar feedbacksignaleringsmechanismen in neuro-endocriene onderzoekssystemen"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar de hypothalamus-hypofyse-gonadale as",
+        text: "Gebruikt in laboratoriumstudies die regulerende signaleringsroutes binnen neuro-endocriene systemen onderzoeken."
+      },
+      {
+        title: "Studies naar neuro-endocriene signalering",
+        text: "Ondersteunt experimenteel onderzoek gericht op endocriene communicatiemechanismen."
+      },
+      {
+        title: "Onderzoek naar peptide-receptorinteracties",
+        text: "Toegepast in gecontroleerde modellen die het bindingsgedrag van GnRH-receptoren bestuderen."
+      },
+      {
+        title: "Modellen voor endocriene feedbackmechanismen",
+        text: "Gebruikt in onderzoek naar regulerende feedbacklussen binnen hormonale signalering."
+      },
+      {
+        title: "Onderzoek naar reproductieve hormoonsignalering",
+        text: "Stelt onderzoekers in staat peptide-gemedieerde communicatie binnen reproductieve endocriene systemen te verkennen."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Peptideklasse: Synthetische GnRH-analoog",
+      "Structuur: Gemodificeerde decapeptide-analoog",
+      "Onderzoeksgebied: Neuro-endocriene en reproductieve hormoonsignalering",
+      "Vorm: Gevriesdroogd onderzoekspeptide"
+    ],
+
+    stabilityTitle: "Stabiliteits- en opslagprofiel",
+    stabilityPoints: [
+      "Stabiel wanneer gevriesdroogd bewaard bij −20°C",
+      "Gevoelig voor vocht en langdurige blootstelling aan licht",
+      "Beschermen tegen omgevingscontaminatie",
+      "Gereconstitueerde oplossingen moeten gekoeld worden bewaard",
+      "Herhaalde vries-dooicycli vermijden"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en reconstitutie-opties",
+    solubilityPoints: [
+      "Bacteriostatisch water",
+      "Steriele zoutoplossingen",
+      "Gebufferde laboratoriumoplosmiddelsystemen",
+      "Analytische oplosmiddelen gebruikt in peptideonderzoek"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "Triptoreline (GnRH) 2mg",
+      cas: "57773-63-4",
+      purity: "≥98–99% (HPLC-geverifieerd)",
+      unitSize: "2 mg",
+      form: "Gevriesdroogd poeder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, massaspectrometrie"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitscontrole",
+    validationPoints: [
+      "HPLC-zuiverheidsverificatie",
+      "Massaspectrometrische bevestiging van identiteit",
+      "Testen van structurele peptide-integriteit",
+      "Validatie van batchconsistentie",
+      "Laboratoriumkwaliteitscontrole-screening"
+    ],
+
+    regulatoryTitle: "Regelgevende en compliance-informatie",
+    regulatoryText:
+      "Triptoreline (GnRH) 2mg wordt strikt geleverd voor laboratoriumonderzoek en wetenschappelijk onderzoek. Het is niet goedgekeurd als farmaceutisch product, voedingssupplement, cosmetisch ingrediënt of medisch product. Het peptide is uitsluitend bedoeld voor gecontroleerde laboratoriumexperimenten.",
+
+    whyTitle: "Waarom kopen bij Bio-Peptides?",
+    whyText:
+      "Bio-Peptides levert onderzoeksgrade peptiden aan laboratoria wereldwijd, met focus op analytische kwaliteit, batchconsistentie en betrouwbare wetenschappelijke toeleveringsketens die zijn ontworpen voor geavanceerde peptideonderzoeksomgevingen.",
+
+    faqTitle: "Veelgestelde vragen",
+    faqItems: [
+      {
+        q: "Waarvoor wordt Triptoreline gebruikt in onderzoek?",
+        a: "Triptoreline wordt gebruikt in laboratoriumonderzoek naar signalering binnen de hypothalamus-hypofyse-gonadale as en neuro-endocriene regulatieroutes."
+      },
+      {
+        q: "Wat voor type peptide is Triptoreline?",
+        a: "Triptoreline is een synthetische analoog van gonadotropine-releasing hormone (GnRH)."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken Triptoreline vaak?",
+        a: "Het wordt vaak bestudeerd in endocrinologie, neuro-endocrien signaleringsonderzoek, reproductieve hormoonstudies en onderzoeken naar peptide-receptorinteracties."
+      },
+      {
+        q: "Hoe moet Triptoreline worden bewaard?",
+        a: "Het moet worden bewaard bij −20°C en beschermd worden tegen vocht en licht."
+      },
+      {
+        q: "Is Triptoreline goedgekeurd voor menselijk gebruik?",
+        a: "Nee. Dit product wordt strikt geleverd voor laboratoriumonderzoek."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C64H82N18O13",
+      molecularWeight: "1311.4",
+      monoisotopicMass: "1310.63087474",
+      polarArea: "4900",
+      complexity: "12710",
+      xlogP: "-0.3",
+      heavyAtomCount: "95",
+      hydrogenBondDonorCount: "17",
+      hydrogenBondAcceptorCount: "15",
+      rotatableBondCount: "33",
+      cid: "25074470",
+      inchi: "InChI=1S/C64H82N18O13/c1-34(2)23-46(56(88)75-45(13-7-21-69-64(66)67)63(95)82-22-8-14-52(82)62(94)72-31-53(65)85)76-58(90)48(25-36-28-70-42-11-5-3-9-40(36)42)78-57(89)47(24-35-15-17-39(84)18-16-35)77-61(93)51(32-83)81-59(91)49(26-37-29-71-43-12-6-4-10-41(37)43)79-60(92)50(27-38-30-68-33-73-38)80-55(87)44-19-20-54(86)74-44/h3-6,9-12,15-18,28-30,33-34,44-52,70-71,83-84H,7-8,13-14,19-27,31-32H2,1-2H3,(H2,65,85)(H,68,73)(H,72,94)(H,74,86)(H,75,88)(H,76,90)(H,77,93)(H,78,89)(H,79,92)(H,80,87)(H,81,91)(H4,66,67,69)/t44-,45-,46-,47-,48+,49-,50-,51-,52-/m0/s1",
+      inchiKey: "	VXKHXGOKWPXYNA-PGBVPBMZSA-N",
+      canonicalSmiles: "	CC(C)CC(C(=O)NC(CCCN=C(N)N)C(=O)N1CCCC1C(=O)NCC(=O)N)NC(=O)C(CC2=CNC3=CC=CC=C32)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(CO)NC(=O)C(CC5=CNC6=CC=CC=C65)NC(=O)C(CC7=CN=CN7)NC(=O)C8CCC(=O)N8",
+      isomericSmiles: "CC(C)C[C@@H](C(=O)N[C@@H](CCCN=C(N)N)C(=O)N1CCC[C@H]1C(=O)NCC(=O)N)NC(=O)[C@@H](CC2=CNC3=CC=CC=C32)NC(=O)[C@H](CC4=CC=C(C=C4)O)NC(=O)[C@H](CO)NC(=O)[C@H](CC5=CNC6=CC=CC=C65)NC(=O)[C@H](CC7=CN=CN7)NC(=O)[C@@H]8CCC(=O)N8",
+      iupacName: "(2S)-N-[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2R)-1-[[(2S)-1-[[(2S)-1-[(2S)-2-[(2-amino-2-oxoethyl)carbamoyl]pyrrolidin-1-yl]-5-(diaminomethylideneamino)-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]amino]-3-(1H-imidazol-5-yl)-1-oxopropan-2-yl]-5-oxopyrrolidine-2-carboxamide"
+    }
+
+  }
+},
+
+
+
+
+"vip-6mg": {
+  name: "VIP (Vasoactive Intestinal Peptide) 6mg",
+  tagline: "Onderzoeksoverzicht en technisch profiel",
+  cas: "37221-79-7",
+
+  strength: [
+    "VIP 6mg (Vasoactief Intestinaal Peptide) van Bio-Peptides is een hoogzuiver neuropeptide van onderzoekskwaliteit dat wordt geleverd voor geavanceerde laboratoriumonderzoeken naar vasculaire signalering, neuro-immuuncommunicatie en regulatoire routes van glad spierweefsel. Geïdentificeerd met CAS 37221-79-7 wordt VIP uitgebreid bestudeerd vanwege zijn rol in peptide-gemedieerde cellulaire signalering, vasodilatatiemechanismen en immuuncommunicatienetwerken. Het 6mg onderzoeksformaat is geschikt voor gerichte in-vitro en preklinische onderzoeksexperimenten binnen neurobiologie, vasculaire biologie en peptide-signaleringsmodellen."
+  ],
+
+  topDescription: {
+    p0: "VIP (Vasoactief Intestinaal Peptide) 6mg (CAS 37221-79-7) is een synthetisch neuropeptide dat wordt geleverd voor laboratoriumonderzoek gericht op neuropeptide-signaleringsroutes, vasculaire communicatie en interacties met het immuunsysteem.",
+    p1: "Dit onderzoekspeptide wordt geproduceerd met gecontroleerde peptidesynthesemethoden en geleverd als een hoogzuiver gelyofiliseerd poeder dat geschikt is voor in-vitro en preklinische experimentele studies.",
+    p2: "VIP wordt uitgebreid onderzocht in neurobiologie, vasculaire biologie en immunologisch signaleringsonderzoek vanwege zijn vermogen om communicatie tussen neuronale, vasculaire en immuunsystemen te mediëren."
+  },
+
+  content: {
+
+    overviewTitle: "Onderzoeksoverzicht",
+    overview: [
+      "VIP (Vasoactief Intestinaal Peptide) is een natuurlijk voorkomend neuropeptide van 28 aminozuren dat betrokken is bij communicatie tussen het zenuwstelsel, immuunsysteem en vasculaire systeem. In laboratoriumonderzoeksomgevingen stelt synthetisch VIP wetenschappers in staat complexe peptide-gemedieerde signaleringsnetwerken onder gecontroleerde omstandigheden te onderzoeken.",
+      "Het synthetische VIP 6mg onderzoeksformaat, geleverd door Bio-Peptides, wordt gebruikt in studies naar neuropeptide-signalering, receptoractivatiemechanismen en regulatoire routes van glad spierweefsel. De goed gekarakteriseerde biologische activiteit van het peptide maakt het een waardevolle modelverbinding voor het begrijpen van peptide-gedreven cellulaire communicatie.",
+      "VIP-onderzoekspeptiden worden vaak gebruikt in neurobiologie, vasculaire biologie, immunologie en moleculaire signaleringsstudies waarbij peptide-gemedieerde communicatie een centrale rol speelt in experimentele modellen."
+    ],
+
+    scientificBackgroundTitle: "Wetenschappelijke achtergrond",
+    scientificBackground: [
+      "Vasoactief Intestinaal Peptide (VIP) is een multifunctioneel neuropeptide dat van nature wordt geproduceerd in het zenuwstelsel, het maag-darmkanaal en perifere weefsels. Geïdentificeerd met CAS 37221-79-7 speelt VIP een rol in vasodilatatiesignalering, ontspanning van glad spierweefsel en neuro-immuuncommunicatie.",
+      "In laboratoriumonderzoek wordt synthetisch VIP gebruikt om interacties tussen neuronale signaleringsnetwerken, regulatie van vasculair weefsel en communicatieroutes van immuuncellen te onderzoeken. Door zijn brede biologische relevantie wordt VIP beschouwd als een belangrijk peptide voor het bestuderen van complexe signaalinteracties in meerdere biologische systemen."
+    ],
+
+    mechanismTitle: "Mechanistische onderzoekseigenschappen",
+    mechanismPoints: [
+      "In laboratoriumonderzoeksomgevingen wordt VIP onderzocht vanwege zijn invloed op verschillende biologische signaleringsmechanismen.",
+      "Activatie van VIP-receptoren die betrokken zijn bij neuropeptide-signaleringsroutes",
+      "Regulatie van vasculaire tonus en vasodilatatiesignalering",
+      "Interactie met communicatienetwerken van immuuncellen",
+      "Invloed op ontspanningsroutes van glad spierweefsel",
+      "Deelname aan neuro-immuun en neurovasculaire signaleringsinteractie"
+    ],
+
+    applicationsTitle: "Primaire onderzoekstoepassingen",
+    applications: [
+      {
+        title: "Onderzoek naar vasculaire signalering",
+        text: "Gebruikt in laboratoriummodellen om vasodilatieroutes en endotheliale communicatiemechanismen te onderzoeken die betrokken zijn bij vasculaire regulatie."
+      },
+      {
+        title: "Studies naar neuro-immuuninteracties",
+        text: "Toegepast in studies naar communicatie tussen neuronale signaalmoleculen en reacties van immuuncellen."
+      },
+      {
+        title: "Modellen voor regulatie van glad spierweefsel",
+        text: "Gebruikt in experimenten die peptide-gemedieerde ontspanning van glad spierweefsel en regulatoire signaleringsmechanismen onderzoeken."
+      },
+      {
+        title: "Onderzoek naar neuropeptidereceptoren",
+        text: "Ondersteunt onderzoek naar VIP-receptoractivatie, ligandbindingsgedrag en downstream cellulaire signaalreacties."
+      },
+      {
+        title: "Vergelijkende neuropeptidestudies",
+        text: "Gebruikt om signaleringsmechanismen van VIP te vergelijken met verwante neuropeptiden zoals PACAP en neurotensine."
+      }
+    ],
+
+    molecularTitle: "Moleculaire kenmerken",
+    molecularPoints: [
+      "Peptideklasse: Neuropeptide",
+      "Peptidelengte: 28 aminozuren",
+      "Structuur: Lineaire peptideketen",
+      "Moleculair gedrag: Actief in receptor-gemedieerde signaleringsmodellen"
+    ],
+
+    stabilityTitle: "Stabiliteits- en opslagprofiel",
+    stabilityPoints: [
+      "Stabiel wanneer gelyofiliseerd bewaard bij −20°C",
+      "Gevoelig voor vocht en langdurige blootstelling aan licht",
+      "Peptidestabiliteit neemt af bij verhoogde temperaturen",
+      "Gereconstitueerde oplossingen moeten gekoeld worden bewaard",
+      "Herhaalde vries-dooicycli vermijden om de peptide-integriteit te behouden"
+    ],
+
+    solubilityTitle: "Oplosbaarheid en reconstitutieopties",
+    solubilityPoints: [
+      "Bacteriostatisch water",
+      "Steriele zoutoplossingen",
+      "Milde buffersystemen die compatibel zijn met peptide-assays",
+      "Analytische oplosmiddelen die worden gebruikt in laboratoriumonderzoek naar peptiden"
+    ],
+
+    techSpecsTitle: "Technische specificaties",
+    techSpecs: {
+      productName: "VIP (Vasoactief Intestinaal Peptide) 6mg",
+      cas: "37221-79-7",
+      purity: "≥98–99% (HPLC-geverifieerd)",
+      unitSize: "6 mg",
+      form: "Gelyofiliseerd poeder",
+      synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
+      analytical: "HPLC, massaspectrometrie"
+    },
+
+    validationTitle: "Analytische validatie en kwaliteitscontrole",
+    validationPoints: [
+      "Zuiverheidsverificatie via High-Performance Liquid Chromatography (HPLC)",
+      "Moleculaire identiteitsbevestiging via massaspectrometrie",
+      "Analyse van structurele peptide-integriteit",
+      "Evaluatie van batch-tot-batch consistentie",
+      "Kwaliteitscontrolescreening op contaminatie"
+    ],
+
+    regulatoryTitle: "Regelgevende en compliance-informatie",
+    regulatoryText:
+      "VIP 6mg wordt strikt geleverd voor laboratoriumonderzoeksdoeleinden. Het is niet goedgekeurd als farmaceutisch product, voedingssupplement, cosmetisch ingrediënt of medische behandeling. Het peptide is uitsluitend bedoeld voor gecontroleerde wetenschappelijke onderzoeken en in-vitro laboratoriumstudies. Elke vorm van toediening aan mensen of dieren is strikt verboden. Onderzoekers moeten voldoen aan toepasselijke regelgeving in Europa, de Verenigde Staten en hun institutionele onderzoeksbeleid.",
+
+    whyTitle: "Waarom kopen bij Bio-Peptides?",
+    whyText:
+      "Bio-Peptides is een vertrouwde leverancier van onderzoekspeptiden voor laboratoria en onderzoeksinstellingen in Europa en de Verenigde Staten. Het bedrijf levert hoogzuivere peptiden met geverifieerde CAS-documentatie, strikte research-only compliance en consistente analytische validatie. Onderzoekers die VIP 6mg betrekken van Bio-Peptides profiteren van betrouwbare levering, transparante specificaties en professionele laboratoriumverpakking die is ontworpen voor wetenschappelijke onderzoeksomgevingen.",
+
+    faqTitle: "Veelgestelde vragen",
+    faqItems: [
+      {
+        q: "Waarvoor wordt VIP gebruikt in onderzoek?",
+        a: "VIP wordt gebruikt in laboratoriumonderzoek naar neuropeptide-signaleringsroutes, vasculaire regulatie, communicatie van immuuncellen en signaleringsmechanismen van glad spierweefsel."
+      },
+      {
+        q: "Wat identificeert CAS 37221-79-7?",
+        a: "CAS 37221-79-7 identificeert Vasoactief Intestinaal Peptide (VIP) uniek en zorgt voor nauwkeurige compoundidentificatie in onderzoekslaboratoria."
+      },
+      {
+        q: "Is VIP een hormoon?",
+        a: "VIP wordt geclassificeerd als een neuropeptide in plaats van een klassiek hormoon en functioneert als signaalmolecuul binnen neurale en vasculaire communicatiesystemen."
+      },
+      {
+        q: "Welke onderzoeksgebieden gebruiken VIP vaak?",
+        a: "VIP wordt uitgebreid bestudeerd in neurobiologie, vasculaire biologie, immunologie, moleculaire biologie en peptide-signaleringsonderzoek."
+      },
+      {
+        q: "Is VIP geschikt voor in-vitro onderzoek?",
+        a: "Ja. VIP wordt vaak gebruikt in in-vitro en ex-vivo experimentele modellen om receptorsignalering, neuropeptidecommunicatie en vasculaire signaalroutes te onderzoeken."
+      },
+      {
+        q: "Waarom kiezen voor de 6mg onderzoekshoeveelheid?",
+        a: "Het 6mg onderzoeksformaat is geschikt voor pilotstudies, gerichte experimenten en vergelijkend peptideonderzoek waarvoor gecontroleerde hoeveelheden nodig zijn."
+      },
+      {
+        q: "Hoe moet VIP worden bewaard?",
+        a: "VIP moet in gelyofiliseerde vorm bij −20°C worden bewaard, beschermd tegen vocht en licht, en behandeld worden met steriele laboratoriumtechnieken."
+      },
+      {
+        q: "Waarom kiezen voor Bio-Peptides voor VIP-onderzoekspeptiden?",
+        a: "Bio-Peptides levert peptiden van onderzoekskwaliteit met geverifieerde CAS-documentatie, betrouwbare internationale verzending en strikte naleving van research-only standaarden."
+      }
+    ],
+
+     chemicalProperties: {
+  molecularFormula: "C147H237N43O43S",
+  molecularWeight: "3326.8",
+  monoisotopicMass: "3324.7401145",
+  polarArea: "1470",
+  complexity: "7580",
+  xlogP: "-15.9",
+  heavyAtomCount: "234",
+  hydrogenBondDonorCount: "51",
+  hydrogenBondAcceptorCount: "51",
+  rotatableBondCount: "115",
+  cid: "	  53314964",
+  inchi:
+    "CJC-1295 Acetate: InChI=1S/C152H252N44O42/c1-22-79(15)118(194-125(214)84(20)171-135(224)107(68-115(206)207)181-124(213)81(17)169-126(215)91(155)65-87-41-45-89(201)46-42-87)147(236)189-106(66-86-34-25-24-26-35-86)141(230)196-120(85(21)200)149(238)180-99(51-54-114(158)205)132(221)190-111(72-199)145(234)185-105(67-88-43-47-90(202)48-44-88)140(229)178-96(40-33-59-168-152(164)165)128(217)177-94(37-28-30-56-154)133(222)193-117(78(13)14)146(235)187-100(60-73(3)4)134(223)170-82(18)123(212)175-97(49-52-112(156)203)130(219)183-103(63-76(9)10)138(227)191-109(70-197)143(232)172-83(19)122(211)174-95(39-32-58-167-151(162)163)127(216)176-93(36-27-29-55-153)129(218)182-102(62-75(7)8)137(226)184-101(61-74(5)6)136(225)179-98(50-53-113(157)204)131(220)186-108(69-116(208)209)142(231)195-119(80(16)23-2)148(237)188-104(64-77(11)12)139(228)192-110(71-198)144(233)173-92(121(159)210)38-31-57-166-150(160)161/h24-26,34-35,41-48,73-85,91-111,117-120,197-202H,22-23,27-33,36-40,49-72,153-155H2,1-21H3,(H2,156,203)(H2,157,204)(H2,158,205)(H2,159,210)(H,169,215)(H,170,223)(H,171,224)(H,172,232)(H,173,233)(H,174,211)(H,175,212)(H,176,216)(H,177,217)(H,178,229)(H,179,225)(H,180,238)(H,181,213)(H,182,218)(H,183,219)(H,184,226)(H,185,234)(H,186,220)(H,187,235)(H,188,237)(H,189,236)(H,190,221)(H,191,227)(H,192,228)(H,193,222)(H,194,214)(H,195,231)(H,196,230)(H,206,207)(H,208,209)(H4,160,161,166)(H4,162,163,167)(H4,164,165,168)/t79-,80-,81+,82-,83-,84-,85+,91-,92-,93-,94-,95-,96-,97-,98-,99-,100-,101-,102-,103-,104-,105-,106-,107-,108-,109-,110-,111-,117-,118-,119-,120-/m0/s1 Examorelin: InChI=1S/C47H58N12O6/c1-27-34(33-15-7-9-17-37(33)54-27)23-41(58-44(62)35(49)22-31-25-51-26-53-31)45(63)55-28(2)43(61)57-40(21-30-24-52-36-16-8-6-14-32(30)36)47(65)59-39(20-29-12-4-3-5-13-29)46(64)56-38(42(50)60)18-10-11-19-48/h3-9,12-17,24-26,28,35,38-41,52,54H,10-11,18-23,48-49H2,1-2H3,(H2,50,60)(H,51,53)(H,55,63)(H,56,64)(H,57,61)(H,58,62)(H,59,65)/t28-,35-,38-,39+,40-,41+/m0/s1",
+  inchiKey: "VBUWHHLIZKOSMS-RIWXPGAOSA-N",
+
+  canonicalSmiles:
+    "CCC(C)C(C(=O)NC(CC(C)C)C(=O)NC(CC(=O)N)C(=O)O)NC(=O)C(CO)NC(=O)C(CC(=O)N)NC(=O)C(CC(C)C)NC(=O)C(CC1=CC=C(C=C1)O)NC(=O)C(CCCCN)NC(=O)C(CCCCN)NC(=O)C(C(C)C)NC(=O)C(C)NC(=O)C(CCSC)NC(=O)C(CCC(=O)N)NC(=O)C(CCCCN)NC(=O)C(CCCNC(=N)N)NC(=O)C(CC(C)C)NC(=O)C(CCCNC(=N)N)NC(=O)C(C(C)O)NC(=O)C(CC2=CC=C(C=C2)O)NC(=O)C(CC(=O)N)NC(=O)C(CC(=O)O)NC(=O)C(C(C)O)NC(=O)C(CC3=CC=CC=C3)NC(=O)C(C(C)C)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(CC4=CNC=N4)N",
+
+  isomericSmiles:
+    "	CC[C@H](C)[C@@H](C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(=O)N)C(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](CC(=O)N)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC1=CC=C(C=C1)O)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCCCN)NC(=O)[C@H](C(C)C)NC(=O)[C@H](C)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H](CC2=CC=C(C=C2)O)NC(=O)[C@H](CC(=O)N)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H](CC3=CC=CC=C3)NC(=O)[C@H](C(C)C)NC(=O)[C@H](C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](CC4=CNC=N4)N",
+
+  iupacName:
+  " (2S)-4-amino-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-4-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S)-4-amino-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-amino-3-(1H-imidazol-4-yl)propanoyl]amino]-3-hydroxypropanoyl]amino]-3-carboxypropanoyl]amino]propanoyl]amino]-3-methylbutanoyl]amino]-3-phenylpropanoyl]amino]-3-hydroxybutanoyl]amino]-3-carboxypropanoyl]amino]-4-oxobutanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-3-hydroxybutanoyl]amino]-5-carbamimidamidopentanoyl]amino]-4-methylpentanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-5-oxopentanoyl]amino]-4-methylsulfanylbutanoyl]amino]propanoyl]amino]-3-methylbutanoyl]amino]hexanoyl]amino]hexanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-4-methylpentanoyl]amino]-4-oxobutanoyl]amino]-3-hydroxypropanoyl]amino]-3-methylpentanoyl]amino]-4-methylpentanoyl]amino]-4-oxobutanoic acid"
+
+
+}
+  }
+},
 "mod-grf-ghrp-2-10mg-blend": {
   name: "MOD-GRF (1-29) + GHRP-2 Blend 10mg",
 
@@ -13314,175 +18583,7 @@ export default {
     "storage": "Bewaren bij −20°C. Herhaalde vries-dooicycli vermijden.",
     "researchStatus": "Alleen voor laboratoriumonderzoek. Niet voor menselijk of diergeneeskundig gebruik."
   },
-   "mots-c-5mg": {
-    name: "MOTS-c 5mg",
-    tagline: "Mitochondriaal afgeleid peptide voor onderzoek naar cellulair metabolisme en stressrespons",
-   cas: "1627580-64-6",
-    strength: [
-      "MOTS-c 5mg van BioPeptides is een hoogzuiver onderzoeks-grade mitochondriaal afgeleid peptide ontwikkeld voor gevorderd laboratoriumonderzoek naar cellulair metabolisme, mitochondriale signalering en adaptieve stress-responsroutes. Gesynthetiseerd met behulp van precisie vaste-fase peptidesynthese en gezuiverd tot ≥99% HPLC, biedt MOTS-c uitstekende moleculaire stabiliteit en reproduceerbaarheid. Geïdentificeerd door CAS 1627580-64-6, wordt dit peptide veelvuldig gebruikt in gecontroleerd in-vitro onderzoek in Europa en de Verenigde Staten."
-    ],
-    "topDescription": {
-      p0: "MOTS-c is een mitochondriaal afgeleid peptide dat veel wordt bestudeerd in onderzoek naar cellulair metabolisme en mitochondriale communicatie.",
-     p1: "In laboratoriumomgevingen wordt dit peptide onderzocht op zijn rol in metabole signalering, mitochondria-nucleus communicatie en adaptieve stress-responsroutes.",
-      p2: "Omdat MOTS-c afkomstig is van mitochondriaal DNA, biedt het onderzoekers een uniek model voor het bestuderen van mitochondriale signalering en metabole regulatie."
-    },
-    "components": [
-      "MOTS-c — mitochondriaal afgeleid signaleringspeptide",
-      "Hoogzuiver gevriesdroogd onderzoekspeptide",
-      "Laboratoriumonderzoekspeptide formaat",
-      "Totale hoeveelheid — 5 mg peptide"
-    ],
-    content: {
-      overviewTitle: "Onderzoeksoverzicht",
-      overview: [
-        "MOTS-c is een mitochondriaal gecodeerd peptide dat wordt gebruikt in laboratoriumonderzoek naar metabole regulatie en mitochondriale signaalroutes.",
-        "Onderzoekers bestuderen MOTS-c om te begrijpen hoe mitochondriale peptiden het cellulair metabolisme en adaptieve stressreacties beïnvloeden.",
-        "Het peptide biedt een model voor het onderzoeken van mitochondria-nucleus communicatiemechanismen.",
-        "MOTS-c onderzoek draagt bij aan bredere onderzoeken naar metabole signalering en mitochondriale biologie."
-      ],
-     scientificBackgroundTitle: "Wetenschappelijke achtergrond",
-     scientificBackground: [
-        "MOTS-c (Mitochondrial Open Reading Frame of the Twelve S rRNA-c) wordt gecodeerd in mitochondriaal DNA, niet in nucleair DNA.",
-        "Dit peptide behoort tot een klasse van moleculen bekend als mitochondriaal afgeleide peptiden (MDP's).",
-        "Onderzoekers bestuderen MOTS-c vanwege zijn rol in metabole regulatie, stress-responssignalering en mitochondriale communicatieroutes.",
-        "Zijn mitochondriale oorsprong maakt het bijzonder waardevol voor het onderzoeken van retrograde signalering tussen mitochondria en de nucleus."
-      ],
-      mechanismTitle: "Mechanistisch onderzoeksperspectief",
-      mechanismPoints: [
-        "Onderzoek naar mitochondria-nucleus signaalroute",
-        "Studies naar cellulair metabolisme en energiebalans signalering",
-        "Onderzoek naar adaptieve stress-responsroute",
-        "Analyse van mitochondriale peptide signalering",
-        "Onderzoek naar metabole signaalcascade"
-      ],
-      applicationsTitle: "Belangrijkste onderzoeksgebieden",
-     applications: [
-        {
-          title: "Onderzoek naar mitochondriale signalering",
-         text: "MOTS-c wordt gebruikt om communicatieroutes te onderzoeken waarmee mitochondria de nucleaire genexpressie reguleren."
-        },
-        {
-          title: "Studies naar cellulair metabolisme",
-         text: "Onderzoekers onderzoeken hoe MOTS-c de cellulaire energieregulatie en metabole signaalroutes beïnvloedt."
-        },
-        {
-          title: "Analyse van stress-responsroute",
-         text: "Het peptide ondersteunt laboratoriumstudies die cellulaire aanpassing aan metabole of omgevingsstress analyseren."
-        },
-        {
-          title: "Onderzoek naar mitochondriale biologie",
-         text: "Laboratoria nemen MOTS-c op in experimenten die mitochondriale peptiden en intracellulaire communicatie bestuderen."
-        },
-        {
-          title: "In-vitro cellulair onderzoek",
-         text: "Het peptide wordt veel gebruikt in gecontroleerde celgebaseerde onderzoeksmodellen die metabole signaalmechanismen onderzoeken."
-        }
-      ],
-      molecularTitle: "Moleculaire kenmerken",
-      molecularPoints: [
-        "Verbindingsnaam: MOTS-c",
-        "CAS-nummer: 1627580-64-6",
-        "Peptideklasse: Mitochondriaal afgeleid peptide (MDP)",
-        "Vorm: Gevriesdroogd peptidepoeder",
-        "Zuiverheid: ≥99% HPLC-geverifieerd",
-        "Eenheidsgrootte: 5 mg onderzoekspeptide"
-      ],
-      stabilityTitle: "Stabiliteitsprofiel en opslagaanbevelingen",
-      stabilityPoints: [
-        "Bewaar het gevriesdroogde peptide bij −20°C",
-        "Bescherm tegen vocht en blootstelling aan licht",
-        "Vermijd herhaalde vries-dooicycli",
-        "Reconstitueer met steriel laboratorium-grade oplosmiddel",
-        "Sluit de flacon goed af na elk gebruik"
-      ],
-      solubilityTitle: "Overwegingen voor oplosbaarheid en bereiding",
-      solubilityPoints: [
-        "Oplosbaar in steriel bacteriostatisch water",
-        "Compatibel met gebufferde waterige laboratoriumoplossingen",
-        "Geschikt voor peptide onderzoeksprotocollen",
-        "Toepasbaar in bereiding van mitochondriale signaalassays",
-        "Compatibel met celkweek experimentele modellen"
-      ],
-      techSpecsTitle: "Technische specificaties",
-      techSpecs: {
-        productName: "MOTS-c 5mg",
-        "brand": "BioPeptides",
-       cas: "1627580-64-6",
-        purity: "≥99% (HPLC-geverifieerd)",
-        form: "Gevriesdroogd peptidepoeder",
-        synthesis: "Vaste-fase peptidesynthese (SPPS)",
-        analytical: "HPLC- en massaspectrometrie-verificatie",
-        "molecularStructure": "Mitochondriaal afgeleid signaleringspeptide",
-        "stability": "Stabiel onder opslagcondities van −20°C"
-      },
-      validationTitle: "Analytische validatie en kwaliteitsborging",
-      validationPoints: [
-        "Zuiverheidstest met hoge-resolutie HPLC",
-        "Verificatie van peptide-identiteit",
-        "Analyse van structurele integriteit",
-        "Validatie van batch-to-batch consistentie",
-        "Stabiliteitstest van peptide"
-      ],
-     regulatoryTitle: "Regulerende en conformiteitsverklaring",
-      regulatoryText: "MOTS-c geleverd door BioPeptides is uitsluitend bestemd voor laboratoriumonderzoek. Het is niet goedgekeurd voor menselijke consumptie, diergeneeskundig gebruik, therapeutische toepassingen of medische behandelingen.",
-     faqTitle: "Veelgestelde vragen",
-      faqItems: [
-        {
-          q: "Waarvoor wordt MOTS-c voornamelijk gebruikt in onderzoek?",
-         a: "MOTS-c wordt vaak bestudeerd in laboratoriumonderzoek gericht op mitochondriale signalering, metabole regulatie en cellulaire stress-responsroutes."
-        },
-        {
-          q: "Waarom wordt MOTS-c als uniek beschouwd onder peptiden?",
-         a: "MOTS-c wordt gecodeerd in mitochondriaal DNA, niet in nucleair DNA, wat het waardevol maakt voor het bestuderen van mitochondria-nucleus communicatie."
-        },
-        {
-          q: "Wat identificeert CAS 1627580-64-6?",
-         a: "CAS 1627580-64-6 identificeert MOTS-c uniek, wat zorgt voor nauwkeurige verbindingsdocumentatie en reproduceerbaarheid in onderzoekslaboratoria."
-        },
-        {
-          q: "Is MOTS-c geschikt voor in-vitro onderzoek?",
-         a: "Ja. MOTS-c wordt veel gebruikt in gecontroleerde in-vitro studies naar mitochondriale functie en metabole signalering."
-        },
-        {
-          q: "Welke onderzoeksvelden gebruiken MOTS-c vaak?",
-         a: "MOTS-c wordt vaak gebruikt in mitochondriale biologie, metabolisch onderzoek, moleculaire biologie en peptide-signaleringsstudies."
-        },
-        {
-          q: "Welke voordelen biedt het 5mg onderzoeksformaat?",
-         a: "Het 5mg-formaat maakt meerdere experimentele runs mogelijk en verbetert de kostenefficiëntie voor uitgebreide laboratoriumonderzoeksprogramma's."
-        },
-        {
-          q: "Hoe moet MOTS-c worden bewaard?",
-         a: "Het peptide moet worden bewaard bij −20°C in gevriesdroogde vorm en beschermd tegen vocht en licht."
-        },
-        {
-          q: "Waarom kiezen voor BioPeptides voor MOTS-c onderzoekspeptiden?",
-         a: "BioPeptides levert hoogzuivere peptiden met geverifieerde CAS-documentatie en betrouwbare internationale levering voor onderzoekslaboratoria."
-        }
-      ],
-      chemicalProperties: {
-        molecularFormula: "C101H152N28O22S2",
-      molecularWeight: "2174.6",
-       monoisotopicMass: "2173.1077409",
-       polarArea: "890",
-       complexity: "4510",
-       xlogP: "-3.9",
-     heavyAtomCount: "153",
-       heavyAtomChydrogenBondDonorCountount: "31",
-        hydrogenBondAcceptorCount: "29",
-        rotatableBondCount: "73",
-        cid: "146675088",
-        inchi: "InChI=1S/C101H152N28O22S2/c1-7-57(4)83(96(148)126-76(50-58-19-9-8-10-20-58)92(144)127-78(52-60-30-34-63(131)35-31-60)97(149)129-46-18-27-79(129)95(147)122-69(25-16-44-112-100(107)108)86(138)118-67(23-13-14-42-102)87(139)124-74(49-56(2)3)91(143)123-73(98(150)151)26-17-45-113-101(109)110)128-94(146)75(51-59-28-32-62(130)33-29-59)116-81(133)55-115-85(137)72(41-48-153-6)121-90(142)71(37-39-82(134)135)119-89(141)70(36-38-80(104)132)120-93(145)77(53-61-54-114-66-22-12-11-21-64(61)66)125-88(140)68(24-15-43-111-99(105)106)117-84(136)65(103)40-47-152-5/h8-12,19-22,28-35,54,56-57,65,67-79,83,114,130-131H,7,13-18,23-27,36-53,55,102-103H2,1-6H3,(H2,104,132)(H,115,137)(H,116,133)(H,117,136)(H,118,138)(H,119,141)(H,120,145)(H,121,142)(H,122,147)(H,123,143)(H,124,139)(H,125,140)(H,126,148)(H,127,144)(H,128,146)(H,134,135)(H,150,151)(H4,105,106,111)(H4,107,108,112)(H4,109,110,113)/t57-,65-,67-,68-,69-,70-,71-,72-,73-,74-,75-,76-,77-,78-,79-,83-/m0/s1",
-       inchiKey: "WYTHCOXVWRKRAH-LOKRTKBUSA-N",
-        canonicalSmiles: "CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)N3CCCC3C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CCCNC(=N)N)C(=O)O)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)CNC(=O)C(CCSC)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)N)NC(=O)C(CC5=CNC6=CC=CC=C65)NC(=O)C(CCCNC(=N)N)NC(=O)C(CCSC)N",
-        isomericSmiles: "CC[C@H](C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N3CCC[C@H]3C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)O)NC(=O)[C@H](CC4=CC=C(C=C4)O)NC(=O)CNC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CC5=CNC6=CC=CC=C65)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CCSC)N",
-        iupacName: "(4S)-4-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-amino-4-methylsulfanylbutanoyl]amino]-5-carbamimidamidopentanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-5-oxopentanoyl]amino]-5-[[(2S)-1-[[2-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[(2S)-2-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(1S)-4-carbamimidamido-1-carboxybutyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-4-methylsulfanyl-1-oxobutan-2-yl]amino]-5-oxopentanoic acid"
-      }
-    },
-    "appearance": "Wit gevriesdroogd poeder",
-    "storage": "Bewaren bij −20°C. Herhaalde vries-dooicycli vermijden.",
-    "researchStatus": "Alleen voor laboratoriumonderzoek. Niet voor menselijk of diergeneeskundig gebruik."
-  },
+  
   
   "mod-grf-ipamorelin-10mg-blend": {
     name: "MOD-GRF (1-29) + Ipamorelin Blend 10mg",
@@ -13653,7 +18754,7 @@ export default {
     "storage": "Bewaren bij −20°C. Vermijd herhaalde vries-dooicycli.",
     "researchStatus": "Alleen voor laboratoriumonderzoek. Niet voor menselijk of diergeneeskundig gebruik."
   }
-},
+,
   "mots-c-10mg": {
     name: "MOTS-c 10mg",
     tagline: "Mitochondriaal-Gederiveerd Peptide voor Onderzoek naar Cellulair Metabolisme en Stressrespons",
@@ -21473,434 +26574,12 @@ export default {
         isomericSmiles: "C1C[C@H](N(C1)C(=O)[C@H](CC2=CN=CN2)NC(=O)[C@@H]3CCC(=O)N3)C(=O)N",
         iupacName: "(2S)-N-[(2S)-1-[(2S)-2-carbamoylpyrrolidin-1-yl]-3-(1H-imidazol-5-yl)-1-oxopropan-2-yl]-5-oxopyrrolidine-2-carboxamide"
       }
-    },
+    }
+  },
 
-      "trh-thyrotropin-protirelin-50mg": {
-    name: "TRH (Thyrotropine / Protireline) 50mg",
-    tagline: "Onderzoeksoverzicht en Technisch Profiel",
-   cas: "24305-27-9",
-    strength: [
-      "TRH (Thyrotropine / Protireline) 50mg is een synthetisch tripeptide geleverd voor geavanceerd laboratoriumonderzoek gericht op signaalroutes van de hypothalamische-hypofyse as, neuro-endocriene communicatiemodellen en peptide-gemedieerde regulerende mechanismen."
-    ],
-    "topDescription": {
-      p0: "TRH, ook bekend als Thyrotropine-Releasing Hormone of Protireline, is een synthetisch tripeptide dat in laboratoriumomgevingen wordt bestudeerd vanwege de interactie met hypothalamische-hypofyse signaalroutes.",
-     p1: "In gecontroleerde onderzoeksomgevingen wordt TRH onderzocht voor peptide-gemedieerde endocriene communicatie en neuro-endocriene feedback regulatiemodellen.",
-      p2: "Geleverd als een hoogzuivere gevriesdroogde peptidepreparatie, is TRH uitsluitend bedoeld voor laboratoriumonderzoek en analytisch wetenschappelijk onderzoek."
-    },
-    content: {
-      overviewTitle: "Onderzoeksoverzicht",
-      overview: [
-        "Thyrotropine-Releasing Hormone (TRH) is een natuurlijk voorkomend tripeptide dat een sleutelrol speelt in hypothalamische-hypofyse signaalroutes.",
-        "Synthetische TRH wordt onderzocht in laboratoriumonderzoek vanwege de invloed op neuro-endocriene communicatiemodellen en peptide-gemedieerde regulerende mechanismen binnen endocriene signaleringsnetwerken.",
-        "Dit peptide wordt vaak opgenomen in neuro-endocriene en hypothalamische-hypofyse as onderzoeksprogramma's die endocriene feedback en regulerende communicatie bestuderen."
-      ],
-     scientificBackgroundTitle: "Wetenschappelijke Achtergrond",
-     scientificBackground: [
-        "TRH is een belangrijk regulerend peptide dat betrokken is bij de signalering tussen de hypothalamus en de hypofyse.",
-        "In laboratoriumonderzoek wordt synthetische TRH bestudeerd vanwege de peptide-receptor interacties en rol in endocriene signaalmodellen waarbij schildklier- en hypofyse communicatieroutes betrokken zijn."
-      ],
-      mechanismTitle: "Mechanistische Onderzoekseigenschappen",
-      mechanismPoints: [
-        "Interactie met TRH-receptoren in neuro-endocriene signaalmodellen",
-        "Participatie in hypothalamische-hypofyse communicatieroutes",
-        "Ondersteuning van peptide-gemedieerde endocriene feedbackonderzoeken",
-        "Invloed op centrale regulerende signaleringssystemen",
-        "Onderzoek naar endocriene communicatienetwerken in laboratoriummodellen"
-      ],
-      applicationsTitle: "Primaire Onderzoekstoepassingen",
-     applications: [
-        {
-          title: "Neuro-Endocrien Signalering Onderzoek",
-         text: "Gebruikt in laboratoriumstudies die regulerende signaalroutes in neuro-endocriene communicatiesystemen onderzoeken."
-        },
-        {
-          title: "Hypothalamische-Hypofyse As Onderzoek",
-         text: "Ondersteunt onderzoek naar peptide-gemedieerde signalering binnen hypothalamische en hypofyse regulerende routes."
-        },
-        {
-          title: "Peptide-Receptor Interactie Studies",
-         text: "Toegepast in experimentele modellen die TRH-receptor signaalgedrag bestuderen."
-        },
-        {
-          title: "Endocriene Feedback Mechanisme Modellen",
-         text: "Gebruikt om hormonale feedback signalering in endocriene regulerende systemen te bestuderen."
-        },
-        {
-          title: "Centraal Regulerend Mechanisme Onderzoek",
-         text: "Stelt onderzoekers in staat om regulerende communicatieroutes in centrale endocriene signaalmodellen te onderzoeken."
-        }
-      ],
-      molecularTitle: "Moleculaire Kenmerken",
-      molecularPoints: [
-        "Peptideklasse: Synthetisch tripeptide hormoonanaloog",
-        "Structuur: Kortketenig tripeptide",
-        "Onderzoeksveld: Neuro-endocrien en endocrien signaleringsonderzoek",
-        "Vorm: Gevriesdroogd onderzoekspeptide"
-      ],
-      stabilityTitle: "Stabiliteits- en Opslagprofiel",
-      stabilityPoints: [
-        "Stabiel wanneer gevriesdroogd bewaard bij −20°C",
-        "Gevoelig voor vocht en langdurige blootstelling aan licht",
-        "Bescherm tegen omgevingscontaminatie",
-        "Gereconstitueerde oplossingen moeten worden gekoeld",
-        "Vermijd herhaalde vries-dooicycli"
-      ],
-      solubilityTitle: "Oplosbaarheids- en Reconstitutieopties",
-      solubilityPoints: [
-        "Bacteriostatisch water",
-        "Steriele zoutoplossingen",
-        "Gebufferde laboratoriumoplosmiddelsystemen",
-        "Analytische oplosmiddelen gebruikt in peptideonderzoek"
-      ],
-      techSpecsTitle: "Technische Specificaties",
-      techSpecs: {
-        productName: "TRH (Thyrotropine / Protireline) 50mg",
-       cas: "24305-27-9",
-        purity: "≥98–99% (HPLC geverifieerd)",
-        unitSize: "50 mg",
-        form: "Gevriesdroogd poeder",
-        synthesis: "Vaste-fase Peptidesynthese (SPPS)",
-        analytical: "HPLC, Massaspectrometrie"
-      },
-      validationTitle: "Analytische Validatie en Kwaliteitscontrole",
-      validationPoints: [
-        "HPLC zuiverheidsverificatie",
-        "Bevestiging van identiteit door massaspectrometrie",
-        "Testen van structurele integriteit van het peptide",
-        "Validatie van batchconsistentie",
-        "Laboratorium kwaliteitscontrolescreening"
-      ],
-     regulatoryTitle: "Regulerende en Nalevingsinformatie",
-      regulatoryText: "TRH (Thyrotropine / Protireline) 50mg wordt uitsluitend geleverd voor laboratoriumonderzoek en wetenschappelijk onderzoek. Het is niet goedgekeurd als farmaceutisch product, voedingssupplement, cosmetisch ingrediënt of medisch product. Het peptide is uitsluitend bestemd voor gecontroleerde laboratoriumexperimenten en analytisch wetenschappelijk gebruik.",
-      whyTitle: "Waarom inkopen bij Bio-Peptides?",
-      whyText: "Bio-Peptides levert onderzoekspeptiden aan laboratoria wereldwijd met een focus op analytische kwaliteit, batchconsistentie en betrouwbare wetenschappelijke toeleveringsketens ontworpen voor geavanceerde peptide onderzoeksomgevingen.",
-     faqTitle: "Veelgestelde Vragen",
-      faqItems: [
-        {
-          q: "Waar wordt TRH voor gebruikt in onderzoek?",
-         a: "TRH wordt gebruikt in laboratoriumonderzoek dat neuro-endocriene signaalroutes en hypothalamische-hypofyse communicatiemodellen bestudeert."
-        },
-        {
-          q: "Wat voor soort peptide is TRH?",
-         a: "TRH is een synthetisch tripeptide hormoonanaloog gerelateerd aan thyrotropine-releasing hormoon."
-        },
-        {
-          q: "Welke onderzoeksvelden gebruiken TRH vaak?",
-         a: "TRH wordt vaak bestudeerd in neuro-endocrien onderzoek, endocriene signaleringsstudies en hypothalamische-hypofyse as onderzoeken."
-        },
-        {
-          q: "Hoe moet TRH worden opgeslagen?",
-         a: "TRH moet worden bewaard bij −20°C en beschermd tegen licht en vocht."
-        },
-        {
-          q: "Is TRH goedgekeurd voor menselijk gebruik?",
-         a: "Nee. Dit product wordt uitsluitend geleverd voor laboratoriumonderzoek."
-        }
-      ],
-      chemicalProperties: {
-        molecularFormula: "C16H22N6O4",
-      molecularWeight: "362.38",
-       monoisotopicMass: "362.17",
-       polarArea: "150",
-       complexity: "597",
-       xlogP: "-2.5",
-     heavyAtomCount: "26",
-       heavyAtomChydrogenBondDonorCountount: "4",
-        hydrogenBondAcceptorCount: "6",
-        rotatableBondCount: "6",
-        cid: "638678",
-        inchi: "InChI=1S/C16H22N6O4/c17-14(24)12-2-1-5-22(12)16(26)11(6-9-7-18-8-19-9)21-15(25)10-3-4-13(23)20-10/h7-8,10-12H,1-6H2,(H2,17,24)(H,18,19)(H,20,23)(H,21,25)/t10-,11-,12-/m0/s1",
-       inchiKey: "XNSAINXGIQZQOO-SRVKXCTJSA-N",
-        canonicalSmiles: "C1CC(N(C1)C(=O)C(CC2=CN=CN2)NC(=O)C3CCC(=O)N3)C(=O)N",
-        isomericSmiles: "C1C[C@H](N(C1)C(=O)[C@H](CC2=CN=CN2)NC(=O)[C@@H]3CCC(=O)N3)C(=O)N",
-        iupacName: "(2S)-N-[(2S)-1-[(2S)-2-carbamoylpyrrolidin-1-yl]-3-(1H-imidazol-5-yl)-1-oxopropan-2-yl]-5-oxopyrrolidine-2-carboxamide"
-      }
-    }
-  },
-    "tripeptide-29-200mg-collagen-peptide-topical": {
-    name: "Tripeptide-29 (Collageen Peptide) 200mg – Topical",
-    tagline: "Onderzoeksoverzicht en Technisch Profiel",
-   cas: "Onbekend",
-    strength: [
-      "Tripeptide-29 (Collageen Peptide) 200mg is een synthetisch tripeptide geleverd voor laboratoriumonderzoek gericht op signaalroutes van de extracellulaire matrix, collageen-geassocieerde peptide-interacties en peptide-gemedieerde dermale communicatiemodellen."
-    ],
-    "topDescription": {
-      p0: "Tripeptide-29 is een synthetisch collageen-geassocieerd peptide dat in laboratoriumomgevingen wordt bestudeerd vanwege de interactie met signaalroutes van de extracellulaire matrix en dermale communicatiesystemen.",
-     p1: "In gecontroleerde onderzoeksomgevingen wordt Tripeptide-29 onderzocht voor peptide-collageen interactiemodellen en peptide-gemedieerd signaalgedrag binnen huid-gerelateerde experimentele systemen.",
-      p2: "Geleverd als een hoogzuivere topische onderzoekspreparatie, is Tripeptide-29 uitsluitend bedoeld voor laboratoriumonderzoek en analytisch wetenschappelijk onderzoek."
-    },
-    content: {
-      overviewTitle: "Onderzoeksoverzicht",
-      overview: [
-        "Synthetische tripeptiden worden veel onderzocht in cosmetisch en moleculair biologisch onderzoek vanwege hun vermogen om te interageren met signaalroutes van de extracellulaire matrix.",
-        "Tripeptide-29 wordt bestudeerd in laboratoriumomgevingen vanwege de associatie met collageen-gerelateerde peptide-interacties en peptide-gemedieerde communicatie binnen experimentele systemen van de dermale matrix.",
-        "Dit peptide wordt vaak opgenomen in cosmetische peptide onderzoeksprogramma's gericht op extracellulaire matrixcommunicatie en dermale signaalmodellen."
-      ],
-     scientificBackgroundTitle: "Wetenschappelijke Achtergrond",
-     scientificBackground: [
-        "Collageen-geassocieerde peptiden worden vaak onderzocht in laboratoriumonderzoek om extracellulaire matrix signalering en peptide-gestuurde communicatiemechanismen te begrijpen.",
-        "Tripeptide-29 is een kortketenig synthetisch peptide dat wordt bestudeerd vanwege de potentiële interactie met collageen-gerelateerde signaalroutes en dermale cellulaire communicatiemodellen."
-      ],
-      mechanismTitle: "Mechanistische Onderzoekseigenschappen",
-      mechanismPoints: [
-        "Interactie met signaalroutes van de extracellulaire matrix",
-        "Participatie in collageen-geassocieerde peptide communicatiemodellen",
-        "Ondersteuning van dermaal cellulair signaleringsonderzoek",
-        "Invloed op peptide-gemedieerde matrixcommunicatienetwerken",
-        "Onderzoek naar structuur-functie relaties in collageen-gerelateerde peptidesystemen"
-      ],
-      applicationsTitle: "Primaire Onderzoekstoepassingen",
-     applications: [
-        {
-          title: "Extracellulaire Matrix Signalering Onderzoek",
-         text: "Gebruikt in laboratoriumstudies die peptide-gemedieerde communicatie binnen extracellulaire matrix signaleringssystemen onderzoeken."
-        },
-        {
-          title: "Collageen Interactie Onderzoek",
-         text: "Ondersteunt onderzoek dat peptide-collageen interactiemechanismen onderzoekt."
-        },
-        {
-          title: "Dermale Communicatie Studies",
-         text: "Toegepast in experimentele systemen die peptide signaalgedrag binnen huid-gerelateerde onderzoeksmodellen bestuderen."
-        },
-        {
-          title: "Cosmetisch Peptide Onderzoek",
-         text: "Gebruikt in laboratoriumonderzoeksprogramma's gericht op synthetische peptiden in dermale signaalonderzoeken."
-        },
-        {
-          title: "Structuur-Functie Peptide Studies",
-         text: "Stelt onderzoekers in staat om structurele relaties tussen korte peptiden en extracellulaire matrix signaalgedrag te onderzoeken."
-        }
-      ],
-      molecularTitle: "Moleculaire Kenmerken",
-      molecularPoints: [
-        "Peptideklasse: Synthetisch tripeptide",
-        "Structuur: Kortketenig peptidefragment",
-        "Onderzoeksveld: Extracellulaire matrix en dermaal signaleringsonderzoek",
-        "Vorm: Topische peptide onderzoekspreparatie"
-      ],
-      stabilityTitle: "Stabiliteits- en Opslagprofiel",
-      stabilityPoints: [
-        "Aanbevolen opslag bij 2–8°C",
-        "Gevoelig voor langdurige blootstelling aan licht",
-        "Bescherm tegen vocht en omgevingscontaminatie",
-        "Vermijd herhaalde temperatuurschommelingen",
-        "Bewaar in verzegelde laboratoriumcontainers"
-      ],
-      solubilityTitle: "Oplosbaarheids- en Formuleringskenmerken",
-      solubilityPoints: [
-        "Geleverd als topische onderzoekspreparatie",
-        "Compatibel met dermale experimentele formuleringen",
-        "Kan worden bestudeerd in cosmetische onderzoeksoplosmiddelsystemen",
-        "Geformuleerd voor topisch laboratoriumonderzoek"
-      ],
-      techSpecsTitle: "Technische Specificaties",
-      techSpecs: {
-        productName: "Tripeptide-29 (Collageen Peptide) 200mg – Topical",
-       cas: "Onbekend",
-        purity: "Onderzoekkwaliteit",
-        unitSize: "200 mg",
-        form: "Topische onderzoeksformulering",
-        synthesis: "Synthetische peptideproductie",
-        analytical: "Kwaliteitsgecontroleerde laboratoriumpreparatie"
-      },
-      validationTitle: "Analytische Validatie en Kwaliteitscontrole",
-      validationPoints: [
-        "Verificatie van peptide-identiteit",
-        "Laboratorium zuiverheidstesten",
-        "Evaluatie van formuleringstabiliteit",
-        "Validatie van batchconsistentie",
-        "Onderzoekkwaliteit bereidingsnormen"
-      ],
-     regulatoryTitle: "Regulerende en Nalevingsinformatie",
-      regulatoryText: "Tripeptide-29 (Collageen Peptide) 200mg topische formulering wordt uitsluitend geleverd voor laboratoriumonderzoek en wetenschappelijk onderzoek. Dit product is niet goedgekeurd als geneesmiddel, cosmetisch ingrediënt voor commercieel gebruik, voedingssupplement of medisch product. Het is uitsluitend bestemd voor gecontroleerde wetenschappelijke experimenten en analytisch onderzoek.",
-      whyTitle: "Waarom inkopen bij Bio-Peptides?",
-      whyText: "Bio-Peptides levert onderzoekspeptiden van onderzoekskwaliteit ontworpen voor wetenschappelijk onderzoek in academische laboratoria, biotechnologische instellingen en cosmetische peptide onderzoeksprogramma's. Het bedrijf benadrukt analytische consistentie, betrouwbare toeleveringsketens en transparante productspecificaties.",
-     faqTitle: "Veelgestelde Vragen",
-      faqItems: [
-        {
-          q: "Waar wordt Tripeptide-29 voor gebruikt in onderzoek?",
-         a: "Tripeptide-29 wordt gebruikt in laboratoriumonderzoek dat signaalroutes van de extracellulaire matrix en collageen-geassocieerde peptide communicatiemodellen bestudeert."
-        },
-        {
-          q: "Wat voor soort peptide is Tripeptide-29?",
-         a: "Tripeptide-29 is een kort synthetisch tripeptide dat vaak wordt bestudeerd in dermaal en extracellulair matrix signaleringsonderzoek."
-        },
-        {
-          q: "Welke onderzoeksvelden gebruiken Tripeptide-29 vaak?",
-         a: "Het wordt vaak bestudeerd in cosmetisch peptideonderzoek, extracellulaire matrixbiologie en dermale cellulaire signaleringsonderzoeken."
-        },
-        {
-          q: "Hoe moet Tripeptide-29 worden opgeslagen?",
-         a: "Het moet worden bewaard bij 2–8°C en beschermd tegen licht en vocht."
-        },
-        {
-          q: "Is Tripeptide-29 goedgekeurd voor menselijk gebruik?",
-         a: "Nee. Dit product wordt uitsluitend geleverd voor laboratoriumonderzoek."
-        }
-      ],
-      chemicalProperties: {
-        molecularFormula: "C12H19N3O5",
-      molecularWeight: "285.3",
-       monoisotopicMass: "285.13247072",
-       polarArea: "124",
-       complexity: "427",
-       xlogP: "-4.3",
-     heavyAtomCount: "20",
-       heavyAtomChydrogenBondDonorCountount: "3",
-        hydrogenBondAcceptorCount: "6",
-        rotatableBondCount: "3",
-        cid: "11778669",
-        inchi: "InChI=1S/C12H19N3O5/c13-5-10(17)14-3-1-2-8(14)11(18)15-6-7(16)4-9(15)12(19)20/h7-9,16H,1-6,13H2,(H,19,20)/t7-,8+,9+/m1/s1",
-       inchiKey: "SZEOBSAZWJLOGY-VGMNWLOBSA-N",
-        canonicalSmiles: "C1C[C@H](N(C1)C(=O)CN)C(=O)N2C[C@@H](C[C@H]2C(=O)O)O",
-        isomericSmiles: "C1C[C@H](N(C1)C(=O)CN)C(=O)N2C[C@@H](C[C@H]2C(=O)O)O",
-        iupacName: "(2S,4R)-1-[(2S)-1-(2-aminoacetyl)pyrrolidine-2-carbonyl]-4-hydroxypyrrolidine-2-carboxylic acid"
-      }
-    }
-  },
-    "triptorelin-gnrh-2mg": {
-    name: "Triptoreline (GnRH) 2mg",
-    tagline: "Onderzoeksoverzicht en Technisch Profiel",
-   cas: "57773-63-4",
-    strength: [
-      "Triptoreline (GnRH) 2mg is een synthetisch gonadotropine-releasing hormoon analoog geleverd voor geavanceerd laboratoriumonderzoek naar hypothalamische-hypofyse-gonadale as signalering, neuro-endocriene communicatieroutes en peptide-gemedieerde endocriene regulerende mechanismen."
-    ],
-    "topDescription": {
-      p0: "Triptoreline is een synthetisch analoog van gonadotropine-releasing hormoon (GnRH) dat in laboratoriumomgevingen wordt bestudeerd vanwege de interactie met hypothalamische-hypofyse signaalroutes.",
-     p1: "In gecontroleerde onderzoeksomgevingen wordt Triptoreline onderzocht voor peptide-receptor communicatiemodellen en endocriene feedback regulatie binnen neuro-endocriene experimentele systemen.",
-      p2: "Geleverd als een hoogzuiver gevriesdroogd peptide, is Triptoreline uitsluitend bedoeld voor laboratoriumonderzoek en analytisch wetenschappelijk onderzoek."
-    },
-    content: {
-      overviewTitle: "Onderzoeksoverzicht",
-      overview: [
-        "Synthetische GnRH-analoge peptiden worden veel gebruikt in moleculair en endocrien onderzoek om regulerende signaalroutes geassocieerd met de hypothalamische-hypofyse-gonadale as te onderzoeken.",
-        "Triptoreline wordt onderzocht in laboratoriumonderzoek voor peptide-gemedieerde communicatie tussen hypothalamische en hypofyse signaleringsnetwerken en endocriene regulerende modellen.",
-        "Dit peptide-analoog wordt vaak opgenomen in neuro-endocrien en reproductief hormoononderzoeksprogramma's gericht op receptor signalering en endocriene feedbacksystemen."
-      ],
-     scientificBackgroundTitle: "Wetenschappelijke Achtergrond",
-     scientificBackground: [
-        "Gonadotropine-releasing hormoon (GnRH) is een belangrijk regulerend peptide dat betrokken is bij endocriene signalering tussen de hypothalamus en de hypofyse.",
-        "Triptoreline is een synthetisch GnRH-analoog dat wordt bestudeerd vanwege het receptor bindingsgedrag en de regulerende invloed op signaalmodellen geassocieerd met reproductieve hormooncommunicatie."
-      ],
-      mechanismTitle: "Mechanistische Onderzoekseigenschappen",
-      mechanismPoints: [
-        "Interactie met GnRH-receptoren in neuro-endocriene signaalmodellen",
-        "Participatie in hypothalamische-hypofyse signaleringscommunicatiestudies",
-        "Invloed op peptide-gemedieerde endocriene regulerende routes",
-        "Ondersteuning van reproductieve hormoon signaleringsonderzoeken",
-        "Studie van feedback signaleringsmechanismen in neuro-endocriene onderzoekssystemen"
-      ],
-      applicationsTitle: "Primaire Onderzoekstoepassingen",
-     applications: [
-        {
-          title: "Hypothalamische-Hypofyse-Gonadale As Onderzoek",
-         text: "Gebruikt in laboratoriumstudies die regulerende signaalroutes binnen neuro-endocriene systemen onderzoeken."
-        },
-        {
-          title: "Neuro-Endocriene Signalering Studies",
-         text: "Ondersteunt experimenteel onderzoek gericht op endocriene communicatiemechanismen."
-        },
-        {
-          title: "Peptide-Receptor Interactie Onderzoek",
-         text: "Toegepast in gecontroleerde modellen die GnRH-receptor bindingsgedrag bestuderen."
-        },
-        {
-          title: "Endocriene Feedback Mechanisme Modellen",
-         text: "Gebruikt in onderzoek dat regulerende feedbackloops in hormonale signalering onderzoekt."
-        },
-        {
-          title: "Reproductief Hormoon Signalering Onderzoek",
-         text: "Stelt onderzoekers in staat om peptide-gemedieerde communicatie in reproductieve endocriene systemen te verkennen."
-        }
-      ],
-      molecularTitle: "Moleculaire Kenmerken",
-      molecularPoints: [
-        "Peptideklasse: Synthetisch GnRH-analoog",
-        "Structuur: Gemodificeerd decapeptide-analoog",
-        "Onderzoeksveld: Neuro-endocriene en reproductieve hormoon signalering",
-        "Vorm: Gevriesdroogd onderzoekspeptide"
-      ],
-      stabilityTitle: "Stabiliteits- en Opslagprofiel",
-      stabilityPoints: [
-        "Stabiel wanneer gevriesdroogd bewaard bij −20°C",
-        "Gevoelig voor vocht en langdurige blootstelling aan licht",
-        "Bescherm tegen omgevingscontaminatie",
-        "Gereconstitueerde oplossingen moeten worden gekoeld",
-        "Vermijd herhaalde vries-dooicycli"
-      ],
-      solubilityTitle: "Oplosbaarheids- en Reconstitutieopties",
-      solubilityPoints: [
-        "Bacteriostatisch water",
-        "Steriele zoutoplossingen",
-        "Gebufferde laboratoriumoplosmiddelsystemen",
-        "Analytische oplosmiddelen gebruikt in peptideonderzoek"
-      ],
-      techSpecsTitle: "Technische Specificaties",
-      techSpecs: {
-        productName: "Triptoreline (GnRH) 2mg",
-       cas: "57773-63-4",
-        purity: "≥98–99% (HPLC geverifieerd)",
-        unitSize: "2 mg",
-        form: "Gevriesdroogd poeder",
-        synthesis: "Vaste-fase Peptidesynthese (SPPS)",
-        analytical: "HPLC, Massaspectrometrie"
-      },
-      validationTitle: "Analytische Validatie en Kwaliteitscontrole",
-      validationPoints: [
-        "HPLC zuiverheidsverificatie",
-        "Bevestiging van identiteit door massaspectrometrie",
-        "Testen van structurele integriteit van het peptide",
-        "Validatie van batchconsistentie",
-        "Laboratorium kwaliteitscontrolescreening"
-      ],
-     regulatoryTitle: "Regulerende en Nalevingsinformatie",
-      regulatoryText: "Triptoreline (GnRH) 2mg wordt uitsluitend geleverd voor laboratoriumonderzoek en wetenschappelijk onderzoek. Het is niet goedgekeurd als farmaceutisch product, voedingssupplement, cosmetisch ingrediënt of medisch product. Het peptide is uitsluitend bestemd voor gecontroleerde laboratoriumexperimenten.",
-      whyTitle: "Waarom inkopen bij Bio-Peptides?",
-      whyText: "Bio-Peptides levert onderzoekspeptiden aan laboratoria wereldwijd met een focus op analytische kwaliteit, batchconsistentie en betrouwbare wetenschappelijke toeleveringsketens ontworpen voor geavanceerde peptide onderzoeksomgevingen.",
-     faqTitle: "Veelgestelde Vragen",
-      faqItems: [
-        {
-          q: "Waar wordt Triptoreline voor gebruikt in onderzoek?",
-         a: "Triptoreline wordt gebruikt in laboratoriumonderzoek dat hypothalamische-hypofyse-gonadale as signalering en neuro-endocriene regulerende routes bestudeert."
-        },
-        {
-          q: "Wat voor soort peptide is Triptoreline?",
-         a: "Triptoreline is een synthetisch analoog van gonadotropine-releasing hormoon (GnRH)."
-        },
-        {
-          q: "Welke onderzoeksvelden gebruiken Triptoreline vaak?",
-         a: "Het wordt vaak bestudeerd in endocrinologie, neuro-endocrien signaleringsonderzoek, reproductieve hormoonstudies en peptide-receptor interactie onderzoeken."
-        },
-        {
-          q: "Hoe moet Triptoreline worden opgeslagen?",
-         a: "Het moet worden bewaard bij −20°C en beschermd tegen vocht en licht."
-        },
-        {
-          q: "Is Triptoreline goedgekeurd voor menselijk gebruik?",
-         a: "Nee. Dit product wordt uitsluitend geleverd voor laboratoriumonderzoek."
-        }
-      ],
-      chemicalProperties: {
-        molecularFormula: "C64H82N18O13",
-      molecularWeight: "1311.4",
-       monoisotopicMass: "1310.63087474",
-       polarArea: "4900",
-       complexity: "12710",
-       xlogP: "-0.3",
-     heavyAtomCount: "95",
-       heavyAtomChydrogenBondDonorCountount: "17",
-        hydrogenBondAcceptorCount: "15",
-        rotatableBondCount: "33",
-        cid: "25074470",
-        inchi: "InChI=1S/C64H82N18O13/c1-34(2)23-46(56(88)75-45(13-7-21-69-64(66)67)63(95)82-22-8-14-52(82)62(94)72-31-53(65)85)76-58(90)48(25-36-28-70-42-11-5-3-9-40(36)42)78-57(89)47(24-35-15-17-39(84)18-16-35)77-61(93)51(32-83)81-59(91)49(26-37-29-71-43-12-6-4-10-41(37)43)79-60(92)50(27-38-30-68-33-73-38)80-55(87)44-19-20-54(86)74-44/h3-6,9-12,15-18,28-30,33-34,44-52,70-71,83-84H,7-8,13-14,19-27,31-32H2,1-2H3,(H2,65,85)(H,68,73)(H,72,94)(H,74,86)(H,75,88)(H,76,90)(H,77,93)(H,78,89)(H,79,92)(H,80,87)(H,81,91)(H4,66,67,69)/t44-,45-,46-,47-,48+,49-,50-,51-,52-/m0/s1",
-       inchiKey: "VXKHXGOKWPXYNA-PGBVPBMZSA-N",
-        canonicalSmiles: "CC(C)CC(C(=O)NC(CCCN=C(N)N)C(=O)N1CCCC1C(=O)NCC(=O)N)NC(=O)C(CC2=CNC3=CC=CC=C32)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(CO)NC(=O)C(CC5=CNC6=CC=CC=C65)NC(=O)C(CC7=CN=CN7)NC(=O)C8CCC(=O)N8",
-        isomericSmiles: "CC(C)C[C@@H](C(=O)N[C@@H](CCCN=C(N)N)C(=O)N1CCC[C@H]1C(=O)NCC(=O)N)NC(=O)[C@@H](CC2=CNC3=CC=CC=C32)NC(=O)[C@H](CC4=CC=C(C=C4)O)NC(=O)[C@H](CO)NC(=O)[C@H](CC5=CNC6=CC=CC=C65)NC(=O)[C@H](CC7=CN=CN7)NC(=O)[C@@H]8CCC(=O)N8",
-        iupacName: "(2S)-N-[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2R)-1-[[(2S)-1-[[(2S)-1-[(2S)-2-[(2-amino-2-oxoethyl)carbamoyl]pyrrolidin-1-yl]-5-(diaminomethylideneamino)-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]amino]-3-(1H-imidazol-5-yl)-1-oxopropan-2-yl]-5-oxopyrrolidine-2-carboxamide"
-      }
-    }
-  },
+  
+
+
     "vesilute-20mg-bioregulator": {
     name: "Vesilute 20mg (Bioregulator)",
     tagline: "Onderzoeksoverzicht en Technisch Profiel",
@@ -22483,161 +27162,7 @@ export default {
       }
     }
   },
-    "vip-6mg": {
-    name: "VIP (Vasoactive Intestinal Peptide) 6mg",
-    tagline: "Onderzoeksoverzicht en Technisch Profiel",
-   cas: "37221-79-7",
-    strength: [
-      "VIP 6mg (Vasoactive Intestinal Peptide) van Bio-Peptides is een hoogzuiver onderzoeksneuropeptide geleverd voor geavanceerde laboratoriumonderzoeken naar vasculaire signalering, neuro-immuuncommunicatie en regulerende routes van gladde spieren. Geïdentificeerd door CAS 37221-79-7, wordt VIP veel bestudeerd vanwege zijn rol in peptide-gemedieerde cellulaire signalering, vasodilatatiemechanismen en immuuncommunicatienetwerken. Het 6mg onderzoeksformaat is geschikt voor gerichte in-vitro en preklinische onderzoeksexperimenten in neurobiologie, vasculaire biologie en peptide-signaleringsmodellen."
-    ],
-    "topDescription": {
-      p0: "VIP (Vasoactive Intestinal Peptide) 6mg (CAS 37221-79-7) is een synthetisch neuropeptide geleverd voor laboratoriumonderzoek gericht op neuropeptide signaalroutes, vasculaire communicatie en interacties van het immuunsysteem.",
-     p1: "Dit onderzoekspeptide wordt geproduceerd met behulp van gecontroleerde peptide synthesemethoden en geleverd als een hoogzuiver gevriesdroogd poeder geschikt voor in-vitro en preklinische experimentele studies.",
-      p2: "VIP wordt veel onderzocht in neurobiologie, vasculaire biologie en immunologisch signaalonderzoek vanwege zijn vermogen om communicatie te mediëren tussen neuronale, vasculaire en immuunsystemen."
-    },
-    content: {
-      overviewTitle: "Onderzoeksoverzicht",
-      overview: [
-        "VIP (Vasoactive Intestinal Peptide) is een natuurlijk voorkomend neuropeptide van 28 aminozuren betrokken bij communicatie tussen het zenuwstelsel, immuunsysteem en vasculaire systeem. In laboratoriumonderzoeksomgevingen stelt synthetisch VIP wetenschappers in staat om complexe peptide-gemedieerde signaalnetwerken onder gecontroleerde omstandigheden te onderzoeken.",
-        "Het synthetische VIP 6mg onderzoeksformaat geleverd door Bio-Peptides wordt gebruikt in studies die neuropeptide-signalering, receptoractiveringsmechanismen en regulerende routes van gladde spieren verkennen. De goed gekarakteriseerde biologische activiteit van het peptide maakt het een waardevol modelverbinding voor het begrijpen van peptide-gestuurde cellulaire communicatie.",
-        "VIP-onderzoekspeptiden worden vaak gebruikt in neurobiologie, vasculaire biologie, immunologie en moleculaire signaleringsstudies waar peptide-gemedieerde communicatie een centrale rol speelt in experimentele modellen."
-      ],
-     scientificBackgroundTitle: "Wetenschappelijke Achtergrond",
-     scientificBackground: [
-        "Vasoactief Intestinaal Peptide (VIP) is een multifunctioneel neuropeptide dat van nature wordt geproduceerd in het zenuwstelsel, maagdarmkanaal en perifere weefsels. Geïdentificeerd door CAS 37221-79-7, speelt VIP een rol in vasodilatatie signalering, ontspanning van gladde spieren en neuro-immuuncommunicatie.",
-        "In laboratoriumonderzoek wordt synthetisch VIP gebruikt om interacties te verkennen tussen neuronale signaalnetwerken, vasculaire weefselregulatie en immuuncel communicatieroutes. Vanwege zijn brede biologische relevantie wordt VIP beschouwd als een belangrijk peptide voor het onderzoeken van complexe signaalinteracties in meerdere biologische systemen."
-      ],
-      mechanismTitle: "Mechanistische Onderzoekseigenschappen",
-      mechanismPoints: [
-        "In laboratoriumonderzoeksomgevingen wordt VIP onderzocht op zijn invloed op verschillende biologische signaalmechanismen.",
-        "Activering van VIP-receptoren betrokken bij neuropeptide signaalroutes",
-        "Regulatie van vasculaire tonus en vasodilatatie signalering",
-        "Interactie met immuuncel communicatienetwerken",
-        "Invloed op routes voor ontspanning van gladde spieren",
-        "Deelname aan neuro-immuun en neurovasculaire signaaloverdracht"
-      ],
-      applicationsTitle: "Primaire Onderzoekstoepassingen",
-     applications: [
-        {
-          title: "Onderzoek naar Vasculaire Signalering",
-         text: "Gebruikt in laboratoriummodellen om vasodilatatie routes en endotheelcommunicatiemechanismen betrokken bij vasculaire regulatie te onderzoeken."
-        },
-        {
-          title: "Studies naar Neuro-immuuninteractie",
-         text: "Toegepast in studies die communicatie tussen neuronale signaalmoleculen en immuuncelresponsen verkennen."
-        },
-        {
-          title: "Modellen voor Regulatie van Gladde Spieren",
-         text: "Gebruikt in experimenten die peptide-gemedieerde ontspanning van gladde spieren en regulerende signaalmechanismen onderzoeken."
-        },
-        {
-          title: "Onderzoek naar Neuropeptide Receptoren",
-         text: "Ondersteunt onderzoek naar VIP-receptoractivering, ligandbindingsgedrag en stroomafwaartse cellulaire signaleringsresponsen."
-        },
-        {
-          title: "Vergelijkende Neuropeptide Studies",
-         text: "Gebruikt om signaalmechanismen van VIP te vergelijken met gerelateerde neuropeptiden zoals PACAP en neurotensine."
-        }
-      ],
-      molecularTitle: "Moleculaire Kenmerken",
-      molecularPoints: [
-        "Peptideklasse: Neuropeptide",
-        "Peptidelengte: 28 aminozuren",
-        "Structuur: Lineaire peptideketen",
-        "Moleculair Gedrag: Actief in receptor-gemedieerde signaalmodellen"
-      ],
-      stabilityTitle: "Stabiliteits- en Opslagprofiel",
-      stabilityPoints: [
-        "Stabiel wanneer bewaard in gevriesdroogde vorm bij −20°C",
-        "Gevoelig voor vocht en langdurige blootstelling aan licht",
-        "Peptidestabiliteit neemt af bij verhoogde temperaturen",
-        "Gereconstitueerde oplossingen moeten worden gekoeld",
-        "Vermijd herhaalde vries-dooicycli om peptide-integriteit te behouden"
-      ],
-      solubilityTitle: "Oplosbaarheid en Reconstituerende Opties",
-      solubilityPoints: [
-        "Bacteriostatisch water",
-        "Steriele zoutoplossingen",
-        "Milde buffersystemen compatibel met peptide-assays",
-        "Analytische oplosmiddelen gebruikt in laboratoriumpeptideonderzoek"
-      ],
-      techSpecsTitle: "Technische Specificaties",
-      techSpecs: {
-        productName: "VIP (Vasoactive Intestinal Peptide) 6mg",
-       cas: "37221-79-7",
-        purity: "≥98–99% (HPLC geverifieerd)",
-        unitSize: "6 mg",
-        form: "Gevriesdroogd poeder",
-        synthesis: "Vaste-Fase Peptide Synthese (SPPS)",
-        analytical: "HPLC, Massaspectrometrie"
-      },
-      validationTitle: "Analytische Validatie en Kwaliteitscontrole",
-      validationPoints: [
-        "Zuiverheidsverificatie door Hogedrukvloeistofchromatografie (HPLC)",
-        "Moleculaire identiteitsbevestiging door Massaspectrometrie",
-        "Analyse van structurele integriteit van het peptide",
-        "Evaluatie van batch-tot-batch consistentie",
-        "Kwaliteitscontrole screening op contaminatie"
-      ],
-     regulatoryTitle: "Regulerende en Conformiteitsinformatie",
-      regulatoryText: "VIP 6mg wordt uitsluitend geleverd voor laboratoriumonderzoeksdoeleinden. Het is niet goedgekeurd als farmaceutisch product, voedingssupplement, cosmetisch ingrediënt of medische behandeling. Het peptide is uitsluitend bestemd voor gecontroleerd wetenschappelijk onderzoek en in-vitro laboratoriumstudies. Elke vorm van toediening aan mensen of dieren is strikt verboden. Onderzoekers moeten voldoen aan de toepasselijke regelgeving in Europa, de Verenigde Staten en hun institutionele onderzoeksbeleid.",
-      whyTitle: "Waarom inkopen bij Bio-Peptides?",
-      whyText: "Bio-Peptides is een betrouwbare leverancier van onderzoekspeptiden die laboratoria en onderzoeksinstellingen in Europa en de Verenigde Staten bedient. Het bedrijf levert hoogzuivere peptiden met geverifieerde CAS-documentatie, strikte naleving van alleen-onderzoek en consistente analytische validatie. Onderzoekers die VIP 6mg van Bio-Peptides betrekken, profiteren van betrouwbare levering, transparante specificaties en professionele laboratoriumverpakking ontworpen voor wetenschappelijke onderzoeksomgevingen.",
-     faqTitle: "Veelgestelde Vragen",
-      faqItems: [
-        {
-          q: "Waar wordt VIP voor gebruikt in onderzoek?",
-         a: "VIP wordt gebruikt in laboratoriumonderzoek naar neuropeptide signaalroutes, vasculaire regulatie, immuuncelcommunicatie en signaalmechanismen van gladde spieren."
-        },
-        {
-          q: "Wat identificeert CAS 37221-79-7?",
-         a: "CAS 37221-79-7 identificeert Vasoactief Intestinaal Peptide (VIP) uniek en zorgt voor nauwkeurige identificatie van de verbinding in onderzoekslaboratoria."
-        },
-        {
-          q: "Is VIP een hormoon?",
-         a: "VIP wordt geclassificeerd als een neuropeptide in plaats van een klassiek hormoon en functioneert als een signaalmolecuul binnen neurale en vasculaire communicatiesystemen."
-        },
-        {
-          q: "Welke onderzoeksvelden gebruiken VIP vaak?",
-         a: "VIP wordt veel bestudeerd in neurobiologie, vasculaire biologie, immunologie, moleculaire biologie en peptide-signaleringsonderzoek."
-        },
-        {
-          q: "Is VIP geschikt voor in-vitro onderzoek?",
-         a: "Ja. VIP wordt vaak gebruikt in in-vitro en ex-vivo experimentele modellen om receptorsignalering, neuropeptidecommunicatie en vasculaire signaalroutes te onderzoeken."
-        },
-        {
-          q: "Waarom kiezen voor de 6mg onderzoekshoeveelheid?",
-         a: "Het 6mg onderzoeksformaat is geschikt voor pilotstudies, gerichte experimenten en vergelijkend peptideonderzoek dat gecontroleerde hoeveelheden vereist."
-        },
-        {
-          q: "Hoe moet VIP worden bewaard?",
-         a: "VIP moet worden bewaard bij −20°C in gevriesdroogde vorm, beschermd tegen vocht en licht, en worden behandeld met behulp van steriele laboratoriumtechnieken."
-        },
-        {
-          q: "Waarom kiezen voor Bio-Peptides voor VIP onderzoekspeptiden?",
-         a: "Bio-Peptides levert onderzoeks-grade peptiden met geverifieerde CAS-documentatie, betrouwbare internationale verzending en strikte naleving van alleen-onderzoek normen."
-        }
-      ],
-      chemicalProperties: {
-        molecularFormula: "C147H237N43O43S",
-      molecularWeight: "3326.8",
-       monoisotopicMass: "3324.7401145",
-       polarArea: "1470",
-       complexity: "7580",
-       xlogP: "-15.9",
-     heavyAtomCount: "234",
-       heavyAtomChydrogenBondDonorCountount: "51",
-        hydrogenBondAcceptorCount: "51",
-        rotatableBondCount: "115",
-        cid: "53314964",
-        inchi: "CJC-1295 Acetate: InChI=1S/C152H252N44O42/c1-22-79(15)118(194-125(214)84(20)171-135(224)107(68-115(206)207)181-124(213)81(17)169-126(215)91(155)65-87-41-45-89(201)46-42-87)147(236)189-106(66-86-34-25-24-26-35-86)141(230)196-120(85(21)200)149(238)180-99(51-54-114(158)205)132(221)190-111(72-199)145(234)185-105(67-88-43-47-90(202)48-44-88)140(229)178-96(40-33-59-168-152(164)165)128(217)177-94(37-28-30-56-154)133(222)193-117(78(13)14)146(235)187-100(60-73(3)4)134(223)170-82(18)123(212)175-97(49-52-112(156)203)130(219)183-103(63-76(9)10)138(227)191-109(70-197)143(232)172-83(19)122(211)174-95(39-32-58-167-151(162)163)127(216)176-93(36-27-29-55-153)129(218)182-102(62-75(7)8)137(226)184-101(61-74(5)6)136(225)179-98(50-53-113(157)204)131(220)186-108(69-116(208)209)142(231)195-119(80(16)23-2)148(237)188-104(64-77(11)12)139(228)192-110(71-198)144(233)173-92(121(159)210)38-31-57-166-150(160)161/h24-26,34-35,41-48,73-85,91-111,117-120,197-202H,22-23,27-33,36-40,49-72,153-155H2,1-21H3,(H2,156,203)(H2,157,204)(H2,158,205)(H2,159,210)(H,169,215)(H,170,223)(H,171,224)(H,172,232)(H,173,233)(H,174,211)(H,175,212)(H,176,216)(H,177,217)(H,178,229)(H,179,225)(H,180,238)(H,181,213)(H,182,218)(H,183,219)(H,184,226)(H,185,234)(H,186,220)(H,187,235)(H,188,237)(H,189,236)(H,190,221)(H,191,227)(H,192,228)(H,193,222)(H,194,214)(H,195,231)(H,196,230)(H,206,207)(H,208,209)(H4,160,161,166)(H4,162,163,167)(H4,164,165,168)/t79-,80-,81+,82-,83-,84-,85+,91-,92-,93-,94-,95-,96-,97-,98-,99-,100-,101-,102-,103-,104-,105-,106-,107-,108-,109-,110-,111-,117-,118-,119-,120-/m0/s1 Examorelin: InChI=1S/C47H58N12O6/c1-27-34(33-15-7-9-17-37(33)54-27)23-41(58-44(62)35(49)22-31-25-51-26-53-31)45(63)55-28(2)43(61)57-40(21-30-24-52-36-16-8-6-14-32(30)36)47(65)59-39(20-29-12-4-3-5-13-29)46(64)56-38(42(50)60)18-10-11-19-48/h3-9,12-17,24-26,28,35,38-41,52,54H,10-11,18-23,48-49H2,1-2H3,(H2,50,60)(H,51,53)(H,55,63)(H,56,64)(H,57,61)(H,58,62)(H,59,65)/t28-,35-,38-,39+,40-,41+/m0/s1",
-       inchiKey: "VBUWHHLIZKOSMS-RIWXPGAOSA-N",
-        canonicalSmiles: "CCC(C)C(C(=O)NC(CC(C)C)C(=O)NC(CC(=O)N)C(=O)O)NC(=O)C(CO)NC(=O)C(CC(=O)N)NC(=O)C(CC(C)C)NC(=O)C(CC1=CC=C(C=C1)O)NC(=O)C(CCCCN)NC(=O)C(CCCCN)NC(=O)C(C(C)C)NC(=O)C(C)NC(=O)C(CCSC)NC(=O)C(CCC(=O)N)NC(=O)C(CCCCN)NC(=O)C(CCCNC(=N)N)NC(=O)C(CC(C)C)NC(=O)C(CCCNC(=N)N)NC(=O)C(C(C)O)NC(=O)C(CC2=CC=C(C=C2)O)NC(=O)C(CC(=O)N)NC(=O)C(CC(=O)O)NC(=O)C(C(C)O)NC(=O)C(CC3=CC=CC=C3)NC(=O)C(C(C)C)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(CC4=CNC=N4)N",
-        isomericSmiles: "CC[C@H](C)[C@@H](C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(=O)N)C(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](CC(=O)N)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC1=CC=C(C=C1)O)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCCCN)NC(=O)[C@H](C(C)C)NC(=O)[C@H](C)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H](CC2=CC=C(C=C2)O)NC(=O)[C@H](CC(=O)N)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H](CC3=CC=CC=C3)NC(=O)[C@H](C(C)C)NC(=O)[C@H](C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](CC4=CNC=N4)N",
-        iupacName: " (2S)-4-amino-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-4-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S)-4-amino-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-amino-3-(1H-imidazol-4-yl)propanoyl]amino]-3-hydroxypropanoyl]amino]-3-carboxypropanoyl]amino]propanoyl]amino]-3-methylbutanoyl]amino]-3-phenylpropanoyl]amino]-3-hydroxybutanoyl]amino]-3-carboxypropanoyl]amino]-4-oxobutanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-3-hydroxybutanoyl]amino]-5-carbamimidamidopentanoyl]amino]-4-methylpentanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-5-oxopentanoyl]amino]-4-methylsulfanylbutanoyl]amino]propanoyl]amino]-3-methylbutanoyl]amino]hexanoyl]amino]hexanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-4-methylpentanoyl]amino]-4-oxobutanoyl]amino]-3-hydroxypropanoyl]amino]-3-methylpentanoyl]amino]-4-methylpentanoyl]amino]-4-oxobutanoic acid"
-      }
-    }
-  },
+   
     "adipotide-ftpp-10mg": {
     name: "Adipotide (FTPP) 10mg",
     tagline: "Gericht Adipose en Vascular Onderzoekspeptide",
@@ -22800,6 +27325,8 @@ export default {
     }
   },
   
-  }
+  
 
-}
+},
+
+};

@@ -710,6 +710,1722 @@ export default {
       }
     }
   },
+  "aod9604-5mg": {
+  name: "AOD9604 5mg",
+  tagline: "Umfassendes Forschungspeptid-Profil",
+  cas: "386264-39-7",
+
+  // Short card / hero text
+  strength: [
+    "AOD9604 5mg von BioPeptides ist ein hochreines Forschungspeptid mit der CAS-Nummer 386264-39-7, optimiert für fortgeschrittene Laboranwendungen. Jede Charge wird mittels HPLC und Massenspektrometrie verifiziert, wodurch eine gleichbleibende strukturelle Integrität und Reproduzierbarkeit sichergestellt wird. Forscher in Europa und weltweit vertrauen diesem Peptid für biochemische Signalweganalysen, Rezeptorbindungsstudien und regenerative Zellmodellierung. Das lyophilisierte Peptid bleibt bei korrekter Lagerung stabil und ist in bakteriostatischem Wasser, steriler Kochsalzlösung und sauren Puffern löslich. Ob Sie Peptide online kaufen oder die besten Peptide für präzise molekulare Studien beziehen möchten, AOD9604 (CAS 386264-39-7) bietet Zuverlässigkeit, Stabilität und wissenschaftliche Genauigkeit."
+  ],
+
+  // Hero / intro description
+  topDescription: {
+    p0: "AOD9604 5mg von BioPeptides ist ein Premium-Forschungspeptid, identifiziert durch CAS 386264-39-7 und optimiert für fortgeschrittene in-vitro Laboranwendungen mit Schwerpunkt auf metabolischer Signalgebung und Analyse zellulärer Signalwege.",
+    p1: "Hergestellt mittels Festphasen-Peptidsynthese (SPPS), wird dieses lyophilisierte Peptid durch HPLC und Massenspektrometrie verifiziert, um ≥99% Reinheit, molekulare Identität und Chargenkonsistenz zu bestätigen.",
+    p2: "AOD9604 5mg wird von Forschungseinrichtungen in ganz Europa und weltweit geschätzt und unterstützt reproduzierbare biochemische Studien, Rezeptorbindungsforschung und regenerative Zellmodellierung in kontrollierten Laborumgebungen."
+  },
+
+  // Full product page content
+  content: {
+    overviewTitle: "Umfassender Forschungsüberblick",
+    overview: [
+      "AOD9604 5mg ist ein hochwertiges synthetisches Forschungspeptid, das von BioPeptides für hochpräzise wissenschaftliche Untersuchungen bereitgestellt wird. Jede Charge wird mittels Festphasen-Peptidsynthese (SPPS) synthetisiert und mit modernen analytischen Techniken validiert.",
+      "Das Peptid wird durch die CAS-Nummer 386264-39-7 identifiziert, wodurch Rückverfolgbarkeit und regulatorisch abgestimmte Dokumentation für Laborbeschaffung und experimentelle Verifizierung gewährleistet werden.",
+      "Forscher in Europa und auf globalen Märkten verlassen sich auf BioPeptides, wenn sie Peptide online kaufen, aufgrund gleichbleibender Qualität, analytischer Transparenz und reproduzierbarer Forschungsleistung."
+    ],
+
+    scientificBackgroundTitle: "Wissenschaftlicher Hintergrund",
+    scientificBackground: [
+      "AOD9604 5mg wurde umfassend in experimenteller Forschung zur metabolischen Regulation, zellulären Signalgebung und Protein-Peptid-Interaktionen eingesetzt. Dieses synthetische Peptid wirkt hauptsächlich durch die Modulation zellulärer Signalwege und enzymatischer Aktivitäten, verbessert die Empfindlichkeit gegenüber Wachstumsfaktoren, beeinflusst die Genexpression und unterstützt die mitochondriale ATP-Produktion. Sein hochspezifischer Wirkmechanismus macht AOD9604 zu einem wichtigen Werkzeug für Labore, die regenerative Zellmodellierung, biochemische Signalweganalysen und Rezeptorbindungsstudien durchführen.",
+      "Modulation zellulärer Signalwege zur Untersuchung molekularer Kommunikation.",
+      "Verbesserung der Wachstumsfaktor-Empfindlichkeit, wodurch rezeptorvermittelte Untersuchungen besser unterstützt werden.",
+      "Regulation der Genexpression in gezielten zellulären Umgebungen.",
+      "Einfluss auf die mitochondriale Energieproduktion, die für die Stoffwechselforschung entscheidend ist.",
+      "Unterstützung enzymatischer Aktivierungs- und Sensitivitätsassays zur Untersuchung molekularer Interaktionen."
+    ],
+
+    mechanismTitle: "Mechanistische Forschungseigenschaften",
+    mechanismPoints: [
+      "Modulation zellulärer Signalwege für Studien zur molekularen Kommunikation",
+      "Verbesserung der Wachstumsfaktor-Empfindlichkeit und Forschung zur rezeptorvermittelten Signalgebung",
+      "Regulation der Genexpression in gezielten zellulären Umgebungen",
+      "Einfluss auf die mitochondriale ATP-Produktion und zelluläre Energiepfade",
+      "Unterstützung enzymatischer Aktivierungs- und Sensitivitätsassays in kontrollierten Forschungsmodellen"
+    ],
+
+    applicationsTitle: "Primäre Forschungsanwendungen",
+    applications: [
+      {
+        title: "Regenerative Zellbiologie",
+        text: "Untersuchung von Gewebereparatur und zellulären Regenerationsmechanismen."
+      },
+      {
+        title: "Analyse der Proteinexpression",
+        text: "Untersuchung von Proteinsynthese, Faltung und Interaktionen."
+      },
+      {
+        title: "Rezeptorbindungsstudien",
+        text: "Messung der Bindungseffizienz und Dynamik von Signalrezeptoren."
+      },
+      {
+        title: "Mitochondriale Stoffwechselforschung",
+        text: "Erforschung von Energieregulation, ATP-Synthese und metabolischer Modulation."
+      },
+      {
+        title: "Experimente zur enzymatischen Sensitivität",
+        text: "Bestimmung von Enzym-Substrat-Interaktionen unter kontrollierten Bedingungen."
+      },
+      {
+        title: "Assays zum Umbau der extrazellulären Matrix",
+        text: "Verständnis von Veränderungen der extrazellulären Matrix während Zellwachstum und Reparatur."
+      }
+    ],
+
+    molecularTitle: "Molekulare Eigenschaften",
+    molecularPoints: [
+      "Molekültyp: Synthetisches Forschungspeptidfragment",
+      "Struktur: Lineare Peptidkette",
+      "Stabilität: Hoch bei Lagerung unter empfohlenen Laborbedingungen",
+      "Molekulargewicht: Sequenzabhängig"
+    ],
+
+    stabilityTitle: "Stabilitätsprofil und Lagerungshinweise",
+    stabilityPoints: [
+      "Wird als lyophilisiertes Peptid für verbesserte Langzeitstabilität geliefert",
+      "Kurzzeitlagerung: Bei 2–4°C kühlen, wenn innerhalb weniger Wochen verwendet",
+      "Langzeitlagerung: Bei −20°C einfrieren, um die molekulare Integrität zu erhalten",
+      "Empfindlich gegenüber Feuchtigkeit und längerer Lichteinwirkung",
+      "Rekonstituierte Lösungen bleiben unter Kühlung etwa 24–48 Stunden stabil"
+    ],
+
+    solubilityTitle: "Löslichkeit und Rekonstitutionsoptionen",
+    solubilityPoints: [
+      "Bakteriostatisches Wasser",
+      "Sterile Kochsalzlösungen",
+      "Saure Puffer für spezifische molekulare Interaktionen",
+      "Organische analytische Lösungsmittel für fortgeschrittene Assay-Anwendungen"
+    ],
+
+    techSpecsTitle: "Technische Spezifikationen",
+    techSpecs: {
+      productName: "AOD9604 5mg",
+      cas: "386264-39-7",
+      purity: "≥99% (HPLC-verifiziert)",
+      unitSize: "5 mg Fläschchen",
+      form: "Lyophilisiertes Pulver",
+      synthesis: "Festphasen-Peptidsynthese (SPPS)",
+      analytical: "HPLC, Massenspektrometrie, UV-Spektrophotometrie"
+    },
+
+    validationTitle: "Analytische Validierung und Qualitätskontrolle",
+    validationPoints: [
+      "Bestätigung der Reinheit mittels Hochleistungsflüssigkeitschromatographie (HPLC)",
+      "Verifizierung der molekularen Identität mittels Massenspektrometrie (MS)",
+      "Strukturanalyse mittels UV-Spektrophotometrie",
+      "Verifizierung der Chargenidentität und Konsistenz",
+      "Endotoxin- und mikrobielle Kontaminationsprüfung"
+    ],
+
+    regulatoryTitle: "Regulatorische und Compliance-Informationen",
+    regulatoryText:
+      "AOD9604 5mg wird ausschließlich für Laborforschung und wissenschaftliche Untersuchungen geliefert. Es ist nicht für medizinische Anwendung, menschlichen Konsum, veterinärmedizinische Nutzung oder kosmetische Anwendungen zugelassen. BioPeptides stellt auf Anfrage Analysezertifikate (COA) und Sicherheitsdatenblätter (MSDS) bereit, um die Einhaltung von Laborstandards in Europa und weltweit zu unterstützen.",
+
+    whyTitle: "Warum von BioPeptides beziehen?",
+    whyText:
+      "BioPeptides wird von europäischen und internationalen Forschungseinrichtungen für die Lieferung hochreiner synthetischer Peptide mit umfassender analytischer Dokumentation geschätzt. Forscher, die Peptide online kaufen, wählen BioPeptides aufgrund von Konsistenz, Transparenz und zuverlässiger Forschungsqualität.",
+
+    faqTitle: "Häufig gestellte Fragen",
+    faqItems: [
+      {
+        q: "Wofür wird AOD9604 5mg in der Forschung verwendet?",
+        a: "AOD9604 5mg wird hauptsächlich zur Untersuchung zellulärer Signalgebung, Rezeptorbindungsassays, metabolischer Regulation und Protein-Peptid-Interaktionen eingesetzt. Labore in Europa und weltweit erwerben dieses Peptid, um molekulare Signalwege und regenerative Zellbiologie unter kontrollierten in-vitro Bedingungen zu untersuchen."
+      },
+      {
+        q: "Wie sollte AOD9604 5mg gelagert werden?",
+        a: "Das Peptid sollte lyophilisiert bei −20°C gelagert werden, um die Stabilität zu erhalten. Feuchtigkeit, wiederholte Gefrier-Auftau-Zyklen und längere Lichteinwirkung sollten vermieden werden. Rekonstituierte Lösungen bleiben unter Kühlung 24–48 Stunden stabil und sichern experimentelle Konsistenz und Reproduzierbarkeit."
+      },
+      {
+        q: "Welche Lösungsmittel können zum Auflösen von AOD9604 5mg verwendet werden?",
+        a: "Dieses Peptid löst sich effizient in bakteriostatischem Wasser, steriler Kochsalzlösung, sauren Puffern oder organischen analytischen Lösungsmitteln. Eine sachgerechte Rekonstitution bewahrt die Peptidintegrität für Rezeptorbindungsstudien, enzymatische Assays und Stoffwechselforschung."
+      },
+      {
+        q: "Wie rein ist AOD9604 5mg?",
+        a: "Jede Charge besitzt eine Reinheit von ≥99% nach HPLC und wird durch Massenspektrometrie und UV-Spektroskopie verifiziert. Diese Reinheit gewährleistet Zuverlässigkeit in experimentellen Workflows und Reproduzierbarkeit über verschiedene Assays hinweg."
+      },
+      {
+        q: "Kann ich AOD9604 online für Laborforschung kaufen?",
+        a: "Ja, BioPeptides bietet sichere und regelkonforme Möglichkeiten, Peptide online in ganz Europa zu kaufen. Forscher können hochreines AOD9604 (CAS 386264-39-7) mit korrekter Dokumentation und COA-Verifizierung beziehen."
+      },
+      {
+        q: "Wie lautet die CAS-Nummer von AOD9604 5mg?",
+        a: "Die CAS-Nummer für AOD9604 lautet 386264-39-7. Diese Kennung ist wichtig für Verifizierung, regulatorische Compliance und Forschungsdokumentation."
+      },
+      {
+        q: "Ist AOD9604 5mg für Langzeitexperimente geeignet?",
+        a: "Ja, bei lyophilisierter Lagerung bei −20°C bleibt das Peptid über Monate stabil. Eine korrekte Lagerung schützt vor Oxidation, Feuchtigkeit und Abbau bei langfristigen in-vitro Studien."
+      },
+      {
+        q: "Welche analytischen Methoden verifizieren AOD9604 5mg?",
+        a: "Jede Charge wird mittels HPLC, Massenspektrometrie, UV-Spektrophotometrie sowie Endotoxin- und mikrobieller Prüfung getestet, um hohe Reinheit und molekulare Integrität sicherzustellen."
+      }
+    ],
+         chemicalProperties: {
+  molecularFormula: "C78H123N23O23S2",
+  molecularWeight: "1815.1",
+  monoisotopicMass: "1813.86035961",
+  polarArea: "815",
+  complexity: "3710",
+  xlogP: "-4.8",
+  heavyAtomCount: "126",
+  hydrogenBondDonorCount: "28",
+  hydrogenBondAcceptorCount: "28",
+  rotatableBondCount: "45",
+  cid: " 71300630",
+  inchi:
+    " InChI=1S/C78H123N23O23S2/c1-9-41(8)62(101-68(115)47(18-14-28-86-78(83)84)91-69(116)50(29-38(2)3)95-63(110)45(79)30-43-19-21-44(104)22-20-43)75(122)100-61(40(6)7)74(121)94-49(23-25-56(80)105)67(114)98-55-37-126-125-36-54(65(112)88-32-57(106)89-51(76(123)124)31-42-15-11-10-12-16-42)97-70(117)52(34-102)90-58(107)33-87-64(111)48(24-26-59(108)109)93-73(120)60(39(4)5)99-71(118)53(35-103)96-66(113)46(92-72(55)119)17-13-27-85-77(81)82/h10-12,15-16,19-22,38-41,45-55,60-62,102-104H,9,13-14,17-18,23-37,79H2,1-8H3,(H2,80,105)(H,87,111)(H,88,112)(H,89,106)(H,90,107)(H,91,116)(H,92,119)(H,93,120)(H,94,121)(H,95,110)(H,96,113)(H,97,117)(H,98,114)(H,99,118)(H,100,122)(H,101,115)(H,108,109)(H,123,124)(H4,81,82,85)(H4,83,84,86)/t41-,45-,46-,47-,48-,49-,50-,51-,52-,53-,54-,55-,60-,61-,62-/m0/s1",
+  inchiKey: "GVIYUKXRXPXMQM-BPXGDYAESA-N",
+
+  canonicalSmiles:
+    "CCC(C)C(C(=O)NC(C(C)C)C(=O)NC(CCC(=O)N)C(=O)NC1CSSCC(NC(=O)C(NC(=O)CNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCCNC(=N)N)CO)C(C)C)CCC(=O)O)CO)C(=O)NCC(=O)NC(CC2=CC=CC=C2)C(=O)O)NC(=O)C(CCCNC(=N)N)NC(=O)C(CC(C)C)NC(=O)C(CC3=CC=C(C=C3)O)N",
+
+  isomericSmiles:
+    "CC[C@H](C)[C@@H](C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@H]1CSSC[C@H](NC(=O)[C@@H](NC(=O)CNC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC1=O)CCCNC(=N)N)CO)C(C)C)CCC(=O)O)CO)C(=O)NCC(=O)N[C@@H](CC2=CC=CC=C2)C(=O)O)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC3=CC=C(C=C3)O)N",
+
+  iupacName:
+    "(2S)-2-[[2-[[(4R,7S,13S,16S,19S,22S,25R)-25-[[(2S)-5-amino-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]-4-methylpentanoyl]amino]-5-carbamimidamidopentanoyl]amino]-3-methylpentanoyl]amino]-3-methylbutanoyl]amino]-5-oxopentanoyl]amino]-22-(3-carbamimidamidopropyl)-13-(2-carboxyethyl)-7,19-bis(hydroxymethyl)-6,9,12,15,18,21,24-heptaoxo-16-propan-2-yl-1,2-dithia-5,8,11,14,17,20,23-heptazacyclohexacosane-4-carbonyl]amino]acetyl]amino]-3-phenylpropanoic acid"
+}
+  }
+},
+"bpc-157-tb-500-blend-60mg": {
+  name: "BPC-157 + TB-500 Mischung 60mg",
+  tagline: "Hochdosiertes Dual-Peptid-Forschungssystem",
+  cas: "137525-51-0, 77591-33-4, 89030-95-5",
+
+  // Short card / hero text
+  strength: [
+    "BPC-157 + TB-500 Mischung 60mg ist eine hochreine synthetische Dual-Peptid-Formulierung, die für fortgeschrittene Laborforschungsanwendungen entwickelt wurde. Hergestellt mittels Festphasen-Peptidsynthese (SPPS) und validiert durch HPLC, Massenspektrometrie und UV-Spektrophotometrie, gewährleistet diese Mischung ≥99% Reinheit, molekulare Integrität und Reproduzierbarkeit. Identifiziert durch CAS 137525-51-0, 77591-33-4 und 89030-95-5, wird sie häufig von europäischen Laboren ausgewählt, die hochwertige Peptide online für zelluläre Signalgebung, Proteininteraktionen, Angiogenese-Modellierung und Forschung zu metabolischen Signalwegen beziehen."
+  ],
+
+  // Hero / intro description
+  topDescription: {
+    p0: "BPC-157 + TB-500 Mischung 60mg ist ein hochvolumiges synthetisches Peptidsystem, das für Labore entwickelt wurde, die eine verlängerte experimentelle Kontinuität und präzise kontrolliertes Material benötigen.",
+    p1: "Hergestellt mittels Festphasen-Peptidsynthese (SPPS), wird jede Charge durch HPLC, Massenspektrometrie und UV-Analyse analytisch verifiziert, um Reinheit, molekulare Identität und Chargenkonsistenz zu bestätigen.",
+    p2: "Von Forschungseinrichtungen in Deutschland, Frankreich, Italien, Spanien, den Niederlanden, Schweden und weiteren EU-Regionen geschätzt, unterstützt das 60mg-Format langfristige, wiederholte und mehrphasige in-vitro Studien."
+  },
+
+  // Full product page content
+  content: {
+    overviewTitle: "Fortgeschrittenes synthetisches Peptidsystem für Laboruntersuchungen",
+    overview: [
+      "BPC-157 + TB-500 Mischung 60mg ist eine professionell entwickelte Dual-Peptid-Forschungsverbindung, die von Bio-Peptides für kontinuierliche in-vitro Experimente bereitgestellt wird.",
+      "Die Formulierung kombiniert zwei intensiv untersuchte synthetische Peptide unter kontrollierten Produktionsbedingungen, um Chargengleichmäßigkeit und reproduzierbares molekulares Verhalten über experimentelle Zyklen hinweg sicherzustellen.",
+      "Rückverfolgbar über CAS 137525-51-0, CAS 77591-33-4 und CAS 89030-95-5 unterstützt die Mischung transparente Dokumentation, interne Laborvalidierung und EU-konforme Forschungsanforderungen."
+    ],
+
+    scientificBackgroundTitle: "Entwickelt für kontinuierliche Forschungsabläufe",
+    scientificBackground: [
+      "Höher dosierte Peptidmischungen werden in der modernen biochemischen und molekularen Forschung zunehmend bevorzugt, wenn experimentelle Kontinuität und reduzierte Variabilität entscheidende Erfolgsfaktoren sind.",
+      "Das 60mg-Format minimiert Fläschchenwechsel während langfristiger oder mehrphasiger Studien und unterstützt stabile Konzentrationen über vergleichende experimentelle Designs hinweg.",
+      "Europäische Labore, die geförderte, publikationsorientierte und industrielle Forschung durchführen, wählen häufig höher dosierte Peptidformate, um Reproduzierbarkeit und logistische Effizienz zu verbessern.",
+      "Gemischte Peptidsysteme reduzieren zusätzlich Handhabungsvariabilität, Vorbereitungsfehler und Kontaminationsrisiken im Vergleich zur Kombination einzelner Peptidfläschchen."
+    ],
+
+    mechanismTitle: "Forschungsorientiertes molekulares Verhalten",
+    mechanismPoints: [
+      "Untersuchung interzellulärer Signal-Koordinationswege",
+      "Bewertung molekularer Empfindlichkeit gegenüber Wachstumsmediator-Signalen",
+      "Analyse von Gentranskription und regulatorischen Antwortmodellen",
+      "Bewertung der Reaktionsfähigkeit enzymatischer Signalwege",
+      "Erforschung mitochondrialer, ATP-bezogener und energie-regulierender Prozesse"
+    ],
+
+    applicationsTitle: "Häufige Laborforschungsanwendungen",
+    applications: [
+      {
+        title: "Regenerative Zellmodellierung",
+        text:
+          "Untersuchung kontrollierten Zellverhaltens, Zellmigration und Matrixinteraktionsmustern unter definierten in-vitro Laborbedingungen."
+      },
+      {
+        title: "Studien zur Proteinsynthese und zum Proteinabbau",
+        text:
+          "Bewertung transkriptioneller, translationaler und Peptid-Protein-Interaktionsverhalten mit hoher Reproduzierbarkeit."
+      },
+      {
+        title: "Rezeptorbindungs- und Affinitätsassays",
+        text:
+          "Untersuchung von Ligand-Rezeptor-Dynamik, Bindungsaffinität und Signalaktivierungsschwellen."
+      },
+      {
+        title: "Strukturelle Matrixforschung",
+        text:
+          "Erforschung des Verhaltens extrazellulärer Strukturen, der Matrixorganisation und zellulärer Mikroumgebungen."
+      },
+      {
+        title: "Metabolische und mitochondriale Analyse",
+        text:
+          "Bewertung der ATP-Produktion, mitochondrialer Antworten und zellulärer Energie-Regulationswege."
+      },
+      {
+        title: "Profilierung enzymatischer Reaktionen",
+        text:
+          "Analyse von Enzymaktivierung, Hemmung und Empfindlichkeit über molekulare Signalwege hinweg."
+      }
+    ],
+
+    molecularTitle: "Molekulare Zusammensetzung und Eigenschaften",
+    molecularPoints: [
+      "Komponente 1: BPC-157 (synthetisches Pentadecapeptid)",
+      "Komponente 2: TB-500 (Thymosin-Beta-4-Analogon)",
+      "Referenzkomponente: CAS 89030-95-5 für analytische Rückverfolgbarkeit",
+      "Struktur: Lineare synthetische Peptidketten, geliefert als gemischte Formulierung",
+      "Dosisformat: Hochkonzentriertes 60mg-Mischfläschchen"
+    ],
+
+    stabilityTitle: "Stabilitäts- und Lagerungseigenschaften",
+    stabilityPoints: [
+      "Wird als lyophilisiertes Pulver für optimale molekulare Stabilität geliefert",
+      "Empfohlene Lagertemperatur: −20°C",
+      "Empfindlich gegenüber Feuchtigkeit, Lichteinwirkung und erhöhten Temperaturen",
+      "Vorhersehbares Abbauverhalten oberhalb der Raumtemperatur",
+      "Rekonstituierte Lösungen sind unter Kühlung in der Regel 24–48 Stunden stabil"
+    ],
+
+    solubilityTitle: "Kompatibilität bei der Rekonstitution",
+    solubilityPoints: [
+      "Bakteriostatisches Wasser",
+      "Sterile Kochsalzlösung",
+      "Säureangepasste Puffersysteme",
+      "Ausgewählte organische Lösungsmittel in Analysequalität"
+    ],
+
+    techSpecsTitle: "Technische Spezifikationen",
+    techSpecs: {
+      productName: "BPC-157 + TB-500 Mischung 60mg",
+      cas: "137525-51-0, 77591-33-4, 89030-95-5",
+      purity: "≥99% (HPLC-verifiziert)",
+      unitSize: "60 mg gemischtes Fläschchen",
+      form: "Lyophilisierte Peptidmischung",
+      synthesis: "Festphasen-Peptidsynthese (SPPS)",
+      analytical:
+        "HPLC, Massenspektrometrie, UV-Spektrophotometrie",
+      molecularStructure: "Lineare synthetische Peptidketten",
+      stability: "Hoch bei empfohlener Laborlagerung"
+    },
+
+    validationTitle: "Qualitätskontrolle und Dokumentation",
+    validationPoints: [
+      "HPLC-Reinheitsbestätigung",
+      "Verifizierung der molekularen Identität mittels Massenspektrometrie",
+      "UV-spektrophotometrische Konzentrationsanalyse",
+      "Prüfung der Chargenkonsistenz und Reproduzierbarkeit",
+      "Endotoxin- und mikrobielle Screening-Prüfung"
+    ],
+
+    regulatoryTitle: "Regulatorische Erklärung",
+    regulatoryText:
+      "BPC-157 + TB-500 Mischung 60mg wird ausschließlich für Laborforschung und wissenschaftliche Untersuchungen geliefert. Sie ist nicht als Arzneimittel, Lebensmittel, Kosmetikum oder Medizinprodukt zugelassen und nicht für den menschlichen oder tierischen Konsum bestimmt. Analysezertifikate (COA) und Sicherheitsdatenblätter (MSDS) sind auf Anfrage erhältlich, um die institutionelle EU-Compliance zu unterstützen.",
+
+    faqTitle: "Häufig gestellte Fragen",
+    faqItems: [
+      {
+        q: "Welchen Zweck hat die BPC-157 + TB-500 Mischung 60mg?",
+        a:
+          "Sie wird ausschließlich in der Laborforschung verwendet, um zelluläre Signalgebung, Proteininteraktionen, Angiogenese-Modelle und molekulares Signalwegverhalten unter kontrollierten in-vitro Bedingungen zu untersuchen."
+      },
+      {
+        q: "Welche CAS-Nummern sind mit dieser Mischung verbunden?",
+        a:
+          "Die Formulierung umfasst CAS 137525-51-0 (BPC-157), CAS 77591-33-4 (TB-500) und CAS 89030-95-5 für vollständige analytische Rückverfolgbarkeit."
+      },
+      {
+        q: "Ist dieses Produkt für medizinische oder klinische Anwendungen zugelassen?",
+        a:
+          "Nein. Dieses Produkt ist ausschließlich für die Laborforschung bestimmt und nicht für menschliche, veterinärmedizinische oder klinische Anwendungen zugelassen."
+      },
+      {
+        q: "Warum wählen Forscher das 60mg-Format?",
+        a:
+          "Das 60mg-Format unterstützt verlängerte Studien, mehrere experimentelle Replikate und reduzierte Chargenvariabilität in fortgeschrittenen Forschungsprojekten."
+      },
+      {
+        q: "Wie sollte die Mischung gelagert werden?",
+        a:
+          "Das lyophilisierte Pulver sollte bei −20°C gelagert und vor Licht und Feuchtigkeit geschützt werden."
+      },
+      {
+        q: "Können europäische Labore dieses Peptid online kaufen?",
+        a:
+          "Ja. Bio-Peptides liefert diese Mischung europaweit mit vollständiger analytischer Dokumentation."
+      },
+      {
+        q: "Welche analytischen Tests werden durchgeführt?",
+        a:
+          "Jede Charge wird mittels HPLC, Massenspektrometrie und UV-Analyse verifiziert."
+      },
+      {
+        q: "Welche Lösungsmittel eignen sich für die Rekonstitution?",
+        a:
+          "Bakteriostatisches Wasser, sterile Kochsalzlösung, saure Puffer und kompatible analytische Lösungsmittel werden häufig verwendet."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C62H98N16O22",
+      molecularWeight: "1419.5",
+      monoisotopicMass: "1418.70415882",
+      polarArea: "573",
+      complexity: "3040",
+      xlogP: "-9",
+      heavyAtomCount: "100",
+      hydrogenBondDonorCount: "16",
+      hydrogenBondAcceptorCount: "24",
+      rotatableBondCount: "39",
+      cid: "9941957",
+      inchi:
+        "InChI=1S/C62H98N16O22/...",
+      inchiKey: "HEEWEZGQMLZMFE-RKGINYAYSA-N",
+      canonicalSmiles:
+        "CC(C)CC(C(=O)NC(C(C)C)C(=O)O)...",
+      isomericSmiles:
+        "C[C@@H](C(=O)N[C@@H]...)",
+      iupacName:
+        "(4S)-4-[(2-aminoacetyl)amino]-5-[(2S)-2-[(2S)-2-[(2S)-2-..."
+    }
+  }
+},
+"ghrp-2-5mg-x-10-ipamorelin-5mg-x-10": {
+  name: "GHRP-2 5mg ×10 + Ipamorelin 5mg ×10 (Bündel)",
+  tagline: "Duales GH-Sekretagogum-Forschungspeptid-Bündel",
+  cas: "GHRP-2: 158861-67-7 | Ipamorelin: 170851-70-4",
+
+  strength: [
+    "Das GHRP-2 & Ipamorelin 5mg ×10 Bündel von BioPeptides ist eine hochreine Peptidkombination in Forschungsqualität, entwickelt für fortgeschrittene Laborstudien zur Wachstumshormon-Signalgebung, Aktivierung des Ghrelin-Rezeptors und Analyse endokriner Signalwege. Dieses Bündel enthält GHRP-2 (CAS 158861-67-7) und Ipamorelin (CAS 170851-70-4), jeweils geliefert in zehn einzelnen 5mg-Fläschchen für experimentelle Flexibilität und langfristige Forschungsabläufe. Auf ≥99% HPLC-Reinheit gereinigt, bieten die Peptide eine konsistente molekulare Leistung für kontrollierte biochemische und in-vitro Forschung. Labore in ganz Europa vertrauen auf BioPeptides, um Peptide online sicher über EU-freundliche Logistik und verifizierte analytische Dokumentation zu beziehen."
+  ],
+
+  topDescription: {
+    p0: "Das GHRP-2 & Ipamorelin 5mg ×10 Bündel ist eine Peptidkombination in Forschungsqualität, entwickelt für Laboruntersuchungen zur Wachstumshormon-Signalgebung, Ghrelin-Rezeptor-Aktivierung und Modulation endokriner Signalwege.",
+    p1: "Hergestellt mittels präziser Festphasen-Peptidsynthese (SPPS) und gereinigt auf ≥99% HPLC-Reinheit, bieten die Peptide zuverlässige molekulare Stabilität für Rezeptorbindungs-Experimente und Studien zur endokrinen Signalgebung.",
+    p2: "BioPeptides liefert dieses Multi-Vial-Forschungsbündel an Labore in Deutschland, Frankreich, Italien, Spanien, den Niederlanden, Schweden, Belgien, Österreich und weiteren europäischen Forschungsregionen."
+  },
+
+  components: [
+    "GHRP-2 (Growth Hormone–Releasing Peptide-2) — 5mg ×10 Fläschchen",
+    "Ipamorelin — 5mg ×10 Fläschchen"
+  ],
+
+  content: {
+
+    overviewTitle: "Forschungsüberblick zu GHRP-2 & Ipamorelin",
+    overview: [
+      "Das GHRP-2 & Ipamorelin Bündel kombiniert zwei Wachstumshormon-Sekretagogum-Peptide, die häufig in der Forschung zur endokrinen Signalgebung untersucht werden.",
+      "GHRP-2 aktiviert Ghrelin-Rezeptoren und wird umfassend hinsichtlich seiner Rolle in Signalwegen zur Wachstumshormonfreisetzung untersucht.",
+      "Ipamorelin wird wegen seiner selektiven Interaktion mit dem Ghrelin-Rezeptor und seines fokussierten endokrinen Signalprofils erforscht.",
+      "Gemeinsam ermöglichen diese Peptide Forschern, Rezeptorempfindlichkeit, Signalintensität und nachgeschaltete zelluläre Reaktionen in kontrollierten Labormodellen zu untersuchen."
+    ],
+
+    scientificBackgroundTitle: "Wissenschaftlicher Hintergrund von GHRP-2 & Ipamorelin",
+    scientificBackground: [
+      "Wachstumshormon-Sekretagoga interagieren mit Ghrelin-Rezeptoren, um endokrine Signalwege im Zusammenhang mit der Hormonfreisetzung zu beeinflussen.",
+      "GHRP-2 wird häufig in Forschungsmodellen eingesetzt, um starke Rezeptoraktivierung und robuste GH-Signaldynamik zu untersuchen.",
+      "Ipamorelin wird aufgrund seines selektiven Rezeptorinteraktionsprofils untersucht, wodurch Forscher Signalspezifität und Rezeptorselektivität analysieren können.",
+      "In Laborumgebungen ermöglicht die Kombination dieser Peptide eine vergleichende Analyse von Signalstärke, Rezeptoreffizienz und endokrinen Rückkopplungsmechanismen."
+    ],
+
+    mechanismTitle: "Mechanistische Forschungsperspektive",
+    mechanismPoints: [
+      "Analyse der Ghrelin-Rezeptor-Aktivierung und Sekretagogum-Signalwege",
+      "Modellierung von Signalwegen zur Wachstumshormonfreisetzung",
+      "Studien zu Rezeptorinteraktion und Ligandenbindung",
+      "Vergleich von Signalintensität und Selektivität",
+      "Forschung zu endokrinen Rückkopplungsschleifen und Signalwegkoordination"
+    ],
+
+    applicationsTitle: "Primäre Forschungsanwendungen",
+    applications: [
+      {
+        title: "Studien zur Wachstumshormonfreisetzung",
+        text: "Das Bündel wird in der Laborforschung eingesetzt, um GH-Sekretionsdynamik, Signalschwellen und endokrine Signalwegreaktionen zu analysieren."
+      },
+      {
+        title: "Forschung zur Ghrelin-Rezeptor-Signalgebung",
+        text: "Forscher untersuchen Rezeptoraktivierungsmuster und Ligandeninteraktionsverhalten unter Verwendung beider Sekretagoga."
+      },
+      {
+        title: "Modellierung des endokrinen Systems",
+        text: "Die Peptidkombination ermöglicht Wissenschaftlern die Untersuchung von Hormonregulationsmechanismen und endokrinen Rückkopplungsprozessen."
+      },
+      {
+        title: "Zelluläre und molekularbiologische Studien",
+        text: "Labore wenden dieses Bündel in zellbasierten Assays an, um intrazelluläre Signalkaskaden und Genexpressionsantworten zu erforschen."
+      },
+      {
+        title: "In-vitro- und präklinische Forschungsmodelle",
+        text: "Das Bündel wird häufig in kontrollierte nicht-klinische Modelle integriert, die endokrine Signalgebung und rezeptorvermittelte Signalwege untersuchen."
+      }
+    ],
+
+    molecularTitle: "Molekulare Eigenschaften",
+    molecularPoints: [
+      "Peptidtyp: Wachstumshormon-Sekretagogum-Peptide",
+      "GHRP-2 CAS-Kennung: 158861-67-7",
+      "Ipamorelin CAS-Kennung: 170851-70-4",
+      "GHRP-2 Molekulargewicht: ~817.9 g/mol",
+      "Ipamorelin Molekulargewicht: ~711.9 g/mol",
+      "Form: Lyophilisierte Peptidpulver, geliefert in separaten Fläschchen"
+    ],
+
+    stabilityTitle: "Stabilitätsprofil und Lagerungsempfehlungen",
+    stabilityPoints: [
+      "Lyophilisierte Peptide bei −20°C für langfristige Stabilität lagern",
+      "Fläschchen vor Feuchtigkeit und Lichteinwirkung schützen",
+      "Wiederholte Gefrier-Auftau-Zyklen nach der Rekonstitution vermeiden",
+      "Mit sterilem Lösungsmittel in Laborqualität rekonstituieren",
+      "Peptide mit aseptischen Labortechniken handhaben"
+    ],
+
+    solubilityTitle: "Löslichkeit und Rekonstitutionsoptionen",
+    solubilityPoints: [
+      "Steriles bakteriostatisches Wasser",
+      "Sterile Kochsalzlösungen",
+      "Gepufferte wässrige Laborlösungen",
+      "Standardmäßige biochemische Assay-Puffer",
+      "Lösungsmittelsysteme in Laborqualität"
+    ],
+
+    techSpecsTitle: "Technische Spezifikationen",
+    techSpecs: {
+      productName: "GHRP-2 5mg ×10 + Ipamorelin 5mg ×10 Bündel",
+      brand: "BioPeptides",
+      cas: "158861-67-7 | 170851-70-4",
+      purity: "≥99% (HPLC-verifiziert)",
+      unitSize: "5mg ×10 Fläschchen pro Peptid",
+      form: "Lyophilisiertes Pulver (separate Fläschchen)",
+      synthesis: "Festphasen-Peptidsynthese (SPPS)",
+      analytical: "HPLC, Massenspektrometrie",
+      molecularStructure: "Synthetische Peptidhormone",
+      stability: "Hoch bei sachgemäßer Lagerung"
+    },
+
+    validationTitle: "Analytische Validierung und Qualitätssicherung",
+    validationPoints: [
+      "Verifizierung der Reinheit mittels Hochleistungsflüssigkeitschromatographie (HPLC)",
+      "Bestätigung des Molekulargewichts mittels Massenspektrometrie",
+      "Validierung der strukturellen Integrität und Peptidsequenz",
+      "Prüfung der Chargenkonsistenz",
+      "Peptidstabilität und analytische Verifizierung"
+    ],
+
+    regulatoryTitle: "Regulatorische und Compliance-Erklärung",
+    regulatoryText:
+      "Das von BioPeptides gelieferte GHRP-2 & Ipamorelin 5mg ×10 Bündel ist ausschließlich für die Laborforschung bestimmt. Es ist nicht für menschlichen Konsum, veterinärmedizinische Nutzung, kosmetische Behandlung oder therapeutische Anwendungen zugelassen. Käufer müssen die Einhaltung geltender Forschungsvorschriften und institutioneller Richtlinien sicherstellen.",
+
+    faqTitle: "Häufig gestellte Fragen",
+    faqItems: [
+      {
+        q: "Wofür wird das GHRP-2 & Ipamorelin 5mg ×10 Bündel in der Forschung verwendet?",
+        a: "Dieses Bündel wird in der Laborforschung eingesetzt, um Mechanismen der Wachstumshormonfreisetzung, Ghrelin-Rezeptor-Signalgebung, endokrine Signalweginteraktionen und vergleichendes Sekretagogum-Verhalten in kontrollierten, nicht-klinischen Forschungsumgebungen zu untersuchen."
+      },
+      {
+        q: "Wie unterscheiden sich GHRP-2 und Ipamorelin in Forschungsstudien?",
+        a: "GHRP-2 wird wegen seiner starken Rezeptoraktivierung und robusten GH-Signalgebung untersucht, während Ipamorelin aufgrund seiner selektiven Rezeptorinteraktion erforscht wird, wodurch ein Vergleich von Signalintensität und Signalwegspezifität möglich ist."
+      },
+      {
+        q: "Warum werden beide Peptide in mehreren 5mg-Fläschchen geliefert?",
+        a: "Mehrere Fläschchen verbessern die Stabilität, reduzieren das Risiko des Abbaus und ermöglichen eine flexible experimentelle Planung über langfristige Forschungsprogramme hinweg, ohne wiederholte Gefrier-Auftau-Belastung."
+      },
+      {
+        q: "Ist dieses Bündel für in-vitro Forschungsmodelle geeignet?",
+        a: "Ja. Das Bündel wird häufig in kontrollierten in-vitro und präklinischen Forschungsmodellen verwendet, die sich auf Rezeptorbindung, intrazelluläre Signalgebung und endokrine Regulation konzentrieren."
+      },
+      {
+        q: "Kann dieses Bündel für vergleichende GH-Sekretagogum-Forschung verwendet werden?",
+        a: "Ja. Forscher verwenden diese Kombination häufig, um Signalwirkung, Rezeptorempfindlichkeit und nachgeschaltete Signalwegaktivierung zwischen verschiedenen GH-Sekretagoga zu vergleichen."
+      },
+      {
+        q:"Wie sollten die Peptide nach der Lieferung gelagert werden?",
+        a:"Lyophilisierte Fläschchen bei −20°C lagern, nur mit sterilem Laborlösungsmittel rekonstituieren und wiederholte Gefrier-Auftau-Zyklen vermeiden, um die molekulare Stabilität zu erhalten."
+      },
+      {
+        q:"Liefert BioPeptides dieses Bündel in ganz Europa?",
+        a:"Ja. BioPeptides versendet dieses Forschungsbündel in mehrere europäische Länder mit sicherer, EU-konformer Logistik und professioneller Verpackung."
+      },
+      {
+        q:"Warum BioPeptides für GH-Sekretagogum-Forschungspeptide wählen?",
+        a:"BioPeptides wird für hochreine Synthese, verifizierte CAS-Dokumentation, konsistente Chargenqualität und strikte Einhaltung europäischer Forschungsstandards geschätzt."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "Ipamorelin: C38H49N9O5 Pralmorelin: C45H55N9O6",
+  molecularWeight: "Ipamorelin: 711.9 Pralmorelin: 818",
+  monoisotopicMass: "Ipamorelin: 711.3856657 Pralmorelin: 817.42753051",
+  polarArea: "Ipamorelin: 240 Pralmorelin: 256",
+  complexity: "Ipamorelin: 1200 Pralmorelin: 1440",
+  xlogP: "Ipamorelin: 1.8 Pralmorelin: 2.5",
+  heavyAtomCount: "Ipamorelin: 52 Pralmorelin: 60",
+  hydrogenBondDonorCount: "Ipamorelin: 8 Pralmorelin: 9",
+  hydrogenBondAcceptorCount: "Ipamorelin: 8 Pralmorelin: 8",
+  rotatableBondCount: "Ipamorelin: 19 Pralmorelin: 21",
+  cid: "Ipamorelin: 9831659 Pralmorelin: 6918245",
+  inchi:
+    "Ipamorelin: InChI=1S/C38H49N9O5/c1-38(2,41)37(52)47-32(21-28-22-42-23-43-28)36(51)46-31(20-25-15-16-26-12-6-7-13-27(26)18-25)35(50)45-30(19-24-10-4-3-5-11-24)34(49)44-29(33(40)48)14-8-9-17-39/h3-7,10-13,15-16,18,22-23,29-32H,8-9,14,17,19-21,39,41H2,1-2H3,(H2,40,48)(H,42,43)(H,44,49)(H,45,50)(H,46,51)(H,47,52)/t29-,30+,31+,32-/m0/s1 Pralmorelin: InChI=1S/C45H55N9O6/c1-27(47)41(56)52-38(24-30-19-20-31-14-6-7-15-32(31)22-30)43(58)50-28(2)42(57)53-39(25-33-26-49-35-17-9-8-16-34(33)35)45(60)54-37(23-29-12-4-3-5-13-29)44(59)51-36(40(48)55)18-10-11-21-46/h3-9,12-17,19-20,22,26-28,36-39,49H,10-11,18,21,23-25,46-47H2,1-2H3,(H2,48,55)(H,50,58)(H,51,59)(H,52,56)(H,53,57)(H,54,60)/t27-,28+,36+,37-,38-,39+/m1/s1",
+  inchiKey: "Ipamorelin: NEHWBYHLYZGBNO-BVEPWEIPSA-N Pralmorelin: HRNLPPBUBKMZMT-RDRUQFPZSA-N",
+
+  canonicalSmiles:
+    "Ipamorelin: CC(C)(C(=O)NC(CC1=CN=CN1)C(=O)NC(CC2=CC3=CC=CC=C3C=C2)C(=O)NC(CC4=CC=CC=C4)C(=O)NC(CCCCN)C(=O)N)N Pralmorelin: CC(C(=O)NC(CC1=CC2=CC=CC=C2C=C1)C(=O)NC(C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCCN)C(=O)N)N",
+
+  isomericSmiles:
+    "Ipamorelin: CC(C)(C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@H](CC2=CC3=CC=CC=C3C=C2)C(=O)N[C@H](CC4=CC=CC=C4)C(=O)N[C@@H](CCCCN)C(=O)N)N Pralmorelin: C[C@H](C(=O)N[C@H](CC1=CC2=CC=CC=C2C=C1)C(=O)N[C@@H](C)C(=O)N[C@@H](CC3=CNC4=CC=CC=C43)C(=O)N[C@H](CC5=CC=CC=C5)C(=O)N[C@@H](CCCCN)C(=O)N)N",
+
+  iupacName:
+    "Ipamorelin: (2S)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2S)-2-[(2-amino-2-methylpropanoyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]-3-naphthalen-2-ylpropanoyl]amino]-3-phenylpropanoyl]amino]hexanamide Pralmorelin: (2S)-6-amino-2-[[(2R)-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2R)-2-aminopropanoyl]amino]-3-naphthalen-2-ylpropanoyl]amino]propanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+}
+  },
+
+  appearance: "Weiße lyophilisierte Pulver (separate Fläschchen)",
+  storage: "Bei −20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für menschliche oder veterinärmedizinische Verwendung."
+},
+"ghrp-6-5mg-x-10-modgrf-1-29-5mg-x-10": {
+  name: "GHRP-6 5mg ×10 + MOD-GRF (1-29) 5mg ×10 (Bündel)",
+
+  tagline:
+    "Dual-Pathway-Wachstumshormon-Signalisierungs-Forschungspeptid-Bündel für endokrine und Rezeptor-Koordinationsstudien",
+
+  cas: "87616-84-0 / 86168-78-7",
+
+  strength: [
+    "Das GHRP-6 & MOD-GRF (1-29) 5mg ×10 Bündel von BioPeptides ist eine hochreine Forschungspeptid-Kombination, die für fortgeschrittene Laborstudien zur Wachstumshormon-Signalgebung, Rezeptorkoordination und Analyse endokriner Signalwege entwickelt wurde. Hergestellt mittels präziser Festphasen-Peptidsynthese (SPPS) und auf ≥99% HPLC-Reinheit gereinigt, ermöglicht dieses Dual-Peptid-Bündel Forschern die Untersuchung ghrelinvermittelter und GHRH-vermittelter Signalwege in kontrollierten in-vitro Experimentalumgebungen."
+  ],
+
+  topDescription: {
+    p0: "Das GHRP-6 & MOD-GRF (1-29) Forschungsbündel kombiniert zwei komplementäre Peptide, die häufig in der endokrinen Forschung und in Studien zur Wachstumshormon-Signalgebung untersucht werden.",
+    p1: "Hergestellt mittels fortschrittlicher Festphasen-Peptidsynthese (SPPS) und auf ≥99% HPLC-Reinheit gereinigt, bietet dieses Bündel zuverlässige molekulare Genauigkeit und Reproduzierbarkeit für Studien zur Rezeptor-Signalgebung.",
+    p2: "BioPeptides liefert Forschungspeptide an Labore in Deutschland, Frankreich, Italien, Spanien, den Niederlanden, Schweden, Belgien, Österreich und weiteren europäischen Forschungsregionen."
+  },
+
+  components: [
+    "GHRP-6 (Growth Hormone Releasing Peptide-6) — 5mg ×10 Fläschchen",
+    "MOD-GRF (1-29) no DAC — 5mg ×10 Fläschchen"
+  ],
+
+  content: {
+
+    overviewTitle: "Forschungsüberblick",
+    overview: [
+      "Das GHRP-6 & MOD-GRF (1-29) Bündel wurde für fortgeschrittene Laborforschung zu Mechanismen der Wachstumshormonfreisetzung und endokrinen Signalwegen entwickelt.",
+      "GHRP-6 ist ein Wachstumshormon-Sekretagogum-Peptid, das wegen seiner Interaktion mit dem Ghrelin-Rezeptor (GHS-R) untersucht wird.",
+      "MOD-GRF (1-29) ist ein verkürztes Analogon des Growth Hormone Releasing Hormone (GHRH), das GH-Signalwege auf Hypophysenebene aktiviert.",
+      "Die gemeinsame Untersuchung dieser Peptide ermöglicht Forschern die Analyse von Rezeptorkoordination, Signalverstärkung und endokrinen Rückkopplungsmechanismen."
+    ],
+
+    scientificBackgroundTitle: "Wissenschaftlicher Hintergrund",
+    scientificBackground: [
+      "Die Freisetzung von Wachstumshormon in endokrinen Systemen wird durch mehrere rezeptorvermittelte Signalwege reguliert.",
+      "GHRP-6 stimuliert Ghrelin-Rezeptoren, die die Signalgebung der GH-Sekretion beeinflussen.",
+      "MOD-GRF (1-29) aktiviert GHRH-Rezeptoren auf Hypophysenebene.",
+      "Gemeinsam ermöglichen diese Peptide Forschern zu analysieren, wie unterschiedliche Rezeptorsysteme endokrine Signalantworten koordinieren."
+    ],
+
+    mechanismTitle: "Mechanistische Forschungsperspektive",
+    mechanismPoints: [
+      "Analyse der Aktivierung des Ghrelin-Rezeptors (GHS-R)",
+      "Untersuchung der Signalgebung des Growth-Hormone-Releasing-Hormone-Rezeptors",
+      "Erforschung endokriner Rückkopplungsschleifen",
+      "Studien zur Koordination hormoneller Signalwege",
+      "Modellierung von Ligand-Rezeptor-Interaktionen"
+    ],
+
+    applicationsTitle: "Primäre Forschungsanwendungen",
+    applications: [
+      {
+        title: "Dynamik der Wachstumshormonfreisetzung",
+        text: "Forscher untersuchen GH-Sekretionsmuster, den Zeitpunkt der Rezeptoraktivierung und die Effizienz endokriner Signalgebung."
+      },
+      {
+        title: "Koordination endokriner Signalwege",
+        text: "Die Peptidkombination ermöglicht die Untersuchung, wie ghrelinbasierte und GHRH-basierte Signalwege miteinander interagieren."
+      },
+      {
+        title: "Forschung zum Rezeptor-Cross-Talk",
+        text: "Wissenschaftler analysieren die Signalintegration zwischen Ghrelin-Rezeptoren und GHRH-Rezeptoren."
+      },
+      {
+        title: "Forschung zur zellulären Signalgebung",
+        text: "Wird in zellbasierten Experimenten eingesetzt, um intrazelluläre hormonelle Signalkaskaden zu untersuchen."
+      },
+      {
+        title: "In-vitro-Forschungsmodelle",
+        text: "Das Bündel wird häufig in nicht-klinischen Labormodellen verwendet, die endokrine Rezeptor-Signalgebung untersuchen."
+      }
+    ],
+
+    molecularTitle: "Molekulare Eigenschaften",
+    molecularPoints: [
+      "Peptidtyp: Peptide zur Wachstumshormon-Signalgebung",
+      "GHRP-6 CAS: 87616-84-0",
+      "MOD-GRF (1-29) CAS: 86168-78-7",
+      "Form: Lyophilisiertes Peptidpulver",
+      "Reinheit: ≥99% HPLC-verifiziert"
+    ],
+
+    stabilityTitle: "Stabilitätsprofil und Lagerungsempfehlungen",
+    stabilityPoints: [
+      "Lyophilisierte Peptide bei −20°C lagern",
+      "Vor Feuchtigkeit und Lichteinwirkung schützen",
+      "Wiederholte Gefrier-Auftau-Zyklen vermeiden",
+      "Rekonstituierte Lösungen sollten gekühlt gelagert werden",
+      "Unter aseptischen Laborbedingungen handhaben"
+    ],
+
+    solubilityTitle: "Löslichkeit und Rekonstitutionsoptionen",
+    solubilityPoints: [
+      "Steriles bakteriostatisches Wasser",
+      "Sterile Kochsalzlösung",
+      "Gepufferte wässrige Lösungen",
+      "Biochemische Assay-Puffer",
+      "Lösungsmittelsysteme in Laborqualität"
+    ],
+
+    techSpecsTitle: "Technische Spezifikationen",
+    techSpecs: {
+      productName: "GHRP-6 + MOD-GRF (1-29) Bündel",
+      brand: "BioPeptides",
+      cas: "87616-84-0 / 86168-78-7",
+      purity: "≥99% (HPLC-verifiziert)",
+      unitSize: "5mg ×10 Fläschchen je Peptid",
+      form: "Lyophilisiertes Peptidpulver",
+      synthesis: "Festphasen-Peptidsynthese (SPPS)",
+      analytical: "HPLC, Massenspektrometrie",
+      molecularStructure: "Synthetische Peptidhormone",
+      stability: "Hoch bei Lagerung bei −20°C"
+    },
+
+    validationTitle: "Analytische Validierung und Qualitätssicherung",
+    validationPoints: [
+      "Reinheitsverifizierung mittels Hochleistungsflüssigkeitschromatographie",
+      "Bestätigung des Molekulargewichts mittels Massenspektrometrie",
+      "Testung der strukturellen Integrität des Peptids",
+      "Analytische Konsistenz von Charge zu Charge",
+      "Validierung der Peptidstabilität"
+    ],
+
+    regulatoryTitle: "Regulatorische und Compliance-Erklärung",
+    regulatoryText:
+      "Dieses von BioPeptides gelieferte Peptidbündel ist ausschließlich für Labor- und wissenschaftliche Forschungszwecke bestimmt. Es ist nicht für menschlichen Konsum, veterinärmedizinische Verwendung, kosmetische Behandlung oder therapeutische Anwendungen zugelassen. Käufer müssen die Einhaltung geltender Forschungsvorschriften und institutioneller Richtlinien sicherstellen.",
+
+    faqTitle: "Häufig gestellte Fragen",
+    faqItems: [
+      {
+        q: "Was macht das GHRP-6 & MOD-GRF Bündel einzigartig für die Forschung?",
+        a: "Das Bündel ermöglicht Forschern, Wachstumshormon-Signalgebung über zwei komplementäre Rezeptorwege zu untersuchen, einschließlich Signaleinleitung, Signalverstärkung und Koordination endokriner Signalwege."
+      },
+      {
+        q: "Warum wird MOD-GRF (1-29) anstelle von vollständigem GHRH verwendet?",
+        a: "MOD-GRF (1-29) ist ein verkürztes GHRH-Analogon, das eine kontrollierte Rezeptoraktivierung erzeugt und eine präzise Untersuchung endokriner Signaldynamiken ermöglicht."
+      },
+      {
+        q: "Kann dieses Bündel langfristige Laborforschung unterstützen?",
+        a: "Ja. Das 5mg ×10 Fläschchenformat ermöglicht erweiterte Forschungsprotokolle und reduziert gleichzeitig das Risiko eines Peptidabbaus."
+      },
+      {
+        q: "Ist dieses Bündel für vergleichende GH-Signalgebungsforschung geeignet?",
+        a: "Ja. Forscher vergleichen häufig ghrelinvermittelte Signalgebung und GHRH-vermittelte Signalgebung mit dieser Peptidkombination."
+      },
+      {
+        q: "Wie unterscheidet sich GHRP-6 in der Forschung von anderen GH-Sekretagoga?",
+        a: "GHRP-6 wird wegen seiner spezifischen Interaktion mit dem Ghrelin-Rezeptor und seines Signalprofils untersucht, was es für Vergleichsstudien mit anderen GH-Sekretagoga wertvoll macht."
+      },
+      {
+        q: "Werden die Peptide im Bündel separat geliefert?",
+        a: "Ja. Jedes Peptid wird in einzelnen 5mg-Fläschchen geliefert, was die Stabilität verbessert, präzises experimentelles Design unterstützt und Gefrier-Auftau-Belastung minimiert."
+      },
+      {
+        q: "Welche Lagerbedingungen werden für dieses Bündel empfohlen?",
+        a: "Lyophilisierte Fläschchen sollten bei −20°C gelagert, nur mit sterilem Laborlösungsmittel rekonstituiert und vor wiederholten Gefrier-Auftau-Zyklen geschützt werden, um die Stabilität zu erhalten."
+      },
+      {
+        q:"Warum BioPeptides für MOD-GRF- und GHRP-6-Forschungspeptide wählen?",
+        a:"BioPeptides wird für hochreine Synthese, verifizierte CAS-Dokumentation, konsistente Chargenqualität und strikte Einhaltung europäischer Forschungsstandards geschätzt."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "Mehrere Peptide",
+      purity: "≥99%",
+      form: "Lyophilisiertes Pulver",
+      synthesis: "SPPS",
+      analyticalMethods: "HPLC, Massenspektrometrie"
+    }
+  },
+
+  appearance: "Weiße lyophilisierte Peptidpulver (separate Fläschchen)",
+  storage: "Bei −20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für menschliche oder veterinärmedizinische Verwendung."
+},
+"hexarelin-5mg-x-10-modgrf-1-29-5mg-x-10": {
+  name: "Hexarelin 5mg ×10 + MOD-GRF (1-29) 5mg ×10 (Bündel)",
+
+  tagline:
+    "Duales Wachstumshormon-Signalweg-Forschungspeptid-Bündel für fortgeschrittene Studien zur endokrinen Signalgebung",
+
+  cas: "Hexarelin: 140703-51-1 | MOD-GRF (1-29): 86168-78-7",
+
+  strength: [
+    "Dieses Dual-Peptid-Forschungsbündel kombiniert Hexarelin, ein starkes Wachstumshormon-Sekretagogum, das wegen der Aktivierung des Ghrelin-Rezeptors untersucht wird, mit MOD-GRF (1-29), einem modifizierten Analogon des Wachstumshormon-Releasing-Hormons, das zur Stimulation von Hypophysenrezeptoren erforscht wird. Zusammen werden diese Peptide häufig in der Laborforschung eingesetzt, um Mechanismen der Wachstumshormonfreisetzung, die Koordination endokriner Signalwege und rezeptorvermittelte Signalgebung innerhalb der Hypothalamus-Hypophysen-Achse zu untersuchen."
+  ],
+
+  topDescription: {
+    p0: "Hexarelin 5mg ×10 und MOD-GRF (1-29) 5mg ×10 von BioPeptides ist ein hochreines Forschungspeptid-Bündel, das für fortgeschrittene Laborstudien zur Wachstumshormon-Signalgebung, Rezeptorinteraktion und Koordination des endokrinen Systems entwickelt wurde.",
+    p1: "Jedes Peptid wird mittels fortschrittlicher Festphasen-Peptidsynthese (SPPS) synthetisiert und durch analytische Tests verifiziert, um hervorragende Reinheit und Reproduzierbarkeit für professionelle Forschungsumgebungen sicherzustellen.",
+    p2: "BioPeptides liefert Forschungspeptide an Labore in ganz Europa, darunter Deutschland, Frankreich, Italien, Spanien, die Niederlande, Belgien und skandinavische Forschungseinrichtungen."
+  },
+
+  components: [
+    "Hexarelin (wachstumshormonfreisetzendes Hexapeptid) — 5mg ×10 Fläschchen",
+    "MOD-GRF (1-29) no DAC (modifiziertes GHRH-Analogon) — 5mg ×10 Fläschchen"
+  ],
+
+  content: {
+
+    overviewTitle: "Forschungsüberblick",
+    overview: [
+      "Dieses Forschungsbündel kombiniert Hexarelin und MOD-GRF (1-29), zwei Peptide, die umfassend wegen ihrer Rolle in der Forschung zur Wachstumshormon-Signalgebung untersucht werden.",
+      "Hexarelin interagiert mit dem Wachstumshormon-Sekretagogum-Rezeptor (GHS-R), der auch als Ghrelin-Rezeptor bekannt ist.",
+      "MOD-GRF (1-29) stimuliert Hypophysenrezeptoren, die für die Freisetzung von Wachstumshormon verantwortlich sind.",
+      "Die gemeinsame Untersuchung dieser Peptide ermöglicht Forschern, synergistische endokrine Signalgebung über die Hypothalamus-Hypophysen-Achse hinweg zu erforschen."
+    ],
+
+    scientificBackgroundTitle: "Wissenschaftlicher Hintergrund",
+    scientificBackground: [
+      "Die Sekretion von Wachstumshormon wird durch komplexe Interaktionen zwischen hypothalamischen und hypophysären Signalwegen reguliert.",
+      "GHRH-Analoga wie MOD-GRF aktivieren Rezeptoren an der Hypophyse, die für die GH-Freisetzung verantwortlich sind.",
+      "Wachstumshormon-Sekretagoga wie Hexarelin aktivieren ghrelinvermittelte Signalwege.",
+      "Die Kombination beider Peptide ermöglicht Forschern, Rezeptor-Cross-Talk, Signalverstärkung und die Koordination endokriner Signalwege zu untersuchen."
+    ],
+
+    mechanismTitle: "Mechanistische Forschungsperspektive",
+    mechanismPoints: [
+      "Studien zur Aktivierung des Wachstumshormon-Sekretagogum-Rezeptors",
+      "Untersuchung des GHRH-Rezeptor-Signalwegs",
+      "Analyse der endokrinen Signalgebung der Hypothalamus-Hypophysen-Achse",
+      "Forschung zum Timing hormoneller Sekretion und zur Signalwegkoordination",
+      "Modellierung von Ligand-Rezeptor-Interaktionen"
+    ],
+
+    applicationsTitle: "Primäre Forschungsanwendungen",
+    applications: [
+      {
+        title: "Forschung zu Signalwegen der Wachstumshormonfreisetzung",
+        text: "Forscher untersuchen die Mechanismen, die für die Wachstumshormonsekretion durch kombinierte Aktivierung von Ghrelin-Rezeptor und GHRH-Rezeptor verantwortlich sind."
+      },
+      {
+        title: "Studien zur Hypothalamus-Hypophysen-Achse",
+        text: "Das Peptidbündel unterstützt Untersuchungen zur endokrinen Koordination zwischen hypothalamischer Signalgebung und hypophysärer Hormonfreisetzung."
+      },
+      {
+        title: "Forschung zu Peptid-Rezeptor-Interaktionen",
+        text: "Wissenschaftler untersuchen Rezeptorbindung, Ligandenaffinität und Signaldynamiken, die mit endokrinen Peptid-Signalwegen verbunden sind."
+      },
+      {
+        title: "Studien zur Koordination endokriner Signalgebung",
+        text: "Die Kombination ermöglicht die Analyse, wie mehrere hormonelle Signalwege innerhalb endokriner Regulationssysteme interagieren."
+      },
+      {
+        title: "Zelluläre und molekularbiologische Forschung",
+        text: "Labore setzen diese Peptide in zellbasierten Assays ein, um nachgeschaltete Signalkaskaden und molekulare Signalwegantworten zu untersuchen."
+      }
+    ],
+
+    molecularTitle: "Molekulare Eigenschaften",
+    molecularPoints: [
+      "Peptid 1: Hexarelin (Wachstumshormon-Sekretagogum)",
+      "CAS-Nummer: 140703-51-1",
+      "Molekulargewicht: ~887 g/mol",
+      "Peptid 2: MOD-GRF (1-29) no DAC (modifiziertes GHRH-Analogon)",
+      "CAS-Nummer: 86168-78-7",
+      "Molekulargewicht: ~3357 g/mol",
+      "Form: Lyophilisierte Peptidpulver",
+      "Reinheit: ≥99% HPLC-verifiziert"
+    ],
+
+    stabilityTitle: "Stabilitätsprofil und Lagerungsempfehlungen",
+    stabilityPoints: [
+      "Lyophilisierte Peptidfläschchen bei −20°C lagern",
+      "Vor Feuchtigkeit und direkter Lichteinwirkung schützen",
+      "Wiederholte Gefrier-Auftau-Zyklen vermeiden",
+      "Rekonstituierte Lösungen sollten gekühlt gelagert werden",
+      "Mit aseptischen Labortechniken handhaben"
+    ],
+
+    solubilityTitle: "Löslichkeit und Rekonstitutionsoptionen",
+    solubilityPoints: [
+      "Steriles bakteriostatisches Wasser",
+      "Sterile Kochsalzlösungen",
+      "Gepufferte wässrige Laborlösungen",
+      "Biochemische Assay-Puffer",
+      "Lösungsmittelsysteme in Laborqualität"
+    ],
+
+    techSpecsTitle: "Technische Spezifikationen",
+    techSpecs: {
+      productName: "Hexarelin + MOD-GRF (1-29) Forschungsbündel",
+      brand: "BioPeptides",
+      hexarelinCAS: "140703-51-1",
+      modGRFCAS: "86168-78-7",
+      purity: "≥99% (HPLC-verifiziert)",
+      unitSize: "5mg ×10 Fläschchen je Peptid",
+      form: "Lyophilisierte Pulver",
+      synthesis: "Festphasen-Peptidsynthese (SPPS)",
+      analytical: "HPLC und Massenspektrometrie",
+      molecularStructure: "Synthetische endokrine Forschungspeptide",
+      stability: "Hoch bei Lagerung bei −20°C"
+    },
+
+    validationTitle: "Analytische Validierung und Qualitätssicherung",
+    validationPoints: [
+      "Reinheitsverifizierung mittels Hochleistungsflüssigkeitschromatographie",
+      "Bestätigung des Molekulargewichts mittels Massenspektrometrie",
+      "Testung der strukturellen Integrität der Peptide",
+      "Validierung der analytischen Konsistenz von Charge zu Charge",
+      "Verifizierung der Peptidstabilität für Forschungszwecke"
+    ],
+
+    regulatoryTitle: "Regulatorische und Compliance-Erklärung",
+    regulatoryText:
+      "Hexarelin und MOD-GRF (1-29), geliefert von BioPeptides, sind ausschließlich für Labor- und wissenschaftliche Forschungszwecke bestimmt. Diese Materialien sind nicht für menschlichen Konsum, veterinärmedizinische Verwendung, kosmetische Anwendungen oder therapeutische Behandlungen zugelassen. Käufer müssen die Einhaltung geltender Forschungsvorschriften und institutioneller Richtlinien sicherstellen.",
+
+    faqTitle: "Häufig gestellte Fragen",
+
+    faqItems: [
+      {
+        q: "Was macht das 5mg ×10 Bündel für fortgeschrittene Forschung geeignet?",
+        a: "Die größere 5mg ×10 Fläschchenkonfiguration unterstützt langfristige Forschungsabläufe und ermöglicht Wissenschaftlern die Durchführung erweiterter Experimente ohne häufige Nachbestellungen."
+      },
+      {
+        q: "Warum werden Hexarelin und MOD-GRF gemeinsam untersucht?",
+        a: "Hexarelin aktiviert Ghrelin-Rezeptoren, während MOD-GRF GHRH-Rezeptoren stimuliert, wodurch Forscher koordinierte Wachstumshormon-Signalgebung über zwei komplementäre Wege untersuchen können."
+      },
+      {
+        q: "Kann dieses Peptidbündel in in-vitro Forschungsmodellen verwendet werden?",
+        a: "Ja. Das Bündel wird häufig in kontrollierten in-vitro Experimenten verwendet, die Rezeptorbindung, endokrine Signalwege und zelluläre Antwortmechanismen analysieren."
+      },
+      {
+        q: "Warum sind CAS-Nummern für diese Peptide wichtig?",
+        a: "CAS-Nummern gewährleisten eine genaue Identifikation von Verbindungen, Rückverfolgbarkeit und Reproduzierbarkeit in der Labordokumentation."
+      },
+      {
+        q: "Wie sollten diese Peptide gelagert werden?",
+        a: "Lyophilisierte Fläschchen sollten bei −20°C gelagert und vor Feuchtigkeit sowie wiederholten Gefrier-Auftau-Zyklen geschützt werden."
+      },
+      {
+        q: "Warum BioPeptides für Forschungspeptide wählen?",
+        a: "BioPeptides bietet hochreine Synthese, verifizierte CAS-Dokumentation, professionelle Laborverpackung und zuverlässige Logistik für Forschungseinrichtungen."
+      }
+    ],
+   chemicalProperties: {
+  molecularFormula: "	CJC-1295 Acetate: C152H252N44O42 Examorelin: C47H58N12O6",
+  molecularWeight: "CJC-1295 Acetate: 3367.9 Examorelin: 887",
+  monoisotopicMass: "CJC-1295 Acetate: 3365.8935782 Examorelin: 886.46022762",
+  polarArea: "CJC-1295 Acetate: 1450 Examorelin: 301",
+  complexity: "CJC-1295 Acetate: 7710 Examorelin: 1600",
+  xlogP: "CJC-1295 Acetate: -10.7 Examorelin: 2.3",
+  heavyAtomCount: "CJC-1295 Acetate: 238 Examorelin: 65",
+  hydrogenBondDonorCount: "CJC-1295 Acetate: 52 Examorelin: 11",
+  hydrogenBondAcceptorCount: "CJC-1295 Acetate: 48 Examorelin: 9",
+  rotatableBondCount: "CJC-1295 Acetate: 118 Examorelin: 23",
+  cid: "CJC-1295 Acetate: 56841945 Examorelin: 6918297",
+  inchi:
+    "CJC-1295 Acetate: InChI=1S/C152H252N44O42/c1-22-79(15)118(194-125(214)84(20)171-135(224)107(68-115(206)207)181-124(213)81(17)169-126(215)91(155)65-87-41-45-89(201)46-42-87)147(236)189-106(66-86-34-25-24-26-35-86)141(230)196-120(85(21)200)149(238)180-99(51-54-114(158)205)132(221)190-111(72-199)145(234)185-105(67-88-43-47-90(202)48-44-88)140(229)178-96(40-33-59-168-152(164)165)128(217)177-94(37-28-30-56-154)133(222)193-117(78(13)14)146(235)187-100(60-73(3)4)134(223)170-82(18)123(212)175-97(49-52-112(156)203)130(219)183-103(63-76(9)10)138(227)191-109(70-197)143(232)172-83(19)122(211)174-95(39-32-58-167-151(162)163)127(216)176-93(36-27-29-55-153)129(218)182-102(62-75(7)8)137(226)184-101(61-74(5)6)136(225)179-98(50-53-113(157)204)131(220)186-108(69-116(208)209)142(231)195-119(80(16)23-2)148(237)188-104(64-77(11)12)139(228)192-110(71-198)144(233)173-92(121(159)210)38-31-57-166-150(160)161/h24-26,34-35,41-48,73-85,91-111,117-120,197-202H,22-23,27-33,36-40,49-72,153-155H2,1-21H3,(H2,156,203)(H2,157,204)(H2,158,205)(H2,159,210)(H,169,215)(H,170,223)(H,171,224)(H,172,232)(H,173,233)(H,174,211)(H,175,212)(H,176,216)(H,177,217)(H,178,229)(H,179,225)(H,180,238)(H,181,213)(H,182,218)(H,183,219)(H,184,226)(H,185,234)(H,186,220)(H,187,235)(H,188,237)(H,189,236)(H,190,221)(H,191,227)(H,192,228)(H,193,222)(H,194,214)(H,195,231)(H,196,230)(H,206,207)(H,208,209)(H4,160,161,166)(H4,162,163,167)(H4,164,165,168)/t79-,80-,81+,82-,83-,84-,85+,91-,92-,93-,94-,95-,96-,97-,98-,99-,100-,101-,102-,103-,104-,105-,106-,107-,108-,109-,110-,111-,117-,118-,119-,120-/m0/s1 Examorelin: InChI=1S/C47H58N12O6/c1-27-34(33-15-7-9-17-37(33)54-27)23-41(58-44(62)35(49)22-31-25-51-26-53-31)45(63)55-28(2)43(61)57-40(21-30-24-52-36-16-8-6-14-32(30)36)47(65)59-39(20-29-12-4-3-5-13-29)46(64)56-38(42(50)60)18-10-11-19-48/h3-9,12-17,24-26,28,35,38-41,52,54H,10-11,18-23,48-49H2,1-2H3,(H2,50,60)(H,51,53)(H,55,63)(H,56,64)(H,57,61)(H,58,62)(H,59,65)/t28-,35-,38-,39+,40-,41+/m0/s1",
+  inchiKey: "CJC-1295 Acetate: XOZMWINMZMMOBR-HRDSVTNWSA-N Examorelin: RVWNMGKSNGWLOL-GIIHNPQRSA-N",
+
+  canonicalSmiles:
+    "CJC-1295 Acetate: CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)O)C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)N)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C(CC3=CC=C(C=C3)O)N Examorelin: CC1=C(C2=CC=CC=C2N1)CC(C(=O)NC(C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCCN)C(=O)N)NC(=O)C(CC6=CN=CN6)N",
+
+  isomericSmiles:
+    "CJC-1295 Acetate: CC[C@H](C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N)NC(=O)[C@H](C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H](C)NC(=O)[C@H](CC3=CC=C(C=C3)O)N Examorelin: CC1=C(C2=CC=CC=C2N1)C[C@H](C(=O)N[C@@H](C)C(=O)N[C@@H](CC3=CNC4=CC=CC=C43)C(=O)N[C@H](CC5=CC=CC=C5)C(=O)N[C@@H](CCCCN)C(=O)N)NC(=O)[C@H](CC6=CN=CN6)N",
+
+  iupacName:
+    "CJC-1295 Acetate: (3S)-4-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S,3R)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-[[(2R)-2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]-4-oxobutanoic acid Examorelin: (2S)-6-amino-2-[[(2R)-2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2S)-2-amino-3-(1H-imidazol-5-yl)propanoyl]amino]-3-(2-methyl-1H-indol-3-yl)propanoyl]amino]propanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+}
+
+  },
+
+  appearance: "Weiße lyophilisierte Peptidpulver (separate Fläschchen)",
+
+  storage: "Bei −20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für menschliche oder veterinärmedizinische Verwendung."
+},
+"n-acetyl-selank-amidate-10mg": {
+  name: "N-Acetyl Selank Amidate 10mg",
+
+  tagline:
+    "Stabilisierter Selank-Analogstoff für Forschung zu Neuropeptid-Signalgebung und Neurotransmitter-Regulation",
+
+  cas: "2212313-10-6",
+
+  strength: [
+    "N-Acetyl Selank Amidate 10mg von BioPeptides ist ein hochreines synthetisches Neuropeptid in Forschungsqualität, entwickelt für fortgeschrittene Laborstudien zur Neuropeptid-Signalgebung, Neurotransmitter-Modulation und peptidbasierter Neuromodulationsforschung. Hergestellt mittels präziser Festphasen-Peptidsynthese und auf ≥99% HPLC-Reinheit gereinigt, bietet dieser stabilisierte Selank-Analogstoff starke molekulare Stabilität und Reproduzierbarkeit. Identifiziert durch CAS 2212313-10-6, wird er in kontrollierter in-vitro Forschung in Europa und den Vereinigten Staaten umfassend eingesetzt."
+  ],
+
+  topDescription: {
+    p0: "N-Acetyl Selank Amidate ist ein chemisch stabilisierter Analogstoff des Selank-Neuropeptids, der in der Neurowissenschaft und Peptid-Signalgebungsforschung untersucht wird.",
+    p1: "Forscher untersuchen dieses Peptid hinsichtlich seiner Wechselwirkungen mit Signalwegen der Neurotransmitter-Regulation, Neuropeptid-Signalmechanismen und neuronalen Kommunikationssystemen.",
+    p2: "Die Ergänzung durch N-Acetyl- und Amidat-Funktionsgruppen verbessert die molekulare Stabilität und die Resistenz gegen enzymatischen Abbau, wodurch eine konsistente experimentelle Leistung ermöglicht wird."
+  },
+
+  components: [
+    "N-Acetyl Selank Amidate — stabilisierter Selank-Neuropeptid-Analogstoff",
+    "Hochreines lyophilisiertes Forschungspeptid",
+    "Peptidpräparation in Forschungsqualität",
+    "Gesamtpeptidmenge — 10 mg"
+  ],
+
+  content: {
+
+    overviewTitle: "Forschungsüberblick",
+    overview: [
+      "N-Acetyl Selank Amidate ist ein modifizierter Selank-Analogstoff, der in der neurowissenschaftlichen Forschung zur peptidvermittelten neuronalen Kommunikation verwendet wird.",
+      "Forscher untersuchen diese Verbindung, um Neuropeptid-Signalwege und Mechanismen der Neurotransmitter-Regulation zu erforschen.",
+      "Die stabilisierte molekulare Struktur ermöglicht eine verlängerte experimentelle Exposition in kontrollierten Laborumgebungen.",
+      "Das Peptid unterstützt breitere Untersuchungen zur Neuropeptidbiologie, synaptischen Signalgebung und Neuromodulationswegen."
+    ],
+
+    scientificBackgroundTitle: "Wissenschaftlicher Hintergrund",
+    scientificBackground: [
+      "Selank ist ein synthetisches Neuropeptid, das wegen seiner Beteiligung an Neurotransmitter-Modulation und neuronalen Kommunikationswegen untersucht wird.",
+      "N-Acetyl Selank Amidate ist ein chemisch modifiziertes Derivat, das zur Verbesserung der molekularen Stabilität und experimentellen Reproduzierbarkeit entwickelt wurde.",
+      "Forscher untersuchen diesen Analogstoff hinsichtlich seiner Wechselwirkungen mit GABAergen und serotonergen Signalsystemen.",
+      "Seine stabilisierte Struktur ermöglicht Experimente über längere Zeiträume ohne schnellen Peptidabbau."
+    ],
+
+    mechanismTitle: "Mechanistische Forschungsperspektive",
+    mechanismPoints: [
+      "Untersuchung von Neuropeptid-Signalwegen",
+      "Forschung zur Neurotransmitter-Modulation",
+      "Studien zur GABAergen Signalgebung",
+      "Forschung zu serotonergen Signalwegen",
+      "Vergleichende Untersuchungen von Selank-Analogstoffen"
+    ],
+
+    applicationsTitle: "Primäre Forschungsanwendungen",
+    applications: [
+      {
+        title: "Forschung zur Neuropeptid-Signalgebung",
+        text: "Forscher verwenden dieses Peptid, um peptidgesteuerte neuronale Kommunikationswege zu untersuchen."
+      },
+      {
+        title: "Studien zur Neurotransmitter-Modulation",
+        text: "Labormodelle analysieren Wechselwirkungen zwischen Selank-Analogstoffen und Neurotransmitter-Signalsystemen."
+      },
+      {
+        title: "Vergleichende Selank-Analogstoff-Forschung",
+        text: "Wissenschaftler vergleichen native Selank-Peptide mit modifizierten Analogstoffen, um Stabilitäts- und Signalgebungsunterschiede zu bewerten."
+      },
+      {
+        title: "Molekulare und zelluläre Neurowissenschaft",
+        text: "Eingesetzt in zellbasierten Assays zur Untersuchung nachgeschalteter neuronaler Signalgebung und Genexpressionsantworten."
+      },
+      {
+        title: "In-vitro-Neurowissenschaftsforschung",
+        text: "Weit verbreitet in kontrollierten Laborexperimenten zur Untersuchung von Neuropeptidbiologie und Neuromodulationswegen."
+      }
+    ],
+
+    molecularTitle: "Molekulare Eigenschaften",
+    molecularPoints: [
+      "Verbindungsname: N-Acetyl Selank Amidate",
+      "CAS-Nummer: 2212313-10-6",
+      "Peptidklasse: Modifizierter Selank-Neuropeptid-Analogstoff",
+      "Form: Lyophilisiertes Peptidpulver",
+      "Reinheit: ≥99% HPLC-verifiziert",
+      "Einheitsgröße: 10 mg Forschungspeptid"
+    ],
+
+    stabilityTitle: "Stabilitätsprofil und Lagerungsempfehlungen",
+    stabilityPoints: [
+      "Lyophilisiertes Peptid bei −20°C lagern",
+      "Vor Feuchtigkeit und Lichteinwirkung schützen",
+      "Wiederholte Gefrier-Auftau-Zyklen vermeiden",
+      "Mit sterilem Lösungsmittel in Laborqualität rekonstituieren",
+      "Fläschchen nach jeder Verwendung fest verschließen"
+    ],
+
+    solubilityTitle: "Löslichkeit und Hinweise zur Vorbereitung",
+    solubilityPoints: [
+      "Löslich in sterilem bakteriostatischem Wasser",
+      "Kompatibel mit gepufferten wässrigen Laborlösungen",
+      "Geeignet für Peptid-Neurowissenschaftsprotokolle",
+      "Anwendbar in Assays zur Neurotransmitter-Signalgebung",
+      "Kompatibel mit Zellkultur-Forschungssystemen"
+    ],
+
+    techSpecsTitle: "Technische Spezifikationen",
+    techSpecs: {
+      productName: "N-Acetyl Selank Amidate 10mg",
+      brand: "BioPeptides",
+      cas: "2212313-10-6",
+      purity: "≥99% (HPLC-verifiziert)",
+      form: "Lyophilisiertes Peptidpulver",
+      synthesis: "Festphasen-Peptidsynthese (SPPS)",
+      analytical: "HPLC- und Massenspektrometrie-Verifizierung",
+      molecularStructure: "Modifizierter Selank-Neuropeptid-Analogstoff",
+      stability: "Stabil unter Lagerbedingungen bei −20°C"
+    },
+
+    validationTitle: "Analytische Validierung und Qualitätssicherung",
+    validationPoints: [
+      "Hochauflösende HPLC-Reinheitsprüfung",
+      "Verifizierung der Peptididentität",
+      "Analyse der strukturellen Integrität",
+      "Validierung der Chargenkonsistenz",
+      "Testung der Peptidstabilität"
+    ],
+
+    regulatoryTitle: "Regulatorische und Compliance-Erklärung",
+    regulatoryText:
+      "N-Acetyl Selank Amidate, geliefert von BioPeptides, ist ausschließlich für Laborforschungszwecke bestimmt. Es ist nicht für menschlichen Konsum, veterinärmedizinische Verwendung, therapeutische Anwendungen oder medizinische Behandlungen zugelassen.",
+
+    faqTitle: "Häufig gestellte Fragen",
+
+    faqItems: [
+      {
+        q: "Wofür wird N-Acetyl Selank Amidate hauptsächlich in der Forschung verwendet?",
+        a: "Es wird hauptsächlich in der Laborforschung eingesetzt, die sich auf Neuropeptid-Signalgebung, Neurotransmitter-Modulation und peptidvermittelte Neuromodulationsmechanismen konzentriert."
+      },
+      {
+        q: "Wie unterscheidet sich N-Acetyl Selank Amidate von Standard-Selank?",
+        a: "Die N-Acetyl- und Amidat-Modifikationen verbessern die molekulare Stabilität und die Resistenz gegen enzymatischen Abbau im Vergleich zu nativem Selank."
+      },
+      {
+        q: "Was identifiziert CAS 2212313-10-6?",
+        a: "CAS 2212313-10-6 identifiziert N-Acetyl Selank Amidate eindeutig und gewährleistet genaue Dokumentation und Rückverfolgbarkeit in Forschungslaboren."
+      },
+      {
+        q: "Ist dieses Peptid für in-vitro neurowissenschaftliche Studien geeignet?",
+        a: "Ja. Es wird häufig in kontrollierten in-vitro Experimenten eingesetzt, die neuronale Signalgebung und Neurotransmitter-Signalwege untersuchen."
+      },
+      {
+        q: "Welche Forschungsbereiche verwenden dieses Peptid häufig?",
+        a: "Es wird häufig in Neurowissenschaft, Molekularbiologie, neuropharmakologischer Forschung, Peptid-Signalgebungsstudien und Forschung zur zellulären Kommunikation eingesetzt."
+      },
+      {
+        q: "Warum das 10mg-Format für die Forschung wählen?",
+        a: "Das 10mg-Format unterstützt langfristige Forschungsprogramme, mehrere experimentelle Durchläufe und eine verbesserte Kosteneffizienz."
+      },
+      {
+        q: "Wie sollte N-Acetyl Selank Amidate gelagert werden?",
+        a: "Es sollte bei −20°C in lyophilisierter Form gelagert und vor Feuchtigkeit und Licht geschützt werden."
+      },
+      {
+        q: "Warum BioPeptides für Forschungspeptide wählen?",
+        a: "BioPeptides bietet hochreine Peptide mit verifizierter CAS-Dokumentation und zuverlässiger internationaler Lieferung für Forschungslabore."
+      }
+    ],
+
+       chemicalProperties: {
+  molecularFormula: "C35H59N11O10",
+  molecularWeight: "793.9",
+  monoisotopicMass: "793.44463712",
+  polarArea: "325",
+  complexity: "1480",
+  xlogP: "-5.8",
+  heavyAtomCount: "56",
+  hydrogenBondDonorCount: "9",
+  hydrogenBondAcceptorCount: "12",
+  rotatableBondCount: "20",
+  cid: "133082488",
+  inchi:
+    "InChI=1S/C35H59N11O10/c1-20(47)28(41-21(2)48)31(52)43-22(9-3-4-14-36)32(53)46-18-7-12-25(46)30(51)42-23(10-5-15-39-35(37)38)33(54)45-17-6-11-24(45)29(50)40-19-27(49)44-16-8-13-26(44)34(55)56/h20,22-26,28,47H,3-19,36H2,1-2H3,(H,40,50)(H,41,48)(H,42,51)(H,43,52)(H,55,56)(H4,37,38,39)/t20-,22+,23+,24+,25+,26+,28+/m1/s1",
+  inchiKey: "MMPAGAHMLCPVEK-GSAYKZDLSA-N",
+
+  canonicalSmiles:
+    "CC(C(C(=O)NC(CCCCN)C(=O)N1CCCC1C(=O)NC(CCCN=C(N)N)C(=O)N2CCCC2C(=O)NCC(=O)N3CCCC3C(=O)O)NC(=O)C)O",
+
+  isomericSmiles:
+    "C[C@H]([C@@H](C(=O)N[C@@H](CCCCN)C(=O)N1CCC[C@H]1C(=O)N[C@@H](CCCN=C(N)N)C(=O)N2CCC[C@H]2C(=O)NCC(=O)N3CCC[C@H]3C(=O)O)NC(=O)C)O",
+
+  iupacName:
+    "(2S)-1-[2-[[(2S)-1-[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S,3R)-2-acetamido-3-hydroxybutanoyl]amino]-6-aminohexanoyl]pyrrolidine-2-carbonyl]amino]-5-(diaminomethylideneamino)pentanoyl]pyrrolidine-2-carbonyl]amino]acetyl]pyrrolidine-2-carboxylic acid"
+}
+  },
+
+  appearance: "Weißes lyophilisiertes Pulver",
+
+  storage: "Bei −20°C lagern. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für menschliche oder veterinärmedizinische Verwendung."
+},
+"slu-pp-332-capsules-250mcg": {
+  name: "SLU-PP-332 Kapseln (250 mcg)",
+
+  tagline:
+    "Präzise metabolische Forschungs Verbindung für Studien zu zellulärer Energie und mitochondrialer Signalgebung",
+
+  cas: "303760-60-3",
+
+  strength: [
+    "SLU-PP-332 Kapseln 250 mcg von BioPeptides sind Kapseln in Forschungsqualität, entwickelt für fortgeschrittene Laborstudien zu metabolischer Signalgebung, mitochondrialer Aktivität und Signalwegen der zellulären Energieregulation. Die Verbindung wird in kontrollierten experimentellen Umgebungen hinsichtlich der Modulation transkriptioneller Signalwege und metabolischer Effizienz untersucht. Unter strengen Qualitätsstandards hergestellt und verpackt, bietet das Kapselformat eine präzise und reproduzierbare Dosierung für Laborforschungsprotokolle."
+  ],
+
+  topDescription: {
+    p0: "SLU-PP-332 ist eine synthetische niedermolekulare Forschungs Verbindung, die wegen ihrer Interaktion mit metabolischer Signalgebung und mitochondrialen Aktivitätswegen untersucht wird.",
+    p1: "Forscher untersuchen die Verbindung hinsichtlich ihrer möglichen Rolle bei der zellulären Energieregulation, der Modulation transkriptioneller Signalwege und Modellen metabolischer Genexpression.",
+    p2: "Das Kapselformat bietet ein praktisches und standardisiertes Forschungsformat, das ein konsistentes experimentelles Design und Reproduzierbarkeit unterstützt."
+  },
+
+  components: [
+    "SLU-PP-332 — synthetische metabolische Forschungs Verbindung",
+    "Verkapselte Formulierung in Forschungsqualität",
+    "Forschungs Verbindung für metabolische und mitochondriale Signalgebung",
+    "Stärke — 250 mcg pro Kapsel"
+  ],
+
+  content: {
+
+    overviewTitle: "Forschungsüberblick",
+    overview: [
+      "SLU-PP-332 ist eine synthetische Forschungs Verbindung, die in Laborumgebungen für Studien zur metabolischen Signalgebung und zellulären Energieregulation untersucht wird.",
+      "Forscher verwenden die Verbindung, um transkriptionelle Signalwege zu untersuchen, die mit mitochondrialer Aktivität und metabolischer Effizienz verbunden sind.",
+      "Die Verbindung unterstützt experimentelle Modelle zur Untersuchung der Modulation von Energie-Signalwegen und metabolischen Stressreaktionen.",
+      "Das Kapselformat ermöglicht Laboren eine gleichbleibende Dosierung und reduziert Variabilität in Forschungsprotokollen."
+    ],
+
+    scientificBackgroundTitle: "Wissenschaftlicher Hintergrund",
+    scientificBackground: [
+      "Der zelluläre Stoffwechsel beruht auf koordinierten Signalwegen, die Energieproduktion und Energieverwertung regulieren.",
+      "SLU-PP-332 wurde in der Stoffwechselforschung hinsichtlich seines möglichen Einflusses auf transkriptionelle Signalwege untersucht, die mit mitochondrialer Funktion verbunden sind.",
+      "Laborstudien untersuchen, wie die Verbindung mit regulatorischen Mechanismen interagieren kann, die an der zellulären Energiehomöostase beteiligt sind.",
+      "Diese Forschung trägt zu breiteren Untersuchungen in metabolischer Biologie, mitochondrialer Signalgebung und zellulärer Anpassung an Energieanforderungen bei."
+    ],
+
+    mechanismTitle: "Mechanistische Forschungsperspektive",
+    mechanismPoints: [
+      "Forschung zur Modulation metabolischer Signalwege",
+      "Studien zu mitochondrialen Signalwegen",
+      "Untersuchungen transkriptioneller Signalwege der Energieregulation",
+      "Analyse der verbindungsvermittelten zellulären Signalgebung",
+      "Forschung zu metabolischen Stressreaktionen"
+    ],
+
+    applicationsTitle: "Primäre Forschungsanwendungen",
+    applications: [
+      {
+        title: "Forschung zu metabolischen Signalwegen",
+        text: "Wird verwendet, um zelluläre Energieregulation und metabolische Signalnetzwerke in kontrollierten Laborumgebungen zu untersuchen."
+      },
+      {
+        title: "Studien zur mitochondrialen Funktion",
+        text: "Forscher analysieren mitochondriale Aktivität, Energieproduktionsprozesse und adaptive zelluläre Reaktionen."
+      },
+      {
+        title: "Analyse der Genexpression",
+        text: "Wird in Studien eingesetzt, die transkriptionelle Regulation im Zusammenhang mit metabolischen Signalwegen untersuchen."
+      },
+      {
+        title: "Molekular- und Zellbiologie",
+        text: "Wird in in-vitro Experimenten verwendet, die verbindungsgesteuerte zelluläre Signalantworten untersuchen."
+      },
+      {
+        title: "Explorative präklinische Forschung",
+        text: "Unterstützt nicht-klinische Studien zur Erforschung metabolischer Anpassung und Modulation von Energie-Signalwegen."
+      }
+    ],
+
+    molecularTitle: "Molekulare Eigenschaften",
+    molecularPoints: [
+      "Verbindungsname: SLU-PP-332",
+      "CAS-Nummer: 303760-60-3",
+      "Verbindungsklasse: Metabolische Forschungs Verbindung",
+      "Form: Verkapselte Formulierung",
+      "Stärke: 250 mcg pro Kapsel",
+      "Anwendung: Laborforschungs Verbindung"
+    ],
+
+    stabilityTitle: "Stabilitätsprofil und Lagerungsempfehlungen",
+    stabilityPoints: [
+      "Kapseln an einem kühlen, trockenen Ort lagern",
+      "Vor Feuchtigkeit und direkter Lichteinwirkung schützen",
+      "Übermäßige Hitze vermeiden",
+      "Behälter fest verschlossen halten",
+      "Laborlagerungsprotokolle befolgen"
+    ],
+
+    solubilityTitle: "Hinweise zur Handhabung und Forschungsvorbereitung",
+    solubilityPoints: [
+      "Das Kapselformat bietet eine standardisierte Messung der Verbindung",
+      "Geeignet für kontrollierte Laborhandhabung",
+      "Für Reproduzierbarkeit in experimentellen Protokollen entwickelt",
+      "Kompatibel mit Studien zu metabolischen Signalwegen",
+      "Anwendbar in molekular- und zellbiologischen Forschungsumgebungen"
+    ],
+
+    techSpecsTitle: "Technische Spezifikationen",
+    techSpecs: {
+      productName: "SLU-PP-332 Kapseln 250 mcg",
+      brand: "BioPeptides",
+      purity: "Analytische Qualität in Forschungsqualität",
+      form: "Verkapselte Verbindung",
+      analytical: "Identitäts- und Reinheitsverifizierung",
+      compoundClass: "Metabolische Forschungs Verbindung",
+      stability: "Stabil bei Lagerung unter kühlen, trockenen Bedingungen"
+    },
+
+    validationTitle: "Analytische Validierung und Qualitätssicherung",
+    validationPoints: [
+      "Verifizierung der Verbindungsidentität",
+      "Bewertung von Reinheit und Stabilität",
+      "Prüfung der Gleichmäßigkeit des Kapselinhalts",
+      "Analyse der Chargenkonsistenz",
+      "Analytische Qualitätskontrollprüfung"
+    ],
+
+    regulatoryTitle: "Regulatorische und Compliance-Erklärung",
+    regulatoryText:
+      "SLU-PP-332 Kapseln von BioPeptides sind ausschließlich für Laborforschungszwecke bestimmt. Sie sind nicht für menschlichen Konsum, veterinärmedizinische Verwendung, therapeutische Anwendungen oder diätetische Nutzung zugelassen.",
+
+    faqTitle: "Häufig gestellte Fragen",
+
+    faqItems: [
+      {
+        q: "Wofür wird SLU-PP-332 in der Forschung verwendet?",
+        a: "SLU-PP-332 wird in Laborstudien eingesetzt, die metabolische Signalgebung, mitochondriale Aktivität und Signalwege der zellulären Energieregulation untersuchen."
+      },
+      {
+        q: "Was identifiziert CAS 303760-60-3?",
+        a: "CAS 303760-60-3 identifiziert SLU-PP-332 eindeutig und gewährleistet eine genaue chemische Dokumentation sowie Reproduzierbarkeit in Forschungslaboren."
+      },
+      {
+        q: "Warum wird SLU-PP-332 in Kapselform geliefert?",
+        a: "Das Kapselformat bietet präzise vormessbare Mengen, verbessert die Reproduzierbarkeit und minimiert Handhabungsvariabilität in Forschungsprotokollen."
+      },
+      {
+        q: "Ist SLU-PP-332 für in-vitro Forschung geeignet?",
+        a: "Ja. Die Verbindung wird häufig in kontrollierten Laborexperimenten untersucht, die metabolische und mitochondriale Signalwege erforschen."
+      },
+      {
+        q: "Welche Forschungsbereiche verwenden SLU-PP-332 häufig?",
+        a: "Die Verbindung wird in metabolischer Biologie, Molekularbiologie, mitochondrialer Forschung und explorativen Studien zur zellulären Energieregulation untersucht."
+      },
+      {
+        q: "Wie sollten SLU-PP-332 Kapseln gelagert werden?",
+        a: "Sie sollten in einer kühlen, trockenen Umgebung gelagert und vor Feuchtigkeit und Hitze geschützt werden."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C18H14N2O2",
+      molecularWeight: "290.3",
+      monoisotopicMass: "290.105527694",
+      polarArea: "61.7",
+      complexity: "402",
+      xlogP: "3.7",
+      heavyAtomCount: "22",
+      hydrogenBondDonorCount: "2",
+      hydrogenBondAcceptorCount: "3",
+      rotatableBondCount: "3",
+      pubChemCID: "5404083",
+      inchi: "InChI=1S/C18H14N2O2/c21-17-9-7-15(8-10-17)18(22)20-19-12-13-5-6-14-3-1-2-4-16(14)11-13/h1-12,21H,(H,20,22)/b19-12-",
+      inchiKey: "RNZIMBFHRXYRLL-UNOMPAQXSA-N",
+      canonicalSmiles: "C1=CC=C2C=C(C=CC2=C1)C=NNC(=O)C3=CC=C(C=C3)O",
+      isomericSmiles: "C1=CC=C2C=C(C=CC2=C1)/C=N\\NC(=O)C3=CC=C(C=C3)O",
+      iupacName: "4-hydroxy-N-[(Z)-naphthalen-2-ylmethylideneamino]benzamide"
+    }
+  },
+
+  appearance: "Kapselformulierung",
+
+  storage:
+    "An einem kühlen, trockenen Ort fern von Licht und Feuchtigkeit lagern.",
+
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für menschliche oder veterinärmedizinische Verwendung."
+},
+"tb-500-fragment-17-23-10mg": {
+  name: "TB-500 Fragment (17–23) 10mg",
+
+  tagline:
+    "Präzises Thymosin-Beta-4-Fragment für Forschung zu Zytoskelett-Signalgebung und Struktur-Funktions-Analysen",
+
+  cas: "476014-70-7",
+
+  strength: [
+    "TB-500 Fragment (17–23) 10mg von BioPeptides ist ein hochreines Peptidfragment in Forschungsqualität, entwickelt für fortgeschrittene Laboruntersuchungen zu Zytoskelett-Signalgebung, Aktinbindungsinteraktionen und Analyse regenerativer Signalwege. Dieses definierte Sequenzfragment, das die Aminosäuren 17–23 von Thymosin Beta-4 repräsentiert, wird mittels kontrollierter Festphasen-Peptidsynthese hergestellt und analytisch auf Identität, Reinheit und Reproduzierbarkeit verifiziert. Seine fragmentspezifische Struktur macht es besonders nützlich für mechanistische Studien, vergleichende Peptidassays und fokussierte Struktur-Funktions-Forschung in molekularbiologischen Laboren."
+  ],
+
+  topDescription: {
+    p0:
+      "TB-500 Fragment (17–23) 10mg ist ein kurzes synthetisches Peptidfragment, das von Thymosin Beta-4 abgeleitet ist und in der Laborforschung zu Zytoskelett-Signalgebung, Aktindynamik und peptidvermittelter zellulärer Kommunikation eingesetzt wird.",
+    p1:
+      "Hergestellt mittels präziser Peptidsynthese und validiert durch analytische Qualitätskontrolle, unterstützt dieses Fragment reproduzierbare in-vitro Studien zur Untersuchung lokalisierter molekularer Aktivität innerhalb der breiteren Thymosin-Beta-4-Sequenz.",
+    p2:
+      "Forscher verwenden dieses definierte Fragment, um funktionelle Motive zu isolieren, das Verhalten auf Fragmentebene mit vollständigem TB-500 zu vergleichen und Struktur-Funktions-Beziehungen unter kontrollierten experimentellen Bedingungen zu untersuchen. Nur für Laborforschungszwecke."
+  },
+
+  content: {
+    overviewTitle: "Forschungsüberblick",
+    overview: [
+      "TB-500 Fragment (17–23) ist eine kurze Peptidsequenz, die von Thymosin Beta-4 abgeleitet ist und in Laborumgebungen hinsichtlich ihrer Rolle in zellulärer Signalgebung, Peptid-Protein-Interaktionen und Modellen der Gewebekommunikation untersucht wird.",
+      "Im Gegensatz zu vollständigem TB-500 ermöglicht dieses Fragment Forschern, eine kleinere funktionelle Region für fokussierte Struktur-Funktions- und Motivanalyse zu isolieren.",
+      "Die reduzierte Sequenzkomplexität macht es besonders nützlich in vergleichenden Assays, die entwickelt wurden, um fragmentspezifische Aktivität gegenüber dem Verhalten des Ausgangspeptids zu bewerten.",
+      "Für Labore, die fragmentbasierte Forschungspeptide mit analytischer Konsistenz suchen, bietet TB-500 Fragment (17–23) eine gezielte Option für fortgeschrittene mechanistische Forschung."
+    ],
+
+    scientificBackgroundTitle: "Wissenschaftlicher Hintergrund",
+    scientificBackground: [
+      "Fragmentbasierte Peptidforschung ist ein wichtiger Bestandteil der modernen Molekularbiologie, da sie Wissenschaftlern ermöglicht, spezifische funktionelle Regionen innerhalb größerer Peptidstrukturen zu untersuchen.",
+      "TB-500 Fragment (17–23) entspricht einer definierten Region von Thymosin Beta-4 und wird in der Laborforschung zur Untersuchung von Aktinbindungsmotiven, Zytoskelett-Signalwegen und lokalisierten zellulären Antwortmechanismen eingesetzt.",
+      "Durch die Reduzierung der mit vollständigen Peptiden verbundenen Komplexität ermöglichen Fragmentmodelle Forschern, sequenzabhängige Aktivität mit größerer Spezifität und experimenteller Kontrolle zu bewerten.",
+      "Dieses Fragment eignet sich daher gut für Studien, die sich auf lokalisierte molekulare Erkennung, Peptid-Struktur-Interaktion und vergleichende Peptidbiologie konzentrieren."
+    ],
+
+    mechanismTitle: "Mechanistische Forschungseigenschaften",
+    mechanismPoints: [
+      "Untersuchung von Aktinbindungsmotiven",
+      "Analyse von Zytoskelett-Signalwegen",
+      "Fragmentspezifische Peptid-Protein-Interaktionsstudien",
+      "Struktur-Funktions-Vergleich mit vollständigem TB-500",
+      "Forschung zu lokalisierten regenerativen Signalwegen"
+    ],
+
+    applicationsTitle: "Primäre Forschungsanwendungen",
+    applications: [
+      {
+        title: "Aktinbindungs- und Zytoskelettstudien",
+        text:
+          "Wird in kontrollierten Labormodellen verwendet, um lokalisierte Aktininteraktionen und den Einfluss von Peptiden auf Zytoskelett-Signalwege zu untersuchen."
+      },
+      {
+        title: "Struktur-Funktions-Analyse",
+        text:
+          "Wird in Studien eingesetzt, die das Verhalten von Peptiden auf Fragmentebene mit vollständigem Thymosin Beta-4 und verwandten regenerativen Peptiden vergleichen."
+      },
+      {
+        title: "Peptid-Protein-Interaktionsforschung",
+        text:
+          "Unterstützt Experimente zur Untersuchung fragmentspezifischer molekularer Erkennung, Bindungsverhalten und Interaktionsdynamik."
+      },
+      {
+        title: "Forschung zu regenerativen Signalwegen",
+        text:
+          "Wird in in-vitro Forschungsmodelle integriert, die Signalmechanismen im Zusammenhang mit zellulärer Reparatur und Gewebekommunikation untersuchen."
+      },
+      {
+        title: "Molekular- und Zellbiologie",
+        text:
+          "Wird in Laborassays verwendet, die darauf ausgelegt sind, peptidgesteuerte zelluläre Reaktionen mit reduzierter struktureller Komplexität zu analysieren."
+      },
+      {
+        title: "Vergleichende Peptidforschung",
+        text:
+          "Ermöglicht den direkten Vergleich zwischen TB-500-Fragmenten, vollständigem TB-500 und anderen regenerativen Forschungspeptiden."
+      }
+    ],
+
+    molecularTitle: "Molekulare Eigenschaften",
+    molecularPoints: [
+      "Molekültyp: Synthetisches Peptidfragment",
+      "Peptidursprung: Thymosin-Beta-4-Fragment",
+      "Sequenzregion: Aminosäuren 17–23",
+      "Form: Lyophilisiertes Peptidpulver",
+      "Molekularformel: C20H33N5O9",
+      "Molekulargewicht: 487.5"
+    ],
+
+    stabilityTitle: "Stabilitäts- und Lagerungsprofil",
+    stabilityPoints: [
+      "Stabil bei lyophilisierter Lagerung bei −20°C",
+      "Vor Feuchtigkeit und Lichteinwirkung schützen",
+      "Wiederholte Gefrier-Auftau-Zyklen nach der Rekonstitution vermeiden",
+      "Sterile Lösungsmittel in Laborqualität zur Vorbereitung verwenden",
+      "Fläschchen nach jeder Verwendung fest verschließen, um die Peptidintegrität zu erhalten"
+    ],
+
+    solubilityTitle: "Löslichkeit und Rekonstitutionsoptionen",
+    solubilityPoints: [
+      "Steriles bakteriostatisches Wasser",
+      "Sterile Kochsalzlösungen",
+      "Gepufferte wässrige Laborsysteme",
+      "Kompatible Forschungslösungsmittel entsprechend dem Assay-Design"
+    ],
+
+    techSpecsTitle: "Technische Spezifikationen",
+    techSpecs: {
+      productName: "TB-500 Fragment (17–23) 10mg",
+      cas: "476014-70-7",
+      purity: "Forschungsqualität, analytisch verifiziert",
+      unitSize: "10 mg",
+      form: "Lyophilisiertes Pulver",
+      synthesis: "Festphasen-Peptidsynthese (SPPS)",
+      analytical: "Identitätsverifizierung, Reinheitsprüfung, Analyse der strukturellen Integrität",
+      sequenceRegion: "Thymosin Beta-4 Aminosäuren 17–23"
+    },
+
+    validationTitle: "Analytische Validierung und Qualitätskontrolle",
+    validationPoints: [
+      "Bestätigung der molekularen Identität",
+      "Bewertung von Reinheit und Stabilität",
+      "Verifizierung der strukturellen Integrität",
+      "Prüfung der Chargenkonsistenz",
+      "Überprüfung der analytischen Qualitätskontrolle"
+    ],
+
+    regulatoryTitle: "Regulatorische und Compliance-Informationen",
+    regulatoryText:
+      "TB-500 Fragment (17–23) 10mg wird ausschließlich für Laborforschung und wissenschaftliche Untersuchungen geliefert. Es ist nicht als Arzneimittel, Nahrungsergänzungsmittel, Kosmetikum oder Medizinprodukt zugelassen. Das Peptid ist ausschließlich für in-vitro und analytische Studien bestimmt, und jede körperliche Einführung in Menschen oder Tiere ist streng verboten. Unterstützende Dokumentation zur Identität und Forschungshandhabung kann gemäß den institutionellen Laboranforderungen geführt werden.",
+
+    whyTitle: "Warum von BioPeptides beziehen?",
+    whyText:
+      "BioPeptides bietet Peptidfragmente in Forschungsqualität mit analytischer Konsistenz, transparenter Dokumentation und zuverlässiger internationaler Lieferung. Für Labore, die Fragmentpeptide online für fortgeschrittene Molekularbiologie, regenerative Signalgebung und Struktur-Funktions-Analyse kaufen möchten, stellt TB-500 Fragment (17–23) 10mg eine verlässliche Option dar, unterstützt durch kontrollierte Synthese und reproduzierbare Qualitätsstandards.",
+
+    faqTitle: "Häufig gestellte Fragen",
+    faqItems: [
+      {
+        q: "Wofür wird TB-500 Fragment (17–23) in der Forschung verwendet?",
+        a:
+          "TB-500 Fragment (17–23) wird in der Laborforschung verwendet, um Aktinbindungsinteraktionen, Zytoskelett-Signalgebung, regenerative Signalwegmechanismen und fragmentspezifische Peptidaktivität in kontrollierten experimentellen Modellen zu untersuchen."
+      },
+      {
+        q: "Was identifiziert CAS 476014-70-7?",
+        a:
+          "CAS 476014-70-7 identifiziert TB-500 Fragment (17–23) eindeutig und unterstützt genaue chemische Dokumentation, Beschaffungsunterlagen und Reproduzierbarkeit in Forschungslaboren."
+      },
+      {
+        q: "Wie unterscheidet sich ein Peptidfragment von vollständigem TB-500?",
+        a:
+          "Ein Peptidfragment isoliert eine spezifische funktionelle Sequenz aus dem Ausgangspeptid, sodass Forscher lokalisierte molekulare Interaktionen ohne die zusätzliche Komplexität der vollständigen Thymosin-Beta-4-Struktur untersuchen können."
+      },
+      {
+        q: "Ist TB-500 Fragment (17–23) für in-vitro Forschung geeignet?",
+        a:
+          "Ja. Es wird häufig in kontrollierten in-vitro Experimenten eingesetzt, die sich auf Peptid-Protein-Interaktionen, Zytoskelettdynamik und Struktur-Funktions-Analyse konzentrieren."
+      },
+      {
+        q: "Welche Forschungsbereiche verwenden TB-500-Fragmente häufig?",
+        a:
+          "TB-500-Fragmente werden in Molekularbiologie, Peptidchemie, Forschung zu regenerativer Signalgebung, Struktur-Funktions-Studien und explorativen präklinischen Laborprogrammen verwendet."
+      },
+      {
+        q: "Warum das 10mg-Format für die Forschung wählen?",
+        a:
+          "Die 10mg-Forschungsmenge unterstützt erweiterte Studien, Replikationsexperimente und laborübergreifende Validierung und verbessert gleichzeitig die Kosteneffizienz für detaillierte Untersuchungen auf Fragmentebene."
+      },
+      {
+        q: "Wie sollte TB-500 Fragment (17–23) gelagert werden?",
+        a:
+          "Es sollte lyophilisiert bei −20°C gelagert, vor Licht und Feuchtigkeit geschützt und mit sterilen Labortechniken gehandhabt werden, um die Stabilität zu erhalten."
+      },
+      {
+        q: "Warum BioPeptides für TB-500-Fragment-Forschungspeptide wählen?",
+        a:
+          "Forscher wählen BioPeptides wegen konsistenter Forschungsqualität, verifizierter Dokumentation, zuverlässigem internationalem Versand und strikter Einhaltung von Standards für reine Forschungszwecke."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C20H33N5O9",
+      molecularWeight: "487.5",
+      monoisotopicMass: "487.22782765",
+      polarArea: "228",
+      complexity: "776",
+      xlogP: "-5.4",
+      heavyAtomCount: "34",
+      hydrogenBondDonorCount: "7",
+      hydrogenBondAcceptorCount: "10",
+      rotatableBondCount: "14",
+      cid: "4409396",
+      inchi:
+        "InChI=1S/C20H33N5O9/c1-11(27)22-14(10-26)18(31)24-13(9-16(28)29)17(30)23-12(5-2-3-7-21)19(32)25-8-4-6-15(25)20(33)34/h12-15,26H,2-10,21H2,1H3,(H,22,27)(H,23,30)(H,24,31)(H,28,29)(H,33,34)",
+      inchiKey: "HJDRXEQUFWLOGJ-UHFFFAOYSA-N",
+      isomericSmiles:
+        "CC(=O)NC(CO)C(=O)NC(CC(=O)O)C(=O)NC(CCCCN)C(=O)N1CCCC1C(=O)O",
+      canonicalSmiles:
+        "CC(=O)NC(CO)C(=O)NC(CC(=O)O)C(=O)NC(CCCCN)C(=O)N1CCCC1C(=O)O",
+      iupacName:
+        "1-[2-[[2-[(2-acetamido-3-hydroxypropanoyl)amino]-3-carboxypropanoyl]amino]-6-aminohexanoyl]pyrrolidine-2-carboxylic acid",
+      pubChemLCSS:
+        "Acetyl-Ser-Asp-Lys-Pro Laboratory Chemical Safety Summary"
+    }
+  },
+
+  appearance: "Weißes lyophilisiertes Pulver",
+
+  storage:
+    "Bei −20°C lagern. Vor Licht und Feuchtigkeit schützen. Wiederholte Gefrier-Auftau-Zyklen vermeiden.",
+
+  researchStatus:
+    "Nur für Laborforschungszwecke. Nicht für menschliche oder veterinärmedizinische Verwendung."
+},
+"thymosin-alpha-1-10mg": {
+  name: "Thymosin Alpha-1 (TA-1) 10mg",
+  tagline: "Forschungsüberblick und technisches Profil",
+  cas: "62304-98-7",
+
+  strength: [
+    "Thymosin Alpha-1 (TA-1) 10mg ist ein synthetisches Thymuspeptid, das für fortgeschrittene Laborforschung zu Immun-Signalwegen, T-Zell-Kommunikationsmodellen und peptidvermittelten regulatorischen Mechanismen innerhalb von Signalnetzwerken des Immunsystems bereitgestellt wird."
+  ],
+
+  topDescription: {
+    p0: "Thymosin Alpha-1 (TA-1) ist ein synthetisches Thymuspeptid, das in Laborumgebungen hinsichtlich seiner Interaktion mit Signalwegen des Immunsystems und zellulären Kommunikationsmodellen untersucht wird.",
+    p1: "In kontrollierten Forschungssystemen wird TA-1 hinsichtlich peptidvermittelten Immun-Signalverhaltens und regulatorischer T-Zell-Kommunikationsmechanismen untersucht.",
+    p2: "Als hochreine lyophilisierte Peptidpräparation geliefert, ist Thymosin Alpha-1 ausschließlich für Laborforschung und analytische wissenschaftliche Untersuchungen bestimmt."
+  },
+
+  content: {
+
+    overviewTitle: "Forschungsüberblick",
+    overview: [
+      "Thymosin Alpha-1 ist ein Thymuspeptid, das in der Immunologieforschung umfassend wegen seiner Beteiligung an Immun-Signalwegen und zellulären Kommunikationsnetzwerken untersucht wird.",
+      "Synthetisches TA-1 wird in der Laborforschung hinsichtlich peptidvermittelter regulatorischer Mechanismen untersucht, die Immun-Signalgebung und T-Zell-Kommunikationsmodelle beeinflussen.",
+      "Dieses Peptid wird häufig in Immunologie- und Zell-Signalgebungsforschungsprogrammen eingesetzt, die Immunregulationswege untersuchen."
+    ],
+
+    scientificBackgroundTitle: "Wissenschaftlicher Hintergrund",
+    scientificBackground: [
+      "Thymosin Alpha-1 stammt aus der Thymuspeptid-Forschung und wird mit der Immun-Signalkommunikation zwischen Immunzellen in Verbindung gebracht.",
+      "In der Laborforschung wird synthetisches TA-1 wegen seiner Interaktion mit immunregulatorischen Signalwegen und peptidgesteuerten Signalsystemen untersucht, die an der T-Zell-Kommunikation beteiligt sind."
+    ],
+
+    mechanismTitle: "Mechanistische Forschungseigenschaften",
+    mechanismPoints: [
+      "Interaktion mit Immun-Signalwegen in Labormodellen",
+      "Beteiligung an T-Zell-Kommunikation und regulatorischen Signalstudien",
+      "Unterstützung peptidvermittelter Untersuchungen von Immun-Signalwegen",
+      "Einfluss auf immunregulatorische Signalnetzwerke",
+      "Untersuchung peptidgesteuerter Immun-Kommunikationssysteme"
+    ],
+
+    applicationsTitle: "Primäre Forschungsanwendungen",
+    applications: [
+      {
+        title: "Forschung zur Immun-Signalgebung",
+        text: "Wird in Laborstudien eingesetzt, die peptidvermittelte Immun-Signalwege untersuchen."
+      },
+      {
+        title: "T-Zell-Kommunikationsmodelle",
+        text: "Unterstützt Untersuchungen regulatorischer Kommunikationsmechanismen zwischen Immunzellen."
+      },
+      {
+        title: "Forschung zu immunmodulatorischen Mechanismen",
+        text: "Wird in experimentellen Systemen eingesetzt, die regulatorische Signalnetzwerke in der Immunologie untersuchen."
+      },
+      {
+        title: "Peptidvermittelte Immunforschung",
+        text: "Wird verwendet, um Peptid-Signalverhalten in Immun-Kommunikationswegen zu untersuchen."
+      },
+      {
+        title: "Studien zur zellulären Immun-Kommunikation",
+        text: "Ermöglicht Forschern die Untersuchung immunregulatorischer Signalnetzwerke in Labormodellen."
+      }
+    ],
+
+    molecularTitle: "Molekulare Eigenschaften",
+    molecularPoints: [
+      "Peptidklasse: Synthetisches Thymuspeptid",
+      "Struktur: Kurzkettiges regulatorisches Peptid",
+      "Forschungsbereich: Immunologie und Immun-Signalgebungsforschung",
+      "Form: Lyophilisiertes Forschungspeptid"
+    ],
+
+    stabilityTitle: "Stabilitäts- und Lagerungsprofil",
+    stabilityPoints: [
+      "Stabil bei lyophilisierter Lagerung bei −20°C",
+      "Empfindlich gegenüber Feuchtigkeit und längerer Lichteinwirkung",
+      "Vor Umweltkontamination schützen",
+      "Rekonstituierte Lösungen sollten gekühlt gelagert werden",
+      "Wiederholte Gefrier-Auftau-Zyklen vermeiden"
+    ],
+
+    solubilityTitle: "Löslichkeit und Rekonstitutionsoptionen",
+    solubilityPoints: [
+      "Bakteriostatisches Wasser",
+      "Sterile Kochsalzlösungen",
+      "Gepufferte Lösungsmittelsysteme für Laboranwendungen",
+      "Analytische Lösungsmittel, die in der Peptidforschung verwendet werden"
+    ],
+
+    techSpecsTitle: "Technische Spezifikationen",
+    techSpecs: {
+      productName: "Thymosin Alpha-1 (TA-1) 10mg",
+      cas: "62304-98-7",
+      purity: "≥98–99% (HPLC-verifiziert)",
+      unitSize: "10 mg",
+      form: "Lyophilisiertes Pulver",
+      synthesis: "Festphasen-Peptidsynthese (SPPS)",
+      analytical: "HPLC, Massenspektrometrie"
+    },
+
+    validationTitle: "Analytische Validierung und Qualitätskontrolle",
+    validationPoints: [
+      "HPLC-Reinheitsverifizierung",
+      "Bestätigung der Identität mittels Massenspektrometrie",
+      "Prüfung der strukturellen Integrität des Peptids",
+      "Validierung der Chargenkonsistenz",
+      "Labor-Qualitätskontrollscreening"
+    ],
+
+    regulatoryTitle: "Regulatorische und Compliance-Informationen",
+    regulatoryText:
+      "Thymosin Alpha-1 (TA-1) 10mg wird ausschließlich für Laborforschung und wissenschaftliche Untersuchungen bereitgestellt. Es ist nicht als pharmazeutisches Produkt, Nahrungsergänzungsmittel, kosmetischer Inhaltsstoff oder Medizinprodukt zugelassen. Das Peptid ist ausschließlich für kontrollierte Laborexperimente und analytische wissenschaftliche Anwendungen bestimmt.",
+
+    whyTitle: "Warum von Bio-Peptides beziehen?",
+    whyText:
+      "Bio-Peptides liefert Forschungspeptide an Labore weltweit mit Fokus auf analytische Qualität, Chargenkonsistenz und zuverlässige wissenschaftliche Lieferketten, die für fortgeschrittene Peptidforschungsumgebungen entwickelt wurden.",
+
+    faqTitle: "Häufig gestellte Fragen",
+    faqItems: [
+      {
+        q: "Wofür wird Thymosin Alpha-1 in der Forschung verwendet?",
+        a: "Thymosin Alpha-1 wird in der Laborforschung zur Untersuchung von Immun-Signalwegen und T-Zell-Kommunikationsmodellen eingesetzt."
+      },
+      {
+        q: "Welche Art von Peptid ist Thymosin Alpha-1?",
+        a: "Thymosin Alpha-1 ist ein synthetisches Thymuspeptid, das wegen immunregulatorischer Signalmechanismen untersucht wird."
+      },
+      {
+        q: "Welche Forschungsbereiche verwenden Thymosin Alpha-1 häufig?",
+        a: "Es wird häufig in der Immunologie, zellulären Signalgebungsforschung und bei Untersuchungen zur peptidvermittelten Immunregulation untersucht."
+      },
+      {
+        q: "Wie sollte Thymosin Alpha-1 gelagert werden?",
+        a: "Es sollte bei −20°C gelagert und vor Licht und Feuchtigkeit geschützt werden."
+      },
+      {
+        q: "Ist Thymosin Alpha-1 für die Anwendung am Menschen zugelassen?",
+        a: "Nein. Dieses Produkt wird ausschließlich für Laborforschungszwecke bereitgestellt."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C16H22N6O4",
+      molecularWeight: "362.38",
+      monoisotopicMass: "362.1702532",
+      polarArea: "150",
+      complexity: "597",
+      xlogP: "-2.5",
+      heavyAtomCount: "26",
+      hydrogenBondDonorCount: "4",
+      hydrogenBondAcceptorCount: "6",
+      rotatableBondCount: "90+",
+      cid: "638678",
+      inchi: "	InChI=1S/C16H22N6O4/c17-14(24)12-2-1-5-22(12)16(26)11(6-9-7-18-8-19-9)21-15(25)10-3-4-13(23)20-10/h7-8,10-12H,1-6H2,(H2,17,24)(H,18,19)(H,20,23)(H,21,25)/t10-,11-,12-/m0/s1",
+      inchiKey: "XNSAINXGIQZQOO-SRVKXCTJSA-N",
+      canonicalSmiles: "	C1CC(N(C1)C(=O)C(CC2=CN=CN2)NC(=O)C3CCC(=O)N3)C(=O)N",
+      isomericSmiles: "C1C[C@H](N(C1)C(=O)[C@H](CC2=CN=CN2)NC(=O)[C@@H]3CCC(=O)N3)C(=O)N",
+      iupacName: "	(2S)-N-[(2S)-1-[(2S)-2-carbamoylpyrrolidin-1-yl]-3-(1H-imidazol-5-yl)-1-oxopropan-2-yl]-5-oxopyrrolidine-2-carboxamide"
+    }
+
+  }
+},
     "ghk-cu-2mg": {
       name: "GHK-Cu 200mg",
       tagline: "Fortschrittliches Forschungsprofil für Kupferpeptid",
@@ -25870,32 +27586,6 @@ export default {
 
 
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   

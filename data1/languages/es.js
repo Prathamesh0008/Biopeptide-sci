@@ -1,3 +1,4 @@
+//data1\languages\es.js
 export default {
   about: {
     hero: {
@@ -155,6 +156,7 @@ export default {
         "BioPeptide-Materialien sind ausschließlich für Forschungszwecke bestimmt."
     }
   },
+  
   contact: {
     hero: {
       title: "Contactar con BioPeptide",
@@ -1490,23 +1492,22 @@ checkoutPage: {
 },
 payment: {
   title: "Pago",
-  chooseMethod: "Elegir método de pago",
+  chooseMethod: "Elige método de pago",
 
   methods: {
     card: {
-      title: "Tarjeta de crédito / débito",
+      title: "Tarjeta de crédito/débito",
       desc: "Visa, MasterCard, RuPay"
     },
     upi: {
-  title: "UPI",
-  desc: "Google Pay, PhonePe, Paytm"
-}
-
+      title: "UPI",
+      desc: "Google Pay, PhonePe, Paytm"
+    }
   },
 
   summary: "Resumen del pedido",
   total: "Total",
-  paySecurely: "Pagar de forma segura",
+  paySecurely: "Pagar con seguridad",
   secureNote: "Pagos 100% seguros"
 },
 researchPage: {
@@ -2327,21 +2328,12 @@ refundsReturns: {
   }
 },
 productPage: {
-  back: "← Volver a los productos",
-  tagline: "BioPeptide Premium • Material científico de alta pureza",
- description: {
-  p0: "{name} es un péptido de investigación de alta pureza, sintetizado mediante síntesis peptídica avanzada en fase sólida (SPPS) y validación analítica.",
-  p1: "Desarrollado con tecnología de síntesis peptídica de precisión, {name} se somete a una purificación de alta resolución para garantizar la exactitud molecular.",
-  p2: "Diseñado para ensayos bioquímicos, señalización de vías, estudios celulares, análisis de unión a receptores y entornos de investigación controlados."
-}
-,
-  badges: { hplc: "Probado por HPLC", research: "Grado de investigación", coa: "COA disponible" },
-  priceNote: "Solo para uso en investigación",
+  back: "Volver",
   addToCart: "Añadir al carrito",
-  specs: { category: "Categoría", purity: "Pureza", size: "Tamaño de la unidad", cas: "CAS" },
-  notFound: "Producto no encontrado"
-}
-,
+  chemicalProperties: "Propiedades químicas",
+  description: "Descripción",
+  coa: "COA / HPLC / MS",
+},
 productContent: {
   overviewTitle: "Descripción general",
 

@@ -1483,24 +1483,23 @@ checkoutPage: {
 },
 payment: {
   title: "Paiement",
-  chooseMethod: "Choisir le mode de paiement",
+  chooseMethod: "Choisissez le mode de paiement",
 
   methods: {
     card: {
-      title: "Carte de crédit / débit",
+      title: "Carte de crédit/débit",
       desc: "Visa, MasterCard, RuPay"
     },
-   upi: {
-  title: "UPI",
-  desc: "Google Pay, PhonePe, Paytm"
-}
-
+    upi: {
+      title: "UPI",
+      desc: "Google Pay, PhonePe, Paytm"
+    }
   },
 
   summary: "Récapitulatif de la commande",
   total: "Total",
   paySecurely: "Payer en toute sécurité",
-  secureNote: "Paiements 100 % sécurisés"
+  secureNote: "Paiements 100% sécurisés"
 },
 researchPage: {
   title: "Recherche en Sciences des Peptides",
@@ -2332,21 +2331,12 @@ refundsReturns: {
   }
 },
 productPage: {
-  back: "← Retour aux produits",
-  tagline: "BioPeptide Premium • Matériau scientifique de haute pureté",
-  description: {
-  p0: "{name} est un peptide de recherche de haute pureté, synthétisé à l’aide de la synthèse peptidique en phase solide (SPPS) avancée et validé analytiquement.",
-  p1: "Développé grâce à une technologie de synthèse peptidique de précision, {name} subit une purification haute résolution afin de garantir une exactitude moléculaire.",
-  p2: "Conçu pour les analyses biochimiques, la signalisation des voies, les études cellulaires, l’analyse de liaison aux récepteurs et les environnements de recherche contrôlés."
-}
-,
-  badges: { hplc: "Testé HPLC", research: "Qualité recherche", coa: "COA disponible" },
-  priceNote: "Usage de recherche uniquement",
+  back: "Retour",
   addToCart: "Ajouter au panier",
-  specs: { category: "Catégorie", purity: "Pureté", size: "Taille de l’unité", cas: "CAS" },
-  notFound: "Produit introuvable"
-}
-,
+  chemicalProperties: "Propriétés chimiques",
+  description: "Description",
+  coa: "COA / HPLC / MS",
+},
 productContent: {
   overviewTitle: "Aperçu",
 

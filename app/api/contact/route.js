@@ -1,4 +1,5 @@
-import { getTransporter } from "@/lib/mailer";
+//app\api\contact\route.js
+import { getContactTransporter } from "@/lib/mailer";
 
 export async function POST(req) {
   try {
@@ -10,12 +11,12 @@ export async function POST(req) {
         { status: 400 }
       );
     }
+    
+    const transporter = getContactTransporter();
 
-    const transporter = getTransporter();
-
-    const from = process.env.MAIL_FROM || process.env.SMTP_USER;
+    const from = process.env.CONTACT_MAIL_FROM || process.env.CONTACT_SMTP_USER;
     const adminEmail =
-      process.env.ADMIN_EMAIL || process.env.SMTP_USER;
+      process.env.ADMIN_EMAIL || process.env.CONTACT_SMTP_USER;
 
     /* ================================
        USER AUTO RESPONSE EMAIL

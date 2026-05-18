@@ -1,7 +1,9 @@
-// app/all-peptides/page.jsx
+
+//app\all-peptides\page.jsx
+
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 
 import Loader from "../../components/Loader";
 import Navbar from "@/components/Navbar";
@@ -9,71 +11,46 @@ import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
 import ProductCard from "@/components/ProductCard";
 import DrawerProducts from "@/components/DrawerProducts";
-import { PRODUCTS } from "@/data/products";
-import Breadcrumbs from "../../components/Breadcrumbs";
 import { useLanguage } from "@/contexts/LanguageContext";
 import AllPeptidesCategorySlider from "@/components/AllPeptidesCategorySlider";
-
-
+import { useProducts } from "@/hooks/useProducts";
 
 export default function AllPeptidesPage() {
   const { translations, loading } = useLanguage();
+  const { products, loading: productLoading } = useProducts();
+
   const [activeCategory, setActiveCategory] = useState("All");
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [visible, setVisible] = useState(24);
 
-  const filteredProducts =
-    activeCategory === "All"
-      ? PRODUCTS
-      : PRODUCTS.filter(p => p.category === activeCategory);
+  const filteredProducts = useMemo(() => {
+    if (activeCategory === "All") return products;
 
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
+    return products.filter((p) => p.category === activeCategory);
+  }, [products, activeCategory]);
 
-  if (loading) {
+  useEffect(() => {
+    setVisible(24);
+  }, [activeCategory]);
+
+  if (loading || productLoading) {
+    return (
+      <>
+        <Navbar />
+        <main className="min-h-screen bg-white flex items-center justify-center">
+          <Loader />
+        </main>
+        <Footer />
+      </>
+    );
+  }
+
   return (
     <>
       <Navbar />
-      <main className="min-h-screen bg-white flex items-center justify-center">
-        <Loader />
-      </main>
-      <Footer />
-    </>
-  );
-}
 
-  return (
-    <>
-      {/* NAVBAR */}
-      <Navbar />
-      
-
-      {/* DESKTOP / MOBILE DRAWER BUTTON */}
-      {/* <button
-        onClick={() => setDrawerOpen(true)}
-        className="
-          fixed right-0 top-1/2 -translate-y-1/2 z-50
-          flex items-center justify-center
-           bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
-          text-white shadow-lg
-          cursor-pointer
-          h-36 w-10 rounded-l-xl
-        "
-      >
-        <span
-          className="
-            text-xs font-semibold tracking-widest
-            [writing-mode:vertical-rl]
-          "
-        >
-          Product List
-        </span>
-      </button> */}
-
-      {/* DRAWER (PAGE LEVEL ONLY) */}
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
 
-      {/* MAIN CONTENT */}
       <main className="min-h-screen bg-white py-12">
         <div
           className="
@@ -83,51 +60,49 @@ export default function AllPeptidesPage() {
             gap-10 md:gap-12
           "
         >
-          {/* SIDEBAR */}
           <aside className="hidden lg:block">
             <Sidebar />
           </aside>
 
-          {/* PRODUCTS */}
           <div className="lg:col-span-3">
-            {/* <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
-              {translations.allPeptides.title}
-            </h1>
-
-            <p className="text-gray-600 text-sm mt-1 mb-4">
-              {translations.allPeptides.subtitle}
-            </p> */}
-
-            {/* CATEGORY SLIDER */}
             <AllPeptidesCategorySlider
-  active={activeCategory}
-  onChange={setActiveCategory}
-  mode="all"  
-/>
+              active={activeCategory}
+              onChange={setActiveCategory}
+              mode="all"
+            />
 
-            {/* COUNT */}
             <p className="text-sm text-gray-700 mt-4 mb-6">
               Showing{" "}
-              <span className="font-semibold">
-                {filteredProducts.length}
-              </span>{" "}
+              <span className="font-semibold">{filteredProducts.length}</span>{" "}
               products
             </p>
 
-            {/* PRODUCT GRID */}
-           <div className="
-  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4
-  gap-x-2 gap-y-3
-  md:gap-x-3 md:gap-y-4
-">
-
-              {filteredProducts.map((product, index) => (
+            <div
+              className="
+                grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4
+                gap-x-2 gap-y-3
+                md:gap-x-3 md:gap-y-4
+              "
+            >
+              {filteredProducts.slice(0, visible).map((product, index) => (
                 <ProductCard
-                  key={`${product.id}-${index}`}
+                  key={`${product._id || product.id || product.slug}-${index}`}
                   product={product}
+                  priority={index < 4}
                 />
               ))}
             </div>
+
+            {visible < filteredProducts.length && (
+              <div className="flex justify-center mt-8">
+                <button
+                  onClick={() => setVisible((prev) => prev + 24)}
+                  className="px-6 py-3 rounded-md bg-gray-900 text-white text-sm font-semibold cursor-pointer"
+                >
+                  Load More
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </main>
@@ -136,8 +111,4 @@ export default function AllPeptidesPage() {
     </>
   );
 }
-
-
-
-
 

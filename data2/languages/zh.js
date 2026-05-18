@@ -25435,4 +25435,4 @@ export default {
   
 
   }
-}
+};

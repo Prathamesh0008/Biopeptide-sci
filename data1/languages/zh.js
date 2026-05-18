@@ -149,6 +149,7 @@ export default {
         "仅限科研使用。"
     }
   },
+  
  
   contact: {
     hero: {
@@ -1501,20 +1502,19 @@ payment: {
 
   methods: {
     card: {
-      title: "信用卡 / 借记卡",
+      title: "信用卡/借记卡",
       desc: "Visa、MasterCard、RuPay"
     },
     upi: {
-  title: "UPI",
-  desc: "Google Pay、PhonePe、Paytm"
-}
-
+      title: "UPI",
+      desc: "Google Pay、PhonePe、Paytm"
+    }
   },
 
   summary: "订单摘要",
   total: "总计",
   paySecurely: "安全支付",
-  secureNote: "100% 安全支付"
+  secureNote: "100%安全支付"
 },
 researchPage: {
   title: "肽科学研究",
@@ -2333,22 +2333,14 @@ refundsReturns: {
     }
   }
 },
+
 productPage: {
-  back: "← 返回产品",
-  tagline: "高端 BioPeptide • 高纯度科研材料",
-  description: {
-  p0: "{name} 是一种高纯度研究级肽，采用先进的固相肽合成（SPPS）技术并经过严格的分析验证合成而成。",
-  p1: "通过精密的肽合成技术开发，{name} 经过高分辨率纯化，以确保分子结构的准确性。",
-  p2: "适用于生化分析、信号通路研究、细胞实验、受体结合分析以及受控的科研环境。"
-}
-,
-  badges: { hplc: "HPLC 检测", research: "科研级", coa: "提供 COA" },
-  priceNote: "仅限科研使用",
-  addToCart: "加入购物车",
-  specs: { category: "类别", purity: "纯度", size: "规格", cas: "CAS" },
-  notFound: "未找到产品"
-}
-,
+  back: "返回",
+  addToCart: "添加到购物车",
+  chemicalProperties: "化学性质",
+  description: "描述",
+  coa: "COA / HPLC / MS",
+},
 productContent: {
   overviewTitle: "概述",
 

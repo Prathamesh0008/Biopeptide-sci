@@ -3,11 +3,11 @@
 
 import Sidebar from "@/components/Sidebar";
 import Image from "next/image";
-import { PRODUCTS } from "@/data/products";
 import { BUNDLES } from "@/data/bundles";
+import { useProducts } from "@/hooks/useProducts";
 import Loader from "@/components/Loader";
 import { useRouter } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "../../components/Breadcrumbs";
@@ -19,6 +19,7 @@ import DrawerProducts from "@/components/DrawerProducts";
 export default function BundleSavePage() {
   const router = useRouter();
   const { translations, loading } = useLanguage();
+  const { products, loading: productsLoading } = useProducts();
 
   const [activeCategory, setActiveCategory] = useState("All");
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -30,7 +31,9 @@ export default function BundleSavePage() {
   // 🔹 resolve bundles
   const resolvedBundles = BUNDLES.map(bundle => ({
     ...bundle,
-    products: PRODUCTS.filter(p => bundle.products.includes(p.id)),
+    products: products.filter((p) =>
+      bundle.products.includes(p.id || p._id)
+    ),
   }));
 
   // 🔹 bundles ONLY for "All"
@@ -41,7 +44,7 @@ export default function BundleSavePage() {
   const filteredProducts =
     activeCategory === "All"
       ? []
-      : PRODUCTS.filter(
+      : products.filter(
           p =>
             p.category &&
             normalize(p.category) === normalize(activeCategory)
@@ -51,7 +54,7 @@ export default function BundleSavePage() {
   //   window.scrollTo(0, 0);
   // }, []);
 
-  if (loading) {
+  if (loading || productsLoading) {
   return (
     <>
       <Navbar />
@@ -254,7 +257,7 @@ export default function BundleSavePage() {
 
                 {filteredProducts.map((product, index) => (
                   <ProductCard
-                    key={`${product.id}-${index}`}
+                    key={product._id || product.id || product.slug || index}
                     product={product}
                   />
                 ))}

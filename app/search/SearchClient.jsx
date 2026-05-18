@@ -2,18 +2,27 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import Link from "next/link";
-import { PRODUCTS } from "@/data/products";
+import { useProducts } from "@/hooks/useProducts";
 import ProductCard from "@/components/ProductCard";
+import Loader from "@/components/Loader";
 
 export default function SearchClient() {
   const params = useSearchParams();
   const query = params.get("query")?.toLowerCase() || "";
+  const { products, loading } = useProducts();
 
-  const results = PRODUCTS.filter((p) =>
-    p.name.toLowerCase().includes(query) ||
+  const results = products.filter((p) =>
+    p.name?.toLowerCase().includes(query) ||
     p.category?.toLowerCase().includes(query)
   );
+
+  if (loading) {
+    return (
+      <section className="max-w-5xl mx-auto px-6 py-12">
+        <Loader />
+      </section>
+    );
+  }
 
   return (
     <section className="max-w-5xl mx-auto px-6 py-12">
@@ -30,7 +39,10 @@ export default function SearchClient() {
   gap-x-2 gap-y-3 md:gap-x-3 md:gap-y-4
 ">
   {results.map((product) => (
-    <ProductCard key={product.id} product={product} />
+    <ProductCard
+      key={product._id || product.id || product.slug}
+      product={product}
+    />
   ))}
 </div>
       )}

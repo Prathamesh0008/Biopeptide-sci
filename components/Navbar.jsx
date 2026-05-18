@@ -7,15 +7,16 @@ import { useState, useEffect, useRef } from "react";
 import { FaSearch } from "react-icons/fa";
 import { FaRegUser } from "react-icons/fa";
 import { useRouter } from "next/navigation";
-import { PRODUCTS } from "@/data/products";
 import { useLanguage } from "@/contexts/LanguageContext"; 
 import CartDrawer from "@/components/CartDrawer";
 import { usePathname } from "next/navigation";
 import ScrollProgressLine from "@/components/ScrollProgressLine";
 import { ShoppingCart } from "lucide-react";
+import { useProducts } from "@/hooks/useProducts";
 
 export default function Navbar() {
 const { loadLanguage, translations, language } = useLanguage();
+const { products = [] } = useProducts();
   const [cartCount, setCartCount] = useState(0);
 
   const getCartCount = () => {
@@ -226,26 +227,17 @@ useEffect(() => {
 }, []);
 
 const handleNavigate = (href) => {
+  // same page → refresh
   if (pathname === href) {
-    setMenuOpen(false);
-    return;
+    router.refresh();
+  } else {
+    router.push(href);
   }
 
-  // ✅ SAVE CATEGORY PAGES
-  const categoryPages = [
-    "/all-peptides",
-    "/popular-peptides",
-    "/bundle-save",
-    "/peptide-research",
-    "/peptide-information",
-  ];
-
-  if (categoryPages.includes(href)) {
-    sessionStorage.setItem("lastCategory", href);
-  }
-
-  router.push(href);
+  // ✅ always run these
   setMenuOpen(false);
+  setSuggestions([]);
+  setQuery("");
 };
 
   // const handleNavigate = (href) => {
@@ -274,7 +266,7 @@ const handleNavigate = (href) => {
       return;
     }
 
-    const filtered = PRODUCTS
+    const filtered = products
       .filter((p) =>
         p.name.toLowerCase().includes(value.toLowerCase())
       )
@@ -348,7 +340,7 @@ const handleNavigate = (href) => {
              pl-10 pr-4 py-3 text-sm focus:ring-2 focus:ring-bioBlue/80 outline-none"
 />
 {searchFocused && (
-  <div className="absolute top-full left-0 w-full bg-white border rounded-2xl shadow-xl mt-2 z-50 p-4">
+  <div className="absolute top-full left-0 w-full bg-white border rounded-2xl shadow-xl mt-2 z-[1000] p-4">
 
     {/* POPULAR KEYWORDS */}
     {query.trim() === "" && (
@@ -650,7 +642,7 @@ const handleNavigate = (href) => {
       />
 
       {suggestions.length > 0 && (
-        <div className="absolute top-full left-0 w-full bg-white border rounded-xl shadow-lg mt-2 z-50">
+<div className="absolute top-full left-0 w-full bg-white border rounded-xl shadow-lg mt-2 z-[1000]">
           {suggestions.map((item) => (
             <button
               key={item.id}
@@ -698,31 +690,28 @@ const handleNavigate = (href) => {
 
 
       <MenuItem
-  title={t("menu.allPeptides")}
+  title={t("menu.allPeptides") || "All Peptides"}
   onClick={() => handleNavigate("/all-peptides")}
   active={pathname === "/all-peptides"}
 />
 
-      <MenuItem title={t("menu.popular")} onClick={() => handleNavigate("/popular-peptides")} active={pathname === "/popular-peptides"} />
+      <MenuItem title={t("menu.popular") || "Popular"} onClick={() => handleNavigate("/popular-peptides")} active={pathname === "/popular-peptides"} />
 
-<MenuItem title={t("menu.bundle")} onClick={() => handleNavigate("/bundle-save")} active={pathname === "/bundle-save"} />
+<MenuItem title={t("menu.bundle") || "Bundle Save"} onClick={() => handleNavigate("/bundle-save")} active={pathname === "/bundle-save"} />
 
-<MenuItem title={t("menu.research")} onClick={() => handleNavigate("/peptide-research")} active={pathname === "/peptide-research"} />
+<MenuItem title={t("menu.research") || "Research"} onClick={() => handleNavigate("/peptide-research")} active={pathname === "/peptide-research"} />
 
-<MenuItem title={t("menu.information")} onClick={() => handleNavigate("/peptide-information")}active={pathname.startsWith("/peptide-information")} />
+<MenuItem title={t("menu.information") || "Information"} onClick={() => handleNavigate("/peptide-information")}active={pathname.startsWith("/peptide-information")} />
 <MenuItem
   title={t("menu.videos") || "Research Videos"}
   onClick={() => handleNavigate("/research-videos")}
   active={pathname === "/research-videos"}
 />
-  
- 
-   
 
 
-<MenuItem title={t("menu.company")} onClick={() => handleNavigate("/about")} active={pathname === "/about"} />
+<MenuItem title={t("menu.company") || "Company"} onClick={() => handleNavigate("/about")} active={pathname === "/about"} />
 
-<MenuItem title={t("menu.contact")} onClick={() => handleNavigate("/contact")} active={pathname === "/contact"} />
+<MenuItem title={t("menu.contact") || "Contact"} onClick={() => handleNavigate("/contact")} active={pathname === "/contact"} />
 
     </nav>
 
@@ -750,12 +739,12 @@ const handleNavigate = (href) => {
           {/* MENU LINKS */}
 <div className="flex flex-col gap-4 text-gray-700 text-[16px] items-start text-left">
   <MenuItem title={t("menu.allPeptides")} onClick={() => handleNavigate("/all-peptides")} />
-  <MenuItem title={t("menu.popular")} onClick={() => handleNavigate("/popular-peptides")} />
-  <MenuItem title={t("menu.bundle")} onClick={() => handleNavigate("/bundle-save")} />
-  <MenuItem title={t("menu.research")} onClick={() => handleNavigate("/peptide-research")} />
-  <MenuItem title={t("menu.information")} onClick={() => handleNavigate("/peptide-information")} />
-  <MenuItem title={t("menu.videos")} onClick={() => window.open("https://www.youtube.com/@yourchannel", "_blank")} />
-  <MenuItem title={t("menu.company")} onClick={() => handleNavigate("/about")} />
+  <MenuItem title={t("menu.popular") || "Popular"} onClick={() => handleNavigate("/popular-peptides")} />
+  <MenuItem title={t("menu.bundle") || "Bundle Save"} onClick={() => handleNavigate("/bundle-save")} />
+  <MenuItem title={t("menu.research") || "Research"} onClick={() => handleNavigate("/peptide-research")} />
+  <MenuItem title={t("menu.information") || "Information"} onClick={() => handleNavigate("/peptide-information")} />
+  <MenuItem title={t("menu.videos")} onClick={() => handleNavigate("/research-videos")} />
+  <MenuItem title={t("menu.company") || "Company"} onClick={() => handleNavigate("/about")} />
   <MenuItem title={t("menu.contact")} onClick={() => handleNavigate("/contact")} />
 </div>
 
