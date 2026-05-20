@@ -60,7 +60,7 @@ export default function PeptideInfoLeftSidebar({
       <div className="mb-4">
         <div className="relative w-full h-[160px]">
           <Image
-            src="/images/combo.png"  // Path to your image
+            src="/images/combo2new.png"  // Path to your image
             alt="Sidebar Image"
             fill
             className="object-cover rounded-lg"
