@@ -23,7 +23,7 @@ const normalizedEmail = email.toLowerCase();
     const existing = await User.findOne({ email: normalizedEmail });
     if (existing) {
       return NextResponse.json(
-        { ok: false, error: "User already exists" },
+        { ok: false, error: "Email already exists" },
         { status: 400 }
       );
     }

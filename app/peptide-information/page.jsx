@@ -61,8 +61,8 @@ export default function PeptideInformationPage() {
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
 
       {/* MAIN CONTENT */}
-      <div className="max-w-[1180px] mx-auto px-6 py-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+     <div className="max-w-[1180px] mx-auto px-4 sm:px-6 py-4 sm:py-6 lg:py-8">
+       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-12 items-start">
           {/* LEFT — SIDEBAR */}
           <div className="order-2 lg:order-1 lg:col-span-3">
             <PeptideInfoLeftSidebar
@@ -76,14 +76,14 @@ export default function PeptideInformationPage() {
           </div>
 
           {/* RIGHT — CONTENT */}
-          <section className="order-1 lg:order-2 lg:col-span-9 space-y-8 px-0">
+          <section className="order-1 lg:order-2 lg:col-span-9 space-y-5 sm:space-y-6 lg:space-y-8 px-0">
             {/* PAGE TITLE */}
-            <h1 className="text-[34px] font-extrabold tracking-tight text-black">
+           <h1 className="text-2xl sm:text-[34px] font-extrabold tracking-tight text-black">
               {translations.peptideInfo.page.title}
             </h1>
 
             {/* FEATURED ARTICLE */}
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-6 items-start">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-4 sm:gap-6 items-start">
               {/* IMAGE */}
               <div className="md:col-span-2">
                 <div className="relative aspect-[4/3] w-full max-w-[340px]">

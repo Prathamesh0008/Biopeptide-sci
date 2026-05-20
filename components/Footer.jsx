@@ -1,6 +1,7 @@
 //peptides\components\Footer.jsx
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -15,6 +16,10 @@ import { FaInstagram, FaFacebookF, FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   const { translations } = useLanguage();
+  const [newsletterEmail, setNewsletterEmail] = useState("");
+const [newsletterMessage, setNewsletterMessage] = useState("");
+const [newsletterStatus, setNewsletterStatus] = useState("");
+const [subscribing, setSubscribing] = useState(false);
 
   const t = (path) => {
     try {
@@ -25,6 +30,53 @@ export default function Footer() {
       return "";
     }
   };
+  const handleNewsletterSubmit = async (e) => {
+  e.preventDefault();
+
+  setNewsletterMessage("");
+  setNewsletterStatus("");
+
+  const email = newsletterEmail.trim();
+
+  if (!email) {
+    setNewsletterStatus("error");
+    setNewsletterMessage("Please enter your email address.");
+    return;
+  }
+
+  try {
+    setSubscribing(true);
+
+    const res = await fetch("/api/newsletter", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ email }),
+    });
+
+    const data = await res.json();
+
+    if (!res.ok || !data.ok) {
+      setNewsletterStatus("error");
+      setNewsletterMessage(data.error || "Subscription failed.");
+      return;
+    }
+
+    setNewsletterStatus("success");
+    setNewsletterMessage(
+      data.message ||
+        "Subscribed successfully! You will receive research updates, product launches and exclusive offers."
+    );
+
+    setNewsletterEmail("");
+  } catch (error) {
+    setNewsletterStatus("error");
+    setNewsletterMessage("Something went wrong. Please try again.");
+  } finally {
+    setSubscribing(false);
+  }
+};
 
   return (
     <footer className="relative bg-white text-gray-700 mt-16">
@@ -55,37 +107,55 @@ export default function Footer() {
       </div>
 
       {/* RIGHT FORM */}
-      <div className="w-full lg:w-auto flex flex-col sm:flex-row gap-3">
-        <input
-          type="email"
-          placeholder={t("newsletter.placeholder")}
-          className="
-            w-full sm:w-80
-            px-4 py-3
-            text-sm
-            border border-gray-300
-            rounded-md
-            focus:outline-none
-            focus:ring-2
-            focus:ring-[#65b4d7]
-          "
-        />
+     <form onSubmit={handleNewsletterSubmit} className="w-full lg:w-auto">
+  <div className="flex flex-col sm:flex-row gap-3">
+    <input
+      type="email"
+      value={newsletterEmail}
+      onChange={(e) => setNewsletterEmail(e.target.value)}
+      placeholder={t("newsletter.placeholder") || "Enter your email"}
+      className="
+        w-full sm:w-80
+        px-4 py-3
+        text-sm
+        border border-gray-300
+        rounded-md
+        focus:outline-none
+        focus:ring-2
+        focus:ring-[#65b4d7]
+      "
+    />
 
-        <button
-          className="
-            px-6 py-3
-            text-sm font-semibold
-            text-white
-            rounded-md
-             bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
-            hover:brightness-110
-            transition
-            whitespace-nowrap cursor-pointer
-          "
-        >
-          {t("newsletter.button")}
-        </button>
-      </div>
+    <button
+      type="submit"
+      disabled={subscribing}
+      className="
+        px-6 py-3
+        text-sm font-semibold
+        text-white
+        rounded-md
+        bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
+        hover:brightness-110
+        transition
+        whitespace-nowrap cursor-pointer
+        disabled:opacity-60
+        disabled:cursor-not-allowed
+      "
+    >
+      {subscribing ? "Subscribing..." : t("newsletter.button") || "Subscribe"}
+    </button>
+  </div>
+
+  {newsletterMessage && (
+    <p
+      className={`mt-3 text-sm ${
+        newsletterStatus === "success" ? "text-green-600" : "text-red-600"
+      }`}
+    >
+      {newsletterMessage}
+    </p>
+  )}
+</form>
     </div>
   </div>
 </div>
@@ -147,7 +217,7 @@ export default function Footer() {
     <FaFacebookF />
   </a>
 
-  <a
+  {/* <a
     href="TWITTER_X_LINK"
     target="_blank"
     rel="noopener noreferrer"
@@ -158,7 +228,7 @@ export default function Footer() {
                transition"
   >
     <FaXTwitter />
-  </a>
+  </a> */}
 </div>
 
           </div>

@@ -21,6 +21,7 @@ const atkinsonMono = Atkinson_Hyperlegible_Mono({
 
 export const metadata = {
   metadataBase: new URL("https://www.bio-peptides.com"),
+  manifest: "/site.webmanifest",
 
   title: {
     default: "Buy Research Peptides Online | Peptides Supplier by BioPeptide",
@@ -83,9 +84,14 @@ twitter: {
 },
 
   icons: {
-  icon: "/favicon.ico",
-  apple: "/Biologofull.png",
-},
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/android-chrome-192x192.png", sizes: "192x192", type: "image/png" },
+      { url: "/android-chrome-512x512.png", sizes: "512x512", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+  },
 };
 
 /* ===================== ROOT LAYOUT ===================== */

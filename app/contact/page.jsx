@@ -130,9 +130,9 @@ const handleSubmit = async (e) => {
           <div className="grid lg:grid-cols-2 gap-14">
             {/* LEFT: FORM */}
             <div className="bg-white border border-gray-200 shadow-md rounded-xl p-6 space-y-6">
-              <h2 className="text-3xl font-bold text-[#0d2d47]">
+              <h1 className="text-3xl font-bold text-[#0d2d47]">
                 {t("form.title")}
-              </h2>
+              </h1>
 
               <p className="text-gray-700 text-[16px] leading-relaxed">
                 {t("form.description")}
