@@ -318,7 +318,7 @@ const handleNavigate = (href) => {
       width={420}
       height={140}
       priority
-      className="object-contain h-14 sm:h-16 w-auto"
+      className="object-contain h-12 sm:h-12 w-auto"
     />
   </Link>
 </div>
