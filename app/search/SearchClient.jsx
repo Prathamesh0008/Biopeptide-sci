@@ -2,17 +2,27 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import Link from "next/link";
-import { PRODUCTS } from "@/data/products";
+import { useProducts } from "@/hooks/useProducts";
+import ProductCard from "@/components/ProductCard";
+import Loader from "@/components/Loader";
 
 export default function SearchClient() {
   const params = useSearchParams();
   const query = params.get("query")?.toLowerCase() || "";
+  const { products, loading } = useProducts();
 
-  const results = PRODUCTS.filter((p) =>
-    p.name.toLowerCase().includes(query) ||
+  const results = products.filter((p) =>
+    p.name?.toLowerCase().includes(query) ||
     p.category?.toLowerCase().includes(query)
   );
+
+  if (loading) {
+    return (
+      <section className="max-w-5xl mx-auto px-6 py-12">
+        <Loader />
+      </section>
+    );
+  }
 
   return (
     <section className="max-w-5xl mx-auto px-6 py-12">
@@ -24,19 +34,17 @@ export default function SearchClient() {
       {results.length === 0 ? (
         <p className="text-gray-500 text-lg">No products found.</p>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {results.map((product) => (
-            <Link
-              href={`/product/${product.slug}`}
-              key={product.id}
-              className="p-5 border rounded-xl hover:border-bioBlue transition"
-            >
-              <h3 className="font-semibold">{product.name}</h3>
-              <p className="text-gray-500 text-sm">{product.category}</p>
-              <p className="mt-2 font-bold">${product.price}</p>
-            </Link>
-          ))}
-        </div>
+      <div className="
+  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4
+  gap-x-2 gap-y-3 md:gap-x-3 md:gap-y-4
+">
+  {results.map((product) => (
+    <ProductCard
+      key={product._id || product.id || product.slug}
+      product={product}
+    />
+  ))}
+</div>
       )}
     </section>
   );

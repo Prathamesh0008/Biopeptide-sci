@@ -193,8 +193,9 @@ export default {
       }
     ]
   },
-  /* ================= NAVBAR ================= */
 
+  /* ================= NAVBAR ================= */
+/*// peptides/data1/languages/en.jsx*/
 navbar: {
   tagline: "Premium Research Peptides • High Purity • Fast Shipping",
 
@@ -1322,8 +1323,8 @@ breadcrumbs: {
   "peptide-research": "Peptide Research",
   "peptide-information": "Peptide Information",
 
-  about: "About Us",
-  contact: "Contact",
+  about: "Our Company",
+  contact: "Contact Us",
 
   product: "Product"
 },
@@ -1537,11 +1538,27 @@ payment: {
   methods: {
     card: {
       title: "Credit / Debit Card",
-      desc: "Visa, MasterCard, RuPay"
+      desc: "Visa, MasterCard, American Express"
     },
-    upi: {
-      title: "UPI",
-      desc: "Google Pay, PhonePe, Paytm"
+    paypal: {
+      title: "PayPal",
+      desc: "Pay with your PayPal account"
+    },
+    klarna: {
+      title: "Klarna",
+      desc: "Pay later or in installments"
+    },
+    sofort: {
+      title: "Sofort",
+      desc: "Direct online bank transfer"
+    },
+    ideal: {
+      title: "iDEAL",
+      desc: "Internet banking (Netherlands)"
+    },
+    bank: {
+      title: "Bank Transfer",
+      desc: "SEPA / Wire transfer"
     }
   },
 
@@ -2187,7 +2204,7 @@ peptides: {
     },
 
     intro: {
-      site: "Privacy Policy for www.biopeptide.com (BioPeptide™)",
+      site: "Privacy Policy for info@bio-peptides.com (BioPeptide™)",
       contact:
         "If you require any more information or have any questions about our privacy policy, please feel free to contact us by email at",
       importance:
@@ -2259,7 +2276,7 @@ peptides: {
     general: {
       title: "General Terms and Conditions of Use Agreement",
       p1:
-        "These Terms and Conditions govern all users of www.biopeptide.com. These terms must be agreed upon before any purchases can be made."
+        "These Terms and Conditions govern all users of info@bio-peptides.com. These terms must be agreed upon before any purchases can be made."
     },
 
     payments: {
@@ -2603,20 +2620,12 @@ refundsReturns: {
   }
 },
 productPage: {
-  back: "← Back to Products",
-  tagline: "Premium BioPeptide • High-Purity Scientific Research Material",
-  description: {
-    p0: "{name} is a high-purity research peptide synthesized using advanced solid-phase peptide synthesis (SPPS) and analytical validation.",
-    p1: "Developed using precision peptide synthesis technology, {name} undergoes high-resolution purification to ensure molecular accuracy.",
-    p2: "Designed for biochemical assays, pathway signaling, cell studies, receptor-binding analysis, and controlled research environments."
-  },
-  badges: { hplc: "HPLC Tested", research: "Research Grade", coa: "COA Available" },
-  priceNote: "Research Use Only",
+  back: "Back",
   addToCart: "Add to Cart",
-  specs: { category: "Category", purity: "Purity", size: "Unit Size", cas: "CAS" },
-  notFound: "Product Not Found"
-}
-,
+  chemicalProperties: "Chemical Properties",
+  description: "Description",
+  coa: "COA / HPLC / MS",
+},
 productContent: {
   overviewTitle: "Overview",
 
@@ -2881,6 +2890,41 @@ bundlePage: {
 
   },
   
+  researchVideos: {
+  title: "Research Videos",
+  subtitle:
+    "Explore our comprehensive library of educational content, peptide insights, and scientific research presentations.",
+
+  comingSoon: "Coming Soon",
+  exploreButton: "Explore Our Products",
+
+  educational: {
+    title: "Educational Content",
+    description:
+      "In-depth tutorials, peptide science explanations, and research methodology guides."
+  },
+
+  webinars: {
+    title: "Expert Webinars",
+    description:
+      "Live sessions with leading researchers, Q&A opportunities, and interactive discussions."
+  },
+
+  updates: {
+    title: "Weekly Updates",
+    description:
+      "Fresh content added regularly covering latest research, discoveries, and applications."
+  },
+
+  notification: {
+    title: "Be the First to Know",
+    description:
+      "Subscribe to get notified when our video library goes live and receive exclusive content.",
+    placeholder: "Enter your email address",
+    button: "Notify Me",
+    note: "No spam, unsubscribe anytime."
+  }
+}
 
 
 

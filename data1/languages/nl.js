@@ -1466,17 +1466,16 @@ payment: {
 
   methods: {
     card: {
-      title: "Credit- / Debitkaart",
+      title: "Credit-/Debetkaart",
       desc: "Visa, MasterCard, RuPay"
     },
     upi: {
-  title: "UPI",
-  desc: "Google Pay, PhonePe, Paytm"
-}
-
+      title: "UPI",
+      desc: "Google Pay, PhonePe, Paytm"
+    }
   },
 
-  summary: "Besteloverzicht",
+  summary: "Bestellingsoverzicht",
   total: "Totaal",
   paySecurely: "Veilig betalen",
   secureNote: "100% veilige betalingen"
@@ -2057,7 +2056,7 @@ privacy: {
       "Dit privacybeleid legt uit hoe BioPeptide™ uw informatie verzamelt, gebruikt en beschermt wanneer u onze website bezoekt."
   },
   intro: {
-    site: "Privacybeleid voor www.biopeptide.com (BioPeptide™)",
+    site: "Privacybeleid voor info@bio-peptides.com (BioPeptide™)",
     contact:
       "Als u meer informatie nodig heeft of vragen heeft over ons privacybeleid, neem dan gerust contact met ons op via e-mail op",
     importance:
@@ -2122,7 +2121,7 @@ terms: {
     general: {
       title: "Algemene gebruiksvoorwaarden",
       p1:
-        "Deze voorwaarden zijn van toepassing op alle gebruikers van www.biopeptide.com en moeten worden geaccepteerd voordat aankopen kunnen worden gedaan."
+        "Deze voorwaarden zijn van toepassing op alle gebruikers van info@bio-peptides.com en moeten worden geaccepteerd voordat aankopen kunnen worden gedaan."
     },
     payments: {
       title: "Betalingen & Autorisatie",
@@ -2442,21 +2441,12 @@ refundsReturns: {
   }
 },
 productPage: {
-  back: "← Terug naar producten",
-  tagline: "Premium BioPeptide • Wetenschappelijk materiaal met hoge zuiverheid",
- description: {
-  p0: "{name} is een hoogzuiver onderzoekspeptide, gesynthetiseerd met geavanceerde vaste-fase peptidensynthese (SPPS) en analytische validatie.",
-  p1: "Ontwikkeld met precisie-peptidensynthesetechnologie ondergaat {name} een hoge-resolutiezuivering om moleculaire nauwkeurigheid te garanderen.",
-  p2: "Ontworpen voor biochemische assays, signaalroutes, celstudies, receptorbindingsanalyse en gecontroleerde onderzoeksomgevingen."
-}
-,
-  badges: { hplc: "HPLC getest", research: "Onderzoekskwaliteit", coa: "COA beschikbaar" },
-  priceNote: "Alleen voor onderzoek",
+  back: "Terug",
   addToCart: "Toevoegen aan winkelwagen",
-  specs: { category: "Categorie", purity: "Zuiverheid", size: "Eenheidsgrootte", cas: "CAS" },
-  notFound: "Product niet gevonden"
-}
-,
+  chemicalProperties: "Chemische eigenschappen",
+  description: "Beschrijving",
+  coa: "COA / HPLC / MS",
+},
 productContent: {
   overviewTitle: "Overzicht",
   overviewDescription1:
@@ -2749,6 +2739,36 @@ peptideInformation: {
     "Het volgen van deze beste praktijken helpt ervoor te zorgen dat BioPeptide onderzoekspeptiden hun integriteit behouden voor wetenschappelijk onderzoek."
 }
 
+},
+researchVideos: {
+  title: "Onderzoeksvideo's",
+  subtitle: "Ontdek onze bibliotheek met educatieve inhoud.",
+
+  comingSoon: "Binnenkort",
+  exploreButton: "Producten bekijken",
+
+  educational: {
+    title: "Educatieve inhoud",
+    description: "Tutorials en wetenschappelijke uitleg."
+  },
+
+  webinars: {
+    title: "Webinars",
+    description: "Live sessies met onderzoekers."
+  },
+
+  updates: {
+    title: "Wekelijkse updates",
+    description: "Nieuwe inhoud regelmatig."
+  },
+
+  notification: {
+    title: "Blijf op de hoogte",
+    description: "Abonneer je.",
+    placeholder: "E-mail invoeren",
+    button: "Meld mij",
+    note: "Geen spam."
+  }
 }
 
 

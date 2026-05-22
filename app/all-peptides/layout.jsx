@@ -18,7 +18,7 @@ export const metadata = {
     siteName: "BioPeptide",
     images: [
       {
-        url: "https://www.bio-peptides.com/Biopeptidecolourlogo.png",
+        url: "https://www.bio-peptides.com/Biologofull.png",
         width: 1200,
         height: 630,
         alt: "BioPeptide Research Peptides Supplier USA",
@@ -33,7 +33,7 @@ export const metadata = {
     title: "U.S. Research Peptides Supplier for Scientific R&D | BioPeptide",
     description:
       "BioPeptide Sci supplies the United States with high-purity research peptides, peptide proteins and amino acid derivatives for laboratory research and development.",
-    images: ["https://www.bio-peptides.com/Biopeptidecolourlogo.png"],
+    images: ["https://www.bio-peptides.com/Biologofull.png"],
   },
 };
 

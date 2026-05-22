@@ -1,9 +1,10 @@
+//app\api\admin\orders\[id]\route.js
 export const dynamic = "force-dynamic";
 
 import dbConnect from "@/lib/dbConnect";
 import Order from "@/models/Order";
 import { requireAdmin } from "@/lib/requireAdmin";
-import { getTransporter } from "@/lib/mailer";
+import { getOrderTransporter } from "@/lib/mailer";
 import {
   userStatusEmail,
   adminStatusEmail,
@@ -33,14 +34,16 @@ export async function PATCH(req, context) {
 
   const oldStatus = order.status;
   order.status = status;
+
   await order.save();
 
   // 2️⃣ Send emails (safe mode)
   try {
-    if (process.env.SMTP_HOST) {
-      const transporter = getTransporter();
-      const from = process.env.MAIL_FROM || process.env.SMTP_USER;
-      const adminEmail = process.env.ADMIN_EMAIL;
+    if (process.env.ORDER_SMTP_HOST) {
+      const transporter = getOrderTransporter();
+      const from = process.env.ORDER_MAIL_FROM || process.env.ORDER_SMTP_USER;
+    const adminEmail = process.env.ORDER_ADMIN_EMAIL || process.env.ADMIN_EMAIL;
+
 
       // USER EMAIL
       if (order.userEmail) {

@@ -29,8 +29,8 @@ export default function CustomerServicePage() {
       <main className="bg-white">
         {/* HEADER */}
         <section className="border-b border-gray-200 bg-gradient-to-b from-[#f6fdfc] to-white">
-          <div className="max-w-5xl mx-auto px-6 py-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+         <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8 sm:py-12 lg:py-16">
+           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">
               {t.hero.title}
             </h1>
             <p className="mt-4 text-gray-600 max-w-3xl">
@@ -40,7 +40,7 @@ export default function CustomerServicePage() {
         </section>
 
         {/* CONTENT */}
-        <section className="max-w-5xl mx-auto px-6 py-14 space-y-14 text-gray-700 text-sm leading-relaxed">
+      <section className="max-w-5xl mx-auto px-4 sm:px-6 py-8 sm:py-10 lg:py-14 space-y-8 sm:space-y-10 lg:space-y-14 text-gray-700 text-sm leading-relaxed">
           
           {/* SHIPPING */}
           <ServiceSection title={t.sections.shipping.title}>
@@ -103,17 +103,17 @@ export default function CustomerServicePage() {
           </ServiceSection>
 
           {/* CONTACT */}
-          <div className="rounded-2xl border border-gray-200 bg-[#f6fdfc] p-8">
+          <div className="rounded-2xl border border-gray-200 bg-[#f6fdfc] p-5 sm:p-8">
             <h3 className="text-lg font-semibold text-gray-900 mb-3">
               {t.contact.title}
             </h3>
             <p className="text-gray-700">
               📧 Email:{" "}
               <a
-                href="mailto:support@biopeptide.com"
+                href="mailto:info@bio-peptides.com"
                 className="text-bioBlue font-medium hover:underline"
               >
-                support@biopeptide.com
+                info@bio-peptides.com
               </a>
             </p>
           </div>

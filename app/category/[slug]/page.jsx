@@ -2,19 +2,21 @@
 "use client";
 
 import { useParams, useRouter } from "next/navigation";
-import { useState, useEffect } from "react";
-import { PRODUCTS } from "@/data/products";
+import { useState } from "react";
+import { useProducts } from "@/hooks/useProducts";
 import ProductCard from "@/components/ProductCard";
 import Sidebar from "@/components/Sidebar";
 import DrawerProducts from "@/components/DrawerProducts";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AllPeptidesCategorySlider from "@/components/AllPeptidesCategorySlider";
+import Loader from "@/components/Loader";
 
 export default function CategoryPage() {
   const { slug } = useParams();
   const router = useRouter();
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const { products, loading } = useProducts();
 
   // map URL slug → category name
   const CATEGORY_MAP = {
@@ -35,8 +37,8 @@ export default function CategoryPage() {
 
   const filteredProducts =
     categoryName === "All"
-      ? PRODUCTS
-      : PRODUCTS.filter((p) => p.category === categoryName);
+      ? products
+      : products.filter((p) => p.category === categoryName);
 
   const handleCategoryChange = (category) => {
     if (category === "All") {
@@ -50,6 +52,18 @@ export default function CategoryPage() {
   // useEffect(() => {
   //   window.scrollTo(0, 0);
   // }, [slug]);
+
+  if (loading) {
+    return (
+      <>
+        <Navbar />
+        <main className="min-h-screen bg-white flex items-center justify-center">
+          <Loader />
+        </main>
+        <Footer />
+      </>
+    );
+  }
 
   return (
     <>
@@ -126,7 +140,10 @@ export default function CategoryPage() {
             ) : (
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
                 {filteredProducts.map((product) => (
-                  <ProductCard key={product.id} product={product} />
+                  <ProductCard
+                    key={product._id || product.id || product.slug}
+                    product={product}
+                  />
                 ))}
               </div>
             )}

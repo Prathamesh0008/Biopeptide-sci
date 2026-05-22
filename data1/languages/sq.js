@@ -144,6 +144,7 @@ export default {
       "description": "Materialet BioPeptide janë destinuar rreptësisht për kërkime laboratorike. Ne ofrojmë mjete peptidike me saktësi të lartë për institucione akademike, organizata shkencore dhe objekte të certifikuara kërkimore — duke siguruar që e gjithë puna të përputhet me standardet etike, rregullatore dhe të integritetit shkencor."
     }
   },
+  
   "contact": {
     "hero": {
       "title": "Kontaktoni BioPeptide",
@@ -1400,24 +1401,26 @@ researchPeptidesForDiscovery: {
     },
     "continue": "Vazhdo në Pagesë"
   },
-  "payment": {
-    "title": "Pagesa",
-    "chooseMethod": "Zgjidh Metodën e Pagesës",
-    "methods": {
-      "card": {
-        "title": "Kartë Krediti / Debiti",
-        "desc": "Visa, MasterCard, RuPay"
-      },
-      "upi": {
-        "title": "UPI",
-        "desc": "Google Pay, PhonePe, Paytm"
-      }
+ payment: {
+  title: "Pagesa",
+  chooseMethod: "Zgjidhni mënyrën e pagesës",
+
+  methods: {
+    card: {
+      title: "Kartë krediti/debiti",
+      desc: "Visa, MasterCard, RuPay"
     },
-    "summary": "Përmbledhje Porosie",
-    "total": "Totali",
-    "paySecurely": "Paguaj Sigurt",
-    "secureNote": "Pagesa 100% të Sigurta"
+    upi: {
+      title: "UPI",
+      desc: "Google Pay, PhonePe, Paytm"
+    }
   },
+
+  summary: "Përmbledhja e porosisë",
+  total: "Gjithsej",
+  paySecurely: "Paguani të sigurt",
+  secureNote: "Pagesa 100% të sigurta"
+},
   "research": {
     "1": {
       "slug": "vilon",
@@ -1836,7 +1839,7 @@ images:[
       "description": "Kjo Politikë e Privatësisë shpjegon se si BioPeptide™ mbledh, përdor dhe mbroj informacionin tuaj kur vizitoni faqen tonë të internetit."
     },
     "intro": {
-      "site": "Politika e Privatësisë për www.biopeptide.com (BioPeptide™)",
+      "site": "Politika e Privatësisë për info@bio-peptides.com (BioPeptide™)",
       "contact": "Nëse keni nevojë për më shumë informacion ose keni ndonjë pyetje në lidhje me politikën tonë të privatësisë, ju lutemi mos hezitoni të na kontaktoni me email në",
       "importance": "Tek BioPeptide™, privatësia e vizitorëve tanë është me rëndësi të jashtëzakonshme për ne. Ky dokument politikë privatësie përshkruan llojet e informacionit personal që merren dhe mblidhen nga BioPeptide™ dhe si përdoret."
     },
@@ -1883,7 +1886,7 @@ images:[
     "sections": {
       "general": {
         "title": "Marrëveshja e Përgjithshme e Kushteve dhe Kushteve të Përdorimit",
-        "p1": "Këto Kushte dhe Kushte qeverisin të gjithë përdoruesit e www.biopeptide.com. Këto kushte duhet të pranohen përpara se të mund të bëhen ndonjë blerje."
+        "p1": "Këto Kushte dhe Kushte qeverisin të gjithë përdoruesit e info@bio-peptides.com. Këto kushte duhet të pranohen përpara se të mund të bëhen ndonjë blerje."
       },
       "payments": {
         "title": "Pagesat & Autorizimi",
@@ -2135,30 +2138,13 @@ images:[
       }
     }
   },
-  "productPage": {
-    "back": "← Kthehu te Produktet",
-    "tagline": "BioPeptide Premium • Material Kërkimor Shkencor i Pastërti të Lartë",
-    description: {
-  p0: "{name} është një peptid kërkimor me pastërti të lartë, i sintetizuar duke përdorur sintezë të avancuar të peptideve në fazë të ngurtë (SPPS) dhe validim analitik.",
-  p1: "I zhvilluar me teknologji precize të sintezës së peptideve, {name} i nënshtrohet pastrimit me rezolucion të lartë për të siguruar saktësi molekulare.",
-  p2: "I projektuar për analiza biokimike, sinjalizim të rrugëve, studime qelizore, analiza të lidhjes së receptorëve dhe mjedise kërkimore të kontrolluara."
-}
-,
-    "badges": {
-      "hplc": "Testuar HPLC",
-      "research": "Klasë Kërkimi",
-      "coa": "COA e Disponueshme"
-    },
-    "priceNote": "Vetëm për Përdorim Kërkimor",
-    "addToCart": "Shto në Shportë",
-    "specs": {
-      "category": "Kategoria",
-      "purity": "Pastërtia",
-      "size": "Madhësia e Njësisë",
-      "cas": "CAS"
-    },
-    "notFound": "Produkti Nuk U Gjet"
-  },
+productPage: {
+  back: "Kthehu",
+  addToCart: "Shto në shportë",
+  chemicalProperties: "Vetitë kimike",
+  description: "Përshkrimi",
+  coa: "COA / HPLC / MS",
+},
   "productContent": {
     "overviewTitle": "Përmbledhje",
     "overviewDescription1": "është një peptid kërkimor i saktësisë së lartë i sintetizuar duke përdorur sintezën e peptidit të fazës së ngurtë (SPPS). Çdo grup i nënshtrohet validimit të gjerë analitik duke përfshirë HPLC dhe Spektrometri Masiv për të siguruar integritetin struktural, pastërtinë dhe qëndrueshmërinë nga grup në grup.",
@@ -2764,7 +2750,37 @@ description:
       "Rregullon rrugët e senescencës për rinovim celular",
       "Përmirëson rreshtimin e ritmit cirkadian thelbësor për gjatëjetësinë"
     ]
+  },
+  researchVideos: {
+  title: "Video kërkimore",
+  subtitle: "Eksploroni bibliotekën tonë të përmbajtjes edukative dhe shkencore.",
+
+  comingSoon: "Së shpejti",
+  exploreButton: "Shiko produktet",
+
+  educational: {
+    title: "Përmbajtje edukative",
+    description: "Udhëzime dhe shpjegime shkencore."
+  },
+
+  webinars: {
+    title: "Webinare ekspertësh",
+    description: "Sesione live me studiues."
+  },
+
+  updates: {
+    title: "Përditësime javore",
+    description: "Përmbajtje e re rregullisht."
+  },
+
+  notification: {
+    title: "Ji i pari",
+    description: "Abonohu për njoftime.",
+    placeholder: "Shkruaj email",
+    button: "Njoftomë",
+    note: "Pa spam."
   }
+}
 
 
 

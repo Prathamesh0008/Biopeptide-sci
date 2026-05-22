@@ -22,21 +22,21 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://biopeptide-sci.vercel.app/peptide-information",
+    canonical: "https://www.bio-peptides.com/peptide-information",
   },
 
   openGraph: {
     title: "Peptide Information & Research Education | USA – BioPeptide",
     description:
       "Peptide Information. Learn about peptide bonds, purity, purification, reconstitution, solubility, storage, and synthesis, peptides versus proteins from BioPeptide",
-    url: "https://biopeptide-sci.vercel.app/peptide-information",
+    url: "https://www.bio-peptides.com/peptide-information",
     siteName: "BioPeptide",
     images: [
       {
-        url: "https://biopeptide-sci.vercel.app/Biopeptidecolourlogo.png",
+        url: "https://www.bio-peptides.com/Biologofull.png",
         width: 1200,
         height: 630,
-        alt: "Peptide Information and Research Education USA - BioPeptide ",
+        alt: "Peptide Information and Research Education USA - BioPeptide",
       },
     ],
     locale: "en_US",
@@ -45,28 +45,13 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Peptide Information & Research Education | USA – BioPeptide ",
+    title: "Peptide Information & Research Education | USA – BioPeptide",
     description:
       "Peptide Information. Learn about peptide bonds, purity, purification, reconstitution, solubility, storage, and synthesis, peptides versus proteins from BioPeptide",
-    images: ["https://biopeptide-sci.vercel.app/Biopeptidecolourlogo.png"],
+    images: ["https://www.bio-peptides.com/Biologofull.png"],
   },
 };
 
 export default function PeptideInformationLayout({ children }) {
   return <>{children}</>;
 }
-
-
-
-
-
-
-// export const metadata = {
-//   title: "Peptide Information & Research Education | USA – BioPeptide Sci",
-//   description:
-//     "Peptide Information. Learn about peptide bonds, purity, purification, reconstitution, solubility, storage, and synthesis, peptides versus proteins from BioPeptide.",
-// };
-
-// export default function PeptideInformationLayout({ children }) {
-//   return children;
-// }

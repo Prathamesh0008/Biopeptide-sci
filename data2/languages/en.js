@@ -3166,78 +3166,76 @@ export default {
   }
 },
   
-   "cartalax-20mg": {
+"cartalax-20mg-bioregulator": {
   name: "Cartalax® 20mg (Bioregulator)",
   tagline: "Cartilage and Connective Tissue Bioregulatory Research Peptide",
   cas: "N/A",
 
-  // Short card / hero text
   strength: [
-    "Biopeptides Cartalax® 20mg (Bioregulator) is a high-purity synthetic short-chain peptide formulation developed for advanced laboratory research in cartilage biology and connective tissue signaling. Produced using Solid-Phase Peptide Synthesis (SPPS) and validated through HPLC, Mass Spectrometry, and UV analysis, it delivers ≥99% purity, molecular precision, and batch-to-batch reproducibility. Cartalax® is widely used by European research institutions for organ-specific gene expression studies and extracellular matrix research models."
+    "Biopeptides Cartalax® 20mg (Bioregulator) is a premium research peptide designed for advanced regenerative and molecular biology studies. Synthesized using Solid-Phase Peptide Synthesis (SPPS) and rigorously validated through HPLC, Mass Spectrometry, and UV spectrophotometry, it guarantees ≥99% purity and reproducible results. European laboratories in Germany, France, Italy, Spain, Netherlands, Belgium, and Switzerland utilize Cartalax® 20mg to explore cellular signaling modulation, mitochondrial ATP production, enzymatic activation, and protein-peptide interactions. Ideal for laboratories searching to buy peptides online, this peptide delivers consistent experimental outcomes, making it one of the best peptides and top peptides online for high-quality scientific research."
   ],
 
-  // Hero / intro description
   topDescription: {
-    p0: "Biopeptides Cartalax® 20mg (Bioregulator) is a precision-engineered research peptide developed for in-vitro cartilage and connective tissue studies.",
-    p1: "Synthesised under controlled laboratory conditions and analytically verified for purity and molecular identity, Cartalax® supports advanced investigations into peptide-mediated regulatory signaling.",
-    p2: "Research laboratories across Germany, France, Italy, Spain, the Netherlands, Belgium, Switzerland, Austria, and Denmark rely on Cartalax® for reproducible and well-documented bioregulatory peptide research."
+    p0: "Biopeptides Cartalax® 20mg (Bioregulator) is a precision-engineered research peptide developed for advanced in-vitro studies focusing on cartilage biology, regenerative processes, and connective tissue signaling.",
+    p1: "Manufactured through Solid-Phase Peptide Synthesis (SPPS) and analytically verified using HPLC, Mass Spectrometry, and UV spectrophotometry, this peptide provides exceptional purity, molecular stability, and batch-to-batch reproducibility.",
+    p2: "Research laboratories across Germany, France, Italy, Spain, Netherlands, Belgium, Switzerland, Austria, and Denmark rely on Cartalax® 20mg for reliable and reproducible peptide-based experiments in regenerative biology and extracellular matrix research."
   },
 
-  // Full product page content
   content: {
-    overviewTitle: "Premium Cartilage Bioregulatory Research Peptide",
+    overviewTitle: "Advanced Cartilage Bioregulatory Research Peptide",
+
     overview: [
-      "Cartalax® 20mg (Bioregulator) is a laboratory-grade synthetic peptide designed for organ-specific research related to cartilage and connective tissue biology.",
-      "It consists of short-chain regulatory peptides studied for their influence on gene expression, cellular differentiation, and extracellular matrix signaling.",
-      "Supplied as a high-purity research material, Cartalax® meets the analytical and documentation standards required by European research institutions."
+      "The Biopeptides Cartalax® 20mg (Bioregulator) is a high-precision research peptide formulated for advanced laboratory investigations involving regenerative biology, protein-peptide interactions, mitochondrial metabolism, and enzymatic activity.",
+      "Developed using solid-phase peptide synthesis (SPPS), this peptide offers exceptional purity, molecular stability, and reproducible analytical performance validated through High-Performance Liquid Chromatography (HPLC), Mass Spectrometry (MS), and UV spectrophotometry.",
+      "European research institutions across Germany, France, Italy, Spain, Netherlands, Belgium, Switzerland, Austria, and Denmark utilize Cartalax® 20mg for high-quality in-vitro experiments requiring precision, stability, and reproducibility."
     ],
 
     scientificBackgroundTitle: "Scientific Overview",
+
     scientificBackground: [
-      "Short-chain bioregulatory peptides are increasingly studied for their ability to modulate tissue-specific gene expression and cellular communication.",
-      "These peptides enable researchers to explore regulatory signaling with predictable degradation profiles and high experimental reproducibility.",
-      "Cartalax® has been examined in laboratory models focused on cartilage biology, matrix organization, and connective tissue signaling.",
-      "European research environments value bioregulators for their stability, traceability, and suitability for controlled in-vitro experimentation."
+      "Peptides have revolutionized modern biomedical research by enabling scientists to precisely modulate cellular communication, investigate molecular pathways, and analyze gene expression patterns.",
+      "Cartalax® 20mg provides researchers with a reliable peptide system for regenerative cell biology, receptor-binding studies, extracellular matrix research, and mitochondrial metabolism experiments.",
+      "European laboratories favor Cartalax® due to its molecular stability, predictable degradation profile, and consistent biological activity across experimental conditions.",
+      "The lyophilized peptide format ensures long-term stability while enabling convenient reconstitution using bacteriostatic water, sterile saline, acidic buffers, or analytical organic solvents."
     ],
 
     mechanismTitle: "Mechanism of Action (Research Context)",
+
     mechanismPoints: [
-      "Modulation of cartilage-specific cellular signaling pathways",
-      "Regulation of gene transcription related to connective tissue structure",
-      "Support of extracellular matrix organization and cellular interaction models",
-      "Influence on mitochondrial ATP production in controlled laboratory systems",
-      "Facilitation of enzymatic activation and peptide-mediated regulatory processes"
+      "Cellular Signaling Modulation – Supports intercellular communication and tissue-specific signaling pathways.",
+      "Growth Factor Sensitivity Enhancement – Improves cellular responsiveness to endogenous growth mediators.",
+      "Gene Expression Regulation – Influences transcription pathways associated with tissue repair and regeneration.",
+      "Mitochondrial ATP Production Influence – Supports cellular energy metabolism in high-demand experimental models.",
+      "Enzymatic Activation Support – Facilitates enzyme-mediated protein remodeling and metabolic processes."
     ],
 
     applicationsTitle: "Primary Research Applications",
+
     applications: [
       {
-        title: "Cartilage and Connective Tissue Research",
-        text: "Studying peptide-regulated signaling pathways in cartilage and structural tissue models."
+        title: "Regenerative Cell Biology",
+        text: "Investigating cartilage repair mechanisms, cellular proliferation, and connective tissue regeneration models."
       },
       {
-        title: "Gene Expression and Transcription Studies",
-        text: "Investigating peptide-mediated regulation of genes involved in tissue structure and function."
-      },
-      {
-        title: "Bioregulatory Pathway Research",
-        text: "Exploring short-chain peptide control of intracellular regulatory mechanisms."
-      },
-      {
-        title: "Protein Expression Analysis",
-        text: "Assessing peptide influence on protein synthesis and molecular communication."
+        title: "Protein Expression and Receptor-Binding Studies",
+        text: "Evaluating peptide-protein interactions and receptor signaling pathways."
       },
       {
         title: "Mitochondrial Metabolic Research",
-        text: "Evaluating cellular energy production and ATP regulation under controlled conditions."
+        text: "Studying ATP production, mitochondrial response, and cellular energy dynamics."
+      },
+      {
+        title: "Enzymatic Sensitivity Experiments",
+        text: "Analyzing peptide effects on enzyme activation and metabolic processes."
       },
       {
         title: "Matrix Remodeling Assays",
-        text: "Analyzing extracellular matrix organization, cellular migration, and structural modeling."
+        text: "Modeling extracellular matrix organization, wound healing, and cellular migration."
       }
     ],
 
     molecularTitle: "Molecular Composition and Characteristics",
+
     molecularPoints: [
       "Molecular Type: Synthetic bioregulatory peptide complex",
       "Composition: Short-chain di- and tripeptide sequences",
@@ -3246,84 +3244,93 @@ export default {
       "Stability: High when stored under recommended laboratory conditions"
     ],
 
-    stabilityTitle: "Stability Profile and Storage Guidelines",
+    stabilityTitle: "Stability and Storage Guidelines",
+
     stabilityPoints: [
-      "Supplied as a lyophilized powder for enhanced stability",
-      "Recommended storage temperature: −20°C",
-      "Protect from moisture, humidity, and prolonged light exposure",
-      "Avoid repeated freeze–thaw cycles",
+      "Supplied as a lyophilized powder for enhanced long-term stability",
+      "Recommended storage temperature: −20°C or below",
+      "Protect from moisture and humidity",
+      "Minimize exposure to light",
+      "Avoid repeated freeze-thaw cycles",
       "Reconstituted solutions remain stable for approximately 24–48 hours under refrigeration"
     ],
 
     solubilityTitle: "Solubility and Reconstitution Options",
+
     solubilityPoints: [
-      "Bacteriostatic water",
-      "Sterile saline solutions",
-      "Acidic buffer systems",
-      "Compatible organic analytical solvents"
+      "Bacteriostatic Water",
+      "Sterile Saline",
+      "Acidic Buffers",
+      "Organic Analytical Solvents"
     ],
 
     techSpecsTitle: "Technical Specifications",
+
     techSpecs: {
       productName: "Cartalax® 20mg (Bioregulator)",
       cas: "N/A",
-      purity: "≥99% (HPLC verified)",
-      unitSize: "20 mg",
+      purity: "≥99% (HPLC validated)",
+      unitSize: "20mg vial",
       form: "Lyophilized powder",
       synthesis: "Solid-Phase Peptide Synthesis (SPPS)",
       analytical: "HPLC, Mass Spectrometry, UV Spectrophotometry",
-      molecularStructure: "Short-chain synthetic peptide complex",
+      molecularType: "Synthetic research peptide",
+      structure: "Linear peptide chain",
       stability: "High when stored under recommended laboratory conditions"
     },
 
     validationTitle: "Analytical Validation and Quality Assurance",
+
     validationPoints: [
       "HPLC purity and consistency confirmation",
       "Mass Spectrometry molecular identity verification",
       "UV spectrophotometric concentration analysis",
       "Batch-to-batch reproducibility assessment",
-      "Microbial and contamination screening"
+      "Endotoxin and microbial contamination screening"
     ],
 
-    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryTitle: "Regulatory and Compliance",
+
     regulatoryText:
-      "Cartalax® 20mg (Bioregulator) is supplied strictly for laboratory research and scientific investigation. It is not approved for human consumption, veterinary use, cosmetic applications, or medical treatment. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support EU research compliance.",
+      "Biopeptides Cartalax® 20mg (Bioregulator) is strictly intended for laboratory research purposes. It is not approved for human consumption, veterinary use, cosmetic applications, or medical treatment. Certificates of Analysis (COA) and Material Safety Data Sheets (MSDS) are available upon request to support EU research compliance.",
 
     faqTitle: "Frequently Asked Questions",
+
     faqItems: [
       {
-        q: "What is Cartalax® 20mg used for in research?",
-        a: "It is used in laboratory research focusing on cartilage biology, connective tissue signaling, and bioregulatory gene expression studies."
+        q: "What is Cartalax® 20mg used for?",
+        a: "Cartalax® 20mg is used in regenerative cell biology, protein-peptide interaction studies, mitochondrial metabolism research, and extracellular matrix remodeling experiments."
       },
       {
-        q: "Does Cartalax® 20mg have a CAS number?",
-        a: "Currently, Cartalax® does not have a registered CAS number, but it is analytically validated for research-grade purity and identity."
+        q: "Does Cartalax® have a CAS number?",
+        a: "Currently Cartalax® does not have a registered CAS number, but its purity and molecular identity are validated through HPLC, MS, and UV analysis."
       },
       {
-        q: "How should Cartalax® be stored?",
-        a: "Store the lyophilized peptide at −20°C, protected from moisture and light. Avoid repeated freeze–thaw cycles."
+        q: "How should Cartalax® 20mg be stored?",
+        a: "Store the lyophilized peptide at −20°C in a dry and dark environment. Avoid repeated freeze-thaw cycles."
       },
       {
-        q: "Is Cartalax® approved for human or veterinary use?",
-        a: "No. Cartalax® 20mg is strictly for laboratory research and is not approved for human or animal use."
-      },
-      {
-        q: "Can European laboratories buy Cartalax® online?",
-        a: "Yes. Biopeptides supplies Cartalax® 20mg to research institutions across Europe with full analytical documentation."
-      },
-      {
-        q: "What makes Cartalax® unique as a bioregulator?",
-        a: "Its short-chain peptide composition enables precise modulation of gene expression, extracellular matrix behavior, and cartilage-specific cellular signaling."
-      },
-      {
-        q: "How is purity verified?",
-        a: "Purity is confirmed using HPLC, while molecular identity and concentration are verified through Mass Spectrometry and UV analysis."
+        q: "Is Cartalax® approved for human use?",
+        a: "No. Cartalax® 20mg is strictly intended for laboratory research only."
       },
       {
         q: "Why do laboratories prefer the 20mg format?",
-        a: "The 20mg format supports multiple experiments, reduced handling variability, and consistent results across extended research timelines."
+        a: "The 20mg format allows multiple experiments from a single vial while maintaining consistency across extended research timelines."
       }
-    ]
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C15H25CuN6O4",
+      molecularWeight: "416.9",
+      polarArea: "N/A",
+      complexity: "N/A",
+      xlogP: "N/A",
+      heavyAtomCount: "N/A",
+      hydrogenBondDonorCount: "N/A",
+      hydrogenBondAcceptorCount: "N/A",
+      rotatableBondCount: "N/A",
+      sequence: "Ala-His-Lys-Cu"
+    }
   }
 },
   
@@ -7337,52 +7344,8 @@ export default {
   researchStatus:
     "For laboratory research use only. Not for human or veterinary use."
 },
-"fragment-modified-grf-ipamorelin-12mg-blend": {
-  name: "Fragment CJC-1295 + Ipamorelin Blend 12mg",
 
-  strength:
-    "Dual-peptide research blend studied for growth hormone–related receptor signaling and endocrine pathway interaction models.",
 
-  description:
-    "This research blend combines Fragment CJC-1295 (MOD GRF 1-29), a growth hormone–releasing hormone analog studied in pituitary signaling models, with Ipamorelin, a selective growth hormone secretagogue receptor (GHS-R) agonist investigated in endocrine pathway research. In laboratory settings, this blend is used to explore synergistic peptide interactions, receptor-mediated signaling, and peptide-based endocrine research models. Supplied as a high-purity lyophilized peptide blend for controlled scientific investigation.",
-
-  components: [
-    "Fragment CJC-1295 (MOD GRF 1-29)",
-    "Ipamorelin"
-  ],
-
-  applications: [
-    "Endocrine and pituitary signaling research",
-    "Growth hormone receptor pathway studies",
-    "Peptide–receptor interaction investigation",
-    "Synergistic peptide signaling research"
-  ],
-
-  appearance: "White lyophilized powder blend",
-  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
-},
-"foxo4-dri-10mg": {
-  name: "FOXO4-DRI (Proxofim) 10mg",
-
-  strength:
-    "Synthetic research peptide studied in FOXO4–p53 interaction, cellular senescence signaling, and transcription-factor pathway models.",
-
-  description:
-    "FOXO4-DRI (also known as Proxofim) is a synthetic peptide designed for laboratory research into cellular senescence and transcription-factor signaling mechanisms. In scientific models, it is studied for its role in disrupting the interaction between FOXO4 and p53, enabling investigation into senescent cell behavior, apoptosis signaling, and age-associated cellular pathways. Supplied as a high-purity lyophilized peptide for controlled in vitro and molecular research applications.",
-
-  applications: [
-    "Cellular senescence pathway research",
-    "FOXO4–p53 interaction studies",
-    "Transcription-factor signaling investigation",
-    "Cell-cycle and apoptosis signaling models"
-  ],
-
-  appearance: "White lyophilized powder",
-  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use."
-},
 "fragment-modified-grf-ipamorelin-12mg-blend": {
   name: "Fragment CJC-1295 + Ipamorelin Blend 12mg",
   tagline: "Triple-Peptide Growth Hormone Signaling Research Blend",
@@ -12494,14 +12457,11 @@ export default {
 },
 "ipamorelin-2mg": {
   name: "Ipamorelin 2mg",
-
-  tagline:
-    "Selective Growth Hormone Secretagogue for Receptor-Specific Endocrine Signaling Research",
-
+  tagline: "Selective growth hormone secretagogue for receptor-specific endocrine signaling research",
   cas: "170851-70-4",
 
   strength: [
-    "Ipamorelin 2mg by BioPeptide is a high-purity research peptide developed for advanced laboratory studies in growth hormone signaling, ghrelin receptor activation, and endocrine pathway analysis. Synthesized using precision peptide chemistry and purified to ≥99% HPLC, Ipamorelin supports reproducible in-vitro and biochemical research across academic and biotechnology laboratories."
+    "Ipamorelin 2mg by BioPeptide is a high-purity research peptide developed for advanced laboratory studies focused on growth hormone signaling, ghrelin receptor activation, and endocrine pathway analysis. Synthesized using precision peptide chemistry and purified to ≥99% HPLC, Ipamorelin supports reproducible in-vitro and biochemical research across academic and biotechnology laboratories."
   ],
 
   topDescription: {
@@ -12515,20 +12475,19 @@ export default {
   ],
 
   content: {
-
     overviewTitle: "Research Overview",
     overview: [
-      "Ipamorelin is a synthetic pentapeptide belonging to the growth hormone secretagogue class of research peptides.",
-      "It is studied primarily for its interaction with the growth hormone secretagogue receptor (GHS-R).",
+      "Ipamorelin is a synthetic pentapeptide belonging to the growth hormone secretagogue class.",
+      "It is primarily studied for its interaction with the growth hormone secretagogue receptor (GHS-R).",
       "Laboratory research frequently focuses on Ipamorelin’s selective receptor activation and endocrine signaling behavior.",
-      "These characteristics make it valuable for receptor-binding and hormonal pathway research models."
+      "These characteristics make it valuable for receptor-binding and hormone pathway research models."
     ],
 
     scientificBackgroundTitle: "Scientific Background",
     scientificBackground: [
       "Growth hormone secretion is regulated through complex endocrine pathways involving hypothalamic peptides and pituitary receptors.",
       "Ipamorelin selectively activates ghrelin receptors involved in growth hormone release.",
-      "Its receptor specificity allows researchers to study GH signaling with minimal interaction with other hormonal pathways.",
+      "Its receptor specificity allows researchers to study growth hormone signaling with minimal interaction with other hormonal pathways.",
       "This makes Ipamorelin a useful compound for endocrine signaling and receptor-level research."
     ],
 
@@ -12536,7 +12495,7 @@ export default {
     mechanismPoints: [
       "Growth hormone secretagogue receptor activation",
       "Pituitary endocrine signaling research",
-      "Selective peptide-receptor interaction studies",
+      "Selective peptide–receptor interaction studies",
       "Hormone secretion pathway investigation",
       "Cell signaling pathway research"
     ],
@@ -12545,7 +12504,7 @@ export default {
     applications: [
       {
         title: "Growth Hormone Release Research",
-        text: "Ipamorelin is used in laboratory research to study GH secretion patterns and receptor activation timing."
+        text: "Ipamorelin is used in laboratory research to study growth hormone secretion patterns and receptor activation timing."
       },
       {
         title: "Pituitary Receptor Signaling",
@@ -12576,7 +12535,7 @@ export default {
     stabilityPoints: [
       "Store lyophilized peptide at −20°C",
       "Protect from moisture and light exposure",
-      "Avoid repeated freeze-thaw cycles",
+      "Avoid repeated freeze–thaw cycles",
       "Reconstituted solutions should be refrigerated",
       "Use sterile laboratory solvents for preparation"
     ],
@@ -12614,11 +12573,9 @@ export default {
     ],
 
     regulatoryTitle: "Regulatory and Compliance Statement",
-    regulatoryText:
-      "Ipamorelin supplied by BioPeptides is intended strictly for laboratory and scientific research use only. It is not approved for human consumption, veterinary use, cosmetic applications, or therapeutic treatments.",
+    regulatoryText: "Ipamorelin supplied by BioPeptides is intended strictly for laboratory and scientific research use only. It is not approved for human consumption, veterinary use, cosmetic applications, or therapeutic treatments.",
 
     faqTitle: "Frequently Asked Questions",
-
     faqItems: [
       {
         q: "What is Ipamorelin used for in research?",
@@ -12629,7 +12586,7 @@ export default {
         a: "CAS 170851-70-4 uniquely identifies the Ipamorelin peptide for accurate research documentation and traceability."
       },
       {
-        q: "How does Ipamorelin differ from other GH secretagogues?",
+        q: "How does Ipamorelin differ from other growth hormone secretagogues?",
         a: "Ipamorelin is known for selective receptor activation, making it useful for studying targeted endocrine signaling."
       },
       {
@@ -12646,7 +12603,7 @@ export default {
       },
       {
         q: "How should Ipamorelin be stored?",
-        a: "Lyophilized Ipamorelin should be stored at −20°C and protected from repeated freeze-thaw cycles."
+        a: "Lyophilized Ipamorelin should be stored at −20°C and protected from repeated freeze–thaw cycles."
       },
       {
         q: "Why choose BioPeptides for Ipamorelin?",
@@ -12654,40 +12611,28 @@ export default {
       }
     ],
 
-   chemicalProperties: {
-  molecularFormula: "C38H49N9O5",
-  molecularWeight: "711.9",
-  monoisotopicMass: "711.3856657",
-  polarArea: "240",
-  complexity: "1200",
-  xlogP: "1.8",
-  heavyAtomCount: "52",
-  hydrogenBondDonorCount: "8",
-  hydrogenBondAcceptorCount: "8",
-  rotatableBondCount: "19",
-  cid: "9831659",
-  inchi:
-    "InChI=1S/C38H49N9O5/c1-38(2,41)37(52)47-32(21-28-22-42-23-43-28)36(51)46-31(20-25-15-16-26-12-6-7-13-27(26)18-25)35(50)45-30(19-24-10-4-3-5-11-24)34(49)44-29(33(40)48)14-8-9-17-39/h3-7,10-13,15-16,18,22-23,29-32H,8-9,14,17,19-21,39,41H2,1-2H3,(H2,40,48)(H,42,43)(H,44,49)(H,45,50)(H,46,51)(H,47,52)/t29-,30+,31+,32-/m0/s1",
-  inchiKey: "NEHWBYHLYZGBNO-BVEPWEIPSA-N",
-
-  canonicalSmiles:
-    "CC(C)(C(=O)NC(CC1=CN=CN1)C(=O)NC(CC2=CC3=CC=CC=C3C=C2)C(=O)NC(CC4=CC=CC=C4)C(=O)NC(CCCCN)C(=O)N)N",
-
-  isomericSmiles:
-    "CC(C)(C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@H](CC2=CC3=CC=CC=C3C=C2)C(=O)N[C@H](CC4=CC=CC=C4)C(=O)N[C@@H](CCCCN)C(=O)N)N",
-
-  iupacName:
-    "(2S)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2S)-2-[(2-amino-2-methylpropanoyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]-3-naphthalen-2-ylpropanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
-}
-
+    chemicalProperties: {
+      molecularFormula: "C38H49N9O5",
+      molecularWeight: "711.9",
+      monoisotopicMass: "711.3856657",
+      polarArea: "240",
+      complexity: "1200",
+      xlogP: "1.8",
+      heavyAtomCount: "52",
+      hydrogenBondDonorCount: "8",
+      hydrogenBondAcceptorCount: "8",
+      rotatableBondCount: "19",
+      cid: "9831659",
+      inchi: "InChI=1S/C38H49N9O5/c1-38(2,41)37(52)47-32(21-28-22-42-23-43-28)36(51)46-31(20-25-15-16-26-12-6-7-13-27(26)18-25)35(50)45-30(19-24-10-4-3-5-11-24)34(49)44-29(33(40)48)14-8-9-17-39/h3-7,10-13,15-16,18,22-23,29-32H,8-9,14,17,19-21,39,41H2,1-2H3,(H2,40,48)(H,42,43)(H,44,49)(H,45,50)(H,46,51)(H,47,52)/t29-,30+,31+,32-/m0/s1",
+      inchiKey: "NEHWBYHLYZGBNO-BVEPWEIPSA-N",
+      canonicalSmiles: "CC(C)(C(=O)NC(CC1=CN=CN1)C(=O)NC(CC2=CC3=CC=CC=C3C=C2)C(=O)NC(CC4=CC=CC=C4)C(=O)NC(CCCCN)C(=O)N)N",
+      isomericSmiles: "CC(C)(C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@H](CC2=CC3=CC=CC=C3C=C2)C(=O)N[C@H](CC4=CC=CC=C4)C(=O)N[C@@H](CCCCN)C(=O)N)N",
+      iupacName: "(2S)-6-amino-2-[[(2R)-2-[[(2R)-2-[[(2S)-2-[(2-amino-2-methylpropanoyl)amino]-3-(1H-imidazol-5-yl)propanoyl]amino]-3-naphthalen-2-ylpropanoyl]amino]-3-phenylpropanoyl]amino]hexanamide"
+    }
   },
-
   appearance: "White lyophilized powder",
-
-  storage: "Store at −20°C. Avoid repeated freeze-thaw cycles.",
-
-  researchStatus:
-    "For laboratory research use only. Not for human or veterinary use."
+  storage: "Store at −20°C. Avoid repeated freeze–thaw cycles.",
+  researchStatus: "For laboratory research use only. Not for human or veterinary use."
 },
 "ipamorelin-5mg": {
   name: "Ipamorelin 5mg",
@@ -24727,57 +24672,524 @@ cas:"not assigned",
 
 "tesofensine-500mcg-30-capsules": {
   name: "Tesofensine 500mcg – 30 Capsules",
-  
-  strength: "Small-molecule research compound studied in laboratory models for monoamine signaling pathways, central nervous system regulation, and metabolic signaling research.",
-  
-  description: "Tesofensine is a synthetic small-molecule compound investigated in controlled laboratory environments for its interaction with central monoamine signaling pathways and metabolic regulation models. In research settings, Tesofensine is commonly studied for neurotransmitter transport modulation, CNS signaling dynamics, and pathway-level mechanisms related to metabolic research. This product is supplied in capsule form and is intended strictly for analytical and laboratory research applications.",
-  
-  applications: [
-    "Monoamine signaling pathway research",
-    "Central nervous system regulation studies",
-    "Metabolic signaling mechanism investigation",
-    "Neurotransmitter transport research"
+
+  tagline:
+    "Precision Neuro-Metabolic Research Compound for Monoamine Signaling and CNS Pathway Studies",
+
+  cas: "195875-84-4",
+
+  strength: [
+    "Tesofensine 500mcg Capsules by Bio-Peptides are a research-grade neuroactive compound developed for advanced laboratory studies involving monoamine signaling, appetite regulation pathways, metabolic signaling, and central nervous system research. Identified by CAS 195875-84-4, Tesofensine is widely studied in controlled research environments for its interaction with dopamine, norepinephrine, and serotonin transport mechanisms. Supplied as 30 precision-dosed capsules, this format supports consistency and reproducibility in experimental protocols used by research institutions across Europe and the United States."
   ],
-  
+
+  topDescription: {
+    p0: "Tesofensine is a synthetic small-molecule compound studied in laboratory environments for its influence on central monoamine neurotransmitter signaling systems.",
+    p1: "Identified by CAS 195875-84-4, Tesofensine interacts with neurotransmitter transport pathways involving dopamine, norepinephrine, and serotonin, making it valuable in neuroscience and metabolic research.",
+    p2: "The 500mcg capsule format allows laboratories to conduct controlled experimental studies while maintaining consistent dosing and reproducibility across research protocols."
+  },
+
+  components: [
+    "Synthetic monoamine signaling research compound",
+    "Central nervous system pathway investigation compound",
+    "Neuro-metabolic signaling research molecule",
+    "Capsule formulation — 500 mcg per capsule (30 capsules)"
+  ],
+
+  content: {
+
+    overviewTitle: "Research Overview",
+    overview: [
+      "Tesofensine is a synthetic neuroactive compound studied in laboratory environments investigating monoamine neurotransmitter signaling.",
+      "Researchers evaluate Tesofensine to analyze interactions between dopamine, norepinephrine, and serotonin transport systems.",
+      "The compound allows investigation of central nervous system pathways related to metabolic signaling and appetite regulation.",
+      "Its multi-pathway activity makes it valuable for studying integrated neuro-metabolic mechanisms."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background",
+    scientificBackground: [
+      "Monoamine neurotransmitters play a key role in central nervous system signaling and metabolic regulation.",
+      "Tesofensine has been studied for its interaction with monoamine reuptake mechanisms involving dopamine, norepinephrine, and serotonin pathways.",
+      "Research laboratories often evaluate Tesofensine when studying neural circuits associated with energy balance and appetite regulation.",
+      "These studies help researchers better understand complex communication between neurological and metabolic systems."
+    ],
+
+    mechanismTitle: "Mechanistic Research Perspective",
+    mechanismPoints: [
+      "Monoamine neurotransmitter signaling pathway research",
+      "Central nervous system regulatory pathway analysis",
+      "Neurotransmitter transport modulation investigation",
+      "Appetite and satiety signaling research",
+      "Neuro-metabolic communication studies"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Neurotransmitter Signaling Research",
+        text: "Used to study dopamine, norepinephrine, and serotonin pathway modulation in laboratory models."
+      },
+      {
+        title: "Central Nervous System Studies",
+        text: "Researchers investigate CNS regulatory mechanisms and neural signaling pathways."
+      },
+      {
+        title: "Metabolic Signaling Research",
+        text: "Applied in studies examining interactions between neural networks and metabolic regulation."
+      },
+      {
+        title: "Molecular Neuroscience",
+        text: "Used in in-vitro experiments evaluating neurotransmitter transport and receptor signaling."
+      },
+      {
+        title: "Comparative Neuroactive Compound Research",
+        text: "Allows comparison between Tesofensine and other CNS-active research compounds."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Compound Name: Tesofensine",
+      "CAS Number: 195875-84-4",
+      "Compound Class: Neuroactive monoamine signaling compound",
+      "Form: Capsule formulation",
+      "Strength: 500 mcg per capsule",
+      "Quantity: 30 capsules"
+    ],
+
+    stabilityTitle: "Stability Profile and Storage Recommendations",
+    stabilityPoints: [
+      "Store capsules in a cool, dry place",
+      "Protect from excessive heat and moisture",
+      "Keep container tightly closed",
+      "Avoid prolonged exposure to light",
+      "Handle according to laboratory safety procedures"
+    ],
+
+    solubilityTitle: "Handling and Research Preparation Considerations",
+    solubilityPoints: [
+      "Suitable for structured experimental protocols",
+      "Supports reproducible research conditions",
+      "Compatible with neuroscience research workflows",
+      "Capsule format ensures consistent dosing",
+      "Allows simplified laboratory handling"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Tesofensine 500mcg Capsules",
+      brand: "BioPeptides",
+      purity: "Research-grade analytical quality",
+      form: "Capsules",
+      synthesis: "Synthetic small-molecule compound",
+      analytical: "Identity verification and quality testing",
+      molecularStructure: "Neuroactive monoamine signaling compound",
+      stability: "Stable under recommended dry storage conditions"
+    },
+
+    validationTitle: "Analytical Validation and Quality Assurance",
+    validationPoints: [
+      "Compound identity confirmation",
+      "Quality and stability testing",
+      "Batch-to-batch reproducibility validation",
+      "Capsule dosing verification",
+      "Internal analytical quality inspection"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Statement",
+    regulatoryText:
+      "Tesofensine 500mcg Capsules supplied by Bio-Peptides are intended strictly for laboratory research use only. This compound is not approved for human consumption, veterinary use, therapeutic applications, or medical treatment.",
+
+    faqTitle: "Frequently Asked Questions",
+
+    faqItems: [
+      {
+        q: "What is Tesofensine used for in research?",
+        a: "Tesofensine is used in laboratory studies investigating monoamine neurotransmitter signaling, central nervous system pathways, and neuro-metabolic interactions."
+      },
+      {
+        q: "What does CAS 195875-84-4 identify?",
+        a: "CAS 195875-84-4 uniquely identifies Tesofensine, ensuring accurate chemical documentation and research reproducibility."
+      },
+      {
+        q: "Why is Tesofensine supplied in capsule form?",
+        a: "The capsule format provides consistent dosing, simplified handling, and improved experimental reproducibility."
+      },
+      {
+        q: "Which research fields commonly use Tesofensine?",
+        a: "Tesofensine is commonly studied in neuroscience, metabolic biology, neuropharmacology, and signaling pathway research."
+      },
+      {
+        q: "How should Tesofensine capsules be stored?",
+        a: "Capsules should be stored in a cool, dry place away from moisture and excessive heat."
+      }
+    ],
+           chemicalProperties: {
+  molecularFormula: "C221H366N72O67S",
+  molecularWeight: "5136",
+  monoisotopicMass: "5132.7166406",
+  polarArea: "2360",
+  complexity: "12800",
+  xlogP: "-23.3",
+  heavyAtomCount: "361",
+  hydrogenBondDonorCount: "83",
+  hydrogenBondAcceptorCount: "76",
+  rotatableBondCount: "187",
+  cid: "16137828",
+  inchi:
+    "InChI=1S/C221H366N72O67S/c1-25-28-30-53-163(308)260-145(92-120-54-58-122(299)59-55-120)198(343)255-116(21)179(324)276-150(96-169(316)317)199(344)256-117(22)180(325)291-172(111(16)26-2)214(359)284-147(91-119-43-31-29-32-44-119)206(351)293-174(118(23)298)215(360)285-149(95-162(230)307)205(350)289-155(104-297)210(355)280-146(93-121-56-60-123(300)61-57-121)203(348)267-130(51-41-83-248-220(240)241)186(331)266-126(46-34-36-78-223)197(342)290-171(110(14)15)212(357)283-141(87-106(6)7)183(328)252-100-166(311)258-133(63-70-157(225)302)190(335)278-144(90-109(12)13)202(347)288-152(101-294)208(353)257-115(20)178(323)262-128(49-39-81-246-218(236)237)185(330)265-125(45-33-35-77-222)189(334)277-143(89-108(10)11)201(346)279-142(88-107(8)9)200(345)272-137(66-73-160(228)305)195(340)282-151(97-170(318)319)207(352)292-173(112(17)27-3)213(358)274-139(76-85-361-24)196(341)287-153(102-295)209(354)268-131(52-42-84-249-221(242)243)187(332)270-135(64-71-158(226)303)192(337)269-132(62-69-156(224)301)182(327)251-99-165(310)259-134(67-74-167(312)313)191(336)286-154(103-296)211(356)281-148(94-161(229)306)204(349)273-136(65-72-159(227)304)193(338)271-138(68-75-168(314)315)194(339)264-124(47-37-79-244-216(232)233)181(326)250-98-164(309)253-113(18)176(321)261-127(48-38-80-245-217(234)235)184(329)254-114(19)177(322)263-129(50-40-82-247-219(238)239)188(333)275-140(175(231)320)86-105(4)5/h28-32,43-44,54-61,105-118,124-155,171-174,294-300H,25-27,33-42,45-53,62-104,222-223H2,1-24H3,(H2,224,301)(H2,225,302)(H2,226,303)(H2,227,304)(H2,228,305)(H2,229,306)(H2,230,307)(H2,231,320)(H,250,326)(H,251,327)(H,252,328)(H,253,309)(H,254,329)(H,255,343)(H,256,344)(H,257,353)(H,258,311)(H,259,310)(H,260,308)(H,261,321)(H,262,323)(H,263,322)(H,264,339)(H,265,330)(H,266,331)(H,267,348)(H,268,354)(H,269,337)(H,270,332)(H,271,338)(H,272,345)(H,273,349)(H,274,358)(H,275,333)(H,276,324)(H,277,334)(H,278,335)(H,279,346)(H,280,355)(H,281,356)(H,282,340)(H,283,357)(H,284,359)(H,285,360)(H,286,336)(H,287,341)(H,288,347)(H,289,350)(H,290,342)(H,291,325)(H,292,352)(H,293,351)(H,312,313)(H,314,315)(H,316,317)(H,318,319)(H4,232,233,244)(H4,234,235,245)(H4,236,237,246)(H4,238,239,247)(H4,240,241,248)(H4,242,243,249)/b30-28+/t111-,112-,113-,114-,115-,116-,117-,118+,124-,125-,126-,127-,128-,129-,130-,131-,132-,133-,134-,135-,136-,137-,138-,139-,140-,141-,142-,143-,144-,145-,146-,147-,148-,149-,150-,151-,152-,153-,154-,155-,171-,172-,173-,174-/m0/s1",
+  inchiKey: "QBEPNUQJQWDYKU-BMGKTWPMSA-N",
+
+  canonicalSmiles:
+    "CCC=CCC(=O)NC(CC1=CC=C(C=C1)O)C(=O)NC(C)C(=O)NC(CC(=O)O)C(=O)NC(C)C(=O)NC(C(C)CC)C(=O)NC(CC2=CC=CC=C2)C(=O)NC(C(C)O)C(=O)NC(CC(=O)N)C(=O)NC(CO)C(=O)NC(CC3=CC=C(C=C3)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NCC(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CCSC)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)NC(CC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CC(C)C)C(=O)N",
+
+  isomericSmiles:
+    "CC/C=C/CC(=O)N[C@@H](CC1=CC=C(C=C1)O)C(=O)N[C@@H](C)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](C)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC3=CC=C(C=C3)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)NCC(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CCSC)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)N)C(=O)NCC(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)NCC(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CC(C)C)C(=O)N",
+
+  iupacName:
+    "(4S)-4-[[2-[[(2S)-5-amino-2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-4-amino-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-3-carboxy-2-[[(2S)-2-[[(2S)-2-[[(E)-hex-3-enoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]propanoyl]amino]propanoyl]amino]propanoyl]amino]-3-methylpentanoyl]amino]-3-phenylpropanoyl]amino]-3-hydroxybutanoyl]amino]-4-oxobutanoyl]amino]-3-hydroxypropanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-3-methylbutanoyl]amino]-4-methylpentanoyl]amino]acetyl]amino]-5-oxopentanoyl]amino]-4-methylpentanoyl]amino]-3-hydroxypropanoyl]amino]propanoyl]amino]-5-carbamimidamidopentanoyl]amino]hexanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]-5-oxopentanoyl]amino]-3-carboxypropanoyl]amino]-3-methylpentanoyl]amino]-4-methylsulfanylbutanoyl]amino]-3-hydroxypropanoyl]amino]-5-carbamimidamidopentanoyl]amino]-5-oxopentanoyl]amino]-5-oxopentanoyl]amino]acetyl]amino]-5-[[(2S)-1-[[(2S)-4-amino-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-amino-4-methyl-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-5-oxopentanoic acid"
+}
+
+  },
+
   appearance: "Capsule formulation",
-  storage: "Store in a cool, dry place away from light and moisture.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+
+  storage:
+    "Store in a cool, dry place. Protect from heat, moisture, and direct light.",
+
+  researchStatus:
+    "For laboratory research use only. Not for human or veterinary use."
 },
 "testagen-20mg-bioregulator": {
   name: "Testagen 20mg (Bioregulator)",
-  strength: "Short-chain peptide bioregulator studied in laboratory research for testicular tissue signaling pathways and organ-specific regulatory communication models.",
-  description: "Testagen is a short-chain peptide bioregulator investigated in controlled laboratory environments for its interaction with testicular tissue signaling pathways and organ-specific regulatory mechanisms. In research settings, Testagen is studied for peptide-mediated cellular communication, tissue-level regulatory signaling, and bioregulatory pathway models related to reproductive organ research. It is commonly included in peptide bioregulator research programs focused on organ-targeted signaling investigations. Supplied as a high-purity lyophilized research peptide intended exclusively for scientific and analytical research applications.",
-  applications: [
-    "Testicular tissue signaling research",
-    "Organ-specific bioregulator studies",
-    "Peptide-mediated cellular communication research",
-    "Regulatory pathway investigation"
+  tagline: "Testicular Peptide Bioregulator Research Complex",
+  cas: "Unknown",
+
+  strength: [
+    "Testagen 20mg is a short-chain peptide bioregulator supplied for advanced laboratory research investigating testicular tissue signaling pathways, steroidogenesis regulation, spermatogenic signaling mechanisms, and endocrine feedback communication within reproductive biology research systems."
   ],
-  appearance: "White lyophilized powder",
-  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use."
+
+  topDescription: {
+    p0: "Testagen is a testicular-derived peptide bioregulator studied in laboratory environments for its interaction with gonadal cellular signaling pathways and endocrine regulatory communication systems.",
+    p1: "In controlled research settings, Testagen is investigated for peptide-mediated regulatory signaling associated with steroidogenesis pathways, spermatogenic cellular communication, and endocrine feedback interactions between testicular tissue and systemic hormonal networks.",
+    p2: "Supplied as a high-purity lyophilized peptide preparation, Testagen is intended strictly for laboratory research and analytical scientific investigation."
+  },
+
+  content: {
+
+    overviewTitle: "Research Overview",
+    overview: [
+      "Testagen is a short-chain peptide bioregulator derived from testicular peptide complexes and studied within reproductive biology and peptide signaling research programs.",
+      "In laboratory environments, Testagen is investigated for its association with gonadal cellular signaling pathways and regulatory communication systems within testicular tissue.",
+      "This peptide is frequently incorporated into experimental research models examining organ-specific peptide bioregulators and endocrine signaling networks related to reproductive biology."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background",
+    scientificBackground: [
+      "Peptide bioregulators derived from organ-specific tissues are widely studied in molecular biology and endocrinology for their ability to influence localized cellular communication systems.",
+      "Testagen belongs to a class of testicular peptide complexes studied for regulatory signaling mechanisms that influence gonadal cellular activity and endocrine communication pathways.",
+      "These peptides allow researchers to explore tissue-level signaling mechanisms without introducing systemic hormone compounds, providing greater mechanistic clarity in laboratory models."
+    ],
+
+    mechanismTitle: "Mechanistic Research Properties",
+    mechanismPoints: [
+      "Interaction with testicular cellular signaling pathways",
+      "Participation in steroidogenic regulatory communication systems",
+      "Support of peptide-mediated reproductive cellular signaling studies",
+      "Investigation of spermatogenic signaling networks",
+      "Exploration of endocrine feedback communication between gonadal tissue and systemic hormone pathways"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Steroidogenesis Research",
+        text: "Used in laboratory models studying peptide-mediated regulation of steroid hormone synthesis pathways within testicular cell systems."
+      },
+      {
+        title: "Spermatogenic Signaling Studies",
+        text: "Supports investigation of cellular communication involved in spermatogenesis and germ cell regulatory signaling."
+      },
+      {
+        title: "Endocrine Feedback Mechanisms",
+        text: "Applied in experimental models examining regulatory signaling between gonadal tissue and systemic endocrine networks."
+      },
+      {
+        title: "Gonadal Cellular Biology",
+        text: "Used in in-vitro research models to investigate peptide-driven regulatory signaling within testicular cell systems."
+      },
+      {
+        title: "Comparative Bioregulator Research",
+        text: "Allows comparative analysis between Testagen and other organ-specific peptide bioregulators under standardized laboratory conditions."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Peptide Class: Testicular bioregulator peptide complex",
+      "Structure: Short-chain peptide fragments",
+      "Research Field: Reproductive biology and endocrine signaling research",
+      "Form: Lyophilized research peptide powder"
+    ],
+
+    stabilityTitle: "Stability and Storage Profile",
+    stabilityPoints: [
+      "Stable when stored lyophilized at −20°C",
+      "Sensitive to moisture and prolonged light exposure",
+      "Protect from environmental contamination",
+      "Reconstituted solutions should be refrigerated",
+      "Avoid repeated freeze–thaw cycles"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Buffered aqueous laboratory solvent systems",
+      "Analytical solvents used in peptide research"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Testagen 20mg (Bioregulator)",
+      cas: "Unknown",
+      purity: "≥99% (HPLC verified)",
+      unitSize: "20 mg",
+      form: "Lyophilized powder",
+      synthesis: "Peptide extraction / peptide complex purification",
+      analytical: "HPLC, Mass Spectrometry"
+    },
+
+    validationTitle: "Analytical Validation and Quality Control",
+    validationPoints: [
+      "HPLC purity verification",
+      "Mass spectrometry identity confirmation",
+      "Peptide structural integrity testing",
+      "Batch consistency validation",
+      "Laboratory quality control screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Information",
+    regulatoryText:
+      "Testagen 20mg is supplied strictly for laboratory research and scientific investigation. It is not approved as a pharmaceutical product, dietary supplement, cosmetic ingredient, or medical product. The peptide complex is intended exclusively for controlled laboratory experimentation and analytical scientific use.",
+
+    whyTitle: "Why Source from Bio-Peptides?",
+    whyText:
+      "Bio-Peptides supplies research-grade peptides and peptide bioregulators to laboratories worldwide with a focus on analytical purity, batch consistency, and reliable supply chains designed for advanced peptide research environments.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is Testagen used for in research?",
+        a: "Testagen is used in laboratory and preclinical research studying testicular signaling pathways, steroidogenesis mechanisms, spermatogenic cellular communication, and endocrine feedback interactions."
+      },
+      {
+        q: "What type of peptide is Testagen?",
+        a: "Testagen is a testicular-derived peptide bioregulator studied for organ-specific cellular signaling and endocrine communication mechanisms."
+      },
+      {
+        q: "Which research fields commonly use Testagen?",
+        a: "Testagen is studied in reproductive biology, endocrinology, molecular biology, and peptide signaling research focused on male gonadal systems."
+      },
+      {
+        q: "Why is ≥99% purity important?",
+        a: "High purity minimizes experimental variability and ensures that research observations are linked directly to the peptide rather than impurities."
+      },
+      {
+        q: "How should Testagen be stored?",
+        a: "Testagen should be stored at −20°C and protected from light and moisture to maintain peptide stability."
+      },
+      {
+        q: "Is Testagen approved for human use?",
+        a: "No. This product is supplied strictly for laboratory research use."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "Unknown",
+      molecularWeight: "Unknown",
+      monoisotopicMass: "Unknown",
+      polarArea: "Unknown",
+      complexity: "Unknown",
+      xlogP: "Unknown",
+      heavyAtomCount: "Unknown",
+      hydrogenBondDonorCount: "Unknown",
+      hydrogenBondAcceptorCount: "Unknown",
+      rotatableBondCount: "Unknown",
+      cid: "Unknown",
+      inchi: "Unknown",
+      inchiKey: "Unknown",
+      canonicalSmiles: "Unknown",
+      isomericSmiles: "Unknown",
+      iupacName: "Unknown"
+    }
+
+  }
 },
+
+
+
 "thymagen-20mg-bioregulator": {
   name: "Thymagen 20mg (Bioregulator)",
+  tagline: "Thymus Bioregulator Research Peptide",
+  cas: "Not Assigned",
 
-  strength:
-    "Short-chain peptide bioregulator studied in laboratory research for thymus-related signaling pathways and immune system regulatory communication models.",
-
-  description:
-    "Thymagen is a short-chain peptide bioregulator investigated in controlled laboratory environments for its interaction with thymus-associated signaling pathways and organ-specific regulatory mechanisms. In research settings, Thymagen is studied for peptide-mediated cellular communication, immune-related signaling models, and bioregulatory pathway investigations associated with thymic tissue research. It is commonly included in peptide bioregulator research programs focused on organ-targeted regulatory signaling studies. Supplied as a high-purity lyophilized research peptide intended exclusively for scientific and analytical research applications.",
-
-  applications: [
-    "Thymus-related signaling research",
-    "Immune system regulatory pathway studies",
-    "Organ-specific bioregulator research",
-    "Peptide-mediated cellular communication investigation"
+  strength: [
+    "Thymagen 20mg is a short-chain peptide bioregulator supplied for advanced laboratory research focusing on thymus-associated regulatory signaling pathways, immune communication networks, and peptide-mediated cellular regulation models studied within immunology and peptide bioregulator research programs."
   ],
 
-  appearance: "White lyophilized powder",
-  storage: "Store at −20°C. Protect from light and moisture. Avoid repeated freeze–thaw cycles.",
-  researchStatus: "For laboratory research use only. Not for human or veterinary use."
-},
+  topDescription: {
+    p0: "Thymagen is a short-chain peptide bioregulator studied in laboratory environments for its interaction with thymus-related signaling pathways and immune regulatory communication systems.",
+    p1: "In controlled experimental settings, Thymagen is investigated for peptide-mediated regulatory signaling mechanisms associated with thymic tissue and immune system cellular communication.",
+    p2: "Supplied as a high-purity lyophilized peptide preparation, Thymagen is intended strictly for laboratory research and analytical scientific investigation."
+  },
 
+  content: {
+
+    overviewTitle: "Research Overview",
+    overview: [
+      "Thymagen is a short-chain peptide bioregulator studied in peptide signaling and immunology research programs.",
+      "In laboratory research environments, Thymagen is investigated for its relationship with thymus-associated regulatory signaling pathways and immune communication networks.",
+      "The peptide is frequently included in experimental models studying organ-specific peptide bioregulators and thymic regulatory communication systems."
+    ],
+
+    scientificBackgroundTitle: "Scientific Background",
+    scientificBackground: [
+      "Peptide bioregulators derived from thymic tissue are widely investigated in immunology research due to their association with immune system signaling and regulatory communication networks.",
+      "Short-chain peptides such as Thymagen are studied for their role in organ-targeted peptide signaling systems and thymus-related cellular communication models.",
+      "These peptides are often included in laboratory models exploring thymus-regulated signaling pathways and immune regulatory mechanisms."
+    ],
+
+    mechanismTitle: "Mechanistic Research Properties",
+    mechanismPoints: [
+      "Interaction with thymus-associated regulatory signaling pathways",
+      "Participation in immune system communication models",
+      "Support of peptide-mediated regulatory signaling investigations",
+      "Influence on thymic cellular communication networks",
+      "Investigation of peptide bioregulator activity within thymus research systems"
+    ],
+
+    applicationsTitle: "Primary Research Applications",
+    applications: [
+      {
+        title: "Thymus Signaling Research",
+        text: "Used in laboratory models studying peptide-driven communication within thymus-associated regulatory signaling systems."
+      },
+      {
+        title: "Immune Regulatory Pathway Studies",
+        text: "Supports experimental investigation of immune communication pathways and regulatory signaling networks."
+      },
+      {
+        title: "Peptide Bioregulator Research",
+        text: "Applied in peptide bioregulator research programs investigating organ-specific regulatory signaling mechanisms."
+      },
+      {
+        title: "Cellular Communication Models",
+        text: "Used to investigate peptide-mediated cellular communication within immune-related research environments."
+      },
+      {
+        title: "Immunology Research Systems",
+        text: "Allows researchers to study thymus-related signaling behavior in immunological experimental models."
+      }
+    ],
+
+    molecularTitle: "Molecular Characteristics",
+    molecularPoints: [
+      "Peptide Class: Short-chain thymus bioregulator peptide",
+      "Structure: Small regulatory peptide fragment",
+      "Research Field: Immunology and thymus signaling research",
+      "Form: Lyophilized research peptide powder"
+    ],
+
+    stabilityTitle: "Stability and Storage Profile",
+    stabilityPoints: [
+      "Stable when stored in lyophilized form at −20°C",
+      "Sensitive to moisture and prolonged light exposure",
+      "Protect from environmental contamination",
+      "Reconstituted solutions should be refrigerated",
+      "Avoid repeated freeze–thaw cycles"
+    ],
+
+    solubilityTitle: "Solubility and Reconstitution Options",
+    solubilityPoints: [
+      "Bacteriostatic water",
+      "Sterile saline solutions",
+      "Buffered aqueous laboratory solvent systems",
+      "Analytical solvents used in peptide research"
+    ],
+
+    techSpecsTitle: "Technical Specifications",
+    techSpecs: {
+      productName: "Thymagen 20mg (Bioregulator)",
+      cas: "Unknown",
+      purity: "≥98–99% (Research-grade)",
+      unitSize: "20 mg",
+      form: "Lyophilized powder",
+      synthesis: "Peptide synthesis / bioregulator peptide preparation",
+      analytical: "HPLC, Mass Spectrometry"
+    },
+
+    validationTitle: "Analytical Validation and Quality Control",
+    validationPoints: [
+      "HPLC purity verification",
+      "Mass spectrometry identity confirmation",
+      "Peptide structural integrity testing",
+      "Batch consistency validation",
+      "Laboratory quality control screening"
+    ],
+
+    regulatoryTitle: "Regulatory and Compliance Information",
+    regulatoryText:
+      "Thymagen 20mg is supplied strictly for laboratory research and scientific investigation. It is not approved as a pharmaceutical product, dietary supplement, cosmetic ingredient, or medical product. The peptide is intended exclusively for controlled laboratory experimentation and analytical scientific use.",
+
+    whyTitle: "Why Source from Bio-Peptides?",
+    whyText:
+      "Bio-Peptides supplies research-grade peptides to laboratories worldwide with a focus on analytical quality, batch consistency, and reliable scientific supply chains designed for advanced peptide research environments.",
+
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      {
+        q: "What is Thymagen used for in research?",
+        a: "Thymagen is used in laboratory research studying thymus-related signaling pathways and immune regulatory communication systems."
+      },
+      {
+        q: "What type of peptide is Thymagen?",
+        a: "Thymagen is a short-chain thymus peptide bioregulator investigated in immunology and peptide signaling research."
+      },
+      {
+        q: "Which research fields use Thymagen?",
+        a: "It is commonly studied in immunology research, thymus signaling studies, and peptide bioregulator research programs."
+      },
+      {
+        q: "How should Thymagen be stored?",
+        a: "Thymagen should be stored at −20°C and protected from light and moisture."
+      },
+      {
+        q: "Is Thymagen approved for human use?",
+        a: "No. This product is supplied strictly for laboratory research use."
+      }
+    ],
+
+    chemicalProperties: {
+      molecularFormula: "C10H16N4O3",
+      molecularWeight: "240.26",
+      monoisotopicMass: "240.122240",
+      polarArea: "96",
+      complexity: "312",
+      xlogP: "-1.5",
+      heavyAtomCount: "17",
+      hydrogenBondDonorCount: "4",
+      hydrogenBondAcceptorCount: "5",
+      rotatableBondCount: "6",
+      cid: "N/A",
+      inchi: "N/A",
+      inchiKey: "N/A",
+      canonicalSmiles: "N/A",
+      isomericSmiles: "N/A",
+      iupacName: "N/A",
+    }
+
+  }
+},
 
 
 "thymalin-20mg": {

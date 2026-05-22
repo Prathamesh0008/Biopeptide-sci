@@ -9,9 +9,9 @@ import Link from "next/link";
 /* ================= STATIC DATA ================= */
 
 const banners = [
-  "/images/bannerhero1.jpg",
-  "/images/bannerhero1.jpg",
-  "/images/bannerhero1.jpg",
+  "/images/Biopeptidehero2.png",
+  "/images/Biopeptidehero2.png",
+  "/images/Biopeptidehero2.png",
 ];
 
 const slideLinks = [
@@ -86,11 +86,6 @@ export default function Hero() {
     return () => clearInterval(interval);
   }, [loading, whiteBoxes.length]);
 
-  /* ===== RESET ON LANGUAGE CHANGE ===== */
-  useEffect(() => {
-    if (whiteBoxes.length > 0) setCurrent(0);
-  }, [whiteBoxes.length]);
-
   if (whiteBoxes.length === 0) {
     return (
       <section className="relative border-b border-gray-200">
@@ -99,11 +94,12 @@ export default function Hero() {
     );
   }
 
-  const activeBox = whiteBoxes[current];
+  const activeIndex = current % whiteBoxes.length;
+  const activeBox = whiteBoxes[activeIndex];
 
   return (
     <section className="relative border-b border-gray-200 overflow-hidden">
-     <div className="relative w-full min-h-[380px] md:min-h-[450px] py-10">
+     <div className="relative w-full min-h-[380px] md:min-h-[550px] py-10">
 
 
         {/* ========== BACKGROUND SLIDES ========== */}
@@ -115,7 +111,7 @@ export default function Hero() {
             fill
             priority={index === 0}
             className={`absolute inset-0 ${
-              index === current ? "opacity-100" : "opacity-0"
+              index === activeIndex ? "opacity-100" : "opacity-0"
             }`}
           />
         ))}
@@ -124,11 +120,11 @@ export default function Hero() {
 
         {/* ========== CONTENT CARD ========== */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="
+      <div className="
   bg-white/60 backdrop-blur-md
-  rounded-2xl shadow-lg
-  px-4 py-3 md:px-6 md:py-4
-  w-[92%] max-w-3xl
+  rounded-2xl shadow-xl
+  px-6 py-5 md:px-10 md:py-7
+  w-[95%] max-w-5xl
 ">
 
             <div className="flex flex-col md:grid md:grid-cols-2 gap-3 md:gap-4 items-center">

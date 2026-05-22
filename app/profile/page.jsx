@@ -1,3 +1,4 @@
+
 //app\profile\page.jsx
 "use client";
 
@@ -29,7 +30,35 @@ const t = (key) =>
       router.push("/login");
       return;
     }
-    setUser(JSON.parse(stored));
+
+    const parsedUser = JSON.parse(stored);
+    setUser(parsedUser);
+
+    const refreshUser = async () => {
+      try {
+        const res = await fetch("/api/auth/me", {
+          credentials: "include",
+          cache: "no-store",
+        });
+
+        if (res.status === 401) {
+          localStorage.removeItem("bio-user");
+          router.push("/login");
+          return;
+        }
+
+        const data = await res.json();
+        if (data.ok && data.user) {
+          localStorage.setItem("bio-user", JSON.stringify(data.user));
+          setUser(data.user);
+          window.dispatchEvent(new Event("bio-user-updated"));
+        }
+      } catch {
+        setUser(parsedUser);
+      }
+    };
+
+    refreshUser();
   }, [router]);
 
   useEffect(() => {
@@ -59,6 +88,11 @@ const t = (key) =>
   }, [user, router]);
 
   const latestOrder = orders?.[0] || null;
+  const createdDate = formatDate(user?.createdAt);
+  const updatedDate = formatDate(user?.updatedAt);
+  const latestOrderDate = formatDate(latestOrder?.createdAt);
+  const displayRole = user?.role === "admin" ? "Admin" : t("customer") || "Customer";
+  const customerId = user?._id || user?.id;
 
   const stats = useMemo(() => ({
     total: orders.length,
@@ -83,7 +117,9 @@ const hasUserInfo =
   user?.name ||
   user?.email ||
   user?.phone ||
-  user?.role;
+  user?.role ||
+  user?.createdAt ||
+  user?.updatedAt;
 
 const hasAddress =
   latestOrder?.address &&
@@ -121,7 +157,11 @@ const hasAddress =
 
       {/* LEFT – PROFILE CARD */}
       <div className="lg:col-span-1 bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
+<<<<<<< HEAD
   rounded-3xl shadow-xl p-6 text-white relative overflow-hidden">
+=======
+  rounded-xl shadow-xl p-6 text-white relative overflow-hidden">
+>>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
 
   {/* glow */}
   <div className="absolute inset-0 bg-white/10 blur-2xl" />
@@ -138,11 +178,15 @@ const hasAddress =
     <p className="text-sm opacity-90">{user.email}</p>
 
     <div className="mt-6 w-full space-y-3 text-sm">
-      <ProfileRowDark label={t("labels.phone")} value={user.phone || "—"} />
-<ProfileRowDark label={t("labels.role")} value={user.role || t("customer")} />
+      {/* <ProfileRowDark label={t("labels.phone")} value={user.phone || "—"} /> */}
+{/* <ProfileRowDark label={t("labels.role")} value={user.role || t("customer")} /> */}
 <ProfileRowDark
   label={t("labels.joined")}
-  value={new Date(user.createdAt || Date.now()).toLocaleDateString()}
+  value={createdDate}
+/>
+<ProfileRowDark
+  label="Account Type"
+  value={displayRole}
 />
 
     </div>
@@ -150,7 +194,7 @@ const hasAddress =
     <button
       onClick={logout}
       className="mt-8 w-full py-3 rounded-full font-semibold
-        bg-white text-bioBlue hover:bg-gray-100 transition"
+        bg-white text-bioBlue hover:bg-gray-100 transition cursor-pointer"
     >
       {t("logout")}
     </button>
@@ -162,7 +206,7 @@ const hasAddress =
       <div className="lg:col-span-3 space-y-8">
 {/* USER INFORMATION */}
 {hasUserInfo && (
-  <div className="bg-white/90 backdrop-blur rounded-2xl shadow-xl border p-6">
+  <div className="bg-white/90 backdrop-blur rounded-xl shadow-xl border p-6">
     <h3 className="text-xl font-semibold text-gray-900 mb-4">
       {t("accountInfo.title")}
     </h3>
@@ -170,21 +214,33 @@ const hasAddress =
     <div className="grid sm:grid-cols-2 gap-4 text-sm">
       {user.name && <InfoRow label={t("labels.fullName")} value={user.name} />}
 {user.email && <InfoRow label={t("labels.email")} value={user.email} />}
-{user.phone && <InfoRow label={t("labels.phone")} value={user.phone} />}
-{user.role && <InfoRow label={t("labels.role")} value={user.role} />}
-      {user.createdAt && (
-        <InfoRow
-          label="Joined On"
-          value={new Date(user.createdAt).toLocaleDateString()}
-        />
-      )}
+<InfoRow label={t("labels.phone")} value={user.phone || "Not added"} />
+<InfoRow label={t("labels.role")} value={displayRole} />
+<InfoRow label="Joined On" value={createdDate} />
+<InfoRow label="Last Profile Update" value={updatedDate} />
     </div>
   </div>
 )}
 
+{/* ACCOUNT DETAILS */}
+<div className="bg-white/90 backdrop-blur rounded-xl shadow-xl border p-6">
+  <h3 className="text-xl font-semibold text-gray-900 mb-4">
+    Account Details
+  </h3>
+
+  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 text-sm">
+    <InfoRow label="Customer ID" value={customerId ? `#${customerId.slice(-8)}` : "Not available"} />
+    <InfoRow label="Email Status" value={user.email ? "Email on file" : "Email missing"} />
+    <InfoRow label="Saved Phone" value={user.phone ? "Available" : "Not added yet"} />
+    <InfoRow label="Total Orders" value={stats.total} />
+    <InfoRow label="Latest Order" value={latestOrderDate} />
+    <InfoRow label="Pending Orders" value={stats.pending} />
+  </div>
+</div>
+
         {/* SHIPPING ADDRESS */}
 {hasAddress && (
-  <div className="bg-white/90 backdrop-blur rounded-2xl shadow-xl border p-6">
+  <div className="bg-white/90 backdrop-blur rounded-xl shadow-xl border p-6">
     <div className="flex items-start justify-between gap-4">
       <div>
         <h3 className="text-xl font-semibold text-gray-900">
@@ -211,7 +267,7 @@ const hasAddress =
 
 
         {/* ORDERS */}
-        <div className="bg-white/90 backdrop-blur rounded-2xl shadow-xl border p-6">
+        <div className="bg-white/90 backdrop-blur rounded-xl shadow-xl border p-6">
           <div className="flex items-center justify-between mb-5">
             <h3 className="text-xl font-semibold text-gray-900">
               {t("orders.title")}
@@ -284,15 +340,6 @@ const hasAddress =
 
 /* --------- SMALL UI PARTS --------- */
 
-function ProfileRow({ label, value }) {
-  return (
-    <div className="flex justify-between py-2 border-b last:border-none">
-      <span className="text-sm text-gray-500">{label}</span>
-      <span className="text-sm font-medium">{value}</span>
-    </div>
-  );
-}
-
 function Stat({ label, value }) {
   return (
     <div className="bg-white rounded-2xl p-4 shadow-md
@@ -323,6 +370,14 @@ function InfoRow({ label, value }) {
   );
 }
 
+function formatDate(value) {
+  if (!value) return "Not available";
+
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "Not available";
+
+  return date.toLocaleDateString();
+}
 
 
 
@@ -340,3 +395,24 @@ function InfoRow({ label, value }) {
 
 
 
+
+
+
+
+
+
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18

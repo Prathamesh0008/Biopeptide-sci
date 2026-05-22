@@ -45,6 +45,7 @@ const handleSubmit = async (e) => {
       "W6oyvSvHsLD85n4A3"
     );
 
+
     console.log("Admin Email Sent:", adminRes.status, adminRes.text);
 
     const userRes = await emailjs.send(
@@ -101,7 +102,7 @@ const handleSubmit = async (e) => {
       <Breadcrumbs />
 
       {/* DRAWER BUTTON */}
-      <button
+      {/* <button
         onClick={() => setDrawerOpen(true)}
         className="
           fixed right-0 top-1/2 -translate-y-1/2 z-50
@@ -120,7 +121,7 @@ const handleSubmit = async (e) => {
         >
           Product List
         </span>
-      </button>
+      </button> */}
 
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
 
@@ -129,9 +130,9 @@ const handleSubmit = async (e) => {
           <div className="grid lg:grid-cols-2 gap-14">
             {/* LEFT: FORM */}
             <div className="bg-white border border-gray-200 shadow-md rounded-xl p-6 space-y-6">
-              <h2 className="text-3xl font-bold text-[#0d2d47]">
+              <h1 className="text-3xl font-bold text-[#0d2d47]">
                 {t("form.title")}
-              </h2>
+              </h1>
 
               <p className="text-gray-700 text-[16px] leading-relaxed">
                 {t("form.description")}

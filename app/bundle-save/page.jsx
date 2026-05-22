@@ -3,11 +3,11 @@
 
 import Sidebar from "@/components/Sidebar";
 import Image from "next/image";
-import { PRODUCTS } from "@/data/products";
 import { BUNDLES } from "@/data/bundles";
+import { useProducts } from "@/hooks/useProducts";
 import Loader from "@/components/Loader";
 import { useRouter } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "../../components/Breadcrumbs";
@@ -19,6 +19,7 @@ import DrawerProducts from "@/components/DrawerProducts";
 export default function BundleSavePage() {
   const router = useRouter();
   const { translations, loading } = useLanguage();
+  const { products, loading: productsLoading } = useProducts();
 
   const [activeCategory, setActiveCategory] = useState("All");
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -30,7 +31,9 @@ export default function BundleSavePage() {
   // 🔹 resolve bundles
   const resolvedBundles = BUNDLES.map(bundle => ({
     ...bundle,
-    products: PRODUCTS.filter(p => bundle.products.includes(p.id)),
+    products: products.filter((p) =>
+      bundle.products.includes(p.id || p._id)
+    ),
   }));
 
   // 🔹 bundles ONLY for "All"
@@ -41,7 +44,7 @@ export default function BundleSavePage() {
   const filteredProducts =
     activeCategory === "All"
       ? []
-      : PRODUCTS.filter(
+      : products.filter(
           p =>
             p.category &&
             normalize(p.category) === normalize(activeCategory)
@@ -51,7 +54,7 @@ export default function BundleSavePage() {
   //   window.scrollTo(0, 0);
   // }, []);
 
-  if (loading) {
+  if (loading || productsLoading) {
   return (
     <>
       <Navbar />
@@ -67,10 +70,14 @@ export default function BundleSavePage() {
   return (
     <>
       <Navbar />
-      <Breadcrumbs />
+    
 
       {/* DRAWER BUTTON */}
+<<<<<<< HEAD
         <button
+=======
+        {/* <button
+>>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
         onClick={() => setDrawerOpen(true)}
         className="
           fixed right-0 top-1/2 -translate-y-1/2 z-50
@@ -89,7 +96,7 @@ export default function BundleSavePage() {
         >
           Product List
         </span>
-      </button>
+      </button> */}
 
       {/* DRAWER (PAGE LEVEL ONLY) */}
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
@@ -116,12 +123,13 @@ export default function BundleSavePage() {
           {/* CONTENT */}
           <div className="lg:col-span-3">
             {/* TITLE */}
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
-              {translations.bundlePage.title}
-            </h1>
-            <p className="text-gray-600 text-sm mt-1 mb-4">
-              {translations.bundlePage.subtitle}
-            </p>
+           <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+  {translations.bundlePage.title}
+</h1>
+
+<p className="text-gray-600 text-sm mt-2 mb-6">
+  {translations.bundlePage.subtitle}
+</p>
 
           {/* SHOP BY CATEGORY HEADING */}
 <div className="mt-6 mb-3">
@@ -253,7 +261,7 @@ export default function BundleSavePage() {
 
                 {filteredProducts.map((product, index) => (
                   <ProductCard
-                    key={`${product.id}-${index}`}
+                    key={product._id || product.id || product.slug || index}
                     product={product}
                   />
                 ))}

@@ -12,7 +12,16 @@ import { useLanguage } from "@/contexts/LanguageContext";
 export default function CheckoutPage() {
   
   const router = useRouter();
-  const [cart, setCart] = useState([]);
+  const initialUser =
+    typeof window !== "undefined"
+      ? JSON.parse(localStorage.getItem("bio-user") || "null")
+      : null;
+  const [cart] = useState(() => {
+    if (typeof window === "undefined") return [];
+    const user = JSON.parse(localStorage.getItem("bio-user") || "null");
+    const cartKey = user?.email ? `bio-cart-${user.email}` : "guest-cart";
+    return JSON.parse(localStorage.getItem(cartKey) || "[]");
+  });
   const [previousAddresses, setPreviousAddresses] = useState([]);
 
   const [emailError, setEmailError] = useState("");
@@ -27,9 +36,9 @@ const t = (key) =>
 
 
   const [form, setForm] = useState({
-    fullName: "",
-  email: "",
-  phone: "",
+    fullName: initialUser?.name || "",
+  email: initialUser?.email || "",
+  phone: initialUser?.phone || "",
   house: "",
   area: "",
   city: "",
@@ -46,25 +55,10 @@ useEffect(() => {
   }
 
   const user = JSON.parse(userStr);
-
-  // 🔹 Load cart
-  const cartKey = user?.email ? `bio-cart-${user.email}` : "guest-cart";
-  const savedCart = JSON.parse(localStorage.getItem(cartKey) || "[]");
-
-  if (savedCart.length === 0) {
+  if (cart.length === 0) {
     router.push("/cart");
     return;
   }
-
-  setCart(savedCart);
-
-  // 🔹 Prefill basic user info
-  setForm((prev) => ({
-    ...prev,
-    fullName: user?.name || prev.fullName,
-    email: user?.email || prev.email,
-    phone: user?.phone || prev.phone,
-  }));
 
   // 🔹 FETCH PREVIOUS ADDRESS FROM DATABASE
   if (user?._id) {
@@ -77,7 +71,7 @@ useEffect(() => {
 });
 
   }
-}, [router]);
+}, [cart.length, router]);
 
 
   const subtotal = cart.reduce(
@@ -390,7 +384,11 @@ await fetch("/api/address/save", {
           <button
             onClick={goToPayment}
             className="mt-6 w-full py-3 rounded-full font-semibold text-white
+<<<<<<< HEAD
              bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]"
+=======
+             bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7] cursor-pointer"
+>>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
           >
             {t("continue")}
 
@@ -430,7 +428,7 @@ await fetch("/api/address/save", {
   })
 }
 
-          className="mt-3 text-sm font-semibold text-bioBlue hover:underline"
+          className="mt-3 text-sm font-semibold text-bioBlue hover:underline cursor-pointer"
         >
           Use this address
         </button>
@@ -447,6 +445,7 @@ await fetch("/api/address/save", {
     </>
   );
 }
+
 
 
 

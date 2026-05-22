@@ -7,8 +7,8 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Loader from "@/components/Loader";
 import Sidebar from "@/components/Sidebar";
-import { PRODUCTS } from "@/data/products";
 import { BUNDLES } from "@/data/bundles";
+import { useProducts } from "@/hooks/useProducts";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -16,8 +16,8 @@ import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function BundleDetailPage() {
   const { id } = useParams();
-  const [bundle, setBundle] = useState(null);
   const [loading, setLoading] = useState(true);
+  const { products, loading: productsLoading } = useProducts();
   const { translations } = useLanguage();
 const t = {
   overviewPoints: [],
@@ -62,9 +62,9 @@ const t = {
 
       // keep bundle contents
       items: bundle.resolvedProducts.map((p) => ({
-        id: p.id,
+        id: p.id || p._id,
         name: p.name,
-        strength: p.size,
+        strength: p.strength || p.size,
         price: p.price,
         qty: 1,
       })),
@@ -80,29 +80,22 @@ const t = {
 
 
 
-  /* ⭐ ALWAYS SCROLL TO TOP WHEN PAGE LOADS */
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
-
-  /* ⭐ Loader Animation */
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 900);
     return () => clearTimeout(timer);
   }, []);
 
-  /* ⭐ Resolve Bundle */
-  useEffect(() => {
-    const found = BUNDLES.find((b) => b.id === id);
-    if (found) {
-      const resolvedProducts = PRODUCTS.filter((p) =>
-        found.products.includes(p.id)
-      );
-      setBundle({ ...found, resolvedProducts });
-    }
-  }, [id]);
+  const foundBundle = BUNDLES.find((b) => b.id === id);
+  const bundle = foundBundle
+    ? {
+        ...foundBundle,
+        resolvedProducts: products.filter((p) =>
+          foundBundle.products.includes(p.id || p._id)
+        ),
+      }
+    : null;
 
-if (loading || !bundle || !t) return <Loader />;
+if (loading || productsLoading || !bundle || !t) return <Loader />;
 
 
   return (
@@ -254,12 +247,12 @@ if (loading || !bundle || !t) return <Loader />;
               <div className="space-y-4">
                 {bundle.resolvedProducts.map((product) => (
                   <div
-                    key={product.id}
+                    key={product._id || product.id || product.slug}
                     className="flex items-center gap-4 p-4 border rounded-xl bg-gray-50 hover:bg-gray-100 transition"
                   >
                     <div className="relative w-14 h-14 sm:w-16 sm:h-16 bg-white rounded-md overflow-hidden">
                       <Image
-                        src={product.image}
+                        src={product.image || "/images/product.png"}
                         alt={product.name}
                         fill
                         className="object-contain"
@@ -269,7 +262,9 @@ if (loading || !bundle || !t) return <Loader />;
                       <p className="font-medium text-gray-900 text-sm sm:text-base">
                         {product.name}
                       </p>
-                      <p className="text-xs sm:text-sm text-gray-600">{product.size}</p>
+                      <p className="text-xs sm:text-sm text-gray-600">
+                        {product.strength || product.size}
+                      </p>
                     </div>
                   </div>
                 ))}
@@ -379,7 +374,7 @@ if (loading || !bundle || !t) return <Loader />;
 // "use client";
 
 // import { useParams } from "next/navigation";
-// import { useEffect, useState } from "react";
+// import { useEffect, useMemo, useState } from "react";
 // import Image from "next/image";
 // import Loader from "@/components/Loader";
 // import Sidebar from "@/components/Sidebar";
@@ -390,8 +385,7 @@ if (loading || !bundle || !t) return <Loader />;
 
 // export default function BundleDetailPage() {
 //   const { id } = useParams();
-//   const [bundle, setBundle] = useState(null);
-//   const [loading, setLoading] = useState(true);
+//`r`n//   const [loading, setLoading] = useState(true);
 
 //   const [previewOpen, setPreviewOpen] = useState(false);
 
@@ -719,3 +713,4 @@ if (loading || !bundle || !t) return <Loader />;
 //     </>
 //   );
 // }
+

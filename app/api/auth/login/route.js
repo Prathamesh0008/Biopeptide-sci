@@ -63,6 +63,8 @@ export async function POST(req) {
         name: user.name,
         phone: user.phone,
         role: user.role,
+        createdAt: user.createdAt,
+        updatedAt: user.updatedAt,
       },
     });
   } catch (err) {

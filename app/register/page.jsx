@@ -1,4 +1,4 @@
-//app\register\page.jsx
+// app\register\page.jsx
 "use client";
 
 import { useState } from "react";
@@ -33,7 +33,13 @@ export default function RegisterPage() {
     const data = await res.json();
 
     if (!res.ok || !data.ok) {
-      alert(data.error || "Registration failed");
+      let errorMessage = data.error || "Registration failed";
+
+      if (errorMessage.toLowerCase().includes("user already exists")) {
+        errorMessage = "Email already exists";
+      }
+
+      alert(errorMessage);
       setLoading(false);
       return;
     }
@@ -44,119 +50,135 @@ export default function RegisterPage() {
 
   return (
     <>
-    <Navbar/>
-    <main
-  className="
-    relative overflow-hidden
-    px-6 py-14
-    bg-gradient-to-br from-white via-[#f2fbff] to-[#ecfff6]
-  "
->
+      <Navbar />
 
-
-      {/* Floating bio shapes */}
-      <motion.div
-        className="absolute top-10 left-10 w-16 h-16 bg-bioBlue/5 rounded-full blur-3xl"
-        animate={{ y: [0, 40, 0], opacity: [0.4, 0.7, 0.4] }}
-        transition={{ duration: 7, repeat: Infinity }}
-      />
-      <motion.div
-        className="absolute bottom-16 right-16 w-20 h-20 bg-bioGreen/5 rounded-full blur-3xl"
-        animate={{ y: [0, -40, 0], opacity: [0.3, 0.6, 0.3] }}
-        transition={{ duration: 8, repeat: Infinity }}
-      />
-
-      {/* Card */}
-      <motion.div
-        initial={{ y: 40, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5 }}
+      <main
         className="
-  mx-auto w-full max-w-md
-  bg-white/95
-  backdrop-blur-xl
-  border border-gray-200/60
-  shadow-[0_20px_50px_-15px_rgba(13,45,71,0.25)]
-  rounded-2xl
-  p-8
-"
+          relative overflow-hidden
+          px-6 py-14
+          bg-gradient-to-br from-white via-[#f6fdfc] to-[#eefbfd]
+        "
       >
-        {/* Header */}
-        <div className="text-center mb-6">
-          <div className="mx-auto w-14 h-14 rounded-full bg-gradient-to-br from-bioBlue to-bioGreen flex items-center justify-center text-white text-2xl font-bold">
-            B
+        {/* Floating bio shapes */}
+        <motion.div
+          className="absolute top-10 left-10 w-16 h-16 bg-[#52c3c6]/20 rounded-full blur-3xl"
+          animate={{ y: [0, 40, 0], opacity: [0.4, 0.7, 0.4] }}
+          transition={{ duration: 7, repeat: Infinity }}
+        />
+
+        <motion.div
+          className="absolute bottom-16 right-16 w-20 h-20 bg-[#0978a7]/20 rounded-full blur-3xl"
+          animate={{ y: [0, -40, 0], opacity: [0.3, 0.6, 0.3] }}
+          transition={{ duration: 8, repeat: Infinity }}
+        />
+
+        {/* Card */}
+        <motion.div
+          initial={{ y: 40, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          className="
+            mx-auto w-full max-w-md
+            bg-white/95
+            backdrop-blur-xl
+            border border-gray-200/60
+            shadow-[0_20px_50px_-15px_rgba(13,45,71,0.25)]
+            rounded-2xl
+            p-8
+          "
+        >
+          {/* Header */}
+          <div className="text-center mb-6">
+            <div className="mx-auto w-14 h-14 rounded-full bg-gradient-to-br from-[#52c3c6] via-[#0a79a8] to-[#0978a7] flex items-center justify-center text-white text-2xl font-bold">
+              B
+            </div>
+
+            <h1 className="text-2xl font-bold text-[#0d2d47] mt-4">
+              Create BioPeptide Account
+            </h1>
+
+            <div className="mx-auto mt-3 w-12 h-1 rounded-full bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]"></div>
+
+            <p className="text-sm text-gray-600 mt-1">
+              Register to continue checkout and manage orders
+            </p>
           </div>
-          <h1 className="text-2xl font-bold text-[#0d2d47] mt-4">
-            Create BioPeptide Account
-          </h1>
-          <div className="mx-auto mt-3 w-12 h-1 rounded-full bg-gradient-to-r from-bioBlue to-bioGreen"></div>
 
-          <p className="text-sm text-gray-600 mt-1">
-            Register to continue checkout and manage orders
+          {/* Form */}
+          <div className="space-y-4">
+            <input
+              placeholder="Full Name"
+              className="
+                w-full px-4 py-3 rounded-lg
+                border border-gray-200
+                focus:ring-2 focus:ring-[#0a79a8]/40
+                focus:border-[#0a79a8]
+                outline-none text-sm
+              "
+              value={form.name}
+              onChange={(e) => setForm({ ...form, name: e.target.value })}
+            />
+
+            <input
+              type="email"
+              placeholder="Email Address"
+              className="
+                w-full px-4 py-3 rounded-lg
+                border border-gray-200
+                focus:ring-2 focus:ring-[#0a79a8]/40
+                focus:border-[#0a79a8]
+                outline-none text-sm
+              "
+              value={form.email}
+              onChange={(e) => setForm({ ...form, email: e.target.value })}
+            />
+
+            <input
+              type="password"
+              placeholder="Create Password"
+              className="
+                w-full px-4 py-3 rounded-lg
+                border border-gray-200
+                focus:ring-2 focus:ring-[#0a79a8]/40
+                focus:border-[#0a79a8]
+                outline-none text-sm
+              "
+              value={form.password}
+              onChange={(e) => setForm({ ...form, password: e.target.value })}
+            />
+
+            <button
+              onClick={submitRegister}
+              disabled={loading}
+              className="
+                w-full py-3 rounded-lg
+                font-semibold text-white
+                bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
+                shadow-md hover:shadow-xl
+                hover:scale-[1.01] active:scale-[0.99]
+                transition
+                disabled:opacity-50
+                cursor-pointer
+              "
+            >
+              {loading ? "Creating account..." : "Create Account"}
+            </button>
+          </div>
+
+          {/* Footer */}
+          <p className="text-center text-sm text-gray-600 mt-6">
+            Already have an account?
+            <button
+              onClick={() => router.push("/login")}
+              className="text-[#0a79a8] ml-1 hover:underline hover:text-[#0978a7] font-medium cursor-pointer"
+            >
+              Sign in →
+            </button>
           </p>
-        </div>
+        </motion.div>
+      </main>
 
-        {/* Form */}
-        <div className="space-y-4">
-          <input
-            placeholder="Full Name"
-            className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-bioBlue outline-none text-sm"
-            value={form.name}
-            onChange={(e) =>
-              setForm({ ...form, name: e.target.value })
-            }
-          />
-
-          <input
-            type="email"
-            placeholder="Email Address"
-            className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-bioBlue outline-none text-sm"
-            value={form.email}
-            onChange={(e) =>
-              setForm({ ...form, email: e.target.value })
-            }
-          />
-
-          <input
-            type="password"
-            placeholder="Create Password"
-            className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-bioBlue outline-none text-sm"
-            value={form.password}
-            onChange={(e) =>
-              setForm({ ...form, password: e.target.value })
-            }
-          />
-
-          <button
-            onClick={submitRegister}
-            disabled={loading}
-            className="
-  w-full py-3 rounded-lg
-  font-semibold text-white
-  bg-gradient-to-r from-bioBlue to-bioGreen
-  shadow-md hover:shadow-xl
-  hover:scale-[1.01] active:scale-[0.99]
-  transition
-  disabled:opacity-50
-"
-          >
-            {loading ? "Creating account..." : "Create Account"}
-          </button>
-        </div>
-
-        {/* Footer */}
-        <p className="text-center text-sm text-gray-600 mt-6">
-          Already have an account?
-          <button
-            onClick={() => router.push("/login")}
-            className="text-bioBlue ml-1 hover:underline font-medium"
-          >
-            Sign in →
-          </button>
-        </p>
-      </motion.div>
-    </main>
-    <Footer/>
+      <Footer />
     </>
   );
 }

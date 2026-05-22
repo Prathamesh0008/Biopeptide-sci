@@ -1,7 +1,7 @@
 // app/peptide-research/layout.jsx
 
 export const metadata = {
-  metadataBase: new URL("https://biopeptide-sci.vercel.app"),
+  metadataBase: new URL("https://www.bio-peptides.com"),
 
   title: "Peptide Research & Scientific Development | USA – BioPeptide",
 
@@ -32,7 +32,7 @@ export const metadata = {
     siteName: "BioPeptide",
     images: [
       {
-        url: "/Biopeptidecolourlogo.png",
+        url: "/Biologofull.png",
         width: 1200,
         height: 630,
         alt: "Peptide Research and Scientific Development USA - BioPeptide",
@@ -47,7 +47,7 @@ export const metadata = {
     title: "Peptide Research & Scientific Development | USA – BioPeptide",
     description:
       "BioPeptide Sci specializes in peptide research compounds for scientific research. USA-focused supply of high-purity peptides for laboratory development.",
-    images: ["/Biopeptidecolourlogo.png"],
+    images: ["/Biologofull.png"],
   },
 };
 

@@ -144,6 +144,7 @@ export default {
       "description": "Materialele BioPeptide sunt destinate strict cercetării de laborator. Oferim instrumente peptidice de înaltă acuratețe pentru instituții academice, organizații științifice și facilități de cercetare certificate — asigurând că toată activitatea se aliniază cu standarde etice, de reglementare și de integritate științifică."
     }
   },
+  
   "contact": {
     "hero": {
       "title": "Contactați BioPeptide",
@@ -1409,24 +1410,26 @@ researchPeptidesForDiscovery: {
     },
     "continue": "Continuă spre Plată"
   },
-  "payment": {
-    "title": "Plată",
-    "chooseMethod": "Alege Metoda de Plată",
-    "methods": {
-      "card": {
-        "title": "Card de Credit / Debit",
-        "desc": "Visa, MasterCard, RuPay"
-      },
-      "upi": {
-        "title": "UPI",
-        "desc": "Google Pay, PhonePe, Paytm"
-      }
+ payment: {
+  title: "Plată",
+  chooseMethod: "Alegeți metoda de plată",
+
+  methods: {
+    card: {
+      title: "Card credit/debit",
+      desc: "Visa, MasterCard, RuPay"
     },
-    "summary": "Sumar Comandă",
-    "total": "Total",
-    "paySecurely": "Plătește În Siguranță",
-    "secureNote": "Plăți 100% Securizate"
+    upi: {
+      title: "UPI",
+      desc: "Google Pay, PhonePe, Paytm"
+    }
   },
+
+  summary: "Rezumat comandă",
+  total: "Total",
+  paySecurely: "Plătiți în siguranță",
+  secureNote: "Plăți 100% sigure"
+},
   "research": {
     "vilon": {
       "title": "Vilon: Bioregulare Celulară și Imună",
@@ -1844,7 +1847,7 @@ researchPeptidesForDiscovery: {
       "description": "Această Politică de Confidențialitate explică modul în care BioPeptide™ colectează, utilizează și protejează informațiile dvs. când vizitați site-ul nostru web."
     },
     "intro": {
-      "site": "Politica de Confidențialitate pentru www.biopeptide.com (BioPeptide™)",
+      "site": "Politica de Confidențialitate pentru info@bio-peptides.com (BioPeptide™)",
       "contact": "Dacă aveți nevoie de mai multe informații sau aveți întrebări despre politica noastră de confidențialitate, nu ezitați să ne contactați prin e-mail la",
       "importance": "La BioPeptide™, confidențialitatea vizitatorilor noștri este de o importanță extremă. Acest document al politicii de confidențialitate descrie tipurile de informații personale care sunt primite și colectate de BioPeptide™ și modul în care sunt utilizate."
     },
@@ -1891,7 +1894,7 @@ researchPeptidesForDiscovery: {
     "sections": {
       "general": {
         "title": "Acord general privind termenii și condițiile de utilizare",
-        "p1": "Acești Termeni și Condiții guvernează toți utilizatorii www.biopeptide.com. Acești termeni trebuie să fie acceptați înainte ca orice achiziție să poată fi efectuată."
+        "p1": "Acești Termeni și Condiții guvernează toți utilizatorii info@bio-peptides.com. Acești termeni trebuie să fie acceptați înainte ca orice achiziție să poată fi efectuată."
       },
       "payments": {
         "title": "Plăți și autorizare",
@@ -2143,21 +2146,13 @@ researchPeptidesForDiscovery: {
       }
     }
   },
-  "productPage": {
-    "back": "← Înapoi la Produse",
-    "tagline": "BioPeptide Premium • Material de Cercetare Științifică de Înaltă Puritate",
-   description: {
-  p0: "{name} este un peptid de cercetare de înaltă puritate, sintetizat folosind sinteza peptidică avansată în fază solidă (SPPS) și validare analitică.",
-  p1: "Dezvoltat prin tehnologie de sinteză peptidică de precizie, {name} este supus unei purificări de înaltă rezoluție pentru a asigura acuratețea moleculară.",
-  p2: "Conceput pentru analize biochimice, semnalizare celulară, studii celulare, analiza legării receptorilor și medii de cercetare controlate."
-}
-,
-    "badges": { "hplc": "Testat HPLC", "research": "Grad de Cercetare", "coa": "COA Disponibil" },
-    "priceNote": "Numai pentru uz în cercetare",
-    "addToCart": "Adaugă în Coș",
-    "specs": { "category": "Categorie", "purity": "Puritate", "size": "Dimensiune unitară", "cas": "CAS" },
-    "notFound": "Produsul nu a fost găsit"
-  },
+productPage: {
+  back: "Înapoi",
+  addToCart: "Adaugă în coș",
+  chemicalProperties: "Proprietăți chimice",
+  description: "Descriere",
+  coa: "COA / HPLC / MS",
+},
   "productContent": {
     "overviewTitle": "Prezentare generală",
     "overviewDescription1": "este un peptid de cercetare de înaltă precizie sintetizat folosind sinteza peptidică în fază solidă (SPPS). Fiecare lot suferă o validare analitică extinsă, inclusiv HPLC și Spectrometrie de Masă, pentru a asigura integritatea structurală, puritatea și consistența de la lot la lot.",
@@ -2767,7 +2762,37 @@ description:
         "Îmbunătățește alinierea ritmului circadian esențială pentru longevitate"
       ]
     }
+  },
+  researchVideos: {
+  title: "Videoclipuri de cercetare",
+  subtitle: "Explorați biblioteca noastră de conținut educațional și științific.",
+
+  comingSoon: "În curând",
+  exploreButton: "Explorați produsele",
+
+  educational: {
+    title: "Conținut educațional",
+    description: "Tutoriale și explicații științifice."
+  },
+
+  webinars: {
+    title: "Webinarii experți",
+    description: "Sesiuni live cu cercetători."
+  },
+
+  updates: {
+    title: "Actualizări săptămânale",
+    description: "Conținut nou regulat."
+  },
+
+  notification: {
+    title: "Fii primul",
+    description: "Abonează-te pentru notificări.",
+    placeholder: "Introdu email",
+    button: "Anunță-mă",
+    note: "Fără spam."
   }
+}
 
 
 

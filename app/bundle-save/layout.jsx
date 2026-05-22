@@ -2,7 +2,6 @@
 
 export const metadata = {
   title: "Research Peptide Bundle Deals USA | High-Purity Peptides",
-
   description:
     "Discover research peptide bundle deals in the USA. High-purity peptide combinations supplied for laboratory research and scientific development.",
 
@@ -19,18 +18,18 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://biopeptide-sci.vercel.app/bundle-save",
+    canonical: "https://www.bio-peptides.com/bundle-save",
   },
 
   openGraph: {
     title: "Research Peptide Bundle Deals USA | High-Purity Peptides",
     description:
       "Discover research peptide bundle deals in the USA. High-purity peptide combinations supplied for laboratory research and scientific development.",
-    url: "https://biopeptide-sci.vercel.app/bundle-save",
+    url: "https://www.bio-peptides.com/bundle-save",
     siteName: "BioPeptide",
     images: [
       {
-        url: "https://biopeptide-sci.vercel.app/Biopeptidecolourlogo.png",
+        url: "https://www.bio-peptides.com/Biologofull.png",
         width: 1200,
         height: 630,
         alt: "Research Peptide Bundle Deals USA",
@@ -45,23 +44,10 @@ export const metadata = {
     title: "Research Peptide Bundle Deals USA | High-Purity Peptides",
     description:
       "Discover research peptide bundle deals in the USA. High-purity peptide combinations supplied for laboratory research and scientific development.",
-    images: ["https://biopeptide-sci.vercel.app/Biopeptidecolourlogo.png"],
+    images: ["https://www.bio-peptides.com/Biologofull.png"],
   },
 };
 
 export default function BundleSaveLayout({ children }) {
   return <>{children}</>;
 }
-
-
-
-
-// export const metadata = {
-//   title: "Research Peptide Bundle Deals USA | High-Purity Peptides",
-//   description:
-//     "Discover research peptide bundle deals in the USA. High-purity peptide combinations supplied for laboratory research and scientific development.",
-// };
-
-// export default function BundleSaveLayout({ children }) {
-//   return children;
-// }

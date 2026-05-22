@@ -154,6 +154,7 @@ export default {
         "BioPeptide-Materialien sind ausschließlich für die Laborforschung bestimmt. Wir stellen hochpräzise Peptidwerkzeuge für akademische Einrichtungen, wissenschaftliche Organisationen und zertifizierte Forschungseinrichtungen bereit und stellen sicher, dass alle Arbeiten ethischen, regulatorischen und wissenschaftlichen Integritätsstandards entsprechen."
     }
   },
+  
   contact: {
     hero: {
       title: "Kontaktieren Sie BioPeptide",
@@ -1492,24 +1493,23 @@ checkoutPage: {
 },
 payment: {
   title: "Zahlung",
-  chooseMethod: "Zahlungsmethode auswählen",
+  chooseMethod: "Zahlungsmethode wählen",
 
   methods: {
     card: {
-      title: "Kredit- / Debitkarte",
+      title: "Kredit-/Debitkarte",
       desc: "Visa, MasterCard, RuPay"
     },
     upi: {
-  title: "UPI",
-  desc: "Google Pay, PhonePe, Paytm"
-}
-
+      title: "UPI",
+      desc: "Google Pay, PhonePe, Paytm"
+    }
   },
 
   summary: "Bestellübersicht",
-  total: "Gesamtbetrag",
+  total: "Gesamt",
   paySecurely: "Sicher bezahlen",
-  secureNote: "100% sichere Zahlung"
+  secureNote: "100% sichere Zahlungen"
 },
 researchPage: {
 title: "Forschung in der Peptidwissenschaft",
@@ -1940,7 +1940,7 @@ privacy: {
       "Diese Datenschutzrichtlinie erklärt, wie BioPeptide™ Ihre Daten sammelt und schützt."
   },
   intro: {
-    site: "Datenschutzrichtlinie für www.biopeptide.com (BioPeptide™)",
+    site: "Datenschutzrichtlinie für info@bio-peptides.com (BioPeptide™)",
     contact:
       "Bei Fragen zu unserer Datenschutzrichtlinie kontaktieren Sie uns per E-Mail unter",
     importance:
@@ -2325,21 +2325,12 @@ refundsReturns: {
   }
 },
 productPage: {
-  back: "← Zurück zu den Produkten",
-  tagline: "Premium BioPeptide • Hochreines Forschungsmaterial",
-  description: {
-  p0: "{name} ist ein hochreines Forschungspeptid, das mithilfe fortschrittlicher Festphasen-Peptidsynthese (SPPS) und analytischer Validierung hergestellt wird.",
-  p1: "Durch präzise Peptidsynthesetechnologie entwickelt, wird {name} hochauflösend gereinigt, um molekulare Genauigkeit sicherzustellen.",
-  p2: "Konzipiert für biochemische Assays, Signalwegforschung, Zellstudien, Rezeptorbindungsanalysen und kontrollierte Forschungsumgebungen."
-}
-,
-  badges: { hplc: "HPLC-geprüft", research: "Forschungsqualität", coa: "COA verfügbar" },
-  priceNote: "Nur für Forschungszwecke",
+  back: "Zurück",
   addToCart: "In den Warenkorb",
-  specs: { category: "Kategorie", purity: "Reinheit", size: "Einheitsgröße", cas: "CAS" },
-  notFound: "Produkt nicht gefunden"
-}
-,
+  chemicalProperties: "Chemische Eigenschaften",
+  description: "Beschreibung",
+  coa: "COA / HPLC / MS",
+},
 productContent: {
   overviewTitle: "Überblick",
 
@@ -2635,6 +2626,36 @@ peptideInformation: {
     "Die Einhaltung dieser bewährten Verfahren trägt dazu bei, dass BioPeptide-Forschungspeptide ihre Integrität und Zuverlässigkeit für wissenschaftliche Untersuchungen bewahren."
 }
 
+},
+researchVideos: {
+  title: "Forschungsvideos",
+  subtitle: "Entdecken Sie unsere umfassende Bibliothek mit Bildungsinhalten und Forschungseinblicken.",
+
+  comingSoon: "Demnächst",
+  exploreButton: "Produkte entdecken",
+
+  educational: {
+    title: "Bildungsinhalte",
+    description: "Detaillierte Tutorials und wissenschaftliche Erklärungen."
+  },
+
+  webinars: {
+    title: "Experten-Webinare",
+    description: "Live-Sessions mit Forschern und Diskussionen."
+  },
+
+  updates: {
+    title: "Wöchentliche Updates",
+    description: "Neue Inhalte zu aktuellen Forschungsergebnissen."
+  },
+
+  notification: {
+    title: "Als Erster informiert sein",
+    description: "Abonnieren Sie Updates.",
+    placeholder: "E-Mail eingeben",
+    button: "Benachrichtigen",
+    note: "Kein Spam."
+  }
 }
 
 

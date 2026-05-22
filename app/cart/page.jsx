@@ -18,7 +18,14 @@ const getCartKey = (user) => {
 };
 
 export default function CartPage() {
-  const [cart, setCart] = useState([]);
+  const [cart, setCart] = useState(() => {
+    if (typeof window === "undefined") return [];
+    const storedUser = localStorage.getItem("bio-user");
+    if (!storedUser) return [];
+    const user = JSON.parse(storedUser);
+    const cartKey = getCartKey(user);
+    return JSON.parse(localStorage.getItem(cartKey) || "[]");
+  });
   const [drawerOpen, setDrawerOpen] = useState(false);
   const router = useRouter();
 
@@ -40,11 +47,6 @@ export default function CartPage() {
       return;
     }
 
-    const user = JSON.parse(storedUser);
-    const cartKey = getCartKey(user);
-
-    const savedCart = JSON.parse(localStorage.getItem(cartKey) || "[]");
-    setCart(savedCart);
   }, [router]);
 
   /* ✅ update quantity */
@@ -147,7 +149,7 @@ export default function CartPage() {
                             onClick={() =>
                               updateQty(item.id, Math.max(1, item.qty - 1))
                             }
-                            className="w-9 h-9 flex items-center justify-center text-lg font-medium text-gray-700 hover:bg-gray-100 transition"
+                            className="w-9 h-9 cursor-pointer flex items-center justify-center text-lg font-medium text-gray-700 hover:bg-gray-100 transition"
                           >
                             −
                           </button>
@@ -162,7 +164,7 @@ export default function CartPage() {
                                 e.target.value.replace(/\D/g, "") || 1
                               )
                             }
-                            className="w-12 text-center text-sm outline-none bg-white"
+                            className="w-12 text-center text-sm outline-none bg-white cursor-pointer"
                           />
 
                           {/* PLUS */}
@@ -170,7 +172,7 @@ export default function CartPage() {
                             onClick={() =>
                               updateQty(item.id, item.qty + 1)
                             }
-                            className="w-9 h-9 flex items-center justify-center text-lg font-medium text-gray-700 hover:bg-gray-100 transition"
+                            className="w-9 h-9 cursor-pointer flex items-center justify-center text-lg font-medium text-gray-700 hover:bg-gray-100 transition"
                           >
                             +
                           </button>
@@ -184,7 +186,7 @@ export default function CartPage() {
                       </p>
                       <button
                         onClick={() => removeItem(item.id)}
-                        className="text-sm text-red-500 hover:underline mt-3"
+                        className="text-sm text-red-500 hover:underline mt-3 cursor-pointer"
                       >
                         {t("remove")}
                       </button>
@@ -222,7 +224,11 @@ export default function CartPage() {
                   if (!cart.length) return alert("Cart is empty");
                   router.push("/checkout");
                 }}
+<<<<<<< HEAD
                 className="w-full py-3 rounded-full text-white bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]"
+=======
+                className="w-full cursor-pointer py-3 rounded-full text-white bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]"
+>>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
               >
                 {t("checkout")}
               </button>

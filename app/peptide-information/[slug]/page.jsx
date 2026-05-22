@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "../../../components/Breadcrumbs";
@@ -165,12 +166,12 @@ export default function ArticleDetailPage() {
                 )}
               </div>
 
-              <a
+              <Link
                 href="/peptide-information"
                 className="inline-block mt-8 text-bioBlue font-semibold hover:underline"
               >
                 {translations.peptideInfo.page.back}
-              </a>
+              </Link>
             </section>
           </div>
         </div>

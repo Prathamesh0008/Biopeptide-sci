@@ -145,6 +145,7 @@ export default {
       "description": "BioPeptide materijali su strogo namijenjeni laboratorijskom istraživanju. Pružamo visoko precizne peptidne alate za akademske institucije, znanstvene organizacije i certificirana istraživačka postrojenja — osiguravajući da se sav rad usklađuje s etičkim, regulatornim i standardima znanstvenog integriteta."
     }
   },
+  
   "contact": {
     "hero": {
       "title": "Kontaktirajte BioPeptide",
@@ -1399,24 +1400,26 @@ researchPeptidesForDiscovery: {
     },
     "continue": "Nastavi na plaćanje"
   },
-  "payment": {
-    "title": "Plaćanje",
-    "chooseMethod": "Odaberite način plaćanja",
-    "methods": {
-      "card": {
-        "title": "Kreditna / debitna kartica",
-        "desc": "Visa, MasterCard, RuPay"
-      },
-      "upi": {
-        "title": "UPI",
-        "desc": "Google Pay, PhonePe, Paytm"
-      }
+ payment: {
+  title: "Plaćanje",
+  chooseMethod: "Odaberite način plaćanja",
+
+  methods: {
+    card: {
+      title: "Kreditna / Debitna kartica",
+      desc: "Visa, MasterCard, RuPay"
     },
-    "summary": "Sažetak narudžbe",
-    "total": "Ukupno",
-    "paySecurely": "Plati sigurno",
-    "secureNote": "100% sigurna plaćanja"
+    upi: {
+      title: "UPI",
+      desc: "Google Pay, PhonePe, Paytm"
+    }
   },
+
+  summary: "Sažetak narudžbe",
+  total: "Ukupno",
+  paySecurely: "Platite sigurno",
+  secureNote: "100% sigurna plaćanja"
+},
   "research": {
     "1": {
       "title": "Vilon: Stanična regeneracija i imunološka bioregulacija",
@@ -1833,7 +1836,7 @@ researchPeptidesForDiscovery: {
       "description": "Ova Pravila o privatnosti objašnjavaju kako BioPeptide™ prikuplja, koristi i štiti vaše podatke kada posjetite našu web stranicu."
     },
     "intro": {
-      "site": "Pravila o privatnosti za www.biopeptide.com (BioPeptide™)",
+      "site": "Pravila o privatnosti za info@bio-peptides.com (BioPeptide™)",
       "contact": "Ako trebate više informacija ili imate pitanja o našim pravilima privatnosti, slobodno nas kontaktirajte putem emaila na",
       "importance": "U BioPeptide™, privatnost naših posjetitelja od iznimne je važnosti za nas. Ovaj dokument o pravilima privatnosti opisuje vrste osobnih podataka koje BioPeptide™ prima i prikuplja te kako se koriste."
     },
@@ -1880,7 +1883,7 @@ researchPeptidesForDiscovery: {
     "sections": {
       "general": {
         "title": "Opći uvjeti i odredbe korištenja",
-        "p1": "Ovi Uvjeti i odredbe reguliraju sve korisnike www.biopeptide.com. Ovi uvjeti moraju biti prihvaćeni prije bilo koje kupnje."
+        "p1": "Ovi Uvjeti i odredbe reguliraju sve korisnike info@bio-peptides.com. Ovi uvjeti moraju biti prihvaćeni prije bilo koje kupnje."
       },
       "payments": {
         "title": "Plaćanja i autorizacija",
@@ -2132,30 +2135,13 @@ researchPeptidesForDiscovery: {
       }
     }
   },
-  "productPage": {
-    "back": "← Natrag na Proizvode",
-    "tagline": "Premium BioPeptide • Visoko čisti znanstveni istraživački materijal",
-   description: {
-  p0: "{name} je istraživački peptid visoke čistoće, sintetiziran pomoću napredne čvrstofazne peptidne sinteze (SPPS) i analitičke validacije.",
-  p1: "Razvijen tehnologijom precizne sinteze peptida, {name} prolazi kroz visokorezolucijsko pročišćavanje kako bi se osigurala molekularna točnost.",
-  p2: "Namijenjen za biokemijske analize, signalne putove, stanične studije, analizu vezanja receptora i kontrolirana istraživačka okruženja."
-}
-,
-    "badges": {
-      "hplc": "HPLC testirano",
-      "research": "Istraživački razred",
-      "coa": "COA dostupna"
-    },
-    "priceNote": "Samo za istraživanje",
-    "addToCart": "Dodaj u košaricu",
-    "specs": {
-      "category": "Kategorija",
-      "purity": "Čistoća",
-      "size": "Veličina jedinice",
-      "cas": "CAS"
-    },
-    "notFound": "Proizvod nije pronađen"
-  },
+productPage: {
+  back: "Natrag",
+  addToCart: "Dodaj u košaricu",
+  chemicalProperties: "Kemijska svojstva",
+  description: "Opis",
+  coa: "COA / HPLC / MS",
+},
   "productContent": {
     "overviewTitle": "Pregled",
     "overviewDescription1": "je visoko precizni istraživački peptid sintetiziran korištenjem sinteze peptida u čvrstoj fazi (SPPS). Svaka serija prolazi opsežnu analitičku validaciju uključujući HPLC i masenu spektrometriju kako bi se osigurala strukturalna integritet, čistoća i dosljednost od serije do serije.",
@@ -2763,7 +2749,37 @@ description:
         "Poboljšava usklađenost cirkadijalnog ritma esencijalnog za dugovječnost"
       ]
     }
+  },
+  researchVideos: {
+  title: "Istraživački videozapisi",
+  subtitle: "Istražite našu biblioteku edukativnog sadržaja i znanstvenih materijala.",
+
+  comingSoon: "Uskoro",
+  exploreButton: "Pregled proizvoda",
+
+  educational: {
+    title: "Edukativni sadržaj",
+    description: "Detaljni vodiči i znanstvena objašnjenja."
+  },
+
+  webinars: {
+    title: "Stručni webinari",
+    description: "Uživo sesije s istraživačima."
+  },
+
+  updates: {
+    title: "Tjedna ažuriranja",
+    description: "Redovito novi sadržaj."
+  },
+
+  notification: {
+    title: "Budite prvi",
+    description: "Pretplatite se za obavijesti.",
+    placeholder: "Unesite email",
+    button: "Obavijesti me",
+    note: "Bez spama."
   }
+}
 
 
 

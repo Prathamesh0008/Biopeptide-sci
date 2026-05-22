@@ -6,17 +6,15 @@ import { useEffect, useState } from "react";
 export default function AdminProductsPage() {
   const [products, setProducts] = useState([]);
 
-  const load = async () => {
-    const res = await fetch("/api/products", {
+  useEffect(() => {
+    fetch("/api/products", {
       credentials: "include",
       cache: "no-store",
-    });
-    const data = await res.json();
-    if (data.ok) setProducts(data.products);
-  };
-
-  useEffect(() => {
-    load();
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.ok) setProducts(data.products);
+      });
   }, []);
 
   const toggleStock = async (id, inStock) => {
@@ -35,26 +33,34 @@ export default function AdminProductsPage() {
   };
 
   return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold mb-6">Products</h1>
+    <>
+      <div className="mb-6">
+        <p className="text-xs font-semibold uppercase tracking-wide text-[#0978a7]">
+          Catalog
+        </p>
+        <h1 className="text-3xl font-black text-[#0d2d47] mt-1">Products</h1>
+        <p className="text-sm text-gray-600 mt-2">
+          Manage product availability across the storefront.
+        </p>
+      </div>
 
       <div className="space-y-3">
         {products.map((p) => (
           <div
             key={p._id}
-            className="bg-white border rounded-xl p-4 flex justify-between items-center"
+            className="bg-white/95 border border-[#d8eef3] rounded-2xl p-4 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 shadow-sm"
           >
             <div>
-              <p className="font-semibold">{p.name}</p>
-              <p className="text-sm text-gray-500">{p.slug}</p>
+              <p className="font-bold text-[#0d2d47]">{p.name}</p>
+              <p className="text-sm text-gray-500 mt-1">{p.slug}</p>
             </div>
 
             <button
               onClick={() => toggleStock(p._id, !p.inStock)}
-              className={`px-4 py-2 rounded-lg text-sm font-medium ${
+              className={`px-4 py-2 rounded-full text-sm font-bold border transition ${
                 p.inStock
-                  ? "bg-green-100 text-green-700"
-                  : "bg-red-100 text-red-700"
+                  ? "bg-[#ecfff6] text-green-700 border-green-200 hover:bg-green-100"
+                  : "bg-red-50 text-red-700 border-red-200 hover:bg-red-100"
               }`}
             >
               {p.inStock ? "In Stock" : "Out of Stock"}
@@ -62,6 +68,6 @@ export default function AdminProductsPage() {
           </div>
         ))}
       </div>
-    </div>
+    </>
   );
 }

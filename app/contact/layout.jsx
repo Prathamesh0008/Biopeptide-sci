@@ -18,18 +18,18 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://biopeptide-sci.vercel.app/contact",
+    canonical: "https://www.bio-peptides.com/contact",
   },
 
   openGraph: {
     title: "Contact BioPeptide | Buy Peptides Online & Research Support",
     description:
       "Get in touch with BioPeptide for research peptide inquiries, product support, or ordering assistance. Buy peptides online with expert guidance.",
-    url: "https://biopeptide-sci.vercel.app/contact",
+    url: "https://www.bio-peptides.com/contact",
     siteName: "BioPeptide",
     images: [
       {
-        url: "https://biopeptide-sci.vercel.app/Biopeptidecolourlogo.png",
+        url: "https://www.bio-peptides.com/Biologofull.png",
         width: 1200,
         height: 630,
         alt: "Contact BioPeptide – Research Peptide Support USA",
@@ -44,33 +44,10 @@ export const metadata = {
     title: "Contact BioPeptide | Buy Peptides Online & Research Support",
     description:
       "Get in touch with BioPeptide for research peptide inquiries, product support, or ordering assistance. Buy peptides online with expert guidance.",
-    images: ["https://biopeptide-sci.vercel.app/Biopeptidecolourlogo.png"],
+    images: ["https://www.bio-peptides.com/Biologofull.png"],
   },
 };
 
 export default function ContactLayout({ children }) {
   return <>{children}</>;
 }
-
-
-
-
-
-// export const metadata = {
-//   title: "Contact BioPeptide | Buy Peptides Online & Research Support",
-//   description:
-//     "Get in touch with BioPeptide for research peptide inquiries, product support, or ordering assistance. Buy peptides online with expert guidance.",
-
-//   openGraph: {
-//     title: "Contact BioPeptide | Buy Peptides Online & Research Support",
-//     description:
-//       "Get in touch with BioPeptide for research peptide inquiries, product support, or ordering assistance. Buy peptides online with expert guidance.",
-//     url: "https://www.biopeptide.com/contact",
-//     siteName: "BioPeptide Sci",
-//     type: "website",
-//   },
-// };
-
-// export default function ContactLayout({ children }) {
-//   return children;
-// }

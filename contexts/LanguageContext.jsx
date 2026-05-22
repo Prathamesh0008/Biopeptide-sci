@@ -38,18 +38,18 @@ export function LanguageProvider({ children }) {
     setLoading(true);
 
     try {
-      const module = await import(`@/data1/languages/${langCode}`);
+      const languageModule = await import(`@/data1/languages/${langCode}`);
 
-      if (!module?.default) {
+      if (!languageModule?.default) {
         throw new Error(`Missing default export in ${langCode}`);
       }
 
-      setTranslations(module.default);
+      setTranslations(languageModule.default);
       setLanguage(langCode);
 
       localStorage.setItem("bio-lang", langCode);
       document.documentElement.lang = langCode;
-      document.documentElement.dir = module.default.dir || "ltr";
+      document.documentElement.dir = languageModule.default.dir || "ltr";
     } catch (error) {
       console.error(
         `❌ Language load failed (${langCode}), falling back to en`,

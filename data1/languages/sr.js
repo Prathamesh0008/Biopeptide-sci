@@ -144,6 +144,7 @@ companyOverview : {
       "description": "BioPeptide materijali su strogo namenjeni za laboratorijska istraživanja. Pružamo visoko precizne peptide alate za akademske institucije, naučne organizacije i sertifikovane istraživačke ustanove — obezbeđujući da se sav rad usklađuje sa etičkim, regulatornim i standardima naučnog integriteta."
     }
   },
+  
   "contact": {
     "hero": {
       "title": "Kontaktirajte BioPeptide",
@@ -1397,24 +1398,26 @@ researchPeptidesForDiscovery: {
     },
     "continue": "Nastavite na plaćanje"
   },
-  "payment": {
-    "title": "Plaćanje",
-    "chooseMethod": "Izaberite način plaćanja",
-    "methods": {
-      "card": {
-        "title": "Kreditna / Debitna kartica",
-        "desc": "Visa, MasterCard, RuPay"
-      },
-      "upi": {
-        "title": "UPI",
-        "desc": "Google Pay, PhonePe, Paytm"
-      }
+ payment: {
+  title: "Плаћање",
+  chooseMethod: "Изаберите начин плаћања",
+
+  methods: {
+    card: {
+      title: "Кредитна / Дебитна картица",
+      desc: "Visa, MasterCard, RuPay"
     },
-    "summary": "Rezime porudžbine",
-    "total": "Ukupno",
-    "paySecurely": "Platite sigurno",
-    "secureNote": "100% sigurna plaćanja"
+    upi: {
+      title: "UPI",
+      desc: "Google Pay, PhonePe, Paytm"
+    }
   },
+
+  summary: "Преглед поруџбине",
+  total: "Укупно",
+  paySecurely: "Платите сигурно",
+  secureNote: "100% сигурна плаћања"
+},
   "research": {
     "1": {
       "title": "Vilon: Ćelijska regeneracija i imuna bioregulacija",
@@ -1831,7 +1834,7 @@ researchPeptidesForDiscovery: {
       "description": "Ova Politika privatnosti objašnjava kako BioPeptide™ prikuplja, koristi i štiti vaše informacije kada posetite našu veb stranicu."
     },
     "intro": {
-      "site": "Politika privatnosti za www.biopeptide.com (BioPeptide™)",
+      "site": "Politika privatnosti za info@bio-peptides.com (BioPeptide™)",
       "contact": "Ako treba više informacija ili imate pitanja o našoj politici privatnosti, slobodno nas kontaktirajte putem email-a na",
       "importance": "U BioPeptide™-u, privatnost naših posetilaca je od izuzetne važnosti za nas. Ovaj dokument politike privatnosti opisuje vrste ličnih informacija koje prikuplja BioPeptide™ i kako se koriste."
     },
@@ -1878,7 +1881,7 @@ researchPeptidesForDiscovery: {
     "sections": {
       "general": {
         "title": "Opšti uslovi i odredbe korišćenja",
-        "p1": "Ovi Uslovi i odredbe regulišu sve korisnike www.biopeptide.com. Ovi uslovi moraju biti prihvaćeni pre bilo kakve kupovine."
+        "p1": "Ovi Uslovi i odredbe regulišu sve korisnike info@bio-peptides.com. Ovi uslovi moraju biti prihvaćeni pre bilo kakve kupovine."
       },
       "payments": {
         "title": "Plaćanja i autorizacija",
@@ -2131,29 +2134,12 @@ researchPeptidesForDiscovery: {
     }
   }
 },
-"productPage": {
-  "back": "← Nazad na proizvode",
-  "tagline": "Premium BioPeptide • Visoko-čisti naučni istraživački materijal",
-  description: {
-  p0: "{name} je istraživački peptid visoke čistoće, sintetizovan korišćenjem napredne čvrstofazne peptidne sinteze (SPPS) i analitičke validacije.",
-  p1: "Razvijen pomoću tehnologije precizne peptidne sinteze, {name} prolazi kroz visokorezoluciono prečišćavanje radi obezbeđivanja molekularne tačnosti.",
-  p2: "Dizajniran za biohemijske analize, signalne puteve, ćelijske studije, analizu vezivanja receptora i kontrolisana istraživačka okruženja."
-}
-,
-  "badges": {
-    "hplc": "HPLC Testirano",
-    "research": "Istraživački stepen",
-    "coa": "COA Dostupno"
-  },
-  "priceNote": "Samo za istraživanje",
-  "addToCart": "Dodaj u korpu",
-  "specs": {
-    "category": "Kategorija",
-    "purity": "Čistoća",
-    "size": "Veličina jedinice",
-    "cas": "CAS"
-  },
-  "notFound": "Proizvod nije pronađen"
+productPage: {
+  back: "Nazad",
+  addToCart: "Dodaj u korpu",
+  chemicalProperties: "Hemijska svojstva",
+  description: "Opis",
+  coa: "COA / HPLC / MS",
 },
 "productContent": {
   "overviewTitle": "Pregled",
@@ -2763,7 +2749,37 @@ description:
         "Poboljšava cirkadijalno poravnanje ritma esencijalno za dugovečnost"
       ]
     }
+  },
+  researchVideos: {
+  title: "Istraživački video zapisi",
+  subtitle: "Istražite našu biblioteku edukativnog i naučnog sadržaja.",
+
+  comingSoon: "Uskoro",
+  exploreButton: "Pogledaj proizvode",
+
+  educational: {
+    title: "Edukativni sadržaj",
+    description: "Tutorijali i naučna objašnjenja."
+  },
+
+  webinars: {
+    title: "Stručni webinari",
+    description: "Uživo sesije sa istraživačima."
+  },
+
+  updates: {
+    title: "Nedeljna ažuriranja",
+    description: "Novi sadržaj redovno."
+  },
+
+  notification: {
+    title: "Budi prvi",
+    description: "Prijavi se za obaveštenja.",
+    placeholder: "Unesi email",
+    button: "Obavesti me",
+    note: "Bez spama."
   }
+}
 
 
       

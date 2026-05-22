@@ -9,7 +9,8 @@ import { getTranslatedProduct } from "@/utils/getTranslatedProduct";
 import Loader from "@/components/Loader";
 
 
-export default function ProductCard({ product }) {
+
+export default function ProductCard({ product, priority = false }) {
   const [imgLoaded, setImgLoaded] = useState(false);
   const getSafeImage = (img) => {
   if (!img || typeof img !== "string") {
@@ -29,17 +30,15 @@ export default function ProductCard({ product }) {
   const { translations, loading } = useLanguage();
   if (loading) {
   return (
-    <>
-      <Navbar />
-      <main className="min-h-screen bg-white flex items-center justify-center">
-        <Loader />
-      </main>
-      <Footer />
-    </>
+    <div className="min-h-[220px] bg-white flex items-center justify-center">
+      <Loader />
+    </div>
   );
 }
 
   const p = getTranslatedProduct(product, translations);
+  const productId = product.id || product._id;
+  const price = Number(product.price || 0);
 
   const addToCart = () => {
     const storedUser = localStorage.getItem("bio-user");
@@ -51,13 +50,13 @@ export default function ProductCard({ product }) {
     }
 
     const cart = JSON.parse(localStorage.getItem(cartKey) || "[]");
-    const found = cart.find((item) => item.id === product.id);
+    const found = cart.find((item) => item.id === productId);
 
     if (found) {
       found.qty += 1;
     } else {
       cart.push({
-        id: product.id,
+        id: productId,
         name: p.name,
         price: product.price,
         strength: p.strength,
@@ -71,6 +70,7 @@ export default function ProductCard({ product }) {
     window.dispatchEvent(new Event("bio-cart-updated"));
   };
 
+<<<<<<< HEAD
 return (
   <article
     className="
@@ -81,6 +81,70 @@ return (
     "
   >
     {/* IMAGE */}
+=======
+  return (
+    <article
+  className="
+    
+    bg-white border border-gray-200 rounded-l
+    flex flex-col
+    min-h-[300px] sm:min-h-[320px]
+    overflow-hidden
+  "
+>
+  {/* IMAGE — FULL WIDTH, NO PADDING */}
+  <Link
+  href={`/product/${product.slug}`}
+  className="
+    relative w-full
+    aspect-[1/1]
+    flex items-center justify-center
+    cursor-pointer
+  "
+>
+
+  {/*Is loading buffering */}
+{!imgLoaded && (
+  <div className="absolute inset-0 flex items-center justify-center">
+    <span
+      className="
+        w-8 h-8
+        border-2 border-gray-300
+        border-t-bioBlue
+        rounded-full
+        animate-spin
+      "
+    />
+  </div>
+)}
+
+<Image
+  src={getSafeImage(product.image)}
+  alt={product.name || "Product image"}
+  fill
+  className="object-contain scale-95"
+  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+  onLoad={() => setImgLoaded(true)}
+  priority={priority}
+/>
+
+
+ {/* <Image
+  src={getSafeImage(product.image)}
+  alt={product.name || "Product image"}
+  fill
+  className="object-contain scale-95"
+  onLoad={() => setImgLoaded(true)}
+/> */}
+
+
+  </Link>
+
+  {/* CONTENT — PADDED */}
+  <div className="p-2 sm:p-4 flex flex-col justify-between flex-1">
+
+    {/* TITLE */}
+>>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
     <Link
       href={`/product/${product.slug}`}
       className="relative w-full aspect-[1/1] flex items-center justify-center cursor-pointer"
@@ -102,21 +166,67 @@ return (
       />
     </Link>
 
+<<<<<<< HEAD
     {/* CONTENT */}
     <div className="p-3 flex flex-col justify-between flex-1">
+=======
+    {/* PRICE */}
+    <p className="text-[17px] font-bold text-gray-900 mt-3">
+      ${price.toFixed(2)}
+    </p>
+>>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
 
       {/* TITLE */}
       <Link
         href={`/product/${product.slug}`}
+<<<<<<< HEAD
         className="block cursor-pointer"
+=======
+       className="
+    w-full text-center
+    border border-[#0978a7]
+    text-bioBlue text-xs font-semibold
+    py-2 rounded-md
+    hover:text-white
+    hover:bg-gradient-to-r
+    hover:from-[#51c4c7]
+    hover:via-[#0978a7]
+    hover:to-[#0978a7]
+    transition-all duration-300
+  "
+>>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
       >
         <h4 className="text-[14px] font-semibold text-gray-900 leading-snug hover:underline">
           {p.name}
         </h4>
       </Link>
 
+<<<<<<< HEAD
       {/* ACTIONS */}
       <div className="mt-3 flex flex-col gap-2">
+=======
+ <button
+  onClick={addToCart}
+className="
+    w-full
+    bg-gradient-to-r from-[#51c4c7] via-[#0978a7] to-[#0978a7]
+    text-white text-xs font-semibold
+    py-2 rounded-md
+
+    border border-transparent
+
+    hover:bg-white
+    hover:bg-none
+    hover:text-bioBlue
+    hover:border-[#0978a7]
+
+    transition-all duration-300
+    cursor-pointer
+  "
+>
+  {translations.productCard.addToCart}
+</button>
+>>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
 
         <Link
           href={`/product/${product.slug}`}

@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+>>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
 
 
 // peptides/app/about/page.jsx
@@ -9,18 +19,22 @@ import Footer from "@/components/Footer";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { useLanguage } from "@/contexts/LanguageContext";
 
+<<<<<<< HEAD
 import { useState } from "react";
 import dynamic from "next/dynamic";
 const DrawerProducts = dynamic(
   () => import("@/components/DrawerProducts"),
   { ssr: false }
 );
+=======
+
+>>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
 const countryImages = [
-  "/bg/germanybg.png",
-  "/bg/francebg.png",
-  "/bg/netherlandsbg.png",
-  "/bg/italybg.png",
-  "/bg/spainbg.png",
+  "/bg/germany1Bg.jpg",
+  "/bg/France1Bg.jpg",
+  "/bg/Netherlands1Bg.jpg",
+  "/bg/Italy1Bg.jpg",
+  "/bg/Spain1Bg.jpg",
 ];
 
 export default function AboutPage() {
@@ -53,7 +67,7 @@ const t = (path) => {
       <Breadcrumbs />
 
       {/* DRAWER BUTTON */}
-      <button
+      {/* <button
         onClick={() => setDrawerOpen(true)}
         className="
           fixed right-0 top-1/2 -translate-y-1/2 z-50
@@ -72,14 +86,18 @@ const t = (path) => {
         >
           Product List
         </span>
-      </button>
+      </button> */}
 
       {/* DRAWER (PAGE LEVEL ONLY) */}
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
 
       <main className="min-h-screen bg-white text-gray-800">
         {/* CONTENT */}
+<<<<<<< HEAD
         <section className="max-w-[1300px] mx-auto px-6 py-20 space-y-24 min-h-[600px]">
+=======
+     <section className="max-w-[1300px] mx-auto px-4 sm:px-6 py-8 sm:py-12 lg:py-20 space-y-10 sm:space-y-14 lg:space-y-24">
+>>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
           {/* COMPANY OVERVIEW */}
           <div className="space-y-10">
             <div className="flex items-center gap-3">
@@ -89,9 +107,9 @@ const t = (path) => {
               </span>
             </div>
 
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0d2d47]">
+            <h1 className="text-3xl md:text-4xl font-bold text-[#0d2d47]">
               {t("companyOverview.title")}
-            </h2>
+            </h1>
 
             {/* <p>{t("companyOverview.description1")}</p>
             <p>{t("companyOverview.description2")}</p> */}
@@ -100,7 +118,7 @@ const t = (path) => {
   t("companyOverview.countries").map((country, i) => (
     <div
       key={i}
-      className="grid lg:grid-cols-2 gap-12 items-center pt-16"
+     className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center pt-8 sm:pt-10 lg:pt-16"
     >
       {/* TEXT */}
       <div className={i % 2 !== 0 ? "lg:order-2" : ""}>
@@ -129,6 +147,7 @@ const t = (path) => {
 
       {/* IMAGE */}
       <div
+<<<<<<< HEAD
   className={`relative aspect-[16/9] w-full min-h-[300px] rounded-xl overflow-hidden flex items-center justify-center ${
     i % 2 !== 0 ? "lg:order-1" : ""
   }`}
@@ -141,6 +160,19 @@ const t = (path) => {
   sizes="(max-width: 1024px) 100vw, 50vw"
   className="object-contain"
 />
+=======
+className={`relative w-full h-[240px] sm:h-[320px] lg:h-[360px] rounded-xl overflow-hidden flex items-center justify-center ${
+  i % 2 !== 0 ? "lg:order-1" : ""
+}`}
+>
+  <Image
+    src={countryImages[i]}
+    alt={country.heading}
+    fill
+    sizes="(max-width: 1024px) 100vw, 50vw"
+    className="object-cover lg:object-contain"
+  />
+>>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
 </div>
 
     </div>

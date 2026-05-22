@@ -1483,24 +1483,23 @@ checkoutPage: {
 },
 payment: {
   title: "Paiement",
-  chooseMethod: "Choisir le mode de paiement",
+  chooseMethod: "Choisissez le mode de paiement",
 
   methods: {
     card: {
-      title: "Carte de crédit / débit",
+      title: "Carte de crédit/débit",
       desc: "Visa, MasterCard, RuPay"
     },
-   upi: {
-  title: "UPI",
-  desc: "Google Pay, PhonePe, Paytm"
-}
-
+    upi: {
+      title: "UPI",
+      desc: "Google Pay, PhonePe, Paytm"
+    }
   },
 
   summary: "Récapitulatif de la commande",
   total: "Total",
   paySecurely: "Payer en toute sécurité",
-  secureNote: "Paiements 100 % sécurisés"
+  secureNote: "Paiements 100% sécurisés"
 },
 researchPage: {
   title: "Recherche en Sciences des Peptides",
@@ -1947,7 +1946,7 @@ privacy: {
       "Cette politique explique comment BioPeptide™ collecte et protège vos informations."
   },
   intro: {
-    site: "Politique de confidentialité de www.biopeptide.com (BioPeptide™)",
+    site: "Politique de confidentialité de info@bio-peptides.com (BioPeptide™)",
     contact:
       "Pour toute question concernant notre politique de confidentialité, contactez-nous par e-mail à",
     importance:
@@ -2332,21 +2331,12 @@ refundsReturns: {
   }
 },
 productPage: {
-  back: "← Retour aux produits",
-  tagline: "BioPeptide Premium • Matériau scientifique de haute pureté",
-  description: {
-  p0: "{name} est un peptide de recherche de haute pureté, synthétisé à l’aide de la synthèse peptidique en phase solide (SPPS) avancée et validé analytiquement.",
-  p1: "Développé grâce à une technologie de synthèse peptidique de précision, {name} subit une purification haute résolution afin de garantir une exactitude moléculaire.",
-  p2: "Conçu pour les analyses biochimiques, la signalisation des voies, les études cellulaires, l’analyse de liaison aux récepteurs et les environnements de recherche contrôlés."
-}
-,
-  badges: { hplc: "Testé HPLC", research: "Qualité recherche", coa: "COA disponible" },
-  priceNote: "Usage de recherche uniquement",
+  back: "Retour",
   addToCart: "Ajouter au panier",
-  specs: { category: "Catégorie", purity: "Pureté", size: "Taille de l’unité", cas: "CAS" },
-  notFound: "Produit introuvable"
-}
-,
+  chemicalProperties: "Propriétés chimiques",
+  description: "Description",
+  coa: "COA / HPLC / MS",
+},
 productContent: {
   overviewTitle: "Aperçu",
 
@@ -2642,6 +2632,36 @@ peptideInformation: {
     "Le respect de ces bonnes pratiques permet de garantir que les peptides de recherche BioPeptide conservent leur intégrité et leur fiabilité pour les investigations scientifiques."
 }
 
+},
+researchVideos: {
+  title: "Vidéos de recherche",
+  subtitle: "Explorez notre bibliothèque de contenu scientifique.",
+
+  comingSoon: "Bientôt disponible",
+  exploreButton: "Voir les produits",
+
+  educational: {
+    title: "Contenu éducatif",
+    description: "Tutoriels et explications scientifiques."
+  },
+
+  webinars: {
+    title: "Webinaires experts",
+    description: "Sessions en direct avec chercheurs."
+  },
+
+  updates: {
+    title: "Mises à jour hebdomadaires",
+    description: "Nouveaux contenus régulièrement."
+  },
+
+  notification: {
+    title: "Soyez informé",
+    description: "Abonnez-vous aux mises à jour.",
+    placeholder: "Entrez votre email",
+    button: "Notifier",
+    note: "Pas de spam."
+  }
 }
 
 

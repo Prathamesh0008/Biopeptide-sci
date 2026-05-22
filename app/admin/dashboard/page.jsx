@@ -26,7 +26,7 @@ export default function AdminDashboard() {
         {[1, 2, 3, 4].map((i) => (
           <div
             key={i}
-            className="h-28 rounded-2xl bg-white/70 backdrop-blur-md animate-pulse shadow"
+            className="h-28 rounded-2xl bg-white/70 border border-[#d8eef3] animate-pulse shadow-sm"
           />
         ))}
       </div>
@@ -35,9 +35,17 @@ export default function AdminDashboard() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold text-[#0d2d47] mb-8">
-        Admin Dashboard
-      </h1>
+      <div className="mb-8">
+        <p className="text-xs font-semibold uppercase tracking-wide text-[#0978a7]">
+          BioPeptide Admin
+        </p>
+        <h1 className="text-3xl font-black text-[#0d2d47] mt-1">
+          Dashboard
+        </h1>
+        <p className="text-sm text-gray-600 mt-2">
+          Monitor orders, customers, products, and store performance.
+        </p>
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-10">
         <StatsCard title="Total Orders" value={stats.orders} />
@@ -46,12 +54,12 @@ export default function AdminDashboard() {
         <StatsCard title="Revenue" value={`$${stats.revenue}`} />
       </div>
 
-      <div className="bg-white/80 backdrop-blur-md rounded-2xl shadow p-8">
-        <p className="font-semibold text-lg mb-2 text-[#0d2d47]">
+      <div className="bg-white/90 border border-[#d8eef3] rounded-2xl shadow-sm p-8">
+        <p className="font-bold text-lg mb-2 text-[#0d2d47]">
           Admin Overview
         </p>
         <p className="text-sm text-gray-600">
-          Manage orders, users,  and monitor platform performance.
+          Manage orders, users, and product availability from one workspace.
         </p>
       </div>
     </>
