@@ -1,7 +1,7 @@
 // app/peptide-research/layout.jsx
 
 export const metadata = {
-  metadataBase: new URL("https://biopeptide-sci.vercel.app"),
+  metadataBase: new URL("https://www.bio-peptides.com"),
 
   title: "Peptide Research & Scientific Development | USA – BioPeptide",
 
