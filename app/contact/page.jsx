@@ -1,6 +1,7 @@
 //peptides\app\contact\page.jsx
 "use client";
-
+ 
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "../../components/Breadcrumbs";
@@ -8,12 +9,13 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import DrawerProducts from "@/components/DrawerProducts";
 import { useState } from "react";
 import Loader from "@/components/Loader";
-
-
+import emailjs from "@emailjs/browser";
+ 
+ 
 export default function ContactPage() {
   const { translations, loading } = useLanguage();
   const [drawerOpen, setDrawerOpen] = useState(false);
-
+ 
   // ✅ HOOKS MUST BE INSIDE COMPONENT
   const [form, setForm] = useState({
     name: "",
@@ -23,26 +25,38 @@ export default function ContactPage() {
   });
   const [success, setSuccess] = useState(false);
   const [loadingSubmit, setLoadingSubmit] = useState(false);
-
+ 
 const handleSubmit = async (e) => {
   e.preventDefault();
   setLoadingSubmit(true);
-
+ 
+  const templateParams = {
+    name: form.name,
+    email: form.email,
+    subject: form.subject,
+    message: form.message,
+  };
+ 
   try {
-    const res = await fetch("/api/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(form),
-    });
-
-    const data = await res.json();
-
-    if (!res.ok || !data.ok) {
-      throw new Error(data.error || "Email sending failed");
-    }
-
+    const adminRes = await emailjs.send(
+      "service_ml70c7k",
+      "template_uowxayr",
+      templateParams,
+      "W6oyvSvHsLD85n4A3"
+    );
+ 
+ 
+    console.log("Admin Email Sent:", adminRes.status, adminRes.text);
+ 
+    const userRes = await emailjs.send(
+      "service_ml70c7k",
+      "template_74yy82u",
+      templateParams,
+      "W6oyvSvHsLD85n4A3"
+    );
+ 
+    console.log("User Email Sent:", userRes.status, userRes.text);
+ 
     setSuccess(true);
     setForm({
       name: "",
@@ -50,13 +64,15 @@ const handleSubmit = async (e) => {
       subject: "",
       message: "",
     });
-
+ 
   } catch (error) {
-    console.error("Contact form error:", error);
+    console.error("Email Error Status:", error?.status);
+    console.error("Email Error Text:", error?.text);
+    console.error("Raw Error:", error);
     alert("Email sending failed. Please try later.");
-  } finally {
-    setLoadingSubmit(false);
   }
+ 
+  setLoadingSubmit(false);
 };
   const t = (path) => {
     try {
@@ -67,7 +83,7 @@ const handleSubmit = async (e) => {
       return "";
     }
   };
-
+ 
   if (loading) {
   return (
     <>
@@ -79,12 +95,12 @@ const handleSubmit = async (e) => {
     </>
   );
 }
-
+ 
   return (
     <>
       <Navbar />
       <Breadcrumbs />
-
+ 
       {/* DRAWER BUTTON */}
       {/* <button
         onClick={() => setDrawerOpen(true)}
@@ -106,9 +122,9 @@ const handleSubmit = async (e) => {
           Product List
         </span>
       </button> */}
-
+ 
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
-
+ 
       <main className=" bg-white text-gray-800">
         <section className="max-w-[1400px] mx-auto px-6 md:px-10 xl:px-20 pt-16 pb-0">
           <div className="grid lg:grid-cols-2 gap-14">
@@ -117,11 +133,11 @@ const handleSubmit = async (e) => {
               <h1 className="text-3xl font-bold text-[#0d2d47]">
                 {t("form.title")}
               </h1>
-
+ 
               <p className="text-gray-700 text-[16px] leading-relaxed">
                 {t("form.description")}
               </p>
-
+ 
               <form className="space-y-5" onSubmit={handleSubmit}>
                 <FormInput
                   label={t("form.fields.name")}
@@ -131,7 +147,7 @@ const handleSubmit = async (e) => {
                     setForm({ ...form, name: e.target.value })
                   }
                 />
-
+ 
                 <FormInput
                   label={t("form.fields.email")}
                   type="email"
@@ -140,7 +156,7 @@ const handleSubmit = async (e) => {
                     setForm({ ...form, email: e.target.value })
                   }
                 />
-
+ 
                 <FormInput
                   label={t("form.fields.subject")}
                   type="text"
@@ -149,7 +165,7 @@ const handleSubmit = async (e) => {
                     setForm({ ...form, subject: e.target.value })
                   }
                 />
-
+ 
                 <div>
                   <label className="block mb-1 text-sm font-medium text-gray-700">
                     {t("form.fields.message")}
@@ -165,7 +181,7 @@ const handleSubmit = async (e) => {
                     "
                   />
                 </div>
-
+ 
                 <button
                   type="submit"
                   disabled={loadingSubmit}
@@ -178,7 +194,7 @@ const handleSubmit = async (e) => {
                 >
                   {loadingSubmit ? "Sending..." : t("form.button")}
                 </button>
-
+ 
                 {success && (
                   <p className="text-green-600 text-sm font-semibold">
                     ✅ Thank you! We’ll contact you shortly.
@@ -186,17 +202,17 @@ const handleSubmit = async (e) => {
                 )}
               </form>
             </div>
-
+ 
             {/* RIGHT: INFO */}
             <div className="bg-gradient-to-br from-bioBlue/10 to-bioGreen/10 border border-bioBlue/30 rounded-xl p-10 space-y-6 shadow-md">
               <h3 className="text-3xl font-bold text-[#0d2d47]">
                 {t("info.title")}
               </h3>
-
+ 
               <p className="text-gray-700 leading-relaxed text-[16px]">
                 {t("info.description")}
               </p>
-
+ 
               <div className="space-y-4 text-[16px]">
                 {/* <InfoBlock title={t("info.email")} value="support@biopeptide.com" /> */}
                 {/* <InfoBlock title={t("info.phone")} value="+1 (800) 000-0000" /> */}
@@ -207,14 +223,14 @@ const handleSubmit = async (e) => {
           </div>
         </section>
       </main>
-
+ 
       <Footer />
     </>
   );
 }
-
+ 
 /* ---------------- COMPONENTS ---------------- */
-
+ 
 function FormInput({ label, type, value, onChange }) {
   return (
     <div>
@@ -233,7 +249,7 @@ function FormInput({ label, type, value, onChange }) {
     </div>
   );
 }
-
+ 
 function InfoBlock({ title, value }) {
   return (
     <div>
@@ -242,23 +258,25 @@ function InfoBlock({ title, value }) {
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
