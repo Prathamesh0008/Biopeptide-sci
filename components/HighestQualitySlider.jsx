@@ -1,4 +1,4 @@
-﻿// //peptides\components\HighestQualitySlider.jsx
+// //peptides\components\HighestQualitySlider.jsx
 // "use client";
 
 // // import { useMemo } from "react";

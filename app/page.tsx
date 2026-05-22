@@ -1,4 +1,4 @@
-﻿// app/page.tsx
+// app/page.tsx
 "use client";
 
 import { useState } from "react";
@@ -95,34 +95,36 @@ export default function HomePage() {
 
   return (
     <>
-    
-    <Navbar/>
-
-
-      {/* DESKTOP BUTTON */}
-    
-<button
-  onClick={() => setDrawerOpen(true)}
-  className="
-    fixed right-0 top-1/2 -translate-y-1/2 z-50
-    flex items-center justify-center
-     bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
-    text-white shadow-lg
-    cursor-pointer
-    h-36 w-10 rounded-l-xl cursor-pointer
-  "
->
-  <span
-    className="
-      text-s font-semibold tracking-widest
-      [writing-mode:vertical-rl]
-    "
-  >
-    Product List
-  </span>
-</button>
+      {/* HOME PAGE JSON-LD SCHEMA */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(homePageSchema),
+        }}
+      />
 
       <Navbar />
+
+      {/* DESKTOP BUTTON */}
+      <button
+        onClick={() => setDrawerOpen(true)}
+        className="
+          fixed right-0 top-1/2 -translate-y-1/2 z-50
+          flex items-center justify-center
+          bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
+          text-white shadow-lg
+          h-36 w-10 rounded-l-xl cursor-pointer
+        "
+      >
+        <span
+          className="
+            text-sm font-semibold tracking-widest
+            [writing-mode:vertical-rl]
+          "
+        >
+          Product List
+        </span>
+      </button>
 
       <Hero />
 
