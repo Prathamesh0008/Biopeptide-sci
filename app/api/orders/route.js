@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
-
 //peptides\app\api\orders\route.js
 import dbConnect from "@/lib/dbConnect";
 import Order from "@/models/Order";

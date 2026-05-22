@@ -224,11 +224,7 @@ export default function CartPage() {
                   if (!cart.length) return alert("Cart is empty");
                   router.push("/checkout");
                 }}
-<<<<<<< HEAD
-                className="w-full py-3 rounded-full text-white bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]"
-=======
                 className="w-full cursor-pointer py-3 rounded-full text-white bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]"
->>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
               >
                 {t("checkout")}
               </button>

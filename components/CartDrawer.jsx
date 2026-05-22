@@ -221,11 +221,7 @@ const hasFreeShipping = subtotal >= FREE_SHIPPING_LIMIT;
               setOpen(false);
               router.push("/checkout");
             }}
-<<<<<<< HEAD
-            className="w-full py-4 rounded-full text-white text-lg font-bold bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]"
-=======
             className="w-full py-4 cursor-pointer rounded-full text-white text-lg font-bold bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]"
->>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
           >
             Checkout
           </button>

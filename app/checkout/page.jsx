@@ -384,11 +384,7 @@ await fetch("/api/address/save", {
           <button
             onClick={goToPayment}
             className="mt-6 w-full py-3 rounded-full font-semibold text-white
-<<<<<<< HEAD
-             bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]"
-=======
              bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7] cursor-pointer"
->>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
           >
             {t("continue")}
 

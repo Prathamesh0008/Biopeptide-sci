@@ -157,11 +157,7 @@ const hasAddress =
 
       {/* LEFT – PROFILE CARD */}
       <div className="lg:col-span-1 bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
-<<<<<<< HEAD
-  rounded-3xl shadow-xl p-6 text-white relative overflow-hidden">
-=======
   rounded-xl shadow-xl p-6 text-white relative overflow-hidden">
->>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
 
   {/* glow */}
   <div className="absolute inset-0 bg-white/10 blur-2xl" />
@@ -401,8 +397,6 @@ function formatDate(value) {
 
 
 
-<<<<<<< HEAD
-=======
 
 
 
@@ -415,4 +409,3 @@ function formatDate(value) {
 
 
 
->>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18

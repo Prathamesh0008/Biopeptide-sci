@@ -215,20 +215,12 @@ export default function AllPeptidesCategorySlider({
           <button
             key={cat}
             onClick={() => onChange(cat)}
-<<<<<<< HEAD
             className={`px-5 py-2 rounded-xl text-sm font-semibold border whitespace-nowrap transition cursor-pointer
               ${
                 active === cat
                   ? "bg-gray-900 text-white border-gray-900"
                   : "bg-white text-gray-700 border-gray-300 hover:border-gray-500"
               }`}
-=======
-            className={`px-5 py-2 rounded-xl text-sm font-semibold border whitespace-nowrap transition cursor-pointer ${
-              active === cat
-                ? "bg-gray-900 text-white border-gray-900"
-                : "bg-white text-gray-700 border-gray-300 hover:border-gray-500"
-            }`}
->>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
           >
             {translations?.peptides?.categories?.[cat]?.title || cat}
           </button>

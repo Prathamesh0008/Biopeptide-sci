@@ -1,7 +1,6 @@
 //peptides\app\contact\page.jsx
 "use client";
 
-import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "../../components/Breadcrumbs";
@@ -9,7 +8,6 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import DrawerProducts from "@/components/DrawerProducts";
 import { useState } from "react";
 import Loader from "@/components/Loader";
-import emailjs from "@emailjs/browser";
 
 
 export default function ContactPage() {
@@ -30,32 +28,20 @@ const handleSubmit = async (e) => {
   e.preventDefault();
   setLoadingSubmit(true);
 
-  const templateParams = {
-    name: form.name,
-    email: form.email,
-    subject: form.subject,
-    message: form.message,
-  };
-
   try {
-    const adminRes = await emailjs.send(
-      "service_ml70c7k",
-      "template_uowxayr",
-      templateParams,
-      "W6oyvSvHsLD85n4A3"
-    );
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(form),
+    });
 
+    const data = await res.json();
 
-    console.log("Admin Email Sent:", adminRes.status, adminRes.text);
-
-    const userRes = await emailjs.send(
-      "service_ml70c7k",
-      "template_74yy82u",
-      templateParams,
-      "W6oyvSvHsLD85n4A3"
-    );
-
-    console.log("User Email Sent:", userRes.status, userRes.text);
+    if (!res.ok || !data.ok) {
+      throw new Error(data.error || "Email sending failed");
+    }
 
     setSuccess(true);
     setForm({
@@ -66,13 +52,11 @@ const handleSubmit = async (e) => {
     });
 
   } catch (error) {
-    console.error("Email Error Status:", error?.status);
-    console.error("Email Error Text:", error?.text);
-    console.error("Raw Error:", error);
+    console.error("Contact form error:", error);
     alert("Email sending failed. Please try later.");
+  } finally {
+    setLoadingSubmit(false);
   }
-
-  setLoadingSubmit(false);
 };
   const t = (path) => {
     try {

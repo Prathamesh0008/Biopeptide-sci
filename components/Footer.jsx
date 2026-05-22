@@ -126,23 +126,6 @@ const [subscribing, setSubscribing] = useState(false);
       "
     />
 
-<<<<<<< HEAD
-        <button
-          className="
-            px-6 py-3
-            text-sm font-semibold
-            text-white
-            rounded-md
-             bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
-            hover:brightness-110
-            transition
-            whitespace-nowrap cursor-pointer
-          "
-        >
-          {t("newsletter.button")}
-        </button>
-      </div>
-=======
     <button
       type="submit"
       disabled={subscribing}
@@ -173,7 +156,6 @@ const [subscribing, setSubscribing] = useState(false);
     </p>
   )}
 </form>
->>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
     </div>
   </div>
 </div>
@@ -193,11 +175,7 @@ const [subscribing, setSubscribing] = useState(false);
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" aria-label="Go to homepage">
               <Image
-<<<<<<< HEAD
                 src="/images/Biologofull.png"
-=======
-                src="/images/Final1.png"
->>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
                 alt="BioPeptide Logo"
                 width={240}
                 height={64}

@@ -73,11 +73,7 @@ export default function BundleSavePage() {
     
 
       {/* DRAWER BUTTON */}
-<<<<<<< HEAD
-        <button
-=======
         {/* <button
->>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
         onClick={() => setDrawerOpen(true)}
         className="
           fixed right-0 top-1/2 -translate-y-1/2 z-50

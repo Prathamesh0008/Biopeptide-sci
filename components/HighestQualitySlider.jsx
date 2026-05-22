@@ -221,19 +221,10 @@ export default function HighestQualitySlider({ active, onChange }) {
               onClick={() => onChange(cat)}
               className={`
                 whitespace-nowrap px-5 py-2 rounded-xl text-sm font-semibold
-<<<<<<< HEAD
                 border transition cursor-pointer
                 ${isActive
                   ? "bg-gray-900 text-white border-gray-900"
                   : "bg-white text-gray-700 border-gray-300 hover:border-gray-500"}
-=======
-                border transition
-                ${
-                  isActive
-                    ? "bg-gray-900 text-white border-gray-900"
-                    : "bg-white text-gray-700 border-gray-300 hover:border-gray-500"
-                }
->>>>>>> dde900b908d570418087d0752ad16a5a2fc9fd18
               `}
             >
               {translations?.peptides?.categories?.[cat]?.title || cat}
