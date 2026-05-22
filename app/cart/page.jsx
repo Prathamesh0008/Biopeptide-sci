@@ -1,4 +1,4 @@
-// peptides/app/cart/page.jsx
+﻿// peptides/app/cart/page.jsx
 "use client";
 
 import Image from "next/image";
@@ -11,7 +11,7 @@ import Breadcrumbs from "../../components/Breadcrumbs";
 import { useLanguage } from "@/contexts/LanguageContext";
 import DrawerProducts from "@/components/DrawerProducts";
 
-/* ✅ cart key per user */
+/* âœ… cart key per user */
 const getCartKey = (user) => {
   if (!user) return "guest-cart";
   return `bio-cart-${user.email}`;
@@ -37,7 +37,7 @@ export default function CartPage() {
       translations?.cartPage || {}
     );
 
-  /* ✅ load cart for logged-in user */
+  /* âœ… load cart for logged-in user */
   useEffect(() => {
     const storedUser = localStorage.getItem("bio-user");
 
@@ -49,7 +49,7 @@ export default function CartPage() {
 
   }, [router]);
 
-  /* ✅ update quantity */
+  /* âœ… update quantity */
   const updateQty = (id, qty) => {
     const updated = cart.map((item) =>
       item.id === id ? { ...item, qty: Number(qty) } : item
@@ -62,7 +62,7 @@ export default function CartPage() {
     localStorage.setItem(cartKey, JSON.stringify(updated));
   };
 
-  /* ✅ remove item */
+  /* âœ… remove item */
   const removeItem = (id) => {
     const updated = cart.filter((item) => item.id !== id);
     setCart(updated);
@@ -151,7 +151,7 @@ export default function CartPage() {
                             }
                             className="w-9 h-9 cursor-pointer flex items-center justify-center text-lg font-medium text-gray-700 hover:bg-gray-100 transition"
                           >
-                            −
+                            âˆ’
                           </button>
 
                           {/* VALUE */}
@@ -224,7 +224,7 @@ export default function CartPage() {
                   if (!cart.length) return alert("Cart is empty");
                   router.push("/checkout");
                 }}
-                className="w-full cursor-pointer py-3 rounded-full text-white bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]"
+                className="w-full py-3 rounded-full text-white bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]"
               >
                 {t("checkout")}
               </button>

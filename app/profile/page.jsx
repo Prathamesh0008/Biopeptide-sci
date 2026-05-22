@@ -1,4 +1,4 @@
-
+﻿
 //app\profile\page.jsx
 "use client";
 
@@ -105,7 +105,7 @@ const t = (key) =>
 
   localStorage.removeItem("bio-user");
 
-  // 🔥 notify Navbar
+  // ðŸ”¥ notify Navbar
   window.dispatchEvent(new Event("bio-user-updated"));
 
   router.push("/");
@@ -155,9 +155,9 @@ const hasAddress =
 
     <div className="grid lg:grid-cols-4 gap-8">
 
-      {/* LEFT – PROFILE CARD */}
+      {/* LEFT â€“ PROFILE CARD */}
       <div className="lg:col-span-1 bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
-  rounded-xl shadow-xl p-6 text-white relative overflow-hidden">
+  rounded-3xl shadow-xl p-6 text-white relative overflow-hidden">
 
   {/* glow */}
   <div className="absolute inset-0 bg-white/10 blur-2xl" />
@@ -174,7 +174,7 @@ const hasAddress =
     <p className="text-sm opacity-90">{user.email}</p>
 
     <div className="mt-6 w-full space-y-3 text-sm">
-      {/* <ProfileRowDark label={t("labels.phone")} value={user.phone || "—"} /> */}
+      {/* <ProfileRowDark label={t("labels.phone")} value={user.phone || "â€”"} /> */}
 {/* <ProfileRowDark label={t("labels.role")} value={user.role || t("customer")} /> */}
 <ProfileRowDark
   label={t("labels.joined")}
@@ -198,7 +198,7 @@ const hasAddress =
 </div>
 
 
-      {/* RIGHT – CONTENT */}
+      {/* RIGHT â€“ CONTENT */}
       <div className="lg:col-span-3 space-y-8">
 {/* USER INFORMATION */}
 {hasUserInfo && (
@@ -374,18 +374,6 @@ function formatDate(value) {
 
   return date.toLocaleDateString();
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

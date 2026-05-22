@@ -1,4 +1,4 @@
-// //components\AllPeptidesCategorySlider.jsx
+﻿// //components\AllPeptidesCategorySlider.jsx
 // "use client";
 
 // import { useMemo, useRef } from "react";
@@ -8,7 +8,7 @@
 // export default function AllPeptidesCategorySlider({
 //   active,
 //   onChange,
-//   mode = "all", // 👈 NEW PROP
+//   mode = "all", // ðŸ‘ˆ NEW PROP
 // }) {
 //   const { translations } = useLanguage();
 
@@ -17,7 +17,7 @@
 //   const startX = useRef(0);
 //   const scrollLeft = useRef(0);
 
-//   // ✅ CATEGORY LOGIC
+//   // âœ… CATEGORY LOGIC
 //   const categories = useMemo(() => {
 //     const unique = Array.from(
 //       new Set(PRODUCTS.map((p) => p.category))
@@ -37,19 +37,19 @@
 //       unique.includes(c)
 //     );
 
-//     // 🔥 IMPORTANT LOGIC
+//     // ðŸ”¥ IMPORTANT LOGIC
 //   if (mode === "all") {
 //   finalCategories = finalCategories.filter(
 //     (c) =>
 //       c !== "Peptide Capsules" && // your existing removal
-//       c !== "Popular Peptides"    // 👈 ADD THIS LINE
+//       c !== "Popular Peptides"    // ðŸ‘ˆ ADD THIS LINE
 //   );
 
 //  return finalCategories;
 // }
 
 //     if (mode === "popular") {
-//       // ❌ remove "All"
+//       // âŒ remove "All"
 //       return finalCategories;
 //     }
 

@@ -1,4 +1,4 @@
-//peptides\components\Footer.jsx
+﻿//peptides\components\Footer.jsx
 "use client";
 
 import { useState } from "react";
@@ -126,36 +126,22 @@ const [subscribing, setSubscribing] = useState(false);
       "
     />
 
-    <button
-      type="submit"
-      disabled={subscribing}
-      className="
-        px-6 py-3
-        text-sm font-semibold
-        text-white
-        rounded-md
-        bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
-        hover:brightness-110
-        transition
-        whitespace-nowrap cursor-pointer
-        disabled:opacity-60
-        disabled:cursor-not-allowed
-      "
-    >
-      {subscribing ? "Subscribing..." : t("newsletter.button") || "Subscribe"}
-    </button>
-  </div>
-
-  {newsletterMessage && (
-    <p
-      className={`mt-3 text-sm ${
-        newsletterStatus === "success" ? "text-green-600" : "text-red-600"
-      }`}
-    >
-      {newsletterMessage}
-    </p>
-  )}
-</form>
+        <button
+          className="
+            px-6 py-3
+            text-sm font-semibold
+            text-white
+            rounded-md
+             bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]
+            hover:brightness-110
+            transition
+            whitespace-nowrap cursor-pointer
+          "
+        >
+          {t("newsletter.button")}
+        </button>
+      </div>
+    </form>
     </div>
   </div>
 </div>
@@ -276,13 +262,13 @@ const [subscribing, setSubscribing] = useState(false);
                   <p className="text-xs text-gray-500">{t("contact.hours")}</p>
                 </ContactRow> */}
 
-                {/* ✅ EMAIL (ADDED BACK) */}
+                {/* âœ… EMAIL (ADDED BACK) */}
                 <ContactRow icon={<FaEnvelope />} title={t("contact.emailLabel")}>
                   <p>info@bio-peptides.com</p>
                 </ContactRow>
 
                 {/* <ContactRow icon={<FaTruck />} title={t("contact.shippingLabel")}>
-                  <p>Mon–Fri (Except Holidays)</p>
+                  <p>Monâ€“Fri (Except Holidays)</p>
                 </ContactRow> */}
 
                 {/* <ContactRow icon={<FaMapMarkerAlt />} title={t("contact.addressLabel")}>

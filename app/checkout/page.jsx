@@ -1,4 +1,4 @@
-
+﻿
 //app\checkout\page.jsx
 "use client";
 
@@ -60,7 +60,7 @@ useEffect(() => {
     return;
   }
 
-  // 🔹 FETCH PREVIOUS ADDRESS FROM DATABASE
+  // ðŸ”¹ FETCH PREVIOUS ADDRESS FROM DATABASE
   if (user?._id) {
     fetch(`/api/address/get?userId=${user._id}`)
       .then((res) => res.json())
@@ -87,7 +87,7 @@ const isValidPhone = (phone) => /^[0-9]{10}$/.test(phone);
 const isValidPincode = (pin) => /^[0-9]{6}$/.test(pin);
 
  const goToPayment = async () => {
-  // ✅ checkoutId logic HERE
+  // âœ… checkoutId logic HERE
   const checkoutId =
     localStorage.getItem("bio-checkout-id") || crypto.randomUUID();
 
@@ -166,7 +166,7 @@ await fetch("/api/address/save", {
 
       <div className="grid lg:grid-cols-3 gap-8">
 
-        {/* LEFT – FORM */}
+        {/* LEFT â€“ FORM */}
         <div className="lg:col-span-2 bg-white rounded-2xl shadow p-6 sm:p-8">
           <h2 className="text-xl font-semibold mb-6">
             {t("shippingInfo")}
@@ -361,14 +361,14 @@ await fetch("/api/address/save", {
           </div>
         </div>
 
-        {/* RIGHT – SUMMARY */}
+        {/* RIGHT â€“ SUMMARY */}
         <div className="bg-white rounded-2xl shadow p-6 h-fit">
           <h3 className="font-semibold mb-4">{t("summary.title")}</h3>
 
           <div className="space-y-2 text-sm">
             {cart.map((item) => (
               <div key={item.id} className="flex justify-between">
-                <span>{item.name} × {item.qty}</span>
+                <span>{item.name} Ã— {item.qty}</span>
                 <span>${(item.price * item.qty).toFixed(2)}</span>
               </div>
             ))}
@@ -384,7 +384,7 @@ await fetch("/api/address/save", {
           <button
             onClick={goToPayment}
             className="mt-6 w-full py-3 rounded-full font-semibold text-white
-             bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7] cursor-pointer"
+             bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]"
           >
             {t("continue")}
 
@@ -403,9 +403,9 @@ await fetch("/api/address/save", {
         <p className="text-sm text-gray-600 leading-relaxed">
           {addr.fullName}<br />
           {addr.house}, {addr.area}<br />
-          {addr.city}, {addr.state} – {addr.pincode}<br />
+          {addr.city}, {addr.state} â€“ {addr.pincode}<br />
           {addr.country}<br />
-          📞 {addr.phone}
+          ðŸ“ž {addr.phone}
         </p>
 
         <button

@@ -1,4 +1,4 @@
-// peptides/components/CartDrawer.jsx
+﻿// peptides/components/CartDrawer.jsx
 "use client";
 
 import Image from "next/image";
@@ -15,19 +15,19 @@ export default function CartDrawer() {
 
   
 
-  /* 🔑 cart key */
+  /* ðŸ”‘ cart key */
   const getCartKey = () => {
     const user = JSON.parse(localStorage.getItem("bio-user") || "null");
     return user ? `bio-cart-${user.email}` : "guest-cart";
   };
 
-  /* 🔄 load cart */
+  /* ðŸ”„ load cart */
   const loadCart = () => {
     const key = getCartKey();
     setCart(JSON.parse(localStorage.getItem(key) || "[]"));
   };
 
-  /* ➕➖ qty */
+  /* âž•âž– qty */
   const updateQty = (id, qty) => {
     const key = getCartKey();
     const updated = cart.map((item) =>
@@ -37,7 +37,7 @@ export default function CartDrawer() {
     localStorage.setItem(key, JSON.stringify(updated));
   };
 
-  /* ❌ remove */
+  /* âŒ remove */
   const removeItem = (id) => {
     const key = getCartKey();
     const updated = cart.filter((i) => i.id !== id);
@@ -45,7 +45,7 @@ export default function CartDrawer() {
     localStorage.setItem(key, JSON.stringify(updated));
   };
 
-  /* 🔔 open on add */
+  /* ðŸ”” open on add */
   useEffect(() => {
     const openDrawer = () => {
       loadCart();
@@ -101,7 +101,7 @@ const hasFreeShipping = subtotal >= FREE_SHIPPING_LIMIT;
             onClick={() => setOpen(false)}
             className="text-sm text-bioBlue font-semibold cursor-pointer"
           >
-            Continue shopping →
+            Continue shopping â†’
           </button>
         </div>
 
@@ -139,7 +139,7 @@ const hasFreeShipping = subtotal >= FREE_SHIPPING_LIMIT;
 
   {hasFreeShipping ? (
     <p className="text-xs text-center mt-2 text-bioGreen font-semibold">
-      ✓ FREE Shipping
+      âœ“ FREE Shipping
     </p>
   ) : (
     <p className="text-xs text-center mt-2 text-gray-600">
@@ -180,7 +180,7 @@ const hasFreeShipping = subtotal >= FREE_SHIPPING_LIMIT;
                     onClick={() => updateQty(item.id, item.qty - 1)}
                     className="w-8 h-8 border rounded text-lg cursor-pointer"
                   >
-                    −
+                    âˆ’
                   </button>
                   <span className="w-8 text-center font-medium">
                     {item.qty}
@@ -221,7 +221,7 @@ const hasFreeShipping = subtotal >= FREE_SHIPPING_LIMIT;
               setOpen(false);
               router.push("/checkout");
             }}
-            className="w-full py-4 cursor-pointer rounded-full text-white text-lg font-bold bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]"
+            className="w-full py-4 rounded-full text-white text-lg font-bold bg-gradient-to-r from-[#52c3c6] via-[#0a79a8] to-[#0978a7]"
           >
             Checkout
           </button>

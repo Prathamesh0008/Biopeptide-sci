@@ -1,4 +1,4 @@
-// peptides/app/bundle-save/page.jsx
+﻿// peptides/app/bundle-save/page.jsx
 "use client";
 
 import Sidebar from "@/components/Sidebar";
@@ -24,11 +24,11 @@ export default function BundleSavePage() {
   const [activeCategory, setActiveCategory] = useState("All");
   const [drawerOpen, setDrawerOpen] = useState(false);
 
-  // 🔹 normalize helper
+  // ðŸ”¹ normalize helper
   const normalize = str =>
     str?.toLowerCase().replace(/[\s-]/g, "");
 
-  // 🔹 resolve bundles
+  // ðŸ”¹ resolve bundles
   const resolvedBundles = BUNDLES.map(bundle => ({
     ...bundle,
     products: products.filter((p) =>
@@ -36,11 +36,11 @@ export default function BundleSavePage() {
     ),
   }));
 
-  // 🔹 bundles ONLY for "All"
+  // ðŸ”¹ bundles ONLY for "All"
   const filteredBundles =
     activeCategory === "All" ? resolvedBundles : [];
 
-  // 🔹 products ONLY for category (NOT All)
+  // ðŸ”¹ products ONLY for category (NOT All)
   const filteredProducts =
     activeCategory === "All"
       ? []
@@ -73,7 +73,7 @@ export default function BundleSavePage() {
     
 
       {/* DRAWER BUTTON */}
-        {/* <button
+        <button
         onClick={() => setDrawerOpen(true)}
         className="
           fixed right-0 top-1/2 -translate-y-1/2 z-50
@@ -92,7 +92,7 @@ export default function BundleSavePage() {
         >
           Product List
         </span>
-      </button> */}
+      </button>
 
       {/* DRAWER (PAGE LEVEL ONLY) */}
       <DrawerProducts open={drawerOpen} setOpen={setDrawerOpen} />
@@ -162,7 +162,7 @@ export default function BundleSavePage() {
               </p>
             )}
 
-            {/* 🔹 BUNDLES (ONLY WHEN ALL) */}
+            {/* ðŸ”¹ BUNDLES (ONLY WHEN ALL) */}
             {activeCategory === "All" && (
               <div className="
   grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4
@@ -247,7 +247,7 @@ export default function BundleSavePage() {
               </div>
             )}
 
-            {/* 🔹 PRODUCTS (ONLY WHEN CATEGORY SELECTED) */}
+            {/* ðŸ”¹ PRODUCTS (ONLY WHEN CATEGORY SELECTED) */}
             {activeCategory !== "All" && (
              <div className="
   grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4

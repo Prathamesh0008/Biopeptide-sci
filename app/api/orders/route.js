@@ -1,3 +1,21 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //peptides\app\api\orders\route.js
 import dbConnect from "@/lib/dbConnect";
 import Order from "@/models/Order";
@@ -97,7 +115,7 @@ export async function POST(req) {
     await dbConnect();
 
     /* ---------------- AUTH ---------------- */
-    const cookieStore = await cookies(); // ✅ FIXED
+    const cookieStore = await cookies(); // âœ… FIXED
     const token = cookieStore.get("auth")?.value;
 
     if (!token) {
