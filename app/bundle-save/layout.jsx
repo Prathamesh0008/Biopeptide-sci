@@ -1,9 +1,14 @@
 // app/bundle-save/layout.jsx
 
+import { PageJsonLd, createPageSchema } from "@/lib/pageSchema";
+
+const title = "Research Peptide Bundle Deals USA | High-Purity Peptides";
+const description =
+  "Discover research peptide bundle deals in the USA. High-purity peptide combinations supplied for laboratory research and scientific development.";
+
 export const metadata = {
-  title: "Research Peptide Bundle Deals USA | High-Purity Peptides",
-  description:
-    "Discover research peptide bundle deals in the USA. High-purity peptide combinations supplied for laboratory research and scientific development.",
+  title,
+  description,
 
   keywords: [
     "research peptide bundles",
@@ -22,9 +27,8 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Research Peptide Bundle Deals USA | High-Purity Peptides",
-    description:
-      "Discover research peptide bundle deals in the USA. High-purity peptide combinations supplied for laboratory research and scientific development.",
+    title,
+    description,
     url: "https://www.bio-peptides.com/bundle-save",
     siteName: "BioPeptide",
     images: [
@@ -41,13 +45,25 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Research Peptide Bundle Deals USA | High-Purity Peptides",
-    description:
-      "Discover research peptide bundle deals in the USA. High-purity peptide combinations supplied for laboratory research and scientific development.",
+    title,
+    description,
     images: ["https://www.bio-peptides.com/Biologofull.png"],
   },
 };
 
 export default function BundleSaveLayout({ children }) {
-  return <>{children}</>;
+  const schema = createPageSchema({
+    path: "/bundle-save",
+    name: title,
+    description,
+    breadcrumbName: "Bundle Deals",
+    pageType: "CollectionPage",
+  });
+
+  return (
+    <>
+      <PageJsonLd data={schema} />
+      {children}
+    </>
+  );
 }

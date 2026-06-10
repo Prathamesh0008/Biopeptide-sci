@@ -88,6 +88,10 @@ export default function AllPeptidesPage() {
           </aside>
 
           <div className="lg:col-span-3">
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              U.S. Research Peptides Supplier for Scientific R&amp;D
+            </h1>
+
             <AllPeptidesCategorySlider
               active={activeCategory}
               onChange={setActiveCategory}

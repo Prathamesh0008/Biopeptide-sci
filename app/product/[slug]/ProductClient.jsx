@@ -3,13 +3,14 @@
 
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { getImageVersion, getSafeImageUrl } from "@/utils/imageUrl";
 
 const normalizeLanguage = (lang) => {
   const allowed = [
@@ -89,6 +90,11 @@ const formatChemicalFormula = (formula = "") => {
     });
 };
 
+const getOpenImageUrl = (src = "") =>
+  String(src)
+    .replace(/,?fl_attachment(?=[,/]|$)/g, "")
+    .replace(/\/fl_attachment(?=[,/]|$)/g, "/");
+
 export default function ProductClient({ product }) {
   const router = useRouter();
 const { language, translations } = useLanguage();
@@ -98,6 +104,14 @@ const { language, translations } = useLanguage();
   const [qty, setQty] = useState(1);
 
   const currentLanguage = normalizeLanguage(language);
+  const productImageVersion = useMemo(
+    () => getImageVersion(product),
+    [product?.slug, product?.updatedAt, product?._id, product?.id]
+  );
+  const productImageSrc = useMemo(
+    () => getSafeImageUrl(product?.image, { version: productImageVersion }),
+    [product?.image, productImageVersion]
+  );
   const isRTL = currentLanguage === "ar";
 
   const englishProduct = product?.translations?.en || {};
@@ -173,14 +187,20 @@ const { language, translations } = useLanguage();
 
     return (
       <div className="my-4">
-        <div className="relative w-full max-w-2xl mx-auto h-[380px] lg:h-[460px]">
+        <a
+          href={getOpenImageUrl(img)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="relative block w-full max-w-2xl mx-auto h-[380px] lg:h-[460px]"
+        >
           <Image
-            src={img}
+            src={getSafeImageUrl(img, { version: productImageVersion })}
             alt={`${name} image ${index + 1}`}
             fill
-            className="object-contain "
+            className="object-contain"
+            unoptimized
           />
-        </div>
+        </a>
       </div>
     );
   };
@@ -228,15 +248,21 @@ const { language, translations } = useLanguage();
           <div className="grid grid-cols-1 lg:grid-cols-[390px_1fr_320px] gap-10 items-start">
             {/* LEFT IMAGE */}
             <div className="flex justify-center">
-              <div className="relative w-[390px] h-[390px] lg:w-[490px] lg:h-[490px]">
+              <a
+                href={getOpenImageUrl(product.image)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative block w-[390px] h-[390px] lg:w-[490px] lg:h-[490px]"
+              >
                 <Image
-                  src={product.image}
+                  src={productImageSrc}
                   alt={name}
                   fill
                   className="object-contain"
                   priority
+                  unoptimized
                 />
-              </div>
+              </a>
             </div>
 
             {/* MIDDLE INFO */}
@@ -595,9 +621,12 @@ const { language, translations } = useLanguage();
               {activeTab === "coa" && product.coaImages?.length > 0 && (
                 <div className="mt-8 flex flex-col gap-10 items-center">
                   {product.coaImages.map((img, index) => (
-                    <div
+                    <a
                       key={index}
-                      className="relative w-full max-w-4xl h-[750px] border rounded-lg overflow-hidden"
+                      href={getOpenImageUrl(img)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="relative block w-full max-w-4xl h-[750px] border rounded-lg overflow-hidden"
                     >
                       <Image
                         src={img}
@@ -605,7 +634,7 @@ const { language, translations } = useLanguage();
                         fill
                         className="object-contain"
                       />
-                    </div>
+                    </a>
                   ))}
                 </div>
               )}

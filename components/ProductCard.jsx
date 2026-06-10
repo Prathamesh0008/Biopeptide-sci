@@ -3,28 +3,24 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { getTranslatedProduct } from "@/utils/getTranslatedProduct";
 import Loader from "@/components/Loader";
+import { getImageVersion, getSafeImageUrl } from "@/utils/imageUrl";
 
 export default function ProductCard({ product, priority = false }) {
   const [imgLoaded, setImgLoaded] = useState(false);
 
-  const getSafeImage = (img) => {
-    if (!img || typeof img !== "string") {
-      return "/images/product.png";
-    }
-
-    const trimmed = img.trim();
-
-    if (trimmed.startsWith("http")) return trimmed;
-    if (trimmed.startsWith("/")) return trimmed;
-
-    return `/${trimmed}`;
-  };
-
   const { translations, loading } = useLanguage();
+  const imageVersion = useMemo(
+    () => getImageVersion(product),
+    [product?.slug, product?.updatedAt, product?._id, product?.id]
+  );
+  const imageSrc = useMemo(
+    () => getSafeImageUrl(product?.image, { version: imageVersion }),
+    [product?.image, imageVersion]
+  );
 
   if (loading) {
     return (
@@ -88,13 +84,14 @@ export default function ProductCard({ product, priority = false }) {
         )}
 
         <Image
-          src={getSafeImage(product.image)}
+          src={imageSrc}
           alt={product.name || "Product image"}
           fill
           className="object-contain scale-95"
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
           onLoad={() => setImgLoaded(true)}
           priority={priority}
+          unoptimized
         />
       </Link>
 

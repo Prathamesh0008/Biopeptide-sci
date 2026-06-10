@@ -1,10 +1,15 @@
 // app/contact/layout.jsx
 
-export const metadata = {
-  title: "Contact BioPeptide | Buy Peptides Online & Research Support",
+import { PageJsonLd, createPageSchema } from "@/lib/pageSchema";
 
-  description:
-    "Get in touch with BioPeptide for research peptide inquiries, product support, or ordering assistance. Buy peptides online with expert guidance.",
+const title = "Contact BioPeptide | Buy Peptides Online & Research Support";
+const description =
+  "Get in touch with BioPeptide for research peptide inquiries, product support, or ordering assistance. Buy peptides online with expert guidance.";
+
+export const metadata = {
+  title,
+
+  description,
 
   keywords: [
     "contact biopeptide",
@@ -22,9 +27,8 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Contact BioPeptide | Buy Peptides Online & Research Support",
-    description:
-      "Get in touch with BioPeptide for research peptide inquiries, product support, or ordering assistance. Buy peptides online with expert guidance.",
+    title,
+    description,
     url: "https://www.bio-peptides.com/contact",
     siteName: "BioPeptide",
     images: [
@@ -41,13 +45,25 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Contact BioPeptide | Buy Peptides Online & Research Support",
-    description:
-      "Get in touch with BioPeptide for research peptide inquiries, product support, or ordering assistance. Buy peptides online with expert guidance.",
+    title,
+    description,
     images: ["https://www.bio-peptides.com/Biologofull.png"],
   },
 };
 
 export default function ContactLayout({ children }) {
-  return <>{children}</>;
+  const schema = createPageSchema({
+    path: "/contact",
+    name: title,
+    description,
+    breadcrumbName: "Contact",
+    pageType: "ContactPage",
+  });
+
+  return (
+    <>
+      <PageJsonLd data={schema} />
+      {children}
+    </>
+  );
 }

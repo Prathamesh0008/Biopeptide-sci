@@ -1,10 +1,15 @@
 // app/about/layout.jsx
 
-export const metadata = {
-  title: "About BioPeptide Sci | USA Research Peptides Supplier",
+import { PageJsonLd, createPageSchema } from "@/lib/pageSchema";
 
-  description:
-    "BioPeptide provides high-purity research peptides, proteins, and amino acid derivatives. Buy peptides online with confidence, verified quality, and trusted manufacturing standards.",
+const title = "About BioPeptide Sci | USA Research Peptides Supplier";
+const description =
+  "BioPeptide provides high-purity research peptides, proteins, and amino acid derivatives. Buy peptides online with confidence, verified quality, and trusted manufacturing standards.";
+
+export const metadata = {
+  title,
+
+  description,
 
   keywords: [
     "about biopeptide sci",
@@ -23,9 +28,8 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "About BioPeptide Sci | USA Research Peptides Supplier",
-    description:
-      "BioPeptide provides high-purity research peptides, proteins, and amino acid derivatives. Buy peptides online with confidence, verified quality, and trusted manufacturing standards.",
+    title,
+    description,
     url: "https://www.bio-peptides.com/about",
     siteName: "BioPeptide",
     images: [
@@ -42,15 +46,27 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "About BioPeptide Sci | USA Research Peptides Supplier",
-    description:
-      "BioPeptide provides high-purity research peptides, proteins, and amino acid derivatives. Buy peptides online with confidence, verified quality, and trusted manufacturing standards.",
+    title,
+    description,
     images: ["https://www.bio-peptides.com/Biologofull.png"],
   },
 };
 
 export default function AboutLayout({ children }) {
-  return <>{children}</>;
+  const schema = createPageSchema({
+    path: "/about",
+    name: title,
+    description,
+    breadcrumbName: "About",
+    pageType: "AboutPage",
+  });
+
+  return (
+    <>
+      <PageJsonLd data={schema} />
+      {children}
+    </>
+  );
 }
 
 

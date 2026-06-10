@@ -166,9 +166,12 @@ export async function generateMetadata({ params }) {
 
   if (!product) return {};
 
+  const canonical = product.seo?.canonical || `${SITE_URL}/product/${slug}`;
+  const description = getProductDescription(product);
+
   return {
     title: product.seo?.title || product.name,
-    description: product.seo?.description,
+    description,
     keywords: product.seo?.keywords,
     robots: {
       index: true,
@@ -187,15 +190,13 @@ export async function generateMetadata({ params }) {
         "max-snippet": -1,
       },
     },
-    alternates: product.seo?.canonical
-      ? {
-          canonical: product.seo.canonical,
-        }
-      : undefined,
+    alternates: {
+      canonical,
+    },
     openGraph: {
       title: product.seo?.title || product.name,
-      description: product.seo?.description,
-      url: product.seo?.canonical,
+      description,
+      url: canonical,
       images: product.image
         ? [
             {

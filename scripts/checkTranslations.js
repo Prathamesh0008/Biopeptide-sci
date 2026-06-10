@@ -1,3 +1,4 @@
+//scripts\checkTranslations.js
 import { PRODUCTS } from "../data/products.js";
 import languages from "../data2/languages/index.js";
 

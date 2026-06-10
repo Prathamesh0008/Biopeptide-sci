@@ -1,12 +1,17 @@
 // app/peptide-research/layout.jsx
 
+import { PageJsonLd, createPageSchema } from "@/lib/pageSchema";
+
+const title = "Peptide Research & Scientific Development | USA - BioPeptide";
+const description =
+  "BioPeptide Sci specializes in peptide research compounds for scientific research. USA-focused supply of high-purity peptides for laboratory development.";
+
 export const metadata = {
   metadataBase: new URL("https://www.bio-peptides.com"),
 
-  title: "Peptide Research & Scientific Development | USA – BioPeptide",
+  title,
 
-  description:
-    "BioPeptide Sci specializes in peptide research compounds for scientific research. USA-focused supply of high-purity peptides for laboratory development.",
+  description,
 
   keywords: [
     "peptide research",
@@ -25,9 +30,8 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Peptide Research & Scientific Development | USA – BioPeptide",
-    description:
-      "BioPeptide Sci specializes in peptide research compounds for scientific research. USA-focused supply of high-purity peptides for laboratory development.",
+    title,
+    description,
     url: "/peptide-research",
     siteName: "BioPeptide",
     images: [
@@ -44,13 +48,25 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Peptide Research & Scientific Development | USA – BioPeptide",
-    description:
-      "BioPeptide Sci specializes in peptide research compounds for scientific research. USA-focused supply of high-purity peptides for laboratory development.",
+    title,
+    description,
     images: ["/Biologofull.png"],
   },
 };
 
 export default function PeptideResearchLayout({ children }) {
-  return <>{children}</>;
+  const schema = createPageSchema({
+    path: "/peptide-research",
+    name: title,
+    description,
+    breadcrumbName: "Peptide Research",
+    pageType: "WebPage",
+  });
+
+  return (
+    <>
+      <PageJsonLd data={schema} />
+      {children}
+    </>
+  );
 }
