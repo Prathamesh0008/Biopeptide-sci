@@ -313,11 +313,12 @@ const handleNavigate = (href) => {
     className="flex items-center h-16 w-auto cursor-pointer"
   >
     <Image
-      src="/images/Biologofull.png"
+      src="/images/Final.png"
       alt="BioPeptide Logo"
       width={420}
       height={140}
       priority
+      unoptimized
       className="object-contain h-12 sm:h-12 w-auto"
     />
   </Link>
