@@ -2078,7 +2078,7 @@ descriptionImages: [
 },
 
   canonical:
-    "https://www.bio-peptides.com/product/cjc1295-ipamorelin-ghrp-2-bled"
+    "https://www.bio-peptides.com/product/cjc1295-ipamorelin-ghrp-2-blend"
 }
 
 
@@ -3265,7 +3265,7 @@ seo: {
 },
 
   canonical:
-    "https://www.bio-peptides.com/product/ghk-cu-copper-tripeptide"
+    "https://www.bio-peptides.com/product/ghk-cu-copper-peptide-topical-500mg"
 }
 
 },
@@ -6705,7 +6705,7 @@ descriptionImages: [
 },
 
   canonical:
-    "https://www.bio-peptides.com/product/mots-c-5mg"
+    "https://www.bio-peptides.com/product/mots-c-10mg"
 }
 
 },
@@ -7084,7 +7084,7 @@ descriptionImages: [
 },
 
   canonical:
-    "https://www.bio-peptides.com/product/nad-plus-175mg"
+    "https://www.bio-peptides.com/product/nad-plus-750mg"
 }
 
 },
