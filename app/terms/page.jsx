@@ -30,7 +30,7 @@ export default function TermsPage() {
         {/* HEADER */}
         <section className="border-b border-gray-200 bg-gradient-to-b from-[#f6fdfc] to-white">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8 sm:py-12 lg:py-16">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-gray-900">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">
               {t.hero.title}
             </h1>
             <p className="mt-4 text-gray-600 max-w-3xl">
