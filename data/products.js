@@ -8271,8 +8271,8 @@ descriptionImages: [
   maxVideoPreview: -1
 },
 
-  canonical:
-    "https://www.bio-peptides.com/product/pt-141-3mg-x-10-vials"
+  canonical: 
+  "https://www.bio-peptides.com/product/pt-141-10mg",
 }
 
 },
