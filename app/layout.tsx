@@ -57,42 +57,56 @@ export const metadata = {
     canonical: "https://www.bio-peptides.com/",
   },
 
-openGraph: {
-  title: "Buy Research Peptides Online | Peptides Supplier by BioPeptide",
-  description:
-    "Buy research peptides online in the USA. BioPeptide Sci offers high-purity bioactive peptides, peptide blends & research compounds for laboratory use.",
-  url: "https://www.bio-peptides.com/",
-  siteName: "BioPeptide",
-  images: [
-    {
-      url: "/images/Biologofull.png", // ✅ FIXED - using relative path
-      width: 1200,
-      height: 630,
-      alt: "BioPeptide Research Peptide Supplier",
-    },
-  ],
-  locale: "en_US",
-  type: "website",
-},
+  openGraph: {
+    title: "Buy Research Peptides Online | Peptides Supplier by BioPeptide",
+    description:
+      "Buy research peptides online in the USA. BioPeptide Sci offers high-purity bioactive peptides, peptide blends & research compounds for laboratory use.",
+    url: "https://www.bio-peptides.com/",
+    siteName: "BioPeptide",
+    images: [
+      {
+        url: "/images/Biologofull.png",
+        width: 1200,
+        height: 630,
+        alt: "BioPeptide Research Peptide Supplier",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 
-twitter: {
-  card: "summary_large_image",
-  title: "Buy Research Peptides Online | Peptides Supplier by BioPeptide",
-  description:
-    "Buy research peptides online in the USA. High-purity bioactive peptides and research compounds by BioPeptide Sci.",
-  images: ["/images/Biologofull.png"], // ✅ FIXED - using relative path
-},
+  twitter: {
+    card: "summary_large_image",
+    title: "Buy Research Peptides Online | Peptides Supplier by BioPeptide",
+    description:
+      "Buy research peptides online in the USA. High-purity bioactive peptides and research compounds by BioPeptide Sci.",
+    images: ["/images/Biologofull.png"],
+  },
 
   icons: {
     icon: [
       { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-      { url: "/android-chrome-192x192.png", sizes: "192x192", type: "image/png" },
-      { url: "/android-chrome-512x512.png", sizes: "512x512", type: "image/png" },
+      {
+        url: "/android-chrome-192x192.png",
+        sizes: "192x192",
+        type: "image/png",
+      },
+      {
+        url: "/android-chrome-512x512.png",
+        sizes: "512x512",
+        type: "image/png",
+      },
     ],
     shortcut: "/favicon-32x32.png",
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+    apple: [
+      {
+        url: "/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
   },
 };
 
@@ -102,7 +116,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
-
         {/* Robots tags for all pages */}
         <meta
           name="robots"
@@ -125,17 +138,35 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           content="wORs3YhUeZvaUDVaOAfYk_yxtVLr8_6PHDZGo-dH4q4"
         />
 
+        {/* ================= MICROSOFT CLARITY ================= */}
+
+        <Script id="microsoft-clarity" strategy="afterInteractive">
+          {`
+            (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);
+              t.async=1;
+              t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+              y=l.getElementsByTagName(r)[0];
+              y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "x5837tt5k9");
+          `}
+        </Script>
+
         {/* ================= GOOGLE TAG MANAGER ================= */}
 
         <Script id="gtm-head" strategy="afterInteractive">
           {`
-          (function(w,d,s,l,i){w[l]=w[l]||[];
-          w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
-          var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-          j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-          f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','GTM-W3WRFH2K');
+            (function(w,d,s,l,i){
+              w[l]=w[l]||[];
+              w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+              var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),
+              dl=l!='dataLayer'?'&l='+l:'';
+              j.async=true;
+              j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+              f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-W3WRFH2K');
           `}
         </Script>
 
@@ -148,22 +179,19 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
         <Script id="ga4-init" strategy="afterInteractive">
           {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-EGX0MJT9G4');
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-EGX0MJT9G4');
           `}
         </Script>
-
       </head>
 
       <body className={`${atkinsonMono.variable} text-gray-900 antialiased`}>
-
         {/* GTM noscript */}
-
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-W3WRFH2G"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-W3WRFH2K"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
@@ -171,7 +199,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         </noscript>
 
         <LanguageProvider>{children}</LanguageProvider>
-
       </body>
     </html>
   );
@@ -182,7 +209,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
 
 
-// // peptides/app/layout.tsx
+
+
+
+
+ // peptides/app/layout.tsx
 
 // import "./globals.css";
 // import type { ReactNode } from "react";
@@ -204,6 +235,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
 // export const metadata = {
 //   metadataBase: new URL("https://www.bio-peptides.com"),
+//   manifest: "/site.webmanifest",
 
 //   title: {
 //     default: "Buy Research Peptides Online | Peptides Supplier by BioPeptide",
@@ -247,7 +279,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 //   siteName: "BioPeptide",
 //   images: [
 //     {
-//       url: "https://www.bio-peptides.com/images/Biologofull.png", 
+//       url: "/images/Biologofull.png", // ✅ FIXED - using relative path
 //       width: 1200,
 //       height: 630,
 //       alt: "BioPeptide Research Peptide Supplier",
@@ -262,13 +294,20 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 //   title: "Buy Research Peptides Online | Peptides Supplier by BioPeptide",
 //   description:
 //     "Buy research peptides online in the USA. High-purity bioactive peptides and research compounds by BioPeptide Sci.",
-//   images: ["https://www.bio-peptides.com/images/Biologofull.png"], // ✅ FIXED
+//   images: ["/images/Biologofull.png"], // ✅ FIXED - using relative path
 // },
 
 //   icons: {
-//   icon: "/favicon.ico",
-//   apple: "/Biologofull.png",
-// },
+//     icon: [
+//       { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
+//       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+//       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+//       { url: "/android-chrome-192x192.png", sizes: "192x192", type: "image/png" },
+//       { url: "/android-chrome-512x512.png", sizes: "512x512", type: "image/png" },
+//     ],
+//     shortcut: "/favicon-32x32.png",
+//     apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+//   },
 // };
 
 // /* ===================== ROOT LAYOUT ===================== */
@@ -338,7 +377,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
 //         <noscript>
 //           <iframe
-//             src="https://www.googletagmanager.com/ns.html?id=GTM-W3WRFH2K"
+//             src="https://www.googletagmanager.com/ns.html?id=GTM-W3WRFH2G"
 //             height="0"
 //             width="0"
 //             style={{ display: "none", visibility: "hidden" }}
@@ -351,6 +390,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 //     </html>
 //   );
 // }
+
+
+
+
+
+
 
 
 
